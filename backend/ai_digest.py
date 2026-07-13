@@ -561,18 +561,39 @@ def write_digest(repo: Path, date_str: str, run_iso: str, grok: dict) -> Path:
 MODEL_KINDS = {"model", "update", "open_weights", "deprecation"}
 
 
+def load_model_history_seed(repo: Path) -> tuple[list, set[str]]:
+    """讀取經官方來源核對的歷史基線，避免即時視窗被誤當成完整時間軸。"""
+    path = repo / "backend" / "model_history_seed.json"
+    if not path.exists():
+        return [], set()
+    try:
+        doc = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise RuntimeError(f"invalid model history seed: {path}: {exc}") from exc
+    models = doc.get("models", [])
+    replace_ids = doc.get("replace_ids", [])
+    if not isinstance(models, list) or not isinstance(replace_ids, list):
+        raise RuntimeError(f"invalid model history seed schema: {path}")
+    return models, {str(mid).strip() for mid in replace_ids if str(mid).strip()}
+
+
 def update_model_tracker(repo: Path, run_iso: str, releases: list) -> int:
-    """把本輪 Grok 回報的 model_releases 併入累積式 models.json（以 model_id 去重）。
-    models.json 免費開放（追蹤器是拉新賣點，不上鎖）。"""
+    """合併官方核對歷史基線與本輪新發布，以 model_id 去重後寫入 models.json。
+
+    歷史基線解決「只看最近 N 小時」無法回填舊版本的結構性缺口；即時發布則持續
+    累積未來版本。models.json 免費開放（追蹤器是拉新賣點，不上鎖）。
+    """
     path = repo / "models.json"
     doc = load_public(path) if path.exists() else {"models": []}
     seeded_models = doc.get("models", []) or []
     if seeded_models and all(str(m.get("model_id", "")).startswith("sample-")
                              for m in seeded_models if isinstance(m, dict)):
         doc = {"models": []}
-    by_id = {m.get("model_id"): m for m in doc.get("models", []) if m.get("model_id")}
+    history_seed, replace_ids = load_model_history_seed(repo)
+    by_id = {m.get("model_id"): m for m in doc.get("models", [])
+             if m.get("model_id") and m.get("model_id") not in replace_ids}
     added = 0
-    for r in releases or []:
+    for r in [*history_seed, *(releases or [])]:
         if not isinstance(r, dict):
             continue
         name = (r.get("name") or "").strip()
@@ -594,7 +615,7 @@ def update_model_tracker(repo: Path, run_iso: str, releases: list) -> int:
             "note_en": (r.get("note_en") or "").strip(),
             "note_zh": (r.get("note_zh") or "").strip(),
             "link": link if link.startswith(("http://", "https://")) else "",
-            "recorded_at": run_iso,
+            "recorded_at": (r.get("recorded_at") or run_iso),
         }
         if mid in by_id:
             old = by_id[mid]
