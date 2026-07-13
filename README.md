@@ -12,6 +12,7 @@ links to original sources; see `legal/` for privacy policy and terms.
 - `index.json` — list of all days
 - `digests/YYYY-MM-DD.json` — one day of stories
 - `models.json` — model release tracker
+- `support.html` — bilingual support/contact/FAQ page used by App Store Connect
 - `backend/model_history_seed.json` — official-source-verified historical baseline merged on every run
 - `backend/` — generator (`ai_digest_webgrok.py` via logged-in Grok Web by default;
   `ai_digest.py` retains CLI/API fallback and owns the output schema/merge logic)

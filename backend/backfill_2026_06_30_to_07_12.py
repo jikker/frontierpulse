@@ -1,0 +1,231 @@
+#!/usr/bin/env python3
+"""Idempotent, source-linked history seed for FrontierPulse's first 14 days.
+
+The live collector only scans a short recent window.  This one-time backfill uses
+dated source links so a fresh install has a useful calendar and weekly archive.
+It deliberately calls the production writer to keep exactly the same schema.
+"""
+
+from pathlib import Path
+
+import ai_digest as digest
+
+
+def story(date, slug, category, source_type, title_en, title_zh, summary_en,
+          summary_zh, importance, label, url):
+    stamp = f"{date}T12:00:00+00:00"
+    return {
+        "id": f"{slug}-{date}",
+        "story_id": f"{slug}-{date}",
+        "category": category,
+        "source_type": source_type,
+        "title_en": title_en,
+        "title_zh": title_zh,
+        "summary_en": summary_en,
+        "summary_zh": summary_zh,
+        "importance": importance,
+        "first_seen": stamp,
+        "updated_at": stamp,
+        "links": [{"label": label, "url": url}],
+    }
+
+
+HISTORY = {
+    "2026-06-30": [
+        story("2026-06-30", "anthropic-sonnet-5", "anthropic", "official_x",
+              "Anthropic launches Claude Sonnet 5",
+              "Anthropic 推出 Claude Sonnet 5",
+              "Anthropic introduced Sonnet 5 as its most agentic Sonnet yet, with stronger planning, browser and terminal tool use, and more autonomous long-running work.",
+              "Anthropic 推出 Sonnet 5，定位為迄今最具代理能力的 Sonnet，強化規劃、瀏覽器與終端工具使用，以及長時間自主工作。",
+              5, "Claude on X", "https://x.com/claudeai/status/2072017450611142835"),
+        story("2026-06-30", "google-nano-banana-2-lite-omni-flash", "google", "official_x",
+              "Nano Banana 2 Lite and Gemini Omni Flash reach the Gemini API",
+              "Nano Banana 2 Lite 與 Gemini Omni Flash 登上 Gemini API",
+              "Google expanded Gemini's generative-media stack with a faster image model and an Omni Flash preview aimed at cost-efficient multimodal and video workflows.",
+              "Google 擴充 Gemini 生成媒體產品線，推出更快速的圖片模型與 Omni Flash 預覽，主打高性價比多模態與影片工作流程。",
+              4, "Google AI Studio update", "https://x.com/OfficialLoganK/status/2071988351083921690"),
+    ],
+    "2026-07-01": [
+        story("2026-07-01", "anthropic-fable-5-redeployment", "anthropic", "official_x",
+              "Claude Fable 5 returns globally with updated safeguards",
+              "Claude Fable 5 加入新版防護後恢復全球使用",
+              "Anthropic restored Fable 5 globally after the export-control pause and added classifiers intended to reduce cybersecurity misuse.",
+              "Anthropic 在出口管制暫停後恢復 Fable 5 全球使用，並加入降低資安濫用風險的新分類器。",
+              5, "Anthropic on X", "https://x.com/AnthropicAI/status/2072163884430229756"),
+        story("2026-07-01", "anthropic-fable-5-promo", "anthropic", "official_support",
+              "Anthropic opens promotional Fable 5 access",
+              "Anthropic 開放 Fable 5 推廣存取",
+              "Paid Claude plans received promotional Fable 5 access, with usage-policy details published in Anthropic's support center.",
+              "Claude 付費方案取得 Fable 5 推廣存取，Anthropic 並在支援中心公布用量政策細節。",
+              3, "Anthropic support", "https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access"),
+    ],
+    "2026-07-02": [
+        story("2026-07-02", "mythos-vulnerability-discovery", "anthropic", "research_commentary",
+              "AI-assisted vulnerability discovery scales sharply",
+              "AI 輔助漏洞發現規模明顯攀升",
+              "Industry analysis highlighted a sharp rise in high-severity vulnerabilities found with Mythos-era systems, raising both defensive opportunity and disclosure-capacity concerns.",
+              "產業分析指出 Mythos 世代系統協助發現的高嚴重度漏洞大增，同時帶來防禦效益與揭露處理量能壓力。",
+              4, "Research commentary", "https://x.com/emollick/status/2072778376494895139"),
+        story("2026-07-02", "perception-rubrics", "frontier_other", "research_paper",
+              "PerceptionRubrics targets human-aligned multimodal evaluation",
+              "PerceptionRubrics 推進貼近人類感知的多模態評測",
+              "The benchmark pairs 1,038 dense images with more than 12,000 instance-specific rubrics to expose brittleness hidden by aggregate multimodal scores.",
+              "這項基準以 1,038 張高資訊密度圖片搭配逾 12,000 條個別評分規則，揭露總體多模態分數掩蓋的脆弱性。",
+              3, "Hugging Face paper", "https://huggingface.co/papers/2606.28322"),
+    ],
+    "2026-07-03": [
+        story("2026-07-03", "openai-gpt-5-6-launch-watch", "openai", "industry_report",
+              "Reports point to a near-term GPT-5.6 rollout",
+              "產業消息指向 GPT-5.6 即將推出",
+              "Pre-launch reporting pointed to a July rollout for GPT-5.6 with expanded plan limits and stronger safeguards; the item was marked as a report, not an official release.",
+              "上市前消息指 GPT-5.6 將於 7 月推出，並可能提高方案用量與強化防護；此則明確標示為產業消息而非官方發布。",
+              2, "Industry report", "https://x.com/kimmonismus/status/2073104270459572630"),
+        story("2026-07-03", "harness-not-weights", "frontier_other", "research_demo",
+              "Harness optimization cuts legal-agent cost without changing weights",
+              "不改模型權重，優化執行框架即可大降法律代理成本",
+              "A Hugging Face demonstration reported a sevenfold cost reduction on a legal-reasoning benchmark by optimizing the runtime harness while freezing model weights.",
+              "Hugging Face 示範顯示，在凍結模型權重下只優化執行框架，法律推理基準的單題成本可降低約七倍。",
+              3, "Hugging Face discussion", "https://x.com/akshay_pachaar/status/2072961737008336937"),
+    ],
+    "2026-07-04": [
+        story("2026-07-04", "cve-severity-spike", "anthropic", "research_analysis",
+              "Researchers track a CVE-severity spike around Mythos Preview",
+              "研究者追蹤 Mythos Preview 前後的高嚴重度 CVE 增幅",
+              "Epoch AI data analysis examined how advanced coding models are changing vulnerability discovery volume and the operational burden on maintainers.",
+              "Epoch AI 資料分析檢視先進程式模型如何改變漏洞發現量，以及對維護者造成的處理負擔。",
+              4, "Epoch AI data insight", "https://epoch.ai/data-insights/cve-severity-spike"),
+        story("2026-07-04", "meta-samsung-mtia", "meta", "industry_report",
+              "Meta reportedly turns to Samsung's 2nm process for MTIA chips",
+              "消息稱 Meta 的 MTIA 晶片將採三星 2 奈米製程",
+              "Reports described a large foundry agreement for Meta's in-house AI accelerators, underscoring the lab's push to control more of its inference stack.",
+              "報導指 Meta 為自研 AI 加速器簽下大型晶圓代工合作，凸顯其提高推論技術棧自主性的策略。",
+              3, "Daily source digest", "https://www.ainewslog.com/blog/ai-daily-2026-07-04/"),
+    ],
+    "2026-07-05": [
+        story("2026-07-05", "groq-nvidia-partnership", "frontier_other", "industry_interview",
+              "Groq founder discusses a major NVIDIA partnership and inference strategy",
+              "Groq 創辦人談大型 NVIDIA 合作與推論策略",
+              "The interview covered a decade of accelerator development, GPU-versus-LPU tradeoffs, and how inference economics are reshaping AI infrastructure.",
+              "訪談回顧十年加速器研發、GPU 與 LPU 的取捨，以及推論經濟如何重塑 AI 基礎設施。",
+              3, "Founder interview", "https://x.com/davidsenra/status/2073768872688463983"),
+        story("2026-07-05", "anthropic-release-cadence", "anthropic", "industry_report",
+              "Anthropic signals a faster frontier-model release cadence",
+              "Anthropic 透露更快的前沿模型更新節奏",
+              "Discussion of Anthropic's roadmap suggested frontier upgrades every two to four months, reflecting the industry's shortening product cycles.",
+              "關於 Anthropic 路線圖的討論顯示，前沿能力可能每二至四個月更新一次，反映產業產品週期持續縮短。",
+              2, "Industry report", "https://x.com/kimmonismus/status/2073880514642251969"),
+    ],
+    "2026-07-06": [
+        story("2026-07-06", "gpt-5-6-cerebras", "openai", "industry_report",
+              "GPT-5.6 Sol deployment on Cerebras targets extreme inference speed",
+              "GPT-5.6 Sol 傳將部署 Cerebras，瞄準極高速推論",
+              "Pre-launch analysis described a Cerebras deployment targeting hundreds of tokens per second and a hardware-first serving design for the flagship model.",
+              "上市前分析描述 GPT-5.6 Sol 將採 Cerebras 部署，以每秒數百 token 與硬體優先的服務設計為目標。",
+              3, "Industry analysis", "https://x.com/kimmonismus/status/2074035567906426886"),
+        story("2026-07-06", "tencent-hy3", "frontier_other", "open_weights",
+              "Tencent Hy3 brings a 295B MoE model and a free API trial",
+              "騰訊 Hy3 推出 295B MoE 模型與免費 API 試用",
+              "Hy3 arrived as a commercially friendly mixture-of-experts release with open deployment options and a two-week API trial.",
+              "Hy3 以商用友善的混合專家模型形式推出，提供開放部署選項與兩週 API 試用。",
+              4, "Release discussion", "https://x.com/gneubig/status/2074152558700990470"),
+    ],
+    "2026-07-07": [
+        story("2026-07-07", "meta-muse-image", "meta", "official_x",
+              "Meta unveils the agentic Muse Image generator",
+              "Meta 發表具代理能力的 Muse Image 圖像生成器",
+              "Muse Image reasons over a request, can gather context, and plans before generation; Meta began rolling it into its AI consumer experiences.",
+              "Muse Image 會先理解需求、蒐集脈絡並規劃後再生成；Meta 開始把它導入旗下 AI 消費者體驗。",
+              5, "Alexandr Wang on X", "https://x.com/alexandr_wang/status/2074555909347369105"),
+        story("2026-07-07", "claude-cowork-mobile-web", "anthropic", "official_x",
+              "Claude Cowork expands to mobile and web beta",
+              "Claude Cowork 擴展至手機與網頁 Beta",
+              "Anthropic announced cross-device Cowork access so long-running tasks can start on desktop and be checked from a phone, beginning with Max users.",
+              "Anthropic 宣布 Cowork 跨裝置功能，讓長時間任務可從桌面啟動、再由手機查看，首波自 Max 用戶開始。",
+              4, "Claude on X", "https://x.com/claudeai/status/2074525815820169320"),
+    ],
+    "2026-07-08": [
+        story("2026-07-08", "openai-gpt-live", "openai", "official_x",
+              "OpenAI starts rolling out GPT-Live voice models",
+              "OpenAI 開始推出 GPT-Live 語音模型",
+              "GPT-Live introduced a new full-duplex voice experience in ChatGPT, emphasizing more natural turn-taking and audio interaction.",
+              "GPT-Live 為 ChatGPT 帶來新一代全雙工語音體驗，強調更自然的輪流對話與音訊互動。",
+              5, "OpenAI on X", "https://x.com/OpenAI/status/2074907025537224840"),
+        story("2026-07-08", "openai-gpt-5-6-public-date", "openai", "official_x",
+              "OpenAI confirms public launch timing for GPT-5.6",
+              "OpenAI 確認 GPT-5.6 公開推出時程",
+              "OpenAI said Sol, Terra, and Luna would launch publicly the next day as a three-tier family spanning frontier, balanced, and efficient use cases.",
+              "OpenAI 表示 Sol、Terra、Luna 將於隔日公開推出，三層產品線分別涵蓋前沿、均衡與高效率用途。",
+              5, "OpenAI on X", "https://x.com/OpenAI/status/2074704958419792299"),
+    ],
+    "2026-07-09": [
+        story("2026-07-09", "openai-chatgpt-work", "openai", "official_x",
+              "OpenAI introduces ChatGPT Work for cross-app tasks",
+              "OpenAI 推出可跨 App 執行任務的 ChatGPT Work",
+              "Powered by Codex and GPT-5.6, ChatGPT Work was presented as a persistent agent that can act across files and apps and stay with projects for hours.",
+              "ChatGPT Work 由 Codex 與 GPT-5.6 驅動，定位為可跨檔案與 App 操作、持續數小時完成專案的常駐代理。",
+              5, "OpenAI on X", "https://x.com/OpenAI/status/2075274271845404744"),
+        story("2026-07-09", "openai-gpt-5-6-ga", "openai", "official_blog",
+              "GPT-5.6 Sol, Terra, and Luna become generally available",
+              "GPT-5.6 Sol、Terra、Luna 正式全面推出",
+              "OpenAI launched the GPT-5.6 family with a flagship Sol model, balanced Terra tier, efficient Luna tier, new reasoning modes, and stronger safety controls.",
+              "OpenAI 正式推出 GPT-5.6 家族：旗艦 Sol、均衡 Terra、高效率 Luna，並加入新推理模式與更強防護。",
+              5, "OpenAI launch post", "https://openai.com/index/gpt-5-6/"),
+    ],
+    "2026-07-10": [
+        story("2026-07-10", "gpt-5-6-rate-limit-reset", "openai", "official_team_x",
+              "OpenAI resets usage limits during the GPT-5.6 launch window",
+              "OpenAI 在 GPT-5.6 上市期間重置用量限制",
+              "OpenAI reset ChatGPT Work and Codex limits during the launch window to give users more room to test ambitious GPT-5.6 Sol workflows.",
+              "OpenAI 在上市期間重置 ChatGPT Work 與 Codex 用量，讓使用者有更多空間測試 GPT-5.6 Sol 的大型工作流程。",
+              3, "OpenAI team update", "https://x.com/thsottiaux/status/2075452680760443190"),
+        story("2026-07-10", "qwen-3-6-unsloth-quants", "frontier_other", "open_weights",
+              "Unsloth publishes faster Qwen3.6 quantizations",
+              "Unsloth 發布更高速的 Qwen3.6 量化版本",
+              "The new Qwen3.6 quantizations target 24 GB GPUs and report substantial throughput gains while preserving tool-use and agent behavior.",
+              "新版 Qwen3.6 量化模型瞄準 24GB GPU，宣稱大幅提高吞吐量，同時保留工具使用與代理行為。",
+              4, "Unsloth on X", "https://x.com/UnslothAI/status/2075566124687892597"),
+    ],
+    "2026-07-11": [
+        story("2026-07-11", "ai-safety-index-summer-2026", "frontier_other", "independent_report",
+              "Summer 2026 AI Safety Index finds industry-wide gaps",
+              "2026 夏季 AI Safety Index 指出全產業安全缺口",
+              "The independent index graded Anthropic highest at C+, followed by OpenAI and Google DeepMind at C, while flagging weaker risk management across the sector.",
+              "獨立指數將 Anthropic 評為最高的 C+，OpenAI 與 Google DeepMind 為 C，並指出整體產業風險管理仍有明顯缺口。",
+              4, "AI Safety Index", "https://futureoflife.org/wp-content/uploads/2026/07/AI-Safety-Index-Summer-2026-Digital.pdf"),
+        story("2026-07-11", "july-launch-week-recap", "frontier_other", "weekly_recap",
+              "Launch-week recap: GPT-5.6, Grok 4.5, Muse Spark 1.1, and Fable 5",
+              "上市週回顧：GPT-5.6、Grok 4.5、Muse Spark 1.1 與 Fable 5",
+              "A dated release tracker summarized an unusually dense week of frontier-model, agent, voice, image, and API launches across the major labs.",
+              "按日期整理的發布追蹤回顧前沿實驗室異常密集的一週，涵蓋模型、代理、語音、圖像與 API 更新。",
+              3, "July release tracker", "https://thursdai.news/releases/2026-07"),
+    ],
+    "2026-07-12": [
+        story("2026-07-12", "anthropic-fable-access-extension", "anthropic", "official_x",
+              "Anthropic extends Fable 5 access and higher Claude Code limits",
+              "Anthropic 延長 Fable 5 存取與 Claude Code 較高用量",
+              "Anthropic extended paid-plan Fable 5 access and kept Claude Code weekly limits 50% higher through July 19.",
+              "Anthropic 將付費方案的 Fable 5 存取延長，並把 Claude Code 每週用量上限提高 50% 的活動延續至 7 月 19 日。",
+              3, "Claude on X", "https://x.com/claudeai/status/2076351399999557669"),
+        story("2026-07-12", "gpt-5-6-sol-build-challenge", "openai", "official_x",
+              "Sam Altman invites developers to share GPT-5.6 Sol builds",
+              "Sam Altman 邀開發者分享 GPT-5.6 Sol 作品",
+              "OpenAI's CEO invited users to show what they had built with Sol and offered an OpenAI archive gift for the most interesting project.",
+              "OpenAI 執行長邀請使用者展示用 Sol 打造的作品，並表示最有趣的專案可獲 OpenAI 檔案館禮物。",
+              2, "Sam Altman on X", "https://x.com/sama/status/2076398253332140410"),
+    ],
+}
+
+
+def main():
+    repo = Path(__file__).resolve().parent.parent
+    for date, items in HISTORY.items():
+        run_iso = f"{date}T12:00:00+00:00"
+        digest.write_digest(repo, date, run_iso, {
+            "items": items,
+            "brief_en": " | ".join(item["title_en"] for item in items),
+            "brief_zh": "｜".join(item["title_zh"] for item in items),
+            "_usage": {"backend": "verified-history-backfill", "model": "editorial-source-seed-v1"},
+        })
+    digest.rebuild_index(repo, "2026-07-13T12:00:00+00:00")
+if __name__ == "__main__":
+    main()
