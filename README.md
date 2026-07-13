@@ -12,4 +12,5 @@ links to original sources; see `legal/` for privacy policy and terms.
 - `index.json` — list of all days
 - `digests/YYYY-MM-DD.json` — one day of stories
 - `models.json` — model release tracker
-- `backend/` — the generator (`ai_digest.py`, Grok CLI or xAI API)
+- `backend/` — generator (`ai_digest_webgrok.py` via logged-in Grok Web by default;
+  `ai_digest.py` retains CLI/API fallback and owns the output schema/merge logic)
