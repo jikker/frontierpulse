@@ -420,6 +420,13 @@ def _host_label(url: str) -> str:
     return host or "Source"
 
 
+def _clamp_importance(value) -> int:
+    try:
+        return max(1, min(5, int(value)))
+    except (TypeError, ValueError):
+        return 3
+
+
 def normalize_items(items: list) -> list:
     """淨化：保證每筆都有合法 category / source_type / story_id / 欄位預設值，
     連結只留 http(s)。"""
@@ -442,6 +449,7 @@ def normalize_items(items: list) -> list:
                 continue
             label = (link.get("label") or "").strip() or _host_label(url)
             links.append({"label": label, "url": url})
+        importance = _clamp_importance(it.get("importance", 3))
         out.append({
             "id": sid, "story_id": sid, "category": cat, "source_type": st,
             "title_en": (it.get("title_en") or "").strip(),
@@ -450,7 +458,7 @@ def normalize_items(items: list) -> list:
             "summary_zh": (it.get("summary_zh") or "").strip(),
             "quote": (it.get("quote") or "").strip(),
             "quote_zh": (it.get("quote_zh") or "").strip(),
-            "importance": int(it.get("importance") or 3),
+            "importance": importance,
             "first_seen": (it.get("first_seen") or "").strip(),
             "updated_at": (it.get("updated_at") or "").strip(),
             "links": links,
@@ -463,7 +471,12 @@ def load_today_items(repo: Path, date_str: str) -> list:
     if not path.exists():
         return []
     try:
-        return load_public(path).get("items_flat", []) or []
+        doc = load_public(path)
+        # Repo 初始的展示資料不能混入第一次真實聚合；否則 importance>=4
+        # 的假新聞會被「保留重大舊聞」邏輯永久留在公開 feed。
+        if is_sample_digest(doc):
+            return []
+        return doc.get("items_flat", []) or []
     except Exception as e:
         print(f"[merge] 讀今日既有條目失敗（當空處理）：{e}")
         return []
@@ -471,7 +484,8 @@ def load_today_items(repo: Path, date_str: str) -> list:
 
 def _merge_one(old: dict, new: dict, run_iso: str) -> dict:
     new["first_seen"] = old.get("first_seen") or new.get("first_seen") or run_iso
-    new["importance"] = max(int(new.get("importance", 3)), int(old.get("importance", 3)))
+    new["importance"] = max(_clamp_importance(new.get("importance", 3)),
+                            _clamp_importance(old.get("importance", 3)))
     seen_urls = {l["url"] for l in new.get("links", [])}
     new["links"] = new.get("links", []) + [l for l in old.get("links", [])
                                            if l.get("url") not in seen_urls]
@@ -480,6 +494,14 @@ def _merge_one(old: dict, new: dict, run_iso: str) -> dict:
         new["quote_zh"] = old.get("quote_zh", "")
     new["updated_at"] = run_iso
     return new
+
+
+def is_sample_digest(doc: dict) -> bool:
+    runs = doc.get("runs", []) or []
+    return bool(runs) and all(
+        run.get("backend") == "sample" or run.get("model") == "sample-data"
+        for run in runs if isinstance(run, dict)
+    )
 
 
 def merge_daily_items(existing_flat: list, grok_items: list, run_iso: str) -> tuple[list, int, int]:
@@ -498,7 +520,7 @@ def merge_daily_items(existing_flat: list, grok_items: list, run_iso: str) -> tu
         seen_ids.add(sid)
     kept = 0
     for sid, old in old_by_id.items():
-        if sid not in seen_ids and int(old.get("importance", 3)) >= 4:
+        if sid not in seen_ids and _clamp_importance(old.get("importance", 3)) >= 4:
             out.append(normalize_items([old])[0])
             kept += 1
     out.sort(key=lambda x: x.get("updated_at", ""), reverse=True)
@@ -511,6 +533,8 @@ def write_digest(repo: Path, date_str: str, run_iso: str, grok: dict) -> Path:
     digests.mkdir(parents=True, exist_ok=True)
     path = digests / f"{date_str}.json"
     doc = load_public(path) if path.exists() else {"date": date_str, "runs": []}
+    if is_sample_digest(doc):
+        doc = {"date": date_str, "runs": []}
 
     existing_flat = doc.get("items_flat", []) or []
     merged, updated_n, kept_n = merge_daily_items(existing_flat, grok.get("items", []), run_iso)
@@ -542,6 +566,10 @@ def update_model_tracker(repo: Path, run_iso: str, releases: list) -> int:
     models.json 免費開放（追蹤器是拉新賣點，不上鎖）。"""
     path = repo / "models.json"
     doc = load_public(path) if path.exists() else {"models": []}
+    seeded_models = doc.get("models", []) or []
+    if seeded_models and all(str(m.get("model_id", "")).startswith("sample-")
+                             for m in seeded_models if isinstance(m, dict)):
+        doc = {"models": []}
     by_id = {m.get("model_id"): m for m in doc.get("models", []) if m.get("model_id")}
     added = 0
     for r in releases or []:
@@ -583,10 +611,10 @@ def update_model_tracker(repo: Path, run_iso: str, releases: list) -> int:
 
 # -------------------------------------------------------------- index ----
 
-def rebuild_index(repo: Path):
+def rebuild_index(repo: Path, run_iso: str):
     digests = repo / "digests"
     files = sorted(digests.glob("*.json"), reverse=True)
-    index = {"updated_at": datetime.now(timezone.utc).isoformat(), "dates": []}
+    index = {"updated_at": run_iso, "dates": []}
     for f in files:
         try:
             doc = load_public(f)
@@ -634,7 +662,7 @@ def main():
     grok = call_grok(date_str, run_iso, existing)
     path = write_digest(repo, date_str, run_iso, grok)
     added = update_model_tracker(repo, run_iso, grok.get("model_releases", []))
-    rebuild_index(repo)
+    rebuild_index(repo, run_iso)
     print(f"[ok] wrote {path.name}: {len(load_public(path).get('items_flat', []))} items, "
           f"{added} new model release(s)")
 

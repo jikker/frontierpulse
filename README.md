@@ -2,7 +2,7 @@
 
 Unofficial digest data for the FrontierPulse iOS app — bilingual summaries of
 what the major AI labs (OpenAI, Anthropic, Google DeepMind, Meta AI, xAI, and
-the open-source frontier) announced, updated every 2 hours, plus a cumulative
+the open-source frontier) announced, updated every 6 hours, plus a cumulative
 model-release tracker (`models.json`).
 
 Not affiliated with any of these companies. Summaries are AI-generated with
