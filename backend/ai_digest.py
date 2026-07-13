@@ -593,7 +593,9 @@ def update_model_tracker(repo: Path, run_iso: str, releases: list) -> int:
     by_id = {m.get("model_id"): m for m in doc.get("models", [])
              if m.get("model_id") and m.get("model_id") not in replace_ids}
     added = 0
-    for r in [*history_seed, *(releases or [])]:
+    # 即時資料先合併；同 model_id 若已在官方核對基線中，以基線為準，避免模型輸出
+    # 把正式名稱、發布日或官方連結覆寫成未核實內容。非基線的新版本仍會正常累積。
+    for r in [*(releases or []), *history_seed]:
         if not isinstance(r, dict):
             continue
         name = (r.get("name") or "").strip()
