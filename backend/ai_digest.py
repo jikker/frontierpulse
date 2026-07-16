@@ -108,6 +108,10 @@ OUTPUT:
   (cross-lab industry stories go to the lab most central to the story, or frontier_other).
 - Rate importance 1 (minor) to 5 (major); a flagship model launch = 5.
 - Bilingual title + summary for every item.
+- Add a clearly separated bilingual editorial take for every item. The take must explain why
+  the development matters, what changes, or what remains uncertain. It is FrontierPulse's
+  analysis, not a second summary: 1-2 concise sentences, evidence-based, no hype, no investment
+  advice, and never present inference as confirmed fact.
 - Top-level one-minute brief in EN and ZH（一分鐘看懂今日 AI 大廠動態）."""
 
 SCHEMA_BLOCK = """Return STRICT JSON with EXACTLY this shape:
@@ -123,6 +127,8 @@ SCHEMA_BLOCK = """Return STRICT JSON with EXACTLY this shape:
       "title_zh": "...",
       "summary_en": "1-3 sentences, your own words; lead with what the lab announced",
       "summary_zh": "1-3 句，用你自己的話；先寫該實驗室宣布了什麼",
+      "analysis_en": "1-2 sentences of original FrontierPulse analysis: why it matters / what changes / key uncertainty",
+      "analysis_zh": "1-2 句 FrontierPulse 原創觀點：為何重要／改變什麼／關鍵不確定性",
       "quote": "short verbatim excerpt from the official announcement/exec post (<=280 chars); empty string if none",
       "quote_zh": "官方原話的繁中翻譯；無則空字串",
       "importance": 1,
@@ -189,6 +195,7 @@ def _compact_existing(items: list, limit: int = 25) -> list:
         "importance": it.get("importance", 3),
         "title_en": it.get("title_en", ""),
         "summary_en": (it.get("summary_en", "") or "")[:240],
+        "analysis_en": (it.get("analysis_en", "") or "")[:180],
         "first_seen": it.get("first_seen", ""),
     } for it in ranked]
 
@@ -456,6 +463,8 @@ def normalize_items(items: list) -> list:
             "title_zh": (it.get("title_zh") or "").strip(),
             "summary_en": (it.get("summary_en") or "").strip(),
             "summary_zh": (it.get("summary_zh") or "").strip(),
+            "analysis_en": (it.get("analysis_en") or "").strip(),
+            "analysis_zh": (it.get("analysis_zh") or "").strip(),
             "quote": (it.get("quote") or "").strip(),
             "quote_zh": (it.get("quote_zh") or "").strip(),
             "importance": importance,
@@ -492,6 +501,9 @@ def _merge_one(old: dict, new: dict, run_iso: str) -> dict:
     if not new.get("quote") and old.get("quote"):
         new["quote"] = old["quote"]
         new["quote_zh"] = old.get("quote_zh", "")
+    if not new.get("analysis_en") and old.get("analysis_en"):
+        new["analysis_en"] = old["analysis_en"]
+        new["analysis_zh"] = old.get("analysis_zh", "")
     new["updated_at"] = run_iso
     return new
 
