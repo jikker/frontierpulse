@@ -16,6 +16,14 @@
       "item_count": 8,
       "updated_count": 4,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-07-30T04:35:01.641666+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 9,
+      "updated_count": 8,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -25,16 +33,16 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic’s Claude Mythos Preview Finds Novel Cryptographic Attacks on HAWK and Reduced AES",
-      "title_zh": "Anthropic Claude Mythos Preview 發現 HAWK 與簡化 AES 的新密碼攻擊",
-      "summary_en": "Anthropic’s Frontier Red Team reported that Claude Mythos Preview autonomously discovered an improved key-recovery attack on the post-quantum signature scheme HAWK (halving effective strength, e.g. HAWK-256 from 2^64 to 2^38) and a Möbius Bridge technique that speeds reduced-round AES attacks by 200-800×. These advances do not affect production systems.",
-      "summary_zh": "Anthropic Frontier Red Team 報告，Claude Mythos Preview 自主發現後量子簽名方案 HAWK 的改進密鑰恢復攻擊（有效強度減半，HAWK-256 從 2^64 降至 2^38），以及 Möbius Bridge 技術使簡化輪數 AES 攻擊加速 200-800 倍。這些發現目前不影響生產系統。",
-      "analysis_en": "The results show frontier models can deliver genuine cryptanalytic progress under human guidance, opening defensive uses while highlighting longer-term risks of automated discovery outpacing defenses.",
-      "analysis_zh": "結果顯示前沿模型在人類指導下可貢獻真實密碼分析進展，帶來防禦機會，同時凸顯自動化發現可能超越防禦的長期風險。",
-      "quote": "Using Claude Mythos Preview, researchers at Anthropic have discovered improved ways to attack cryptographic algorithms... The first attack significantly weakens HAWK... The second identifies a new way to attack round-reduced AES.",
-      "quote_zh": "使用 Claude Mythos Preview，Anthropic 研究人員發現了攻擊密碼演算法的改進方法……第一次攻擊大幅削弱 HAWK……第二次找到攻擊簡化輪數 AES 的新方法。",
+      "title_zh": "Anthropic 的 Claude Mythos Preview 發現 HAWK 與精簡 AES 的新密碼攻擊",
+      "summary_en": "Anthropic’s Frontier Red Team reported that Claude Mythos Preview autonomously discovered an improved key-recovery attack on the post-quantum signature scheme HAWK (halving effective strength, e.g. HAWK-256 from 2^64 to 2^38) and a Möbius-based improvement on reduced-round AES. The work required ~60 hours and ~$100k of compute under light human guidance and does not break production systems.",
+      "summary_zh": "Anthropic 前沿紅隊報告，Claude Mythos Preview 在輕度人工引導下自主發現後量子簽名方案 HAWK 的改進金鑰恢復攻擊（有效強度減半，例如 HAWK-256 從 2^64 降至 2^38），以及精簡輪次 AES 的 Möbius 改進。整項工作約 60 小時、10 萬美元算力，目前不影響正式系統。",
+      "analysis_en": "The results show frontier models can deliver genuine cryptanalytic progress under human guidance, opening defensive uses while highlighting longer-term risks of automated discovery of weaknesses in post-quantum candidates.",
+      "analysis_zh": "結果顯示前沿模型在人工引導下可產出真正的密碼分析進展，開啟防禦用途，同時凸顯自動發現後量子候選弱點的長期風險。",
+      "quote": "To find the attack, Claude Mythos Preview worked semi-autonomously in an agentic harness, with occasional human guidance and nontechnical direction.",
+      "quote_zh": "為了找到攻擊，Claude Mythos Preview 在代理 harness 中半自主運作，偶爾接受人類引導與非技術方向。",
       "importance": 4,
       "first_seen": "2026-07-28T17:16:46Z",
-      "updated_at": "2026-07-29T22:35:01.802200+00:00",
+      "updated_at": "2026-07-30T04:35:01.641666+00:00",
       "links": [
         {
           "label": "Anthropic Research",
@@ -56,17 +64,21 @@
       "category": "frontier_other",
       "source_type": "mixed",
       "title_en": "1,100+ AI Lab Staff Petition US to Support Tools for Pacing Frontier Development",
-      "title_zh": "逾1,100名 AI 實驗室員工聯署籲美國支持 pacing 前沿發展工具",
-      "summary_en": "More than 1,100 current and former employees from OpenAI, Anthropic, Google, Meta and others signed the “Pacing the Frontier” statement asking the US government to support international technical and governance tools that could deliberately pace automated AI research. It is not a call for a moratorium.",
-      "summary_zh": "逾1,100名來自 OpenAI、Anthropic、Google、Meta 等現任與前任員工簽署「Pacing the Frontier」聲明，要求美國政府支持可刻意調節自動化 AI 研究前沿的國際技術與治理工具。並非要求暫停發展。",
-      "analysis_en": "The cross-lab staff consensus signals growing internal concern about recursive self-improvement risks while stopping short of a pause. Whether governments can build usable pacing mechanisms remains uncertain.",
-      "analysis_zh": "跨實驗室員工共識顯示對遞迴自我改進風險的內部關切加劇，但未主張暫停。政府能否建立可用的 pacing 機制仍不確定。",
+      "title_zh": "1,100+ AI 實驗室員工聯署請美國支持「節奏化」前沿發展的工具",
+      "summary_en": "More than 1,100 current and former employees from OpenAI, Anthropic, Google, Meta and others signed the “Pacing the Frontier” statement asking the US government to support international technical and governance tools that could deliberately slow or coordinate the most advanced AI development.",
+      "summary_zh": "超過 1,100 名來自 OpenAI、Anthropic、Google、Meta 等現任與前任員工簽署「Pacing the Frontier」聲明，呼籲美國政府支持可刻意放緩或協調最前沿 AI 發展的國際技術與治理工具。",
+      "analysis_en": "The cross-lab staff consensus signals growing internal concern about recursive self-improvement risks while stopping short of a pause. Whether governments can build usable pacing mechanisms remains highly uncertain.",
+      "analysis_zh": "跨實驗室員工共識顯示內部對遞迴自我改進風險的擔憂上升，但未要求全面暫停。政府能否建立可用的節奏機制仍高度不確定。",
       "quote": "support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.",
       "quote_zh": "支持國際努力，開發可刻意調節自動化 AI 發展前沿所需的技術與治理工具。",
       "importance": 4,
       "first_seen": "2026-07-28T20:56:52Z",
-      "updated_at": "2026-07-29T22:35:01.802200+00:00",
+      "updated_at": "2026-07-30T04:35:01.641666+00:00",
       "links": [
+        {
+          "label": "Pacing the Frontier statement",
+          "url": "https://pacingthefrontier.org"
+        },
         {
           "label": "Pacing the Frontier statement",
           "url": "https://www.pacingthefrontier.com/"
@@ -87,16 +99,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI Launches ChatGPT for Academic Researchers with Free Frontier Access for up to 100,000",
-      "title_zh": "OpenAI 推出 ChatGPT for Academic Researchers，最高提供 10 萬名研究者免費前沿模型存取",
-      "summary_en": "OpenAI announced ChatGPT for Academic Researchers, giving eligible faculty and postdocs free 12-month access to frontier models including the GPT-5.6 family, starting with 10,000 researchers this summer and expanding to 100,000 through 2027. Workspaces include business-grade privacy (data not used for training by default), expanded deep research, life-science skills, and up to four collaborators.",
-      "summary_zh": "OpenAI 宣布啟動 ChatGPT for Academic Researchers 計畫，從今年暑假起先開放 1 萬名合格學術研究者免費使用 GPT-5.6 等前沿模型與工具，並計畫擴至 10 萬名至 2027 年。工作區具備商業級隱私保護，研究資料預設不訓練模型，並包含生命科學技能與支援。",
-      "analysis_en": "This expands frontier AI access beyond well-resourced labs and may accelerate discovery, yet eligibility gates, long-term funding sustainability, and actual scientific impact remain to be measured.",
-      "analysis_zh": "此舉擴大前沿 AI 對學術社群的可及性，可能加速科學發現，但實際申請門檻與長期資源分配仍待觀察。",
-      "quote": "We believe the benefits of frontier AI should not be concentrated in a few companies and well-resourced labs. Researchers know their fields best.",
-      "quote_zh": "我們相信前沿 AI 的好處不應集中在少數公司與資源豐富的實驗室。研究人員最了解自己的領域。",
+      "title_zh": "OpenAI 推出 ChatGPT for Academic Researchers，最多 10 萬名研究者可免費使用前沿模型",
+      "summary_en": "OpenAI announced ChatGPT for Academic Researchers, giving eligible faculty and postdocs free 12-month access to frontier models including the GPT-5.6 family, starting with 10,000 researchers this summer and expanding to 100,000 through 2027. Each workspace supports up to five members with business-grade privacy protections.",
+      "summary_zh": "OpenAI 宣布 ChatGPT for Academic Researchers，符合資格的教師與博士後可獲得 12 個月免費前沿模型（含 GPT-5.6 系列）存取，今夏先開放 1 萬人，2027 年前擴至 10 萬人。每個工作區最多 5 人，並提供商業級隱私保護。",
+      "analysis_en": "This expands frontier AI access beyond well-resourced labs and may accelerate discovery, yet eligibility gates, long-term funding sustainability, and actual scientific impact remain open questions.",
+      "analysis_zh": "此舉將前沿 AI 存取擴至資源較少的實驗室，可能加速發現，但資格門檻、長期資金永續性與實際科學影響仍待觀察。",
+      "quote": "We’re giving scientists, mathematicians, and engineers free access to our frontier models—starting with 10,000 researchers and expanding to 100,000 through 2027.",
+      "quote_zh": "我們將為科學家、數學家與工程師提供免費前沿模型存取——今夏先開放 1 萬人，2027 年前擴至 10 萬人。",
       "importance": 4,
       "first_seen": "2026-07-29T17:19:28Z",
-      "updated_at": "2026-07-29T22:35:01.802200+00:00",
+      "updated_at": "2026-07-30T04:35:01.641666+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -110,16 +122,16 @@
       "category": "xai",
       "source_type": "official_blog",
       "title_en": "xAI Releases Grok Voice Think Fast 2.0 with Improved Intelligence, Transcription and Agentic Performance",
-      "title_zh": "xAI 發布 Grok Voice Think Fast 2.0 新一代語音模型",
-      "summary_en": "xAI (via SpaceXAI) announced Grok Voice Think Fast 2.0, its next-generation voice model with gains in speech reasoning, conversational dynamics, and agentic tool use. It shows 1.5–2× better transcription accuracy versus prior SOTA and its predecessor, 0.70 s time-to-first-audio, and leads the Artificial Analysis τ-voice agentic bench. Available now in the API and Voice Agent Builder at $0.08 per minute of audio; the latest alias migrates on 5 August.",
-      "summary_zh": "xAI（SpaceXAI）宣布 Grok Voice Think Fast 2.0，提升智能、轉錄準確度（較前代 1.4×，嘈雜環境大幅改善）與對話能力。API 與 Voice Agent Builder 今日可用，定價每分鐘音訊 0.08 美元。",
-      "analysis_en": "Stronger full-duplex and agentic voice scores strengthen real-time use cases, especially noisy or tool-calling scenarios; sustained leadership versus peers will need ongoing independent benchmarks.",
-      "analysis_zh": "語音 agent 性能提升強化實時應用場景，特別是嘈雜與工具呼叫情境，但與競爭對手的持續領先仍需基準測試追蹤。",
+      "title_zh": "xAI 發布 Grok Voice Think Fast 2.0，提升智能、轉錄與代理表現",
+      "summary_en": "xAI (via SpaceXAI) announced Grok Voice Think Fast 2.0, its next-generation voice model with gains in speech reasoning, conversational dynamics, and agentic tool use. It shows 1.5–2× better transcription accuracy versus prior SOTA and its previous version, leads the Artificial Analysis Speech-to-Speech Quality Index at 82.9%, and scores 56.5% on the τ-voice agentic bench.",
+      "summary_zh": "xAI（透過 SpaceXAI）宣布 Grok Voice Think Fast 2.0，次世代語音模型在語音推理、對話動態與代理工具使用上皆有提升。轉錄準確率較先前 SOTA 與前代提升 1.5–2 倍，Artificial Analysis 語音品質指數以 82.9% 領先，τ-voice 代理基準達 56.5%。",
+      "analysis_en": "Stronger full-duplex and agentic voice scores strengthen real-time use cases, especially noisy or tool-calling scenarios; sustained leadership versus peers will need ongoing independent verification.",
+      "analysis_zh": "更強的全雙工與代理語音分數強化即時應用場景（尤其嘈雜或需呼叫工具時）；能否持續領先同業仍需獨立驗證。",
       "quote": "Announcing Grok Voice Think Fast 2.0, our next-generation voice model with improved intelligence, transcription accuracy, and conversational capabilities.",
-      "quote_zh": "宣布 Grok Voice Think Fast 2.0，我們的下一代語音模型，具備改進的智能、轉錄準確度與對話能力。",
+      "quote_zh": "宣布 Grok Voice Think Fast 2.0，我們的次世代語音模型，具備更佳智能、轉錄準確度與對話能力。",
       "importance": 4,
       "first_seen": "2026-07-29T18:10:46Z",
-      "updated_at": "2026-07-29T22:35:01.802200+00:00",
+      "updated_at": "2026-07-30T04:35:01.641666+00:00",
       "links": [
         {
           "label": "xAI News",
@@ -133,17 +145,21 @@
       "category": "openai",
       "source_type": "official_x",
       "title_en": "OpenAI Quietly Releases Open-Source Codex Security CLI",
-      "title_zh": "OpenAI 低調發布開源 Codex Security CLI",
+      "title_zh": "OpenAI 低調開源 Codex Security CLI",
       "summary_en": "OpenAI announced an early open-source release of the Codex Security CLI and TypeScript SDK. Developers can now scan repositories, track findings across runs, verify fixes, and add security checks to CI/CD pipelines via npm or GitHub.",
-      "summary_zh": "OpenAI 宣布早期開源發布 Codex Security CLI 與 TypeScript SDK。開發者現可掃描程式庫、跨執行追蹤發現、驗證修復，並透過 npm 或 GitHub 將安全檢查加入 CI/CD 流程。",
-      "analysis_en": "This makes agentic security scanning more accessible outside ChatGPT Enterprise tiers and could accelerate “security-left” practices in AI-assisted coding. Real-world false-positive rates and coverage remain to be proven at scale.",
-      "analysis_zh": "此舉讓 agentic 安全掃描更易於在 ChatGPT Enterprise 之外使用，可能加速 AI 輔助編碼的「安全左移」實踐。真實世界誤報率與覆蓋範圍仍待大規模驗證。",
-      "quote": "We quietly released the open-source Codex Security CLI... You can now use it to scan repositories, track findings across runs, verify fixes, and add security checks to CI/CD.",
-      "quote_zh": "我們低調發布了開源 Codex Security CLI……現在可用它掃描程式庫、跨執行追蹤發現、驗證修復，並將安全檢查加入 CI/CD。",
+      "summary_zh": "OpenAI 宣布早期開源 Codex Security CLI 與 TypeScript SDK。開發者現可掃描程式庫、跨執行追蹤發現、驗證修復，並透過 npm 或 GitHub 將安全檢查加入 CI/CD 管線。",
+      "analysis_en": "This makes agentic security scanning more accessible outside ChatGPT Enterprise tiers and could accelerate “security-left” practices in AI-assisted coding. Real-world false-positive rates and maintenance burden remain to be seen.",
+      "analysis_zh": "此舉讓代理式安全掃描不再僅限 ChatGPT Enterprise，可能加速 AI 輔助編碼中的「左移安全」實踐。實際誤報率與維護負擔仍待觀察。",
+      "quote": "We quietly released the open-source Codex Security CLI, but Hacker News found it before we had a chance to share it here...",
+      "quote_zh": "我們低調開源了 Codex Security CLI，但 Hacker News 在我們有機會在此分享前就發現了它…",
       "importance": 3,
       "first_seen": "2026-07-29T00:35:31Z",
-      "updated_at": "2026-07-29T22:35:01.802200+00:00",
+      "updated_at": "2026-07-30T04:35:01.641666+00:00",
       "links": [
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2082516370949062989"
+        },
         {
           "label": "OpenAI on X / GitHub",
           "url": "https://github.com/openai/codex-security"
@@ -164,20 +180,43 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI Details GPT-5.6 Sol Self-Optimizations: 20% Lower Serving Costs, 15%+ Token Efficiency",
-      "title_zh": "OpenAI 展示 GPT-5.6 Sol 自我優化，推理成本降 20%、生成效率提升逾 15%",
-      "summary_en": "OpenAI published how it applied GPT-5.6 Sol after deployment to improve its own serving stack, achieving 20% lower serving costs via GPU kernel improvements (rewritten in Triton/Gluon) and more than 15% better token-generation efficiency from enhanced speculative decoding, plus agentic-harness refinements.",
-      "summary_zh": "OpenAI 表示部署後運用 GPT-5.6 Sol 與 Codex 優化自身服務堆疊，透過 GPU kernel 改進降低 20% 服務成本，並以改進 speculative decoding 提升逾 15% token 生成效率。",
-      "analysis_en": "Using a frontier model to optimize its own inference stack illustrates practical agentic gains at the infrastructure layer and could reshape cost curves, though independent replication and broader applicability are still open.",
-      "analysis_zh": "模型協助優化自身運行效率，凸顯 agentic 能力在基礎設施層的潛力，長期可能改變成本曲線，但獨立驗證與廣泛適用性仍待確認。",
+      "title_zh": "OpenAI 詳述 GPT-5.6 Sol 自優化：服務成本降 20%，token 效率提升逾 15%",
+      "summary_en": "OpenAI published how it applied GPT-5.6 Sol after deployment to improve its own serving stack, achieving 20% lower serving costs via GPU kernel improvements (rewritten in Triton/Gluon) and more than 15% better token-generation efficiency from improved speculative decoding.",
+      "summary_zh": "OpenAI 公布部署後如何以 GPT-5.6 Sol 優化自身服務堆疊，透過 GPU 核心改進（以 Triton/Gluon 重寫）降低服務成本 20%，並藉改進投機解碼使 token 生成效率提升逾 15%。",
+      "analysis_en": "Using a frontier model to optimize its own inference stack illustrates practical agentic gains at the infrastructure layer and could reshape cost curves, though independent replication will determine how widely the techniques transfer.",
+      "analysis_zh": "以前沿模型優化自身推理堆疊，展現基礎設施層的實際代理收益，可能重塑成本曲線，但獨立複現將決定技術能否廣泛轉移。",
       "quote": "After deployment, we applied GPT-5.6 Sol to advance the frontier of efficiency by making itself more efficient to run. The results: 20% lower serving costs... 15%+ better token-generation efficiency.",
-      "quote_zh": "部署後，我們運用 GPT-5.6 Sol 推進效率前沿，讓自身運行更有效率。結果：服務成本降低 20%……token 生成效率提升逾 15%。",
+      "quote_zh": "部署後，我們應用 GPT-5.6 Sol 推進效率前沿，讓自身運行更有效率。結果：服務成本降低 20%… token 生成效率提升逾 15%。",
       "importance": 3,
       "first_seen": "2026-07-29T21:21:29Z",
-      "updated_at": "2026-07-29T22:35:01.802200+00:00",
+      "updated_at": "2026-07-30T04:35:01.641666+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/"
+        }
+      ]
+    },
+    {
+      "id": "openai-arc-agi-3-settings-2026-07-29",
+      "story_id": "openai-arc-agi-3-settings-2026-07-29",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI Shows Two API Settings Triple GPT-5.6 Sol’s ARC-AGI-3 Score to 38.3%",
+      "title_zh": "OpenAI 展示兩項 API 設定讓 GPT-5.6 Sol 在 ARC-AGI-3 分數提升至 38.3%（三倍）",
+      "summary_en": "OpenAI announced that enabling retained reasoning and context compaction in the Responses API raised GPT-5.6 Sol’s score on the ARC-AGI-3 public set from 13.3% to 38.3% (roughly 3×) while cutting output tokens 6×. The official harness discarded private reasoning after each move and used rolling truncation.",
+      "summary_zh": "OpenAI 宣布在 Responses API 啟用保留推理與上下文壓縮後，GPT-5.6 Sol 在 ARC-AGI-3 公開集分數從 13.3% 提升至 38.3%（約三倍），輸出 token 減少 6 倍。官方 harness 每次動作後丟棄私有推理並採滾動截斷。",
+      "analysis_en": "The finding shows long-horizon agent benchmarks measure the full system (model + state management) rather than isolated weights. Production-aligned harnesses can unlock substantial latent capability already present in frontier models.",
+      "analysis_zh": "此結果顯示長時程代理基準衡量的是完整系統（模型＋狀態管理），而非孤立權重。與生產對齊的 harness 可釋放前沿模型既有潛力。",
+      "quote": "With the official harness, GPT‑5.6 Sol scored 13.3% on the ARC-AGI-3 public set. With retained reasoning and compaction, it scored 38.3%.",
+      "quote_zh": "在官方 harness 下，GPT-5.6 Sol 在 ARC-AGI-3 公開集得分 13.3%。啟用保留推理與壓縮後，得分 38.3%。",
+      "importance": 3,
+      "first_seen": "2026-07-29T23:57:54Z",
+      "updated_at": "2026-07-30T04:35:01.641666+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/"
         }
       ]
     },
@@ -187,17 +226,21 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI Field Report: Agentic AI in Scientific Computing",
-      "title_zh": "OpenAI 實地報告：Agentic AI 在科學計算中的應用",
+      "title_zh": "OpenAI 實地報告：代理式 AI 於科學計算",
       "summary_en": "OpenAI published an exploratory field report of eight case studies (mostly life sciences) showing how Codex and Claude Code agents helped modernize scientific software—from maintenance and optimization to large-scale migrations and redesigns.",
-      "summary_zh": "OpenAI 發布探索性實地報告，涵蓋八個案例（多為生命科學），展示 Codex 與 Claude Code agents 如何協助現代化科學軟體——從維護優化到大規模遷移與重新設計。",
-      "analysis_en": "The report usefully documents real velocity gains but correctly cautions that agents do not remove the need for scientific judgment or sustainable ownership models. Broader adoption will hinge on reproducibility and maintainer collaboration.",
-      "analysis_zh": "報告有用記錄了實際速度提升，但正確提醒 agents 無法取代科學判斷或可持續的擁有模式。更廣泛採用將取決於可重現性與維護者合作。",
+      "summary_zh": "OpenAI 發表探索性實地報告，涵蓋八個案例（多為生命科學），展示 Codex 與 Claude Code 代理如何協助現代化科學軟體——從維護優化到大規模遷移與重新設計。",
+      "analysis_en": "The report usefully documents real velocity gains but correctly cautions that agents do not remove the need for scientific judgment or sustainable ownership models. Broader adoption still hinges on domain-specific validation.",
+      "analysis_zh": "報告有用記錄了實際速度提升，但正確提醒代理無法取代科學判斷或永續擁有權模式。更廣泛採用仍取決於領域特定驗證。",
       "quote": "Across eight case studies spanning industry and academia, we explore what this shift means for scientific computing—and why human verification, stewardship, and long-term maintenance matter.",
       "quote_zh": "透過涵蓋產業與學術的八個案例，我們探討這項轉變對科學計算的意義——以及為何人類驗證、管理與長期維護至關重要。",
       "importance": 2,
       "first_seen": "2026-07-28T17:11:53Z",
-      "updated_at": "2026-07-29T22:35:01.802200+00:00",
+      "updated_at": "2026-07-30T04:35:01.641666+00:00",
       "links": [
+        {
+          "label": "OpenAI Research",
+          "url": "https://openai.com/research/"
+        },
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/scientific-computing-agentic-ai/"
@@ -214,17 +257,21 @@
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google Releases Lyria 3.5 Music Model with Better Vocals, Lyrics and Creative Control",
-      "title_zh": "Google 發布 Lyria 3.5 音樂模型，提升人聲、歌詞與創作控制",
+      "title_zh": "Google 發布 Lyria 3.5 音樂模型，提升人聲、歌詞與創意控制",
       "summary_en": "Google announced Lyria 3.5, its latest music-generation model now powering Google Flow Music. The update improves musicality, lyrics, vocals, tempo and duration control for more expressive and steerable generation.",
-      "summary_zh": "Google 宣布 Lyria 3.5，最新音樂生成模型，已在 Google Flow Music 推出。更新改進音樂性、歌詞、人聲、節奏與時長控制，使生成更富表達力且可操控。",
-      "analysis_en": "Incremental but practical advances in controllable music generation strengthen Google’s creative-media stack; competitive differentiation versus other audio models will depend on real-user quality and latency.",
-      "analysis_zh": "可控音樂生成的實用改進強化 Google 創作媒體堆疊；與其他音訊模型的差異化將取決於真實用戶品質與延遲。",
+      "summary_zh": "Google 宣布 Lyria 3.5，最新音樂生成模型，現已驅動 Google Flow Music。更新提升音樂性、歌詞、人聲、速度與時長控制，使生成更具表現力與可操控性。",
+      "analysis_en": "Incremental but practical advances in controllable music generation strengthen Google’s creative-media stack; competitive differentiation versus other audio models will depend on real-user creative workflows.",
+      "analysis_zh": "可控音樂生成的漸進實用進展強化 Google 創意媒體堆疊；與其他音訊模型的競爭差異將取決於真實使用者創意工作流。",
       "quote": "Meet Lyria 3.5, the newest music model from Google DeepMind, now powering Flow Music.",
       "quote_zh": "認識 Lyria 3.5，Google DeepMind 最新音樂模型，現已驅動 Flow Music。",
       "importance": 2,
       "first_seen": "2026-07-29T16:19:55Z",
-      "updated_at": "2026-07-29T22:35:01.802200+00:00",
+      "updated_at": "2026-07-30T04:35:01.641666+00:00",
       "links": [
+        {
+          "label": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/"
+        },
         {
           "label": "Google Blog",
           "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/"
@@ -240,16 +287,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI Launches ChatGPT for Academic Researchers with Free Frontier Access for up to 100,000",
-        "title_zh": "OpenAI 推出 ChatGPT for Academic Researchers，最高提供 10 萬名研究者免費前沿模型存取",
-        "summary_en": "OpenAI announced ChatGPT for Academic Researchers, giving eligible faculty and postdocs free 12-month access to frontier models including the GPT-5.6 family, starting with 10,000 researchers this summer and expanding to 100,000 through 2027. Workspaces include business-grade privacy (data not used for training by default), expanded deep research, life-science skills, and up to four collaborators.",
-        "summary_zh": "OpenAI 宣布啟動 ChatGPT for Academic Researchers 計畫，從今年暑假起先開放 1 萬名合格學術研究者免費使用 GPT-5.6 等前沿模型與工具，並計畫擴至 10 萬名至 2027 年。工作區具備商業級隱私保護，研究資料預設不訓練模型，並包含生命科學技能與支援。",
-        "analysis_en": "This expands frontier AI access beyond well-resourced labs and may accelerate discovery, yet eligibility gates, long-term funding sustainability, and actual scientific impact remain to be measured.",
-        "analysis_zh": "此舉擴大前沿 AI 對學術社群的可及性，可能加速科學發現，但實際申請門檻與長期資源分配仍待觀察。",
-        "quote": "We believe the benefits of frontier AI should not be concentrated in a few companies and well-resourced labs. Researchers know their fields best.",
-        "quote_zh": "我們相信前沿 AI 的好處不應集中在少數公司與資源豐富的實驗室。研究人員最了解自己的領域。",
+        "title_zh": "OpenAI 推出 ChatGPT for Academic Researchers，最多 10 萬名研究者可免費使用前沿模型",
+        "summary_en": "OpenAI announced ChatGPT for Academic Researchers, giving eligible faculty and postdocs free 12-month access to frontier models including the GPT-5.6 family, starting with 10,000 researchers this summer and expanding to 100,000 through 2027. Each workspace supports up to five members with business-grade privacy protections.",
+        "summary_zh": "OpenAI 宣布 ChatGPT for Academic Researchers，符合資格的教師與博士後可獲得 12 個月免費前沿模型（含 GPT-5.6 系列）存取，今夏先開放 1 萬人，2027 年前擴至 10 萬人。每個工作區最多 5 人，並提供商業級隱私保護。",
+        "analysis_en": "This expands frontier AI access beyond well-resourced labs and may accelerate discovery, yet eligibility gates, long-term funding sustainability, and actual scientific impact remain open questions.",
+        "analysis_zh": "此舉將前沿 AI 存取擴至資源較少的實驗室，可能加速發現，但資格門檻、長期資金永續性與實際科學影響仍待觀察。",
+        "quote": "We’re giving scientists, mathematicians, and engineers free access to our frontier models—starting with 10,000 researchers and expanding to 100,000 through 2027.",
+        "quote_zh": "我們將為科學家、數學家與工程師提供免費前沿模型存取——今夏先開放 1 萬人，2027 年前擴至 10 萬人。",
         "importance": 4,
         "first_seen": "2026-07-29T17:19:28Z",
-        "updated_at": "2026-07-29T22:35:01.802200+00:00",
+        "updated_at": "2026-07-30T04:35:01.641666+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -263,17 +310,21 @@
         "category": "openai",
         "source_type": "official_x",
         "title_en": "OpenAI Quietly Releases Open-Source Codex Security CLI",
-        "title_zh": "OpenAI 低調發布開源 Codex Security CLI",
+        "title_zh": "OpenAI 低調開源 Codex Security CLI",
         "summary_en": "OpenAI announced an early open-source release of the Codex Security CLI and TypeScript SDK. Developers can now scan repositories, track findings across runs, verify fixes, and add security checks to CI/CD pipelines via npm or GitHub.",
-        "summary_zh": "OpenAI 宣布早期開源發布 Codex Security CLI 與 TypeScript SDK。開發者現可掃描程式庫、跨執行追蹤發現、驗證修復，並透過 npm 或 GitHub 將安全檢查加入 CI/CD 流程。",
-        "analysis_en": "This makes agentic security scanning more accessible outside ChatGPT Enterprise tiers and could accelerate “security-left” practices in AI-assisted coding. Real-world false-positive rates and coverage remain to be proven at scale.",
-        "analysis_zh": "此舉讓 agentic 安全掃描更易於在 ChatGPT Enterprise 之外使用，可能加速 AI 輔助編碼的「安全左移」實踐。真實世界誤報率與覆蓋範圍仍待大規模驗證。",
-        "quote": "We quietly released the open-source Codex Security CLI... You can now use it to scan repositories, track findings across runs, verify fixes, and add security checks to CI/CD.",
-        "quote_zh": "我們低調發布了開源 Codex Security CLI……現在可用它掃描程式庫、跨執行追蹤發現、驗證修復，並將安全檢查加入 CI/CD。",
+        "summary_zh": "OpenAI 宣布早期開源 Codex Security CLI 與 TypeScript SDK。開發者現可掃描程式庫、跨執行追蹤發現、驗證修復，並透過 npm 或 GitHub 將安全檢查加入 CI/CD 管線。",
+        "analysis_en": "This makes agentic security scanning more accessible outside ChatGPT Enterprise tiers and could accelerate “security-left” practices in AI-assisted coding. Real-world false-positive rates and maintenance burden remain to be seen.",
+        "analysis_zh": "此舉讓代理式安全掃描不再僅限 ChatGPT Enterprise，可能加速 AI 輔助編碼中的「左移安全」實踐。實際誤報率與維護負擔仍待觀察。",
+        "quote": "We quietly released the open-source Codex Security CLI, but Hacker News found it before we had a chance to share it here...",
+        "quote_zh": "我們低調開源了 Codex Security CLI，但 Hacker News 在我們有機會在此分享前就發現了它…",
         "importance": 3,
         "first_seen": "2026-07-29T00:35:31Z",
-        "updated_at": "2026-07-29T22:35:01.802200+00:00",
+        "updated_at": "2026-07-30T04:35:01.641666+00:00",
         "links": [
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2082516370949062989"
+          },
           {
             "label": "OpenAI on X / GitHub",
             "url": "https://github.com/openai/codex-security"
@@ -294,20 +345,43 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI Details GPT-5.6 Sol Self-Optimizations: 20% Lower Serving Costs, 15%+ Token Efficiency",
-        "title_zh": "OpenAI 展示 GPT-5.6 Sol 自我優化，推理成本降 20%、生成效率提升逾 15%",
-        "summary_en": "OpenAI published how it applied GPT-5.6 Sol after deployment to improve its own serving stack, achieving 20% lower serving costs via GPU kernel improvements (rewritten in Triton/Gluon) and more than 15% better token-generation efficiency from enhanced speculative decoding, plus agentic-harness refinements.",
-        "summary_zh": "OpenAI 表示部署後運用 GPT-5.6 Sol 與 Codex 優化自身服務堆疊，透過 GPU kernel 改進降低 20% 服務成本，並以改進 speculative decoding 提升逾 15% token 生成效率。",
-        "analysis_en": "Using a frontier model to optimize its own inference stack illustrates practical agentic gains at the infrastructure layer and could reshape cost curves, though independent replication and broader applicability are still open.",
-        "analysis_zh": "模型協助優化自身運行效率，凸顯 agentic 能力在基礎設施層的潛力，長期可能改變成本曲線，但獨立驗證與廣泛適用性仍待確認。",
+        "title_zh": "OpenAI 詳述 GPT-5.6 Sol 自優化：服務成本降 20%，token 效率提升逾 15%",
+        "summary_en": "OpenAI published how it applied GPT-5.6 Sol after deployment to improve its own serving stack, achieving 20% lower serving costs via GPU kernel improvements (rewritten in Triton/Gluon) and more than 15% better token-generation efficiency from improved speculative decoding.",
+        "summary_zh": "OpenAI 公布部署後如何以 GPT-5.6 Sol 優化自身服務堆疊，透過 GPU 核心改進（以 Triton/Gluon 重寫）降低服務成本 20%，並藉改進投機解碼使 token 生成效率提升逾 15%。",
+        "analysis_en": "Using a frontier model to optimize its own inference stack illustrates practical agentic gains at the infrastructure layer and could reshape cost curves, though independent replication will determine how widely the techniques transfer.",
+        "analysis_zh": "以前沿模型優化自身推理堆疊，展現基礎設施層的實際代理收益，可能重塑成本曲線，但獨立複現將決定技術能否廣泛轉移。",
         "quote": "After deployment, we applied GPT-5.6 Sol to advance the frontier of efficiency by making itself more efficient to run. The results: 20% lower serving costs... 15%+ better token-generation efficiency.",
-        "quote_zh": "部署後，我們運用 GPT-5.6 Sol 推進效率前沿，讓自身運行更有效率。結果：服務成本降低 20%……token 生成效率提升逾 15%。",
+        "quote_zh": "部署後，我們應用 GPT-5.6 Sol 推進效率前沿，讓自身運行更有效率。結果：服務成本降低 20%… token 生成效率提升逾 15%。",
         "importance": 3,
         "first_seen": "2026-07-29T21:21:29Z",
-        "updated_at": "2026-07-29T22:35:01.802200+00:00",
+        "updated_at": "2026-07-30T04:35:01.641666+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/"
+          }
+        ]
+      },
+      {
+        "id": "openai-arc-agi-3-settings-2026-07-29",
+        "story_id": "openai-arc-agi-3-settings-2026-07-29",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI Shows Two API Settings Triple GPT-5.6 Sol’s ARC-AGI-3 Score to 38.3%",
+        "title_zh": "OpenAI 展示兩項 API 設定讓 GPT-5.6 Sol 在 ARC-AGI-3 分數提升至 38.3%（三倍）",
+        "summary_en": "OpenAI announced that enabling retained reasoning and context compaction in the Responses API raised GPT-5.6 Sol’s score on the ARC-AGI-3 public set from 13.3% to 38.3% (roughly 3×) while cutting output tokens 6×. The official harness discarded private reasoning after each move and used rolling truncation.",
+        "summary_zh": "OpenAI 宣布在 Responses API 啟用保留推理與上下文壓縮後，GPT-5.6 Sol 在 ARC-AGI-3 公開集分數從 13.3% 提升至 38.3%（約三倍），輸出 token 減少 6 倍。官方 harness 每次動作後丟棄私有推理並採滾動截斷。",
+        "analysis_en": "The finding shows long-horizon agent benchmarks measure the full system (model + state management) rather than isolated weights. Production-aligned harnesses can unlock substantial latent capability already present in frontier models.",
+        "analysis_zh": "此結果顯示長時程代理基準衡量的是完整系統（模型＋狀態管理），而非孤立權重。與生產對齊的 harness 可釋放前沿模型既有潛力。",
+        "quote": "With the official harness, GPT‑5.6 Sol scored 13.3% on the ARC-AGI-3 public set. With retained reasoning and compaction, it scored 38.3%.",
+        "quote_zh": "在官方 harness 下，GPT-5.6 Sol 在 ARC-AGI-3 公開集得分 13.3%。啟用保留推理與壓縮後，得分 38.3%。",
+        "importance": 3,
+        "first_seen": "2026-07-29T23:57:54Z",
+        "updated_at": "2026-07-30T04:35:01.641666+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/"
           }
         ]
       },
@@ -317,17 +391,21 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI Field Report: Agentic AI in Scientific Computing",
-        "title_zh": "OpenAI 實地報告：Agentic AI 在科學計算中的應用",
+        "title_zh": "OpenAI 實地報告：代理式 AI 於科學計算",
         "summary_en": "OpenAI published an exploratory field report of eight case studies (mostly life sciences) showing how Codex and Claude Code agents helped modernize scientific software—from maintenance and optimization to large-scale migrations and redesigns.",
-        "summary_zh": "OpenAI 發布探索性實地報告，涵蓋八個案例（多為生命科學），展示 Codex 與 Claude Code agents 如何協助現代化科學軟體——從維護優化到大規模遷移與重新設計。",
-        "analysis_en": "The report usefully documents real velocity gains but correctly cautions that agents do not remove the need for scientific judgment or sustainable ownership models. Broader adoption will hinge on reproducibility and maintainer collaboration.",
-        "analysis_zh": "報告有用記錄了實際速度提升，但正確提醒 agents 無法取代科學判斷或可持續的擁有模式。更廣泛採用將取決於可重現性與維護者合作。",
+        "summary_zh": "OpenAI 發表探索性實地報告，涵蓋八個案例（多為生命科學），展示 Codex 與 Claude Code 代理如何協助現代化科學軟體——從維護優化到大規模遷移與重新設計。",
+        "analysis_en": "The report usefully documents real velocity gains but correctly cautions that agents do not remove the need for scientific judgment or sustainable ownership models. Broader adoption still hinges on domain-specific validation.",
+        "analysis_zh": "報告有用記錄了實際速度提升，但正確提醒代理無法取代科學判斷或永續擁有權模式。更廣泛採用仍取決於領域特定驗證。",
         "quote": "Across eight case studies spanning industry and academia, we explore what this shift means for scientific computing—and why human verification, stewardship, and long-term maintenance matter.",
         "quote_zh": "透過涵蓋產業與學術的八個案例，我們探討這項轉變對科學計算的意義——以及為何人類驗證、管理與長期維護至關重要。",
         "importance": 2,
         "first_seen": "2026-07-28T17:11:53Z",
-        "updated_at": "2026-07-29T22:35:01.802200+00:00",
+        "updated_at": "2026-07-30T04:35:01.641666+00:00",
         "links": [
+          {
+            "label": "OpenAI Research",
+            "url": "https://openai.com/research/"
+          },
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/scientific-computing-agentic-ai/"
@@ -346,16 +424,16 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic’s Claude Mythos Preview Finds Novel Cryptographic Attacks on HAWK and Reduced AES",
-        "title_zh": "Anthropic Claude Mythos Preview 發現 HAWK 與簡化 AES 的新密碼攻擊",
-        "summary_en": "Anthropic’s Frontier Red Team reported that Claude Mythos Preview autonomously discovered an improved key-recovery attack on the post-quantum signature scheme HAWK (halving effective strength, e.g. HAWK-256 from 2^64 to 2^38) and a Möbius Bridge technique that speeds reduced-round AES attacks by 200-800×. These advances do not affect production systems.",
-        "summary_zh": "Anthropic Frontier Red Team 報告，Claude Mythos Preview 自主發現後量子簽名方案 HAWK 的改進密鑰恢復攻擊（有效強度減半，HAWK-256 從 2^64 降至 2^38），以及 Möbius Bridge 技術使簡化輪數 AES 攻擊加速 200-800 倍。這些發現目前不影響生產系統。",
-        "analysis_en": "The results show frontier models can deliver genuine cryptanalytic progress under human guidance, opening defensive uses while highlighting longer-term risks of automated discovery outpacing defenses.",
-        "analysis_zh": "結果顯示前沿模型在人類指導下可貢獻真實密碼分析進展，帶來防禦機會，同時凸顯自動化發現可能超越防禦的長期風險。",
-        "quote": "Using Claude Mythos Preview, researchers at Anthropic have discovered improved ways to attack cryptographic algorithms... The first attack significantly weakens HAWK... The second identifies a new way to attack round-reduced AES.",
-        "quote_zh": "使用 Claude Mythos Preview，Anthropic 研究人員發現了攻擊密碼演算法的改進方法……第一次攻擊大幅削弱 HAWK……第二次找到攻擊簡化輪數 AES 的新方法。",
+        "title_zh": "Anthropic 的 Claude Mythos Preview 發現 HAWK 與精簡 AES 的新密碼攻擊",
+        "summary_en": "Anthropic’s Frontier Red Team reported that Claude Mythos Preview autonomously discovered an improved key-recovery attack on the post-quantum signature scheme HAWK (halving effective strength, e.g. HAWK-256 from 2^64 to 2^38) and a Möbius-based improvement on reduced-round AES. The work required ~60 hours and ~$100k of compute under light human guidance and does not break production systems.",
+        "summary_zh": "Anthropic 前沿紅隊報告，Claude Mythos Preview 在輕度人工引導下自主發現後量子簽名方案 HAWK 的改進金鑰恢復攻擊（有效強度減半，例如 HAWK-256 從 2^64 降至 2^38），以及精簡輪次 AES 的 Möbius 改進。整項工作約 60 小時、10 萬美元算力，目前不影響正式系統。",
+        "analysis_en": "The results show frontier models can deliver genuine cryptanalytic progress under human guidance, opening defensive uses while highlighting longer-term risks of automated discovery of weaknesses in post-quantum candidates.",
+        "analysis_zh": "結果顯示前沿模型在人工引導下可產出真正的密碼分析進展，開啟防禦用途，同時凸顯自動發現後量子候選弱點的長期風險。",
+        "quote": "To find the attack, Claude Mythos Preview worked semi-autonomously in an agentic harness, with occasional human guidance and nontechnical direction.",
+        "quote_zh": "為了找到攻擊，Claude Mythos Preview 在代理 harness 中半自主運作，偶爾接受人類引導與非技術方向。",
         "importance": 4,
         "first_seen": "2026-07-28T17:16:46Z",
-        "updated_at": "2026-07-29T22:35:01.802200+00:00",
+        "updated_at": "2026-07-30T04:35:01.641666+00:00",
         "links": [
           {
             "label": "Anthropic Research",
@@ -379,17 +457,21 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google Releases Lyria 3.5 Music Model with Better Vocals, Lyrics and Creative Control",
-        "title_zh": "Google 發布 Lyria 3.5 音樂模型，提升人聲、歌詞與創作控制",
+        "title_zh": "Google 發布 Lyria 3.5 音樂模型，提升人聲、歌詞與創意控制",
         "summary_en": "Google announced Lyria 3.5, its latest music-generation model now powering Google Flow Music. The update improves musicality, lyrics, vocals, tempo and duration control for more expressive and steerable generation.",
-        "summary_zh": "Google 宣布 Lyria 3.5，最新音樂生成模型，已在 Google Flow Music 推出。更新改進音樂性、歌詞、人聲、節奏與時長控制，使生成更富表達力且可操控。",
-        "analysis_en": "Incremental but practical advances in controllable music generation strengthen Google’s creative-media stack; competitive differentiation versus other audio models will depend on real-user quality and latency.",
-        "analysis_zh": "可控音樂生成的實用改進強化 Google 創作媒體堆疊；與其他音訊模型的差異化將取決於真實用戶品質與延遲。",
+        "summary_zh": "Google 宣布 Lyria 3.5，最新音樂生成模型，現已驅動 Google Flow Music。更新提升音樂性、歌詞、人聲、速度與時長控制，使生成更具表現力與可操控性。",
+        "analysis_en": "Incremental but practical advances in controllable music generation strengthen Google’s creative-media stack; competitive differentiation versus other audio models will depend on real-user creative workflows.",
+        "analysis_zh": "可控音樂生成的漸進實用進展強化 Google 創意媒體堆疊；與其他音訊模型的競爭差異將取決於真實使用者創意工作流。",
         "quote": "Meet Lyria 3.5, the newest music model from Google DeepMind, now powering Flow Music.",
         "quote_zh": "認識 Lyria 3.5，Google DeepMind 最新音樂模型，現已驅動 Flow Music。",
         "importance": 2,
         "first_seen": "2026-07-29T16:19:55Z",
-        "updated_at": "2026-07-29T22:35:01.802200+00:00",
+        "updated_at": "2026-07-30T04:35:01.641666+00:00",
         "links": [
+          {
+            "label": "Google DeepMind Blog",
+            "url": "https://deepmind.google/blog/"
+          },
           {
             "label": "Google Blog",
             "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/"
@@ -405,16 +487,16 @@
         "category": "xai",
         "source_type": "official_blog",
         "title_en": "xAI Releases Grok Voice Think Fast 2.0 with Improved Intelligence, Transcription and Agentic Performance",
-        "title_zh": "xAI 發布 Grok Voice Think Fast 2.0 新一代語音模型",
-        "summary_en": "xAI (via SpaceXAI) announced Grok Voice Think Fast 2.0, its next-generation voice model with gains in speech reasoning, conversational dynamics, and agentic tool use. It shows 1.5–2× better transcription accuracy versus prior SOTA and its predecessor, 0.70 s time-to-first-audio, and leads the Artificial Analysis τ-voice agentic bench. Available now in the API and Voice Agent Builder at $0.08 per minute of audio; the latest alias migrates on 5 August.",
-        "summary_zh": "xAI（SpaceXAI）宣布 Grok Voice Think Fast 2.0，提升智能、轉錄準確度（較前代 1.4×，嘈雜環境大幅改善）與對話能力。API 與 Voice Agent Builder 今日可用，定價每分鐘音訊 0.08 美元。",
-        "analysis_en": "Stronger full-duplex and agentic voice scores strengthen real-time use cases, especially noisy or tool-calling scenarios; sustained leadership versus peers will need ongoing independent benchmarks.",
-        "analysis_zh": "語音 agent 性能提升強化實時應用場景，特別是嘈雜與工具呼叫情境，但與競爭對手的持續領先仍需基準測試追蹤。",
+        "title_zh": "xAI 發布 Grok Voice Think Fast 2.0，提升智能、轉錄與代理表現",
+        "summary_en": "xAI (via SpaceXAI) announced Grok Voice Think Fast 2.0, its next-generation voice model with gains in speech reasoning, conversational dynamics, and agentic tool use. It shows 1.5–2× better transcription accuracy versus prior SOTA and its previous version, leads the Artificial Analysis Speech-to-Speech Quality Index at 82.9%, and scores 56.5% on the τ-voice agentic bench.",
+        "summary_zh": "xAI（透過 SpaceXAI）宣布 Grok Voice Think Fast 2.0，次世代語音模型在語音推理、對話動態與代理工具使用上皆有提升。轉錄準確率較先前 SOTA 與前代提升 1.5–2 倍，Artificial Analysis 語音品質指數以 82.9% 領先，τ-voice 代理基準達 56.5%。",
+        "analysis_en": "Stronger full-duplex and agentic voice scores strengthen real-time use cases, especially noisy or tool-calling scenarios; sustained leadership versus peers will need ongoing independent verification.",
+        "analysis_zh": "更強的全雙工與代理語音分數強化即時應用場景（尤其嘈雜或需呼叫工具時）；能否持續領先同業仍需獨立驗證。",
         "quote": "Announcing Grok Voice Think Fast 2.0, our next-generation voice model with improved intelligence, transcription accuracy, and conversational capabilities.",
-        "quote_zh": "宣布 Grok Voice Think Fast 2.0，我們的下一代語音模型，具備改進的智能、轉錄準確度與對話能力。",
+        "quote_zh": "宣布 Grok Voice Think Fast 2.0，我們的次世代語音模型，具備更佳智能、轉錄準確度與對話能力。",
         "importance": 4,
         "first_seen": "2026-07-29T18:10:46Z",
-        "updated_at": "2026-07-29T22:35:01.802200+00:00",
+        "updated_at": "2026-07-30T04:35:01.641666+00:00",
         "links": [
           {
             "label": "xAI News",
@@ -430,17 +512,21 @@
         "category": "frontier_other",
         "source_type": "mixed",
         "title_en": "1,100+ AI Lab Staff Petition US to Support Tools for Pacing Frontier Development",
-        "title_zh": "逾1,100名 AI 實驗室員工聯署籲美國支持 pacing 前沿發展工具",
-        "summary_en": "More than 1,100 current and former employees from OpenAI, Anthropic, Google, Meta and others signed the “Pacing the Frontier” statement asking the US government to support international technical and governance tools that could deliberately pace automated AI research. It is not a call for a moratorium.",
-        "summary_zh": "逾1,100名來自 OpenAI、Anthropic、Google、Meta 等現任與前任員工簽署「Pacing the Frontier」聲明，要求美國政府支持可刻意調節自動化 AI 研究前沿的國際技術與治理工具。並非要求暫停發展。",
-        "analysis_en": "The cross-lab staff consensus signals growing internal concern about recursive self-improvement risks while stopping short of a pause. Whether governments can build usable pacing mechanisms remains uncertain.",
-        "analysis_zh": "跨實驗室員工共識顯示對遞迴自我改進風險的內部關切加劇，但未主張暫停。政府能否建立可用的 pacing 機制仍不確定。",
+        "title_zh": "1,100+ AI 實驗室員工聯署請美國支持「節奏化」前沿發展的工具",
+        "summary_en": "More than 1,100 current and former employees from OpenAI, Anthropic, Google, Meta and others signed the “Pacing the Frontier” statement asking the US government to support international technical and governance tools that could deliberately slow or coordinate the most advanced AI development.",
+        "summary_zh": "超過 1,100 名來自 OpenAI、Anthropic、Google、Meta 等現任與前任員工簽署「Pacing the Frontier」聲明，呼籲美國政府支持可刻意放緩或協調最前沿 AI 發展的國際技術與治理工具。",
+        "analysis_en": "The cross-lab staff consensus signals growing internal concern about recursive self-improvement risks while stopping short of a pause. Whether governments can build usable pacing mechanisms remains highly uncertain.",
+        "analysis_zh": "跨實驗室員工共識顯示內部對遞迴自我改進風險的擔憂上升，但未要求全面暫停。政府能否建立可用的節奏機制仍高度不確定。",
         "quote": "support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.",
         "quote_zh": "支持國際努力，開發可刻意調節自動化 AI 發展前沿所需的技術與治理工具。",
         "importance": 4,
         "first_seen": "2026-07-28T20:56:52Z",
-        "updated_at": "2026-07-29T22:35:01.802200+00:00",
+        "updated_at": "2026-07-30T04:35:01.641666+00:00",
         "links": [
+          {
+            "label": "Pacing the Frontier statement",
+            "url": "https://pacingthefrontier.org"
+          },
           {
             "label": "Pacing the Frontier statement",
             "url": "https://www.pacingthefrontier.com/"
@@ -457,7 +543,7 @@
       }
     ]
   },
-  "brief_en": "OpenAI launched free frontier-model access for up to 100k academic researchers and detailed GPT-5.6 self-optimizations cutting serving costs 20%. xAI shipped Grok Voice Think Fast 2.0 with strong transcription and agentic gains. Google released Lyria 3.5 music model. Earlier: Anthropic Mythos crypto advances, cross-lab pacing petition, OpenAI Codex Security CLI and scientific-agent field report.",
-  "brief_zh": "OpenAI 推出最高10萬名學術研究者免費前沿模型存取，並展示GPT-5.6自我優化降成本20%。xAI發布Grok Voice Think Fast 2.0語音模型。Google推出Lyria 3.5音樂模型。另有Anthropic Mythos密碼學發現、跨lab pacing聯署、OpenAI Codex Security CLI與科學agent報告。",
-  "updated_at": "2026-07-29T22:35:01.802200+00:00"
+  "brief_en": "OpenAI expanded free frontier-model access for up to 100,000 academic researchers, detailed GPT-5.6 Sol self-optimizations that cut serving costs 20% and improved token efficiency >15%, and showed two API settings tripling ARC-AGI-3 scores; xAI released Grok Voice Think Fast 2.0 with major transcription and agentic gains; Google shipped Lyria 3.5; earlier Anthropic cryptanalysis and the cross-lab pacing petition remain notable.",
+  "brief_zh": "OpenAI 擴大學術研究者免費前沿模型存取至 10 萬人、揭露 GPT-5.6 Sol 自優化降服務成本 20% 並提升 token 效率逾 15%、展示兩項 API 設定讓 ARC-AGI-3 分數三倍；xAI 推出 Grok Voice Think Fast 2.0 大幅提升轉錄與代理能力；Google 更新 Lyria 3.5；先前 Anthropic 密碼分析與跨實驗室 pacing 請願仍為重點。",
+  "updated_at": "2026-07-30T04:35:01.641666+00:00"
 }
