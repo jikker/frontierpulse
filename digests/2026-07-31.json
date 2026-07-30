@@ -8,6 +8,14 @@
       "item_count": 1,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-07-30T22:35:01.105602+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 2,
+      "updated_count": 1,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -17,30 +25,93 @@
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google DeepMind launches Gemini Robotics 2 for whole-body humanoid control and multi-robot collaboration",
-      "title_zh": "Google DeepMind 發布 Gemini Robotics 2：實現人形機器人全身控制與多機器人協作",
-      "summary_en": "Google DeepMind announced Gemini Robotics 2, a family of models enabling intelligent whole-body control for humanoids from feet to fingertips, advanced dexterity, and multi-robot teamwork. It includes the vision-language-action model Gemini Robotics 2, the embodied reasoning model Gemini Robotics ER 2 (available in public preview on Google AI Studio), and the on-device adaptive Gemini Robotics On-Device 2.",
-      "summary_zh": "Google DeepMind 宣布推出 Gemini Robotics 2 模型家族，為人形機器人提供從腳到指尖的全身智能控制、高靈巧度操作，以及多機器人協作能力。包含視覺-語言-動作模型 Gemini Robotics 2、具身推理模型 Gemini Robotics ER 2（已在 Google AI Studio 公開預覽），以及可本地運行並快速適應新機體的 On-Device 2。",
-      "analysis_en": "This advances physical AI beyond tabletop tasks toward general-purpose robots usable in homes and workplaces. Key uncertainty remains real-world robustness, safety in unstructured environments, and how quickly partners can integrate the models into production hardware.",
-      "analysis_zh": "此舉將物理 AI 從桌面任務推進至可實際應用於家庭與工作場所的通用機器人。關鍵不確定性包括真實世界穩健性、非結構化環境安全，以及合作夥伴將模型整合至量產硬體的速度。",
+      "title_zh": "Google DeepMind 推出 Gemini Robotics 2，實現人形機器人全身控制、靈巧操作與多機協作",
+      "summary_en": "Google DeepMind announced Gemini Robotics 2, a family of models for intelligent whole-body control of humanoids from feet to fingertips, advanced dexterity, and multi-robot teamwork. It comprises the vision-language-action model Gemini Robotics 2 (full humanoid and bi-arm control), Gemini Robotics ER 2 (embodied reasoning VLM for multi-step planning and multi-robot collaboration, available in Google AI Studio), and Gemini Robotics On-Device 2 (local VLA that adapts to new embodiments in hours).",
+      "summary_zh": "Google DeepMind 宣布推出 Gemini Robotics 2 系列模型，實現人形機器人從腳到指尖的智能全身控制、高靈巧度與多機器人協作。包含先進 VLA 模型 Gemini Robotics 2（全身與雙臂控制）、具身推理模型 Gemini Robotics ER 2（多步驟規劃與多機協作，已於 Google AI Studio 開放），以及可本地運行並在數小時內適配新機體的 On-Device 2。",
+      "analysis_en": "This advances physical AI beyond tabletop tasks toward general-purpose robots usable in homes and workplaces. Key uncertainty remains real-world robustness, safety in unstructured environments, and how quickly the models generalize without extensive per-robot fine-tuning.",
+      "analysis_zh": "這將實體 AI 從桌面任務推向家用與職場通用機器人。關鍵不確定性在於真實非結構化環境的穩健性、安全性，以及模型在無需大量個別微調下的泛化速度。",
       "quote": "From feet to fingertips — we are teaching robots intelligent whole-body control, fine dexterity, and teamwork to complete a broad range of complex tasks",
-      "quote_zh": "從腳到指尖——我們正在教導機器人具備智能全身控制、精細靈巧度與團隊合作，以完成廣泛複雜任務",
+      "quote_zh": "從腳到指尖——我們正在教導機器人智能全身控制、精細靈巧度與團隊合作，以完成廣泛的複雜任務",
       "importance": 5,
       "first_seen": "2026-07-30T15:02:00Z",
-      "updated_at": "2026-07-30T16:35:01.729481+00:00",
+      "updated_at": "2026-07-30T22:35:01.105602+00:00",
       "links": [
         {
           "label": "Google DeepMind Blog",
           "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
         },
         {
+          "label": "Gemini Robotics models page",
+          "url": "https://deepmind.google/models/gemini-robotics/"
+        },
+        {
+          "label": "Google DeepMind on X",
+          "url": "https://x.com/GoogleDeepMind/status/2082844165570798071"
+        },
+        {
           "label": "Google DeepMind on X",
           "url": "https://x.com/GoogleDeepMind/status/2082844162928381956"
+        }
+      ]
+    },
+    {
+      "id": "openai-gpt56-price-cuts-2026-07-30",
+      "story_id": "openai-gpt56-price-cuts-2026-07-30",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI cuts GPT-5.6 Luna prices by 80% and Terra by 20%, adds Fast mode for Sol",
+      "title_zh": "OpenAI 大幅調降 GPT-5.6 Luna 價格 80%、Terra 20%，並為 Sol 推出 Fast 模式",
+      "summary_en": "OpenAI announced major API price reductions for the GPT-5.6 family effective immediately: Luna drops 80% to $0.20 input / $1.20 output per million tokens, Terra drops 20% to $2 / $12. Fast mode for flagship Sol delivers up to 2.5× speed at 2× price with unchanged intelligence. The cuts reflect efficiency gains (20% lower serving costs, 15%+ better token efficiency) achieved by applying Sol to optimize its own runtime; Auto-review in ChatGPT and Codex is also upgraded to Luna for roughly 10× lower cost.",
+      "summary_zh": "OpenAI 宣布自今日起大幅調降 GPT-5.6 系列 API 價格：Luna 降 80% 至每百萬 token $0.20/$1.20，Terra 降 20% 至 $2/$12。旗艦 Sol 新增 Fast 模式，最高 2.5 倍速度、價格 2 倍，智能不變。降價來自 Sol 自我優化帶來的服務成本降低 20% 與 token 效率提升 15% 以上；ChatGPT 與 Codex 的 Auto-review 亦升級至 Luna，成本約降 10 倍。",
+      "analysis_en": "OpenAI is passing self-optimization gains directly to users, intensifying price competition at the mid- and low-cost tiers. The change makes high-volume agentic and everyday workloads far more accessible while leaving Sol’s capability and list price unchanged; sustained impact depends on whether rivals match the new price-performance curve.",
+      "analysis_zh": "OpenAI 將模型自我優化成果直接回饋用戶，強化中低階模型的價格競爭力。改變在於高流量代理與日常工作變得更可負擔，同時旗艦 Sol 能力與定價不變；持續影響取決於競爭對手是否跟進新的性價比曲線。",
+      "quote": "Starting today, we are reducing prices for GPT-5.6 Luna by 80% and GPT-5.6 Terra by 20%, and offering a faster option for GPT-5.6 Sol in the API.",
+      "quote_zh": "自今日起，我們將 GPT-5.6 Luna 價格調降 80%、Terra 調降 20%，並為 GPT-5.6 Sol 在 API 中提供更快選項。",
+      "importance": 4,
+      "first_seen": "2026-07-30T17:17:00Z",
+      "updated_at": "2026-07-30T22:35:01.105602+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2082878156483219672"
         }
       ]
     }
   ],
   "categories": {
-    "openai": [],
+    "openai": [
+      {
+        "id": "openai-gpt56-price-cuts-2026-07-30",
+        "story_id": "openai-gpt56-price-cuts-2026-07-30",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI cuts GPT-5.6 Luna prices by 80% and Terra by 20%, adds Fast mode for Sol",
+        "title_zh": "OpenAI 大幅調降 GPT-5.6 Luna 價格 80%、Terra 20%，並為 Sol 推出 Fast 模式",
+        "summary_en": "OpenAI announced major API price reductions for the GPT-5.6 family effective immediately: Luna drops 80% to $0.20 input / $1.20 output per million tokens, Terra drops 20% to $2 / $12. Fast mode for flagship Sol delivers up to 2.5× speed at 2× price with unchanged intelligence. The cuts reflect efficiency gains (20% lower serving costs, 15%+ better token efficiency) achieved by applying Sol to optimize its own runtime; Auto-review in ChatGPT and Codex is also upgraded to Luna for roughly 10× lower cost.",
+        "summary_zh": "OpenAI 宣布自今日起大幅調降 GPT-5.6 系列 API 價格：Luna 降 80% 至每百萬 token $0.20/$1.20，Terra 降 20% 至 $2/$12。旗艦 Sol 新增 Fast 模式，最高 2.5 倍速度、價格 2 倍，智能不變。降價來自 Sol 自我優化帶來的服務成本降低 20% 與 token 效率提升 15% 以上；ChatGPT 與 Codex 的 Auto-review 亦升級至 Luna，成本約降 10 倍。",
+        "analysis_en": "OpenAI is passing self-optimization gains directly to users, intensifying price competition at the mid- and low-cost tiers. The change makes high-volume agentic and everyday workloads far more accessible while leaving Sol’s capability and list price unchanged; sustained impact depends on whether rivals match the new price-performance curve.",
+        "analysis_zh": "OpenAI 將模型自我優化成果直接回饋用戶，強化中低階模型的價格競爭力。改變在於高流量代理與日常工作變得更可負擔，同時旗艦 Sol 能力與定價不變；持續影響取決於競爭對手是否跟進新的性價比曲線。",
+        "quote": "Starting today, we are reducing prices for GPT-5.6 Luna by 80% and GPT-5.6 Terra by 20%, and offering a faster option for GPT-5.6 Sol in the API.",
+        "quote_zh": "自今日起，我們將 GPT-5.6 Luna 價格調降 80%、Terra 調降 20%，並為 GPT-5.6 Sol 在 API 中提供更快選項。",
+        "importance": 4,
+        "first_seen": "2026-07-30T17:17:00Z",
+        "updated_at": "2026-07-30T22:35:01.105602+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2082878156483219672"
+          }
+        ]
+      }
+    ],
     "anthropic": [],
     "google": [
       {
@@ -49,20 +120,28 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google DeepMind launches Gemini Robotics 2 for whole-body humanoid control and multi-robot collaboration",
-        "title_zh": "Google DeepMind 發布 Gemini Robotics 2：實現人形機器人全身控制與多機器人協作",
-        "summary_en": "Google DeepMind announced Gemini Robotics 2, a family of models enabling intelligent whole-body control for humanoids from feet to fingertips, advanced dexterity, and multi-robot teamwork. It includes the vision-language-action model Gemini Robotics 2, the embodied reasoning model Gemini Robotics ER 2 (available in public preview on Google AI Studio), and the on-device adaptive Gemini Robotics On-Device 2.",
-        "summary_zh": "Google DeepMind 宣布推出 Gemini Robotics 2 模型家族，為人形機器人提供從腳到指尖的全身智能控制、高靈巧度操作，以及多機器人協作能力。包含視覺-語言-動作模型 Gemini Robotics 2、具身推理模型 Gemini Robotics ER 2（已在 Google AI Studio 公開預覽），以及可本地運行並快速適應新機體的 On-Device 2。",
-        "analysis_en": "This advances physical AI beyond tabletop tasks toward general-purpose robots usable in homes and workplaces. Key uncertainty remains real-world robustness, safety in unstructured environments, and how quickly partners can integrate the models into production hardware.",
-        "analysis_zh": "此舉將物理 AI 從桌面任務推進至可實際應用於家庭與工作場所的通用機器人。關鍵不確定性包括真實世界穩健性、非結構化環境安全，以及合作夥伴將模型整合至量產硬體的速度。",
+        "title_zh": "Google DeepMind 推出 Gemini Robotics 2，實現人形機器人全身控制、靈巧操作與多機協作",
+        "summary_en": "Google DeepMind announced Gemini Robotics 2, a family of models for intelligent whole-body control of humanoids from feet to fingertips, advanced dexterity, and multi-robot teamwork. It comprises the vision-language-action model Gemini Robotics 2 (full humanoid and bi-arm control), Gemini Robotics ER 2 (embodied reasoning VLM for multi-step planning and multi-robot collaboration, available in Google AI Studio), and Gemini Robotics On-Device 2 (local VLA that adapts to new embodiments in hours).",
+        "summary_zh": "Google DeepMind 宣布推出 Gemini Robotics 2 系列模型，實現人形機器人從腳到指尖的智能全身控制、高靈巧度與多機器人協作。包含先進 VLA 模型 Gemini Robotics 2（全身與雙臂控制）、具身推理模型 Gemini Robotics ER 2（多步驟規劃與多機協作，已於 Google AI Studio 開放），以及可本地運行並在數小時內適配新機體的 On-Device 2。",
+        "analysis_en": "This advances physical AI beyond tabletop tasks toward general-purpose robots usable in homes and workplaces. Key uncertainty remains real-world robustness, safety in unstructured environments, and how quickly the models generalize without extensive per-robot fine-tuning.",
+        "analysis_zh": "這將實體 AI 從桌面任務推向家用與職場通用機器人。關鍵不確定性在於真實非結構化環境的穩健性、安全性，以及模型在無需大量個別微調下的泛化速度。",
         "quote": "From feet to fingertips — we are teaching robots intelligent whole-body control, fine dexterity, and teamwork to complete a broad range of complex tasks",
-        "quote_zh": "從腳到指尖——我們正在教導機器人具備智能全身控制、精細靈巧度與團隊合作，以完成廣泛複雜任務",
+        "quote_zh": "從腳到指尖——我們正在教導機器人智能全身控制、精細靈巧度與團隊合作，以完成廣泛的複雜任務",
         "importance": 5,
         "first_seen": "2026-07-30T15:02:00Z",
-        "updated_at": "2026-07-30T16:35:01.729481+00:00",
+        "updated_at": "2026-07-30T22:35:01.105602+00:00",
         "links": [
           {
             "label": "Google DeepMind Blog",
             "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+          },
+          {
+            "label": "Gemini Robotics models page",
+            "url": "https://deepmind.google/models/gemini-robotics/"
+          },
+          {
+            "label": "Google DeepMind on X",
+            "url": "https://x.com/GoogleDeepMind/status/2082844165570798071"
           },
           {
             "label": "Google DeepMind on X",
@@ -75,7 +154,7 @@
     "xai": [],
     "frontier_other": []
   },
-  "brief_en": "Google DeepMind launched Gemini Robotics 2, enabling whole-body humanoid control, advanced dexterity, multi-robot collaboration and on-device adaptation. Quiet otherwise across OpenAI, Anthropic, Meta, xAI and open-source labs in the last 12 hours.",
-  "brief_zh": "Google DeepMind 推出 Gemini Robotics 2，實現人形機器人全身控制、高靈巧度、多機協作與本地適配。過去12小時其他大廠官方重大動態平靜。",
-  "updated_at": "2026-07-30T16:35:01.729481+00:00"
+  "brief_en": "Google DeepMind launches Gemini Robotics 2 enabling whole-body humanoid control, advanced dexterity and multi-robot collaboration. OpenAI cuts GPT-5.6 Luna prices 80% and Terra 20%, adds Fast mode for Sol after efficiency gains from the model itself.",
+  "brief_zh": "Google DeepMind 推出 Gemini Robotics 2，實現人形機器人全身控制、靈巧操作與多機協作。OpenAI 大幅調降 GPT-5.6 Luna 價格 80%、Terra 20%，並為 Sol 新增 Fast 模式。",
+  "updated_at": "2026-07-30T22:35:01.105602+00:00"
 }
