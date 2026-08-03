@@ -8,18 +8,136 @@
       "item_count": 0,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-08-03T22:35:02.127727+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 2,
+      "updated_count": 0,
+      "kept_count": 0
     }
   ],
-  "items_flat": [],
+  "items_flat": [
+    {
+      "id": "openai-gpt-live-continuous-voice-2026-08-03",
+      "story_id": "openai-gpt-live-continuous-voice-2026-08-03",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI Rebuilds GPT-Live for Full-Duplex Continuous Voice",
+      "title_zh": "OpenAI 重建 GPT-Live：實現全雙工持續語音互動",
+      "summary_en": "OpenAI published a detailed engineering post on its third-generation GPT-Live voice system. The model is now full-duplex—it can listen and speak simultaneously—removing the old turn detector from the audio path. Deeper reasoning and tool use run asynchronously so conversation flow is never interrupted; session startup latency was cut from six network round-trips to one.",
+      "summary_zh": "OpenAI 發布第三代 GPT-Live 語音系統工程詳述。模型現為全雙工，可同時聽與說，並移除音訊路徑中的輪流偵測器。更深層推理與工具使用改為非同步進行，對話流暢不中斷；語音 session 啟動延遲從六次網路往返降至一次。",
+      "analysis_en": "This architecture brings ChatGPT Voice meaningfully closer to natural human conversation and long-running agentic use. Real-world performance under concurrent heavy tool calls and multi-user scale remains the key uncertainty.",
+      "analysis_zh": "此架構讓 ChatGPT Voice 更接近真人對話與長時 agent 使用。高負載並發工具呼叫與多用戶規模下的實際延遲與穩定性仍是關鍵不確定性。",
+      "quote": "GPT-Live, our third-generation voice system, removes the turn detector from the audio path. Its voice model is full-duplex, which means it can listen and speak at the same time.",
+      "quote_zh": "GPT-Live 是我們的第三代語音系統，它從音訊路徑中移除了輪流偵測器。其語音模型是全雙工的，意味著它可以同時聽與說。",
+      "importance": 4,
+      "first_seen": "2026-08-03T20:38:34Z",
+      "updated_at": "2026-08-03T22:35:02.127727+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2084378415818579975"
+        }
+      ]
+    },
+    {
+      "id": "openai-astra-ten-math-advances-2026-08-03",
+      "story_id": "openai-astra-ten-math-advances-2026-08-03",
+      "category": "openai",
+      "source_type": "mixed",
+      "title_en": "OpenAI Releases Lean Proofs of 10 Math Advances from Internal Astra Model",
+      "title_zh": "OpenAI 公開內部 Astra 模型解決的 10 項數學進展 Lean 證明",
+      "summary_en": "OpenAI released manuscripts, formal Lean certificates and reasoning walkthroughs for ten new results on long-standing open problems in mathematics and theoretical computer science. The results were produced by an internal version of Astra, the company’s next major model, at roughly $2,000 of GPT-5.6 Sol API cost. Problems span sphere packing, non-sofic groups, coding theory, quantum complexity and several Erdős questions.",
+      "summary_zh": "OpenAI 公開了十項數學與理論計算機科學長期開放問題的新結果手稿、正式 Lean 證明與推理過程。這些結果由公司下一主要模型 Astra 的內部版本產出，成本約相當於 2,000 美元的 GPT-5.6 Sol API 用量。涵蓋球堆積、非 sofic 群、編碼理論、量子複雜度及多個 Erdős 問題。",
+      "analysis_en": "Public release of machine-generated, formally verified proofs on decade-old open problems is a notable capability signal for the upcoming model. Independent mathematical community scrutiny of the Lean certificates will determine how much lasting scientific value they carry.",
+      "analysis_zh": "公開機器生成且經形式驗證的長期難題證明，是下一模型能力的重要訊號。數學社群對 Lean 證明的獨立審查，將決定這些結果的長期科學價值。",
+      "quote": "An internal version of our next major model produced 10 new results on long-standing open problems in mathematics and theoretical computer science, using roughly $2,000 worth of tokens at GPT-5.6 Sol API rates.",
+      "quote_zh": "我們下一主要模型的內部版本，以大約相當於 GPT-5.6 Sol API 2,000 美元的 token 用量，在數學與理論計算機科學的長期開放問題上產出 10 項新結果。",
+      "importance": 4,
+      "first_seen": "2026-08-03T18:54:15Z",
+      "updated_at": "2026-08-03T22:35:02.127727+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/ten-advances-in-mathematics/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2084352161404920316"
+        }
+      ]
+    }
+  ],
   "categories": {
-    "openai": [],
+    "openai": [
+      {
+        "id": "openai-gpt-live-continuous-voice-2026-08-03",
+        "story_id": "openai-gpt-live-continuous-voice-2026-08-03",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI Rebuilds GPT-Live for Full-Duplex Continuous Voice",
+        "title_zh": "OpenAI 重建 GPT-Live：實現全雙工持續語音互動",
+        "summary_en": "OpenAI published a detailed engineering post on its third-generation GPT-Live voice system. The model is now full-duplex—it can listen and speak simultaneously—removing the old turn detector from the audio path. Deeper reasoning and tool use run asynchronously so conversation flow is never interrupted; session startup latency was cut from six network round-trips to one.",
+        "summary_zh": "OpenAI 發布第三代 GPT-Live 語音系統工程詳述。模型現為全雙工，可同時聽與說，並移除音訊路徑中的輪流偵測器。更深層推理與工具使用改為非同步進行，對話流暢不中斷；語音 session 啟動延遲從六次網路往返降至一次。",
+        "analysis_en": "This architecture brings ChatGPT Voice meaningfully closer to natural human conversation and long-running agentic use. Real-world performance under concurrent heavy tool calls and multi-user scale remains the key uncertainty.",
+        "analysis_zh": "此架構讓 ChatGPT Voice 更接近真人對話與長時 agent 使用。高負載並發工具呼叫與多用戶規模下的實際延遲與穩定性仍是關鍵不確定性。",
+        "quote": "GPT-Live, our third-generation voice system, removes the turn detector from the audio path. Its voice model is full-duplex, which means it can listen and speak at the same time.",
+        "quote_zh": "GPT-Live 是我們的第三代語音系統，它從音訊路徑中移除了輪流偵測器。其語音模型是全雙工的，意味著它可以同時聽與說。",
+        "importance": 4,
+        "first_seen": "2026-08-03T20:38:34Z",
+        "updated_at": "2026-08-03T22:35:02.127727+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2084378415818579975"
+          }
+        ]
+      },
+      {
+        "id": "openai-astra-ten-math-advances-2026-08-03",
+        "story_id": "openai-astra-ten-math-advances-2026-08-03",
+        "category": "openai",
+        "source_type": "mixed",
+        "title_en": "OpenAI Releases Lean Proofs of 10 Math Advances from Internal Astra Model",
+        "title_zh": "OpenAI 公開內部 Astra 模型解決的 10 項數學進展 Lean 證明",
+        "summary_en": "OpenAI released manuscripts, formal Lean certificates and reasoning walkthroughs for ten new results on long-standing open problems in mathematics and theoretical computer science. The results were produced by an internal version of Astra, the company’s next major model, at roughly $2,000 of GPT-5.6 Sol API cost. Problems span sphere packing, non-sofic groups, coding theory, quantum complexity and several Erdős questions.",
+        "summary_zh": "OpenAI 公開了十項數學與理論計算機科學長期開放問題的新結果手稿、正式 Lean 證明與推理過程。這些結果由公司下一主要模型 Astra 的內部版本產出，成本約相當於 2,000 美元的 GPT-5.6 Sol API 用量。涵蓋球堆積、非 sofic 群、編碼理論、量子複雜度及多個 Erdős 問題。",
+        "analysis_en": "Public release of machine-generated, formally verified proofs on decade-old open problems is a notable capability signal for the upcoming model. Independent mathematical community scrutiny of the Lean certificates will determine how much lasting scientific value they carry.",
+        "analysis_zh": "公開機器生成且經形式驗證的長期難題證明，是下一模型能力的重要訊號。數學社群對 Lean 證明的獨立審查，將決定這些結果的長期科學價值。",
+        "quote": "An internal version of our next major model produced 10 new results on long-standing open problems in mathematics and theoretical computer science, using roughly $2,000 worth of tokens at GPT-5.6 Sol API rates.",
+        "quote_zh": "我們下一主要模型的內部版本，以大約相當於 GPT-5.6 Sol API 2,000 美元的 token 用量，在數學與理論計算機科學的長期開放問題上產出 10 項新結果。",
+        "importance": 4,
+        "first_seen": "2026-08-03T18:54:15Z",
+        "updated_at": "2026-08-03T22:35:02.127727+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/ten-advances-in-mathematics/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2084352161404920316"
+          }
+        ]
+      }
+    ],
     "anthropic": [],
     "google": [],
     "meta": [],
     "xai": [],
     "frontier_other": []
   },
-  "brief_en": "Quiet day across frontier AI labs. No major official announcements, model releases, product launches or high-signal developments from OpenAI, Anthropic, Google DeepMind, Meta, xAI or notable open-source players in the last 12 hours.",
-  "brief_zh": "今日AI大廠平靜。過去12小時OpenAI、Anthropic、Google DeepMind、Meta、xAI等無重大官方公告、新模型發布或高訊號動態。",
-  "updated_at": "2026-08-03T16:35:02.034903+00:00"
+  "brief_en": "Quiet day across frontier labs. OpenAI detailed a full-duplex GPT-Live voice architecture rebuild enabling continuous listen-and-speak, plus released Lean-verified proofs from an internal next-model (Astra) solving 10 long-open math problems. No other major official announcements or model releases from Anthropic, Google, Meta, xAI or open-source players.",
+  "brief_zh": "今日大廠動態平靜。OpenAI 詳述 GPT-Live 全雙工語音架構重建（可同時聽與說、非同步推理），並公開內部下一模型 Astra 解決的 10 項長期數學難題與 Lean 證明。Anthropic、Google、Meta、xAI 等無重大官方新公告或模型發布。",
+  "updated_at": "2026-08-03T22:35:02.127727+00:00"
 }
