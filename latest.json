@@ -24,6 +24,14 @@
       "item_count": 4,
       "updated_count": 2,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-08-04T10:35:01.399026+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 6,
+      "updated_count": 4,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -33,16 +41,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI Rebuilds GPT-Live for Full-Duplex Continuous Voice",
-      "title_zh": "OpenAI 重建 GPT-Live：全雙工連續語音，邊聽邊說不再卡",
-      "summary_en": "OpenAI published a detailed engineering post on its third-generation GPT-Live voice system. The model is now full-duplex—it can listen and speak simultaneously—removing the old turn detector from the audio path. Deeper reasoning and tool use run asynchronously so the conversation never interrupts.",
-      "summary_zh": "OpenAI 發布第三代 GPT-Live 語音系統詳細工程文。模型改為全雙工，可同時聽與說，音訊路徑移除舊有 turn detector。更深層推理與工具呼叫改為非同步處理，確保對話不中斷。",
-      "analysis_en": "This architecture brings ChatGPT Voice meaningfully closer to natural human conversation and long-running agentic use. Real-world performance under concurrent heavy tool calls and network variability remains the key uncertainty to watch.",
-      "analysis_zh": "這架構讓 ChatGPT Voice 明顯更接近真人自然對話與長時間 agent 使用。在同時大量工具呼叫與網路波動下的真實表現，仍是需觀察的關鍵不確定性。",
+      "title_zh": "OpenAI重建GPT-Live實現全雙工連續語音",
+      "summary_en": "OpenAI published a detailed engineering post on its third-generation GPT-Live voice system. The model is now full-duplex—it can listen and speak simultaneously—removing the old turn detector from the audio path. Deeper reasoning and tool use run asynchronously so conversations stay continuous; session startup dropped from six network round-trips to one.",
+      "summary_zh": "OpenAI發表第三代GPT-Live語音系統工程文。模型現為全雙工，可同時聽與說，從音訊路徑移除舊轉折偵測器。更深推理與工具使用非同步進行，對話保持連續；連線啟動從六次網路來回降至一次。",
+      "analysis_en": "This architecture brings ChatGPT Voice meaningfully closer to natural human conversation and long-running agentic use. Real-world performance under concurrent heavy tool calls and multi-minute sessions remains the key open question.",
+      "analysis_zh": "此架構讓ChatGPT語音更接近自然人類對話與長時程代理使用。並發重度工具呼叫與多分鐘會話下的真實表現仍是關鍵未知數。",
       "quote": "GPT‑Live, our third-generation voice system, removes the turn detector from the audio path. Its voice model is full-duplex, which means it can listen and speak at the same time.",
-      "quote_zh": "「GPT-Live 是我們的第三代語音系統，從音訊路徑移除了 turn detector。其語音模型是全雙工的，意即能同時聽與說。」",
+      "quote_zh": "GPT-Live，我們的第三代語音系統，從音訊路徑移除轉折偵測器。其語音模型為全雙工，意即可同時聽與說。",
       "importance": 4,
       "first_seen": "2026-08-03T20:38:34Z",
-      "updated_at": "2026-08-04T04:35:01.880802+00:00",
+      "updated_at": "2026-08-04T10:35:01.399026+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -60,16 +68,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI Releases Lean Proofs of 10 Math Advances from Internal Astra Model",
-      "title_zh": "OpenAI 公開內部 Astra 模型產出的 10 項數學突破 Lean 證明",
-      "summary_en": "OpenAI released manuscripts, formal Lean certificates and reasoning walkthroughs for ten new results on long-standing open problems in mathematics and theoretical computer science. The results were produced by an internal version of Astra, its next major model, at roughly $2,000 token cost.",
-      "summary_zh": "OpenAI 發布 10 項長期未解數學與理論資科問題的新結果手稿、正式 Lean 證明證書與推理過程。這些由內部 Astra（下一代主力模型）產出，token 成本約 2,000 美元。",
+      "title_zh": "OpenAI公開內部Astra模型產出的10項數學Lean證明",
+      "summary_en": "OpenAI released manuscripts, formal Lean certificates and reasoning walkthroughs for ten new results on long-standing open problems in mathematics and theoretical computer science. The results were produced by an internal version of Astra using roughly $2,000 of tokens at GPT-5.6 Sol rates and span sphere packing, non-sofic groups, quantum complexity and more.",
+      "summary_zh": "OpenAI公開十項數學與理論計算機科學長期未解問題的手稿、形式Lean證明與推理說明。結果由內部Astra版本產出，約耗GPT-5.6 Sol費率2,000美元token，涵蓋球體堆積、非sofic群、量子複雜度等。",
       "analysis_en": "Public release of machine-generated, formally verified proofs on decade-old open problems is a notable capability signal for the upcoming model. Independent mathematical community verification will determine lasting impact.",
-      "analysis_zh": "公開機器生成且經形式驗證的十年級開放問題證明，是下一代模型能力的重要信號。數學社群獨立驗證將決定其長期影響力。",
+      "analysis_zh": "機器生成並經形式驗證的十年級未解問題證明公開，是即將到來模型的重要能力訊號。數學社群獨立驗證將決定其長久影響。",
       "quote": "An internal version of our next major model produced 10 new results on long-standing open problems in mathematics and theoretical computer science, using roughly $2,000 worth of tokens at GPT-5.6 Sol API rates.",
-      "quote_zh": "「我們下一代主力模型的內部版本，以約 2,000 美元的 GPT-5.6 Sol API token 成本，產出 10 項長期未解的數學與理論資科新結果。」",
+      "quote_zh": "我們下一代主要模型的內部版本，以約GPT-5.6 Sol API費率2,000美元的token，產出數學與理論計算機科學十項長期未解問題的新結果。",
       "importance": 4,
       "first_seen": "2026-08-03T18:54:15Z",
-      "updated_at": "2026-08-04T04:35:01.880802+00:00",
+      "updated_at": "2026-08-04T10:35:01.399026+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -87,24 +95,28 @@
       "category": "frontier_other",
       "source_type": "news",
       "title_en": "White House Finalizes Voluntary Frontier AI Cybersecurity Testing Framework; Meets Labs Today",
-      "title_zh": "白宮敲定自願前沿 AI 資安測試框架，今日與大廠會面",
-      "summary_en": "The White House has finalized a voluntary framework for cybersecurity testing of advanced U.S. AI models and invited OpenAI, Anthropic, Google, Meta and others to discuss it on 4 August. The process stems from a June executive order and would allow pre-release model access for up to 30 days.",
-      "summary_zh": "白宮已敲定先進美國 AI 模型的自願資安測試框架，並邀請 OpenAI、Anthropic、Google、Meta 等今日會面討論。此框架源於 6 月行政命令，允許發布前最多 30 天模型存取。",
-      "analysis_en": "This marks the first concrete post-order step toward structured government evaluation of frontier cyber capabilities. Details of benchmarks and reporting remain undisclosed, so practical impact on release timelines is still uncertain.",
-      "analysis_zh": "這是行政命令後首個具體政府評估前沿網路能力的步驟。基準與報告細節仍未公開，對實際發布時程的影響尚不確定。",
+      "title_zh": "白宮敲定自願前沿AI資安測試框架；今日與大廠會面",
+      "summary_en": "The White House has finalized a voluntary framework for cybersecurity testing of advanced U.S. AI models and invited OpenAI, Anthropic, Google, Meta and others to discuss it on 4 August. The process stems from a June executive order and would allow participating developers to provide covered frontier models to the government for up to 30 days of pre-release access under confidentiality protections; benchmarks remain classified.",
+      "summary_zh": "白宮已敲定先進美國AI模型資安測試自願框架，並邀請OpenAI、Anthropic、Google、Meta等今日（8月4日）討論。此流程源自六月行政命令，參與開發者可在保密保護下，於正式發布前最多30天提供涵蓋的前沿模型供政府存取；基準仍屬機密。",
+      "analysis_en": "This marks the first concrete post-order step toward structured government evaluation of frontier cyber capabilities. Details of benchmarks and reporting remain undisclosed, so practical impact and industry uptake are still uncertain.",
+      "analysis_zh": "這是行政命令後首個具體步驟，朝向結構化政府評估前沿網路能力。基準與報告細節仍未公開，實際影響與業界採納程度仍不確定。",
       "quote": "The Trump administration has finalized the details of voluntary cybersecurity tests to measure the hacking capabilities of the most advanced American AI models, and is planning to discuss them with the AI industry.",
       "quote_zh": "「川普政府已敲定用來衡量最先進美國 AI 模型駭客能力的自願資安測試細節，並計畫與 AI 產業討論。」",
       "importance": 4,
       "first_seen": "2026-08-03T23:22:00Z",
-      "updated_at": "2026-08-04T04:35:01.880802+00:00",
+      "updated_at": "2026-08-04T10:35:01.399026+00:00",
       "links": [
-        {
-          "label": "Reuters",
-          "url": "https://www.reuters.com/world/us-finalizes-voluntary-ai-safety-tests-white-house-official-says-2026-08-03/"
-        },
         {
           "label": "CNBC",
           "url": "https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html"
+        },
+        {
+          "label": "White House EO 14409",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/world/us-finalizes-voluntary-ai-safety-tests-white-house-official-says-2026-08-03/"
         }
       ]
     },
@@ -114,20 +126,70 @@
       "category": "frontier_other",
       "source_type": "official_blog",
       "title_en": "Alibaba Unveils Qwen3.8-Max: 2.4T MoE Flagship with 1M Context",
-      "title_zh": "阿里巴巴發布 Qwen3.8-Max：2.4T MoE 旗艦，支援 1M 上下文",
-      "summary_en": "Alibaba announced Qwen3.8-Max, its largest model to date with 2.4 trillion total parameters (95B active) under a sparse MoE architecture, 1-million-token context and multimodal support. The model is available now via Alibaba Cloud Model Studio APIs; open weights are scheduled for next week.",
-      "summary_zh": "阿里巴巴宣布旗艦模型 Qwen3.8-Max，總參數 2.4 兆（激活約 950 億）採用稀疏 MoE 架構，支援 100 萬 token 上下文與多模態。模型已可透過阿里雲 Model Studio API 使用，權重預計下週開源。",
-      "analysis_en": "A large open-weight MoE release focused on long-horizon agentic work strengthens competition from Chinese labs and gives developers a high-capacity alternative outside the Western closed models. Actual independent benchmarks will clarify whether the claimed ranking holds.",
-      "analysis_zh": "聚焦長時程 agent 工作的大型開源權重 MoE 釋出，強化中國實驗室競爭力，並為開發者提供西方封閉模型之外的高容量選擇。獨立基準將釐清其宣稱排名是否成立。",
-      "quote": "Boasting 2.4 trillion parameters and supporting a context window of up to 1 million tokens, Qwen3.8-Max ranks fifth in Text Arena and second in Vision Arena, while exhibiting advanced capabilities in coding, real-life work, research, and long-horizon tasks.",
-      "quote_zh": "「擁有 2.4 兆參數並支援高達 100 萬 token 上下文的 Qwen3.8-Max，在 Text Arena 排名第五、Vision Arena 排名第二，同時展現 coding、真實工作、研究與長時程任務的進階能力。」",
+      "title_zh": "阿里巴巴發布Qwen3.8-Max：2.4T MoE旗艦模型、1M上下文",
+      "summary_en": "Alibaba announced Qwen3.8-Max, its largest model to date with 2.4 trillion total parameters (95B active) under a sparse MoE architecture, 1-million-token context and multimodal support. The model is available now via Alibaba Cloud Model Studio; open weights are scheduled for release next week. It demonstrated multi-day autonomous software-engineering and long-horizon agentic tasks.",
+      "summary_zh": "阿里巴巴宣布迄今最大模型Qwen3.8-Max，採稀疏MoE架構、總參數2.4兆（啟動95B）、100萬token上下文與多模態支援。模型已可透過阿里雲Model Studio使用，開源權重預計下週釋出。展示了多日自主軟體工程與長時程代理任務能力。",
+      "analysis_en": "A large open-weight MoE release focused on long-horizon agentic work strengthens competition from Chinese labs and gives developers a high-capacity alternative outside the Western closed models. Independent benchmark verification and actual open-weight quality will set its real standing.",
+      "analysis_zh": "以長時程代理工作為焦點的大型開源MoE釋出，強化中國實驗室競爭力，並為開發者提供西方封閉模型以外的高容量選擇。獨立基準驗證與實際開源品質將決定其真實定位。",
+      "quote": "Boasting 2.4 trillion parameters and supporting a context window of up to 1 million tokens, Qwen3.8-Max ranks fifth in Text Arena and second in Vision Arena.",
+      "quote_zh": "擁有2.4兆參數並支援高達100萬token上下文視窗，Qwen3.8-Max在Text Arena排名第五、Vision Arena排名第二。",
       "importance": 4,
       "first_seen": "2026-08-03T00:00:00Z",
-      "updated_at": "2026-08-04T04:35:01.880802+00:00",
+      "updated_at": "2026-08-04T10:35:01.399026+00:00",
       "links": [
         {
           "label": "Alibaba Cloud Press",
           "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen3-8-max"
+        }
+      ]
+    },
+    {
+      "id": "openai-apple-trade-secrets-rebuttal-2026-08-03",
+      "story_id": "openai-apple-trade-secrets-rebuttal-2026-08-03",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI Publishes Detailed Rebuttal to Apple’s Hardware Trade-Secrets Lawsuit",
+      "title_zh": "OpenAI公開詳盡反駁蘋果硬體營業秘密訴訟",
+      "summary_en": "OpenAI posted “Apple is getting this wrong,” asserting that Apple’s lawsuit over alleged trade-secret theft by former employees (including hardware lead Tang Tan) rests on factual errors: wrong email recipient, no General Counsel discussion ever occurred, and post-departure access requests came from Apple itself. OpenAI states it neither possesses nor wants Apple’s secrets and calls the injunction request unnecessary.",
+      "summary_zh": "OpenAI發表〈Apple is getting this wrong〉，指蘋果指控前員工（含硬體主管Tang Tan）竊取營業秘密的訴訟基於事實錯誤：寄錯收件人、從未與總顧問討論，且離職後存取請求來自蘋果自身。OpenAI聲明既無也不想要蘋果秘密，禁制令請求無必要。",
+      "analysis_en": "The public, point-by-point rebuttal escalates an already strained partnership into open legal combat and signals OpenAI’s determination to defend its hardware ambitions. Court documents and any discovery will clarify the strength of the remaining claims.",
+      "analysis_zh": "公開逐點反駁將本已緊繃的合作關係升級為公開法律對抗，並顯示OpenAI捍衛硬體野心的決心。後續法院文件與證據開示將釐清剩餘主張的強度。",
+      "quote": "Apple’s request for a preliminary injunction is both based on false information and completely unnecessary because we do not have, nor want, any of their trade secrets.",
+      "quote_zh": "蘋果申請初步禁制令既基於錯誤資訊，也完全無必要，因為我們既沒有、也不想要任何他們的營業秘密。",
+      "importance": 3,
+      "first_seen": "2026-08-03T15:00:00Z",
+      "updated_at": "2026-08-04T10:35:01.399026+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/apple-is-getting-this-wrong/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-india-in-country-inference-2026-08-03",
+      "story_id": "anthropic-india-in-country-inference-2026-08-03",
+      "category": "anthropic",
+      "source_type": "mixed",
+      "title_en": "Anthropic Enables Claude In-Country Inference in India via Amazon Bedrock",
+      "title_zh": "Anthropic透過Amazon Bedrock讓Claude在印度本地推理",
+      "summary_en": "Anthropic announced that Claude models will become available with in-country inference in India through Amazon Bedrock in the coming weeks, so requests via the India endpoint are processed on servers located in India. The move targets regulated sectors (banks, insurers, government) that require data residency; India is already one of Claude’s largest markets.",
+      "summary_zh": "Anthropic宣布未來數週內Claude模型將透過Amazon Bedrock在印度提供本地推理，經印度端點的請求會在印度伺服器處理。此舉針對需要資料在地化的受監管產業（銀行、保險、政府）；印度已是Claude最大市場之一。",
+      "analysis_en": "Local inference removes a key compliance barrier and should accelerate enterprise deployments in India. Actual latency, pricing and language-performance gains for Indian languages will determine how quickly pilots convert to production.",
+      "analysis_zh": "本地推理消除關鍵合規障礙，應能加速印度企業部署。實際延遲、定價與印地語等語言表現提升，將決定試點轉為正式上線的速度。",
+      "quote": "Bringing Claude inference to India is a turning point for enterprise AI in this country.",
+      "quote_zh": "將Claude推理帶入印度，是這個國家企業AI的轉折點。",
+      "importance": 3,
+      "first_seen": "2026-08-03T12:00:00Z",
+      "updated_at": "2026-08-04T10:35:01.399026+00:00",
+      "links": [
+        {
+          "label": "Business Standard",
+          "url": "https://www.business-standard.com/technology/artificial-intelligence/anthropic-brings-claude-in-country-inference-to-india-via-aws-cloud-126080301168_1.html"
+        },
+        {
+          "label": "Analytics India Magazine",
+          "url": "https://analyticsindiamag.com/ai-news/anthropic-launches-in-country-claude-inference-in-india-with-amazon-bedrock"
         }
       ]
     }
@@ -140,16 +202,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI Rebuilds GPT-Live for Full-Duplex Continuous Voice",
-        "title_zh": "OpenAI 重建 GPT-Live：全雙工連續語音，邊聽邊說不再卡",
-        "summary_en": "OpenAI published a detailed engineering post on its third-generation GPT-Live voice system. The model is now full-duplex—it can listen and speak simultaneously—removing the old turn detector from the audio path. Deeper reasoning and tool use run asynchronously so the conversation never interrupts.",
-        "summary_zh": "OpenAI 發布第三代 GPT-Live 語音系統詳細工程文。模型改為全雙工，可同時聽與說，音訊路徑移除舊有 turn detector。更深層推理與工具呼叫改為非同步處理，確保對話不中斷。",
-        "analysis_en": "This architecture brings ChatGPT Voice meaningfully closer to natural human conversation and long-running agentic use. Real-world performance under concurrent heavy tool calls and network variability remains the key uncertainty to watch.",
-        "analysis_zh": "這架構讓 ChatGPT Voice 明顯更接近真人自然對話與長時間 agent 使用。在同時大量工具呼叫與網路波動下的真實表現，仍是需觀察的關鍵不確定性。",
+        "title_zh": "OpenAI重建GPT-Live實現全雙工連續語音",
+        "summary_en": "OpenAI published a detailed engineering post on its third-generation GPT-Live voice system. The model is now full-duplex—it can listen and speak simultaneously—removing the old turn detector from the audio path. Deeper reasoning and tool use run asynchronously so conversations stay continuous; session startup dropped from six network round-trips to one.",
+        "summary_zh": "OpenAI發表第三代GPT-Live語音系統工程文。模型現為全雙工，可同時聽與說，從音訊路徑移除舊轉折偵測器。更深推理與工具使用非同步進行，對話保持連續；連線啟動從六次網路來回降至一次。",
+        "analysis_en": "This architecture brings ChatGPT Voice meaningfully closer to natural human conversation and long-running agentic use. Real-world performance under concurrent heavy tool calls and multi-minute sessions remains the key open question.",
+        "analysis_zh": "此架構讓ChatGPT語音更接近自然人類對話與長時程代理使用。並發重度工具呼叫與多分鐘會話下的真實表現仍是關鍵未知數。",
         "quote": "GPT‑Live, our third-generation voice system, removes the turn detector from the audio path. Its voice model is full-duplex, which means it can listen and speak at the same time.",
-        "quote_zh": "「GPT-Live 是我們的第三代語音系統，從音訊路徑移除了 turn detector。其語音模型是全雙工的，意即能同時聽與說。」",
+        "quote_zh": "GPT-Live，我們的第三代語音系統，從音訊路徑移除轉折偵測器。其語音模型為全雙工，意即可同時聽與說。",
         "importance": 4,
         "first_seen": "2026-08-03T20:38:34Z",
-        "updated_at": "2026-08-04T04:35:01.880802+00:00",
+        "updated_at": "2026-08-04T10:35:01.399026+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -167,16 +229,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI Releases Lean Proofs of 10 Math Advances from Internal Astra Model",
-        "title_zh": "OpenAI 公開內部 Astra 模型產出的 10 項數學突破 Lean 證明",
-        "summary_en": "OpenAI released manuscripts, formal Lean certificates and reasoning walkthroughs for ten new results on long-standing open problems in mathematics and theoretical computer science. The results were produced by an internal version of Astra, its next major model, at roughly $2,000 token cost.",
-        "summary_zh": "OpenAI 發布 10 項長期未解數學與理論資科問題的新結果手稿、正式 Lean 證明證書與推理過程。這些由內部 Astra（下一代主力模型）產出，token 成本約 2,000 美元。",
+        "title_zh": "OpenAI公開內部Astra模型產出的10項數學Lean證明",
+        "summary_en": "OpenAI released manuscripts, formal Lean certificates and reasoning walkthroughs for ten new results on long-standing open problems in mathematics and theoretical computer science. The results were produced by an internal version of Astra using roughly $2,000 of tokens at GPT-5.6 Sol rates and span sphere packing, non-sofic groups, quantum complexity and more.",
+        "summary_zh": "OpenAI公開十項數學與理論計算機科學長期未解問題的手稿、形式Lean證明與推理說明。結果由內部Astra版本產出，約耗GPT-5.6 Sol費率2,000美元token，涵蓋球體堆積、非sofic群、量子複雜度等。",
         "analysis_en": "Public release of machine-generated, formally verified proofs on decade-old open problems is a notable capability signal for the upcoming model. Independent mathematical community verification will determine lasting impact.",
-        "analysis_zh": "公開機器生成且經形式驗證的十年級開放問題證明，是下一代模型能力的重要信號。數學社群獨立驗證將決定其長期影響力。",
+        "analysis_zh": "機器生成並經形式驗證的十年級未解問題證明公開，是即將到來模型的重要能力訊號。數學社群獨立驗證將決定其長久影響。",
         "quote": "An internal version of our next major model produced 10 new results on long-standing open problems in mathematics and theoretical computer science, using roughly $2,000 worth of tokens at GPT-5.6 Sol API rates.",
-        "quote_zh": "「我們下一代主力模型的內部版本，以約 2,000 美元的 GPT-5.6 Sol API token 成本，產出 10 項長期未解的數學與理論資科新結果。」",
+        "quote_zh": "我們下一代主要模型的內部版本，以約GPT-5.6 Sol API費率2,000美元的token，產出數學與理論計算機科學十項長期未解問題的新結果。",
         "importance": 4,
         "first_seen": "2026-08-03T18:54:15Z",
-        "updated_at": "2026-08-04T04:35:01.880802+00:00",
+        "updated_at": "2026-08-04T10:35:01.399026+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -187,9 +249,60 @@
             "url": "https://x.com/OpenAI/status/2084352161404920316"
           }
         ]
+      },
+      {
+        "id": "openai-apple-trade-secrets-rebuttal-2026-08-03",
+        "story_id": "openai-apple-trade-secrets-rebuttal-2026-08-03",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI Publishes Detailed Rebuttal to Apple’s Hardware Trade-Secrets Lawsuit",
+        "title_zh": "OpenAI公開詳盡反駁蘋果硬體營業秘密訴訟",
+        "summary_en": "OpenAI posted “Apple is getting this wrong,” asserting that Apple’s lawsuit over alleged trade-secret theft by former employees (including hardware lead Tang Tan) rests on factual errors: wrong email recipient, no General Counsel discussion ever occurred, and post-departure access requests came from Apple itself. OpenAI states it neither possesses nor wants Apple’s secrets and calls the injunction request unnecessary.",
+        "summary_zh": "OpenAI發表〈Apple is getting this wrong〉，指蘋果指控前員工（含硬體主管Tang Tan）竊取營業秘密的訴訟基於事實錯誤：寄錯收件人、從未與總顧問討論，且離職後存取請求來自蘋果自身。OpenAI聲明既無也不想要蘋果秘密，禁制令請求無必要。",
+        "analysis_en": "The public, point-by-point rebuttal escalates an already strained partnership into open legal combat and signals OpenAI’s determination to defend its hardware ambitions. Court documents and any discovery will clarify the strength of the remaining claims.",
+        "analysis_zh": "公開逐點反駁將本已緊繃的合作關係升級為公開法律對抗，並顯示OpenAI捍衛硬體野心的決心。後續法院文件與證據開示將釐清剩餘主張的強度。",
+        "quote": "Apple’s request for a preliminary injunction is both based on false information and completely unnecessary because we do not have, nor want, any of their trade secrets.",
+        "quote_zh": "蘋果申請初步禁制令既基於錯誤資訊，也完全無必要，因為我們既沒有、也不想要任何他們的營業秘密。",
+        "importance": 3,
+        "first_seen": "2026-08-03T15:00:00Z",
+        "updated_at": "2026-08-04T10:35:01.399026+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/apple-is-getting-this-wrong/"
+          }
+        ]
       }
     ],
-    "anthropic": [],
+    "anthropic": [
+      {
+        "id": "anthropic-india-in-country-inference-2026-08-03",
+        "story_id": "anthropic-india-in-country-inference-2026-08-03",
+        "category": "anthropic",
+        "source_type": "mixed",
+        "title_en": "Anthropic Enables Claude In-Country Inference in India via Amazon Bedrock",
+        "title_zh": "Anthropic透過Amazon Bedrock讓Claude在印度本地推理",
+        "summary_en": "Anthropic announced that Claude models will become available with in-country inference in India through Amazon Bedrock in the coming weeks, so requests via the India endpoint are processed on servers located in India. The move targets regulated sectors (banks, insurers, government) that require data residency; India is already one of Claude’s largest markets.",
+        "summary_zh": "Anthropic宣布未來數週內Claude模型將透過Amazon Bedrock在印度提供本地推理，經印度端點的請求會在印度伺服器處理。此舉針對需要資料在地化的受監管產業（銀行、保險、政府）；印度已是Claude最大市場之一。",
+        "analysis_en": "Local inference removes a key compliance barrier and should accelerate enterprise deployments in India. Actual latency, pricing and language-performance gains for Indian languages will determine how quickly pilots convert to production.",
+        "analysis_zh": "本地推理消除關鍵合規障礙，應能加速印度企業部署。實際延遲、定價與印地語等語言表現提升，將決定試點轉為正式上線的速度。",
+        "quote": "Bringing Claude inference to India is a turning point for enterprise AI in this country.",
+        "quote_zh": "將Claude推理帶入印度，是這個國家企業AI的轉折點。",
+        "importance": 3,
+        "first_seen": "2026-08-03T12:00:00Z",
+        "updated_at": "2026-08-04T10:35:01.399026+00:00",
+        "links": [
+          {
+            "label": "Business Standard",
+            "url": "https://www.business-standard.com/technology/artificial-intelligence/anthropic-brings-claude-in-country-inference-to-india-via-aws-cloud-126080301168_1.html"
+          },
+          {
+            "label": "Analytics India Magazine",
+            "url": "https://analyticsindiamag.com/ai-news/anthropic-launches-in-country-claude-inference-in-india-with-amazon-bedrock"
+          }
+        ]
+      }
+    ],
     "google": [],
     "meta": [],
     "xai": [],
@@ -200,24 +313,28 @@
         "category": "frontier_other",
         "source_type": "news",
         "title_en": "White House Finalizes Voluntary Frontier AI Cybersecurity Testing Framework; Meets Labs Today",
-        "title_zh": "白宮敲定自願前沿 AI 資安測試框架，今日與大廠會面",
-        "summary_en": "The White House has finalized a voluntary framework for cybersecurity testing of advanced U.S. AI models and invited OpenAI, Anthropic, Google, Meta and others to discuss it on 4 August. The process stems from a June executive order and would allow pre-release model access for up to 30 days.",
-        "summary_zh": "白宮已敲定先進美國 AI 模型的自願資安測試框架，並邀請 OpenAI、Anthropic、Google、Meta 等今日會面討論。此框架源於 6 月行政命令，允許發布前最多 30 天模型存取。",
-        "analysis_en": "This marks the first concrete post-order step toward structured government evaluation of frontier cyber capabilities. Details of benchmarks and reporting remain undisclosed, so practical impact on release timelines is still uncertain.",
-        "analysis_zh": "這是行政命令後首個具體政府評估前沿網路能力的步驟。基準與報告細節仍未公開，對實際發布時程的影響尚不確定。",
+        "title_zh": "白宮敲定自願前沿AI資安測試框架；今日與大廠會面",
+        "summary_en": "The White House has finalized a voluntary framework for cybersecurity testing of advanced U.S. AI models and invited OpenAI, Anthropic, Google, Meta and others to discuss it on 4 August. The process stems from a June executive order and would allow participating developers to provide covered frontier models to the government for up to 30 days of pre-release access under confidentiality protections; benchmarks remain classified.",
+        "summary_zh": "白宮已敲定先進美國AI模型資安測試自願框架，並邀請OpenAI、Anthropic、Google、Meta等今日（8月4日）討論。此流程源自六月行政命令，參與開發者可在保密保護下，於正式發布前最多30天提供涵蓋的前沿模型供政府存取；基準仍屬機密。",
+        "analysis_en": "This marks the first concrete post-order step toward structured government evaluation of frontier cyber capabilities. Details of benchmarks and reporting remain undisclosed, so practical impact and industry uptake are still uncertain.",
+        "analysis_zh": "這是行政命令後首個具體步驟，朝向結構化政府評估前沿網路能力。基準與報告細節仍未公開，實際影響與業界採納程度仍不確定。",
         "quote": "The Trump administration has finalized the details of voluntary cybersecurity tests to measure the hacking capabilities of the most advanced American AI models, and is planning to discuss them with the AI industry.",
         "quote_zh": "「川普政府已敲定用來衡量最先進美國 AI 模型駭客能力的自願資安測試細節，並計畫與 AI 產業討論。」",
         "importance": 4,
         "first_seen": "2026-08-03T23:22:00Z",
-        "updated_at": "2026-08-04T04:35:01.880802+00:00",
+        "updated_at": "2026-08-04T10:35:01.399026+00:00",
         "links": [
-          {
-            "label": "Reuters",
-            "url": "https://www.reuters.com/world/us-finalizes-voluntary-ai-safety-tests-white-house-official-says-2026-08-03/"
-          },
           {
             "label": "CNBC",
             "url": "https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html"
+          },
+          {
+            "label": "White House EO 14409",
+            "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/us-finalizes-voluntary-ai-safety-tests-white-house-official-says-2026-08-03/"
           }
         ]
       },
@@ -227,16 +344,16 @@
         "category": "frontier_other",
         "source_type": "official_blog",
         "title_en": "Alibaba Unveils Qwen3.8-Max: 2.4T MoE Flagship with 1M Context",
-        "title_zh": "阿里巴巴發布 Qwen3.8-Max：2.4T MoE 旗艦，支援 1M 上下文",
-        "summary_en": "Alibaba announced Qwen3.8-Max, its largest model to date with 2.4 trillion total parameters (95B active) under a sparse MoE architecture, 1-million-token context and multimodal support. The model is available now via Alibaba Cloud Model Studio APIs; open weights are scheduled for next week.",
-        "summary_zh": "阿里巴巴宣布旗艦模型 Qwen3.8-Max，總參數 2.4 兆（激活約 950 億）採用稀疏 MoE 架構，支援 100 萬 token 上下文與多模態。模型已可透過阿里雲 Model Studio API 使用，權重預計下週開源。",
-        "analysis_en": "A large open-weight MoE release focused on long-horizon agentic work strengthens competition from Chinese labs and gives developers a high-capacity alternative outside the Western closed models. Actual independent benchmarks will clarify whether the claimed ranking holds.",
-        "analysis_zh": "聚焦長時程 agent 工作的大型開源權重 MoE 釋出，強化中國實驗室競爭力，並為開發者提供西方封閉模型之外的高容量選擇。獨立基準將釐清其宣稱排名是否成立。",
-        "quote": "Boasting 2.4 trillion parameters and supporting a context window of up to 1 million tokens, Qwen3.8-Max ranks fifth in Text Arena and second in Vision Arena, while exhibiting advanced capabilities in coding, real-life work, research, and long-horizon tasks.",
-        "quote_zh": "「擁有 2.4 兆參數並支援高達 100 萬 token 上下文的 Qwen3.8-Max，在 Text Arena 排名第五、Vision Arena 排名第二，同時展現 coding、真實工作、研究與長時程任務的進階能力。」",
+        "title_zh": "阿里巴巴發布Qwen3.8-Max：2.4T MoE旗艦模型、1M上下文",
+        "summary_en": "Alibaba announced Qwen3.8-Max, its largest model to date with 2.4 trillion total parameters (95B active) under a sparse MoE architecture, 1-million-token context and multimodal support. The model is available now via Alibaba Cloud Model Studio; open weights are scheduled for release next week. It demonstrated multi-day autonomous software-engineering and long-horizon agentic tasks.",
+        "summary_zh": "阿里巴巴宣布迄今最大模型Qwen3.8-Max，採稀疏MoE架構、總參數2.4兆（啟動95B）、100萬token上下文與多模態支援。模型已可透過阿里雲Model Studio使用，開源權重預計下週釋出。展示了多日自主軟體工程與長時程代理任務能力。",
+        "analysis_en": "A large open-weight MoE release focused on long-horizon agentic work strengthens competition from Chinese labs and gives developers a high-capacity alternative outside the Western closed models. Independent benchmark verification and actual open-weight quality will set its real standing.",
+        "analysis_zh": "以長時程代理工作為焦點的大型開源MoE釋出，強化中國實驗室競爭力，並為開發者提供西方封閉模型以外的高容量選擇。獨立基準驗證與實際開源品質將決定其真實定位。",
+        "quote": "Boasting 2.4 trillion parameters and supporting a context window of up to 1 million tokens, Qwen3.8-Max ranks fifth in Text Arena and second in Vision Arena.",
+        "quote_zh": "擁有2.4兆參數並支援高達100萬token上下文視窗，Qwen3.8-Max在Text Arena排名第五、Vision Arena排名第二。",
         "importance": 4,
         "first_seen": "2026-08-03T00:00:00Z",
-        "updated_at": "2026-08-04T04:35:01.880802+00:00",
+        "updated_at": "2026-08-04T10:35:01.399026+00:00",
         "links": [
           {
             "label": "Alibaba Cloud Press",
@@ -246,7 +363,7 @@
       }
     ]
   },
-  "brief_en": "OpenAI detailed its full-duplex GPT-Live continuous voice rebuild and released Lean proofs of 10 math advances from internal Astra. White House finalized a voluntary frontier AI cyber-testing framework and meets OpenAI, Anthropic, Google and Meta today. Alibaba launched Qwen3.8-Max (2.4T MoE).",
-  "brief_zh": "OpenAI 公開全雙工 GPT-Live 連續語音重建工程文，並釋出內部 Astra 產出的 10 項數學 Lean 證明。白宮敲定自願前沿 AI 資安測試框架，今日與 OpenAI、Anthropic、Google、Meta 會面。阿里巴巴發布 Qwen3.8-Max（2.4T MoE）。",
-  "updated_at": "2026-08-04T04:35:01.880802+00:00"
+  "brief_en": "OpenAI detailed full-duplex GPT-Live continuous voice and released Lean-verified proofs of 10 math advances from internal Astra; Alibaba launched 2.4T MoE Qwen3.8-Max with 1M context; White House finalizes voluntary frontier AI cyber testing framework and meets labs today; Anthropic enables Claude in-country inference in India; OpenAI publicly rebuts Apple’s hardware trade-secrets lawsuit.",
+  "brief_zh": "OpenAI詳述全雙工GPT-Live連續語音並公開Astra內部模型產出的10項數學Lean證明；阿里巴巴發布2.4T MoE Qwen3.8-Max（1M上下文）；白宮敲定自願前沿AI資安測試框架並於今日與大廠會面；Anthropic讓Claude在印度本地推理；OpenAI公開反駁蘋果硬體營業秘密訴訟。",
+  "updated_at": "2026-08-04T10:35:01.399026+00:00"
 }
