@@ -16,6 +16,14 @@
       "item_count": 2,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-08-04T04:35:01.880802+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 4,
+      "updated_count": 2,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -25,16 +33,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI Rebuilds GPT-Live for Full-Duplex Continuous Voice",
-      "title_zh": "OpenAI 重建 GPT-Live：實現全雙工持續語音互動",
-      "summary_en": "OpenAI published a detailed engineering post on its third-generation GPT-Live voice system. The model is now full-duplex—it can listen and speak simultaneously—removing the old turn detector from the audio path. Deeper reasoning and tool use run asynchronously so conversation flow is never interrupted; session startup latency was cut from six network round-trips to one.",
-      "summary_zh": "OpenAI 發布第三代 GPT-Live 語音系統工程詳述。模型現為全雙工，可同時聽與說，並移除音訊路徑中的輪流偵測器。更深層推理與工具使用改為非同步進行，對話流暢不中斷；語音 session 啟動延遲從六次網路往返降至一次。",
-      "analysis_en": "This architecture brings ChatGPT Voice meaningfully closer to natural human conversation and long-running agentic use. Real-world performance under concurrent heavy tool calls and multi-user scale remains the key uncertainty.",
-      "analysis_zh": "此架構讓 ChatGPT Voice 更接近真人對話與長時 agent 使用。高負載並發工具呼叫與多用戶規模下的實際延遲與穩定性仍是關鍵不確定性。",
-      "quote": "GPT-Live, our third-generation voice system, removes the turn detector from the audio path. Its voice model is full-duplex, which means it can listen and speak at the same time.",
-      "quote_zh": "GPT-Live 是我們的第三代語音系統，它從音訊路徑中移除了輪流偵測器。其語音模型是全雙工的，意味著它可以同時聽與說。",
+      "title_zh": "OpenAI 重建 GPT-Live：全雙工連續語音，邊聽邊說不再卡",
+      "summary_en": "OpenAI published a detailed engineering post on its third-generation GPT-Live voice system. The model is now full-duplex—it can listen and speak simultaneously—removing the old turn detector from the audio path. Deeper reasoning and tool use run asynchronously so the conversation never interrupts.",
+      "summary_zh": "OpenAI 發布第三代 GPT-Live 語音系統詳細工程文。模型改為全雙工，可同時聽與說，音訊路徑移除舊有 turn detector。更深層推理與工具呼叫改為非同步處理，確保對話不中斷。",
+      "analysis_en": "This architecture brings ChatGPT Voice meaningfully closer to natural human conversation and long-running agentic use. Real-world performance under concurrent heavy tool calls and network variability remains the key uncertainty to watch.",
+      "analysis_zh": "這架構讓 ChatGPT Voice 明顯更接近真人自然對話與長時間 agent 使用。在同時大量工具呼叫與網路波動下的真實表現，仍是需觀察的關鍵不確定性。",
+      "quote": "GPT‑Live, our third-generation voice system, removes the turn detector from the audio path. Its voice model is full-duplex, which means it can listen and speak at the same time.",
+      "quote_zh": "「GPT-Live 是我們的第三代語音系統，從音訊路徑移除了 turn detector。其語音模型是全雙工的，意即能同時聽與說。」",
       "importance": 4,
       "first_seen": "2026-08-03T20:38:34Z",
-      "updated_at": "2026-08-03T22:35:02.127727+00:00",
+      "updated_at": "2026-08-04T04:35:01.880802+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -50,18 +58,18 @@
       "id": "openai-astra-ten-math-advances-2026-08-03",
       "story_id": "openai-astra-ten-math-advances-2026-08-03",
       "category": "openai",
-      "source_type": "mixed",
+      "source_type": "official_blog",
       "title_en": "OpenAI Releases Lean Proofs of 10 Math Advances from Internal Astra Model",
-      "title_zh": "OpenAI 公開內部 Astra 模型解決的 10 項數學進展 Lean 證明",
-      "summary_en": "OpenAI released manuscripts, formal Lean certificates and reasoning walkthroughs for ten new results on long-standing open problems in mathematics and theoretical computer science. The results were produced by an internal version of Astra, the company’s next major model, at roughly $2,000 of GPT-5.6 Sol API cost. Problems span sphere packing, non-sofic groups, coding theory, quantum complexity and several Erdős questions.",
-      "summary_zh": "OpenAI 公開了十項數學與理論計算機科學長期開放問題的新結果手稿、正式 Lean 證明與推理過程。這些結果由公司下一主要模型 Astra 的內部版本產出，成本約相當於 2,000 美元的 GPT-5.6 Sol API 用量。涵蓋球堆積、非 sofic 群、編碼理論、量子複雜度及多個 Erdős 問題。",
-      "analysis_en": "Public release of machine-generated, formally verified proofs on decade-old open problems is a notable capability signal for the upcoming model. Independent mathematical community scrutiny of the Lean certificates will determine how much lasting scientific value they carry.",
-      "analysis_zh": "公開機器生成且經形式驗證的長期難題證明，是下一模型能力的重要訊號。數學社群對 Lean 證明的獨立審查，將決定這些結果的長期科學價值。",
+      "title_zh": "OpenAI 公開內部 Astra 模型產出的 10 項數學突破 Lean 證明",
+      "summary_en": "OpenAI released manuscripts, formal Lean certificates and reasoning walkthroughs for ten new results on long-standing open problems in mathematics and theoretical computer science. The results were produced by an internal version of Astra, its next major model, at roughly $2,000 token cost.",
+      "summary_zh": "OpenAI 發布 10 項長期未解數學與理論資科問題的新結果手稿、正式 Lean 證明證書與推理過程。這些由內部 Astra（下一代主力模型）產出，token 成本約 2,000 美元。",
+      "analysis_en": "Public release of machine-generated, formally verified proofs on decade-old open problems is a notable capability signal for the upcoming model. Independent mathematical community verification will determine lasting impact.",
+      "analysis_zh": "公開機器生成且經形式驗證的十年級開放問題證明，是下一代模型能力的重要信號。數學社群獨立驗證將決定其長期影響力。",
       "quote": "An internal version of our next major model produced 10 new results on long-standing open problems in mathematics and theoretical computer science, using roughly $2,000 worth of tokens at GPT-5.6 Sol API rates.",
-      "quote_zh": "我們下一主要模型的內部版本，以大約相當於 GPT-5.6 Sol API 2,000 美元的 token 用量，在數學與理論計算機科學的長期開放問題上產出 10 項新結果。",
+      "quote_zh": "「我們下一代主力模型的內部版本，以約 2,000 美元的 GPT-5.6 Sol API token 成本，產出 10 項長期未解的數學與理論資科新結果。」",
       "importance": 4,
       "first_seen": "2026-08-03T18:54:15Z",
-      "updated_at": "2026-08-03T22:35:02.127727+00:00",
+      "updated_at": "2026-08-04T04:35:01.880802+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -70,6 +78,56 @@
         {
           "label": "OpenAI on X",
           "url": "https://x.com/OpenAI/status/2084352161404920316"
+        }
+      ]
+    },
+    {
+      "id": "white-house-ai-cyber-framework-2026-08-03",
+      "story_id": "white-house-ai-cyber-framework-2026-08-03",
+      "category": "frontier_other",
+      "source_type": "news",
+      "title_en": "White House Finalizes Voluntary Frontier AI Cybersecurity Testing Framework; Meets Labs Today",
+      "title_zh": "白宮敲定自願前沿 AI 資安測試框架，今日與大廠會面",
+      "summary_en": "The White House has finalized a voluntary framework for cybersecurity testing of advanced U.S. AI models and invited OpenAI, Anthropic, Google, Meta and others to discuss it on 4 August. The process stems from a June executive order and would allow pre-release model access for up to 30 days.",
+      "summary_zh": "白宮已敲定先進美國 AI 模型的自願資安測試框架，並邀請 OpenAI、Anthropic、Google、Meta 等今日會面討論。此框架源於 6 月行政命令，允許發布前最多 30 天模型存取。",
+      "analysis_en": "This marks the first concrete post-order step toward structured government evaluation of frontier cyber capabilities. Details of benchmarks and reporting remain undisclosed, so practical impact on release timelines is still uncertain.",
+      "analysis_zh": "這是行政命令後首個具體政府評估前沿網路能力的步驟。基準與報告細節仍未公開，對實際發布時程的影響尚不確定。",
+      "quote": "The Trump administration has finalized the details of voluntary cybersecurity tests to measure the hacking capabilities of the most advanced American AI models, and is planning to discuss them with the AI industry.",
+      "quote_zh": "「川普政府已敲定用來衡量最先進美國 AI 模型駭客能力的自願資安測試細節，並計畫與 AI 產業討論。」",
+      "importance": 4,
+      "first_seen": "2026-08-03T23:22:00Z",
+      "updated_at": "2026-08-04T04:35:01.880802+00:00",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/world/us-finalizes-voluntary-ai-safety-tests-white-house-official-says-2026-08-03/"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html"
+        }
+      ]
+    },
+    {
+      "id": "alibaba-qwen3-8-max-2026-08-03",
+      "story_id": "alibaba-qwen3-8-max-2026-08-03",
+      "category": "frontier_other",
+      "source_type": "official_blog",
+      "title_en": "Alibaba Unveils Qwen3.8-Max: 2.4T MoE Flagship with 1M Context",
+      "title_zh": "阿里巴巴發布 Qwen3.8-Max：2.4T MoE 旗艦，支援 1M 上下文",
+      "summary_en": "Alibaba announced Qwen3.8-Max, its largest model to date with 2.4 trillion total parameters (95B active) under a sparse MoE architecture, 1-million-token context and multimodal support. The model is available now via Alibaba Cloud Model Studio APIs; open weights are scheduled for next week.",
+      "summary_zh": "阿里巴巴宣布旗艦模型 Qwen3.8-Max，總參數 2.4 兆（激活約 950 億）採用稀疏 MoE 架構，支援 100 萬 token 上下文與多模態。模型已可透過阿里雲 Model Studio API 使用，權重預計下週開源。",
+      "analysis_en": "A large open-weight MoE release focused on long-horizon agentic work strengthens competition from Chinese labs and gives developers a high-capacity alternative outside the Western closed models. Actual independent benchmarks will clarify whether the claimed ranking holds.",
+      "analysis_zh": "聚焦長時程 agent 工作的大型開源權重 MoE 釋出，強化中國實驗室競爭力，並為開發者提供西方封閉模型之外的高容量選擇。獨立基準將釐清其宣稱排名是否成立。",
+      "quote": "Boasting 2.4 trillion parameters and supporting a context window of up to 1 million tokens, Qwen3.8-Max ranks fifth in Text Arena and second in Vision Arena, while exhibiting advanced capabilities in coding, real-life work, research, and long-horizon tasks.",
+      "quote_zh": "「擁有 2.4 兆參數並支援高達 100 萬 token 上下文的 Qwen3.8-Max，在 Text Arena 排名第五、Vision Arena 排名第二，同時展現 coding、真實工作、研究與長時程任務的進階能力。」",
+      "importance": 4,
+      "first_seen": "2026-08-03T00:00:00Z",
+      "updated_at": "2026-08-04T04:35:01.880802+00:00",
+      "links": [
+        {
+          "label": "Alibaba Cloud Press",
+          "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen3-8-max"
         }
       ]
     }
@@ -82,16 +140,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI Rebuilds GPT-Live for Full-Duplex Continuous Voice",
-        "title_zh": "OpenAI 重建 GPT-Live：實現全雙工持續語音互動",
-        "summary_en": "OpenAI published a detailed engineering post on its third-generation GPT-Live voice system. The model is now full-duplex—it can listen and speak simultaneously—removing the old turn detector from the audio path. Deeper reasoning and tool use run asynchronously so conversation flow is never interrupted; session startup latency was cut from six network round-trips to one.",
-        "summary_zh": "OpenAI 發布第三代 GPT-Live 語音系統工程詳述。模型現為全雙工，可同時聽與說，並移除音訊路徑中的輪流偵測器。更深層推理與工具使用改為非同步進行，對話流暢不中斷；語音 session 啟動延遲從六次網路往返降至一次。",
-        "analysis_en": "This architecture brings ChatGPT Voice meaningfully closer to natural human conversation and long-running agentic use. Real-world performance under concurrent heavy tool calls and multi-user scale remains the key uncertainty.",
-        "analysis_zh": "此架構讓 ChatGPT Voice 更接近真人對話與長時 agent 使用。高負載並發工具呼叫與多用戶規模下的實際延遲與穩定性仍是關鍵不確定性。",
-        "quote": "GPT-Live, our third-generation voice system, removes the turn detector from the audio path. Its voice model is full-duplex, which means it can listen and speak at the same time.",
-        "quote_zh": "GPT-Live 是我們的第三代語音系統，它從音訊路徑中移除了輪流偵測器。其語音模型是全雙工的，意味著它可以同時聽與說。",
+        "title_zh": "OpenAI 重建 GPT-Live：全雙工連續語音，邊聽邊說不再卡",
+        "summary_en": "OpenAI published a detailed engineering post on its third-generation GPT-Live voice system. The model is now full-duplex—it can listen and speak simultaneously—removing the old turn detector from the audio path. Deeper reasoning and tool use run asynchronously so the conversation never interrupts.",
+        "summary_zh": "OpenAI 發布第三代 GPT-Live 語音系統詳細工程文。模型改為全雙工，可同時聽與說，音訊路徑移除舊有 turn detector。更深層推理與工具呼叫改為非同步處理，確保對話不中斷。",
+        "analysis_en": "This architecture brings ChatGPT Voice meaningfully closer to natural human conversation and long-running agentic use. Real-world performance under concurrent heavy tool calls and network variability remains the key uncertainty to watch.",
+        "analysis_zh": "這架構讓 ChatGPT Voice 明顯更接近真人自然對話與長時間 agent 使用。在同時大量工具呼叫與網路波動下的真實表現，仍是需觀察的關鍵不確定性。",
+        "quote": "GPT‑Live, our third-generation voice system, removes the turn detector from the audio path. Its voice model is full-duplex, which means it can listen and speak at the same time.",
+        "quote_zh": "「GPT-Live 是我們的第三代語音系統，從音訊路徑移除了 turn detector。其語音模型是全雙工的，意即能同時聽與說。」",
         "importance": 4,
         "first_seen": "2026-08-03T20:38:34Z",
-        "updated_at": "2026-08-03T22:35:02.127727+00:00",
+        "updated_at": "2026-08-04T04:35:01.880802+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -107,18 +165,18 @@
         "id": "openai-astra-ten-math-advances-2026-08-03",
         "story_id": "openai-astra-ten-math-advances-2026-08-03",
         "category": "openai",
-        "source_type": "mixed",
+        "source_type": "official_blog",
         "title_en": "OpenAI Releases Lean Proofs of 10 Math Advances from Internal Astra Model",
-        "title_zh": "OpenAI 公開內部 Astra 模型解決的 10 項數學進展 Lean 證明",
-        "summary_en": "OpenAI released manuscripts, formal Lean certificates and reasoning walkthroughs for ten new results on long-standing open problems in mathematics and theoretical computer science. The results were produced by an internal version of Astra, the company’s next major model, at roughly $2,000 of GPT-5.6 Sol API cost. Problems span sphere packing, non-sofic groups, coding theory, quantum complexity and several Erdős questions.",
-        "summary_zh": "OpenAI 公開了十項數學與理論計算機科學長期開放問題的新結果手稿、正式 Lean 證明與推理過程。這些結果由公司下一主要模型 Astra 的內部版本產出，成本約相當於 2,000 美元的 GPT-5.6 Sol API 用量。涵蓋球堆積、非 sofic 群、編碼理論、量子複雜度及多個 Erdős 問題。",
-        "analysis_en": "Public release of machine-generated, formally verified proofs on decade-old open problems is a notable capability signal for the upcoming model. Independent mathematical community scrutiny of the Lean certificates will determine how much lasting scientific value they carry.",
-        "analysis_zh": "公開機器生成且經形式驗證的長期難題證明，是下一模型能力的重要訊號。數學社群對 Lean 證明的獨立審查，將決定這些結果的長期科學價值。",
+        "title_zh": "OpenAI 公開內部 Astra 模型產出的 10 項數學突破 Lean 證明",
+        "summary_en": "OpenAI released manuscripts, formal Lean certificates and reasoning walkthroughs for ten new results on long-standing open problems in mathematics and theoretical computer science. The results were produced by an internal version of Astra, its next major model, at roughly $2,000 token cost.",
+        "summary_zh": "OpenAI 發布 10 項長期未解數學與理論資科問題的新結果手稿、正式 Lean 證明證書與推理過程。這些由內部 Astra（下一代主力模型）產出，token 成本約 2,000 美元。",
+        "analysis_en": "Public release of machine-generated, formally verified proofs on decade-old open problems is a notable capability signal for the upcoming model. Independent mathematical community verification will determine lasting impact.",
+        "analysis_zh": "公開機器生成且經形式驗證的十年級開放問題證明，是下一代模型能力的重要信號。數學社群獨立驗證將決定其長期影響力。",
         "quote": "An internal version of our next major model produced 10 new results on long-standing open problems in mathematics and theoretical computer science, using roughly $2,000 worth of tokens at GPT-5.6 Sol API rates.",
-        "quote_zh": "我們下一主要模型的內部版本，以大約相當於 GPT-5.6 Sol API 2,000 美元的 token 用量，在數學與理論計算機科學的長期開放問題上產出 10 項新結果。",
+        "quote_zh": "「我們下一代主力模型的內部版本，以約 2,000 美元的 GPT-5.6 Sol API token 成本，產出 10 項長期未解的數學與理論資科新結果。」",
         "importance": 4,
         "first_seen": "2026-08-03T18:54:15Z",
-        "updated_at": "2026-08-03T22:35:02.127727+00:00",
+        "updated_at": "2026-08-04T04:35:01.880802+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -135,9 +193,60 @@
     "google": [],
     "meta": [],
     "xai": [],
-    "frontier_other": []
+    "frontier_other": [
+      {
+        "id": "white-house-ai-cyber-framework-2026-08-03",
+        "story_id": "white-house-ai-cyber-framework-2026-08-03",
+        "category": "frontier_other",
+        "source_type": "news",
+        "title_en": "White House Finalizes Voluntary Frontier AI Cybersecurity Testing Framework; Meets Labs Today",
+        "title_zh": "白宮敲定自願前沿 AI 資安測試框架，今日與大廠會面",
+        "summary_en": "The White House has finalized a voluntary framework for cybersecurity testing of advanced U.S. AI models and invited OpenAI, Anthropic, Google, Meta and others to discuss it on 4 August. The process stems from a June executive order and would allow pre-release model access for up to 30 days.",
+        "summary_zh": "白宮已敲定先進美國 AI 模型的自願資安測試框架，並邀請 OpenAI、Anthropic、Google、Meta 等今日會面討論。此框架源於 6 月行政命令，允許發布前最多 30 天模型存取。",
+        "analysis_en": "This marks the first concrete post-order step toward structured government evaluation of frontier cyber capabilities. Details of benchmarks and reporting remain undisclosed, so practical impact on release timelines is still uncertain.",
+        "analysis_zh": "這是行政命令後首個具體政府評估前沿網路能力的步驟。基準與報告細節仍未公開，對實際發布時程的影響尚不確定。",
+        "quote": "The Trump administration has finalized the details of voluntary cybersecurity tests to measure the hacking capabilities of the most advanced American AI models, and is planning to discuss them with the AI industry.",
+        "quote_zh": "「川普政府已敲定用來衡量最先進美國 AI 模型駭客能力的自願資安測試細節，並計畫與 AI 產業討論。」",
+        "importance": 4,
+        "first_seen": "2026-08-03T23:22:00Z",
+        "updated_at": "2026-08-04T04:35:01.880802+00:00",
+        "links": [
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/us-finalizes-voluntary-ai-safety-tests-white-house-official-says-2026-08-03/"
+          },
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html"
+          }
+        ]
+      },
+      {
+        "id": "alibaba-qwen3-8-max-2026-08-03",
+        "story_id": "alibaba-qwen3-8-max-2026-08-03",
+        "category": "frontier_other",
+        "source_type": "official_blog",
+        "title_en": "Alibaba Unveils Qwen3.8-Max: 2.4T MoE Flagship with 1M Context",
+        "title_zh": "阿里巴巴發布 Qwen3.8-Max：2.4T MoE 旗艦，支援 1M 上下文",
+        "summary_en": "Alibaba announced Qwen3.8-Max, its largest model to date with 2.4 trillion total parameters (95B active) under a sparse MoE architecture, 1-million-token context and multimodal support. The model is available now via Alibaba Cloud Model Studio APIs; open weights are scheduled for next week.",
+        "summary_zh": "阿里巴巴宣布旗艦模型 Qwen3.8-Max，總參數 2.4 兆（激活約 950 億）採用稀疏 MoE 架構，支援 100 萬 token 上下文與多模態。模型已可透過阿里雲 Model Studio API 使用，權重預計下週開源。",
+        "analysis_en": "A large open-weight MoE release focused on long-horizon agentic work strengthens competition from Chinese labs and gives developers a high-capacity alternative outside the Western closed models. Actual independent benchmarks will clarify whether the claimed ranking holds.",
+        "analysis_zh": "聚焦長時程 agent 工作的大型開源權重 MoE 釋出，強化中國實驗室競爭力，並為開發者提供西方封閉模型之外的高容量選擇。獨立基準將釐清其宣稱排名是否成立。",
+        "quote": "Boasting 2.4 trillion parameters and supporting a context window of up to 1 million tokens, Qwen3.8-Max ranks fifth in Text Arena and second in Vision Arena, while exhibiting advanced capabilities in coding, real-life work, research, and long-horizon tasks.",
+        "quote_zh": "「擁有 2.4 兆參數並支援高達 100 萬 token 上下文的 Qwen3.8-Max，在 Text Arena 排名第五、Vision Arena 排名第二，同時展現 coding、真實工作、研究與長時程任務的進階能力。」",
+        "importance": 4,
+        "first_seen": "2026-08-03T00:00:00Z",
+        "updated_at": "2026-08-04T04:35:01.880802+00:00",
+        "links": [
+          {
+            "label": "Alibaba Cloud Press",
+            "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen3-8-max"
+          }
+        ]
+      }
+    ]
   },
-  "brief_en": "Quiet day across frontier labs. OpenAI detailed a full-duplex GPT-Live voice architecture rebuild enabling continuous listen-and-speak, plus released Lean-verified proofs from an internal next-model (Astra) solving 10 long-open math problems. No other major official announcements or model releases from Anthropic, Google, Meta, xAI or open-source players.",
-  "brief_zh": "今日大廠動態平靜。OpenAI 詳述 GPT-Live 全雙工語音架構重建（可同時聽與說、非同步推理），並公開內部下一模型 Astra 解決的 10 項長期數學難題與 Lean 證明。Anthropic、Google、Meta、xAI 等無重大官方新公告或模型發布。",
-  "updated_at": "2026-08-03T22:35:02.127727+00:00"
+  "brief_en": "OpenAI detailed its full-duplex GPT-Live continuous voice rebuild and released Lean proofs of 10 math advances from internal Astra. White House finalized a voluntary frontier AI cyber-testing framework and meets OpenAI, Anthropic, Google and Meta today. Alibaba launched Qwen3.8-Max (2.4T MoE).",
+  "brief_zh": "OpenAI 公開全雙工 GPT-Live 連續語音重建工程文，並釋出內部 Astra 產出的 10 項數學 Lean 證明。白宮敲定自願前沿 AI 資安測試框架，今日與 OpenAI、Anthropic、Google、Meta 會面。阿里巴巴發布 Qwen3.8-Max（2.4T MoE）。",
+  "updated_at": "2026-08-04T04:35:01.880802+00:00"
 }
