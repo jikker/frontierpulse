@@ -8,6 +8,14 @@
       "item_count": 5,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-08-06T22:35:01.737632+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 7,
+      "updated_count": 5,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -17,23 +25,27 @@
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google DeepMind WeatherNext Delivers Decade-Equivalent Leap in Cyclone Forecasting, Open-Sources Models",
-      "title_zh": "Google DeepMind WeatherNext 氣旋預報達十年級進展，開源模型與程式碼",
-      "summary_en": "Google DeepMind published WeatherNext in Nature: an AI model that achieves state-of-the-art accuracy on cyclone track, intensity and wind structure, delivering on average an extra 24 hours of useful lead time (three-day forecasts match prior two-day quality). Code, weights (including WeatherNext 2 and Cyclones variants) and a compact Colab-runnable mini version are open-sourced on GitHub; 1,000 probabilistic scenarios per storm are now available via WeatherLab.",
-      "summary_zh": "Google DeepMind 於 Nature 發表 WeatherNext：AI 模型在氣旋路徑、強度與風場結構預測達最先進水準，平均多提供約24小時有效提前量（三天預報品質等同過去兩天）。WeatherNext 2、Cyclones 變體與精簡版已於 GitHub 開源，每場風暴提供1,000組機率情境，並可透過 WeatherLab 使用。",
-      "analysis_en": "This is a rare science-first open release that demonstrably advances operational meteorology rather than just benchmarks. The extra day of warning can translate into real evacuation and resource decisions; open weights lower the barrier for national weather services and climate-risk models, though real-world verification across more basins remains the key uncertainty.",
-      "analysis_zh": "這是少見以科學為先的開源釋出，直接推進作業氣象而非僅刷榜。額外一天預警可轉化為實際疏散與資源調度；開源權重降低各國氣象單位與氣候風險模型門檻，但跨洋盆的實務驗證仍是關鍵不確定性。",
-      "quote": "Predicting cyclones accurately can help save lives - and every hour of lead time counts. ... our AI model WeatherNext achieves state-of-the-art accuracy ... giving us a critical extra 24 hours to prepare on average.",
-      "quote_zh": "準確預測氣旋有助拯救生命——每一小時的提前量都很重要。……我們的 AI 模型 WeatherNext 達到最先進準確度……平均多提供關鍵的24小時準備時間。",
+      "title_zh": "Google DeepMind WeatherNext 氣旋預報達十年級躍進並開源模型",
+      "summary_en": "Google DeepMind published WeatherNext in Nature: an AI model that achieves state-of-the-art accuracy on cyclone track, intensity and wind structure, delivering on average an extra 24 hours of useful lead time (three-day forecasts match prior two-day quality). The models (WeatherNext 2 and WeatherNext Cyclones) and code are open-sourced for research and operational use.",
+      "summary_zh": "Google DeepMind 於 Nature 發表 WeatherNext：AI 模型在氣旋路徑、強度與風場結構達 SOTA 準確度，平均多提供約 24 小時有效預警（三天預報相當於過去兩天品質）。WeatherNext 2 與 WeatherNext Cyclones 模型及程式碼已開源，供研究與作業使用。",
+      "analysis_en": "This is a rare science-first open release that demonstrably advances operational meteorology rather than just benchmarks. The extra day of warning can translate into real evacuation and preparedness gains, though real-world uptake by national weather services remains the key uncertainty.",
+      "analysis_zh": "這是少見以科學為先並真正推進作業氣象的開源釋出，而非僅刷基準。多一天的預警可轉化為實際撤離與整備效益，但各國氣象單位是否採納仍是關鍵不確定性。",
+      "quote": "On average, our model gives forecasters an extra day’s worth of predictive accuracy: our three-day forecasts are as good as what prior models were able to provide for only the next two days. This scale of improvement corresponds roughly to a decade’s worth of meteorological progress.",
+      "quote_zh": "平均而言，我們的模型為預報員多提供一天的預測準確度：三天預報相當於過去模型只能提供的兩天品質。此規模改善大致相當於十年的氣象進步。",
       "importance": 4,
       "first_seen": "2026-08-06T15:59:52Z",
-      "updated_at": "2026-08-06T16:35:01.769550+00:00",
+      "updated_at": "2026-08-06T22:35:01.737632+00:00",
       "links": [
         {
           "label": "Google DeepMind Blog",
           "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
         },
         {
-          "label": "Google Blog (WeatherNext 2)",
+          "label": "Nature paper",
+          "url": "https://www.nature.com/articles/s41586-026-10953-2"
+        },
+        {
+          "label": "Google Blog",
           "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-2-cyclones/"
         },
         {
@@ -52,19 +64,19 @@
       "category": "meta",
       "source_type": "official_x",
       "title_en": "Meta AI Models Score Gold / Perfect Marks Across Five STEM Olympiads with Pure Reasoning",
-      "title_zh": "Meta AI 模型以純推理在五項 STEM 奧林匹亞取得金牌／滿分成績",
-      "summary_en": "Meta AI announced that internally trained Muse Spark family models achieved perfect scores on the theory exams of the Asian and International Physics Olympiads, a gold medal at the International Mathematical Olympiad, and gold-medal-level results at the International Chemistry Olympiad and Romanian Masters of Mathematics. All evaluations used zero tool use (no search, code, or calculator); three competitions were live submissions graded by official judges under the same criteria as human contestants.",
-      "summary_zh": "Meta AI 宣布內部訓練的 Muse Spark 系列模型在亞洲與國際物理奧林匹亞理論試卷獲滿分、國際數學奧林匹亞金牌，以及國際化學奧林匹亞與羅馬尼亞數學大師賽金牌級表現。全部評估禁止工具使用（無搜尋、程式碼或計算機）；其中三項為現場交卷，由官方裁判依與人類選手相同標準評分。",
-      "analysis_en": "These results provide a cleaner signal of long-horizon reasoning progress than contaminated benchmarks. Live official grading reduces the usual skepticism around self-reported scores, yet the exact model versions and multi-agent orchestration details remain internal, so external reproducibility is still limited.",
-      "analysis_zh": "相較於易受污染的基準測試，這些結果提供較乾淨的長程推理進展訊號。官方現場評分降低自我報告分數的常見疑慮，但精確模型版本與多代理編排細節仍屬內部，外部可重現性仍有限。",
+      "title_zh": "Meta AI 模型以純推理在五項 STEM 奧賽拿金牌／滿分",
+      "summary_en": "Meta AI announced that internally trained Muse Spark family models achieved perfect scores on the theory exams of the Asian and International Physics Olympiads, a gold medal at the International Mathematical Olympiad, and gold-medal-level results at the International Chemistry Olympiad and Romanian Masters of Mathematics. All tool use (search, code, calculator) was disallowed to test pure reasoning.",
+      "summary_zh": "Meta AI 宣布內部訓練的 Muse Spark 系列模型在亞洲與國際物理奧賽理論試拿滿分、國際數學奧賽金牌，並在國際化學奧賽與羅馬尼亞數學大師賽達金牌級表現。為測試純推理能力，全程禁用搜尋、程式與計算機等工具。",
+      "analysis_en": "These results provide a cleaner signal of long-horizon reasoning progress than contaminated benchmarks. Live official grading reduces the usual skepticism around self-reported scores, though generalization beyond contest problems remains unproven.",
+      "analysis_zh": "這些結果比受污染的基準更能乾淨反映長程推理進展。官方評分降低自報分數的常見疑慮，但能否泛化到競賽題以外仍待驗證。",
       "quote": "To understand whether we're making genuine progress on reasoning, we entered our AI models in five STEM Olympiad competitions. ... To test pure reasoning capability, we disallowed all tool use, meaning no search, no coding, and no calculator.",
-      "quote_zh": "為了解我們是否在推理上取得真正進展，我們讓 AI 模型參加五項 STEM 奧林匹亞競賽。……為測試純推理能力，我們禁止所有工具使用，意即無搜尋、無程式碼、無計算機。",
+      "quote_zh": "為了解我們是否在推理上取得真正進展，我們讓 AI 模型參加五項 STEM 奧賽。……為測試純推理能力，我們禁用所有工具，包括搜尋、程式與計算機。",
       "importance": 4,
       "first_seen": "2026-08-06T15:34:03Z",
-      "updated_at": "2026-08-06T16:35:01.769550+00:00",
+      "updated_at": "2026-08-06T22:35:01.737632+00:00",
       "links": [
         {
-          "label": "@AIatMeta official post",
+          "label": "AI at Meta on X",
           "url": "https://x.com/AIatMeta/status/2085388945148297322"
         },
         {
@@ -74,64 +86,29 @@
       ]
     },
     {
-      "id": "anthropic-in-house-chip-team-2026-08-05",
-      "story_id": "anthropic-in-house-chip-team-2026-08-05",
-      "category": "anthropic",
-      "source_type": "news",
-      "title_en": "Anthropic Confirms In-House Custom Chip Design Team for Claude",
-      "title_zh": "Anthropic 確認組建 Claude 自研客製晶片設計團隊",
-      "summary_en": "Anthropic publicly confirmed it is assembling an in-house silicon team to co-design custom AI chips optimized for Claude, aiming for higher speed and efficiency at scale. The move is described as the latest step in a multi-chip strategy; the company will continue using a diversified stack including AWS, Google, NVIDIA and AMD hardware. Job listings for silicon engineers and hardware architects are active; no manufacturing timeline was given.",
-      "summary_zh": "Anthropic 公開確認正在組建內部矽晶團隊，共同設計針對 Claude 優化的客製 AI 晶片，目標在規模下提升速度與效率。此舉被描述為多晶片策略的最新一步；公司將持續使用包含 AWS、Google、NVIDIA 與 AMD 的多元硬體堆疊。矽工程師與硬體架構師職缺已公開，但未公布製造時程。",
-      "analysis_en": "Custom silicon is becoming table-stakes for frontier labs facing power and cost walls. Anthropic’s explicit multi-chip framing reduces the risk of single-vendor lock-in, yet the multi-year, multi-hundred-million-dollar cost and talent competition remain significant execution uncertainties.",
-      "analysis_zh": "面對電力與成本瓶頸，客製矽晶已成前沿實驗室標配。Anthropic 明確的多晶片框架降低單一供應商鎖定風險，但多年期、數億美元成本與人才競爭仍是重大執行不確定性。",
-      "quote": "",
-      "quote_zh": "",
-      "importance": 3,
-      "first_seen": "2026-08-05T22:15:00Z",
-      "updated_at": "2026-08-06T16:35:01.769550+00:00",
-      "links": [
-        {
-          "label": "Reuters",
-          "url": "https://www.reuters.com/business/anthropic-build-in-house-chip-design-team-claude-hire-engineers-2026-08-05/"
-        },
-        {
-          "label": "Data Center Dynamics",
-          "url": "https://www.datacenterdynamics.com/en/news/anthropic-publicly-confirms-its-putting-together-an-in-house-chip-design-team/"
-        },
-        {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/"
-        }
-      ]
-    },
-    {
-      "id": "softbank-10b-loan-openai-stake-2026-08-06",
-      "story_id": "softbank-10b-loan-openai-stake-2026-08-06",
+      "id": "openai-gpt56-sol-chatgpt-update-2026-08-06",
+      "story_id": "openai-gpt56-sol-chatgpt-update-2026-08-06",
       "category": "openai",
-      "source_type": "news",
-      "title_en": "SoftBank Secures $10 Billion Margin Loan Backed by Its OpenAI Stake",
-      "title_zh": "軟銀以 OpenAI 持股擔保取得100億美元保證金貸款",
-      "summary_en": "SoftBank Group disclosed it has agreed a $10 billion two-year margin loan with Goldman Sachs, JPMorgan, Mizuho, Apollo and Sumitomo Mitsui, collateralized by its OpenAI preferred shares (with SoftBank as guarantor). Proceeds are for general corporate purposes and Vision Fund II-2; drawdown is expected in August 2026. SoftBank’s cumulative OpenAI investment is set to reach ~$64.6 billion by October.",
-      "summary_zh": "軟銀集團揭露已與高盛、摩根大通、瑞穗、Apollo 與三井住友達成100億美元兩年期保證金貸款協議，以 OpenAI 優先股作為擔保（軟銀為保證人）。資金用於一般企業用途與 Vision Fund II-2，預計2026年8月動用。軟銀對 OpenAI 累計投資將於10月達約646億美元。",
-      "analysis_en": "The loan deepens SoftBank’s leveraged exposure to a still-private OpenAI valuation. It provides liquidity for further AI bets without forced equity sales, yet any sharp drop in OpenAI share value could trigger cash collateral or early repayment requirements—heightening systemic linkage between SoftBank’s balance sheet and OpenAI’s private-market pricing.",
-      "analysis_zh": "此貸款加深軟銀對仍屬私有 OpenAI 估值的槓桿曝險。它在不強制出售股權的情況下提供進一步 AI 押注的流動性，但 OpenAI 股價若大幅下跌可能觸發現金擔保或提前償還要求——加深軟銀資產負債表與 OpenAI 私募定價的系統性連結。",
-      "quote": "",
-      "quote_zh": "",
+      "source_type": "official_blog",
+      "title_en": "OpenAI Improves GPT-5.6 Sol in ChatGPT and Expands Unlimited Luna Access to Free Users",
+      "title_zh": "OpenAI 提升 ChatGPT 中 GPT-5.6 Sol 並讓免費用戶無限使用 Luna",
+      "summary_en": "OpenAI announced that an updated GPT-5.6 Sol now powers all chats (including Instant) for Plus and Pro users in ChatGPT, with a new reasoning-effort slider and substantially fewer factual errors. Free and Go users receive GPT-5.6 Luna as the default model with unlimited text chats and a new Think button for harder questions.",
+      "summary_zh": "OpenAI 宣布更新版 GPT-5.6 Sol 現已驅動 Plus/Pro 用戶在 ChatGPT 的所有對話（含 Instant），並新增推理強度滑桿，事實錯誤大幅減少。免費與 Go 用戶將以 GPT-5.6 Luna 為預設模型，享有無限文字聊天與針對難題的 Think 按鈕。",
+      "analysis_en": "The update prioritizes everyday reliability and broader access over a new flagship model release. The claimed error reductions matter for high-stakes domains, yet independent verification and the exact scope of the free-tier Think button will determine real user impact.",
+      "analysis_zh": "此次更新優先提升日常可靠性與普及程度，而非推出全新旗艦模型。宣稱的錯誤率下降對高風險領域重要，但獨立驗證與免費版 Think 按鈕的實際範圍將決定真實影響。",
+      "quote": "In an internal evaluation of financial, medical, and legal prompts requiring factual detail, responses containing at least one factual error were about 62% less common with GPT‑5.6 Luna and 68% less common with GPT‑5.6 Sol than with GPT‑5.5 Instant.",
+      "quote_zh": "在需要事實細節的金融、醫療與法律提示內部評估中，GPT-5.6 Luna 與 GPT-5.6 Sol 出現至少一個事實錯誤的回應，分別比 GPT-5.5 Instant 少約 62% 與 68%。",
       "importance": 3,
-      "first_seen": "2026-08-06T06:36:00Z",
-      "updated_at": "2026-08-06T16:35:01.769550+00:00",
+      "first_seen": "2026-08-06T18:35:55Z",
+      "updated_at": "2026-08-06T22:35:01.737632+00:00",
       "links": [
         {
-          "label": "Reuters",
-          "url": "https://www.reuters.com/world/asia-pacific/softbanks-first-quarter-income-falls-18-2026-08-06/"
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/"
         },
         {
-          "label": "Bloomberg via Detroit News",
-          "url": "https://www.detroitnews.com/story/business/2026/08/06/10-billion-margin-loan-for-softbank-backed-by-openai-stake/91194779007/"
-        },
-        {
-          "label": "WSJ",
-          "url": "https://www.wsj.com/business/earnings/softbank-group-reports-lower-quarterly-profit-2bca0889"
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2085434712429052386"
         }
       ]
     },
@@ -141,16 +118,16 @@
       "category": "meta",
       "source_type": "official_blog",
       "title_en": "Meta Releases Muse Code (Beta) Terminal Agent and Muse Spark 1.2 Coding Update",
-      "title_zh": "Meta 發布 Muse Code（測試版）終端代理與 Muse Spark 1.2 編碼更新",
-      "summary_en": "Meta Superintelligence Labs released Muse Code, a beta terminal coding agent that plans, writes and validates changes across large repositories using persistent sub-agents and a restart-safe event log, powered by the new Muse Spark 1.2 model. Muse Spark 1.2 is a coding-focused update to 1.1 with scaled training compute on coding tasks and improved long-horizon workflows; it is available in Muse Code and the Meta Model API.",
-      "summary_zh": "Meta Superintelligence Labs 發布 Muse Code（測試版）終端編碼代理，可規劃、撰寫並驗證大型儲存庫變更，運用持久子代理與可重啟事件日誌，由新 Muse Spark 1.2 模型驅動。Muse Spark 1.2 是針對編碼的 1.1 更新版，擴大編碼任務訓練算力並改善長程工作流；已於 Muse Code 與 Meta Model API 提供。",
-      "analysis_en": "Meta is accelerating its push into the competitive coding-agent market dominated by Claude Code and Codex. The co-training of model and harness plus restart-safe design address real long-running failure modes, but independent benchmark leadership still trails the current Opus-class leaders.",
-      "analysis_zh": "Meta 正加速進入由 Claude Code 與 Codex 主導的編碼代理競爭市場。模型與工具鏈共訓練加上可重啟設計，針對真實長程失敗模式，但獨立基準表現仍落後當前 Opus 級領先者。",
+      "title_zh": "Meta 發布 Muse Code（Beta）終端代理與 Muse Spark 1.2 程式更新",
+      "summary_en": "Meta Superintelligence Labs released Muse Code, a beta terminal coding agent that plans, writes and validates changes across large repositories using persistent sub-agents and a restart-safe event log, powered by the new Muse Spark 1.2 model focused on coding and end-to-end developer workflows.",
+      "summary_zh": "Meta Superintelligence Labs 發布 Muse Code（Beta）終端程式代理，能針對大型程式庫規劃、撰寫並驗證變更，採用持久子代理與重啟安全事件日誌，由著重程式與端到端開發流程的新版 Muse Spark 1.2 驅動。",
+      "analysis_en": "Meta is accelerating its push into the competitive coding-agent market dominated by Claude Code and Codex. The co-training of model and harness plus restart-safe design address real reliability pain points, but sustained performance against frontier closed models will decide adoption.",
+      "analysis_zh": "Meta 正加速進軍由 Claude Code 與 Codex 主導的程式代理市場。模型與工具鏈共訓練加上重啟安全設計回應真實可靠性痛點，但能否長期對抗閉源前沿模型將決定採用程度。",
       "quote": "We're excited to release Muse Code (beta), a terminal coding agent powered by Muse Spark 1.2, our newest model. This marks our next step toward the frontier, with larger and much more capable models on the way.",
-      "quote_zh": "我們很高興發布 Muse Code（測試版），這是由我們最新模型 Muse Spark 1.2 驅動的終端編碼代理。這標誌著我們邁向前沿的下一步，更大、更強大的模型即將到來。",
+      "quote_zh": "我們很高興發布由最新模型 Muse Spark 1.2 驅動的終端程式代理 Muse Code（Beta）。這是邁向前沿的下一步，更大更強的模型即將到來。",
       "importance": 3,
       "first_seen": "2026-08-05T19:09:24Z",
-      "updated_at": "2026-08-06T16:35:01.769550+00:00",
+      "updated_at": "2026-08-06T22:35:01.737632+00:00",
       "links": [
         {
           "label": "Meta AI Research Blog",
@@ -165,27 +142,155 @@
           "url": "https://www.reuters.com/technology/meta-launches-new-ai-coding-tool-powered-by-muse-spark-12-2026-08-05/"
         }
       ]
+    },
+    {
+      "id": "softbank-10b-loan-openai-stake-2026-08-06",
+      "story_id": "softbank-10b-loan-openai-stake-2026-08-06",
+      "category": "openai",
+      "source_type": "news",
+      "title_en": "SoftBank Secures $10 Billion Margin Loan Backed by Its OpenAI Stake",
+      "title_zh": "軟銀以 OpenAI 股權取得 100 億美元保證金貸款",
+      "summary_en": "SoftBank Group disclosed it has agreed a $10 billion two-year margin loan with Goldman Sachs, JPMorgan, Mizuho, Apollo and Sumitomo Mitsui, collateralized by its OpenAI preferred shares (with SoftBank as guarantor). Proceeds are for general corporate purposes and Vision Fund activities.",
+      "summary_zh": "軟銀集團披露已與高盛、摩根大通、瑞穗、Apollo 與三井住友達成 100 億美元兩年期保證金貸款協議，以所持 OpenAI 優先股為抵押（軟銀為保證人），資金用於一般企業用途與願景基金活動。",
+      "analysis_en": "The loan deepens SoftBank’s leveraged exposure to a still-private OpenAI valuation. It provides liquidity for further AI bets without forced equity sales, yet any sharp drop in OpenAI’s implied value could trigger margin calls or early repayment.",
+      "analysis_zh": "此貸款加深軟銀對仍屬私人 OpenAI 估值的槓桿曝險。它在不被迫出售股權下提供進一步 AI 投資流動性，但 OpenAI 隱含價值若大幅下跌可能觸發追繳保證金或提前還款。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 3,
+      "first_seen": "2026-08-06T06:36:00Z",
+      "updated_at": "2026-08-06T22:35:01.737632+00:00",
+      "links": [
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-06/softbank-secures-10-billion-margin-loan-backed-by-openai-stake"
+        },
+        {
+          "label": "WSJ",
+          "url": "https://www.wsj.com/business/earnings/softbank-group-reports-lower-quarterly-profit-2bca0889"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/softbanks-first-quarter-income-falls-18-2026-08-06/"
+        },
+        {
+          "label": "Bloomberg via Detroit News",
+          "url": "https://www.detroitnews.com/story/business/2026/08/06/10-billion-margin-loan-for-softbank-backed-by-openai-stake/91194779007/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-in-house-chip-team-2026-08-05",
+      "story_id": "anthropic-in-house-chip-team-2026-08-05",
+      "category": "anthropic",
+      "source_type": "mixed",
+      "title_en": "Anthropic Confirms In-House Custom Chip Design Team for Claude",
+      "title_zh": "Anthropic 確認組建 Claude 自研客製晶片設計團隊",
+      "summary_en": "Anthropic publicly confirmed it is assembling an in-house silicon team to co-design custom AI chips optimized for Claude, aiming for higher speed and efficiency at scale. The move is described as the latest step in a multi-chip strategy that will continue to use external hardware alongside internal designs.",
+      "summary_zh": "Anthropic 公開確認正在組建內部矽晶團隊，共同設計針對 Claude 優化的客製 AI 晶片，目標提升規模化速度與效率。此舉被描述為多晶片策略的最新一步，將繼續搭配外部硬體使用。",
+      "analysis_en": "Custom silicon is becoming table-stakes for frontier labs facing power and cost walls. Anthropic’s explicit multi-chip framing reduces the risk of single-vendor lock-in, yet the multi-year timeline to production chips means near-term compute will still rely on Nvidia, Google and Amazon hardware.",
+      "analysis_zh": "客製矽晶正成為面對電力與成本牆的前沿實驗室必備條件。Anthropic 明確的多晶片框架降低單一供應商鎖定風險，但量產晶片需數年時間，近期待算仍依賴 Nvidia、Google 與 Amazon 硬體。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 3,
+      "first_seen": "2026-08-05T22:15:00Z",
+      "updated_at": "2026-08-06T22:35:01.737632+00:00",
+      "links": [
+        {
+          "label": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/"
+        },
+        {
+          "label": "Data Center Dynamics",
+          "url": "https://www.datacenterdynamics.com/en/news/anthropic-publicly-confirms-its-putting-together-an-in-house-chip-design-team/"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/anthropic-build-in-house-chip-design-team-claude-hire-engineers-2026-08-05/"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/"
+        }
+      ]
+    },
+    {
+      "id": "openai-apa-youth-mental-health-2026-08-06",
+      "story_id": "openai-apa-youth-mental-health-2026-08-06",
+      "category": "openai",
+      "source_type": "official_x",
+      "title_en": "OpenAI Partners with American Psychological Association on AI and Youth Mental Health",
+      "title_zh": "OpenAI 與美國心理學會合作 AI 與青少年心理健康",
+      "summary_en": "OpenAI announced a partnership with the American Psychological Association to incorporate psychological science and clinical expertise into its work on AI and youth mental health, focusing on evidence-based guidance, resources and safeguards for young users.",
+      "summary_zh": "OpenAI 宣布與美國心理學會（APA）合作，將心理科學與臨床專業納入其 AI 與青少年心理健康工作，重點發展實證導向的指引、資源與安全防護。",
+      "analysis_en": "The collaboration formalizes earlier APA input on under-18 safeguards and responds to rising adolescent use of chatbots for emotional support. Concrete product changes and independent evaluation will determine whether it moves beyond advisory status.",
+      "analysis_zh": "此合作正式化先前 APA 對 18 歲以下防護的意見，並回應青少年日益使用聊天機器人尋求情緒支持的現象。具體產品變更與獨立評估將決定它是否超越顧問角色。",
+      "quote": "We’re partnering with the American Psychological Association to bring psychological science and clinical expertise into our work on AI and youth mental health.",
+      "quote_zh": "我們正與美國心理學會合作，將心理科學與臨床專業納入我們在 AI 與青少年心理健康的工作。",
+      "importance": 2,
+      "first_seen": "2026-08-06T16:50:38Z",
+      "updated_at": "2026-08-06T22:35:01.737632+00:00",
+      "links": [
+        {
+          "label": "OpenAI Newsroom on X",
+          "url": "https://x.com/OpenAINewsroom/status/2085408215882404326"
+        }
+      ]
     }
   ],
   "categories": {
     "openai": [
+      {
+        "id": "openai-gpt56-sol-chatgpt-update-2026-08-06",
+        "story_id": "openai-gpt56-sol-chatgpt-update-2026-08-06",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI Improves GPT-5.6 Sol in ChatGPT and Expands Unlimited Luna Access to Free Users",
+        "title_zh": "OpenAI 提升 ChatGPT 中 GPT-5.6 Sol 並讓免費用戶無限使用 Luna",
+        "summary_en": "OpenAI announced that an updated GPT-5.6 Sol now powers all chats (including Instant) for Plus and Pro users in ChatGPT, with a new reasoning-effort slider and substantially fewer factual errors. Free and Go users receive GPT-5.6 Luna as the default model with unlimited text chats and a new Think button for harder questions.",
+        "summary_zh": "OpenAI 宣布更新版 GPT-5.6 Sol 現已驅動 Plus/Pro 用戶在 ChatGPT 的所有對話（含 Instant），並新增推理強度滑桿，事實錯誤大幅減少。免費與 Go 用戶將以 GPT-5.6 Luna 為預設模型，享有無限文字聊天與針對難題的 Think 按鈕。",
+        "analysis_en": "The update prioritizes everyday reliability and broader access over a new flagship model release. The claimed error reductions matter for high-stakes domains, yet independent verification and the exact scope of the free-tier Think button will determine real user impact.",
+        "analysis_zh": "此次更新優先提升日常可靠性與普及程度，而非推出全新旗艦模型。宣稱的錯誤率下降對高風險領域重要，但獨立驗證與免費版 Think 按鈕的實際範圍將決定真實影響。",
+        "quote": "In an internal evaluation of financial, medical, and legal prompts requiring factual detail, responses containing at least one factual error were about 62% less common with GPT‑5.6 Luna and 68% less common with GPT‑5.6 Sol than with GPT‑5.5 Instant.",
+        "quote_zh": "在需要事實細節的金融、醫療與法律提示內部評估中，GPT-5.6 Luna 與 GPT-5.6 Sol 出現至少一個事實錯誤的回應，分別比 GPT-5.5 Instant 少約 62% 與 68%。",
+        "importance": 3,
+        "first_seen": "2026-08-06T18:35:55Z",
+        "updated_at": "2026-08-06T22:35:01.737632+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2085434712429052386"
+          }
+        ]
+      },
       {
         "id": "softbank-10b-loan-openai-stake-2026-08-06",
         "story_id": "softbank-10b-loan-openai-stake-2026-08-06",
         "category": "openai",
         "source_type": "news",
         "title_en": "SoftBank Secures $10 Billion Margin Loan Backed by Its OpenAI Stake",
-        "title_zh": "軟銀以 OpenAI 持股擔保取得100億美元保證金貸款",
-        "summary_en": "SoftBank Group disclosed it has agreed a $10 billion two-year margin loan with Goldman Sachs, JPMorgan, Mizuho, Apollo and Sumitomo Mitsui, collateralized by its OpenAI preferred shares (with SoftBank as guarantor). Proceeds are for general corporate purposes and Vision Fund II-2; drawdown is expected in August 2026. SoftBank’s cumulative OpenAI investment is set to reach ~$64.6 billion by October.",
-        "summary_zh": "軟銀集團揭露已與高盛、摩根大通、瑞穗、Apollo 與三井住友達成100億美元兩年期保證金貸款協議，以 OpenAI 優先股作為擔保（軟銀為保證人）。資金用於一般企業用途與 Vision Fund II-2，預計2026年8月動用。軟銀對 OpenAI 累計投資將於10月達約646億美元。",
-        "analysis_en": "The loan deepens SoftBank’s leveraged exposure to a still-private OpenAI valuation. It provides liquidity for further AI bets without forced equity sales, yet any sharp drop in OpenAI share value could trigger cash collateral or early repayment requirements—heightening systemic linkage between SoftBank’s balance sheet and OpenAI’s private-market pricing.",
-        "analysis_zh": "此貸款加深軟銀對仍屬私有 OpenAI 估值的槓桿曝險。它在不強制出售股權的情況下提供進一步 AI 押注的流動性，但 OpenAI 股價若大幅下跌可能觸發現金擔保或提前償還要求——加深軟銀資產負債表與 OpenAI 私募定價的系統性連結。",
+        "title_zh": "軟銀以 OpenAI 股權取得 100 億美元保證金貸款",
+        "summary_en": "SoftBank Group disclosed it has agreed a $10 billion two-year margin loan with Goldman Sachs, JPMorgan, Mizuho, Apollo and Sumitomo Mitsui, collateralized by its OpenAI preferred shares (with SoftBank as guarantor). Proceeds are for general corporate purposes and Vision Fund activities.",
+        "summary_zh": "軟銀集團披露已與高盛、摩根大通、瑞穗、Apollo 與三井住友達成 100 億美元兩年期保證金貸款協議，以所持 OpenAI 優先股為抵押（軟銀為保證人），資金用於一般企業用途與願景基金活動。",
+        "analysis_en": "The loan deepens SoftBank’s leveraged exposure to a still-private OpenAI valuation. It provides liquidity for further AI bets without forced equity sales, yet any sharp drop in OpenAI’s implied value could trigger margin calls or early repayment.",
+        "analysis_zh": "此貸款加深軟銀對仍屬私人 OpenAI 估值的槓桿曝險。它在不被迫出售股權下提供進一步 AI 投資流動性，但 OpenAI 隱含價值若大幅下跌可能觸發追繳保證金或提前還款。",
         "quote": "",
         "quote_zh": "",
         "importance": 3,
         "first_seen": "2026-08-06T06:36:00Z",
-        "updated_at": "2026-08-06T16:35:01.769550+00:00",
+        "updated_at": "2026-08-06T22:35:01.737632+00:00",
         "links": [
+          {
+            "label": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-08-06/softbank-secures-10-billion-margin-loan-backed-by-openai-stake"
+          },
+          {
+            "label": "WSJ",
+            "url": "https://www.wsj.com/business/earnings/softbank-group-reports-lower-quarterly-profit-2bca0889"
+          },
           {
             "label": "Reuters",
             "url": "https://www.reuters.com/world/asia-pacific/softbanks-first-quarter-income-falls-18-2026-08-06/"
@@ -193,10 +298,29 @@
           {
             "label": "Bloomberg via Detroit News",
             "url": "https://www.detroitnews.com/story/business/2026/08/06/10-billion-margin-loan-for-softbank-backed-by-openai-stake/91194779007/"
-          },
+          }
+        ]
+      },
+      {
+        "id": "openai-apa-youth-mental-health-2026-08-06",
+        "story_id": "openai-apa-youth-mental-health-2026-08-06",
+        "category": "openai",
+        "source_type": "official_x",
+        "title_en": "OpenAI Partners with American Psychological Association on AI and Youth Mental Health",
+        "title_zh": "OpenAI 與美國心理學會合作 AI 與青少年心理健康",
+        "summary_en": "OpenAI announced a partnership with the American Psychological Association to incorporate psychological science and clinical expertise into its work on AI and youth mental health, focusing on evidence-based guidance, resources and safeguards for young users.",
+        "summary_zh": "OpenAI 宣布與美國心理學會（APA）合作，將心理科學與臨床專業納入其 AI 與青少年心理健康工作，重點發展實證導向的指引、資源與安全防護。",
+        "analysis_en": "The collaboration formalizes earlier APA input on under-18 safeguards and responds to rising adolescent use of chatbots for emotional support. Concrete product changes and independent evaluation will determine whether it moves beyond advisory status.",
+        "analysis_zh": "此合作正式化先前 APA 對 18 歲以下防護的意見，並回應青少年日益使用聊天機器人尋求情緒支持的現象。具體產品變更與獨立評估將決定它是否超越顧問角色。",
+        "quote": "We’re partnering with the American Psychological Association to bring psychological science and clinical expertise into our work on AI and youth mental health.",
+        "quote_zh": "我們正與美國心理學會合作，將心理科學與臨床專業納入我們在 AI 與青少年心理健康的工作。",
+        "importance": 2,
+        "first_seen": "2026-08-06T16:50:38Z",
+        "updated_at": "2026-08-06T22:35:01.737632+00:00",
+        "links": [
           {
-            "label": "WSJ",
-            "url": "https://www.wsj.com/business/earnings/softbank-group-reports-lower-quarterly-profit-2bca0889"
+            "label": "OpenAI Newsroom on X",
+            "url": "https://x.com/OpenAINewsroom/status/2085408215882404326"
           }
         ]
       }
@@ -206,26 +330,30 @@
         "id": "anthropic-in-house-chip-team-2026-08-05",
         "story_id": "anthropic-in-house-chip-team-2026-08-05",
         "category": "anthropic",
-        "source_type": "news",
+        "source_type": "mixed",
         "title_en": "Anthropic Confirms In-House Custom Chip Design Team for Claude",
         "title_zh": "Anthropic 確認組建 Claude 自研客製晶片設計團隊",
-        "summary_en": "Anthropic publicly confirmed it is assembling an in-house silicon team to co-design custom AI chips optimized for Claude, aiming for higher speed and efficiency at scale. The move is described as the latest step in a multi-chip strategy; the company will continue using a diversified stack including AWS, Google, NVIDIA and AMD hardware. Job listings for silicon engineers and hardware architects are active; no manufacturing timeline was given.",
-        "summary_zh": "Anthropic 公開確認正在組建內部矽晶團隊，共同設計針對 Claude 優化的客製 AI 晶片，目標在規模下提升速度與效率。此舉被描述為多晶片策略的最新一步；公司將持續使用包含 AWS、Google、NVIDIA 與 AMD 的多元硬體堆疊。矽工程師與硬體架構師職缺已公開，但未公布製造時程。",
-        "analysis_en": "Custom silicon is becoming table-stakes for frontier labs facing power and cost walls. Anthropic’s explicit multi-chip framing reduces the risk of single-vendor lock-in, yet the multi-year, multi-hundred-million-dollar cost and talent competition remain significant execution uncertainties.",
-        "analysis_zh": "面對電力與成本瓶頸，客製矽晶已成前沿實驗室標配。Anthropic 明確的多晶片框架降低單一供應商鎖定風險，但多年期、數億美元成本與人才競爭仍是重大執行不確定性。",
+        "summary_en": "Anthropic publicly confirmed it is assembling an in-house silicon team to co-design custom AI chips optimized for Claude, aiming for higher speed and efficiency at scale. The move is described as the latest step in a multi-chip strategy that will continue to use external hardware alongside internal designs.",
+        "summary_zh": "Anthropic 公開確認正在組建內部矽晶團隊，共同設計針對 Claude 優化的客製 AI 晶片，目標提升規模化速度與效率。此舉被描述為多晶片策略的最新一步，將繼續搭配外部硬體使用。",
+        "analysis_en": "Custom silicon is becoming table-stakes for frontier labs facing power and cost walls. Anthropic’s explicit multi-chip framing reduces the risk of single-vendor lock-in, yet the multi-year timeline to production chips means near-term compute will still rely on Nvidia, Google and Amazon hardware.",
+        "analysis_zh": "客製矽晶正成為面對電力與成本牆的前沿實驗室必備條件。Anthropic 明確的多晶片框架降低單一供應商鎖定風險，但量產晶片需數年時間，近期待算仍依賴 Nvidia、Google 與 Amazon 硬體。",
         "quote": "",
         "quote_zh": "",
         "importance": 3,
         "first_seen": "2026-08-05T22:15:00Z",
-        "updated_at": "2026-08-06T16:35:01.769550+00:00",
+        "updated_at": "2026-08-06T22:35:01.737632+00:00",
         "links": [
           {
-            "label": "Reuters",
-            "url": "https://www.reuters.com/business/anthropic-build-in-house-chip-design-team-claude-hire-engineers-2026-08-05/"
+            "label": "Ars Technica",
+            "url": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/"
           },
           {
             "label": "Data Center Dynamics",
             "url": "https://www.datacenterdynamics.com/en/news/anthropic-publicly-confirms-its-putting-together-an-in-house-chip-design-team/"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/anthropic-build-in-house-chip-design-team-claude-hire-engineers-2026-08-05/"
           },
           {
             "label": "TechCrunch",
@@ -241,23 +369,27 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google DeepMind WeatherNext Delivers Decade-Equivalent Leap in Cyclone Forecasting, Open-Sources Models",
-        "title_zh": "Google DeepMind WeatherNext 氣旋預報達十年級進展，開源模型與程式碼",
-        "summary_en": "Google DeepMind published WeatherNext in Nature: an AI model that achieves state-of-the-art accuracy on cyclone track, intensity and wind structure, delivering on average an extra 24 hours of useful lead time (three-day forecasts match prior two-day quality). Code, weights (including WeatherNext 2 and Cyclones variants) and a compact Colab-runnable mini version are open-sourced on GitHub; 1,000 probabilistic scenarios per storm are now available via WeatherLab.",
-        "summary_zh": "Google DeepMind 於 Nature 發表 WeatherNext：AI 模型在氣旋路徑、強度與風場結構預測達最先進水準，平均多提供約24小時有效提前量（三天預報品質等同過去兩天）。WeatherNext 2、Cyclones 變體與精簡版已於 GitHub 開源，每場風暴提供1,000組機率情境，並可透過 WeatherLab 使用。",
-        "analysis_en": "This is a rare science-first open release that demonstrably advances operational meteorology rather than just benchmarks. The extra day of warning can translate into real evacuation and resource decisions; open weights lower the barrier for national weather services and climate-risk models, though real-world verification across more basins remains the key uncertainty.",
-        "analysis_zh": "這是少見以科學為先的開源釋出，直接推進作業氣象而非僅刷榜。額外一天預警可轉化為實際疏散與資源調度；開源權重降低各國氣象單位與氣候風險模型門檻，但跨洋盆的實務驗證仍是關鍵不確定性。",
-        "quote": "Predicting cyclones accurately can help save lives - and every hour of lead time counts. ... our AI model WeatherNext achieves state-of-the-art accuracy ... giving us a critical extra 24 hours to prepare on average.",
-        "quote_zh": "準確預測氣旋有助拯救生命——每一小時的提前量都很重要。……我們的 AI 模型 WeatherNext 達到最先進準確度……平均多提供關鍵的24小時準備時間。",
+        "title_zh": "Google DeepMind WeatherNext 氣旋預報達十年級躍進並開源模型",
+        "summary_en": "Google DeepMind published WeatherNext in Nature: an AI model that achieves state-of-the-art accuracy on cyclone track, intensity and wind structure, delivering on average an extra 24 hours of useful lead time (three-day forecasts match prior two-day quality). The models (WeatherNext 2 and WeatherNext Cyclones) and code are open-sourced for research and operational use.",
+        "summary_zh": "Google DeepMind 於 Nature 發表 WeatherNext：AI 模型在氣旋路徑、強度與風場結構達 SOTA 準確度，平均多提供約 24 小時有效預警（三天預報相當於過去兩天品質）。WeatherNext 2 與 WeatherNext Cyclones 模型及程式碼已開源，供研究與作業使用。",
+        "analysis_en": "This is a rare science-first open release that demonstrably advances operational meteorology rather than just benchmarks. The extra day of warning can translate into real evacuation and preparedness gains, though real-world uptake by national weather services remains the key uncertainty.",
+        "analysis_zh": "這是少見以科學為先並真正推進作業氣象的開源釋出，而非僅刷基準。多一天的預警可轉化為實際撤離與整備效益，但各國氣象單位是否採納仍是關鍵不確定性。",
+        "quote": "On average, our model gives forecasters an extra day’s worth of predictive accuracy: our three-day forecasts are as good as what prior models were able to provide for only the next two days. This scale of improvement corresponds roughly to a decade’s worth of meteorological progress.",
+        "quote_zh": "平均而言，我們的模型為預報員多提供一天的預測準確度：三天預報相當於過去模型只能提供的兩天品質。此規模改善大致相當於十年的氣象進步。",
         "importance": 4,
         "first_seen": "2026-08-06T15:59:52Z",
-        "updated_at": "2026-08-06T16:35:01.769550+00:00",
+        "updated_at": "2026-08-06T22:35:01.737632+00:00",
         "links": [
           {
             "label": "Google DeepMind Blog",
             "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
           },
           {
-            "label": "Google Blog (WeatherNext 2)",
+            "label": "Nature paper",
+            "url": "https://www.nature.com/articles/s41586-026-10953-2"
+          },
+          {
+            "label": "Google Blog",
             "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-2-cyclones/"
           },
           {
@@ -278,19 +410,19 @@
         "category": "meta",
         "source_type": "official_x",
         "title_en": "Meta AI Models Score Gold / Perfect Marks Across Five STEM Olympiads with Pure Reasoning",
-        "title_zh": "Meta AI 模型以純推理在五項 STEM 奧林匹亞取得金牌／滿分成績",
-        "summary_en": "Meta AI announced that internally trained Muse Spark family models achieved perfect scores on the theory exams of the Asian and International Physics Olympiads, a gold medal at the International Mathematical Olympiad, and gold-medal-level results at the International Chemistry Olympiad and Romanian Masters of Mathematics. All evaluations used zero tool use (no search, code, or calculator); three competitions were live submissions graded by official judges under the same criteria as human contestants.",
-        "summary_zh": "Meta AI 宣布內部訓練的 Muse Spark 系列模型在亞洲與國際物理奧林匹亞理論試卷獲滿分、國際數學奧林匹亞金牌，以及國際化學奧林匹亞與羅馬尼亞數學大師賽金牌級表現。全部評估禁止工具使用（無搜尋、程式碼或計算機）；其中三項為現場交卷，由官方裁判依與人類選手相同標準評分。",
-        "analysis_en": "These results provide a cleaner signal of long-horizon reasoning progress than contaminated benchmarks. Live official grading reduces the usual skepticism around self-reported scores, yet the exact model versions and multi-agent orchestration details remain internal, so external reproducibility is still limited.",
-        "analysis_zh": "相較於易受污染的基準測試，這些結果提供較乾淨的長程推理進展訊號。官方現場評分降低自我報告分數的常見疑慮，但精確模型版本與多代理編排細節仍屬內部，外部可重現性仍有限。",
+        "title_zh": "Meta AI 模型以純推理在五項 STEM 奧賽拿金牌／滿分",
+        "summary_en": "Meta AI announced that internally trained Muse Spark family models achieved perfect scores on the theory exams of the Asian and International Physics Olympiads, a gold medal at the International Mathematical Olympiad, and gold-medal-level results at the International Chemistry Olympiad and Romanian Masters of Mathematics. All tool use (search, code, calculator) was disallowed to test pure reasoning.",
+        "summary_zh": "Meta AI 宣布內部訓練的 Muse Spark 系列模型在亞洲與國際物理奧賽理論試拿滿分、國際數學奧賽金牌，並在國際化學奧賽與羅馬尼亞數學大師賽達金牌級表現。為測試純推理能力，全程禁用搜尋、程式與計算機等工具。",
+        "analysis_en": "These results provide a cleaner signal of long-horizon reasoning progress than contaminated benchmarks. Live official grading reduces the usual skepticism around self-reported scores, though generalization beyond contest problems remains unproven.",
+        "analysis_zh": "這些結果比受污染的基準更能乾淨反映長程推理進展。官方評分降低自報分數的常見疑慮，但能否泛化到競賽題以外仍待驗證。",
         "quote": "To understand whether we're making genuine progress on reasoning, we entered our AI models in five STEM Olympiad competitions. ... To test pure reasoning capability, we disallowed all tool use, meaning no search, no coding, and no calculator.",
-        "quote_zh": "為了解我們是否在推理上取得真正進展，我們讓 AI 模型參加五項 STEM 奧林匹亞競賽。……為測試純推理能力，我們禁止所有工具使用，意即無搜尋、無程式碼、無計算機。",
+        "quote_zh": "為了解我們是否在推理上取得真正進展，我們讓 AI 模型參加五項 STEM 奧賽。……為測試純推理能力，我們禁用所有工具，包括搜尋、程式與計算機。",
         "importance": 4,
         "first_seen": "2026-08-06T15:34:03Z",
-        "updated_at": "2026-08-06T16:35:01.769550+00:00",
+        "updated_at": "2026-08-06T22:35:01.737632+00:00",
         "links": [
           {
-            "label": "@AIatMeta official post",
+            "label": "AI at Meta on X",
             "url": "https://x.com/AIatMeta/status/2085388945148297322"
           },
           {
@@ -305,16 +437,16 @@
         "category": "meta",
         "source_type": "official_blog",
         "title_en": "Meta Releases Muse Code (Beta) Terminal Agent and Muse Spark 1.2 Coding Update",
-        "title_zh": "Meta 發布 Muse Code（測試版）終端代理與 Muse Spark 1.2 編碼更新",
-        "summary_en": "Meta Superintelligence Labs released Muse Code, a beta terminal coding agent that plans, writes and validates changes across large repositories using persistent sub-agents and a restart-safe event log, powered by the new Muse Spark 1.2 model. Muse Spark 1.2 is a coding-focused update to 1.1 with scaled training compute on coding tasks and improved long-horizon workflows; it is available in Muse Code and the Meta Model API.",
-        "summary_zh": "Meta Superintelligence Labs 發布 Muse Code（測試版）終端編碼代理，可規劃、撰寫並驗證大型儲存庫變更，運用持久子代理與可重啟事件日誌，由新 Muse Spark 1.2 模型驅動。Muse Spark 1.2 是針對編碼的 1.1 更新版，擴大編碼任務訓練算力並改善長程工作流；已於 Muse Code 與 Meta Model API 提供。",
-        "analysis_en": "Meta is accelerating its push into the competitive coding-agent market dominated by Claude Code and Codex. The co-training of model and harness plus restart-safe design address real long-running failure modes, but independent benchmark leadership still trails the current Opus-class leaders.",
-        "analysis_zh": "Meta 正加速進入由 Claude Code 與 Codex 主導的編碼代理競爭市場。模型與工具鏈共訓練加上可重啟設計，針對真實長程失敗模式，但獨立基準表現仍落後當前 Opus 級領先者。",
+        "title_zh": "Meta 發布 Muse Code（Beta）終端代理與 Muse Spark 1.2 程式更新",
+        "summary_en": "Meta Superintelligence Labs released Muse Code, a beta terminal coding agent that plans, writes and validates changes across large repositories using persistent sub-agents and a restart-safe event log, powered by the new Muse Spark 1.2 model focused on coding and end-to-end developer workflows.",
+        "summary_zh": "Meta Superintelligence Labs 發布 Muse Code（Beta）終端程式代理，能針對大型程式庫規劃、撰寫並驗證變更，採用持久子代理與重啟安全事件日誌，由著重程式與端到端開發流程的新版 Muse Spark 1.2 驅動。",
+        "analysis_en": "Meta is accelerating its push into the competitive coding-agent market dominated by Claude Code and Codex. The co-training of model and harness plus restart-safe design address real reliability pain points, but sustained performance against frontier closed models will decide adoption.",
+        "analysis_zh": "Meta 正加速進軍由 Claude Code 與 Codex 主導的程式代理市場。模型與工具鏈共訓練加上重啟安全設計回應真實可靠性痛點，但能否長期對抗閉源前沿模型將決定採用程度。",
         "quote": "We're excited to release Muse Code (beta), a terminal coding agent powered by Muse Spark 1.2, our newest model. This marks our next step toward the frontier, with larger and much more capable models on the way.",
-        "quote_zh": "我們很高興發布 Muse Code（測試版），這是由我們最新模型 Muse Spark 1.2 驅動的終端編碼代理。這標誌著我們邁向前沿的下一步，更大、更強大的模型即將到來。",
+        "quote_zh": "我們很高興發布由最新模型 Muse Spark 1.2 驅動的終端程式代理 Muse Code（Beta）。這是邁向前沿的下一步，更大更強的模型即將到來。",
         "importance": 3,
         "first_seen": "2026-08-05T19:09:24Z",
-        "updated_at": "2026-08-06T16:35:01.769550+00:00",
+        "updated_at": "2026-08-06T22:35:01.737632+00:00",
         "links": [
           {
             "label": "Meta AI Research Blog",
@@ -334,7 +466,7 @@
     "xai": [],
     "frontier_other": []
   },
-  "brief_en": "Quiet day for flagship model launches. Google DeepMind open-sourced WeatherNext, a Nature-published AI that adds ~24h of cyclone forecast lead time. Meta reported gold-level pure-reasoning results across five STEM Olympiads with Muse models. Anthropic confirmed an in-house custom-chip team; SoftBank secured a $10B loan against its OpenAI stake.",
-  "brief_zh": "今日無旗艦模型大發布。Google DeepMind 開源 WeatherNext（Nature 論文），氣旋預報平均多出約24小時提前量。Meta 以 Muse 模型在五項 STEM 奧林匹亞純推理達金牌級。Anthropic 確認自研晶片團隊；軟銀以 OpenAI 持股擔保取得100億美元貸款。",
-  "updated_at": "2026-08-06T16:35:01.769550+00:00"
+  "brief_en": "Google DeepMind published WeatherNext in Nature with decade-equivalent cyclone forecast gains and open-sourced the models. Meta Muse Spark models earned gold/perfect marks on five STEM olympiads via pure reasoning. OpenAI improved GPT-5.6 Sol factuality for paid ChatGPT users and expanded Luna unlimited access to free users. SoftBank closed a $10B margin loan on its OpenAI stake; Anthropic confirmed an in-house custom-chip team.",
+  "brief_zh": "Google DeepMind 於 Nature 發表 WeatherNext，氣旋預報躍進十年級並開源模型。Meta Muse Spark 純推理在五項 STEM 奧賽拿金牌/滿分。OpenAI 提升 GPT-5.6 Sol 事實性並讓免費用戶無限使用 Luna。SoftBank 以 OpenAI 股權取得 100 億美元保證金貸款；Anthropic 確認組建自研晶片團隊。",
+  "updated_at": "2026-08-06T22:35:01.737632+00:00"
 }
