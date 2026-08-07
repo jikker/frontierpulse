@@ -8,29 +8,68 @@
       "item_count": 2,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-08-07T22:35:01.716774+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 3,
+      "updated_count": 2,
+      "kept_count": 0
     }
   ],
   "items_flat": [
+    {
+      "id": "openai-astra-critical-cyber-2026-08-07",
+      "story_id": "openai-astra-critical-cyber-2026-08-07",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI Treats Upcoming Astra as First Critical Cyber Model under Preparedness Framework",
+      "title_zh": "OpenAI將即將推出的Astra列為首個「關鍵」網路安全模型並啟動更嚴格管控",
+      "summary_en": "OpenAI announced that internal evaluations of its upcoming model Astra show significant advances in agentic coding and cybersecurity, such that it cannot rule out Critical capabilities under its Preparedness Framework—the first time any OpenAI model has reached this threshold (prior models including GPT-5.6 Sol were assessed High). The company is implementing stricter controls including isolated testing environments, restricted network/tool access, enhanced weight protections, and universal monitoring, while pausing non-compliant internal activities and planning external testing with government and safety organizations. It aims to make advanced cyber capabilities available to defenders.",
+      "summary_zh": "OpenAI宣布，其即將推出的模型Astra在內部評估中顯示出代理式編碼與網路安全方面的重大進展，無法排除達到Preparedness Framework「關鍵」（Critical）門檻——這是OpenAI首次有模型達此等級（先前包括GPT-5.6 Sol均為「高」）。公司正實施更嚴格管控（隔離測試環境、限制網路與工具存取、強化權重保護、全面監控），暫停不符合新要求的內部活動，並計畫與政府及安全組織進行外部測試，目標是將進階網路能力交到防禦者手中。",
+      "analysis_en": "This is a rare public admission that a frontier model may cross into autonomous zero-day and novel attack capabilities, triggering voluntary development pauses and heightened safeguards. It signals that cyber dual-use risk is materializing faster than many expected, though the exact capability level remains preliminary and the release timeline is unstated.",
+      "analysis_zh": "這是罕見的公開承認前沿模型可能跨入自主零日漏洞與新型攻擊能力的門檻，並觸發自願開發暫停與更高防護。顯示網路雙用途風險實現速度超出許多預期，但精確能力等級仍屬初步評估，發布時程尚未說明。",
+      "quote": "we cannot rule out critical cyber capabilities under our Preparedness Framework",
+      "quote_zh": "我們無法排除其在我們的Preparedness Framework下達到關鍵網路安全能力",
+      "importance": 4,
+      "first_seen": "2026-08-07T18:52:00Z",
+      "updated_at": "2026-08-07T22:35:01.716774+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2085801349866729975"
+        }
+      ]
+    },
     {
       "id": "anthropic-fable5-biology-safeguards-2026-08-07",
       "story_id": "anthropic-fable5-biology-safeguards-2026-08-07",
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic Updates Fable 5 Biology Safeguards, Cutting False Positives ~85%",
-      "title_zh": "Anthropic 更新 Fable 5 生物學安全防護，誤報大幅減少約85%",
-      "summary_en": "Anthropic announced updates to Claude Fable 5’s biology safeguards that substantially reduce false positives. In testing the change cut biology-related fallbacks by about 85% across product surfaces, letting the model assist more with everyday health, educational and clinical questions while still routing dual-use requests (virology, toxicology, molecular design) to Opus 5.",
-      "summary_zh": "Anthropic 宣布更新 Claude Fable 5 的生物學安全防護，大幅減少誤報。測試顯示各產品介面的生物學相關退回情況減少約85%，讓模型能更廣泛協助日常健康、教育與臨床問題，同時仍將雙重用途請求（病毒學、毒理學、分子設計）路由至 Opus 5。",
-      "analysis_en": "This is a practical safety-tuning step that expands useful access for researchers and clinicians without removing the core dual-use barrier. It underscores the ongoing tension between capability openness and catastrophic bio-risk mitigation; trusted-access pathways remain the stated longer-term solution.",
-      "analysis_zh": "這是實用的安全調校步驟，擴大研究人員與臨床人員的可用範圍，但未移除核心雙重用途屏障。它凸顯能力開放與災難性生物風險緩解之間的持續張力；可信賴存取途徑仍是官方長期解決方案。",
-      "quote": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces false positives. In our testing, this update reduced fallbacks by about 85% across our product surfaces.",
-      "quote_zh": "我們正在以大幅減少誤報的方式更新 Claude Fable 5 的生物學安全防護。在測試中，此更新使各產品介面的退回情況減少約85%。",
+      "title_zh": "Anthropic更新Fable 5生物防護機制，誤報回退率降低約85%",
+      "summary_en": "Anthropic announced updates to Claude Fable 5’s biology safeguards that substantially reduce false positives. In testing the change cut biology-related fallbacks by about 85% across product surfaces, letting the model assist more with everyday health, educational, and clinical questions such as interpreting lab results or symptoms. Dual-use requests (virology, toxicology, molecular design) still fall back to Opus 5; the model is not yet usable for professional biology research or drug development, with trusted-access pathways under development.",
+      "summary_zh": "Anthropic宣布更新Claude Fable 5的生物防護機制，大幅降低誤報。測試顯示生物相關回退（fallback）減少約85%，讓模型能更多協助日常健康、教育與臨床問題（如解讀檢驗報告或症狀）。雙用途請求（病毒學、毒理學、分子設計）仍會回退至Opus 5；模型尚無法用於專業生物學研究或藥物開發，受信任存取途徑仍在開發中。",
+      "analysis_en": "This is a practical safety-tuning step that expands useful access for researchers and clinicians without removing the core dual-use barrier. It underscores the ongoing tension between maximizing beneficial biology use and containing catastrophic risk, with the residual fallback policy remaining the key constraint.",
+      "analysis_zh": "這是實用的安全調校步驟，在不移除核心雙用途屏障的前提下，擴大研究人員與臨床人員的可用範圍。突顯了最大化生物益處與控制災難性風險之間的持續張力，殘餘回退政策仍是關鍵限制。",
+      "quote": "In our testing, this update reduced biology-related fallbacks by about 85% across our product surfaces.",
+      "quote_zh": "在我們的測試中，此更新將各產品介面的生物相關回退減少約85%。",
       "importance": 3,
       "first_seen": "2026-08-07T03:08:00Z",
-      "updated_at": "2026-08-07T16:35:02.052936+00:00",
+      "updated_at": "2026-08-07T22:35:01.716774+00:00",
       "links": [
         {
           "label": "Anthropic Blog",
           "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+        },
+        {
+          "label": "Claude on X",
+          "url": "https://x.com/claudeai/status/2085563808773189680"
         }
       ]
     },
@@ -40,30 +79,58 @@
       "category": "xai",
       "source_type": "official_x",
       "title_en": "xAI Releases Grok Build V1.0 Terminal Coding Agent",
-      "title_zh": "xAI 發布 Grok Build V1.0 終端編碼代理",
-      "summary_en": "Elon Musk announced that Grok Build has reached V1.0.0, the first major release of xAI’s terminal coding agent powered by Grok 4.5. The update adds dashboard turn summaries, improved permissions and reliability, skills/plugins support, parallel subagents and numerous UX fixes after rapid 0.x iteration.",
-      "summary_zh": "Elon Musk 宣布 Grok Build 達到 V1.0.0，這是 xAI 由 Grok 4.5 驅動的終端編碼代理首個主要版本。更新新增儀表板回合摘要、改進權限與可靠性、技能/插件支援、平行子代理，以及多次 0.x 快速迭代後的眾多 UX 修復。",
-      "analysis_en": "Coding agents are rapidly becoming a primary interface for frontier models. Hitting 1.0 after intensive shipping shows product maturity in a competitive field, yet sustained differentiation against Claude Code, Codex and Muse Code remains an open question.",
-      "analysis_zh": "編碼代理正快速成為前沿模型的主要介面。密集出貨後達到 1.0 顯示產品在競爭激烈賽道的成熟度，但與 Claude Code、Codex 及 Muse Code 的長期差異化仍是未解問題。",
-      "quote": "Grok Build V1.0 is now released. Try it out! https://x.ai/build",
-      "quote_zh": "Grok Build V1.0 現已發布。快來試試！https://x.ai/build",
+      "title_zh": "xAI發布Grok Build V1.0終端編碼代理",
+      "summary_en": "Elon Musk announced that Grok Build has reached V1.0.0, the first major release of xAI’s terminal coding agent powered by Grok 4.5. The update adds dashboard turn summaries, improved permissions and reliability, skills/plugins support, parallel subagents, and numerous fixes for large sessions, MCP tools, and git restores. Follow-up posts noted ongoing work to make it usable by non-technical users.",
+      "summary_zh": "Elon Musk宣布Grok Build已達V1.0.0，這是xAI終端編碼代理的首個主要版本，由Grok 4.5驅動。更新新增儀表板回合摘要、改進權限與可靠性、技能/外掛支援、平行子代理，以及大量針對大型工作階段、MCP工具與git還原的修復。後續貼文提到正持續讓非技術使用者更易上手。",
+      "analysis_en": "Coding agents are rapidly becoming a primary interface for frontier models. Hitting 1.0 after intensive shipping shows product maturity in a competitive field, yet sustained differentiation will depend on how reliably the harness converts model capability into end-to-end software delivery.",
+      "analysis_zh": "編碼代理正快速成為前沿模型的主要介面。經過密集迭代達到1.0顯示產品成熟度，但能否持續差異化仍取決於此框架能否穩定把模型能力轉化為端到端軟體交付。",
+      "quote": "Grok Build V1.0 is now released. Try it out!",
+      "quote_zh": "Grok Build V1.0現已發布。試試看！",
       "importance": 3,
       "first_seen": "2026-08-07T05:12:00Z",
-      "updated_at": "2026-08-07T16:35:02.052936+00:00",
+      "updated_at": "2026-08-07T22:35:01.716774+00:00",
       "links": [
         {
           "label": "Elon Musk on X",
           "url": "https://x.com/elonmusk/status/2085594813840216212"
         },
         {
-          "label": "x.ai/build",
+          "label": "xAI Build",
           "url": "https://x.ai/build"
         }
       ]
     }
   ],
   "categories": {
-    "openai": [],
+    "openai": [
+      {
+        "id": "openai-astra-critical-cyber-2026-08-07",
+        "story_id": "openai-astra-critical-cyber-2026-08-07",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI Treats Upcoming Astra as First Critical Cyber Model under Preparedness Framework",
+        "title_zh": "OpenAI將即將推出的Astra列為首個「關鍵」網路安全模型並啟動更嚴格管控",
+        "summary_en": "OpenAI announced that internal evaluations of its upcoming model Astra show significant advances in agentic coding and cybersecurity, such that it cannot rule out Critical capabilities under its Preparedness Framework—the first time any OpenAI model has reached this threshold (prior models including GPT-5.6 Sol were assessed High). The company is implementing stricter controls including isolated testing environments, restricted network/tool access, enhanced weight protections, and universal monitoring, while pausing non-compliant internal activities and planning external testing with government and safety organizations. It aims to make advanced cyber capabilities available to defenders.",
+        "summary_zh": "OpenAI宣布，其即將推出的模型Astra在內部評估中顯示出代理式編碼與網路安全方面的重大進展，無法排除達到Preparedness Framework「關鍵」（Critical）門檻——這是OpenAI首次有模型達此等級（先前包括GPT-5.6 Sol均為「高」）。公司正實施更嚴格管控（隔離測試環境、限制網路與工具存取、強化權重保護、全面監控），暫停不符合新要求的內部活動，並計畫與政府及安全組織進行外部測試，目標是將進階網路能力交到防禦者手中。",
+        "analysis_en": "This is a rare public admission that a frontier model may cross into autonomous zero-day and novel attack capabilities, triggering voluntary development pauses and heightened safeguards. It signals that cyber dual-use risk is materializing faster than many expected, though the exact capability level remains preliminary and the release timeline is unstated.",
+        "analysis_zh": "這是罕見的公開承認前沿模型可能跨入自主零日漏洞與新型攻擊能力的門檻，並觸發自願開發暫停與更高防護。顯示網路雙用途風險實現速度超出許多預期，但精確能力等級仍屬初步評估，發布時程尚未說明。",
+        "quote": "we cannot rule out critical cyber capabilities under our Preparedness Framework",
+        "quote_zh": "我們無法排除其在我們的Preparedness Framework下達到關鍵網路安全能力",
+        "importance": 4,
+        "first_seen": "2026-08-07T18:52:00Z",
+        "updated_at": "2026-08-07T22:35:01.716774+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2085801349866729975"
+          }
+        ]
+      }
+    ],
     "anthropic": [
       {
         "id": "anthropic-fable5-biology-safeguards-2026-08-07",
@@ -71,20 +138,24 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic Updates Fable 5 Biology Safeguards, Cutting False Positives ~85%",
-        "title_zh": "Anthropic 更新 Fable 5 生物學安全防護，誤報大幅減少約85%",
-        "summary_en": "Anthropic announced updates to Claude Fable 5’s biology safeguards that substantially reduce false positives. In testing the change cut biology-related fallbacks by about 85% across product surfaces, letting the model assist more with everyday health, educational and clinical questions while still routing dual-use requests (virology, toxicology, molecular design) to Opus 5.",
-        "summary_zh": "Anthropic 宣布更新 Claude Fable 5 的生物學安全防護，大幅減少誤報。測試顯示各產品介面的生物學相關退回情況減少約85%，讓模型能更廣泛協助日常健康、教育與臨床問題，同時仍將雙重用途請求（病毒學、毒理學、分子設計）路由至 Opus 5。",
-        "analysis_en": "This is a practical safety-tuning step that expands useful access for researchers and clinicians without removing the core dual-use barrier. It underscores the ongoing tension between capability openness and catastrophic bio-risk mitigation; trusted-access pathways remain the stated longer-term solution.",
-        "analysis_zh": "這是實用的安全調校步驟，擴大研究人員與臨床人員的可用範圍，但未移除核心雙重用途屏障。它凸顯能力開放與災難性生物風險緩解之間的持續張力；可信賴存取途徑仍是官方長期解決方案。",
-        "quote": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces false positives. In our testing, this update reduced fallbacks by about 85% across our product surfaces.",
-        "quote_zh": "我們正在以大幅減少誤報的方式更新 Claude Fable 5 的生物學安全防護。在測試中，此更新使各產品介面的退回情況減少約85%。",
+        "title_zh": "Anthropic更新Fable 5生物防護機制，誤報回退率降低約85%",
+        "summary_en": "Anthropic announced updates to Claude Fable 5’s biology safeguards that substantially reduce false positives. In testing the change cut biology-related fallbacks by about 85% across product surfaces, letting the model assist more with everyday health, educational, and clinical questions such as interpreting lab results or symptoms. Dual-use requests (virology, toxicology, molecular design) still fall back to Opus 5; the model is not yet usable for professional biology research or drug development, with trusted-access pathways under development.",
+        "summary_zh": "Anthropic宣布更新Claude Fable 5的生物防護機制，大幅降低誤報。測試顯示生物相關回退（fallback）減少約85%，讓模型能更多協助日常健康、教育與臨床問題（如解讀檢驗報告或症狀）。雙用途請求（病毒學、毒理學、分子設計）仍會回退至Opus 5；模型尚無法用於專業生物學研究或藥物開發，受信任存取途徑仍在開發中。",
+        "analysis_en": "This is a practical safety-tuning step that expands useful access for researchers and clinicians without removing the core dual-use barrier. It underscores the ongoing tension between maximizing beneficial biology use and containing catastrophic risk, with the residual fallback policy remaining the key constraint.",
+        "analysis_zh": "這是實用的安全調校步驟，在不移除核心雙用途屏障的前提下，擴大研究人員與臨床人員的可用範圍。突顯了最大化生物益處與控制災難性風險之間的持續張力，殘餘回退政策仍是關鍵限制。",
+        "quote": "In our testing, this update reduced biology-related fallbacks by about 85% across our product surfaces.",
+        "quote_zh": "在我們的測試中，此更新將各產品介面的生物相關回退減少約85%。",
         "importance": 3,
         "first_seen": "2026-08-07T03:08:00Z",
-        "updated_at": "2026-08-07T16:35:02.052936+00:00",
+        "updated_at": "2026-08-07T22:35:01.716774+00:00",
         "links": [
           {
             "label": "Anthropic Blog",
             "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+          },
+          {
+            "label": "Claude on X",
+            "url": "https://x.com/claudeai/status/2085563808773189680"
           }
         ]
       }
@@ -98,23 +169,23 @@
         "category": "xai",
         "source_type": "official_x",
         "title_en": "xAI Releases Grok Build V1.0 Terminal Coding Agent",
-        "title_zh": "xAI 發布 Grok Build V1.0 終端編碼代理",
-        "summary_en": "Elon Musk announced that Grok Build has reached V1.0.0, the first major release of xAI’s terminal coding agent powered by Grok 4.5. The update adds dashboard turn summaries, improved permissions and reliability, skills/plugins support, parallel subagents and numerous UX fixes after rapid 0.x iteration.",
-        "summary_zh": "Elon Musk 宣布 Grok Build 達到 V1.0.0，這是 xAI 由 Grok 4.5 驅動的終端編碼代理首個主要版本。更新新增儀表板回合摘要、改進權限與可靠性、技能/插件支援、平行子代理，以及多次 0.x 快速迭代後的眾多 UX 修復。",
-        "analysis_en": "Coding agents are rapidly becoming a primary interface for frontier models. Hitting 1.0 after intensive shipping shows product maturity in a competitive field, yet sustained differentiation against Claude Code, Codex and Muse Code remains an open question.",
-        "analysis_zh": "編碼代理正快速成為前沿模型的主要介面。密集出貨後達到 1.0 顯示產品在競爭激烈賽道的成熟度，但與 Claude Code、Codex 及 Muse Code 的長期差異化仍是未解問題。",
-        "quote": "Grok Build V1.0 is now released. Try it out! https://x.ai/build",
-        "quote_zh": "Grok Build V1.0 現已發布。快來試試！https://x.ai/build",
+        "title_zh": "xAI發布Grok Build V1.0終端編碼代理",
+        "summary_en": "Elon Musk announced that Grok Build has reached V1.0.0, the first major release of xAI’s terminal coding agent powered by Grok 4.5. The update adds dashboard turn summaries, improved permissions and reliability, skills/plugins support, parallel subagents, and numerous fixes for large sessions, MCP tools, and git restores. Follow-up posts noted ongoing work to make it usable by non-technical users.",
+        "summary_zh": "Elon Musk宣布Grok Build已達V1.0.0，這是xAI終端編碼代理的首個主要版本，由Grok 4.5驅動。更新新增儀表板回合摘要、改進權限與可靠性、技能/外掛支援、平行子代理，以及大量針對大型工作階段、MCP工具與git還原的修復。後續貼文提到正持續讓非技術使用者更易上手。",
+        "analysis_en": "Coding agents are rapidly becoming a primary interface for frontier models. Hitting 1.0 after intensive shipping shows product maturity in a competitive field, yet sustained differentiation will depend on how reliably the harness converts model capability into end-to-end software delivery.",
+        "analysis_zh": "編碼代理正快速成為前沿模型的主要介面。經過密集迭代達到1.0顯示產品成熟度，但能否持續差異化仍取決於此框架能否穩定把模型能力轉化為端到端軟體交付。",
+        "quote": "Grok Build V1.0 is now released. Try it out!",
+        "quote_zh": "Grok Build V1.0現已發布。試試看！",
         "importance": 3,
         "first_seen": "2026-08-07T05:12:00Z",
-        "updated_at": "2026-08-07T16:35:02.052936+00:00",
+        "updated_at": "2026-08-07T22:35:01.716774+00:00",
         "links": [
           {
             "label": "Elon Musk on X",
             "url": "https://x.com/elonmusk/status/2085594813840216212"
           },
           {
-            "label": "x.ai/build",
+            "label": "xAI Build",
             "url": "https://x.ai/build"
           }
         ]
@@ -122,7 +193,7 @@
     ],
     "frontier_other": []
   },
-  "brief_en": "Quiet early Aug 8 (Taipei): Anthropic refined Claude Fable 5 biology safeguards, cutting false-positive fallbacks ~85% while keeping dual-use blocks; xAI shipped Grok Build V1.0 terminal coding agent powered by Grok 4.5. No new foundation model releases in the window.",
-  "brief_zh": "8月8日開局平靜：Anthropic 改進 Claude Fable 5 生物學安全防護，誤報退回減少約85%並保留雙重用途封鎖；xAI 推出由 Grok 4.5 驅動的 Grok Build V1.0 終端編碼代理。窗口內無新基礎模型發布。",
-  "updated_at": "2026-08-07T16:35:02.052936+00:00"
+  "brief_en": "OpenAI flags upcoming Astra as its first Critical cyber model under Preparedness Framework and adds stricter controls. Anthropic cuts Fable 5 biology false-positive fallbacks ~85%. xAI ships Grok Build V1.0 terminal coding agent powered by Grok 4.5.",
+  "brief_zh": "OpenAI將即將推出的Astra列為首個「關鍵」網路安全模型並加強管控。Anthropic將Fable 5生物防護誤報回退率降低約85%。xAI發布Grok Build V1.0終端編碼代理（由Grok 4.5驅動）。",
+  "updated_at": "2026-08-07T22:35:01.716774+00:00"
 }
