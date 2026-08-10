@@ -8,6 +8,14 @@
       "item_count": 1,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-08-10T22:35:01.266667+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 4,
+      "updated_count": 1,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -15,22 +23,30 @@
       "id": "meta-muse-glimmer-release-2026-08-10",
       "story_id": "meta-muse-glimmer-release-2026-08-10",
       "category": "meta",
-      "source_type": "mixed",
+      "source_type": "official_blog",
       "title_en": "Meta Releases Muse Glimmer: 30B Open-Weight Agentic Model for Local Devices",
-      "title_zh": "Meta 發布 Muse Glimmer：30B 參數開源權重代理模型，可於消費級裝置本地運行",
-      "summary_en": "Meta Superintelligence Labs announced Muse Glimmer, a 30-billion-parameter open-weight model optimized for always-on local agentic workflows. It runs on a single consumer GPU (Mac or PC), supports multimodal input, tool use, multi-step reasoning and failure recovery, and is released under Apache 2.0 on Hugging Face. The release coincides with Mark Zuckerberg’s essay “The Future is for Everyone” advocating distributed personal superintelligence; Meta also plans to open Muse Spark 1.2 weights soon.",
-      "summary_zh": "Meta Superintelligence Labs 宣布推出 Muse Glimmer，一款 30B 參數開源權重模型，專為本地常駐代理工作流優化。可在單一消費級 GPU（Mac 或 PC）上運行，支援多模態輸入、工具呼叫、多步推理與失敗恢復，並以 Apache 2.0 授權於 Hugging Face 釋出。同步 Mark Zuckerberg 發表〈The Future is for Everyone〉長文主張分散式個人超級智慧；Meta 亦計畫很快開放 Muse Spark 1.2 權重。",
-      "analysis_en": "This marks Meta’s renewed push into significant open-weight releases, targeting the on-device agent niche where privacy and offline capability matter, as a counterweight to cloud-centric closed models. Key uncertainty remains real-world agent reliability versus larger proprietary systems and the exact timeline and capabilities of the promised Muse Spark 1.2 open weights.",
-      "analysis_zh": "此舉標誌 Meta 重新大力推進重要開源權重釋出，瞄準重視隱私與離線能力的裝置端代理市場，作為對雲端封閉模型的制衡。關鍵不確定性在於實務代理可靠度是否能與更大專有系統匹敵，以及 Muse Spark 1.2 開源權重的確切時程與能力。",
+      "title_zh": "Meta 發布 Muse Glimmer：30B 開源權重代理模型，可在本地裝置運行",
+      "summary_en": "Meta Superintelligence Labs announced Muse Glimmer, a ~30-billion-parameter open-weight multimodal model optimized for always-on local agentic workflows. Released under Apache 2.0, it runs on a single consumer GPU after 4-bit quantization (<20 GB), supports tool use, multi-step reasoning, failure recovery and interleaved text-image input. Weights are available on Hugging Face; the model is distilled from Muse Spark.",
+      "summary_zh": "Meta Superintelligence Labs 宣布 Muse Glimmer，約 30B 參數開源權重多模態模型，專為本地常駐代理工作流優化。採 Apache 2.0 授權，4-bit 量化後可在單一消費級 GPU 運行（<20GB），支援工具使用、多步推理、失敗恢復與文字-圖像交錯輸入。權重已上 Hugging Face，由 Muse Spark 蒸餾而來。",
+      "analysis_en": "This renews Meta’s significant open-weight push into the on-device agent niche, prioritizing privacy and offline capability as a counter to closed cloud models. Independent verification of long-horizon agent reliability on consumer hardware versus larger frontier systems remains the key open question.",
+      "analysis_zh": "此舉重啟 Meta 在開源權重領域的重要釋出，瞄準注重隱私與離線能力的裝置端代理市場，作為雲端封閉模型的抗衡。消費硬體上長程代理可靠性是否能與更大前沿系統競爭，仍待獨立大規模驗證。",
       "quote": "Today, we're introducing Muse Glimmer, the next model from Meta Superintelligence Labs, and open sourcing the model weights under a permissive Apache 2.0 license.",
-      "quote_zh": "今天，我們推出 Meta Superintelligence Labs 的下一個模型 Muse Glimmer，並以寬鬆的 Apache 2.0 授權開源模型權重。",
+      "quote_zh": "今天，我們推出 Muse Glimmer，這是 Meta Superintelligence Labs 的下一個模型，並以寬鬆的 Apache 2.0 授權開源模型權重。",
       "importance": 4,
       "first_seen": "2026-08-10T10:13:00Z",
-      "updated_at": "2026-08-10T16:35:01.698450+00:00",
+      "updated_at": "2026-08-10T22:35:01.266667+00:00",
       "links": [
         {
-          "label": "Meta Research Blog",
+          "label": "Meta AI Research Blog",
           "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
+        },
+        {
+          "label": "Hugging Face Model Card",
+          "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "label": "AI at Meta on X",
+          "url": "https://x.com/AIatMeta/status/2086757844544811485"
         },
         {
           "label": "Mark Zuckerberg on X",
@@ -39,43 +55,180 @@
         {
           "label": "Zuckerberg Essay",
           "url": "https://www.meta.com/thefutureisforeveryone/"
+        }
+      ]
+    },
+    {
+      "id": "openai-daybreak-gpt56-cyber-2026-08-10",
+      "story_id": "openai-daybreak-gpt56-cyber-2026-08-10",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI Expands Daybreak with GPT-5.6-Cyber for Approved Cyber Defenders",
+      "title_zh": "OpenAI 擴展 Daybreak，推出專用 GPT-5.6-Cyber 供授權網路防禦者使用",
+      "summary_en": "OpenAI expanded its Daybreak program with two tiers (Blue and Red) and released GPT-5.6-Cyber, a specialized model based on GPT-5.6 Sol for advanced vulnerability research, exploit development and zero-day discovery. Access is restricted to approved defenders with identity verification, monitoring and legal attestations; the model has already been used to uncover real CVEs including in Chrome’s V8 engine.",
+      "summary_zh": "OpenAI 擴展 Daybreak 計畫，新增 Blue 與 Red 兩層存取，並發布基於 GPT-5.6 Sol 的專用模型 GPT-5.6-Cyber，用於進階漏洞研究、利用開發與零日發現。存取僅限通過身分驗證、監控與法律聲明的授權防禦者；該模型已實際協助發現包括 Chrome V8 引擎在內的真實 CVE。",
+      "analysis_en": "The move acknowledges that frontier models are dual-use in cybersecurity and attempts to tip the balance toward defenders while keeping high-capability access gated. Whether the restricted program can scale fast enough against autonomous attacker tools remains uncertain.",
+      "analysis_zh": "此舉承認前沿模型在網路安全領域具雙重用途，並試圖透過受控管道傾斜天平給防禦方。受限計畫能否在自主攻擊工具擴散前快速擴大規模，仍是關鍵不確定性。",
+      "quote": "We’re expanding OpenAI Daybreak with two access tiers designed to give approved defenders the right capabilities for their work.",
+      "quote_zh": "我們正擴展 OpenAI Daybreak，新增兩個存取層級，旨在為核准的防禦者提供適合其工作的能力。",
+      "importance": 4,
+      "first_seen": "2026-08-10T17:16:00Z",
+      "updated_at": "2026-08-10T22:35:01.266667+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/"
         },
         {
-          "label": "Hugging Face",
-          "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2086864365379010729"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-claude-riemann-progress-2026-08-10",
+      "story_id": "anthropic-claude-riemann-progress-2026-08-10",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Unreleased Claude Improves Lower Bound on Riemann Zeta Zeros Satisfying the Hypothesis to 67.2%",
+      "title_zh": "未公開版 Claude 將黎曼 zeta 函數滿足假設的零點下界提升至 67.2%",
+      "summary_en": "Anthropic reported that an unreleased research version of Claude, challenged to attempt the Riemann hypothesis, did not solve it but improved a related longstanding lower bound: the fraction of zeros of the Riemann zeta function known to lie on the critical line rose from 41.6% to 67.2%. The result was validated by Anthropic mathematicians, external experts, and a formal Lean proof.",
+      "summary_zh": "Anthropic 報告，一個未公開的研究版 Claude 在被要求嘗試證明黎曼假設時雖未成功，但意外改進了相關長期下界：已知落在臨界線上的黎曼 zeta 函數零點比例從 41.6% 提升至 67.2%。結果經 Anthropic 數學家、外部專家驗證，並有正式 Lean 證明。",
+      "analysis_en": "This is a concrete demonstration of frontier models contributing non-trivial, expert-validated progress on a classic open problem in pure mathematics. It does not resolve the Riemann hypothesis itself and leaves open how much further such systems can push hard analytic number theory without human scaffolding.",
+      "analysis_zh": "這是前沿模型在純數學經典未解問題上，貢獻出經專家驗證的非平凡進展的具體示範。它並未解決黎曼假設本身，也留下這類系統在缺乏人類支架下，還能在高階解析數論上推進多遠的不確定性。",
+      "quote": "An unreleased research version of Claude has improved on a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the Riemann hypothesis... from 41.6% to 67.2%.",
+      "quote_zh": "一個未公開的研究版 Claude 改進了黎曼 zeta 函數滿足黎曼假設的零點比例的長期下界……從 41.6% 提升至 67.2%。",
+      "importance": 3,
+      "first_seen": "2026-08-10T17:28:00Z",
+      "updated_at": "2026-08-10T22:35:01.266667+00:00",
+      "links": [
+        {
+          "label": "Anthropic Research",
+          "url": "https://www.anthropic.com/research/riemann-zeta"
         },
         {
-          "label": "AI at Meta on X",
-          "url": "https://x.com/AIatMeta/status/2086757844544811485"
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2086867246073401655"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-ai-compute-financing-platforms-2026-08-10",
+      "story_id": "nvidia-ai-compute-financing-platforms-2026-08-10",
+      "category": "frontier_other",
+      "source_type": "official_blog",
+      "title_en": "NVIDIA Partners with Major Funds to Mobilize Over $500B for AI Compute Infrastructure",
+      "title_zh": "NVIDIA 攜手大型基金動員逾 5000 億美元 AI 算力基礎設施融資",
+      "summary_en": "NVIDIA announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent financing platforms aimed at mobilizing more than $500 billion of third-party capital for AI compute and AI-factory infrastructure. The platforms treat NVIDIA compute as an investable, productive asset class with usage-linked revenue.",
+      "summary_zh": "NVIDIA 宣布與 Apollo、BlackRock、Blackstone、Brookfield、高盛及 KKR 合作，建立獨立融資平台，目標動員逾 5000 億美元第三方資本投入 AI 算力與 AI 工廠基礎設施。這些平台將 NVIDIA 算力視為可投資、具生產力的資產類別，並連結使用量營收。",
+      "analysis_en": "The scale signals that capital markets now view accelerated compute as core infrastructure rather than pure technology spend. Execution risk remains high given the size of commitments and the need to match long-duration capital with rapidly evolving hardware cycles.",
+      "analysis_zh": "此規模顯示資本市場已將加速運算視為核心基礎設施而非純粹技術支出。鑑於承諾金額龐大，且需將長期資本與快速演進的硬體週期對接，執行風險仍高。",
+      "quote": "NVIDIA has reached an important milestone. We began by building chips; today, we are helping create a new class of productive, investable infrastructure: AI factories.",
+      "quote_zh": "NVIDIA 已達到重要里程碑。我們從打造晶片開始；如今，我們正協助創造一類全新的生產性、可投資基礎設施：AI 工廠。",
+      "importance": 3,
+      "first_seen": "2026-08-10T22:03:00Z",
+      "updated_at": "2026-08-10T22:35:01.266667+00:00",
+      "links": [
+        {
+          "label": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital"
+        },
+        {
+          "label": "NVIDIA on X",
+          "url": "https://x.com/nvidia/status/2086936400830861440"
         }
       ]
     }
   ],
   "categories": {
-    "openai": [],
-    "anthropic": [],
+    "openai": [
+      {
+        "id": "openai-daybreak-gpt56-cyber-2026-08-10",
+        "story_id": "openai-daybreak-gpt56-cyber-2026-08-10",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI Expands Daybreak with GPT-5.6-Cyber for Approved Cyber Defenders",
+        "title_zh": "OpenAI 擴展 Daybreak，推出專用 GPT-5.6-Cyber 供授權網路防禦者使用",
+        "summary_en": "OpenAI expanded its Daybreak program with two tiers (Blue and Red) and released GPT-5.6-Cyber, a specialized model based on GPT-5.6 Sol for advanced vulnerability research, exploit development and zero-day discovery. Access is restricted to approved defenders with identity verification, monitoring and legal attestations; the model has already been used to uncover real CVEs including in Chrome’s V8 engine.",
+        "summary_zh": "OpenAI 擴展 Daybreak 計畫，新增 Blue 與 Red 兩層存取，並發布基於 GPT-5.6 Sol 的專用模型 GPT-5.6-Cyber，用於進階漏洞研究、利用開發與零日發現。存取僅限通過身分驗證、監控與法律聲明的授權防禦者；該模型已實際協助發現包括 Chrome V8 引擎在內的真實 CVE。",
+        "analysis_en": "The move acknowledges that frontier models are dual-use in cybersecurity and attempts to tip the balance toward defenders while keeping high-capability access gated. Whether the restricted program can scale fast enough against autonomous attacker tools remains uncertain.",
+        "analysis_zh": "此舉承認前沿模型在網路安全領域具雙重用途，並試圖透過受控管道傾斜天平給防禦方。受限計畫能否在自主攻擊工具擴散前快速擴大規模，仍是關鍵不確定性。",
+        "quote": "We’re expanding OpenAI Daybreak with two access tiers designed to give approved defenders the right capabilities for their work.",
+        "quote_zh": "我們正擴展 OpenAI Daybreak，新增兩個存取層級，旨在為核准的防禦者提供適合其工作的能力。",
+        "importance": 4,
+        "first_seen": "2026-08-10T17:16:00Z",
+        "updated_at": "2026-08-10T22:35:01.266667+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2086864365379010729"
+          }
+        ]
+      }
+    ],
+    "anthropic": [
+      {
+        "id": "anthropic-claude-riemann-progress-2026-08-10",
+        "story_id": "anthropic-claude-riemann-progress-2026-08-10",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Unreleased Claude Improves Lower Bound on Riemann Zeta Zeros Satisfying the Hypothesis to 67.2%",
+        "title_zh": "未公開版 Claude 將黎曼 zeta 函數滿足假設的零點下界提升至 67.2%",
+        "summary_en": "Anthropic reported that an unreleased research version of Claude, challenged to attempt the Riemann hypothesis, did not solve it but improved a related longstanding lower bound: the fraction of zeros of the Riemann zeta function known to lie on the critical line rose from 41.6% to 67.2%. The result was validated by Anthropic mathematicians, external experts, and a formal Lean proof.",
+        "summary_zh": "Anthropic 報告，一個未公開的研究版 Claude 在被要求嘗試證明黎曼假設時雖未成功，但意外改進了相關長期下界：已知落在臨界線上的黎曼 zeta 函數零點比例從 41.6% 提升至 67.2%。結果經 Anthropic 數學家、外部專家驗證，並有正式 Lean 證明。",
+        "analysis_en": "This is a concrete demonstration of frontier models contributing non-trivial, expert-validated progress on a classic open problem in pure mathematics. It does not resolve the Riemann hypothesis itself and leaves open how much further such systems can push hard analytic number theory without human scaffolding.",
+        "analysis_zh": "這是前沿模型在純數學經典未解問題上，貢獻出經專家驗證的非平凡進展的具體示範。它並未解決黎曼假設本身，也留下這類系統在缺乏人類支架下，還能在高階解析數論上推進多遠的不確定性。",
+        "quote": "An unreleased research version of Claude has improved on a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the Riemann hypothesis... from 41.6% to 67.2%.",
+        "quote_zh": "一個未公開的研究版 Claude 改進了黎曼 zeta 函數滿足黎曼假設的零點比例的長期下界……從 41.6% 提升至 67.2%。",
+        "importance": 3,
+        "first_seen": "2026-08-10T17:28:00Z",
+        "updated_at": "2026-08-10T22:35:01.266667+00:00",
+        "links": [
+          {
+            "label": "Anthropic Research",
+            "url": "https://www.anthropic.com/research/riemann-zeta"
+          },
+          {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI/status/2086867246073401655"
+          }
+        ]
+      }
+    ],
     "google": [],
     "meta": [
       {
         "id": "meta-muse-glimmer-release-2026-08-10",
         "story_id": "meta-muse-glimmer-release-2026-08-10",
         "category": "meta",
-        "source_type": "mixed",
+        "source_type": "official_blog",
         "title_en": "Meta Releases Muse Glimmer: 30B Open-Weight Agentic Model for Local Devices",
-        "title_zh": "Meta 發布 Muse Glimmer：30B 參數開源權重代理模型，可於消費級裝置本地運行",
-        "summary_en": "Meta Superintelligence Labs announced Muse Glimmer, a 30-billion-parameter open-weight model optimized for always-on local agentic workflows. It runs on a single consumer GPU (Mac or PC), supports multimodal input, tool use, multi-step reasoning and failure recovery, and is released under Apache 2.0 on Hugging Face. The release coincides with Mark Zuckerberg’s essay “The Future is for Everyone” advocating distributed personal superintelligence; Meta also plans to open Muse Spark 1.2 weights soon.",
-        "summary_zh": "Meta Superintelligence Labs 宣布推出 Muse Glimmer，一款 30B 參數開源權重模型，專為本地常駐代理工作流優化。可在單一消費級 GPU（Mac 或 PC）上運行，支援多模態輸入、工具呼叫、多步推理與失敗恢復，並以 Apache 2.0 授權於 Hugging Face 釋出。同步 Mark Zuckerberg 發表〈The Future is for Everyone〉長文主張分散式個人超級智慧；Meta 亦計畫很快開放 Muse Spark 1.2 權重。",
-        "analysis_en": "This marks Meta’s renewed push into significant open-weight releases, targeting the on-device agent niche where privacy and offline capability matter, as a counterweight to cloud-centric closed models. Key uncertainty remains real-world agent reliability versus larger proprietary systems and the exact timeline and capabilities of the promised Muse Spark 1.2 open weights.",
-        "analysis_zh": "此舉標誌 Meta 重新大力推進重要開源權重釋出，瞄準重視隱私與離線能力的裝置端代理市場，作為對雲端封閉模型的制衡。關鍵不確定性在於實務代理可靠度是否能與更大專有系統匹敵，以及 Muse Spark 1.2 開源權重的確切時程與能力。",
+        "title_zh": "Meta 發布 Muse Glimmer：30B 開源權重代理模型，可在本地裝置運行",
+        "summary_en": "Meta Superintelligence Labs announced Muse Glimmer, a ~30-billion-parameter open-weight multimodal model optimized for always-on local agentic workflows. Released under Apache 2.0, it runs on a single consumer GPU after 4-bit quantization (<20 GB), supports tool use, multi-step reasoning, failure recovery and interleaved text-image input. Weights are available on Hugging Face; the model is distilled from Muse Spark.",
+        "summary_zh": "Meta Superintelligence Labs 宣布 Muse Glimmer，約 30B 參數開源權重多模態模型，專為本地常駐代理工作流優化。採 Apache 2.0 授權，4-bit 量化後可在單一消費級 GPU 運行（<20GB），支援工具使用、多步推理、失敗恢復與文字-圖像交錯輸入。權重已上 Hugging Face，由 Muse Spark 蒸餾而來。",
+        "analysis_en": "This renews Meta’s significant open-weight push into the on-device agent niche, prioritizing privacy and offline capability as a counter to closed cloud models. Independent verification of long-horizon agent reliability on consumer hardware versus larger frontier systems remains the key open question.",
+        "analysis_zh": "此舉重啟 Meta 在開源權重領域的重要釋出，瞄準注重隱私與離線能力的裝置端代理市場，作為雲端封閉模型的抗衡。消費硬體上長程代理可靠性是否能與更大前沿系統競爭，仍待獨立大規模驗證。",
         "quote": "Today, we're introducing Muse Glimmer, the next model from Meta Superintelligence Labs, and open sourcing the model weights under a permissive Apache 2.0 license.",
-        "quote_zh": "今天，我們推出 Meta Superintelligence Labs 的下一個模型 Muse Glimmer，並以寬鬆的 Apache 2.0 授權開源模型權重。",
+        "quote_zh": "今天，我們推出 Muse Glimmer，這是 Meta Superintelligence Labs 的下一個模型，並以寬鬆的 Apache 2.0 授權開源模型權重。",
         "importance": 4,
         "first_seen": "2026-08-10T10:13:00Z",
-        "updated_at": "2026-08-10T16:35:01.698450+00:00",
+        "updated_at": "2026-08-10T22:35:01.266667+00:00",
         "links": [
           {
-            "label": "Meta Research Blog",
+            "label": "Meta AI Research Blog",
             "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
+          },
+          {
+            "label": "Hugging Face Model Card",
+            "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+          },
+          {
+            "label": "AI at Meta on X",
+            "url": "https://x.com/AIatMeta/status/2086757844544811485"
           },
           {
             "label": "Mark Zuckerberg on X",
@@ -84,22 +237,42 @@
           {
             "label": "Zuckerberg Essay",
             "url": "https://www.meta.com/thefutureisforeveryone/"
-          },
-          {
-            "label": "Hugging Face",
-            "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
-          },
-          {
-            "label": "AI at Meta on X",
-            "url": "https://x.com/AIatMeta/status/2086757844544811485"
           }
         ]
       }
     ],
     "xai": [],
-    "frontier_other": []
+    "frontier_other": [
+      {
+        "id": "nvidia-ai-compute-financing-platforms-2026-08-10",
+        "story_id": "nvidia-ai-compute-financing-platforms-2026-08-10",
+        "category": "frontier_other",
+        "source_type": "official_blog",
+        "title_en": "NVIDIA Partners with Major Funds to Mobilize Over $500B for AI Compute Infrastructure",
+        "title_zh": "NVIDIA 攜手大型基金動員逾 5000 億美元 AI 算力基礎設施融資",
+        "summary_en": "NVIDIA announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent financing platforms aimed at mobilizing more than $500 billion of third-party capital for AI compute and AI-factory infrastructure. The platforms treat NVIDIA compute as an investable, productive asset class with usage-linked revenue.",
+        "summary_zh": "NVIDIA 宣布與 Apollo、BlackRock、Blackstone、Brookfield、高盛及 KKR 合作，建立獨立融資平台，目標動員逾 5000 億美元第三方資本投入 AI 算力與 AI 工廠基礎設施。這些平台將 NVIDIA 算力視為可投資、具生產力的資產類別，並連結使用量營收。",
+        "analysis_en": "The scale signals that capital markets now view accelerated compute as core infrastructure rather than pure technology spend. Execution risk remains high given the size of commitments and the need to match long-duration capital with rapidly evolving hardware cycles.",
+        "analysis_zh": "此規模顯示資本市場已將加速運算視為核心基礎設施而非純粹技術支出。鑑於承諾金額龐大，且需將長期資本與快速演進的硬體週期對接，執行風險仍高。",
+        "quote": "NVIDIA has reached an important milestone. We began by building chips; today, we are helping create a new class of productive, investable infrastructure: AI factories.",
+        "quote_zh": "NVIDIA 已達到重要里程碑。我們從打造晶片開始；如今，我們正協助創造一類全新的生產性、可投資基礎設施：AI 工廠。",
+        "importance": 3,
+        "first_seen": "2026-08-10T22:03:00Z",
+        "updated_at": "2026-08-10T22:35:01.266667+00:00",
+        "links": [
+          {
+            "label": "NVIDIA Newsroom",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital"
+          },
+          {
+            "label": "NVIDIA on X",
+            "url": "https://x.com/nvidia/status/2086936400830861440"
+          }
+        ]
+      }
+    ]
   },
-  "brief_en": "Meta released Muse Glimmer, a 30B open-weight agentic model for local on-device use under Apache 2.0, with Zuckerberg’s essay on distributed AI. No major official announcements from OpenAI, Anthropic, Google DeepMind or xAI in the window.",
-  "brief_zh": "Meta 發布 30B 開源權重本地代理模型 Muse Glimmer（Apache 2.0），並同步 Zuckerberg 長文主張分散 AI 權力。OpenAI、Anthropic、Google DeepMind、xAI 在視窗內無重大官方宣布。",
-  "updated_at": "2026-08-10T16:35:01.698450+00:00"
+  "brief_en": "Meta released Muse Glimmer, a 30B open-weight local agentic model. OpenAI expanded Daybreak with GPT-5.6-Cyber for approved cyber defenders. Anthropic showed an unreleased Claude advancing the Riemann zeta zeros lower bound to 67.2%. NVIDIA partnered with major funds to mobilize over $500B for AI compute infrastructure.",
+  "brief_zh": "Meta 發布 30B 開源本地代理模型 Muse Glimmer；OpenAI 擴展 Daybreak 並推出專用 GPT-5.6-Cyber；Anthropic 展示研究版 Claude 將黎曼 zeta 零點下界提升至 67.2%；NVIDIA 攜手大型基金動員逾 5000 億美元 AI 算力融資。",
+  "updated_at": "2026-08-10T22:35:01.266667+00:00"
 }
