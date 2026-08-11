@@ -24,6 +24,14 @@
       "item_count": 5,
       "updated_count": 4,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-08-11T10:35:01.529598+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 5,
+      "updated_count": 5,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -33,23 +41,23 @@
       "category": "meta",
       "source_type": "official_blog",
       "title_en": "Meta Releases Muse Glimmer: 30B Open-Weight Agentic Model for Local Devices",
-      "title_zh": "Meta 發布 Muse Glimmer：30B 開源權重本地代理模型",
-      "summary_en": "Meta Superintelligence Labs released Muse Glimmer, an approximately 30-billion-parameter open-weight multimodal model optimized for always-on local agentic workflows. It is available under Apache 2.0, runs on a single consumer GPU after quantization, and was distilled from Muse Spark for tool use, multi-step tasks, coding and failure recovery.",
-      "summary_zh": "Meta Superintelligence Labs 發布 Muse Glimmer，約 300 億參數開源權重多模態模型，專為持續本地代理工作流優化。採 Apache 2.0 授權，量化後可在單一消費級 GPU 運行，並從 Muse Spark 蒸餾而來，支援工具使用、多步驟任務、程式與失敗恢復。",
-      "analysis_en": "This renews Meta’s open-weight push into the on-device agent niche, prioritising privacy and offline capability against closed cloud models. Independent verification of claimed agentic benchmarks versus peers of similar size will determine real adoption impact.",
-      "analysis_zh": "此舉延續 Meta 開源權重策略，切入裝置端代理利基，強調隱私與離線能力以對抗封閉雲端模型。獨立驗證其代理基準與同尺寸模型的實際差距，將決定真正採用影響。",
-      "quote": "Today, we're introducing Muse Glimmer, the next model from Meta Superintelligence Labs, and open sourcing the model weights under a permissive Apache 2.0 license. Muse Glimmer is a 30-billion-parameter model optimized for always-on local agent workflows.",
-      "quote_zh": "今天，我們推出 Meta Superintelligence Labs 的下一個模型 Muse Glimmer，並以寬鬆的 Apache 2.0 授權開源模型權重。Muse Glimmer 是一個 300 億參數模型，專為持續本地代理工作流優化。",
+      "title_zh": "Meta 發布 Muse Glimmer：30B 開源權重代理模型，專為本地裝置設計",
+      "summary_en": "Meta Superintelligence Labs released Muse Glimmer, an approximately 30-billion-parameter open-weight multimodal model optimized for always-on local agentic workflows. Available under Apache 2.0 with weights on Hugging Face, it runs on a single consumer GPU after quantization and supports tool use, multi-step reasoning, coding, and offline agent tasks.",
+      "summary_zh": "Meta Superintelligence Labs 發布 Muse Glimmer，約 30B 參數開源權重多模態模型，專為持續運行的本地代理工作流優化。採 Apache 2.0 授權並於 Hugging Face 提供權重，量化後可於單一消費級 GPU 運行，支援工具使用、多步推理、程式碼與離線代理任務。",
+      "analysis_en": "This renews Meta’s open-weight push into the on-device agent niche, prioritising privacy and offline capability against closed cloud models. Independent verification of claimed agentic benchmarks and real-world local performance will determine whether it meaningfully shifts the open vs closed balance.",
+      "analysis_zh": "此舉延續 Meta 開源權重策略，切入本地代理利基，強調隱私與離線能力以對抗封閉雲端模型。獨立驗證其代理基準與真實本地效能，將決定是否真正改變開源與封閉模型的平衡。",
+      "quote": "Today, we're introducing Muse Glimmer, the next model from Meta Superintelligence Labs, and open sourcing the model weights under a permissive Apache 2.0 license.",
+      "quote_zh": "今天，我們推出來自 Meta Superintelligence Labs 的下一代模型 Muse Glimmer，並以寬鬆的 Apache 2.0 授權開源模型權重。",
       "importance": 4,
       "first_seen": "2026-08-10T10:13:00Z",
-      "updated_at": "2026-08-11T04:35:01.672475+00:00",
+      "updated_at": "2026-08-11T10:35:01.529598+00:00",
       "links": [
         {
           "label": "Meta AI Research Blog",
           "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
         },
         {
-          "label": "Hugging Face Model Card",
+          "label": "Hugging Face",
           "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
         },
         {
@@ -72,16 +80,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI Expands Daybreak with GPT-5.6-Cyber for Approved Cyber Defenders",
-      "title_zh": "OpenAI 擴展 Daybreak 並推出 GPT-5.6-Cyber 供核准網路防禦者使用",
-      "summary_en": "OpenAI expanded its Daybreak program into Blue and Red tiers and released GPT-5.6-Cyber, a specialised model based on GPT-5.6 Sol trained for advanced vulnerability research, exploit development and zero-day discovery. Access is restricted to approved defenders; the model raised advanced cybersecurity completion rates to 95% versus 1.5% for the base model.",
-      "summary_zh": "OpenAI 將 Daybreak 計畫擴展為 Blue 與 Red 兩級，並發布基於 GPT-5.6 Sol 的專用模型 GPT-5.6-Cyber，針對進階漏洞研究、漏洞開發與零日發現進行訓練。存取僅限核准防禦者；該模型將進階網路安全完成率提升至 95%，相較基礎模型僅 1.5%。",
-      "analysis_en": "The move acknowledges frontier models’ dual-use nature in cybersecurity and attempts to tip capability toward defenders under gated access. Whether restricted distribution meaningfully slows malicious use while enabling real defensive gains remains the key open question.",
-      "analysis_zh": "此舉承認前沿模型在網路安全的雙用性質，並嘗試在門禁存取下將能力偏向防禦方。受限分發能否在真實防禦效益與減緩惡意使用之間取得平衡，仍是關鍵未解問題。",
-      "quote": "We’re expanding OpenAI Daybreak with two access tiers designed to give approved defenders the right capabilities for their work. ... GPT-5.6-Cyber completes 95.0% of these requests, compared with just 1.5% for GPT-5.6 Sol.",
-      "quote_zh": "我們正以兩個存取層級擴展 OpenAI Daybreak，旨在為核准防禦者提供適合其工作的能力。……GPT-5.6-Cyber 完成 95.0% 的這些請求，相較 GPT-5.6 Sol 僅 1.5%。",
+      "title_zh": "OpenAI 擴展 Daybreak 並推出 GPT-5.6-Cyber，專供核准網路防禦者",
+      "summary_en": "OpenAI expanded its Daybreak program into Blue and Red tiers and released GPT-5.6-Cyber, a specialised model based on GPT-5.6 Sol trained for advanced vulnerability research, exploit development and zero-day discovery. Access is restricted to approved defenders with additional monitoring for higher-risk work.",
+      "summary_zh": "OpenAI 將 Daybreak 計畫擴展為 Blue 與 Red 兩層級，並發布基於 GPT-5.6 Sol 的專用模型 GPT-5.6-Cyber，針對進階漏洞研究、漏洞利用開發與零日發現訓練。存取僅限核准的防禦者，高風險工作另有額外監控。",
+      "analysis_en": "The move acknowledges frontier models’ dual-use nature in cybersecurity and attempts to tip capability toward defenders under gated access. Whether restricted distribution meaningfully slows offensive use by sophisticated actors remains an open empirical question.",
+      "analysis_zh": "此舉承認前沿模型在網路安全的雙重用途本質，並試圖透過門控存取將能力傾向防禦方。受限分發是否能實質減緩進階攻擊者的攻擊用途，仍是有待驗證的經驗問題。",
+      "quote": "We’re expanding our cybersecurity initiative Daybreak and introducing GPT-5.6-Cyber, a new model for advanced, authorized cybersecurity work.",
+      "quote_zh": "我們正在擴展網路安全計畫 Daybreak，並推出 GPT-5.6-Cyber，這是專為進階、授權網路安全工作設計的新模型。",
       "importance": 4,
       "first_seen": "2026-08-10T17:16:00Z",
-      "updated_at": "2026-08-11T04:35:01.672475+00:00",
+      "updated_at": "2026-08-11T10:35:01.529598+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -97,26 +105,26 @@
       "id": "anthropic-claude-riemann-progress-2026-08-10",
       "story_id": "anthropic-claude-riemann-progress-2026-08-10",
       "category": "anthropic",
-      "source_type": "official_blog",
+      "source_type": "official_x",
       "title_en": "Unreleased Claude Improves Lower Bound on Riemann Zeta Zeros Satisfying the Hypothesis to 67.2%",
-      "title_zh": "未公開 Claude 將黎曼ζ函數滿足假設的零點下界提升至 67.2%",
-      "summary_en": "Anthropic reported that an unreleased research version of Claude, tasked with attempting the Riemann hypothesis, did not solve it but improved a related longstanding lower bound: the fraction of zeros of the Riemann zeta function known to lie on the critical line rose from 41.6% to 67.2%. The result was validated by Anthropic mathematicians, examined by external experts, and accompanied by a Lean formalisation.",
-      "summary_zh": "Anthropic 報告指出，一個未公開的 Claude 研究版本在挑戰黎曼假設時未能解決，但改善了相關長期下界：已知位於臨界線上的黎曼ζ函數零點比例從 41.6% 提升至 67.2%。結果經 Anthropic 數學家驗證、外部專家審閱，並附有 Lean 形式化證明。",
-      "analysis_en": "This is a concrete demonstration of frontier models contributing non-trivial, expert-validated progress on a classic open problem in pure mathematics. It does not resolve the Riemann hypothesis itself and leaves open how much of the advance is novel insight versus recombination of prior results.",
-      "analysis_zh": "這是前沿模型在純數學經典開放問題上貢獻非平凡、經專家驗證進展的具體示範。它並未解決黎曼假設本身，且仍不確定進展中有多少是新見解、多少是既有結果的重組。",
+      "title_zh": "未發布版 Claude 將黎曼 zeta 零點滿足假設的下界提升至 67.2%",
+      "summary_en": "Anthropic reported that an unreleased research version of Claude, tasked with attempting the Riemann hypothesis, did not solve it but improved a related longstanding lower bound: the fraction of zeros of the Riemann zeta function known to lie on the critical line rose from 41.6% to 67.2%. The result was validated by internal and external number theorists and includes a formally verifiable proof.",
+      "summary_zh": "Anthropic 表示，一個未發布的研究版 Claude 被要求嘗試黎曼假設，雖未解決，但改進了相關長期下界：已知落在臨界線上的黎曼 zeta 函數零點比例從 41.6% 提升至 67.2%。結果經內部與外部數論專家驗證，並包含可形式驗證的證明。",
+      "analysis_en": "This is a concrete demonstration of frontier models contributing non-trivial, expert-validated progress on a classic open problem in pure mathematics. It does not resolve the Riemann hypothesis itself and the practical impact on broader number theory remains limited, yet it signals accelerating AI utility in formal research.",
+      "analysis_zh": "這是前沿模型在純數學經典開放問題上貢獻非平凡、經專家驗證進展的具體示範。它並未解決黎曼假設本身，對更廣數論的實用影響仍有限，但顯示 AI 在形式研究中的加速效用。",
       "quote": "We asked an unreleased research version of Claude to take a stab at the Riemann hypothesis. It didn’t solve it, but it did make strides on a related problem: it increased the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis from 41.6% to 67.2%.",
-      "quote_zh": "我們要求一個未公開的 Claude 研究版本嘗試黎曼假設。它沒有解決，但在相關問題上取得進展：將滿足假設的黎曼ζ函數零點比例下界從 41.6% 提升至 67.2%。",
+      "quote_zh": "我們要求一個未發布的研究版 Claude 嘗試黎曼假設。它並未解決，但在相關問題上取得進展：將滿足假設的黎曼 zeta 函數零點比例下界從 41.6% 提升至 67.2%。",
       "importance": 3,
       "first_seen": "2026-08-10T17:28:00Z",
-      "updated_at": "2026-08-11T04:35:01.672475+00:00",
+      "updated_at": "2026-08-11T10:35:01.529598+00:00",
       "links": [
-        {
-          "label": "Anthropic Research",
-          "url": "https://www.anthropic.com/research/riemann-zeta"
-        },
         {
           "label": "Anthropic on X",
           "url": "https://x.com/AnthropicAI/status/2086867246073401655"
+        },
+        {
+          "label": "Anthropic Research",
+          "url": "https://www.anthropic.com/research/riemann-zeta"
         }
       ]
     },
@@ -126,16 +134,16 @@
       "category": "frontier_other",
       "source_type": "official_blog",
       "title_en": "NVIDIA Partners with Major Funds to Mobilize Over $500B for AI Compute Infrastructure",
-      "title_zh": "NVIDIA 與大型基金合作動員逾 5000 億美元 AI 算力基礎設施融資",
-      "summary_en": "NVIDIA announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent financing platforms aimed at mobilizing more than $500 billion of third-party capital for AI compute and AI-factory infrastructure. The platforms treat accelerated compute as an investable asset class for customers across frontier labs, enterprises and AI clouds.",
-      "summary_zh": "NVIDIA 宣布與 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs 及 KKR 合作，建立獨立融資平台，目標動員逾 5000 億美元第三方資本用於 AI 算力與 AI 工廠基礎設施。這些平台將加速算力視為可投資資產類別，服務前沿實驗室、企業與 AI 雲端客戶。",
-      "analysis_en": "The scale signals that capital markets now view accelerated compute as core infrastructure rather than pure technology spend. Execution risk remains high given the size of commitments and the need to match long-duration capital with rapidly evolving hardware cycles.",
-      "analysis_zh": "此規模顯示資本市場已將加速算力視為核心基礎設施而非純技術支出。鑑於承諾金額龐大，以及需將長期資本與快速演進的硬體週期匹配，執行風險仍高。",
-      "quote": "We began by building chips; today, we are helping create a new class of productive, investable infrastructure: AI factories. In AI, compute is revenue.",
-      "quote_zh": "我們從製造晶片開始；今天，我們正協助創造一類新的生產性、可投資基礎設施：AI 工廠。在 AI 中，算力就是營收。",
+      "title_zh": "NVIDIA 與主要基金合作，動員逾 5000 億美元 AI 運算基礎設施資金",
+      "summary_en": "NVIDIA announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent financing platforms aimed at mobilizing more than $500 billion of third-party capital for AI compute and AI-factory infrastructure. NVIDIA may optionally backstop up to 25% of deals; the arrangements are currently memoranda of understanding.",
+      "summary_zh": "NVIDIA 宣布與 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs 及 KKR 合作，建立獨立融資平台，目標動員逾 5000 億美元第三方資本用於 AI 運算與 AI 工廠基礎設施。NVIDIA 可選擇擔保最多 25% 的交易；目前為諒解備忘錄階段。",
+      "analysis_en": "The scale signals that capital markets now view accelerated compute as core infrastructure rather than pure technology spend. Execution risk remains high given the size of commitments, circular financing concerns, and the fact that these are still MOUs rather than fully committed capital.",
+      "analysis_zh": "此規模顯示資本市場已將加速運算視為核心基礎設施而非純技術支出。鑒於承諾規模、循環融資疑慮，以及目前仍屬諒解備忘錄而非已完全承諾資金，執行風險仍高。",
+      "quote": "These financing platforms will help customers access scarce compute at scale and build the AI factories that will power every industry and country in the age of AI.",
+      "quote_zh": "這些融資平台將幫助客戶大規模取得稀缺運算資源，並建造能在 AI 時代驅動每個產業與國家的 AI 工廠。",
       "importance": 3,
       "first_seen": "2026-08-10T22:03:00Z",
-      "updated_at": "2026-08-11T04:35:01.672475+00:00",
+      "updated_at": "2026-08-11T10:35:01.529598+00:00",
       "links": [
         {
           "label": "NVIDIA Newsroom",
@@ -153,16 +161,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI Introduces Premium Seats for ChatGPT Business",
-      "title_zh": "OpenAI 為 ChatGPT Business 推出 Premium 席位",
-      "summary_en": "OpenAI announced Premium seats for ChatGPT Business, offering 5× the usage of Standard seats, removal of the five-hour usage limit, and the ability to mix seat types within the same workspace. Pricing is $125 per user per month (or $100 annually); a limited-time credit promotion is available for early adopters.",
-      "summary_zh": "OpenAI 宣布為 ChatGPT Business 推出 Premium 席位，提供標準席位 5 倍使用量、取消五小時使用限制，並可在同一工作區混用席位類型。價格為每月每用戶 125 美元（年付 100 美元）；早期採用者可享限時點數優惠。",
-      "analysis_en": "This is a straightforward capacity upsell for heavier Business users rather than a capability leap. It addresses customer feedback on rate limits but does not alter the underlying model access or introduce new agentic features.",
-      "analysis_zh": "這是針對重度 Business 用戶的直接容量升級，而非能力躍進。它回應了客戶對速率限制的回饋，但未改變底層模型存取或引入新代理功能。",
-      "quote": "That’s why we’re introducing Premium seats for ChatGPT Business. Premium gives your most active teammates 5x more usage than Standard seats and removes the five-hour usage limit.",
-      "quote_zh": "因此我們為 ChatGPT Business 推出 Premium 席位。Premium 為最活躍的團隊成員提供標準席位 5 倍使用量，並取消五小時使用限制。",
+      "title_zh": "OpenAI 推出 ChatGPT Business Premium 席位",
+      "summary_en": "OpenAI announced Premium seats for ChatGPT Business, offering 5× the usage of Standard seats, removal of the five-hour usage limit, and the ability to mix seat types within the same workspace. Pricing is $125 per user per month (or $100 annually); Standard seats remain $25/$20.",
+      "summary_zh": "OpenAI 宣布 ChatGPT Business 推出 Premium 席位，提供標準席位 5 倍用量、取消五小時用量限制，並可在同一工作區混合席位類型。定價為每用戶每月 125 美元（年付 100 美元）；標準席位維持 25/20 美元。",
+      "analysis_en": "This is a straightforward capacity upsell for heavier Business users rather than a capability leap. It addresses customer feedback on rate limits but does not alter the underlying model access or introduce new features beyond higher quotas.",
+      "analysis_zh": "這是針對重度 Business 用戶的直接容量升級，而非能力躍進。它回應客戶對速率限制的回饋，但未改變底層模型存取或引入新功能，僅提高配額。",
+      "quote": "Premium gives your most active teammates 5x more usage than Standard seats and removes the five-hour usage limit, so they can take on larger projects and work with fewer interruptions—all within the same secure Business workspace.",
+      "quote_zh": "Premium 為最活躍的團隊成員提供比標準席位多 5 倍的用量，並取消五小時用量限制，讓他們能承接更大專案、減少中斷——全部在同一個安全的 Business 工作區內。",
       "importance": 2,
       "first_seen": "2026-08-10T08:00:00Z",
-      "updated_at": "2026-08-11T04:35:01.672475+00:00",
+      "updated_at": "2026-08-11T10:35:01.529598+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -179,16 +187,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI Expands Daybreak with GPT-5.6-Cyber for Approved Cyber Defenders",
-        "title_zh": "OpenAI 擴展 Daybreak 並推出 GPT-5.6-Cyber 供核准網路防禦者使用",
-        "summary_en": "OpenAI expanded its Daybreak program into Blue and Red tiers and released GPT-5.6-Cyber, a specialised model based on GPT-5.6 Sol trained for advanced vulnerability research, exploit development and zero-day discovery. Access is restricted to approved defenders; the model raised advanced cybersecurity completion rates to 95% versus 1.5% for the base model.",
-        "summary_zh": "OpenAI 將 Daybreak 計畫擴展為 Blue 與 Red 兩級，並發布基於 GPT-5.6 Sol 的專用模型 GPT-5.6-Cyber，針對進階漏洞研究、漏洞開發與零日發現進行訓練。存取僅限核准防禦者；該模型將進階網路安全完成率提升至 95%，相較基礎模型僅 1.5%。",
-        "analysis_en": "The move acknowledges frontier models’ dual-use nature in cybersecurity and attempts to tip capability toward defenders under gated access. Whether restricted distribution meaningfully slows malicious use while enabling real defensive gains remains the key open question.",
-        "analysis_zh": "此舉承認前沿模型在網路安全的雙用性質，並嘗試在門禁存取下將能力偏向防禦方。受限分發能否在真實防禦效益與減緩惡意使用之間取得平衡，仍是關鍵未解問題。",
-        "quote": "We’re expanding OpenAI Daybreak with two access tiers designed to give approved defenders the right capabilities for their work. ... GPT-5.6-Cyber completes 95.0% of these requests, compared with just 1.5% for GPT-5.6 Sol.",
-        "quote_zh": "我們正以兩個存取層級擴展 OpenAI Daybreak，旨在為核准防禦者提供適合其工作的能力。……GPT-5.6-Cyber 完成 95.0% 的這些請求，相較 GPT-5.6 Sol 僅 1.5%。",
+        "title_zh": "OpenAI 擴展 Daybreak 並推出 GPT-5.6-Cyber，專供核准網路防禦者",
+        "summary_en": "OpenAI expanded its Daybreak program into Blue and Red tiers and released GPT-5.6-Cyber, a specialised model based on GPT-5.6 Sol trained for advanced vulnerability research, exploit development and zero-day discovery. Access is restricted to approved defenders with additional monitoring for higher-risk work.",
+        "summary_zh": "OpenAI 將 Daybreak 計畫擴展為 Blue 與 Red 兩層級，並發布基於 GPT-5.6 Sol 的專用模型 GPT-5.6-Cyber，針對進階漏洞研究、漏洞利用開發與零日發現訓練。存取僅限核准的防禦者，高風險工作另有額外監控。",
+        "analysis_en": "The move acknowledges frontier models’ dual-use nature in cybersecurity and attempts to tip capability toward defenders under gated access. Whether restricted distribution meaningfully slows offensive use by sophisticated actors remains an open empirical question.",
+        "analysis_zh": "此舉承認前沿模型在網路安全的雙重用途本質，並試圖透過門控存取將能力傾向防禦方。受限分發是否能實質減緩進階攻擊者的攻擊用途，仍是有待驗證的經驗問題。",
+        "quote": "We’re expanding our cybersecurity initiative Daybreak and introducing GPT-5.6-Cyber, a new model for advanced, authorized cybersecurity work.",
+        "quote_zh": "我們正在擴展網路安全計畫 Daybreak，並推出 GPT-5.6-Cyber，這是專為進階、授權網路安全工作設計的新模型。",
         "importance": 4,
         "first_seen": "2026-08-10T17:16:00Z",
-        "updated_at": "2026-08-11T04:35:01.672475+00:00",
+        "updated_at": "2026-08-11T10:35:01.529598+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -206,16 +214,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI Introduces Premium Seats for ChatGPT Business",
-        "title_zh": "OpenAI 為 ChatGPT Business 推出 Premium 席位",
-        "summary_en": "OpenAI announced Premium seats for ChatGPT Business, offering 5× the usage of Standard seats, removal of the five-hour usage limit, and the ability to mix seat types within the same workspace. Pricing is $125 per user per month (or $100 annually); a limited-time credit promotion is available for early adopters.",
-        "summary_zh": "OpenAI 宣布為 ChatGPT Business 推出 Premium 席位，提供標準席位 5 倍使用量、取消五小時使用限制，並可在同一工作區混用席位類型。價格為每月每用戶 125 美元（年付 100 美元）；早期採用者可享限時點數優惠。",
-        "analysis_en": "This is a straightforward capacity upsell for heavier Business users rather than a capability leap. It addresses customer feedback on rate limits but does not alter the underlying model access or introduce new agentic features.",
-        "analysis_zh": "這是針對重度 Business 用戶的直接容量升級，而非能力躍進。它回應了客戶對速率限制的回饋，但未改變底層模型存取或引入新代理功能。",
-        "quote": "That’s why we’re introducing Premium seats for ChatGPT Business. Premium gives your most active teammates 5x more usage than Standard seats and removes the five-hour usage limit.",
-        "quote_zh": "因此我們為 ChatGPT Business 推出 Premium 席位。Premium 為最活躍的團隊成員提供標準席位 5 倍使用量，並取消五小時使用限制。",
+        "title_zh": "OpenAI 推出 ChatGPT Business Premium 席位",
+        "summary_en": "OpenAI announced Premium seats for ChatGPT Business, offering 5× the usage of Standard seats, removal of the five-hour usage limit, and the ability to mix seat types within the same workspace. Pricing is $125 per user per month (or $100 annually); Standard seats remain $25/$20.",
+        "summary_zh": "OpenAI 宣布 ChatGPT Business 推出 Premium 席位，提供標準席位 5 倍用量、取消五小時用量限制，並可在同一工作區混合席位類型。定價為每用戶每月 125 美元（年付 100 美元）；標準席位維持 25/20 美元。",
+        "analysis_en": "This is a straightforward capacity upsell for heavier Business users rather than a capability leap. It addresses customer feedback on rate limits but does not alter the underlying model access or introduce new features beyond higher quotas.",
+        "analysis_zh": "這是針對重度 Business 用戶的直接容量升級，而非能力躍進。它回應客戶對速率限制的回饋，但未改變底層模型存取或引入新功能，僅提高配額。",
+        "quote": "Premium gives your most active teammates 5x more usage than Standard seats and removes the five-hour usage limit, so they can take on larger projects and work with fewer interruptions—all within the same secure Business workspace.",
+        "quote_zh": "Premium 為最活躍的團隊成員提供比標準席位多 5 倍的用量，並取消五小時用量限制，讓他們能承接更大專案、減少中斷——全部在同一個安全的 Business 工作區內。",
         "importance": 2,
         "first_seen": "2026-08-10T08:00:00Z",
-        "updated_at": "2026-08-11T04:35:01.672475+00:00",
+        "updated_at": "2026-08-11T10:35:01.529598+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -229,26 +237,26 @@
         "id": "anthropic-claude-riemann-progress-2026-08-10",
         "story_id": "anthropic-claude-riemann-progress-2026-08-10",
         "category": "anthropic",
-        "source_type": "official_blog",
+        "source_type": "official_x",
         "title_en": "Unreleased Claude Improves Lower Bound on Riemann Zeta Zeros Satisfying the Hypothesis to 67.2%",
-        "title_zh": "未公開 Claude 將黎曼ζ函數滿足假設的零點下界提升至 67.2%",
-        "summary_en": "Anthropic reported that an unreleased research version of Claude, tasked with attempting the Riemann hypothesis, did not solve it but improved a related longstanding lower bound: the fraction of zeros of the Riemann zeta function known to lie on the critical line rose from 41.6% to 67.2%. The result was validated by Anthropic mathematicians, examined by external experts, and accompanied by a Lean formalisation.",
-        "summary_zh": "Anthropic 報告指出，一個未公開的 Claude 研究版本在挑戰黎曼假設時未能解決，但改善了相關長期下界：已知位於臨界線上的黎曼ζ函數零點比例從 41.6% 提升至 67.2%。結果經 Anthropic 數學家驗證、外部專家審閱，並附有 Lean 形式化證明。",
-        "analysis_en": "This is a concrete demonstration of frontier models contributing non-trivial, expert-validated progress on a classic open problem in pure mathematics. It does not resolve the Riemann hypothesis itself and leaves open how much of the advance is novel insight versus recombination of prior results.",
-        "analysis_zh": "這是前沿模型在純數學經典開放問題上貢獻非平凡、經專家驗證進展的具體示範。它並未解決黎曼假設本身，且仍不確定進展中有多少是新見解、多少是既有結果的重組。",
+        "title_zh": "未發布版 Claude 將黎曼 zeta 零點滿足假設的下界提升至 67.2%",
+        "summary_en": "Anthropic reported that an unreleased research version of Claude, tasked with attempting the Riemann hypothesis, did not solve it but improved a related longstanding lower bound: the fraction of zeros of the Riemann zeta function known to lie on the critical line rose from 41.6% to 67.2%. The result was validated by internal and external number theorists and includes a formally verifiable proof.",
+        "summary_zh": "Anthropic 表示，一個未發布的研究版 Claude 被要求嘗試黎曼假設，雖未解決，但改進了相關長期下界：已知落在臨界線上的黎曼 zeta 函數零點比例從 41.6% 提升至 67.2%。結果經內部與外部數論專家驗證，並包含可形式驗證的證明。",
+        "analysis_en": "This is a concrete demonstration of frontier models contributing non-trivial, expert-validated progress on a classic open problem in pure mathematics. It does not resolve the Riemann hypothesis itself and the practical impact on broader number theory remains limited, yet it signals accelerating AI utility in formal research.",
+        "analysis_zh": "這是前沿模型在純數學經典開放問題上貢獻非平凡、經專家驗證進展的具體示範。它並未解決黎曼假設本身，對更廣數論的實用影響仍有限，但顯示 AI 在形式研究中的加速效用。",
         "quote": "We asked an unreleased research version of Claude to take a stab at the Riemann hypothesis. It didn’t solve it, but it did make strides on a related problem: it increased the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis from 41.6% to 67.2%.",
-        "quote_zh": "我們要求一個未公開的 Claude 研究版本嘗試黎曼假設。它沒有解決，但在相關問題上取得進展：將滿足假設的黎曼ζ函數零點比例下界從 41.6% 提升至 67.2%。",
+        "quote_zh": "我們要求一個未發布的研究版 Claude 嘗試黎曼假設。它並未解決，但在相關問題上取得進展：將滿足假設的黎曼 zeta 函數零點比例下界從 41.6% 提升至 67.2%。",
         "importance": 3,
         "first_seen": "2026-08-10T17:28:00Z",
-        "updated_at": "2026-08-11T04:35:01.672475+00:00",
+        "updated_at": "2026-08-11T10:35:01.529598+00:00",
         "links": [
-          {
-            "label": "Anthropic Research",
-            "url": "https://www.anthropic.com/research/riemann-zeta"
-          },
           {
             "label": "Anthropic on X",
             "url": "https://x.com/AnthropicAI/status/2086867246073401655"
+          },
+          {
+            "label": "Anthropic Research",
+            "url": "https://www.anthropic.com/research/riemann-zeta"
           }
         ]
       }
@@ -261,23 +269,23 @@
         "category": "meta",
         "source_type": "official_blog",
         "title_en": "Meta Releases Muse Glimmer: 30B Open-Weight Agentic Model for Local Devices",
-        "title_zh": "Meta 發布 Muse Glimmer：30B 開源權重本地代理模型",
-        "summary_en": "Meta Superintelligence Labs released Muse Glimmer, an approximately 30-billion-parameter open-weight multimodal model optimized for always-on local agentic workflows. It is available under Apache 2.0, runs on a single consumer GPU after quantization, and was distilled from Muse Spark for tool use, multi-step tasks, coding and failure recovery.",
-        "summary_zh": "Meta Superintelligence Labs 發布 Muse Glimmer，約 300 億參數開源權重多模態模型，專為持續本地代理工作流優化。採 Apache 2.0 授權，量化後可在單一消費級 GPU 運行，並從 Muse Spark 蒸餾而來，支援工具使用、多步驟任務、程式與失敗恢復。",
-        "analysis_en": "This renews Meta’s open-weight push into the on-device agent niche, prioritising privacy and offline capability against closed cloud models. Independent verification of claimed agentic benchmarks versus peers of similar size will determine real adoption impact.",
-        "analysis_zh": "此舉延續 Meta 開源權重策略，切入裝置端代理利基，強調隱私與離線能力以對抗封閉雲端模型。獨立驗證其代理基準與同尺寸模型的實際差距，將決定真正採用影響。",
-        "quote": "Today, we're introducing Muse Glimmer, the next model from Meta Superintelligence Labs, and open sourcing the model weights under a permissive Apache 2.0 license. Muse Glimmer is a 30-billion-parameter model optimized for always-on local agent workflows.",
-        "quote_zh": "今天，我們推出 Meta Superintelligence Labs 的下一個模型 Muse Glimmer，並以寬鬆的 Apache 2.0 授權開源模型權重。Muse Glimmer 是一個 300 億參數模型，專為持續本地代理工作流優化。",
+        "title_zh": "Meta 發布 Muse Glimmer：30B 開源權重代理模型，專為本地裝置設計",
+        "summary_en": "Meta Superintelligence Labs released Muse Glimmer, an approximately 30-billion-parameter open-weight multimodal model optimized for always-on local agentic workflows. Available under Apache 2.0 with weights on Hugging Face, it runs on a single consumer GPU after quantization and supports tool use, multi-step reasoning, coding, and offline agent tasks.",
+        "summary_zh": "Meta Superintelligence Labs 發布 Muse Glimmer，約 30B 參數開源權重多模態模型，專為持續運行的本地代理工作流優化。採 Apache 2.0 授權並於 Hugging Face 提供權重，量化後可於單一消費級 GPU 運行，支援工具使用、多步推理、程式碼與離線代理任務。",
+        "analysis_en": "This renews Meta’s open-weight push into the on-device agent niche, prioritising privacy and offline capability against closed cloud models. Independent verification of claimed agentic benchmarks and real-world local performance will determine whether it meaningfully shifts the open vs closed balance.",
+        "analysis_zh": "此舉延續 Meta 開源權重策略，切入本地代理利基，強調隱私與離線能力以對抗封閉雲端模型。獨立驗證其代理基準與真實本地效能，將決定是否真正改變開源與封閉模型的平衡。",
+        "quote": "Today, we're introducing Muse Glimmer, the next model from Meta Superintelligence Labs, and open sourcing the model weights under a permissive Apache 2.0 license.",
+        "quote_zh": "今天，我們推出來自 Meta Superintelligence Labs 的下一代模型 Muse Glimmer，並以寬鬆的 Apache 2.0 授權開源模型權重。",
         "importance": 4,
         "first_seen": "2026-08-10T10:13:00Z",
-        "updated_at": "2026-08-11T04:35:01.672475+00:00",
+        "updated_at": "2026-08-11T10:35:01.529598+00:00",
         "links": [
           {
             "label": "Meta AI Research Blog",
             "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
           },
           {
-            "label": "Hugging Face Model Card",
+            "label": "Hugging Face",
             "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
           },
           {
@@ -303,16 +311,16 @@
         "category": "frontier_other",
         "source_type": "official_blog",
         "title_en": "NVIDIA Partners with Major Funds to Mobilize Over $500B for AI Compute Infrastructure",
-        "title_zh": "NVIDIA 與大型基金合作動員逾 5000 億美元 AI 算力基礎設施融資",
-        "summary_en": "NVIDIA announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent financing platforms aimed at mobilizing more than $500 billion of third-party capital for AI compute and AI-factory infrastructure. The platforms treat accelerated compute as an investable asset class for customers across frontier labs, enterprises and AI clouds.",
-        "summary_zh": "NVIDIA 宣布與 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs 及 KKR 合作，建立獨立融資平台，目標動員逾 5000 億美元第三方資本用於 AI 算力與 AI 工廠基礎設施。這些平台將加速算力視為可投資資產類別，服務前沿實驗室、企業與 AI 雲端客戶。",
-        "analysis_en": "The scale signals that capital markets now view accelerated compute as core infrastructure rather than pure technology spend. Execution risk remains high given the size of commitments and the need to match long-duration capital with rapidly evolving hardware cycles.",
-        "analysis_zh": "此規模顯示資本市場已將加速算力視為核心基礎設施而非純技術支出。鑑於承諾金額龐大，以及需將長期資本與快速演進的硬體週期匹配，執行風險仍高。",
-        "quote": "We began by building chips; today, we are helping create a new class of productive, investable infrastructure: AI factories. In AI, compute is revenue.",
-        "quote_zh": "我們從製造晶片開始；今天，我們正協助創造一類新的生產性、可投資基礎設施：AI 工廠。在 AI 中，算力就是營收。",
+        "title_zh": "NVIDIA 與主要基金合作，動員逾 5000 億美元 AI 運算基礎設施資金",
+        "summary_en": "NVIDIA announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent financing platforms aimed at mobilizing more than $500 billion of third-party capital for AI compute and AI-factory infrastructure. NVIDIA may optionally backstop up to 25% of deals; the arrangements are currently memoranda of understanding.",
+        "summary_zh": "NVIDIA 宣布與 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs 及 KKR 合作，建立獨立融資平台，目標動員逾 5000 億美元第三方資本用於 AI 運算與 AI 工廠基礎設施。NVIDIA 可選擇擔保最多 25% 的交易；目前為諒解備忘錄階段。",
+        "analysis_en": "The scale signals that capital markets now view accelerated compute as core infrastructure rather than pure technology spend. Execution risk remains high given the size of commitments, circular financing concerns, and the fact that these are still MOUs rather than fully committed capital.",
+        "analysis_zh": "此規模顯示資本市場已將加速運算視為核心基礎設施而非純技術支出。鑒於承諾規模、循環融資疑慮，以及目前仍屬諒解備忘錄而非已完全承諾資金，執行風險仍高。",
+        "quote": "These financing platforms will help customers access scarce compute at scale and build the AI factories that will power every industry and country in the age of AI.",
+        "quote_zh": "這些融資平台將幫助客戶大規模取得稀缺運算資源，並建造能在 AI 時代驅動每個產業與國家的 AI 工廠。",
         "importance": 3,
         "first_seen": "2026-08-10T22:03:00Z",
-        "updated_at": "2026-08-11T04:35:01.672475+00:00",
+        "updated_at": "2026-08-11T10:35:01.529598+00:00",
         "links": [
           {
             "label": "NVIDIA Newsroom",
@@ -326,7 +334,7 @@
       }
     ]
   },
-  "brief_en": "Meta open-sourced Muse Glimmer (30B local agentic model). OpenAI expanded Daybreak with GPT-5.6-Cyber for approved cyber defenders and announced Premium seats for ChatGPT Business. Anthropic’s unreleased Claude raised the Riemann zeta zeros lower bound to 67.2%. NVIDIA partnered with major funds to mobilize >$500B for AI compute infrastructure.",
-  "brief_zh": "Meta 開源 Muse Glimmer（30B 本地代理模型）。OpenAI 擴展 Daybreak 並推出 GPT-5.6-Cyber 供核准防禦者使用，另宣布 ChatGPT Business Premium 席位。Anthropic 未公開 Claude 將黎曼ζ函數零點下界提升至 67.2%。NVIDIA 與大型基金合作動員逾 5000 億美元 AI 算力融資。",
-  "updated_at": "2026-08-11T04:35:01.672475+00:00"
+  "brief_en": "Meta released 30B open-weight Muse Glimmer for local agents; OpenAI expanded Daybreak with gated GPT-5.6-Cyber for cyber defenders and launched Premium ChatGPT Business seats; Anthropic’s unreleased Claude raised the Riemann zeta critical-line zeros lower bound to 67.2%; NVIDIA partnered with major funds to mobilize >$500B for AI compute infrastructure.",
+  "brief_zh": "Meta 發布 30B 開源權重 Muse Glimmer 本地代理模型；OpenAI 擴展 Daybreak 並推出門控 GPT-5.6-Cyber 專供網路防禦者，同時推出 ChatGPT Business Premium 席位；Anthropic 未發布版 Claude 將黎曼 zeta 臨界線零點下界提升至 67.2%；NVIDIA 與主要基金合作動員逾 5000 億美元 AI 運算基礎設施資金。",
+  "updated_at": "2026-08-11T10:35:01.529598+00:00"
 }
