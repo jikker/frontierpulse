@@ -8,18 +8,137 @@
       "item_count": 0,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-08-17T04:35:00.132304+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 2,
+      "updated_count": 0,
+      "kept_count": 0
     }
   ],
-  "items_flat": [],
+  "items_flat": [
+    {
+      "id": "stripe-openrouter-acquisition-2026-08-16",
+      "story_id": "stripe-openrouter-acquisition-2026-08-16",
+      "category": "frontier_other",
+      "source_type": "news",
+      "title_en": "Stripe reportedly finalizes >$7B acquisition of OpenRouter",
+      "title_zh": "Stripe 據報敲定逾70億美元收購 OpenRouter",
+      "summary_en": "Bloomberg and TechCrunch reported on 16 August that Stripe has agreed to acquire OpenRouter, the AI model gateway that routes traffic across hundreds of models from multiple labs, for more than $7 billion. OpenRouter had raised at a $1.3 billion valuation earlier in 2026 and positions itself as a single integration point to avoid provider lock-in.",
+      "summary_zh": "Bloomberg 與 TechCrunch 於8月16日報導，Stripe 已同意以逾70億美元收購 AI 模型閘道 OpenRouter，該平台可路由數百個來自多家實驗室的模型流量。OpenRouter 稍早於2026年以13億美元估值融資，定位為避免供應商鎖定的單一整合點。",
+      "analysis_en": "If completed, the deal consolidates a key piece of multi-model infrastructure under a payments giant and could accelerate cost-aware routing and billing across frontier and open models. Confirmation and regulatory clearance remain outstanding; the valuation jump signals intense demand for abstraction layers above individual lab APIs.",
+      "analysis_zh": "若交易完成，將把多模型基礎設施關鍵一環納入支付巨頭旗下，可能加速跨 frontier 與開源模型的成本感知路由與計費。仍待正式確認與監管核准；估值大幅跳升顯示對個別實驗室 API 之上抽象層的強烈需求。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 4,
+      "first_seen": "2026-08-16T19:32:00Z",
+      "updated_at": "2026-08-17T04:35:00.132304+00:00",
+      "links": [
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-claude-outage-2026-08-16",
+      "story_id": "anthropic-claude-outage-2026-08-16",
+      "category": "anthropic",
+      "source_type": "mixed",
+      "title_en": "Anthropic resolves brief multi-service Claude outage",
+      "title_zh": "Anthropic 修復短暫 Claude 多服務中斷",
+      "summary_en": "Anthropic experienced a roughly 30–42 minute disruption on 16 August starting around 21:58 UTC that affected authentication and performance on claude.ai, Claude Code, Claude Cowork and related surfaces; the Claude API stayed largely operational. The company deployed a fix and marked the incident resolved by approximately 22:34–22:40 UTC.",
+      "summary_zh": "Anthropic 於8月16日約21:58 UTC起出現約30–42分鐘中斷，影響 claude.ai、Claude Code、Claude Cowork 等認證與效能；Claude API 大致維持運作。公司部署修復後約於22:34–22:40 UTC標記事件已解決。",
+      "analysis_en": "Short, contained outages of this type are operational rather than capability events, but repeated authentication-layer incidents raise questions about shared auth resilience under load. No root-cause disclosure yet leaves residual uncertainty about recurrence risk.",
+      "analysis_zh": "此類短暫、可控中斷屬營運事件而非能力事件，但重複的認證層問題凸顯共用認證在負載下的韌性疑慮。尚未公布根因，仍留有再發風險的不確定性。",
+      "quote": "The issue affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork has been resolved.",
+      "quote_zh": "影響 claude.ai、platform.claude.com、Claude API、Claude Code 與 Claude Cowork 的問題已解決。",
+      "importance": 2,
+      "first_seen": "2026-08-16T21:58:00Z",
+      "updated_at": "2026-08-17T04:35:00.132304+00:00",
+      "links": [
+        {
+          "label": "Anthropic / Claude Status",
+          "url": "https://status.claude.com/history"
+        },
+        {
+          "label": "BleepingComputer report",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/"
+        }
+      ]
+    }
+  ],
   "categories": {
     "openai": [],
-    "anthropic": [],
+    "anthropic": [
+      {
+        "id": "anthropic-claude-outage-2026-08-16",
+        "story_id": "anthropic-claude-outage-2026-08-16",
+        "category": "anthropic",
+        "source_type": "mixed",
+        "title_en": "Anthropic resolves brief multi-service Claude outage",
+        "title_zh": "Anthropic 修復短暫 Claude 多服務中斷",
+        "summary_en": "Anthropic experienced a roughly 30–42 minute disruption on 16 August starting around 21:58 UTC that affected authentication and performance on claude.ai, Claude Code, Claude Cowork and related surfaces; the Claude API stayed largely operational. The company deployed a fix and marked the incident resolved by approximately 22:34–22:40 UTC.",
+        "summary_zh": "Anthropic 於8月16日約21:58 UTC起出現約30–42分鐘中斷，影響 claude.ai、Claude Code、Claude Cowork 等認證與效能；Claude API 大致維持運作。公司部署修復後約於22:34–22:40 UTC標記事件已解決。",
+        "analysis_en": "Short, contained outages of this type are operational rather than capability events, but repeated authentication-layer incidents raise questions about shared auth resilience under load. No root-cause disclosure yet leaves residual uncertainty about recurrence risk.",
+        "analysis_zh": "此類短暫、可控中斷屬營運事件而非能力事件，但重複的認證層問題凸顯共用認證在負載下的韌性疑慮。尚未公布根因，仍留有再發風險的不確定性。",
+        "quote": "The issue affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork has been resolved.",
+        "quote_zh": "影響 claude.ai、platform.claude.com、Claude API、Claude Code 與 Claude Cowork 的問題已解決。",
+        "importance": 2,
+        "first_seen": "2026-08-16T21:58:00Z",
+        "updated_at": "2026-08-17T04:35:00.132304+00:00",
+        "links": [
+          {
+            "label": "Anthropic / Claude Status",
+            "url": "https://status.claude.com/history"
+          },
+          {
+            "label": "BleepingComputer report",
+            "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/"
+          }
+        ]
+      }
+    ],
     "google": [],
     "meta": [],
     "xai": [],
-    "frontier_other": []
+    "frontier_other": [
+      {
+        "id": "stripe-openrouter-acquisition-2026-08-16",
+        "story_id": "stripe-openrouter-acquisition-2026-08-16",
+        "category": "frontier_other",
+        "source_type": "news",
+        "title_en": "Stripe reportedly finalizes >$7B acquisition of OpenRouter",
+        "title_zh": "Stripe 據報敲定逾70億美元收購 OpenRouter",
+        "summary_en": "Bloomberg and TechCrunch reported on 16 August that Stripe has agreed to acquire OpenRouter, the AI model gateway that routes traffic across hundreds of models from multiple labs, for more than $7 billion. OpenRouter had raised at a $1.3 billion valuation earlier in 2026 and positions itself as a single integration point to avoid provider lock-in.",
+        "summary_zh": "Bloomberg 與 TechCrunch 於8月16日報導，Stripe 已同意以逾70億美元收購 AI 模型閘道 OpenRouter，該平台可路由數百個來自多家實驗室的模型流量。OpenRouter 稍早於2026年以13億美元估值融資，定位為避免供應商鎖定的單一整合點。",
+        "analysis_en": "If completed, the deal consolidates a key piece of multi-model infrastructure under a payments giant and could accelerate cost-aware routing and billing across frontier and open models. Confirmation and regulatory clearance remain outstanding; the valuation jump signals intense demand for abstraction layers above individual lab APIs.",
+        "analysis_zh": "若交易完成，將把多模型基礎設施關鍵一環納入支付巨頭旗下，可能加速跨 frontier 與開源模型的成本感知路由與計費。仍待正式確認與監管核准；估值大幅跳升顯示對個別實驗室 API 之上抽象層的強烈需求。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 4,
+        "first_seen": "2026-08-16T19:32:00Z",
+        "updated_at": "2026-08-17T04:35:00.132304+00:00",
+        "links": [
+          {
+            "label": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+          }
+        ]
+      }
+    ]
   },
-  "brief_en": "Quiet day across frontier labs. No major official model launches, product shipments, or research releases from OpenAI, Anthropic, Google DeepMind, Meta, or xAI in the last 12 hours. Activity remains limited to routine posts and ongoing product refinements from prior days.",
-  "brief_zh": "今日AI大廠平靜。過去12小時內OpenAI、Anthropic、Google DeepMind、Meta、xAI均無重大官方模型發布、產品上線或研究公告，僅延續前幾日既有產品優化與例行貼文。",
-  "updated_at": "2026-08-17T02:36:20.928911+00:00"
+  "brief_en": "Quiet 12-hour window for major lab ship announcements. Anthropic resolved a short multi-service Claude outage. Industry focus on Stripe’s reported >$7B deal for OpenRouter, an AI model gateway. No new frontier model releases.",
+  "brief_zh": "過去12小時主要AI大廠無重大產品發布。Anthropic短時間Claude多服務中斷已修復。產業焦點在Stripe據報以逾70億美元收購AI模型閘道OpenRouter。無新 frontier 模型釋出。",
+  "updated_at": "2026-08-17T04:35:00.132304+00:00"
 }
