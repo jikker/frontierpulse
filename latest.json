@@ -8,9 +8,48 @@
       "item_count": 3,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-08-19T22:35:02.106635+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 4,
+      "updated_count": 0,
+      "kept_count": 2
     }
   ],
   "items_flat": [
+    {
+      "id": "openai-private-safety-processing-zdr-2026-08-19",
+      "story_id": "openai-private-safety-processing-zdr-2026-08-19",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI previews Private Safety Processing to strengthen multi-turn safety while preserving Zero Data Retention",
+      "title_zh": "OpenAI預覽Private Safety Processing，在維持零資料保留下強化多輪安全監控",
+      "summary_en": "OpenAI announced it will continue offering Zero Data Retention for frontier models and is previewing Private Safety Processing. The system identifies risk patterns across related interactions via automated signals without giving OpenAI personnel access to underlying customer content. It is being tested with early enterprise customers, with broader rollout and a technical white paper planned for September.",
+      "summary_zh": "OpenAI宣布將持續為前沿模型提供零資料保留（ZDR），並預覽Private Safety Processing。該系統透過自動化訊號辨識相關互動中的風險模式，且不讓OpenAI人員存取底層客戶內容。目前正與早期企業客戶測試，預計9月擴大推出並發布技術白皮書。",
+      "analysis_en": "This directly addresses enterprise privacy concerns amid rising agentic and multi-turn risks, positioning OpenAI against competitors that require longer data retention for safety. Effectiveness hinges on the quality of automated signals and customer willingness to share data only when appealing decisions.",
+      "analysis_zh": "此舉直接回應企業對隱私的顧慮，同時應對代理式與多輪任務風險上升，與要求較長資料保留的競爭對手形成差異。成效取決於自動化訊號品質，以及客戶是否僅在申訴時願意分享資料。",
+      "quote": "We will continue to offer Zero Data Retention for frontier models. ... we're previewing Private Safety Processing, which is designed to improve safety without giving OpenAI personnel access to the underlying content.",
+      "quote_zh": "我們將持續為前沿模型提供零資料保留。……我們正在預覽Private Safety Processing，設計目標是在不讓OpenAI人員存取底層內容的情況下提升安全性。",
+      "importance": 4,
+      "first_seen": "2026-08-19T19:53:42Z",
+      "updated_at": "2026-08-19T22:35:02.106635+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2090165328290701800"
+        },
+        {
+          "label": "Greg Brockman on X",
+          "url": "https://x.com/gdb/status/2090167683035853120"
+        }
+      ]
+    },
     {
       "id": "openai-chatgpt-for-teens-2026-08-18",
       "story_id": "openai-chatgpt-for-teens-2026-08-18",
@@ -58,31 +97,66 @@
       ]
     },
     {
-      "id": "openai-chatgpt-ads-europe-2026-08-18",
-      "story_id": "openai-chatgpt-ads-europe-2026-08-18",
-      "category": "openai",
-      "source_type": "official_blog",
-      "title_en": "ChatGPT Ads expands across Europe",
-      "title_zh": "ChatGPT 廣告擴展至歐洲",
-      "summary_en": "OpenAI listed a product update expanding ChatGPT Ads across Europe on its news page dated August 18, continuing the monetization tests previously announced for the platform.",
-      "summary_zh": "OpenAI 於 8 月 18 日新聞頁列出產品更新，將 ChatGPT 廣告擴展至歐洲，延續先前平台變現測試。",
-      "analysis_en": "Geographic expansion of ads is incremental but material for OpenAI’s consumer revenue mix. Impact on user experience and retention in regulated European markets remains to be measured.",
-      "analysis_zh": "廣告地理擴張屬漸進但對 OpenAI 消費端營收結構有實質意義。在受監管的歐洲市場對用戶體驗與留存的影響仍待觀察。",
-      "quote": "",
-      "quote_zh": "",
-      "importance": 2,
-      "first_seen": "2026-08-18T00:00:00Z",
-      "updated_at": "2026-08-19T16:35:01.761127+00:00",
+      "id": "xai-grok-4-6-amazon-bedrock-2026-08-19",
+      "story_id": "xai-grok-4-6-amazon-bedrock-2026-08-19",
+      "category": "xai",
+      "source_type": "official_x",
+      "title_en": "Grok 4.6 now generally available on Amazon Bedrock",
+      "title_zh": "Grok 4.6正式上架Amazon Bedrock",
+      "summary_en": "xAI announced that Grok 4.6 is now generally available on Amazon Bedrock. The model offers a 500k context window and configurable reasoning levels, targeted at long-running agents and interactive work, with listed pricing of $2/$6 per million input/output tokens in some regions.",
+      "summary_zh": "xAI宣布Grok 4.6已正式於Amazon Bedrock上架。該模型具備50萬token上下文與可配置推理等級，主打長時代理與互動工作，部分區域定價為每百萬token輸入$2／輸出$6。",
+      "analysis_en": "Bedrock availability expands enterprise distribution for Grok beyond direct API and GitHub Copilot, lowering friction for AWS-centric teams. Uptake will depend on real-world agent performance relative to other frontier models already on the platform.",
+      "analysis_zh": "Bedrock上架擴大了Grok在企業端的通路，超越直接API與GitHub Copilot，降低AWS用戶採用門檻。實際採用率仍取決於代理任務表現是否優於平台上其他前沿模型。",
+      "quote": "Grok 4.6 now on Bedrock",
+      "quote_zh": "Grok 4.6現已上架Bedrock",
+      "importance": 3,
+      "first_seen": "2026-08-19T15:33:21Z",
+      "updated_at": "2026-08-19T22:35:02.106635+00:00",
       "links": [
         {
-          "label": "OpenAI News",
-          "url": "https://openai.com/news/"
+          "label": "Elon Musk on X",
+          "url": "https://x.com/elonmusk/status/2090099808220627226"
+        },
+        {
+          "label": "AWS Bedrock model card",
+          "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-6.html"
         }
       ]
     }
   ],
   "categories": {
     "openai": [
+      {
+        "id": "openai-private-safety-processing-zdr-2026-08-19",
+        "story_id": "openai-private-safety-processing-zdr-2026-08-19",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI previews Private Safety Processing to strengthen multi-turn safety while preserving Zero Data Retention",
+        "title_zh": "OpenAI預覽Private Safety Processing，在維持零資料保留下強化多輪安全監控",
+        "summary_en": "OpenAI announced it will continue offering Zero Data Retention for frontier models and is previewing Private Safety Processing. The system identifies risk patterns across related interactions via automated signals without giving OpenAI personnel access to underlying customer content. It is being tested with early enterprise customers, with broader rollout and a technical white paper planned for September.",
+        "summary_zh": "OpenAI宣布將持續為前沿模型提供零資料保留（ZDR），並預覽Private Safety Processing。該系統透過自動化訊號辨識相關互動中的風險模式，且不讓OpenAI人員存取底層客戶內容。目前正與早期企業客戶測試，預計9月擴大推出並發布技術白皮書。",
+        "analysis_en": "This directly addresses enterprise privacy concerns amid rising agentic and multi-turn risks, positioning OpenAI against competitors that require longer data retention for safety. Effectiveness hinges on the quality of automated signals and customer willingness to share data only when appealing decisions.",
+        "analysis_zh": "此舉直接回應企業對隱私的顧慮，同時應對代理式與多輪任務風險上升，與要求較長資料保留的競爭對手形成差異。成效取決於自動化訊號品質，以及客戶是否僅在申訴時願意分享資料。",
+        "quote": "We will continue to offer Zero Data Retention for frontier models. ... we're previewing Private Safety Processing, which is designed to improve safety without giving OpenAI personnel access to the underlying content.",
+        "quote_zh": "我們將持續為前沿模型提供零資料保留。……我們正在預覽Private Safety Processing，設計目標是在不讓OpenAI人員存取底層內容的情況下提升安全性。",
+        "importance": 4,
+        "first_seen": "2026-08-19T19:53:42Z",
+        "updated_at": "2026-08-19T22:35:02.106635+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2090165328290701800"
+          },
+          {
+            "label": "Greg Brockman on X",
+            "url": "https://x.com/gdb/status/2090167683035853120"
+          }
+        ]
+      },
       {
         "id": "openai-chatgpt-for-teens-2026-08-18",
         "story_id": "openai-chatgpt-for-teens-2026-08-18",
@@ -128,38 +202,43 @@
             "url": "https://openai.com/index/pacing-model-development-cyber-capabilities/"
           }
         ]
-      },
-      {
-        "id": "openai-chatgpt-ads-europe-2026-08-18",
-        "story_id": "openai-chatgpt-ads-europe-2026-08-18",
-        "category": "openai",
-        "source_type": "official_blog",
-        "title_en": "ChatGPT Ads expands across Europe",
-        "title_zh": "ChatGPT 廣告擴展至歐洲",
-        "summary_en": "OpenAI listed a product update expanding ChatGPT Ads across Europe on its news page dated August 18, continuing the monetization tests previously announced for the platform.",
-        "summary_zh": "OpenAI 於 8 月 18 日新聞頁列出產品更新，將 ChatGPT 廣告擴展至歐洲，延續先前平台變現測試。",
-        "analysis_en": "Geographic expansion of ads is incremental but material for OpenAI’s consumer revenue mix. Impact on user experience and retention in regulated European markets remains to be measured.",
-        "analysis_zh": "廣告地理擴張屬漸進但對 OpenAI 消費端營收結構有實質意義。在受監管的歐洲市場對用戶體驗與留存的影響仍待觀察。",
-        "quote": "",
-        "quote_zh": "",
-        "importance": 2,
-        "first_seen": "2026-08-18T00:00:00Z",
-        "updated_at": "2026-08-19T16:35:01.761127+00:00",
-        "links": [
-          {
-            "label": "OpenAI News",
-            "url": "https://openai.com/news/"
-          }
-        ]
       }
     ],
     "anthropic": [],
     "google": [],
     "meta": [],
-    "xai": [],
+    "xai": [
+      {
+        "id": "xai-grok-4-6-amazon-bedrock-2026-08-19",
+        "story_id": "xai-grok-4-6-amazon-bedrock-2026-08-19",
+        "category": "xai",
+        "source_type": "official_x",
+        "title_en": "Grok 4.6 now generally available on Amazon Bedrock",
+        "title_zh": "Grok 4.6正式上架Amazon Bedrock",
+        "summary_en": "xAI announced that Grok 4.6 is now generally available on Amazon Bedrock. The model offers a 500k context window and configurable reasoning levels, targeted at long-running agents and interactive work, with listed pricing of $2/$6 per million input/output tokens in some regions.",
+        "summary_zh": "xAI宣布Grok 4.6已正式於Amazon Bedrock上架。該模型具備50萬token上下文與可配置推理等級，主打長時代理與互動工作，部分區域定價為每百萬token輸入$2／輸出$6。",
+        "analysis_en": "Bedrock availability expands enterprise distribution for Grok beyond direct API and GitHub Copilot, lowering friction for AWS-centric teams. Uptake will depend on real-world agent performance relative to other frontier models already on the platform.",
+        "analysis_zh": "Bedrock上架擴大了Grok在企業端的通路，超越直接API與GitHub Copilot，降低AWS用戶採用門檻。實際採用率仍取決於代理任務表現是否優於平台上其他前沿模型。",
+        "quote": "Grok 4.6 now on Bedrock",
+        "quote_zh": "Grok 4.6現已上架Bedrock",
+        "importance": 3,
+        "first_seen": "2026-08-19T15:33:21Z",
+        "updated_at": "2026-08-19T22:35:02.106635+00:00",
+        "links": [
+          {
+            "label": "Elon Musk on X",
+            "url": "https://x.com/elonmusk/status/2090099808220627226"
+          },
+          {
+            "label": "AWS Bedrock model card",
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-6.html"
+          }
+        ]
+      }
+    ],
     "frontier_other": []
   },
-  "brief_en": "Quiet overnight window. OpenAI’s Aug 18 ChatGPT for Teens rollout and cyber-pacing post remain the clearest official signals; no major new model releases or lab announcements surfaced in the last 12 hours from tracked primary sources.",
-  "brief_zh": "過去12小時官方動態平靜。OpenAI 8/18「ChatGPT for Teens」與網路能力節奏調整仍為最新主要訊號；追蹤實驗室無重大新模型或產品發布。",
-  "updated_at": "2026-08-19T16:35:01.761127+00:00"
+  "brief_en": "OpenAI previewed Private Safety Processing to keep Zero Data Retention while monitoring multi-turn risks. xAI made Grok 4.6 available on Amazon Bedrock. Minor platform updates elsewhere; no major model launches in the window.",
+  "brief_zh": "OpenAI預覽Private Safety Processing，在維持零資料保留下監控多輪風險。xAI讓Grok 4.6上架Amazon Bedrock。其他僅有平台小更新，無重大模型發布。",
+  "updated_at": "2026-08-19T22:35:02.106635+00:00"
 }
