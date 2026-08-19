@@ -24,6 +24,14 @@
       "item_count": 3,
       "updated_count": 3,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-08-19T10:35:01.923811+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 3,
+      "updated_count": 3,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -33,16 +41,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI pauses frontier RL and strengthens monitoring after cyber-capability signals",
-      "title_zh": "OpenAI因網路能力訊號暫停前沿RL並強化監控",
-      "summary_en": "OpenAI published “Pacing model development in an era of cyber-critical capabilities,” stating it temporarily paused reinforcement learning on latest models intended for deployment for two weeks after the Hugging Face incident and preliminary evidence that its upcoming Astra model may meet the Critical cybersecurity capability threshold. The largest planned frontier RL run remains on hold while smaller-scale training and evaluations proceed; the company expanded workload isolation, continuous security testing, and multistage monitoring.",
-      "summary_zh": "OpenAI發布《Pacing model development in an era of cyber-critical capabilities》，指出因Hugging Face事件及即將推出的Astra模型可能達到「關鍵網路安全能力」門檻的初步證據，已對擬部署的最新模型暫停強化學習兩週。最大規模的前沿RL運行仍暫停，同時進行較小規模訓練與評估；公司強化了工作負載隔離、持續安全測試與多階段監控。",
-      "analysis_en": "This is one of the clearest public admissions that internal cyber capability has forced a measurable slowdown in training cadence. Whether the pause is temporary operational hardening or a longer shift in deployment thresholds remains the key uncertainty.",
-      "analysis_zh": "這是目前最明確的公開承認：內部網路能力已迫使訓練節奏出現可量化的放緩。暫停是暫時的作業強化，還是部署門檻的長期調整，仍是關鍵不確定性。",
-      "quote": "We temporarily paused reinforcement learning (RL) training on our latest models intended for deployment for two weeks while we hardened and red-teamed our research environments and expanded monitoring coverage.",
-      "quote_zh": "我們對擬部署的最新模型暫時暫停強化學習（RL）訓練兩週，同時強化並紅隊測試研究環境，並擴大監控覆蓋範圍。",
+      "title_zh": "OpenAI因網路能力訊號暫停前沿RL訓練並強化監控",
+      "summary_en": "OpenAI published “Pacing model development in an era of cyber-critical capabilities,” stating it temporarily paused reinforcement learning on latest models intended for deployment for two weeks after the Hugging Face incident and preliminary evidence that an upcoming model (Astra) may meet the Critical cybersecurity capability threshold. It is hardening research environments with stronger isolation, expanding multistage monitoring (targeting alerts within 30 minutes), and keeping its largest planned frontier RL run on hold pending further validation.",
+      "summary_zh": "OpenAI發布《網路關鍵能力時代的模型開發節奏》，指出在Hugging Face事件及即將推出的Astra模型可能達到「關鍵網路安全能力」門檻的初步證據後，暫時對計畫部署的最新模型暫停強化學習兩週。公司正強化研究環境隔離、擴大多階段監控（目標30分鐘內告警），並將最大規模前沿RL訓練繼續擱置，待進一步驗證。",
+      "analysis_en": "This is one of the clearest public admissions that internal cyber capability has forced a measurable slowdown in training cadence. Whether the pause is temporary operational hardening or signals a longer structural shift in how OpenAI paces frontier runs remains uncertain until the next large RL campaign resumes.",
+      "analysis_zh": "這是目前最明確的公開承認：內部網路能力已迫使訓練節奏出現可量化的放緩。暫停究竟只是暫時的工程加固，還是意味著OpenAI前沿訓練節奏的結構性轉變，仍需等下一次大型RL訓練恢復後才能判斷。",
+      "quote": "We temporarily paused reinforcement learning (RL) training on our latest models intended for deployment for two weeks while we hardened and red-teamed our research environments and expanded monitoring coverage. Our largest planned frontier RL run remains on hold.",
+      "quote_zh": "我們暫時對計畫部署的最新模型暫停強化學習（RL）訓練兩週，同時加固並紅隊測試研究環境、擴大監控覆蓋。我們最大規模的計畫前沿RL訓練仍繼續擱置。",
       "importance": 5,
       "first_seen": "2026-08-18T18:00:00Z",
-      "updated_at": "2026-08-19T04:35:01.321525+00:00",
+      "updated_at": "2026-08-19T10:35:01.923811+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -60,24 +68,24 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI introduces ChatGPT for Teens with Study Mode and stronger default protections",
-      "title_zh": "OpenAI推出青少年版ChatGPT，內建學習模式與更強預設保護",
-      "summary_en": "OpenAI announced ChatGPT for Teens, which automatically activates for users estimated under 18 or who state ages 13-17. It centers on learning support via Study Mode (guiding questions and step-by-step help), responsible homework reminders, and stronger default content and safety filters tailored for adolescents.",
-      "summary_zh": "OpenAI宣布推出ChatGPT for Teens，系統會自動為估計未滿18歲或自行聲明13-17歲的使用者啟用。產品以學習支援為核心，透過Study Mode提供引導式提問與逐步協助、負責任的作業提醒，以及針對青少年加強的預設內容與安全過濾。",
-      "analysis_en": "This formalizes teen-specific product and model behavior after years of real-world youth usage and external scrutiny. The combination of learning-first defaults and stronger under-18 safeguards addresses a persistent regulatory and parental pressure point, though long-term effectiveness will depend on age-estimation accuracy and enforcement consistency.",
-      "analysis_zh": "這是在多年真實青少年使用與外部檢視後，正式將青少年專屬產品與模型行為產品化。以學習為優先的預設加上更強的18歲以下防護，回應了長期的監管與家長壓力，但長期成效仍取決於年齡估計準確度與執行一致性。",
-      "quote": "We’re introducing ChatGPT for Teens, an experience designed to help teens learn, think critically, deepen understanding, and use AI with confidence. It provides stronger built-in safety protections for teens…",
-      "quote_zh": "我們推出 ChatGPT for Teens，這是一個協助青少年學習、批判性思考、深化理解，並有信心使用 AI 的體驗。它為青少年提供更強的內建安全保護……",
+      "title_zh": "OpenAI推出ChatGPT for Teens，內建Study Mode與更強預設防護",
+      "summary_en": "OpenAI announced ChatGPT for Teens, which automatically activates for users estimated under 18 or who state ages 13-17. It centers on learning support via Study Mode (guiding questions and step-by-step help), responsible homework reminders, quizzes, and Study Hours, while applying age-appropriate content safeguards and optional parental controls by default.",
+      "summary_zh": "OpenAI宣布推出ChatGPT for Teens，系統估計未滿18歲或自行聲明13-17歲的使用者會自動啟用。核心是學習支援：Study Mode（引導式提問與逐步協助）、負責任作業提醒、測驗與Study Hours，同時預設套用年齡適當內容防護與可選家長控制。",
+      "analysis_en": "This formalizes teen-specific product and model behavior after years of real-world youth usage and external scrutiny. The combination of learning-first defaults and stronger under-18 safeguards is a clear product response to safety and education concerns, though long-term effectiveness will depend on enforcement and parental adoption.",
+      "analysis_zh": "這是在多年實際青少年使用與外部審視後，正式化青少年專屬產品與模型行為。以學習為先的預設搭配更強的未滿18歲防護，是對安全與教育疑慮的明確產品回應，但長期成效仍取決於執行力與家長採用程度。",
+      "quote": "We’re introducing ChatGPT for Teens, an experience designed to help teens learn, think critically, deepen understanding, and use AI with confidence. It provides stronger built-in safety protections for teens.",
+      "quote_zh": "我們推出ChatGPT for Teens，這是專為幫助青少年學習、批判思考、加深理解並自信使用AI而設計的體驗，並提供更強的內建安全防護。",
       "importance": 4,
       "first_seen": "2026-08-18T00:00:00Z",
-      "updated_at": "2026-08-19T04:35:01.321525+00:00",
+      "updated_at": "2026-08-19T10:35:01.923811+00:00",
       "links": [
-        {
-          "label": "OpenAI Newsroom",
-          "url": "https://openai.com/news/product-releases/"
-        },
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/chatgpt-for-teens/"
+        },
+        {
+          "label": "OpenAI Newsroom",
+          "url": "https://openai.com/news/product-releases/"
         },
         {
           "label": "Reuters",
@@ -95,16 +103,16 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic reports Claude designs de novo protein binders at above-typical hit rates",
-      "title_zh": "Anthropic報告Claude自主設計全新蛋白質結合劑，命中率高於業界典型水準",
-      "summary_en": "Anthropic published results showing Claude (Mythos Preview and Opus 4.8) autonomously designed protein binders against 15 targets, succeeding on 14. Wet-lab validation by Adaptyv Bio and Twist Bioscience found hit rates of 22–35% depending on setup (vs typical 10–15%), with some designs binding tighter than prior published results. The company released the protocol prompt, design models, and binding data.",
-      "summary_zh": "Anthropic發布結果顯示，Claude（Mythos Preview與Opus 4.8）自主針對15個目標設計全新蛋白質結合劑，成功14個。Adaptyv Bio與Twist Bioscience的濕實驗室驗證顯示，依設定不同命中率達22–35%（業界典型約10–15%），部分設計的結合力優於先前已發表結果。公司同步公開協議提示詞、設計模型與結合數據。",
-      "analysis_en": "The results move agentic protein design from in-silico claims to independently verified wet-lab outcomes and strengthen Anthropic’s life-sciences positioning. Access to the highest-capability models for broader scientific use remains gated, and binders are only an early step toward actual therapeutics.",
-      "analysis_zh": "結果將代理式蛋白質設計從純計算主張推進到經獨立驗證的濕實驗室成果，並強化Anthropic在生命科學的定位。最高能力模型對更廣泛科學用途的存取仍受限制，且結合劑僅是邁向真正治療藥物的早期步驟。",
-      "quote": "With a protein design prompt written by a human expert, Claude autonomously designed protein binders against 14 out of 15 targets.",
-      "quote_zh": "在人類專家撰寫的蛋白質設計提示詞下，Claude自主針對15個目標中的14個設計出全新蛋白質結合劑。",
+      "title_zh": "Anthropic公布Claude從頭設計蛋白質結合劑，命中率高於典型水準",
+      "summary_en": "Anthropic published results showing Claude (Mythos Preview and Opus 4.8) autonomously designed protein binders against 15 targets, succeeding on 14. Wet-lab validation by Adaptyv Bio and Twist Bioscience found hit rates of 22–35% depending on setup (versus typical 10–15%), with some designs matching or exceeding best published affinities. Claude also demonstrated rapid analytical chemistry on NMR/LC-MS data.",
+      "summary_zh": "Anthropic公布結果顯示Claude（Mythos Preview與Opus 4.8）自主針對15個靶點從頭設計蛋白質結合劑，成功14個。Adaptyv Bio與Twist Bioscience的濕實驗驗證命中率依設定達22–35%（典型約10–15%），部分設計親和力達到或超越既有最佳結果。Claude亦展現快速分析化學能力（NMR/LC-MS數據）。",
+      "analysis_en": "The results move agentic protein design from in-silico claims to independently verified wet-lab outcomes and strengthen Anthropic’s life-sciences positioning. Access to the highest-capability models for broader scientific use remains limited, with Anthropic signaling an upcoming scientist access program.",
+      "analysis_zh": "這些結果將代理式蛋白質設計從純計算主張推進到獨立濕實驗驗證，強化Anthropic在生命科學的定位。最高能力模型對更廣泛科學用途的開放仍有限，Anthropic已預告即將推出科學家存取計畫。",
+      "quote": "Claude (Mythos Preview and Opus 4.8) designed protein binders against 15 targets, and succeeded against 14 of them. Between 22% and 35% of its individual designs bound successfully, depending on the setup, compared to the 10-15% that is typical.",
+      "quote_zh": "Claude（Mythos Preview與Opus 4.8）針對15個靶點設計蛋白質結合劑，成功14個。個別設計的結合成功率依設定達22%至35%，相較於典型的10-15%。",
       "importance": 4,
       "first_seen": "2026-08-18T22:30:00Z",
-      "updated_at": "2026-08-19T04:35:01.321525+00:00",
+      "updated_at": "2026-08-19T10:35:01.923811+00:00",
       "links": [
         {
           "label": "Anthropic Research",
@@ -129,16 +137,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI pauses frontier RL and strengthens monitoring after cyber-capability signals",
-        "title_zh": "OpenAI因網路能力訊號暫停前沿RL並強化監控",
-        "summary_en": "OpenAI published “Pacing model development in an era of cyber-critical capabilities,” stating it temporarily paused reinforcement learning on latest models intended for deployment for two weeks after the Hugging Face incident and preliminary evidence that its upcoming Astra model may meet the Critical cybersecurity capability threshold. The largest planned frontier RL run remains on hold while smaller-scale training and evaluations proceed; the company expanded workload isolation, continuous security testing, and multistage monitoring.",
-        "summary_zh": "OpenAI發布《Pacing model development in an era of cyber-critical capabilities》，指出因Hugging Face事件及即將推出的Astra模型可能達到「關鍵網路安全能力」門檻的初步證據，已對擬部署的最新模型暫停強化學習兩週。最大規模的前沿RL運行仍暫停，同時進行較小規模訓練與評估；公司強化了工作負載隔離、持續安全測試與多階段監控。",
-        "analysis_en": "This is one of the clearest public admissions that internal cyber capability has forced a measurable slowdown in training cadence. Whether the pause is temporary operational hardening or a longer shift in deployment thresholds remains the key uncertainty.",
-        "analysis_zh": "這是目前最明確的公開承認：內部網路能力已迫使訓練節奏出現可量化的放緩。暫停是暫時的作業強化，還是部署門檻的長期調整，仍是關鍵不確定性。",
-        "quote": "We temporarily paused reinforcement learning (RL) training on our latest models intended for deployment for two weeks while we hardened and red-teamed our research environments and expanded monitoring coverage.",
-        "quote_zh": "我們對擬部署的最新模型暫時暫停強化學習（RL）訓練兩週，同時強化並紅隊測試研究環境，並擴大監控覆蓋範圍。",
+        "title_zh": "OpenAI因網路能力訊號暫停前沿RL訓練並強化監控",
+        "summary_en": "OpenAI published “Pacing model development in an era of cyber-critical capabilities,” stating it temporarily paused reinforcement learning on latest models intended for deployment for two weeks after the Hugging Face incident and preliminary evidence that an upcoming model (Astra) may meet the Critical cybersecurity capability threshold. It is hardening research environments with stronger isolation, expanding multistage monitoring (targeting alerts within 30 minutes), and keeping its largest planned frontier RL run on hold pending further validation.",
+        "summary_zh": "OpenAI發布《網路關鍵能力時代的模型開發節奏》，指出在Hugging Face事件及即將推出的Astra模型可能達到「關鍵網路安全能力」門檻的初步證據後，暫時對計畫部署的最新模型暫停強化學習兩週。公司正強化研究環境隔離、擴大多階段監控（目標30分鐘內告警），並將最大規模前沿RL訓練繼續擱置，待進一步驗證。",
+        "analysis_en": "This is one of the clearest public admissions that internal cyber capability has forced a measurable slowdown in training cadence. Whether the pause is temporary operational hardening or signals a longer structural shift in how OpenAI paces frontier runs remains uncertain until the next large RL campaign resumes.",
+        "analysis_zh": "這是目前最明確的公開承認：內部網路能力已迫使訓練節奏出現可量化的放緩。暫停究竟只是暫時的工程加固，還是意味著OpenAI前沿訓練節奏的結構性轉變，仍需等下一次大型RL訓練恢復後才能判斷。",
+        "quote": "We temporarily paused reinforcement learning (RL) training on our latest models intended for deployment for two weeks while we hardened and red-teamed our research environments and expanded monitoring coverage. Our largest planned frontier RL run remains on hold.",
+        "quote_zh": "我們暫時對計畫部署的最新模型暫停強化學習（RL）訓練兩週，同時加固並紅隊測試研究環境、擴大監控覆蓋。我們最大規模的計畫前沿RL訓練仍繼續擱置。",
         "importance": 5,
         "first_seen": "2026-08-18T18:00:00Z",
-        "updated_at": "2026-08-19T04:35:01.321525+00:00",
+        "updated_at": "2026-08-19T10:35:01.923811+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -156,24 +164,24 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI introduces ChatGPT for Teens with Study Mode and stronger default protections",
-        "title_zh": "OpenAI推出青少年版ChatGPT，內建學習模式與更強預設保護",
-        "summary_en": "OpenAI announced ChatGPT for Teens, which automatically activates for users estimated under 18 or who state ages 13-17. It centers on learning support via Study Mode (guiding questions and step-by-step help), responsible homework reminders, and stronger default content and safety filters tailored for adolescents.",
-        "summary_zh": "OpenAI宣布推出ChatGPT for Teens，系統會自動為估計未滿18歲或自行聲明13-17歲的使用者啟用。產品以學習支援為核心，透過Study Mode提供引導式提問與逐步協助、負責任的作業提醒，以及針對青少年加強的預設內容與安全過濾。",
-        "analysis_en": "This formalizes teen-specific product and model behavior after years of real-world youth usage and external scrutiny. The combination of learning-first defaults and stronger under-18 safeguards addresses a persistent regulatory and parental pressure point, though long-term effectiveness will depend on age-estimation accuracy and enforcement consistency.",
-        "analysis_zh": "這是在多年真實青少年使用與外部檢視後，正式將青少年專屬產品與模型行為產品化。以學習為優先的預設加上更強的18歲以下防護，回應了長期的監管與家長壓力，但長期成效仍取決於年齡估計準確度與執行一致性。",
-        "quote": "We’re introducing ChatGPT for Teens, an experience designed to help teens learn, think critically, deepen understanding, and use AI with confidence. It provides stronger built-in safety protections for teens…",
-        "quote_zh": "我們推出 ChatGPT for Teens，這是一個協助青少年學習、批判性思考、深化理解，並有信心使用 AI 的體驗。它為青少年提供更強的內建安全保護……",
+        "title_zh": "OpenAI推出ChatGPT for Teens，內建Study Mode與更強預設防護",
+        "summary_en": "OpenAI announced ChatGPT for Teens, which automatically activates for users estimated under 18 or who state ages 13-17. It centers on learning support via Study Mode (guiding questions and step-by-step help), responsible homework reminders, quizzes, and Study Hours, while applying age-appropriate content safeguards and optional parental controls by default.",
+        "summary_zh": "OpenAI宣布推出ChatGPT for Teens，系統估計未滿18歲或自行聲明13-17歲的使用者會自動啟用。核心是學習支援：Study Mode（引導式提問與逐步協助）、負責任作業提醒、測驗與Study Hours，同時預設套用年齡適當內容防護與可選家長控制。",
+        "analysis_en": "This formalizes teen-specific product and model behavior after years of real-world youth usage and external scrutiny. The combination of learning-first defaults and stronger under-18 safeguards is a clear product response to safety and education concerns, though long-term effectiveness will depend on enforcement and parental adoption.",
+        "analysis_zh": "這是在多年實際青少年使用與外部審視後，正式化青少年專屬產品與模型行為。以學習為先的預設搭配更強的未滿18歲防護，是對安全與教育疑慮的明確產品回應，但長期成效仍取決於執行力與家長採用程度。",
+        "quote": "We’re introducing ChatGPT for Teens, an experience designed to help teens learn, think critically, deepen understanding, and use AI with confidence. It provides stronger built-in safety protections for teens.",
+        "quote_zh": "我們推出ChatGPT for Teens，這是專為幫助青少年學習、批判思考、加深理解並自信使用AI而設計的體驗，並提供更強的內建安全防護。",
         "importance": 4,
         "first_seen": "2026-08-18T00:00:00Z",
-        "updated_at": "2026-08-19T04:35:01.321525+00:00",
+        "updated_at": "2026-08-19T10:35:01.923811+00:00",
         "links": [
-          {
-            "label": "OpenAI Newsroom",
-            "url": "https://openai.com/news/product-releases/"
-          },
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/chatgpt-for-teens/"
+          },
+          {
+            "label": "OpenAI Newsroom",
+            "url": "https://openai.com/news/product-releases/"
           },
           {
             "label": "Reuters",
@@ -193,16 +201,16 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic reports Claude designs de novo protein binders at above-typical hit rates",
-        "title_zh": "Anthropic報告Claude自主設計全新蛋白質結合劑，命中率高於業界典型水準",
-        "summary_en": "Anthropic published results showing Claude (Mythos Preview and Opus 4.8) autonomously designed protein binders against 15 targets, succeeding on 14. Wet-lab validation by Adaptyv Bio and Twist Bioscience found hit rates of 22–35% depending on setup (vs typical 10–15%), with some designs binding tighter than prior published results. The company released the protocol prompt, design models, and binding data.",
-        "summary_zh": "Anthropic發布結果顯示，Claude（Mythos Preview與Opus 4.8）自主針對15個目標設計全新蛋白質結合劑，成功14個。Adaptyv Bio與Twist Bioscience的濕實驗室驗證顯示，依設定不同命中率達22–35%（業界典型約10–15%），部分設計的結合力優於先前已發表結果。公司同步公開協議提示詞、設計模型與結合數據。",
-        "analysis_en": "The results move agentic protein design from in-silico claims to independently verified wet-lab outcomes and strengthen Anthropic’s life-sciences positioning. Access to the highest-capability models for broader scientific use remains gated, and binders are only an early step toward actual therapeutics.",
-        "analysis_zh": "結果將代理式蛋白質設計從純計算主張推進到經獨立驗證的濕實驗室成果，並強化Anthropic在生命科學的定位。最高能力模型對更廣泛科學用途的存取仍受限制，且結合劑僅是邁向真正治療藥物的早期步驟。",
-        "quote": "With a protein design prompt written by a human expert, Claude autonomously designed protein binders against 14 out of 15 targets.",
-        "quote_zh": "在人類專家撰寫的蛋白質設計提示詞下，Claude自主針對15個目標中的14個設計出全新蛋白質結合劑。",
+        "title_zh": "Anthropic公布Claude從頭設計蛋白質結合劑，命中率高於典型水準",
+        "summary_en": "Anthropic published results showing Claude (Mythos Preview and Opus 4.8) autonomously designed protein binders against 15 targets, succeeding on 14. Wet-lab validation by Adaptyv Bio and Twist Bioscience found hit rates of 22–35% depending on setup (versus typical 10–15%), with some designs matching or exceeding best published affinities. Claude also demonstrated rapid analytical chemistry on NMR/LC-MS data.",
+        "summary_zh": "Anthropic公布結果顯示Claude（Mythos Preview與Opus 4.8）自主針對15個靶點從頭設計蛋白質結合劑，成功14個。Adaptyv Bio與Twist Bioscience的濕實驗驗證命中率依設定達22–35%（典型約10–15%），部分設計親和力達到或超越既有最佳結果。Claude亦展現快速分析化學能力（NMR/LC-MS數據）。",
+        "analysis_en": "The results move agentic protein design from in-silico claims to independently verified wet-lab outcomes and strengthen Anthropic’s life-sciences positioning. Access to the highest-capability models for broader scientific use remains limited, with Anthropic signaling an upcoming scientist access program.",
+        "analysis_zh": "這些結果將代理式蛋白質設計從純計算主張推進到獨立濕實驗驗證，強化Anthropic在生命科學的定位。最高能力模型對更廣泛科學用途的開放仍有限，Anthropic已預告即將推出科學家存取計畫。",
+        "quote": "Claude (Mythos Preview and Opus 4.8) designed protein binders against 15 targets, and succeeded against 14 of them. Between 22% and 35% of its individual designs bound successfully, depending on the setup, compared to the 10-15% that is typical.",
+        "quote_zh": "Claude（Mythos Preview與Opus 4.8）針對15個靶點設計蛋白質結合劑，成功14個。個別設計的結合成功率依設定達22%至35%，相較於典型的10-15%。",
         "importance": 4,
         "first_seen": "2026-08-18T22:30:00Z",
-        "updated_at": "2026-08-19T04:35:01.321525+00:00",
+        "updated_at": "2026-08-19T10:35:01.923811+00:00",
         "links": [
           {
             "label": "Anthropic Research",
@@ -224,7 +232,7 @@
     "xai": [],
     "frontier_other": []
   },
-  "brief_en": "OpenAI publicly paced frontier RL after cyber signals and the Hugging Face incident, while launching ChatGPT for Teens. Anthropic showed Claude autonomously designing de novo protein binders with above-typical wet-lab hit rates verified by external labs.",
-  "brief_zh": "OpenAI因網路能力訊號與Hugging Face事件公開放緩前沿RL訓練，並推出青少年版ChatGPT。Anthropic展示Claude自主設計全新蛋白質結合劑，濕實驗室命中率高於業界典型水準並經外部驗證。",
-  "updated_at": "2026-08-19T04:35:01.321525+00:00"
+  "brief_en": "OpenAI paused frontier RL training for two weeks and strengthened monitoring after cyber-capability signals, while launching ChatGPT for Teens with Study Mode. Anthropic reported Claude designing de novo protein binders with above-typical wet-lab hit rates validated externally.",
+  "brief_zh": "OpenAI因網路能力訊號暫停前沿RL訓練兩週並強化監控，同時推出ChatGPT for Teens與Study Mode。Anthropic公布Claude從頭設計蛋白質結合劑，濕實驗命中率高於典型水準並獲外部驗證。",
+  "updated_at": "2026-08-19T10:35:01.923811+00:00"
 }
