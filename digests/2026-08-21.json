@@ -16,25 +16,60 @@
       "item_count": 6,
       "updated_count": 5,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-08-21T04:35:01.845828+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 9,
+      "updated_count": 6,
+      "kept_count": 0
     }
   ],
   "items_flat": [
+    {
+      "id": "anthropic-enterprise-data-retention-flexibility-2026-08-20",
+      "story_id": "anthropic-enterprise-data-retention-flexibility-2026-08-20",
+      "category": "anthropic",
+      "source_type": "news",
+      "title_en": "Anthropic plans enterprise data-retention flexibility for frontier models",
+      "title_zh": "Anthropic 計畫為前沿模型提供企業資料保留彈性",
+      "summary_en": "According to Bloomberg and Reuters citing a person familiar, Anthropic will still require 30-day retention for safety monitoring on its most capable models but plans to let enterprise customers keep that data on their own cloud infrastructure rather than Anthropic’s. The system is expected later this year after months of work with over 100 customers including Salesforce. Anthropic declined to comment.",
+      "summary_zh": "據彭博與路透引述知情人士，Anthropic 仍將要求其最強模型進行30天安全監控資料保留，但計畫允許企業客戶把資料放在自己的雲端基礎設施而非 Anthropic 端。該系統預計今年稍晚推出，已與包括 Salesforce 在內超過100家客戶協調數月。Anthropic 拒絕評論。",
+      "analysis_en": "This responds to enterprise pushback against the June 30-day retention mandate that conflicted with zero-retention expectations. It narrows the gap with OpenAI’s Private Safety Processing approach while keeping safety visibility; rollout timing and exact technical controls remain unconfirmed.",
+      "analysis_zh": "此舉回應企業對6月30天保留要求的反彈，該要求與零保留期望衝突。它縮小與 OpenAI Private Safety Processing 的差距，同時保留安全可視性；實際上線時間與技術細節仍待確認。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 4,
+      "first_seen": "2026-08-20T17:51:00Z",
+      "updated_at": "2026-08-21T04:35:01.845828+00:00",
+      "links": [
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-20/anthropic-plans-to-change-data-retention-policy-for-advanced-ai"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/anthropic-plans-change-enterprise-data-retention-policy-source-says-2026-08-20/"
+        }
+      ]
+    },
     {
       "id": "openai-zero-data-retention-private-safety-2026-08-19",
       "story_id": "openai-zero-data-retention-private-safety-2026-08-19",
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI previews Private Safety Processing while reaffirming Zero Data Retention for frontier models",
-      "title_zh": "OpenAI 預覽 Private Safety Processing，並重申前沿模型零資料保留",
-      "summary_en": "OpenAI announced it will continue offering Zero Data Retention for eligible API customers and is previewing Private Safety Processing. The system is designed to detect misuse patterns across related interactions without giving OpenAI personnel access to underlying customer content.",
-      "summary_zh": "OpenAI 宣布將持續為符合資格的 API 客戶提供零資料保留，並預覽 Private Safety Processing。該系統旨在跨多個相關互動偵測濫用模式，同時不讓 OpenAI 人員接觸客戶原始內容。",
-      "analysis_en": "This directly addresses enterprise demand for stronger privacy as models handle longer autonomous work. It positions OpenAI differently from rivals requiring longer retention, though full technical details and September rollout remain to be proven in practice.",
-      "analysis_zh": "這直接回應企業在模型處理更長自主任務時對更強隱私的需求。它讓 OpenAI 與要求較長保留期的競爭對手形成差異，但完整技術細節與 9 月推出效果仍待實務驗證。",
-      "quote": "Today, we’re previewing Private Safety Processing, which is designed to identify patterns across related interactions without giving OpenAI personnel access to the underlying content.",
-      "quote_zh": "今天我們預覽 Private Safety Processing，其設計目的是在不讓 OpenAI 人員接觸底層內容的情況下，識別跨相關互動的模式。",
+      "title_zh": "OpenAI 預覽 Private Safety Processing，並重申前沿模型的 Zero Data Retention",
+      "summary_en": "OpenAI announced it will continue offering Zero Data Retention for eligible API customers and is previewing Private Safety Processing. The system is designed to detect misuse patterns across related interactions without giving OpenAI personnel access to the underlying content.",
+      "summary_zh": "OpenAI 宣布將繼續為符合資格的 API 客戶提供 Zero Data Retention，並預覽 Private Safety Processing。該系統旨在跨相關互動偵測濫用模式，同時不讓 OpenAI 人員接觸底層內容。",
+      "analysis_en": "This directly addresses enterprise demand for stronger privacy as models handle longer autonomous work. It positions OpenAI differently from rivals requiring longer retention, though real-world efficacy and customer uptake remain to be proven.",
+      "analysis_zh": "這直接回應企業對更強隱私的需求，因模型處理更長自主工作。它讓 OpenAI 與要求較長保留期的對手有所區隔，但實際效力與客戶採用仍待驗證。",
+      "quote": "We will continue to offer Zero Data Retention for frontier models.",
+      "quote_zh": "我們將繼續為前沿模型提供 Zero Data Retention。",
       "importance": 4,
       "first_seen": "2026-08-19T19:53:42Z",
-      "updated_at": "2026-08-20T22:35:01.921622+00:00",
+      "updated_at": "2026-08-21T04:35:01.845828+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -52,17 +87,21 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI launches AI Futures blog from new Strategic Futures team",
-      "title_zh": "OpenAI 推出 Strategic Futures 團隊的 AI Futures 部落格",
-      "summary_en": "OpenAI introduced the AI Futures blog, authored by Dean Ball of its new Strategic Futures team. The inaugural post focuses on how free societies should restructure to preserve individual rights and agency amid transformative AI, emphasizing concentration-of-power risks over other safety concerns.",
-      "summary_zh": "OpenAI 推出 AI Futures 部落格，由新成立的 Strategic Futures 團隊 Dean Ball 撰寫。首篇文章聚焦自由社會應如何調整結構，以在轉型式 AI 出現時保有個人權利與主體性，並強調權力集中風險的優先性。",
-      "analysis_en": "This signals OpenAI is formalizing longer-horizon political-economy thinking inside the company. It remains an individual author’s view rather than an official corporate position, so impact on product or policy is still unclear.",
-      "analysis_zh": "此舉顯示 OpenAI 正將更長遠的政治經濟思考制度化。目前仍屬作者個人觀點而非公司官方立場，對產品或政策的實質影響尚待觀察。",
+      "title_zh": "OpenAI 推出由新 Strategic Futures 團隊執筆的 AI Futures 部落格",
+      "summary_en": "OpenAI introduced the AI Futures blog, authored by Dean Ball of its new Strategic Futures team. The inaugural post focuses on how free societies should restructure to preserve individual rights and agency amid transformative AI, emphasizing democratic resilience.",
+      "summary_zh": "OpenAI 推出 AI Futures 部落格，由新 Strategic Futures 團隊的 Dean Ball 執筆。首篇文章聚焦自由社會應如何重組以在變革性 AI 中保存個人權利與能動性，強調民主韌性。",
+      "analysis_en": "This signals OpenAI is formalizing longer-horizon political-economy thinking inside the company. It remains an individual author’s view rather than an official corporate position, so its policy influence is still uncertain.",
+      "analysis_zh": "這顯示 OpenAI 正在公司內部正式化更長遠的政治經濟思考。它仍是個人作者觀點而非官方公司立場，因此政策影響力尚不確定。",
       "quote": "It is our pleasure to launch AI Futures, the blog of OpenAI’s new Strategic Futures team. We are a small team with the collective goal of answering one overarching question: how should free society be restructured to preserve individual rights and agency while accommodating the emergence of transformative AI?",
       "quote_zh": "我們很高興推出 AI Futures，這是 OpenAI 新成立的 Strategic Futures 團隊的部落格。我們是一個小團隊，共同目標是回答一個核心問題：自由社會應如何重組，才能在轉型式 AI 出現時仍保有個人權利與主體性？",
       "importance": 3,
       "first_seen": "2026-08-20T00:00:00Z",
-      "updated_at": "2026-08-20T22:35:01.921622+00:00",
+      "updated_at": "2026-08-21T04:35:01.845828+00:00",
       "links": [
+        {
+          "label": "OpenAI AI Futures",
+          "url": "https://openai.com/index/ai-futures/"
+        },
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/introducing-ai-futures/"
@@ -75,16 +114,16 @@
       "category": "xai",
       "source_type": "product",
       "title_en": "Grok 4.6 now generally available on Amazon Bedrock",
-      "title_zh": "Grok 4.6 正式在 Amazon Bedrock 全面可用",
+      "title_zh": "Grok 4.6 現已在 Amazon Bedrock 全面可用",
       "summary_en": "SpaceXAI announced that Grok 4.6 is now generally available on Amazon Bedrock. The model offers a 500k context window, configurable reasoning levels, and support for long-running agents plus interactive and visual work.",
-      "summary_zh": "SpaceXAI 宣布 Grok 4.6 現已在 Amazon Bedrock 全面可用。該模型提供 50 萬 token 上下文視窗、可配置推理層級，並支援長時間運行的代理以及互動與視覺工作。",
+      "summary_zh": "SpaceXAI 宣布 Grok 4.6 現已在 Amazon Bedrock 全面可用。該模型提供 50萬 token 上下文視窗、可配置推理等級，並支援長時間運行代理以及互動與視覺工作。",
       "analysis_en": "Enterprise availability on Bedrock expands Grok’s reach beyond native platforms and Cursor. It strengthens SpaceXAI’s position in the agentic and coding market at a competitive price point.",
-      "analysis_zh": "Bedrock 的企業可用性讓 Grok 的觸及範圍超越原生平台與 Cursor。這強化了 SpaceXAI 在代理與程式設計市場的地位，並以具競爭力的定價切入。",
+      "analysis_zh": "Bedrock 企業可用性將 Grok 觸角擴展至原生平台與 Cursor 之外。它以具競爭力的價格強化 SpaceXAI 在代理與編碼市場的地位。",
       "quote": "Today, we’re excited to announce that Grok 4.6 is now generally available on Amazon Bedrock.",
       "quote_zh": "今天我們很高興宣布，Grok 4.6 現已在 Amazon Bedrock 全面可用。",
       "importance": 3,
       "first_seen": "2026-08-19T15:19:30Z",
-      "updated_at": "2026-08-20T22:35:01.921622+00:00",
+      "updated_at": "2026-08-21T04:35:01.845828+00:00",
       "links": [
         {
           "label": "AWS / SpaceXAI announcement",
@@ -106,17 +145,21 @@
       "category": "meta",
       "source_type": "product",
       "title_en": "Meta launches native Mac app for Meta AI with system-wide dictation and screen context",
-      "title_zh": "Meta 推出 Meta AI 原生 Mac App，支援系統級聽寫與螢幕上下文",
+      "title_zh": "Meta 推出原生 Mac 版 Meta AI 應用，支援系統級聽寫與螢幕上下文",
       "summary_en": "Meta released a native macOS beta app for Meta AI. It supports system-wide dictation, Quick Invoke, attaching Mac windows for context, and deeper integrations with Instagram, Facebook, Meta ads, and Google Workspace for business insights.",
-      "summary_zh": "Meta 發布 Meta AI 的原生 macOS beta 應用。它支援系統級聽寫、Quick Invoke、附加 Mac 視窗作為上下文，以及與 Instagram、Facebook、Meta 廣告和 Google Workspace 的更深整合，用於商業洞察。",
-      "analysis_en": "The app moves Meta AI further into productivity and small-business tooling, competing more directly with desktop experiences from OpenAI, Anthropic and Google. Privacy implications of screen and window access will be closely watched.",
-      "analysis_zh": "此 App 讓 Meta AI 進一步進入生產力與小型企業工具領域，更直接與 OpenAI、Anthropic 和 Google 的桌面體驗競爭。螢幕與視窗存取的隱私影響將受密切關注。",
+      "summary_zh": "Meta 釋出原生 macOS beta 版 Meta AI 應用。支援系統級聽寫、Quick Invoke、附加 Mac 視窗作為上下文，以及與 Instagram、Facebook、Meta 廣告和 Google Workspace 的更深整合以提供商業洞察。",
+      "analysis_en": "The app moves Meta AI further into productivity and small-business tooling, competing more directly with desktop experiences from OpenAI, Anthropic and Google. Privacy implications of screen-context access will be closely watched.",
+      "analysis_zh": "此應用讓 Meta AI 進一步進入生產力與小企業工具領域，更直接與 OpenAI、Anthropic 和 Google 的桌面體驗競爭。螢幕上下文存取的隱私影響將受到密切關注。",
       "quote": "",
       "quote_zh": "",
       "importance": 3,
       "first_seen": "2026-08-19T00:00:00Z",
-      "updated_at": "2026-08-20T22:35:01.921622+00:00",
+      "updated_at": "2026-08-21T04:35:01.845828+00:00",
       "links": [
+        {
+          "label": "Meta / 9to5Mac coverage",
+          "url": "https://9to5mac.com/2026/08/19/meta-ai-mac-app/"
+        },
         {
           "label": "Meta announcement",
           "url": "https://about.fb.com/news/"
@@ -139,22 +182,72 @@
       "title_en": "OpenAI introduces ChatGPT for Teens",
       "title_zh": "OpenAI 推出 ChatGPT for Teens",
       "summary_en": "OpenAI launched a version of ChatGPT designed specifically for teenagers, with age-appropriate safeguards and features aimed at schoolwork, daily questions and companionship use cases.",
-      "summary_zh": "OpenAI 推出專為青少年設計的 ChatGPT 版本，具備適合年齡的安全防護，並針對課業、日常問題與陪伴使用情境提供功能。",
-      "analysis_en": "Targeting the first generation growing up with AI signals both product expansion and regulatory/parental pressure around youth safety. Success will depend on effective age verification and real-world safeguard performance.",
-      "analysis_zh": "鎖定與 AI 一同成長的第一代，顯示產品擴張同時也反映對青少年安全的監管與家長壓力。成功關鍵在於有效年齡驗證與實際防護效果。",
+      "summary_zh": "OpenAI 推出專為青少年設計的 ChatGPT 版本，具備適合年齡的安全防護與針對課業、日常問題與陪伴用途的功能。",
+      "analysis_en": "Targeting the first generation growing up with AI signals both product expansion and regulatory/parental pressure around youth safety. Success will depend on effective age verification and actual usage patterns.",
+      "analysis_zh": "鎖定與 AI 一同成長的第一代，同時顯示產品擴張與圍繞青少年安全的監管／家長壓力。成功將取決於有效的年齡驗證與實際使用模式。",
       "quote": "",
       "quote_zh": "",
       "importance": 3,
       "first_seen": "2026-08-18T00:00:00Z",
-      "updated_at": "2026-08-20T22:35:01.921622+00:00",
+      "updated_at": "2026-08-21T04:35:01.845828+00:00",
       "links": [
         {
-          "label": "OpenAI announcement",
+          "label": "OpenAI Blog",
           "url": "https://openai.com/index/chatgpt-for-teens/"
         },
         {
           "label": "OpenAI News",
           "url": "https://openai.com/news/"
+        }
+      ]
+    },
+    {
+      "id": "openai-chatgpt-codex-feature-updates-2026-08-20",
+      "story_id": "openai-chatgpt-codex-feature-updates-2026-08-20",
+      "category": "openai",
+      "source_type": "product",
+      "title_en": "OpenAI expands ChatGPT and Codex features including Computer History and Apple Messages",
+      "title_zh": "OpenAI 擴充 ChatGPT 與 Codex 功能，含 Computer History 與 Apple Messages",
+      "summary_en": "OpenAI’s August 20 release notes added the ability for Plus/Pro site owners to change ChatGPT-hosted URLs, Apple Messages plugin support on Apple-silicon Macs for reading/searching/sending messages (with approval), Computer History availability in EEA/UK/Switzerland for Pro users, and read-only Codex chat snapshots.",
+      "summary_zh": "OpenAI 8月20日更新說明新增 Plus/Pro 站點擁有者可變更 ChatGPT 託管網址、Apple silicon Mac 上的 Apple Messages 外掛（讀取/搜尋/發送訊息並需核准）、Computer History 在 EEA/英國/瑞士對 Pro 用戶開放，以及可分享唯讀 Codex 對話快照。",
+      "analysis_en": "These are incremental productivity and regional-compliance improvements rather than capability leaps. The Apple Messages and Computer History expansions deepen desktop integration while highlighting ongoing privacy and regional regulatory navigation.",
+      "analysis_zh": "這些是漸進的生產力與區域合規改善，而非能力躍進。Apple Messages 與 Computer History 擴充加深桌面整合，同時凸顯持續的隱私與區域法規因應。",
+      "quote": "Computer History in the Mac desktop app is now available to Pro, Business, and Enterprise users in the EEA, UK, and Switzerland.",
+      "quote_zh": "Mac 桌面應用程式中的 Computer History 現已對 EEA、英國與瑞士的 Pro、Business 與 Enterprise 用戶開放。",
+      "importance": 2,
+      "first_seen": "2026-08-20T17:17:01Z",
+      "updated_at": "2026-08-21T04:35:01.845828+00:00",
+      "links": [
+        {
+          "label": "OpenAI Help Center Release Notes",
+          "url": "https://help.openai.com/articles/6825453-chatgpt-release-notes"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2090488285198250017"
+        }
+      ]
+    },
+    {
+      "id": "meta-wildartifactbench-preview-2026-08-20",
+      "story_id": "meta-wildartifactbench-preview-2026-08-20",
+      "category": "meta",
+      "source_type": "official_x",
+      "title_en": "Meta previews WildArtifactBench for evaluating multimodal agents",
+      "title_zh": "Meta 預覽 WildArtifactBench 多模態代理評估框架",
+      "summary_en": "Meta AI announced an internal evaluation framework called WildArtifactBench that uses win rates and Elo scores from human and agentic preference judges instead of strict ground-truth rubrics. It released 10 tasks covering complex real-world multimodal workflows and shared design principles plus sample artifacts.",
+      "summary_zh": "Meta AI 宣布內部評估框架 WildArtifactBench，改以人類與代理偏好評審的勝率與 Elo 分數取代嚴格 ground-truth 標準。並釋出10項涵蓋複雜真實世界多模態工作流的任務，同時分享設計原則與範例產物。",
+      "analysis_en": "Preference-based agent evaluation is a practical response to the difficulty of scoring open-ended multimodal deliverables. Public release of only 10 tasks limits immediate industry impact but signals Meta’s focus on real utility metrics for Muse Spark-class systems.",
+      "analysis_zh": "偏好式代理評估是對開放式多模態產物評分困難的務實回應。僅公開10項任務限制了即時產業影響，但顯示 Meta 對 Muse Spark 類系統真實效用指標的重視。",
+      "quote": "Today we’re also previewing WildArtifactBench, an internal evaluation framework designed to assess agents on complex, real-world tasks across diverse deliverable formats.",
+      "quote_zh": "今天我們也預覽 WildArtifactBench，這是一個內部評估框架，旨在評估代理在多樣交付格式的複雜真實世界任務表現。",
+      "importance": 2,
+      "first_seen": "2026-08-20T18:25:05Z",
+      "updated_at": "2026-08-21T04:35:01.845828+00:00",
+      "links": [
+        {
+          "label": "AI at Meta on X",
+          "url": "https://x.com/AIatMeta/status/2090505413817246050"
         }
       ]
     },
@@ -166,15 +259,19 @@
       "title_en": "ChatGPT Ads expands across Europe",
       "title_zh": "ChatGPT 廣告擴展至歐洲多國",
       "summary_en": "OpenAI announced the expansion of ChatGPT Ads to 31 European countries including Germany, France, Spain, Italy and others. The move follows earlier testing of advertising inside ChatGPT.",
-      "summary_zh": "OpenAI 宣布將 ChatGPT 廣告擴展至包括德國、法國、西班牙、義大利等 31 個歐洲國家。此舉延續先前在 ChatGPT 內測試廣告的作法。",
+      "summary_zh": "OpenAI 宣布將 ChatGPT 廣告擴展至包括德國、法國、西班牙、義大利等31個歐洲國家。此舉延續稍早在 ChatGPT 內測試廣告的作法。",
       "analysis_en": "Advertising remains a key monetization lever for consumer ChatGPT usage. European rollout tests regulatory and user acceptance under stricter privacy regimes.",
-      "analysis_zh": "廣告仍是消費級 ChatGPT 使用的重要變現手段。歐洲推出將測試在更嚴格隱私法規下的監管與用戶接受度。",
+      "analysis_zh": "廣告仍是消費級 ChatGPT 使用的重要變現槓桿。歐洲推廣將測試在更嚴格隱私體制下的監管與用戶接受度。",
       "quote": "",
       "quote_zh": "",
       "importance": 2,
       "first_seen": "2026-08-18T00:00:00Z",
-      "updated_at": "2026-08-20T22:35:01.921622+00:00",
+      "updated_at": "2026-08-21T04:35:01.845828+00:00",
       "links": [
+        {
+          "label": "OpenAI Newsroom",
+          "url": "https://openai.com/news/product-releases/"
+        },
         {
           "label": "OpenAI announcement",
           "url": "https://openai.com/index/chatgpt-ads-europe/"
@@ -194,16 +291,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI previews Private Safety Processing while reaffirming Zero Data Retention for frontier models",
-        "title_zh": "OpenAI 預覽 Private Safety Processing，並重申前沿模型零資料保留",
-        "summary_en": "OpenAI announced it will continue offering Zero Data Retention for eligible API customers and is previewing Private Safety Processing. The system is designed to detect misuse patterns across related interactions without giving OpenAI personnel access to underlying customer content.",
-        "summary_zh": "OpenAI 宣布將持續為符合資格的 API 客戶提供零資料保留，並預覽 Private Safety Processing。該系統旨在跨多個相關互動偵測濫用模式，同時不讓 OpenAI 人員接觸客戶原始內容。",
-        "analysis_en": "This directly addresses enterprise demand for stronger privacy as models handle longer autonomous work. It positions OpenAI differently from rivals requiring longer retention, though full technical details and September rollout remain to be proven in practice.",
-        "analysis_zh": "這直接回應企業在模型處理更長自主任務時對更強隱私的需求。它讓 OpenAI 與要求較長保留期的競爭對手形成差異，但完整技術細節與 9 月推出效果仍待實務驗證。",
-        "quote": "Today, we’re previewing Private Safety Processing, which is designed to identify patterns across related interactions without giving OpenAI personnel access to the underlying content.",
-        "quote_zh": "今天我們預覽 Private Safety Processing，其設計目的是在不讓 OpenAI 人員接觸底層內容的情況下，識別跨相關互動的模式。",
+        "title_zh": "OpenAI 預覽 Private Safety Processing，並重申前沿模型的 Zero Data Retention",
+        "summary_en": "OpenAI announced it will continue offering Zero Data Retention for eligible API customers and is previewing Private Safety Processing. The system is designed to detect misuse patterns across related interactions without giving OpenAI personnel access to the underlying content.",
+        "summary_zh": "OpenAI 宣布將繼續為符合資格的 API 客戶提供 Zero Data Retention，並預覽 Private Safety Processing。該系統旨在跨相關互動偵測濫用模式，同時不讓 OpenAI 人員接觸底層內容。",
+        "analysis_en": "This directly addresses enterprise demand for stronger privacy as models handle longer autonomous work. It positions OpenAI differently from rivals requiring longer retention, though real-world efficacy and customer uptake remain to be proven.",
+        "analysis_zh": "這直接回應企業對更強隱私的需求，因模型處理更長自主工作。它讓 OpenAI 與要求較長保留期的對手有所區隔，但實際效力與客戶採用仍待驗證。",
+        "quote": "We will continue to offer Zero Data Retention for frontier models.",
+        "quote_zh": "我們將繼續為前沿模型提供 Zero Data Retention。",
         "importance": 4,
         "first_seen": "2026-08-19T19:53:42Z",
-        "updated_at": "2026-08-20T22:35:01.921622+00:00",
+        "updated_at": "2026-08-21T04:35:01.845828+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -221,17 +318,21 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI launches AI Futures blog from new Strategic Futures team",
-        "title_zh": "OpenAI 推出 Strategic Futures 團隊的 AI Futures 部落格",
-        "summary_en": "OpenAI introduced the AI Futures blog, authored by Dean Ball of its new Strategic Futures team. The inaugural post focuses on how free societies should restructure to preserve individual rights and agency amid transformative AI, emphasizing concentration-of-power risks over other safety concerns.",
-        "summary_zh": "OpenAI 推出 AI Futures 部落格，由新成立的 Strategic Futures 團隊 Dean Ball 撰寫。首篇文章聚焦自由社會應如何調整結構，以在轉型式 AI 出現時保有個人權利與主體性，並強調權力集中風險的優先性。",
-        "analysis_en": "This signals OpenAI is formalizing longer-horizon political-economy thinking inside the company. It remains an individual author’s view rather than an official corporate position, so impact on product or policy is still unclear.",
-        "analysis_zh": "此舉顯示 OpenAI 正將更長遠的政治經濟思考制度化。目前仍屬作者個人觀點而非公司官方立場，對產品或政策的實質影響尚待觀察。",
+        "title_zh": "OpenAI 推出由新 Strategic Futures 團隊執筆的 AI Futures 部落格",
+        "summary_en": "OpenAI introduced the AI Futures blog, authored by Dean Ball of its new Strategic Futures team. The inaugural post focuses on how free societies should restructure to preserve individual rights and agency amid transformative AI, emphasizing democratic resilience.",
+        "summary_zh": "OpenAI 推出 AI Futures 部落格，由新 Strategic Futures 團隊的 Dean Ball 執筆。首篇文章聚焦自由社會應如何重組以在變革性 AI 中保存個人權利與能動性，強調民主韌性。",
+        "analysis_en": "This signals OpenAI is formalizing longer-horizon political-economy thinking inside the company. It remains an individual author’s view rather than an official corporate position, so its policy influence is still uncertain.",
+        "analysis_zh": "這顯示 OpenAI 正在公司內部正式化更長遠的政治經濟思考。它仍是個人作者觀點而非官方公司立場，因此政策影響力尚不確定。",
         "quote": "It is our pleasure to launch AI Futures, the blog of OpenAI’s new Strategic Futures team. We are a small team with the collective goal of answering one overarching question: how should free society be restructured to preserve individual rights and agency while accommodating the emergence of transformative AI?",
         "quote_zh": "我們很高興推出 AI Futures，這是 OpenAI 新成立的 Strategic Futures 團隊的部落格。我們是一個小團隊，共同目標是回答一個核心問題：自由社會應如何重組，才能在轉型式 AI 出現時仍保有個人權利與主體性？",
         "importance": 3,
         "first_seen": "2026-08-20T00:00:00Z",
-        "updated_at": "2026-08-20T22:35:01.921622+00:00",
+        "updated_at": "2026-08-21T04:35:01.845828+00:00",
         "links": [
+          {
+            "label": "OpenAI AI Futures",
+            "url": "https://openai.com/index/ai-futures/"
+          },
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/introducing-ai-futures/"
@@ -246,22 +347,49 @@
         "title_en": "OpenAI introduces ChatGPT for Teens",
         "title_zh": "OpenAI 推出 ChatGPT for Teens",
         "summary_en": "OpenAI launched a version of ChatGPT designed specifically for teenagers, with age-appropriate safeguards and features aimed at schoolwork, daily questions and companionship use cases.",
-        "summary_zh": "OpenAI 推出專為青少年設計的 ChatGPT 版本，具備適合年齡的安全防護，並針對課業、日常問題與陪伴使用情境提供功能。",
-        "analysis_en": "Targeting the first generation growing up with AI signals both product expansion and regulatory/parental pressure around youth safety. Success will depend on effective age verification and real-world safeguard performance.",
-        "analysis_zh": "鎖定與 AI 一同成長的第一代，顯示產品擴張同時也反映對青少年安全的監管與家長壓力。成功關鍵在於有效年齡驗證與實際防護效果。",
+        "summary_zh": "OpenAI 推出專為青少年設計的 ChatGPT 版本，具備適合年齡的安全防護與針對課業、日常問題與陪伴用途的功能。",
+        "analysis_en": "Targeting the first generation growing up with AI signals both product expansion and regulatory/parental pressure around youth safety. Success will depend on effective age verification and actual usage patterns.",
+        "analysis_zh": "鎖定與 AI 一同成長的第一代，同時顯示產品擴張與圍繞青少年安全的監管／家長壓力。成功將取決於有效的年齡驗證與實際使用模式。",
         "quote": "",
         "quote_zh": "",
         "importance": 3,
         "first_seen": "2026-08-18T00:00:00Z",
-        "updated_at": "2026-08-20T22:35:01.921622+00:00",
+        "updated_at": "2026-08-21T04:35:01.845828+00:00",
         "links": [
           {
-            "label": "OpenAI announcement",
+            "label": "OpenAI Blog",
             "url": "https://openai.com/index/chatgpt-for-teens/"
           },
           {
             "label": "OpenAI News",
             "url": "https://openai.com/news/"
+          }
+        ]
+      },
+      {
+        "id": "openai-chatgpt-codex-feature-updates-2026-08-20",
+        "story_id": "openai-chatgpt-codex-feature-updates-2026-08-20",
+        "category": "openai",
+        "source_type": "product",
+        "title_en": "OpenAI expands ChatGPT and Codex features including Computer History and Apple Messages",
+        "title_zh": "OpenAI 擴充 ChatGPT 與 Codex 功能，含 Computer History 與 Apple Messages",
+        "summary_en": "OpenAI’s August 20 release notes added the ability for Plus/Pro site owners to change ChatGPT-hosted URLs, Apple Messages plugin support on Apple-silicon Macs for reading/searching/sending messages (with approval), Computer History availability in EEA/UK/Switzerland for Pro users, and read-only Codex chat snapshots.",
+        "summary_zh": "OpenAI 8月20日更新說明新增 Plus/Pro 站點擁有者可變更 ChatGPT 託管網址、Apple silicon Mac 上的 Apple Messages 外掛（讀取/搜尋/發送訊息並需核准）、Computer History 在 EEA/英國/瑞士對 Pro 用戶開放，以及可分享唯讀 Codex 對話快照。",
+        "analysis_en": "These are incremental productivity and regional-compliance improvements rather than capability leaps. The Apple Messages and Computer History expansions deepen desktop integration while highlighting ongoing privacy and regional regulatory navigation.",
+        "analysis_zh": "這些是漸進的生產力與區域合規改善，而非能力躍進。Apple Messages 與 Computer History 擴充加深桌面整合，同時凸顯持續的隱私與區域法規因應。",
+        "quote": "Computer History in the Mac desktop app is now available to Pro, Business, and Enterprise users in the EEA, UK, and Switzerland.",
+        "quote_zh": "Mac 桌面應用程式中的 Computer History 現已對 EEA、英國與瑞士的 Pro、Business 與 Enterprise 用戶開放。",
+        "importance": 2,
+        "first_seen": "2026-08-20T17:17:01Z",
+        "updated_at": "2026-08-21T04:35:01.845828+00:00",
+        "links": [
+          {
+            "label": "OpenAI Help Center Release Notes",
+            "url": "https://help.openai.com/articles/6825453-chatgpt-release-notes"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2090488285198250017"
           }
         ]
       },
@@ -273,15 +401,19 @@
         "title_en": "ChatGPT Ads expands across Europe",
         "title_zh": "ChatGPT 廣告擴展至歐洲多國",
         "summary_en": "OpenAI announced the expansion of ChatGPT Ads to 31 European countries including Germany, France, Spain, Italy and others. The move follows earlier testing of advertising inside ChatGPT.",
-        "summary_zh": "OpenAI 宣布將 ChatGPT 廣告擴展至包括德國、法國、西班牙、義大利等 31 個歐洲國家。此舉延續先前在 ChatGPT 內測試廣告的作法。",
+        "summary_zh": "OpenAI 宣布將 ChatGPT 廣告擴展至包括德國、法國、西班牙、義大利等31個歐洲國家。此舉延續稍早在 ChatGPT 內測試廣告的作法。",
         "analysis_en": "Advertising remains a key monetization lever for consumer ChatGPT usage. European rollout tests regulatory and user acceptance under stricter privacy regimes.",
-        "analysis_zh": "廣告仍是消費級 ChatGPT 使用的重要變現手段。歐洲推出將測試在更嚴格隱私法規下的監管與用戶接受度。",
+        "analysis_zh": "廣告仍是消費級 ChatGPT 使用的重要變現槓桿。歐洲推廣將測試在更嚴格隱私體制下的監管與用戶接受度。",
         "quote": "",
         "quote_zh": "",
         "importance": 2,
         "first_seen": "2026-08-18T00:00:00Z",
-        "updated_at": "2026-08-20T22:35:01.921622+00:00",
+        "updated_at": "2026-08-21T04:35:01.845828+00:00",
         "links": [
+          {
+            "label": "OpenAI Newsroom",
+            "url": "https://openai.com/news/product-releases/"
+          },
           {
             "label": "OpenAI announcement",
             "url": "https://openai.com/index/chatgpt-ads-europe/"
@@ -293,7 +425,35 @@
         ]
       }
     ],
-    "anthropic": [],
+    "anthropic": [
+      {
+        "id": "anthropic-enterprise-data-retention-flexibility-2026-08-20",
+        "story_id": "anthropic-enterprise-data-retention-flexibility-2026-08-20",
+        "category": "anthropic",
+        "source_type": "news",
+        "title_en": "Anthropic plans enterprise data-retention flexibility for frontier models",
+        "title_zh": "Anthropic 計畫為前沿模型提供企業資料保留彈性",
+        "summary_en": "According to Bloomberg and Reuters citing a person familiar, Anthropic will still require 30-day retention for safety monitoring on its most capable models but plans to let enterprise customers keep that data on their own cloud infrastructure rather than Anthropic’s. The system is expected later this year after months of work with over 100 customers including Salesforce. Anthropic declined to comment.",
+        "summary_zh": "據彭博與路透引述知情人士，Anthropic 仍將要求其最強模型進行30天安全監控資料保留，但計畫允許企業客戶把資料放在自己的雲端基礎設施而非 Anthropic 端。該系統預計今年稍晚推出，已與包括 Salesforce 在內超過100家客戶協調數月。Anthropic 拒絕評論。",
+        "analysis_en": "This responds to enterprise pushback against the June 30-day retention mandate that conflicted with zero-retention expectations. It narrows the gap with OpenAI’s Private Safety Processing approach while keeping safety visibility; rollout timing and exact technical controls remain unconfirmed.",
+        "analysis_zh": "此舉回應企業對6月30天保留要求的反彈，該要求與零保留期望衝突。它縮小與 OpenAI Private Safety Processing 的差距，同時保留安全可視性；實際上線時間與技術細節仍待確認。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 4,
+        "first_seen": "2026-08-20T17:51:00Z",
+        "updated_at": "2026-08-21T04:35:01.845828+00:00",
+        "links": [
+          {
+            "label": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-08-20/anthropic-plans-to-change-data-retention-policy-for-advanced-ai"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/anthropic-plans-change-enterprise-data-retention-policy-source-says-2026-08-20/"
+          }
+        ]
+      }
+    ],
     "google": [],
     "meta": [
       {
@@ -302,17 +462,21 @@
         "category": "meta",
         "source_type": "product",
         "title_en": "Meta launches native Mac app for Meta AI with system-wide dictation and screen context",
-        "title_zh": "Meta 推出 Meta AI 原生 Mac App，支援系統級聽寫與螢幕上下文",
+        "title_zh": "Meta 推出原生 Mac 版 Meta AI 應用，支援系統級聽寫與螢幕上下文",
         "summary_en": "Meta released a native macOS beta app for Meta AI. It supports system-wide dictation, Quick Invoke, attaching Mac windows for context, and deeper integrations with Instagram, Facebook, Meta ads, and Google Workspace for business insights.",
-        "summary_zh": "Meta 發布 Meta AI 的原生 macOS beta 應用。它支援系統級聽寫、Quick Invoke、附加 Mac 視窗作為上下文，以及與 Instagram、Facebook、Meta 廣告和 Google Workspace 的更深整合，用於商業洞察。",
-        "analysis_en": "The app moves Meta AI further into productivity and small-business tooling, competing more directly with desktop experiences from OpenAI, Anthropic and Google. Privacy implications of screen and window access will be closely watched.",
-        "analysis_zh": "此 App 讓 Meta AI 進一步進入生產力與小型企業工具領域，更直接與 OpenAI、Anthropic 和 Google 的桌面體驗競爭。螢幕與視窗存取的隱私影響將受密切關注。",
+        "summary_zh": "Meta 釋出原生 macOS beta 版 Meta AI 應用。支援系統級聽寫、Quick Invoke、附加 Mac 視窗作為上下文，以及與 Instagram、Facebook、Meta 廣告和 Google Workspace 的更深整合以提供商業洞察。",
+        "analysis_en": "The app moves Meta AI further into productivity and small-business tooling, competing more directly with desktop experiences from OpenAI, Anthropic and Google. Privacy implications of screen-context access will be closely watched.",
+        "analysis_zh": "此應用讓 Meta AI 進一步進入生產力與小企業工具領域，更直接與 OpenAI、Anthropic 和 Google 的桌面體驗競爭。螢幕上下文存取的隱私影響將受到密切關注。",
         "quote": "",
         "quote_zh": "",
         "importance": 3,
         "first_seen": "2026-08-19T00:00:00Z",
-        "updated_at": "2026-08-20T22:35:01.921622+00:00",
+        "updated_at": "2026-08-21T04:35:01.845828+00:00",
         "links": [
+          {
+            "label": "Meta / 9to5Mac coverage",
+            "url": "https://9to5mac.com/2026/08/19/meta-ai-mac-app/"
+          },
           {
             "label": "Meta announcement",
             "url": "https://about.fb.com/news/"
@@ -326,6 +490,29 @@
             "url": "https://9to5mac.com/2026/08/19/meta-ai-is-now-available-as-a-more-capable-desktop-app-for-mac/"
           }
         ]
+      },
+      {
+        "id": "meta-wildartifactbench-preview-2026-08-20",
+        "story_id": "meta-wildartifactbench-preview-2026-08-20",
+        "category": "meta",
+        "source_type": "official_x",
+        "title_en": "Meta previews WildArtifactBench for evaluating multimodal agents",
+        "title_zh": "Meta 預覽 WildArtifactBench 多模態代理評估框架",
+        "summary_en": "Meta AI announced an internal evaluation framework called WildArtifactBench that uses win rates and Elo scores from human and agentic preference judges instead of strict ground-truth rubrics. It released 10 tasks covering complex real-world multimodal workflows and shared design principles plus sample artifacts.",
+        "summary_zh": "Meta AI 宣布內部評估框架 WildArtifactBench，改以人類與代理偏好評審的勝率與 Elo 分數取代嚴格 ground-truth 標準。並釋出10項涵蓋複雜真實世界多模態工作流的任務，同時分享設計原則與範例產物。",
+        "analysis_en": "Preference-based agent evaluation is a practical response to the difficulty of scoring open-ended multimodal deliverables. Public release of only 10 tasks limits immediate industry impact but signals Meta’s focus on real utility metrics for Muse Spark-class systems.",
+        "analysis_zh": "偏好式代理評估是對開放式多模態產物評分困難的務實回應。僅公開10項任務限制了即時產業影響，但顯示 Meta 對 Muse Spark 類系統真實效用指標的重視。",
+        "quote": "Today we’re also previewing WildArtifactBench, an internal evaluation framework designed to assess agents on complex, real-world tasks across diverse deliverable formats.",
+        "quote_zh": "今天我們也預覽 WildArtifactBench，這是一個內部評估框架，旨在評估代理在多樣交付格式的複雜真實世界任務表現。",
+        "importance": 2,
+        "first_seen": "2026-08-20T18:25:05Z",
+        "updated_at": "2026-08-21T04:35:01.845828+00:00",
+        "links": [
+          {
+            "label": "AI at Meta on X",
+            "url": "https://x.com/AIatMeta/status/2090505413817246050"
+          }
+        ]
       }
     ],
     "xai": [
@@ -335,16 +522,16 @@
         "category": "xai",
         "source_type": "product",
         "title_en": "Grok 4.6 now generally available on Amazon Bedrock",
-        "title_zh": "Grok 4.6 正式在 Amazon Bedrock 全面可用",
+        "title_zh": "Grok 4.6 現已在 Amazon Bedrock 全面可用",
         "summary_en": "SpaceXAI announced that Grok 4.6 is now generally available on Amazon Bedrock. The model offers a 500k context window, configurable reasoning levels, and support for long-running agents plus interactive and visual work.",
-        "summary_zh": "SpaceXAI 宣布 Grok 4.6 現已在 Amazon Bedrock 全面可用。該模型提供 50 萬 token 上下文視窗、可配置推理層級，並支援長時間運行的代理以及互動與視覺工作。",
+        "summary_zh": "SpaceXAI 宣布 Grok 4.6 現已在 Amazon Bedrock 全面可用。該模型提供 50萬 token 上下文視窗、可配置推理等級，並支援長時間運行代理以及互動與視覺工作。",
         "analysis_en": "Enterprise availability on Bedrock expands Grok’s reach beyond native platforms and Cursor. It strengthens SpaceXAI’s position in the agentic and coding market at a competitive price point.",
-        "analysis_zh": "Bedrock 的企業可用性讓 Grok 的觸及範圍超越原生平台與 Cursor。這強化了 SpaceXAI 在代理與程式設計市場的地位，並以具競爭力的定價切入。",
+        "analysis_zh": "Bedrock 企業可用性將 Grok 觸角擴展至原生平台與 Cursor 之外。它以具競爭力的價格強化 SpaceXAI 在代理與編碼市場的地位。",
         "quote": "Today, we’re excited to announce that Grok 4.6 is now generally available on Amazon Bedrock.",
         "quote_zh": "今天我們很高興宣布，Grok 4.6 現已在 Amazon Bedrock 全面可用。",
         "importance": 3,
         "first_seen": "2026-08-19T15:19:30Z",
-        "updated_at": "2026-08-20T22:35:01.921622+00:00",
+        "updated_at": "2026-08-21T04:35:01.845828+00:00",
         "links": [
           {
             "label": "AWS / SpaceXAI announcement",
@@ -363,7 +550,7 @@
     ],
     "frontier_other": []
   },
-  "brief_en": "OpenAI launched its AI Futures blog on concentration-of-power risks and reaffirmed Zero Data Retention with a Private Safety Processing preview. Grok 4.6 reached general availability on Amazon Bedrock. Meta shipped a native Mac app for Meta AI. ChatGPT for Teens and European ads expansion continued rolling out.",
-  "brief_zh": "OpenAI 推出 AI Futures 部落格討論權力集中風險，並重申零資料保留與 Private Safety Processing 預覽。Grok 4.6 正式上架 Amazon Bedrock。Meta 發布 Meta AI 原生 Mac App。ChatGPT for Teens 與歐洲廣告擴展持續進行。",
-  "updated_at": "2026-08-20T22:35:01.921622+00:00"
+  "brief_en": "Quiet day for major launches. Anthropic reportedly plans enterprise data-retention flexibility (own-cloud option still requiring 30-day safety retention). OpenAI expanded ChatGPT/Codex features including Computer History to more regions and Apple Messages integration. Meta previewed WildArtifactBench eval framework. No new frontier model releases.",
+  "brief_zh": "今日無重大模型發表。Anthropic據報將調整企業資料保留政策（允許客戶自有雲端保留但仍需30天安全監控）。OpenAI擴充ChatGPT/Codex功能，含Computer History至更多地區與Apple Messages整合。Meta預覽WildArtifactBench評估框架。無新前沿模型發布。",
+  "updated_at": "2026-08-21T04:35:01.845828+00:00"
 }
