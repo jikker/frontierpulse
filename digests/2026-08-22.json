@@ -8,26 +8,88 @@
       "item_count": 6,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-08-21T22:35:01.059699+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 8,
+      "updated_count": 6,
+      "kept_count": 0
     }
   ],
   "items_flat": [
+    {
+      "id": "openai-gpt56-sol-price-cut-2026-08-21",
+      "story_id": "openai-gpt56-sol-price-cut-2026-08-21",
+      "category": "openai",
+      "source_type": "official_x",
+      "title_en": "OpenAI cuts GPT-5.6 Sol API and credit pricing by over 20% for three months",
+      "title_zh": "OpenAI 將 GPT-5.6 Sol API 與點數價格調降逾 20%，為期三個月",
+      "summary_en": "OpenAI announced it is dropping API and credit pricing of GPT-5.6 Sol by over 20% for the next three months. The reduction applies to the API and eligible ChatGPT Work and Codex credit plans; Pro, Plus and Business subscription usage limits remain unchanged.",
+      "summary_zh": "OpenAI 宣布未來三個月將 GPT-5.6 Sol 的 API 與點數價格調降逾 20%。降價適用於 API 及符合資格的 ChatGPT Work、Codex 點數方案；Pro、Plus 與 Business 訂閱使用額度維持不變。",
+      "analysis_en": "The temporary cut lowers the cost of frontier agent and coding workloads on the flagship model without altering subscription caps, potentially accelerating high-volume iteration while preserving recurring revenue. Sustainability after the three-month window remains an open question.",
+      "analysis_zh": "這次限時降價降低旗艦模型在代理與編碼工作負載的成本，卻不更動訂閱額度，可能加速高用量迭代，同時保留經常性收入。三個月後是否延續仍待觀察。",
+      "quote": "As we continue to push the frontier of capabilities while improving efficiency, we're dropping API and credit pricing of GPT-5.6 Sol by over 20% for the next 3 months.",
+      "quote_zh": "隨著我們持續推進能力前沿並提升效率，我們將在未來三個月把 GPT-5.6 Sol 的 API 與點數價格調降逾 20%。",
+      "importance": 4,
+      "first_seen": "2026-08-21T19:34:10Z",
+      "updated_at": "2026-08-21T22:35:01.059699+00:00",
+      "links": [
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2090885187634905500"
+        },
+        {
+          "label": "OpenAI API Pricing",
+          "url": "https://developers.openai.com/api/docs/pricing"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-mythos5-security-expansion-2026-08-21",
+      "story_id": "anthropic-mythos5-security-expansion-2026-08-21",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic expands Claude Mythos 5 defensive access via Claude Security and partners",
+      "title_zh": "Anthropic 透過 Claude Security 與合作夥伴擴大 Claude Mythos 5 防禦存取",
+      "summary_en": "Anthropic announced Claude Mythos 5 is now available in Claude Security for Enterprise customers to scan codebases and suggest patches, is being integrated into partners’ cyber tools, and launched a $35 million Defender Advantage Fund for open-source security. The Cyber Verification Program will also expand.",
+      "summary_zh": "Anthropic 宣布 Claude Mythos 5 已可用於 Enterprise 客戶的 Claude Security，掃描程式庫並建議修補；正整合至合作夥伴網路安全工具，並推出 3500 萬美元 Defender Advantage Fund 支援開源安全。Cyber Verification Program 也將擴展。",
+      "analysis_en": "By routing Mythos 5 through constrained product interfaces rather than direct model access, Anthropic aims to scale defensive cyber capability while containing dual-use risk. Real uptake by enterprise and open-source maintainers will determine whether the approach meaningfully hardens the software ecosystem.",
+      "analysis_zh": "Anthropic 透過受限產品介面而非直接模型存取來部署 Mythos 5，意圖擴大防禦能力同時控管雙用風險。企業與開源維護者實際採用情況，將決定此作法能否實質強化軟體生態安全。",
+      "quote": "Claude Mythos 5 is now available in Claude Security, and coming soon to partners' cyber defense tools. We're also launching a $35M fund to help secure open-source software.",
+      "quote_zh": "Claude Mythos 5 現已可用於 Claude Security，並即將整合至合作夥伴的網路防禦工具。我們也推出 3500 萬美元基金協助強化開源軟體安全。",
+      "importance": 4,
+      "first_seen": "2026-08-21T00:00:00Z",
+      "updated_at": "2026-08-21T22:35:01.059699+00:00",
+      "links": [
+        {
+          "label": "Anthropic / Claude Blog",
+          "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders"
+        }
+      ]
+    },
     {
       "id": "openai-zero-data-retention-private-safety-2026-08-19",
       "story_id": "openai-zero-data-retention-private-safety-2026-08-19",
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI previews Private Safety Processing compatible with Zero Data Retention",
-      "title_zh": "OpenAI預覽與零資料保留相容的私密安全處理",
+      "title_zh": "OpenAI 預覽相容於零資料保留的 Private Safety Processing",
       "summary_en": "OpenAI announced a preview of Private Safety Processing for Zero Data Retention (ZDR) customers on frontier models. The system aims to detect patterns of misuse across multiple interactions without giving OpenAI personnel access to the underlying customer content.",
-      "summary_zh": "OpenAI宣布為前沿模型的零資料保留（ZDR）客戶預覽私密安全處理功能。該系統旨在跨多次互動偵測濫用模式，同時不讓OpenAI人員接觸底層客戶內容。",
-      "analysis_en": "This attempts to reconcile enterprise privacy demands with the need for multi-turn safety monitoring as agents grow more capable. Real-world effectiveness and customer uptake will determine whether ZDR remains viable at frontier scale.",
-      "analysis_zh": "此舉試圖在企業隱私需求與代理能力增強後多輪安全監控需求之間取得平衡。實際效果與客戶採用率將決定ZDR在前沿規模下是否仍可行。",
+      "summary_zh": "OpenAI 宣布為零資料保留（ZDR）客戶在前沿模型上預覽 Private Safety Processing。該系統旨在跨多次互動偵測濫用模式，同時不讓 OpenAI 人員存取底層客戶內容。",
+      "analysis_en": "This attempts to reconcile enterprise privacy demands with the need for multi-turn safety monitoring as agents grow more capable. Real-world effectiveness and customer uptake will determine whether the balance holds.",
+      "analysis_zh": "此舉試圖在企業隱私需求與代理能力提升後的多輪安全監控之間取得平衡。實際成效與客戶採用率將決定此平衡能否成立。",
       "quote": "Private Safety Processing is designed so we can continue to offer ZDR.",
       "quote_zh": "私密安全處理的設計是為了讓我們能繼續提供ZDR。",
       "importance": 4,
       "first_seen": "2026-08-19T00:00:00Z",
-      "updated_at": "2026-08-21T16:35:01.968525+00:00",
+      "updated_at": "2026-08-21T22:35:01.059699+00:00",
       "links": [
+        {
+          "label": "OpenAI announcement (via Releasebot)",
+          "url": "https://releasebot.io/updates/openai/openai"
+        },
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models/"
@@ -40,16 +102,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI launches AI Futures strategic blog on concentration-of-power risks",
-      "title_zh": "OpenAI推出AI Futures戰略部落格，聚焦權力集中風險",
-      "summary_en": "OpenAI published the inaugural post of its new Strategic Futures team blog, AI Futures. The piece, by Dean Ball, frames concentration of power as the largest long-run risk from transformative AI and outlines principles for preserving individual autonomy and balanced power in free societies.",
-      "summary_zh": "OpenAI發布新Strategic Futures團隊部落格AI Futures的首篇文章。作者Dean Ball將權力集中視為變革性AI最大的長期風險，並提出在自由社會中維護個人自主與權力平衡的原則。",
-      "analysis_en": "This is OpenAI’s most explicit public framing yet of structural political-economy risks beyond technical safety. It signals a shift toward longer-horizon institutional thinking, though the concrete policy proposals remain high-level and untested.",
-      "analysis_zh": "這是OpenAI迄今對技術安全之外結構性政治經濟學風險最明確的公開論述。它顯示公司轉向更長期的制度思考，但具體政策建議仍屬高層次且未經檢驗。",
+      "title_zh": "OpenAI 推出 AI Futures 策略部落格，聚焦權力集中風險",
+      "summary_en": "OpenAI published the inaugural post of its new Strategic Futures team blog, AI Futures. The piece, by Dean Ball, frames concentration of power as the largest long-run risk from transformative AI and outlines principles for preserving individual and institutional agency.",
+      "summary_zh": "OpenAI 發布新 Strategic Futures 團隊部落格 AI Futures 的首篇文章。Dean Ball 撰文將權力集中定位為變革性 AI 最大的長期風險，並勾勒維護個人與制度能動性的原則。",
+      "analysis_en": "This is OpenAI’s most explicit public framing yet of structural political-economy risks beyond technical safety. It signals a shift toward longer-horizon institutional thinking, though concrete policy proposals remain limited.",
+      "analysis_zh": "這是 OpenAI 迄今最明確公開討論超越技術安全的結構性政經風險。顯示其轉向更長視野的制度思考，但具體政策提案仍有限。",
       "quote": "how should free society be restructured to preserve individual rights and agency while accommodating the emergence of transformative AI?",
       "quote_zh": "自由社會應如何重組，以在容納變革性AI出現的同時，保全個人權利與能動性？",
       "importance": 3,
       "first_seen": "2026-08-20T00:00:00Z",
-      "updated_at": "2026-08-21T16:35:01.968525+00:00",
+      "updated_at": "2026-08-21T22:35:01.059699+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -63,17 +125,21 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "ChatGPT Ads expands to 31 European markets",
-      "title_zh": "ChatGPT廣告擴展至31個歐洲市場",
+      "title_zh": "ChatGPT 廣告擴展至 31 個歐洲市場",
       "summary_en": "OpenAI is expanding ChatGPT Ads to 31 European countries next week, including Germany, France, Spain and Italy. Ads remain limited to Free and Go users; paid plans stay ad-free.",
-      "summary_zh": "OpenAI將於下週把ChatGPT廣告擴展至31個歐洲國家，包括德國、法國、西班牙與義大利。廣告仍僅顯示給Free與Go用戶；付費方案維持無廣告。",
+      "summary_zh": "OpenAI 下週將把 ChatGPT 廣告擴展至 31 個歐洲國家，包括德國、法國、西班牙與義大利。廣告仍僅限 Free 與 Go 用戶；付費方案維持無廣告。",
       "analysis_en": "The move accelerates monetization of the free tier while testing European regulatory and user acceptance. It also broadens the geographic base for advertiser demand data.",
-      "analysis_zh": "此舉加速免費層級變現，同時測試歐洲監管與用戶接受度，並擴大廣告主需求數據的地理基礎。",
+      "analysis_zh": "此舉加速免費層變現，同時測試歐洲監管與用戶接受度，並擴大廣告主需求數據的地理基礎。",
       "quote": "Next week, ChatGPT Ads will expand to 31 European countries, including Germany, France, Spain, Italy, Sweden, Norway, Denmark, the Netherlands, and Austria.",
       "quote_zh": "下週，ChatGPT廣告將擴展至31個歐洲國家，包括德國、法國、西班牙、義大利、瑞典、挪威、丹麥、荷蘭與奧地利。",
       "importance": 3,
       "first_seen": "2026-08-18T00:00:00Z",
-      "updated_at": "2026-08-21T16:35:01.968525+00:00",
+      "updated_at": "2026-08-21T22:35:01.059699+00:00",
       "links": [
+        {
+          "label": "OpenAI Newsroom",
+          "url": "https://openai.com/news/product-releases/"
+        },
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/"
@@ -84,18 +150,18 @@
       "id": "xai-grok-4-6-amazon-bedrock-2026-08-19",
       "story_id": "xai-grok-4-6-amazon-bedrock-2026-08-19",
       "category": "xai",
-      "source_type": "official_blog",
+      "source_type": "product",
       "title_en": "Grok 4.6 now generally available on Amazon Bedrock",
-      "title_zh": "Grok 4.6正式上線Amazon Bedrock",
+      "title_zh": "Grok 4.6 已於 Amazon Bedrock 正式上線",
       "summary_en": "SpaceXAI announced that Grok 4.6 is generally available on Amazon Bedrock. The model supports a 500k context window and configurable reasoning levels, priced at $2 / $6 per million input/output tokens.",
-      "summary_zh": "SpaceXAI宣布Grok 4.6已在Amazon Bedrock正式上線。該模型支援50萬token上下文與可配置推理等級，定價為每百萬輸入/輸出token 2美元/6美元。",
+      "summary_zh": "SpaceXAI 宣布 Grok 4.6 已於 Amazon Bedrock 正式提供。該模型支援 50 萬 token 上下文與可配置推理等級，定價為每百萬 input/output token 2／6 美元。",
       "analysis_en": "Bedrock availability lowers the barrier for AWS-centric enterprises to trial Grok 4.6 alongside other frontier models, intensifying multi-cloud competition for agent workloads.",
-      "analysis_zh": "Bedrock上線降低了以AWS為中心的企業試用Grok 4.6的門檻，加劇多雲環境下代理工作負載的競爭。",
+      "analysis_zh": "Bedrock 可用性降低以 AWS 為中心的企業試用 Grok 4.6 的門檻，加劇代理工作負載的多雲競爭。",
       "quote": "Today, we’re excited to announce that Grok 4.6 is now generally available on Amazon Bedrock.",
       "quote_zh": "今天，我們很高興宣布Grok 4.6已在Amazon Bedrock正式上線。",
       "importance": 3,
       "first_seen": "2026-08-19T00:00:00Z",
-      "updated_at": "2026-08-21T16:35:01.968525+00:00",
+      "updated_at": "2026-08-21T22:35:01.059699+00:00",
       "links": [
         {
           "label": "xAI / SpaceXAI News",
@@ -107,18 +173,18 @@
       "id": "xai-grok-build-web-mobile-2026-08-19",
       "story_id": "xai-grok-build-web-mobile-2026-08-19",
       "category": "xai",
-      "source_type": "official_blog",
+      "source_type": "product",
       "title_en": "Grok Build expands to web and mobile on every plan",
-      "title_zh": "Grok Build擴展至網頁與行動版，所有方案可用",
+      "title_zh": "Grok Build 擴展至所有方案的網頁與行動版",
       "summary_en": "SpaceXAI made Grok Build available on web and mobile for every plan. The coding agent previously required desktop or specific access paths.",
-      "summary_zh": "SpaceXAI讓Grok Build在網頁與行動版對所有方案開放。此前該編碼代理需依賴桌面或特定存取路徑。",
+      "summary_zh": "SpaceXAI 讓 Grok Build 在所有方案的網頁與行動版上線。此編碼代理先前需桌面或特定存取路徑。",
       "analysis_en": "Broader surface availability increases everyday usage of Grok’s agent tooling and tightens the feedback loop for iterative improvements that Elon Musk has publicly emphasized.",
-      "analysis_zh": "更廣泛的介面可用性提升Grok代理工具的日常使用率，並加速Elon Musk公開強調的迭代改進回饋循環。",
+      "analysis_zh": "更廣的介面可用性提高 Grok 代理工具的日常使用，並緊密化 Elon Musk 公開強調的迭代改進回饋循環。",
       "quote": "Grok Build is now available on every plan, on the web and on mobile.",
       "quote_zh": "Grok Build現已在所有方案的網頁與行動版上線。",
       "importance": 2,
       "first_seen": "2026-08-19T00:00:00Z",
-      "updated_at": "2026-08-21T16:35:01.968525+00:00",
+      "updated_at": "2026-08-21T22:35:01.059699+00:00",
       "links": [
         {
           "label": "xAI / SpaceXAI News",
@@ -132,16 +198,16 @@
       "category": "xai",
       "source_type": "official_x",
       "title_en": "Elon Musk highlights near-daily Grok Build improvements",
-      "title_zh": "Elon Musk強調Grok Build近乎每日改進",
+      "title_zh": "Elon Musk 強調 Grok Build 幾乎每日改進",
       "summary_en": "Elon Musk posted that improvements to Grok Build continue almost every day, linking to the product page after a detailed community changelog on subagent speed, workflow UX and multitasking.",
-      "summary_zh": "Elon Musk發文指出Grok Build幾乎每天都有改進，並連結產品頁面；此前社群已發布關於子代理速度、工作流程UX與多工的詳細更新日誌。",
+      "summary_zh": "Elon Musk 發文表示 Grok Build 幾乎每天持續改進，並連結產品頁；社群先前已詳列子代理速度、工作流程 UX 與多工等更新。",
       "analysis_en": "The cadence underscores xAI’s focus on agent reliability over pure benchmark leaps. Sustained daily polish may matter more for real productivity than occasional large model drops.",
-      "analysis_zh": "此節奏凸顯xAI對代理可靠性的重視，勝過純粹基準測試躍進。持續每日打磨對實際生產力的影響，可能大於偶爾的大型模型發布。",
+      "analysis_zh": "此節奏凸顯 xAI 更重視代理可靠性而非純基準躍升。持續每日打磨對實際生產力的影響，可能勝過偶爾的大型模型發布。",
       "quote": "Improvements to Grok Build almost every day",
       "quote_zh": "Grok Build幾乎每天都有改進",
       "importance": 2,
       "first_seen": "2026-08-21T16:32:48Z",
-      "updated_at": "2026-08-21T16:35:01.968525+00:00",
+      "updated_at": "2026-08-21T22:35:01.059699+00:00",
       "links": [
         {
           "label": "Elon Musk on X",
@@ -157,22 +223,53 @@
   "categories": {
     "openai": [
       {
+        "id": "openai-gpt56-sol-price-cut-2026-08-21",
+        "story_id": "openai-gpt56-sol-price-cut-2026-08-21",
+        "category": "openai",
+        "source_type": "official_x",
+        "title_en": "OpenAI cuts GPT-5.6 Sol API and credit pricing by over 20% for three months",
+        "title_zh": "OpenAI 將 GPT-5.6 Sol API 與點數價格調降逾 20%，為期三個月",
+        "summary_en": "OpenAI announced it is dropping API and credit pricing of GPT-5.6 Sol by over 20% for the next three months. The reduction applies to the API and eligible ChatGPT Work and Codex credit plans; Pro, Plus and Business subscription usage limits remain unchanged.",
+        "summary_zh": "OpenAI 宣布未來三個月將 GPT-5.6 Sol 的 API 與點數價格調降逾 20%。降價適用於 API 及符合資格的 ChatGPT Work、Codex 點數方案；Pro、Plus 與 Business 訂閱使用額度維持不變。",
+        "analysis_en": "The temporary cut lowers the cost of frontier agent and coding workloads on the flagship model without altering subscription caps, potentially accelerating high-volume iteration while preserving recurring revenue. Sustainability after the three-month window remains an open question.",
+        "analysis_zh": "這次限時降價降低旗艦模型在代理與編碼工作負載的成本，卻不更動訂閱額度，可能加速高用量迭代，同時保留經常性收入。三個月後是否延續仍待觀察。",
+        "quote": "As we continue to push the frontier of capabilities while improving efficiency, we're dropping API and credit pricing of GPT-5.6 Sol by over 20% for the next 3 months.",
+        "quote_zh": "隨著我們持續推進能力前沿並提升效率，我們將在未來三個月把 GPT-5.6 Sol 的 API 與點數價格調降逾 20%。",
+        "importance": 4,
+        "first_seen": "2026-08-21T19:34:10Z",
+        "updated_at": "2026-08-21T22:35:01.059699+00:00",
+        "links": [
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2090885187634905500"
+          },
+          {
+            "label": "OpenAI API Pricing",
+            "url": "https://developers.openai.com/api/docs/pricing"
+          }
+        ]
+      },
+      {
         "id": "openai-zero-data-retention-private-safety-2026-08-19",
         "story_id": "openai-zero-data-retention-private-safety-2026-08-19",
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI previews Private Safety Processing compatible with Zero Data Retention",
-        "title_zh": "OpenAI預覽與零資料保留相容的私密安全處理",
+        "title_zh": "OpenAI 預覽相容於零資料保留的 Private Safety Processing",
         "summary_en": "OpenAI announced a preview of Private Safety Processing for Zero Data Retention (ZDR) customers on frontier models. The system aims to detect patterns of misuse across multiple interactions without giving OpenAI personnel access to the underlying customer content.",
-        "summary_zh": "OpenAI宣布為前沿模型的零資料保留（ZDR）客戶預覽私密安全處理功能。該系統旨在跨多次互動偵測濫用模式，同時不讓OpenAI人員接觸底層客戶內容。",
-        "analysis_en": "This attempts to reconcile enterprise privacy demands with the need for multi-turn safety monitoring as agents grow more capable. Real-world effectiveness and customer uptake will determine whether ZDR remains viable at frontier scale.",
-        "analysis_zh": "此舉試圖在企業隱私需求與代理能力增強後多輪安全監控需求之間取得平衡。實際效果與客戶採用率將決定ZDR在前沿規模下是否仍可行。",
+        "summary_zh": "OpenAI 宣布為零資料保留（ZDR）客戶在前沿模型上預覽 Private Safety Processing。該系統旨在跨多次互動偵測濫用模式，同時不讓 OpenAI 人員存取底層客戶內容。",
+        "analysis_en": "This attempts to reconcile enterprise privacy demands with the need for multi-turn safety monitoring as agents grow more capable. Real-world effectiveness and customer uptake will determine whether the balance holds.",
+        "analysis_zh": "此舉試圖在企業隱私需求與代理能力提升後的多輪安全監控之間取得平衡。實際成效與客戶採用率將決定此平衡能否成立。",
         "quote": "Private Safety Processing is designed so we can continue to offer ZDR.",
         "quote_zh": "私密安全處理的設計是為了讓我們能繼續提供ZDR。",
         "importance": 4,
         "first_seen": "2026-08-19T00:00:00Z",
-        "updated_at": "2026-08-21T16:35:01.968525+00:00",
+        "updated_at": "2026-08-21T22:35:01.059699+00:00",
         "links": [
+          {
+            "label": "OpenAI announcement (via Releasebot)",
+            "url": "https://releasebot.io/updates/openai/openai"
+          },
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models/"
@@ -185,16 +282,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI launches AI Futures strategic blog on concentration-of-power risks",
-        "title_zh": "OpenAI推出AI Futures戰略部落格，聚焦權力集中風險",
-        "summary_en": "OpenAI published the inaugural post of its new Strategic Futures team blog, AI Futures. The piece, by Dean Ball, frames concentration of power as the largest long-run risk from transformative AI and outlines principles for preserving individual autonomy and balanced power in free societies.",
-        "summary_zh": "OpenAI發布新Strategic Futures團隊部落格AI Futures的首篇文章。作者Dean Ball將權力集中視為變革性AI最大的長期風險，並提出在自由社會中維護個人自主與權力平衡的原則。",
-        "analysis_en": "This is OpenAI’s most explicit public framing yet of structural political-economy risks beyond technical safety. It signals a shift toward longer-horizon institutional thinking, though the concrete policy proposals remain high-level and untested.",
-        "analysis_zh": "這是OpenAI迄今對技術安全之外結構性政治經濟學風險最明確的公開論述。它顯示公司轉向更長期的制度思考，但具體政策建議仍屬高層次且未經檢驗。",
+        "title_zh": "OpenAI 推出 AI Futures 策略部落格，聚焦權力集中風險",
+        "summary_en": "OpenAI published the inaugural post of its new Strategic Futures team blog, AI Futures. The piece, by Dean Ball, frames concentration of power as the largest long-run risk from transformative AI and outlines principles for preserving individual and institutional agency.",
+        "summary_zh": "OpenAI 發布新 Strategic Futures 團隊部落格 AI Futures 的首篇文章。Dean Ball 撰文將權力集中定位為變革性 AI 最大的長期風險，並勾勒維護個人與制度能動性的原則。",
+        "analysis_en": "This is OpenAI’s most explicit public framing yet of structural political-economy risks beyond technical safety. It signals a shift toward longer-horizon institutional thinking, though concrete policy proposals remain limited.",
+        "analysis_zh": "這是 OpenAI 迄今最明確公開討論超越技術安全的結構性政經風險。顯示其轉向更長視野的制度思考，但具體政策提案仍有限。",
         "quote": "how should free society be restructured to preserve individual rights and agency while accommodating the emergence of transformative AI?",
         "quote_zh": "自由社會應如何重組，以在容納變革性AI出現的同時，保全個人權利與能動性？",
         "importance": 3,
         "first_seen": "2026-08-20T00:00:00Z",
-        "updated_at": "2026-08-21T16:35:01.968525+00:00",
+        "updated_at": "2026-08-21T22:35:01.059699+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -208,17 +305,21 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "ChatGPT Ads expands to 31 European markets",
-        "title_zh": "ChatGPT廣告擴展至31個歐洲市場",
+        "title_zh": "ChatGPT 廣告擴展至 31 個歐洲市場",
         "summary_en": "OpenAI is expanding ChatGPT Ads to 31 European countries next week, including Germany, France, Spain and Italy. Ads remain limited to Free and Go users; paid plans stay ad-free.",
-        "summary_zh": "OpenAI將於下週把ChatGPT廣告擴展至31個歐洲國家，包括德國、法國、西班牙與義大利。廣告仍僅顯示給Free與Go用戶；付費方案維持無廣告。",
+        "summary_zh": "OpenAI 下週將把 ChatGPT 廣告擴展至 31 個歐洲國家，包括德國、法國、西班牙與義大利。廣告仍僅限 Free 與 Go 用戶；付費方案維持無廣告。",
         "analysis_en": "The move accelerates monetization of the free tier while testing European regulatory and user acceptance. It also broadens the geographic base for advertiser demand data.",
-        "analysis_zh": "此舉加速免費層級變現，同時測試歐洲監管與用戶接受度，並擴大廣告主需求數據的地理基礎。",
+        "analysis_zh": "此舉加速免費層變現，同時測試歐洲監管與用戶接受度，並擴大廣告主需求數據的地理基礎。",
         "quote": "Next week, ChatGPT Ads will expand to 31 European countries, including Germany, France, Spain, Italy, Sweden, Norway, Denmark, the Netherlands, and Austria.",
         "quote_zh": "下週，ChatGPT廣告將擴展至31個歐洲國家，包括德國、法國、西班牙、義大利、瑞典、挪威、丹麥、荷蘭與奧地利。",
         "importance": 3,
         "first_seen": "2026-08-18T00:00:00Z",
-        "updated_at": "2026-08-21T16:35:01.968525+00:00",
+        "updated_at": "2026-08-21T22:35:01.059699+00:00",
         "links": [
+          {
+            "label": "OpenAI Newsroom",
+            "url": "https://openai.com/news/product-releases/"
+          },
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/"
@@ -226,7 +327,31 @@
         ]
       }
     ],
-    "anthropic": [],
+    "anthropic": [
+      {
+        "id": "anthropic-mythos5-security-expansion-2026-08-21",
+        "story_id": "anthropic-mythos5-security-expansion-2026-08-21",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic expands Claude Mythos 5 defensive access via Claude Security and partners",
+        "title_zh": "Anthropic 透過 Claude Security 與合作夥伴擴大 Claude Mythos 5 防禦存取",
+        "summary_en": "Anthropic announced Claude Mythos 5 is now available in Claude Security for Enterprise customers to scan codebases and suggest patches, is being integrated into partners’ cyber tools, and launched a $35 million Defender Advantage Fund for open-source security. The Cyber Verification Program will also expand.",
+        "summary_zh": "Anthropic 宣布 Claude Mythos 5 已可用於 Enterprise 客戶的 Claude Security，掃描程式庫並建議修補；正整合至合作夥伴網路安全工具，並推出 3500 萬美元 Defender Advantage Fund 支援開源安全。Cyber Verification Program 也將擴展。",
+        "analysis_en": "By routing Mythos 5 through constrained product interfaces rather than direct model access, Anthropic aims to scale defensive cyber capability while containing dual-use risk. Real uptake by enterprise and open-source maintainers will determine whether the approach meaningfully hardens the software ecosystem.",
+        "analysis_zh": "Anthropic 透過受限產品介面而非直接模型存取來部署 Mythos 5，意圖擴大防禦能力同時控管雙用風險。企業與開源維護者實際採用情況，將決定此作法能否實質強化軟體生態安全。",
+        "quote": "Claude Mythos 5 is now available in Claude Security, and coming soon to partners' cyber defense tools. We're also launching a $35M fund to help secure open-source software.",
+        "quote_zh": "Claude Mythos 5 現已可用於 Claude Security，並即將整合至合作夥伴的網路防禦工具。我們也推出 3500 萬美元基金協助強化開源軟體安全。",
+        "importance": 4,
+        "first_seen": "2026-08-21T00:00:00Z",
+        "updated_at": "2026-08-21T22:35:01.059699+00:00",
+        "links": [
+          {
+            "label": "Anthropic / Claude Blog",
+            "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders"
+          }
+        ]
+      }
+    ],
     "google": [],
     "meta": [],
     "xai": [
@@ -234,18 +359,18 @@
         "id": "xai-grok-4-6-amazon-bedrock-2026-08-19",
         "story_id": "xai-grok-4-6-amazon-bedrock-2026-08-19",
         "category": "xai",
-        "source_type": "official_blog",
+        "source_type": "product",
         "title_en": "Grok 4.6 now generally available on Amazon Bedrock",
-        "title_zh": "Grok 4.6正式上線Amazon Bedrock",
+        "title_zh": "Grok 4.6 已於 Amazon Bedrock 正式上線",
         "summary_en": "SpaceXAI announced that Grok 4.6 is generally available on Amazon Bedrock. The model supports a 500k context window and configurable reasoning levels, priced at $2 / $6 per million input/output tokens.",
-        "summary_zh": "SpaceXAI宣布Grok 4.6已在Amazon Bedrock正式上線。該模型支援50萬token上下文與可配置推理等級，定價為每百萬輸入/輸出token 2美元/6美元。",
+        "summary_zh": "SpaceXAI 宣布 Grok 4.6 已於 Amazon Bedrock 正式提供。該模型支援 50 萬 token 上下文與可配置推理等級，定價為每百萬 input/output token 2／6 美元。",
         "analysis_en": "Bedrock availability lowers the barrier for AWS-centric enterprises to trial Grok 4.6 alongside other frontier models, intensifying multi-cloud competition for agent workloads.",
-        "analysis_zh": "Bedrock上線降低了以AWS為中心的企業試用Grok 4.6的門檻，加劇多雲環境下代理工作負載的競爭。",
+        "analysis_zh": "Bedrock 可用性降低以 AWS 為中心的企業試用 Grok 4.6 的門檻，加劇代理工作負載的多雲競爭。",
         "quote": "Today, we’re excited to announce that Grok 4.6 is now generally available on Amazon Bedrock.",
         "quote_zh": "今天，我們很高興宣布Grok 4.6已在Amazon Bedrock正式上線。",
         "importance": 3,
         "first_seen": "2026-08-19T00:00:00Z",
-        "updated_at": "2026-08-21T16:35:01.968525+00:00",
+        "updated_at": "2026-08-21T22:35:01.059699+00:00",
         "links": [
           {
             "label": "xAI / SpaceXAI News",
@@ -257,18 +382,18 @@
         "id": "xai-grok-build-web-mobile-2026-08-19",
         "story_id": "xai-grok-build-web-mobile-2026-08-19",
         "category": "xai",
-        "source_type": "official_blog",
+        "source_type": "product",
         "title_en": "Grok Build expands to web and mobile on every plan",
-        "title_zh": "Grok Build擴展至網頁與行動版，所有方案可用",
+        "title_zh": "Grok Build 擴展至所有方案的網頁與行動版",
         "summary_en": "SpaceXAI made Grok Build available on web and mobile for every plan. The coding agent previously required desktop or specific access paths.",
-        "summary_zh": "SpaceXAI讓Grok Build在網頁與行動版對所有方案開放。此前該編碼代理需依賴桌面或特定存取路徑。",
+        "summary_zh": "SpaceXAI 讓 Grok Build 在所有方案的網頁與行動版上線。此編碼代理先前需桌面或特定存取路徑。",
         "analysis_en": "Broader surface availability increases everyday usage of Grok’s agent tooling and tightens the feedback loop for iterative improvements that Elon Musk has publicly emphasized.",
-        "analysis_zh": "更廣泛的介面可用性提升Grok代理工具的日常使用率，並加速Elon Musk公開強調的迭代改進回饋循環。",
+        "analysis_zh": "更廣的介面可用性提高 Grok 代理工具的日常使用，並緊密化 Elon Musk 公開強調的迭代改進回饋循環。",
         "quote": "Grok Build is now available on every plan, on the web and on mobile.",
         "quote_zh": "Grok Build現已在所有方案的網頁與行動版上線。",
         "importance": 2,
         "first_seen": "2026-08-19T00:00:00Z",
-        "updated_at": "2026-08-21T16:35:01.968525+00:00",
+        "updated_at": "2026-08-21T22:35:01.059699+00:00",
         "links": [
           {
             "label": "xAI / SpaceXAI News",
@@ -282,16 +407,16 @@
         "category": "xai",
         "source_type": "official_x",
         "title_en": "Elon Musk highlights near-daily Grok Build improvements",
-        "title_zh": "Elon Musk強調Grok Build近乎每日改進",
+        "title_zh": "Elon Musk 強調 Grok Build 幾乎每日改進",
         "summary_en": "Elon Musk posted that improvements to Grok Build continue almost every day, linking to the product page after a detailed community changelog on subagent speed, workflow UX and multitasking.",
-        "summary_zh": "Elon Musk發文指出Grok Build幾乎每天都有改進，並連結產品頁面；此前社群已發布關於子代理速度、工作流程UX與多工的詳細更新日誌。",
+        "summary_zh": "Elon Musk 發文表示 Grok Build 幾乎每天持續改進，並連結產品頁；社群先前已詳列子代理速度、工作流程 UX 與多工等更新。",
         "analysis_en": "The cadence underscores xAI’s focus on agent reliability over pure benchmark leaps. Sustained daily polish may matter more for real productivity than occasional large model drops.",
-        "analysis_zh": "此節奏凸顯xAI對代理可靠性的重視，勝過純粹基準測試躍進。持續每日打磨對實際生產力的影響，可能大於偶爾的大型模型發布。",
+        "analysis_zh": "此節奏凸顯 xAI 更重視代理可靠性而非純基準躍升。持續每日打磨對實際生產力的影響，可能勝過偶爾的大型模型發布。",
         "quote": "Improvements to Grok Build almost every day",
         "quote_zh": "Grok Build幾乎每天都有改進",
         "importance": 2,
         "first_seen": "2026-08-21T16:32:48Z",
-        "updated_at": "2026-08-21T16:35:01.968525+00:00",
+        "updated_at": "2026-08-21T22:35:01.059699+00:00",
         "links": [
           {
             "label": "Elon Musk on X",
@@ -306,7 +431,7 @@
     ],
     "frontier_other": []
   },
-  "brief_en": "Quiet 12-hour window. OpenAI launched its AI Futures strategic blog on power concentration risks and previewed Private Safety Processing for Zero Data Retention on frontier models. xAI made Grok 4.6 available on Amazon Bedrock and expanded Grok Build to web/mobile. No major new model releases.",
-  "brief_zh": "過去12小時相對平靜。OpenAI推出AI Futures戰略部落格討論權力集中風險，並預覽前沿模型的零資料保留私密安全處理。xAI讓Grok 4.6上線Amazon Bedrock，並將Grok Build擴展至網頁與行動版。無重大新模型發布。",
-  "updated_at": "2026-08-21T16:35:01.968525+00:00"
+  "brief_en": "OpenAI cut GPT-5.6 Sol API/credit prices >20% for three months. Anthropic expanded Claude Mythos 5 defensive access via Claude Security, partners and a $35M open-source fund. Prior OpenAI privacy/futures posts and xAI Grok 4.6/Build availability remain the day’s other signals.",
+  "brief_zh": "OpenAI 將 GPT-5.6 Sol API／點數價格調降逾 20%，為期三個月。Anthropic 透過 Claude Security、合作夥伴與 3500 萬美元開源基金，擴大 Claude Mythos 5 防禦用途存取。OpenAI 隱私與未來風險貼文、xAI Grok 4.6／Build 可用性為今日其他重點。",
+  "updated_at": "2026-08-21T22:35:01.059699+00:00"
 }
