@@ -24,6 +24,14 @@
       "item_count": 3,
       "updated_count": 3,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-08-23T10:35:00.520722+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 3,
+      "updated_count": 3,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -31,19 +39,27 @@
       "id": "openai-gpt56-sol-price-cut-2026-08-21",
       "story_id": "openai-gpt56-sol-price-cut-2026-08-21",
       "category": "openai",
-      "source_type": "official_x",
+      "source_type": "mixed",
       "title_en": "OpenAI drops GPT-5.6 Sol API and credit pricing by over 20%",
-      "title_zh": "OpenAI 將 GPT-5.6 Sol API 與點數價格下調逾 20%",
-      "summary_en": "OpenAI announced a promotional price reduction for GPT-5.6 Sol on the API and eligible ChatGPT Work/Codex credits: input now $4/M tokens and output $20/M tokens (roughly 20% lower input and 33% lower output). The promo runs for the next three months; Pro, Plus and Business subscription usage is unchanged.",
-      "summary_zh": "OpenAI 宣布 GPT-5.6 Sol 在 API 及符合條件的 ChatGPT Work／Codex 點數促銷降價：輸入現為每百萬 token 4 美元、輸出 20 美元（輸入約降 20%、輸出約降 33%）。促銷至少持續三個月；Pro、Plus 與 Business 訂閱用量維持不變。",
-      "analysis_en": "The cut strengthens Sol’s price-performance against competing frontier models and may accelerate high-volume agentic and coding workloads. Key uncertainty is whether the promotional rates become permanent or are later adjusted upward.",
-      "analysis_zh": "此降價強化 Sol 相對其他前沿模型的性價比，可能加速高用量代理與程式工作負載。關鍵不確定性在於促銷價是否會永久化，或後續向上調整。",
-      "quote": "As we continue to push the frontier of capabilities while improving efficiency, we're dropping API and credit pricing of GPT-5.6 Sol by over 20% for the next 3 months.",
-      "quote_zh": "隨著我們持續推進能力前沿並提升效率，我們將 GPT-5.6 Sol 的 API 與點數價格在接下來三個月下調逾 20%。",
+      "title_zh": "OpenAI 將 GPT-5.6 Sol API 與積分定價下調逾 20%",
+      "summary_en": "OpenAI announced a promotional price reduction for GPT-5.6 Sol on the API and eligible ChatGPT Work/Codex credits: input now $4/M tokens and output $20/M tokens (roughly 20% lower input and 33% lower output). The promo runs for the next three months (at least through November 21) and does not change Pro/Plus/Business subscription pricing.",
+      "summary_zh": "OpenAI 宣布 GPT-5.6 Sol 在 API 及符合資格的 ChatGPT Work／Codex 積分上實施促銷降價：輸入每百萬 token 4 美元、輸出 20 美元（輸入約降 20%、輸出約降 33%）。促銷至少持續至 11 月 21 日，Pro／Plus／Business 訂閱價格不變。",
+      "analysis_en": "The cut strengthens Sol’s price-performance against competing frontier models and may accelerate high-volume agentic and coding workloads. Key uncertainty is whether the promotional rates become permanent or revert after the three-month window.",
+      "analysis_zh": "此降價強化 Sol 相對於競爭 frontier 模型的性價比，可能加速高用量的 agentic 與 coding 工作負載。關鍵不確定性在於促銷價是否會在三個月後變成常態，或恢復原價。",
+      "quote": "As we continue to push the frontier of capabilities while improving efficiency, we’re dropping API and credit pricing of GPT-5.6 Sol by over 20% for the next 3 months.",
+      "quote_zh": "在持續推進能力 frontier 並提升效率的同時，我們將 GPT-5.6 Sol 的 API 與積分定價在未來 3 個月下調逾 20%。",
       "importance": 3,
       "first_seen": "2026-08-21T19:34:10Z",
-      "updated_at": "2026-08-23T04:35:01.096333+00:00",
+      "updated_at": "2026-08-23T10:35:00.520722+00:00",
       "links": [
+        {
+          "label": "OpenAI Developer Community announcement",
+          "url": "https://community.openai.com/t/20-price-reduction-for-gpt-5-6-sol-api-codex-credits-and-chatgpt-work/1391726"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/technology/openai-cuts-developer-pricing-frontier-gpt-56-sol-model-by-more-than-20-2026-08-21/"
+        },
         {
           "label": "OpenAI on X",
           "url": "https://x.com/OpenAI/status/2090885187634905500"
@@ -51,10 +67,6 @@
         {
           "label": "OpenAI pricing docs",
           "url": "https://developers.openai.com/api/docs/pricing"
-        },
-        {
-          "label": "Reuters",
-          "url": "https://www.reuters.com/technology/openai-cuts-developer-pricing-frontier-gpt-56-sol-model-by-more-than-20-2026-08-21/"
         },
         {
           "label": "OpenAI API Changelog",
@@ -66,19 +78,23 @@
       "id": "xai-grok-46-google-enterprise-agent-platform-2026-08-21",
       "story_id": "xai-grok-46-google-enterprise-agent-platform-2026-08-21",
       "category": "xai",
-      "source_type": "official_blog",
+      "source_type": "official_x",
       "title_en": "Grok 4.6 now available on Google Enterprise Agent Platform",
-      "title_zh": "Grok 4.6 現已上架 Google 企業代理平台",
+      "title_zh": "Grok 4.6 已上架 Google 企業 Agent 平台",
       "summary_en": "SpaceXAI announced that Grok 4.6 is available via Google’s Enterprise Agent Platform (Model Garden). The model retains its 500k context window and configurable reasoning levels (low/medium/high/xhigh) at $2 / $0.50 cached / $6 per million tokens.",
-      "summary_zh": "SpaceXAI 宣布 Grok 4.6 已可透過 Google 企業代理平台（Model Garden）使用。模型維持 50 萬 token 上下文與可配置推理等級（low/medium/high/xhigh），定價為每百萬 token 輸入 2 美元／快取 0.5 美元／輸出 6 美元。",
+      "summary_zh": "SpaceXAI 宣布 Grok 4.6 已可透過 Google 企業 Agent 平台（Model Garden）使用。模型維持 50 萬 token 上下文窗口與可配置推理等級（low/medium/high/xhigh），定價為每百萬 token 輸入 2 美元／快取 0.5 美元／輸出 6 美元。",
       "analysis_en": "Adding a major cloud provider channel lowers friction for Google Cloud customers already using agent platforms and increases competitive pressure on pricing and availability of frontier models.",
-      "analysis_zh": "新增主要雲端供應商通路，降低已使用代理平台的 Google Cloud 客戶採用門檻，並對前沿模型定價與可用性形成競爭壓力。",
+      "analysis_zh": "新增主要雲端供應商通路，降低已使用 agent 平台的 Google Cloud 客戶進入門檻，並對 frontier 模型的定價與可得性形成競爭壓力。",
       "quote": "Today, we’re excited to announce that Grok 4.6 is now available on Google Enterprise Agent Platform.",
       "quote_zh": "今天我們很高興宣布，Grok 4.6 現已上架 Google 企業代理平台。",
       "importance": 3,
       "first_seen": "2026-08-21T00:00:00Z",
-      "updated_at": "2026-08-23T04:35:01.096333+00:00",
+      "updated_at": "2026-08-23T10:35:00.520722+00:00",
       "links": [
+        {
+          "label": "xAI / SpaceXAI announcement context",
+          "url": "https://x.ai"
+        },
         {
           "label": "xAI / SpaceXAI announcement",
           "url": "https://x.ai/news"
@@ -97,15 +113,19 @@
       "title_en": "Grok Bot expanded to more subscription plans",
       "title_zh": "Grok Bot 擴大至更多訂閱方案",
       "summary_en": "SpaceXAI stated that Grok Bot (always-on AI teammates with their own computer) is now included with SuperGrok Plus, Cursor Pro+, and all Cursor Teams plans, broadening access beyond the earlier limited rollout.",
-      "summary_zh": "SpaceXAI 表示 Grok Bot（具備自身電腦的常駐 AI 隊友）現已納入 SuperGrok Plus、Cursor Pro+ 以及所有 Cursor Teams 方案，擴大早期有限推出的使用範圍。",
+      "summary_zh": "SpaceXAI 表示 Grok Bot（具備獨立電腦的常駐 AI 隊友）現已包含於 SuperGrok Plus、Cursor Pro+ 以及所有 Cursor Teams 方案，擴大早期有限推出的使用範圍。",
       "analysis_en": "Wider plan inclusion signals product maturation of persistent agent teammates and may drive higher engagement inside the Cursor and SuperGrok ecosystems.",
-      "analysis_zh": "更廣的方案納入顯示持久代理隊友產品趨於成熟，可能提升 Cursor 與 SuperGrok 生態系內的使用黏著度。",
+      "analysis_zh": "更廣泛的方案納入顯示持久 agent 隊友產品趨於成熟，可能提升 Cursor 與 SuperGrok 生態系內的使用黏著度。",
       "quote": "Grok Bot is now available for SuperGrok Plus, Cursor Pro+, and all Cursor Teams plans.",
       "quote_zh": "Grok Bot 現已適用於 SuperGrok Plus、Cursor Pro+ 以及所有 Cursor Teams 方案。",
       "importance": 2,
       "first_seen": "2026-08-21T00:00:00Z",
-      "updated_at": "2026-08-23T04:35:01.096333+00:00",
+      "updated_at": "2026-08-23T10:35:00.520722+00:00",
       "links": [
+        {
+          "label": "Elon Musk on X promoting Grok Bot",
+          "url": "https://x.com/elonmusk"
+        },
         {
           "label": "SpaceXAI / xAI announcement",
           "url": "https://x.ai"
@@ -123,19 +143,27 @@
         "id": "openai-gpt56-sol-price-cut-2026-08-21",
         "story_id": "openai-gpt56-sol-price-cut-2026-08-21",
         "category": "openai",
-        "source_type": "official_x",
+        "source_type": "mixed",
         "title_en": "OpenAI drops GPT-5.6 Sol API and credit pricing by over 20%",
-        "title_zh": "OpenAI 將 GPT-5.6 Sol API 與點數價格下調逾 20%",
-        "summary_en": "OpenAI announced a promotional price reduction for GPT-5.6 Sol on the API and eligible ChatGPT Work/Codex credits: input now $4/M tokens and output $20/M tokens (roughly 20% lower input and 33% lower output). The promo runs for the next three months; Pro, Plus and Business subscription usage is unchanged.",
-        "summary_zh": "OpenAI 宣布 GPT-5.6 Sol 在 API 及符合條件的 ChatGPT Work／Codex 點數促銷降價：輸入現為每百萬 token 4 美元、輸出 20 美元（輸入約降 20%、輸出約降 33%）。促銷至少持續三個月；Pro、Plus 與 Business 訂閱用量維持不變。",
-        "analysis_en": "The cut strengthens Sol’s price-performance against competing frontier models and may accelerate high-volume agentic and coding workloads. Key uncertainty is whether the promotional rates become permanent or are later adjusted upward.",
-        "analysis_zh": "此降價強化 Sol 相對其他前沿模型的性價比，可能加速高用量代理與程式工作負載。關鍵不確定性在於促銷價是否會永久化，或後續向上調整。",
-        "quote": "As we continue to push the frontier of capabilities while improving efficiency, we're dropping API and credit pricing of GPT-5.6 Sol by over 20% for the next 3 months.",
-        "quote_zh": "隨著我們持續推進能力前沿並提升效率，我們將 GPT-5.6 Sol 的 API 與點數價格在接下來三個月下調逾 20%。",
+        "title_zh": "OpenAI 將 GPT-5.6 Sol API 與積分定價下調逾 20%",
+        "summary_en": "OpenAI announced a promotional price reduction for GPT-5.6 Sol on the API and eligible ChatGPT Work/Codex credits: input now $4/M tokens and output $20/M tokens (roughly 20% lower input and 33% lower output). The promo runs for the next three months (at least through November 21) and does not change Pro/Plus/Business subscription pricing.",
+        "summary_zh": "OpenAI 宣布 GPT-5.6 Sol 在 API 及符合資格的 ChatGPT Work／Codex 積分上實施促銷降價：輸入每百萬 token 4 美元、輸出 20 美元（輸入約降 20%、輸出約降 33%）。促銷至少持續至 11 月 21 日，Pro／Plus／Business 訂閱價格不變。",
+        "analysis_en": "The cut strengthens Sol’s price-performance against competing frontier models and may accelerate high-volume agentic and coding workloads. Key uncertainty is whether the promotional rates become permanent or revert after the three-month window.",
+        "analysis_zh": "此降價強化 Sol 相對於競爭 frontier 模型的性價比，可能加速高用量的 agentic 與 coding 工作負載。關鍵不確定性在於促銷價是否會在三個月後變成常態，或恢復原價。",
+        "quote": "As we continue to push the frontier of capabilities while improving efficiency, we’re dropping API and credit pricing of GPT-5.6 Sol by over 20% for the next 3 months.",
+        "quote_zh": "在持續推進能力 frontier 並提升效率的同時，我們將 GPT-5.6 Sol 的 API 與積分定價在未來 3 個月下調逾 20%。",
         "importance": 3,
         "first_seen": "2026-08-21T19:34:10Z",
-        "updated_at": "2026-08-23T04:35:01.096333+00:00",
+        "updated_at": "2026-08-23T10:35:00.520722+00:00",
         "links": [
+          {
+            "label": "OpenAI Developer Community announcement",
+            "url": "https://community.openai.com/t/20-price-reduction-for-gpt-5-6-sol-api-codex-credits-and-chatgpt-work/1391726"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/technology/openai-cuts-developer-pricing-frontier-gpt-56-sol-model-by-more-than-20-2026-08-21/"
+          },
           {
             "label": "OpenAI on X",
             "url": "https://x.com/OpenAI/status/2090885187634905500"
@@ -143,10 +171,6 @@
           {
             "label": "OpenAI pricing docs",
             "url": "https://developers.openai.com/api/docs/pricing"
-          },
-          {
-            "label": "Reuters",
-            "url": "https://www.reuters.com/technology/openai-cuts-developer-pricing-frontier-gpt-56-sol-model-by-more-than-20-2026-08-21/"
           },
           {
             "label": "OpenAI API Changelog",
@@ -163,19 +187,23 @@
         "id": "xai-grok-46-google-enterprise-agent-platform-2026-08-21",
         "story_id": "xai-grok-46-google-enterprise-agent-platform-2026-08-21",
         "category": "xai",
-        "source_type": "official_blog",
+        "source_type": "official_x",
         "title_en": "Grok 4.6 now available on Google Enterprise Agent Platform",
-        "title_zh": "Grok 4.6 現已上架 Google 企業代理平台",
+        "title_zh": "Grok 4.6 已上架 Google 企業 Agent 平台",
         "summary_en": "SpaceXAI announced that Grok 4.6 is available via Google’s Enterprise Agent Platform (Model Garden). The model retains its 500k context window and configurable reasoning levels (low/medium/high/xhigh) at $2 / $0.50 cached / $6 per million tokens.",
-        "summary_zh": "SpaceXAI 宣布 Grok 4.6 已可透過 Google 企業代理平台（Model Garden）使用。模型維持 50 萬 token 上下文與可配置推理等級（low/medium/high/xhigh），定價為每百萬 token 輸入 2 美元／快取 0.5 美元／輸出 6 美元。",
+        "summary_zh": "SpaceXAI 宣布 Grok 4.6 已可透過 Google 企業 Agent 平台（Model Garden）使用。模型維持 50 萬 token 上下文窗口與可配置推理等級（low/medium/high/xhigh），定價為每百萬 token 輸入 2 美元／快取 0.5 美元／輸出 6 美元。",
         "analysis_en": "Adding a major cloud provider channel lowers friction for Google Cloud customers already using agent platforms and increases competitive pressure on pricing and availability of frontier models.",
-        "analysis_zh": "新增主要雲端供應商通路，降低已使用代理平台的 Google Cloud 客戶採用門檻，並對前沿模型定價與可用性形成競爭壓力。",
+        "analysis_zh": "新增主要雲端供應商通路，降低已使用 agent 平台的 Google Cloud 客戶進入門檻，並對 frontier 模型的定價與可得性形成競爭壓力。",
         "quote": "Today, we’re excited to announce that Grok 4.6 is now available on Google Enterprise Agent Platform.",
         "quote_zh": "今天我們很高興宣布，Grok 4.6 現已上架 Google 企業代理平台。",
         "importance": 3,
         "first_seen": "2026-08-21T00:00:00Z",
-        "updated_at": "2026-08-23T04:35:01.096333+00:00",
+        "updated_at": "2026-08-23T10:35:00.520722+00:00",
         "links": [
+          {
+            "label": "xAI / SpaceXAI announcement context",
+            "url": "https://x.ai"
+          },
           {
             "label": "xAI / SpaceXAI announcement",
             "url": "https://x.ai/news"
@@ -194,15 +222,19 @@
         "title_en": "Grok Bot expanded to more subscription plans",
         "title_zh": "Grok Bot 擴大至更多訂閱方案",
         "summary_en": "SpaceXAI stated that Grok Bot (always-on AI teammates with their own computer) is now included with SuperGrok Plus, Cursor Pro+, and all Cursor Teams plans, broadening access beyond the earlier limited rollout.",
-        "summary_zh": "SpaceXAI 表示 Grok Bot（具備自身電腦的常駐 AI 隊友）現已納入 SuperGrok Plus、Cursor Pro+ 以及所有 Cursor Teams 方案，擴大早期有限推出的使用範圍。",
+        "summary_zh": "SpaceXAI 表示 Grok Bot（具備獨立電腦的常駐 AI 隊友）現已包含於 SuperGrok Plus、Cursor Pro+ 以及所有 Cursor Teams 方案，擴大早期有限推出的使用範圍。",
         "analysis_en": "Wider plan inclusion signals product maturation of persistent agent teammates and may drive higher engagement inside the Cursor and SuperGrok ecosystems.",
-        "analysis_zh": "更廣的方案納入顯示持久代理隊友產品趨於成熟，可能提升 Cursor 與 SuperGrok 生態系內的使用黏著度。",
+        "analysis_zh": "更廣泛的方案納入顯示持久 agent 隊友產品趨於成熟，可能提升 Cursor 與 SuperGrok 生態系內的使用黏著度。",
         "quote": "Grok Bot is now available for SuperGrok Plus, Cursor Pro+, and all Cursor Teams plans.",
         "quote_zh": "Grok Bot 現已適用於 SuperGrok Plus、Cursor Pro+ 以及所有 Cursor Teams 方案。",
         "importance": 2,
         "first_seen": "2026-08-21T00:00:00Z",
-        "updated_at": "2026-08-23T04:35:01.096333+00:00",
+        "updated_at": "2026-08-23T10:35:00.520722+00:00",
         "links": [
+          {
+            "label": "Elon Musk on X promoting Grok Bot",
+            "url": "https://x.com/elonmusk"
+          },
           {
             "label": "SpaceXAI / xAI announcement",
             "url": "https://x.ai"
@@ -216,7 +248,7 @@
     ],
     "frontier_other": []
   },
-  "brief_en": "Quiet Sunday with no major new lab announcements in the last 12 hours. Carry-over from 21 Aug: OpenAI’s >20% GPT-5.6 Sol API/credit price cut and xAI’s Grok 4.6 availability on Google Enterprise Agent Platform plus broader Grok Bot plan inclusion remain the day’s notable frontier moves.",
-  "brief_zh": "週日平靜，過去12小時無重大新發布。延續21日動態：OpenAI GPT-5.6 Sol API／點數降價逾20%，以及xAI Grok 4.6上架Google企業代理平台、Grok Bot擴大訂閱方案，仍是今日主要前沿進展。",
-  "updated_at": "2026-08-23T04:35:01.096333+00:00"
+  "brief_en": "Quiet Sunday with no major new model or product launches from frontier labs. OpenAI’s GPT-5.6 Sol promotional price cut (announced Friday) continues to draw coverage; xAI’s Grok 4.6 Google Cloud availability and broader Grok Bot plan access remain the notable recent moves.",
+  "brief_zh": "週日平靜，各大廠無重大新模型或產品發布。OpenAI GPT-5.6 Sol 促銷降價（週五宣布）持續受關注；xAI Grok 4.6 上架 Google 企業平台與 Grok Bot 擴大訂閱方案，仍是近期主要動態。",
+  "updated_at": "2026-08-23T10:35:00.520722+00:00"
 }
