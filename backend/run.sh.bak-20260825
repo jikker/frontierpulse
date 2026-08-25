@@ -3,9 +3,6 @@
 # crontab 範例見 crontab.example
 set -u
 cd "$(dirname "$0")"
-# 2026-08-25 用戶指定：瀏覽器自動化改跑 4070 (ROG-NUC-970) 那台 Edge，
-# 不要再搶用戶主力機的分頁與焦點。切回本機：FRONTIERPULSE_BROWSER_SESSION=default ./run.sh
-export FRONTIERPULSE_BROWSER_SESSION="${FRONTIERPULSE_BROWSER_SESSION:-gpu4070}"
 export DIGEST_BACKEND="${DIGEST_BACKEND:-webgrok}"
 export WEBGROK_GEN_TIMEOUT="${WEBGROK_GEN_TIMEOUT:-300}"
 # 公開 JSON 加密（選用；設定後 App 端 Config.swift 要內嵌同一把金鑰）：

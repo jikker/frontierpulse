@@ -116,13 +116,7 @@ class MCP:
         )
         self._post({"jsonrpc": "2.0", "method": "notifications/initialized", "params": {}})
 
-    # 2026-08-25：browser MCP 多 session 支援。設 FRONTIERPULSE_BROWSER_SESSION=gpu4070
-    # 就改用 4070 (ROG-NUC-970) 那台 Edge 跑 Grok 分析，不搶用戶主力 Chrome 的分頁與焦點。
-    browser_session = os.environ.get("FRONTIERPULSE_BROWSER_SESSION") or None
-
     def call(self, name: str, arguments: dict, timeout: int = 120):
-        if name.startswith("browser_") and self.browser_session and "session" not in arguments:
-            arguments = {**arguments, "session": self.browser_session}
         result = self._rpc("tools/call", {"name": name, "arguments": arguments}, timeout=timeout)
         if isinstance(result, dict) and "content" in result:
             text = "\n".join(
