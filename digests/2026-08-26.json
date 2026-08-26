@@ -24,29 +24,68 @@
       "item_count": 6,
       "updated_count": 6,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-08-26T10:35:01.892212+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 7,
+      "updated_count": 6,
+      "kept_count": 0
     }
   ],
   "items_flat": [
+    {
+      "id": "openai-chatgpt-work-secure-signin-2026-08-25",
+      "story_id": "openai-chatgpt-work-secure-signin-2026-08-25",
+      "category": "openai",
+      "source_type": "official_x",
+      "title_en": "ChatGPT Work gains secure website sign-in without model seeing credentials",
+      "title_zh": "ChatGPT Work 新增安全網站登入，模型看不到帳密",
+      "summary_en": "OpenAI announced that ChatGPT Work can now use its cloud computer and browser to sign into websites on web and mobile. Users enter credentials in a secure form; the model never sees or stores username/password, sessions can persist, and confirmation is still required for consequential actions. Rolling out for Plus, Pro and Business.",
+      "summary_zh": "OpenAI 宣布 ChatGPT Work 現可在網頁與行動裝置上透過雲端瀏覽器登入網站。使用者在安全表單輸入帳密，模型看不到也不儲存；登入後工作階段可延續，重大操作仍需確認。正為 Plus、Pro、Business 用戶推出。",
+      "analysis_en": "This removes a key barrier for real end-to-end agent tasks. The persistent session and cookie model creates new privacy and account-risk questions that OpenAI will need to manage carefully.",
+      "analysis_zh": "此舉移除代理真正端到端完成任務的主要障礙。持久工作階段與 cookie 模式帶來新的隱私與帳號風險，OpenAI 需謹慎管理。",
+      "quote": "ChatGPT Work can now use its computer and browser to sign in to websites on web and mobile, without ChatGPT ever seeing your username or password.",
+      "quote_zh": "ChatGPT Work 現在可以在網頁與行動裝置上使用其電腦與瀏覽器登入網站，且 ChatGPT 永遠看不到你的帳號或密碼。",
+      "importance": 4,
+      "first_seen": "2026-08-25T21:40:35Z",
+      "updated_at": "2026-08-26T10:35:01.892212+00:00",
+      "links": [
+        {
+          "label": "ChatGPT on X",
+          "url": "https://x.com/ChatGPT/status/2092366554965107164"
+        },
+        {
+          "label": "OpenAI Help Center – Cloud browser",
+          "url": "https://help.openai.com/articles/20001280-using-cloud-browser-in-chatgpt"
+        }
+      ]
+    },
     {
       "id": "openai-jalapeno-first-results-2026-08-25",
       "story_id": "openai-jalapeno-first-results-2026-08-25",
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI posts first Jalapeño chip results and a full-stack compute strategy",
-      "title_zh": "OpenAI 公布 Jalapeño 自研推理晶片首批成績與全堆疊算力策略",
-      "summary_en": "OpenAI published measured results for Jalapeño, its first custom inference chip built with Broadcom. On the public InferenceX benchmark it reported 1.5–1.9× more AI work per watt at peak throughput and 1.7–3.6× lower end-to-end latency versus comparison systems across GPT-OSS 120B, DeepSeek R1 and Kimi K2.5. Deployment is planned in small volumes by year-end, with Gen-2 already in development.",
-      "summary_zh": "OpenAI 公布與 Broadcom 合作的首款自研推理晶片 Jalapeño 實測結果。在公開 InferenceX 基準上，於 GPT-OSS 120B、DeepSeek R1 與 Kimi K2.5 等模型上，峰值吞吐量每瓦可完成 1.5–1.9 倍 AI 工作量，端到端延遲降低 1.7–3.6 倍。計畫年底小規模部署，第二代已在開發中。",
-      "analysis_en": "The news that matters is not a new model but first-party silicon with public numbers: OpenAI is trying to own serving economics, not just training. What remains unproven is product-scale volume, sustained power under real load, and how the gains hold once next-generation Nvidia systems ship.",
-      "analysis_zh": "重點不是新模型，而是 OpenAI 首度公開自有矽片數字，顯示其正試圖掌握推論經濟而非只做訓練。真正未證實的是量產規模、真實負載下的持續功耗，以及下一代 Nvidia 系統上市後優勢能否維持。",
-      "quote": "Jalapeño can serve more AI work per unit of power while also returning responses more quickly.",
-      "quote_zh": "Jalapeño 能以每單位電力完成更多 AI 工作，同時更快回傳回應。",
+      "title_zh": "OpenAI 公布 Jalapeño 晶片首波結果與全棧算力策略",
+      "summary_en": "OpenAI published measured results for Jalapeño, its first custom inference chip built with Broadcom. On the public InferenceX benchmark it reported 1.5–1.9× more AI work per watt at peak throughput and 1.7–3.6× lower end-to-end latency versus leading alternatives. Deployment inside OpenAI infrastructure is planned by year-end; Gen 2 and Gen 3 are already in development.",
+      "summary_zh": "OpenAI 公布與 Broadcom 合作的首款自研推理晶片 Jalapeño 實測結果。在公開 InferenceX 基準上，峰值吞吐量每瓦 AI 工作量提升 1.5–1.9 倍，端到端延遲降低 1.7–3.6 倍。預計年底前部署於 OpenAI 基礎設施，第二代與第三代已在開發中。",
+      "analysis_en": "The news that matters is not a new model but first-party silicon with public numbers: OpenAI is trying to own serving economics, not just training. What remains unproven is product-scale reliability and whether the gains hold against next-gen NVIDIA and custom silicon from rivals.",
+      "analysis_zh": "重點不是新模型，而是帶公開數據的自研矽片：OpenAI 要掌握服務經濟學，而不只是訓練。尚未驗證的是產品級可靠性，以及相對下一代 NVIDIA 與對手自研晶片能否維持優勢。",
+      "quote": "We plan to begin deploying Jalapeño in OpenAI’s compute infrastructure by year-end. It’s the first step in a multigenerational roadmap.",
+      "quote_zh": "我們計畫在年底前開始於 OpenAI 算力基礎設施部署 Jalapeño。這是多代路線圖的第一步。",
       "importance": 4,
       "first_seen": "2026-08-25T16:35:02Z",
-      "updated_at": "2026-08-26T04:35:01.579799+00:00",
+      "updated_at": "2026-08-26T10:35:01.892212+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/jalapeno-first-results/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2092300846675505602"
         },
         {
           "label": "OpenAI on X",
@@ -69,16 +108,20 @@
       "source_type": "official_blog",
       "title_en": "Anthropic funds $5M in independent AI wellbeing evaluations",
       "title_zh": "Anthropic 投入 500 萬美元資助獨立 AI 福祉評估",
-      "summary_en": "Anthropic launched a $5 million grant program for independent researchers to build open-source evaluations of how AI models affect user wellbeing. Grantees receive funding, model access and technical support and must publish openly; applications close 21 September.",
-      "summary_zh": "Anthropic 啟動 500 萬美元補助計畫，資助獨立研究者開發開源評估工具，衡量 AI 模型對使用者福祉的影響。獲補助者將獲得資金、模型存取與技術支援，並須公開發表；申請截止日為 9 月 21 日。",
-      "analysis_en": "This is Anthropic treating companionship and crisis conversations as a measurement problem, not only a policy statement. Independence is the claim to watch: the lab still supplies the models and the evaluation guidance.",
-      "analysis_zh": "Anthropic 把陪伴與危機對話視為可量測問題，而不只是政策宣示。真正需觀察的是獨立性：實驗室仍提供模型與評估指引。",
+      "summary_en": "Anthropic launched a $5 million grant program for independent researchers to build open-source evaluations of how AI models affect user wellbeing. Grantees receive funding, model access and technical support and must publish openly; applications are open now.",
+      "summary_zh": "Anthropic 啟動 500 萬美元補助金計畫，資助獨立研究者開發開源評估，測量 AI 模型對使用者福祉的影響。獲獎者可獲資金、模型存取與技術支援，且必須公開發表；即日起開放申請。",
+      "analysis_en": "This is Anthropic treating companionship and crisis conversations as a measurement problem, not only a policy statement. Independence is the claim to watch: the lab still supplies the models and compute.",
+      "analysis_zh": "Anthropic 將陪伴與危機對話視為可測量問題，而不只是政策宣示。獨立性是觀察重點：實驗室仍提供模型與算力。",
       "quote": "We’re launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
       "quote_zh": "我們啟動 500 萬美元補助計畫，資助獨立研究 AI 如何影響使用者福祉。",
       "importance": 3,
       "first_seen": "2026-08-25T16:35:02Z",
-      "updated_at": "2026-08-26T04:35:01.579799+00:00",
+      "updated_at": "2026-08-26T10:35:01.892212+00:00",
       "links": [
+        {
+          "label": "Anthropic News",
+          "url": "https://www.anthropic.com/news"
+        },
         {
           "label": "Anthropic News",
           "url": "https://www.anthropic.com/news/wellbeing-research-grants"
@@ -89,26 +132,26 @@
       "id": "anthropic-claude-memory-cowork-2026-08-25",
       "story_id": "anthropic-claude-memory-cowork-2026-08-25",
       "category": "anthropic",
-      "source_type": "product",
+      "source_type": "official_blog",
       "title_en": "Anthropic unifies Claude memory across chat and Cowork",
-      "title_zh": "Anthropic 統一 Claude 聊天與 Cowork 記憶",
-      "summary_en": "Anthropic said the memory used in Claude chat is now the same memory used in Claude Cowork, so context travels both ways when Cowork runs in the cloud. Users can inspect memories topic by topic and edit or delete them; health and beliefs stay out of memory unless explicitly enabled.",
-      "summary_zh": "Anthropic 表示 Claude 聊天與 Claude Cowork 現在共用同一套記憶，雲端 Cowork 可雙向傳遞上下文。使用者可依主題檢視、編輯或刪除記憶；健康與信念等敏感主題預設不納入，除非使用者主動開啟。",
-      "analysis_en": "Shared memory makes Cowork more useful for recurring work, but it also concentrates privacy and wellbeing risk in one store. The default-off rule for sensitive topics is the control to watch in practice.",
-      "analysis_zh": "共用記憶讓 Cowork 更適合重複性工作，但也把隱私與福祉風險集中在同一儲存。敏感主題預設關閉是實際使用中最需觀察的控制點。",
+      "title_zh": "Anthropic 統一 Claude 聊天與 Cowork 的記憶",
+      "summary_en": "Anthropic said the memory used in Claude chat is now the same memory used in Claude Cowork, so context travels both ways when Cowork runs in the cloud. Users can inspect memories topic by topic and edit or delete them; health and beliefs stay off by default.",
+      "summary_zh": "Anthropic 表示 Claude 聊天與 Claude Cowork 現使用同一套記憶，雲端執行時上下文可雙向流動。使用者可依主題檢視、編輯或刪除記憶；健康與信念相關預設關閉。",
+      "analysis_en": "Shared memory makes Cowork more useful for recurring work, but it also concentrates privacy and wellbeing risk in one store. The default-off rule for sensitive topics is the control users will actually rely on.",
+      "analysis_zh": "共享記憶讓 Cowork 更適合重複工作，但也把隱私與福祉風險集中在同一儲存。敏感主題預設關閉是使用者真正會依賴的控制。",
       "quote": "Memory now works across chat and Cowork in the cloud.",
       "quote_zh": "記憶現在可在雲端跨聊天與 Cowork 運作。",
       "importance": 3,
       "first_seen": "2026-08-25T22:35:00Z",
-      "updated_at": "2026-08-26T04:35:01.579799+00:00",
+      "updated_at": "2026-08-26T10:35:01.892212+00:00",
       "links": [
+        {
+          "label": "Anthropic Blog",
+          "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it"
+        },
         {
           "label": "Anthropic Release Notes",
           "url": "https://support.claude.com/en/articles/12138966-release-notes"
-        },
-        {
-          "label": "Claude Blog",
-          "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it"
         },
         {
           "label": "The Verge",
@@ -122,24 +165,24 @@
       "category": "frontier_other",
       "source_type": "official_blog",
       "title_en": "Mistral and HUMAIN strike a sovereign-AI deal for Saudi Arabia and the region",
-      "title_zh": "Mistral 與 HUMAIN 達成沙烏地及區域主權 AI 合作",
+      "title_zh": "Mistral 與 HUMAIN 達成沙烏地與區域主權 AI 合作",
       "summary_en": "Mistral announced a strategic collaboration with PIF-owned HUMAIN covering infrastructure, localized model development and regional deployment, described as hundreds of millions of euros. Initial focus areas include cybersecurity and voice.",
-      "summary_zh": "Mistral 宣布與沙烏地主權基金旗下 HUMAIN 達成策略合作，涵蓋基礎設施、在地化模型開發與區域部署，規模達數億歐元。初期重點包含網路安全與語音。",
-      "analysis_en": "Mistral is exporting the same sovereignty pitch it used in Europe—open weights plus in-region compute—into a Gulf buyer that already has large GPU ambitions. Commercial terms, which models are localized, and actual deployment timelines remain opaque.",
-      "analysis_zh": "Mistral 把歐洲用過的「開源權重＋在地算力」主權敘事輸出到已有大型 GPU 野心的海灣買家。商業條款、哪些模型會在地化，以及實際部署時程仍不透明。",
+      "summary_zh": "Mistral 宣布與 PIF 旗下 HUMAIN 達成策略合作，涵蓋基礎設施、在地化模型開發與區域部署，規模達數億歐元。初期聚焦網路安全與語音。",
+      "analysis_en": "Mistral is exporting the same sovereignty pitch it used in Europe—open weights plus in-region compute—into a Gulf buyer that already has large GPU ambitions. Commercial terms, which models, and actual localization depth remain to be seen.",
+      "analysis_zh": "Mistral 把在歐洲使用的主權話術——開放權重加上區域算力——輸出給已有大規模 GPU 野心的海灣買家。商業條款、具體模型與在地化深度仍待觀察。",
       "quote": "This represents a collaboration in the hundreds of millions of Euros.",
       "quote_zh": "這項合作規模達數億歐元。",
       "importance": 3,
       "first_seen": "2026-08-25T16:35:02Z",
-      "updated_at": "2026-08-26T04:35:01.579799+00:00",
+      "updated_at": "2026-08-26T10:35:01.892212+00:00",
       "links": [
+        {
+          "label": "Mistral Blog",
+          "url": "https://mistral.ai/news/mistral-x-humain/"
+        },
         {
           "label": "Mistral announcement (via secondary)",
           "url": "https://mistral.ai"
-        },
-        {
-          "label": "Mistral AI Blog",
-          "url": "https://mistral.ai/news/mistral-x-humain/"
         },
         {
           "label": "PR Newswire",
@@ -151,18 +194,18 @@
       "id": "openai-admin-plugin-work-codex-2026-08-25",
       "story_id": "openai-admin-plugin-work-codex-2026-08-25",
       "category": "openai",
-      "source_type": "product",
+      "source_type": "official_blog",
       "title_en": "OpenAI ships an Admin plugin for ChatGPT Work and Codex",
-      "title_zh": "OpenAI 為 ChatGPT Work 與 Codex 推出 Admin 管理外掛",
-      "summary_en": "OpenAI introduced an Admin plugin that lets workspace admins review usage and credits, manage members and groups, diagnose permissions, and approve spending or access requests inside ChatGPT Work and Codex. The company said the plugin stays inside the admin boundary.",
-      "summary_zh": "OpenAI 推出 Admin 外掛，讓工作區管理員可在 ChatGPT Work 與 Codex 內查看用量與點數、管理成員與群組、診斷權限，並核准支出或存取申請。公司表示外掛仍受限於管理邊界。",
-      "analysis_en": "This is enterprise packaging, not a capability leap: OpenAI is turning Admin Console into a conversational agent so IT can keep up with agent sprawl. The unresolved question is auditability and whether the plugin itself becomes a new attack surface.",
-      "analysis_zh": "這是企業包裝而非能力躍進：OpenAI 把管理控制台變成對話式代理，方便 IT 跟上代理擴散。未解問題是可稽核性，以及外掛本身是否成為新攻擊面。",
+      "title_zh": "OpenAI 為 ChatGPT Work 與 Codex 推出 Admin 外掛",
+      "summary_en": "OpenAI introduced an Admin plugin that lets workspace admins review usage and credits, manage members and groups, diagnose permissions, and approve spending or access requests inside ChatGPT Work and Codex. The company said the plugin stays inside the existing admin controls.",
+      "summary_zh": "OpenAI 推出 Admin 外掛，讓工作區管理員可在 ChatGPT Work 與 Codex 內檢視用量與額度、管理成員與群組、診斷權限，並核准支出或存取請求。公司表示外掛仍受既有管理員控制約束。",
+      "analysis_en": "This is enterprise packaging, not a capability leap: OpenAI is turning Admin Console into a conversational agent so IT can keep up with agent sprawl. The unresolved question is auditability when the admin interface itself is an LLM.",
+      "analysis_zh": "這是企業包裝，而非能力躍進：OpenAI 把管理主控台變成對話式代理，方便 IT 跟上代理蔓延。未解問題是當管理介面本身是 LLM 時，如何確保可審計性。",
       "quote": "In one conversation, admins can ask a question, explore the details, make an authorized change, and confirm the result—without writing complex prompts or switching between tools.",
       "quote_zh": "在同一段對話中，管理員可以提問、查看細節、執行已授權變更並確認結果，不必寫複雜提示詞或切換工具。",
       "importance": 2,
       "first_seen": "2026-08-25T22:35:00Z",
-      "updated_at": "2026-08-26T04:35:01.579799+00:00",
+      "updated_at": "2026-08-26T10:35:01.892212+00:00",
       "links": [
         {
           "label": "OpenAI News",
@@ -180,17 +223,21 @@
       "category": "frontier_other",
       "source_type": "official_blog",
       "title_en": "NVIDIA announces Jetson Orin Nano 2 for entry-level edge robotics",
-      "title_zh": "NVIDIA 宣布 Jetson Orin Nano 2 入門邊緣機器人電腦",
-      "summary_en": "NVIDIA announced Jetson Orin Nano 2, an entry-level robotics computer with 78 TOPS, 8GB memory and an 8-core Arm CPU. The company said it delivers 2× the inference performance of Jetson Orin Nano Super in the same form factor and uses 40% less power in some modes.",
-      "summary_zh": "NVIDIA 宣布 Jetson Orin Nano 2，為入門級機器人電腦，具備 78 TOPS、8GB 記憶體與 8 核 Arm CPU。公司表示在相同外型下推論效能為 Jetson Orin Nano Super 的兩倍，部分模式功耗降低 40%。",
-      "analysis_en": "This is a volume-edge play, not a frontier-training announcement: NVIDIA is trying to put cheaper physical-AI compute in drones and inspection robots. Availability is still first-half 2027 in many channels, so near-term impact is limited.",
-      "analysis_zh": "這是量產邊緣市場布局，而非前沿訓練宣布：NVIDIA 想把更便宜的實體 AI 算力放進無人機與巡檢機器人。多數通路仍要到 2027 上半年才有貨，短期影響有限。",
+      "title_zh": "NVIDIA 發表 Jetson Orin Nano 2 入門級邊緣機器人電腦",
+      "summary_en": "NVIDIA announced Jetson Orin Nano 2, an entry-level robotics computer with 78 TOPS, 8GB memory and an 8-core Arm CPU. The company said it delivers 2× the inference performance of Jetson Orin Nano Super in the same form factor and uses 40% less power in some workloads.",
+      "summary_zh": "NVIDIA 發表 Jetson Orin Nano 2，入門級機器人電腦，具備 78 TOPS、8GB 記憶體與 8 核心 Arm CPU。公司表示同外形下推理效能為 Jetson Orin Nano Super 的兩倍，部分工作負載功耗降低 40%。",
+      "analysis_en": "This is a volume-edge play, not a frontier-training announcement: NVIDIA is trying to put cheaper physical-AI compute in drones and inspection robots. Availability is still first-half 2027 for production modules.",
+      "analysis_zh": "這是量產邊緣策略，而非前沿訓練宣布：NVIDIA 要把更便宜的物理 AI 算力放進無人機與巡檢機器人。量產模組仍預計 2027 上半年供應。",
       "quote": "The Jetson Orin Nano 2 computer puts that breakthrough within reach of millions of developers, delivering the performance and energy efficiency needed for real-time reasoning at the edge.",
       "quote_zh": "Jetson Orin Nano 2讓數百萬開發者用得上這項突破，提供邊緣即時推理所需的效能與能耗效率。",
       "importance": 2,
       "first_seen": "2026-08-25T16:35:02Z",
-      "updated_at": "2026-08-26T04:35:01.579799+00:00",
+      "updated_at": "2026-08-26T10:35:01.892212+00:00",
       "links": [
+        {
+          "label": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/latest"
+        },
         {
           "label": "NVIDIA announcement",
           "url": "https://nvidianews.nvidia.com"
@@ -205,25 +252,56 @@
   "categories": {
     "openai": [
       {
+        "id": "openai-chatgpt-work-secure-signin-2026-08-25",
+        "story_id": "openai-chatgpt-work-secure-signin-2026-08-25",
+        "category": "openai",
+        "source_type": "official_x",
+        "title_en": "ChatGPT Work gains secure website sign-in without model seeing credentials",
+        "title_zh": "ChatGPT Work 新增安全網站登入，模型看不到帳密",
+        "summary_en": "OpenAI announced that ChatGPT Work can now use its cloud computer and browser to sign into websites on web and mobile. Users enter credentials in a secure form; the model never sees or stores username/password, sessions can persist, and confirmation is still required for consequential actions. Rolling out for Plus, Pro and Business.",
+        "summary_zh": "OpenAI 宣布 ChatGPT Work 現可在網頁與行動裝置上透過雲端瀏覽器登入網站。使用者在安全表單輸入帳密，模型看不到也不儲存；登入後工作階段可延續，重大操作仍需確認。正為 Plus、Pro、Business 用戶推出。",
+        "analysis_en": "This removes a key barrier for real end-to-end agent tasks. The persistent session and cookie model creates new privacy and account-risk questions that OpenAI will need to manage carefully.",
+        "analysis_zh": "此舉移除代理真正端到端完成任務的主要障礙。持久工作階段與 cookie 模式帶來新的隱私與帳號風險，OpenAI 需謹慎管理。",
+        "quote": "ChatGPT Work can now use its computer and browser to sign in to websites on web and mobile, without ChatGPT ever seeing your username or password.",
+        "quote_zh": "ChatGPT Work 現在可以在網頁與行動裝置上使用其電腦與瀏覽器登入網站，且 ChatGPT 永遠看不到你的帳號或密碼。",
+        "importance": 4,
+        "first_seen": "2026-08-25T21:40:35Z",
+        "updated_at": "2026-08-26T10:35:01.892212+00:00",
+        "links": [
+          {
+            "label": "ChatGPT on X",
+            "url": "https://x.com/ChatGPT/status/2092366554965107164"
+          },
+          {
+            "label": "OpenAI Help Center – Cloud browser",
+            "url": "https://help.openai.com/articles/20001280-using-cloud-browser-in-chatgpt"
+          }
+        ]
+      },
+      {
         "id": "openai-jalapeno-first-results-2026-08-25",
         "story_id": "openai-jalapeno-first-results-2026-08-25",
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI posts first Jalapeño chip results and a full-stack compute strategy",
-        "title_zh": "OpenAI 公布 Jalapeño 自研推理晶片首批成績與全堆疊算力策略",
-        "summary_en": "OpenAI published measured results for Jalapeño, its first custom inference chip built with Broadcom. On the public InferenceX benchmark it reported 1.5–1.9× more AI work per watt at peak throughput and 1.7–3.6× lower end-to-end latency versus comparison systems across GPT-OSS 120B, DeepSeek R1 and Kimi K2.5. Deployment is planned in small volumes by year-end, with Gen-2 already in development.",
-        "summary_zh": "OpenAI 公布與 Broadcom 合作的首款自研推理晶片 Jalapeño 實測結果。在公開 InferenceX 基準上，於 GPT-OSS 120B、DeepSeek R1 與 Kimi K2.5 等模型上，峰值吞吐量每瓦可完成 1.5–1.9 倍 AI 工作量，端到端延遲降低 1.7–3.6 倍。計畫年底小規模部署，第二代已在開發中。",
-        "analysis_en": "The news that matters is not a new model but first-party silicon with public numbers: OpenAI is trying to own serving economics, not just training. What remains unproven is product-scale volume, sustained power under real load, and how the gains hold once next-generation Nvidia systems ship.",
-        "analysis_zh": "重點不是新模型，而是 OpenAI 首度公開自有矽片數字，顯示其正試圖掌握推論經濟而非只做訓練。真正未證實的是量產規模、真實負載下的持續功耗，以及下一代 Nvidia 系統上市後優勢能否維持。",
-        "quote": "Jalapeño can serve more AI work per unit of power while also returning responses more quickly.",
-        "quote_zh": "Jalapeño 能以每單位電力完成更多 AI 工作，同時更快回傳回應。",
+        "title_zh": "OpenAI 公布 Jalapeño 晶片首波結果與全棧算力策略",
+        "summary_en": "OpenAI published measured results for Jalapeño, its first custom inference chip built with Broadcom. On the public InferenceX benchmark it reported 1.5–1.9× more AI work per watt at peak throughput and 1.7–3.6× lower end-to-end latency versus leading alternatives. Deployment inside OpenAI infrastructure is planned by year-end; Gen 2 and Gen 3 are already in development.",
+        "summary_zh": "OpenAI 公布與 Broadcom 合作的首款自研推理晶片 Jalapeño 實測結果。在公開 InferenceX 基準上，峰值吞吐量每瓦 AI 工作量提升 1.5–1.9 倍，端到端延遲降低 1.7–3.6 倍。預計年底前部署於 OpenAI 基礎設施，第二代與第三代已在開發中。",
+        "analysis_en": "The news that matters is not a new model but first-party silicon with public numbers: OpenAI is trying to own serving economics, not just training. What remains unproven is product-scale reliability and whether the gains hold against next-gen NVIDIA and custom silicon from rivals.",
+        "analysis_zh": "重點不是新模型，而是帶公開數據的自研矽片：OpenAI 要掌握服務經濟學，而不只是訓練。尚未驗證的是產品級可靠性，以及相對下一代 NVIDIA 與對手自研晶片能否維持優勢。",
+        "quote": "We plan to begin deploying Jalapeño in OpenAI’s compute infrastructure by year-end. It’s the first step in a multigenerational roadmap.",
+        "quote_zh": "我們計畫在年底前開始於 OpenAI 算力基礎設施部署 Jalapeño。這是多代路線圖的第一步。",
         "importance": 4,
         "first_seen": "2026-08-25T16:35:02Z",
-        "updated_at": "2026-08-26T04:35:01.579799+00:00",
+        "updated_at": "2026-08-26T10:35:01.892212+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/jalapeno-first-results/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2092300846675505602"
           },
           {
             "label": "OpenAI on X",
@@ -243,18 +321,18 @@
         "id": "openai-admin-plugin-work-codex-2026-08-25",
         "story_id": "openai-admin-plugin-work-codex-2026-08-25",
         "category": "openai",
-        "source_type": "product",
+        "source_type": "official_blog",
         "title_en": "OpenAI ships an Admin plugin for ChatGPT Work and Codex",
-        "title_zh": "OpenAI 為 ChatGPT Work 與 Codex 推出 Admin 管理外掛",
-        "summary_en": "OpenAI introduced an Admin plugin that lets workspace admins review usage and credits, manage members and groups, diagnose permissions, and approve spending or access requests inside ChatGPT Work and Codex. The company said the plugin stays inside the admin boundary.",
-        "summary_zh": "OpenAI 推出 Admin 外掛，讓工作區管理員可在 ChatGPT Work 與 Codex 內查看用量與點數、管理成員與群組、診斷權限，並核准支出或存取申請。公司表示外掛仍受限於管理邊界。",
-        "analysis_en": "This is enterprise packaging, not a capability leap: OpenAI is turning Admin Console into a conversational agent so IT can keep up with agent sprawl. The unresolved question is auditability and whether the plugin itself becomes a new attack surface.",
-        "analysis_zh": "這是企業包裝而非能力躍進：OpenAI 把管理控制台變成對話式代理，方便 IT 跟上代理擴散。未解問題是可稽核性，以及外掛本身是否成為新攻擊面。",
+        "title_zh": "OpenAI 為 ChatGPT Work 與 Codex 推出 Admin 外掛",
+        "summary_en": "OpenAI introduced an Admin plugin that lets workspace admins review usage and credits, manage members and groups, diagnose permissions, and approve spending or access requests inside ChatGPT Work and Codex. The company said the plugin stays inside the existing admin controls.",
+        "summary_zh": "OpenAI 推出 Admin 外掛，讓工作區管理員可在 ChatGPT Work 與 Codex 內檢視用量與額度、管理成員與群組、診斷權限，並核准支出或存取請求。公司表示外掛仍受既有管理員控制約束。",
+        "analysis_en": "This is enterprise packaging, not a capability leap: OpenAI is turning Admin Console into a conversational agent so IT can keep up with agent sprawl. The unresolved question is auditability when the admin interface itself is an LLM.",
+        "analysis_zh": "這是企業包裝，而非能力躍進：OpenAI 把管理主控台變成對話式代理，方便 IT 跟上代理蔓延。未解問題是當管理介面本身是 LLM 時，如何確保可審計性。",
         "quote": "In one conversation, admins can ask a question, explore the details, make an authorized change, and confirm the result—without writing complex prompts or switching between tools.",
         "quote_zh": "在同一段對話中，管理員可以提問、查看細節、執行已授權變更並確認結果，不必寫複雜提示詞或切換工具。",
         "importance": 2,
         "first_seen": "2026-08-25T22:35:00Z",
-        "updated_at": "2026-08-26T04:35:01.579799+00:00",
+        "updated_at": "2026-08-26T10:35:01.892212+00:00",
         "links": [
           {
             "label": "OpenAI News",
@@ -275,16 +353,20 @@
         "source_type": "official_blog",
         "title_en": "Anthropic funds $5M in independent AI wellbeing evaluations",
         "title_zh": "Anthropic 投入 500 萬美元資助獨立 AI 福祉評估",
-        "summary_en": "Anthropic launched a $5 million grant program for independent researchers to build open-source evaluations of how AI models affect user wellbeing. Grantees receive funding, model access and technical support and must publish openly; applications close 21 September.",
-        "summary_zh": "Anthropic 啟動 500 萬美元補助計畫，資助獨立研究者開發開源評估工具，衡量 AI 模型對使用者福祉的影響。獲補助者將獲得資金、模型存取與技術支援，並須公開發表；申請截止日為 9 月 21 日。",
-        "analysis_en": "This is Anthropic treating companionship and crisis conversations as a measurement problem, not only a policy statement. Independence is the claim to watch: the lab still supplies the models and the evaluation guidance.",
-        "analysis_zh": "Anthropic 把陪伴與危機對話視為可量測問題，而不只是政策宣示。真正需觀察的是獨立性：實驗室仍提供模型與評估指引。",
+        "summary_en": "Anthropic launched a $5 million grant program for independent researchers to build open-source evaluations of how AI models affect user wellbeing. Grantees receive funding, model access and technical support and must publish openly; applications are open now.",
+        "summary_zh": "Anthropic 啟動 500 萬美元補助金計畫，資助獨立研究者開發開源評估，測量 AI 模型對使用者福祉的影響。獲獎者可獲資金、模型存取與技術支援，且必須公開發表；即日起開放申請。",
+        "analysis_en": "This is Anthropic treating companionship and crisis conversations as a measurement problem, not only a policy statement. Independence is the claim to watch: the lab still supplies the models and compute.",
+        "analysis_zh": "Anthropic 將陪伴與危機對話視為可測量問題，而不只是政策宣示。獨立性是觀察重點：實驗室仍提供模型與算力。",
         "quote": "We’re launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
         "quote_zh": "我們啟動 500 萬美元補助計畫，資助獨立研究 AI 如何影響使用者福祉。",
         "importance": 3,
         "first_seen": "2026-08-25T16:35:02Z",
-        "updated_at": "2026-08-26T04:35:01.579799+00:00",
+        "updated_at": "2026-08-26T10:35:01.892212+00:00",
         "links": [
+          {
+            "label": "Anthropic News",
+            "url": "https://www.anthropic.com/news"
+          },
           {
             "label": "Anthropic News",
             "url": "https://www.anthropic.com/news/wellbeing-research-grants"
@@ -295,26 +377,26 @@
         "id": "anthropic-claude-memory-cowork-2026-08-25",
         "story_id": "anthropic-claude-memory-cowork-2026-08-25",
         "category": "anthropic",
-        "source_type": "product",
+        "source_type": "official_blog",
         "title_en": "Anthropic unifies Claude memory across chat and Cowork",
-        "title_zh": "Anthropic 統一 Claude 聊天與 Cowork 記憶",
-        "summary_en": "Anthropic said the memory used in Claude chat is now the same memory used in Claude Cowork, so context travels both ways when Cowork runs in the cloud. Users can inspect memories topic by topic and edit or delete them; health and beliefs stay out of memory unless explicitly enabled.",
-        "summary_zh": "Anthropic 表示 Claude 聊天與 Claude Cowork 現在共用同一套記憶，雲端 Cowork 可雙向傳遞上下文。使用者可依主題檢視、編輯或刪除記憶；健康與信念等敏感主題預設不納入，除非使用者主動開啟。",
-        "analysis_en": "Shared memory makes Cowork more useful for recurring work, but it also concentrates privacy and wellbeing risk in one store. The default-off rule for sensitive topics is the control to watch in practice.",
-        "analysis_zh": "共用記憶讓 Cowork 更適合重複性工作，但也把隱私與福祉風險集中在同一儲存。敏感主題預設關閉是實際使用中最需觀察的控制點。",
+        "title_zh": "Anthropic 統一 Claude 聊天與 Cowork 的記憶",
+        "summary_en": "Anthropic said the memory used in Claude chat is now the same memory used in Claude Cowork, so context travels both ways when Cowork runs in the cloud. Users can inspect memories topic by topic and edit or delete them; health and beliefs stay off by default.",
+        "summary_zh": "Anthropic 表示 Claude 聊天與 Claude Cowork 現使用同一套記憶，雲端執行時上下文可雙向流動。使用者可依主題檢視、編輯或刪除記憶；健康與信念相關預設關閉。",
+        "analysis_en": "Shared memory makes Cowork more useful for recurring work, but it also concentrates privacy and wellbeing risk in one store. The default-off rule for sensitive topics is the control users will actually rely on.",
+        "analysis_zh": "共享記憶讓 Cowork 更適合重複工作，但也把隱私與福祉風險集中在同一儲存。敏感主題預設關閉是使用者真正會依賴的控制。",
         "quote": "Memory now works across chat and Cowork in the cloud.",
         "quote_zh": "記憶現在可在雲端跨聊天與 Cowork 運作。",
         "importance": 3,
         "first_seen": "2026-08-25T22:35:00Z",
-        "updated_at": "2026-08-26T04:35:01.579799+00:00",
+        "updated_at": "2026-08-26T10:35:01.892212+00:00",
         "links": [
+          {
+            "label": "Anthropic Blog",
+            "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it"
+          },
           {
             "label": "Anthropic Release Notes",
             "url": "https://support.claude.com/en/articles/12138966-release-notes"
-          },
-          {
-            "label": "Claude Blog",
-            "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it"
           },
           {
             "label": "The Verge",
@@ -333,24 +415,24 @@
         "category": "frontier_other",
         "source_type": "official_blog",
         "title_en": "Mistral and HUMAIN strike a sovereign-AI deal for Saudi Arabia and the region",
-        "title_zh": "Mistral 與 HUMAIN 達成沙烏地及區域主權 AI 合作",
+        "title_zh": "Mistral 與 HUMAIN 達成沙烏地與區域主權 AI 合作",
         "summary_en": "Mistral announced a strategic collaboration with PIF-owned HUMAIN covering infrastructure, localized model development and regional deployment, described as hundreds of millions of euros. Initial focus areas include cybersecurity and voice.",
-        "summary_zh": "Mistral 宣布與沙烏地主權基金旗下 HUMAIN 達成策略合作，涵蓋基礎設施、在地化模型開發與區域部署，規模達數億歐元。初期重點包含網路安全與語音。",
-        "analysis_en": "Mistral is exporting the same sovereignty pitch it used in Europe—open weights plus in-region compute—into a Gulf buyer that already has large GPU ambitions. Commercial terms, which models are localized, and actual deployment timelines remain opaque.",
-        "analysis_zh": "Mistral 把歐洲用過的「開源權重＋在地算力」主權敘事輸出到已有大型 GPU 野心的海灣買家。商業條款、哪些模型會在地化，以及實際部署時程仍不透明。",
+        "summary_zh": "Mistral 宣布與 PIF 旗下 HUMAIN 達成策略合作，涵蓋基礎設施、在地化模型開發與區域部署，規模達數億歐元。初期聚焦網路安全與語音。",
+        "analysis_en": "Mistral is exporting the same sovereignty pitch it used in Europe—open weights plus in-region compute—into a Gulf buyer that already has large GPU ambitions. Commercial terms, which models, and actual localization depth remain to be seen.",
+        "analysis_zh": "Mistral 把在歐洲使用的主權話術——開放權重加上區域算力——輸出給已有大規模 GPU 野心的海灣買家。商業條款、具體模型與在地化深度仍待觀察。",
         "quote": "This represents a collaboration in the hundreds of millions of Euros.",
         "quote_zh": "這項合作規模達數億歐元。",
         "importance": 3,
         "first_seen": "2026-08-25T16:35:02Z",
-        "updated_at": "2026-08-26T04:35:01.579799+00:00",
+        "updated_at": "2026-08-26T10:35:01.892212+00:00",
         "links": [
+          {
+            "label": "Mistral Blog",
+            "url": "https://mistral.ai/news/mistral-x-humain/"
+          },
           {
             "label": "Mistral announcement (via secondary)",
             "url": "https://mistral.ai"
-          },
-          {
-            "label": "Mistral AI Blog",
-            "url": "https://mistral.ai/news/mistral-x-humain/"
           },
           {
             "label": "PR Newswire",
@@ -364,17 +446,21 @@
         "category": "frontier_other",
         "source_type": "official_blog",
         "title_en": "NVIDIA announces Jetson Orin Nano 2 for entry-level edge robotics",
-        "title_zh": "NVIDIA 宣布 Jetson Orin Nano 2 入門邊緣機器人電腦",
-        "summary_en": "NVIDIA announced Jetson Orin Nano 2, an entry-level robotics computer with 78 TOPS, 8GB memory and an 8-core Arm CPU. The company said it delivers 2× the inference performance of Jetson Orin Nano Super in the same form factor and uses 40% less power in some modes.",
-        "summary_zh": "NVIDIA 宣布 Jetson Orin Nano 2，為入門級機器人電腦，具備 78 TOPS、8GB 記憶體與 8 核 Arm CPU。公司表示在相同外型下推論效能為 Jetson Orin Nano Super 的兩倍，部分模式功耗降低 40%。",
-        "analysis_en": "This is a volume-edge play, not a frontier-training announcement: NVIDIA is trying to put cheaper physical-AI compute in drones and inspection robots. Availability is still first-half 2027 in many channels, so near-term impact is limited.",
-        "analysis_zh": "這是量產邊緣市場布局，而非前沿訓練宣布：NVIDIA 想把更便宜的實體 AI 算力放進無人機與巡檢機器人。多數通路仍要到 2027 上半年才有貨，短期影響有限。",
+        "title_zh": "NVIDIA 發表 Jetson Orin Nano 2 入門級邊緣機器人電腦",
+        "summary_en": "NVIDIA announced Jetson Orin Nano 2, an entry-level robotics computer with 78 TOPS, 8GB memory and an 8-core Arm CPU. The company said it delivers 2× the inference performance of Jetson Orin Nano Super in the same form factor and uses 40% less power in some workloads.",
+        "summary_zh": "NVIDIA 發表 Jetson Orin Nano 2，入門級機器人電腦，具備 78 TOPS、8GB 記憶體與 8 核心 Arm CPU。公司表示同外形下推理效能為 Jetson Orin Nano Super 的兩倍，部分工作負載功耗降低 40%。",
+        "analysis_en": "This is a volume-edge play, not a frontier-training announcement: NVIDIA is trying to put cheaper physical-AI compute in drones and inspection robots. Availability is still first-half 2027 for production modules.",
+        "analysis_zh": "這是量產邊緣策略，而非前沿訓練宣布：NVIDIA 要把更便宜的物理 AI 算力放進無人機與巡檢機器人。量產模組仍預計 2027 上半年供應。",
         "quote": "The Jetson Orin Nano 2 computer puts that breakthrough within reach of millions of developers, delivering the performance and energy efficiency needed for real-time reasoning at the edge.",
         "quote_zh": "Jetson Orin Nano 2讓數百萬開發者用得上這項突破，提供邊緣即時推理所需的效能與能耗效率。",
         "importance": 2,
         "first_seen": "2026-08-25T16:35:02Z",
-        "updated_at": "2026-08-26T04:35:01.579799+00:00",
+        "updated_at": "2026-08-26T10:35:01.892212+00:00",
         "links": [
+          {
+            "label": "NVIDIA Newsroom",
+            "url": "https://nvidianews.nvidia.com/news/latest"
+          },
           {
             "label": "NVIDIA announcement",
             "url": "https://nvidianews.nvidia.com"
@@ -387,7 +473,7 @@
       }
     ]
   },
-  "brief_en": "OpenAI published first Jalapeño chip benchmarks showing strong inference efficiency gains and shipped an Admin plugin for Work/Codex. Anthropic launched a $5M independent wellbeing-eval grant program and unified Claude memory across chat and Cowork. Secondary items cover Mistral’s Saudi sovereign deal and NVIDIA’s entry-level Jetson Orin Nano 2.",
-  "brief_zh": "OpenAI 公布 Jalapeño 自研推理晶片首批公開成績並推出 Work/Codex 管理外掛；Anthropic 啟動 500 萬美元獨立 AI 福祉評估補助，並統一 Claude 聊天與 Cowork 記憶。其餘為 Mistral 沙烏地主權合作與 NVIDIA 入門邊緣機器人模組。",
-  "updated_at": "2026-08-26T04:35:01.579799+00:00"
+  "brief_en": "OpenAI advanced agentic workflows with secure website sign-in for ChatGPT Work and first Jalapeño chip results; Anthropic unified Claude memory and funded wellbeing evals; Mistral struck a Saudi sovereign-AI deal; NVIDIA launched Jetson Orin Nano 2.",
+  "brief_zh": "OpenAI 推進 ChatGPT Work 安全網站登入與 Jalapeño 晶片首波數據；Anthropic 統一 Claude 記憶並資助福祉評估；Mistral 簽沙烏地主權 AI 協議；NVIDIA 推出 Jetson Orin Nano 2。",
+  "updated_at": "2026-08-26T10:35:01.892212+00:00"
 }
