@@ -8,6 +8,14 @@
       "item_count": 5,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-08-27T22:35:01.108538+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 9,
+      "updated_count": 5,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -17,20 +25,24 @@
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google ships Gemini Omni 1.1 Flash with longer scene extension and 4K upscaling",
-      "title_zh": "Google 推出 Gemini Omni 1.1 Flash：場景延伸加長、支援 4K 升頻",
-      "summary_en": "Google DeepMind introduced Gemini Omni 1.1 Flash for developer video generation and editing via the Gemini API and Google AI Studio. The update extends scenes using up to 10 seconds of prior context (versus 1 second previously), adds first/last-frame interpolation, 360p drafting, and upscaling to 1080p or 4K, with clips extendable in 10-second increments up to 40 seconds. It is rolling out in the Gemini app for paid subscribers, Flow, AI Studio, and Gemini Enterprise Agent Platform.",
-      "summary_zh": "Google DeepMind 推出 Gemini Omni 1.1 Flash，供開發者透過 Gemini API 與 Google AI Studio 做影片生成與編輯。新版可用最多 10 秒先前內容做場景延伸（先前僅 1 秒），並加入首尾幀插值、360p 草稿與 1080p／4K 升頻，每次延伸 10 秒、累計最長 40 秒。正於付費 Gemini 應用、Flow、AI Studio 與 Gemini Enterprise Agent Platform 上線。",
-      "analysis_en": "This is a controllability upgrade more than a new flagship: longer temporal memory and keyframe control matter for production workflows, but clip length remains short and quality claims are still Google-demonstrated. Adoption will hinge on whether consistency holds across multi-extend sequences, not the feature list.",
-      "analysis_zh": "這比較像可控性升級而非新旗艦：更長時序記憶與關鍵幀控制對製作流程有意義，但單段長度仍短，品質主張仍以 Google 示範為主。成敗取決於多次延伸後角色與鏡頭是否穩定，而非功能清單。",
+      "title_zh": "Google推出Gemini Omni 1.1 Flash：場景延長與4K升頻",
+      "summary_en": "Google DeepMind introduced Gemini Omni 1.1 Flash for developer video generation and editing via the Gemini API and Google AI Studio. The update extends scenes using up to 10 seconds of prior context (versus 1 second previously), adds first/last-frame interpolation, 360p drafting, video references, and 4K upscaling; clips can be extended in 10-second increments to a 40-second cumulative cap.",
+      "summary_zh": "Google DeepMind推出Gemini Omni 1.1 Flash，供開發者透過Gemini API與Google AI Studio生成與編輯影片。更新可依先前最多10秒內容延續場景（先前僅1秒），並加入首尾幀插值、360p草稿、影片參考與4K升頻；場景可每次延長10秒、累計最長40秒。",
+      "analysis_en": "This is a controllability upgrade more than a new flagship: longer temporal memory and keyframe control matter for production workflows, but clip length remains short and quality claims still need independent comparison against other video models.",
+      "analysis_zh": "這比較像可控性升級而非新旗艦：更長時間記憶與關鍵幀控制對製作流程有意義，但片段仍短，畫質是否領先仍待獨立比較。",
       "quote": "With Omni 1.1, the model can now analyze up to 10 seconds of prior context — a leap from previous models that only referenced the final second.",
-      "quote_zh": "在 Omni 1.1 中，模型現在能分析最多 10 秒的先前脈絡——先前模型只參考最後 1 秒。",
+      "quote_zh": "Omni 1.1現在可分析先前最多10秒的內容——先前模型只參考最後一秒。",
       "importance": 4,
       "first_seen": "2026-08-27T16:13:26Z",
-      "updated_at": "2026-08-27T16:35:01.158564+00:00",
+      "updated_at": "2026-08-27T22:35:01.108538+00:00",
       "links": [
         {
           "label": "Google Blog",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/"
+        },
+        {
+          "label": "Google AI on X",
+          "url": "https://x.com/GoogleAI"
         },
         {
           "label": "Google AI on X",
@@ -48,16 +60,16 @@
       "category": "google",
       "source_type": "official_blog",
       "title_en": "DeepMind pilots double-blind evaluations for a proprietary Gemini model",
-      "title_zh": "DeepMind 啟動專有 Gemini 模型的雙盲評測試點",
-      "summary_en": "Google DeepMind said it is piloting what it calls the first double-blind evaluation of a proprietary frontier-class model, using Google Cloud Confidential Space so evaluators cannot see Gemini weights and Google cannot see test prompts. Partners include the Singapore AI Safety Institute, OpenMined, AVERI, and MLCommons; the pilot tests a Gemini Flash Lite model on confidential benchmarks. DeepMind published a technical report alongside the post.",
-      "summary_zh": "Google DeepMind 宣布試點其所謂首個針對專有前沿級模型的雙盲評測，利用 Google Cloud Confidential Space，使評測方看不到 Gemini 權重、Google 也看不到測試提示。合作方包括新加坡 AI 安全研究所、OpenMined、AVERI 與 MLCommons；試點以 Gemini Flash Lite 對機密基準評測。DeepMind 同步發布技術報告。",
-      "analysis_en": "The method targets a real integrity problem—benchmark contamination—but this is a pilot on Flash Lite, not a flagship, and independent reproducibility outside Google Cloud’s confidential compute stack is unproven. Whether other labs accept the same box will decide if this becomes industry practice.",
-      "analysis_zh": "方法對準基準污染這個真實問題，但目前只是 Flash Lite 試點而非旗艦，且離開 Google Cloud 機密運算堆疊後的獨立可重現性尚未證實。其他實驗室是否接受同一套「黑箱」將決定這能否成為業界慣例。",
-      "quote": "Today, we’re introducing the world’s first double-blind evaluation of a proprietary, frontier class AI model, which keeps external evaluations confined to a cryptographic “box” where they can’t be used by models later to optimize performance ahead of testing.",
-      "quote_zh": "我們今天推出針對專有、前沿級 AI 模型的全球首個雙盲評測，把外部評測關在密碼學「盒子」裡，避免模型之後用這些題目預先優化表現。",
+      "title_zh": "DeepMind試點專有Gemini模型的雙盲評測",
+      "summary_en": "Google DeepMind said it is piloting what it calls the first double-blind evaluation of a proprietary frontier-class model, using Google Cloud Confidential Space so evaluators cannot see Gemini weights and Google cannot see test prompts. Partners include the Singapore AI Safety Institute, OpenMined, AVERI, and MLCommons; the pilot tests a Gemini Flash Lite model on confidential benchmarks.",
+      "summary_zh": "Google DeepMind表示正在試點其所謂首個針對專有前沿級模型的雙盲評測，透過Google Cloud Confidential Space讓評測方看不到Gemini權重、Google也看不到測試提示。合作方包括新加坡AI安全研究所、OpenMined、AVERI與MLCommons；試點對象為Gemini Flash Lite與機密基準。",
+      "analysis_en": "The method targets a real integrity problem—benchmark contamination—but this is a pilot on Flash Lite, not a flagship, and independent reproducibility outside Google Cloud’s confidential computing stack remains unproven.",
+      "analysis_zh": "方法針對基準汙染這個真實問題，但試點是Flash Lite而非旗艦，且在Google Cloud機密運算棧之外能否獨立重現仍未證實。",
+      "quote": "Today, we’re introducing the world’s first double-blind evaluation of a proprietary, frontier class AI model, which keeps external evaluations confined to a cryptographic “box”.",
+      "quote_zh": "今天我們推出全球首個針對專有前沿級AI模型的雙盲評測，把外部評測關在密碼學「盒子」裡。",
       "importance": 4,
       "first_seen": "2026-08-27T13:05:44Z",
-      "updated_at": "2026-08-27T16:35:01.158564+00:00",
+      "updated_at": "2026-08-27T22:35:01.108538+00:00",
       "links": [
         {
           "label": "Google DeepMind Blog",
@@ -70,21 +82,121 @@
       ]
     },
     {
+      "id": "frontier-cyber-defense-open-letter-2026-08-27",
+      "story_id": "frontier-cyber-defense-open-letter-2026-08-27",
+      "category": "openai",
+      "source_type": "official_x",
+      "title_en": "OpenAI, Anthropic, Google and 100+ firms call for a cyber-defense surge",
+      "title_zh": "OpenAI、Anthropic、Google等百餘家企業呼籲網路防禦總動員",
+      "summary_en": "OpenAI posted that it and organizations including Anthropic, AWS, Google, Microsoft, and Oracle are calling for a global effort to give defenders tools and support before AI-enabled attacks become more widespread. Press reporting said more than 100 firms signed an open letter warning of a “limited window” of months and urging governments and labs to put capable defensive AI in the hands of critical-infrastructure operators.",
+      "summary_zh": "OpenAI發文表示，該公司與Anthropic、AWS、Google、Microsoft、Oracle等機構呼籲全球協力，在AI網路攻擊更普及前把工具與支援交給防禦方。媒體報導超過100家企業簽署公開信，警告僅剩數月「有限窗口」，並要求政府與實驗室把具備能力的防禦型AI交給關鍵基礎設施營運者。",
+      "analysis_en": "The letter is coordinated industry messaging after a summer of agent-related security incidents, not a new product or binding policy. What changes depends on whether labs actually expand trusted model access and funding for under-resourced defenders.",
+      "analysis_zh": "這是夏季一連串代理安全事件後的產業聯署表態，不是新產品或具約束力的政策。真正改變與否，取決於實驗室是否真的擴大可信模型取用與對資源不足防禦方的資助。",
+      "quote": "We have a limited window to strengthen cyber defenses, and together with organizations including @AnthropicAI, @awscloud, @Google, @Microsoft, and @Oracle, we're calling for a global effort to give defenders the tools, resources, and support to protect the infrastructure we all depend on.",
+      "quote_zh": "我們強化網路防禦的窗口有限；我們與Anthropic、AWS、Google、Microsoft、Oracle等機構一起，呼籲全球協力把工具、資源與支援交給防禦方，以保護大家都依賴的基礎設施。",
+      "importance": 4,
+      "first_seen": "2026-08-27T20:32:29Z",
+      "updated_at": "2026-08-27T22:35:01.108538+00:00",
+      "links": [
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2093074192636018977"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-model-hardware-standard-2026-08-27",
+      "story_id": "anthropic-model-hardware-standard-2026-08-27",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic previews Model Hardware Standard for agents on lab equipment",
+      "title_zh": "Anthropic預覽Model Hardware Standard：讓代理操作實驗設備",
+      "summary_en": "Anthropic opened a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to operate physical devices such as microscopes, liquid handlers, and robotic arms. It said MHS is model-agnostic, works with any programmable interface and protocols such as MCP, and will be shared with science and manufacturing partners to build safety evaluations before an open-source release.",
+      "summary_zh": "Anthropic開放Model Hardware Standard（MHS）研究預覽，這是一套讓AI代理操作顯微鏡、液體處理器與機械臂等實體設備的共用規格。公司稱MHS與模型無關，適用任何可编程介面與MCP等協定，並會先與科學、製造夥伴共建安全評測，之後再開源。",
+      "analysis_en": "The announcement is a protocol preview, not a demonstration that Claude can already run unsupervised wet labs. Safety evaluations and partner uptake will decide whether this becomes infrastructure or stays a research spec.",
+      "analysis_zh": "這是協定預覽，並非證明Claude已能無人監督地跑濕實驗。能否變成基礎設施，仍取決於安全評測與夥伴採用。",
+      "quote": "We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
+      "quote_zh": "我們向第一批科學研究實驗室與先進製造商開放Model Hardware Standard（MHS）研究預覽，這是一套讓AI代理安全操作實體設備的共用規格。",
+      "importance": 4,
+      "first_seen": "2026-08-27T18:01:00Z",
+      "updated_at": "2026-08-27T22:35:01.108538+00:00",
+      "links": [
+        {
+          "label": "Anthropic News",
+          "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/technology/anthropic-unveils-new-framework-allowing-ai-agents-operate-physical-devices-2026-08-27/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-claude-scientists-seats-2026-08-27",
+      "story_id": "anthropic-claude-scientists-seats-2026-08-27",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic opens 10,000 discounted Claude seats for scientists",
+      "title_zh": "Anthropic向科學家開放1萬個Claude優惠席次",
+      "summary_en": "Anthropic said it is opening 10,000 seats for principal investigators at academic or nonprofit labs to get Claude team-plan access for one year: standard seats free, premium seats with 5x usage limits at $15 a month. It is also widening AI for Science credits beyond biology, while keeping professional biology and drug-development queries off Fable models and limiting those fields to Opus-class access for now.",
+      "summary_zh": "Anthropic宣布為學術或非營利實驗室主持人開放1萬個Claude團隊方案席次，為期一年：標準席次免費，用量上限5倍的進階席次每月15美元。同時把AI for Science點數擴到生物學以外領域；專業生物與藥物開發查詢仍不開放Fable，目前僅限Opus級模型。",
+      "analysis_en": "This is distribution and community-building, not a new model. Dual-use limits on biology remain the binding constraint for the highest-stakes lab work.",
+      "analysis_zh": "這是通路與社群擴張，不是新模型。生物學雙用途限制，仍是最高風險實驗室工作的真正約束。",
+      "quote": "We are opening 10,000 seats for scientists around the world to access Claude subscriptions for free and at discounted rates for one year through our new Claude team plan for scientists.",
+      "quote_zh": "我們透過新的科學家Claude團隊方案，向全球科學家開放1萬個席次，可免費或折扣使用一年訂閱。",
+      "importance": 3,
+      "first_seen": "2026-08-27T16:00:00Z",
+      "updated_at": "2026-08-27T22:35:01.108538+00:00",
+      "links": [
+        {
+          "label": "Anthropic News",
+          "url": "https://www.anthropic.com/news/expanding-support-for-scientists"
+        }
+      ]
+    },
+    {
+      "id": "openai-chatgpt-ads-india-2026-08-27",
+      "story_id": "openai-chatgpt-ads-india-2026-08-27",
+      "category": "openai",
+      "source_type": "news",
+      "title_en": "OpenAI launches ChatGPT Ads on Free and Go tiers in India",
+      "title_zh": "OpenAI在印度對Free與Go方案推出ChatGPT廣告",
+      "summary_en": "OpenAI said ChatGPT Ads are rolling out in India to logged-in adults on Free and Go plans, with ads labelled and placed below responses; Plus, Pro, Business, Enterprise, Education, and under-18 accounts stay ad-free. It named WPP and Omnicom as first agency partners, said more than 50 brands would go live this week, and planned a self-serve Ads Manager from September 4 with daily budgets from ₹725.",
+      "summary_zh": "OpenAI表示ChatGPT廣告在印度上線，對象為已登入的Free與Go成年用戶，廣告標示為贊助並出現在回覆下方；Plus、Pro、Business、Enterprise、Education與未滿18歲帳號維持無廣告。首批代理為WPP與Omnicom，本週有逾50個品牌上線，並計畫9月4日開放自助Ads Manager，每日最低預算725盧比。",
+      "analysis_en": "India is a scale monetization test after earlier ads experiments elsewhere. Trust hinges on whether sponsored placements stay visually separate from answers as promised.",
+      "analysis_zh": "印度是先前廣告實驗後的大規模變現測試。信任取決於贊助版位是否真如承諾與答案清楚分開。",
+      "quote": "With ChatGPT Ads, businesses of every size can introduce themselves at relevant, high-context moments when decisions are beginning to take shape.",
+      "quote_zh": "有了ChatGPT Ads，各種規模的企業都能在決策開始成形、情境高度相關的時刻介紹自己。",
+      "importance": 3,
+      "first_seen": "2026-08-27T04:35:00Z",
+      "updated_at": "2026-08-27T22:35:01.108538+00:00",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/"
+        }
+      ]
+    },
+    {
       "id": "openai-brazil-commercial-operations-2026-08-27",
       "story_id": "openai-brazil-commercial-operations-2026-08-27",
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI launches commercial operations in Brazil",
-      "title_zh": "OpenAI 在巴西啟動商業營運",
-      "summary_en": "OpenAI announced commercial operations based in São Paulo, saying Brazil is one of ChatGPT’s three largest markets by weekly active users, with about 215 million messages a day and nearly doubled users over the past year. It said Brazil ranks second globally by OpenAI API developers and is Codex’s largest Latin American market, with ChatGPT Enterprise seats up fivefold year over year. The post lists local partnerships including ITA, IMPA, HCFMUSP, ENTER, Estímulo, and a São Paulo city MOU.",
-      "summary_zh": "OpenAI 宣布在聖保羅設立商業營運，稱巴西是 ChatGPT 週活躍用戶前三大市場之一，每日約 2.15 億則訊息、過去一年用戶近乎翻倍。官方稱巴西在 OpenAI API 開發者數量全球第二、是 Codex 拉美最大市場，ChatGPT Enterprise 席次年增五倍。文中列出與 ITA、IMPA、HCFMUSP、ENTER、Estímulo 及聖保羅市備忘錄等在地合作。",
-      "analysis_en": "This is market-buildout, not a model launch: OpenAI is converting already-high consumer usage into a local sales, education, and public-sector footprint. The GDP impact figure comes from an OpenAI-funded study, so the economic claim should be treated as advocacy-adjacent rather than independent proof.",
-      "analysis_zh": "這是市場落地而非模型發表：OpenAI 要把既有高用量轉成在地銷售、教育與公部門據點。GDP 影響數字來自 OpenAI 資助研究，經濟主張應視為倡議性質，而非獨立驗證。",
+      "title_zh": "OpenAI在巴西啟動商業營運",
+      "summary_en": "OpenAI announced commercial operations based in São Paulo, saying Brazil is one of ChatGPT’s three largest markets by weekly active users, with about 215 million messages a day and nearly doubled users over the past year. It said Brazil ranks second globally by developers on the OpenAI API, is Codex’s largest Latin American market, and has seen ChatGPT Enterprise seats grow fivefold year over year.",
+      "summary_zh": "OpenAI宣布在聖保羅啟動商業營運，稱巴西是ChatGPT週活用戶數前三大市場之一，每日約2.15億則訊息、過去一年用戶近乎翻倍。公司表示巴西在OpenAI API開發者數全球第二、是Codex在拉美最大市場，ChatGPT Enterprise席次年增五倍。",
+      "analysis_en": "This is market-buildout, not a model launch: OpenAI is converting already-high consumer usage into a local sales, education, and public-sector footprint.",
+      "analysis_zh": "這是市場落地而非模型發表：OpenAI要把已很高的消費端使用量，轉成在地銷售、教育與公部門據點。",
       "quote": "Brazil is one of ChatGPT’s three largest markets by weekly active users. The number of users in the country has nearly doubled over the past year, and people in Brazil now send approximately 215 million messages to ChatGPT each day.",
-      "quote_zh": "巴西是 ChatGPT 以週活躍用戶計的前三大市場之一。該國用戶數過去一年近乎翻倍，巴西使用者每天向 ChatGPT 發送約 2.15 億則訊息。",
+      "quote_zh": "以週活用戶計，巴西是ChatGPT三大市場之一。過去一年用戶數近乎翻倍，巴西使用者每天向ChatGPT發送約2.15億則訊息。",
       "importance": 3,
       "first_seen": "2026-08-27T08:00:00Z",
-      "updated_at": "2026-08-27T16:35:01.158564+00:00",
+      "updated_at": "2026-08-27T22:35:01.108538+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -98,16 +210,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI study: ChatGPT plus critical-thinking training changes student work differently",
-      "title_zh": "OpenAI 研究：ChatGPT 與批判思考訓練對學生作業產生不同效果",
-      "summary_en": "OpenAI published a company study reporting that ChatGPT access improved the quality and coherence of students’ answers on a five-point rubric by almost a full point, while a causal-reasoning exercise led students to generate a wider range of unique ideas. Students who received both showed both effects. OpenAI framed the result as complementary: AI polished answers; the training broadened ideas.",
-      "summary_zh": "OpenAI 發布公司研究，稱取得 ChatGPT 後學生答案在五分量表上的品質與條理幾乎高出一分；因果推理練習則讓學生產出更廣、更獨特的想法。兩者皆接受的學生同時呈現兩種效果。OpenAI 將結果表述為互補：AI 讓答案更精煉，訓練讓想法更廣。",
-      "analysis_en": "The finding is useful as a product-education narrative, but it is an OpenAI-authored study, so independence and generalizability are limited until methods, sample, and task design are fully inspectable. It does not settle the broader debate on whether classroom AI use raises or lowers original thinking outside this setup.",
-      "analysis_zh": "作為產品與教育敘事有參考價值，但這是 OpenAI 自家研究，在方法、樣本與題目設計可完整檢視前，獨立性與可推論範圍有限。它不能單獨了結課堂用 AI 究竟提升或削弱原創思考的更大爭論。",
-      "quote": "The takeaway: AI helped students make their answers better. Critical-thinking training helped make their ideas broader. The two play complementary roles in preparing students for the future.",
-      "quote_zh": "重點是：AI 幫學生把答案做得更好；批判思考訓練幫他們把想法拓得更廣。兩者在為學生準備未來上扮演互補角色。",
+      "title_zh": "OpenAI研究：ChatGPT與批判思考訓練對學生作業影響不同",
+      "summary_en": "OpenAI published a company study reporting that ChatGPT access improved the quality and coherence of students’ answers on a five-point rubric by almost a full point, while a causal-reasoning exercise led students to generate a wider range of original ideas. Students who received both showed both effects, which OpenAI framed as complementary rather than substitutable.",
+      "summary_zh": "OpenAI發表公司研究，稱使用ChatGPT讓學生在五分評分尺上的品質與連貫性提升近一分；因果推理練習則讓學生產出更多原創想法。兩者兼具的學生同時出現兩種效果，OpenAI將其定位為互補而非替代。",
+      "analysis_en": "The finding is useful as a product-education narrative, but it is an OpenAI-authored study, so independence and generalizability are limited until methods, sample, and task design are fully inspectable.",
+      "analysis_zh": "作為產品與教育敘事有參考價值，但這是OpenAI自家研究，在方法、樣本與任務設計可被完整檢視前，獨立性與可推論性都有限。",
+      "quote": "AI helped students make their answers better. Critical-thinking training helped make their ideas broader. The two play complementary roles in preparing students for the future.",
+      "quote_zh": "AI幫助學生把答案寫得更好。批判思考訓練幫助他們把想法拓得更廣。兩者在為學生準備未來上扮演互補角色。",
       "importance": 3,
       "first_seen": "2026-08-27T08:00:00Z",
-      "updated_at": "2026-08-27T16:35:01.158564+00:00",
+      "updated_at": "2026-08-27T22:35:01.108538+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -121,16 +233,16 @@
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google and Khan Academy ship Gemini-built classroom tools for the new school year",
-      "title_zh": "Google 與 Khan Academy 推出 Gemini 課堂工具迎接新學年",
-      "summary_en": "Google said new Khanmigo features built with Gemini are launching for the school year: interactive diagrams that walk students through math and science concepts, and a teacher-controlled practice tool. Google.org engineers spent six months embedded with Khan Academy after an earlier grant and model-access partnership. Teachers can draft and validate questions with Gemini, upload their own materials, and review items before students see them.",
-      "summary_zh": "Google 表示，以 Gemini 打造的 Khanmigo 新功能將於新學年上線：可帶學生走讀數理概念的互動圖解，以及由教師控管的練習工具。Google.org 工程師在先前資助與模型存取合作後，駐點 Khan Academy 六個月。教師可用 Gemini 起草並核對題目、上傳自有教材，並在學生看到前審核題組。",
-      "analysis_en": "The product change is teacher-gated practice plus visual tutoring, not an unconstrained student chatbot. Impact depends on classroom uptake and whether teacher review actually prevents low-quality or off-curriculum items at scale.",
-      "analysis_zh": "產品重點是教師把關的練習與視覺化輔導，而非放任的學生聊天機器人。實際影響取決於課堂採用率，以及教師審核能否在規模上擋住低品質或偏離課綱的題目。",
+      "title_zh": "Google與Khan Academy推出Gemini打造的開學課堂工具",
+      "summary_en": "Google said new Khanmigo features built with Gemini are launching for the school year: interactive diagrams that walk students through math and science concepts, and a teacher-controlled practice tool. Teachers can have Gemini draft practice questions from uploaded materials, then review, edit, or reject items before students see them.",
+      "summary_zh": "Google表示與Gemini打造的新Khanmigo功能將於新學年推出：可引導學生理解數理概念的互動圖表，以及由教師控管的練習工具。教師可讓Gemini依上傳教材草擬練習題，再審核、修改或剔除後才給學生。",
+      "analysis_en": "The product change is teacher-gated practice plus visual tutoring, not an unconstrained student chatbot. Impact depends on classroom uptake and whether teacher review actually prevents answer-giving.",
+      "analysis_zh": "產品變化是教師把關的練習加上視覺導讀，不是放任的學生聊天機器人。成效取決於課堂採用，以及教師審核能否真正避免直接給答案。",
       "quote": "Built with Gemini models, these updates bring new capabilities to Khanmigo, Khan Academy’s AI-powered student tutor and teaching assistant.",
-      "quote_zh": "這些更新以 Gemini 模型打造，為 Khan Academy 的 AI 學生導師與教學助理 Khanmigo 帶來新能力。",
+      "quote_zh": "這些以Gemini模型打造的更新，為Khan Academy的AI學生導師與教學助理Khanmigo帶來新能力。",
       "importance": 3,
       "first_seen": "2026-08-27T08:00:00Z",
-      "updated_at": "2026-08-27T16:35:01.158564+00:00",
+      "updated_at": "2026-08-27T22:35:01.108538+00:00",
       "links": [
         {
           "label": "Google Blog",
@@ -142,21 +254,71 @@
   "categories": {
     "openai": [
       {
+        "id": "frontier-cyber-defense-open-letter-2026-08-27",
+        "story_id": "frontier-cyber-defense-open-letter-2026-08-27",
+        "category": "openai",
+        "source_type": "official_x",
+        "title_en": "OpenAI, Anthropic, Google and 100+ firms call for a cyber-defense surge",
+        "title_zh": "OpenAI、Anthropic、Google等百餘家企業呼籲網路防禦總動員",
+        "summary_en": "OpenAI posted that it and organizations including Anthropic, AWS, Google, Microsoft, and Oracle are calling for a global effort to give defenders tools and support before AI-enabled attacks become more widespread. Press reporting said more than 100 firms signed an open letter warning of a “limited window” of months and urging governments and labs to put capable defensive AI in the hands of critical-infrastructure operators.",
+        "summary_zh": "OpenAI發文表示，該公司與Anthropic、AWS、Google、Microsoft、Oracle等機構呼籲全球協力，在AI網路攻擊更普及前把工具與支援交給防禦方。媒體報導超過100家企業簽署公開信，警告僅剩數月「有限窗口」，並要求政府與實驗室把具備能力的防禦型AI交給關鍵基礎設施營運者。",
+        "analysis_en": "The letter is coordinated industry messaging after a summer of agent-related security incidents, not a new product or binding policy. What changes depends on whether labs actually expand trusted model access and funding for under-resourced defenders.",
+        "analysis_zh": "這是夏季一連串代理安全事件後的產業聯署表態，不是新產品或具約束力的政策。真正改變與否，取決於實驗室是否真的擴大可信模型取用與對資源不足防禦方的資助。",
+        "quote": "We have a limited window to strengthen cyber defenses, and together with organizations including @AnthropicAI, @awscloud, @Google, @Microsoft, and @Oracle, we're calling for a global effort to give defenders the tools, resources, and support to protect the infrastructure we all depend on.",
+        "quote_zh": "我們強化網路防禦的窗口有限；我們與Anthropic、AWS、Google、Microsoft、Oracle等機構一起，呼籲全球協力把工具、資源與支援交給防禦方，以保護大家都依賴的基礎設施。",
+        "importance": 4,
+        "first_seen": "2026-08-27T20:32:29Z",
+        "updated_at": "2026-08-27T22:35:01.108538+00:00",
+        "links": [
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2093074192636018977"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/"
+          }
+        ]
+      },
+      {
+        "id": "openai-chatgpt-ads-india-2026-08-27",
+        "story_id": "openai-chatgpt-ads-india-2026-08-27",
+        "category": "openai",
+        "source_type": "news",
+        "title_en": "OpenAI launches ChatGPT Ads on Free and Go tiers in India",
+        "title_zh": "OpenAI在印度對Free與Go方案推出ChatGPT廣告",
+        "summary_en": "OpenAI said ChatGPT Ads are rolling out in India to logged-in adults on Free and Go plans, with ads labelled and placed below responses; Plus, Pro, Business, Enterprise, Education, and under-18 accounts stay ad-free. It named WPP and Omnicom as first agency partners, said more than 50 brands would go live this week, and planned a self-serve Ads Manager from September 4 with daily budgets from ₹725.",
+        "summary_zh": "OpenAI表示ChatGPT廣告在印度上線，對象為已登入的Free與Go成年用戶，廣告標示為贊助並出現在回覆下方；Plus、Pro、Business、Enterprise、Education與未滿18歲帳號維持無廣告。首批代理為WPP與Omnicom，本週有逾50個品牌上線，並計畫9月4日開放自助Ads Manager，每日最低預算725盧比。",
+        "analysis_en": "India is a scale monetization test after earlier ads experiments elsewhere. Trust hinges on whether sponsored placements stay visually separate from answers as promised.",
+        "analysis_zh": "印度是先前廣告實驗後的大規模變現測試。信任取決於贊助版位是否真如承諾與答案清楚分開。",
+        "quote": "With ChatGPT Ads, businesses of every size can introduce themselves at relevant, high-context moments when decisions are beginning to take shape.",
+        "quote_zh": "有了ChatGPT Ads，各種規模的企業都能在決策開始成形、情境高度相關的時刻介紹自己。",
+        "importance": 3,
+        "first_seen": "2026-08-27T04:35:00Z",
+        "updated_at": "2026-08-27T22:35:01.108538+00:00",
+        "links": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/"
+          }
+        ]
+      },
+      {
         "id": "openai-brazil-commercial-operations-2026-08-27",
         "story_id": "openai-brazil-commercial-operations-2026-08-27",
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI launches commercial operations in Brazil",
-        "title_zh": "OpenAI 在巴西啟動商業營運",
-        "summary_en": "OpenAI announced commercial operations based in São Paulo, saying Brazil is one of ChatGPT’s three largest markets by weekly active users, with about 215 million messages a day and nearly doubled users over the past year. It said Brazil ranks second globally by OpenAI API developers and is Codex’s largest Latin American market, with ChatGPT Enterprise seats up fivefold year over year. The post lists local partnerships including ITA, IMPA, HCFMUSP, ENTER, Estímulo, and a São Paulo city MOU.",
-        "summary_zh": "OpenAI 宣布在聖保羅設立商業營運，稱巴西是 ChatGPT 週活躍用戶前三大市場之一，每日約 2.15 億則訊息、過去一年用戶近乎翻倍。官方稱巴西在 OpenAI API 開發者數量全球第二、是 Codex 拉美最大市場，ChatGPT Enterprise 席次年增五倍。文中列出與 ITA、IMPA、HCFMUSP、ENTER、Estímulo 及聖保羅市備忘錄等在地合作。",
-        "analysis_en": "This is market-buildout, not a model launch: OpenAI is converting already-high consumer usage into a local sales, education, and public-sector footprint. The GDP impact figure comes from an OpenAI-funded study, so the economic claim should be treated as advocacy-adjacent rather than independent proof.",
-        "analysis_zh": "這是市場落地而非模型發表：OpenAI 要把既有高用量轉成在地銷售、教育與公部門據點。GDP 影響數字來自 OpenAI 資助研究，經濟主張應視為倡議性質，而非獨立驗證。",
+        "title_zh": "OpenAI在巴西啟動商業營運",
+        "summary_en": "OpenAI announced commercial operations based in São Paulo, saying Brazil is one of ChatGPT’s three largest markets by weekly active users, with about 215 million messages a day and nearly doubled users over the past year. It said Brazil ranks second globally by developers on the OpenAI API, is Codex’s largest Latin American market, and has seen ChatGPT Enterprise seats grow fivefold year over year.",
+        "summary_zh": "OpenAI宣布在聖保羅啟動商業營運，稱巴西是ChatGPT週活用戶數前三大市場之一，每日約2.15億則訊息、過去一年用戶近乎翻倍。公司表示巴西在OpenAI API開發者數全球第二、是Codex在拉美最大市場，ChatGPT Enterprise席次年增五倍。",
+        "analysis_en": "This is market-buildout, not a model launch: OpenAI is converting already-high consumer usage into a local sales, education, and public-sector footprint.",
+        "analysis_zh": "這是市場落地而非模型發表：OpenAI要把已很高的消費端使用量，轉成在地銷售、教育與公部門據點。",
         "quote": "Brazil is one of ChatGPT’s three largest markets by weekly active users. The number of users in the country has nearly doubled over the past year, and people in Brazil now send approximately 215 million messages to ChatGPT each day.",
-        "quote_zh": "巴西是 ChatGPT 以週活躍用戶計的前三大市場之一。該國用戶數過去一年近乎翻倍，巴西使用者每天向 ChatGPT 發送約 2.15 億則訊息。",
+        "quote_zh": "以週活用戶計，巴西是ChatGPT三大市場之一。過去一年用戶數近乎翻倍，巴西使用者每天向ChatGPT發送約2.15億則訊息。",
         "importance": 3,
         "first_seen": "2026-08-27T08:00:00Z",
-        "updated_at": "2026-08-27T16:35:01.158564+00:00",
+        "updated_at": "2026-08-27T22:35:01.108538+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -170,16 +332,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI study: ChatGPT plus critical-thinking training changes student work differently",
-        "title_zh": "OpenAI 研究：ChatGPT 與批判思考訓練對學生作業產生不同效果",
-        "summary_en": "OpenAI published a company study reporting that ChatGPT access improved the quality and coherence of students’ answers on a five-point rubric by almost a full point, while a causal-reasoning exercise led students to generate a wider range of unique ideas. Students who received both showed both effects. OpenAI framed the result as complementary: AI polished answers; the training broadened ideas.",
-        "summary_zh": "OpenAI 發布公司研究，稱取得 ChatGPT 後學生答案在五分量表上的品質與條理幾乎高出一分；因果推理練習則讓學生產出更廣、更獨特的想法。兩者皆接受的學生同時呈現兩種效果。OpenAI 將結果表述為互補：AI 讓答案更精煉，訓練讓想法更廣。",
-        "analysis_en": "The finding is useful as a product-education narrative, but it is an OpenAI-authored study, so independence and generalizability are limited until methods, sample, and task design are fully inspectable. It does not settle the broader debate on whether classroom AI use raises or lowers original thinking outside this setup.",
-        "analysis_zh": "作為產品與教育敘事有參考價值，但這是 OpenAI 自家研究，在方法、樣本與題目設計可完整檢視前，獨立性與可推論範圍有限。它不能單獨了結課堂用 AI 究竟提升或削弱原創思考的更大爭論。",
-        "quote": "The takeaway: AI helped students make their answers better. Critical-thinking training helped make their ideas broader. The two play complementary roles in preparing students for the future.",
-        "quote_zh": "重點是：AI 幫學生把答案做得更好；批判思考訓練幫他們把想法拓得更廣。兩者在為學生準備未來上扮演互補角色。",
+        "title_zh": "OpenAI研究：ChatGPT與批判思考訓練對學生作業影響不同",
+        "summary_en": "OpenAI published a company study reporting that ChatGPT access improved the quality and coherence of students’ answers on a five-point rubric by almost a full point, while a causal-reasoning exercise led students to generate a wider range of original ideas. Students who received both showed both effects, which OpenAI framed as complementary rather than substitutable.",
+        "summary_zh": "OpenAI發表公司研究，稱使用ChatGPT讓學生在五分評分尺上的品質與連貫性提升近一分；因果推理練習則讓學生產出更多原創想法。兩者兼具的學生同時出現兩種效果，OpenAI將其定位為互補而非替代。",
+        "analysis_en": "The finding is useful as a product-education narrative, but it is an OpenAI-authored study, so independence and generalizability are limited until methods, sample, and task design are fully inspectable.",
+        "analysis_zh": "作為產品與教育敘事有參考價值，但這是OpenAI自家研究，在方法、樣本與任務設計可被完整檢視前，獨立性與可推論性都有限。",
+        "quote": "AI helped students make their answers better. Critical-thinking training helped make their ideas broader. The two play complementary roles in preparing students for the future.",
+        "quote_zh": "AI幫助學生把答案寫得更好。批判思考訓練幫助他們把想法拓得更廣。兩者在為學生準備未來上扮演互補角色。",
         "importance": 3,
         "first_seen": "2026-08-27T08:00:00Z",
-        "updated_at": "2026-08-27T16:35:01.158564+00:00",
+        "updated_at": "2026-08-27T22:35:01.108538+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -188,7 +350,58 @@
         ]
       }
     ],
-    "anthropic": [],
+    "anthropic": [
+      {
+        "id": "anthropic-model-hardware-standard-2026-08-27",
+        "story_id": "anthropic-model-hardware-standard-2026-08-27",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic previews Model Hardware Standard for agents on lab equipment",
+        "title_zh": "Anthropic預覽Model Hardware Standard：讓代理操作實驗設備",
+        "summary_en": "Anthropic opened a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to operate physical devices such as microscopes, liquid handlers, and robotic arms. It said MHS is model-agnostic, works with any programmable interface and protocols such as MCP, and will be shared with science and manufacturing partners to build safety evaluations before an open-source release.",
+        "summary_zh": "Anthropic開放Model Hardware Standard（MHS）研究預覽，這是一套讓AI代理操作顯微鏡、液體處理器與機械臂等實體設備的共用規格。公司稱MHS與模型無關，適用任何可编程介面與MCP等協定，並會先與科學、製造夥伴共建安全評測，之後再開源。",
+        "analysis_en": "The announcement is a protocol preview, not a demonstration that Claude can already run unsupervised wet labs. Safety evaluations and partner uptake will decide whether this becomes infrastructure or stays a research spec.",
+        "analysis_zh": "這是協定預覽，並非證明Claude已能無人監督地跑濕實驗。能否變成基礎設施，仍取決於安全評測與夥伴採用。",
+        "quote": "We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
+        "quote_zh": "我們向第一批科學研究實驗室與先進製造商開放Model Hardware Standard（MHS）研究預覽，這是一套讓AI代理安全操作實體設備的共用規格。",
+        "importance": 4,
+        "first_seen": "2026-08-27T18:01:00Z",
+        "updated_at": "2026-08-27T22:35:01.108538+00:00",
+        "links": [
+          {
+            "label": "Anthropic News",
+            "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/technology/anthropic-unveils-new-framework-allowing-ai-agents-operate-physical-devices-2026-08-27/"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-claude-scientists-seats-2026-08-27",
+        "story_id": "anthropic-claude-scientists-seats-2026-08-27",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic opens 10,000 discounted Claude seats for scientists",
+        "title_zh": "Anthropic向科學家開放1萬個Claude優惠席次",
+        "summary_en": "Anthropic said it is opening 10,000 seats for principal investigators at academic or nonprofit labs to get Claude team-plan access for one year: standard seats free, premium seats with 5x usage limits at $15 a month. It is also widening AI for Science credits beyond biology, while keeping professional biology and drug-development queries off Fable models and limiting those fields to Opus-class access for now.",
+        "summary_zh": "Anthropic宣布為學術或非營利實驗室主持人開放1萬個Claude團隊方案席次，為期一年：標準席次免費，用量上限5倍的進階席次每月15美元。同時把AI for Science點數擴到生物學以外領域；專業生物與藥物開發查詢仍不開放Fable，目前僅限Opus級模型。",
+        "analysis_en": "This is distribution and community-building, not a new model. Dual-use limits on biology remain the binding constraint for the highest-stakes lab work.",
+        "analysis_zh": "這是通路與社群擴張，不是新模型。生物學雙用途限制，仍是最高風險實驗室工作的真正約束。",
+        "quote": "We are opening 10,000 seats for scientists around the world to access Claude subscriptions for free and at discounted rates for one year through our new Claude team plan for scientists.",
+        "quote_zh": "我們透過新的科學家Claude團隊方案，向全球科學家開放1萬個席次，可免費或折扣使用一年訂閱。",
+        "importance": 3,
+        "first_seen": "2026-08-27T16:00:00Z",
+        "updated_at": "2026-08-27T22:35:01.108538+00:00",
+        "links": [
+          {
+            "label": "Anthropic News",
+            "url": "https://www.anthropic.com/news/expanding-support-for-scientists"
+          }
+        ]
+      }
+    ],
     "google": [
       {
         "id": "google-gemini-omni-1-1-flash-2026-08-27",
@@ -196,20 +409,24 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google ships Gemini Omni 1.1 Flash with longer scene extension and 4K upscaling",
-        "title_zh": "Google 推出 Gemini Omni 1.1 Flash：場景延伸加長、支援 4K 升頻",
-        "summary_en": "Google DeepMind introduced Gemini Omni 1.1 Flash for developer video generation and editing via the Gemini API and Google AI Studio. The update extends scenes using up to 10 seconds of prior context (versus 1 second previously), adds first/last-frame interpolation, 360p drafting, and upscaling to 1080p or 4K, with clips extendable in 10-second increments up to 40 seconds. It is rolling out in the Gemini app for paid subscribers, Flow, AI Studio, and Gemini Enterprise Agent Platform.",
-        "summary_zh": "Google DeepMind 推出 Gemini Omni 1.1 Flash，供開發者透過 Gemini API 與 Google AI Studio 做影片生成與編輯。新版可用最多 10 秒先前內容做場景延伸（先前僅 1 秒），並加入首尾幀插值、360p 草稿與 1080p／4K 升頻，每次延伸 10 秒、累計最長 40 秒。正於付費 Gemini 應用、Flow、AI Studio 與 Gemini Enterprise Agent Platform 上線。",
-        "analysis_en": "This is a controllability upgrade more than a new flagship: longer temporal memory and keyframe control matter for production workflows, but clip length remains short and quality claims are still Google-demonstrated. Adoption will hinge on whether consistency holds across multi-extend sequences, not the feature list.",
-        "analysis_zh": "這比較像可控性升級而非新旗艦：更長時序記憶與關鍵幀控制對製作流程有意義，但單段長度仍短，品質主張仍以 Google 示範為主。成敗取決於多次延伸後角色與鏡頭是否穩定，而非功能清單。",
+        "title_zh": "Google推出Gemini Omni 1.1 Flash：場景延長與4K升頻",
+        "summary_en": "Google DeepMind introduced Gemini Omni 1.1 Flash for developer video generation and editing via the Gemini API and Google AI Studio. The update extends scenes using up to 10 seconds of prior context (versus 1 second previously), adds first/last-frame interpolation, 360p drafting, video references, and 4K upscaling; clips can be extended in 10-second increments to a 40-second cumulative cap.",
+        "summary_zh": "Google DeepMind推出Gemini Omni 1.1 Flash，供開發者透過Gemini API與Google AI Studio生成與編輯影片。更新可依先前最多10秒內容延續場景（先前僅1秒），並加入首尾幀插值、360p草稿、影片參考與4K升頻；場景可每次延長10秒、累計最長40秒。",
+        "analysis_en": "This is a controllability upgrade more than a new flagship: longer temporal memory and keyframe control matter for production workflows, but clip length remains short and quality claims still need independent comparison against other video models.",
+        "analysis_zh": "這比較像可控性升級而非新旗艦：更長時間記憶與關鍵幀控制對製作流程有意義，但片段仍短，畫質是否領先仍待獨立比較。",
         "quote": "With Omni 1.1, the model can now analyze up to 10 seconds of prior context — a leap from previous models that only referenced the final second.",
-        "quote_zh": "在 Omni 1.1 中，模型現在能分析最多 10 秒的先前脈絡——先前模型只參考最後 1 秒。",
+        "quote_zh": "Omni 1.1現在可分析先前最多10秒的內容——先前模型只參考最後一秒。",
         "importance": 4,
         "first_seen": "2026-08-27T16:13:26Z",
-        "updated_at": "2026-08-27T16:35:01.158564+00:00",
+        "updated_at": "2026-08-27T22:35:01.108538+00:00",
         "links": [
           {
             "label": "Google Blog",
             "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/"
+          },
+          {
+            "label": "Google AI on X",
+            "url": "https://x.com/GoogleAI"
           },
           {
             "label": "Google AI on X",
@@ -227,16 +444,16 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "DeepMind pilots double-blind evaluations for a proprietary Gemini model",
-        "title_zh": "DeepMind 啟動專有 Gemini 模型的雙盲評測試點",
-        "summary_en": "Google DeepMind said it is piloting what it calls the first double-blind evaluation of a proprietary frontier-class model, using Google Cloud Confidential Space so evaluators cannot see Gemini weights and Google cannot see test prompts. Partners include the Singapore AI Safety Institute, OpenMined, AVERI, and MLCommons; the pilot tests a Gemini Flash Lite model on confidential benchmarks. DeepMind published a technical report alongside the post.",
-        "summary_zh": "Google DeepMind 宣布試點其所謂首個針對專有前沿級模型的雙盲評測，利用 Google Cloud Confidential Space，使評測方看不到 Gemini 權重、Google 也看不到測試提示。合作方包括新加坡 AI 安全研究所、OpenMined、AVERI 與 MLCommons；試點以 Gemini Flash Lite 對機密基準評測。DeepMind 同步發布技術報告。",
-        "analysis_en": "The method targets a real integrity problem—benchmark contamination—but this is a pilot on Flash Lite, not a flagship, and independent reproducibility outside Google Cloud’s confidential compute stack is unproven. Whether other labs accept the same box will decide if this becomes industry practice.",
-        "analysis_zh": "方法對準基準污染這個真實問題，但目前只是 Flash Lite 試點而非旗艦，且離開 Google Cloud 機密運算堆疊後的獨立可重現性尚未證實。其他實驗室是否接受同一套「黑箱」將決定這能否成為業界慣例。",
-        "quote": "Today, we’re introducing the world’s first double-blind evaluation of a proprietary, frontier class AI model, which keeps external evaluations confined to a cryptographic “box” where they can’t be used by models later to optimize performance ahead of testing.",
-        "quote_zh": "我們今天推出針對專有、前沿級 AI 模型的全球首個雙盲評測，把外部評測關在密碼學「盒子」裡，避免模型之後用這些題目預先優化表現。",
+        "title_zh": "DeepMind試點專有Gemini模型的雙盲評測",
+        "summary_en": "Google DeepMind said it is piloting what it calls the first double-blind evaluation of a proprietary frontier-class model, using Google Cloud Confidential Space so evaluators cannot see Gemini weights and Google cannot see test prompts. Partners include the Singapore AI Safety Institute, OpenMined, AVERI, and MLCommons; the pilot tests a Gemini Flash Lite model on confidential benchmarks.",
+        "summary_zh": "Google DeepMind表示正在試點其所謂首個針對專有前沿級模型的雙盲評測，透過Google Cloud Confidential Space讓評測方看不到Gemini權重、Google也看不到測試提示。合作方包括新加坡AI安全研究所、OpenMined、AVERI與MLCommons；試點對象為Gemini Flash Lite與機密基準。",
+        "analysis_en": "The method targets a real integrity problem—benchmark contamination—but this is a pilot on Flash Lite, not a flagship, and independent reproducibility outside Google Cloud’s confidential computing stack remains unproven.",
+        "analysis_zh": "方法針對基準汙染這個真實問題，但試點是Flash Lite而非旗艦，且在Google Cloud機密運算棧之外能否獨立重現仍未證實。",
+        "quote": "Today, we’re introducing the world’s first double-blind evaluation of a proprietary, frontier class AI model, which keeps external evaluations confined to a cryptographic “box”.",
+        "quote_zh": "今天我們推出全球首個針對專有前沿級AI模型的雙盲評測，把外部評測關在密碼學「盒子」裡。",
         "importance": 4,
         "first_seen": "2026-08-27T13:05:44Z",
-        "updated_at": "2026-08-27T16:35:01.158564+00:00",
+        "updated_at": "2026-08-27T22:35:01.108538+00:00",
         "links": [
           {
             "label": "Google DeepMind Blog",
@@ -254,16 +471,16 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google and Khan Academy ship Gemini-built classroom tools for the new school year",
-        "title_zh": "Google 與 Khan Academy 推出 Gemini 課堂工具迎接新學年",
-        "summary_en": "Google said new Khanmigo features built with Gemini are launching for the school year: interactive diagrams that walk students through math and science concepts, and a teacher-controlled practice tool. Google.org engineers spent six months embedded with Khan Academy after an earlier grant and model-access partnership. Teachers can draft and validate questions with Gemini, upload their own materials, and review items before students see them.",
-        "summary_zh": "Google 表示，以 Gemini 打造的 Khanmigo 新功能將於新學年上線：可帶學生走讀數理概念的互動圖解，以及由教師控管的練習工具。Google.org 工程師在先前資助與模型存取合作後，駐點 Khan Academy 六個月。教師可用 Gemini 起草並核對題目、上傳自有教材，並在學生看到前審核題組。",
-        "analysis_en": "The product change is teacher-gated practice plus visual tutoring, not an unconstrained student chatbot. Impact depends on classroom uptake and whether teacher review actually prevents low-quality or off-curriculum items at scale.",
-        "analysis_zh": "產品重點是教師把關的練習與視覺化輔導，而非放任的學生聊天機器人。實際影響取決於課堂採用率，以及教師審核能否在規模上擋住低品質或偏離課綱的題目。",
+        "title_zh": "Google與Khan Academy推出Gemini打造的開學課堂工具",
+        "summary_en": "Google said new Khanmigo features built with Gemini are launching for the school year: interactive diagrams that walk students through math and science concepts, and a teacher-controlled practice tool. Teachers can have Gemini draft practice questions from uploaded materials, then review, edit, or reject items before students see them.",
+        "summary_zh": "Google表示與Gemini打造的新Khanmigo功能將於新學年推出：可引導學生理解數理概念的互動圖表，以及由教師控管的練習工具。教師可讓Gemini依上傳教材草擬練習題，再審核、修改或剔除後才給學生。",
+        "analysis_en": "The product change is teacher-gated practice plus visual tutoring, not an unconstrained student chatbot. Impact depends on classroom uptake and whether teacher review actually prevents answer-giving.",
+        "analysis_zh": "產品變化是教師把關的練習加上視覺導讀，不是放任的學生聊天機器人。成效取決於課堂採用，以及教師審核能否真正避免直接給答案。",
         "quote": "Built with Gemini models, these updates bring new capabilities to Khanmigo, Khan Academy’s AI-powered student tutor and teaching assistant.",
-        "quote_zh": "這些更新以 Gemini 模型打造，為 Khan Academy 的 AI 學生導師與教學助理 Khanmigo 帶來新能力。",
+        "quote_zh": "這些以Gemini模型打造的更新，為Khan Academy的AI學生導師與教學助理Khanmigo帶來新能力。",
         "importance": 3,
         "first_seen": "2026-08-27T08:00:00Z",
-        "updated_at": "2026-08-27T16:35:01.158564+00:00",
+        "updated_at": "2026-08-27T22:35:01.108538+00:00",
         "links": [
           {
             "label": "Google Blog",
@@ -276,7 +493,7 @@
     "xai": [],
     "frontier_other": []
   },
-  "brief_en": "Google shipped Gemini Omni 1.1 Flash with longer scene extension and 4K upscaling, and began a double-blind eval pilot. OpenAI opened commercial operations in Brazil and published a student study pairing ChatGPT with critical-thinking training. Khan Academy rolled Gemini-built classroom tools.",
-  "brief_zh": "Google 推出 Gemini Omni 1.1 Flash（更長場景延伸與 4K 升頻），並啟動雙盲評測試點。OpenAI 在巴西開展商業營運，並發表 ChatGPT 搭配批判思考訓練的學生研究。Khan Academy 上線 Gemini 課堂工具。",
-  "updated_at": "2026-08-27T16:35:01.158564+00:00"
+  "brief_en": "Google shipped Gemini Omni 1.1 Flash video controls and a double-blind eval pilot. OpenAI opened Brazil operations, published a student study, and launched ChatGPT ads in India. Anthropic previewed a hardware-agent spec and free scientist seats. Labs jointly warned of a narrowing cyber-defense window.",
+  "brief_zh": "Google推出Gemini Omni 1.1 Flash影片控制與雙盲評測試點。OpenAI啟動巴西商業營運、發布學生研究，並在印度上線ChatGPT廣告。Anthropic預覽硬體代理規格並開放科學家席次。多家實驗室聯署警告網路防禦窗口正在縮短。",
+  "updated_at": "2026-08-27T22:35:01.108538+00:00"
 }
