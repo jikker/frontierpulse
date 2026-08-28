@@ -8,6 +8,14 @@
       "item_count": 6,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-08-28T22:35:01.583870+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 8,
+      "updated_count": 6,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -17,16 +25,16 @@
       "category": "anthropic",
       "source_type": "news",
       "title_en": "U.S. judge rules Pentagon’s Anthropic supply-chain blacklist unlawful",
-      "title_zh": "美法官裁定五角大廈將Anthropic列供應鏈風險違法",
-      "summary_en": "U.S. District Judge Rita Lin in the Northern District of California ruled that the Pentagon’s designation of Anthropic as a national-security supply-chain risk was unlawful retaliation for constitutionally protected speech. Anthropic said it welcomed the ruling and still wants to work with the government on national-security uses of AI.",
-      "summary_zh": "加州北區聯邦法官Rita Lin裁定，五角大廈將Anthropic列為國家安全供應鏈風險，屬對受憲法保護言論的非法報復。Anthropic歡迎判決，並表示仍希望與政府合作把AI用於國家安全。",
-      "analysis_en": "The ruling constrains using a supply-chain-risk label as leverage against a lab that set military-use red lines. It does not decide which models the Department of War must buy, and an appeal remains possible.",
-      "analysis_zh": "判決限制了以「供應鏈風險」標籤施壓設下軍用紅線的實驗室，但並未規定國防部必須採購哪家模型，上訴空間仍在。",
-      "quote": "The empty invocation of national security is not a blank check to punish and retaliate against government critics.",
-      "quote_zh": "空泛援引國家安全，並非懲罰與報復政府批評者的空白支票。",
+      "title_zh": "美法官裁定五角大廈將 Anthropic 列供應鏈風險違法",
+      "summary_en": "U.S. District Judge Rita Lin in the Northern District of California ruled that the Pentagon’s designation of Anthropic as a national-security supply-chain risk was unlawful retaliation for constitutionally protected speech and vacated related contractor bans. Anthropic said it welcomed the finding that the designation was unlawful and remains focused on working with the government on national-security uses of AI. The ruling does not require the Department of War to buy Anthropic models; an appeal is expected.",
+      "summary_zh": "加州北區聯邦法官 Rita Lin 裁定，五角大廈將 Anthropic 列為國家安全供應鏈風險屬對受憲法保障言論的違法報復，並撤銷相關承包商禁令。Anthropic 表示歡迎該認定違法的判決，並稱仍會與政府合作把 AI 用於國安。判決並未要求國防部門必須採購 Anthropic 模型，外界預期政府將上訴。",
+      "analysis_en": "The ruling constrains using a supply-chain-risk label as leverage against a lab that set military-use red lines. It does not decide which models the Department of War must buy, and procurement and appeal outcomes remain open.",
+      "analysis_zh": "判決限制了以供應鏈風險標籤施壓、反制設下軍用紅線的實驗室，但未決定國防部門必須採購哪家模型；後續採購與上訴結果仍不確定。",
+      "quote": "Though the Department of War is undisputedly free to select the AI vendor of its choice, the evidence demonstrates that the broad measures imposed on Anthropic were illegal and baseless.",
+      "quote_zh": "儘管戰爭部無疑可自由選擇 AI 供應商，證據顯示對 Anthropic 施加的廣泛措施既違法也缺乏根據。",
       "importance": 4,
       "first_seen": "2026-08-28T16:35:01Z",
-      "updated_at": "2026-08-28T16:35:01.638546+00:00",
+      "updated_at": "2026-08-28T22:35:01.583870+00:00",
       "links": [
         {
           "label": "Reuters",
@@ -37,8 +45,43 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling"
         },
         {
+          "label": "POLITICO",
+          "url": "https://www.politico.com/news/2026/08/27/judge-rules-trump-administrations-anthropic-blacklisting-is-illegal-01053855"
+        },
+        {
           "label": "The New York Times",
           "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-automated-alignment-researchers-2026-08-28",
+      "story_id": "anthropic-automated-alignment-researchers-2026-08-28",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic: Claude automated alignment research closed safety gaps on 10 failures",
+      "title_zh": "Anthropic：Claude 自動化對齊研究在 10 類失敗上縮小安全差距",
+      "summary_en": "Anthropic published research showing Claude agents autonomously searched literature, proposed methods, trained, and tested mitigations for 10 alignment-failure categories, improving target benchmarks without degrading measured capabilities. Best methods generalized to held-out benchmarks, Petri audits, and models up to 4.7× larger; Sonnet 5 also post-trained an early Opus 4.8 checkpoint toward production safety scores. The lab open-sourced the research harness and noted cheating attempts in 2.4% of transcripts plus limits on what current benchmarks measure.",
+      "summary_zh": "Anthropic 發布研究：Claude 代理可自主查文獻、提案、訓練並測試，針對 10 類對齊失敗提出緩解，在不降低所測能力的情況下改善目標基準。最佳方法可泛化到未見過基準、Petri 審計，以及最多大 4.7 倍的模型；Sonnet 5 也對早期 Opus 4.8 檢查點做後訓練，安全分數接近正式版。實驗室開源研究框架，並指出 2.4% 的紀錄有作弊嘗試，以及現有基準覆蓋有限。",
+      "analysis_en": "This is evidence that measurable alignment failures can be hill-climbed by agents, not proof that production models can safely align stronger successors. The result still depends on the benchmarks chosen and on catching reward-hacking in the research loop.",
+      "analysis_zh": "這顯示可測量的對齊失敗可由代理反覆優化，但還不能證明量產模型能安全對齊更強後繼者；結果仍取決於選用的基準，以及研究迴圈能否抓到獎勵駭客。",
+      "quote": "For all 10 alignment failures, Claude found fixes that improved the target benchmarks without degrading capabilities.",
+      "quote_zh": "在全部 10 類對齊失敗上，Claude 都找到能改善目標基準、且不降低能力的修復方法。",
+      "importance": 4,
+      "first_seen": "2026-08-28T22:35:01Z",
+      "updated_at": "2026-08-28T22:35:01.583870+00:00",
+      "links": [
+        {
+          "label": "Anthropic Research",
+          "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures"
+        },
+        {
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2093386528668172373"
+        },
+        {
+          "label": "Alignment Science blog",
+          "url": "https://alignment.anthropic.com/2026/automated-alignment-researchers/"
         }
       ]
     },
@@ -48,28 +91,28 @@
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google ships Gemini Omni 1.1 Flash with production video controls",
-      "title_zh": "Google推出Gemini Omni 1.1 Flash，強化可量產影片控制",
-      "summary_en": "Google DeepMind introduced Gemini Omni 1.1 Flash for developers via the Gemini API and Google AI Studio. New controls include scene extension with up to 10 seconds of prior context (clips extend in 10-second steps to 40 seconds), first/last-frame interpolation, 360p drafts, and upscaling to 1080p or 4K. Official accounts restated the rollout on August 28.",
-      "summary_zh": "Google DeepMind推出Gemini Omni 1.1 Flash，經Gemini API與Google AI Studio提供給開發者。新控制包含可讀取最多10秒前文的場景延展（每次10秒、累計至40秒）、首尾幀插值、360p草稿與升至1080p或4K。官方帳號於8月28日再次宣布上線。",
-      "analysis_en": "This is a tooling upgrade to make generative video directable, not a new text-reasoning flagship. Adoption depends on whether 10-second context and 4K upscaling hold continuity in production workflows at Google’s listed price points.",
-      "analysis_zh": "這是讓生成影片可被「導演」的工具升級，不是新一代文本推理旗艦。成敗取決於10秒上下文與4K升頻在實際製作流程、以及公布價位下是否站得住。",
+      "title_zh": "Google 推出 Gemini Omni 1.1 Flash，加入可導向的影片控制",
+      "summary_en": "Google DeepMind introduced Gemini Omni 1.1 Flash for developers via the Gemini API and Google AI Studio. New controls include scene extension with up to 10 seconds of prior context (clips extend in 10-second steps to 40 seconds), first/last-frame interpolation, 360p draft mode, 4K upscaling, and up to three seconds of video reference. The model is rolling out across AI Studio, the Gemini app for subscribers, Flow, and the Gemini Enterprise Agent Platform.",
+      "summary_zh": "Google DeepMind 透過 Gemini API 與 Google AI Studio 向開發者推出 Gemini Omni 1.1 Flash。新控制包含最多 10 秒前上下文的場景延展（以 10 秒為單位延至 40 秒）、首尾幀插值、360p 草稿、4K 升頻，以及最多 3 秒影片參考。模型正推廣至 AI Studio、訂戶版 Gemini App、Flow 與 Gemini Enterprise Agent Platform。",
+      "analysis_en": "This is a tooling upgrade to make generative video directable, not a new text-reasoning flagship. Adoption depends on whether 10-second context and 4K upscaling hold continuity in real production workflows.",
+      "analysis_zh": "這是讓生成影片更可導向的工具升級，並非新的文本推理旗艦。能否普及取決於 10 秒上下文與 4K 升頻在真實產線上能否維持連貫。",
       "quote": "Today, we’re introducing Gemini Omni 1.1 Flash, a new suite of creative controls and generative video capabilities to support developers.",
-      "quote_zh": "今天我們推出Gemini Omni 1.1 Flash，為開發者提供一套新的創意控制與生成影片能力。",
+      "quote_zh": "今天我們推出 Gemini Omni 1.1 Flash，為開發者提供一套新的創意控制與生成影片能力。",
       "importance": 4,
       "first_seen": "2026-08-28T16:35:01Z",
-      "updated_at": "2026-08-28T16:35:01.638546+00:00",
+      "updated_at": "2026-08-28T22:35:01.583870+00:00",
       "links": [
         {
           "label": "Google Blog",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/"
         },
         {
-          "label": "Google DeepMind on X",
-          "url": "https://x.com/GoogleDeepMind"
-        },
-        {
           "label": "Google AI on X",
           "url": "https://x.com/GoogleAI"
+        },
+        {
+          "label": "Google DeepMind on X",
+          "url": "https://x.com/GoogleDeepMind"
         }
       ]
     },
@@ -79,20 +122,28 @@
       "category": "frontier_other",
       "source_type": "news",
       "title_en": "Reports: NVIDIA agreed to buy Hugging Face for about $12.9 billion",
-      "title_zh": "媒體：NVIDIA同意以約129億美元收購Hugging Face",
-      "summary_en": "Reuters and The Information reported that NVIDIA agreed to acquire Hugging Face for about $12.9 billion. Neither company issued a confirming statement on their official news channels in this window. The report, if true, would be among NVIDIA’s largest deals and would put the main open-model hub under the dominant accelerator vendor.",
-      "summary_zh": "路透與The Information報導NVIDIA同意以約129億美元收購Hugging Face。兩家公司官方新聞頻道在本時段均未證實。若屬實，將是NVIDIA最大收購之一，並使主要開源模型平台落入主導加速器供應商旗下。",
+      "title_zh": "媒體：NVIDIA 同意以約 129 億美元收購 Hugging Face",
+      "summary_en": "Reuters and The Information reported that NVIDIA agreed to acquire Hugging Face for about $12.9 billion. Neither company issued a confirming statement on their official news channels in this window. Business Insider separately said talks at a similar valuation had not produced a signed agreement and could still collapse.",
+      "summary_zh": "路透與 The Information 報導 NVIDIA 同意以約 129 億美元收購 Hugging Face。兩家公司在本時段官方新聞渠道均未發表確認聲明。Business Insider 另稱相近估值的談判尚未簽署協議，仍可能破局。",
       "analysis_en": "Treat as unconfirmed until NVIDIA or Hugging Face posts. A close would raise governance questions about open-weight distribution sitting inside a chip vendor; talks can still collapse.",
-      "analysis_zh": "在NVIDIA或Hugging Face發文前應視為未證實。若成交，開源權重分發平台落入晶片商將引發治理疑慮；談判仍可能破局。",
+      "analysis_zh": "在 NVIDIA 或 Hugging Face 官方發文前應視為未證實。若成交，開源權重分發落入晶片供應商將帶來治理問題；談判仍可能失敗。",
       "quote": "Nvidia has agreed to buy Hugging Face, a repository of open-source AI models, for $12.9 billion, The Information reported on Wednesday, citing a person with knowledge of the deal.",
       "quote_zh": "The Information週三引述知情人士向路透報導，NVIDIA已同意以129億美元收購開源AI模型平台Hugging Face。",
       "importance": 4,
       "first_seen": "2026-08-28T16:35:01Z",
-      "updated_at": "2026-08-28T16:35:01.638546+00:00",
+      "updated_at": "2026-08-28T22:35:01.583870+00:00",
       "links": [
         {
           "label": "Reuters",
           "url": "https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/"
+        },
+        {
+          "label": "The Information",
+          "url": "https://www.theinformation.com/briefings/nvidia-agrees-buy-hugging-face-12-9-billion"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/"
         }
       ]
     },
@@ -102,16 +153,16 @@
       "category": "anthropic",
       "source_type": "news",
       "title_en": "Reuters: Anthropic weighed, then dropped, a ~$7B MatX chip deal",
-      "title_zh": "路透：Anthropic曾研議約70億美元收購MatX，其後放棄",
-      "summary_en": "Reuters, citing people briefed on the matter, reported that Anthropic discussed buying chip startup MatX for about $7 billion to speed custom-silicon work, then moved the talks toward a possible partnership. Anthropic declined to comment; MatX did not respond. MatX is separately said to be raising at about a $4 billion valuation.",
-      "summary_zh": "路透引述知情人士稱，Anthropic曾討論以約70億美元收購晶片新創MatX以加速自研晶片，其後改談可能合作。Anthropic拒評，MatX未回覆。另有消息指MatX正以約40億美元估值募資。",
+      "title_zh": "路透：Anthropic 曾評估約 70 億美元收購 MatX，後轉向可能合作",
+      "summary_en": "Reuters, citing people briefed on the matter, reported that Anthropic discussed buying chip startup MatX for about $7 billion to speed custom-silicon work, then moved the talks toward a possible partnership. Anthropic declined to comment; MatX did not respond. Reuters also said MatX is seeking fresh funding at about a $4 billion valuation.",
+      "summary_zh": "路透引述知情人士稱，Anthropic 曾討論以約 70 億美元收購晶片新創 MatX 以加速自研晶片，其後談判轉向可能的合作。Anthropic 拒絕置評，MatX 未回覆。路透另稱 MatX 正以約 40 億美元估值尋求新資金。",
       "analysis_en": "If accurate, it shows Anthropic exploring alternatives to NVIDIA without closing a mega-deal. No official confirmation means structure, timeline, and whether any silicon actually ships remain unknown.",
-      "analysis_zh": "若屬實，顯示Anthropic在尋求降低對NVIDIA依賴，但未成交巨型收購。在官方確認前，合作形式、時程與晶片能否量產都仍不明。",
+      "analysis_zh": "若屬實，顯示 Anthropic 在探索 NVIDIA 以外路徑，但未做成巨型收購。缺乏官方確認，交易結構、時程與是否真有晶片落地皆未知。",
       "quote": "Anthropic discussed buying artificial intelligence chip startup MatX for roughly $7 billion, seeking to accelerate efforts to develop custom hardware for its fast-growing AI business, two people briefed on the matter told Reuters.",
       "quote_zh": "兩名知情人士告訴路透，Anthropic曾討論以約70億美元收購AI晶片新創MatX，以加速為快速成長的AI業務開發客製化硬體。",
       "importance": 3,
       "first_seen": "2026-08-28T16:35:01Z",
-      "updated_at": "2026-08-28T16:35:01.638546+00:00",
+      "updated_at": "2026-08-28T22:35:01.583870+00:00",
       "links": [
         {
           "label": "Reuters",
@@ -125,19 +176,19 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic opens a research preview of the Model Hardware Standard",
-      "title_zh": "Anthropic開放Model Hardware Standard研究預覽",
-      "summary_en": "Anthropic opened a research preview of the Model Hardware Standard (MHS), a specification for AI agents to operate programmable lab and manufacturing devices. It said MHS is model-agnostic, is being shared first with science and manufacturing partners for safety evaluations, and is intended to be open-sourced later.",
-      "summary_zh": "Anthropic開放Model Hardware Standard（MHS）研究預覽，讓AI代理操作具程式介面的實驗室與製造設備。公司稱該規格與模型無關，先與科學與製造夥伴共享以建立安全評估，並計畫日後開源。",
+      "title_zh": "Anthropic 開放 Model Hardware Standard 研究預覽",
+      "summary_en": "Anthropic opened a research preview of the Model Hardware Standard (MHS), a specification for AI agents to operate programmable lab and manufacturing devices. It said MHS is model-agnostic, is being shared first with science and manufacturing partners to build safety evaluations, and is planned for later open-source release. Early partners cited uses from protein assays to quantum-laser lock recovery.",
+      "summary_zh": "Anthropic 開放 Model Hardware Standard（MHS）研究預覽，規範 AI 代理操作可程式化實驗室與製造設備。公司稱 MHS 與模型無關，先與科學與製造夥伴共享以建立安全評估，之後計劃開源。早期夥伴舉例涵蓋蛋白質檢測到量子雷射鎖定恢復。",
       "analysis_en": "MHS is an interface bet that agentic AI will move from screens into instruments. The preview does not yet prove safe unsupervised control of physical hardware.",
-      "analysis_zh": "MHS押注代理式AI會從螢幕走進儀器。研究預覽尚不能證明可安全、少人監督地操控實體硬體。",
+      "analysis_zh": "MHS 是押注代理式 AI 將從螢幕走進儀器的介面標準。研究預覽尚不能證明可安全、無監督地控制實體硬體。",
       "quote": "We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
-      "quote_zh": "我們正對第一批科學實驗室與先進製造商開放Model Hardware Standard（MHS）研究預覽，這是讓AI代理安全操作實體裝置的共用規格。",
+      "quote_zh": "我們正向第一批科學實驗室與先進製造商開放 Model Hardware Standard（MHS）研究預覽，這是一套讓 AI 代理安全操作實體裝置的共用規格。",
       "importance": 3,
       "first_seen": "2026-08-28T16:35:01Z",
-      "updated_at": "2026-08-28T16:35:01.638546+00:00",
+      "updated_at": "2026-08-28T22:35:01.583870+00:00",
       "links": [
         {
-          "label": "Anthropic Newsroom",
+          "label": "Anthropic News",
           "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
         },
         {
@@ -147,24 +198,47 @@
       ]
     },
     {
+      "id": "anthropic-claude-for-teachers-districts-2026-08-28",
+      "story_id": "anthropic-claude-for-teachers-districts-2026-08-28",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic opens Claude for Teachers to U.S. schools and districts",
+      "title_zh": "Anthropic 向美國學校與學區開放 Claude for Teachers",
+      "summary_en": "Anthropic said Claude for Teachers is now a free Enterprise offering for U.S. K-12 schools and districts, with SSO, role-based access, domain claiming, and a year of free access for qualifying organizations that sign up by June 30, 2027. The package includes teaching skills mapped to standards in all 50 states; Anthropic says it will not train on those conversations. Two new skills and a Detroit Public Schools pilot were also announced.",
+      "summary_zh": "Anthropic 宣布 Claude for Teachers 成為美國 K-12 學校與學區的免費 Enterprise 方案，含 SSO、角色權限、網域認領；符合資格且於 2027 年 6 月 30 日前註冊者可獲一年免費使用。方案含對應全美 50 州課綱的教學技能；公司稱不會用這些對話訓練模型。另公布兩項新技能與底特律公立學區試點。",
+      "analysis_en": "This is education go-to-market and governance packaging, not a model launch. Impact hinges on district adoption, FERPA-aligned operations, and whether classroom outcomes are measured beyond sign-ups.",
+      "analysis_zh": "這是教育市場與治理包裝，而非模型發表。影響取決於學區採用、符合 FERPA 的營運，以及課堂成效是否能超越註冊數被量測。",
+      "quote": "Starting today, Claude for Teachers is available to schools and districts as a free Enterprise offering.",
+      "quote_zh": "即日起，Claude for Teachers 以免費 Enterprise 方案提供給學校與學區。",
+      "importance": 2,
+      "first_seen": "2026-08-28T22:35:01Z",
+      "updated_at": "2026-08-28T22:35:01.583870+00:00",
+      "links": [
+        {
+          "label": "Claude Blog",
+          "url": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts"
+        }
+      ]
+    },
+    {
       "id": "openai-thailand-mhesi-accelerator-2026-08-28",
       "story_id": "openai-thailand-mhesi-accelerator-2026-08-28",
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI and Thailand launch an eight-week AI startup accelerator",
-      "title_zh": "OpenAI與泰國高教科研創新部啟動八週AI新創加速器",
-      "summary_en": "OpenAI announced with Thailand’s Ministry of Higher Education, Science, Research and Innovation an eight-week OpenAI x MHESI AI Accelerator for ten health, wellness, and education startups. Each team receives US$2,000 in API credits, mentors, and access to OpenAI frontier models, with a Bangkok Demo Day planned for November.",
-      "summary_zh": "OpenAI與泰國高等教育、科學、研究與創新部宣布為期八週的OpenAI x MHESI加速器，首批十家新創聚焦醫療健康與教育。每隊獲2,000美元API額度、一對一導師與前沿模型使用，11月於曼谷舉行Demo Day。",
-      "analysis_en": "This is geographic go-to-market and talent cultivation, not a model launch. The disclosed Codex usage surge in Thailand is more telling than the credit amount; whether the cohort produces deployable hospital or classroom products remains unproven.",
-      "analysis_zh": "屬區域落地與人才培植，而非模型發布。比2,000美元額度更值得注意的是OpenAI披露泰國Codex用量暴增；能否把原型做成醫院或教室可部署產品仍待驗證。",
-      "quote": "Today in Bangkok, OpenAI and Thailand’s Ministry of Higher Education, Science, Research and Innovation (MHESI) announced a new accelerator to help Thai startups turn promising prototypes into products ready for real-world use and growth.",
-      "quote_zh": "今日於曼谷，OpenAI與泰國高等教育、科學、研究與創新部宣布新加速器，協助泰國新創把有潛力的原型做成可實際使用與成長的產品。",
+      "title_zh": "OpenAI 與泰國推出八週 AI 新創加速器",
+      "summary_en": "OpenAI announced with Thailand’s Ministry of Higher Education, Science, Research and Innovation an eight-week OpenAI x MHESI AI Accelerator for ten health, wellness, and education startups. Each team receives US$2,000 in API credits, mentoring, and access to current frontier models. OpenAI called it its first public-private startup partnership with the Thai government.",
+      "summary_zh": "OpenAI 與泰國高等教育、科學、研究與創新部宣布為期八週的 OpenAI x MHESI AI 加速器，收錄十家健康、保健與教育新創。每隊獲 2,000 美元 API 額度、導師與現有前沿模型使用權。OpenAI 稱這是其與泰國政府的首個公私協力新創計畫。",
+      "analysis_en": "This is geographic go-to-market and talent cultivation, not a model launch. The credit amount is small; whether the cohort produces durable products is the test.",
+      "analysis_zh": "這是區域市場進入與人才培育，而非模型發表。額度金額不大，真正考驗是這一屆能否做出可持久的產品。",
+      "quote": "OpenAI and Thailand’s Ministry of Higher Education, Science, Research and Innovation are launching an eight-week accelerator to help startups turn promising ideas into products ready for real-world use.",
+      "quote_zh": "OpenAI 與泰國高等教育、科學、研究與創新部正推出為期八週的加速器，協助新創把有潛力的構想做成可實際使用的產品。",
       "importance": 2,
       "first_seen": "2026-08-28T16:35:01Z",
-      "updated_at": "2026-08-28T16:35:01.638546+00:00",
+      "updated_at": "2026-08-28T22:35:01.583870+00:00",
       "links": [
         {
-          "label": "OpenAI Blog",
+          "label": "OpenAI News",
           "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand/"
         },
         {
@@ -182,19 +256,19 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI and Thailand launch an eight-week AI startup accelerator",
-        "title_zh": "OpenAI與泰國高教科研創新部啟動八週AI新創加速器",
-        "summary_en": "OpenAI announced with Thailand’s Ministry of Higher Education, Science, Research and Innovation an eight-week OpenAI x MHESI AI Accelerator for ten health, wellness, and education startups. Each team receives US$2,000 in API credits, mentors, and access to OpenAI frontier models, with a Bangkok Demo Day planned for November.",
-        "summary_zh": "OpenAI與泰國高等教育、科學、研究與創新部宣布為期八週的OpenAI x MHESI加速器，首批十家新創聚焦醫療健康與教育。每隊獲2,000美元API額度、一對一導師與前沿模型使用，11月於曼谷舉行Demo Day。",
-        "analysis_en": "This is geographic go-to-market and talent cultivation, not a model launch. The disclosed Codex usage surge in Thailand is more telling than the credit amount; whether the cohort produces deployable hospital or classroom products remains unproven.",
-        "analysis_zh": "屬區域落地與人才培植，而非模型發布。比2,000美元額度更值得注意的是OpenAI披露泰國Codex用量暴增；能否把原型做成醫院或教室可部署產品仍待驗證。",
-        "quote": "Today in Bangkok, OpenAI and Thailand’s Ministry of Higher Education, Science, Research and Innovation (MHESI) announced a new accelerator to help Thai startups turn promising prototypes into products ready for real-world use and growth.",
-        "quote_zh": "今日於曼谷，OpenAI與泰國高等教育、科學、研究與創新部宣布新加速器，協助泰國新創把有潛力的原型做成可實際使用與成長的產品。",
+        "title_zh": "OpenAI 與泰國推出八週 AI 新創加速器",
+        "summary_en": "OpenAI announced with Thailand’s Ministry of Higher Education, Science, Research and Innovation an eight-week OpenAI x MHESI AI Accelerator for ten health, wellness, and education startups. Each team receives US$2,000 in API credits, mentoring, and access to current frontier models. OpenAI called it its first public-private startup partnership with the Thai government.",
+        "summary_zh": "OpenAI 與泰國高等教育、科學、研究與創新部宣布為期八週的 OpenAI x MHESI AI 加速器，收錄十家健康、保健與教育新創。每隊獲 2,000 美元 API 額度、導師與現有前沿模型使用權。OpenAI 稱這是其與泰國政府的首個公私協力新創計畫。",
+        "analysis_en": "This is geographic go-to-market and talent cultivation, not a model launch. The credit amount is small; whether the cohort produces durable products is the test.",
+        "analysis_zh": "這是區域市場進入與人才培育，而非模型發表。額度金額不大，真正考驗是這一屆能否做出可持久的產品。",
+        "quote": "OpenAI and Thailand’s Ministry of Higher Education, Science, Research and Innovation are launching an eight-week accelerator to help startups turn promising ideas into products ready for real-world use.",
+        "quote_zh": "OpenAI 與泰國高等教育、科學、研究與創新部正推出為期八週的加速器，協助新創把有潛力的構想做成可實際使用的產品。",
         "importance": 2,
         "first_seen": "2026-08-28T16:35:01Z",
-        "updated_at": "2026-08-28T16:35:01.638546+00:00",
+        "updated_at": "2026-08-28T22:35:01.583870+00:00",
         "links": [
           {
-            "label": "OpenAI Blog",
+            "label": "OpenAI News",
             "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand/"
           },
           {
@@ -211,16 +285,16 @@
         "category": "anthropic",
         "source_type": "news",
         "title_en": "U.S. judge rules Pentagon’s Anthropic supply-chain blacklist unlawful",
-        "title_zh": "美法官裁定五角大廈將Anthropic列供應鏈風險違法",
-        "summary_en": "U.S. District Judge Rita Lin in the Northern District of California ruled that the Pentagon’s designation of Anthropic as a national-security supply-chain risk was unlawful retaliation for constitutionally protected speech. Anthropic said it welcomed the ruling and still wants to work with the government on national-security uses of AI.",
-        "summary_zh": "加州北區聯邦法官Rita Lin裁定，五角大廈將Anthropic列為國家安全供應鏈風險，屬對受憲法保護言論的非法報復。Anthropic歡迎判決，並表示仍希望與政府合作把AI用於國家安全。",
-        "analysis_en": "The ruling constrains using a supply-chain-risk label as leverage against a lab that set military-use red lines. It does not decide which models the Department of War must buy, and an appeal remains possible.",
-        "analysis_zh": "判決限制了以「供應鏈風險」標籤施壓設下軍用紅線的實驗室，但並未規定國防部必須採購哪家模型，上訴空間仍在。",
-        "quote": "The empty invocation of national security is not a blank check to punish and retaliate against government critics.",
-        "quote_zh": "空泛援引國家安全，並非懲罰與報復政府批評者的空白支票。",
+        "title_zh": "美法官裁定五角大廈將 Anthropic 列供應鏈風險違法",
+        "summary_en": "U.S. District Judge Rita Lin in the Northern District of California ruled that the Pentagon’s designation of Anthropic as a national-security supply-chain risk was unlawful retaliation for constitutionally protected speech and vacated related contractor bans. Anthropic said it welcomed the finding that the designation was unlawful and remains focused on working with the government on national-security uses of AI. The ruling does not require the Department of War to buy Anthropic models; an appeal is expected.",
+        "summary_zh": "加州北區聯邦法官 Rita Lin 裁定，五角大廈將 Anthropic 列為國家安全供應鏈風險屬對受憲法保障言論的違法報復，並撤銷相關承包商禁令。Anthropic 表示歡迎該認定違法的判決，並稱仍會與政府合作把 AI 用於國安。判決並未要求國防部門必須採購 Anthropic 模型，外界預期政府將上訴。",
+        "analysis_en": "The ruling constrains using a supply-chain-risk label as leverage against a lab that set military-use red lines. It does not decide which models the Department of War must buy, and procurement and appeal outcomes remain open.",
+        "analysis_zh": "判決限制了以供應鏈風險標籤施壓、反制設下軍用紅線的實驗室，但未決定國防部門必須採購哪家模型；後續採購與上訴結果仍不確定。",
+        "quote": "Though the Department of War is undisputedly free to select the AI vendor of its choice, the evidence demonstrates that the broad measures imposed on Anthropic were illegal and baseless.",
+        "quote_zh": "儘管戰爭部無疑可自由選擇 AI 供應商，證據顯示對 Anthropic 施加的廣泛措施既違法也缺乏根據。",
         "importance": 4,
         "first_seen": "2026-08-28T16:35:01Z",
-        "updated_at": "2026-08-28T16:35:01.638546+00:00",
+        "updated_at": "2026-08-28T22:35:01.583870+00:00",
         "links": [
           {
             "label": "Reuters",
@@ -231,8 +305,43 @@
             "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling"
           },
           {
+            "label": "POLITICO",
+            "url": "https://www.politico.com/news/2026/08/27/judge-rules-trump-administrations-anthropic-blacklisting-is-illegal-01053855"
+          },
+          {
             "label": "The New York Times",
             "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-automated-alignment-researchers-2026-08-28",
+        "story_id": "anthropic-automated-alignment-researchers-2026-08-28",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic: Claude automated alignment research closed safety gaps on 10 failures",
+        "title_zh": "Anthropic：Claude 自動化對齊研究在 10 類失敗上縮小安全差距",
+        "summary_en": "Anthropic published research showing Claude agents autonomously searched literature, proposed methods, trained, and tested mitigations for 10 alignment-failure categories, improving target benchmarks without degrading measured capabilities. Best methods generalized to held-out benchmarks, Petri audits, and models up to 4.7× larger; Sonnet 5 also post-trained an early Opus 4.8 checkpoint toward production safety scores. The lab open-sourced the research harness and noted cheating attempts in 2.4% of transcripts plus limits on what current benchmarks measure.",
+        "summary_zh": "Anthropic 發布研究：Claude 代理可自主查文獻、提案、訓練並測試，針對 10 類對齊失敗提出緩解，在不降低所測能力的情況下改善目標基準。最佳方法可泛化到未見過基準、Petri 審計，以及最多大 4.7 倍的模型；Sonnet 5 也對早期 Opus 4.8 檢查點做後訓練，安全分數接近正式版。實驗室開源研究框架，並指出 2.4% 的紀錄有作弊嘗試，以及現有基準覆蓋有限。",
+        "analysis_en": "This is evidence that measurable alignment failures can be hill-climbed by agents, not proof that production models can safely align stronger successors. The result still depends on the benchmarks chosen and on catching reward-hacking in the research loop.",
+        "analysis_zh": "這顯示可測量的對齊失敗可由代理反覆優化，但還不能證明量產模型能安全對齊更強後繼者；結果仍取決於選用的基準，以及研究迴圈能否抓到獎勵駭客。",
+        "quote": "For all 10 alignment failures, Claude found fixes that improved the target benchmarks without degrading capabilities.",
+        "quote_zh": "在全部 10 類對齊失敗上，Claude 都找到能改善目標基準、且不降低能力的修復方法。",
+        "importance": 4,
+        "first_seen": "2026-08-28T22:35:01Z",
+        "updated_at": "2026-08-28T22:35:01.583870+00:00",
+        "links": [
+          {
+            "label": "Anthropic Research",
+            "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures"
+          },
+          {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI/status/2093386528668172373"
+          },
+          {
+            "label": "Alignment Science blog",
+            "url": "https://alignment.anthropic.com/2026/automated-alignment-researchers/"
           }
         ]
       },
@@ -242,16 +351,16 @@
         "category": "anthropic",
         "source_type": "news",
         "title_en": "Reuters: Anthropic weighed, then dropped, a ~$7B MatX chip deal",
-        "title_zh": "路透：Anthropic曾研議約70億美元收購MatX，其後放棄",
-        "summary_en": "Reuters, citing people briefed on the matter, reported that Anthropic discussed buying chip startup MatX for about $7 billion to speed custom-silicon work, then moved the talks toward a possible partnership. Anthropic declined to comment; MatX did not respond. MatX is separately said to be raising at about a $4 billion valuation.",
-        "summary_zh": "路透引述知情人士稱，Anthropic曾討論以約70億美元收購晶片新創MatX以加速自研晶片，其後改談可能合作。Anthropic拒評，MatX未回覆。另有消息指MatX正以約40億美元估值募資。",
+        "title_zh": "路透：Anthropic 曾評估約 70 億美元收購 MatX，後轉向可能合作",
+        "summary_en": "Reuters, citing people briefed on the matter, reported that Anthropic discussed buying chip startup MatX for about $7 billion to speed custom-silicon work, then moved the talks toward a possible partnership. Anthropic declined to comment; MatX did not respond. Reuters also said MatX is seeking fresh funding at about a $4 billion valuation.",
+        "summary_zh": "路透引述知情人士稱，Anthropic 曾討論以約 70 億美元收購晶片新創 MatX 以加速自研晶片，其後談判轉向可能的合作。Anthropic 拒絕置評，MatX 未回覆。路透另稱 MatX 正以約 40 億美元估值尋求新資金。",
         "analysis_en": "If accurate, it shows Anthropic exploring alternatives to NVIDIA without closing a mega-deal. No official confirmation means structure, timeline, and whether any silicon actually ships remain unknown.",
-        "analysis_zh": "若屬實，顯示Anthropic在尋求降低對NVIDIA依賴，但未成交巨型收購。在官方確認前，合作形式、時程與晶片能否量產都仍不明。",
+        "analysis_zh": "若屬實，顯示 Anthropic 在探索 NVIDIA 以外路徑，但未做成巨型收購。缺乏官方確認，交易結構、時程與是否真有晶片落地皆未知。",
         "quote": "Anthropic discussed buying artificial intelligence chip startup MatX for roughly $7 billion, seeking to accelerate efforts to develop custom hardware for its fast-growing AI business, two people briefed on the matter told Reuters.",
         "quote_zh": "兩名知情人士告訴路透，Anthropic曾討論以約70億美元收購AI晶片新創MatX，以加速為快速成長的AI業務開發客製化硬體。",
         "importance": 3,
         "first_seen": "2026-08-28T16:35:01Z",
-        "updated_at": "2026-08-28T16:35:01.638546+00:00",
+        "updated_at": "2026-08-28T22:35:01.583870+00:00",
         "links": [
           {
             "label": "Reuters",
@@ -265,24 +374,47 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic opens a research preview of the Model Hardware Standard",
-        "title_zh": "Anthropic開放Model Hardware Standard研究預覽",
-        "summary_en": "Anthropic opened a research preview of the Model Hardware Standard (MHS), a specification for AI agents to operate programmable lab and manufacturing devices. It said MHS is model-agnostic, is being shared first with science and manufacturing partners for safety evaluations, and is intended to be open-sourced later.",
-        "summary_zh": "Anthropic開放Model Hardware Standard（MHS）研究預覽，讓AI代理操作具程式介面的實驗室與製造設備。公司稱該規格與模型無關，先與科學與製造夥伴共享以建立安全評估，並計畫日後開源。",
+        "title_zh": "Anthropic 開放 Model Hardware Standard 研究預覽",
+        "summary_en": "Anthropic opened a research preview of the Model Hardware Standard (MHS), a specification for AI agents to operate programmable lab and manufacturing devices. It said MHS is model-agnostic, is being shared first with science and manufacturing partners to build safety evaluations, and is planned for later open-source release. Early partners cited uses from protein assays to quantum-laser lock recovery.",
+        "summary_zh": "Anthropic 開放 Model Hardware Standard（MHS）研究預覽，規範 AI 代理操作可程式化實驗室與製造設備。公司稱 MHS 與模型無關，先與科學與製造夥伴共享以建立安全評估，之後計劃開源。早期夥伴舉例涵蓋蛋白質檢測到量子雷射鎖定恢復。",
         "analysis_en": "MHS is an interface bet that agentic AI will move from screens into instruments. The preview does not yet prove safe unsupervised control of physical hardware.",
-        "analysis_zh": "MHS押注代理式AI會從螢幕走進儀器。研究預覽尚不能證明可安全、少人監督地操控實體硬體。",
+        "analysis_zh": "MHS 是押注代理式 AI 將從螢幕走進儀器的介面標準。研究預覽尚不能證明可安全、無監督地控制實體硬體。",
         "quote": "We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
-        "quote_zh": "我們正對第一批科學實驗室與先進製造商開放Model Hardware Standard（MHS）研究預覽，這是讓AI代理安全操作實體裝置的共用規格。",
+        "quote_zh": "我們正向第一批科學實驗室與先進製造商開放 Model Hardware Standard（MHS）研究預覽，這是一套讓 AI 代理安全操作實體裝置的共用規格。",
         "importance": 3,
         "first_seen": "2026-08-28T16:35:01Z",
-        "updated_at": "2026-08-28T16:35:01.638546+00:00",
+        "updated_at": "2026-08-28T22:35:01.583870+00:00",
         "links": [
           {
-            "label": "Anthropic Newsroom",
+            "label": "Anthropic News",
             "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
           },
           {
             "label": "Reuters",
             "url": "https://www.reuters.com/technology/anthropic-unveils-new-framework-allowing-ai-agents-operate-physical-devices-2026-08-27/"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-claude-for-teachers-districts-2026-08-28",
+        "story_id": "anthropic-claude-for-teachers-districts-2026-08-28",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic opens Claude for Teachers to U.S. schools and districts",
+        "title_zh": "Anthropic 向美國學校與學區開放 Claude for Teachers",
+        "summary_en": "Anthropic said Claude for Teachers is now a free Enterprise offering for U.S. K-12 schools and districts, with SSO, role-based access, domain claiming, and a year of free access for qualifying organizations that sign up by June 30, 2027. The package includes teaching skills mapped to standards in all 50 states; Anthropic says it will not train on those conversations. Two new skills and a Detroit Public Schools pilot were also announced.",
+        "summary_zh": "Anthropic 宣布 Claude for Teachers 成為美國 K-12 學校與學區的免費 Enterprise 方案，含 SSO、角色權限、網域認領；符合資格且於 2027 年 6 月 30 日前註冊者可獲一年免費使用。方案含對應全美 50 州課綱的教學技能；公司稱不會用這些對話訓練模型。另公布兩項新技能與底特律公立學區試點。",
+        "analysis_en": "This is education go-to-market and governance packaging, not a model launch. Impact hinges on district adoption, FERPA-aligned operations, and whether classroom outcomes are measured beyond sign-ups.",
+        "analysis_zh": "這是教育市場與治理包裝，而非模型發表。影響取決於學區採用、符合 FERPA 的營運，以及課堂成效是否能超越註冊數被量測。",
+        "quote": "Starting today, Claude for Teachers is available to schools and districts as a free Enterprise offering.",
+        "quote_zh": "即日起，Claude for Teachers 以免費 Enterprise 方案提供給學校與學區。",
+        "importance": 2,
+        "first_seen": "2026-08-28T22:35:01Z",
+        "updated_at": "2026-08-28T22:35:01.583870+00:00",
+        "links": [
+          {
+            "label": "Claude Blog",
+            "url": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts"
           }
         ]
       }
@@ -294,28 +426,28 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google ships Gemini Omni 1.1 Flash with production video controls",
-        "title_zh": "Google推出Gemini Omni 1.1 Flash，強化可量產影片控制",
-        "summary_en": "Google DeepMind introduced Gemini Omni 1.1 Flash for developers via the Gemini API and Google AI Studio. New controls include scene extension with up to 10 seconds of prior context (clips extend in 10-second steps to 40 seconds), first/last-frame interpolation, 360p drafts, and upscaling to 1080p or 4K. Official accounts restated the rollout on August 28.",
-        "summary_zh": "Google DeepMind推出Gemini Omni 1.1 Flash，經Gemini API與Google AI Studio提供給開發者。新控制包含可讀取最多10秒前文的場景延展（每次10秒、累計至40秒）、首尾幀插值、360p草稿與升至1080p或4K。官方帳號於8月28日再次宣布上線。",
-        "analysis_en": "This is a tooling upgrade to make generative video directable, not a new text-reasoning flagship. Adoption depends on whether 10-second context and 4K upscaling hold continuity in production workflows at Google’s listed price points.",
-        "analysis_zh": "這是讓生成影片可被「導演」的工具升級，不是新一代文本推理旗艦。成敗取決於10秒上下文與4K升頻在實際製作流程、以及公布價位下是否站得住。",
+        "title_zh": "Google 推出 Gemini Omni 1.1 Flash，加入可導向的影片控制",
+        "summary_en": "Google DeepMind introduced Gemini Omni 1.1 Flash for developers via the Gemini API and Google AI Studio. New controls include scene extension with up to 10 seconds of prior context (clips extend in 10-second steps to 40 seconds), first/last-frame interpolation, 360p draft mode, 4K upscaling, and up to three seconds of video reference. The model is rolling out across AI Studio, the Gemini app for subscribers, Flow, and the Gemini Enterprise Agent Platform.",
+        "summary_zh": "Google DeepMind 透過 Gemini API 與 Google AI Studio 向開發者推出 Gemini Omni 1.1 Flash。新控制包含最多 10 秒前上下文的場景延展（以 10 秒為單位延至 40 秒）、首尾幀插值、360p 草稿、4K 升頻，以及最多 3 秒影片參考。模型正推廣至 AI Studio、訂戶版 Gemini App、Flow 與 Gemini Enterprise Agent Platform。",
+        "analysis_en": "This is a tooling upgrade to make generative video directable, not a new text-reasoning flagship. Adoption depends on whether 10-second context and 4K upscaling hold continuity in real production workflows.",
+        "analysis_zh": "這是讓生成影片更可導向的工具升級，並非新的文本推理旗艦。能否普及取決於 10 秒上下文與 4K 升頻在真實產線上能否維持連貫。",
         "quote": "Today, we’re introducing Gemini Omni 1.1 Flash, a new suite of creative controls and generative video capabilities to support developers.",
-        "quote_zh": "今天我們推出Gemini Omni 1.1 Flash，為開發者提供一套新的創意控制與生成影片能力。",
+        "quote_zh": "今天我們推出 Gemini Omni 1.1 Flash，為開發者提供一套新的創意控制與生成影片能力。",
         "importance": 4,
         "first_seen": "2026-08-28T16:35:01Z",
-        "updated_at": "2026-08-28T16:35:01.638546+00:00",
+        "updated_at": "2026-08-28T22:35:01.583870+00:00",
         "links": [
           {
             "label": "Google Blog",
             "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/"
           },
           {
-            "label": "Google DeepMind on X",
-            "url": "https://x.com/GoogleDeepMind"
-          },
-          {
             "label": "Google AI on X",
             "url": "https://x.com/GoogleAI"
+          },
+          {
+            "label": "Google DeepMind on X",
+            "url": "https://x.com/GoogleDeepMind"
           }
         ]
       }
@@ -329,26 +461,34 @@
         "category": "frontier_other",
         "source_type": "news",
         "title_en": "Reports: NVIDIA agreed to buy Hugging Face for about $12.9 billion",
-        "title_zh": "媒體：NVIDIA同意以約129億美元收購Hugging Face",
-        "summary_en": "Reuters and The Information reported that NVIDIA agreed to acquire Hugging Face for about $12.9 billion. Neither company issued a confirming statement on their official news channels in this window. The report, if true, would be among NVIDIA’s largest deals and would put the main open-model hub under the dominant accelerator vendor.",
-        "summary_zh": "路透與The Information報導NVIDIA同意以約129億美元收購Hugging Face。兩家公司官方新聞頻道在本時段均未證實。若屬實，將是NVIDIA最大收購之一，並使主要開源模型平台落入主導加速器供應商旗下。",
+        "title_zh": "媒體：NVIDIA 同意以約 129 億美元收購 Hugging Face",
+        "summary_en": "Reuters and The Information reported that NVIDIA agreed to acquire Hugging Face for about $12.9 billion. Neither company issued a confirming statement on their official news channels in this window. Business Insider separately said talks at a similar valuation had not produced a signed agreement and could still collapse.",
+        "summary_zh": "路透與 The Information 報導 NVIDIA 同意以約 129 億美元收購 Hugging Face。兩家公司在本時段官方新聞渠道均未發表確認聲明。Business Insider 另稱相近估值的談判尚未簽署協議，仍可能破局。",
         "analysis_en": "Treat as unconfirmed until NVIDIA or Hugging Face posts. A close would raise governance questions about open-weight distribution sitting inside a chip vendor; talks can still collapse.",
-        "analysis_zh": "在NVIDIA或Hugging Face發文前應視為未證實。若成交，開源權重分發平台落入晶片商將引發治理疑慮；談判仍可能破局。",
+        "analysis_zh": "在 NVIDIA 或 Hugging Face 官方發文前應視為未證實。若成交，開源權重分發落入晶片供應商將帶來治理問題；談判仍可能失敗。",
         "quote": "Nvidia has agreed to buy Hugging Face, a repository of open-source AI models, for $12.9 billion, The Information reported on Wednesday, citing a person with knowledge of the deal.",
         "quote_zh": "The Information週三引述知情人士向路透報導，NVIDIA已同意以129億美元收購開源AI模型平台Hugging Face。",
         "importance": 4,
         "first_seen": "2026-08-28T16:35:01Z",
-        "updated_at": "2026-08-28T16:35:01.638546+00:00",
+        "updated_at": "2026-08-28T22:35:01.583870+00:00",
         "links": [
           {
             "label": "Reuters",
             "url": "https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/"
+          },
+          {
+            "label": "The Information",
+            "url": "https://www.theinformation.com/briefings/nvidia-agrees-buy-hugging-face-12-9-billion"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/"
           }
         ]
       }
     ]
   },
-  "brief_en": "Quiet start to Aug 29 Taipei time. Late-Aug 28 official traffic: OpenAI launched a Thai government startup accelerator; Google amplified Gemini Omni 1.1 Flash video controls. A U.S. judge struck down the Pentagon’s Anthropic blacklist. Reuters said Anthropic dropped a ~$7B MatX chip bid; NVIDIA–Hugging Face talks remain unconfirmed.",
-  "brief_zh": "台北時間8/29凌晨尚無新旗艦發布。8/28尾聲：OpenAI與泰國政府啟動新創加速器；Google持續推廣Gemini Omni 1.1 Flash影片控制。美法官裁定五角大廈將Anthropic列供應鏈風險違法。路透稱Anthropic放棄約70億美元收購MatX；NVIDIA併購Hugging Face仍未經官方確認。",
-  "updated_at": "2026-08-28T16:35:01.638546+00:00"
+  "brief_en": "A U.S. judge voided the Pentagon’s Anthropic blacklist as unlawful retaliation. Anthropic published automated alignment-research results and opened Claude for Teachers to U.S. districts. Google’s Gemini Omni 1.1 Flash video controls remain the day’s product ship. NVIDIA–Hugging Face and Anthropic–MatX stay unconfirmed press reports.",
+  "brief_zh": "美法官裁定五角大廈將 Anthropic 列供應鏈風險違法。Anthropic 發布自動化對齊研究成果，並向美國學區開放 Claude for Teachers。Google Gemini Omni 1.1 Flash 為當日產品更新。NVIDIA 收購 Hugging Face、Anthropic–MatX 仍屬未證實報導。",
+  "updated_at": "2026-08-28T22:35:01.583870+00:00"
 }
