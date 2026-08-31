@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-08-31T16:35:01.995916+00:00",
+  "updated_at": "2026-08-31T22:35:00.887064+00:00",
   "models": [
+    {
+      "model_id": "gpt-5.4-codex-chatgpt-login",
+      "name": "GPT-5.4 / GPT-5.4 mini (Codex, ChatGPT sign-in)",
+      "lab": "openai",
+      "kind": "deprecation",
+      "released": "2026-08-31",
+      "note_en": "Removed from Codex for ChatGPT-signed-in users; API and API-key Codex sessions keep access. Replacements: GPT-5.6 Terra / Luna.",
+      "note_zh": "ChatGPT 登入的 Codex 停用；API 與 API Key 工作階段仍可用。替代：GPT-5.6 Terra／Luna。",
+      "link": "https://help.openai.com/articles/11369540",
+      "recorded_at": "2026-08-31T22:35:00.887064+00:00"
+    },
+    {
+      "model_id": "mistral-medium-3-2505",
+      "name": "Mistral Medium 3 / Medium 3.1",
+      "lab": "frontier_other",
+      "kind": "deprecation",
+      "released": "2026-08-31",
+      "note_en": "API IDs mistral-medium-2505 and mistral-medium-2508 retire; docs name Medium 3.5 as replacement.",
+      "note_zh": "API ID mistral-medium-2505 與 2508 退役；文件指定改用 Medium 3.5。",
+      "link": "https://docs.mistral.ai/models",
+      "recorded_at": "2026-08-31T22:35:00.887064+00:00"
+    },
     {
       "model_id": "gpt-5-4-codex-chatgpt-login",
       "name": "GPT-5.4 / GPT-5.4 mini",
@@ -29,8 +51,8 @@
       "lab": "google",
       "kind": "deprecation",
       "released": "2026-08-31",
-      "note_en": "Preview endpoint scheduled to shut down today; replacement is gemini-robotics-er-2-preview.",
-      "note_zh": "預覽端點依時程於今日關閉；替代為 gemini-robotics-er-2-preview。",
+      "note_en": "Preview endpoint shutdown; official replacement is gemini-robotics-er-2-preview.",
+      "note_zh": "預覽端點關閉；官方替代為 gemini-robotics-er-2-preview。",
       "link": "https://ai.google.dev/gemini-api/docs/deprecations",
       "recorded_at": "2026-08-31T10:35:01.647607+00:00"
     },
