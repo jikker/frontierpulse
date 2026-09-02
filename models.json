@@ -1,14 +1,25 @@
 {
-  "updated_at": "2026-09-01T22:35:01.796912+00:00",
+  "updated_at": "2026-09-02T04:35:01.189567+00:00",
   "models": [
+    {
+      "model_id": "world-labs-atlas",
+      "name": "Atlas",
+      "lab": "frontier_other",
+      "kind": "model",
+      "released": "2026-09-01",
+      "note_en": "World Labs omni world model for camera-controlled generation, sparse 3D reconstruction, and real-to-sim; early access only.",
+      "note_zh": "World Labs全模態世界模型，用於相機控制生成、稀疏3D重建與真實到模擬；僅早期存取。",
+      "link": "https://www.worldlabs.ai/blog/atlas",
+      "recorded_at": "2026-09-02T04:35:01.189567+00:00"
+    },
     {
       "model_id": "claude-fable-5-1",
       "name": "Claude Fable 5.1",
       "lab": "anthropic",
       "kind": "update",
       "released": "2026-09-01",
-      "note_en": "Generally available Mythos-class model for coding and knowledge work; cheaper cache reads than Fable 5.",
-      "note_zh": "全面開放的 Mythos 級程式／知識工作模型；快取讀取較 Fable 5 便宜。",
+      "note_en": "Generally available Mythos-class successor to Fable 5; cheaper cache reads and tighter false-positive safeguards.",
+      "note_zh": "全面供應的Mythos級Fable 5後繼；快取讀取更便宜、誤擋更少。",
       "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
       "recorded_at": "2026-09-01T22:35:01.796912+00:00"
     },
@@ -18,8 +29,8 @@
       "lab": "anthropic",
       "kind": "update",
       "released": "2026-09-01",
-      "note_en": "Same weights as Fable 5.1 with lifted cyber/bio safeguards; trusted-access programs only.",
-      "note_zh": "與 Fable 5.1 同權重、放寬資安／生科防護；僅限受信取用計畫。",
+      "note_en": "Same model as Fable 5.1 with lifted cyber/life-science safeguards; trusted-access / Project Glasswing only.",
+      "note_zh": "與Fable 5.1同模型、資安／生命科學安全層較鬆；僅限受信計畫／Project Glasswing。",
       "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
       "recorded_at": "2026-09-01T22:35:01.796912+00:00"
     },
@@ -29,8 +40,8 @@
       "lab": "meta",
       "kind": "model",
       "released": "2026-09-01",
-      "note_en": "Real-time streaming ASR, diarization, and endpointing model from the Muse Spark family.",
-      "note_zh": "Muse Spark 家族的即時串流語音辨識、說話人分離與句末偵測模型。",
+      "note_en": "MSL’s first real-time audio perception model: streaming ASR, 20+ speaker diarization, endpointing; closed weights.",
+      "note_zh": "MSL首個即時音訊感知模型：串流語音辨識、20人以上分離、句尾偵測；權重不開放。",
       "link": "https://research.meta.ai/blog/introducing-muse-voice-transcribe",
       "recorded_at": "2026-09-01T22:35:01.796912+00:00"
     },
