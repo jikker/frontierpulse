@@ -24,6 +24,14 @@
       "item_count": 5,
       "updated_count": 4,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-09-03T10:35:01.548993+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 6,
+      "updated_count": 5,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -34,15 +42,15 @@
       "source_type": "official_blog",
       "title_en": "Google launches Gemini 3.8 Flash and 3.8 Flash Cyber",
       "title_zh": "Google 推出 Gemini 3.8 Flash 與 3.8 Flash Cyber",
-      "summary_en": "Google DeepMind announced Gemini 3.8 Flash as its most intelligent workhorse model, claiming gains over 3.7 Flash on long-horizon software engineering, agentic tasks, and multi-step reasoning, at the same introductory price of $0.75/$3.75 per million input/output tokens. A restricted sibling, 3.8 Flash Cyber, is offered to trusted defenders through the new Fairwind Program for vulnerability discovery and automated patching. Hassabis called it another Flash upgrade in under a month.",
-      "summary_zh": "Google DeepMind 宣布 Gemini 3.8 Flash 為目前最聰明的工作馬模型，稱在長程軟體工程、代理任務與多步推理上優於 3.7 Flash，導入價維持每百萬 token $0.75／$3.75。受限版 3.8 Flash Cyber 經新設 Fairwind Program 提供給受信任防禦方，用於漏洞發現與自動修補。Hassabis 稱這是一個月內又一次 Flash 升級。",
-      "analysis_en": "The cadence-and-cost strategy is the point: Google is iterating Flash faster than flagship Pro drops, and pairing a public workhorse with a restricted cyber variant. Independent confirmation of DeepSWE, CyberGym, and Chrome-patch claims is still pending; introductory pricing expires 31 Dec 2026.",
-      "analysis_zh": "節奏與成本才是重點：Google 用 Flash 連發補上旗艦 Pro 空窗，並把公開工作馬與受限資安變體拆開。DeepSWE、CyberGym 與 Chrome 修補數據仍待獨立覆核；導入價於 2026-12-31 到期。",
-      "quote": "today we’re introducing Gemini 3.8, our best reasoning & coding model yet, at the same speed and low cost of 3.7.",
-      "quote_zh": "今天我們推出 Gemini 3.8，目前最佳推理與程式模型，速度與成本與 3.7 相同。",
+      "summary_en": "Google DeepMind announced Gemini 3.8 Flash as its most intelligent workhorse model, claiming gains over 3.7 Flash on long-horizon software engineering, agentic tasks, and multi-step reasoning, at the same introductory price of $0.75/$3.75 per million input/output tokens through Dec. 31, 2026. A companion 3.8 Flash Cyber model, aimed at vulnerability discovery and automated patching, is limited to trusted defenders via the new Fairwind Program. Google said Chrome Security produced 2.6× more correct patches with Cyber than with larger commercial models.",
+      "summary_zh": "Google DeepMind 宣布 Gemini 3.8 Flash 為目前最聰明的工作馬模型，稱在長時程軟體工程、代理任務與多步推理上優於 3.7 Flash，導入價維持每百萬 token $0.75／$3.75（至 2026-12-31）。配套的 3.8 Flash Cyber 主打漏洞發現與自動修補，僅透過新 Fairwind Program 提供給受信任防禦方。Google 稱 Chrome 資安團隊用 Cyber 產出的正確修補量是大型商用模型的 2.6 倍。",
+      "analysis_en": "The cadence-and-cost strategy is the point: Google is iterating Flash faster than flagship Pro drops, and pairing a public workhorse with a restricted cyber variant. Independent confirmation of DeepSWE, HLE-Verified 54.9%, and CyberGym claims is still outstanding, and Cyber access remains gated.",
+      "analysis_zh": "重點是節奏與成本：Flash 迭代快過旗艦 Pro，並把公開工作馬與受限資安變體綁在一起。DeepSWE、HLE-Verified 54.9% 與 CyberGym 等數字仍待獨立驗證，Cyber 存取也仍受控。",
+      "quote": "Gemini 3.8 Flash: our most intelligent workhorse model, delivering significant improvements from 3.7 Flash across software engineering, agentic tasks, and critical, multi-step reasoning… at $0.75 per million input tokens and $3.75 per million output tokens.",
+      "quote_zh": "Gemini 3.8 Flash：我們最聰明的工作馬模型，在軟體工程、代理任務與關鍵多步推理上較 3.7 Flash 明顯提升……價格為每百萬輸入／輸出 token $0.75／$3.75。",
       "importance": 4,
       "first_seen": "2026-09-02T15:42:20Z",
-      "updated_at": "2026-09-03T04:35:01.302558+00:00",
+      "updated_at": "2026-09-03T10:35:01.548993+00:00",
       "links": [
         {
           "label": "Google Blog",
@@ -74,30 +82,65 @@
       "id": "meta-muse-spark-1-3-2026-09-02",
       "story_id": "meta-muse-spark-1-3-2026-09-02",
       "category": "meta",
-      "source_type": "official_blog",
+      "source_type": "mixed",
       "title_en": "Meta releases Muse Spark 1.3 in Muse Code and Meta Model API",
-      "title_zh": "Meta 推出 Muse Spark 1.3，上線 Muse Code 與 Model API",
-      "summary_en": "Meta AI released Muse Spark 1.3, saying it improves agentic and coding work, sustains longer multi-workflow threads, and uses about 20% fewer tool calls and 25% fewer tokens than 1.2 in internal comparisons. It is live in Muse Code and the Meta Model API; max reasoning is held until extra safety testing finishes. The lab also said bigger models and Muse Spark open weights are coming.",
-      "summary_zh": "Meta AI 發布 Muse Spark 1.3，稱在代理與程式任務上有提升，能在單一長執行緒同時處理多工作流；內部對比稱工具呼叫約少 20%、token 約少 25%。現已上線 Muse Code 與 Meta Model API；max reasoning 待額外安全測試後推出。實驗室並預告更大模型與 Muse Spark 開源權重。",
-      "analysis_en": "This is a mid-cycle usability and efficiency update, not a new family. Third-party scores (e.g. Artificial Analysis) put some 1.3 settings near Sol/Grok 4.6, but max reasoning is not generally available yet, so headline comparisons remain incomplete.",
-      "analysis_zh": "這是週期中的可用性與效率更新，不是新系列。第三方評測把部分 1.3 設定拉近 Sol／Grok 4.6，但 max reasoning 尚未全面開放，頭條對比仍不完整。",
-      "quote": "We’re excited to release Muse Spark 1.3, which delivers improved performance across agentic and coding tasks.",
-      "quote_zh": "我們很高興發布 Muse Spark 1.3，在代理與程式任務上帶來更好表現。",
+      "title_zh": "Meta 於 Muse Code 與 Meta Model API 推出 Muse Spark 1.3",
+      "summary_en": "Meta AI released Muse Spark 1.3, saying it improves agentic and coding work, sustains longer multi-workflow threads, and uses about 20% fewer tool calls and 25% fewer tokens than 1.2 in internal comparisons. It is live in Muse Code and the Meta Model API; previously available reasoning modes shipped immediately, with max reasoning held for more safety testing. On Sep 3, Chief AI Officer Alexandr Wang told Bloomberg and Axios the jump is Meta’s largest yet and called 1.3 competitive with Claude Fable 5.1 and stronger than GPT-5.6 Sol on some coding tasks.",
+      "summary_zh": "Meta AI 發布 Muse Spark 1.3，稱代理與編程表現提升、能維持更長的多工作流執行緒，內部對比 1.2 約少 20% 工具呼叫、少 25% token。已上線 Muse Code 與 Meta Model API；既有推理模式即時可用，max reasoning 仍待額外安全測試。9 月 3 日 AI 長 Alexandr Wang 向 Bloomberg、Axios 表示這是 Meta 迄今最大躍進，並稱 1.3 可與 Claude Fable 5.1 競爭、部分編程任務優於 GPT-5.6 Sol。",
+      "analysis_en": "This is a mid-cycle usability and efficiency update, not a new family. Wang’s peer comparisons are interviews, not a lab system card; max reasoning is still gated, and third-party leaderboards remain the check on whether 1.3 actually sits with Fable 5.1 / Sol.",
+      "analysis_zh": "這是週期間的好用性與效率更新，不是新模型家族。Wang 的對標來自訪談而非實驗室系統卡；max reasoning 仍未全面開放，能否站上 Fable 5.1／Sol 同列仍要看第三方榜。",
+      "quote": "We’re excited to release Muse Spark 1.3, which delivers improved performance across agentic and coding tasks… using ~20% fewer tool calls and ~25% fewer tokens.",
+      "quote_zh": "我們發布 Muse Spark 1.3，在代理與編程任務上表現更好……約減少 20% 工具呼叫與 25% token。",
       "importance": 4,
       "first_seen": "2026-09-02T19:36:19Z",
-      "updated_at": "2026-09-03T04:35:01.302558+00:00",
+      "updated_at": "2026-09-03T10:35:01.548993+00:00",
       "links": [
         {
-          "label": "Meta AI Research blog",
+          "label": "Meta AI Research Blog",
           "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
-        },
-        {
-          "label": "AI at Meta on X",
-          "url": "https://x.com/AIatMeta/status/2095234385129963666"
         },
         {
           "label": "Axios",
           "url": "https://www.axios.com/2026/09/02/meta-debuts-muse-spark-13-as-personal-agent-work-continues"
+        },
+        {
+          "label": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/09/02/meta-says-it-has-caught-up-with-anthropic-and-openai-after-releasing-muse-spark-1-3-its-most-powerful-llm-so-far/"
+        },
+        {
+          "label": "AI at Meta on X",
+          "url": "https://x.com/AIatMeta/status/2095234385129963666"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-commerce-agents-blueprint-2026-09-02",
+      "story_id": "anthropic-commerce-agents-blueprint-2026-09-02",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic ships a Claude commerce-agent blueprint",
+      "title_zh": "Anthropic 推出 Claude 商務代理藍圖",
+      "summary_en": "Anthropic published a blueprint to build shopping and merchant agents on Claude, with harnesses, guardrails, live demos, reference implementations for retail, travel, telecom, and ticketing, plus a Claude Code plugin and a public GitHub repo. The company said retailers running shopping agents on Claude have seen carts up to 35% larger and shoppers 60% more likely to complete a purchase, citing enterprise users including Shopify and Priceline.",
+      "summary_zh": "Anthropic 發布在 Claude 上打造購物與商家代理的藍圖，含 harness、護欄、現場示範、零售／旅遊／電信／票務參考實作、Claude Code 外掛與公開 GitHub 倉庫。公司稱以 Claude 跑購物代理的零售商購物車最多大 35%、完成結帳機率高 60%，並點名 Shopify、Priceline 等企業客戶。",
+      "analysis_en": "This is a go-to-market kit, not a model release. Conversion lifts are Anthropic-reported customer outcomes and are not independently audited here; the durable change is a forkable agent stack timed for holiday planning.",
+      "analysis_zh": "這是上市工具包，不是新模型。轉換率數字來自 Anthropic 轉述客戶結果，此處未見獨立稽核；實質變化是趕在旺季前可 fork 的代理堆疊。",
+      "quote": "Today, we're launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days.",
+      "quote_zh": "今天我們推出協助在 Claude 上打造商務代理的藍圖，包含工程團隊可在數日內跑起來所需的 harness、模式與護欄。",
+      "importance": 3,
+      "first_seen": "2026-09-02T08:00:00Z",
+      "updated_at": "2026-09-03T10:35:01.548993+00:00",
+      "links": [
+        {
+          "label": "Anthropic / Claude Blog",
+          "url": "https://claude.com/blog/claude-for-commerce-agents"
+        },
+        {
+          "label": "Anatomy guide",
+          "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents"
+        },
+        {
+          "label": "GitHub commerce-agents",
+          "url": "https://github.com/anthropics/commerce-agents"
         }
       ]
     },
@@ -107,16 +150,16 @@
       "category": "xai",
       "source_type": "official_x",
       "title_en": "Musk: Grok 4.7 ships in 10 days",
-      "title_zh": "馬斯克：Grok 4.7 將於 10 天後推出",
-      "summary_en": "Elon Musk posted that Grok 4.7 “comes out in 10 days,” implying a target around September 12, after Shopify CEO Tobi Lütke praised Grok 4.6. He did not publish a lab blog, system card, or benchmarks with the post. Press recaps of earlier Musk comments cite a larger 2.1T base and SpaceX supplemental training; those details are not in the dated teaser itself.",
-      "summary_zh": "Elon Musk 發文稱 Grok 4.7「10 天後推出」，對應約 9 月 12 日，時值 Shopify CEO Tobi Lütke 稱讚 Grok 4.6。貼文未附實驗室部落格、系統卡或基準。媒體轉述他先前提到 2.1T 基座與 SpaceX 補充訓練，但那些細節不在這則定期預告本身。",
-      "analysis_en": "This is a dated teaser, not a release. Whether 4.7 actually lands on that day, and how it compares with Gemini 3.8 Flash or Claude Fable 5.1, remains unverified until official evals and product access exist.",
-      "analysis_zh": "這是定期預告，不是發表。能否準時落地、相對 Gemini 3.8 Flash 或 Claude Fable 5.1 如何，須等到官方評測與產品通路才能驗證。",
+      "title_zh": "馬斯克：Grok 4.7 十天後推出",
+      "summary_en": "Elon Musk posted that Grok 4.7 “comes out in 10 days,” implying a target around September 12, after Shopify CEO Tobi Lütke praised Grok 4.6. He did not publish a lab blog, system card, or benchmarks with the post. No official xAI changelog updated that timeline in the last 12 hours.",
+      "summary_zh": "Elon Musk 發文稱 Grok 4.7「十天後推出」，意指約 9 月 12 日，當時是回應 Shopify CEO Tobi Lütke 對 Grok 4.6 的稱讚。貼文未附實驗室部落格、系統卡或基準。近 12 小時 xAI 官方頻道未更新該時程。",
+      "analysis_en": "This is a dated teaser, not a release. Whether 4.7 actually lands on that day, and how it compares with Gemini 3.8 Flash or Claude Fable 5.1, remains unverified until official evals ship.",
+      "analysis_zh": "這是有日期的預告，不是上市。能否如期、以及相對 Gemini 3.8 Flash 或 Claude Fable 5.1 如何，仍待官方評測。",
       "quote": "Grok 4.7 comes out in 10 days",
-      "quote_zh": "Grok 4.7 將於 10 天後推出",
+      "quote_zh": "Grok 4.7 十天後推出",
       "importance": 3,
       "first_seen": "2026-09-02T02:59:57Z",
-      "updated_at": "2026-09-03T04:35:01.302558+00:00",
+      "updated_at": "2026-09-03T10:35:01.548993+00:00",
       "links": [
         {
           "label": "Elon Musk on X",
@@ -131,22 +174,22 @@
       "source_type": "official_x",
       "title_en": "Claude can use a Mac in the background in Cowork and Claude Code",
       "title_zh": "Claude 可在 Cowork 與 Claude Code 背景操作 Mac",
-      "summary_en": "Anthropic’s @claudeai account said Claude can now use a computer in the background inside Claude Cowork and Claude Code: it clicks, types, and opens apps while the user works on something else. The feature is in beta on Pro and Max plans in the macOS desktop app; computer use is toggled in Settings. A help article covers how it works and how to use it safely.",
-      "summary_zh": "Anthropic 的 @claudeai 表示，Claude 現可在 Claude Cowork 與 Claude Code 背景使用電腦：在使用者做其他事時點擊、打字、開應用。功能為 Pro／Max 方案 beta，限 macOS 桌面 App，需在設定開啟。說明文件涵蓋用法與安全注意事項。",
-      "analysis_en": "This is a product-surface expansion of computer use, not a new model. The practical change is unattended desktop agency on a Mac; reliability, permission scope, and misuse risk are the open questions, not raw model scores.",
-      "analysis_zh": "這是電腦使用能力的產品面擴張，不是新模型。實際變化是 Mac 上可無人值守的桌面代理；未解問題是可靠度、權限範圍與濫用風險，而非模型分數。",
-      "quote": "Claude can now use your computer in the background in Claude Cowork and Claude Code.",
-      "quote_zh": "Claude 現在可以在 Claude Cowork 與 Claude Code 背景使用你的電腦。",
+      "summary_en": "Anthropic’s @claudeai account said Claude can now use a computer in the background inside Claude Cowork and Claude Code: it clicks, types, and opens apps while the user works on something else. The feature is in beta on Pro and Max plans in the macOS desktop app; users enable it under Settings → General → Computer use.",
+      "summary_zh": "Anthropic 帳號 @claudeai 表示，Claude 現可在 Claude Cowork 與 Claude Code 於背景使用電腦：點擊、打字、開啟應用，使用者可同時做別的事。功能在 Pro／Max 方案的 macOS 桌面應用為 beta，於設定 → 一般 → Computer use 開啟。",
+      "analysis_en": "This is a product-surface expansion of computer use, not a new model. The practical change is unattended desktop agency on a Mac; reliability, permission scope, and misuse risk are the open questions.",
+      "analysis_zh": "這是電腦使用能力的產品面擴張，不是新模型。實務變化是 Mac 上可無人值守的桌面代理；可靠度、權限範圍與濫用風險仍待觀察。",
+      "quote": "Claude can now use your computer in the background in Claude Cowork and Claude Code. Give it something to do on your desktop and Claude clicks, types, and opens apps just like you would, while you work on something else.",
+      "quote_zh": "Claude 現可在 Claude Cowork 與 Claude Code 背景使用你的電腦。把桌面任務交給它，它會像你一樣點擊、打字、開應用，你可同時做別的事。",
       "importance": 3,
       "first_seen": "2026-09-02T19:06:19Z",
-      "updated_at": "2026-09-03T04:35:01.302558+00:00",
+      "updated_at": "2026-09-03T10:35:01.548993+00:00",
       "links": [
         {
-          "label": "@claudeai on X",
+          "label": "Claude on X",
           "url": "https://x.com/claudeai/status/2095226833293685100"
         },
         {
-          "label": "Claude Help Center",
+          "label": "Anthropic support",
           "url": "https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork"
         }
       ]
@@ -158,22 +201,22 @@
       "source_type": "official_x",
       "title_en": "Grok Bot launches on Android",
       "title_zh": "Grok Bot 登陸 Android",
-      "summary_en": "The Grok Bot account posted that Grok Bot is now available on Android. Elon Musk quoted the post with “Grok @Bot now on Android!” The product is framed as persistent cloud teammates that keep the same bots and threads as desktop and iOS after the phone is locked.",
-      "summary_zh": "Grok Bot 帳號宣布現已登陸 Android。Elon Musk 轉貼並寫「Grok @Bot now on Android!」。產品定位為持續運作的雲端隊友，鎖屏後仍與桌面／iOS 共用同一批 Bot 與對話串。",
-      "analysis_en": "This is a client rollout for an existing agent product, not a new foundation model. It widens where persistent Grok agents can run; capability claims still rest on the prior Bot stack and plan eligibility.",
-      "analysis_zh": "這是既有代理產品的客戶端上架，不是新基礎模型。擴大了常駐 Grok agent 可運行的裝置；能力主張仍取決於既有 Bot 堆疊與方案資格。",
+      "summary_en": "The Grok Bot account posted that Grok Bot is now available on Android. Elon Musk quoted the post with “Grok @Bot now on Android!” The product is framed as persistent cloud teammates that keep the same bots and threads as desktop and iOS. Musk quoted Cathie Wood’s praise of Grokbot again on Sep 3 without adding product detail.",
+      "summary_zh": "Grok Bot 帳號宣布 Android 版上線，Elon Musk 轉發並寫「Grok @Bot now on Android!」。產品定位為持久雲端隊友，與桌面、iOS 共用同一批 bot 與對話串。9 月 3 日 Musk 再轉發 Cathie Wood 對 Grokbot 的稱讚，未補充產品細節。",
+      "analysis_en": "This is a client rollout for an existing agent product, not a new foundation model. It widens where persistent Grok agents can run; capability claims still rest on the prior Bot stack.",
+      "analysis_zh": "這是既有代理產品的客戶端擴張，不是新基礎模型。持久 Grok agent 可跑的裝置變多，能力宣稱仍建立在既有 Bot 堆疊上。",
       "quote": "Grok @Bot now on Android!",
       "quote_zh": "Grok @Bot 現已登陸 Android！",
       "importance": 2,
       "first_seen": "2026-09-02T17:53:07Z",
-      "updated_at": "2026-09-03T04:35:01.302558+00:00",
+      "updated_at": "2026-09-03T10:35:01.548993+00:00",
       "links": [
         {
           "label": "Elon Musk on X",
           "url": "https://x.com/elonmusk/status/2095208414196674930"
         },
         {
-          "label": "@bot on X",
+          "label": "Grok Bot on X",
           "url": "https://x.com/bot/status/2095168633559462197"
         }
       ]
@@ -183,28 +226,59 @@
     "openai": [],
     "anthropic": [
       {
+        "id": "anthropic-commerce-agents-blueprint-2026-09-02",
+        "story_id": "anthropic-commerce-agents-blueprint-2026-09-02",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic ships a Claude commerce-agent blueprint",
+        "title_zh": "Anthropic 推出 Claude 商務代理藍圖",
+        "summary_en": "Anthropic published a blueprint to build shopping and merchant agents on Claude, with harnesses, guardrails, live demos, reference implementations for retail, travel, telecom, and ticketing, plus a Claude Code plugin and a public GitHub repo. The company said retailers running shopping agents on Claude have seen carts up to 35% larger and shoppers 60% more likely to complete a purchase, citing enterprise users including Shopify and Priceline.",
+        "summary_zh": "Anthropic 發布在 Claude 上打造購物與商家代理的藍圖，含 harness、護欄、現場示範、零售／旅遊／電信／票務參考實作、Claude Code 外掛與公開 GitHub 倉庫。公司稱以 Claude 跑購物代理的零售商購物車最多大 35%、完成結帳機率高 60%，並點名 Shopify、Priceline 等企業客戶。",
+        "analysis_en": "This is a go-to-market kit, not a model release. Conversion lifts are Anthropic-reported customer outcomes and are not independently audited here; the durable change is a forkable agent stack timed for holiday planning.",
+        "analysis_zh": "這是上市工具包，不是新模型。轉換率數字來自 Anthropic 轉述客戶結果，此處未見獨立稽核；實質變化是趕在旺季前可 fork 的代理堆疊。",
+        "quote": "Today, we're launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days.",
+        "quote_zh": "今天我們推出協助在 Claude 上打造商務代理的藍圖，包含工程團隊可在數日內跑起來所需的 harness、模式與護欄。",
+        "importance": 3,
+        "first_seen": "2026-09-02T08:00:00Z",
+        "updated_at": "2026-09-03T10:35:01.548993+00:00",
+        "links": [
+          {
+            "label": "Anthropic / Claude Blog",
+            "url": "https://claude.com/blog/claude-for-commerce-agents"
+          },
+          {
+            "label": "Anatomy guide",
+            "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents"
+          },
+          {
+            "label": "GitHub commerce-agents",
+            "url": "https://github.com/anthropics/commerce-agents"
+          }
+        ]
+      },
+      {
         "id": "anthropic-claude-background-computer-use-2026-09-02",
         "story_id": "anthropic-claude-background-computer-use-2026-09-02",
         "category": "anthropic",
         "source_type": "official_x",
         "title_en": "Claude can use a Mac in the background in Cowork and Claude Code",
         "title_zh": "Claude 可在 Cowork 與 Claude Code 背景操作 Mac",
-        "summary_en": "Anthropic’s @claudeai account said Claude can now use a computer in the background inside Claude Cowork and Claude Code: it clicks, types, and opens apps while the user works on something else. The feature is in beta on Pro and Max plans in the macOS desktop app; computer use is toggled in Settings. A help article covers how it works and how to use it safely.",
-        "summary_zh": "Anthropic 的 @claudeai 表示，Claude 現可在 Claude Cowork 與 Claude Code 背景使用電腦：在使用者做其他事時點擊、打字、開應用。功能為 Pro／Max 方案 beta，限 macOS 桌面 App，需在設定開啟。說明文件涵蓋用法與安全注意事項。",
-        "analysis_en": "This is a product-surface expansion of computer use, not a new model. The practical change is unattended desktop agency on a Mac; reliability, permission scope, and misuse risk are the open questions, not raw model scores.",
-        "analysis_zh": "這是電腦使用能力的產品面擴張，不是新模型。實際變化是 Mac 上可無人值守的桌面代理；未解問題是可靠度、權限範圍與濫用風險，而非模型分數。",
-        "quote": "Claude can now use your computer in the background in Claude Cowork and Claude Code.",
-        "quote_zh": "Claude 現在可以在 Claude Cowork 與 Claude Code 背景使用你的電腦。",
+        "summary_en": "Anthropic’s @claudeai account said Claude can now use a computer in the background inside Claude Cowork and Claude Code: it clicks, types, and opens apps while the user works on something else. The feature is in beta on Pro and Max plans in the macOS desktop app; users enable it under Settings → General → Computer use.",
+        "summary_zh": "Anthropic 帳號 @claudeai 表示，Claude 現可在 Claude Cowork 與 Claude Code 於背景使用電腦：點擊、打字、開啟應用，使用者可同時做別的事。功能在 Pro／Max 方案的 macOS 桌面應用為 beta，於設定 → 一般 → Computer use 開啟。",
+        "analysis_en": "This is a product-surface expansion of computer use, not a new model. The practical change is unattended desktop agency on a Mac; reliability, permission scope, and misuse risk are the open questions.",
+        "analysis_zh": "這是電腦使用能力的產品面擴張，不是新模型。實務變化是 Mac 上可無人值守的桌面代理；可靠度、權限範圍與濫用風險仍待觀察。",
+        "quote": "Claude can now use your computer in the background in Claude Cowork and Claude Code. Give it something to do on your desktop and Claude clicks, types, and opens apps just like you would, while you work on something else.",
+        "quote_zh": "Claude 現可在 Claude Cowork 與 Claude Code 背景使用你的電腦。把桌面任務交給它，它會像你一樣點擊、打字、開應用，你可同時做別的事。",
         "importance": 3,
         "first_seen": "2026-09-02T19:06:19Z",
-        "updated_at": "2026-09-03T04:35:01.302558+00:00",
+        "updated_at": "2026-09-03T10:35:01.548993+00:00",
         "links": [
           {
-            "label": "@claudeai on X",
+            "label": "Claude on X",
             "url": "https://x.com/claudeai/status/2095226833293685100"
           },
           {
-            "label": "Claude Help Center",
+            "label": "Anthropic support",
             "url": "https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork"
           }
         ]
@@ -218,15 +292,15 @@
         "source_type": "official_blog",
         "title_en": "Google launches Gemini 3.8 Flash and 3.8 Flash Cyber",
         "title_zh": "Google 推出 Gemini 3.8 Flash 與 3.8 Flash Cyber",
-        "summary_en": "Google DeepMind announced Gemini 3.8 Flash as its most intelligent workhorse model, claiming gains over 3.7 Flash on long-horizon software engineering, agentic tasks, and multi-step reasoning, at the same introductory price of $0.75/$3.75 per million input/output tokens. A restricted sibling, 3.8 Flash Cyber, is offered to trusted defenders through the new Fairwind Program for vulnerability discovery and automated patching. Hassabis called it another Flash upgrade in under a month.",
-        "summary_zh": "Google DeepMind 宣布 Gemini 3.8 Flash 為目前最聰明的工作馬模型，稱在長程軟體工程、代理任務與多步推理上優於 3.7 Flash，導入價維持每百萬 token $0.75／$3.75。受限版 3.8 Flash Cyber 經新設 Fairwind Program 提供給受信任防禦方，用於漏洞發現與自動修補。Hassabis 稱這是一個月內又一次 Flash 升級。",
-        "analysis_en": "The cadence-and-cost strategy is the point: Google is iterating Flash faster than flagship Pro drops, and pairing a public workhorse with a restricted cyber variant. Independent confirmation of DeepSWE, CyberGym, and Chrome-patch claims is still pending; introductory pricing expires 31 Dec 2026.",
-        "analysis_zh": "節奏與成本才是重點：Google 用 Flash 連發補上旗艦 Pro 空窗，並把公開工作馬與受限資安變體拆開。DeepSWE、CyberGym 與 Chrome 修補數據仍待獨立覆核；導入價於 2026-12-31 到期。",
-        "quote": "today we’re introducing Gemini 3.8, our best reasoning & coding model yet, at the same speed and low cost of 3.7.",
-        "quote_zh": "今天我們推出 Gemini 3.8，目前最佳推理與程式模型，速度與成本與 3.7 相同。",
+        "summary_en": "Google DeepMind announced Gemini 3.8 Flash as its most intelligent workhorse model, claiming gains over 3.7 Flash on long-horizon software engineering, agentic tasks, and multi-step reasoning, at the same introductory price of $0.75/$3.75 per million input/output tokens through Dec. 31, 2026. A companion 3.8 Flash Cyber model, aimed at vulnerability discovery and automated patching, is limited to trusted defenders via the new Fairwind Program. Google said Chrome Security produced 2.6× more correct patches with Cyber than with larger commercial models.",
+        "summary_zh": "Google DeepMind 宣布 Gemini 3.8 Flash 為目前最聰明的工作馬模型，稱在長時程軟體工程、代理任務與多步推理上優於 3.7 Flash，導入價維持每百萬 token $0.75／$3.75（至 2026-12-31）。配套的 3.8 Flash Cyber 主打漏洞發現與自動修補，僅透過新 Fairwind Program 提供給受信任防禦方。Google 稱 Chrome 資安團隊用 Cyber 產出的正確修補量是大型商用模型的 2.6 倍。",
+        "analysis_en": "The cadence-and-cost strategy is the point: Google is iterating Flash faster than flagship Pro drops, and pairing a public workhorse with a restricted cyber variant. Independent confirmation of DeepSWE, HLE-Verified 54.9%, and CyberGym claims is still outstanding, and Cyber access remains gated.",
+        "analysis_zh": "重點是節奏與成本：Flash 迭代快過旗艦 Pro，並把公開工作馬與受限資安變體綁在一起。DeepSWE、HLE-Verified 54.9% 與 CyberGym 等數字仍待獨立驗證，Cyber 存取也仍受控。",
+        "quote": "Gemini 3.8 Flash: our most intelligent workhorse model, delivering significant improvements from 3.7 Flash across software engineering, agentic tasks, and critical, multi-step reasoning… at $0.75 per million input tokens and $3.75 per million output tokens.",
+        "quote_zh": "Gemini 3.8 Flash：我們最聰明的工作馬模型，在軟體工程、代理任務與關鍵多步推理上較 3.7 Flash 明顯提升……價格為每百萬輸入／輸出 token $0.75／$3.75。",
         "importance": 4,
         "first_seen": "2026-09-02T15:42:20Z",
-        "updated_at": "2026-09-03T04:35:01.302558+00:00",
+        "updated_at": "2026-09-03T10:35:01.548993+00:00",
         "links": [
           {
             "label": "Google Blog",
@@ -260,30 +334,34 @@
         "id": "meta-muse-spark-1-3-2026-09-02",
         "story_id": "meta-muse-spark-1-3-2026-09-02",
         "category": "meta",
-        "source_type": "official_blog",
+        "source_type": "mixed",
         "title_en": "Meta releases Muse Spark 1.3 in Muse Code and Meta Model API",
-        "title_zh": "Meta 推出 Muse Spark 1.3，上線 Muse Code 與 Model API",
-        "summary_en": "Meta AI released Muse Spark 1.3, saying it improves agentic and coding work, sustains longer multi-workflow threads, and uses about 20% fewer tool calls and 25% fewer tokens than 1.2 in internal comparisons. It is live in Muse Code and the Meta Model API; max reasoning is held until extra safety testing finishes. The lab also said bigger models and Muse Spark open weights are coming.",
-        "summary_zh": "Meta AI 發布 Muse Spark 1.3，稱在代理與程式任務上有提升，能在單一長執行緒同時處理多工作流；內部對比稱工具呼叫約少 20%、token 約少 25%。現已上線 Muse Code 與 Meta Model API；max reasoning 待額外安全測試後推出。實驗室並預告更大模型與 Muse Spark 開源權重。",
-        "analysis_en": "This is a mid-cycle usability and efficiency update, not a new family. Third-party scores (e.g. Artificial Analysis) put some 1.3 settings near Sol/Grok 4.6, but max reasoning is not generally available yet, so headline comparisons remain incomplete.",
-        "analysis_zh": "這是週期中的可用性與效率更新，不是新系列。第三方評測把部分 1.3 設定拉近 Sol／Grok 4.6，但 max reasoning 尚未全面開放，頭條對比仍不完整。",
-        "quote": "We’re excited to release Muse Spark 1.3, which delivers improved performance across agentic and coding tasks.",
-        "quote_zh": "我們很高興發布 Muse Spark 1.3，在代理與程式任務上帶來更好表現。",
+        "title_zh": "Meta 於 Muse Code 與 Meta Model API 推出 Muse Spark 1.3",
+        "summary_en": "Meta AI released Muse Spark 1.3, saying it improves agentic and coding work, sustains longer multi-workflow threads, and uses about 20% fewer tool calls and 25% fewer tokens than 1.2 in internal comparisons. It is live in Muse Code and the Meta Model API; previously available reasoning modes shipped immediately, with max reasoning held for more safety testing. On Sep 3, Chief AI Officer Alexandr Wang told Bloomberg and Axios the jump is Meta’s largest yet and called 1.3 competitive with Claude Fable 5.1 and stronger than GPT-5.6 Sol on some coding tasks.",
+        "summary_zh": "Meta AI 發布 Muse Spark 1.3，稱代理與編程表現提升、能維持更長的多工作流執行緒，內部對比 1.2 約少 20% 工具呼叫、少 25% token。已上線 Muse Code 與 Meta Model API；既有推理模式即時可用，max reasoning 仍待額外安全測試。9 月 3 日 AI 長 Alexandr Wang 向 Bloomberg、Axios 表示這是 Meta 迄今最大躍進，並稱 1.3 可與 Claude Fable 5.1 競爭、部分編程任務優於 GPT-5.6 Sol。",
+        "analysis_en": "This is a mid-cycle usability and efficiency update, not a new family. Wang’s peer comparisons are interviews, not a lab system card; max reasoning is still gated, and third-party leaderboards remain the check on whether 1.3 actually sits with Fable 5.1 / Sol.",
+        "analysis_zh": "這是週期間的好用性與效率更新，不是新模型家族。Wang 的對標來自訪談而非實驗室系統卡；max reasoning 仍未全面開放，能否站上 Fable 5.1／Sol 同列仍要看第三方榜。",
+        "quote": "We’re excited to release Muse Spark 1.3, which delivers improved performance across agentic and coding tasks… using ~20% fewer tool calls and ~25% fewer tokens.",
+        "quote_zh": "我們發布 Muse Spark 1.3，在代理與編程任務上表現更好……約減少 20% 工具呼叫與 25% token。",
         "importance": 4,
         "first_seen": "2026-09-02T19:36:19Z",
-        "updated_at": "2026-09-03T04:35:01.302558+00:00",
+        "updated_at": "2026-09-03T10:35:01.548993+00:00",
         "links": [
           {
-            "label": "Meta AI Research blog",
+            "label": "Meta AI Research Blog",
             "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
-          },
-          {
-            "label": "AI at Meta on X",
-            "url": "https://x.com/AIatMeta/status/2095234385129963666"
           },
           {
             "label": "Axios",
             "url": "https://www.axios.com/2026/09/02/meta-debuts-muse-spark-13-as-personal-agent-work-continues"
+          },
+          {
+            "label": "SiliconANGLE",
+            "url": "https://siliconangle.com/2026/09/02/meta-says-it-has-caught-up-with-anthropic-and-openai-after-releasing-muse-spark-1-3-its-most-powerful-llm-so-far/"
+          },
+          {
+            "label": "AI at Meta on X",
+            "url": "https://x.com/AIatMeta/status/2095234385129963666"
           }
         ]
       }
@@ -295,16 +373,16 @@
         "category": "xai",
         "source_type": "official_x",
         "title_en": "Musk: Grok 4.7 ships in 10 days",
-        "title_zh": "馬斯克：Grok 4.7 將於 10 天後推出",
-        "summary_en": "Elon Musk posted that Grok 4.7 “comes out in 10 days,” implying a target around September 12, after Shopify CEO Tobi Lütke praised Grok 4.6. He did not publish a lab blog, system card, or benchmarks with the post. Press recaps of earlier Musk comments cite a larger 2.1T base and SpaceX supplemental training; those details are not in the dated teaser itself.",
-        "summary_zh": "Elon Musk 發文稱 Grok 4.7「10 天後推出」，對應約 9 月 12 日，時值 Shopify CEO Tobi Lütke 稱讚 Grok 4.6。貼文未附實驗室部落格、系統卡或基準。媒體轉述他先前提到 2.1T 基座與 SpaceX 補充訓練，但那些細節不在這則定期預告本身。",
-        "analysis_en": "This is a dated teaser, not a release. Whether 4.7 actually lands on that day, and how it compares with Gemini 3.8 Flash or Claude Fable 5.1, remains unverified until official evals and product access exist.",
-        "analysis_zh": "這是定期預告，不是發表。能否準時落地、相對 Gemini 3.8 Flash 或 Claude Fable 5.1 如何，須等到官方評測與產品通路才能驗證。",
+        "title_zh": "馬斯克：Grok 4.7 十天後推出",
+        "summary_en": "Elon Musk posted that Grok 4.7 “comes out in 10 days,” implying a target around September 12, after Shopify CEO Tobi Lütke praised Grok 4.6. He did not publish a lab blog, system card, or benchmarks with the post. No official xAI changelog updated that timeline in the last 12 hours.",
+        "summary_zh": "Elon Musk 發文稱 Grok 4.7「十天後推出」，意指約 9 月 12 日，當時是回應 Shopify CEO Tobi Lütke 對 Grok 4.6 的稱讚。貼文未附實驗室部落格、系統卡或基準。近 12 小時 xAI 官方頻道未更新該時程。",
+        "analysis_en": "This is a dated teaser, not a release. Whether 4.7 actually lands on that day, and how it compares with Gemini 3.8 Flash or Claude Fable 5.1, remains unverified until official evals ship.",
+        "analysis_zh": "這是有日期的預告，不是上市。能否如期、以及相對 Gemini 3.8 Flash 或 Claude Fable 5.1 如何，仍待官方評測。",
         "quote": "Grok 4.7 comes out in 10 days",
-        "quote_zh": "Grok 4.7 將於 10 天後推出",
+        "quote_zh": "Grok 4.7 十天後推出",
         "importance": 3,
         "first_seen": "2026-09-02T02:59:57Z",
-        "updated_at": "2026-09-03T04:35:01.302558+00:00",
+        "updated_at": "2026-09-03T10:35:01.548993+00:00",
         "links": [
           {
             "label": "Elon Musk on X",
@@ -319,22 +397,22 @@
         "source_type": "official_x",
         "title_en": "Grok Bot launches on Android",
         "title_zh": "Grok Bot 登陸 Android",
-        "summary_en": "The Grok Bot account posted that Grok Bot is now available on Android. Elon Musk quoted the post with “Grok @Bot now on Android!” The product is framed as persistent cloud teammates that keep the same bots and threads as desktop and iOS after the phone is locked.",
-        "summary_zh": "Grok Bot 帳號宣布現已登陸 Android。Elon Musk 轉貼並寫「Grok @Bot now on Android!」。產品定位為持續運作的雲端隊友，鎖屏後仍與桌面／iOS 共用同一批 Bot 與對話串。",
-        "analysis_en": "This is a client rollout for an existing agent product, not a new foundation model. It widens where persistent Grok agents can run; capability claims still rest on the prior Bot stack and plan eligibility.",
-        "analysis_zh": "這是既有代理產品的客戶端上架，不是新基礎模型。擴大了常駐 Grok agent 可運行的裝置；能力主張仍取決於既有 Bot 堆疊與方案資格。",
+        "summary_en": "The Grok Bot account posted that Grok Bot is now available on Android. Elon Musk quoted the post with “Grok @Bot now on Android!” The product is framed as persistent cloud teammates that keep the same bots and threads as desktop and iOS. Musk quoted Cathie Wood’s praise of Grokbot again on Sep 3 without adding product detail.",
+        "summary_zh": "Grok Bot 帳號宣布 Android 版上線，Elon Musk 轉發並寫「Grok @Bot now on Android!」。產品定位為持久雲端隊友，與桌面、iOS 共用同一批 bot 與對話串。9 月 3 日 Musk 再轉發 Cathie Wood 對 Grokbot 的稱讚，未補充產品細節。",
+        "analysis_en": "This is a client rollout for an existing agent product, not a new foundation model. It widens where persistent Grok agents can run; capability claims still rest on the prior Bot stack.",
+        "analysis_zh": "這是既有代理產品的客戶端擴張，不是新基礎模型。持久 Grok agent 可跑的裝置變多，能力宣稱仍建立在既有 Bot 堆疊上。",
         "quote": "Grok @Bot now on Android!",
         "quote_zh": "Grok @Bot 現已登陸 Android！",
         "importance": 2,
         "first_seen": "2026-09-02T17:53:07Z",
-        "updated_at": "2026-09-03T04:35:01.302558+00:00",
+        "updated_at": "2026-09-03T10:35:01.548993+00:00",
         "links": [
           {
             "label": "Elon Musk on X",
             "url": "https://x.com/elonmusk/status/2095208414196674930"
           },
           {
-            "label": "@bot on X",
+            "label": "Grok Bot on X",
             "url": "https://x.com/bot/status/2095168633559462197"
           }
         ]
@@ -342,7 +420,7 @@
     ],
     "frontier_other": []
   },
-  "brief_en": "Google shipped Gemini 3.8 Flash and a restricted Flash Cyber variant via Fairwind. Meta released Muse Spark 1.3 for Muse Code and its API. Anthropic enabled background Mac computer use in Cowork/Claude Code. xAI put Grok Bot on Android; Musk still dates Grok 4.7 about 10 days out. No new OpenAI model drop in-window.",
-  "brief_zh": "Google 推出 Gemini 3.8 Flash 與受限的 Flash Cyber（Fairwind）。Meta 釋出 Muse Spark 1.3。Anthropic 讓 Claude 可在 Mac 背景操作電腦。xAI 的 Grok Bot 上 Android；馬斯克仍稱 Grok 4.7 約 10 天後推出。視窗內無新的 OpenAI 模型發表。",
-  "updated_at": "2026-09-03T04:35:01.302558+00:00"
+  "brief_en": "Google’s Gemini 3.8 Flash and restricted Flash Cyber, Meta’s Muse Spark 1.3, and Anthropic’s Claude desktop background computer-use plus a commerce-agent blueprint defined the day. Musk still only teases Grok 4.7 in ~10 days; Grok Bot reached Android. No new model shipped in the last 12 hours.",
+  "brief_zh": "今日主軸是 Google Gemini 3.8 Flash／受限版 Flash Cyber、Meta Muse Spark 1.3，以及 Anthropic 的 Mac 背景電腦操作與商務代理藍圖。馬斯克仍只預告 Grok 4.7 約十天後；Grok Bot 上架 Android。近 12 小時無新模型正式發布。",
+  "updated_at": "2026-09-03T10:35:01.548993+00:00"
 }
