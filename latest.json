@@ -16,6 +16,14 @@
       "item_count": 5,
       "updated_count": 2,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-09-05T04:35:01.233926+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 5,
+      "updated_count": 5,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -24,29 +32,37 @@
       "story_id": "openai-gpt6-astra-foundry-rollout-2026-09-04",
       "category": "openai",
       "source_type": "mixed",
-      "title_en": "Astra is live for Pro/Enterprise seats and in Azure Foundry; Plus still queued",
-      "title_zh": "Astra 已對 Pro／Enterprise 與 Azure Foundry 開放，Plus 仍在排隊",
-      "summary_en": "OpenAI said GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT Work and Codex, and is live in the API; Plus and remaining Business seats will follow over a few days. Microsoft separately said Astra is available in Microsoft Foundry with Standard and Provisioned Throughput options. Sam Altman thanked users for patience after a messy rollout.",
-      "summary_zh": "OpenAI 表示 GPT-6 Astra 已對所有 Pro、Enterprise 與 Business Premium 用戶在 ChatGPT Work 與 Codex 開放，並已上線 API；Plus 與其餘 Business 席次將在數日內跟進。Microsoft 另宣布 Astra 已可在 Microsoft Foundry 以標準與預配吞吐量部署。Altman 為混亂上線向用戶致歉並感謝等待。",
-      "analysis_en": "The story has moved from launch claims to who can actually select the model. Highest-paying ChatGPT seats and cloud channels flipped first; Plus access and quota tightness remain the operational unknowns, not the model card.",
-      "analysis_zh": "焦點已從「發表了什麼」轉成「誰選得到」。付費最高席次與雲端通路先開，Plus 時程與配額仍是營運變數，而非模型規格本身。",
-      "quote": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT Work and Codex. It's also live in the API.",
-      "quote_zh": "GPT-6 Astra 現已對所有 Pro、Enterprise 與 Business Premium 用戶在 ChatGPT Work 與 Codex 開放，並已上線 API。",
+      "title_en": "Astra is live for Pro/Enterprise seats, API, Azure Foundry and GitHub Copilot; Plus still queued",
+      "title_zh": "Astra 已對 Pro／企業席次、API、Azure Foundry 與 GitHub Copilot 上線；Plus 仍排隊",
+      "summary_en": "OpenAI said GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT Work and Codex, and is live in the API; Plus and remaining Business seats will follow over a few days. Microsoft said Astra is generally available in Microsoft Foundry. GitHub separately listed Astra as generally available in Copilot for Pro+, Max, Business and Enterprise, with a gradual rollout.",
+      "summary_zh": "OpenAI 表示 GPT-6 Astra 已對所有 Pro、Enterprise 與 Business Premium 用戶在 ChatGPT Work 與 Codex 開放，並已上線 API；Plus 與其餘 Business 席次將於數日內跟進。Microsoft 稱 Astra 已在 Microsoft Foundry 正式提供。GitHub 則將 Astra 列為 Copilot Pro+、Max、Business 與 Enterprise 一般可用，採逐步開通。",
+      "analysis_en": "The story has moved from launch claims to who can actually select the model. Highest-paying ChatGPT seats and cloud/IDE channels flipped first; Plus access and quota tightness remain the binding constraint.",
+      "analysis_zh": "焦點已從「宣布推出」轉成「誰能真正選到模型」。高價 ChatGPT 席次與雲端／IDE 通路先開；Plus 開通時程與配額仍是瓶頸。",
+      "quote": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in Work/Codex, and is available in the API. We will start rollout to Plus and Business users next.",
+      "quote_zh": "GPT-6 Astra 現已對所有 Pro、Enterprise 與 Business Premium 用戶在 Work／Codex 開放，並已上線 API。接下來將開始向 Plus 與 Business 用戶推送。",
       "importance": 5,
       "first_seen": "2026-09-04T01:02:06Z",
-      "updated_at": "2026-09-04T22:35:01.643114+00:00",
+      "updated_at": "2026-09-05T04:35:01.233926+00:00",
       "links": [
-        {
-          "label": "OpenAI on X",
-          "url": "https://x.com/OpenAI/status/2095968413646737608"
-        },
         {
           "label": "Sam Altman on X",
           "url": "https://x.com/sama/status/2095973658867171733"
         },
         {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2095968413646737608"
+        },
+        {
           "label": "OpenAI: GPT-6 Astra",
           "url": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "label": "Microsoft Azure Blog: Astra in Foundry",
+          "url": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-generally-available-in-microsoft-foundry/"
+        },
+        {
+          "label": "GitHub Changelog: Astra in Copilot",
+          "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot/"
         },
         {
           "label": "Microsoft Azure Blog",
@@ -68,24 +84,28 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic: Claude produced the first Lean formalization of Fermat’s Last Theorem",
-      "title_zh": "Anthropic：Claude 完成費馬最後定理首次 Lean 形式化證明",
-      "summary_en": "Anthropic said Claude, working largely autonomously over 11 days, wrote the first end-to-end computer-checked Lean proof of Fermat’s Last Theorem—about 13 million lines covering more than 29,000 intermediate theorems. The company published a science-blog account and pointed to the proof on GitHub; Kevin Buzzard is quoted as calling it an extraordinary autoformalization result.",
-      "summary_zh": "Anthropic 表示 Claude 在約 11 天內大致自主完成費馬最後定理首份端到端、可機器檢驗的 Lean 證明，約 1,300 萬行、涵蓋逾 2.9 萬條中間定理。公司在科學部落格說明過程並指向 GitHub；Kevin Buzzard 稱此為非凡的自動形式化成果。",
-      "analysis_en": "This is a verification milestone, not a new human proof of FLT. What changes is the demonstrated scale of AI-written Lean libraries; what remains uncertain is how much human scaffolding and compute the 11-day run required outside the published narrative.",
-      "analysis_zh": "這是驗證里程碑，不是人類對 FLT 的新證明。改變的是 AI 撰寫 Lean 庫的規模已被展示；仍不確定的是 11 天流程中未完整公開的人類支架與算力成本。",
-      "quote": "Last month, Claude completed the first formalized proof of Fermat’s Last Theorem... It is the largest Lean proof ever written.",
-      "quote_zh": "上個月，Claude 完成了費馬最後定理的首份形式化證明……這是迄今最大的 Lean 證明。",
+      "title_zh": "Anthropic：Claude 完成費馬大定理首個 Lean 形式化證明",
+      "summary_en": "Anthropic said Claude, working largely autonomously over 11 days, wrote the first end-to-end computer-checked Lean proof of Fermat’s Last Theorem—about 13 million lines covering more than 29,000 intermediate theorems. The company published the research post, GitHub repo, and Kevin Buzzard’s review that the statement matches Mathlib and uses only Lean’s three standard axioms.",
+      "summary_zh": "Anthropic 表示 Claude 在約 11 天內大致自主寫出費馬大定理首份端到端、可被電腦檢查的 Lean 證明，約 1,300 萬行、涵蓋逾 2.9 萬條中間定理。公司公布研究文、GitHub 倉庫，以及 Kevin Buzzard 的審閱：定理陳述與 Mathlib 一致，且僅使用 Lean 三條標準公理。",
+      "analysis_en": "This is a verification milestone, not a new human proof of FLT. What changes is the demonstrated scale of AI-written Lean libraries; what remains uncertain is how much human scaffolding and platform design (Prove2Me) were required for the run to succeed.",
+      "analysis_zh": "這是驗證里程碑，不是費馬大定理的新人類證明。改變的是 AI 撰寫 Lean 庫的規模已被展示；仍不確定的是人類高層指令與 Prove2Me 平台對成功佔多大比重。",
+      "quote": "In 11 days, working largely autonomously, Claude produced the first end-to-end, computer-checked proof of FLT. Along the way, it wrote 13 million lines of Lean and proved 29,500 intermediate theorems.",
+      "quote_zh": "在 11 天內，Claude 大致自主完成費馬大定理首份端到端、可被電腦檢查的證明。過程中寫了 1,300 萬行 Lean，並證明 29,500 條中間定理。",
       "importance": 4,
       "first_seen": "2026-09-04T18:50:48Z",
-      "updated_at": "2026-09-04T22:35:01.643114+00:00",
+      "updated_at": "2026-09-05T04:35:01.233926+00:00",
       "links": [
         {
-          "label": "Anthropic Science Blog",
+          "label": "Anthropic Research",
           "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
         },
         {
           "label": "Anthropic on X",
           "url": "https://x.com/AnthropicAI/status/2095947707605266436"
+        },
+        {
+          "label": "GitHub: anthropics/fermats-last-theorem",
+          "url": "https://github.com/anthropics/fermats-last-theorem"
         }
       ]
     },
@@ -95,20 +115,24 @@
       "category": "openai",
       "source_type": "official_x",
       "title_en": "OpenAI banks daily Astra resets for paid users still locked out",
-      "title_zh": "OpenAI 為尚未拿到 Astra 的付費用戶累積每日重置額度",
-      "summary_en": "ChatGPT/Codex lead Tibo said OpenAI will bank one reset for every day a paid ChatGPT plan lacks Astra access, with the first credit landing about three hours after the Sept. 3 post. Altman separately apologized for the messy rollout and said the company tries to make it right when it screws up.",
-      "summary_zh": "ChatGPT／Codex 負責人 Tibo 表示，付費方案每天拿不到 Astra 就會累積一次重置額度，第一筆約在 9 月 3 日貼文後三小時入帳。Altman 另為混亂上線致歉，稱出錯會設法補救。",
+      "title_zh": "OpenAI 為尚未開通 Astra 的付費用戶累積每日重置",
+      "summary_en": "ChatGPT/Codex lead Tibo said OpenAI will bank one reset for every day a paid ChatGPT plan lacks Astra access, with the first credit landing about three hours after the Sept. 3 post. OpenAI’s help center now documents banked Codex resets for existing Plus, Pro and Business users on Sept. 3 and 4, and eligibility windows for new accounts.",
+      "summary_zh": "ChatGPT／Codex 負責人 Tibo 表示，付費方案若當日尚未開通 Astra，OpenAI 會累積一次重置，首筆約在 9 月 3 日貼文後三小時入帳。官方說明中心現已記載既有 Plus、Pro、Business 用戶在 9 月 3、4 日可獲累積重置，以及新帳號的資格時窗。",
       "analysis_en": "Compensating unused days is an admission that demand outran serving capacity. Credits do not by themselves confirm when remaining Plus seats flip on.",
-      "analysis_zh": "補償未使用天數等於承認供給跟不上需求。額度本身仍無法確認剩餘 Plus 席次何時開通。",
+      "analysis_zh": "補償未開通天數等於承認需求超過供應。累積重置本身並不能證明剩餘 Plus 席次何時開通。",
       "quote": "We will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today.",
-      "quote_zh": "即日起，付費 ChatGPT 方案每天若無法使用 Astra，我們會累積一次重置額度。",
+      "quote_zh": "自即日起，只要你的付費 ChatGPT 方案當天還沒有 Astra，我們就會給你一次累積重置。",
       "importance": 3,
       "first_seen": "2026-09-03T23:12:09Z",
-      "updated_at": "2026-09-04T22:35:01.643114+00:00",
+      "updated_at": "2026-09-05T04:35:01.233926+00:00",
       "links": [
         {
           "label": "Tibo on X",
           "url": "https://x.com/thsottiaux/status/2095651088502591861"
+        },
+        {
+          "label": "OpenAI Help: banked Codex resets",
+          "url": "https://help.openai.com/articles/20001498-how-banked-codex-resets-work"
         },
         {
           "label": "Sam Altman on X",
@@ -128,18 +152,18 @@
       "id": "xai-grok-bot-enterprise-templates-2026-09-04",
       "story_id": "xai-grok-bot-enterprise-templates-2026-09-04",
       "category": "xai",
-      "source_type": "mixed",
+      "source_type": "official_blog",
       "title_en": "xAI expands Grok Bot: enterprise access, marketplace templates, iPad",
-      "title_zh": "xAI 擴充 Grok Bot：企業版、模板市集與 iPad",
-      "summary_en": "xAI’s Grok Bot for Enterprise page says Grok and Cursor Enterprise customers get free usage for two weeks and can invite the whole organization. Official Bot account posts added a template marketplace, led by an in-house “Haggle Bot” procurement agent; Elon Musk amplified the templates and said Grok Bot is available on iPad.",
-      "summary_zh": "xAI《Grok Bot for Enterprise》頁面寫明 Grok 與 Cursor Enterprise 客戶可免費使用兩週並邀請整個組織。官方 Bot 帳號新增模板市集，首發內部採購代理 Haggle Bot；Elon Musk 轉發模板並稱 Grok Bot 已可在 iPad 使用。",
-      "analysis_en": "This is a distribution and workflow release, not a new Grok foundation model. The two-week free window and template marketplace matter more for adoption than any unpublished 4.7 countdown.",
-      "analysis_zh": "這是通路與工作流更新，不是新的 Grok 基礎模型。兩週免費與模板市集對採用的影響，大於尚未官宣的 4.7 倒數。",
-      "quote": "Grok Bot is now available for enterprises. Grok and Cursor Enterprise customers have free usage for the next two weeks.",
-      "quote_zh": "Grok Bot 現已開放企業使用。Grok 與 Cursor Enterprise 客戶未來兩週可免費使用。",
+      "title_zh": "xAI 擴大 Grok Bot：企業開通、模板市集與 iPad",
+      "summary_en": "xAI’s Grok Bot for Enterprise page says Grok and Cursor Enterprise customers get free usage for two weeks and can invite the whole organization. Official product copy added access, network and audit controls so organizations can govern always-on cloud Bots at scale.",
+      "summary_zh": "xAI「Grok Bot for Enterprise」頁面寫明：Grok 與 Cursor Enterprise 客戶可享兩週免費用量，並可邀請整個組織。官方產品說明新增存取、網路與稽核控制，讓企業能大規模治理全天候雲端 Bot。",
+      "analysis_en": "This is a distribution and workflow release, not a new Grok foundation model. The two-week free window and admin controls matter more for adoption than any unpublished model bump.",
+      "analysis_zh": "這是通路與工作流發布，不是新的 Grok 基礎模型。兩週免費窗與管理控制對採用的影響，大於未公布的模型小幅升級。",
+      "quote": "Grok and Cursor Enterprise customers have free usage for the next two weeks, and can invite their whole organization, including people without an existing seat.",
+      "quote_zh": "Grok 與 Cursor Enterprise 客戶未來兩週可免費使用，並可邀請整個組織，包括尚無席次的成員。",
       "importance": 3,
       "first_seen": "2026-09-03T21:14:52Z",
-      "updated_at": "2026-09-04T22:35:01.643114+00:00",
+      "updated_at": "2026-09-05T04:35:01.233926+00:00",
       "links": [
         {
           "label": "xAI: Grok Bot for Enterprise",
@@ -162,15 +186,15 @@
       "source_type": "official_x",
       "title_en": "Meta enables Muse Spark 1.3 max reasoning on Muse Code and Meta Model API",
       "title_zh": "Meta 在 Muse Code 與 Meta Model API 開放 Muse Spark 1.3 max 推理",
-      "summary_en": "Meta CAIO Alexandr Wang said Muse Spark 1.3 max is now publicly released, with stronger coding and agentic results than the high and xhigh settings. @AIatMeta confirmed max reasoning is available on Muse Code and the Meta Model API.",
-      "summary_zh": "Meta CAIO Alexandr Wang 宣布 Muse Spark 1.3 max 已公開推出，編碼與代理表現高於 high／xhigh 設定。@AIatMeta 確認 max 推理已可在 Muse Code 與 Meta Model API 使用。",
-      "analysis_en": "This completes a flagship setting that Meta had held back for extra safety testing. Independent scores for the callable max tier, not the launch video, will decide whether 1.3 changes buyer defaults.",
-      "analysis_zh": "這補上先前因額外安全測試而暫緩的旗艦設定。能否改寫採購預設，仍取決於可實際呼叫的 max 檔獨立評分，而非發表影片。",
-      "quote": "we just publicly released Muse Spark 1.3 max!",
-      "quote_zh": "我們剛公開推出 Muse Spark 1.3 max！",
+      "summary_en": "Meta CAIO Alexandr Wang said Muse Spark 1.3 max is now publicly released, with stronger coding and agentic results than the high and xhigh settings. @AIatMeta confirmed max reasoning is available on Muse Code and the Meta Model API. Wang followed up that users should try max even after testing high/xhigh.",
+      "summary_zh": "Meta 首席 AI 官 Alexandr Wang 表示 Muse Spark 1.3 max 已公開釋出，編碼與代理表現優於 high／xhigh。@AIatMeta 確認 max 推理已可在 Muse Code 與 Meta Model API 使用。Wang 後續仍建議即使試過 high／xhigh 也應再試 max。",
+      "analysis_en": "This completes a flagship setting that Meta had held back for extra safety testing. Independent scores for the callable max tier, not the launch video, will decide whether 1.3 changes buyer rankings.",
+      "analysis_zh": "這補齊 Meta 先前因額外安全測試而暫緩的旗艦設定。能實際呼叫的 max 檔獨立分數，而非發表影片，才會決定 1.3 是否改寫採購排名。",
+      "quote": "we just publicly released Muse Spark 1.3 max! we see significantly stronger coding and agentic performance on muse spark 1.3 max",
+      "quote_zh": "我們剛公開釋出 Muse Spark 1.3 max！在編碼與代理任務上，max 明顯強於其他檔位。",
       "importance": 3,
       "first_seen": "2026-09-04T18:16:10Z",
-      "updated_at": "2026-09-04T22:35:01.643114+00:00",
+      "updated_at": "2026-09-05T04:35:01.233926+00:00",
       "links": [
         {
           "label": "Alexandr Wang on X",
@@ -179,6 +203,10 @@
         {
           "label": "AI at Meta on X",
           "url": "https://x.com/AIatMeta/status/2095940043294847084"
+        },
+        {
+          "label": "Meta AI Research: Muse Spark 1.3",
+          "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
         }
       ]
     }
@@ -190,29 +218,37 @@
         "story_id": "openai-gpt6-astra-foundry-rollout-2026-09-04",
         "category": "openai",
         "source_type": "mixed",
-        "title_en": "Astra is live for Pro/Enterprise seats and in Azure Foundry; Plus still queued",
-        "title_zh": "Astra 已對 Pro／Enterprise 與 Azure Foundry 開放，Plus 仍在排隊",
-        "summary_en": "OpenAI said GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT Work and Codex, and is live in the API; Plus and remaining Business seats will follow over a few days. Microsoft separately said Astra is available in Microsoft Foundry with Standard and Provisioned Throughput options. Sam Altman thanked users for patience after a messy rollout.",
-        "summary_zh": "OpenAI 表示 GPT-6 Astra 已對所有 Pro、Enterprise 與 Business Premium 用戶在 ChatGPT Work 與 Codex 開放，並已上線 API；Plus 與其餘 Business 席次將在數日內跟進。Microsoft 另宣布 Astra 已可在 Microsoft Foundry 以標準與預配吞吐量部署。Altman 為混亂上線向用戶致歉並感謝等待。",
-        "analysis_en": "The story has moved from launch claims to who can actually select the model. Highest-paying ChatGPT seats and cloud channels flipped first; Plus access and quota tightness remain the operational unknowns, not the model card.",
-        "analysis_zh": "焦點已從「發表了什麼」轉成「誰選得到」。付費最高席次與雲端通路先開，Plus 時程與配額仍是營運變數，而非模型規格本身。",
-        "quote": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT Work and Codex. It's also live in the API.",
-        "quote_zh": "GPT-6 Astra 現已對所有 Pro、Enterprise 與 Business Premium 用戶在 ChatGPT Work 與 Codex 開放，並已上線 API。",
+        "title_en": "Astra is live for Pro/Enterprise seats, API, Azure Foundry and GitHub Copilot; Plus still queued",
+        "title_zh": "Astra 已對 Pro／企業席次、API、Azure Foundry 與 GitHub Copilot 上線；Plus 仍排隊",
+        "summary_en": "OpenAI said GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT Work and Codex, and is live in the API; Plus and remaining Business seats will follow over a few days. Microsoft said Astra is generally available in Microsoft Foundry. GitHub separately listed Astra as generally available in Copilot for Pro+, Max, Business and Enterprise, with a gradual rollout.",
+        "summary_zh": "OpenAI 表示 GPT-6 Astra 已對所有 Pro、Enterprise 與 Business Premium 用戶在 ChatGPT Work 與 Codex 開放，並已上線 API；Plus 與其餘 Business 席次將於數日內跟進。Microsoft 稱 Astra 已在 Microsoft Foundry 正式提供。GitHub 則將 Astra 列為 Copilot Pro+、Max、Business 與 Enterprise 一般可用，採逐步開通。",
+        "analysis_en": "The story has moved from launch claims to who can actually select the model. Highest-paying ChatGPT seats and cloud/IDE channels flipped first; Plus access and quota tightness remain the binding constraint.",
+        "analysis_zh": "焦點已從「宣布推出」轉成「誰能真正選到模型」。高價 ChatGPT 席次與雲端／IDE 通路先開；Plus 開通時程與配額仍是瓶頸。",
+        "quote": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in Work/Codex, and is available in the API. We will start rollout to Plus and Business users next.",
+        "quote_zh": "GPT-6 Astra 現已對所有 Pro、Enterprise 與 Business Premium 用戶在 Work／Codex 開放，並已上線 API。接下來將開始向 Plus 與 Business 用戶推送。",
         "importance": 5,
         "first_seen": "2026-09-04T01:02:06Z",
-        "updated_at": "2026-09-04T22:35:01.643114+00:00",
+        "updated_at": "2026-09-05T04:35:01.233926+00:00",
         "links": [
-          {
-            "label": "OpenAI on X",
-            "url": "https://x.com/OpenAI/status/2095968413646737608"
-          },
           {
             "label": "Sam Altman on X",
             "url": "https://x.com/sama/status/2095973658867171733"
           },
           {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2095968413646737608"
+          },
+          {
             "label": "OpenAI: GPT-6 Astra",
             "url": "https://openai.com/index/gpt-6-astra/"
+          },
+          {
+            "label": "Microsoft Azure Blog: Astra in Foundry",
+            "url": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-generally-available-in-microsoft-foundry/"
+          },
+          {
+            "label": "GitHub Changelog: Astra in Copilot",
+            "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot/"
           },
           {
             "label": "Microsoft Azure Blog",
@@ -234,20 +270,24 @@
         "category": "openai",
         "source_type": "official_x",
         "title_en": "OpenAI banks daily Astra resets for paid users still locked out",
-        "title_zh": "OpenAI 為尚未拿到 Astra 的付費用戶累積每日重置額度",
-        "summary_en": "ChatGPT/Codex lead Tibo said OpenAI will bank one reset for every day a paid ChatGPT plan lacks Astra access, with the first credit landing about three hours after the Sept. 3 post. Altman separately apologized for the messy rollout and said the company tries to make it right when it screws up.",
-        "summary_zh": "ChatGPT／Codex 負責人 Tibo 表示，付費方案每天拿不到 Astra 就會累積一次重置額度，第一筆約在 9 月 3 日貼文後三小時入帳。Altman 另為混亂上線致歉，稱出錯會設法補救。",
+        "title_zh": "OpenAI 為尚未開通 Astra 的付費用戶累積每日重置",
+        "summary_en": "ChatGPT/Codex lead Tibo said OpenAI will bank one reset for every day a paid ChatGPT plan lacks Astra access, with the first credit landing about three hours after the Sept. 3 post. OpenAI’s help center now documents banked Codex resets for existing Plus, Pro and Business users on Sept. 3 and 4, and eligibility windows for new accounts.",
+        "summary_zh": "ChatGPT／Codex 負責人 Tibo 表示，付費方案若當日尚未開通 Astra，OpenAI 會累積一次重置，首筆約在 9 月 3 日貼文後三小時入帳。官方說明中心現已記載既有 Plus、Pro、Business 用戶在 9 月 3、4 日可獲累積重置，以及新帳號的資格時窗。",
         "analysis_en": "Compensating unused days is an admission that demand outran serving capacity. Credits do not by themselves confirm when remaining Plus seats flip on.",
-        "analysis_zh": "補償未使用天數等於承認供給跟不上需求。額度本身仍無法確認剩餘 Plus 席次何時開通。",
+        "analysis_zh": "補償未開通天數等於承認需求超過供應。累積重置本身並不能證明剩餘 Plus 席次何時開通。",
         "quote": "We will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today.",
-        "quote_zh": "即日起，付費 ChatGPT 方案每天若無法使用 Astra，我們會累積一次重置額度。",
+        "quote_zh": "自即日起，只要你的付費 ChatGPT 方案當天還沒有 Astra，我們就會給你一次累積重置。",
         "importance": 3,
         "first_seen": "2026-09-03T23:12:09Z",
-        "updated_at": "2026-09-04T22:35:01.643114+00:00",
+        "updated_at": "2026-09-05T04:35:01.233926+00:00",
         "links": [
           {
             "label": "Tibo on X",
             "url": "https://x.com/thsottiaux/status/2095651088502591861"
+          },
+          {
+            "label": "OpenAI Help: banked Codex resets",
+            "url": "https://help.openai.com/articles/20001498-how-banked-codex-resets-work"
           },
           {
             "label": "Sam Altman on X",
@@ -271,24 +311,28 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic: Claude produced the first Lean formalization of Fermat’s Last Theorem",
-        "title_zh": "Anthropic：Claude 完成費馬最後定理首次 Lean 形式化證明",
-        "summary_en": "Anthropic said Claude, working largely autonomously over 11 days, wrote the first end-to-end computer-checked Lean proof of Fermat’s Last Theorem—about 13 million lines covering more than 29,000 intermediate theorems. The company published a science-blog account and pointed to the proof on GitHub; Kevin Buzzard is quoted as calling it an extraordinary autoformalization result.",
-        "summary_zh": "Anthropic 表示 Claude 在約 11 天內大致自主完成費馬最後定理首份端到端、可機器檢驗的 Lean 證明，約 1,300 萬行、涵蓋逾 2.9 萬條中間定理。公司在科學部落格說明過程並指向 GitHub；Kevin Buzzard 稱此為非凡的自動形式化成果。",
-        "analysis_en": "This is a verification milestone, not a new human proof of FLT. What changes is the demonstrated scale of AI-written Lean libraries; what remains uncertain is how much human scaffolding and compute the 11-day run required outside the published narrative.",
-        "analysis_zh": "這是驗證里程碑，不是人類對 FLT 的新證明。改變的是 AI 撰寫 Lean 庫的規模已被展示；仍不確定的是 11 天流程中未完整公開的人類支架與算力成本。",
-        "quote": "Last month, Claude completed the first formalized proof of Fermat’s Last Theorem... It is the largest Lean proof ever written.",
-        "quote_zh": "上個月，Claude 完成了費馬最後定理的首份形式化證明……這是迄今最大的 Lean 證明。",
+        "title_zh": "Anthropic：Claude 完成費馬大定理首個 Lean 形式化證明",
+        "summary_en": "Anthropic said Claude, working largely autonomously over 11 days, wrote the first end-to-end computer-checked Lean proof of Fermat’s Last Theorem—about 13 million lines covering more than 29,000 intermediate theorems. The company published the research post, GitHub repo, and Kevin Buzzard’s review that the statement matches Mathlib and uses only Lean’s three standard axioms.",
+        "summary_zh": "Anthropic 表示 Claude 在約 11 天內大致自主寫出費馬大定理首份端到端、可被電腦檢查的 Lean 證明，約 1,300 萬行、涵蓋逾 2.9 萬條中間定理。公司公布研究文、GitHub 倉庫，以及 Kevin Buzzard 的審閱：定理陳述與 Mathlib 一致，且僅使用 Lean 三條標準公理。",
+        "analysis_en": "This is a verification milestone, not a new human proof of FLT. What changes is the demonstrated scale of AI-written Lean libraries; what remains uncertain is how much human scaffolding and platform design (Prove2Me) were required for the run to succeed.",
+        "analysis_zh": "這是驗證里程碑，不是費馬大定理的新人類證明。改變的是 AI 撰寫 Lean 庫的規模已被展示；仍不確定的是人類高層指令與 Prove2Me 平台對成功佔多大比重。",
+        "quote": "In 11 days, working largely autonomously, Claude produced the first end-to-end, computer-checked proof of FLT. Along the way, it wrote 13 million lines of Lean and proved 29,500 intermediate theorems.",
+        "quote_zh": "在 11 天內，Claude 大致自主完成費馬大定理首份端到端、可被電腦檢查的證明。過程中寫了 1,300 萬行 Lean，並證明 29,500 條中間定理。",
         "importance": 4,
         "first_seen": "2026-09-04T18:50:48Z",
-        "updated_at": "2026-09-04T22:35:01.643114+00:00",
+        "updated_at": "2026-09-05T04:35:01.233926+00:00",
         "links": [
           {
-            "label": "Anthropic Science Blog",
+            "label": "Anthropic Research",
             "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
           },
           {
             "label": "Anthropic on X",
             "url": "https://x.com/AnthropicAI/status/2095947707605266436"
+          },
+          {
+            "label": "GitHub: anthropics/fermats-last-theorem",
+            "url": "https://github.com/anthropics/fermats-last-theorem"
           }
         ]
       }
@@ -302,15 +346,15 @@
         "source_type": "official_x",
         "title_en": "Meta enables Muse Spark 1.3 max reasoning on Muse Code and Meta Model API",
         "title_zh": "Meta 在 Muse Code 與 Meta Model API 開放 Muse Spark 1.3 max 推理",
-        "summary_en": "Meta CAIO Alexandr Wang said Muse Spark 1.3 max is now publicly released, with stronger coding and agentic results than the high and xhigh settings. @AIatMeta confirmed max reasoning is available on Muse Code and the Meta Model API.",
-        "summary_zh": "Meta CAIO Alexandr Wang 宣布 Muse Spark 1.3 max 已公開推出，編碼與代理表現高於 high／xhigh 設定。@AIatMeta 確認 max 推理已可在 Muse Code 與 Meta Model API 使用。",
-        "analysis_en": "This completes a flagship setting that Meta had held back for extra safety testing. Independent scores for the callable max tier, not the launch video, will decide whether 1.3 changes buyer defaults.",
-        "analysis_zh": "這補上先前因額外安全測試而暫緩的旗艦設定。能否改寫採購預設，仍取決於可實際呼叫的 max 檔獨立評分，而非發表影片。",
-        "quote": "we just publicly released Muse Spark 1.3 max!",
-        "quote_zh": "我們剛公開推出 Muse Spark 1.3 max！",
+        "summary_en": "Meta CAIO Alexandr Wang said Muse Spark 1.3 max is now publicly released, with stronger coding and agentic results than the high and xhigh settings. @AIatMeta confirmed max reasoning is available on Muse Code and the Meta Model API. Wang followed up that users should try max even after testing high/xhigh.",
+        "summary_zh": "Meta 首席 AI 官 Alexandr Wang 表示 Muse Spark 1.3 max 已公開釋出，編碼與代理表現優於 high／xhigh。@AIatMeta 確認 max 推理已可在 Muse Code 與 Meta Model API 使用。Wang 後續仍建議即使試過 high／xhigh 也應再試 max。",
+        "analysis_en": "This completes a flagship setting that Meta had held back for extra safety testing. Independent scores for the callable max tier, not the launch video, will decide whether 1.3 changes buyer rankings.",
+        "analysis_zh": "這補齊 Meta 先前因額外安全測試而暫緩的旗艦設定。能實際呼叫的 max 檔獨立分數，而非發表影片，才會決定 1.3 是否改寫採購排名。",
+        "quote": "we just publicly released Muse Spark 1.3 max! we see significantly stronger coding and agentic performance on muse spark 1.3 max",
+        "quote_zh": "我們剛公開釋出 Muse Spark 1.3 max！在編碼與代理任務上，max 明顯強於其他檔位。",
         "importance": 3,
         "first_seen": "2026-09-04T18:16:10Z",
-        "updated_at": "2026-09-04T22:35:01.643114+00:00",
+        "updated_at": "2026-09-05T04:35:01.233926+00:00",
         "links": [
           {
             "label": "Alexandr Wang on X",
@@ -319,6 +363,10 @@
           {
             "label": "AI at Meta on X",
             "url": "https://x.com/AIatMeta/status/2095940043294847084"
+          },
+          {
+            "label": "Meta AI Research: Muse Spark 1.3",
+            "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
           }
         ]
       }
@@ -328,18 +376,18 @@
         "id": "xai-grok-bot-enterprise-templates-2026-09-04",
         "story_id": "xai-grok-bot-enterprise-templates-2026-09-04",
         "category": "xai",
-        "source_type": "mixed",
+        "source_type": "official_blog",
         "title_en": "xAI expands Grok Bot: enterprise access, marketplace templates, iPad",
-        "title_zh": "xAI 擴充 Grok Bot：企業版、模板市集與 iPad",
-        "summary_en": "xAI’s Grok Bot for Enterprise page says Grok and Cursor Enterprise customers get free usage for two weeks and can invite the whole organization. Official Bot account posts added a template marketplace, led by an in-house “Haggle Bot” procurement agent; Elon Musk amplified the templates and said Grok Bot is available on iPad.",
-        "summary_zh": "xAI《Grok Bot for Enterprise》頁面寫明 Grok 與 Cursor Enterprise 客戶可免費使用兩週並邀請整個組織。官方 Bot 帳號新增模板市集，首發內部採購代理 Haggle Bot；Elon Musk 轉發模板並稱 Grok Bot 已可在 iPad 使用。",
-        "analysis_en": "This is a distribution and workflow release, not a new Grok foundation model. The two-week free window and template marketplace matter more for adoption than any unpublished 4.7 countdown.",
-        "analysis_zh": "這是通路與工作流更新，不是新的 Grok 基礎模型。兩週免費與模板市集對採用的影響，大於尚未官宣的 4.7 倒數。",
-        "quote": "Grok Bot is now available for enterprises. Grok and Cursor Enterprise customers have free usage for the next two weeks.",
-        "quote_zh": "Grok Bot 現已開放企業使用。Grok 與 Cursor Enterprise 客戶未來兩週可免費使用。",
+        "title_zh": "xAI 擴大 Grok Bot：企業開通、模板市集與 iPad",
+        "summary_en": "xAI’s Grok Bot for Enterprise page says Grok and Cursor Enterprise customers get free usage for two weeks and can invite the whole organization. Official product copy added access, network and audit controls so organizations can govern always-on cloud Bots at scale.",
+        "summary_zh": "xAI「Grok Bot for Enterprise」頁面寫明：Grok 與 Cursor Enterprise 客戶可享兩週免費用量，並可邀請整個組織。官方產品說明新增存取、網路與稽核控制，讓企業能大規模治理全天候雲端 Bot。",
+        "analysis_en": "This is a distribution and workflow release, not a new Grok foundation model. The two-week free window and admin controls matter more for adoption than any unpublished model bump.",
+        "analysis_zh": "這是通路與工作流發布，不是新的 Grok 基礎模型。兩週免費窗與管理控制對採用的影響，大於未公布的模型小幅升級。",
+        "quote": "Grok and Cursor Enterprise customers have free usage for the next two weeks, and can invite their whole organization, including people without an existing seat.",
+        "quote_zh": "Grok 與 Cursor Enterprise 客戶未來兩週可免費使用，並可邀請整個組織，包括尚無席次的成員。",
         "importance": 3,
         "first_seen": "2026-09-03T21:14:52Z",
-        "updated_at": "2026-09-04T22:35:01.643114+00:00",
+        "updated_at": "2026-09-05T04:35:01.233926+00:00",
         "links": [
           {
             "label": "xAI: Grok Bot for Enterprise",
@@ -358,7 +406,7 @@
     ],
     "frontier_other": []
   },
-  "brief_en": "OpenAI confirmed GPT-6 Astra is live for Pro, Enterprise and Business Premium in ChatGPT Work/Codex and the API; Plus still waits. Microsoft is serving Astra in Foundry. Anthropic published Claude’s first Lean formalization of Fermat’s Last Theorem. xAI pushed Grok Bot enterprise templates; Meta enabled Muse Spark 1.3 max reasoning.",
-  "brief_zh": "OpenAI 宣布 GPT-6 Astra 已對 Pro、Enterprise 與 Business Premium 開放 ChatGPT Work／Codex 與 API，Plus 仍在排隊；Azure Foundry 同步供應。Anthropic 公布 Claude 以 Lean 完成費馬最後定理形式化。xAI 推 Grok Bot 企業模板，Meta 開放 Muse Spark 1.3 max。",
-  "updated_at": "2026-09-04T22:35:01.643114+00:00"
+  "brief_en": "Astra is live for Pro/Enterprise/Business Premium, the API, Azure Foundry and GitHub Copilot; Plus still queues with banked Codex resets. Anthropic published Claude’s first Lean FLT formalization. Meta opened Muse Spark 1.3 max. xAI’s Grok Bot enterprise window continues.",
+  "brief_zh": "Astra 已對 Pro／Enterprise／Business Premium、API、Azure Foundry 與 GitHub Copilot 開放，Plus 仍排隊並可累積 Codex 重置。Anthropic 公布 Claude 首份 Lean 費馬大定理形式化。Meta 開放 Muse Spark 1.3 max。xAI Grok Bot 企業試用持續。",
+  "updated_at": "2026-09-05T04:35:01.233926+00:00"
 }
