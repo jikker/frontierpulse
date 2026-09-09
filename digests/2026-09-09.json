@@ -16,28 +16,67 @@
       "item_count": 8,
       "updated_count": 3,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-09-09T04:35:01.860693+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 9,
+      "updated_count": 8,
+      "kept_count": 0
     }
   ],
   "items_flat": [
+    {
+      "id": "openai-navier-stokes-2026-09-08",
+      "story_id": "openai-navier-stokes-2026-09-08",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI shares an agent-produced Navier–Stokes Millennium Problem solution",
+      "title_zh": "OpenAI 公開代理人產出的 Navier–Stokes 千禧年問題解",
+      "summary_en": "OpenAI published a research note saying an internal next-generation model, more capable than GPT-6 Astra and run as about 10,000 coordinating agents, produced an analytical proof and Lean formalization that smooth 3D Navier–Stokes flow can form a finite-time singularity. It says the result establishes Clay statements C and D, does not intend to claim the prize, and separately congratulated Levent Alpöge and Tristan Buckmaster while saying it cannot fully rule out that de-identified product usage helped models.",
+      "summary_zh": "OpenAI 發布研究說明：內部次世代模型（能力高於 GPT-6 Astra）以約 1 萬個協同代理人，產出解析證明與 Lean 形式化，顯示光滑三維 Navier–Stokes 流體可在有限時間形成奇異點，並稱對應 Clay 表述 C、D。公司表示不打算領獎；另祝賀 Alpöge 與 Buckmaster，同時寫明無法完全排除去識別產品使用資料曾幫助模型。",
+      "analysis_en": "If the Lean check holds under independent review, this is the first lab-scale claim that agents closed a Millennium Problem—and it is a blowup, not global regularity. Credit, forcing assumptions, and whether Clay will treat an unpublished internal model as the solver remain contested, not settled by the blog post.",
+      "analysis_zh": "若 Lean 檢查經獨立覆核成立，這是實驗室首次宣稱代理人拿下千禧年問題，且結果是爆破而非全局正則。貢獻歸屬、強迫項假設，以及 Clay 是否承認未公開內部模型為解題者，仍有爭議，官方文不能當作定讞。",
+      "quote": "We’re sharing a solution to the Navier–Stokes existence and smoothness problem, one of the Millennium Prize Problems. This proof, produced by an internal OpenAI system, shows that the dynamics of the Navier-Stokes equations for fluid motion can develop a singularity in finite time.",
+      "quote_zh": "我們分享 Navier–Stokes 存在與光滑性問題的一個解，這是千禧年獎問題之一。由 OpenAI 內部系統產出的證明顯示，描述流體運動的 Navier–Stokes 方程動力學可在有限時間形成奇異點。",
+      "importance": 5,
+      "first_seen": "2026-09-08T17:20:56Z",
+      "updated_at": "2026-09-09T04:35:01.860693+00:00",
+      "links": [
+        {
+          "label": "OpenAI research publication",
+          "url": "https://openai.com/index/navier-stokes-solution/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2097374640582668336"
+        },
+        {
+          "label": "GitHub Lean formalizations",
+          "url": "https://github.com/openai/NavierStokesAndEuler"
+        }
+      ]
+    },
     {
       "id": "mistral-series-d-3b-2026-09-08",
       "story_id": "mistral-series-d-3b-2026-09-08",
       "category": "frontier_other",
       "source_type": "official_blog",
       "title_en": "Mistral raises €3B Series D at €21B+ valuation, led by Samsung",
-      "title_zh": "Mistral完成三星領投30億歐元D輪，投後估值逾210億歐元",
-      "summary_en": "Mistral announced a €3 billion Series D at a post-money valuation of more than €21 billion, which it called the largest equity round ever completed by a European technology company, three years after launch. Samsung Electronics led, with EQT-managed Scaleup Europe Fund and existing investor PSG Equity as co-leads; new backers include Advent, BlackRock-managed funds and Luxembourg, while NVIDIA, a16z, ASML and others re-upped. The company said proceeds will expand frontier research, training compute, infrastructure, and its commercial footprint across 20 countries.",
-      "summary_zh": "Mistral宣布完成30億歐元D輪、投後估值逾210億歐元，自稱歐洲科技史上最大股權融資；三星領投，EQT管理的Scaleup Europe Fund與既有投資人PSG Equity共同領投。新進投資人包括Advent、貝萊德管理資金與盧森堡大公國，NVIDIA、a16z、ASML等續投。公司表示資金將用於前沿研究、訓練算力、基礎設施與20國商業擴張。",
-      "analysis_en": "The round is less a flagship-model launch than a bet that enterprises and governments will pay for control of data, models and compute rather than only peak benchmarks. Whether Mistral can convert sovereign-stack positioning into durable frontier-model parity remains unproven by this financing alone.",
-      "analysis_zh": "這輪融資更像是押注企業與政府願為資料、模型與算力主權付費，而不只看尖端基準。主權全棧定位能否轉成可持續的前沿模型競爭力，單憑融資尚無法證明。",
-      "quote": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion, the largest equity fundraising round ever completed by a European technology company.",
-      "quote_zh": "Mistral今日宣布完成30億歐元D輪融資，投後估值逾210億歐元，為歐洲科技公司有史以來最大股權融資。",
+      "title_zh": "Mistral 完成三星領投 30 億歐元 D 輪，估值逾 210 億歐元",
+      "summary_en": "Mistral announced a €3 billion Series D at a post-money valuation of more than €21 billion, which it called the largest equity round ever completed by a European technology company, three years after launch. Samsung Electronics led, with EQT-managed Scaleup Europe Fund and PSG Equity as co-leads; new money includes Advent, BlackRock-managed funds and Luxembourg, plus existing backers such as a16z, ASML, NVIDIA and Salesforce Ventures. Funds are slated for frontier research, training compute, infrastructure and international expansion.",
+      "summary_zh": "Mistral 宣布完成 30 億歐元 D 輪、投後估值逾 210 億歐元，自稱歐洲科技公司史上最大股權融資，距成立僅三年。三星電子領投，EQT 管理的 Scaleup Europe Fund 與 PSG Equity 共同領投；新進投資人包括 Advent、貝萊德管理資金與盧森堡，既有股東含 a16z、ASML、NVIDIA、Salesforce Ventures。資金將用於前沿研究、訓練算力、基礎設施與海外擴張。",
+      "analysis_en": "The round is a capital-and-sovereignty bet more than a model launch: chip suppliers now sit on both sides of Mistral’s cap table. Whether the money produces a competitive open-weight frontier model, or mainly owned European compute, is still unproven.",
+      "analysis_zh": "此輪比較像資金與主權算力押注，而非旗艦模型發表：晶片供應商同時成為股東。錢會換成可競爭的開源權重前沿模型，還是主要變成自有歐洲算力，仍未驗證。",
+      "quote": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion, the largest equity fundraising round ever completed by a European technology company, three years after the company's launch.",
+      "quote_zh": "Mistral 今日宣布完成 30 億歐元 D 輪融資，投後估值逾 210 億歐元，為歐洲科技公司有史以來最大股權融資，距公司成立三年。",
       "importance": 5,
       "first_seen": "2026-09-08T16:35:01Z",
-      "updated_at": "2026-09-08T22:35:01.352318+00:00",
+      "updated_at": "2026-09-09T04:35:01.860693+00:00",
       "links": [
         {
-          "label": "Mistral official announcement",
+          "label": "Mistral announcement",
           "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
         },
         {
@@ -60,24 +99,24 @@
       "category": "google",
       "source_type": "official_blog",
       "title_en": "DeepMind launches AlphaGenome Atlas covering all 9 billion possible human SNVs",
-      "title_zh": "DeepMind推出AlphaGenome Atlas，涵蓋人類基因組約90億種單核苷酸變異",
-      "summary_en": "Google DeepMind introduced AlphaGenome Atlas, a searchable 1-petabyte catalogue of predicted molecular effects for every possible single-nucleotide variant in the human genome—about 9 billion changes. The resource adds an AlphaGenome Variant Impact score and is available for academic use via a no-code portal, the AlphaGenome API, and a Google Antigravity skill; commercial access is slated for Google Cloud later. It precomputes last year’s AlphaGenome model rather than shipping a new consumer LLM.",
-      "summary_zh": "Google DeepMind推出AlphaGenome Atlas，以約1 PB資料預先計算人類基因組所有可能單核苷酸變異（約90億種）的分子效應，並提供AVI影響分數。學術用途可經免寫碼網站、AlphaGenome API與Google Antigravity技能查詢；商用預計稍後上Google Cloud。此為去年AlphaGenome預測器的全基因組查表，而非新消費級模型。",
-      "analysis_en": "This is a science-infrastructure release, not a new consumer model: it turns last year’s AlphaGenome predictor into a genome-wide lookup table. Clinical use is explicitly out of the current academic framing, so diagnostic claims should wait for independent validation.",
-      "analysis_zh": "這是科學基礎設施發布，不是新消費模型：把去年的AlphaGenome變成全基因組查表。臨床用途不在目前學術授權範圍，診斷主張仍需獨立驗證。",
-      "quote": "Today, we are introducing AlphaGenome Atlas: a platform containing predictions for the effects of 9 billion single-nucleotide variants — every single-letter change possible — in the human genome.",
-      "quote_zh": "我們今日推出AlphaGenome Atlas：涵蓋人類基因組90億種單核苷酸變異——所有可能的單字母改變——之效應預測平台。",
+      "title_zh": "DeepMind 推出涵蓋約 90 億個人類 SNV 的 AlphaGenome Atlas",
+      "summary_en": "Google DeepMind introduced AlphaGenome Atlas, a searchable roughly 1-petabyte catalogue of predicted molecular effects for every possible single-nucleotide variant in the human genome—about 9 billion changes. The resource adds an AlphaGenome Variant Impact (AVI) score mixing AlphaGenome regulatory predictions with AlphaMissense, and is available via a no-code portal, the AlphaGenome API and a Google Antigravity skill; commercial Cloud access is described as coming soon.",
+      "summary_zh": "Google DeepMind 推出 AlphaGenome Atlas，約 1 PB 可查詢目錄，涵蓋人類基因組每一種可能單核苷酸變異（約 90 億）的預測分子效應。資源新增結合 AlphaGenome 調控預測與 AlphaMissense 的 AVI 分數，並以免寫程式入口、AlphaGenome API 與 Google Antigravity skill 開放；商業雲端存取稱為即將推出。",
+      "analysis_en": "This is science infrastructure, not a consumer model: last year’s predictor becomes a genome-wide lookup table. Clinical use is not what the lab is authorizing today; independent validation of AVI against real disease cohorts is the next test.",
+      "analysis_zh": "這是科學基礎設施，不是消費模型：把去年的預測器做成全基因組查表。實驗室此刻並未授權臨床用途；AVI 對真實疾病世代的獨立驗證才是下一步考驗。",
+      "quote": "Today, we're introducing AlphaGenome Atlas, a database that predicts the effects of every possible single nucleotide variant in the human genome.",
+      "quote_zh": "今天我們推出 AlphaGenome Atlas，一個預測人類基因組中每一種可能單核苷酸變異效應的資料庫。",
       "importance": 4,
       "first_seen": "2026-09-08T16:35:01Z",
-      "updated_at": "2026-09-08T22:35:01.352318+00:00",
+      "updated_at": "2026-09-09T04:35:01.860693+00:00",
       "links": [
         {
-          "label": "Google DeepMind Blog",
-          "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
+          "label": "Google blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/"
         },
         {
-          "label": "Google Blog",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/"
+          "label": "DeepMind blog",
+          "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
         },
         {
           "label": "Google DeepMind on X",
@@ -95,20 +134,24 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI ships ChatGPT Images 2.5, Sketch, and GPT-Image-2.5 API models",
-      "title_zh": "OpenAI推出ChatGPT Images 2.5、Sketch與GPT-Image-2.5 API模型",
-      "summary_en": "OpenAI launched ChatGPT Images 2.5, saying it improves lighting, textures, reference-subject fidelity and multi-turn edits while cutting generation latency by up to 50% versus Images 2.0. ChatGPT adds Sketch (@Sketch doodles as references), templates, on-image comments and shareable prompts; the model is rolling out to all ChatGPT, ChatGPT Work and Codex tiers. Developers get GPT-Image-2.5 Flare (default, faster) and Sunburst (higher-control, slower) in the Images API, with Adobe Firefly among early hosts.",
-      "summary_zh": "OpenAI推出ChatGPT Images 2.5，稱在光線、材質、參考主體保真與多輪編輯上提升，延遲較Images 2.0最多降約50%。ChatGPT新增Sketch（以塗鴉當參考）、模板、圖上註解與可分享提示詞，並向所有ChatGPT、Work與Codex方案推出。API新增GPT-Image-2.5 Flare（預設、較快）與Sunburst（更精準、較慢），Adobe Firefly為早期接入方之一。",
-      "analysis_en": "This is a product-and-API image-model refresh, not a new text frontier. The 3-billion-images-per-week figure is company-reported; the practical change is cheaper iteration plus prompt-as-artifact sharing, which increases circulation of synthetic images rather than settling provenance debates.",
-      "analysis_zh": "這是圖像產品與API更新，不是新的文字前沿模型。每週30億張為公司自報數字；實質變化是更快迭代與「提示詞可轉傳」，會加速合成圖流通，並未解決來源爭議。",
-      "quote": "Images 2.5 produces more natural lighting and richer textures, is better at preserving the subjects in your reference photos, and follows editing instructions more reliably across multiple turns. We’ve also reduced image generation latency by up to 50% compared with Images 2.0.",
-      "quote_zh": "Images 2.5能產生更自然的光線與更豐富的材質，更能保留參考照片中的主體，並在多輪編輯中更可靠地遵循指令。相較Images 2.0，圖像生成延遲最多降低50%。",
+      "title_zh": "OpenAI 推出 ChatGPT Images 2.5、Sketch 與 GPT-Image-2.5 API 模型",
+      "summary_en": "OpenAI launched ChatGPT Images 2.5, saying it improves lighting, textures, reference-subject fidelity and multi-turn edits while cutting generation latency by up to 50% versus Images 2.0. ChatGPT adds Sketch (@Sketch doodles as references), templates and comment-based edits; the API adds GPT-Image-2.5 Flare and longer-running Sunburst. The company says more than 3 billion images are created weekly across ChatGPT Images and GPT-Image APIs.",
+      "summary_zh": "OpenAI 推出 ChatGPT Images 2.5，稱在光線、材質、參考主體保真與多輪編輯上提升，延遲較 Images 2.0 最多降約 50%。ChatGPT 新增 Sketch（@Sketch 塗鴉當參考）、模板與註解式編輯；API 新增 GPT-Image-2.5 Flare 與較慢、更精細的 Sunburst。公司稱 ChatGPT Images 與 GPT-Image API 每週生成逾 30 億張圖。",
+      "analysis_en": "This is an image-stack refresh, not a new text frontier. The 3-billion-images figure is company-reported; the practical change is faster iteration plus two named API variants whose token burn versus Image 2 is not independently measured here.",
+      "analysis_zh": "這是圖像產品與 API 更新，不是新的文字前沿。30 億張為公司自報；實際改變是更快迭代，加上兩個具名 API 變體，其相對 Image 2 的 token 消耗此處尚無獨立量測。",
+      "quote": "Today, we’re expanding what you can create with ChatGPT Images 2.5—our new state-of-the-art image model that brings sharper details, more precise editing, and faster generation to your creative workflows.",
+      "quote_zh": "今天我們以 ChatGPT Images 2.5 擴大可創作範圍——這是新的頂尖圖像模型，為創作流程帶來更銳利細節、更精準編輯與更快生成。",
       "importance": 4,
       "first_seen": "2026-09-08T19:45:17Z",
-      "updated_at": "2026-09-08T22:35:01.352318+00:00",
+      "updated_at": "2026-09-09T04:35:01.860693+00:00",
       "links": [
         {
-          "label": "OpenAI Blog",
+          "label": "OpenAI blog",
           "url": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2097394956457623964"
         },
         {
           "label": "Sam Altman on X",
@@ -122,20 +165,24 @@
       "category": "openai",
       "source_type": "official_x",
       "title_en": "OpenAI says GPT-6 Astra is fully rolled out in Codex and ChatGPT Work for paid tiers",
-      "title_zh": "OpenAI稱GPT-6 Astra已向付費方案在Codex與ChatGPT Work全面開放",
-      "summary_en": "OpenAI posted that Astra is fully rolled out to Plus, Pro, Business and Enterprise users in Codex and ChatGPT Work, pointing builders to a live demo on GPT-TV. Help-center language still treats general Chat access to Astra-powered GPT-6 Pro as reserved for higher-priced plans, with Plus limited to Work and Codex and Enterprise off by default until admins enable it. The underlying GPT-6 Astra model itself launched earlier in September, not today.",
-      "summary_zh": "OpenAI在X發文稱Astra已向Plus、Pro、Business與Enterprise用戶在Codex與ChatGPT Work全面開放，並指向GPT-TV即時示範。說明中心仍將一般Chat中的Astra驅動GPT-6 Pro留給較高階方案，Plus僅限Work與Codex，Enterprise預設關閉需管理員開啟。GPT-6 Astra本體已於本月初發布，今日是通路擴展。",
+      "title_zh": "OpenAI 稱 GPT-6 Astra 已在付費層的 Codex 與 ChatGPT Work 全量上線",
+      "summary_en": "OpenAI posted that Astra is fully rolled out to Plus, Pro, Business and Enterprise users in Codex and ChatGPT Work, pointing builders to a live demo on GPT-TV. Help-center language still treats general Chat access to Astra-powered GPT-6 Pro as a separate, earlier product track from this Work/Codex completion notice.",
+      "summary_zh": "OpenAI 發文稱 Astra 已對 Plus、Pro、Business、Enterprise 使用者在 Codex 與 ChatGPT Work 全量上線，並指向 GPT-TV 即時示範。說明中心對一般 Chat 使用 Astra 驅動 GPT-6 Pro 的表述，仍與此次 Work/Codex 完成通知分開。",
       "analysis_en": "Availability, not a new model: the split between Work/Codex and ordinary Chat is now the live product policy. How much Plus users can actually consume under existing allowances remains a usage-limit question, not a capability announcement.",
-      "analysis_zh": "這是可用性更新而非新模型：Work/Codex與一般Chat的分流已成現行產品政策。Plus在既有額度下能用多少，仍是用量問題，不是能力宣告。",
+      "analysis_zh": "這是上線範圍，不是新模型：Work/Codex 與一般 Chat 的分流已成現行產品政策。Plus 在既有額度下能實際用多少，仍是用量問題，不是能力發表。",
       "quote": "Astra is fully rolled out to Plus, Pro, Business, and Enterprise users in Codex and ChatGPT Work. Go build!",
-      "quote_zh": "Astra已向Plus、Pro、Business與Enterprise用戶在Codex與ChatGPT Work全面開放。去建造吧！",
+      "quote_zh": "Astra 已對 Plus、Pro、Business 與 Enterprise 使用者在 Codex 與 ChatGPT Work 全量上線。去打造吧！",
       "importance": 3,
       "first_seen": "2026-09-08T21:06:10Z",
-      "updated_at": "2026-09-08T22:35:01.352318+00:00",
+      "updated_at": "2026-09-09T04:35:01.860693+00:00",
       "links": [
         {
           "label": "OpenAI on X",
           "url": "https://x.com/OpenAI/status/2097431322117476423"
+        },
+        {
+          "label": "GPT-TV",
+          "url": "https://openai.com/gpt-tv/"
         },
         {
           "label": "OpenAI Help Center",
@@ -149,16 +196,16 @@
       "category": "openai",
       "source_type": "mixed",
       "title_en": "OpenAI becomes anchor customer for two Firmus AI factories in Malaysia",
-      "title_zh": "OpenAI成為Firmus馬來西亞兩座AI工廠的錨點客戶",
-      "summary_en": "Nvidia-backed Australian operator Firmus said OpenAI signed a multi-year deal for dedicated compute at two Malaysia AI Factory sites, lifting Firmus’s contracted capacity above 900 MW across Australia, Singapore, Indonesia and Malaysia. Sites will use Nvidia’s DSX platform and Vera Rubin systems inside Firmus HyperCube modules; five of seven factories are still under development. OpenAI compute VP Sachin Katti said the sites will help serve regional and global demand; contract value was not disclosed.",
-      "summary_zh": "有NVIDIA支持的澳洲業者Firmus宣布，OpenAI簽署多年約、承租馬來西亞兩座AI工廠的專用算力，使Firmus在澳、新、印尼與馬來西亞的已簽約容量超過900 MW。機房將採用NVIDIA DSX平台與Vera Rubin系統、搭配Firmus HyperCube模組；七座工廠中五座仍在興建。OpenAI算力策略副總裁Sachin Katti表示將服務區域與全球需求；合約金額未公布。",
-      "analysis_en": "This is capacity procurement, not a model launch. It extends OpenAI’s Asia-Pacific inference and training footprint as Stargate-style projects elsewhere face delays, but power, water and ready-for-service dates for the Malaysian sites remain execution risks.",
-      "analysis_zh": "這是算力採購而非模型發布。它擴大OpenAI在亞太的訓練／推論足跡，但馬來西亞廠的電力、用水與實際交付時程仍是執行風險。",
+      "title_zh": "OpenAI 成為 Firmus 馬來西亞兩座 AI 工廠的錨定客戶",
+      "summary_en": "Nvidia-backed Australian operator Firmus said OpenAI signed a multi-year deal for dedicated compute at two Malaysia AI Factory sites, lifting Firmus’s contracted capacity above 900 MW across Australia, Singapore, Indonesia and Malaysia. Sites will use Nvidia Vera Rubin systems; OpenAI VP of Compute Strategy Sachin Katti is quoted on serving regional product demand. Contract value was not disclosed.",
+      "summary_zh": "NVIDIA 支持的澳洲營運商 Firmus 表示，OpenAI 簽署多年約，承租馬來西亞兩座 AI Factory 的專用算力，使 Firmus 在澳、新、印尼、馬來西亞的已簽約容量超過 900 MW。據稱將部署 NVIDIA Vera Rubin；OpenAI 算力策略副總裁 Sachin Katti 被引述稱將服務區域產品需求。合約金額未揭露。",
+      "analysis_en": "This is capacity procurement, not a model launch. It extends OpenAI’s Asia-Pacific footprint while other campus projects face delay, but power, water and ready-for-service dates in Malaysia are still execution risk.",
+      "analysis_zh": "這是算力採購，不是模型發表。它擴大 OpenAI 亞太足跡，其他園區若延遲可作補位，但馬來西亞的電力、用水與實際開機時程仍是執行風險。",
       "quote": "We’re excited to work with Firmus as we expand our global compute capacity. These new data centers in Malaysia will help us serve growing demand for OpenAI’s products across the region and around the world.",
-      "quote_zh": "我們很高興與Firmus合作以擴張全球算力。這些馬來西亞新資料中心將協助我們服務區域與全球對OpenAI產品不斷成長的需求。",
+      "quote_zh": "我們很高興與 Firmus 合作以擴大全球算力。這些馬來西亞新資料中心將協助我們服務區域與全球對 OpenAI 產品不斷成長的需求。",
       "importance": 3,
       "first_seen": "2026-09-08T16:35:01Z",
-      "updated_at": "2026-09-08T22:35:01.352318+00:00",
+      "updated_at": "2026-09-09T04:35:01.860693+00:00",
       "links": [
         {
           "label": "Firmus newsroom",
@@ -176,19 +223,19 @@
       "category": "frontier_other",
       "source_type": "official_blog",
       "title_en": "Inception Labs releases Mercury 2.5 diffusion LLM at 1,107 tok/s",
-      "title_zh": "Inception Labs發布擴散式LLM Mercury 2.5，稱達每秒1,107 token",
-      "summary_en": "Inception Labs released Mercury 2.5, calling it its most capable production diffusion LLM and the largest such model it has trained. The company claims a 40% intelligence lift over Mercury 2, 1,107 tokens per second on widely available Nvidia GPUs, a 260K context window, and list pricing of $0.20/$0.75 per million tokens (80% off at launch). It positions quality as comparable to cost-optimized frontier small models such as GPT-5.6 Luna and Gemini 3.5 Flash-Lite.",
-      "summary_zh": "Inception Labs發布Mercury 2.5，稱為其最強量產擴散式LLM、亦為該公司訓練過最大的此類模型。官方稱較Mercury 2智能提升約40%，在常見NVIDIA GPU上達每秒1,107 token、260K上下文，標價每百萬token $0.20/$0.75（上市享八折）。品質對標GPT-5.6 Luna、Gemini 3.5 Flash-Lite等低成本前沿小模型。",
-      "analysis_en": "If the speed and quality claims hold under independent evals, diffusion LLMs become a sharper alternative for latency-sensitive agents and voice. Those comparisons are the lab’s own; third-party benches were not published with the post.",
-      "analysis_zh": "若速度與品質主張經獨立評測成立，擴散式LLM對低延遲代理與語音會更有吸引力。目前對標為官方自述，發文未附第三方基準。",
+      "title_zh": "Inception Labs 發布 Mercury 2.5 擴散式 LLM，聲稱 1,107 tok/s",
+      "summary_en": "Inception Labs released Mercury 2.5, calling it its most capable production diffusion LLM and the largest such model it has trained. The company claims a 40% intelligence lift over Mercury 2, 1,107 tokens per second on widely available Nvidia GPUs, 260K context, and list prices of $0.20/$0.75 per million input/output tokens with an 80% launch discount.",
+      "summary_zh": "Inception Labs 發布 Mercury 2.5，稱為迄今最強、規模最大的量產擴散式 LLM。公司聲稱較 Mercury 2 智能提升 40%，在常見 NVIDIA GPU 上達 1,107 token/秒、260K 上下文，標價每百萬 token 輸入 0.20／輸出 0.75 美元，上市享八折。",
+      "analysis_en": "If the speed and quality claims hold under independent evals, diffusion LLMs become a sharper option for latency-sensitive agents and voice. Those comparisons are the lab’s own, not a third-party leaderboard result in this window.",
+      "analysis_zh": "若速度與品質主張經獨立評測成立，擴散式 LLM 對低延遲代理人與語音會更有競爭力。此窗口內的對照仍是實驗室自報，不是第三方榜單結果。",
       "quote": "Today, we’re releasing Mercury 2.5, our most capable production model yet. It is a significant step up in quality over Mercury 2, with the same low-latency, low-cost serving profile.",
-      "quote_zh": "我們今日發布迄今最強的量產模型Mercury 2.5。品質較Mercury 2明顯提升，同時維持低延遲、低成本的服務特性。",
+      "quote_zh": "今天我們發布 Mercury 2.5，這是迄今最強的量產模型。品質較 Mercury 2 明顯提升，同時維持低延遲、低成本的服務特性。",
       "importance": 3,
       "first_seen": "2026-09-08T16:35:01Z",
-      "updated_at": "2026-09-08T22:35:01.352318+00:00",
+      "updated_at": "2026-09-09T04:35:01.860693+00:00",
       "links": [
         {
-          "label": "Inception Labs Blog",
+          "label": "Inception Labs blog",
           "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5"
         }
       ]
@@ -197,19 +244,23 @@
       "id": "meta-muse-ai-personal-agent-2026-09-08",
       "story_id": "meta-muse-ai-personal-agent-2026-09-08",
       "category": "meta",
-      "source_type": "official_x",
-      "title_en": "Meta launches muse.ai personal agent and publishes a safety deep dive",
-      "title_zh": "Meta上線muse.ai個人代理並發布安全深潛文",
-      "summary_en": "Meta AI’s official account said it launched muse.ai as a personal AI agent and published a deep dive on how safety is built into a system that accumulates long-lived user context. The post frames usefulness and privacy risk as the same property: an agent that knows you over time holds more personal data. Independent corroboration of feature scope beyond the X announcement was limited at publication time.",
-      "summary_zh": "Meta AI官方帳號宣布上線個人代理網站muse.ai，並發布長文說明如何為會累積長期使用者脈絡的系統做安全設計。貼文將「有用」與「隱私風險」視為同一來源：越了解你的代理持有越多個人資料。發稿時除X公告外，功能範圍的獨立核對仍有限。",
-      "analysis_en": "This is a consumer-agent surface and safety narrative, not a new open-weight Llama or Muse base model. The unresolved issue is what data the agent retains, under which controls, and how that differs from existing Meta AI in WhatsApp, Instagram and the Meta AI app.",
-      "analysis_zh": "這是消費端代理介面與安全論述，不是新的開源權重Llama或Muse基座模型。尚未釐清的是代理留存哪些資料、受何控制，以及與既有Meta AI（WhatsApp、Instagram、App）有何實質差異。",
-      "quote": "Today we launched muse.ai a personal AI agent, and published a deep dive on how we built safety into its system. An agent that gets to know you over time necessarily holds a lot of context about you.",
-      "quote_zh": "我們今日推出個人AI代理muse.ai，並發布深潛文說明如何把安全做進系統。一個會隨時間認識你的代理，必然持有大量關於你的脈絡。",
+      "source_type": "official_blog",
+      "title_en": "Meta launches Muse personal agent and publishes a safety-by-design pitch",
+      "title_zh": "Meta 推出 Muse 個人代理人並強調安全設計",
+      "summary_en": "Meta introduced Muse as a personal AI agent that runs in a dedicated Muse Secure VM with its own browser, connectors and a separate Sentinel gate for outbound actions. It is rolling out in the US on iOS, Android and muse.ai, with glasses support later; Meta says a free tier covers most use and paid Power/Maximum plans are $20 and $100 per month. Companion posts describe privacy controls and a long-lived context safety narrative.",
+      "summary_zh": "Meta 推出 Muse 個人 AI 代理人，在專屬 Muse Secure VM 中運行自有瀏覽器與連接器，另有 Sentinel 把關對外動作。先在美國以 iOS、Android 與 muse.ai 上線，眼鏡稍後支援；公司稱免費層覆蓋多數需求，付費 Power／Maximum 為每月 20 與 100 美元。配套說明強調隱私控制與長期脈絡的安全敘事。",
+      "analysis_en": "This is a consumer-agent surface, not a new open-weight Llama or Muse base-model drop. The unresolved issue is what data the agent retains, under which controls, and whether users will grant the app and payment access the product needs.",
+      "analysis_zh": "這是消費端代理人產品，不是新的開源權重 Llama 或 Muse 基座模型。未解問題是代理人保留哪些資料、受哪些控制，以及使用者會否授予產品所需的 App 與支付權限。",
+      "quote": "Today, Meta is introducing Muse, a secure, private personal AI agent that proactively helps with people’s goals and suggests ideas.",
+      "quote_zh": "今天 Meta 推出 Muse，一個安全、私密的個人 AI 代理人，會主動協助目標並提出建議。",
       "importance": 3,
       "first_seen": "2026-09-08T19:27:22Z",
-      "updated_at": "2026-09-08T22:35:01.352318+00:00",
+      "updated_at": "2026-09-09T04:35:01.860693+00:00",
       "links": [
+        {
+          "label": "Meta Newsroom",
+          "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"
+        },
         {
           "label": "AI at Meta on X",
           "url": "https://x.com/AIatMeta/status/2097406461118943599"
@@ -226,19 +277,19 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI expands journalism support from J-schools to newsrooms",
-      "title_zh": "OpenAI將新聞支援從新聞學院擴到新聞室",
-      "summary_en": "OpenAI said it is launching a multi-faceted journalism initiative starting with CUNY’s Newmark J-School and Northwestern’s Medill School for the 2026–2027 year, including more than 400 ChatGPT Edu subscriptions for interested graduate students and faculty. The post also recaps ongoing work with the American Journalism Project, Lenfest Institute, WAN-IFRA and INMA, plus OpenAI Academy for news organizations. Edu workspace data is not used to train OpenAI models, the company noted.",
-      "summary_zh": "OpenAI宣布啟動多面向新聞計畫，2026–2027學年先與紐約市立大學Newmark新聞學院、西北大學Medill合作，向有意願的研究生與教師提供逾400個ChatGPT Edu席次。文中並回顧與美國新聞計畫、Lenfest研究所、WAN-IFRA、INMA及OpenAI Academy的既有合作。公司註明Edu工作區資料不用於訓練其模型。",
-      "analysis_en": "This is ecosystem access and training, not a model or API change. It may ease newsroom adoption friction, but it does not resolve ongoing disputes over training data, licensing, or compensation with publishers.",
-      "analysis_zh": "這是生態系准入與培訓，不是模型或API變更。或可降低新聞室導入摩擦，但並未解決與出版商在訓練資料、授權與補償上的既有爭議。",
+      "title_zh": "OpenAI 將新聞支援從新聞學院延伸到編輯室",
+      "summary_en": "OpenAI said it is launching a multi-faceted journalism initiative starting with CUNY’s Newmark J-School and Northwestern’s Medill School for the 2026–2027 year, including more than 400 ChatGPT Edu subscriptions for interested graduate students and faculty. The post frames later newsroom enablement as the next phase after classroom access.",
+      "summary_zh": "OpenAI 宣布展開多面向新聞計畫，先與紐約市立大學 Newmark 新聞學院、西北大學 Medill 合作 2026–2027 學年，向有意願的研究生與教師提供逾 400 份 ChatGPT Edu。聲明將之後的編輯室賦能定為課堂之後的下一階段。",
+      "analysis_en": "This is ecosystem access and training, not a model or API change. It may lower newsroom trial friction, but it does not resolve disputes over training data, licensing or compensation.",
+      "analysis_zh": "這是生態系使用權與訓練，不是模型或 API 變更。或可降低編輯室試用門檻，但並未解決訓練資料、授權或補償爭議。",
       "quote": "OpenAI is launching a major, multi-faceted initiative to support the journalism ecosystem with tools, training, partnerships, shared learning, and practical enablement for students, educators, journalists, and news organizations.",
-      "quote_zh": "OpenAI正啟動一項多面向計畫，以工具、培訓、夥伴關係、經驗共享與實務賦能，支援學生、教師、記者與新聞機構。",
+      "quote_zh": "OpenAI 正啟動一項大型、多面向計畫，以工具、訓練、夥伴關係、經驗共享與實務賦能支援新聞生態系，對象含學生、教師、記者與新聞機構。",
       "importance": 2,
       "first_seen": "2026-09-08T16:35:01Z",
-      "updated_at": "2026-09-08T22:35:01.352318+00:00",
+      "updated_at": "2026-09-09T04:35:01.860693+00:00",
       "links": [
         {
-          "label": "OpenAI Blog",
+          "label": "OpenAI blog",
           "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms/"
         }
       ]
@@ -247,25 +298,60 @@
   "categories": {
     "openai": [
       {
+        "id": "openai-navier-stokes-2026-09-08",
+        "story_id": "openai-navier-stokes-2026-09-08",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI shares an agent-produced Navier–Stokes Millennium Problem solution",
+        "title_zh": "OpenAI 公開代理人產出的 Navier–Stokes 千禧年問題解",
+        "summary_en": "OpenAI published a research note saying an internal next-generation model, more capable than GPT-6 Astra and run as about 10,000 coordinating agents, produced an analytical proof and Lean formalization that smooth 3D Navier–Stokes flow can form a finite-time singularity. It says the result establishes Clay statements C and D, does not intend to claim the prize, and separately congratulated Levent Alpöge and Tristan Buckmaster while saying it cannot fully rule out that de-identified product usage helped models.",
+        "summary_zh": "OpenAI 發布研究說明：內部次世代模型（能力高於 GPT-6 Astra）以約 1 萬個協同代理人，產出解析證明與 Lean 形式化，顯示光滑三維 Navier–Stokes 流體可在有限時間形成奇異點，並稱對應 Clay 表述 C、D。公司表示不打算領獎；另祝賀 Alpöge 與 Buckmaster，同時寫明無法完全排除去識別產品使用資料曾幫助模型。",
+        "analysis_en": "If the Lean check holds under independent review, this is the first lab-scale claim that agents closed a Millennium Problem—and it is a blowup, not global regularity. Credit, forcing assumptions, and whether Clay will treat an unpublished internal model as the solver remain contested, not settled by the blog post.",
+        "analysis_zh": "若 Lean 檢查經獨立覆核成立，這是實驗室首次宣稱代理人拿下千禧年問題，且結果是爆破而非全局正則。貢獻歸屬、強迫項假設，以及 Clay 是否承認未公開內部模型為解題者，仍有爭議，官方文不能當作定讞。",
+        "quote": "We’re sharing a solution to the Navier–Stokes existence and smoothness problem, one of the Millennium Prize Problems. This proof, produced by an internal OpenAI system, shows that the dynamics of the Navier-Stokes equations for fluid motion can develop a singularity in finite time.",
+        "quote_zh": "我們分享 Navier–Stokes 存在與光滑性問題的一個解，這是千禧年獎問題之一。由 OpenAI 內部系統產出的證明顯示，描述流體運動的 Navier–Stokes 方程動力學可在有限時間形成奇異點。",
+        "importance": 5,
+        "first_seen": "2026-09-08T17:20:56Z",
+        "updated_at": "2026-09-09T04:35:01.860693+00:00",
+        "links": [
+          {
+            "label": "OpenAI research publication",
+            "url": "https://openai.com/index/navier-stokes-solution/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2097374640582668336"
+          },
+          {
+            "label": "GitHub Lean formalizations",
+            "url": "https://github.com/openai/NavierStokesAndEuler"
+          }
+        ]
+      },
+      {
         "id": "openai-chatgpt-images-2-5-2026-09-08",
         "story_id": "openai-chatgpt-images-2-5-2026-09-08",
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI ships ChatGPT Images 2.5, Sketch, and GPT-Image-2.5 API models",
-        "title_zh": "OpenAI推出ChatGPT Images 2.5、Sketch與GPT-Image-2.5 API模型",
-        "summary_en": "OpenAI launched ChatGPT Images 2.5, saying it improves lighting, textures, reference-subject fidelity and multi-turn edits while cutting generation latency by up to 50% versus Images 2.0. ChatGPT adds Sketch (@Sketch doodles as references), templates, on-image comments and shareable prompts; the model is rolling out to all ChatGPT, ChatGPT Work and Codex tiers. Developers get GPT-Image-2.5 Flare (default, faster) and Sunburst (higher-control, slower) in the Images API, with Adobe Firefly among early hosts.",
-        "summary_zh": "OpenAI推出ChatGPT Images 2.5，稱在光線、材質、參考主體保真與多輪編輯上提升，延遲較Images 2.0最多降約50%。ChatGPT新增Sketch（以塗鴉當參考）、模板、圖上註解與可分享提示詞，並向所有ChatGPT、Work與Codex方案推出。API新增GPT-Image-2.5 Flare（預設、較快）與Sunburst（更精準、較慢），Adobe Firefly為早期接入方之一。",
-        "analysis_en": "This is a product-and-API image-model refresh, not a new text frontier. The 3-billion-images-per-week figure is company-reported; the practical change is cheaper iteration plus prompt-as-artifact sharing, which increases circulation of synthetic images rather than settling provenance debates.",
-        "analysis_zh": "這是圖像產品與API更新，不是新的文字前沿模型。每週30億張為公司自報數字；實質變化是更快迭代與「提示詞可轉傳」，會加速合成圖流通，並未解決來源爭議。",
-        "quote": "Images 2.5 produces more natural lighting and richer textures, is better at preserving the subjects in your reference photos, and follows editing instructions more reliably across multiple turns. We’ve also reduced image generation latency by up to 50% compared with Images 2.0.",
-        "quote_zh": "Images 2.5能產生更自然的光線與更豐富的材質，更能保留參考照片中的主體，並在多輪編輯中更可靠地遵循指令。相較Images 2.0，圖像生成延遲最多降低50%。",
+        "title_zh": "OpenAI 推出 ChatGPT Images 2.5、Sketch 與 GPT-Image-2.5 API 模型",
+        "summary_en": "OpenAI launched ChatGPT Images 2.5, saying it improves lighting, textures, reference-subject fidelity and multi-turn edits while cutting generation latency by up to 50% versus Images 2.0. ChatGPT adds Sketch (@Sketch doodles as references), templates and comment-based edits; the API adds GPT-Image-2.5 Flare and longer-running Sunburst. The company says more than 3 billion images are created weekly across ChatGPT Images and GPT-Image APIs.",
+        "summary_zh": "OpenAI 推出 ChatGPT Images 2.5，稱在光線、材質、參考主體保真與多輪編輯上提升，延遲較 Images 2.0 最多降約 50%。ChatGPT 新增 Sketch（@Sketch 塗鴉當參考）、模板與註解式編輯；API 新增 GPT-Image-2.5 Flare 與較慢、更精細的 Sunburst。公司稱 ChatGPT Images 與 GPT-Image API 每週生成逾 30 億張圖。",
+        "analysis_en": "This is an image-stack refresh, not a new text frontier. The 3-billion-images figure is company-reported; the practical change is faster iteration plus two named API variants whose token burn versus Image 2 is not independently measured here.",
+        "analysis_zh": "這是圖像產品與 API 更新，不是新的文字前沿。30 億張為公司自報；實際改變是更快迭代，加上兩個具名 API 變體，其相對 Image 2 的 token 消耗此處尚無獨立量測。",
+        "quote": "Today, we’re expanding what you can create with ChatGPT Images 2.5—our new state-of-the-art image model that brings sharper details, more precise editing, and faster generation to your creative workflows.",
+        "quote_zh": "今天我們以 ChatGPT Images 2.5 擴大可創作範圍——這是新的頂尖圖像模型，為創作流程帶來更銳利細節、更精準編輯與更快生成。",
         "importance": 4,
         "first_seen": "2026-09-08T19:45:17Z",
-        "updated_at": "2026-09-08T22:35:01.352318+00:00",
+        "updated_at": "2026-09-09T04:35:01.860693+00:00",
         "links": [
           {
-            "label": "OpenAI Blog",
+            "label": "OpenAI blog",
             "url": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2097394956457623964"
           },
           {
             "label": "Sam Altman on X",
@@ -279,20 +365,24 @@
         "category": "openai",
         "source_type": "official_x",
         "title_en": "OpenAI says GPT-6 Astra is fully rolled out in Codex and ChatGPT Work for paid tiers",
-        "title_zh": "OpenAI稱GPT-6 Astra已向付費方案在Codex與ChatGPT Work全面開放",
-        "summary_en": "OpenAI posted that Astra is fully rolled out to Plus, Pro, Business and Enterprise users in Codex and ChatGPT Work, pointing builders to a live demo on GPT-TV. Help-center language still treats general Chat access to Astra-powered GPT-6 Pro as reserved for higher-priced plans, with Plus limited to Work and Codex and Enterprise off by default until admins enable it. The underlying GPT-6 Astra model itself launched earlier in September, not today.",
-        "summary_zh": "OpenAI在X發文稱Astra已向Plus、Pro、Business與Enterprise用戶在Codex與ChatGPT Work全面開放，並指向GPT-TV即時示範。說明中心仍將一般Chat中的Astra驅動GPT-6 Pro留給較高階方案，Plus僅限Work與Codex，Enterprise預設關閉需管理員開啟。GPT-6 Astra本體已於本月初發布，今日是通路擴展。",
+        "title_zh": "OpenAI 稱 GPT-6 Astra 已在付費層的 Codex 與 ChatGPT Work 全量上線",
+        "summary_en": "OpenAI posted that Astra is fully rolled out to Plus, Pro, Business and Enterprise users in Codex and ChatGPT Work, pointing builders to a live demo on GPT-TV. Help-center language still treats general Chat access to Astra-powered GPT-6 Pro as a separate, earlier product track from this Work/Codex completion notice.",
+        "summary_zh": "OpenAI 發文稱 Astra 已對 Plus、Pro、Business、Enterprise 使用者在 Codex 與 ChatGPT Work 全量上線，並指向 GPT-TV 即時示範。說明中心對一般 Chat 使用 Astra 驅動 GPT-6 Pro 的表述，仍與此次 Work/Codex 完成通知分開。",
         "analysis_en": "Availability, not a new model: the split between Work/Codex and ordinary Chat is now the live product policy. How much Plus users can actually consume under existing allowances remains a usage-limit question, not a capability announcement.",
-        "analysis_zh": "這是可用性更新而非新模型：Work/Codex與一般Chat的分流已成現行產品政策。Plus在既有額度下能用多少，仍是用量問題，不是能力宣告。",
+        "analysis_zh": "這是上線範圍，不是新模型：Work/Codex 與一般 Chat 的分流已成現行產品政策。Plus 在既有額度下能實際用多少，仍是用量問題，不是能力發表。",
         "quote": "Astra is fully rolled out to Plus, Pro, Business, and Enterprise users in Codex and ChatGPT Work. Go build!",
-        "quote_zh": "Astra已向Plus、Pro、Business與Enterprise用戶在Codex與ChatGPT Work全面開放。去建造吧！",
+        "quote_zh": "Astra 已對 Plus、Pro、Business 與 Enterprise 使用者在 Codex 與 ChatGPT Work 全量上線。去打造吧！",
         "importance": 3,
         "first_seen": "2026-09-08T21:06:10Z",
-        "updated_at": "2026-09-08T22:35:01.352318+00:00",
+        "updated_at": "2026-09-09T04:35:01.860693+00:00",
         "links": [
           {
             "label": "OpenAI on X",
             "url": "https://x.com/OpenAI/status/2097431322117476423"
+          },
+          {
+            "label": "GPT-TV",
+            "url": "https://openai.com/gpt-tv/"
           },
           {
             "label": "OpenAI Help Center",
@@ -306,16 +396,16 @@
         "category": "openai",
         "source_type": "mixed",
         "title_en": "OpenAI becomes anchor customer for two Firmus AI factories in Malaysia",
-        "title_zh": "OpenAI成為Firmus馬來西亞兩座AI工廠的錨點客戶",
-        "summary_en": "Nvidia-backed Australian operator Firmus said OpenAI signed a multi-year deal for dedicated compute at two Malaysia AI Factory sites, lifting Firmus’s contracted capacity above 900 MW across Australia, Singapore, Indonesia and Malaysia. Sites will use Nvidia’s DSX platform and Vera Rubin systems inside Firmus HyperCube modules; five of seven factories are still under development. OpenAI compute VP Sachin Katti said the sites will help serve regional and global demand; contract value was not disclosed.",
-        "summary_zh": "有NVIDIA支持的澳洲業者Firmus宣布，OpenAI簽署多年約、承租馬來西亞兩座AI工廠的專用算力，使Firmus在澳、新、印尼與馬來西亞的已簽約容量超過900 MW。機房將採用NVIDIA DSX平台與Vera Rubin系統、搭配Firmus HyperCube模組；七座工廠中五座仍在興建。OpenAI算力策略副總裁Sachin Katti表示將服務區域與全球需求；合約金額未公布。",
-        "analysis_en": "This is capacity procurement, not a model launch. It extends OpenAI’s Asia-Pacific inference and training footprint as Stargate-style projects elsewhere face delays, but power, water and ready-for-service dates for the Malaysian sites remain execution risks.",
-        "analysis_zh": "這是算力採購而非模型發布。它擴大OpenAI在亞太的訓練／推論足跡，但馬來西亞廠的電力、用水與實際交付時程仍是執行風險。",
+        "title_zh": "OpenAI 成為 Firmus 馬來西亞兩座 AI 工廠的錨定客戶",
+        "summary_en": "Nvidia-backed Australian operator Firmus said OpenAI signed a multi-year deal for dedicated compute at two Malaysia AI Factory sites, lifting Firmus’s contracted capacity above 900 MW across Australia, Singapore, Indonesia and Malaysia. Sites will use Nvidia Vera Rubin systems; OpenAI VP of Compute Strategy Sachin Katti is quoted on serving regional product demand. Contract value was not disclosed.",
+        "summary_zh": "NVIDIA 支持的澳洲營運商 Firmus 表示，OpenAI 簽署多年約，承租馬來西亞兩座 AI Factory 的專用算力，使 Firmus 在澳、新、印尼、馬來西亞的已簽約容量超過 900 MW。據稱將部署 NVIDIA Vera Rubin；OpenAI 算力策略副總裁 Sachin Katti 被引述稱將服務區域產品需求。合約金額未揭露。",
+        "analysis_en": "This is capacity procurement, not a model launch. It extends OpenAI’s Asia-Pacific footprint while other campus projects face delay, but power, water and ready-for-service dates in Malaysia are still execution risk.",
+        "analysis_zh": "這是算力採購，不是模型發表。它擴大 OpenAI 亞太足跡，其他園區若延遲可作補位，但馬來西亞的電力、用水與實際開機時程仍是執行風險。",
         "quote": "We’re excited to work with Firmus as we expand our global compute capacity. These new data centers in Malaysia will help us serve growing demand for OpenAI’s products across the region and around the world.",
-        "quote_zh": "我們很高興與Firmus合作以擴張全球算力。這些馬來西亞新資料中心將協助我們服務區域與全球對OpenAI產品不斷成長的需求。",
+        "quote_zh": "我們很高興與 Firmus 合作以擴大全球算力。這些馬來西亞新資料中心將協助我們服務區域與全球對 OpenAI 產品不斷成長的需求。",
         "importance": 3,
         "first_seen": "2026-09-08T16:35:01Z",
-        "updated_at": "2026-09-08T22:35:01.352318+00:00",
+        "updated_at": "2026-09-09T04:35:01.860693+00:00",
         "links": [
           {
             "label": "Firmus newsroom",
@@ -333,19 +423,19 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI expands journalism support from J-schools to newsrooms",
-        "title_zh": "OpenAI將新聞支援從新聞學院擴到新聞室",
-        "summary_en": "OpenAI said it is launching a multi-faceted journalism initiative starting with CUNY’s Newmark J-School and Northwestern’s Medill School for the 2026–2027 year, including more than 400 ChatGPT Edu subscriptions for interested graduate students and faculty. The post also recaps ongoing work with the American Journalism Project, Lenfest Institute, WAN-IFRA and INMA, plus OpenAI Academy for news organizations. Edu workspace data is not used to train OpenAI models, the company noted.",
-        "summary_zh": "OpenAI宣布啟動多面向新聞計畫，2026–2027學年先與紐約市立大學Newmark新聞學院、西北大學Medill合作，向有意願的研究生與教師提供逾400個ChatGPT Edu席次。文中並回顧與美國新聞計畫、Lenfest研究所、WAN-IFRA、INMA及OpenAI Academy的既有合作。公司註明Edu工作區資料不用於訓練其模型。",
-        "analysis_en": "This is ecosystem access and training, not a model or API change. It may ease newsroom adoption friction, but it does not resolve ongoing disputes over training data, licensing, or compensation with publishers.",
-        "analysis_zh": "這是生態系准入與培訓，不是模型或API變更。或可降低新聞室導入摩擦，但並未解決與出版商在訓練資料、授權與補償上的既有爭議。",
+        "title_zh": "OpenAI 將新聞支援從新聞學院延伸到編輯室",
+        "summary_en": "OpenAI said it is launching a multi-faceted journalism initiative starting with CUNY’s Newmark J-School and Northwestern’s Medill School for the 2026–2027 year, including more than 400 ChatGPT Edu subscriptions for interested graduate students and faculty. The post frames later newsroom enablement as the next phase after classroom access.",
+        "summary_zh": "OpenAI 宣布展開多面向新聞計畫，先與紐約市立大學 Newmark 新聞學院、西北大學 Medill 合作 2026–2027 學年，向有意願的研究生與教師提供逾 400 份 ChatGPT Edu。聲明將之後的編輯室賦能定為課堂之後的下一階段。",
+        "analysis_en": "This is ecosystem access and training, not a model or API change. It may lower newsroom trial friction, but it does not resolve disputes over training data, licensing or compensation.",
+        "analysis_zh": "這是生態系使用權與訓練，不是模型或 API 變更。或可降低編輯室試用門檻，但並未解決訓練資料、授權或補償爭議。",
         "quote": "OpenAI is launching a major, multi-faceted initiative to support the journalism ecosystem with tools, training, partnerships, shared learning, and practical enablement for students, educators, journalists, and news organizations.",
-        "quote_zh": "OpenAI正啟動一項多面向計畫，以工具、培訓、夥伴關係、經驗共享與實務賦能，支援學生、教師、記者與新聞機構。",
+        "quote_zh": "OpenAI 正啟動一項大型、多面向計畫，以工具、訓練、夥伴關係、經驗共享與實務賦能支援新聞生態系，對象含學生、教師、記者與新聞機構。",
         "importance": 2,
         "first_seen": "2026-09-08T16:35:01Z",
-        "updated_at": "2026-09-08T22:35:01.352318+00:00",
+        "updated_at": "2026-09-09T04:35:01.860693+00:00",
         "links": [
           {
-            "label": "OpenAI Blog",
+            "label": "OpenAI blog",
             "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms/"
           }
         ]
@@ -359,24 +449,24 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "DeepMind launches AlphaGenome Atlas covering all 9 billion possible human SNVs",
-        "title_zh": "DeepMind推出AlphaGenome Atlas，涵蓋人類基因組約90億種單核苷酸變異",
-        "summary_en": "Google DeepMind introduced AlphaGenome Atlas, a searchable 1-petabyte catalogue of predicted molecular effects for every possible single-nucleotide variant in the human genome—about 9 billion changes. The resource adds an AlphaGenome Variant Impact score and is available for academic use via a no-code portal, the AlphaGenome API, and a Google Antigravity skill; commercial access is slated for Google Cloud later. It precomputes last year’s AlphaGenome model rather than shipping a new consumer LLM.",
-        "summary_zh": "Google DeepMind推出AlphaGenome Atlas，以約1 PB資料預先計算人類基因組所有可能單核苷酸變異（約90億種）的分子效應，並提供AVI影響分數。學術用途可經免寫碼網站、AlphaGenome API與Google Antigravity技能查詢；商用預計稍後上Google Cloud。此為去年AlphaGenome預測器的全基因組查表，而非新消費級模型。",
-        "analysis_en": "This is a science-infrastructure release, not a new consumer model: it turns last year’s AlphaGenome predictor into a genome-wide lookup table. Clinical use is explicitly out of the current academic framing, so diagnostic claims should wait for independent validation.",
-        "analysis_zh": "這是科學基礎設施發布，不是新消費模型：把去年的AlphaGenome變成全基因組查表。臨床用途不在目前學術授權範圍，診斷主張仍需獨立驗證。",
-        "quote": "Today, we are introducing AlphaGenome Atlas: a platform containing predictions for the effects of 9 billion single-nucleotide variants — every single-letter change possible — in the human genome.",
-        "quote_zh": "我們今日推出AlphaGenome Atlas：涵蓋人類基因組90億種單核苷酸變異——所有可能的單字母改變——之效應預測平台。",
+        "title_zh": "DeepMind 推出涵蓋約 90 億個人類 SNV 的 AlphaGenome Atlas",
+        "summary_en": "Google DeepMind introduced AlphaGenome Atlas, a searchable roughly 1-petabyte catalogue of predicted molecular effects for every possible single-nucleotide variant in the human genome—about 9 billion changes. The resource adds an AlphaGenome Variant Impact (AVI) score mixing AlphaGenome regulatory predictions with AlphaMissense, and is available via a no-code portal, the AlphaGenome API and a Google Antigravity skill; commercial Cloud access is described as coming soon.",
+        "summary_zh": "Google DeepMind 推出 AlphaGenome Atlas，約 1 PB 可查詢目錄，涵蓋人類基因組每一種可能單核苷酸變異（約 90 億）的預測分子效應。資源新增結合 AlphaGenome 調控預測與 AlphaMissense 的 AVI 分數，並以免寫程式入口、AlphaGenome API 與 Google Antigravity skill 開放；商業雲端存取稱為即將推出。",
+        "analysis_en": "This is science infrastructure, not a consumer model: last year’s predictor becomes a genome-wide lookup table. Clinical use is not what the lab is authorizing today; independent validation of AVI against real disease cohorts is the next test.",
+        "analysis_zh": "這是科學基礎設施，不是消費模型：把去年的預測器做成全基因組查表。實驗室此刻並未授權臨床用途；AVI 對真實疾病世代的獨立驗證才是下一步考驗。",
+        "quote": "Today, we're introducing AlphaGenome Atlas, a database that predicts the effects of every possible single nucleotide variant in the human genome.",
+        "quote_zh": "今天我們推出 AlphaGenome Atlas，一個預測人類基因組中每一種可能單核苷酸變異效應的資料庫。",
         "importance": 4,
         "first_seen": "2026-09-08T16:35:01Z",
-        "updated_at": "2026-09-08T22:35:01.352318+00:00",
+        "updated_at": "2026-09-09T04:35:01.860693+00:00",
         "links": [
           {
-            "label": "Google DeepMind Blog",
-            "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
+            "label": "Google blog",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/"
           },
           {
-            "label": "Google Blog",
-            "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/"
+            "label": "DeepMind blog",
+            "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
           },
           {
             "label": "Google DeepMind on X",
@@ -394,19 +484,23 @@
         "id": "meta-muse-ai-personal-agent-2026-09-08",
         "story_id": "meta-muse-ai-personal-agent-2026-09-08",
         "category": "meta",
-        "source_type": "official_x",
-        "title_en": "Meta launches muse.ai personal agent and publishes a safety deep dive",
-        "title_zh": "Meta上線muse.ai個人代理並發布安全深潛文",
-        "summary_en": "Meta AI’s official account said it launched muse.ai as a personal AI agent and published a deep dive on how safety is built into a system that accumulates long-lived user context. The post frames usefulness and privacy risk as the same property: an agent that knows you over time holds more personal data. Independent corroboration of feature scope beyond the X announcement was limited at publication time.",
-        "summary_zh": "Meta AI官方帳號宣布上線個人代理網站muse.ai，並發布長文說明如何為會累積長期使用者脈絡的系統做安全設計。貼文將「有用」與「隱私風險」視為同一來源：越了解你的代理持有越多個人資料。發稿時除X公告外，功能範圍的獨立核對仍有限。",
-        "analysis_en": "This is a consumer-agent surface and safety narrative, not a new open-weight Llama or Muse base model. The unresolved issue is what data the agent retains, under which controls, and how that differs from existing Meta AI in WhatsApp, Instagram and the Meta AI app.",
-        "analysis_zh": "這是消費端代理介面與安全論述，不是新的開源權重Llama或Muse基座模型。尚未釐清的是代理留存哪些資料、受何控制，以及與既有Meta AI（WhatsApp、Instagram、App）有何實質差異。",
-        "quote": "Today we launched muse.ai a personal AI agent, and published a deep dive on how we built safety into its system. An agent that gets to know you over time necessarily holds a lot of context about you.",
-        "quote_zh": "我們今日推出個人AI代理muse.ai，並發布深潛文說明如何把安全做進系統。一個會隨時間認識你的代理，必然持有大量關於你的脈絡。",
+        "source_type": "official_blog",
+        "title_en": "Meta launches Muse personal agent and publishes a safety-by-design pitch",
+        "title_zh": "Meta 推出 Muse 個人代理人並強調安全設計",
+        "summary_en": "Meta introduced Muse as a personal AI agent that runs in a dedicated Muse Secure VM with its own browser, connectors and a separate Sentinel gate for outbound actions. It is rolling out in the US on iOS, Android and muse.ai, with glasses support later; Meta says a free tier covers most use and paid Power/Maximum plans are $20 and $100 per month. Companion posts describe privacy controls and a long-lived context safety narrative.",
+        "summary_zh": "Meta 推出 Muse 個人 AI 代理人，在專屬 Muse Secure VM 中運行自有瀏覽器與連接器，另有 Sentinel 把關對外動作。先在美國以 iOS、Android 與 muse.ai 上線，眼鏡稍後支援；公司稱免費層覆蓋多數需求，付費 Power／Maximum 為每月 20 與 100 美元。配套說明強調隱私控制與長期脈絡的安全敘事。",
+        "analysis_en": "This is a consumer-agent surface, not a new open-weight Llama or Muse base-model drop. The unresolved issue is what data the agent retains, under which controls, and whether users will grant the app and payment access the product needs.",
+        "analysis_zh": "這是消費端代理人產品，不是新的開源權重 Llama 或 Muse 基座模型。未解問題是代理人保留哪些資料、受哪些控制，以及使用者會否授予產品所需的 App 與支付權限。",
+        "quote": "Today, Meta is introducing Muse, a secure, private personal AI agent that proactively helps with people’s goals and suggests ideas.",
+        "quote_zh": "今天 Meta 推出 Muse，一個安全、私密的個人 AI 代理人，會主動協助目標並提出建議。",
         "importance": 3,
         "first_seen": "2026-09-08T19:27:22Z",
-        "updated_at": "2026-09-08T22:35:01.352318+00:00",
+        "updated_at": "2026-09-09T04:35:01.860693+00:00",
         "links": [
+          {
+            "label": "Meta Newsroom",
+            "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"
+          },
           {
             "label": "AI at Meta on X",
             "url": "https://x.com/AIatMeta/status/2097406461118943599"
@@ -426,19 +520,19 @@
         "category": "frontier_other",
         "source_type": "official_blog",
         "title_en": "Mistral raises €3B Series D at €21B+ valuation, led by Samsung",
-        "title_zh": "Mistral完成三星領投30億歐元D輪，投後估值逾210億歐元",
-        "summary_en": "Mistral announced a €3 billion Series D at a post-money valuation of more than €21 billion, which it called the largest equity round ever completed by a European technology company, three years after launch. Samsung Electronics led, with EQT-managed Scaleup Europe Fund and existing investor PSG Equity as co-leads; new backers include Advent, BlackRock-managed funds and Luxembourg, while NVIDIA, a16z, ASML and others re-upped. The company said proceeds will expand frontier research, training compute, infrastructure, and its commercial footprint across 20 countries.",
-        "summary_zh": "Mistral宣布完成30億歐元D輪、投後估值逾210億歐元，自稱歐洲科技史上最大股權融資；三星領投，EQT管理的Scaleup Europe Fund與既有投資人PSG Equity共同領投。新進投資人包括Advent、貝萊德管理資金與盧森堡大公國，NVIDIA、a16z、ASML等續投。公司表示資金將用於前沿研究、訓練算力、基礎設施與20國商業擴張。",
-        "analysis_en": "The round is less a flagship-model launch than a bet that enterprises and governments will pay for control of data, models and compute rather than only peak benchmarks. Whether Mistral can convert sovereign-stack positioning into durable frontier-model parity remains unproven by this financing alone.",
-        "analysis_zh": "這輪融資更像是押注企業與政府願為資料、模型與算力主權付費，而不只看尖端基準。主權全棧定位能否轉成可持續的前沿模型競爭力，單憑融資尚無法證明。",
-        "quote": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion, the largest equity fundraising round ever completed by a European technology company.",
-        "quote_zh": "Mistral今日宣布完成30億歐元D輪融資，投後估值逾210億歐元，為歐洲科技公司有史以來最大股權融資。",
+        "title_zh": "Mistral 完成三星領投 30 億歐元 D 輪，估值逾 210 億歐元",
+        "summary_en": "Mistral announced a €3 billion Series D at a post-money valuation of more than €21 billion, which it called the largest equity round ever completed by a European technology company, three years after launch. Samsung Electronics led, with EQT-managed Scaleup Europe Fund and PSG Equity as co-leads; new money includes Advent, BlackRock-managed funds and Luxembourg, plus existing backers such as a16z, ASML, NVIDIA and Salesforce Ventures. Funds are slated for frontier research, training compute, infrastructure and international expansion.",
+        "summary_zh": "Mistral 宣布完成 30 億歐元 D 輪、投後估值逾 210 億歐元，自稱歐洲科技公司史上最大股權融資，距成立僅三年。三星電子領投，EQT 管理的 Scaleup Europe Fund 與 PSG Equity 共同領投；新進投資人包括 Advent、貝萊德管理資金與盧森堡，既有股東含 a16z、ASML、NVIDIA、Salesforce Ventures。資金將用於前沿研究、訓練算力、基礎設施與海外擴張。",
+        "analysis_en": "The round is a capital-and-sovereignty bet more than a model launch: chip suppliers now sit on both sides of Mistral’s cap table. Whether the money produces a competitive open-weight frontier model, or mainly owned European compute, is still unproven.",
+        "analysis_zh": "此輪比較像資金與主權算力押注，而非旗艦模型發表：晶片供應商同時成為股東。錢會換成可競爭的開源權重前沿模型，還是主要變成自有歐洲算力，仍未驗證。",
+        "quote": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion, the largest equity fundraising round ever completed by a European technology company, three years after the company's launch.",
+        "quote_zh": "Mistral 今日宣布完成 30 億歐元 D 輪融資，投後估值逾 210 億歐元，為歐洲科技公司有史以來最大股權融資，距公司成立三年。",
         "importance": 5,
         "first_seen": "2026-09-08T16:35:01Z",
-        "updated_at": "2026-09-08T22:35:01.352318+00:00",
+        "updated_at": "2026-09-09T04:35:01.860693+00:00",
         "links": [
           {
-            "label": "Mistral official announcement",
+            "label": "Mistral announcement",
             "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
           },
           {
@@ -461,26 +555,26 @@
         "category": "frontier_other",
         "source_type": "official_blog",
         "title_en": "Inception Labs releases Mercury 2.5 diffusion LLM at 1,107 tok/s",
-        "title_zh": "Inception Labs發布擴散式LLM Mercury 2.5，稱達每秒1,107 token",
-        "summary_en": "Inception Labs released Mercury 2.5, calling it its most capable production diffusion LLM and the largest such model it has trained. The company claims a 40% intelligence lift over Mercury 2, 1,107 tokens per second on widely available Nvidia GPUs, a 260K context window, and list pricing of $0.20/$0.75 per million tokens (80% off at launch). It positions quality as comparable to cost-optimized frontier small models such as GPT-5.6 Luna and Gemini 3.5 Flash-Lite.",
-        "summary_zh": "Inception Labs發布Mercury 2.5，稱為其最強量產擴散式LLM、亦為該公司訓練過最大的此類模型。官方稱較Mercury 2智能提升約40%，在常見NVIDIA GPU上達每秒1,107 token、260K上下文，標價每百萬token $0.20/$0.75（上市享八折）。品質對標GPT-5.6 Luna、Gemini 3.5 Flash-Lite等低成本前沿小模型。",
-        "analysis_en": "If the speed and quality claims hold under independent evals, diffusion LLMs become a sharper alternative for latency-sensitive agents and voice. Those comparisons are the lab’s own; third-party benches were not published with the post.",
-        "analysis_zh": "若速度與品質主張經獨立評測成立，擴散式LLM對低延遲代理與語音會更有吸引力。目前對標為官方自述，發文未附第三方基準。",
+        "title_zh": "Inception Labs 發布 Mercury 2.5 擴散式 LLM，聲稱 1,107 tok/s",
+        "summary_en": "Inception Labs released Mercury 2.5, calling it its most capable production diffusion LLM and the largest such model it has trained. The company claims a 40% intelligence lift over Mercury 2, 1,107 tokens per second on widely available Nvidia GPUs, 260K context, and list prices of $0.20/$0.75 per million input/output tokens with an 80% launch discount.",
+        "summary_zh": "Inception Labs 發布 Mercury 2.5，稱為迄今最強、規模最大的量產擴散式 LLM。公司聲稱較 Mercury 2 智能提升 40%，在常見 NVIDIA GPU 上達 1,107 token/秒、260K 上下文，標價每百萬 token 輸入 0.20／輸出 0.75 美元，上市享八折。",
+        "analysis_en": "If the speed and quality claims hold under independent evals, diffusion LLMs become a sharper option for latency-sensitive agents and voice. Those comparisons are the lab’s own, not a third-party leaderboard result in this window.",
+        "analysis_zh": "若速度與品質主張經獨立評測成立，擴散式 LLM 對低延遲代理人與語音會更有競爭力。此窗口內的對照仍是實驗室自報，不是第三方榜單結果。",
         "quote": "Today, we’re releasing Mercury 2.5, our most capable production model yet. It is a significant step up in quality over Mercury 2, with the same low-latency, low-cost serving profile.",
-        "quote_zh": "我們今日發布迄今最強的量產模型Mercury 2.5。品質較Mercury 2明顯提升，同時維持低延遲、低成本的服務特性。",
+        "quote_zh": "今天我們發布 Mercury 2.5，這是迄今最強的量產模型。品質較 Mercury 2 明顯提升，同時維持低延遲、低成本的服務特性。",
         "importance": 3,
         "first_seen": "2026-09-08T16:35:01Z",
-        "updated_at": "2026-09-08T22:35:01.352318+00:00",
+        "updated_at": "2026-09-09T04:35:01.860693+00:00",
         "links": [
           {
-            "label": "Inception Labs Blog",
+            "label": "Inception Labs blog",
             "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5"
           }
         ]
       }
     ]
   },
-  "brief_en": "Mistral closed a Samsung-led €3B Series D above €21B. DeepMind shipped AlphaGenome Atlas for 9B SNVs. OpenAI launched ChatGPT Images 2.5, said Astra is live in Codex and ChatGPT Work for paid tiers, and became Firmus’s Malaysia compute anchor. Inception released Mercury 2.5.",
-  "brief_zh": "Mistral完成三星領投30億歐元D輪、估值逾210億。DeepMind上線涵蓋90億SNV的AlphaGenome Atlas。OpenAI推出Images 2.5、宣布Astra已對付費用戶在Codex與ChatGPT Work全面開放，並成為Firmus馬來西亞算力錨點客戶。Inception發布Mercury 2.5。",
-  "updated_at": "2026-09-08T22:35:01.352318+00:00"
+  "brief_en": "OpenAI published an agent-produced Navier–Stokes blowup proof and Lean formalization, shipped Images 2.5, and said Astra is live in Codex/Work. DeepMind opened AlphaGenome Atlas for 9B SNVs. Mistral closed a Samsung-led €3B Series D. Meta launched the Muse consumer agent. Inception released Mercury 2.5.",
+  "brief_zh": "OpenAI 公布萬級代理人產出的 Navier–Stokes 爆破證明與 Lean 形式化，並上線 Images 2.5、Astra 付費 Codex/Work。DeepMind 開放 90 億 SNV 的 AlphaGenome Atlas。Mistral 完成三星領投 30 億歐元 D 輪。Meta 推出 Muse 個人代理人。Inception 發布 Mercury 2.5。",
+  "updated_at": "2026-09-09T04:35:01.860693+00:00"
 }
