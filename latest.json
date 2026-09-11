@@ -24,6 +24,14 @@
       "item_count": 10,
       "updated_count": 8,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-09-11T10:35:01.937824+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 12,
+      "updated_count": 10,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -33,16 +41,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI launches ChatGPT for Financial Services",
-      "title_zh": "OpenAI推出金融服務專用ChatGPT",
-      "summary_en": "OpenAI introduced a tailored ChatGPT Work product pairing GPT-6 Astra with hosted premium data from Daloopa, PitchBook, LSEG News and Crunchbase, plus firm Excel/Word/PowerPoint templates. Design partners are Morgan Stanley and Evercore. Users can research across licensed sources, build models and generate cited client materials.",
-      "summary_zh": "OpenAI推出針對金融業的ChatGPT Work產品，以GPT-6 Astra搭配Daloopa、PitchBook、LSEG News與Crunchbase等託管數據，並支援公司自有Excel／Word／PowerPoint範本。設計合作夥伴為摩根士丹利與Evercore，可做研究、建模與帶引用的客戶材料。",
-      "analysis_en": "This is a vertical go-to-market layer on Astra, not a new foundation model: OpenAI is competing on licensed data, citations and auditability inside regulated banks. What remains unproven is whether banks will accept hosted third-party data and model-generated numbers in production deal work.",
-      "analysis_zh": "這是Astra上的垂直產品層，不是新基礎模型；競爭點在授權數據、引用與可稽核性。銀行是否願意把託管第三方數據與模型產出數字用進正式交易流程，仍待驗證。",
+      "title_zh": "OpenAI 推出金融服務版 ChatGPT",
+      "summary_en": "OpenAI introduced a tailored ChatGPT Work product pairing GPT-6 Astra with hosted premium data from Daloopa, PitchBook, LSEG News and Crunchbase, plus firm Excel/Word/PowerPoint templates. Design partners are Morgan Stanley and Evercore. Users can trace figures to source paragraphs and tables.",
+      "summary_zh": "OpenAI 推出針對金融業的 ChatGPT Work 產品，以 GPT-6 Astra 搭配 Daloopa、PitchBook、LSEG News、Crunchbase 等託管數據，並可用公司自有 Excel／Word／PowerPoint 範本。設計夥伴為摩根士丹利與 Evercore，數字可追溯至原文段落與表格。",
+      "analysis_en": "This is a vertical go-to-market layer on Astra, not a new foundation model: OpenAI is competing on licensed data, citations and auditability inside regulated banks. What remains unproven is conversion from design-partner demos to paid seats and whether citations hold under compliance review.",
+      "analysis_zh": "這是 Astra 的垂直落地，不是新基礎模型；競爭點在授權數據、引用與可審計性。尚未驗證的是設計夥伴演示能否轉成付費席次，以及引用在合規審查下是否站得住。",
       "quote": "Now available: ChatGPT for Financial Services. This is a tailored ChatGPT Work experience that combines built-in financial data with GPT-6 Astra’s reasoning.",
-      "quote_zh": "金融服務專用ChatGPT現已推出。這是結合內建金融數據與GPT-6 Astra推理的客製化ChatGPT Work體驗。",
+      "quote_zh": "現已推出：金融服務版 ChatGPT。這是結合內建金融數據與 GPT-6 Astra 推理能力的客製化 ChatGPT Work 體驗。",
       "importance": 4,
       "first_seen": "2026-09-10T18:35:32Z",
-      "updated_at": "2026-09-11T04:35:02.110862+00:00",
+      "updated_at": "2026-09-11T10:35:01.937824+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -64,16 +72,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI opens Agents API public beta",
-      "title_zh": "OpenAI開放Agents API公開測試",
+      "title_zh": "OpenAI 開放 Agents API 公開測試",
       "summary_en": "OpenAI launched the Agents API in public beta so developers can create cloud agents in one call using the hosted Codex harness. Agents can run in OpenAI-hosted sandboxes or customer/partner infrastructure, with MCP tools and optional multi-agent subagents. There is no extra API fee beyond model tokens and paid tools.",
-      "summary_zh": "OpenAI將Agents API推入公開測試，開發者可用一次呼叫、以託管Codex harness建立雲端代理。代理可在OpenAI沙盒或客戶／夥伴基礎設施執行，支援MCP工具與可選多代理子代理。除模型token與付費工具外無額外API費。",
-      "analysis_en": "The product move is to productize Codex’s long-running harness as infrastructure rather than a chat feature. Reliability, permissions and customer-owned sandboxes will decide whether this becomes the default agent runtime or stays a convenience wrapper.",
-      "analysis_zh": "重點是把Codex長時程harness產品化成基礎設施，而非聊天功能。可靠度、權限與客戶自有沙盒，將決定它會否成為預設代理執行層。",
+      "summary_zh": "OpenAI 將 Agents API 以公開測試推出，開發者可用託管 Codex harness 一次呼叫建立雲端代理。代理可跑在 OpenAI 沙盒或客戶／夥伴基礎設施，支援 MCP 與可選多代理。除模型 token 與付費工具外無額外 API 費。",
+      "analysis_en": "The product move is to productize Codex’s long-running harness as infrastructure rather than a chat feature. Reliability, permissions and customer-owned sandboxes will decide whether this becomes the default agent runtime.",
+      "analysis_zh": "此舉是把 Codex 長時程 harness 產品化成基礎設施，而非聊天功能。能否成為預設代理執行層，取決於可靠性、權限與客戶自有沙盒。",
       "quote": "Today, we’re introducing the Agents API in public beta, bringing that same harness and infrastructure that powers Codex to developers through a simple, flexible API.",
-      "quote_zh": "我們今天以公開測試推出Agents API，把驅動Codex的同一套harness與基礎設施，透過簡單彈性的API提供給開發者。",
+      "quote_zh": "我們今天以公開測試推出 Agents API，把驅動 Codex 的同一套 harness 與基礎設施，透過簡單彈性的 API 交給開發者。",
       "importance": 4,
       "first_seen": "2026-09-10T16:00:00Z",
-      "updated_at": "2026-09-11T04:35:02.110862+00:00",
+      "updated_at": "2026-09-11T10:35:01.937824+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -95,24 +103,28 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic publishes September 2026 Claude misuse threat report",
-      "title_zh": "Anthropic發布2026年9月Claude濫用威脅報告",
-      "summary_en": "Anthropic’s Threat Intelligence team published its most detailed report to date on disrupted Claude misuse from December 2025–August 2026 across cyber, influence, surveillance, scams, biology, conventional weapons and illicit distillation. It says every listed operation was disrupted and intelligence was shared with authorities and other labs where appropriate. A companion Frontier Red Team post argues models can now substitute for scarce targeting and weapons-engineering expertise.",
-      "summary_zh": "Anthropic威脅情報團隊發布迄今最詳盡報告，涵蓋2025年12月至2026年8月被阻斷的Claude濫用，範圍含網路攻擊、影響力、監控、詐騙、生物、常規武器與非法蒸餾。報告稱所列行動均已阻斷，並視情況與執法單位及其他實驗室共享情報。配套紅隊文章指模型已能替代稀缺的瞄準與武器工程專長。",
-      "analysis_en": "The report is a safety-and-geopolitics document more than a product launch: it argues on-platform classifiers are now necessary because models can substitute for scarce military/intel skills. Independent verification of attribution, especially PRC distillation claims, remains limited to Anthropic’s own case studies.",
-      "analysis_zh": "這比較像安全與地緣政治文件而非產品發表：主張因模型可替代稀缺軍情專長，平台內分類器已成必要。歸因（尤其對中國實驗室蒸餾）仍主要依賴Anthropic自身案例，外部獨立核實有限。",
+      "title_zh": "Anthropic 發布 2026 年 9 月 Claude 濫用威脅報告",
+      "summary_en": "Anthropic’s Threat Intelligence team published its most detailed report to date on disrupted Claude misuse from December 2025–August 2026 across cyber, influence, surveillance, scams, biology, conventional weapons and illicit distillation. The company says it disrupted every operation in the report and shared findings with authorities and other labs where appropriate.",
+      "summary_zh": "Anthropic 威脅情報團隊發布迄今最詳細報告，涵蓋 2025 年 12 月至 2026 年 8 月遭阻斷的 Claude 濫用：網路攻擊、影響力操作、監控、詐騙、生物、常規武器與非法蒸餾。公司稱報告中每起行動均已阻斷，並在適當時與執法單位及其他實驗室共享。",
+      "analysis_en": "The report is a safety-and-geopolitics document more than a product launch: it argues on-platform classifiers are now necessary because models can substitute for scarce military and intelligence skills. Independent confirmation of case details remains limited to Anthropic’s own write-up.",
+      "analysis_zh": "這份文件偏安全與地緣政治，而非產品發布：它主張平台內分類器已成必要，因為模型可替代稀缺的軍情技能。個案細節目前仍主要來自 Anthropic 自身記述。",
       "quote": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them.",
-      "quote_zh": "我們發布迄今最詳盡的威脅情報報告，涵蓋他人如何試圖濫用Claude進行網路攻擊、影響力行動、監控、生物與武器研製，以及我們如何發現並制止。",
+      "quote_zh": "我們發布迄今最詳細的威脅情報報告，涵蓋有人如何試圖濫用 Claude 從事網路攻擊、影響力操作、監控、生物與武器研製，以及我們如何發現並阻止。",
       "importance": 4,
       "first_seen": "2026-09-10T17:13:22Z",
-      "updated_at": "2026-09-11T04:35:02.110862+00:00",
+      "updated_at": "2026-09-11T10:35:01.937824+00:00",
       "links": [
         {
-          "label": "Anthropic Threat Report",
-          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+          "label": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news"
         },
         {
           "label": "Anthropic on X",
           "url": "https://x.com/AnthropicAI/status/2098097512544444447"
+        },
+        {
+          "label": "Anthropic Threat Report",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
         },
         {
           "label": "Anthropic Frontier Red Team",
@@ -130,17 +142,21 @@
       "category": "openai",
       "source_type": "news",
       "title_en": "Altman tells staff OpenAI is open to pacing frontier development",
-      "title_zh": "Altman告知員工OpenAI願意放緩前沿開發節奏",
-      "summary_en": "Bloomberg, corroborated by Reuters, reported that Sam Altman told employees in a company-wide meeting this week that OpenAI could pace frontier development, possibly with other labs, though some may refuse. WIRED separately reported OpenAI has asked Congress whether an industry slowdown would violate antitrust law. OpenAI declined to comment on the staff meeting; the company separately pushed this week for mandatory U.S. national safety rules.",
-      "summary_zh": "彭博（路透轉述）報導，Altman本週在全員會上稱OpenAI可放緩前沿開發、甚至與其他實驗室同步，但部分對手可能不同意。WIRED另報OpenAI已向國會詢問產業協同放緩是否觸及反壟斷法。OpenAI拒評內部會議，同時本週公開推動美國強制性國家安全規範。",
-      "analysis_en": "This is a policy and coordination story, not a product ship: the lab is signaling willingness to slow while still launching finance and agent products the same week. Whether a coordinated pause is legally possible, and whether rivals would join, is explicitly unresolved.",
-      "analysis_zh": "這是政策與協調新聞而非產品發布：實驗室一面釋放可放緩訊號，一面同一週推出金融與代理產品。協同暫停是否合法、對手會否加入，報告本身即標為未定。",
-      "quote": "",
-      "quote_zh": "",
+      "title_zh": "Altman 向員工表示 OpenAI 願意放慢前沿開發節奏",
+      "summary_en": "Bloomberg, corroborated by Reuters, reported that Sam Altman told employees in a company-wide meeting this week that OpenAI could pace frontier development, possibly with other labs, though some may refuse. Reuters added that an Anthropic spokesperson said the company is interested in industry coordination on release pace.",
+      "summary_zh": "彭博報導、路透轉述：Sam Altman 本週在全員會上表示，OpenAI 可放慢前沿開發，或與其他實驗室同步，但部分實驗室可能拒絕。路透並引述 Anthropic 發言人稱該公司有意就發布節奏與產業協調。",
+      "analysis_en": "This is a policy and coordination story, not a product ship: the lab is signaling willingness to slow while still launching finance and agent products the same week. Whether a coordinated pause is legally or commercially workable remains unconfirmed.",
+      "analysis_zh": "這是政策與協調敘事，不是產品出貨；實驗室在同一週仍推出金融與代理產品的同時釋放出可放慢的訊號。協同暫停在法律與商業上是否可行仍未證實。",
+      "quote": "Altman told employees that OpenAI could potentially pace its AI development — perhaps in conjunction with several other AI labs, but that some may not agree to do so.",
+      "quote_zh": "Altman 告訴員工，OpenAI 有可能放慢 AI 開發節奏——或許與其他幾家實驗室一同進行，但有些實驗室可能不同意。",
       "importance": 4,
       "first_seen": "2026-09-11T04:35:02Z",
-      "updated_at": "2026-09-11T04:35:02.110862+00:00",
+      "updated_at": "2026-09-11T10:35:01.937824+00:00",
       "links": [
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff"
+        },
         {
           "label": "Reuters",
           "url": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/"
@@ -152,29 +168,60 @@
       ]
     },
     {
-      "id": "openai-gpt-live-1-api-2026-09-10",
-      "story_id": "openai-gpt-live-1-api-2026-09-10",
+      "id": "openai-gsa-onegov-2026-09-10",
+      "story_id": "openai-gsa-onegov-2026-09-10",
       "category": "openai",
       "source_type": "official_blog",
-      "title_en": "GPT-Live-1 now generally available in the API",
-      "title_zh": "GPT-Live-1在API全面可用",
-      "summary_en": "OpenAI made GPT-Live-1 generally available on the Live Sessions API for full-duplex voice apps. The voice layer is $0.05 per minute billed per second; backend reasoning and tools are billed separately via Responses or client delegation. OpenAI says early partner Speak cut interruptions by almost 80% versus turn-based systems.",
-      "summary_zh": "OpenAI在Live Sessions API全面推出GPT-Live-1，支援全雙工語音應用。語音層每分鐘0.05美元、按秒計費；後端推理與工具經Responses或客戶端委派另行計費。OpenAI稱早期夥伴Speak相對輪替系統幾乎減少80%打斷。",
-      "analysis_en": "This is an API surface expansion of an existing ChatGPT voice stack, not a new text frontier model. The commercial question is whether full-duplex plus delegated Astra/Codex agents can displace chained STT–LLM–TTS stacks in production telephony.",
-      "analysis_zh": "這是既有ChatGPT語音棧的API擴張，不是新的文字前沿模型。商業問題是全雙工加上委派給Astra／Codex的代理，能否在正式通話場景取代串接式STT–LLM–TTS。",
-      "quote": "We’re launching GPT‑Live‑1 in the API, giving developers a powerful, natural voice model for building voice-enabled apps and business workflows.",
-      "quote_zh": "我們在API推出GPT-Live-1，讓開發者用自然語音模型打造語音應用與商業流程。",
-      "importance": 3,
-      "first_seen": "2026-09-10T16:00:00Z",
-      "updated_at": "2026-09-11T04:35:02.110862+00:00",
+      "title_en": "OpenAI and GSA expand OneGov deal: $0 seats and 50% off usage",
+      "title_zh": "OpenAI 與 GSA 擴大 OneGov 協議：席次免費、用量五折",
+      "summary_en": "OpenAI for Government and the U.S. GSA announced a 27-month OneGov agreement effective 1 Oct 2026–31 Dec 2028. Eligible federal, state, local and tribal entities get a $0 license fee (from $15/user/month), no minimum spend, and 50% off token usage, plus expanded public-sector cyber-defender support. GSA said prior AI deals helped about 3.5 million federal employees.",
+      "summary_zh": "OpenAI for Government 與美國 GSA 宣布 27 個月 OneGov 協議，自 2026-10-01 至 2028-12-31。聯邦、州、地方與部落機構可享原價每月 15 美元的席次改為 0 元、無最低消費，以及 token 用量五折，並擴大公共部門網路防禦支援。GSA 稱先前 AI 協議已覆蓋約 350 萬聯邦員工。",
+      "analysis_en": "This replaces last year’s $1-per-year pilot with consumption pricing and widens eligibility beyond federal staff. Actual onboarding among the claimed ~23 million eligible public servants, and which models sit in FedRAMP environments, will determine impact.",
+      "analysis_zh": "此協議取代去年每年 1 美元試點，改為用量計價並擴大到聯邦以外。真正影響取決於號稱約 2300 萬合格公職人員的實際導入，以及哪些模型進入 FedRAMP 環境。",
+      "quote": "This first-of-its-kind agreement will provide $0 access—normally $15 per user per month—for the license fee and 50% off usage, alongside expanded support for public-sector cyber defenders.",
+      "quote_zh": "這份前所未有的協議將把通常每用戶每月 15 美元的授權費降為 0 元，用量五折，並擴大對公共部門網路防禦人員的支援。",
+      "importance": 4,
+      "first_seen": "2026-09-10T12:00:00Z",
+      "updated_at": "2026-09-11T10:35:01.937824+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
-          "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/"
+          "url": "https://openai.com/index/expanding-ai-access-us-government/"
         },
+        {
+          "label": "GSA News Release",
+          "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-expands-onegov-ai-offerings-with-discounted-openais-chatgpt-09102026"
+        }
+      ]
+    },
+    {
+      "id": "openai-gpt-live-1-api-2026-09-10",
+      "story_id": "openai-gpt-live-1-api-2026-09-10",
+      "category": "openai",
+      "source_type": "product",
+      "title_en": "GPT-Live-1 now generally available in the API",
+      "title_zh": "GPT-Live-1 於 API 全面開放",
+      "summary_en": "OpenAI made GPT-Live-1 generally available on the Live Sessions API for full-duplex voice apps. The voice layer is $0.05 per minute billed per second; backend reasoning and tools are billed separately via Responses or client delegation.",
+      "summary_zh": "OpenAI 讓 GPT-Live-1 在 Live Sessions API 全面可用，供全雙工語音應用。語音層每分鐘 0.05 美元、按秒計費；後端推理與工具另以 Responses 或客戶端委派計費。",
+      "analysis_en": "This is an API surface expansion of an existing ChatGPT voice stack, not a new text frontier model. The commercial question is whether full-duplex plus delegated Astra/Codex agents becomes the default voice-agent stack.",
+      "analysis_zh": "這是既有 ChatGPT 語音堆疊的 API 擴張，不是新的文字前沿模型。商業問題在於全雙工加上委派 Astra／Codex 代理，會否成為預設語音代理堆疊。",
+      "quote": "Voice sessions cost $0.05 per minute, billed per second. Backend model and tool usage is billed separately.",
+      "quote_zh": "語音工作階段每分鐘 0.05 美元，按秒計費。後端模型與工具用量另行計費。",
+      "importance": 3,
+      "first_seen": "2026-09-10T16:00:00Z",
+      "updated_at": "2026-09-11T10:35:01.937824+00:00",
+      "links": [
         {
           "label": "OpenAI API docs",
           "url": "https://developers.openai.com/api/docs/models/gpt-live-1"
+        },
+        {
+          "label": "OpenAI News",
+          "url": "https://openai.com/news/"
+        },
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/"
         }
       ]
     },
@@ -184,16 +231,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI adds a Data agent to ChatGPT Work",
-      "title_zh": "OpenAI在ChatGPT Work加入數據代理",
-      "summary_en": "OpenAI launched a Data agent in ChatGPT Work that queries approved warehouses including BigQuery, Snowflake, Databricks and Redshift and can pull Drive/SharePoint files to produce dashboards. Box, Dropbox and SharePoint also joined ChatGPT Library. Queries use the connected account’s existing row- and column-level permissions.",
-      "summary_zh": "OpenAI在ChatGPT Work推出數據代理，可查詢已核准的BigQuery、Snowflake、Databricks、Redshift等倉儲，並從Drive／SharePoint拉檔產出儀表板。Box、Dropbox與SharePoint也加入ChatGPT Library。查詢沿用連線帳號既有列／欄權限。",
+      "title_zh": "OpenAI 於 ChatGPT Work 新增 Data agent",
+      "summary_en": "OpenAI launched a Data agent in ChatGPT Work that queries approved warehouses including BigQuery, Snowflake, Databricks and Redshift and can pull Drive/SharePoint files to produce dashboards. Queries keep the connected account’s table, row and column permissions.",
+      "summary_zh": "OpenAI 在 ChatGPT Work 推出 Data agent，可查詢已核准的 BigQuery、Snowflake、Databricks、Redshift 等倉儲，並從 Drive／SharePoint 取檔產出儀表板。查詢沿用連線帳號的表、列、欄權限。",
       "analysis_en": "Together with the finance SKU, this is OpenAI pushing ChatGPT Work from chat into BI. Accuracy, row-level security and hallucination of numbers remain the adoption gates.",
-      "analysis_zh": "加上金融SKU，這是把ChatGPT Work從對話推進BI。數字準確度、列級權限與幻覺仍是採用門檻。",
-      "quote": "We’re introducing a new Data agent in ChatGPT Work to help more people answer those questions themselves. It connects to your company data, investigates what changed, and builds interactive dashboards you can share.",
-      "quote_zh": "我們在ChatGPT Work推出新的數據代理，讓更多人自行回答業務問題：連接公司數據、調查變化，並建立可分享的互動儀表板。",
+      "analysis_zh": "搭配金融版產品，這是 OpenAI 把 ChatGPT Work 從對話推進 BI。數字正確性、列級權限與幻覺仍是導入門檻。",
+      "quote": "Meet the new Data agent in ChatGPT Work: turn your company’s data into answers, interactive dashboards, and action, just by asking.",
+      "quote_zh": "認識 ChatGPT Work 的新 Data agent：只要開口，就能把公司數據變成答案、互動儀表板與行動。",
       "importance": 3,
       "first_seen": "2026-09-10T16:00:00Z",
-      "updated_at": "2026-09-11T04:35:02.110862+00:00",
+      "updated_at": "2026-09-11T10:35:01.937824+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -211,20 +258,47 @@
       "category": "frontier_other",
       "source_type": "official_blog",
       "title_en": "Mistral and Cloudera partner on sovereign enterprise AI",
-      "title_zh": "Mistral與Cloudera合作主權企業AI",
-      "summary_en": "Mistral announced a partnership with Cloudera to integrate its models into Cloudera’s hybrid data platform so enterprises can run inference in private, public, on-prem and air-gapped environments while keeping data under customer control. The pitch is specialized models trained on proprietary enterprise data rather than rented general-purpose APIs.",
-      "summary_zh": "Mistral宣布與Cloudera合作，將模型接入Cloudera混合數據平台，企業可在私有、公有、地端與氣隙環境推論並保有資料控制權。訴求是用專有企業數據訓練的專精模型，而非租用通用API。",
-      "analysis_en": "This is a distribution and governance play, not a model launch: it targets regulated industries that will not send core data to US frontier APIs. What remains unproven is conversion from platform integration to paid, production inference at Cloudera’s reported 30-exabyte installed base.",
-      "analysis_zh": "這是通路與治理布局而非模型發表，瞄準不願把核心數據送進美國前沿API的受監管產業。尚未證明的是，整合能否轉成Cloudera號稱30EB安裝基數上的付費正式推論。",
-      "quote": "The collaboration is designed to meet growing demand for sovereign AI: AI that keeps data, intelligence, compute, and operations under the customer's control.",
-      "quote_zh": "此次合作為回應日益增長的主權AI需求：讓數據、智能、算力與營運都留在客戶控制之下。",
+      "title_zh": "Mistral 與 Cloudera 合作主權企業 AI",
+      "summary_en": "Mistral announced a partnership with Cloudera to integrate its models into Cloudera’s hybrid data platform so enterprises can run inference in private, public, on-prem and air-gapped environments while keeping data under customer control. Cloudera cited about 30 exabytes of customer-managed data on the platform.",
+      "summary_zh": "Mistral 宣布與 Cloudera 合作，將模型整合進 Cloudera 混合資料平台，企業可在私有、公有、地端與氣隙環境推論，數據仍由客戶掌控。Cloudera 稱平台上約有 30 EB 客戶託管資料。",
+      "analysis_en": "This is a distribution and governance play, not a model launch: it targets regulated industries that will not send core data to US frontier APIs. What remains unproven is conversion from platform integration to paid model usage.",
+      "analysis_zh": "這是通路與治理布局，不是模型發表；鎖定不願把核心數據送進美國前沿 API 的受管產業。平台整合能否轉成付費用量仍未驗證。",
+      "quote": "Our mission is to make frontier AI available to enterprises without requiring them to give up control over their data, infrastructure, or intellectual property.",
+      "quote_zh": "我們的使命是讓企業用上前沿 AI，而無須放棄對數據、基礎設施或智慧財產的掌控。",
       "importance": 3,
       "first_seen": "2026-09-10T10:42:00Z",
-      "updated_at": "2026-09-11T04:35:02.110862+00:00",
+      "updated_at": "2026-09-11T10:35:01.937824+00:00",
       "links": [
         {
           "label": "Mistral Blog",
           "url": "https://mistral.ai/news/mistral-x-cloudera/"
+        },
+        {
+          "label": "Cloudera Press Release",
+          "url": "https://www.cloudera.com/about/news-and-blogs/press-releases/2026-09-10-cloudera-and-mistral-partner-to-bring-specialized-sovereign-intelligence-to-enterprise-data.html"
+        }
+      ]
+    },
+    {
+      "id": "cognition-swe-2-2026-09-10",
+      "story_id": "cognition-swe-2-2026-09-10",
+      "category": "frontier_other",
+      "source_type": "official_blog",
+      "title_en": "Cognition releases SWE-2 coding model inside Devin",
+      "title_zh": "Cognition 於 Devin 內發布編碼模型 SWE-2",
+      "summary_en": "Cognition introduced SWE-2, post-trained from Moonshot’s 2.8T Kimi K3, and said it scores 50.0% on FrontierCode 1.1 Main versus 50.9% for Claude Fable 5.1 at what it claims is 64% lower cost. The model is available in Devin Desktop and CLI, not as open weights or a public API; Pro/Max/Teams get a one-month free window.",
+      "summary_zh": "Cognition 推出 SWE-2，以 Moonshot 2.8T 的 Kimi K3 後訓練，自稱 FrontierCode 1.1 Main 得 50.0%，對比 Claude Fable 5.1 的 50.9%，成本低約 64%。模型僅在 Devin Desktop／CLI 提供，非開源權重也非公開 API；Pro／Max／Teams 有一個月免費期。",
+      "analysis_en": "This is a specialized coding-model release on a Chinese open-weight base, not a general frontier lab launch. Scores and the 64% cost claim are Cognition’s own; independent evals and Terminal-Bench 4 (27.3% vs Fable 5.1’s 55.8%) show the gap is uneven.",
+      "analysis_zh": "這是以中國開源權重為底的專用編碼模型，不是通用前沿實驗室發表。分數與成本降幅來自 Cognition 自身；獨立評測尚未出現，且 Terminal-Bench 4（27.3% 對 Fable 5.1 的 55.8%）顯示差距並不均勻。",
+      "quote": "Today we’re introducing SWE-2, our most advanced coding model yet. It pushes the Pareto frontier of capability and cost, achieving 50.0% on FrontierCode 1.1 Main, within one point of Fable 5.1 while being 64% cheaper.",
+      "quote_zh": "我們今天推出迄今最強編碼模型 SWE-2。它把能力與成本的柏拉圖前緣往前推，FrontierCode 1.1 Main 達 50.0%，距 Fable 5.1 不到 1 個百分點，成本低 64%。",
+      "importance": 3,
+      "first_seen": "2026-09-10T15:21:00Z",
+      "updated_at": "2026-09-11T10:35:01.937824+00:00",
+      "links": [
+        {
+          "label": "Cognition Blog",
+          "url": "https://cognition.com/blog/swe-2"
         }
       ]
     },
@@ -234,16 +308,16 @@
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google Pics now live for AI Pro/Ultra and Workspace",
-      "title_zh": "Google Pics對AI Pro／Ultra與Workspace開放",
-      "summary_en": "Google said Google Pics, built with Nano Banana, is available to Google AI Pro and Ultra subscribers and most Workspace business customers. The tool supports object isolation, in-image text edit/translation, multi-option generation and in-Docs/Slides editing, with Drive rollout following.",
-      "summary_zh": "Google表示以Nano Banana打造的Google Pics已提供給AI Pro、Ultra訂戶與多數Workspace商務客戶。工具支援物件分離、圖內文字編輯／翻譯、多方案生成，以及Docs／Slides內編輯，Drive將隨後上線。",
-      "analysis_en": "This is a product-surface expansion of an existing image stack into Workspace, not a new foundation model. The competitive question is whether precise in-doc editing keeps users in Google’s suite versus standalone image apps.",
-      "analysis_zh": "這是既有圖像棧往Workspace的產品面擴張，不是新基礎模型。競爭點在於精準的文件內編輯，能否把用戶留在Google套件而非獨立圖像工具。",
+      "title_zh": "Google Pics 已對 AI Pro／Ultra 與 Workspace 上線",
+      "summary_en": "Google said Google Pics, built with Nano Banana, is available to Google AI Pro and Ultra subscribers and most Workspace business customers. The tool supports object isolation, in-image text edit/translation, multi-option generation and in-Docs/Slides editing.",
+      "summary_zh": "Google 表示以 Nano Banana 打造的 Google Pics 已提供給 AI Pro、Ultra 訂戶及多數 Workspace 商務客戶。功能含物件分離、圖內文字編輯／翻譯、多方案生成，以及 Docs／Slides 內編輯。",
+      "analysis_en": "This is a product-surface expansion of an existing image stack into Workspace, not a new foundation model. The competitive question is whether precise in-doc editing keeps users in Google’s suite.",
+      "analysis_zh": "這是既有圖像堆疊擴進 Workspace，不是新基礎模型。競爭點在於精準的文件內編輯能否把用戶留在 Google 套件。",
       "quote": "Google Pics — our image creation and editing tool from Google Workspace — is rolling out over the coming weeks to all Google AI Pro and Ultra subscribers and most Workspace business customers.",
-      "quote_zh": "來自Google Workspace的圖像創作與編輯工具Google Pics，將在未來數週開放給所有Google AI Pro、Ultra訂戶與多數Workspace商務客戶。",
+      "quote_zh": "Google Pics——Google Workspace 的圖像生成與編輯工具——將在未來數週推給所有 Google AI Pro、Ultra 訂戶及多數 Workspace 商務客戶。",
       "importance": 3,
       "first_seen": "2026-09-10T15:35:29Z",
-      "updated_at": "2026-09-11T04:35:02.110862+00:00",
+      "updated_at": "2026-09-11T10:35:01.937824+00:00",
       "links": [
         {
           "label": "Google Blog",
@@ -265,16 +339,16 @@
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google ships the Gemini app for Windows",
-      "title_zh": "Google推出Windows版Gemini應用",
-      "summary_en": "Google launched a native Gemini desktop app for Windows 10 and 11, opened with Alt+Space over the current window. The app includes chat history, Daily Brief, Nano Banana image and Gemini Omni video creation, and Gemini Spark for subscribers. Google said more native desktop capabilities will follow; download is at gemini.google/desktop.",
-      "summary_zh": "Google推出Windows 10／11原生Gemini桌面應用，以Alt+Space覆蓋當前視窗喚出。應用含對話紀錄、Daily Brief、Nano Banana圖像與Gemini Omni影片生成，訂戶可用Gemini Spark。Google稱更多原生桌面能力將陸續推出，下載位址為gemini.google/desktop。",
-      "analysis_en": "This is a client distribution move after the April macOS app, not a model release. Whether a lightweight overlay plus Spark agent sticks on Windows depends on OS integration Google still describes as incomplete.",
-      "analysis_zh": "這是繼4月macOS之後的客戶端佈局，不是模型發布。輕量浮層加Spark代理能否在Windows站穩，取決於Google自己仍稱尚未完備的系統整合。",
-      "quote": "Today, we're launching the Gemini app for Windows. Designed to work seamlessly alongside your favorite tools and daily applications, the new desktop app gives you instant assistance without breaking your flow.",
-      "quote_zh": "我們今天推出Windows版Gemini應用。設計與常用工具並肩運作，讓你在不中斷流程下立即取得協助。",
+      "title_zh": "Google 推出 Windows 版 Gemini 應用",
+      "summary_en": "Google launched a native Gemini desktop app for Windows 10 and 11, opened with Alt+Space over the current window. The app includes chat history, Daily Brief, Nano Banana image and Gemini Omni video creation, and Gemini Spark for subscribers. It is available globally at gemini.google/desktop.",
+      "summary_zh": "Google 推出 Windows 10／11 原生 Gemini 桌面應用，可用 Alt+Space 疊在當前視窗上。含聊天紀錄、Daily Brief、Nano Banana 圖像與 Gemini Omni 影片生成，訂戶可用 Gemini Spark。全球可於 gemini.google/desktop 下載。",
+      "analysis_en": "This is a client distribution move after the April macOS app, not a model release. Whether a lightweight overlay plus Spark agent sticks on Windows depends on OS integration Google has not fully described.",
+      "analysis_zh": "這是繼 4 月 macOS 應用後的客戶端鋪貨，不是模型發布。輕量疊層加上 Spark 代理能否在 Windows 站穩，取決於 Google 尚未完整說明的系統整合。",
+      "quote": "The new Gemini app for Windows lets you access AI help with a simple keyboard shortcut, directly from your desktop.",
+      "quote_zh": "新的 Windows 版 Gemini 應用讓你用一個快捷鍵，直接從桌面取得 AI 協助。",
       "importance": 3,
       "first_seen": "2026-09-11T04:35:02Z",
-      "updated_at": "2026-09-11T04:35:02.110862+00:00",
+      "updated_at": "2026-09-11T10:35:01.937824+00:00",
       "links": [
         {
           "label": "Google Blog",
@@ -287,18 +361,26 @@
       "story_id": "xai-grok-bot-qol-elon-2026-09-10",
       "category": "xai",
       "source_type": "official_x",
-      "title_en": "Musk highlights ongoing Grok Bot quality-of-life updates",
-      "title_zh": "馬斯克強調Grok Bot持續體驗更新",
-      "summary_en": "Elon Musk amplified Grok Bot’s note that users can now ask a Bot to draft messages inline for approval before sending, and separately wrote that Grok Bot “gets better almost every day.” On 11 Sep he also amplified a Grok Bot summary of SpaceX’s CFO talk that said Grok 4.7 is “coming soon.” No new model version, pricing, or API changelog was published by xAI.",
-      "summary_zh": "馬斯克轉發Grok Bot說明：用戶可請Bot先起草訊息、核准後再送出，並另稱Grok Bot「幾乎每天都在變好」。9月11日他又轉發Grok Bot對SpaceX CFO演講的摘要，其中提到Grok 4.7「即將推出」。xAI未發布新模型版本、定價或API變更日誌。",
-      "analysis_en": "This remains an incremental agent-product tweak plus an unofficial timing hint, not a frontier-model event. Treat “coming soon” as Musk/CFO color until xAI posts a model ID, price and docs.",
-      "analysis_zh": "這仍是代理產品的增量調整加上非正式時程暗示，不是前沿模型事件。在xAI公布模型ID、價格與文件前，「即將推出」只應視為馬斯克／CFO的口頭表述。",
-      "quote": "Grok Bot gets better almost every day.",
-      "quote_zh": "Grok Bot幾乎每天都在變好。",
+      "title_en": "Musk highlights Grok Bot sales connectors and ongoing QoL updates",
+      "title_zh": "Musk 強調 Grok Bot 銷售串接與持續體驗更新",
+      "summary_en": "Elon Musk amplified Grok Bot notes that users can draft messages inline before sending and that Bots can now connect to Salesforce, HubSpot, Gong, Clay and Granola for sales workflows. On 11 Sep he also amplified a Grok Bot summary of SpaceX CFO remarks that included “Grok 4.7 coming soon.”",
+      "summary_zh": "Elon Musk 轉發 Grok Bot 說明：可先擬稿再核准送出，並可串接 Salesforce、HubSpot、Gong、Clay、Granola 做銷售流程。9 月 11 日他又轉發 Bot 對 SpaceX CFO 演講的摘要，其中提到「Grok 4.7 即將推出」。",
+      "analysis_en": "This remains an incremental agent-product tweak plus an unofficial timing hint, not a frontier-model event. Treat “coming soon” as Musk/CFO color until xAI posts a model ID, price or changelog.",
+      "analysis_zh": "這仍是代理產品的增量改進加上非正式時程暗示，不是前沿模型事件。「即將推出」在 xAI 公布模型代號、價格或更新日誌前，只能視為 Musk／CFO 的口頭說法。",
+      "quote": "Grok @Bot is great for sales teams!",
+      "quote_zh": "Grok Bot 很適合銷售團隊！",
       "importance": 2,
       "first_seen": "2026-09-10T03:06:53Z",
-      "updated_at": "2026-09-11T04:35:02.110862+00:00",
+      "updated_at": "2026-09-11T10:35:01.937824+00:00",
       "links": [
+        {
+          "label": "Elon Musk on X",
+          "url": "https://x.com/elonmusk/status/2098304042896162881"
+        },
+        {
+          "label": "Elon Musk on X (QoL)",
+          "url": "https://x.com/elonmusk/status/2098038952284586282"
+        },
         {
           "label": "Elon Musk on X",
           "url": "https://x.com/elonmusk/status/2098217236771295567"
@@ -306,10 +388,6 @@
         {
           "label": "Elon Musk on X",
           "url": "https://x.com/elonmusk/status/2097884487455834543"
-        },
-        {
-          "label": "Elon Musk on X (Bot draft)",
-          "url": "https://x.com/elonmusk/status/2098038952284586282"
         }
       ]
     }
@@ -322,16 +400,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI launches ChatGPT for Financial Services",
-        "title_zh": "OpenAI推出金融服務專用ChatGPT",
-        "summary_en": "OpenAI introduced a tailored ChatGPT Work product pairing GPT-6 Astra with hosted premium data from Daloopa, PitchBook, LSEG News and Crunchbase, plus firm Excel/Word/PowerPoint templates. Design partners are Morgan Stanley and Evercore. Users can research across licensed sources, build models and generate cited client materials.",
-        "summary_zh": "OpenAI推出針對金融業的ChatGPT Work產品，以GPT-6 Astra搭配Daloopa、PitchBook、LSEG News與Crunchbase等託管數據，並支援公司自有Excel／Word／PowerPoint範本。設計合作夥伴為摩根士丹利與Evercore，可做研究、建模與帶引用的客戶材料。",
-        "analysis_en": "This is a vertical go-to-market layer on Astra, not a new foundation model: OpenAI is competing on licensed data, citations and auditability inside regulated banks. What remains unproven is whether banks will accept hosted third-party data and model-generated numbers in production deal work.",
-        "analysis_zh": "這是Astra上的垂直產品層，不是新基礎模型；競爭點在授權數據、引用與可稽核性。銀行是否願意把託管第三方數據與模型產出數字用進正式交易流程，仍待驗證。",
+        "title_zh": "OpenAI 推出金融服務版 ChatGPT",
+        "summary_en": "OpenAI introduced a tailored ChatGPT Work product pairing GPT-6 Astra with hosted premium data from Daloopa, PitchBook, LSEG News and Crunchbase, plus firm Excel/Word/PowerPoint templates. Design partners are Morgan Stanley and Evercore. Users can trace figures to source paragraphs and tables.",
+        "summary_zh": "OpenAI 推出針對金融業的 ChatGPT Work 產品，以 GPT-6 Astra 搭配 Daloopa、PitchBook、LSEG News、Crunchbase 等託管數據，並可用公司自有 Excel／Word／PowerPoint 範本。設計夥伴為摩根士丹利與 Evercore，數字可追溯至原文段落與表格。",
+        "analysis_en": "This is a vertical go-to-market layer on Astra, not a new foundation model: OpenAI is competing on licensed data, citations and auditability inside regulated banks. What remains unproven is conversion from design-partner demos to paid seats and whether citations hold under compliance review.",
+        "analysis_zh": "這是 Astra 的垂直落地，不是新基礎模型；競爭點在授權數據、引用與可審計性。尚未驗證的是設計夥伴演示能否轉成付費席次，以及引用在合規審查下是否站得住。",
         "quote": "Now available: ChatGPT for Financial Services. This is a tailored ChatGPT Work experience that combines built-in financial data with GPT-6 Astra’s reasoning.",
-        "quote_zh": "金融服務專用ChatGPT現已推出。這是結合內建金融數據與GPT-6 Astra推理的客製化ChatGPT Work體驗。",
+        "quote_zh": "現已推出：金融服務版 ChatGPT。這是結合內建金融數據與 GPT-6 Astra 推理能力的客製化 ChatGPT Work 體驗。",
         "importance": 4,
         "first_seen": "2026-09-10T18:35:32Z",
-        "updated_at": "2026-09-11T04:35:02.110862+00:00",
+        "updated_at": "2026-09-11T10:35:01.937824+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -353,16 +431,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI opens Agents API public beta",
-        "title_zh": "OpenAI開放Agents API公開測試",
+        "title_zh": "OpenAI 開放 Agents API 公開測試",
         "summary_en": "OpenAI launched the Agents API in public beta so developers can create cloud agents in one call using the hosted Codex harness. Agents can run in OpenAI-hosted sandboxes or customer/partner infrastructure, with MCP tools and optional multi-agent subagents. There is no extra API fee beyond model tokens and paid tools.",
-        "summary_zh": "OpenAI將Agents API推入公開測試，開發者可用一次呼叫、以託管Codex harness建立雲端代理。代理可在OpenAI沙盒或客戶／夥伴基礎設施執行，支援MCP工具與可選多代理子代理。除模型token與付費工具外無額外API費。",
-        "analysis_en": "The product move is to productize Codex’s long-running harness as infrastructure rather than a chat feature. Reliability, permissions and customer-owned sandboxes will decide whether this becomes the default agent runtime or stays a convenience wrapper.",
-        "analysis_zh": "重點是把Codex長時程harness產品化成基礎設施，而非聊天功能。可靠度、權限與客戶自有沙盒，將決定它會否成為預設代理執行層。",
+        "summary_zh": "OpenAI 將 Agents API 以公開測試推出，開發者可用託管 Codex harness 一次呼叫建立雲端代理。代理可跑在 OpenAI 沙盒或客戶／夥伴基礎設施，支援 MCP 與可選多代理。除模型 token 與付費工具外無額外 API 費。",
+        "analysis_en": "The product move is to productize Codex’s long-running harness as infrastructure rather than a chat feature. Reliability, permissions and customer-owned sandboxes will decide whether this becomes the default agent runtime.",
+        "analysis_zh": "此舉是把 Codex 長時程 harness 產品化成基礎設施，而非聊天功能。能否成為預設代理執行層，取決於可靠性、權限與客戶自有沙盒。",
         "quote": "Today, we’re introducing the Agents API in public beta, bringing that same harness and infrastructure that powers Codex to developers through a simple, flexible API.",
-        "quote_zh": "我們今天以公開測試推出Agents API，把驅動Codex的同一套harness與基礎設施，透過簡單彈性的API提供給開發者。",
+        "quote_zh": "我們今天以公開測試推出 Agents API，把驅動 Codex 的同一套 harness 與基礎設施，透過簡單彈性的 API 交給開發者。",
         "importance": 4,
         "first_seen": "2026-09-10T16:00:00Z",
-        "updated_at": "2026-09-11T04:35:02.110862+00:00",
+        "updated_at": "2026-09-11T10:35:01.937824+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -384,17 +462,21 @@
         "category": "openai",
         "source_type": "news",
         "title_en": "Altman tells staff OpenAI is open to pacing frontier development",
-        "title_zh": "Altman告知員工OpenAI願意放緩前沿開發節奏",
-        "summary_en": "Bloomberg, corroborated by Reuters, reported that Sam Altman told employees in a company-wide meeting this week that OpenAI could pace frontier development, possibly with other labs, though some may refuse. WIRED separately reported OpenAI has asked Congress whether an industry slowdown would violate antitrust law. OpenAI declined to comment on the staff meeting; the company separately pushed this week for mandatory U.S. national safety rules.",
-        "summary_zh": "彭博（路透轉述）報導，Altman本週在全員會上稱OpenAI可放緩前沿開發、甚至與其他實驗室同步，但部分對手可能不同意。WIRED另報OpenAI已向國會詢問產業協同放緩是否觸及反壟斷法。OpenAI拒評內部會議，同時本週公開推動美國強制性國家安全規範。",
-        "analysis_en": "This is a policy and coordination story, not a product ship: the lab is signaling willingness to slow while still launching finance and agent products the same week. Whether a coordinated pause is legally possible, and whether rivals would join, is explicitly unresolved.",
-        "analysis_zh": "這是政策與協調新聞而非產品發布：實驗室一面釋放可放緩訊號，一面同一週推出金融與代理產品。協同暫停是否合法、對手會否加入，報告本身即標為未定。",
-        "quote": "",
-        "quote_zh": "",
+        "title_zh": "Altman 向員工表示 OpenAI 願意放慢前沿開發節奏",
+        "summary_en": "Bloomberg, corroborated by Reuters, reported that Sam Altman told employees in a company-wide meeting this week that OpenAI could pace frontier development, possibly with other labs, though some may refuse. Reuters added that an Anthropic spokesperson said the company is interested in industry coordination on release pace.",
+        "summary_zh": "彭博報導、路透轉述：Sam Altman 本週在全員會上表示，OpenAI 可放慢前沿開發，或與其他實驗室同步，但部分實驗室可能拒絕。路透並引述 Anthropic 發言人稱該公司有意就發布節奏與產業協調。",
+        "analysis_en": "This is a policy and coordination story, not a product ship: the lab is signaling willingness to slow while still launching finance and agent products the same week. Whether a coordinated pause is legally or commercially workable remains unconfirmed.",
+        "analysis_zh": "這是政策與協調敘事，不是產品出貨；實驗室在同一週仍推出金融與代理產品的同時釋放出可放慢的訊號。協同暫停在法律與商業上是否可行仍未證實。",
+        "quote": "Altman told employees that OpenAI could potentially pace its AI development — perhaps in conjunction with several other AI labs, but that some may not agree to do so.",
+        "quote_zh": "Altman 告訴員工，OpenAI 有可能放慢 AI 開發節奏——或許與其他幾家實驗室一同進行，但有些實驗室可能不同意。",
         "importance": 4,
         "first_seen": "2026-09-11T04:35:02Z",
-        "updated_at": "2026-09-11T04:35:02.110862+00:00",
+        "updated_at": "2026-09-11T10:35:01.937824+00:00",
         "links": [
+          {
+            "label": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff"
+          },
           {
             "label": "Reuters",
             "url": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/"
@@ -406,29 +488,60 @@
         ]
       },
       {
-        "id": "openai-gpt-live-1-api-2026-09-10",
-        "story_id": "openai-gpt-live-1-api-2026-09-10",
+        "id": "openai-gsa-onegov-2026-09-10",
+        "story_id": "openai-gsa-onegov-2026-09-10",
         "category": "openai",
         "source_type": "official_blog",
-        "title_en": "GPT-Live-1 now generally available in the API",
-        "title_zh": "GPT-Live-1在API全面可用",
-        "summary_en": "OpenAI made GPT-Live-1 generally available on the Live Sessions API for full-duplex voice apps. The voice layer is $0.05 per minute billed per second; backend reasoning and tools are billed separately via Responses or client delegation. OpenAI says early partner Speak cut interruptions by almost 80% versus turn-based systems.",
-        "summary_zh": "OpenAI在Live Sessions API全面推出GPT-Live-1，支援全雙工語音應用。語音層每分鐘0.05美元、按秒計費；後端推理與工具經Responses或客戶端委派另行計費。OpenAI稱早期夥伴Speak相對輪替系統幾乎減少80%打斷。",
-        "analysis_en": "This is an API surface expansion of an existing ChatGPT voice stack, not a new text frontier model. The commercial question is whether full-duplex plus delegated Astra/Codex agents can displace chained STT–LLM–TTS stacks in production telephony.",
-        "analysis_zh": "這是既有ChatGPT語音棧的API擴張，不是新的文字前沿模型。商業問題是全雙工加上委派給Astra／Codex的代理，能否在正式通話場景取代串接式STT–LLM–TTS。",
-        "quote": "We’re launching GPT‑Live‑1 in the API, giving developers a powerful, natural voice model for building voice-enabled apps and business workflows.",
-        "quote_zh": "我們在API推出GPT-Live-1，讓開發者用自然語音模型打造語音應用與商業流程。",
-        "importance": 3,
-        "first_seen": "2026-09-10T16:00:00Z",
-        "updated_at": "2026-09-11T04:35:02.110862+00:00",
+        "title_en": "OpenAI and GSA expand OneGov deal: $0 seats and 50% off usage",
+        "title_zh": "OpenAI 與 GSA 擴大 OneGov 協議：席次免費、用量五折",
+        "summary_en": "OpenAI for Government and the U.S. GSA announced a 27-month OneGov agreement effective 1 Oct 2026–31 Dec 2028. Eligible federal, state, local and tribal entities get a $0 license fee (from $15/user/month), no minimum spend, and 50% off token usage, plus expanded public-sector cyber-defender support. GSA said prior AI deals helped about 3.5 million federal employees.",
+        "summary_zh": "OpenAI for Government 與美國 GSA 宣布 27 個月 OneGov 協議，自 2026-10-01 至 2028-12-31。聯邦、州、地方與部落機構可享原價每月 15 美元的席次改為 0 元、無最低消費，以及 token 用量五折，並擴大公共部門網路防禦支援。GSA 稱先前 AI 協議已覆蓋約 350 萬聯邦員工。",
+        "analysis_en": "This replaces last year’s $1-per-year pilot with consumption pricing and widens eligibility beyond federal staff. Actual onboarding among the claimed ~23 million eligible public servants, and which models sit in FedRAMP environments, will determine impact.",
+        "analysis_zh": "此協議取代去年每年 1 美元試點，改為用量計價並擴大到聯邦以外。真正影響取決於號稱約 2300 萬合格公職人員的實際導入，以及哪些模型進入 FedRAMP 環境。",
+        "quote": "This first-of-its-kind agreement will provide $0 access—normally $15 per user per month—for the license fee and 50% off usage, alongside expanded support for public-sector cyber defenders.",
+        "quote_zh": "這份前所未有的協議將把通常每用戶每月 15 美元的授權費降為 0 元，用量五折，並擴大對公共部門網路防禦人員的支援。",
+        "importance": 4,
+        "first_seen": "2026-09-10T12:00:00Z",
+        "updated_at": "2026-09-11T10:35:01.937824+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
-            "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/"
+            "url": "https://openai.com/index/expanding-ai-access-us-government/"
           },
+          {
+            "label": "GSA News Release",
+            "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-expands-onegov-ai-offerings-with-discounted-openais-chatgpt-09102026"
+          }
+        ]
+      },
+      {
+        "id": "openai-gpt-live-1-api-2026-09-10",
+        "story_id": "openai-gpt-live-1-api-2026-09-10",
+        "category": "openai",
+        "source_type": "product",
+        "title_en": "GPT-Live-1 now generally available in the API",
+        "title_zh": "GPT-Live-1 於 API 全面開放",
+        "summary_en": "OpenAI made GPT-Live-1 generally available on the Live Sessions API for full-duplex voice apps. The voice layer is $0.05 per minute billed per second; backend reasoning and tools are billed separately via Responses or client delegation.",
+        "summary_zh": "OpenAI 讓 GPT-Live-1 在 Live Sessions API 全面可用，供全雙工語音應用。語音層每分鐘 0.05 美元、按秒計費；後端推理與工具另以 Responses 或客戶端委派計費。",
+        "analysis_en": "This is an API surface expansion of an existing ChatGPT voice stack, not a new text frontier model. The commercial question is whether full-duplex plus delegated Astra/Codex agents becomes the default voice-agent stack.",
+        "analysis_zh": "這是既有 ChatGPT 語音堆疊的 API 擴張，不是新的文字前沿模型。商業問題在於全雙工加上委派 Astra／Codex 代理，會否成為預設語音代理堆疊。",
+        "quote": "Voice sessions cost $0.05 per minute, billed per second. Backend model and tool usage is billed separately.",
+        "quote_zh": "語音工作階段每分鐘 0.05 美元，按秒計費。後端模型與工具用量另行計費。",
+        "importance": 3,
+        "first_seen": "2026-09-10T16:00:00Z",
+        "updated_at": "2026-09-11T10:35:01.937824+00:00",
+        "links": [
           {
             "label": "OpenAI API docs",
             "url": "https://developers.openai.com/api/docs/models/gpt-live-1"
+          },
+          {
+            "label": "OpenAI News",
+            "url": "https://openai.com/news/"
+          },
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/"
           }
         ]
       },
@@ -438,16 +551,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI adds a Data agent to ChatGPT Work",
-        "title_zh": "OpenAI在ChatGPT Work加入數據代理",
-        "summary_en": "OpenAI launched a Data agent in ChatGPT Work that queries approved warehouses including BigQuery, Snowflake, Databricks and Redshift and can pull Drive/SharePoint files to produce dashboards. Box, Dropbox and SharePoint also joined ChatGPT Library. Queries use the connected account’s existing row- and column-level permissions.",
-        "summary_zh": "OpenAI在ChatGPT Work推出數據代理，可查詢已核准的BigQuery、Snowflake、Databricks、Redshift等倉儲，並從Drive／SharePoint拉檔產出儀表板。Box、Dropbox與SharePoint也加入ChatGPT Library。查詢沿用連線帳號既有列／欄權限。",
+        "title_zh": "OpenAI 於 ChatGPT Work 新增 Data agent",
+        "summary_en": "OpenAI launched a Data agent in ChatGPT Work that queries approved warehouses including BigQuery, Snowflake, Databricks and Redshift and can pull Drive/SharePoint files to produce dashboards. Queries keep the connected account’s table, row and column permissions.",
+        "summary_zh": "OpenAI 在 ChatGPT Work 推出 Data agent，可查詢已核准的 BigQuery、Snowflake、Databricks、Redshift 等倉儲，並從 Drive／SharePoint 取檔產出儀表板。查詢沿用連線帳號的表、列、欄權限。",
         "analysis_en": "Together with the finance SKU, this is OpenAI pushing ChatGPT Work from chat into BI. Accuracy, row-level security and hallucination of numbers remain the adoption gates.",
-        "analysis_zh": "加上金融SKU，這是把ChatGPT Work從對話推進BI。數字準確度、列級權限與幻覺仍是採用門檻。",
-        "quote": "We’re introducing a new Data agent in ChatGPT Work to help more people answer those questions themselves. It connects to your company data, investigates what changed, and builds interactive dashboards you can share.",
-        "quote_zh": "我們在ChatGPT Work推出新的數據代理，讓更多人自行回答業務問題：連接公司數據、調查變化，並建立可分享的互動儀表板。",
+        "analysis_zh": "搭配金融版產品，這是 OpenAI 把 ChatGPT Work 從對話推進 BI。數字正確性、列級權限與幻覺仍是導入門檻。",
+        "quote": "Meet the new Data agent in ChatGPT Work: turn your company’s data into answers, interactive dashboards, and action, just by asking.",
+        "quote_zh": "認識 ChatGPT Work 的新 Data agent：只要開口，就能把公司數據變成答案、互動儀表板與行動。",
         "importance": 3,
         "first_seen": "2026-09-10T16:00:00Z",
-        "updated_at": "2026-09-11T04:35:02.110862+00:00",
+        "updated_at": "2026-09-11T10:35:01.937824+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -467,24 +580,28 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic publishes September 2026 Claude misuse threat report",
-        "title_zh": "Anthropic發布2026年9月Claude濫用威脅報告",
-        "summary_en": "Anthropic’s Threat Intelligence team published its most detailed report to date on disrupted Claude misuse from December 2025–August 2026 across cyber, influence, surveillance, scams, biology, conventional weapons and illicit distillation. It says every listed operation was disrupted and intelligence was shared with authorities and other labs where appropriate. A companion Frontier Red Team post argues models can now substitute for scarce targeting and weapons-engineering expertise.",
-        "summary_zh": "Anthropic威脅情報團隊發布迄今最詳盡報告，涵蓋2025年12月至2026年8月被阻斷的Claude濫用，範圍含網路攻擊、影響力、監控、詐騙、生物、常規武器與非法蒸餾。報告稱所列行動均已阻斷，並視情況與執法單位及其他實驗室共享情報。配套紅隊文章指模型已能替代稀缺的瞄準與武器工程專長。",
-        "analysis_en": "The report is a safety-and-geopolitics document more than a product launch: it argues on-platform classifiers are now necessary because models can substitute for scarce military/intel skills. Independent verification of attribution, especially PRC distillation claims, remains limited to Anthropic’s own case studies.",
-        "analysis_zh": "這比較像安全與地緣政治文件而非產品發表：主張因模型可替代稀缺軍情專長，平台內分類器已成必要。歸因（尤其對中國實驗室蒸餾）仍主要依賴Anthropic自身案例，外部獨立核實有限。",
+        "title_zh": "Anthropic 發布 2026 年 9 月 Claude 濫用威脅報告",
+        "summary_en": "Anthropic’s Threat Intelligence team published its most detailed report to date on disrupted Claude misuse from December 2025–August 2026 across cyber, influence, surveillance, scams, biology, conventional weapons and illicit distillation. The company says it disrupted every operation in the report and shared findings with authorities and other labs where appropriate.",
+        "summary_zh": "Anthropic 威脅情報團隊發布迄今最詳細報告，涵蓋 2025 年 12 月至 2026 年 8 月遭阻斷的 Claude 濫用：網路攻擊、影響力操作、監控、詐騙、生物、常規武器與非法蒸餾。公司稱報告中每起行動均已阻斷，並在適當時與執法單位及其他實驗室共享。",
+        "analysis_en": "The report is a safety-and-geopolitics document more than a product launch: it argues on-platform classifiers are now necessary because models can substitute for scarce military and intelligence skills. Independent confirmation of case details remains limited to Anthropic’s own write-up.",
+        "analysis_zh": "這份文件偏安全與地緣政治，而非產品發布：它主張平台內分類器已成必要，因為模型可替代稀缺的軍情技能。個案細節目前仍主要來自 Anthropic 自身記述。",
         "quote": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them.",
-        "quote_zh": "我們發布迄今最詳盡的威脅情報報告，涵蓋他人如何試圖濫用Claude進行網路攻擊、影響力行動、監控、生物與武器研製，以及我們如何發現並制止。",
+        "quote_zh": "我們發布迄今最詳細的威脅情報報告，涵蓋有人如何試圖濫用 Claude 從事網路攻擊、影響力操作、監控、生物與武器研製，以及我們如何發現並阻止。",
         "importance": 4,
         "first_seen": "2026-09-10T17:13:22Z",
-        "updated_at": "2026-09-11T04:35:02.110862+00:00",
+        "updated_at": "2026-09-11T10:35:01.937824+00:00",
         "links": [
           {
-            "label": "Anthropic Threat Report",
-            "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+            "label": "Anthropic Newsroom",
+            "url": "https://www.anthropic.com/news"
           },
           {
             "label": "Anthropic on X",
             "url": "https://x.com/AnthropicAI/status/2098097512544444447"
+          },
+          {
+            "label": "Anthropic Threat Report",
+            "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
           },
           {
             "label": "Anthropic Frontier Red Team",
@@ -504,16 +621,16 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google Pics now live for AI Pro/Ultra and Workspace",
-        "title_zh": "Google Pics對AI Pro／Ultra與Workspace開放",
-        "summary_en": "Google said Google Pics, built with Nano Banana, is available to Google AI Pro and Ultra subscribers and most Workspace business customers. The tool supports object isolation, in-image text edit/translation, multi-option generation and in-Docs/Slides editing, with Drive rollout following.",
-        "summary_zh": "Google表示以Nano Banana打造的Google Pics已提供給AI Pro、Ultra訂戶與多數Workspace商務客戶。工具支援物件分離、圖內文字編輯／翻譯、多方案生成，以及Docs／Slides內編輯，Drive將隨後上線。",
-        "analysis_en": "This is a product-surface expansion of an existing image stack into Workspace, not a new foundation model. The competitive question is whether precise in-doc editing keeps users in Google’s suite versus standalone image apps.",
-        "analysis_zh": "這是既有圖像棧往Workspace的產品面擴張，不是新基礎模型。競爭點在於精準的文件內編輯，能否把用戶留在Google套件而非獨立圖像工具。",
+        "title_zh": "Google Pics 已對 AI Pro／Ultra 與 Workspace 上線",
+        "summary_en": "Google said Google Pics, built with Nano Banana, is available to Google AI Pro and Ultra subscribers and most Workspace business customers. The tool supports object isolation, in-image text edit/translation, multi-option generation and in-Docs/Slides editing.",
+        "summary_zh": "Google 表示以 Nano Banana 打造的 Google Pics 已提供給 AI Pro、Ultra 訂戶及多數 Workspace 商務客戶。功能含物件分離、圖內文字編輯／翻譯、多方案生成，以及 Docs／Slides 內編輯。",
+        "analysis_en": "This is a product-surface expansion of an existing image stack into Workspace, not a new foundation model. The competitive question is whether precise in-doc editing keeps users in Google’s suite.",
+        "analysis_zh": "這是既有圖像堆疊擴進 Workspace，不是新基礎模型。競爭點在於精準的文件內編輯能否把用戶留在 Google 套件。",
         "quote": "Google Pics — our image creation and editing tool from Google Workspace — is rolling out over the coming weeks to all Google AI Pro and Ultra subscribers and most Workspace business customers.",
-        "quote_zh": "來自Google Workspace的圖像創作與編輯工具Google Pics，將在未來數週開放給所有Google AI Pro、Ultra訂戶與多數Workspace商務客戶。",
+        "quote_zh": "Google Pics——Google Workspace 的圖像生成與編輯工具——將在未來數週推給所有 Google AI Pro、Ultra 訂戶及多數 Workspace 商務客戶。",
         "importance": 3,
         "first_seen": "2026-09-10T15:35:29Z",
-        "updated_at": "2026-09-11T04:35:02.110862+00:00",
+        "updated_at": "2026-09-11T10:35:01.937824+00:00",
         "links": [
           {
             "label": "Google Blog",
@@ -535,16 +652,16 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google ships the Gemini app for Windows",
-        "title_zh": "Google推出Windows版Gemini應用",
-        "summary_en": "Google launched a native Gemini desktop app for Windows 10 and 11, opened with Alt+Space over the current window. The app includes chat history, Daily Brief, Nano Banana image and Gemini Omni video creation, and Gemini Spark for subscribers. Google said more native desktop capabilities will follow; download is at gemini.google/desktop.",
-        "summary_zh": "Google推出Windows 10／11原生Gemini桌面應用，以Alt+Space覆蓋當前視窗喚出。應用含對話紀錄、Daily Brief、Nano Banana圖像與Gemini Omni影片生成，訂戶可用Gemini Spark。Google稱更多原生桌面能力將陸續推出，下載位址為gemini.google/desktop。",
-        "analysis_en": "This is a client distribution move after the April macOS app, not a model release. Whether a lightweight overlay plus Spark agent sticks on Windows depends on OS integration Google still describes as incomplete.",
-        "analysis_zh": "這是繼4月macOS之後的客戶端佈局，不是模型發布。輕量浮層加Spark代理能否在Windows站穩，取決於Google自己仍稱尚未完備的系統整合。",
-        "quote": "Today, we're launching the Gemini app for Windows. Designed to work seamlessly alongside your favorite tools and daily applications, the new desktop app gives you instant assistance without breaking your flow.",
-        "quote_zh": "我們今天推出Windows版Gemini應用。設計與常用工具並肩運作，讓你在不中斷流程下立即取得協助。",
+        "title_zh": "Google 推出 Windows 版 Gemini 應用",
+        "summary_en": "Google launched a native Gemini desktop app for Windows 10 and 11, opened with Alt+Space over the current window. The app includes chat history, Daily Brief, Nano Banana image and Gemini Omni video creation, and Gemini Spark for subscribers. It is available globally at gemini.google/desktop.",
+        "summary_zh": "Google 推出 Windows 10／11 原生 Gemini 桌面應用，可用 Alt+Space 疊在當前視窗上。含聊天紀錄、Daily Brief、Nano Banana 圖像與 Gemini Omni 影片生成，訂戶可用 Gemini Spark。全球可於 gemini.google/desktop 下載。",
+        "analysis_en": "This is a client distribution move after the April macOS app, not a model release. Whether a lightweight overlay plus Spark agent sticks on Windows depends on OS integration Google has not fully described.",
+        "analysis_zh": "這是繼 4 月 macOS 應用後的客戶端鋪貨，不是模型發布。輕量疊層加上 Spark 代理能否在 Windows 站穩，取決於 Google 尚未完整說明的系統整合。",
+        "quote": "The new Gemini app for Windows lets you access AI help with a simple keyboard shortcut, directly from your desktop.",
+        "quote_zh": "新的 Windows 版 Gemini 應用讓你用一個快捷鍵，直接從桌面取得 AI 協助。",
         "importance": 3,
         "first_seen": "2026-09-11T04:35:02Z",
-        "updated_at": "2026-09-11T04:35:02.110862+00:00",
+        "updated_at": "2026-09-11T10:35:01.937824+00:00",
         "links": [
           {
             "label": "Google Blog",
@@ -560,18 +677,26 @@
         "story_id": "xai-grok-bot-qol-elon-2026-09-10",
         "category": "xai",
         "source_type": "official_x",
-        "title_en": "Musk highlights ongoing Grok Bot quality-of-life updates",
-        "title_zh": "馬斯克強調Grok Bot持續體驗更新",
-        "summary_en": "Elon Musk amplified Grok Bot’s note that users can now ask a Bot to draft messages inline for approval before sending, and separately wrote that Grok Bot “gets better almost every day.” On 11 Sep he also amplified a Grok Bot summary of SpaceX’s CFO talk that said Grok 4.7 is “coming soon.” No new model version, pricing, or API changelog was published by xAI.",
-        "summary_zh": "馬斯克轉發Grok Bot說明：用戶可請Bot先起草訊息、核准後再送出，並另稱Grok Bot「幾乎每天都在變好」。9月11日他又轉發Grok Bot對SpaceX CFO演講的摘要，其中提到Grok 4.7「即將推出」。xAI未發布新模型版本、定價或API變更日誌。",
-        "analysis_en": "This remains an incremental agent-product tweak plus an unofficial timing hint, not a frontier-model event. Treat “coming soon” as Musk/CFO color until xAI posts a model ID, price and docs.",
-        "analysis_zh": "這仍是代理產品的增量調整加上非正式時程暗示，不是前沿模型事件。在xAI公布模型ID、價格與文件前，「即將推出」只應視為馬斯克／CFO的口頭表述。",
-        "quote": "Grok Bot gets better almost every day.",
-        "quote_zh": "Grok Bot幾乎每天都在變好。",
+        "title_en": "Musk highlights Grok Bot sales connectors and ongoing QoL updates",
+        "title_zh": "Musk 強調 Grok Bot 銷售串接與持續體驗更新",
+        "summary_en": "Elon Musk amplified Grok Bot notes that users can draft messages inline before sending and that Bots can now connect to Salesforce, HubSpot, Gong, Clay and Granola for sales workflows. On 11 Sep he also amplified a Grok Bot summary of SpaceX CFO remarks that included “Grok 4.7 coming soon.”",
+        "summary_zh": "Elon Musk 轉發 Grok Bot 說明：可先擬稿再核准送出，並可串接 Salesforce、HubSpot、Gong、Clay、Granola 做銷售流程。9 月 11 日他又轉發 Bot 對 SpaceX CFO 演講的摘要，其中提到「Grok 4.7 即將推出」。",
+        "analysis_en": "This remains an incremental agent-product tweak plus an unofficial timing hint, not a frontier-model event. Treat “coming soon” as Musk/CFO color until xAI posts a model ID, price or changelog.",
+        "analysis_zh": "這仍是代理產品的增量改進加上非正式時程暗示，不是前沿模型事件。「即將推出」在 xAI 公布模型代號、價格或更新日誌前，只能視為 Musk／CFO 的口頭說法。",
+        "quote": "Grok @Bot is great for sales teams!",
+        "quote_zh": "Grok Bot 很適合銷售團隊！",
         "importance": 2,
         "first_seen": "2026-09-10T03:06:53Z",
-        "updated_at": "2026-09-11T04:35:02.110862+00:00",
+        "updated_at": "2026-09-11T10:35:01.937824+00:00",
         "links": [
+          {
+            "label": "Elon Musk on X",
+            "url": "https://x.com/elonmusk/status/2098304042896162881"
+          },
+          {
+            "label": "Elon Musk on X (QoL)",
+            "url": "https://x.com/elonmusk/status/2098038952284586282"
+          },
           {
             "label": "Elon Musk on X",
             "url": "https://x.com/elonmusk/status/2098217236771295567"
@@ -579,10 +704,6 @@
           {
             "label": "Elon Musk on X",
             "url": "https://x.com/elonmusk/status/2097884487455834543"
-          },
-          {
-            "label": "Elon Musk on X (Bot draft)",
-            "url": "https://x.com/elonmusk/status/2098038952284586282"
           }
         ]
       }
@@ -594,26 +715,53 @@
         "category": "frontier_other",
         "source_type": "official_blog",
         "title_en": "Mistral and Cloudera partner on sovereign enterprise AI",
-        "title_zh": "Mistral與Cloudera合作主權企業AI",
-        "summary_en": "Mistral announced a partnership with Cloudera to integrate its models into Cloudera’s hybrid data platform so enterprises can run inference in private, public, on-prem and air-gapped environments while keeping data under customer control. The pitch is specialized models trained on proprietary enterprise data rather than rented general-purpose APIs.",
-        "summary_zh": "Mistral宣布與Cloudera合作，將模型接入Cloudera混合數據平台，企業可在私有、公有、地端與氣隙環境推論並保有資料控制權。訴求是用專有企業數據訓練的專精模型，而非租用通用API。",
-        "analysis_en": "This is a distribution and governance play, not a model launch: it targets regulated industries that will not send core data to US frontier APIs. What remains unproven is conversion from platform integration to paid, production inference at Cloudera’s reported 30-exabyte installed base.",
-        "analysis_zh": "這是通路與治理布局而非模型發表，瞄準不願把核心數據送進美國前沿API的受監管產業。尚未證明的是，整合能否轉成Cloudera號稱30EB安裝基數上的付費正式推論。",
-        "quote": "The collaboration is designed to meet growing demand for sovereign AI: AI that keeps data, intelligence, compute, and operations under the customer's control.",
-        "quote_zh": "此次合作為回應日益增長的主權AI需求：讓數據、智能、算力與營運都留在客戶控制之下。",
+        "title_zh": "Mistral 與 Cloudera 合作主權企業 AI",
+        "summary_en": "Mistral announced a partnership with Cloudera to integrate its models into Cloudera’s hybrid data platform so enterprises can run inference in private, public, on-prem and air-gapped environments while keeping data under customer control. Cloudera cited about 30 exabytes of customer-managed data on the platform.",
+        "summary_zh": "Mistral 宣布與 Cloudera 合作，將模型整合進 Cloudera 混合資料平台，企業可在私有、公有、地端與氣隙環境推論，數據仍由客戶掌控。Cloudera 稱平台上約有 30 EB 客戶託管資料。",
+        "analysis_en": "This is a distribution and governance play, not a model launch: it targets regulated industries that will not send core data to US frontier APIs. What remains unproven is conversion from platform integration to paid model usage.",
+        "analysis_zh": "這是通路與治理布局，不是模型發表；鎖定不願把核心數據送進美國前沿 API 的受管產業。平台整合能否轉成付費用量仍未驗證。",
+        "quote": "Our mission is to make frontier AI available to enterprises without requiring them to give up control over their data, infrastructure, or intellectual property.",
+        "quote_zh": "我們的使命是讓企業用上前沿 AI，而無須放棄對數據、基礎設施或智慧財產的掌控。",
         "importance": 3,
         "first_seen": "2026-09-10T10:42:00Z",
-        "updated_at": "2026-09-11T04:35:02.110862+00:00",
+        "updated_at": "2026-09-11T10:35:01.937824+00:00",
         "links": [
           {
             "label": "Mistral Blog",
             "url": "https://mistral.ai/news/mistral-x-cloudera/"
+          },
+          {
+            "label": "Cloudera Press Release",
+            "url": "https://www.cloudera.com/about/news-and-blogs/press-releases/2026-09-10-cloudera-and-mistral-partner-to-bring-specialized-sovereign-intelligence-to-enterprise-data.html"
+          }
+        ]
+      },
+      {
+        "id": "cognition-swe-2-2026-09-10",
+        "story_id": "cognition-swe-2-2026-09-10",
+        "category": "frontier_other",
+        "source_type": "official_blog",
+        "title_en": "Cognition releases SWE-2 coding model inside Devin",
+        "title_zh": "Cognition 於 Devin 內發布編碼模型 SWE-2",
+        "summary_en": "Cognition introduced SWE-2, post-trained from Moonshot’s 2.8T Kimi K3, and said it scores 50.0% on FrontierCode 1.1 Main versus 50.9% for Claude Fable 5.1 at what it claims is 64% lower cost. The model is available in Devin Desktop and CLI, not as open weights or a public API; Pro/Max/Teams get a one-month free window.",
+        "summary_zh": "Cognition 推出 SWE-2，以 Moonshot 2.8T 的 Kimi K3 後訓練，自稱 FrontierCode 1.1 Main 得 50.0%，對比 Claude Fable 5.1 的 50.9%，成本低約 64%。模型僅在 Devin Desktop／CLI 提供，非開源權重也非公開 API；Pro／Max／Teams 有一個月免費期。",
+        "analysis_en": "This is a specialized coding-model release on a Chinese open-weight base, not a general frontier lab launch. Scores and the 64% cost claim are Cognition’s own; independent evals and Terminal-Bench 4 (27.3% vs Fable 5.1’s 55.8%) show the gap is uneven.",
+        "analysis_zh": "這是以中國開源權重為底的專用編碼模型，不是通用前沿實驗室發表。分數與成本降幅來自 Cognition 自身；獨立評測尚未出現，且 Terminal-Bench 4（27.3% 對 Fable 5.1 的 55.8%）顯示差距並不均勻。",
+        "quote": "Today we’re introducing SWE-2, our most advanced coding model yet. It pushes the Pareto frontier of capability and cost, achieving 50.0% on FrontierCode 1.1 Main, within one point of Fable 5.1 while being 64% cheaper.",
+        "quote_zh": "我們今天推出迄今最強編碼模型 SWE-2。它把能力與成本的柏拉圖前緣往前推，FrontierCode 1.1 Main 達 50.0%，距 Fable 5.1 不到 1 個百分點，成本低 64%。",
+        "importance": 3,
+        "first_seen": "2026-09-10T15:21:00Z",
+        "updated_at": "2026-09-11T10:35:01.937824+00:00",
+        "links": [
+          {
+            "label": "Cognition Blog",
+            "url": "https://cognition.com/blog/swe-2"
           }
         ]
       }
     ]
   },
-  "brief_en": "OpenAI shipped finance ChatGPT, Agents API beta, GPT-Live-1 GA and a Work Data agent; Altman privately said the lab is open to pacing frontier work. Anthropic published its Sept 2026 Claude-misuse report. Google launched Gemini for Windows and rolled Pics into Workspace. Mistral partnered with Cloudera on sovereign inference. xAI only posted Grok Bot QoL; Grok 4.7 is still unreleased.",
-  "brief_zh": "OpenAI推出金融版ChatGPT、Agents API公測、GPT-Live-1正式上線與Work數據代理；Altman內部表示可放緩前沿節奏。Anthropic發布9月Claude濫用威脅報告。Google推出Windows版Gemini並將Pics推進Workspace。Mistral與Cloudera推主權推論。xAI僅有Grok Bot體驗更新，Grok 4.7尚未發布。",
-  "updated_at": "2026-09-11T04:35:02.110862+00:00"
+  "brief_en": "OpenAI shipped finance ChatGPT, Agents API beta, Data agent, GPT-Live-1 API GA and a 27-month GSA deal ($0 seat, 50% usage). Altman told staff he is open to pacing frontier work. Anthropic published its September misuse report. Google rolled Gemini for Windows; Mistral partnered with Cloudera; Cognition released SWE-2.",
+  "brief_zh": "OpenAI 推出金融版 ChatGPT、Agents API 公測、Data agent、GPT-Live-1 API 正式上線，並與 GSA 簽 27 個月 $0 席次／用量五折協議；Altman 對員工表示可放慢前沿節奏。Anthropic 發布 9 月濫用威脅報告。Google 推出 Windows 版 Gemini；Mistral 攜手 Cloudera；Cognition 發布 SWE-2。",
+  "updated_at": "2026-09-11T10:35:01.937824+00:00"
 }
