@@ -16,29 +16,91 @@
       "item_count": 5,
       "updated_count": 3,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-09-12T04:35:01.562570+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 6,
+      "updated_count": 5,
+      "kept_count": 0
     }
   ],
   "items_flat": [
+    {
+      "id": "anthropic-nvidia-ipo-talks-2026-09-11",
+      "story_id": "anthropic-nvidia-ipo-talks-2026-09-11",
+      "category": "anthropic",
+      "source_type": "news",
+      "title_en": "Reuters: Anthropic in talks to bring Nvidia in as IPO anchor",
+      "title_zh": "路透：Anthropic 洽談輝達擔任 IPO 錨定投資人",
+      "summary_en": "Reuters, citing two unnamed people, reported that Anthropic is in talks to bring Nvidia in as an anchor investor in what could be a record IPO. The sources said Anthropic is seeking to raise as much as $100 billion at around a $2 trillion valuation, and that Nvidia is considering investing up to $10 billion. The plans remain under discussion and could change; neither company confirmed the talks in the report.",
+      "summary_zh": "路透引述兩名匿名人士報導，Anthropic 正洽談讓輝達擔任可能創紀錄 IPO 的錨定投資人。消息稱公司尋求募資最高約 1,000 億美元、估值約 2 兆美元，輝達考慮投入最高約 100 億美元。計畫仍在討論、可能變動；報導中兩家公司皆未證實。",
+      "analysis_en": "This is an unconfirmed capital-markets story, not a lab product announcement. If it happens it would further bind Anthropic’s public listing to its largest chip supplier; until filings or official comments appear, size, timing, and Nvidia’s role stay speculative.",
+      "analysis_zh": "這是未證實的資本市場消息，不是實驗室產品公告。若成真，將把 Anthropic 上市更緊綁在最大晶片供應商上；在申報或官方回應出現前，規模、時程與輝達角色仍屬推測。",
+      "quote": "Anthropic is in talks to bring Nvidia as an anchor investor into what could be the largest IPO in history",
+      "quote_zh": "Anthropic 正洽談讓輝達擔任可能成為史上最大 IPO 的錨定投資人",
+      "importance": 4,
+      "first_seen": "2026-09-11T23:01:00Z",
+      "updated_at": "2026-09-12T04:35:01.562570+00:00",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/"
+        },
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-11/nvidia-in-talks-to-invest-up-to-10b-in-anthropic-ipo-reuters"
+        }
+      ]
+    },
+    {
+      "id": "xai-grok-4-7-delay-2026-09-11",
+      "story_id": "xai-grok-4-7-delay-2026-09-11",
+      "category": "xai",
+      "source_type": "official_x",
+      "title_en": "Musk: Grok 4.7 needs a few more days of RL",
+      "title_zh": "馬斯克：Grok 4.7 還需再「燉」幾天強化學習",
+      "summary_en": "Elon Musk posted that Grok 4.7 “needs a few more days to cook,” saying reinforcement learning may have penalized response length too hard. He wrote the model still gives up on hard tasks it can do and is not yet rigorous enough at checking its work. xAI has not published a 4.7 model card, API id, or ship date.",
+      "summary_zh": "馬斯克發文稱 Grok 4.7「還需再燉幾天」，推測強化學習可能過度懲罰回覆長度。他寫模型仍會過早放棄它其實做得到的難題，且自我核對不夠嚴謹。xAI 尚未公布 4.7 模型卡、API 識別或上線日。",
+      "analysis_en": "This is a founder-account timeline slip, not a lab changelog. The useful signal is the failure mode he named—early abort and weak self-check—not a confirmed ship date or benchmark.",
+      "analysis_zh": "這是創辦人帳號的時程滑動，不是實驗室更新日誌。有用訊號是他點名的失敗模式——過早放棄與自我核對不足——而非確定出貨日或基準分數。",
+      "quote": "Grok 4.7 needs a few more days to cook. We might have penalized response length too much (or something) in RL, as it still gives up on hard tasks (that it can do!) too early and isn’t yet sufficiently rigorous in checking its work.",
+      "quote_zh": "Grok 4.7 還需再燉幾天。我們在強化學習裡可能過度懲罰了回覆長度，它仍會過早放棄它其實做得到的難題，且檢查作業還不夠嚴謹。",
+      "importance": 3,
+      "first_seen": "2026-09-11T17:22:03Z",
+      "updated_at": "2026-09-12T04:35:01.562570+00:00",
+      "links": [
+        {
+          "label": "Elon Musk on X",
+          "url": "https://x.com/elonmusk/status/2098462085973741960"
+        }
+      ]
+    },
     {
       "id": "sakana-fugu-max-ultra-v2-2026-09-11",
       "story_id": "sakana-fugu-max-ultra-v2-2026-09-11",
       "category": "frontier_other",
       "source_type": "official_blog",
       "title_en": "Sakana AI releases Fugu Max and Fugu Ultra v2; Max goes live on OpenRouter",
-      "title_zh": "Sakana AI 發布 Fugu Max 與 Fugu Ultra v2，Max 上架 OpenRouter",
-      "summary_en": "Sakana AI said it is releasing Fugu Max, an orchestration layer over a larger pool of open and specialized models (including NVIDIA Nemotron) aimed at cost-performance, and Fugu Ultra v2, a higher-capability variant of the same architecture. Max is priced at $2/$6 per million input/output tokens; Ultra v2 reports first or joint-first on five of eight internal/hard benchmarks without Fable 5, Fable 5.1, or GPT-6 Astra in its pool. Later on Sept. 11 Sakana said Fugu Max is live on OpenRouter with multimodal, web search, function calling and structured outputs.",
-      "summary_zh": "Sakana AI 宣布推出 Fugu Max（以更大開源與專精模型池做成本效能調度，含 NVIDIA Nemotron）與同架構高能力版 Fugu Ultra v2。Max 定價每百萬 token 輸入 2 美元、輸出 6 美元；Ultra v2 自稱在八項高難基準中五項居首或並列，且池中不含 Fable 5、Fable 5.1、GPT-6 Astra。同日稍後宣布 Fugu Max 已上架 OpenRouter，支援多模態、網搜、函式呼叫與結構化輸出。",
-      "analysis_en": "This is an orchestration product, not a new frontier base model: scores depend on the hidden pool and routing overhead, which Sakana only partly discloses. OpenRouter distribution makes the cost claim easier to test, but cache reuse and total tokens per task remain the main uncertainty versus a single-model API.",
-      "analysis_zh": "這是調度產品而非新的前沿基座模型，分數取決於未完全公開的模型池與路由開銷。上架 OpenRouter 讓成本主張較可驗證，但快取命中與單次任務總 token 相對單一模型 API 仍是關鍵未知。",
-      "quote": "Fugu Max asks: What is the best possible output we can deliver at the lowest possible cost? Fugu Ultra v2 asks: What is the absolute highest capability we can achieve on complex, multi-step tasks?",
-      "quote_zh": "Fugu Max 問的是：在最低成本下能交出的最好輸出是什麼？Fugu Ultra v2 問的是：在複雜多步任務上能達到的最高能力是什麼？",
+      "title_zh": "Sakana AI 發布 Fugu Max 與 Fugu Ultra v2；Max 上架 OpenRouter",
+      "summary_en": "Sakana AI said it is releasing Fugu Max, an orchestration layer over a larger pool of open and specialized models (including NVIDIA Nemotron) aimed at cost-performance, and Fugu Ultra v2, a higher-capability variant of the same architecture. Max is priced at $2/$6 per million input/output tokens; both are available on Sakana’s OpenAI-compatible API and listed on OpenRouter. Sakana says Ultra v2’s pool does not include Fable 5, Fable 5.1, or GPT-6 Astra.",
+      "summary_zh": "Sakana AI 宣布推出 Fugu Max（在更大的開源與專用模型池上做編排，含 NVIDIA Nemotron，主打性價比）以及同架構的更高能力版 Fugu Ultra v2。Max 定價為每百萬輸入／輸出 token 2／6 美元；兩者可經 Sakana 相容 API 使用，並已出現在 OpenRouter。Sakana 稱 Ultra v2 的模型池不含 Fable 5、Fable 5.1 或 GPT-6 Astra。",
+      "analysis_en": "This is an orchestration product, not a new frontier base model: scores depend on the hidden pool and routing overhead, which Sakana only partly discloses. OpenRouter listing makes the claim testable, but vendor-reported Pareto charts should not be treated as independent evals.",
+      "analysis_zh": "這是編排產品，不是新的前沿基座模型：分數取決於未完全公開的模型池與路由開銷。OpenRouter 上架讓外界可自行試用，但官方 Pareto 圖不宜當作獨立評測。",
+      "quote": "Today, we are pushing orchestration forward along both axes simultaneously. We are releasing Fugu Max… And we are releasing Fugu Ultra v2…",
+      "quote_zh": "今天我們同時沿兩條軸線推進編排。我們發布 Fugu Max……以及 Fugu Ultra v2……",
       "importance": 3,
       "first_seen": "2026-09-11T06:00:00Z",
-      "updated_at": "2026-09-11T22:35:01.567862+00:00",
+      "updated_at": "2026-09-12T04:35:01.562570+00:00",
       "links": [
         {
           "label": "Sakana AI blog",
           "url": "https://sakana.ai/fugu-max-release/"
+        },
+        {
+          "label": "OpenRouter / Sakana",
+          "url": "https://openrouter.ai/provider/sakana"
         },
         {
           "label": "Sakana AI on X (OpenRouter)",
@@ -51,25 +113,25 @@
       ]
     },
     {
-      "id": "xai-grok-4-7-delay-2026-09-11",
-      "story_id": "xai-grok-4-7-delay-2026-09-11",
-      "category": "xai",
-      "source_type": "official_x",
-      "title_en": "Musk: Grok 4.7 needs a few more days of RL",
-      "title_zh": "馬斯克：Grok 4.7 還需再調理幾天強化學習",
-      "summary_en": "Elon Musk posted that Grok 4.7 “needs a few more days to cook,” saying reinforcement learning may have penalized response length too hard. He wrote the model still gives up on hard tasks it can do and is not yet rigorous enough at checking its work. xAI has not published a model card, API id, or official launch post for 4.7.",
-      "summary_zh": "Elon Musk 發文稱 Grok 4.7「還需要再燉幾天」，推測強化學習可能過度懲罰回覆長度。他寫道模型仍會過早放棄它其實做得到的難題，且尚未夠嚴謹地檢查自己的作業。xAI 尚未公布 4.7 的模型卡、API 識別或正式上線文。",
-      "analysis_en": "This is a timeline slip from the founder account, not a lab changelog. The useful signal is the failure mode he named—early abort and weak self-check—not a confirmed ship date or benchmark.",
-      "analysis_zh": "這是創辦人帳號上的時程延後，不是實驗室更新日誌。有用訊號是他點名的失敗模式（過早放棄、自我檢查不足），而非已確認的上線日或基準分數。",
-      "quote": "Grok 4.7 needs a few more days to cook. We might have penalized response length too much (or something) in RL, as it still gives up on hard tasks (that it can do!) too early and isn’t yet sufficiently rigorous in checking its work.",
-      "quote_zh": "Grok 4.7 還需要再燉幾天。我們在強化學習裡可能把回覆長度懲罰得太重（或類似原因），它仍會過早放棄它其實做得到的難題，檢查作業也不夠嚴謹。",
-      "importance": 3,
-      "first_seen": "2026-09-11T17:22:03Z",
-      "updated_at": "2026-09-11T22:35:01.567862+00:00",
+      "id": "openai-habitat-storage-1b-users-2026-09-11",
+      "story_id": "openai-habitat-storage-1b-users-2026-09-11",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI: Habitat storage now serves 1B+ weekly ChatGPT users",
+      "title_zh": "OpenAI：Habitat 儲存平台已服務每周逾 10 億 ChatGPT 用戶",
+      "summary_en": "OpenAI published an engineering post on Habitat, its online application storage platform, saying it now handles more than 70 million requests per second across almost 40 regions for products used by over 1 billion people each week, with 500+ petabytes of data. The post says two engineers plus Codex and GPT-5.5 rewrote the service in Rust in Q2 2026; Rust now handles 95% of production requests and Python will be deprecated in coming weeks.",
+      "summary_zh": "OpenAI 發表 Habitat（線上應用儲存平台）工程文，稱其在近 40 個地區每秒處理逾 7,000 萬次請求，支撐每周逾 10 億人使用的產品，資料逾 500PB。文中稱 2026 年第二季由兩名工程師加上 Codex 與 GPT-5.5 以 Rust 重寫服務；Rust 已承載 95% 生產請求，Python 將於數周內淘汰。",
+      "analysis_en": "This is infrastructure disclosure, not a model launch. The 1B-weekly-user figure is a company scale claim; the Rust rewrite is the operational change, and independent latency or outage data is not in the post.",
+      "analysis_zh": "這是基礎設施揭露，不是模型發表。每周 10 億用戶是公司規模宣稱；實質工程變化是 Rust 重寫，文中未附獨立延遲或故障數據。",
+      "quote": "Habitat now handles more than 70 million requests every second, supporting products used by over 1 billion people each week, across almost 40 geographic regions.",
+      "quote_zh": "Habitat 現在每秒處理逾 7,000 萬次請求，支撐每周逾 10 億人使用的產品，遍及近 40 個地理區域。",
+      "importance": 2,
+      "first_seen": "2026-09-11T10:00:00Z",
+      "updated_at": "2026-09-12T04:35:01.562570+00:00",
       "links": [
         {
-          "label": "Elon Musk on X",
-          "url": "https://x.com/elonmusk/status/2098462085973741960"
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one/"
         }
       ]
     },
@@ -79,16 +141,16 @@
       "category": "xai",
       "source_type": "official_x",
       "title_en": "Elon flags Grok Bot Galaxy (Sep 15–17) and sales-tool connectors",
-      "title_zh": "Elon 點名 Grok Bot Galaxy（9/15–17）與銷售工具串接",
-      "summary_en": "Elon Musk quoted posts saying SpaceXAI will livestream a three-person team building a company from scratch with Grok Bot on September 15–17 (Grok Bot Galaxy, San Francisco plus online), and that Grok Bot can now connect to Salesforce, HubSpot, Gong, Clay, Granola and other GTM tools. He separately wrote that Grok Bot is “great for sales teams.”",
-      "summary_zh": "Elon Musk 轉引貼文稱 SpaceXAI 將於 9 月 15–17 日直播三人小組用 Grok Bot 從零組公司（Grok Bot Galaxy，舊金山加線上），並稱 Bot 已可串接 Salesforce、HubSpot、Gong、Clay、Granola 等 GTM 工具。他另寫 Grok Bot「很適合銷售團隊」。",
-      "analysis_en": "The posts treat Grok Bot as a persistent teammate for GTM and company-building, not a chat model. What remains unverified is how much of the live build will be unaided agent work versus human operators using the connectors.",
-      "analysis_zh": "這些貼文把 Grok Bot 當成長駐 GTM／組公司隊友，而非聊天模型。尚未可驗證的是直播組公司有多少是無人輔助的代理作業，多少是人類操作串接工具。",
+      "title_zh": "馬斯克轉發 Grok Bot Galaxy（9/15–17）與銷售工具連接",
+      "summary_en": "Elon Musk quoted posts saying SpaceXAI will livestream a three-person team building a company from scratch with Grok Bot on September 15–17 (Grok Bot Galaxy, San Francisco plus online), and that Grok Bot can now connect to Salesforce, HubSpot, Gong, Clay, Granola and other GTM tools. He wrote that Grok Bot is “great for sales teams.” xAI has not posted a standalone product changelog for the connectors.",
+      "summary_zh": "馬斯克轉發貼文指出，SpaceXAI 將於 9 月 15–17 日在舊金山並線上直播三人小組用 Grok Bot 從零組公司（Grok Bot Galaxy），且 Grok Bot 現可連接 Salesforce、HubSpot、Gong、Clay、Granola 等 GTM 工具。他寫 Grok Bot「很適合銷售團隊」。xAI 尚未另發連接器產品更新日誌。",
+      "analysis_en": "The posts treat Grok Bot as a persistent teammate for GTM and company-building, not a chat model. What remains unverified is how much of the live build will be unaided agent work versus human operators using the bots.",
+      "analysis_zh": "這些貼文把 Grok Bot 當成長駐 GTM／組公司隊友，而非聊天模型。尚未核實的是直播「從零組公司」有多少是無人輔助的代理作業、有多少是人操作機器人。",
       "quote": "Grok @Bot is great for sales teams!",
       "quote_zh": "Grok Bot 很適合銷售團隊！",
       "importance": 2,
       "first_seen": "2026-09-11T06:54:03Z",
-      "updated_at": "2026-09-11T22:35:01.567862+00:00",
+      "updated_at": "2026-09-12T04:35:01.562570+00:00",
       "links": [
         {
           "label": "Elon Musk on X",
@@ -109,44 +171,21 @@
       ]
     },
     {
-      "id": "openai-habitat-storage-1b-users-2026-09-11",
-      "story_id": "openai-habitat-storage-1b-users-2026-09-11",
-      "category": "openai",
-      "source_type": "official_blog",
-      "title_en": "OpenAI: Habitat storage now serves 1B+ weekly ChatGPT users",
-      "title_zh": "OpenAI：Habitat 儲存平台已服務逾 10 億週活躍 ChatGPT 用戶",
-      "summary_en": "OpenAI published an engineering post on Habitat, its online application storage platform, saying it now handles more than 70 million requests per second across almost 40 regions for products used by over 1 billion people each week, with 500 PB+ of data. The post says a two-engineer rewrite from Python to Rust with Codex and GPT-5.5 now serves 95% of production requests, with Python to be deprecated in coming weeks.",
-      "summary_zh": "OpenAI 發表 Habitat（線上應用儲存平台）工程文，稱其已在近 40 個區域每秒處理逾 7,000 萬次請求，服務每週逾 10 億人使用的產品，資料量逾 500 PB。文中稱兩名工程師以 Codex 與 GPT-5.5 將服務自 Python 改寫為 Rust，現已承接 95% 生產請求，Python 將於數週內淘汰。",
-      "analysis_en": "This is infrastructure disclosure, not a model launch. The 1B-weekly-user figure is a company scale claim; the Rust rewrite is the operational change, and independent latency or outage data is not in the post.",
-      "analysis_zh": "這是基礎設施揭露，不是模型發表。10 億週活用戶是公司自述規模；真正的營運變化是 Rust 改寫，文中未附獨立延遲或中斷數據。",
-      "quote": "Habitat now handles more than 70 million requests every second, supporting products used by over 1 billion people each week, across almost 40 geographic regions.",
-      "quote_zh": "Habitat 現在每秒處理超過 7,000 萬次請求，支援近 40 個地理區域、每週逾 10 億人使用的產品。",
-      "importance": 2,
-      "first_seen": "2026-09-11T10:00:00Z",
-      "updated_at": "2026-09-11T22:35:01.567862+00:00",
-      "links": [
-        {
-          "label": "OpenAI Engineering",
-          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one/"
-        }
-      ]
-    },
-    {
       "id": "google-deepmind-love-rendered-x-2026-09-11",
       "story_id": "google-deepmind-love-rendered-x-2026-09-11",
       "category": "google",
       "source_type": "official_x",
       "title_en": "DeepMind highlights ‘Love, Rendered’ memory-recreation film",
-      "title_zh": "DeepMind 展示《Love, Rendered》記憶重現影片",
-      "summary_en": "Google DeepMind posted that its team paired restored archival photos with pose-control models to recreate Burt and Ethelle’s first meeting for the documentary Love, Rendered, made with Primordial Soup and Story Syndicate. The film is on YouTube; the post does not name a new public model or API.",
-      "summary_zh": "Google DeepMind 發文稱團隊以修復檔案照片搭配姿態控制模型，重現 Burt 與 Ethelle 初次見面，用於與 Primordial Soup、Story Syndicate 合作的紀錄片《Love, Rendered》。影片在 YouTube；貼文未公布新的公開模型或 API。",
-      "analysis_en": "This is an applied-media case study, not a model or API release. It shows DeepMind packaging pose/performance control as a filmmaking tool; it does not disclose a new public model identifier.",
-      "analysis_zh": "這是應用媒體案例，不是模型或 API 發布。它顯示 DeepMind 把姿態／表演控制包裝成製片工具，並未公開新的模型識別碼。",
+      "title_zh": "DeepMind 推介記憶重構短片《Love, Rendered》",
+      "summary_en": "Google DeepMind posted that its team paired restored archival photos with pose-control models to recreate Burt and Ethelle’s first meeting for the documentary Love, Rendered, made with Primordial Soup and Story Syndicate. A related Google blog by DeepMind engineer Michael Chang describes the short as using image restoration and video models to visualize an unfilmed memory; the film is on YouTube.",
+      "summary_zh": "Google DeepMind 發文稱團隊以修復檔案照片搭配姿態控制模型，重現 Burt 與 Ethelle 初次相遇，用於與 Primordial Soup、Story Syndicate 合作的紀錄片《Love, Rendered》。DeepMind 工程師 Michael Chang 的 Google 部落格說明短片用影像修復與視訊模型視覺化從未拍攝的記憶；影片已上 YouTube。",
+      "analysis_en": "This is an applied-media case study, not a model or API release. It shows DeepMind packaging pose/performance control as a filmmaking tool; it does not disclose a new public model name or endpoint.",
+      "analysis_zh": "這是應用媒體案例，不是模型或 API 發布。它顯示 DeepMind 把姿態／表演控制包裝成拍片工具，並未公布新的公開模型名稱或端點。",
       "quote": "Our team paired restored archival photos with pose control models to capture the mannerisms and micro-expressions of Burt and Ethelle.",
-      "quote_zh": "我們的團隊將修復後的檔案照片與姿態控制模型配對，捕捉 Burt 與 Ethelle 的神態與微表情。",
+      "quote_zh": "我們的團隊以修復檔案照片搭配姿態控制模型，捕捉 Burt 與 Ethelle 的神態與微表情。",
       "importance": 2,
       "first_seen": "2026-09-11T14:26:44Z",
-      "updated_at": "2026-09-11T22:35:01.567862+00:00",
+      "updated_at": "2026-09-12T04:35:01.562570+00:00",
       "links": [
         {
           "label": "Google DeepMind on X",
@@ -167,25 +206,53 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI: Habitat storage now serves 1B+ weekly ChatGPT users",
-        "title_zh": "OpenAI：Habitat 儲存平台已服務逾 10 億週活躍 ChatGPT 用戶",
-        "summary_en": "OpenAI published an engineering post on Habitat, its online application storage platform, saying it now handles more than 70 million requests per second across almost 40 regions for products used by over 1 billion people each week, with 500 PB+ of data. The post says a two-engineer rewrite from Python to Rust with Codex and GPT-5.5 now serves 95% of production requests, with Python to be deprecated in coming weeks.",
-        "summary_zh": "OpenAI 發表 Habitat（線上應用儲存平台）工程文，稱其已在近 40 個區域每秒處理逾 7,000 萬次請求，服務每週逾 10 億人使用的產品，資料量逾 500 PB。文中稱兩名工程師以 Codex 與 GPT-5.5 將服務自 Python 改寫為 Rust，現已承接 95% 生產請求，Python 將於數週內淘汰。",
+        "title_zh": "OpenAI：Habitat 儲存平台已服務每周逾 10 億 ChatGPT 用戶",
+        "summary_en": "OpenAI published an engineering post on Habitat, its online application storage platform, saying it now handles more than 70 million requests per second across almost 40 regions for products used by over 1 billion people each week, with 500+ petabytes of data. The post says two engineers plus Codex and GPT-5.5 rewrote the service in Rust in Q2 2026; Rust now handles 95% of production requests and Python will be deprecated in coming weeks.",
+        "summary_zh": "OpenAI 發表 Habitat（線上應用儲存平台）工程文，稱其在近 40 個地區每秒處理逾 7,000 萬次請求，支撐每周逾 10 億人使用的產品，資料逾 500PB。文中稱 2026 年第二季由兩名工程師加上 Codex 與 GPT-5.5 以 Rust 重寫服務；Rust 已承載 95% 生產請求，Python 將於數周內淘汰。",
         "analysis_en": "This is infrastructure disclosure, not a model launch. The 1B-weekly-user figure is a company scale claim; the Rust rewrite is the operational change, and independent latency or outage data is not in the post.",
-        "analysis_zh": "這是基礎設施揭露，不是模型發表。10 億週活用戶是公司自述規模；真正的營運變化是 Rust 改寫，文中未附獨立延遲或中斷數據。",
+        "analysis_zh": "這是基礎設施揭露，不是模型發表。每周 10 億用戶是公司規模宣稱；實質工程變化是 Rust 重寫，文中未附獨立延遲或故障數據。",
         "quote": "Habitat now handles more than 70 million requests every second, supporting products used by over 1 billion people each week, across almost 40 geographic regions.",
-        "quote_zh": "Habitat 現在每秒處理超過 7,000 萬次請求，支援近 40 個地理區域、每週逾 10 億人使用的產品。",
+        "quote_zh": "Habitat 現在每秒處理逾 7,000 萬次請求，支撐每周逾 10 億人使用的產品，遍及近 40 個地理區域。",
         "importance": 2,
         "first_seen": "2026-09-11T10:00:00Z",
-        "updated_at": "2026-09-11T22:35:01.567862+00:00",
+        "updated_at": "2026-09-12T04:35:01.562570+00:00",
         "links": [
           {
-            "label": "OpenAI Engineering",
+            "label": "OpenAI Blog",
             "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one/"
           }
         ]
       }
     ],
-    "anthropic": [],
+    "anthropic": [
+      {
+        "id": "anthropic-nvidia-ipo-talks-2026-09-11",
+        "story_id": "anthropic-nvidia-ipo-talks-2026-09-11",
+        "category": "anthropic",
+        "source_type": "news",
+        "title_en": "Reuters: Anthropic in talks to bring Nvidia in as IPO anchor",
+        "title_zh": "路透：Anthropic 洽談輝達擔任 IPO 錨定投資人",
+        "summary_en": "Reuters, citing two unnamed people, reported that Anthropic is in talks to bring Nvidia in as an anchor investor in what could be a record IPO. The sources said Anthropic is seeking to raise as much as $100 billion at around a $2 trillion valuation, and that Nvidia is considering investing up to $10 billion. The plans remain under discussion and could change; neither company confirmed the talks in the report.",
+        "summary_zh": "路透引述兩名匿名人士報導，Anthropic 正洽談讓輝達擔任可能創紀錄 IPO 的錨定投資人。消息稱公司尋求募資最高約 1,000 億美元、估值約 2 兆美元，輝達考慮投入最高約 100 億美元。計畫仍在討論、可能變動；報導中兩家公司皆未證實。",
+        "analysis_en": "This is an unconfirmed capital-markets story, not a lab product announcement. If it happens it would further bind Anthropic’s public listing to its largest chip supplier; until filings or official comments appear, size, timing, and Nvidia’s role stay speculative.",
+        "analysis_zh": "這是未證實的資本市場消息，不是實驗室產品公告。若成真，將把 Anthropic 上市更緊綁在最大晶片供應商上；在申報或官方回應出現前，規模、時程與輝達角色仍屬推測。",
+        "quote": "Anthropic is in talks to bring Nvidia as an anchor investor into what could be the largest IPO in history",
+        "quote_zh": "Anthropic 正洽談讓輝達擔任可能成為史上最大 IPO 的錨定投資人",
+        "importance": 4,
+        "first_seen": "2026-09-11T23:01:00Z",
+        "updated_at": "2026-09-12T04:35:01.562570+00:00",
+        "links": [
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/"
+          },
+          {
+            "label": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-11/nvidia-in-talks-to-invest-up-to-10b-in-anthropic-ipo-reuters"
+          }
+        ]
+      }
+    ],
     "google": [
       {
         "id": "google-deepmind-love-rendered-x-2026-09-11",
@@ -193,16 +260,16 @@
         "category": "google",
         "source_type": "official_x",
         "title_en": "DeepMind highlights ‘Love, Rendered’ memory-recreation film",
-        "title_zh": "DeepMind 展示《Love, Rendered》記憶重現影片",
-        "summary_en": "Google DeepMind posted that its team paired restored archival photos with pose-control models to recreate Burt and Ethelle’s first meeting for the documentary Love, Rendered, made with Primordial Soup and Story Syndicate. The film is on YouTube; the post does not name a new public model or API.",
-        "summary_zh": "Google DeepMind 發文稱團隊以修復檔案照片搭配姿態控制模型，重現 Burt 與 Ethelle 初次見面，用於與 Primordial Soup、Story Syndicate 合作的紀錄片《Love, Rendered》。影片在 YouTube；貼文未公布新的公開模型或 API。",
-        "analysis_en": "This is an applied-media case study, not a model or API release. It shows DeepMind packaging pose/performance control as a filmmaking tool; it does not disclose a new public model identifier.",
-        "analysis_zh": "這是應用媒體案例，不是模型或 API 發布。它顯示 DeepMind 把姿態／表演控制包裝成製片工具，並未公開新的模型識別碼。",
+        "title_zh": "DeepMind 推介記憶重構短片《Love, Rendered》",
+        "summary_en": "Google DeepMind posted that its team paired restored archival photos with pose-control models to recreate Burt and Ethelle’s first meeting for the documentary Love, Rendered, made with Primordial Soup and Story Syndicate. A related Google blog by DeepMind engineer Michael Chang describes the short as using image restoration and video models to visualize an unfilmed memory; the film is on YouTube.",
+        "summary_zh": "Google DeepMind 發文稱團隊以修復檔案照片搭配姿態控制模型，重現 Burt 與 Ethelle 初次相遇，用於與 Primordial Soup、Story Syndicate 合作的紀錄片《Love, Rendered》。DeepMind 工程師 Michael Chang 的 Google 部落格說明短片用影像修復與視訊模型視覺化從未拍攝的記憶；影片已上 YouTube。",
+        "analysis_en": "This is an applied-media case study, not a model or API release. It shows DeepMind packaging pose/performance control as a filmmaking tool; it does not disclose a new public model name or endpoint.",
+        "analysis_zh": "這是應用媒體案例，不是模型或 API 發布。它顯示 DeepMind 把姿態／表演控制包裝成拍片工具，並未公布新的公開模型名稱或端點。",
         "quote": "Our team paired restored archival photos with pose control models to capture the mannerisms and micro-expressions of Burt and Ethelle.",
-        "quote_zh": "我們的團隊將修復後的檔案照片與姿態控制模型配對，捕捉 Burt 與 Ethelle 的神態與微表情。",
+        "quote_zh": "我們的團隊以修復檔案照片搭配姿態控制模型，捕捉 Burt 與 Ethelle 的神態與微表情。",
         "importance": 2,
         "first_seen": "2026-09-11T14:26:44Z",
-        "updated_at": "2026-09-11T22:35:01.567862+00:00",
+        "updated_at": "2026-09-12T04:35:01.562570+00:00",
         "links": [
           {
             "label": "Google DeepMind on X",
@@ -223,16 +290,16 @@
         "category": "xai",
         "source_type": "official_x",
         "title_en": "Musk: Grok 4.7 needs a few more days of RL",
-        "title_zh": "馬斯克：Grok 4.7 還需再調理幾天強化學習",
-        "summary_en": "Elon Musk posted that Grok 4.7 “needs a few more days to cook,” saying reinforcement learning may have penalized response length too hard. He wrote the model still gives up on hard tasks it can do and is not yet rigorous enough at checking its work. xAI has not published a model card, API id, or official launch post for 4.7.",
-        "summary_zh": "Elon Musk 發文稱 Grok 4.7「還需要再燉幾天」，推測強化學習可能過度懲罰回覆長度。他寫道模型仍會過早放棄它其實做得到的難題，且尚未夠嚴謹地檢查自己的作業。xAI 尚未公布 4.7 的模型卡、API 識別或正式上線文。",
-        "analysis_en": "This is a timeline slip from the founder account, not a lab changelog. The useful signal is the failure mode he named—early abort and weak self-check—not a confirmed ship date or benchmark.",
-        "analysis_zh": "這是創辦人帳號上的時程延後，不是實驗室更新日誌。有用訊號是他點名的失敗模式（過早放棄、自我檢查不足），而非已確認的上線日或基準分數。",
+        "title_zh": "馬斯克：Grok 4.7 還需再「燉」幾天強化學習",
+        "summary_en": "Elon Musk posted that Grok 4.7 “needs a few more days to cook,” saying reinforcement learning may have penalized response length too hard. He wrote the model still gives up on hard tasks it can do and is not yet rigorous enough at checking its work. xAI has not published a 4.7 model card, API id, or ship date.",
+        "summary_zh": "馬斯克發文稱 Grok 4.7「還需再燉幾天」，推測強化學習可能過度懲罰回覆長度。他寫模型仍會過早放棄它其實做得到的難題，且自我核對不夠嚴謹。xAI 尚未公布 4.7 模型卡、API 識別或上線日。",
+        "analysis_en": "This is a founder-account timeline slip, not a lab changelog. The useful signal is the failure mode he named—early abort and weak self-check—not a confirmed ship date or benchmark.",
+        "analysis_zh": "這是創辦人帳號的時程滑動，不是實驗室更新日誌。有用訊號是他點名的失敗模式——過早放棄與自我核對不足——而非確定出貨日或基準分數。",
         "quote": "Grok 4.7 needs a few more days to cook. We might have penalized response length too much (or something) in RL, as it still gives up on hard tasks (that it can do!) too early and isn’t yet sufficiently rigorous in checking its work.",
-        "quote_zh": "Grok 4.7 還需要再燉幾天。我們在強化學習裡可能把回覆長度懲罰得太重（或類似原因），它仍會過早放棄它其實做得到的難題，檢查作業也不夠嚴謹。",
+        "quote_zh": "Grok 4.7 還需再燉幾天。我們在強化學習裡可能過度懲罰了回覆長度，它仍會過早放棄它其實做得到的難題，且檢查作業還不夠嚴謹。",
         "importance": 3,
         "first_seen": "2026-09-11T17:22:03Z",
-        "updated_at": "2026-09-11T22:35:01.567862+00:00",
+        "updated_at": "2026-09-12T04:35:01.562570+00:00",
         "links": [
           {
             "label": "Elon Musk on X",
@@ -246,16 +313,16 @@
         "category": "xai",
         "source_type": "official_x",
         "title_en": "Elon flags Grok Bot Galaxy (Sep 15–17) and sales-tool connectors",
-        "title_zh": "Elon 點名 Grok Bot Galaxy（9/15–17）與銷售工具串接",
-        "summary_en": "Elon Musk quoted posts saying SpaceXAI will livestream a three-person team building a company from scratch with Grok Bot on September 15–17 (Grok Bot Galaxy, San Francisco plus online), and that Grok Bot can now connect to Salesforce, HubSpot, Gong, Clay, Granola and other GTM tools. He separately wrote that Grok Bot is “great for sales teams.”",
-        "summary_zh": "Elon Musk 轉引貼文稱 SpaceXAI 將於 9 月 15–17 日直播三人小組用 Grok Bot 從零組公司（Grok Bot Galaxy，舊金山加線上），並稱 Bot 已可串接 Salesforce、HubSpot、Gong、Clay、Granola 等 GTM 工具。他另寫 Grok Bot「很適合銷售團隊」。",
-        "analysis_en": "The posts treat Grok Bot as a persistent teammate for GTM and company-building, not a chat model. What remains unverified is how much of the live build will be unaided agent work versus human operators using the connectors.",
-        "analysis_zh": "這些貼文把 Grok Bot 當成長駐 GTM／組公司隊友，而非聊天模型。尚未可驗證的是直播組公司有多少是無人輔助的代理作業，多少是人類操作串接工具。",
+        "title_zh": "馬斯克轉發 Grok Bot Galaxy（9/15–17）與銷售工具連接",
+        "summary_en": "Elon Musk quoted posts saying SpaceXAI will livestream a three-person team building a company from scratch with Grok Bot on September 15–17 (Grok Bot Galaxy, San Francisco plus online), and that Grok Bot can now connect to Salesforce, HubSpot, Gong, Clay, Granola and other GTM tools. He wrote that Grok Bot is “great for sales teams.” xAI has not posted a standalone product changelog for the connectors.",
+        "summary_zh": "馬斯克轉發貼文指出，SpaceXAI 將於 9 月 15–17 日在舊金山並線上直播三人小組用 Grok Bot 從零組公司（Grok Bot Galaxy），且 Grok Bot 現可連接 Salesforce、HubSpot、Gong、Clay、Granola 等 GTM 工具。他寫 Grok Bot「很適合銷售團隊」。xAI 尚未另發連接器產品更新日誌。",
+        "analysis_en": "The posts treat Grok Bot as a persistent teammate for GTM and company-building, not a chat model. What remains unverified is how much of the live build will be unaided agent work versus human operators using the bots.",
+        "analysis_zh": "這些貼文把 Grok Bot 當成長駐 GTM／組公司隊友，而非聊天模型。尚未核實的是直播「從零組公司」有多少是無人輔助的代理作業、有多少是人操作機器人。",
         "quote": "Grok @Bot is great for sales teams!",
         "quote_zh": "Grok Bot 很適合銷售團隊！",
         "importance": 2,
         "first_seen": "2026-09-11T06:54:03Z",
-        "updated_at": "2026-09-11T22:35:01.567862+00:00",
+        "updated_at": "2026-09-12T04:35:01.562570+00:00",
         "links": [
           {
             "label": "Elon Musk on X",
@@ -283,20 +350,24 @@
         "category": "frontier_other",
         "source_type": "official_blog",
         "title_en": "Sakana AI releases Fugu Max and Fugu Ultra v2; Max goes live on OpenRouter",
-        "title_zh": "Sakana AI 發布 Fugu Max 與 Fugu Ultra v2，Max 上架 OpenRouter",
-        "summary_en": "Sakana AI said it is releasing Fugu Max, an orchestration layer over a larger pool of open and specialized models (including NVIDIA Nemotron) aimed at cost-performance, and Fugu Ultra v2, a higher-capability variant of the same architecture. Max is priced at $2/$6 per million input/output tokens; Ultra v2 reports first or joint-first on five of eight internal/hard benchmarks without Fable 5, Fable 5.1, or GPT-6 Astra in its pool. Later on Sept. 11 Sakana said Fugu Max is live on OpenRouter with multimodal, web search, function calling and structured outputs.",
-        "summary_zh": "Sakana AI 宣布推出 Fugu Max（以更大開源與專精模型池做成本效能調度，含 NVIDIA Nemotron）與同架構高能力版 Fugu Ultra v2。Max 定價每百萬 token 輸入 2 美元、輸出 6 美元；Ultra v2 自稱在八項高難基準中五項居首或並列，且池中不含 Fable 5、Fable 5.1、GPT-6 Astra。同日稍後宣布 Fugu Max 已上架 OpenRouter，支援多模態、網搜、函式呼叫與結構化輸出。",
-        "analysis_en": "This is an orchestration product, not a new frontier base model: scores depend on the hidden pool and routing overhead, which Sakana only partly discloses. OpenRouter distribution makes the cost claim easier to test, but cache reuse and total tokens per task remain the main uncertainty versus a single-model API.",
-        "analysis_zh": "這是調度產品而非新的前沿基座模型，分數取決於未完全公開的模型池與路由開銷。上架 OpenRouter 讓成本主張較可驗證，但快取命中與單次任務總 token 相對單一模型 API 仍是關鍵未知。",
-        "quote": "Fugu Max asks: What is the best possible output we can deliver at the lowest possible cost? Fugu Ultra v2 asks: What is the absolute highest capability we can achieve on complex, multi-step tasks?",
-        "quote_zh": "Fugu Max 問的是：在最低成本下能交出的最好輸出是什麼？Fugu Ultra v2 問的是：在複雜多步任務上能達到的最高能力是什麼？",
+        "title_zh": "Sakana AI 發布 Fugu Max 與 Fugu Ultra v2；Max 上架 OpenRouter",
+        "summary_en": "Sakana AI said it is releasing Fugu Max, an orchestration layer over a larger pool of open and specialized models (including NVIDIA Nemotron) aimed at cost-performance, and Fugu Ultra v2, a higher-capability variant of the same architecture. Max is priced at $2/$6 per million input/output tokens; both are available on Sakana’s OpenAI-compatible API and listed on OpenRouter. Sakana says Ultra v2’s pool does not include Fable 5, Fable 5.1, or GPT-6 Astra.",
+        "summary_zh": "Sakana AI 宣布推出 Fugu Max（在更大的開源與專用模型池上做編排，含 NVIDIA Nemotron，主打性價比）以及同架構的更高能力版 Fugu Ultra v2。Max 定價為每百萬輸入／輸出 token 2／6 美元；兩者可經 Sakana 相容 API 使用，並已出現在 OpenRouter。Sakana 稱 Ultra v2 的模型池不含 Fable 5、Fable 5.1 或 GPT-6 Astra。",
+        "analysis_en": "This is an orchestration product, not a new frontier base model: scores depend on the hidden pool and routing overhead, which Sakana only partly discloses. OpenRouter listing makes the claim testable, but vendor-reported Pareto charts should not be treated as independent evals.",
+        "analysis_zh": "這是編排產品，不是新的前沿基座模型：分數取決於未完全公開的模型池與路由開銷。OpenRouter 上架讓外界可自行試用，但官方 Pareto 圖不宜當作獨立評測。",
+        "quote": "Today, we are pushing orchestration forward along both axes simultaneously. We are releasing Fugu Max… And we are releasing Fugu Ultra v2…",
+        "quote_zh": "今天我們同時沿兩條軸線推進編排。我們發布 Fugu Max……以及 Fugu Ultra v2……",
         "importance": 3,
         "first_seen": "2026-09-11T06:00:00Z",
-        "updated_at": "2026-09-11T22:35:01.567862+00:00",
+        "updated_at": "2026-09-12T04:35:01.562570+00:00",
         "links": [
           {
             "label": "Sakana AI blog",
             "url": "https://sakana.ai/fugu-max-release/"
+          },
+          {
+            "label": "OpenRouter / Sakana",
+            "url": "https://openrouter.ai/provider/sakana"
           },
           {
             "label": "Sakana AI on X (OpenRouter)",
@@ -310,7 +381,7 @@
       }
     ]
   },
-  "brief_en": "Sakana shipped Fugu Max/Ultra v2 and put Max on OpenRouter. Elon delayed Grok 4.7 for more RL after it still quits hard tasks. OpenAI published a Habitat storage post for 1B+ weekly ChatGPT users. DeepMind highlighted a pose-control memory film.",
-  "brief_zh": "Sakana 推出 Fugu Max／Ultra v2，Max 上架 OpenRouter。Elon 稱 Grok 4.7 需再調 RL，仍會過早放棄難題。OpenAI 公開 Habitat 儲存擴容以服務逾 10 億週活。DeepMind 展示姿態控制復原記憶紀錄片。",
-  "updated_at": "2026-09-11T22:35:01.567862+00:00"
+  "brief_en": "No flagship model shipped today. Musk delayed Grok 4.7 for more RL. Reuters said Anthropic is talking to Nvidia about an anchor stake in a possible $100B IPO. OpenAI detailed Habitat at 1B weekly users. Sakana shipped Fugu Max and Ultra v2 orchestration. DeepMind highlighted the Love, Rendered film.",
+  "brief_zh": "今日無旗艦模型上線。馬斯克稱 Grok 4.7 還需數日強化學習。路透：Anthropic 洽談輝達擔任可能千億美元 IPO 錨定投資人。OpenAI 披露 Habitat 服務每周逾 10 億用戶。Sakana 推出 Fugu Max／Ultra v2。DeepMind 推介《Love, Rendered》。",
+  "updated_at": "2026-09-12T04:35:01.562570+00:00"
 }
