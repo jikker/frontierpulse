@@ -24,6 +24,14 @@
       "item_count": 10,
       "updated_count": 7,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-09-14T10:35:01.521500+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 11,
+      "updated_count": 10,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -32,21 +40,25 @@
       "story_id": "openai-altman-evaluators-ipo-2026-09-12",
       "category": "openai",
       "source_type": "official_x",
-      "title_en": "Altman: OpenAI writes safety cases before frontier RL; still matching embedded evaluators; no 2026 IPO",
-      "title_zh": "Altman：OpenAI 在前沿 RL 前寫安全論證；仍承諾嵌入式評估者；2026 年不 IPO",
-      "summary_en": "On 14 September UTC, Sam Altman posted that OpenAI now writes explicit safety cases before frontier reinforcement-learning runs expected to lift capability, and that “pacing” means slower-than-possible progress, not a halt. He welcomed a US federal framework but said labs need not wait for antitrust relief to start shared standards. The post extends his 12 September reply that OpenAI will give independent evaluators employee-like access, plus earlier Fortune remarks that a 2026 IPO would be ill-advised.",
-      "summary_zh": "9 月 14 日 UTC，Sam Altman 發文稱 OpenAI 現在會在預期大幅拉升能力的前沿強化學習前撰寫明確安全論證，「pace」是指比原本更慢、而非停訓。他歡迎美國聯邦框架，但認為實驗室不必等反壟斷豁免才開始共享標準。此文延續 12 日「將給獨立評估者接近員工級權限」的回覆，以及稍早 Fortune 訪問中 2026 年 IPO「時機不宜」的說法。",
-      "analysis_en": "The new operational claim is pre-RL safety cases, not only post-training evals. Access terms, publication rights, and whether other labs adopt the same pre-training gate remain unpublished.",
-      "analysis_zh": "新的可核對主張是「訓練前安全論證」，而不只是上線前評測。評估者權限條款、公開權，以及其他實驗室是否採用同樣的預訓練門檻，仍未公開。",
+      "title_en": "Altman: OpenAI writes safety cases before frontier RL; pacing is slower progress, not a halt",
+      "title_zh": "Altman：OpenAI 在前沿強化學習前先寫安全論證；「節奏」是放慢而非停訓",
+      "summary_en": "On 14 September UTC Sam Altman posted that OpenAI now writes explicit safety cases before frontier reinforcement-learning runs expected to lift capability, on top of pre-release safety work. He welcomed a US federal framework and independent auditors but said labs need not wait for an antitrust exemption. Pacing, he wrote, means progress that is slower than it otherwise could be. He had already said on 12 September that OpenAI will match embedded independent evaluators and that a 2026 IPO would be ill-advised.",
+      "summary_zh": "9 月 14 日 UTC，Sam Altman 發文稱 OpenAI 現在會在預期顯著拉高能力的前沿強化學習前先寫明確安全論證，並延續發布前的安全工作。他歡迎美國聯邦框架與獨立審計，但認為不必等反托拉斯豁免才動手。他所說的「節奏」是比原本更慢的推進。他已於 12 日表示將比照嵌入式獨立評估者，且 2026 年 IPO 不智。",
+      "analysis_en": "The new operational claim is a pre-RL safety case, not only post-training evals. Access terms, publication rights, and whether other labs adopt the same pre-training gate remain unpublished.",
+      "analysis_zh": "新增的作業主張是「強化學習前」的安全論證，而不只是訓練後評估。評估者權限、公開權利，以及其他實驗室是否採用同一道訓練前門檻，仍未公開。",
       "quote": "When we talk about “pacing”, we do not mean “stopping”. Progress has been rapid and will continue to be. But it should be slower than it otherwise could be.",
-      "quote_zh": "我們說的「節奏」不是「停止」。進展一直很快、也會繼續快。但它應該比原本可以達到的速度更慢。",
+      "quote_zh": "我們說的「節奏」不是「停下來」。進展一直很快，也會繼續快。但應該比原本能達到的速度更慢。",
       "importance": 5,
       "first_seen": "2026-09-12T16:30:45Z",
-      "updated_at": "2026-09-14T04:35:01.633368+00:00",
+      "updated_at": "2026-09-14T10:35:01.521500+00:00",
       "links": [
         {
           "label": "Sam Altman on X",
           "url": "https://x.com/sama/status/2099348812305473766"
+        },
+        {
+          "label": "Sam Altman on X (12 Sep evaluators)",
+          "url": "https://x.com/sama/status/2098811563415150910"
         },
         {
           "label": "Sam Altman follow-up on X",
@@ -61,10 +73,6 @@
           "url": "https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development"
         },
         {
-          "label": "Sam Altman on X",
-          "url": "https://x.com/sama/status/2098811563415150910"
-        },
-        {
           "label": "Quartz on Fortune interview",
           "url": "https://qz.com/sam-altman-openai-ipo-delay-safety-2026-091226"
         }
@@ -76,17 +84,25 @@
       "category": "anthropic",
       "source_type": "official_x",
       "title_en": "Amodei publishes ‘We Must Pace the Frontier’; Anthropic commits to embedded evaluators",
-      "title_zh": "Amodei 發表〈必須放慢前沿〉；Anthropic 承諾常駐獨立評估者",
-      "summary_en": "Anthropic CEO Dario Amodei published an essay arguing labs should slow the rate of capability gains so safety work can keep up, while saying this is not a halt to training. Anthropic unilaterally committed to step one: permanent, employee-like access for independent evaluators inside the company.",
-      "summary_zh": "Anthropic CEO Dario Amodei 發表專文，主張實驗室應放慢能力躍升速度，好讓安全工作跟上，並強調這不是停止訓練。Anthropic 單方面承諾第一步：讓獨立評估者獲得常設、接近員工級的內部權限。",
-      "analysis_en": "The concrete change is verifiability inside Anthropic, not a published training freeze. Whether other labs accept the same access terms, publication rights, and any coordinated pace is still open.",
-      "analysis_zh": "具體改變是 Anthropic 內部的可驗證性，而非已公布的訓練凍結。其他實驗室是否接受同等權限、公開權與任何協調節奏，仍未定。",
-      "quote": "We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan for doing so. Anthropic is unilaterally committing to the first of these steps.",
-      "quote_zh": "我們必須放慢前沿：我寫了一篇新文，說明為何 AI 產業應該減速，以及三步計畫。Anthropic 單方面承諾執行第一步。",
+      "title_zh": "Amodei 發表〈我們必須放慢前沿〉；Anthropic 承諾嵌入式評估者",
+      "summary_en": "Anthropic CEO Dario Amodei published an essay arguing labs should slow the rate of capability gains so safety work can keep up, while saying this is not a halt to training. Anthropic unilaterally committed to step one: permanent, employee-level access for third-party evaluators to verify safety measures, report incidents, and assess alignment during training.",
+      "summary_zh": "Anthropic 執行長 Dario Amodei 發表長文，主張實驗室應放慢能力增速好讓安全工作跟上，並強調這不是停止訓練。Anthropic 單方面承諾第一步：讓第三方評估者永久取得等同員工的系統權限，以核對安全措施、通報事件，並在訓練期間評估對齊。",
+      "analysis_en": "The concrete change is verifiability inside Anthropic, not a published training freeze. Whether other labs accept the same access terms, publication rights, and any coordinated pace remains open.",
+      "analysis_zh": "具體改變是 Anthropic 內部的可驗證性，而非已公布的訓練凍結。其他實驗室是否接受同等權限、公開權利與任何協調節奏，仍未定。",
+      "quote": "Anthropic is unilaterally committing to the first of these steps. We’ll provide third-party evaluators with permanent, employee-level access to our systems.",
+      "quote_zh": "Anthropic 單方面承諾第一步：我們將向第三方評估者提供永久、等同員工層級的系統存取權。",
       "importance": 5,
       "first_seen": "2026-09-12T14:01:10Z",
-      "updated_at": "2026-09-14T04:35:01.633368+00:00",
+      "updated_at": "2026-09-14T10:35:01.521500+00:00",
       "links": [
+        {
+          "label": "Dario Amodei on X",
+          "url": "https://x.com/DarioAmodei/status/2098770000000000000"
+        },
+        {
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI"
+        },
         {
           "label": "Dario Amodei essay / X announcement coverage",
           "url": "https://venturebeat.com/security/anthropic-ceo-says-ai-swarm-could-take-over-the-entire-internet-in-6-12-months-commits-to-ai-slowdown-plan"
@@ -119,16 +135,16 @@
       "category": "anthropic",
       "source_type": "news",
       "title_en": "FT: Anthropic tells investors it will be profitable for a second straight quarter",
-      "title_zh": "FT：Anthropic 向投資人表示將連續第二季獲利",
-      "summary_en": "The Financial Times reported on 13 September that Anthropic told a small group of shareholders its adjusted operating income will be positive for a second consecutive quarter. The paper said Q2 revenue reached $11.5 billion (about 14× a year earlier) and that gross margins exceed 80% before partner revenue share and training costs. Reuters relayed the FT account; Anthropic did not immediately comment.",
-      "summary_zh": "《金融時報》9 月 13 日報導，Anthropic 向一小群股東表示，調整後營業利益將連續第二季為正。該報稱第二季營收達 115 億美元（約為一年前的 14 倍），毛利率在扣除通路分成與訓練成本前超過 80%。路透轉述 FT；Anthropic 未立即回應。",
-      "analysis_en": "This is investor messaging ahead of a possible listing, not audited GAAP results. Adjusted operating profit excludes stock-based pay and still sits beside very large training and partner-share costs.",
-      "analysis_zh": "這是上市前的投資人溝通，不是經審計的 GAAP 財報。調整後營業利益排除股票薪酬，且訓練成本與通路分成仍很大。",
+      "title_zh": "金融時報：Anthropic 向投資人表示將連續第二季獲利",
+      "summary_en": "The Financial Times reported on 13 September that Anthropic told a small group of shareholders its adjusted operating income will be positive for a second consecutive quarter. The paper said Q2 revenue reached $11.5 billion (about 14× a year earlier) and that annualised revenue was $65 billion at the end of July. The adjusted measure excludes stock-based compensation.",
+      "summary_zh": "《金融時報》9 月 13 日報導，Anthropic 向一小群股東表示，調整後營業利益將連續第二季轉正。該報稱第二季營收達 115 億美元（約為一年前的 14 倍），7 月底年化營收 650 億美元。該調整指標不含股票薪酬。",
+      "analysis_en": "This is investor messaging ahead of a possible listing, not audited GAAP results. Adjusted operating profit still sits beside very large training and compute commitments.",
+      "analysis_zh": "這是可能上市前的投資人溝通，不是經審計的 GAAP 財報。調整後營業利益仍與龐大訓練與算力承諾並存。",
       "quote": "Anthropic has told its backers it will be profitable this quarter, as it moves to allay investor concerns about the aggressive cash burn of frontier AI companies ahead of its blockbuster initial public offering.",
       "quote_zh": "Anthropic 已告知金主本季將獲利，試圖在大型 IPO 前緩解投資人對前沿 AI 公司燒錢速度的疑慮。",
       "importance": 4,
       "first_seen": "2026-09-13T22:00:00Z",
-      "updated_at": "2026-09-14T04:35:01.633368+00:00",
+      "updated_at": "2026-09-14T10:35:01.521500+00:00",
       "links": [
         {
           "label": "Financial Times",
@@ -146,16 +162,16 @@
       "category": "openai",
       "source_type": "news",
       "title_en": "Bloomberg: SoftBank closes $11.87B two-year loan to fund OpenAI stake",
-      "title_zh": "彭博：軟銀敲定 118.7 億美元兩年期貸款，為 OpenAI 持股募資",
-      "summary_en": "Bloomberg reported that SoftBank Group secured an $11.87 billion two-year facility from about 20 banks to support its OpenAI investment, above a prior $10 billion target. SoftBank declined to comment. Coverage notes it plans to repay $25.9 billion remaining on an earlier $40 billion OpenAI-related bridge on 15 September, and still aims to put about $65 billion into OpenAI by October.",
-      "summary_zh": "彭博報導，軟銀集團向約 20 家銀行取得 118.7 億美元兩年期融資，用於支援其 OpenAI 投資，高於原先 100 億美元目標。軟銀拒評。報導並指出公司計畫於 9 月 15 日償還稍早 400 億美元過橋貸款餘額 259 億美元，仍擬在 10 月前向 OpenAI 投入約 650 億美元。",
-      "analysis_en": "The story is SoftBank’s funding path into OpenAI, not a new OpenAI product. It sits beside Altman’s ‘no 2026 IPO’ and ‘pace the frontier’ comments, so capital intensity and safety rhetoric are moving in parallel.",
-      "analysis_zh": "這是軟銀進入 OpenAI 的資金路徑，不是 OpenAI 新品。它與 Altman「2026 不 IPO」和「放慢前沿」並列，資本密集與安全修辭同時升高。",
+      "title_zh": "彭博：軟銀敲定 118.7 億美元兩年期貸款以資助 OpenAI 持股",
+      "summary_en": "Bloomberg reported that SoftBank Group secured an $11.87 billion two-year facility from about 20 banks to support its OpenAI investment, above a prior $10 billion target. SoftBank declined to comment. Coverage notes it plans to repay $25.9 billion on 15 September from an earlier $40 billion loan tied to the same stake.",
+      "summary_zh": "彭博報導，軟銀集團向約 20 家銀行取得 118.7 億美元兩年期融資，以支持其 OpenAI 投資，高於先前 100 億美元目標。軟銀拒評。報導並指其計畫於 9 月 15 日償還先前與同一持股相關的 400 億美元貸款中尚欠的 259 億美元。",
+      "analysis_en": "The story is SoftBank’s funding path into OpenAI, not a new OpenAI product. It sits beside Altman’s ‘no 2026 IPO’ and ‘pace the frontier’ comments, so capital intensity and safety rhetoric now run in parallel.",
+      "analysis_zh": "這是軟銀進入 OpenAI 的資金路徑，不是 OpenAI 新產品。它與 Altman「2026 不 IPO」與「放慢前沿」並列，資本密集與安全修辭同步出現。",
       "quote": "SoftBank Group Corp. secured an $11.87 billion loan to support its investment in US artificial intelligence firm OpenAI, people familiar with the matter said, up from its earlier target of $10 billion.",
       "quote_zh": "知情人士表示，軟銀集團取得 118.7 億美元貸款，以支援其對美國 AI 公司 OpenAI 的投資，高於稍早 100 億美元目標。",
       "importance": 4,
       "first_seen": "2026-09-14T01:42:00Z",
-      "updated_at": "2026-09-14T04:35:01.633368+00:00",
+      "updated_at": "2026-09-14T10:35:01.521500+00:00",
       "links": [
         {
           "label": "Bloomberg",
@@ -171,19 +187,27 @@
       "id": "labs-ai-standards-body-2026-09-13",
       "story_id": "labs-ai-standards-body-2026-09-13",
       "category": "frontier_other",
-      "source_type": "news",
+      "source_type": "mixed",
       "title_en": "The Information: OpenAI, Anthropic and Google have met since July on an industry standards body",
       "title_zh": "The Information：OpenAI、Anthropic 與 Google 自 7 月起開會討論產業標準機構",
-      "summary_en": "The Information reported that Anthropic, OpenAI and Google have held working-group meetings since July on an industry-led body for testing and auditing frontier AI, predating Amodei’s Saturday essay. Demis Hassabis has separately argued for a FINRA-style body; Altman has argued labs can start without waiting for statute.",
-      "summary_zh": "The Information 報導，Anthropic、OpenAI 與 Google 自 7 月起就產業主導的前沿 AI 測試與審計機構舉行工作會議，早於 Amodei 週六專文。Hassabis 另主張類 FINRA 機構；Altman 則稱實驗室不必等立法就能先做。",
-      "analysis_en": "Talks since July explain why weekend rhetoric aligned quickly; they do not yet equal a charter, membership list, or enforcement power.",
-      "analysis_zh": "7 月以來的會談解釋週末口徑為何迅速對齊；這仍不等於章程、成員名單或執行力。",
-      "quote": "Dario's essay points towards the right path forward. The details need working through, but the direction is correct for meeting this critical moment. This is also why we recently put out our proposal for an industry-wide standards body for frontier AI.",
-      "quote_zh": "Dario 的文章指向正確方向。細節仍待敲定，但方向符合此刻的緊要性。這也是我們近日提出產業級前沿 AI 標準機構方案的原因。",
+      "summary_en": "The Information reported that Anthropic, OpenAI and Google have held working-group meetings since July on an industry-led body for testing and auditing frontier AI, predating Amodei’s Saturday essay. Demis Hassabis has separately argued for an industry-level standards organisation. Cohere CEO Aidan Gomez published a 13 September essay calling the coordination “a cartel by any other name” and warning that antitrust waivers could lock out smaller labs.",
+      "summary_zh": "The Information 報導，Anthropic、OpenAI 與 Google 自 7 月起召開工作小組會議，討論由產業主導的前沿 AI 測試與審計機構，時間早於 Amodei 週六長文。Hassabis 另主張產業層級標準組織。Cohere 執行長 Aidan Gomez 於 13 日發文稱此協調「換個名字的卡特爾」，並警告反托拉斯豁免可能排擠較小實驗室。",
+      "analysis_en": "Talks since July explain why weekend rhetoric aligned quickly; they do not yet equal a charter, membership list, or enforcement power. Gomez’s critique is the first high-profile smaller-lab pushback in the window.",
+      "analysis_zh": "自 7 月起的會談解釋了週末修辭為何迅速對齊；這仍不等於章程、成員名單或執行力。Gomez 的批評是本窗口內較小實驗室的首個高調反彈。",
+      "quote": "A wolf in sheep’s clothing, a cartel by any other name.",
+      "quote_zh": "披著羊皮的狼，換個名字的卡特爾。",
       "importance": 4,
       "first_seen": "2026-09-13T19:16:00Z",
-      "updated_at": "2026-09-14T04:35:01.633368+00:00",
+      "updated_at": "2026-09-14T10:35:01.521500+00:00",
       "links": [
+        {
+          "label": "Cohere / Aidan Gomez essay",
+          "url": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai"
+        },
+        {
+          "label": "The Information (via secondary coverage)",
+          "url": "https://aiweekly.co/alerts/anthropic-openai-google-meet-since-july-on-ai-standards-body"
+        },
         {
           "label": "Techmeme / The Information",
           "url": "http://www.techmeme.com/260913/p12"
@@ -206,19 +230,23 @@
       "id": "xai-grok-microsoft-copilot-2026-09-12",
       "story_id": "xai-grok-microsoft-copilot-2026-09-12",
       "category": "xai",
-      "source_type": "mixed",
+      "source_type": "official_x",
       "title_en": "Grok models become selectable inside Microsoft Copilot",
       "title_zh": "Grok 模型可在 Microsoft Copilot 中選用",
-      "summary_en": "Microsoft CEO Satya Nadella said more model choice is coming to Copilot and welcomed Grok; Elon Musk posted that Grok is available in Microsoft Copilot. Reporting describes a Frontier-program rollout across Word, Excel and PowerPoint that is admin-gated in places.",
-      "summary_zh": "微軟 CEO Satya Nadella 表示 Copilot 將有更多模型選擇並歡迎 Grok；Elon Musk 發文稱 Grok 已可在 Microsoft Copilot 使用。報導描述這是面向 Word、Excel、PowerPoint 的 Frontier 方案，部分需管理員開啟。",
+      "summary_en": "Microsoft CEO Satya Nadella said more model choice is coming to Copilot and welcomed Grok; Microsoft 365 said Grok models from SpaceXAI are rolling out in Copilot in Word, Excel and PowerPoint, starting with a focused Microsoft Frontier-program release. Elon Musk separately posted that Grok is available in Microsoft Copilot.",
+      "summary_zh": "微軟執行長 Satya Nadella 表示 Copilot 將有更多模型選擇並歡迎 Grok；Microsoft 365 稱 SpaceXAI 的 Grok 模型正於 Word、Excel、PowerPoint 的 Copilot 推出，先從 Frontier 計畫客戶開始。Elon Musk 另發文稱 Grok 已可在 Microsoft Copilot 使用。",
       "analysis_en": "Copilot widens xAI’s enterprise distribution through Microsoft’s work surface, but admin opt-in and regional carve-outs limit immediate scale.",
-      "analysis_zh": "Copilot 讓 xAI 經微軟工作介面擴大企業通路，但管理員開關與地區限制會壓低即時規模。",
-      "quote": "Watch a company being built live with @Grok @Bot!",
-      "quote_zh": "看一家公司用 Grok Bot 現場被打造出來！",
+      "analysis_zh": "Copilot 讓 xAI 經微軟工作介面擴大企業通路，但管理員選擇加入與區域限制仍壓抑即時規模。",
+      "quote": "More model choice coming to Copilot. Welcome Grok!",
+      "quote_zh": "Copilot 將有更多模型選擇。歡迎 Grok！",
       "importance": 4,
       "first_seen": "2026-09-12T15:26:40Z",
-      "updated_at": "2026-09-14T04:35:01.633368+00:00",
+      "updated_at": "2026-09-14T10:35:01.521500+00:00",
       "links": [
+        {
+          "label": "Satya Nadella on X",
+          "url": "https://x.com/satyanadella"
+        },
         {
           "label": "xAI Build",
           "url": "https://x.ai/build"
@@ -247,20 +275,43 @@
       "category": "xai",
       "source_type": "official_x",
       "title_en": "Musk: Grok 4.8, a 2.5T model on a new C++ stack, finishes training this week",
-      "title_zh": "Musk：Grok 4.8（2.5T、新 C++ 堆疊）本週完成訓練",
-      "summary_en": "Elon Musk posted on 14 September that “Grok 4.8, which is a 2.5T model trained with our new C++ software stack, will finish training this week and start RL.” Grok 4.7 has not appeared on xAI’s official model pages. Separately he promoted a three-day Grok Bot Galaxy livestream starting 15 September.",
-      "summary_zh": "Elon Musk 於 9 月 14 日發文：「Grok 4.8，以新 C++ 軟體堆疊訓練的 2.5T 模型，將於本週完成訓練並開始 RL。」Grok 4.7 尚未出現在 xAI 官方模型頁。他另宣傳 9 月 15 日起為期三天的 Grok Bot Galaxy 直播。",
+      "title_zh": "Musk：2.5T、採新 C++ 堆疊的 Grok 4.8 本週結束預訓練",
+      "summary_en": "Elon Musk posted on 14 September that “Grok 4.8, which is a 2.5T model trained with our new C++ software stack, will finish training this week and start RL.” Grok 4.7 has not appeared on xAI’s official model pages. Separately he promoted Grok Build.",
+      "summary_zh": "Elon Musk 於 9 月 14 日發文：「Grok 4.8，一個以我們新 C++ 軟體堆疊訓練的 2.5T 模型，將於本週結束訓練並開始強化學習。」Grok 4.7 尚未出現在 xAI 官方模型頁。他另推廣 Grok Build。",
       "analysis_en": "This is a training-status post, not a model launch. Parameter count and stack claims come only from Musk until xAI publishes a model card.",
-      "analysis_zh": "這是訓練進度貼文，不是模型上市。參數與堆疊說法目前只有 Musk 本人，需等 xAI 公布模型卡。",
+      "analysis_zh": "這是訓練進度貼文，不是模型上市。參數規模與堆疊主張在 xAI 發布模型卡前，僅來自 Musk。",
       "quote": "Grok 4.8, which is a 2.5T model trained with our new C++ software stack, will finish training this week and start RL",
-      "quote_zh": "Grok 4.8，以我們新的 C++ 軟體堆疊訓練的 2.5T 模型，將於本週完成訓練並開始強化學習",
+      "quote_zh": "Grok 4.8，一個以我們新 C++ 軟體堆疊訓練的 2.5T 模型，將於本週結束訓練並開始強化學習",
       "importance": 3,
       "first_seen": "2026-09-14T01:24:12Z",
-      "updated_at": "2026-09-14T04:35:01.633368+00:00",
+      "updated_at": "2026-09-14T10:35:01.521500+00:00",
       "links": [
         {
           "label": "Elon Musk on X",
           "url": "https://x.com/elonmusk/status/2099308197802631191"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-nadella-human-control-2026-09-13",
+      "story_id": "microsoft-nadella-human-control-2026-09-13",
+      "category": "frontier_other",
+      "source_type": "official_x",
+      "title_en": "Nadella: superintelligence not worth pursuing unless it helps humanity and stays under human control",
+      "title_zh": "Nadella：若不能助益人類且受人類控制，超智慧不值得追求",
+      "summary_en": "Microsoft CEO Satya Nadella posted that any pursuit of superintelligence must stay grounded in human benefit and human control, and that benefits should be diffused across countries and companies via both closed and open-source models. He compared pacing to pre-release testing and said more third-party testers are a good thing. Coverage also says Microsoft will publish a Code of Conduct for first-party MAI models for public consultation.",
+      "summary_zh": "微軟執行長 Satya Nadella 發文稱，任何超智慧追求都必須立足於助益人類與受人類控制，且效益應經封閉與開源模型擴散到各國與各公司。他將「節奏」比作發布前測試，並稱增加第三方測試者是好事。報導並指微軟將為第一方 MAI 模型公布行為準則供公眾諮詢。",
+      "analysis_en": "Microsoft is aligning rhetorically with Amodei and Altman while shipping Grok inside Copilot. A Code of Conduct is a process promise until the text and any enforcement hooks are public.",
+      "analysis_zh": "微軟在修辭上向 Amodei 與 Altman 靠攏，同時把 Grok 送進 Copilot。行為準則在全文與任何執行機制公開前，仍只是流程承諾。",
+      "quote": "Any pursuit of superintelligence has to be grounded in the core principle that if the AI we build is not helping humanity and under human control, it's not worth pursuing.",
+      "quote_zh": "任何超智慧追求都必須立足於一項核心原則：若我們打造的 AI 不能助益人類且不受人類控制，就不值得追求。",
+      "importance": 3,
+      "first_seen": "2026-09-13T16:00:00Z",
+      "updated_at": "2026-09-14T10:35:01.521500+00:00",
+      "links": [
+        {
+          "label": "Satya Nadella on X",
+          "url": "https://x.com/satyanadella"
         }
       ]
     },
@@ -270,16 +321,16 @@
       "category": "frontier_other",
       "source_type": "news",
       "title_en": "King Charles to convene Nvidia, Google DeepMind, OpenAI and Anthropic leaders in Scotland",
-      "title_zh": "查理斯國王將在蘇格蘭會晤 Nvidia、DeepMind、OpenAI 與 Anthropic 領導人",
-      "summary_en": "Buckingham Palace said King Charles III will meet leaders from Nvidia, Google, DeepMind, OpenAI and Anthropic at Dumfries House in Ayrshire to discuss developing and deploying AI in ways that benefit society. The New York Times placed the convening against the weekend ‘pace the frontier’ essays.",
-      "summary_zh": "白金漢宮表示，查理斯三世將在艾爾郡 Dumfries House 會見 Nvidia、Google、DeepMind、OpenAI 與 Anthropic 領導人，討論如何以有益社會的方式發展與部署 AI。《紐約時報》將此聚會放在週末「放慢前沿」論述的脈絡中。",
+      "title_zh": "查理斯國王將在蘇格蘭召集輝達、Google DeepMind、OpenAI 與 Anthropic 領導人",
+      "summary_en": "Buckingham Palace said King Charles III will meet leaders from Nvidia, Google, DeepMind, OpenAI and Anthropic at Dumfries House in Ayrshire to discuss developing and deploying AI in ways that benefit society. The New York Times placed the convening amid lab calls to slow capability growth.",
+      "summary_zh": "白金漢宮表示，查理斯三世將在艾爾郡 Dumfries House 會見輝達、Google、DeepMind、OpenAI 與 Anthropic 領導人，討論如何以有益社會的方式開發與部署 AI。《紐約時報》將此次召集放在實驗室呼籲放慢能力增速的背景下。",
       "analysis_en": "This is a convening, not a lab product or treaty. Its value depends on whether attendees leave with shared principles or only photo-ops.",
-      "analysis_zh": "這是召集，不是實驗室產品或條約。價值取決於會後有無共同原則，還是僅有合影。",
+      "analysis_zh": "這是一場召集，不是實驗室產品或條約。價值取決於與會者帶走的是共同原則，還是僅有合影。",
       "quote": "to discuss how A.I. can be developed and deployed in ways that benefit society",
       "quote_zh": "討論如何以有益社會的方式發展與部署人工智慧",
       "importance": 3,
       "first_seen": "2026-09-13T20:23:00Z",
-      "updated_at": "2026-09-14T04:35:01.633368+00:00",
+      "updated_at": "2026-09-14T10:35:01.521500+00:00",
       "links": [
         {
           "label": "The New York Times",
@@ -298,16 +349,20 @@
       "source_type": "official_blog",
       "title_en": "DeepSeek begins routing V4-Pro API traffic to V4.1-Flash",
       "title_zh": "DeepSeek 開始將 V4-Pro API 流量導向 V4.1-Flash",
-      "summary_en": "DeepSeek’s official announcement says that from 04:00 UTC on 14 September 2026, requests to deepseek-v4-pro route to DeepSeek-V4.1-Flash at Flash rates until V4.1-Pro launches. V4.1-Flash is the 552B-parameter multimodal MoE released on 10 September.",
-      "summary_zh": "DeepSeek 官方公告稱，自 2026 年 9 月 14 日 04:00 UTC 起，對 deepseek-v4-pro 的請求將導向 DeepSeek-V4.1-Flash，並按 Flash 價格計費，直至 V4.1-Pro 上線。V4.1-Flash 是 9 月 10 日發布的 5520 億參數多模態 MoE。",
-      "analysis_en": "The in-window event is a production routing and pricing cutover, not a new paper today. Customers still on the Pro alias should expect Flash behavior and Flash bills unless DeepSeek later reverses the footnote.",
-      "analysis_zh": "視窗內事件是生產路由與價格切換，不是今日新論文。仍走 Pro 別名的客戶應預期 Flash 行為與 Flash 帳單，除非官方之後改口。",
+      "summary_en": "DeepSeek’s official announcement says that from 04:00 UTC on 14 September 2026, requests to deepseek-v4-pro route to DeepSeek-V4.1-Flash at Flash rates until V4.1-Pro launches. V4.1-Flash is the 552B-parameter multimodal MoE released on 10 September; legacy V4-Flash aliases already route to it.",
+      "summary_zh": "DeepSeek 官方公告稱，自 2026 年 9 月 14 日 04:00 UTC 起，對 deepseek-v4-pro 的請求將以 Flash 費率路由至 DeepSeek-V4.1-Flash，直至 V4.1-Pro 上線。V4.1-Flash 為 9 月 10 日發布的 5520 億參數多模態 MoE；舊版 V4-Flash 別名已導向該模型。",
+      "analysis_en": "The in-window event is a production routing and pricing cutover, not a new paper today. Customers still on the Pro alias should expect Flash behavior and Flash bills unless DeepSeek ships V4.1-Pro.",
+      "analysis_zh": "窗口內事件是生產路由與計費切換，不是今日新論文。仍使用 Pro 別名的客戶應預期 Flash 行為與 Flash 帳單，除非 DeepSeek 推出 V4.1-Pro。",
       "quote": "Starting at 04:00 UTC on Sept 14, 2026, all deepseek-v4-pro requests will route to V4.1-Flash at V4.1-Flash rates. This will continue until V4.1-Pro launches.",
-      "quote_zh": "自 2026 年 9 月 14 日 04:00 UTC 起，所有 deepseek-v4-pro 請求將導向 V4.1-Flash，並按 V4.1-Flash 費率計費，直至 V4.1-Pro 上線。",
+      "quote_zh": "自 2026 年 9 月 14 日 04:00 UTC 起，所有 deepseek-v4-pro 請求將以 V4.1-Flash 費率路由至 V4.1-Flash，直至 V4.1-Pro 上線。",
       "importance": 3,
       "first_seen": "2026-09-10T12:00:00Z",
-      "updated_at": "2026-09-14T04:35:01.633368+00:00",
+      "updated_at": "2026-09-14T10:35:01.521500+00:00",
       "links": [
+        {
+          "label": "DeepSeek API Docs",
+          "url": "https://api-docs.deepseek.com/news/news260910"
+        },
         {
           "label": "DeepSeek official news",
           "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/"
@@ -321,10 +376,6 @@
           "url": "https://www.reuters.com/world/asia-pacific/chinas-deepseek-launches-v41-flash-model-2026-09-10/"
         },
         {
-          "label": "DeepSeek API docs",
-          "url": "https://api-docs.deepseek.com/news/news260910"
-        },
-        {
           "label": "Hugging Face model card",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
         }
@@ -334,19 +385,23 @@
       "id": "metr-benton-engels-moves-2026-09-12",
       "story_id": "metr-benton-engels-moves-2026-09-12",
       "category": "frontier_other",
-      "source_type": "news",
+      "source_type": "mixed",
       "title_en": "Safety researchers from Anthropic and DeepMind join METR",
-      "title_zh": "Anthropic 與 DeepMind 安全研究員加入 METR",
-      "summary_en": "Joe Benton, who said he left Anthropic’s safety team, announced he is joining independent evaluator METR and argued companies are racing toward systems smarter than any human. Coverage also says Josh Engels moved from Google DeepMind to METR.",
-      "summary_zh": "自稱已離開 Anthropic 安全團隊的 Joe Benton 宣布加入獨立評估機構 METR，並稱公司正競相打造比任何人類更聰明的系統。報導亦指 Josh Engels 從 Google DeepMind 轉至 METR。",
+      "title_zh": "來自 Anthropic 與 DeepMind 的安全研究者加入 METR",
+      "summary_en": "Joe Benton, who said he left Anthropic’s safety team, announced he is joining independent evaluator METR and argued companies are racing toward systems smarter than any human. Coverage also says Josh Engels moved from Google DeepMind to METR, warning of a chance of severe harm within five years if alignment lags recursive self-improvement.",
+      "summary_zh": "Joe Benton 表示已離開 Anthropic 安全團隊，宣布加入獨立評估機構 METR，並主張公司正競相打造強過任何人的系統。報導亦稱 Josh Engels 自 Google DeepMind 轉至 METR，警告若對齊趕不上遞迴自我改進，五年內有造成嚴重傷害的可能。",
       "analysis_en": "Talent flowing into the evaluator named in the pacing plan is a structural signal, but METR’s forthcoming access rights at each lab are not yet public contracts.",
-      "analysis_zh": "人才流入「放慢計畫」點名的評估機構是結構訊號，但 METR 在各實驗室的未來權限尚未成公開合約。",
+      "analysis_zh": "人才流入「節奏計畫」點名的評估機構是結構訊號，但 METR 在各實驗室即將取得的權限尚未成為公開合約。",
       "quote": "",
       "quote_zh": "",
       "importance": 3,
       "first_seen": "2026-09-12T00:00:00Z",
-      "updated_at": "2026-09-14T04:35:01.633368+00:00",
+      "updated_at": "2026-09-14T10:35:01.521500+00:00",
       "links": [
+        {
+          "label": "Joe Benton Substack",
+          "url": "https://jbenton1.substack.com/p/why-i-left-anthropics-safety-team"
+        },
         {
           "label": "VentureBeat (Amodei / evaluator context)",
           "url": "https://venturebeat.com/security/anthropic-ceo-says-ai-swarm-could-take-over-the-entire-internet-in-6-12-months-commits-to-ai-slowdown-plan"
@@ -369,21 +424,25 @@
         "story_id": "openai-altman-evaluators-ipo-2026-09-12",
         "category": "openai",
         "source_type": "official_x",
-        "title_en": "Altman: OpenAI writes safety cases before frontier RL; still matching embedded evaluators; no 2026 IPO",
-        "title_zh": "Altman：OpenAI 在前沿 RL 前寫安全論證；仍承諾嵌入式評估者；2026 年不 IPO",
-        "summary_en": "On 14 September UTC, Sam Altman posted that OpenAI now writes explicit safety cases before frontier reinforcement-learning runs expected to lift capability, and that “pacing” means slower-than-possible progress, not a halt. He welcomed a US federal framework but said labs need not wait for antitrust relief to start shared standards. The post extends his 12 September reply that OpenAI will give independent evaluators employee-like access, plus earlier Fortune remarks that a 2026 IPO would be ill-advised.",
-        "summary_zh": "9 月 14 日 UTC，Sam Altman 發文稱 OpenAI 現在會在預期大幅拉升能力的前沿強化學習前撰寫明確安全論證，「pace」是指比原本更慢、而非停訓。他歡迎美國聯邦框架，但認為實驗室不必等反壟斷豁免才開始共享標準。此文延續 12 日「將給獨立評估者接近員工級權限」的回覆，以及稍早 Fortune 訪問中 2026 年 IPO「時機不宜」的說法。",
-        "analysis_en": "The new operational claim is pre-RL safety cases, not only post-training evals. Access terms, publication rights, and whether other labs adopt the same pre-training gate remain unpublished.",
-        "analysis_zh": "新的可核對主張是「訓練前安全論證」，而不只是上線前評測。評估者權限條款、公開權，以及其他實驗室是否採用同樣的預訓練門檻，仍未公開。",
+        "title_en": "Altman: OpenAI writes safety cases before frontier RL; pacing is slower progress, not a halt",
+        "title_zh": "Altman：OpenAI 在前沿強化學習前先寫安全論證；「節奏」是放慢而非停訓",
+        "summary_en": "On 14 September UTC Sam Altman posted that OpenAI now writes explicit safety cases before frontier reinforcement-learning runs expected to lift capability, on top of pre-release safety work. He welcomed a US federal framework and independent auditors but said labs need not wait for an antitrust exemption. Pacing, he wrote, means progress that is slower than it otherwise could be. He had already said on 12 September that OpenAI will match embedded independent evaluators and that a 2026 IPO would be ill-advised.",
+        "summary_zh": "9 月 14 日 UTC，Sam Altman 發文稱 OpenAI 現在會在預期顯著拉高能力的前沿強化學習前先寫明確安全論證，並延續發布前的安全工作。他歡迎美國聯邦框架與獨立審計，但認為不必等反托拉斯豁免才動手。他所說的「節奏」是比原本更慢的推進。他已於 12 日表示將比照嵌入式獨立評估者，且 2026 年 IPO 不智。",
+        "analysis_en": "The new operational claim is a pre-RL safety case, not only post-training evals. Access terms, publication rights, and whether other labs adopt the same pre-training gate remain unpublished.",
+        "analysis_zh": "新增的作業主張是「強化學習前」的安全論證，而不只是訓練後評估。評估者權限、公開權利，以及其他實驗室是否採用同一道訓練前門檻，仍未公開。",
         "quote": "When we talk about “pacing”, we do not mean “stopping”. Progress has been rapid and will continue to be. But it should be slower than it otherwise could be.",
-        "quote_zh": "我們說的「節奏」不是「停止」。進展一直很快、也會繼續快。但它應該比原本可以達到的速度更慢。",
+        "quote_zh": "我們說的「節奏」不是「停下來」。進展一直很快，也會繼續快。但應該比原本能達到的速度更慢。",
         "importance": 5,
         "first_seen": "2026-09-12T16:30:45Z",
-        "updated_at": "2026-09-14T04:35:01.633368+00:00",
+        "updated_at": "2026-09-14T10:35:01.521500+00:00",
         "links": [
           {
             "label": "Sam Altman on X",
             "url": "https://x.com/sama/status/2099348812305473766"
+          },
+          {
+            "label": "Sam Altman on X (12 Sep evaluators)",
+            "url": "https://x.com/sama/status/2098811563415150910"
           },
           {
             "label": "Sam Altman follow-up on X",
@@ -398,10 +457,6 @@
             "url": "https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development"
           },
           {
-            "label": "Sam Altman on X",
-            "url": "https://x.com/sama/status/2098811563415150910"
-          },
-          {
             "label": "Quartz on Fortune interview",
             "url": "https://qz.com/sam-altman-openai-ipo-delay-safety-2026-091226"
           }
@@ -413,16 +468,16 @@
         "category": "openai",
         "source_type": "news",
         "title_en": "Bloomberg: SoftBank closes $11.87B two-year loan to fund OpenAI stake",
-        "title_zh": "彭博：軟銀敲定 118.7 億美元兩年期貸款，為 OpenAI 持股募資",
-        "summary_en": "Bloomberg reported that SoftBank Group secured an $11.87 billion two-year facility from about 20 banks to support its OpenAI investment, above a prior $10 billion target. SoftBank declined to comment. Coverage notes it plans to repay $25.9 billion remaining on an earlier $40 billion OpenAI-related bridge on 15 September, and still aims to put about $65 billion into OpenAI by October.",
-        "summary_zh": "彭博報導，軟銀集團向約 20 家銀行取得 118.7 億美元兩年期融資，用於支援其 OpenAI 投資，高於原先 100 億美元目標。軟銀拒評。報導並指出公司計畫於 9 月 15 日償還稍早 400 億美元過橋貸款餘額 259 億美元，仍擬在 10 月前向 OpenAI 投入約 650 億美元。",
-        "analysis_en": "The story is SoftBank’s funding path into OpenAI, not a new OpenAI product. It sits beside Altman’s ‘no 2026 IPO’ and ‘pace the frontier’ comments, so capital intensity and safety rhetoric are moving in parallel.",
-        "analysis_zh": "這是軟銀進入 OpenAI 的資金路徑，不是 OpenAI 新品。它與 Altman「2026 不 IPO」和「放慢前沿」並列，資本密集與安全修辭同時升高。",
+        "title_zh": "彭博：軟銀敲定 118.7 億美元兩年期貸款以資助 OpenAI 持股",
+        "summary_en": "Bloomberg reported that SoftBank Group secured an $11.87 billion two-year facility from about 20 banks to support its OpenAI investment, above a prior $10 billion target. SoftBank declined to comment. Coverage notes it plans to repay $25.9 billion on 15 September from an earlier $40 billion loan tied to the same stake.",
+        "summary_zh": "彭博報導，軟銀集團向約 20 家銀行取得 118.7 億美元兩年期融資，以支持其 OpenAI 投資，高於先前 100 億美元目標。軟銀拒評。報導並指其計畫於 9 月 15 日償還先前與同一持股相關的 400 億美元貸款中尚欠的 259 億美元。",
+        "analysis_en": "The story is SoftBank’s funding path into OpenAI, not a new OpenAI product. It sits beside Altman’s ‘no 2026 IPO’ and ‘pace the frontier’ comments, so capital intensity and safety rhetoric now run in parallel.",
+        "analysis_zh": "這是軟銀進入 OpenAI 的資金路徑，不是 OpenAI 新產品。它與 Altman「2026 不 IPO」與「放慢前沿」並列，資本密集與安全修辭同步出現。",
         "quote": "SoftBank Group Corp. secured an $11.87 billion loan to support its investment in US artificial intelligence firm OpenAI, people familiar with the matter said, up from its earlier target of $10 billion.",
         "quote_zh": "知情人士表示，軟銀集團取得 118.7 億美元貸款，以支援其對美國 AI 公司 OpenAI 的投資，高於稍早 100 億美元目標。",
         "importance": 4,
         "first_seen": "2026-09-14T01:42:00Z",
-        "updated_at": "2026-09-14T04:35:01.633368+00:00",
+        "updated_at": "2026-09-14T10:35:01.521500+00:00",
         "links": [
           {
             "label": "Bloomberg",
@@ -442,17 +497,25 @@
         "category": "anthropic",
         "source_type": "official_x",
         "title_en": "Amodei publishes ‘We Must Pace the Frontier’; Anthropic commits to embedded evaluators",
-        "title_zh": "Amodei 發表〈必須放慢前沿〉；Anthropic 承諾常駐獨立評估者",
-        "summary_en": "Anthropic CEO Dario Amodei published an essay arguing labs should slow the rate of capability gains so safety work can keep up, while saying this is not a halt to training. Anthropic unilaterally committed to step one: permanent, employee-like access for independent evaluators inside the company.",
-        "summary_zh": "Anthropic CEO Dario Amodei 發表專文，主張實驗室應放慢能力躍升速度，好讓安全工作跟上，並強調這不是停止訓練。Anthropic 單方面承諾第一步：讓獨立評估者獲得常設、接近員工級的內部權限。",
-        "analysis_en": "The concrete change is verifiability inside Anthropic, not a published training freeze. Whether other labs accept the same access terms, publication rights, and any coordinated pace is still open.",
-        "analysis_zh": "具體改變是 Anthropic 內部的可驗證性，而非已公布的訓練凍結。其他實驗室是否接受同等權限、公開權與任何協調節奏，仍未定。",
-        "quote": "We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan for doing so. Anthropic is unilaterally committing to the first of these steps.",
-        "quote_zh": "我們必須放慢前沿：我寫了一篇新文，說明為何 AI 產業應該減速，以及三步計畫。Anthropic 單方面承諾執行第一步。",
+        "title_zh": "Amodei 發表〈我們必須放慢前沿〉；Anthropic 承諾嵌入式評估者",
+        "summary_en": "Anthropic CEO Dario Amodei published an essay arguing labs should slow the rate of capability gains so safety work can keep up, while saying this is not a halt to training. Anthropic unilaterally committed to step one: permanent, employee-level access for third-party evaluators to verify safety measures, report incidents, and assess alignment during training.",
+        "summary_zh": "Anthropic 執行長 Dario Amodei 發表長文，主張實驗室應放慢能力增速好讓安全工作跟上，並強調這不是停止訓練。Anthropic 單方面承諾第一步：讓第三方評估者永久取得等同員工的系統權限，以核對安全措施、通報事件，並在訓練期間評估對齊。",
+        "analysis_en": "The concrete change is verifiability inside Anthropic, not a published training freeze. Whether other labs accept the same access terms, publication rights, and any coordinated pace remains open.",
+        "analysis_zh": "具體改變是 Anthropic 內部的可驗證性，而非已公布的訓練凍結。其他實驗室是否接受同等權限、公開權利與任何協調節奏，仍未定。",
+        "quote": "Anthropic is unilaterally committing to the first of these steps. We’ll provide third-party evaluators with permanent, employee-level access to our systems.",
+        "quote_zh": "Anthropic 單方面承諾第一步：我們將向第三方評估者提供永久、等同員工層級的系統存取權。",
         "importance": 5,
         "first_seen": "2026-09-12T14:01:10Z",
-        "updated_at": "2026-09-14T04:35:01.633368+00:00",
+        "updated_at": "2026-09-14T10:35:01.521500+00:00",
         "links": [
+          {
+            "label": "Dario Amodei on X",
+            "url": "https://x.com/DarioAmodei/status/2098770000000000000"
+          },
+          {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI"
+          },
           {
             "label": "Dario Amodei essay / X announcement coverage",
             "url": "https://venturebeat.com/security/anthropic-ceo-says-ai-swarm-could-take-over-the-entire-internet-in-6-12-months-commits-to-ai-slowdown-plan"
@@ -485,16 +548,16 @@
         "category": "anthropic",
         "source_type": "news",
         "title_en": "FT: Anthropic tells investors it will be profitable for a second straight quarter",
-        "title_zh": "FT：Anthropic 向投資人表示將連續第二季獲利",
-        "summary_en": "The Financial Times reported on 13 September that Anthropic told a small group of shareholders its adjusted operating income will be positive for a second consecutive quarter. The paper said Q2 revenue reached $11.5 billion (about 14× a year earlier) and that gross margins exceed 80% before partner revenue share and training costs. Reuters relayed the FT account; Anthropic did not immediately comment.",
-        "summary_zh": "《金融時報》9 月 13 日報導，Anthropic 向一小群股東表示，調整後營業利益將連續第二季為正。該報稱第二季營收達 115 億美元（約為一年前的 14 倍），毛利率在扣除通路分成與訓練成本前超過 80%。路透轉述 FT；Anthropic 未立即回應。",
-        "analysis_en": "This is investor messaging ahead of a possible listing, not audited GAAP results. Adjusted operating profit excludes stock-based pay and still sits beside very large training and partner-share costs.",
-        "analysis_zh": "這是上市前的投資人溝通，不是經審計的 GAAP 財報。調整後營業利益排除股票薪酬，且訓練成本與通路分成仍很大。",
+        "title_zh": "金融時報：Anthropic 向投資人表示將連續第二季獲利",
+        "summary_en": "The Financial Times reported on 13 September that Anthropic told a small group of shareholders its adjusted operating income will be positive for a second consecutive quarter. The paper said Q2 revenue reached $11.5 billion (about 14× a year earlier) and that annualised revenue was $65 billion at the end of July. The adjusted measure excludes stock-based compensation.",
+        "summary_zh": "《金融時報》9 月 13 日報導，Anthropic 向一小群股東表示，調整後營業利益將連續第二季轉正。該報稱第二季營收達 115 億美元（約為一年前的 14 倍），7 月底年化營收 650 億美元。該調整指標不含股票薪酬。",
+        "analysis_en": "This is investor messaging ahead of a possible listing, not audited GAAP results. Adjusted operating profit still sits beside very large training and compute commitments.",
+        "analysis_zh": "這是可能上市前的投資人溝通，不是經審計的 GAAP 財報。調整後營業利益仍與龐大訓練與算力承諾並存。",
         "quote": "Anthropic has told its backers it will be profitable this quarter, as it moves to allay investor concerns about the aggressive cash burn of frontier AI companies ahead of its blockbuster initial public offering.",
         "quote_zh": "Anthropic 已告知金主本季將獲利，試圖在大型 IPO 前緩解投資人對前沿 AI 公司燒錢速度的疑慮。",
         "importance": 4,
         "first_seen": "2026-09-13T22:00:00Z",
-        "updated_at": "2026-09-14T04:35:01.633368+00:00",
+        "updated_at": "2026-09-14T10:35:01.521500+00:00",
         "links": [
           {
             "label": "Financial Times",
@@ -514,19 +577,23 @@
         "id": "xai-grok-microsoft-copilot-2026-09-12",
         "story_id": "xai-grok-microsoft-copilot-2026-09-12",
         "category": "xai",
-        "source_type": "mixed",
+        "source_type": "official_x",
         "title_en": "Grok models become selectable inside Microsoft Copilot",
         "title_zh": "Grok 模型可在 Microsoft Copilot 中選用",
-        "summary_en": "Microsoft CEO Satya Nadella said more model choice is coming to Copilot and welcomed Grok; Elon Musk posted that Grok is available in Microsoft Copilot. Reporting describes a Frontier-program rollout across Word, Excel and PowerPoint that is admin-gated in places.",
-        "summary_zh": "微軟 CEO Satya Nadella 表示 Copilot 將有更多模型選擇並歡迎 Grok；Elon Musk 發文稱 Grok 已可在 Microsoft Copilot 使用。報導描述這是面向 Word、Excel、PowerPoint 的 Frontier 方案，部分需管理員開啟。",
+        "summary_en": "Microsoft CEO Satya Nadella said more model choice is coming to Copilot and welcomed Grok; Microsoft 365 said Grok models from SpaceXAI are rolling out in Copilot in Word, Excel and PowerPoint, starting with a focused Microsoft Frontier-program release. Elon Musk separately posted that Grok is available in Microsoft Copilot.",
+        "summary_zh": "微軟執行長 Satya Nadella 表示 Copilot 將有更多模型選擇並歡迎 Grok；Microsoft 365 稱 SpaceXAI 的 Grok 模型正於 Word、Excel、PowerPoint 的 Copilot 推出，先從 Frontier 計畫客戶開始。Elon Musk 另發文稱 Grok 已可在 Microsoft Copilot 使用。",
         "analysis_en": "Copilot widens xAI’s enterprise distribution through Microsoft’s work surface, but admin opt-in and regional carve-outs limit immediate scale.",
-        "analysis_zh": "Copilot 讓 xAI 經微軟工作介面擴大企業通路，但管理員開關與地區限制會壓低即時規模。",
-        "quote": "Watch a company being built live with @Grok @Bot!",
-        "quote_zh": "看一家公司用 Grok Bot 現場被打造出來！",
+        "analysis_zh": "Copilot 讓 xAI 經微軟工作介面擴大企業通路，但管理員選擇加入與區域限制仍壓抑即時規模。",
+        "quote": "More model choice coming to Copilot. Welcome Grok!",
+        "quote_zh": "Copilot 將有更多模型選擇。歡迎 Grok！",
         "importance": 4,
         "first_seen": "2026-09-12T15:26:40Z",
-        "updated_at": "2026-09-14T04:35:01.633368+00:00",
+        "updated_at": "2026-09-14T10:35:01.521500+00:00",
         "links": [
+          {
+            "label": "Satya Nadella on X",
+            "url": "https://x.com/satyanadella"
+          },
           {
             "label": "xAI Build",
             "url": "https://x.ai/build"
@@ -555,16 +622,16 @@
         "category": "xai",
         "source_type": "official_x",
         "title_en": "Musk: Grok 4.8, a 2.5T model on a new C++ stack, finishes training this week",
-        "title_zh": "Musk：Grok 4.8（2.5T、新 C++ 堆疊）本週完成訓練",
-        "summary_en": "Elon Musk posted on 14 September that “Grok 4.8, which is a 2.5T model trained with our new C++ software stack, will finish training this week and start RL.” Grok 4.7 has not appeared on xAI’s official model pages. Separately he promoted a three-day Grok Bot Galaxy livestream starting 15 September.",
-        "summary_zh": "Elon Musk 於 9 月 14 日發文：「Grok 4.8，以新 C++ 軟體堆疊訓練的 2.5T 模型，將於本週完成訓練並開始 RL。」Grok 4.7 尚未出現在 xAI 官方模型頁。他另宣傳 9 月 15 日起為期三天的 Grok Bot Galaxy 直播。",
+        "title_zh": "Musk：2.5T、採新 C++ 堆疊的 Grok 4.8 本週結束預訓練",
+        "summary_en": "Elon Musk posted on 14 September that “Grok 4.8, which is a 2.5T model trained with our new C++ software stack, will finish training this week and start RL.” Grok 4.7 has not appeared on xAI’s official model pages. Separately he promoted Grok Build.",
+        "summary_zh": "Elon Musk 於 9 月 14 日發文：「Grok 4.8，一個以我們新 C++ 軟體堆疊訓練的 2.5T 模型，將於本週結束訓練並開始強化學習。」Grok 4.7 尚未出現在 xAI 官方模型頁。他另推廣 Grok Build。",
         "analysis_en": "This is a training-status post, not a model launch. Parameter count and stack claims come only from Musk until xAI publishes a model card.",
-        "analysis_zh": "這是訓練進度貼文，不是模型上市。參數與堆疊說法目前只有 Musk 本人，需等 xAI 公布模型卡。",
+        "analysis_zh": "這是訓練進度貼文，不是模型上市。參數規模與堆疊主張在 xAI 發布模型卡前，僅來自 Musk。",
         "quote": "Grok 4.8, which is a 2.5T model trained with our new C++ software stack, will finish training this week and start RL",
-        "quote_zh": "Grok 4.8，以我們新的 C++ 軟體堆疊訓練的 2.5T 模型，將於本週完成訓練並開始強化學習",
+        "quote_zh": "Grok 4.8，一個以我們新 C++ 軟體堆疊訓練的 2.5T 模型，將於本週結束訓練並開始強化學習",
         "importance": 3,
         "first_seen": "2026-09-14T01:24:12Z",
-        "updated_at": "2026-09-14T04:35:01.633368+00:00",
+        "updated_at": "2026-09-14T10:35:01.521500+00:00",
         "links": [
           {
             "label": "Elon Musk on X",
@@ -578,19 +645,27 @@
         "id": "labs-ai-standards-body-2026-09-13",
         "story_id": "labs-ai-standards-body-2026-09-13",
         "category": "frontier_other",
-        "source_type": "news",
+        "source_type": "mixed",
         "title_en": "The Information: OpenAI, Anthropic and Google have met since July on an industry standards body",
         "title_zh": "The Information：OpenAI、Anthropic 與 Google 自 7 月起開會討論產業標準機構",
-        "summary_en": "The Information reported that Anthropic, OpenAI and Google have held working-group meetings since July on an industry-led body for testing and auditing frontier AI, predating Amodei’s Saturday essay. Demis Hassabis has separately argued for a FINRA-style body; Altman has argued labs can start without waiting for statute.",
-        "summary_zh": "The Information 報導，Anthropic、OpenAI 與 Google 自 7 月起就產業主導的前沿 AI 測試與審計機構舉行工作會議，早於 Amodei 週六專文。Hassabis 另主張類 FINRA 機構；Altman 則稱實驗室不必等立法就能先做。",
-        "analysis_en": "Talks since July explain why weekend rhetoric aligned quickly; they do not yet equal a charter, membership list, or enforcement power.",
-        "analysis_zh": "7 月以來的會談解釋週末口徑為何迅速對齊；這仍不等於章程、成員名單或執行力。",
-        "quote": "Dario's essay points towards the right path forward. The details need working through, but the direction is correct for meeting this critical moment. This is also why we recently put out our proposal for an industry-wide standards body for frontier AI.",
-        "quote_zh": "Dario 的文章指向正確方向。細節仍待敲定，但方向符合此刻的緊要性。這也是我們近日提出產業級前沿 AI 標準機構方案的原因。",
+        "summary_en": "The Information reported that Anthropic, OpenAI and Google have held working-group meetings since July on an industry-led body for testing and auditing frontier AI, predating Amodei’s Saturday essay. Demis Hassabis has separately argued for an industry-level standards organisation. Cohere CEO Aidan Gomez published a 13 September essay calling the coordination “a cartel by any other name” and warning that antitrust waivers could lock out smaller labs.",
+        "summary_zh": "The Information 報導，Anthropic、OpenAI 與 Google 自 7 月起召開工作小組會議，討論由產業主導的前沿 AI 測試與審計機構，時間早於 Amodei 週六長文。Hassabis 另主張產業層級標準組織。Cohere 執行長 Aidan Gomez 於 13 日發文稱此協調「換個名字的卡特爾」，並警告反托拉斯豁免可能排擠較小實驗室。",
+        "analysis_en": "Talks since July explain why weekend rhetoric aligned quickly; they do not yet equal a charter, membership list, or enforcement power. Gomez’s critique is the first high-profile smaller-lab pushback in the window.",
+        "analysis_zh": "自 7 月起的會談解釋了週末修辭為何迅速對齊；這仍不等於章程、成員名單或執行力。Gomez 的批評是本窗口內較小實驗室的首個高調反彈。",
+        "quote": "A wolf in sheep’s clothing, a cartel by any other name.",
+        "quote_zh": "披著羊皮的狼，換個名字的卡特爾。",
         "importance": 4,
         "first_seen": "2026-09-13T19:16:00Z",
-        "updated_at": "2026-09-14T04:35:01.633368+00:00",
+        "updated_at": "2026-09-14T10:35:01.521500+00:00",
         "links": [
+          {
+            "label": "Cohere / Aidan Gomez essay",
+            "url": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai"
+          },
+          {
+            "label": "The Information (via secondary coverage)",
+            "url": "https://aiweekly.co/alerts/anthropic-openai-google-meet-since-july-on-ai-standards-body"
+          },
           {
             "label": "Techmeme / The Information",
             "url": "http://www.techmeme.com/260913/p12"
@@ -610,21 +685,44 @@
         ]
       },
       {
+        "id": "microsoft-nadella-human-control-2026-09-13",
+        "story_id": "microsoft-nadella-human-control-2026-09-13",
+        "category": "frontier_other",
+        "source_type": "official_x",
+        "title_en": "Nadella: superintelligence not worth pursuing unless it helps humanity and stays under human control",
+        "title_zh": "Nadella：若不能助益人類且受人類控制，超智慧不值得追求",
+        "summary_en": "Microsoft CEO Satya Nadella posted that any pursuit of superintelligence must stay grounded in human benefit and human control, and that benefits should be diffused across countries and companies via both closed and open-source models. He compared pacing to pre-release testing and said more third-party testers are a good thing. Coverage also says Microsoft will publish a Code of Conduct for first-party MAI models for public consultation.",
+        "summary_zh": "微軟執行長 Satya Nadella 發文稱，任何超智慧追求都必須立足於助益人類與受人類控制，且效益應經封閉與開源模型擴散到各國與各公司。他將「節奏」比作發布前測試，並稱增加第三方測試者是好事。報導並指微軟將為第一方 MAI 模型公布行為準則供公眾諮詢。",
+        "analysis_en": "Microsoft is aligning rhetorically with Amodei and Altman while shipping Grok inside Copilot. A Code of Conduct is a process promise until the text and any enforcement hooks are public.",
+        "analysis_zh": "微軟在修辭上向 Amodei 與 Altman 靠攏，同時把 Grok 送進 Copilot。行為準則在全文與任何執行機制公開前，仍只是流程承諾。",
+        "quote": "Any pursuit of superintelligence has to be grounded in the core principle that if the AI we build is not helping humanity and under human control, it's not worth pursuing.",
+        "quote_zh": "任何超智慧追求都必須立足於一項核心原則：若我們打造的 AI 不能助益人類且不受人類控制，就不值得追求。",
+        "importance": 3,
+        "first_seen": "2026-09-13T16:00:00Z",
+        "updated_at": "2026-09-14T10:35:01.521500+00:00",
+        "links": [
+          {
+            "label": "Satya Nadella on X",
+            "url": "https://x.com/satyanadella"
+          }
+        ]
+      },
+      {
         "id": "king-charles-ai-convening-2026-09-13",
         "story_id": "king-charles-ai-convening-2026-09-13",
         "category": "frontier_other",
         "source_type": "news",
         "title_en": "King Charles to convene Nvidia, Google DeepMind, OpenAI and Anthropic leaders in Scotland",
-        "title_zh": "查理斯國王將在蘇格蘭會晤 Nvidia、DeepMind、OpenAI 與 Anthropic 領導人",
-        "summary_en": "Buckingham Palace said King Charles III will meet leaders from Nvidia, Google, DeepMind, OpenAI and Anthropic at Dumfries House in Ayrshire to discuss developing and deploying AI in ways that benefit society. The New York Times placed the convening against the weekend ‘pace the frontier’ essays.",
-        "summary_zh": "白金漢宮表示，查理斯三世將在艾爾郡 Dumfries House 會見 Nvidia、Google、DeepMind、OpenAI 與 Anthropic 領導人，討論如何以有益社會的方式發展與部署 AI。《紐約時報》將此聚會放在週末「放慢前沿」論述的脈絡中。",
+        "title_zh": "查理斯國王將在蘇格蘭召集輝達、Google DeepMind、OpenAI 與 Anthropic 領導人",
+        "summary_en": "Buckingham Palace said King Charles III will meet leaders from Nvidia, Google, DeepMind, OpenAI and Anthropic at Dumfries House in Ayrshire to discuss developing and deploying AI in ways that benefit society. The New York Times placed the convening amid lab calls to slow capability growth.",
+        "summary_zh": "白金漢宮表示，查理斯三世將在艾爾郡 Dumfries House 會見輝達、Google、DeepMind、OpenAI 與 Anthropic 領導人，討論如何以有益社會的方式開發與部署 AI。《紐約時報》將此次召集放在實驗室呼籲放慢能力增速的背景下。",
         "analysis_en": "This is a convening, not a lab product or treaty. Its value depends on whether attendees leave with shared principles or only photo-ops.",
-        "analysis_zh": "這是召集，不是實驗室產品或條約。價值取決於會後有無共同原則，還是僅有合影。",
+        "analysis_zh": "這是一場召集，不是實驗室產品或條約。價值取決於與會者帶走的是共同原則，還是僅有合影。",
         "quote": "to discuss how A.I. can be developed and deployed in ways that benefit society",
         "quote_zh": "討論如何以有益社會的方式發展與部署人工智慧",
         "importance": 3,
         "first_seen": "2026-09-13T20:23:00Z",
-        "updated_at": "2026-09-14T04:35:01.633368+00:00",
+        "updated_at": "2026-09-14T10:35:01.521500+00:00",
         "links": [
           {
             "label": "The New York Times",
@@ -643,16 +741,20 @@
         "source_type": "official_blog",
         "title_en": "DeepSeek begins routing V4-Pro API traffic to V4.1-Flash",
         "title_zh": "DeepSeek 開始將 V4-Pro API 流量導向 V4.1-Flash",
-        "summary_en": "DeepSeek’s official announcement says that from 04:00 UTC on 14 September 2026, requests to deepseek-v4-pro route to DeepSeek-V4.1-Flash at Flash rates until V4.1-Pro launches. V4.1-Flash is the 552B-parameter multimodal MoE released on 10 September.",
-        "summary_zh": "DeepSeek 官方公告稱，自 2026 年 9 月 14 日 04:00 UTC 起，對 deepseek-v4-pro 的請求將導向 DeepSeek-V4.1-Flash，並按 Flash 價格計費，直至 V4.1-Pro 上線。V4.1-Flash 是 9 月 10 日發布的 5520 億參數多模態 MoE。",
-        "analysis_en": "The in-window event is a production routing and pricing cutover, not a new paper today. Customers still on the Pro alias should expect Flash behavior and Flash bills unless DeepSeek later reverses the footnote.",
-        "analysis_zh": "視窗內事件是生產路由與價格切換，不是今日新論文。仍走 Pro 別名的客戶應預期 Flash 行為與 Flash 帳單，除非官方之後改口。",
+        "summary_en": "DeepSeek’s official announcement says that from 04:00 UTC on 14 September 2026, requests to deepseek-v4-pro route to DeepSeek-V4.1-Flash at Flash rates until V4.1-Pro launches. V4.1-Flash is the 552B-parameter multimodal MoE released on 10 September; legacy V4-Flash aliases already route to it.",
+        "summary_zh": "DeepSeek 官方公告稱，自 2026 年 9 月 14 日 04:00 UTC 起，對 deepseek-v4-pro 的請求將以 Flash 費率路由至 DeepSeek-V4.1-Flash，直至 V4.1-Pro 上線。V4.1-Flash 為 9 月 10 日發布的 5520 億參數多模態 MoE；舊版 V4-Flash 別名已導向該模型。",
+        "analysis_en": "The in-window event is a production routing and pricing cutover, not a new paper today. Customers still on the Pro alias should expect Flash behavior and Flash bills unless DeepSeek ships V4.1-Pro.",
+        "analysis_zh": "窗口內事件是生產路由與計費切換，不是今日新論文。仍使用 Pro 別名的客戶應預期 Flash 行為與 Flash 帳單，除非 DeepSeek 推出 V4.1-Pro。",
         "quote": "Starting at 04:00 UTC on Sept 14, 2026, all deepseek-v4-pro requests will route to V4.1-Flash at V4.1-Flash rates. This will continue until V4.1-Pro launches.",
-        "quote_zh": "自 2026 年 9 月 14 日 04:00 UTC 起，所有 deepseek-v4-pro 請求將導向 V4.1-Flash，並按 V4.1-Flash 費率計費，直至 V4.1-Pro 上線。",
+        "quote_zh": "自 2026 年 9 月 14 日 04:00 UTC 起，所有 deepseek-v4-pro 請求將以 V4.1-Flash 費率路由至 V4.1-Flash，直至 V4.1-Pro 上線。",
         "importance": 3,
         "first_seen": "2026-09-10T12:00:00Z",
-        "updated_at": "2026-09-14T04:35:01.633368+00:00",
+        "updated_at": "2026-09-14T10:35:01.521500+00:00",
         "links": [
+          {
+            "label": "DeepSeek API Docs",
+            "url": "https://api-docs.deepseek.com/news/news260910"
+          },
           {
             "label": "DeepSeek official news",
             "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/"
@@ -666,10 +768,6 @@
             "url": "https://www.reuters.com/world/asia-pacific/chinas-deepseek-launches-v41-flash-model-2026-09-10/"
           },
           {
-            "label": "DeepSeek API docs",
-            "url": "https://api-docs.deepseek.com/news/news260910"
-          },
-          {
             "label": "Hugging Face model card",
             "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
           }
@@ -679,19 +777,23 @@
         "id": "metr-benton-engels-moves-2026-09-12",
         "story_id": "metr-benton-engels-moves-2026-09-12",
         "category": "frontier_other",
-        "source_type": "news",
+        "source_type": "mixed",
         "title_en": "Safety researchers from Anthropic and DeepMind join METR",
-        "title_zh": "Anthropic 與 DeepMind 安全研究員加入 METR",
-        "summary_en": "Joe Benton, who said he left Anthropic’s safety team, announced he is joining independent evaluator METR and argued companies are racing toward systems smarter than any human. Coverage also says Josh Engels moved from Google DeepMind to METR.",
-        "summary_zh": "自稱已離開 Anthropic 安全團隊的 Joe Benton 宣布加入獨立評估機構 METR，並稱公司正競相打造比任何人類更聰明的系統。報導亦指 Josh Engels 從 Google DeepMind 轉至 METR。",
+        "title_zh": "來自 Anthropic 與 DeepMind 的安全研究者加入 METR",
+        "summary_en": "Joe Benton, who said he left Anthropic’s safety team, announced he is joining independent evaluator METR and argued companies are racing toward systems smarter than any human. Coverage also says Josh Engels moved from Google DeepMind to METR, warning of a chance of severe harm within five years if alignment lags recursive self-improvement.",
+        "summary_zh": "Joe Benton 表示已離開 Anthropic 安全團隊，宣布加入獨立評估機構 METR，並主張公司正競相打造強過任何人的系統。報導亦稱 Josh Engels 自 Google DeepMind 轉至 METR，警告若對齊趕不上遞迴自我改進，五年內有造成嚴重傷害的可能。",
         "analysis_en": "Talent flowing into the evaluator named in the pacing plan is a structural signal, but METR’s forthcoming access rights at each lab are not yet public contracts.",
-        "analysis_zh": "人才流入「放慢計畫」點名的評估機構是結構訊號，但 METR 在各實驗室的未來權限尚未成公開合約。",
+        "analysis_zh": "人才流入「節奏計畫」點名的評估機構是結構訊號，但 METR 在各實驗室即將取得的權限尚未成為公開合約。",
         "quote": "",
         "quote_zh": "",
         "importance": 3,
         "first_seen": "2026-09-12T00:00:00Z",
-        "updated_at": "2026-09-14T04:35:01.633368+00:00",
+        "updated_at": "2026-09-14T10:35:01.521500+00:00",
         "links": [
+          {
+            "label": "Joe Benton Substack",
+            "url": "https://jbenton1.substack.com/p/why-i-left-anthropics-safety-team"
+          },
           {
             "label": "VentureBeat (Amodei / evaluator context)",
             "url": "https://venturebeat.com/security/anthropic-ceo-says-ai-swarm-could-take-over-the-entire-internet-in-6-12-months-commits-to-ai-slowdown-plan"
@@ -708,7 +810,7 @@
       }
     ]
   },
-  "brief_en": "Altman detailed OpenAI safety cases before frontier RL and restated evaluator access. SoftBank closed an $11.87B loan for its OpenAI stake. FT says Anthropic told investors of a second profitable quarter after $11.5B Q2 revenue. DeepSeek now routes V4-Pro to V4.1-Flash. Musk said Grok 4.8 (2.5T) finishes training this week.",
-  "brief_zh": "Altman 今早細述 OpenAI 在前沿 RL 前寫安全論證，並重申獨立評估者權限。軟銀為 OpenAI 持股敲定 118.7 億美元貸款。FT：Anthropic 向投資人預告連續第二季調整後營業獲利，Q2 營收 115 億美元。DeepSeek 今日起將 V4-Pro 導向 V4.1-Flash。Musk：Grok 4.8（2.5T）本週完成訓練。",
-  "updated_at": "2026-09-14T04:35:01.633368+00:00"
+  "brief_en": "Altman detailed pre-RL safety cases and said pacing is slower progress, not a halt; Amodei’s evaluator pledge still frames the week. SoftBank closed an $11.87B loan for its OpenAI stake. Musk said 2.5T Grok 4.8 finishes training this week. DeepSeek now routes V4-Pro API traffic to V4.1-Flash.",
+  "brief_zh": "Altman 補述前沿 RL 前須寫安全論證，並稱「節奏」是放慢而非停訓；Amodei 外部評估承諾仍是本週主軸。軟銀敲定 118.7 億美元貸款支撐 OpenAI 持股。Musk 稱 2.5T 的 Grok 4.8 本週結束預訓練。DeepSeek 已將 V4-Pro API 導向 V4.1-Flash。",
+  "updated_at": "2026-09-14T10:35:01.521500+00:00"
 }
