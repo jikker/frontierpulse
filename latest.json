@@ -16,9 +16,44 @@
       "item_count": 8,
       "updated_count": 5,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-09-15T04:35:02.042537+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 10,
+      "updated_count": 8,
+      "kept_count": 0
     }
   ],
   "items_flat": [
+    {
+      "id": "xai-musk-allin-peer-review-2026-09-15",
+      "story_id": "xai-musk-allin-peer-review-2026-09-15",
+      "category": "xai",
+      "source_type": "official_x",
+      "title_en": "Musk at All-In: labs should peer-review each other’s models before release",
+      "title_zh": "馬斯克在 All-In：大廠應在發布前互測對方模型",
+      "summary_en": "On the All-In Summit stage Musk said frontier labs should give one another pre-release test access and treat ignored findings as public and legal risk, analogizing to industry ratings. He said he meant “Dario is right” that danger is significant and rising, cited the Hugging Face agent-incident reporting, and separately boosted a Grok Bot recap of the interview.",
+      "summary_zh": "馬斯克在 All-In Summit 主張前沿實驗室應在發布前互相提供測試權限，忽視發現者面對輿論與法律風險，並以產業分級自律作比。他澄清「Dario is right」指危險確實上升，並提及 Hugging Face 代理事件報導；稍後轉發該訪談的 Grok Bot 摘要。",
+      "analysis_en": "This is a process proposal, not a signed inter-lab protocol. Whether OpenAI, Anthropic, Google or Chinese labs would accept competitor harnesses—and what IP or eval-gaming rules apply—remains unstated.",
+      "analysis_zh": "這是流程倡議，不是已簽署的跨實驗室協議。OpenAI、Anthropic、Google 或中國實驗室是否接受對手測試框架，以及智財與評測博弈規則，皆未說明。",
+      "quote": "Grok @Bot summary",
+      "quote_zh": "Grok @Bot 摘要",
+      "importance": 4,
+      "first_seen": "2026-09-15T04:20:33Z",
+      "updated_at": "2026-09-15T04:35:02.042537+00:00",
+      "links": [
+        {
+          "label": "Elon Musk on X",
+          "url": "https://x.com/elonmusk/status/2099714967113015716"
+        },
+        {
+          "label": "All-In Podcast (YouTube)",
+          "url": "https://www.youtube.com/watch?v=iwBOQeFPAwg"
+        }
+      ]
+    },
     {
       "id": "xai-musk-grok-47-49-roadmap-2026-09-14",
       "story_id": "xai-musk-grok-47-49-roadmap-2026-09-14",
@@ -26,16 +61,20 @@
       "source_type": "official_x",
       "title_en": "Musk: Grok 4.7 ≈ Opus 5.0; 4.8 finishes pretrain this week; AGI ‘will be Grok 5’",
       "title_zh": "馬斯克：Grok 4.7 約當 Opus 5.0；4.8 本週完成預訓練；AGI「會是 Grok 5」",
-      "summary_en": "Elon Musk said Grok 4.7 “should be roughly on par with Opus 5.0, not 5.1,” with multimodal still to fix, that 4.8 will be a noticeable improvement, and that 4.9 is “probably Astra/Fable class.” He separately described Grok 4.8 as a 2.5T model on a new C/C++ stack that finishes basic training this week, said that stack “was written by humans,” and when asked how close 4.8 would come to AGI replied “That will be Grok 5.” xAI has not published a 4.7 model card or API id.",
-      "summary_zh": "馬斯克稱 Grok 4.7「大致與 Opus 5.0 同級、不是 5.1」，多模態仍待修；4.8 會有明顯進步，4.9「大概是 Astra/Fable 級」。他另稱 4.8 為新 C/C++ 堆疊上的 2.5T 模型、本週完成基礎訓練，並說該堆疊「由人類撰寫」；被問 4.8 距 AGI 多近時回「那會是 Grok 5」。xAI 尚未公布 4.7 模型卡或 API 代號。",
-      "analysis_en": "This remains an executive roadmap, not a ship. Grading 4.7 below 5.1 and moving the AGI claim to Grok 5 lowers the near-term bar while leaving every date and model identifier unverified until xAI posts docs.",
-      "analysis_zh": "這仍是執行長路線圖、不是出貨。把 4.7 標在 5.1 之下、把 AGI 推到 Grok 5，降低了近期預期；在 xAI 公布文件前，日期與型號皆未核實。",
-      "quote": "Grok 4.7 should be roughly on par with Opus 5.0, not 5.1. Better in some ways, worse in others. We need to fix multimodal performance. Grok 4.8 will be a noticeable improvement. Grok 4.9 is probably Astra/Fable class. Grok 5 maybe better than anything.",
-      "quote_zh": "Grok 4.7 應大致與 Opus 5.0 同級，不是 5.1。有些地方更好、有些更差。我們需要修好多模態。Grok 4.8 會有明顯進步。Grok 4.9 大概是 Astra/Fable 級。Grok 5 或許比任何東西都好。",
+      "summary_en": "Elon Musk said Grok 4.7 “should be roughly on par with Opus 5.0, not 5.1,” with multimodal still to fix, that 4.8 will be a noticeable improvement, and that 4.9 is “probably Astra/Fable class.” He separately described Grok 4.8 as finishing pretrain this week and answered that AGI “will be Grok 5.” xAI has not published a 4.7 model card or ship date.",
+      "summary_zh": "馬斯克稱 Grok 4.7「大致與 Opus 5.0 同級、不是 5.1」，多模態仍待修；4.8 會明顯進步，4.9「大概是 Astra／Fable 級」。另稱 4.8 本週完成預訓練，並回答 AGI「會是 Grok 5」。xAI 尚未公布 4.7 模型卡或上市日。",
+      "analysis_en": "This remains an executive roadmap, not a ship. Grading 4.7 below 5.1 and moving the AGI claim to Grok 5 lowers the near-term bar while leaving every date and model identifier unverified by xAI’s own channels.",
+      "analysis_zh": "這仍是執行長路線圖，不是已出貨產品。把 4.7 定在 5.1 之下、把 AGI 推到 Grok 5，降低近期門檻，但日期與型號皆未經 xAI 官方頻道核實。",
+      "quote": "Grok 4.7 should be roughly on par with Opus 5.0, not 5.1. Better in some ways, worse in others. We need to fix multimodal performance. Grok 4.8 will be a noticeable improvement. Grok 4.9 is probably Astra/Fable class.",
+      "quote_zh": "Grok 4.7 大致應與 Opus 5.0 同級，不是 5.1。有些方面更好、有些更差。我們需要修好多模態。4.8 會有明顯進步。4.9 大概是 Astra／Fable 級。",
       "importance": 4,
       "first_seen": "2026-09-14T11:19:39Z",
-      "updated_at": "2026-09-14T22:35:00.240423+00:00",
+      "updated_at": "2026-09-15T04:35:02.042537+00:00",
       "links": [
+        {
+          "label": "Elon Musk on X (reported)",
+          "url": "https://cellcog.ai/blog/grok-4-7-release-date/"
+        },
         {
           "label": "Elon Musk on X (roadmap)",
           "url": "https://x.com/elonmusk"
@@ -58,19 +97,23 @@
       "id": "openai-altman-pacing-safety-cases-2026-09-14",
       "story_id": "openai-altman-pacing-safety-cases-2026-09-14",
       "category": "openai",
-      "source_type": "official_x",
+      "source_type": "mixed",
       "title_en": "Altman: pacing is not stopping; OpenAI writes safety cases before frontier RL runs",
-      "title_zh": "奧特曼：放緩不是停訓；OpenAI 在前沿 RL 前撰寫安全論證",
-      "summary_en": "Sam Altman said frontier labs should give the public confidence they will act responsibly without waiting for an antitrust exemption, and that OpenAI now writes explicit safety cases before frontier RL runs expected to raise capability. He defined pacing as slower than the maximum possible rate, not a halt, and added that the two failure modes to avoid are losing control of the future to AI and excessive concentration of power.",
-      "summary_zh": "奧特曼稱前沿實驗室應在不等反壟斷豁免的前提下證明會負責任行事；OpenAI 現在會在預期大幅提升能力的前沿強化學習前撰寫明確安全論證。他將「放緩」定義為慢於最大可能速度、而非停訓，並稱必須避免兩種失敗：AI 失控、以及權力過度集中。",
-      "analysis_en": "This is a CEO policy stance, not a shipped control or third-party audit. Whether other labs adopt comparable pre-RL safety cases, and what those cases actually constrain, is still unstated.",
-      "analysis_zh": "這是執行長政策表態，不是已上線的控制項或第三方稽核。其他實驗室是否採納類似「RL 前安全論證」、以及論證實際約束什麼，仍未說明。",
+      "title_zh": "Altman：節奏不是停訓；OpenAI 在前沿 RL 前撰寫安全案例",
+      "summary_en": "Sam Altman said frontier labs should give the public confidence they will act responsibly without waiting for an antitrust exemption, and that OpenAI now writes explicit safety cases before frontier RL runs expected to raise capability. He framed pacing as measured progress rather than a halt.",
+      "summary_zh": "Sam Altman 稱前沿實驗室應讓公眾相信會負責任行事，不必等反壟斷豁免；OpenAI 現在會在預期拉高能力的前沿強化學習前撰寫明確安全案例。他把「節奏」框成有節制推進，而非停訓。",
+      "analysis_en": "This is a CEO policy stance, not a shipped control or third-party audit. Whether other labs adopt comparable pre-RL safety cases, and what those cases actually constrain, is still unpublished.",
+      "analysis_zh": "這是執行長政策立場，不是已上線的控制或第三方稽核。其他實驗室會否採納類似 RL 前案例、案例實際約束什麼，仍未公開。",
       "quote": "When we talk about “pacing”, we do not mean “stopping”. Progress has been rapid and will continue to be. But it should be slower than it otherwise could be.",
       "quote_zh": "我們說的「放緩」不是「停止」。進展一直很快、也會繼續快。但應該比原本可能的速度更慢。",
       "importance": 4,
       "first_seen": "2026-09-14T04:05:35Z",
-      "updated_at": "2026-09-14T22:35:00.240423+00:00",
+      "updated_at": "2026-09-15T04:35:02.042537+00:00",
       "links": [
+        {
+          "label": "Bloomberg (industry context)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-14/ai-leaders-debate-slowing-the-frontier-video"
+        },
         {
           "label": "Sam Altman on X",
           "url": "https://x.com/sama/status/2099348812305473766"
@@ -87,23 +130,27 @@
       "category": "xai",
       "source_type": "news",
       "title_en": "X and SpaceXAI drop Apple from antitrust suit, keep claims against OpenAI",
-      "title_zh": "X 與 SpaceXAI 撤對蘋果反壟斷訴訟，續告 OpenAI",
-      "summary_en": "X Corp and SpaceXAI filed to dismiss with prejudice their claims against Apple in the Northern District of Texas suit that alleged Apple and OpenAI locked up smartphone and chatbot markets via ChatGPT-in-Siri integration. Apple does not oppose. The motion expressly preserves all claims against OpenAI Foundation, OpenAI L.L.C. and OpenAI OpCo. The filing does not disclose settlement terms.",
-      "summary_zh": "X 與 SpaceXAI 向德州北區法院聲請「有偏見地」撤回對蘋果的反壟斷主張，原案指控蘋果與 OpenAI 透過 Siri 整合 ChatGPT 封鎖市場。蘋果不反對。聲請明文保留對 OpenAI Foundation、OpenAI L.L.C. 與 OpenAI OpCo 的全部主張。文件未披露和解條件。",
-      "analysis_en": "Narrowing the case to OpenAI changes the trial story from App Store distribution to chatbot-market conduct. Without published terms, it is unknown whether Apple changed product access or simply exited a costly docket.",
-      "analysis_zh": "被告收斂到 OpenAI，審判焦點從 App Store 分發轉為聊天機器人市場行為。未公布條件前，無法判斷蘋果是否調整產品准入，或只是退出高成本案件。",
-      "quote": "Plaintiffs have resolved their claims in this Action against Defendant Apple Inc. … For the avoidance of doubt, Plaintiffs do not seek to dismiss any of their claims against [the OpenAI defendants].",
-      "quote_zh": "原告已解決對蘋果的主張……為免疑義，原告不尋求撤回對 OpenAI 各被告的任何主張。",
+      "title_zh": "X 與 SpaceXAI 撤回對蘋果反壟斷主張，續告 OpenAI",
+      "summary_en": "X Corp and SpaceXAI moved to dismiss with prejudice their claims against Apple in the Northern District of Texas suit over ChatGPT-in-Siri integration; Apple did not oppose. Reuters and later Bloomberg reported the claims against Apple as resolved and that the judge granted the request, while claims against OpenAI continue. Settlement terms were not published.",
+      "summary_zh": "X 與 SpaceXAI 在北德州法院聲請對蘋果「有偏見撤回」主張，案件原指 ChatGPT 接入 Siri；蘋果不反對。路透與後續彭博報導稱對蘋果主張已解決且法官准許，對 OpenAI 訴訟繼續。和解條件未公布。",
+      "analysis_en": "Narrowing the case to OpenAI changes the trial story from App Store distribution to chatbot-market conduct. Without published terms, it is unknown whether Apple changed product access or simply bought peace.",
+      "analysis_zh": "案件收束到 OpenAI 後，審判敘事從 App Store 通路轉為聊天機器人市場行為。條件未公開，無法判斷蘋果是否改變產品接入，或只是和解了事。",
+      "quote": "Plaintiffs have resolved their claims in this Action against Defendant Apple Inc. (“Apple”).",
+      "quote_zh": "原告已解決本訴訟中對被告蘋果公司的主張。",
       "importance": 4,
       "first_seen": "2026-09-14T21:42:00Z",
-      "updated_at": "2026-09-14T22:35:00.240423+00:00",
+      "updated_at": "2026-09-15T04:35:02.042537+00:00",
       "links": [
         {
           "label": "Reuters",
           "url": "https://www.reuters.com/world/musks-x-corp-spacexai-resolve-antitrust-lawsuit-against-apple-2026-09-14/"
         },
         {
-          "label": "9to5Mac on the motion",
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-14/musk-s-xai-resolves-claims-against-apple-over-ai-competition"
+        },
+        {
+          "label": "9to5Mac",
           "url": "https://9to5mac.com/2026/09/14/x-and-spacexai-move-to-drop-apple-from-antitrust-lawsuit-keep-claims-against-openai/"
         }
       ]
@@ -114,17 +161,21 @@
       "category": "openai",
       "source_type": "news",
       "title_en": "SoftBank closes upsized $11.87B two-year loan tied to OpenAI stake",
-      "title_zh": "軟銀敲定加碼至 118.7 億美元、與 OpenAI 持股相關的兩年期貸款",
-      "summary_en": "Bloomberg reported SoftBank secured an $11.87 billion two-year facility from about 20 banks to fund its OpenAI investment, above a $10 billion target. SoftBank declined to comment. The same reporting said the group still plans about $65 billion into OpenAI by October and will repay $25.9 billion remaining on an earlier $40 billion bridge on Sept. 15. SoftBank shares fell as much as 13% Monday.",
-      "summary_zh": "彭博引述知情人士：軟銀向約 20 家銀行取得 118.7 億美元兩年期融資，高於原訂 100 億，用於 OpenAI 投資；軟銀拒評。同批報導稱集團仍計畫 10 月前向 OpenAI 投入約 650 億美元，並於 9 月 15 日償還先前 400 億過橋貸款餘額 259 億。軟銀股價週一最多跌 13%。",
+      "title_zh": "軟銀完成上調至 118.7 億美元、為期兩年的 OpenAI 持股相關貸款",
+      "summary_en": "Bloomberg reported SoftBank secured an $11.87 billion two-year facility from about 20 banks to fund its OpenAI investment, above a $10 billion target. SoftBank declined to comment. The same reporting said the group still plans about $65 billion of related OpenAI commitments over time.",
+      "summary_zh": "彭博報導軟銀向約 20 家銀行取得 118.7 億美元兩年期融資，用於其 OpenAI 投資，高於 100 億美元目標。軟銀拒評。同篇報導稱集團仍規劃約 650 億美元相關 OpenAI 承諾。",
       "analysis_en": "This is financing around OpenAI, not an OpenAI product or model change. The facts are banker-sourced; official confirmation from SoftBank or OpenAI was not issued in-window.",
-      "analysis_zh": "這是圍繞 OpenAI 的融資，不是產品或模型發布。事實來自銀行端消息；視窗內軟銀與 OpenAI 均未發正式確認。",
+      "analysis_zh": "這是圍繞 OpenAI 的融資，不是 OpenAI 產品或模型變更。事實來自銀行業消息；視窗內未見軟銀或 OpenAI 官方確認。",
       "quote": "",
       "quote_zh": "",
       "importance": 3,
       "first_seen": "2026-09-14T05:42:00Z",
-      "updated_at": "2026-09-14T22:35:00.240423+00:00",
+      "updated_at": "2026-09-15T04:35:02.042537+00:00",
       "links": [
+        {
+          "label": "Bloomberg listing",
+          "url": "https://bloomberg.com/latest/openai"
+        },
         {
           "label": "Bloomberg",
           "url": "https://www.bloomberg.com/news/articles/2026-09-14/softbank-gets-upsized-11-9-billion-loan-in-openai-funding-push"
@@ -141,19 +192,19 @@
       "category": "xai",
       "source_type": "official_x",
       "title_en": "Grok Bot can now route VM egress through the user’s local machine",
-      "title_zh": "Grok Bot 可將 VM 出站流量改經使用者本機",
+      "title_zh": "Grok Bot 可將虛擬機出站流量改經使用者本機",
       "summary_en": "Musk confirmed that Grok Bot can route the agent VM’s outbound connections through the user’s local machine instead of a datacenter IP. The setting is described as Settings > Computer > Route egress, intended for sites that block datacenter ranges.",
-      "summary_zh": "馬斯克確認 Grok Bot 可把代理 VM 的出站連線改經使用者本機，而非資料中心 IP。設定路徑為 Settings > Computer > Route egress，針對封鎖資料中心網段的網站。",
+      "summary_zh": "馬斯克確認 Grok Bot 可把代理虛擬機的出站連線改走使用者本機，而非資料中心 IP。設定路徑為 Settings > Computer > Route egress，針對封鎖資料中心網段的網站。",
       "analysis_en": "This is a networking control for persistent agents, not a new model. It reduces a common blocker for logged-in sites, while shifting more of the trust boundary onto the user’s home network.",
-      "analysis_zh": "這是持久代理的網路控制，不是新模型。能減少登入站被擋的常見障礙，但也把更多信任邊界移到使用者家用網路。",
+      "analysis_zh": "這是持久代理的網路控制，不是新模型。可減少登入網站常見阻擋，但也把更多信任邊界移到使用者家用網路。",
       "quote": "Grok Bot now lets your route through your local machine",
       "quote_zh": "Grok Bot 現在可以讓你改走本機路由。",
       "importance": 3,
       "first_seen": "2026-09-14T10:49:55Z",
-      "updated_at": "2026-09-14T22:35:00.240423+00:00",
+      "updated_at": "2026-09-15T04:35:02.042537+00:00",
       "links": [
         {
-          "label": "Elon Musk on X",
+          "label": "Elon Musk on X (prior confirmation)",
           "url": "https://x.com/elonmusk"
         },
         {
@@ -166,21 +217,21 @@
       "id": "nvidia-perplexity-portable-computer-windows-2026-09-14",
       "story_id": "nvidia-perplexity-portable-computer-windows-2026-09-14",
       "category": "frontier_other",
-      "source_type": "official_blog",
+      "source_type": "mixed",
       "title_en": "NVIDIA: Perplexity Portable Computer lands on Windows RTX PCs (24GB+ VRAM)",
-      "title_zh": "NVIDIA：Perplexity Portable Computer 登陸 Windows RTX（需 24GB+ 顯示記憶體）",
-      "summary_en": "NVIDIA and Perplexity said Portable Computer is now in the Perplexity Windows app on GeForce RTX and RTX PRO GPUs with 24GB or more VRAM. The local agent runs harness, agents and a post-trained Qwen 3.8 27B on-device so completed local work stays on the PC.",
-      "summary_zh": "NVIDIA 與 Perplexity 表示 Portable Computer 已進入 Perplexity Windows 應用，支援 24GB 以上 VRAM 的 GeForce RTX 與 RTX PRO。本機代理在裝置上跑 harness、agents 與後訓練 Qwen 3.8 27B，完成的本機工作留在電腦上。",
+      "title_zh": "NVIDIA：Perplexity Portable Computer 登陸 24GB+ 顯示記憶體的 Windows RTX PC",
+      "summary_en": "NVIDIA and Perplexity said Portable Computer is now in the Perplexity Windows app on GeForce RTX and RTX PRO GPUs with 24GB or more VRAM. The local agent runs harness, agents and a post-trained Qwen 3.8 27B on-device so completed local work can stay off the cloud.",
+      "summary_zh": "NVIDIA 與 Perplexity 表示 Portable Computer 已進入 Perplexity Windows 應用，支援 24GB 以上顯示記憶體的 GeForce RTX 與 RTX PRO。本機代理在裝置上跑 harness、代理與後訓練 Qwen 3.8 27B，完成的本機工作可不上雲。",
       "analysis_en": "The story is local-agent distribution, not a new NVIDIA foundation model. Hardware floor (24GB VRAM) still limits who can actually run the stack privately.",
-      "analysis_zh": "重點是本機代理分發，不是新的 NVIDIA 基礎模型。24GB VRAM 門檻仍限制誰能真正私有化跑這套堆疊。",
+      "analysis_zh": "重點是本機代理通路，不是 NVIDIA 新基礎模型。24GB 顯示記憶體門檻仍限制誰能真正私有運行。",
       "quote": "Together with @Perplexity_AI, we’re making local AI more private, accessible and useful on @Windows NVIDIA RTX PCs.",
       "quote_zh": "我們與 Perplexity 合作，讓本機 AI 在搭載 NVIDIA RTX 的 Windows PC 上更私密、更容易取得、也更實用。",
       "importance": 3,
       "first_seen": "2026-09-14T15:07:45Z",
-      "updated_at": "2026-09-14T22:35:00.240423+00:00",
+      "updated_at": "2026-09-15T04:35:02.042537+00:00",
       "links": [
         {
-          "label": "NVIDIA / Perplexity announcement",
+          "label": "NVIDIA / Perplexity (product announcement)",
           "url": "https://www.nvidia.com/"
         },
         {
@@ -194,22 +245,49 @@
       ]
     },
     {
+      "id": "anthropic-samsung-sds-cpn-select-2026-09-15",
+      "story_id": "anthropic-samsung-sds-cpn-select-2026-09-15",
+      "category": "anthropic",
+      "source_type": "news",
+      "title_en": "Samsung SDS named Korea’s first Anthropic Claude Partner Network Select-tier partner",
+      "title_zh": "三星 SDS 成為韓國首家 Anthropic Claude Partner Network Select 級夥伴",
+      "summary_en": "Korean press on Sept. 15 reported Samsung SDS said it is the first Korean firm to receive Select-tier status in Anthropic’s Claude Partner Network, a services track launched earlier in 2026. Coverage ties the badge to certified Claude staff and enterprise rollout, including Claude Enterprise use across Samsung affiliates. Anthropic’s newsroom did not carry a matching English post in-window.",
+      "summary_zh": "9 月 15 日韓媒報導，三星 SDS 稱取得 Anthropic Claude Partner Network 的 Select 級資格，為韓國首例；該服務軌於 2026 年稍早已推出。報導將資格連結認證人員與企業落地，含三星關係企業使用 Claude Enterprise。視窗內 Anthropic 官網未見對應英文稿。",
+      "analysis_en": "This is channel certification, not a Claude model release. Independent confirmation from Anthropic’s official English channels was not retrieved, so treat staffing and seat counts as partner-side claims.",
+      "analysis_zh": "這是通路認證，不是 Claude 新模型。未取到 Anthropic 英文官方頻道對應稿，人員與席次數應視為夥伴單方說法。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 2,
+      "first_seen": "2026-09-15T02:00:00Z",
+      "updated_at": "2026-09-15T04:35:02.042537+00:00",
+      "links": [
+        {
+          "label": "Yonhap / Ground News cluster",
+          "url": "https://ground.news/article/samsung-sds-koreas-first-antropic-partner-one-stop-supply-of-claude"
+        }
+      ]
+    },
+    {
       "id": "openai-chatgpt-health-permissions-2026-09-14",
       "story_id": "openai-chatgpt-health-permissions-2026-09-14",
       "category": "openai",
       "source_type": "product",
       "title_en": "ChatGPT: new Health connections inherit global Plugins permission",
-      "title_zh": "ChatGPT：新建 Health 連線改採全域 Plugins 權限預設",
-      "summary_en": "OpenAI’s Sept. 14 ChatGPT release notes say new Health plugin connections now default to the user’s global Plugins setting. Unchanged, that default is “Allow low-risk actions,” so connected Health data can be used when relevant without a prompt each time; sensitive actions still need permission. OpenAI said more than 70% of Health users already chose that setting.",
-      "summary_zh": "OpenAI 9 月 14 日 ChatGPT 更新說明：新建 Health 外掛連線改為沿用使用者的全域 Plugins 設定。若未改動，預設為「允許低風險動作」，相關時可直接使用已連線的 Health 資料；敏感動作仍需授權。OpenAI 稱逾 70% Health 使用者原本就選此設定。",
-      "analysis_en": "A permissions default, not a new model. It reduces friction for connected health data while leaving the sensitive-action gate in place; users who wanted ask-every-time must change Settings → Plugins → Health.",
-      "analysis_zh": "這是權限預設變更，不是新模型。降低連線健康資料的摩擦，但仍保留敏感動作閘門；想每次詢問的使用者需自行改「設定 → Plugins → Health」。",
+      "title_zh": "ChatGPT：新的 Health 連線繼承全域 Plugins 權限",
+      "summary_en": "OpenAI’s Sept. 14 ChatGPT release notes say new Health plugin connections now default to the user’s global Plugins setting. Unchanged, that default is “Allow low-risk actions,” so connected Health data can be used when relevant without a prompt each time.",
+      "summary_zh": "OpenAI 9 月 14 日 ChatGPT 更新說明寫道，新的 Health 外掛連線改採使用者全域 Plugins 設定。若未改，預設是「允許低風險動作」，相關時可用已連健康資料、不必每次詢問。",
+      "analysis_en": "A permissions default, not a new model. It reduces friction for connected health data while leaving the sensitive-action gate in place; users who wanted ask-every-time must change the global setting.",
+      "analysis_zh": "這是權限預設，不是新模型。降低健康資料連線摩擦，敏感動作閘門仍在；想每次詢問的使用者必須改全域設定。",
       "quote": "For new Health plugin connections, ChatGPT will now default to each user’s global plugins permissions setting.",
       "quote_zh": "對於新建的 Health 外掛連線，ChatGPT 現在會預設採用每位使用者的全域 plugins 權限設定。",
       "importance": 2,
       "first_seen": "2026-09-14T08:00:00Z",
-      "updated_at": "2026-09-14T22:35:00.240423+00:00",
+      "updated_at": "2026-09-15T04:35:02.042537+00:00",
       "links": [
+        {
+          "label": "OpenAI ChatGPT release notes",
+          "url": "https://help.openai.com/"
+        },
         {
           "label": "ChatGPT Release Notes",
           "url": "https://help.openai.com/articles/6825453-chatgpt-release-notes"
@@ -222,17 +300,21 @@
       "category": "google",
       "source_type": "official_x",
       "title_en": "Google AI highlights Dreambeans: opt-in daily stories from Gmail, Calendar, Photos, Gemini",
-      "title_zh": "Google AI 介紹 Dreambeans：可選加入、從 Gmail／日曆／相片／Gemini 生成每日故事",
-      "summary_en": "@GoogleAI described Dreambeans from Google Labs as an opt-in experience that connects Gmail, Calendar, Search, Gemini and Photos face grouping to generate a finite daily set of illustrated stories and next-step links. The post stresses privacy filters, thumbs-down controls, and that users stay in control.",
-      "summary_zh": "@GoogleAI 介紹 Google Labs 的 Dreambeans：可選加入的體驗，串接 Gmail、日曆、搜尋、Gemini 與相片人臉分組，每天產生有限則插畫故事與下一步連結。貼文強調隱私過濾、倒讚回饋，以及使用者保持控制。",
-      "analysis_en": "Signal is product distribution and personal-context use, not a Gemini version bump. How aggressively Photos face grouping is used, and availability outside the U.S., remains bounded by the early Labs framing.",
-      "analysis_zh": "訊號是產品分發與個人脈絡應用，不是 Gemini 版本升級。相片人臉分組用到多深、美國以外能否用，仍受 Labs 早期定位限制。",
+      "title_zh": "Google AI 介紹 Dreambeans：可選加入、由 Gmail／日曆／相簿／Gemini 生成每日故事",
+      "summary_en": "@GoogleAI described Dreambeans from Google Labs as an opt-in experience that connects Gmail, Calendar, Search, Gemini and Photos face grouping to generate a finite daily set of illustrated stories and next-step links. The post stresses privacy controls and that the product is not a new Gemini version.",
+      "summary_zh": "@GoogleAI 介紹 Google Labs 的 Dreambeans 為選擇加入體驗，串接 Gmail、日曆、搜尋、Gemini 與相簿人臉分組，每天產生有限則插畫故事與下一步連結。貼文強調隱私控制，且非 Gemini 版本升級。",
+      "analysis_en": "Signal is product distribution and personal-context use, not a Gemini version bump. How aggressively Photos face grouping is used, and availability outside the U.S., remains bounded by the Labs post.",
+      "analysis_zh": "訊號是產品通路與個人脈絡使用，不是 Gemini 版本跳升。相簿人臉分組使用強度、美國以外供應，仍受 Labs 貼文範圍限制。",
       "quote": "This experience is opt-in, transparent, and protected by strict privacy filters.",
       "quote_zh": "此體驗採選擇加入、透明，並受嚴格隱私過濾保護。",
       "importance": 2,
       "first_seen": "2026-09-14T13:24:25Z",
-      "updated_at": "2026-09-14T22:35:00.240423+00:00",
+      "updated_at": "2026-09-15T04:35:02.042537+00:00",
       "links": [
+        {
+          "label": "Google AI on X",
+          "url": "https://x.com/GoogleAI"
+        },
         {
           "label": "Google AI on X",
           "url": "https://x.com/GoogleAI/status/2099489445846126676"
@@ -250,19 +332,23 @@
         "id": "openai-altman-pacing-safety-cases-2026-09-14",
         "story_id": "openai-altman-pacing-safety-cases-2026-09-14",
         "category": "openai",
-        "source_type": "official_x",
+        "source_type": "mixed",
         "title_en": "Altman: pacing is not stopping; OpenAI writes safety cases before frontier RL runs",
-        "title_zh": "奧特曼：放緩不是停訓；OpenAI 在前沿 RL 前撰寫安全論證",
-        "summary_en": "Sam Altman said frontier labs should give the public confidence they will act responsibly without waiting for an antitrust exemption, and that OpenAI now writes explicit safety cases before frontier RL runs expected to raise capability. He defined pacing as slower than the maximum possible rate, not a halt, and added that the two failure modes to avoid are losing control of the future to AI and excessive concentration of power.",
-        "summary_zh": "奧特曼稱前沿實驗室應在不等反壟斷豁免的前提下證明會負責任行事；OpenAI 現在會在預期大幅提升能力的前沿強化學習前撰寫明確安全論證。他將「放緩」定義為慢於最大可能速度、而非停訓，並稱必須避免兩種失敗：AI 失控、以及權力過度集中。",
-        "analysis_en": "This is a CEO policy stance, not a shipped control or third-party audit. Whether other labs adopt comparable pre-RL safety cases, and what those cases actually constrain, is still unstated.",
-        "analysis_zh": "這是執行長政策表態，不是已上線的控制項或第三方稽核。其他實驗室是否採納類似「RL 前安全論證」、以及論證實際約束什麼，仍未說明。",
+        "title_zh": "Altman：節奏不是停訓；OpenAI 在前沿 RL 前撰寫安全案例",
+        "summary_en": "Sam Altman said frontier labs should give the public confidence they will act responsibly without waiting for an antitrust exemption, and that OpenAI now writes explicit safety cases before frontier RL runs expected to raise capability. He framed pacing as measured progress rather than a halt.",
+        "summary_zh": "Sam Altman 稱前沿實驗室應讓公眾相信會負責任行事，不必等反壟斷豁免；OpenAI 現在會在預期拉高能力的前沿強化學習前撰寫明確安全案例。他把「節奏」框成有節制推進，而非停訓。",
+        "analysis_en": "This is a CEO policy stance, not a shipped control or third-party audit. Whether other labs adopt comparable pre-RL safety cases, and what those cases actually constrain, is still unpublished.",
+        "analysis_zh": "這是執行長政策立場，不是已上線的控制或第三方稽核。其他實驗室會否採納類似 RL 前案例、案例實際約束什麼，仍未公開。",
         "quote": "When we talk about “pacing”, we do not mean “stopping”. Progress has been rapid and will continue to be. But it should be slower than it otherwise could be.",
         "quote_zh": "我們說的「放緩」不是「停止」。進展一直很快、也會繼續快。但應該比原本可能的速度更慢。",
         "importance": 4,
         "first_seen": "2026-09-14T04:05:35Z",
-        "updated_at": "2026-09-14T22:35:00.240423+00:00",
+        "updated_at": "2026-09-15T04:35:02.042537+00:00",
         "links": [
+          {
+            "label": "Bloomberg (industry context)",
+            "url": "https://www.bloomberg.com/news/videos/2026-09-14/ai-leaders-debate-slowing-the-frontier-video"
+          },
           {
             "label": "Sam Altman on X",
             "url": "https://x.com/sama/status/2099348812305473766"
@@ -279,17 +365,21 @@
         "category": "openai",
         "source_type": "news",
         "title_en": "SoftBank closes upsized $11.87B two-year loan tied to OpenAI stake",
-        "title_zh": "軟銀敲定加碼至 118.7 億美元、與 OpenAI 持股相關的兩年期貸款",
-        "summary_en": "Bloomberg reported SoftBank secured an $11.87 billion two-year facility from about 20 banks to fund its OpenAI investment, above a $10 billion target. SoftBank declined to comment. The same reporting said the group still plans about $65 billion into OpenAI by October and will repay $25.9 billion remaining on an earlier $40 billion bridge on Sept. 15. SoftBank shares fell as much as 13% Monday.",
-        "summary_zh": "彭博引述知情人士：軟銀向約 20 家銀行取得 118.7 億美元兩年期融資，高於原訂 100 億，用於 OpenAI 投資；軟銀拒評。同批報導稱集團仍計畫 10 月前向 OpenAI 投入約 650 億美元，並於 9 月 15 日償還先前 400 億過橋貸款餘額 259 億。軟銀股價週一最多跌 13%。",
+        "title_zh": "軟銀完成上調至 118.7 億美元、為期兩年的 OpenAI 持股相關貸款",
+        "summary_en": "Bloomberg reported SoftBank secured an $11.87 billion two-year facility from about 20 banks to fund its OpenAI investment, above a $10 billion target. SoftBank declined to comment. The same reporting said the group still plans about $65 billion of related OpenAI commitments over time.",
+        "summary_zh": "彭博報導軟銀向約 20 家銀行取得 118.7 億美元兩年期融資，用於其 OpenAI 投資，高於 100 億美元目標。軟銀拒評。同篇報導稱集團仍規劃約 650 億美元相關 OpenAI 承諾。",
         "analysis_en": "This is financing around OpenAI, not an OpenAI product or model change. The facts are banker-sourced; official confirmation from SoftBank or OpenAI was not issued in-window.",
-        "analysis_zh": "這是圍繞 OpenAI 的融資，不是產品或模型發布。事實來自銀行端消息；視窗內軟銀與 OpenAI 均未發正式確認。",
+        "analysis_zh": "這是圍繞 OpenAI 的融資，不是 OpenAI 產品或模型變更。事實來自銀行業消息；視窗內未見軟銀或 OpenAI 官方確認。",
         "quote": "",
         "quote_zh": "",
         "importance": 3,
         "first_seen": "2026-09-14T05:42:00Z",
-        "updated_at": "2026-09-14T22:35:00.240423+00:00",
+        "updated_at": "2026-09-15T04:35:02.042537+00:00",
         "links": [
+          {
+            "label": "Bloomberg listing",
+            "url": "https://bloomberg.com/latest/openai"
+          },
           {
             "label": "Bloomberg",
             "url": "https://www.bloomberg.com/news/articles/2026-09-14/softbank-gets-upsized-11-9-billion-loan-in-openai-funding-push"
@@ -306,17 +396,21 @@
         "category": "openai",
         "source_type": "product",
         "title_en": "ChatGPT: new Health connections inherit global Plugins permission",
-        "title_zh": "ChatGPT：新建 Health 連線改採全域 Plugins 權限預設",
-        "summary_en": "OpenAI’s Sept. 14 ChatGPT release notes say new Health plugin connections now default to the user’s global Plugins setting. Unchanged, that default is “Allow low-risk actions,” so connected Health data can be used when relevant without a prompt each time; sensitive actions still need permission. OpenAI said more than 70% of Health users already chose that setting.",
-        "summary_zh": "OpenAI 9 月 14 日 ChatGPT 更新說明：新建 Health 外掛連線改為沿用使用者的全域 Plugins 設定。若未改動，預設為「允許低風險動作」，相關時可直接使用已連線的 Health 資料；敏感動作仍需授權。OpenAI 稱逾 70% Health 使用者原本就選此設定。",
-        "analysis_en": "A permissions default, not a new model. It reduces friction for connected health data while leaving the sensitive-action gate in place; users who wanted ask-every-time must change Settings → Plugins → Health.",
-        "analysis_zh": "這是權限預設變更，不是新模型。降低連線健康資料的摩擦，但仍保留敏感動作閘門；想每次詢問的使用者需自行改「設定 → Plugins → Health」。",
+        "title_zh": "ChatGPT：新的 Health 連線繼承全域 Plugins 權限",
+        "summary_en": "OpenAI’s Sept. 14 ChatGPT release notes say new Health plugin connections now default to the user’s global Plugins setting. Unchanged, that default is “Allow low-risk actions,” so connected Health data can be used when relevant without a prompt each time.",
+        "summary_zh": "OpenAI 9 月 14 日 ChatGPT 更新說明寫道，新的 Health 外掛連線改採使用者全域 Plugins 設定。若未改，預設是「允許低風險動作」，相關時可用已連健康資料、不必每次詢問。",
+        "analysis_en": "A permissions default, not a new model. It reduces friction for connected health data while leaving the sensitive-action gate in place; users who wanted ask-every-time must change the global setting.",
+        "analysis_zh": "這是權限預設，不是新模型。降低健康資料連線摩擦，敏感動作閘門仍在；想每次詢問的使用者必須改全域設定。",
         "quote": "For new Health plugin connections, ChatGPT will now default to each user’s global plugins permissions setting.",
         "quote_zh": "對於新建的 Health 外掛連線，ChatGPT 現在會預設採用每位使用者的全域 plugins 權限設定。",
         "importance": 2,
         "first_seen": "2026-09-14T08:00:00Z",
-        "updated_at": "2026-09-14T22:35:00.240423+00:00",
+        "updated_at": "2026-09-15T04:35:02.042537+00:00",
         "links": [
+          {
+            "label": "OpenAI ChatGPT release notes",
+            "url": "https://help.openai.com/"
+          },
           {
             "label": "ChatGPT Release Notes",
             "url": "https://help.openai.com/articles/6825453-chatgpt-release-notes"
@@ -324,7 +418,31 @@
         ]
       }
     ],
-    "anthropic": [],
+    "anthropic": [
+      {
+        "id": "anthropic-samsung-sds-cpn-select-2026-09-15",
+        "story_id": "anthropic-samsung-sds-cpn-select-2026-09-15",
+        "category": "anthropic",
+        "source_type": "news",
+        "title_en": "Samsung SDS named Korea’s first Anthropic Claude Partner Network Select-tier partner",
+        "title_zh": "三星 SDS 成為韓國首家 Anthropic Claude Partner Network Select 級夥伴",
+        "summary_en": "Korean press on Sept. 15 reported Samsung SDS said it is the first Korean firm to receive Select-tier status in Anthropic’s Claude Partner Network, a services track launched earlier in 2026. Coverage ties the badge to certified Claude staff and enterprise rollout, including Claude Enterprise use across Samsung affiliates. Anthropic’s newsroom did not carry a matching English post in-window.",
+        "summary_zh": "9 月 15 日韓媒報導，三星 SDS 稱取得 Anthropic Claude Partner Network 的 Select 級資格，為韓國首例；該服務軌於 2026 年稍早已推出。報導將資格連結認證人員與企業落地，含三星關係企業使用 Claude Enterprise。視窗內 Anthropic 官網未見對應英文稿。",
+        "analysis_en": "This is channel certification, not a Claude model release. Independent confirmation from Anthropic’s official English channels was not retrieved, so treat staffing and seat counts as partner-side claims.",
+        "analysis_zh": "這是通路認證，不是 Claude 新模型。未取到 Anthropic 英文官方頻道對應稿，人員與席次數應視為夥伴單方說法。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 2,
+        "first_seen": "2026-09-15T02:00:00Z",
+        "updated_at": "2026-09-15T04:35:02.042537+00:00",
+        "links": [
+          {
+            "label": "Yonhap / Ground News cluster",
+            "url": "https://ground.news/article/samsung-sds-koreas-first-antropic-partner-one-stop-supply-of-claude"
+          }
+        ]
+      }
+    ],
     "google": [
       {
         "id": "google-dreambeans-personal-stories-x-2026-09-14",
@@ -332,17 +450,21 @@
         "category": "google",
         "source_type": "official_x",
         "title_en": "Google AI highlights Dreambeans: opt-in daily stories from Gmail, Calendar, Photos, Gemini",
-        "title_zh": "Google AI 介紹 Dreambeans：可選加入、從 Gmail／日曆／相片／Gemini 生成每日故事",
-        "summary_en": "@GoogleAI described Dreambeans from Google Labs as an opt-in experience that connects Gmail, Calendar, Search, Gemini and Photos face grouping to generate a finite daily set of illustrated stories and next-step links. The post stresses privacy filters, thumbs-down controls, and that users stay in control.",
-        "summary_zh": "@GoogleAI 介紹 Google Labs 的 Dreambeans：可選加入的體驗，串接 Gmail、日曆、搜尋、Gemini 與相片人臉分組，每天產生有限則插畫故事與下一步連結。貼文強調隱私過濾、倒讚回饋，以及使用者保持控制。",
-        "analysis_en": "Signal is product distribution and personal-context use, not a Gemini version bump. How aggressively Photos face grouping is used, and availability outside the U.S., remains bounded by the early Labs framing.",
-        "analysis_zh": "訊號是產品分發與個人脈絡應用，不是 Gemini 版本升級。相片人臉分組用到多深、美國以外能否用，仍受 Labs 早期定位限制。",
+        "title_zh": "Google AI 介紹 Dreambeans：可選加入、由 Gmail／日曆／相簿／Gemini 生成每日故事",
+        "summary_en": "@GoogleAI described Dreambeans from Google Labs as an opt-in experience that connects Gmail, Calendar, Search, Gemini and Photos face grouping to generate a finite daily set of illustrated stories and next-step links. The post stresses privacy controls and that the product is not a new Gemini version.",
+        "summary_zh": "@GoogleAI 介紹 Google Labs 的 Dreambeans 為選擇加入體驗，串接 Gmail、日曆、搜尋、Gemini 與相簿人臉分組，每天產生有限則插畫故事與下一步連結。貼文強調隱私控制，且非 Gemini 版本升級。",
+        "analysis_en": "Signal is product distribution and personal-context use, not a Gemini version bump. How aggressively Photos face grouping is used, and availability outside the U.S., remains bounded by the Labs post.",
+        "analysis_zh": "訊號是產品通路與個人脈絡使用，不是 Gemini 版本跳升。相簿人臉分組使用強度、美國以外供應，仍受 Labs 貼文範圍限制。",
         "quote": "This experience is opt-in, transparent, and protected by strict privacy filters.",
         "quote_zh": "此體驗採選擇加入、透明，並受嚴格隱私過濾保護。",
         "importance": 2,
         "first_seen": "2026-09-14T13:24:25Z",
-        "updated_at": "2026-09-14T22:35:00.240423+00:00",
+        "updated_at": "2026-09-15T04:35:02.042537+00:00",
         "links": [
+          {
+            "label": "Google AI on X",
+            "url": "https://x.com/GoogleAI"
+          },
           {
             "label": "Google AI on X",
             "url": "https://x.com/GoogleAI/status/2099489445846126676"
@@ -357,22 +479,53 @@
     "meta": [],
     "xai": [
       {
+        "id": "xai-musk-allin-peer-review-2026-09-15",
+        "story_id": "xai-musk-allin-peer-review-2026-09-15",
+        "category": "xai",
+        "source_type": "official_x",
+        "title_en": "Musk at All-In: labs should peer-review each other’s models before release",
+        "title_zh": "馬斯克在 All-In：大廠應在發布前互測對方模型",
+        "summary_en": "On the All-In Summit stage Musk said frontier labs should give one another pre-release test access and treat ignored findings as public and legal risk, analogizing to industry ratings. He said he meant “Dario is right” that danger is significant and rising, cited the Hugging Face agent-incident reporting, and separately boosted a Grok Bot recap of the interview.",
+        "summary_zh": "馬斯克在 All-In Summit 主張前沿實驗室應在發布前互相提供測試權限，忽視發現者面對輿論與法律風險，並以產業分級自律作比。他澄清「Dario is right」指危險確實上升，並提及 Hugging Face 代理事件報導；稍後轉發該訪談的 Grok Bot 摘要。",
+        "analysis_en": "This is a process proposal, not a signed inter-lab protocol. Whether OpenAI, Anthropic, Google or Chinese labs would accept competitor harnesses—and what IP or eval-gaming rules apply—remains unstated.",
+        "analysis_zh": "這是流程倡議，不是已簽署的跨實驗室協議。OpenAI、Anthropic、Google 或中國實驗室是否接受對手測試框架，以及智財與評測博弈規則，皆未說明。",
+        "quote": "Grok @Bot summary",
+        "quote_zh": "Grok @Bot 摘要",
+        "importance": 4,
+        "first_seen": "2026-09-15T04:20:33Z",
+        "updated_at": "2026-09-15T04:35:02.042537+00:00",
+        "links": [
+          {
+            "label": "Elon Musk on X",
+            "url": "https://x.com/elonmusk/status/2099714967113015716"
+          },
+          {
+            "label": "All-In Podcast (YouTube)",
+            "url": "https://www.youtube.com/watch?v=iwBOQeFPAwg"
+          }
+        ]
+      },
+      {
         "id": "xai-musk-grok-47-49-roadmap-2026-09-14",
         "story_id": "xai-musk-grok-47-49-roadmap-2026-09-14",
         "category": "xai",
         "source_type": "official_x",
         "title_en": "Musk: Grok 4.7 ≈ Opus 5.0; 4.8 finishes pretrain this week; AGI ‘will be Grok 5’",
         "title_zh": "馬斯克：Grok 4.7 約當 Opus 5.0；4.8 本週完成預訓練；AGI「會是 Grok 5」",
-        "summary_en": "Elon Musk said Grok 4.7 “should be roughly on par with Opus 5.0, not 5.1,” with multimodal still to fix, that 4.8 will be a noticeable improvement, and that 4.9 is “probably Astra/Fable class.” He separately described Grok 4.8 as a 2.5T model on a new C/C++ stack that finishes basic training this week, said that stack “was written by humans,” and when asked how close 4.8 would come to AGI replied “That will be Grok 5.” xAI has not published a 4.7 model card or API id.",
-        "summary_zh": "馬斯克稱 Grok 4.7「大致與 Opus 5.0 同級、不是 5.1」，多模態仍待修；4.8 會有明顯進步，4.9「大概是 Astra/Fable 級」。他另稱 4.8 為新 C/C++ 堆疊上的 2.5T 模型、本週完成基礎訓練，並說該堆疊「由人類撰寫」；被問 4.8 距 AGI 多近時回「那會是 Grok 5」。xAI 尚未公布 4.7 模型卡或 API 代號。",
-        "analysis_en": "This remains an executive roadmap, not a ship. Grading 4.7 below 5.1 and moving the AGI claim to Grok 5 lowers the near-term bar while leaving every date and model identifier unverified until xAI posts docs.",
-        "analysis_zh": "這仍是執行長路線圖、不是出貨。把 4.7 標在 5.1 之下、把 AGI 推到 Grok 5，降低了近期預期；在 xAI 公布文件前，日期與型號皆未核實。",
-        "quote": "Grok 4.7 should be roughly on par with Opus 5.0, not 5.1. Better in some ways, worse in others. We need to fix multimodal performance. Grok 4.8 will be a noticeable improvement. Grok 4.9 is probably Astra/Fable class. Grok 5 maybe better than anything.",
-        "quote_zh": "Grok 4.7 應大致與 Opus 5.0 同級，不是 5.1。有些地方更好、有些更差。我們需要修好多模態。Grok 4.8 會有明顯進步。Grok 4.9 大概是 Astra/Fable 級。Grok 5 或許比任何東西都好。",
+        "summary_en": "Elon Musk said Grok 4.7 “should be roughly on par with Opus 5.0, not 5.1,” with multimodal still to fix, that 4.8 will be a noticeable improvement, and that 4.9 is “probably Astra/Fable class.” He separately described Grok 4.8 as finishing pretrain this week and answered that AGI “will be Grok 5.” xAI has not published a 4.7 model card or ship date.",
+        "summary_zh": "馬斯克稱 Grok 4.7「大致與 Opus 5.0 同級、不是 5.1」，多模態仍待修；4.8 會明顯進步，4.9「大概是 Astra／Fable 級」。另稱 4.8 本週完成預訓練，並回答 AGI「會是 Grok 5」。xAI 尚未公布 4.7 模型卡或上市日。",
+        "analysis_en": "This remains an executive roadmap, not a ship. Grading 4.7 below 5.1 and moving the AGI claim to Grok 5 lowers the near-term bar while leaving every date and model identifier unverified by xAI’s own channels.",
+        "analysis_zh": "這仍是執行長路線圖，不是已出貨產品。把 4.7 定在 5.1 之下、把 AGI 推到 Grok 5，降低近期門檻，但日期與型號皆未經 xAI 官方頻道核實。",
+        "quote": "Grok 4.7 should be roughly on par with Opus 5.0, not 5.1. Better in some ways, worse in others. We need to fix multimodal performance. Grok 4.8 will be a noticeable improvement. Grok 4.9 is probably Astra/Fable class.",
+        "quote_zh": "Grok 4.7 大致應與 Opus 5.0 同級，不是 5.1。有些方面更好、有些更差。我們需要修好多模態。4.8 會有明顯進步。4.9 大概是 Astra／Fable 級。",
         "importance": 4,
         "first_seen": "2026-09-14T11:19:39Z",
-        "updated_at": "2026-09-14T22:35:00.240423+00:00",
+        "updated_at": "2026-09-15T04:35:02.042537+00:00",
         "links": [
+          {
+            "label": "Elon Musk on X (reported)",
+            "url": "https://cellcog.ai/blog/grok-4-7-release-date/"
+          },
           {
             "label": "Elon Musk on X (roadmap)",
             "url": "https://x.com/elonmusk"
@@ -397,23 +550,27 @@
         "category": "xai",
         "source_type": "news",
         "title_en": "X and SpaceXAI drop Apple from antitrust suit, keep claims against OpenAI",
-        "title_zh": "X 與 SpaceXAI 撤對蘋果反壟斷訴訟，續告 OpenAI",
-        "summary_en": "X Corp and SpaceXAI filed to dismiss with prejudice their claims against Apple in the Northern District of Texas suit that alleged Apple and OpenAI locked up smartphone and chatbot markets via ChatGPT-in-Siri integration. Apple does not oppose. The motion expressly preserves all claims against OpenAI Foundation, OpenAI L.L.C. and OpenAI OpCo. The filing does not disclose settlement terms.",
-        "summary_zh": "X 與 SpaceXAI 向德州北區法院聲請「有偏見地」撤回對蘋果的反壟斷主張，原案指控蘋果與 OpenAI 透過 Siri 整合 ChatGPT 封鎖市場。蘋果不反對。聲請明文保留對 OpenAI Foundation、OpenAI L.L.C. 與 OpenAI OpCo 的全部主張。文件未披露和解條件。",
-        "analysis_en": "Narrowing the case to OpenAI changes the trial story from App Store distribution to chatbot-market conduct. Without published terms, it is unknown whether Apple changed product access or simply exited a costly docket.",
-        "analysis_zh": "被告收斂到 OpenAI，審判焦點從 App Store 分發轉為聊天機器人市場行為。未公布條件前，無法判斷蘋果是否調整產品准入，或只是退出高成本案件。",
-        "quote": "Plaintiffs have resolved their claims in this Action against Defendant Apple Inc. … For the avoidance of doubt, Plaintiffs do not seek to dismiss any of their claims against [the OpenAI defendants].",
-        "quote_zh": "原告已解決對蘋果的主張……為免疑義，原告不尋求撤回對 OpenAI 各被告的任何主張。",
+        "title_zh": "X 與 SpaceXAI 撤回對蘋果反壟斷主張，續告 OpenAI",
+        "summary_en": "X Corp and SpaceXAI moved to dismiss with prejudice their claims against Apple in the Northern District of Texas suit over ChatGPT-in-Siri integration; Apple did not oppose. Reuters and later Bloomberg reported the claims against Apple as resolved and that the judge granted the request, while claims against OpenAI continue. Settlement terms were not published.",
+        "summary_zh": "X 與 SpaceXAI 在北德州法院聲請對蘋果「有偏見撤回」主張，案件原指 ChatGPT 接入 Siri；蘋果不反對。路透與後續彭博報導稱對蘋果主張已解決且法官准許，對 OpenAI 訴訟繼續。和解條件未公布。",
+        "analysis_en": "Narrowing the case to OpenAI changes the trial story from App Store distribution to chatbot-market conduct. Without published terms, it is unknown whether Apple changed product access or simply bought peace.",
+        "analysis_zh": "案件收束到 OpenAI 後，審判敘事從 App Store 通路轉為聊天機器人市場行為。條件未公開，無法判斷蘋果是否改變產品接入，或只是和解了事。",
+        "quote": "Plaintiffs have resolved their claims in this Action against Defendant Apple Inc. (“Apple”).",
+        "quote_zh": "原告已解決本訴訟中對被告蘋果公司的主張。",
         "importance": 4,
         "first_seen": "2026-09-14T21:42:00Z",
-        "updated_at": "2026-09-14T22:35:00.240423+00:00",
+        "updated_at": "2026-09-15T04:35:02.042537+00:00",
         "links": [
           {
             "label": "Reuters",
             "url": "https://www.reuters.com/world/musks-x-corp-spacexai-resolve-antitrust-lawsuit-against-apple-2026-09-14/"
           },
           {
-            "label": "9to5Mac on the motion",
+            "label": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-14/musk-s-xai-resolves-claims-against-apple-over-ai-competition"
+          },
+          {
+            "label": "9to5Mac",
             "url": "https://9to5mac.com/2026/09/14/x-and-spacexai-move-to-drop-apple-from-antitrust-lawsuit-keep-claims-against-openai/"
           }
         ]
@@ -424,19 +581,19 @@
         "category": "xai",
         "source_type": "official_x",
         "title_en": "Grok Bot can now route VM egress through the user’s local machine",
-        "title_zh": "Grok Bot 可將 VM 出站流量改經使用者本機",
+        "title_zh": "Grok Bot 可將虛擬機出站流量改經使用者本機",
         "summary_en": "Musk confirmed that Grok Bot can route the agent VM’s outbound connections through the user’s local machine instead of a datacenter IP. The setting is described as Settings > Computer > Route egress, intended for sites that block datacenter ranges.",
-        "summary_zh": "馬斯克確認 Grok Bot 可把代理 VM 的出站連線改經使用者本機，而非資料中心 IP。設定路徑為 Settings > Computer > Route egress，針對封鎖資料中心網段的網站。",
+        "summary_zh": "馬斯克確認 Grok Bot 可把代理虛擬機的出站連線改走使用者本機，而非資料中心 IP。設定路徑為 Settings > Computer > Route egress，針對封鎖資料中心網段的網站。",
         "analysis_en": "This is a networking control for persistent agents, not a new model. It reduces a common blocker for logged-in sites, while shifting more of the trust boundary onto the user’s home network.",
-        "analysis_zh": "這是持久代理的網路控制，不是新模型。能減少登入站被擋的常見障礙，但也把更多信任邊界移到使用者家用網路。",
+        "analysis_zh": "這是持久代理的網路控制，不是新模型。可減少登入網站常見阻擋，但也把更多信任邊界移到使用者家用網路。",
         "quote": "Grok Bot now lets your route through your local machine",
         "quote_zh": "Grok Bot 現在可以讓你改走本機路由。",
         "importance": 3,
         "first_seen": "2026-09-14T10:49:55Z",
-        "updated_at": "2026-09-14T22:35:00.240423+00:00",
+        "updated_at": "2026-09-15T04:35:02.042537+00:00",
         "links": [
           {
-            "label": "Elon Musk on X",
+            "label": "Elon Musk on X (prior confirmation)",
             "url": "https://x.com/elonmusk"
           },
           {
@@ -451,21 +608,21 @@
         "id": "nvidia-perplexity-portable-computer-windows-2026-09-14",
         "story_id": "nvidia-perplexity-portable-computer-windows-2026-09-14",
         "category": "frontier_other",
-        "source_type": "official_blog",
+        "source_type": "mixed",
         "title_en": "NVIDIA: Perplexity Portable Computer lands on Windows RTX PCs (24GB+ VRAM)",
-        "title_zh": "NVIDIA：Perplexity Portable Computer 登陸 Windows RTX（需 24GB+ 顯示記憶體）",
-        "summary_en": "NVIDIA and Perplexity said Portable Computer is now in the Perplexity Windows app on GeForce RTX and RTX PRO GPUs with 24GB or more VRAM. The local agent runs harness, agents and a post-trained Qwen 3.8 27B on-device so completed local work stays on the PC.",
-        "summary_zh": "NVIDIA 與 Perplexity 表示 Portable Computer 已進入 Perplexity Windows 應用，支援 24GB 以上 VRAM 的 GeForce RTX 與 RTX PRO。本機代理在裝置上跑 harness、agents 與後訓練 Qwen 3.8 27B，完成的本機工作留在電腦上。",
+        "title_zh": "NVIDIA：Perplexity Portable Computer 登陸 24GB+ 顯示記憶體的 Windows RTX PC",
+        "summary_en": "NVIDIA and Perplexity said Portable Computer is now in the Perplexity Windows app on GeForce RTX and RTX PRO GPUs with 24GB or more VRAM. The local agent runs harness, agents and a post-trained Qwen 3.8 27B on-device so completed local work can stay off the cloud.",
+        "summary_zh": "NVIDIA 與 Perplexity 表示 Portable Computer 已進入 Perplexity Windows 應用，支援 24GB 以上顯示記憶體的 GeForce RTX 與 RTX PRO。本機代理在裝置上跑 harness、代理與後訓練 Qwen 3.8 27B，完成的本機工作可不上雲。",
         "analysis_en": "The story is local-agent distribution, not a new NVIDIA foundation model. Hardware floor (24GB VRAM) still limits who can actually run the stack privately.",
-        "analysis_zh": "重點是本機代理分發，不是新的 NVIDIA 基礎模型。24GB VRAM 門檻仍限制誰能真正私有化跑這套堆疊。",
+        "analysis_zh": "重點是本機代理通路，不是 NVIDIA 新基礎模型。24GB 顯示記憶體門檻仍限制誰能真正私有運行。",
         "quote": "Together with @Perplexity_AI, we’re making local AI more private, accessible and useful on @Windows NVIDIA RTX PCs.",
         "quote_zh": "我們與 Perplexity 合作，讓本機 AI 在搭載 NVIDIA RTX 的 Windows PC 上更私密、更容易取得、也更實用。",
         "importance": 3,
         "first_seen": "2026-09-14T15:07:45Z",
-        "updated_at": "2026-09-14T22:35:00.240423+00:00",
+        "updated_at": "2026-09-15T04:35:02.042537+00:00",
         "links": [
           {
-            "label": "NVIDIA / Perplexity announcement",
+            "label": "NVIDIA / Perplexity (product announcement)",
             "url": "https://www.nvidia.com/"
           },
           {
@@ -480,7 +637,7 @@
       }
     ]
   },
-  "brief_en": "Musk graded Grok 4.7 vs Opus 5.0 and said AGI is “Grok 5,” not 4.8. Altman framed pacing as safety cases before frontier RL, not a stop. X/SpaceXAI dropped Apple from the antitrust case but kept OpenAI. SoftBank closed an $11.87B OpenAI-related loan. ChatGPT tightened Health plugin defaults.",
-  "brief_zh": "馬斯克將 Grok 4.7 對標 Opus 5.0，並稱 AGI 看 Grok 5。奧特曼強調「放緩≠停訓」、RL 前寫安全論證。X/SpaceXAI 撤對蘋果反壟斷、續告 OpenAI。軟銀敲定 118.7 億美元 OpenAI 融資。ChatGPT 調整 Health 外掛預設權限。",
-  "updated_at": "2026-09-14T22:35:00.240423+00:00"
+  "brief_en": "Musk at All-In backed competitor peer-review before model release and restated the Grok 4.7–5 ladder. X/SpaceXAI dismissed Apple from the chatbot antitrust case and kept OpenAI. SoftBank closed an $11.87B OpenAI-linked loan. Altman said OpenAI writes pre-RL safety cases. NVIDIA put Perplexity Portable Computer on 24GB RTX PCs; Samsung SDS took Anthropic Claude Partner Select in Korea.",
+  "brief_zh": "馬斯克在 All-In 主張上市前由競爭對手互測模型，並重申 Grok 4.7–5 路線。X／SpaceXAI 撤回對蘋果反壟斷主張、續告 OpenAI。軟銀完成約 118.7 億美元 OpenAI 相關貸款。Altman 稱 OpenAI 在前沿 RL 前寫安全案例。NVIDIA 將 Perplexity 本機代理上 Windows RTX；三星 SDS 取得韓國首個 Claude Partner Select。",
+  "updated_at": "2026-09-15T04:35:02.042537+00:00"
 }
