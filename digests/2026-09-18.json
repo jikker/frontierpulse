@@ -16,6 +16,14 @@
       "item_count": 13,
       "updated_count": 7,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-09-18T04:35:01.245273+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 15,
+      "updated_count": 13,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -25,16 +33,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI introduces Astra for Law on GPT-6 Astra",
-      "title_zh": "OpenAI以GPT-6 Astra推出Astra for Law",
-      "summary_en": "OpenAI said Astra for Law is a legal foundation that pairs GPT-6 Astra with legal analysis settings, a Legal Search Index covering more than 230 million U.S. law URLs updated daily, and privacy controls for confidential client work. It is initially offered to selected firms via Trusted Access in ChatGPT and Codex, with API access coming soon; Harvey and Legora are named as API builders, alongside 26 partner plugins and 47 community plugins.",
-      "summary_zh": "OpenAI宣布Astra for Law是面向律所與法律科技的基礎產品，將GPT-6 Astra搭配法律分析設定、涵蓋逾2.3億筆美國法律網址且每日更新的Legal Search Index，以及機密客戶工作的隱私控管。初期透過ChatGPT與Codex的Trusted Access提供給選定律所，API即將開放；Harvey、Legora為具名API夥伴，另有26個夥伴外掛與47個社群外掛。",
-      "analysis_en": "This is a vertical packaging of an already-shipped frontier model, not a new base-model launch. The open question is whether the search index and plugins change billed legal work quality enough for firms to move off incumbent research platforms.",
-      "analysis_zh": "這是既有旗艦模型的垂直包裝，不是新底模發布。關鍵不確定性在於檢索索引與外掛能否讓律所在計費工作上真正離開既有法律研究平台。",
+      "title_zh": "OpenAI 以 GPT-6 Astra 推出 Astra for Law",
+      "summary_en": "OpenAI said Astra for Law is a legal foundation pairing GPT-6 Astra with legal analysis settings, a Legal Search Index covering more than 230 million U.S. law URLs updated daily, privacy controls for confidential client work, and 26 partner plugins plus 47 community plugins. It will first reach selected firms via Trusted Access in ChatGPT and Codex as GPT-6 Astra Law, with API access as gpt-6-astra-law coming soon.",
+      "summary_zh": "OpenAI 宣布 Astra for Law 是把 GPT-6 Astra 配上法律分析設定、每日更新、涵蓋逾 2.3 億筆美國法律網址的 Legal Search Index、機密客戶資料控管，以及 26 個夥伴外掛與 47 個社群外掛。首波經 Trusted Access 在 ChatGPT 與 Codex 提供給選定事務所，型號為 GPT-6 Astra Law，API 代號 gpt-6-astra-law 即將推出。",
+      "analysis_en": "This is a vertical packaging of an already-shipped frontier model, not a new base-model launch. Whether the index and plugins change billed legal work quality, and how tightly Trusted Access limits who can use it, remain unproven.",
+      "analysis_zh": "這是既有旗艦模型的垂直包裝，不是新的基礎模型發表。搜尋索引與外掛是否改變計費法律工作品質，以及 Trusted Access 實際涵蓋多廣，都尚未得到獨立驗證。",
       "quote": "Today, we’re introducing Astra for Law: a new foundation for law firms and legal technology companies to build AI products and workflows around their expertise.",
-      "quote_zh": "我們推出Astra for Law：讓律所與法律科技公司依自身專業打造AI產品與工作流的新基礎。",
+      "quote_zh": "今天我們推出 Astra for Law：供律師事務所與法律科技公司依自身專業打造 AI 產品與工作流程的新基礎。",
       "importance": 4,
       "first_seen": "2026-09-17T20:15:00Z",
-      "updated_at": "2026-09-17T22:35:01.850488+00:00",
+      "updated_at": "2026-09-18T04:35:01.245273+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -52,17 +60,21 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI publishes a framework for reporting model misalignment",
-      "title_zh": "OpenAI公布模型錯位（misalignment）揭露框架",
-      "summary_en": "OpenAI released a framework for tracking, investigating, and publicly disclosing model misalignment, saying examples need not cause harm or form a pattern to qualify. It inaugurated the process with six reports on unexpected or concerning behavior seen in training or evaluation over the prior six months, covering the model lifecycle from training through deployment.",
-      "summary_zh": "OpenAI發布追蹤、調查並公開揭露模型錯位的框架，強調案例不必已造成傷害或形成模式才符合揭露條件。並以過去六個月訓練或評估中觀察到的六份意外或令人憂慮行為報告啟動該流程，涵蓋訓練到部署的完整生命週期。",
-      "analysis_en": "This is a process announcement, not a capability launch: it tries to set a disclosure norm while other labs still report ad hoc. What remains unproven is whether the six cases are representative and whether the promised timelines hold on larger investigations.",
-      "analysis_zh": "這是流程宣告而非能力發布，試圖在其他實驗室仍採個案通報時立下揭露規範。尚未證明的是這六案是否具代表性，以及較大調查能否守住承諾時程。",
+      "title_zh": "OpenAI 公布模型錯位行為通報框架",
+      "summary_en": "OpenAI released a framework for tracking, investigating, and publicly disclosing model misalignment, saying examples need not cause harm or form a pattern to qualify. It inaugurated the process with six reports on unexpected or concerning behavior in training and evaluation.",
+      "summary_zh": "OpenAI 發布追蹤、調查並公開揭露模型錯位行為的框架，並稱案例不必已造成傷害或形成模式才算數。它以六份訓練與評估中的異常或令人擔憂行為報告作為首批案例。",
+      "analysis_en": "This is a process announcement, not a capability launch: it tries to set a disclosure norm while other labs still report ad hoc. What remains unproven is whether the six cases and the promised timelines become a durable public record.",
+      "analysis_zh": "這是流程宣告而非能力發表：它試圖建立揭露規範，而其他實驗室仍多為個案通報。六個案例與承諾時限能否成為可核對的公開紀錄，仍未可知。",
       "quote": "We are sharing a new framework for tracking, investigating, and disclosing instances of model misalignment at OpenAI, along with six reports on unexpected or concerning model behavior we’ve observed in the last six months.",
       "quote_zh": "我們公布OpenAI追蹤、調查並揭露模型錯位案例的新框架，並附上過去六個月觀察到的六份意外或令人憂慮行為報告。",
       "importance": 4,
       "first_seen": "2026-09-16T08:00:00Z",
-      "updated_at": "2026-09-17T22:35:01.850488+00:00",
+      "updated_at": "2026-09-18T04:35:01.245273+00:00",
       "links": [
+        {
+          "label": "OpenAI News",
+          "url": "https://openai.com/news/"
+        },
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/model-misalignment-reporting-framework/"
@@ -77,19 +89,23 @@
       "id": "anthropic-cowork-chat-merge-docs-slides-2026-09-16",
       "story_id": "anthropic-cowork-chat-merge-docs-slides-2026-09-16",
       "category": "anthropic",
-      "source_type": "official_blog",
+      "source_type": "product",
       "title_en": "Anthropic merges Cowork into Claude and launches Docs and Slides",
-      "title_zh": "Anthropic將Cowork併入Claude並推出Docs與Slides",
-      "summary_en": "Anthropic said Claude Cowork and chat are merging into one product so users no longer pick a mode: Claude decides whether a request is a quick reply or a longer agentic task and can keep working after the laptop closes. It also launched beta Claude Docs and Claude Slides, folded Claude Design into conversations, and is rolling the experience to Pro and Max first.",
-      "summary_zh": "Anthropic表示Claude Cowork與聊天將合併為單一產品，使用者不必再選模式：Claude自行判斷請求是快速回覆還是較長的代理任務，關筆電後仍可繼續。同時推出測試版Claude Docs與Claude Slides，並把Claude Design納入對話，先向Pro與Max推送。",
-      "analysis_en": "This is Anthropic’s answer to OpenAI’s work-suite bundling: one surface for chat, files, and multi-step jobs. The product bet is clear; what is not yet shown is reliability of auto-routing and how Team/Enterprise tenants will be migrated.",
-      "analysis_zh": "這是Anthropic對OpenAI工作套件綑綁的回應：同一介面處理聊天、檔案與多步驟任務。產品方向清楚，尚未證明的是自動分流穩定性，以及Team/Enterprise如何遷移。",
+      "title_zh": "Anthropic 將 Cowork 併入 Claude 並推出 Docs 與 Slides",
+      "summary_en": "Anthropic said Claude Cowork and chat are merging into one product so users no longer pick a mode: Claude decides whether a request is a quick reply or a longer agentic task and can keep working after the laptop closes. It also launched beta Docs and Slides surfaces for document and presentation work.",
+      "summary_zh": "Anthropic 表示 Claude Cowork 與對話將合併為單一產品，使用者不必再選模式：由 Claude 判斷是快速回覆或較長的代理任務，筆電闔上後仍可繼續做。同時推出 Docs 與 Slides 測試版，處理文件與簡報。",
+      "analysis_en": "This is Anthropic’s answer to OpenAI’s work-suite bundling: one surface for chat, files, and multi-step jobs. The product bet is clear; reliability of auto-routing and background work is not yet independently shown.",
+      "analysis_zh": "這是 Anthropic 對 OpenAI 工作套件綑綁的回應：把對話、檔案與多步驟任務放在同一介面。產品方向清楚，自動分流與背景作業的可靠度尚未被獨立驗證。",
       "quote": "Starting today, Claude Cowork and chat are merging into one Claude.",
       "quote_zh": "即日起，Claude Cowork與聊天合併為同一個Claude。",
       "importance": 4,
       "first_seen": "2026-09-16T08:00:00Z",
-      "updated_at": "2026-09-17T22:35:01.850488+00:00",
+      "updated_at": "2026-09-18T04:35:01.245273+00:00",
       "links": [
+        {
+          "label": "Claude product announcements",
+          "url": "https://claude.com/blog-category/announcements"
+        },
         {
           "label": "Claude Blog",
           "url": "https://claude.com/blog/cowork-is-now-claude"
@@ -106,20 +122,24 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic opens Life Sciences Verification Program",
-      "title_zh": "Anthropic開辦生命科學驗證計畫（LSVP）",
-      "summary_en": "Anthropic introduced the Life Sciences Verification Program, giving verified life-science teams more permissive safeguards on Mythos, Opus, and Sonnet for work that is blocked on generally available Fable models, including drug discovery and clinical development. The beta is open to teams and institutions after an early-access cohort; Standard Use and High-risk Use grants can be used across Claude Science, Claude.ai, Claude Code, and the API.",
-      "summary_zh": "Anthropic推出生命科學驗證計畫，讓通過驗證的生命科學團隊在Mythos、Opus與Sonnet上使用較寬鬆的防護，以進行一般Fable模型會擋下的藥物發現與臨床開發等工作。測試版在早期試用後向團隊與機構開放申請；Standard Use與High-risk Use授權可用於Claude Science、Claude.ai、Claude Code與API。",
-      "analysis_en": "The move treats biology dual-use as an access-control problem rather than a single global refusal policy. Enrollment quality and how High-risk Use is audited will decide whether this is a workable scientific channel or a leaky exception.",
-      "analysis_zh": "此舉把生物雙用途風險當成存取控管問題，而非全球一律拒答。計畫成敗取決於核驗品質，以及High-risk Use如何稽核。",
+      "title_zh": "Anthropic 開放生命科學驗證計畫",
+      "summary_en": "Anthropic introduced the Life Sciences Verification Program, giving verified life-science teams more permissive safeguards on Mythos, Opus, and Sonnet for work that is blocked on generally available Fable models, including drug discovery and research biology. The beta is open to teams; Standard Use and High-risk Use grants can run across Claude Science, Claude.ai, Claude Code, and the API.",
+      "summary_zh": "Anthropic 推出生命科學驗證計畫（LSVP），讓通過驗證的生命科學團隊在 Mythos、Opus、Sonnet 上使用較寬鬆的防護，以進行一般版 Fable 會擋下的工作，包括藥物發現與研究生物學。測試版先對團隊開放；Standard Use 與 High-risk Use 授權可用於 Claude Science、Claude.ai、Claude Code 與 API。",
+      "analysis_en": "The move treats biology dual-use as an access-control problem rather than a single global refusal policy. Enrollment quality and how High-risk Use is audited will decide whether the extra permission is usable science or a paper gate.",
+      "analysis_zh": "此舉把生物雙用途當成存取控制問題，而非全球一律拒答。核可品質與 High-risk Use 如何稽核，將決定這是可用的科學通道還是形式上的閘門。",
       "quote": "Today, we are introducing the Life Sciences Verification Program (LSVP), which gives life science professionals access to our Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.",
-      "quote_zh": "我們推出生命科學驗證計畫（LSVP），讓生命科學專業人員在較寬鬆、針對生物相關工作調整後的防護下使用Mythos、Opus與Sonnet。",
+      "quote_zh": "今天我們推出生命科學驗證計畫（LSVP），讓生命科學專業人員在 Mythos、Opus 與 Sonnet 上使用一組對生物相關工作較寬鬆的防護。",
       "importance": 4,
       "first_seen": "2026-09-17T08:00:00Z",
-      "updated_at": "2026-09-17T22:35:01.850488+00:00",
+      "updated_at": "2026-09-18T04:35:01.245273+00:00",
       "links": [
         {
-          "label": "Anthropic Newsroom",
+          "label": "Anthropic News",
           "url": "https://www.anthropic.com/news/life-sciences-verification-program"
+        },
+        {
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI"
         }
       ]
     },
@@ -129,17 +149,21 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI tests Sponsored Agents and expands ChatGPT ads tools",
-      "title_zh": "OpenAI測試Sponsored Agents並擴充ChatGPT廣告工具",
-      "summary_en": "OpenAI said it is testing Sponsored Agents that let users start a labeled conversation with a business-backed agent after clicking an ad in ChatGPT, kept separate from independent answers. It also added prompt-based campaign tools in ChatGPT Work and Ads Manager, plus HubSpot and Shopify integrations.",
-      "summary_zh": "OpenAI表示正在測試Sponsored Agents：使用者點擊ChatGPT廣告後，可與標示清楚的商家贊助代理展開對話，並與獨立回答分隔。同時在ChatGPT Work與Ads Manager加入以提示詞建立廣告活動的工具，以及HubSpot與Shopify整合。",
-      "analysis_en": "Ads are moving from static placements into agent conversations, which changes both monetization and trust. The test is limited; how clearly users can tell a sponsored agent from ChatGPT itself remains the trust variable.",
-      "analysis_zh": "廣告正從靜態版位進入代理對話，同時改寫變現與信任。測試範圍有限；使用者能否清楚分辨贊助代理與ChatGPT本身仍是信任變數。",
+      "title_zh": "OpenAI 測試 Sponsored Agents 並擴大 ChatGPT 廣告工具",
+      "summary_en": "OpenAI said it is testing Sponsored Agents that let users start a labeled conversation with a business-backed agent after clicking an ad in ChatGPT, kept separate from independent answers. It also added prompt-based campaign tools in ChatGPT Work and integrations with HubSpot and Shopify.",
+      "summary_zh": "OpenAI 表示正在測試 Sponsored Agents：使用者在 ChatGPT 點廣告後，可與標示清楚的企業代理對話，並與獨立回答分開。同時在 ChatGPT Work 加入以提示詞製作廣告活動的工具，以及 HubSpot、Shopify 整合。",
+      "analysis_en": "Ads are moving from static placements into agent conversations, which changes both monetization and trust. The test is limited; how clearly users can tell a sponsored agent from ChatGPT remains the open risk.",
+      "analysis_zh": "廣告正從靜態版位進入代理對話，同時改變變現與信任。測試範圍有限；使用者能否清楚分辨贊助代理與 ChatGPT 本身，仍是主要風險。",
       "quote": "We’re testing Sponsored Agents, which let people start a conversation with a business-sponsored agent after clicking an ad in ChatGPT.",
       "quote_zh": "我們正在測試Sponsored Agents，讓使用者在ChatGPT點擊廣告後，與商家贊助的代理展開對話。",
       "importance": 3,
       "first_seen": "2026-09-16T08:00:00Z",
-      "updated_at": "2026-09-17T22:35:01.850488+00:00",
+      "updated_at": "2026-09-18T04:35:01.245273+00:00",
       "links": [
+        {
+          "label": "OpenAI News",
+          "url": "https://openai.com/news/"
+        },
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/reimagining-advertising-with-ai/"
@@ -156,20 +180,24 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic proposes public metrics for lab AI R&D pace",
-      "title_zh": "Anthropic提出可公開的實驗室AI研發節奏指標",
-      "summary_en": "Anthropic published proposed measurements so outsiders can see the pace of AI development inside frontier labs. As of August 2026 it reported Claude is not fully autonomous on any measured AI R&D subset, “leads” 26% of Anthropic’s AI R&D work, collaborates on more than 90% of that work, and that about 30,000 agents were active on its main internal platform, with 0.002% of analyzed decisions blocked by monitors.",
-      "summary_zh": "Anthropic公布一套擬議指標，讓外界看見前沿實驗室內部的AI研發節奏。截至2026年8月，它表示Claude在任何已量測的AI研發子集上尚未完全自主、「主導」26%的Anthropic AI研發工作、超過90%達到協作水準，主內部平台約有3萬個代理在跑，受監測決策中約0.002%被阻擋。",
-      "analysis_en": "Self-reported internals are more transparency than most labs offer, but they are not independently audited. The series only becomes a pacing tool if peers publish comparable numbers on the same definitions.",
-      "analysis_zh": "自行公布內部數據已比多數實驗室透明，但未經獨立稽核。只有同業用同一套定義公布可比數字，這套指標才可能成為真正的節奏工具。",
-      "quote": "Today, the world can’t see what’s going on inside AI labs. Anthropic is proposing new metrics that would give the public visibility into frontier AI development.",
-      "quote_zh": "今日外界看不見AI實驗室內部發生什麼。Anthropic提出新指標，讓公眾能看見前沿AI發展。",
+      "title_zh": "Anthropic 提出實驗室 AI 研發節奏的公開指標",
+      "summary_en": "Anthropic published proposed measurements so outsiders can see the pace of AI development inside frontier labs. As of August 2026 it reported Claude is not fully autonomous on any measured AI R&D subset, “leads” 26% of Anthropic’s AI R&D work, collaborates on more than 90%, and that about 30,000 agents were doing research and engineering on its main internal platform.",
+      "summary_zh": "Anthropic 公布建議指標，讓外界看見前線實驗室內部的 AI 發展節奏。截至 2026 年 8 月，它回報 Claude 在任何受測的 AI 研發子集上尚未完全自主、「主導」26% 的 Anthropic AI 研發工作、超過 90% 屬協作，且主要內部平台上約有 3 萬個代理在做研究與工程。",
+      "analysis_en": "Self-reported internals are more transparency than most labs offer, but they are not independently audited. The series only becomes a pacing tool if peers publish comparable numbers.",
+      "analysis_zh": "自行揭露內部數據已比多數實驗室透明，但未經獨立稽核。唯有同業公布可比較數字，這套指標才可能成為節奏工具。",
+      "quote": "As the world considers pacing the frontier, we should do everything possible to minimize the gap between what frontier labs know and what the public knows.",
+      "quote_zh": "當世界在思考如何為前線發展定節奏時，我們應盡一切可能縮小前線實驗室所知與公眾所知之間的落差。",
       "importance": 3,
       "first_seen": "2026-09-17T08:00:00Z",
-      "updated_at": "2026-09-17T22:35:01.850488+00:00",
+      "updated_at": "2026-09-18T04:35:01.245273+00:00",
       "links": [
         {
           "label": "Anthropic Institute",
           "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
+        },
+        {
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI"
         }
       ]
     },
@@ -179,20 +207,51 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic says Claude sped up 30+ biomolecular models",
-      "title_zh": "Anthropic稱Claude加速逾30個生物分子模型",
-      "summary_en": "Anthropic reported that Claude optimized more than 30 open-source biomolecular models in under four weeks, speeding them about 4x on average and adding a low-memory mode for systems larger than 10,000 tokens on one NVIDIA GPU node. It is open-sourcing the optimized code and launching a protein-design competition with Adaptyv Bio, with up to $1 million in Claude credits and wet-lab validation for over 5,000 designs.",
-      "summary_zh": "Anthropic表示Claude在不到四週內優化逾30個開源生物分子模型，平均加速約4倍，並新增可在單一NVIDIA GPU節點上處理逾1萬token系統的低記憶體模式。公司將開源優化程式碼，並與Adaptyv Bio舉辦蛋白質設計競賽，提供最高100萬美元Claude額度，以及逾5,000件設計的濕實驗驗證。",
-      "analysis_en": "The claim is engineering uplift of existing scientific models, not a new foundation model. Independent reproduction of the speedups and how many competition designs actually work in wet lab will decide whether this is a methods story or a marketing wrapper around LSVP.",
-      "analysis_zh": "這是既有科學模型的工程加速，不是新基礎模型。加速數字能否獨立復現、以及競賽設計有多少能通過濕實驗，將決定這是方法學成果還是LSVP的行銷包裝。",
+      "title_zh": "Anthropic 稱 Claude 加速 30 餘個生物分子模型",
+      "summary_en": "Anthropic reported that Claude optimized more than 30 open-source biomolecular models in under four weeks, speeding them about 4x on average and adding a low-memory mode for systems larger than 10,000 tokens on one NVIDIA GPU node. It is open-sourcing the code and pairing with Adaptyv Bio to wet-lab validate more than 5,000 designs, with up to $1 million in Claude credits.",
+      "summary_zh": "Anthropic 表示 Claude 在不到四週內優化逾 30 個開源生物分子模型，平均約快 4 倍，並為超過 1 萬 token 的系統在單一 NVIDIA GPU 節點上加入低記憶體模式。公司開源相關程式碼，並與 Adaptyv Bio 合作實驗驗證逾 5,000 個設計，另提供最高 100 萬美元 Claude 額度。",
+      "analysis_en": "The claim is engineering uplift of existing scientific models, not a new foundation model. Independent reproduction of the speedups and how many competition designs actually work in the lab are the tests that matter.",
+      "analysis_zh": "這是對既有科學模型的工程加速，不是新的基礎模型。獨立重現加速幅度、以及競賽設計有多少能在實驗室成立，才是關鍵檢驗。",
       "quote": "Claude optimized more than 30 of these models in just under four weeks, speeding them up roughly 4x on average.",
-      "quote_zh": "Claude在不到四週內優化了其中逾30個模型，平均加速約4倍。",
+      "quote_zh": "Claude 在不到四週內優化了其中 30 多個模型，平均約加速 4 倍。",
       "importance": 3,
       "first_seen": "2026-09-17T08:00:00Z",
-      "updated_at": "2026-09-17T22:35:01.850488+00:00",
+      "updated_at": "2026-09-18T04:35:01.245273+00:00",
       "links": [
         {
-          "label": "Anthropic Research",
+          "label": "Anthropic Science Blog",
           "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"
+        },
+        {
+          "label": "GitHub code",
+          "url": "https://github.com/anthropics/uplifting-biomolecular-modeling"
+        }
+      ]
+    },
+    {
+      "id": "google-un-data-commons-2026-09-17",
+      "story_id": "google-un-data-commons-2026-09-17",
+      "category": "google",
+      "source_type": "official_blog",
+      "title_en": "Google and the UN launch AI-ready System Data Commons",
+      "title_zh": "Google 與聯合國推出可供 AI 使用的 System Data Commons",
+      "summary_en": "Google said the UN system launched UN System Data Commons, an open-source, AI-ready knowledge graph built on Data Commons by Google that unifies siloed UN statistics for natural-language queries and visualizations at data.un.org. It supports MCP so agents can fetch figures; 26 UN entities have committed, with a goal of about 80% of UN statistical datasets by 2027.",
+      "summary_zh": "Google 表示聯合國系統推出 UN System Data Commons：以 Google Data Commons 打造的開源、可供 AI 使用的知識圖譜，把分散的聯合國統計整成可自然語言查詢與視覺化的資源，位於 data.un.org。平台支援 MCP 供代理人取數；26 個聯合國實體已承諾加入，目標 2027 年前涵蓋約 80% 統計資料集。",
+      "analysis_en": "This is infrastructure for grounding agents in official statistics, not a Gemini model ship. Coverage gaps, governance of the UN-hosted instance, and whether models actually cite the graph instead of hallucinating numbers will decide its value.",
+      "analysis_zh": "這是讓代理人能引用官方統計的基礎設施，不是 Gemini 模型發表。資料涵蓋缺口、聯合國託管實例的治理，以及模型是否真的引用圖譜而非捏造數字，將決定其實用性。",
+      "quote": "UN System Data Commons is an open, AI-ready platform integrating critical global statistics into a single searchable resource.",
+      "quote_zh": "UN System Data Commons 是開放、可供 AI 使用的平台，把關鍵全球統計整合成單一可搜尋資源。",
+      "importance": 3,
+      "first_seen": "2026-09-17T08:00:00Z",
+      "updated_at": "2026-09-18T04:35:01.245273+00:00",
+      "links": [
+        {
+          "label": "Google Keyword Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/"
         }
       ]
     },
@@ -200,19 +259,23 @@
       "id": "google-deepmind-institute-agi-2026-09-16",
       "story_id": "google-deepmind-institute-agi-2026-09-16",
       "category": "google",
-      "source_type": "news",
+      "source_type": "mixed",
       "title_en": "DeepMind Institute launches public AGI essays",
-      "title_zh": "DeepMind Institute推出公開AGI論文論壇",
-      "summary_en": "Axios reported that the DeepMind Institute launched Wednesday as a forum for Google, DeepMind, and outside researchers on AGI’s societal effects, led by Shane Legg with James Manyika and Demis Hassabis. The institute site published inaugural essays on economic policy, reasoning transparency, global access, and human flourishing, with a disclaimer that authors’ views are not Google policy.",
-      "summary_zh": "Axios報導DeepMind Institute於週三成立，作為Google、DeepMind與外部研究者討論AGI社會影響的論壇，由Shane Legg擔任主編，James Manyika與Demis Hassabis共同領導。機構網站發表經濟政策、推理透明度、全球近用與人類繁榮等創刊文章，並聲明作者觀點不代表Google政策。",
+      "title_zh": "DeepMind Institute 推出公開 AGI 論文集",
+      "summary_en": "Google and Google DeepMind researchers launched the DeepMind Institute as a forum on AGI’s societal effects, led by Shane Legg with James Manyika and Demis Hassabis. The institute published inaugural essays on economic policy, reasoning transparency, human flourishing, and frontier-model evaluation.",
+      "summary_zh": "Google 與 Google DeepMind 研究者成立 DeepMind Institute，作為討論 AGI 社會影響的論壇，由 Shane Legg 擔任主編，James Manyika 與 Demis Hassabis 共同指導。創刊論文涵蓋經濟政策、推理透明度、人類繁榮與前線模型評估。",
       "analysis_en": "This is governance-and-ideas infrastructure, not a model ship. It puts DeepMind’s AGI timeline claims next to policy essays, but the institute itself does not bind product releases.",
-      "analysis_zh": "這是治理與思想基礎設施，不是模型發布。它把DeepMind的AGI時程主張與政策文章放在一起，但機構本身不約束產品上線。",
-      "quote": "The institute was created because broad-based intellectual discussion and debate are required to arrive at a consensus about how to address the challenges and opportunities we face as a society.",
-      "quote_zh": "成立此機構是因為需要廣泛的智識討論與辯論，才能就社會面臨的挑戰與機會形成共識。",
+      "analysis_zh": "這是治理與思想基礎設施，不是模型交付。它把 DeepMind 的 AGI 時程主張與政策文章放在一起，但研究所本身不約束產品發布。",
+      "quote": "They will not always agree, and they will likely change their minds, as more data and information comes to light at the fast-moving frontier.",
+      "quote_zh": "他們不會總是同意，也很可能改變想法，因為快速變動的前線會帶來更多資料與資訊。",
       "importance": 3,
       "first_seen": "2026-09-16T17:13:00Z",
-      "updated_at": "2026-09-17T22:35:01.850488+00:00",
+      "updated_at": "2026-09-18T04:35:01.245273+00:00",
       "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/"
+        },
         {
           "label": "Axios",
           "url": "https://www.axios.com/2026/09/16/google-deepmind-institute-agi"
@@ -224,21 +287,48 @@
       ]
     },
     {
+      "id": "nvidia-aema-grid-2026-09-16",
+      "story_id": "nvidia-aema-grid-2026-09-16",
+      "category": "frontier_other",
+      "source_type": "official_blog",
+      "title_en": "NVIDIA, Google, and Emerald AI launch grid-flexibility alliance",
+      "title_zh": "NVIDIA、Google 與 Emerald AI 成立電網彈性聯盟",
+      "summary_en": "NVIDIA said Emerald AI, Google, and NVIDIA launched the AI Energy Management Alliance to promote data centers that can cut or shift electricity use when the grid is strained. Anthropic and utilities including AES, Constellation, National Grid, and NRG joined as launch partners; the group argues flexibility could free large amounts of interconnection capacity.",
+      "summary_zh": "NVIDIA 表示 Emerald AI、Google 與 NVIDIA 成立 AI Energy Management Alliance，推動能在電網吃緊時減載或轉移用電的資料中心。Anthropic 與 AES、Constellation、National Grid、NRG 等電力業者為首發夥伴；聯盟主張彈性負載可釋出大量併網容量。",
+      "analysis_en": "Power, not a model card, is the constraint this coalition is trying to rewrite. Whether utilities actually interconnect more load because of software demand response is still a policy and operations question.",
+      "analysis_zh": "這次聯盟要改寫的是電力約束，而非模型規格。公用事業會不會因為軟體需量反應就核准更多負載併網，仍是政策與營運問題。",
+      "quote": "Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their electricity use in response to grid conditions.",
+      "quote_zh": "今天 Emerald AI、Google 與 NVIDIA 宣布成立 AI Energy Management Alliance（AEMA），推動能依電網狀態動態管理用電的資料中心。",
+      "importance": 3,
+      "first_seen": "2026-09-16T21:00:00Z",
+      "updated_at": "2026-09-18T04:35:01.245273+00:00",
+      "links": [
+        {
+          "label": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/"
+        }
+      ]
+    },
+    {
       "id": "mozilla-mistral-firefox-smart-window-2026-09-16",
       "story_id": "mozilla-mistral-firefox-smart-window-2026-09-16",
       "category": "frontier_other",
       "source_type": "official_blog",
       "title_en": "Mozilla and Mistral put Mistral Small 4 in Firefox Smart Window",
-      "title_zh": "Mozilla與Mistral將Mistral Small 4放入Firefox Smart Window",
-      "summary_en": "Mozilla and Mistral announced that Mistral Small 4 will power Firefox Smart Window beta in the U.S. and Canada, with Smart Window beta and French-language support expanding in France. Both companies framed the deal as an open-source alternative to Big Tech default browser AI.",
-      "summary_zh": "Mozilla與Mistral宣布Mistral Small 4將驅動美國與加拿大的Firefox Smart Window測試版，並在法國擴大Smart Window測試與法文支援。雙方將此合作定位為對抗大科技預設瀏覽器AI的開源替代方案。",
-      "analysis_en": "Distribution, not a new frontier model, is the story: an open-weight lab gains a browser channel. Actual usage, latency, and whether UK/Germany follow later this year are the open questions.",
-      "analysis_zh": "故事在通路而非新前沿模型：開權重實驗室拿到瀏覽器渠道。實際用量、延遲，以及今年稍後英國／德國是否跟進仍待觀察。",
+      "title_zh": "Mozilla 與 Mistral 將 Mistral Small 4 放入 Firefox Smart Window",
+      "summary_en": "Mozilla and Mistral announced that Mistral Small 4 will power Firefox Smart Window beta in the U.S. and Canada, with Smart Window beta and French-language support expanding in France. Both companies framed the deal as an open-source alternative inside the browser.",
+      "summary_zh": "Mozilla 與 Mistral 宣布 Mistral Small 4 將為美國與加拿大的 Firefox Smart Window 測試版提供模型，並在法國擴大 Smart Window 測試與法文支援。雙方將此合作定位為瀏覽器內的開源替代方案。",
+      "analysis_en": "Distribution, not a new frontier model, is the story: an open-weight lab gains a browser channel. Actual usage, latency, and whether other countries follow are the open questions.",
+      "analysis_zh": "重點是通路而非新的前線模型：開權重實驗室拿到瀏覽器渠道。實際用量、延遲與其他國家是否跟進，仍待觀察。",
       "quote": "Mistral Small 4 is coming to Firefox Smart Window beta, becoming a new AI model for Smart Window users in the US and Canada.",
-      "quote_zh": "Mistral Small 4將進入Firefox Smart Window測試版，成為美國與加拿大Smart Window使用者的新AI模型。",
+      "quote_zh": "Mistral Small 4 將進入 Firefox Smart Window 測試版，成為美國與加拿大 Smart Window 使用者的新 AI 模型。",
       "importance": 3,
       "first_seen": "2026-09-16T08:00:00Z",
-      "updated_at": "2026-09-17T22:35:01.850488+00:00",
+      "updated_at": "2026-09-18T04:35:01.245273+00:00",
       "links": [
         {
           "label": "Mozilla Blog",
@@ -256,17 +346,21 @@
       "category": "anthropic",
       "source_type": "product",
       "title_en": "Anthropic redesigns Claude Projects as a conversation",
-      "title_zh": "Anthropic將Claude Projects改為對話式專案",
-      "summary_en": "Anthropic began rolling out a redesigned Projects model in which a project is one conversation that splits work into parallel cloud threads. Help Center and product pages say the beta starts with select Pro and Max Claude Code users, existing chat/Cowork projects keep working, and Team/Enterprise follow later.",
-      "summary_zh": "Anthropic開始推送改版Projects：一個專案就是一段對話，工作會拆成平行雲端執行緒。說明中心與產品頁指出測試版先給部分Pro與Max的Claude Code使用者，既有聊天／Cowork專案仍可用，Team／Enterprise稍後跟進。",
+      "title_zh": "Anthropic 把 Claude Projects 改成單一對話",
+      "summary_en": "Anthropic began rolling out a redesigned Projects model in which a project is one conversation that splits work into parallel cloud threads. Product pages say the beta starts with select Pro and Max Claude Code users.",
+      "summary_zh": "Anthropic 開始推出重新設計的 Projects：一個專案即一段對話，並把工作拆成平行雲端執行緒。產品頁指出測試版先給部分 Pro 與 Max 的 Claude Code 使用者。",
       "analysis_en": "This is the operational follow-through of the Cowork merge: persistent multi-thread work instead of a folder of chats. Coverage is still gated, so it is not yet a default Claude behavior.",
-      "analysis_zh": "這是Cowork合併後的操作落地：用持久多執行緒取代聊天資料夾。目前仍分批開放，尚非Claude預設行為。",
+      "analysis_zh": "這是 Cowork 合併後的操作落地：持久的多執行緒工作，而不是一堆聊天資料夾。目前仍限量，還不是 Claude 的預設行為。",
       "quote": "In the new version, a project is one conversation: you say what you need as it comes to you, and Claude breaks the work into parallel threads that run in the cloud.",
       "quote_zh": "新版中，專案就是一段對話：你想到什麼就說什麼，Claude把工作拆成在雲端平行跑的執行緒。",
       "importance": 3,
       "first_seen": "2026-09-17T08:00:00Z",
-      "updated_at": "2026-09-17T22:35:01.850488+00:00",
+      "updated_at": "2026-09-18T04:35:01.245273+00:00",
       "links": [
+        {
+          "label": "Claude product announcements",
+          "url": "https://claude.com/blog-category/announcements"
+        },
         {
           "label": "Claude Help Center",
           "url": "https://support.claude.com/en/articles/9517075-what-are-projects"
@@ -283,16 +377,16 @@
       "category": "meta",
       "source_type": "official_blog",
       "title_en": "Meta introduces Meta One subscription across its apps",
-      "title_zh": "Meta在旗下App推出Meta One訂閱",
-      "summary_en": "Meta’s newsroom said it is introducing Meta One, a paid subscription on Facebook, Instagram, WhatsApp, and Meta AI that adds more AI usage, expression features, and tools for creators and businesses. Reuters reported monthly plans starting at $2.99 for single products and higher bundles, with core apps and basic Meta AI remaining free.",
-      "summary_zh": "Meta新聞室宣布推出Meta One，在Facebook、Instagram、WhatsApp與Meta AI提供付費訂閱，增加AI用量、表達功能以及創作者與商家工具。路透報導單產品月費自2.99美元起、另有較高組合方案，核心App與基本Meta AI維持免費。",
-      "analysis_en": "Meta is packaging AI quota and creator tools as a cross-app SKU. That matters for how Muse/Meta AI is monetized; it does not by itself change the open-weight Llama or hosted Muse models.",
-      "analysis_zh": "Meta把AI配額與創作者工具包成跨App商品。這影響Muse／Meta AI變現，本身並不改變開權重Llama或託管Muse模型。",
+      "title_zh": "Meta 推出跨應用訂閱 Meta One",
+      "summary_en": "Meta’s newsroom said it is introducing Meta One, a paid subscription on Facebook, Instagram, WhatsApp, and Meta AI that adds more AI usage, expression features, and tools for creators and businesses. Reuters reported monthly plans starting at $2.99 for single products.",
+      "summary_zh": "Meta 新聞室表示推出 Meta One，在 Facebook、Instagram、WhatsApp 與 Meta AI 上提供付費訂閱，增加 AI 用量、表達功能以及創作者與商家工具。路透報導單項方案月費起跳 2.99 美元。",
+      "analysis_en": "Meta is packaging AI quota and creator tools as a cross-app SKU. That matters for how Muse/Meta AI is monetized; it does not by itself change the open-weight Llama or hosted Muse model roster.",
+      "analysis_zh": "Meta 把 AI 配額與創作者工具包成跨應用商品。這影響 Muse／Meta AI 的變現，本身並不改變開權重 Llama 或託管 Muse 的模型名單。",
       "quote": "We’re introducing Meta One, a new subscription service on Facebook, Instagram, WhatsApp, and Meta AI that offers more AI usage, enhanced expression features, and tools for creators and businesses.",
-      "quote_zh": "我們推出Meta One，在Facebook、Instagram、WhatsApp與Meta AI提供新訂閱服務，帶來更多AI用量、強化表達功能，以及創作者與商家工具。",
+      "quote_zh": "我們推出 Meta One，在 Facebook、Instagram、WhatsApp 與 Meta AI 上提供更多 AI 用量、強化表達功能以及創作者與商家工具。",
       "importance": 2,
       "first_seen": "2026-09-15T08:00:00Z",
-      "updated_at": "2026-09-17T22:35:01.850488+00:00",
+      "updated_at": "2026-09-18T04:35:01.245273+00:00",
       "links": [
         {
           "label": "Meta Newsroom",
@@ -308,19 +402,23 @@
       "id": "xai-grok-bot-galaxy-2026-09-17",
       "story_id": "xai-grok-bot-galaxy-2026-09-17",
       "category": "xai",
-      "source_type": "official_blog",
-      "title_en": "xAI closes three-day Grok Bot Galaxy event",
-      "title_zh": "xAI結束為期三天的Grok Bot Galaxy活動",
-      "summary_en": "xAI’s Grok Bot Galaxy event ran September 15–17 in San Francisco and on livestream, with role-specific sessions on engineering, sales, support, and marketing plus a live build using Grok Bot. Official docs for Grok Bot security and computer use remain the product surface; no official Grok 4.7 model page shipped with the close of the event.",
-      "summary_zh": "xAI的Grok Bot Galaxy活動於9月15–17日在舊金山與直播舉行，含工程、銷售、客服、行銷分場，以及用Grok Bot現場打造產品。官方文件仍是Grok Bot安全與電腦使用說明；活動結束並未伴隨官方Grok 4.7模型頁面上線。",
-      "analysis_en": "This is a go-to-market and ops push for hosted agents, not a named model release. Quota-page rumors of Grok 4.7 are not an official ship until xAI posts a model card or changelog.",
-      "analysis_zh": "這是託管代理的市場與營運推廣，不是具名模型發布。雲端配額頁上的Grok 4.7傳聞，在xAI放出模型卡或更新日誌前不能視為正式出貨。",
-      "quote": "Grok Bot is your team of extraordinarily capable AI agents. See it in action at this three day event featuring live demos and hands-on build sessions.",
-      "quote_zh": "Grok Bot是一組能力極強的AI代理團隊。在這場為期三天、含現場示範與實作的活動中看它實際運作。",
+      "source_type": "official_x",
+      "title_en": "xAI closes Grok Bot Galaxy and adds voice to Grok Bot",
+      "title_zh": "xAI 結束 Grok Bot Galaxy 並為 Grok Bot 加上語音",
+      "summary_en": "xAI’s Grok Bot Galaxy event ran September 15–17 in San Francisco and on livestream, with role-specific sessions plus a live build using Grok Bot. After the wrap, Grok Bot posted that it can talk and Elon Musk wrote that Grok Bot now has a voice. Quota-page rumors of Grok 4.7 were still not an official model-card ship.",
+      "summary_zh": "xAI 的 Grok Bot Galaxy 活動於 9 月 15–17 日在舊金山與直播進行，含各職能場次與現場用 Grok Bot 做產品。活動結束後 Grok Bot 發文稱已能說話，Elon Musk 寫道 Grok Bot 現已有語音。雲端配額頁上的 Grok 4.7 傳聞仍非正式模型卡發表。",
+      "analysis_en": "This remains a go-to-market and product-surface push for hosted agents, not a named base-model release. Voice is a feature add; Grok 4.7 is not official until xAI posts a changelog or model card.",
+      "analysis_zh": "這仍是託管代理的市場與產品面推進，不是具名基礎模型發表。語音是功能增量；在 xAI 放出更新日誌或模型卡之前，Grok 4.7 仍非正式出貨。",
+      "quote": "Grok @Bot now has a voice",
+      "quote_zh": "Grok Bot 現在有聲音了",
       "importance": 2,
       "first_seen": "2026-09-17T08:00:00Z",
-      "updated_at": "2026-09-17T22:35:01.850488+00:00",
+      "updated_at": "2026-09-18T04:35:01.245273+00:00",
       "links": [
+        {
+          "label": "Elon Musk on X",
+          "url": "https://x.com/elonmusk/status/2100698004210475317"
+        },
         {
           "label": "xAI Galaxy",
           "url": "https://x.ai/galaxy"
@@ -341,17 +439,25 @@
       "category": "openai",
       "source_type": "product",
       "title_en": "OpenAI adds ChatGPT sidebar inside Microsoft Word",
-      "title_zh": "OpenAI讓ChatGPT進入Microsoft Word側欄",
-      "summary_en": "OpenAI’s ChatGPT release notes for September 17 said ChatGPT is now available in Microsoft Word via the same Microsoft add-in already used for Excel and PowerPoint. Users can draft from notes, summarize, revise selected text, and adjust headings; it is listed for all ChatGPT plans including Free, subject to each plan’s token limits.",
-      "summary_zh": "OpenAI 9月17日ChatGPT版本說明指出，ChatGPT已透過與Excel、PowerPoint相同的Microsoft增益集進入Word。使用者可從筆記起草、摘要、改寫選取文字並調整標題；所有方案含免費版皆可用，但仍受各方案token上限約束。",
-      "analysis_en": "Distribution into Word matters more than the feature list. It does not change the underlying model roster; GPT-5.5 retirement on October 14 remains a separate Codex/ChatGPT changelog item.",
-      "analysis_zh": "進入Word的通路比功能清單更重要。這不改底模名單；10月14日GPT-5.5從ChatGPT／Codex退役仍是另一則更新。",
-      "quote": "ChatGPT is now available in Microsoft Word. You can draft from notes, summarize a document, revise selected text, and adjust headings and formatting from the ChatGPT sidebar.",
-      "quote_zh": "ChatGPT現已可用於Microsoft Word。可從筆記起草、摘要文件、改寫選取文字，並從側欄調整標題與格式。",
+      "title_zh": "OpenAI 在 Microsoft Word 加入 ChatGPT 側欄",
+      "summary_en": "OpenAI’s September 17 ChatGPT notes said ChatGPT is now available in Microsoft Word via the same Microsoft add-in already used for Excel and PowerPoint. Users can draft from notes, summarize, revise selected text, and adjust headings; OpenAI said it is available across plans including Free, with plan token limits.",
+      "summary_zh": "OpenAI 9 月 17 日的 ChatGPT 更新指出，ChatGPT 已透過既有的 Microsoft 增益集進入 Word，與 Excel、PowerPoint 相同。使用者可依筆記起草、摘要、改寫選取文字並調整標題；OpenAI 稱含免費方案在內皆可用，受各方案 token 上限限制。",
+      "analysis_en": "Distribution into Word matters more than the feature list. It does not change the underlying model roster; GPT-5.5 retirement on October 14 remains a separate Codex/ChatGPT changelog.",
+      "analysis_zh": "進入 Word 的通路比功能清單更重要。這不改變底層模型名單；10 月 14 日淘汰 GPT-5.5 仍是另一則 Codex／ChatGPT 更新。",
+      "quote": "You can add ChatGPT to Microsoft Word to turn rough notes into first drafts, fix formatting issues, proofread, and get suggested edits—all without leaving your document.",
+      "quote_zh": "你可以在 Microsoft Word 加入 ChatGPT，把粗糙筆記變成初稿、修正格式、校對並取得修改建議——不必離開文件。",
       "importance": 2,
       "first_seen": "2026-09-17T08:00:00Z",
-      "updated_at": "2026-09-17T22:35:01.850488+00:00",
+      "updated_at": "2026-09-18T04:35:01.245273+00:00",
       "links": [
+        {
+          "label": "ChatGPT for Word",
+          "url": "https://chatgpt.com/apps/word/"
+        },
+        {
+          "label": "OpenAI YouTube",
+          "url": "https://www.youtube.com/watch?v=lxVMdEpe0RQ"
+        },
         {
           "label": "ChatGPT Release Notes",
           "url": "https://help.openai.com/articles/6825453-chatgpt-release-notes"
@@ -367,16 +473,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI introduces Astra for Law on GPT-6 Astra",
-        "title_zh": "OpenAI以GPT-6 Astra推出Astra for Law",
-        "summary_en": "OpenAI said Astra for Law is a legal foundation that pairs GPT-6 Astra with legal analysis settings, a Legal Search Index covering more than 230 million U.S. law URLs updated daily, and privacy controls for confidential client work. It is initially offered to selected firms via Trusted Access in ChatGPT and Codex, with API access coming soon; Harvey and Legora are named as API builders, alongside 26 partner plugins and 47 community plugins.",
-        "summary_zh": "OpenAI宣布Astra for Law是面向律所與法律科技的基礎產品，將GPT-6 Astra搭配法律分析設定、涵蓋逾2.3億筆美國法律網址且每日更新的Legal Search Index，以及機密客戶工作的隱私控管。初期透過ChatGPT與Codex的Trusted Access提供給選定律所，API即將開放；Harvey、Legora為具名API夥伴，另有26個夥伴外掛與47個社群外掛。",
-        "analysis_en": "This is a vertical packaging of an already-shipped frontier model, not a new base-model launch. The open question is whether the search index and plugins change billed legal work quality enough for firms to move off incumbent research platforms.",
-        "analysis_zh": "這是既有旗艦模型的垂直包裝，不是新底模發布。關鍵不確定性在於檢索索引與外掛能否讓律所在計費工作上真正離開既有法律研究平台。",
+        "title_zh": "OpenAI 以 GPT-6 Astra 推出 Astra for Law",
+        "summary_en": "OpenAI said Astra for Law is a legal foundation pairing GPT-6 Astra with legal analysis settings, a Legal Search Index covering more than 230 million U.S. law URLs updated daily, privacy controls for confidential client work, and 26 partner plugins plus 47 community plugins. It will first reach selected firms via Trusted Access in ChatGPT and Codex as GPT-6 Astra Law, with API access as gpt-6-astra-law coming soon.",
+        "summary_zh": "OpenAI 宣布 Astra for Law 是把 GPT-6 Astra 配上法律分析設定、每日更新、涵蓋逾 2.3 億筆美國法律網址的 Legal Search Index、機密客戶資料控管，以及 26 個夥伴外掛與 47 個社群外掛。首波經 Trusted Access 在 ChatGPT 與 Codex 提供給選定事務所，型號為 GPT-6 Astra Law，API 代號 gpt-6-astra-law 即將推出。",
+        "analysis_en": "This is a vertical packaging of an already-shipped frontier model, not a new base-model launch. Whether the index and plugins change billed legal work quality, and how tightly Trusted Access limits who can use it, remain unproven.",
+        "analysis_zh": "這是既有旗艦模型的垂直包裝，不是新的基礎模型發表。搜尋索引與外掛是否改變計費法律工作品質，以及 Trusted Access 實際涵蓋多廣，都尚未得到獨立驗證。",
         "quote": "Today, we’re introducing Astra for Law: a new foundation for law firms and legal technology companies to build AI products and workflows around their expertise.",
-        "quote_zh": "我們推出Astra for Law：讓律所與法律科技公司依自身專業打造AI產品與工作流的新基礎。",
+        "quote_zh": "今天我們推出 Astra for Law：供律師事務所與法律科技公司依自身專業打造 AI 產品與工作流程的新基礎。",
         "importance": 4,
         "first_seen": "2026-09-17T20:15:00Z",
-        "updated_at": "2026-09-17T22:35:01.850488+00:00",
+        "updated_at": "2026-09-18T04:35:01.245273+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -394,17 +500,21 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI publishes a framework for reporting model misalignment",
-        "title_zh": "OpenAI公布模型錯位（misalignment）揭露框架",
-        "summary_en": "OpenAI released a framework for tracking, investigating, and publicly disclosing model misalignment, saying examples need not cause harm or form a pattern to qualify. It inaugurated the process with six reports on unexpected or concerning behavior seen in training or evaluation over the prior six months, covering the model lifecycle from training through deployment.",
-        "summary_zh": "OpenAI發布追蹤、調查並公開揭露模型錯位的框架，強調案例不必已造成傷害或形成模式才符合揭露條件。並以過去六個月訓練或評估中觀察到的六份意外或令人憂慮行為報告啟動該流程，涵蓋訓練到部署的完整生命週期。",
-        "analysis_en": "This is a process announcement, not a capability launch: it tries to set a disclosure norm while other labs still report ad hoc. What remains unproven is whether the six cases are representative and whether the promised timelines hold on larger investigations.",
-        "analysis_zh": "這是流程宣告而非能力發布，試圖在其他實驗室仍採個案通報時立下揭露規範。尚未證明的是這六案是否具代表性，以及較大調查能否守住承諾時程。",
+        "title_zh": "OpenAI 公布模型錯位行為通報框架",
+        "summary_en": "OpenAI released a framework for tracking, investigating, and publicly disclosing model misalignment, saying examples need not cause harm or form a pattern to qualify. It inaugurated the process with six reports on unexpected or concerning behavior in training and evaluation.",
+        "summary_zh": "OpenAI 發布追蹤、調查並公開揭露模型錯位行為的框架，並稱案例不必已造成傷害或形成模式才算數。它以六份訓練與評估中的異常或令人擔憂行為報告作為首批案例。",
+        "analysis_en": "This is a process announcement, not a capability launch: it tries to set a disclosure norm while other labs still report ad hoc. What remains unproven is whether the six cases and the promised timelines become a durable public record.",
+        "analysis_zh": "這是流程宣告而非能力發表：它試圖建立揭露規範，而其他實驗室仍多為個案通報。六個案例與承諾時限能否成為可核對的公開紀錄，仍未可知。",
         "quote": "We are sharing a new framework for tracking, investigating, and disclosing instances of model misalignment at OpenAI, along with six reports on unexpected or concerning model behavior we’ve observed in the last six months.",
         "quote_zh": "我們公布OpenAI追蹤、調查並揭露模型錯位案例的新框架，並附上過去六個月觀察到的六份意外或令人憂慮行為報告。",
         "importance": 4,
         "first_seen": "2026-09-16T08:00:00Z",
-        "updated_at": "2026-09-17T22:35:01.850488+00:00",
+        "updated_at": "2026-09-18T04:35:01.245273+00:00",
         "links": [
+          {
+            "label": "OpenAI News",
+            "url": "https://openai.com/news/"
+          },
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/model-misalignment-reporting-framework/"
@@ -421,17 +531,21 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI tests Sponsored Agents and expands ChatGPT ads tools",
-        "title_zh": "OpenAI測試Sponsored Agents並擴充ChatGPT廣告工具",
-        "summary_en": "OpenAI said it is testing Sponsored Agents that let users start a labeled conversation with a business-backed agent after clicking an ad in ChatGPT, kept separate from independent answers. It also added prompt-based campaign tools in ChatGPT Work and Ads Manager, plus HubSpot and Shopify integrations.",
-        "summary_zh": "OpenAI表示正在測試Sponsored Agents：使用者點擊ChatGPT廣告後，可與標示清楚的商家贊助代理展開對話，並與獨立回答分隔。同時在ChatGPT Work與Ads Manager加入以提示詞建立廣告活動的工具，以及HubSpot與Shopify整合。",
-        "analysis_en": "Ads are moving from static placements into agent conversations, which changes both monetization and trust. The test is limited; how clearly users can tell a sponsored agent from ChatGPT itself remains the trust variable.",
-        "analysis_zh": "廣告正從靜態版位進入代理對話，同時改寫變現與信任。測試範圍有限；使用者能否清楚分辨贊助代理與ChatGPT本身仍是信任變數。",
+        "title_zh": "OpenAI 測試 Sponsored Agents 並擴大 ChatGPT 廣告工具",
+        "summary_en": "OpenAI said it is testing Sponsored Agents that let users start a labeled conversation with a business-backed agent after clicking an ad in ChatGPT, kept separate from independent answers. It also added prompt-based campaign tools in ChatGPT Work and integrations with HubSpot and Shopify.",
+        "summary_zh": "OpenAI 表示正在測試 Sponsored Agents：使用者在 ChatGPT 點廣告後，可與標示清楚的企業代理對話，並與獨立回答分開。同時在 ChatGPT Work 加入以提示詞製作廣告活動的工具，以及 HubSpot、Shopify 整合。",
+        "analysis_en": "Ads are moving from static placements into agent conversations, which changes both monetization and trust. The test is limited; how clearly users can tell a sponsored agent from ChatGPT remains the open risk.",
+        "analysis_zh": "廣告正從靜態版位進入代理對話，同時改變變現與信任。測試範圍有限；使用者能否清楚分辨贊助代理與 ChatGPT 本身，仍是主要風險。",
         "quote": "We’re testing Sponsored Agents, which let people start a conversation with a business-sponsored agent after clicking an ad in ChatGPT.",
         "quote_zh": "我們正在測試Sponsored Agents，讓使用者在ChatGPT點擊廣告後，與商家贊助的代理展開對話。",
         "importance": 3,
         "first_seen": "2026-09-16T08:00:00Z",
-        "updated_at": "2026-09-17T22:35:01.850488+00:00",
+        "updated_at": "2026-09-18T04:35:01.245273+00:00",
         "links": [
+          {
+            "label": "OpenAI News",
+            "url": "https://openai.com/news/"
+          },
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/reimagining-advertising-with-ai/"
@@ -448,17 +562,25 @@
         "category": "openai",
         "source_type": "product",
         "title_en": "OpenAI adds ChatGPT sidebar inside Microsoft Word",
-        "title_zh": "OpenAI讓ChatGPT進入Microsoft Word側欄",
-        "summary_en": "OpenAI’s ChatGPT release notes for September 17 said ChatGPT is now available in Microsoft Word via the same Microsoft add-in already used for Excel and PowerPoint. Users can draft from notes, summarize, revise selected text, and adjust headings; it is listed for all ChatGPT plans including Free, subject to each plan’s token limits.",
-        "summary_zh": "OpenAI 9月17日ChatGPT版本說明指出，ChatGPT已透過與Excel、PowerPoint相同的Microsoft增益集進入Word。使用者可從筆記起草、摘要、改寫選取文字並調整標題；所有方案含免費版皆可用，但仍受各方案token上限約束。",
-        "analysis_en": "Distribution into Word matters more than the feature list. It does not change the underlying model roster; GPT-5.5 retirement on October 14 remains a separate Codex/ChatGPT changelog item.",
-        "analysis_zh": "進入Word的通路比功能清單更重要。這不改底模名單；10月14日GPT-5.5從ChatGPT／Codex退役仍是另一則更新。",
-        "quote": "ChatGPT is now available in Microsoft Word. You can draft from notes, summarize a document, revise selected text, and adjust headings and formatting from the ChatGPT sidebar.",
-        "quote_zh": "ChatGPT現已可用於Microsoft Word。可從筆記起草、摘要文件、改寫選取文字，並從側欄調整標題與格式。",
+        "title_zh": "OpenAI 在 Microsoft Word 加入 ChatGPT 側欄",
+        "summary_en": "OpenAI’s September 17 ChatGPT notes said ChatGPT is now available in Microsoft Word via the same Microsoft add-in already used for Excel and PowerPoint. Users can draft from notes, summarize, revise selected text, and adjust headings; OpenAI said it is available across plans including Free, with plan token limits.",
+        "summary_zh": "OpenAI 9 月 17 日的 ChatGPT 更新指出，ChatGPT 已透過既有的 Microsoft 增益集進入 Word，與 Excel、PowerPoint 相同。使用者可依筆記起草、摘要、改寫選取文字並調整標題；OpenAI 稱含免費方案在內皆可用，受各方案 token 上限限制。",
+        "analysis_en": "Distribution into Word matters more than the feature list. It does not change the underlying model roster; GPT-5.5 retirement on October 14 remains a separate Codex/ChatGPT changelog.",
+        "analysis_zh": "進入 Word 的通路比功能清單更重要。這不改變底層模型名單；10 月 14 日淘汰 GPT-5.5 仍是另一則 Codex／ChatGPT 更新。",
+        "quote": "You can add ChatGPT to Microsoft Word to turn rough notes into first drafts, fix formatting issues, proofread, and get suggested edits—all without leaving your document.",
+        "quote_zh": "你可以在 Microsoft Word 加入 ChatGPT，把粗糙筆記變成初稿、修正格式、校對並取得修改建議——不必離開文件。",
         "importance": 2,
         "first_seen": "2026-09-17T08:00:00Z",
-        "updated_at": "2026-09-17T22:35:01.850488+00:00",
+        "updated_at": "2026-09-18T04:35:01.245273+00:00",
         "links": [
+          {
+            "label": "ChatGPT for Word",
+            "url": "https://chatgpt.com/apps/word/"
+          },
+          {
+            "label": "OpenAI YouTube",
+            "url": "https://www.youtube.com/watch?v=lxVMdEpe0RQ"
+          },
           {
             "label": "ChatGPT Release Notes",
             "url": "https://help.openai.com/articles/6825453-chatgpt-release-notes"
@@ -471,19 +593,23 @@
         "id": "anthropic-cowork-chat-merge-docs-slides-2026-09-16",
         "story_id": "anthropic-cowork-chat-merge-docs-slides-2026-09-16",
         "category": "anthropic",
-        "source_type": "official_blog",
+        "source_type": "product",
         "title_en": "Anthropic merges Cowork into Claude and launches Docs and Slides",
-        "title_zh": "Anthropic將Cowork併入Claude並推出Docs與Slides",
-        "summary_en": "Anthropic said Claude Cowork and chat are merging into one product so users no longer pick a mode: Claude decides whether a request is a quick reply or a longer agentic task and can keep working after the laptop closes. It also launched beta Claude Docs and Claude Slides, folded Claude Design into conversations, and is rolling the experience to Pro and Max first.",
-        "summary_zh": "Anthropic表示Claude Cowork與聊天將合併為單一產品，使用者不必再選模式：Claude自行判斷請求是快速回覆還是較長的代理任務，關筆電後仍可繼續。同時推出測試版Claude Docs與Claude Slides，並把Claude Design納入對話，先向Pro與Max推送。",
-        "analysis_en": "This is Anthropic’s answer to OpenAI’s work-suite bundling: one surface for chat, files, and multi-step jobs. The product bet is clear; what is not yet shown is reliability of auto-routing and how Team/Enterprise tenants will be migrated.",
-        "analysis_zh": "這是Anthropic對OpenAI工作套件綑綁的回應：同一介面處理聊天、檔案與多步驟任務。產品方向清楚，尚未證明的是自動分流穩定性，以及Team/Enterprise如何遷移。",
+        "title_zh": "Anthropic 將 Cowork 併入 Claude 並推出 Docs 與 Slides",
+        "summary_en": "Anthropic said Claude Cowork and chat are merging into one product so users no longer pick a mode: Claude decides whether a request is a quick reply or a longer agentic task and can keep working after the laptop closes. It also launched beta Docs and Slides surfaces for document and presentation work.",
+        "summary_zh": "Anthropic 表示 Claude Cowork 與對話將合併為單一產品，使用者不必再選模式：由 Claude 判斷是快速回覆或較長的代理任務，筆電闔上後仍可繼續做。同時推出 Docs 與 Slides 測試版，處理文件與簡報。",
+        "analysis_en": "This is Anthropic’s answer to OpenAI’s work-suite bundling: one surface for chat, files, and multi-step jobs. The product bet is clear; reliability of auto-routing and background work is not yet independently shown.",
+        "analysis_zh": "這是 Anthropic 對 OpenAI 工作套件綑綁的回應：把對話、檔案與多步驟任務放在同一介面。產品方向清楚，自動分流與背景作業的可靠度尚未被獨立驗證。",
         "quote": "Starting today, Claude Cowork and chat are merging into one Claude.",
         "quote_zh": "即日起，Claude Cowork與聊天合併為同一個Claude。",
         "importance": 4,
         "first_seen": "2026-09-16T08:00:00Z",
-        "updated_at": "2026-09-17T22:35:01.850488+00:00",
+        "updated_at": "2026-09-18T04:35:01.245273+00:00",
         "links": [
+          {
+            "label": "Claude product announcements",
+            "url": "https://claude.com/blog-category/announcements"
+          },
           {
             "label": "Claude Blog",
             "url": "https://claude.com/blog/cowork-is-now-claude"
@@ -500,20 +626,24 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic opens Life Sciences Verification Program",
-        "title_zh": "Anthropic開辦生命科學驗證計畫（LSVP）",
-        "summary_en": "Anthropic introduced the Life Sciences Verification Program, giving verified life-science teams more permissive safeguards on Mythos, Opus, and Sonnet for work that is blocked on generally available Fable models, including drug discovery and clinical development. The beta is open to teams and institutions after an early-access cohort; Standard Use and High-risk Use grants can be used across Claude Science, Claude.ai, Claude Code, and the API.",
-        "summary_zh": "Anthropic推出生命科學驗證計畫，讓通過驗證的生命科學團隊在Mythos、Opus與Sonnet上使用較寬鬆的防護，以進行一般Fable模型會擋下的藥物發現與臨床開發等工作。測試版在早期試用後向團隊與機構開放申請；Standard Use與High-risk Use授權可用於Claude Science、Claude.ai、Claude Code與API。",
-        "analysis_en": "The move treats biology dual-use as an access-control problem rather than a single global refusal policy. Enrollment quality and how High-risk Use is audited will decide whether this is a workable scientific channel or a leaky exception.",
-        "analysis_zh": "此舉把生物雙用途風險當成存取控管問題，而非全球一律拒答。計畫成敗取決於核驗品質，以及High-risk Use如何稽核。",
+        "title_zh": "Anthropic 開放生命科學驗證計畫",
+        "summary_en": "Anthropic introduced the Life Sciences Verification Program, giving verified life-science teams more permissive safeguards on Mythos, Opus, and Sonnet for work that is blocked on generally available Fable models, including drug discovery and research biology. The beta is open to teams; Standard Use and High-risk Use grants can run across Claude Science, Claude.ai, Claude Code, and the API.",
+        "summary_zh": "Anthropic 推出生命科學驗證計畫（LSVP），讓通過驗證的生命科學團隊在 Mythos、Opus、Sonnet 上使用較寬鬆的防護，以進行一般版 Fable 會擋下的工作，包括藥物發現與研究生物學。測試版先對團隊開放；Standard Use 與 High-risk Use 授權可用於 Claude Science、Claude.ai、Claude Code 與 API。",
+        "analysis_en": "The move treats biology dual-use as an access-control problem rather than a single global refusal policy. Enrollment quality and how High-risk Use is audited will decide whether the extra permission is usable science or a paper gate.",
+        "analysis_zh": "此舉把生物雙用途當成存取控制問題，而非全球一律拒答。核可品質與 High-risk Use 如何稽核，將決定這是可用的科學通道還是形式上的閘門。",
         "quote": "Today, we are introducing the Life Sciences Verification Program (LSVP), which gives life science professionals access to our Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.",
-        "quote_zh": "我們推出生命科學驗證計畫（LSVP），讓生命科學專業人員在較寬鬆、針對生物相關工作調整後的防護下使用Mythos、Opus與Sonnet。",
+        "quote_zh": "今天我們推出生命科學驗證計畫（LSVP），讓生命科學專業人員在 Mythos、Opus 與 Sonnet 上使用一組對生物相關工作較寬鬆的防護。",
         "importance": 4,
         "first_seen": "2026-09-17T08:00:00Z",
-        "updated_at": "2026-09-17T22:35:01.850488+00:00",
+        "updated_at": "2026-09-18T04:35:01.245273+00:00",
         "links": [
           {
-            "label": "Anthropic Newsroom",
+            "label": "Anthropic News",
             "url": "https://www.anthropic.com/news/life-sciences-verification-program"
+          },
+          {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI"
           }
         ]
       },
@@ -523,20 +653,24 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic proposes public metrics for lab AI R&D pace",
-        "title_zh": "Anthropic提出可公開的實驗室AI研發節奏指標",
-        "summary_en": "Anthropic published proposed measurements so outsiders can see the pace of AI development inside frontier labs. As of August 2026 it reported Claude is not fully autonomous on any measured AI R&D subset, “leads” 26% of Anthropic’s AI R&D work, collaborates on more than 90% of that work, and that about 30,000 agents were active on its main internal platform, with 0.002% of analyzed decisions blocked by monitors.",
-        "summary_zh": "Anthropic公布一套擬議指標，讓外界看見前沿實驗室內部的AI研發節奏。截至2026年8月，它表示Claude在任何已量測的AI研發子集上尚未完全自主、「主導」26%的Anthropic AI研發工作、超過90%達到協作水準，主內部平台約有3萬個代理在跑，受監測決策中約0.002%被阻擋。",
-        "analysis_en": "Self-reported internals are more transparency than most labs offer, but they are not independently audited. The series only becomes a pacing tool if peers publish comparable numbers on the same definitions.",
-        "analysis_zh": "自行公布內部數據已比多數實驗室透明，但未經獨立稽核。只有同業用同一套定義公布可比數字，這套指標才可能成為真正的節奏工具。",
-        "quote": "Today, the world can’t see what’s going on inside AI labs. Anthropic is proposing new metrics that would give the public visibility into frontier AI development.",
-        "quote_zh": "今日外界看不見AI實驗室內部發生什麼。Anthropic提出新指標，讓公眾能看見前沿AI發展。",
+        "title_zh": "Anthropic 提出實驗室 AI 研發節奏的公開指標",
+        "summary_en": "Anthropic published proposed measurements so outsiders can see the pace of AI development inside frontier labs. As of August 2026 it reported Claude is not fully autonomous on any measured AI R&D subset, “leads” 26% of Anthropic’s AI R&D work, collaborates on more than 90%, and that about 30,000 agents were doing research and engineering on its main internal platform.",
+        "summary_zh": "Anthropic 公布建議指標，讓外界看見前線實驗室內部的 AI 發展節奏。截至 2026 年 8 月，它回報 Claude 在任何受測的 AI 研發子集上尚未完全自主、「主導」26% 的 Anthropic AI 研發工作、超過 90% 屬協作，且主要內部平台上約有 3 萬個代理在做研究與工程。",
+        "analysis_en": "Self-reported internals are more transparency than most labs offer, but they are not independently audited. The series only becomes a pacing tool if peers publish comparable numbers.",
+        "analysis_zh": "自行揭露內部數據已比多數實驗室透明，但未經獨立稽核。唯有同業公布可比較數字，這套指標才可能成為節奏工具。",
+        "quote": "As the world considers pacing the frontier, we should do everything possible to minimize the gap between what frontier labs know and what the public knows.",
+        "quote_zh": "當世界在思考如何為前線發展定節奏時，我們應盡一切可能縮小前線實驗室所知與公眾所知之間的落差。",
         "importance": 3,
         "first_seen": "2026-09-17T08:00:00Z",
-        "updated_at": "2026-09-17T22:35:01.850488+00:00",
+        "updated_at": "2026-09-18T04:35:01.245273+00:00",
         "links": [
           {
             "label": "Anthropic Institute",
             "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
+          },
+          {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI"
           }
         ]
       },
@@ -546,20 +680,24 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic says Claude sped up 30+ biomolecular models",
-        "title_zh": "Anthropic稱Claude加速逾30個生物分子模型",
-        "summary_en": "Anthropic reported that Claude optimized more than 30 open-source biomolecular models in under four weeks, speeding them about 4x on average and adding a low-memory mode for systems larger than 10,000 tokens on one NVIDIA GPU node. It is open-sourcing the optimized code and launching a protein-design competition with Adaptyv Bio, with up to $1 million in Claude credits and wet-lab validation for over 5,000 designs.",
-        "summary_zh": "Anthropic表示Claude在不到四週內優化逾30個開源生物分子模型，平均加速約4倍，並新增可在單一NVIDIA GPU節點上處理逾1萬token系統的低記憶體模式。公司將開源優化程式碼，並與Adaptyv Bio舉辦蛋白質設計競賽，提供最高100萬美元Claude額度，以及逾5,000件設計的濕實驗驗證。",
-        "analysis_en": "The claim is engineering uplift of existing scientific models, not a new foundation model. Independent reproduction of the speedups and how many competition designs actually work in wet lab will decide whether this is a methods story or a marketing wrapper around LSVP.",
-        "analysis_zh": "這是既有科學模型的工程加速，不是新基礎模型。加速數字能否獨立復現、以及競賽設計有多少能通過濕實驗，將決定這是方法學成果還是LSVP的行銷包裝。",
+        "title_zh": "Anthropic 稱 Claude 加速 30 餘個生物分子模型",
+        "summary_en": "Anthropic reported that Claude optimized more than 30 open-source biomolecular models in under four weeks, speeding them about 4x on average and adding a low-memory mode for systems larger than 10,000 tokens on one NVIDIA GPU node. It is open-sourcing the code and pairing with Adaptyv Bio to wet-lab validate more than 5,000 designs, with up to $1 million in Claude credits.",
+        "summary_zh": "Anthropic 表示 Claude 在不到四週內優化逾 30 個開源生物分子模型，平均約快 4 倍，並為超過 1 萬 token 的系統在單一 NVIDIA GPU 節點上加入低記憶體模式。公司開源相關程式碼，並與 Adaptyv Bio 合作實驗驗證逾 5,000 個設計，另提供最高 100 萬美元 Claude 額度。",
+        "analysis_en": "The claim is engineering uplift of existing scientific models, not a new foundation model. Independent reproduction of the speedups and how many competition designs actually work in the lab are the tests that matter.",
+        "analysis_zh": "這是對既有科學模型的工程加速，不是新的基礎模型。獨立重現加速幅度、以及競賽設計有多少能在實驗室成立，才是關鍵檢驗。",
         "quote": "Claude optimized more than 30 of these models in just under four weeks, speeding them up roughly 4x on average.",
-        "quote_zh": "Claude在不到四週內優化了其中逾30個模型，平均加速約4倍。",
+        "quote_zh": "Claude 在不到四週內優化了其中 30 多個模型，平均約加速 4 倍。",
         "importance": 3,
         "first_seen": "2026-09-17T08:00:00Z",
-        "updated_at": "2026-09-17T22:35:01.850488+00:00",
+        "updated_at": "2026-09-18T04:35:01.245273+00:00",
         "links": [
           {
-            "label": "Anthropic Research",
+            "label": "Anthropic Science Blog",
             "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"
+          },
+          {
+            "label": "GitHub code",
+            "url": "https://github.com/anthropics/uplifting-biomolecular-modeling"
           }
         ]
       },
@@ -569,17 +707,21 @@
         "category": "anthropic",
         "source_type": "product",
         "title_en": "Anthropic redesigns Claude Projects as a conversation",
-        "title_zh": "Anthropic將Claude Projects改為對話式專案",
-        "summary_en": "Anthropic began rolling out a redesigned Projects model in which a project is one conversation that splits work into parallel cloud threads. Help Center and product pages say the beta starts with select Pro and Max Claude Code users, existing chat/Cowork projects keep working, and Team/Enterprise follow later.",
-        "summary_zh": "Anthropic開始推送改版Projects：一個專案就是一段對話，工作會拆成平行雲端執行緒。說明中心與產品頁指出測試版先給部分Pro與Max的Claude Code使用者，既有聊天／Cowork專案仍可用，Team／Enterprise稍後跟進。",
+        "title_zh": "Anthropic 把 Claude Projects 改成單一對話",
+        "summary_en": "Anthropic began rolling out a redesigned Projects model in which a project is one conversation that splits work into parallel cloud threads. Product pages say the beta starts with select Pro and Max Claude Code users.",
+        "summary_zh": "Anthropic 開始推出重新設計的 Projects：一個專案即一段對話，並把工作拆成平行雲端執行緒。產品頁指出測試版先給部分 Pro 與 Max 的 Claude Code 使用者。",
         "analysis_en": "This is the operational follow-through of the Cowork merge: persistent multi-thread work instead of a folder of chats. Coverage is still gated, so it is not yet a default Claude behavior.",
-        "analysis_zh": "這是Cowork合併後的操作落地：用持久多執行緒取代聊天資料夾。目前仍分批開放，尚非Claude預設行為。",
+        "analysis_zh": "這是 Cowork 合併後的操作落地：持久的多執行緒工作，而不是一堆聊天資料夾。目前仍限量，還不是 Claude 的預設行為。",
         "quote": "In the new version, a project is one conversation: you say what you need as it comes to you, and Claude breaks the work into parallel threads that run in the cloud.",
         "quote_zh": "新版中，專案就是一段對話：你想到什麼就說什麼，Claude把工作拆成在雲端平行跑的執行緒。",
         "importance": 3,
         "first_seen": "2026-09-17T08:00:00Z",
-        "updated_at": "2026-09-17T22:35:01.850488+00:00",
+        "updated_at": "2026-09-18T04:35:01.245273+00:00",
         "links": [
+          {
+            "label": "Claude product announcements",
+            "url": "https://claude.com/blog-category/announcements"
+          },
           {
             "label": "Claude Help Center",
             "url": "https://support.claude.com/en/articles/9517075-what-are-projects"
@@ -593,22 +735,53 @@
     ],
     "google": [
       {
+        "id": "google-un-data-commons-2026-09-17",
+        "story_id": "google-un-data-commons-2026-09-17",
+        "category": "google",
+        "source_type": "official_blog",
+        "title_en": "Google and the UN launch AI-ready System Data Commons",
+        "title_zh": "Google 與聯合國推出可供 AI 使用的 System Data Commons",
+        "summary_en": "Google said the UN system launched UN System Data Commons, an open-source, AI-ready knowledge graph built on Data Commons by Google that unifies siloed UN statistics for natural-language queries and visualizations at data.un.org. It supports MCP so agents can fetch figures; 26 UN entities have committed, with a goal of about 80% of UN statistical datasets by 2027.",
+        "summary_zh": "Google 表示聯合國系統推出 UN System Data Commons：以 Google Data Commons 打造的開源、可供 AI 使用的知識圖譜，把分散的聯合國統計整成可自然語言查詢與視覺化的資源，位於 data.un.org。平台支援 MCP 供代理人取數；26 個聯合國實體已承諾加入，目標 2027 年前涵蓋約 80% 統計資料集。",
+        "analysis_en": "This is infrastructure for grounding agents in official statistics, not a Gemini model ship. Coverage gaps, governance of the UN-hosted instance, and whether models actually cite the graph instead of hallucinating numbers will decide its value.",
+        "analysis_zh": "這是讓代理人能引用官方統計的基礎設施，不是 Gemini 模型發表。資料涵蓋缺口、聯合國託管實例的治理，以及模型是否真的引用圖譜而非捏造數字，將決定其實用性。",
+        "quote": "UN System Data Commons is an open, AI-ready platform integrating critical global statistics into a single searchable resource.",
+        "quote_zh": "UN System Data Commons 是開放、可供 AI 使用的平台，把關鍵全球統計整合成單一可搜尋資源。",
+        "importance": 3,
+        "first_seen": "2026-09-17T08:00:00Z",
+        "updated_at": "2026-09-18T04:35:01.245273+00:00",
+        "links": [
+          {
+            "label": "Google Keyword Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/"
+          }
+        ]
+      },
+      {
         "id": "google-deepmind-institute-agi-2026-09-16",
         "story_id": "google-deepmind-institute-agi-2026-09-16",
         "category": "google",
-        "source_type": "news",
+        "source_type": "mixed",
         "title_en": "DeepMind Institute launches public AGI essays",
-        "title_zh": "DeepMind Institute推出公開AGI論文論壇",
-        "summary_en": "Axios reported that the DeepMind Institute launched Wednesday as a forum for Google, DeepMind, and outside researchers on AGI’s societal effects, led by Shane Legg with James Manyika and Demis Hassabis. The institute site published inaugural essays on economic policy, reasoning transparency, global access, and human flourishing, with a disclaimer that authors’ views are not Google policy.",
-        "summary_zh": "Axios報導DeepMind Institute於週三成立，作為Google、DeepMind與外部研究者討論AGI社會影響的論壇，由Shane Legg擔任主編，James Manyika與Demis Hassabis共同領導。機構網站發表經濟政策、推理透明度、全球近用與人類繁榮等創刊文章，並聲明作者觀點不代表Google政策。",
+        "title_zh": "DeepMind Institute 推出公開 AGI 論文集",
+        "summary_en": "Google and Google DeepMind researchers launched the DeepMind Institute as a forum on AGI’s societal effects, led by Shane Legg with James Manyika and Demis Hassabis. The institute published inaugural essays on economic policy, reasoning transparency, human flourishing, and frontier-model evaluation.",
+        "summary_zh": "Google 與 Google DeepMind 研究者成立 DeepMind Institute，作為討論 AGI 社會影響的論壇，由 Shane Legg 擔任主編，James Manyika 與 Demis Hassabis 共同指導。創刊論文涵蓋經濟政策、推理透明度、人類繁榮與前線模型評估。",
         "analysis_en": "This is governance-and-ideas infrastructure, not a model ship. It puts DeepMind’s AGI timeline claims next to policy essays, but the institute itself does not bind product releases.",
-        "analysis_zh": "這是治理與思想基礎設施，不是模型發布。它把DeepMind的AGI時程主張與政策文章放在一起，但機構本身不約束產品上線。",
-        "quote": "The institute was created because broad-based intellectual discussion and debate are required to arrive at a consensus about how to address the challenges and opportunities we face as a society.",
-        "quote_zh": "成立此機構是因為需要廣泛的智識討論與辯論，才能就社會面臨的挑戰與機會形成共識。",
+        "analysis_zh": "這是治理與思想基礎設施，不是模型交付。它把 DeepMind 的 AGI 時程主張與政策文章放在一起，但研究所本身不約束產品發布。",
+        "quote": "They will not always agree, and they will likely change their minds, as more data and information comes to light at the fast-moving frontier.",
+        "quote_zh": "他們不會總是同意，也很可能改變想法，因為快速變動的前線會帶來更多資料與資訊。",
         "importance": 3,
         "first_seen": "2026-09-16T17:13:00Z",
-        "updated_at": "2026-09-17T22:35:01.850488+00:00",
+        "updated_at": "2026-09-18T04:35:01.245273+00:00",
         "links": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/"
+          },
           {
             "label": "Axios",
             "url": "https://www.axios.com/2026/09/16/google-deepmind-institute-agi"
@@ -627,16 +800,16 @@
         "category": "meta",
         "source_type": "official_blog",
         "title_en": "Meta introduces Meta One subscription across its apps",
-        "title_zh": "Meta在旗下App推出Meta One訂閱",
-        "summary_en": "Meta’s newsroom said it is introducing Meta One, a paid subscription on Facebook, Instagram, WhatsApp, and Meta AI that adds more AI usage, expression features, and tools for creators and businesses. Reuters reported monthly plans starting at $2.99 for single products and higher bundles, with core apps and basic Meta AI remaining free.",
-        "summary_zh": "Meta新聞室宣布推出Meta One，在Facebook、Instagram、WhatsApp與Meta AI提供付費訂閱，增加AI用量、表達功能以及創作者與商家工具。路透報導單產品月費自2.99美元起、另有較高組合方案，核心App與基本Meta AI維持免費。",
-        "analysis_en": "Meta is packaging AI quota and creator tools as a cross-app SKU. That matters for how Muse/Meta AI is monetized; it does not by itself change the open-weight Llama or hosted Muse models.",
-        "analysis_zh": "Meta把AI配額與創作者工具包成跨App商品。這影響Muse／Meta AI變現，本身並不改變開權重Llama或託管Muse模型。",
+        "title_zh": "Meta 推出跨應用訂閱 Meta One",
+        "summary_en": "Meta’s newsroom said it is introducing Meta One, a paid subscription on Facebook, Instagram, WhatsApp, and Meta AI that adds more AI usage, expression features, and tools for creators and businesses. Reuters reported monthly plans starting at $2.99 for single products.",
+        "summary_zh": "Meta 新聞室表示推出 Meta One，在 Facebook、Instagram、WhatsApp 與 Meta AI 上提供付費訂閱，增加 AI 用量、表達功能以及創作者與商家工具。路透報導單項方案月費起跳 2.99 美元。",
+        "analysis_en": "Meta is packaging AI quota and creator tools as a cross-app SKU. That matters for how Muse/Meta AI is monetized; it does not by itself change the open-weight Llama or hosted Muse model roster.",
+        "analysis_zh": "Meta 把 AI 配額與創作者工具包成跨應用商品。這影響 Muse／Meta AI 的變現，本身並不改變開權重 Llama 或託管 Muse 的模型名單。",
         "quote": "We’re introducing Meta One, a new subscription service on Facebook, Instagram, WhatsApp, and Meta AI that offers more AI usage, enhanced expression features, and tools for creators and businesses.",
-        "quote_zh": "我們推出Meta One，在Facebook、Instagram、WhatsApp與Meta AI提供新訂閱服務，帶來更多AI用量、強化表達功能，以及創作者與商家工具。",
+        "quote_zh": "我們推出 Meta One，在 Facebook、Instagram、WhatsApp 與 Meta AI 上提供更多 AI 用量、強化表達功能以及創作者與商家工具。",
         "importance": 2,
         "first_seen": "2026-09-15T08:00:00Z",
-        "updated_at": "2026-09-17T22:35:01.850488+00:00",
+        "updated_at": "2026-09-18T04:35:01.245273+00:00",
         "links": [
           {
             "label": "Meta Newsroom",
@@ -654,19 +827,23 @@
         "id": "xai-grok-bot-galaxy-2026-09-17",
         "story_id": "xai-grok-bot-galaxy-2026-09-17",
         "category": "xai",
-        "source_type": "official_blog",
-        "title_en": "xAI closes three-day Grok Bot Galaxy event",
-        "title_zh": "xAI結束為期三天的Grok Bot Galaxy活動",
-        "summary_en": "xAI’s Grok Bot Galaxy event ran September 15–17 in San Francisco and on livestream, with role-specific sessions on engineering, sales, support, and marketing plus a live build using Grok Bot. Official docs for Grok Bot security and computer use remain the product surface; no official Grok 4.7 model page shipped with the close of the event.",
-        "summary_zh": "xAI的Grok Bot Galaxy活動於9月15–17日在舊金山與直播舉行，含工程、銷售、客服、行銷分場，以及用Grok Bot現場打造產品。官方文件仍是Grok Bot安全與電腦使用說明；活動結束並未伴隨官方Grok 4.7模型頁面上線。",
-        "analysis_en": "This is a go-to-market and ops push for hosted agents, not a named model release. Quota-page rumors of Grok 4.7 are not an official ship until xAI posts a model card or changelog.",
-        "analysis_zh": "這是託管代理的市場與營運推廣，不是具名模型發布。雲端配額頁上的Grok 4.7傳聞，在xAI放出模型卡或更新日誌前不能視為正式出貨。",
-        "quote": "Grok Bot is your team of extraordinarily capable AI agents. See it in action at this three day event featuring live demos and hands-on build sessions.",
-        "quote_zh": "Grok Bot是一組能力極強的AI代理團隊。在這場為期三天、含現場示範與實作的活動中看它實際運作。",
+        "source_type": "official_x",
+        "title_en": "xAI closes Grok Bot Galaxy and adds voice to Grok Bot",
+        "title_zh": "xAI 結束 Grok Bot Galaxy 並為 Grok Bot 加上語音",
+        "summary_en": "xAI’s Grok Bot Galaxy event ran September 15–17 in San Francisco and on livestream, with role-specific sessions plus a live build using Grok Bot. After the wrap, Grok Bot posted that it can talk and Elon Musk wrote that Grok Bot now has a voice. Quota-page rumors of Grok 4.7 were still not an official model-card ship.",
+        "summary_zh": "xAI 的 Grok Bot Galaxy 活動於 9 月 15–17 日在舊金山與直播進行，含各職能場次與現場用 Grok Bot 做產品。活動結束後 Grok Bot 發文稱已能說話，Elon Musk 寫道 Grok Bot 現已有語音。雲端配額頁上的 Grok 4.7 傳聞仍非正式模型卡發表。",
+        "analysis_en": "This remains a go-to-market and product-surface push for hosted agents, not a named base-model release. Voice is a feature add; Grok 4.7 is not official until xAI posts a changelog or model card.",
+        "analysis_zh": "這仍是託管代理的市場與產品面推進，不是具名基礎模型發表。語音是功能增量；在 xAI 放出更新日誌或模型卡之前，Grok 4.7 仍非正式出貨。",
+        "quote": "Grok @Bot now has a voice",
+        "quote_zh": "Grok Bot 現在有聲音了",
         "importance": 2,
         "first_seen": "2026-09-17T08:00:00Z",
-        "updated_at": "2026-09-17T22:35:01.850488+00:00",
+        "updated_at": "2026-09-18T04:35:01.245273+00:00",
         "links": [
+          {
+            "label": "Elon Musk on X",
+            "url": "https://x.com/elonmusk/status/2100698004210475317"
+          },
           {
             "label": "xAI Galaxy",
             "url": "https://x.ai/galaxy"
@@ -684,21 +861,48 @@
     ],
     "frontier_other": [
       {
+        "id": "nvidia-aema-grid-2026-09-16",
+        "story_id": "nvidia-aema-grid-2026-09-16",
+        "category": "frontier_other",
+        "source_type": "official_blog",
+        "title_en": "NVIDIA, Google, and Emerald AI launch grid-flexibility alliance",
+        "title_zh": "NVIDIA、Google 與 Emerald AI 成立電網彈性聯盟",
+        "summary_en": "NVIDIA said Emerald AI, Google, and NVIDIA launched the AI Energy Management Alliance to promote data centers that can cut or shift electricity use when the grid is strained. Anthropic and utilities including AES, Constellation, National Grid, and NRG joined as launch partners; the group argues flexibility could free large amounts of interconnection capacity.",
+        "summary_zh": "NVIDIA 表示 Emerald AI、Google 與 NVIDIA 成立 AI Energy Management Alliance，推動能在電網吃緊時減載或轉移用電的資料中心。Anthropic 與 AES、Constellation、National Grid、NRG 等電力業者為首發夥伴；聯盟主張彈性負載可釋出大量併網容量。",
+        "analysis_en": "Power, not a model card, is the constraint this coalition is trying to rewrite. Whether utilities actually interconnect more load because of software demand response is still a policy and operations question.",
+        "analysis_zh": "這次聯盟要改寫的是電力約束，而非模型規格。公用事業會不會因為軟體需量反應就核准更多負載併網，仍是政策與營運問題。",
+        "quote": "Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their electricity use in response to grid conditions.",
+        "quote_zh": "今天 Emerald AI、Google 與 NVIDIA 宣布成立 AI Energy Management Alliance（AEMA），推動能依電網狀態動態管理用電的資料中心。",
+        "importance": 3,
+        "first_seen": "2026-09-16T21:00:00Z",
+        "updated_at": "2026-09-18T04:35:01.245273+00:00",
+        "links": [
+          {
+            "label": "NVIDIA Blog",
+            "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/"
+          }
+        ]
+      },
+      {
         "id": "mozilla-mistral-firefox-smart-window-2026-09-16",
         "story_id": "mozilla-mistral-firefox-smart-window-2026-09-16",
         "category": "frontier_other",
         "source_type": "official_blog",
         "title_en": "Mozilla and Mistral put Mistral Small 4 in Firefox Smart Window",
-        "title_zh": "Mozilla與Mistral將Mistral Small 4放入Firefox Smart Window",
-        "summary_en": "Mozilla and Mistral announced that Mistral Small 4 will power Firefox Smart Window beta in the U.S. and Canada, with Smart Window beta and French-language support expanding in France. Both companies framed the deal as an open-source alternative to Big Tech default browser AI.",
-        "summary_zh": "Mozilla與Mistral宣布Mistral Small 4將驅動美國與加拿大的Firefox Smart Window測試版，並在法國擴大Smart Window測試與法文支援。雙方將此合作定位為對抗大科技預設瀏覽器AI的開源替代方案。",
-        "analysis_en": "Distribution, not a new frontier model, is the story: an open-weight lab gains a browser channel. Actual usage, latency, and whether UK/Germany follow later this year are the open questions.",
-        "analysis_zh": "故事在通路而非新前沿模型：開權重實驗室拿到瀏覽器渠道。實際用量、延遲，以及今年稍後英國／德國是否跟進仍待觀察。",
+        "title_zh": "Mozilla 與 Mistral 將 Mistral Small 4 放入 Firefox Smart Window",
+        "summary_en": "Mozilla and Mistral announced that Mistral Small 4 will power Firefox Smart Window beta in the U.S. and Canada, with Smart Window beta and French-language support expanding in France. Both companies framed the deal as an open-source alternative inside the browser.",
+        "summary_zh": "Mozilla 與 Mistral 宣布 Mistral Small 4 將為美國與加拿大的 Firefox Smart Window 測試版提供模型，並在法國擴大 Smart Window 測試與法文支援。雙方將此合作定位為瀏覽器內的開源替代方案。",
+        "analysis_en": "Distribution, not a new frontier model, is the story: an open-weight lab gains a browser channel. Actual usage, latency, and whether other countries follow are the open questions.",
+        "analysis_zh": "重點是通路而非新的前線模型：開權重實驗室拿到瀏覽器渠道。實際用量、延遲與其他國家是否跟進，仍待觀察。",
         "quote": "Mistral Small 4 is coming to Firefox Smart Window beta, becoming a new AI model for Smart Window users in the US and Canada.",
-        "quote_zh": "Mistral Small 4將進入Firefox Smart Window測試版，成為美國與加拿大Smart Window使用者的新AI模型。",
+        "quote_zh": "Mistral Small 4 將進入 Firefox Smart Window 測試版，成為美國與加拿大 Smart Window 使用者的新 AI 模型。",
         "importance": 3,
         "first_seen": "2026-09-16T08:00:00Z",
-        "updated_at": "2026-09-17T22:35:01.850488+00:00",
+        "updated_at": "2026-09-18T04:35:01.245273+00:00",
         "links": [
           {
             "label": "Mozilla Blog",
@@ -712,7 +916,7 @@
       }
     ]
   },
-  "brief_en": "OpenAI launched Astra for Law and ChatGPT in Word; Anthropic opened a life-sciences access program, published lab-pace metrics, and redesigned Projects. Older items still stand: misalignment reporting, Cowork merge, ChatGPT ads, DeepMind Institute, Mozilla–Mistral, Meta One, and xAI’s Grok Bot Galaxy close. No verified new frontier model ship in the window.",
-  "brief_zh": "OpenAI推出Astra for Law與Word內嵌ChatGPT；Anthropic開辦生命科學驗證計畫、公布實驗室研發節奏指標並改版Projects。既有項目仍有效：錯位揭露框架、Cowork合併、ChatGPT廣告、DeepMind Institute、Mozilla–Mistral、Meta One，以及xAI Grok Bot Galaxy收場。窗口內無已核實的新旗艦模型發布。",
-  "updated_at": "2026-09-17T22:35:01.850488+00:00"
+  "brief_en": "OpenAI packaged GPT-6 Astra as Astra for Law and shipped ChatGPT in Word. Anthropic opened biology-access grants, published lab-pace metrics, and open-sourced ~4x biomolecular-model speedups. Google and the UN launched an AI-ready stats graph; NVIDIA, Google, and Anthropic joined a grid-flexibility alliance. xAI added voice to Grok Bot after Galaxy.",
+  "brief_zh": "OpenAI 推出 Astra for Law 並把 ChatGPT 放進 Word。Anthropic 開放生命科學驗證、公布研發節奏指標，並開源分子模型約 4 倍加速。Google 與聯合國上線可給代理人用的統計知識圖譜；NVIDIA、Google、Anthropic 加入電網彈性聯盟。xAI 為 Grok Bot 加上語音。",
+  "updated_at": "2026-09-18T04:35:01.245273+00:00"
 }
