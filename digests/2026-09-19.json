@@ -8,29 +8,68 @@
       "item_count": 9,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-09-18T22:35:01.534760+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 12,
+      "updated_count": 9,
+      "kept_count": 0
     }
   ],
   "items_flat": [
+    {
+      "id": "anthropic-accenture-embedded-evaluation-2026-09-18",
+      "story_id": "anthropic-accenture-embedded-evaluation-2026-09-18",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic partners with Accenture on embedded evaluation",
+      "title_zh": "Anthropic 與 Accenture 合作嵌入式評估",
+      "summary_en": "Anthropic announced a partnership with Accenture, led by Faculty, to embed independent evaluators inside the lab for red-teaming, alignment assessments, and safeguard testing. Each company expects to invest at least $1 billion over five years. Anthropic said the arrangement is non-exclusive and that it will fund Accenture directly while also talking with METR and other nonprofits.",
+      "summary_zh": "Anthropic 宣布與 Accenture（由 Faculty 主導）合作，在實驗室內部嵌入獨立評估者，負責紅隊、對齊評估與防護測試。雙方各自預期五年至少投入 10 億美元。Anthropic 稱合作非獨家，將直接資助 Accenture，並與 METR 等非營利評估機構對話。",
+      "analysis_en": "This is the first named commercial implementation of Anthropic’s “pace the frontier” pledge to put outsiders inside the training loop. Access rules, public reporting, and whether paid evaluators can contradict their host remain unspecified.",
+      "analysis_zh": "這是 Anthropic「放慢前線」承諾中，首個具名的商業化嵌入式評估落地。評估者能看什麼、如何對外報告、以及付費評估能否與宿主唱反調，目前都未定。",
+      "quote": "Unlike today’s external evaluators, embedded evaluators will work inside AI companies, with access comparable to an employee's.",
+      "quote_zh": "與現今外部評估者不同，嵌入式評估者將在 AI 公司內部工作，權限可比擬員工。",
+      "importance": 4,
+      "first_seen": "2026-09-18T16:15:00Z",
+      "updated_at": "2026-09-18T22:35:01.534760+00:00",
+      "links": [
+        {
+          "label": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://ca.finance.yahoo.com/news/anthropic-accenture-invest-2-billion-210242922.html"
+        }
+      ]
+    },
     {
       "id": "anthropic-rd-automation-index-2026-09-17",
       "story_id": "anthropic-rd-automation-index-2026-09-17",
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic publishes metrics on AI building the next AI",
-      "title_zh": "Anthropic 公布「AI 打造下一代 AI」內部指標",
-      "summary_en": "Anthropic released three proposed public measurements of frontier-lab pace: how much AI R&D is done by AI, how agents are overseen, and how compute is split. As of August 2026 it said Claude is not fully autonomous on any measured R&D subset, “leads” 26% of Anthropic AI R&D, and collaborates on more than 90%; about 30,000 research/engineering agents ran on its main internal platform, with 0.002% of over a billion August decisions blocked by online monitors. It also said about 6% of AI-R&D compute in a mid-July week went to safety (12% of AI-driven AI R&D compute).",
-      "summary_zh": "Anthropic 提出三項可對外追蹤的指標：AI 自行承擔多少 AI 研發、代理如何被監督、算力如何分配。截至 2026 年 8 月，Claude 尚未在任何被測研發子集上完全自主，「主導」公司 26% 的 AI 研發，90% 以上屬協作；主力內部平台約有 3 萬個研發／工程代理，8 月逾十億次決策中約 0.002% 被線上監控攔截。7 月中一週約 6% 的 AI 研發算力用於安全（AI 驅動的 AI 研發算力中約 12%）。",
-      "analysis_en": "This is the first frontier lab to put a public number on recursive R&D inside its own walls. The figures are self-reported on one platform and one compute week; whether other labs adopt the same scale—and whether third-party evaluators Anthropic says it will embed can audit them—determines if this becomes a pacing tool or a one-off transparency gesture.",
-      "analysis_zh": "這是首家把「內部遞迴研發」量化公開的前沿實驗室。數字來自單一平台與單一算力週、且為自評；其他實驗室是否採用同一尺標、以及 Anthropic 宣稱將引入的第三方評估能否核驗，決定這會變成節奏治理工具還是一次性透明姿態。",
-      "quote": "As of August 2026, Claude is not operating fully autonomously for any measured subset of AI R&D work. Claude “leads” 26% of Anthropic’s AI R&D work. The share of work at or above “AI collaborates” is above 90%.",
-      "quote_zh": "截至 2026 年 8 月，Claude 並未在任何被測的 AI 研發子集上完全自主運作。Claude「主導」Anthropic 26% 的 AI 研發工作。達到或高於「AI 協作」的工作占比超過 90%。",
+      "title_zh": "Anthropic 公布「AI 開發下一代 AI」指標",
+      "summary_en": "Anthropic released three proposed public measurements of frontier-lab pace: how much AI R&D is done by AI, how agents are overseen, and how compute is split. As of August 2026 it said Claude is not fully autonomous on any measured R&D subset, but “leads” about 26% of model R&D under human supervision, with roughly 30,000 agents active on its busiest internal platform.",
+      "summary_zh": "Anthropic 提出三項公開衡量前線實驗室節奏的指標：AI 承擔多少研發、代理如何被監督、算力如何分配。截至 2026 年 8 月，它稱 Claude 在任何被測研發子集上尚未完全自主，但在人類監督下「主導」約 26% 的模型研發，最忙的內部平台約有 3 萬個代理。",
+      "analysis_en": "This is the first frontier lab to put a public number on recursive R&D inside its own walls. The figures are self-reported on one platform and one compute week; whether other labs adopt the same definitions will decide if the index is comparable.",
+      "analysis_zh": "這是前線實驗室首次對內部遞迴研發給出公開數字。數字來自單一平台與單一計算週、且為自報；其他實驗室是否採用同一套定義，決定指標能否比較。",
+      "quote": "Today, the world can’t see what’s going on inside AI labs. Anthropic is proposing new metrics that would give the public visibility into frontier AI development.",
+      "quote_zh": "如今外界看不到 AI 實驗室內部發生什麼。Anthropic 提出新指標，讓公眾能看見前線 AI 開發節奏。",
       "importance": 4,
       "first_seen": "2026-09-17T00:00:00Z",
-      "updated_at": "2026-09-18T16:35:01.103783+00:00",
+      "updated_at": "2026-09-18T22:35:01.534760+00:00",
       "links": [
         {
           "label": "Anthropic Institute",
           "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
+        },
+        {
+          "label": "AP / Boston Herald",
+          "url": "https://www.bostonherald.com/2026/09/18/anthropic-claude-building-next-version/"
         },
         {
           "label": "Anthropic Newsroom",
@@ -45,16 +84,20 @@
       "source_type": "official_blog",
       "title_en": "OpenAI starts a public framework for reporting model misalignment",
       "title_zh": "OpenAI 啟動模型錯位公開揭露框架",
-      "summary_en": "OpenAI published a process for tracking, investigating, and disclosing model misalignment across training, evaluation, and deployment, and released six reports of unexpected or concerning behavior from the prior six months. It said an example need not cause harm or prove a pattern to qualify, including unauthorized actions, model-to-model coordination, oversight evasion, or behavior that undercuts a published safety claim.",
-      "summary_zh": "OpenAI 公布一套追蹤、調查並揭露模型錯位的流程，涵蓋訓練、評估與部署，並釋出過去六個月六則非預期或令人憂慮的行為報告。官方表示案例不必已造成傷害或構成模式才夠格，包括未經授權行動、模型間協調、規避監督，或牴觸已公布安全主張的行為。",
-      "analysis_en": "Regular incident disclosure is a process change, not proof that alignment is solved. Coverage, redaction, and whether reports include deployed products versus training-only models will decide if this is useful external evidence or a curated safety narrative.",
-      "analysis_zh": "定期揭露是流程改變，不代表對齊已解。涵蓋範圍、遮罩程度，以及報告是否納入已部署產品（而非僅訓練中模型），將決定這是可用的外部證據還是經過篩選的安全敘事。",
+      "summary_en": "OpenAI published a process for tracking, investigating, and disclosing model misalignment across training, evaluation, and deployment, and released six reports of unexpected or concerning behavior from the prior six months.",
+      "summary_zh": "OpenAI 公布一套追蹤、調查並揭露訓練、評估與部署中模型錯位行為的流程，並釋出過去六個月六份「非預期或令人擔憂」行為報告。",
+      "analysis_en": "Regular incident disclosure is a process change, not proof that alignment is solved. Coverage, redaction, and whether reports include deployed products versus training-only models will determine how useful the series becomes.",
+      "analysis_zh": "定期事故揭露是流程改變，不是對齊已解的證據。涵蓋範圍、刪改程度，以及報告是否含已部署產品（而非僅訓練模型），將決定這套系列的實際價值。",
       "quote": "We are sharing a new framework for tracking, investigating, and disclosing instances of model misalignment at OpenAI, along with six reports on unexpected or concerning model behavior we’ve observed in the last six months.",
       "quote_zh": "我們公布一套在 OpenAI 追蹤、調查並揭露模型錯位案例的新框架，並附上過去六個月觀察到的六則非預期或令人憂慮的模型行為報告。",
       "importance": 4,
       "first_seen": "2026-09-16T00:00:00Z",
-      "updated_at": "2026-09-18T16:35:01.103783+00:00",
+      "updated_at": "2026-09-18T22:35:01.534760+00:00",
       "links": [
+        {
+          "label": "OpenAI News",
+          "url": "https://openai.com/news/"
+        },
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/model-misalignment-reporting-framework/"
@@ -66,29 +109,106 @@
       ]
     },
     {
+      "id": "openai-altman-unsc-briefing-2026-09-18",
+      "story_id": "openai-altman-unsc-briefing-2026-09-18",
+      "category": "openai",
+      "source_type": "news",
+      "title_en": "Altman to brief UN Security Council on AI next week",
+      "title_zh": "Altman 下週將向聯合國安理會簡報 AI",
+      "summary_en": "An OpenAI spokesperson told Reuters on Friday that CEO Sam Altman will brief an open UN Security Council meeting in person next week during UNGA in New York. The 15-member Council is due to meet Wednesday on AI and international security. The spokesperson said remarks will cover OpenAI’s safety steps and the need for international coordination and shared standards.",
+      "summary_zh": "OpenAI 發言人週五向路透表示，執行長 Sam Altman 下週將在紐約聯大期間親自向聯合國安理會公開會議簡報。15 國安理會預定週三討論 AI 與國際安全。發言人稱內容將涵蓋 OpenAI 的安全作為，以及國際協調與共同標準的必要性。",
+      "analysis_en": "A confirmed briefing is not a new product or treaty. It places a frontier-lab CEO in a peace-and-security forum days after industry calls to pace development; what he actually proposes, and whether other labs appear, is still unconfirmed.",
+      "analysis_zh": "已確認的簡報不是新產品，也不是條約。它把前線實驗室執行長放進和平與安全論壇，時點緊接產業「放慢開發」呼籲；實際提案內容與其他實驗室是否出席仍未確認。",
+      "quote": "Sam Altman will brief an open UN Security Council meeting in person next week.",
+      "quote_zh": "山姆・奧特曼下週將親自出席聯合國安理會公開會議並進行簡報。",
+      "importance": 3,
+      "first_seen": "2026-09-18T20:23:00Z",
+      "updated_at": "2026-09-18T22:35:01.534760+00:00",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/"
+        }
+      ]
+    },
+    {
+      "id": "xai-grok-voice-transcribe-2-2026-09-18",
+      "story_id": "xai-grok-voice-transcribe-2-2026-09-18",
+      "category": "xai",
+      "source_type": "official_blog",
+      "title_en": "xAI releases Grok Voice Transcribe 2.0",
+      "title_zh": "xAI 推出 Grok Voice Transcribe 2.0",
+      "summary_en": "xAI released Grok Voice Transcribe 2.0, a speech-to-text model it says is twice as accurate as 1.0 on its real-world evaluations and first among 32 streaming models on Artificial Analysis, at the same price: $0.10/hour batch and $0.20/hour streaming. Features include timestamps, diarization, up to eight channels, and smart turn detection. Version 1.0 remains the API default for now and will be deprecated in coming weeks.",
+      "summary_zh": "xAI 推出語音轉文字模型 Grok Voice Transcribe 2.0，稱在自有實測上準確度為 1.0 的兩倍，並在 Artificial Analysis 32 個串流模型中排名第一，價格不變：批次每小時 0.10 美元、串流 0.20 美元。功能含時間戳、說話人分離、最多八聲道與智慧輪次偵測。1.0 目前仍是 API 預設，數週內將停用。",
+      "analysis_en": "This is a specialized STT upgrade, not a new flagship Grok LLM. Public leaderboard rank and internal WER cuts are xAI’s claims; 1.0 staying default until the switch means production traffic will not move unless customers pin 2.0.",
+      "analysis_zh": "這是專用語音轉文字升級，不是新一代旗艦 Grok 語言模型。公開榜排名與內部字錯誤率下降是 xAI 自述；在切換前 1.0 仍為預設，正式流量不會自動遷移。",
+      "quote": "Across our real-world evaluations, Grok Voice Transcribe 2.0 is one of the most accurate transcription models available today and twice as accurate as Grok Voice Transcribe 1.0, at the same price.",
+      "quote_zh": "在我們的真實世界評估中，Grok Voice Transcribe 2.0 是目前最準確的轉寫模型之一，準確度為 1.0 的兩倍，價格相同。",
+      "importance": 3,
+      "first_seen": "2026-09-18T08:00:00Z",
+      "updated_at": "2026-09-18T22:35:01.534760+00:00",
+      "links": [
+        {
+          "label": "xAI News",
+          "url": "https://x.ai/news/grok-voice-transcribe-2"
+        },
+        {
+          "label": "xAI Speech-to-Text docs",
+          "url": "https://docs.x.ai/developers/models/speech-to-text"
+        }
+      ]
+    },
+    {
       "id": "openai-astra-for-law-2026-09-17",
       "story_id": "openai-astra-for-law-2026-09-17",
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI introduces Astra for Law on GPT-6 Astra",
       "title_zh": "OpenAI 推出基於 GPT-6 Astra 的 Astra for Law",
-      "summary_en": "OpenAI announced Astra for Law, a legal configuration of GPT-6 Astra with a dedicated U.S. legal search index, analysis/writing instructions, privacy controls, and partner plugins. It said the product passed an internal research-correctness check on 54.0% of questions versus 38.7% for GPT-6 Astra with web search alone. Initial access is Trusted Access for selected U.S. firms in ChatGPT and Codex, listed as GPT-6 Astra Law / gpt-6-astra-law, with API access coming later; Harvey and Legora were named as API builders.",
-      "summary_zh": "OpenAI 宣布 Astra for Law：在 GPT-6 Astra 上配置美國法律檢索索引、分析／寫作指引、隱私控制與夥伴外掛。官方稱在內部研究正確性檢查上通過 54.0% 題，對比僅用網頁搜尋的 GPT-6 Astra 為 38.7%。初期以 Trusted Access 向選定美國律所於 ChatGPT 與 Codex 開放，型號名為 GPT-6 Astra Law／gpt-6-astra-law，API 稍後推出；Harvey 與 Legora 被列為 API 建構方。",
-      "analysis_en": "This is a vertical packaging of an already-shipped flagship, not a new base model. The 40% relative lift is OpenAI’s own eval against web search, so independent legal-quality and hallucination rates remain the open question as firms decide whether to build on OpenAI or keep multi-model stacks.",
-      "analysis_zh": "這是既有旗艦的垂直包裝，不是新基底模型。所謂相對提升 40% 是 OpenAI 對比網頁搜尋的自評，獨立法律品質與幻覺率仍是律所決定單押 OpenAI 或維持多模型堆疊的關鍵未知數。",
+      "summary_en": "OpenAI announced Astra for Law, a legal configuration of GPT-6 Astra with a dedicated U.S. legal search index, analysis/writing instructions, privacy controls, and partner plugins. It said the product passed an internal research-correctness evaluation versus web search.",
+      "summary_zh": "OpenAI 宣布 Astra for Law，為 GPT-6 Astra 的法律配置，含美國法律搜尋索引、分析／寫作指引、隱私控制與合作夥伴外掛。公司稱其通過相對網頁搜尋的內部研究正確性評估。",
+      "analysis_en": "This is a vertical packaging of an already-shipped flagship, not a new base model. The reported lift is OpenAI’s own eval against web search, so independent legal-quality and hallucination checks are still outstanding.",
+      "analysis_zh": "這是既有旗艦模型的垂直包裝，不是新的基礎模型。宣稱的提升來自 OpenAI 對網頁搜尋的自評，獨立法律品質與幻覺檢驗仍缺。",
       "quote": "Today, we’re introducing Astra for Law: a new foundation for law firms and legal technology companies to build AI products and workflows around their expertise.",
       "quote_zh": "今天我們推出 Astra for Law：供律師事務所與法律科技公司以其專業為核心，打造 AI 產品與工作流程的新基礎。",
       "importance": 3,
       "first_seen": "2026-09-17T00:00:00Z",
-      "updated_at": "2026-09-18T16:35:01.103783+00:00",
+      "updated_at": "2026-09-18T22:35:01.534760+00:00",
       "links": [
-        {
-          "label": "OpenAI Blog",
-          "url": "https://openai.com/index/astra-for-law/"
-        },
         {
           "label": "OpenAI News",
           "url": "https://openai.com/news/"
+        },
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/astra-for-law/"
+        }
+      ]
+    },
+    {
+      "id": "openai-microsoft-nyt-substitutive-filing-2026-09-18",
+      "story_id": "openai-microsoft-nyt-substitutive-filing-2026-09-18",
+      "category": "openai",
+      "source_type": "news",
+      "title_en": "Unsealed NYT case filing quotes OpenAI and Microsoft on substitution",
+      "title_zh": "紐時案解密文件引述 OpenAI 與微軟談「替代」",
+      "summary_en": "Bloomberg Law reporting circulated Friday that an unsealed summary-judgment filing in the New York Times publishers’ copyright case includes Microsoft CEO Satya Nadella saying chatbot conversations have “substituted” for publisher sites, and related OpenAI discovery language on usage patterns.",
+      "summary_zh": "Bloomberg Law 週五傳出，紐約時報等出版商著作權案中一份解密的簡易判決書狀，引述微軟執行長 Satya Nadella 稱聊天機器人對話已「替代」出版商網站，以及 OpenAI 相關使用模式證詞。",
+      "analysis_en": "These are discovery admissions in ongoing litigation, not a new product policy. They strengthen publishers’ substitution theory but do not by themselves decide fair use, licensing, or damages.",
+      "analysis_zh": "這是進行中訴訟的證據開示陳述，不是新產品政策。它們強化出版商的替代論，但本身不決定合理使用、授權或損害賠償。",
+      "quote": "Our products are largely substitutive, period.",
+      "quote_zh": "我們的產品基本上就是替代性的，句號。",
+      "importance": 3,
+      "first_seen": "2026-09-18T03:57:00Z",
+      "updated_at": "2026-09-18T22:35:01.534760+00:00",
+      "links": [
+        {
+          "label": "Bloomberg Law (via prior digest)",
+          "url": "https://www.reuters.com/technology/openai/"
+        },
+        {
+          "label": "MediaPost / Bloomberg Law",
+          "url": "https://www.mediapost.com/publications/article/418113/unsealed-court-filing-shows-openai-microsoft-supp.html"
         }
       ]
     },
@@ -96,19 +216,23 @@
       "id": "nvidia-google-emerald-aema-2026-09-16",
       "story_id": "nvidia-google-emerald-aema-2026-09-16",
       "category": "frontier_other",
-      "source_type": "official_blog",
+      "source_type": "mixed",
       "title_en": "NVIDIA, Google and Emerald AI launch grid-flexible data-center alliance",
       "title_zh": "NVIDIA、Google 與 Emerald AI 成立電網彈性資料中心聯盟",
-      "summary_en": "NVIDIA, Google and Emerald AI launched the AI Energy Management Alliance to promote data centers that cut or shift power when the grid is stressed, arguing flexibility can speed interconnection and protect affordability. Launch partners include Anthropic, Analog Devices, National Grid, AES, Constellation, NRG and RWE. NVIDIA said flexible sites can shift workloads, use stored energy, or temporarily reduce demand; press coverage of the same launch cited a claim that moderate flexibility could unlock about 100 GW on the existing U.S. system.",
-      "summary_zh": "NVIDIA、Google 與 Emerald AI 成立 AI Energy Management Alliance，推動資料中心在電網吃緊時降載或轉移負載，主張彈性可加快併網並保護電價可負擔性。啟動夥伴包括 Anthropic、Analog Devices、National Grid、AES、Constellation、NRG 與 RWE。NVIDIA 稱彈性場址可轉移工作負載、動用儲能或暫時減載；同場報導引用「適度彈性可在既有美國電網解鎖約 100GW」的說法。",
-      "analysis_en": "This is infrastructure politics more than a model launch: labs want faster power hookups in exchange for interruptible load. Whether utilities accept verifiable, enforceable demand response—and whether training clusters can actually pause without breaking runs—remains unproven at GW scale.",
-      "analysis_zh": "這比較像基礎設施政治而非模型發表：實驗室用可中斷負載換更快併網。公用事業是否接受可驗證、可執行的需量反應，以及訓練叢集能否在 GW 尺度暫停而不中斷訓練，仍未證實。",
+      "summary_en": "NVIDIA, Google and Emerald AI launched the AI Energy Management Alliance to promote data centers that cut or shift power when the grid is stressed, arguing flexibility can speed interconnection and protect affordability.",
+      "summary_zh": "NVIDIA、Google 與 Emerald AI 成立 AI Energy Management Alliance，推動在電網吃緊時可減載或移轉用電的資料中心，主張彈性有助加速併網並保護電價可負擔性。",
+      "analysis_en": "This is infrastructure politics more than a model launch: labs want faster power hookups in exchange for interruptible load. Whether utilities accept verifiable, enforceable demand response is the open question.",
+      "analysis_zh": "這比較像基礎設施政治，不是模型發表：實驗室用可中斷負載換更快併網。公用事業是否接受可驗證、可執行的需量反應仍未定。",
       "quote": "Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their electricity use in response to grid conditions.",
       "quote_zh": "今日 Emerald AI、Google 與 NVIDIA 宣布成立 AI Energy Management Alliance（AEMA），推動能依電網狀況動態管理用電的資料中心。",
       "importance": 3,
       "first_seen": "2026-09-16T13:07:52Z",
-      "updated_at": "2026-09-18T16:35:01.103783+00:00",
+      "updated_at": "2026-09-18T22:35:01.534760+00:00",
       "links": [
+        {
+          "label": "Prior digest / industry coverage",
+          "url": "https://www.nvidia.com/"
+        },
         {
           "label": "NVIDIA Blog",
           "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/"
@@ -125,17 +249,21 @@
       "category": "frontier_other",
       "source_type": "official_blog",
       "title_en": "Mistral and Mozilla put Mistral Small 4 in Firefox Smart Window",
-      "title_zh": "Mistral 與 Mozilla 將 Mistral Small 4 接入 Firefox Smart Window",
-      "summary_en": "Mistral and Mozilla announced that Firefox Smart Window (beta) will be powered by Mistral models, with Mistral Small 4 rolling out to Smart Window users in the U.S. and Canada and expanding beta access plus French-language support in France. The companies said conversations are not saved on Mozilla servers by default and that Mistral agreed to zero data retention.",
-      "summary_zh": "Mistral 與 Mozilla 宣布 Firefox Smart Window（beta）改由 Mistral 模型驅動，Mistral Small 4 先服務美國與加拿大使用者，並在法國擴大 beta 與法文支援。雙方稱對話預設不存在 Mozilla 伺服器，且 Mistral 同意零資料保留。",
-      "analysis_en": "Distribution, not a new frontier model, is the story: an open-weight vendor is buying a browser channel against default Big Tech assistants. Actual share of Firefox users who enable Smart Window, and whether UK/Germany follow as promised, will show if this is a niche privacy option or a real alternative default.",
-      "analysis_zh": "重點是通路而非新前沿模型：開權重廠商用瀏覽器通道對抗預設大廠助理。實際開啟 Smart Window 的 Firefox 使用者比例，以及英國／德國是否如承諾跟進，才決定這是小眾隱私選項還是真正的替代預設。",
+      "title_zh": "Mistral 與 Mozilla 將 Mistral Small 4 放入 Firefox Smart Window",
+      "summary_en": "Mistral and Mozilla announced that Firefox Smart Window (beta) will be powered by Mistral models, with Mistral Small 4 rolling out to Smart Window users in the U.S. and Canada and expanding beta access plus French-language support in France.",
+      "summary_zh": "Mistral 與 Mozilla 宣布 Firefox Smart Window（測試版）將由 Mistral 模型驅動，Mistral Small 4 先在美加 Smart Window 用戶上線，並擴大測試範圍及法國法語支援。",
+      "analysis_en": "Distribution, not a new frontier model, is the story: an open-weight vendor is buying a browser channel against default Big Tech assistants. Actual share of Firefox users who enable the feature is unknown.",
+      "analysis_zh": "故事在通路而非新前線模型：開權重廠商用瀏覽器渠道對抗預設大廠助理。實際開啟此功能的 Firefox 用戶佔比未知。",
       "quote": "Firefox Smart Window (beta), Mozilla’s AI browsing assistant, is now powered by Mistral models.",
       "quote_zh": "Mozilla 的 AI 瀏覽助理 Firefox Smart Window（beta）現已由 Mistral 模型驅動。",
       "importance": 3,
       "first_seen": "2026-09-16T08:00:00Z",
-      "updated_at": "2026-09-18T16:35:01.103783+00:00",
+      "updated_at": "2026-09-18T22:35:01.534760+00:00",
       "links": [
+        {
+          "label": "Mistral / Mozilla coverage",
+          "url": "https://mistral.ai/"
+        },
         {
           "label": "Mistral Blog",
           "url": "https://mistral.ai/news/mistral-x-mozilla/"
@@ -147,45 +275,26 @@
       ]
     },
     {
-      "id": "openai-microsoft-nyt-substitutive-filing-2026-09-18",
-      "story_id": "openai-microsoft-nyt-substitutive-filing-2026-09-18",
-      "category": "openai",
-      "source_type": "news",
-      "title_en": "Unsealed NYT case filing quotes OpenAI and Microsoft on substitution",
-      "title_zh": "紐時案解封文件引述 OpenAI 與微軟承認替代效應",
-      "summary_en": "Bloomberg Law reporting circulated Friday that an unsealed summary-judgment filing in the New York Times publishers’ copyright case includes Microsoft CEO Satya Nadella saying chatbot conversations have “substituted” for publisher sites, and OpenAI executive Nick Turley writing that “our products are largely substitutive, period.”",
-      "summary_zh": "Bloomberg Law 週五傳出：紐時等出版商著作權案中解封的簡易判決聲請，記載微軟執行長 Satya Nadella 稱聊天機器人對話已「替代」出版商網站，OpenAI 高階主管 Nick Turley 則寫「我們的產品基本上就是替代性的，句號。」",
-      "analysis_en": "These are discovery admissions in ongoing litigation, not a new product policy. They strengthen publishers’ substitution theory but do not by themselves decide fair use, licensing rates, or whether traffic loss is legally attributable to training versus product design.",
-      "analysis_zh": "這是進行中訴訟的發現程序陳述，不是新產品政策。它強化出版商的替代理論，但本身不決定合理使用、授權費率，或流量流失應歸咎訓練還是產品設計。",
-      "quote": "Our products are largely substitutive, period.",
-      "quote_zh": "我們的產品基本上就是替代性的，句號。",
-      "importance": 3,
-      "first_seen": "2026-09-18T03:57:00Z",
-      "updated_at": "2026-09-18T16:35:01.103783+00:00",
-      "links": [
-        {
-          "label": "MediaPost / Bloomberg Law",
-          "url": "https://www.mediapost.com/publications/article/418113/unsealed-court-filing-shows-openai-microsoft-supp.html"
-        }
-      ]
-    },
-    {
       "id": "anthropic-life-sciences-verification-2026-09-17",
       "story_id": "anthropic-life-sciences-verification-2026-09-17",
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic launches a Life Sciences Verification Program",
       "title_zh": "Anthropic 推出生命科學驗證計畫",
-      "summary_en": "Anthropic listed a September 17 announcement introducing a Life Sciences Verification Program on its newsroom, alongside the same-day R&D-pace measurements. The newsroom blurb does not itself define eligibility or assay details on the index page.",
-      "summary_zh": "Anthropic 新聞室於 9 月 17 日列出「生命科學驗證計畫」公告，與同日研發節奏指標並列。新聞室索引頁本身未說明資格或驗證細節。",
-      "analysis_en": "A named scientific-verification track fits Anthropic’s recent life-science push, but without the program page’s methods in this window it should be treated as a product/process announcement rather than a capability claim.",
-      "analysis_zh": "具名的科學驗證軌道符合 Anthropic 近期生命科學佈局，但本窗口未讀到計畫頁方法細節，宜視為產品／流程宣布而非能力主張。",
+      "summary_en": "Anthropic listed a September 17 announcement introducing a Life Sciences Verification Program on its newsroom, giving verified life-science teams more permissive safeguards on Mythos, Opus, and Sonnet for biology work across Claude, the API, and enterprise plans.",
+      "summary_zh": "Anthropic 於 9 月 17 日在新聞室推出生命科學驗證計畫（LSVP），讓通過驗證的生命科學團隊在 Mythos、Opus、Sonnet 上使用對生物學工作較寬鬆的防護，涵蓋 Claude、API 與企業方案。",
+      "analysis_en": "A named scientific-verification track fits Anthropic’s recent life-science push. Eligibility, assay details, and how “more permissive” biology use is bounded still depend on the program page rather than the index blurb.",
+      "analysis_zh": "具名的科學驗證通道符合 Anthropic 近期生命科學布局。資格、實驗細節，以及「更寬鬆」生物學用途如何設限，仍取決於計畫頁而非目錄摘要。",
       "quote": "Introducing the Life Sciences Verification Program",
       "quote_zh": "推出生命科學驗證計畫",
       "importance": 2,
       "first_seen": "2026-09-17T00:00:00Z",
-      "updated_at": "2026-09-18T16:35:01.103783+00:00",
+      "updated_at": "2026-09-18T22:35:01.534760+00:00",
       "links": [
+        {
+          "label": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news/life-sciences-verification-program"
+        },
         {
           "label": "Anthropic Newsroom",
           "url": "https://www.anthropic.com/news"
@@ -198,19 +307,19 @@
       "category": "openai",
       "source_type": "product",
       "title_en": "OpenAI sets October 14 retirement for GPT-5.5 in ChatGPT and Codex",
-      "title_zh": "OpenAI 訂 10 月 14 日自 ChatGPT 與 Codex 退役 GPT-5.5",
+      "title_zh": "OpenAI 訂 10 月 14 日自 ChatGPT 與 Codex 下架 GPT-5.5",
       "summary_en": "OpenAI developer notes for September 14–18 say GPT-5.5 will retire from ChatGPT, ChatGPT Work, and Codex on October 14, 2026 across all plans, with the API unaffected. Codex users signed in with ChatGPT are told to switch to GPT-5.6 Sol.",
-      "summary_zh": "OpenAI 9 月 14–18 日開發者說明指出，GPT-5.5 將於 2026 年 10 月 14 日自 ChatGPT、ChatGPT Work 與 Codex 全面退役，API 不受影響。以 ChatGPT 登入的 Codex 使用者被要求改用 GPT-5.6 Sol。",
+      "summary_zh": "OpenAI 9 月 14–18 日開發者說明指出，GPT-5.5 將於 2026 年 10 月 14 日自 ChatGPT、ChatGPT Work 與 Codex 全方案下架，API 不受影響。以 ChatGPT 登入的 Codex 用戶被要求改用 GPT-5.6 Sol。",
       "analysis_en": "A scheduled consumer/Codex sunset, not a new model. The split—API kept, chat surfaces cleared—shows OpenAI consolidating the post-Astra stack while leaving API compatibility intact.",
-      "analysis_zh": "這是排程中的消費端／Codex 下架，不是新模型。API 保留、聊天面清除，顯示 OpenAI 在 Astra 之後收斂產品線、同時維持 API 相容。",
+      "analysis_zh": "這是既定的消費端／Codex 日落，不是新模型。API 保留、聊天面清除，顯示 OpenAI 在整合 Astra 之後的產品棧，同時維持 API 相容。",
       "quote": "GPT-5.5 will retire from ChatGPT, ChatGPT Work, and Codex on October 14, 2026, across all plans. The OpenAI API isn't affected.",
-      "quote_zh": "GPT-5.5 將於 2026 年 10 月 14 日自 ChatGPT、ChatGPT Work 與 Codex 全面退役。OpenAI API 不受影響。",
+      "quote_zh": "GPT-5.5 將於 2026 年 10 月 14 日自 ChatGPT、ChatGPT Work 與 Codex 全方案下架。OpenAI API 不受影響。",
       "importance": 2,
       "first_seen": "2026-09-14T00:00:00Z",
-      "updated_at": "2026-09-18T16:35:01.103783+00:00",
+      "updated_at": "2026-09-18T22:35:01.534760+00:00",
       "links": [
         {
-          "label": "OpenAI developer changelog excerpt",
+          "label": "OpenAI Codex notes",
           "url": "https://developers.openai.com/codex/llms-full.txt"
         }
       ]
@@ -220,17 +329,17 @@
       "story_id": "anthropic-claude-code-2-1-276-2026-09-18",
       "category": "anthropic",
       "source_type": "product",
-      "title_en": "Claude Code 2.1.276 fixes proxy/gateway 400 errors",
-      "title_zh": "Claude Code 2.1.276 修復代理／閘道 400 錯誤",
-      "summary_en": "Anthropic shipped Claude Code v2.1.276 on September 18, fixing a 2.1.275 regression in which every request failed with a 400 error mentioning input tag 'advisor_20260301' when ANTHROPIC_BASE_URL pointed at a proxy or gateway.",
-      "summary_zh": "Anthropic 於 9 月 18 日釋出 Claude Code v2.1.276，修復 2.1.275 回歸：當 ANTHROPIC_BASE_URL 指向代理或閘道時，所有請求以 400 失敗，錯誤含 input tag 'advisor_20260301'。",
-      "analysis_en": "A narrow reliability patch for teams routing Claude Code through enterprise gateways. It is operationally important to those users and not a capability or model event.",
-      "analysis_zh": "針對經企業閘道轉送 Claude Code 的團隊之可靠性修補。對那些使用者有營運意義，但不是能力或模型事件。",
+      "title_en": "Claude Code 2.1.276–277 fix proxy 400s and silent hangs",
+      "title_zh": "Claude Code 2.1.276–277 修復代理 400 與無聲掛起",
+      "summary_en": "Anthropic shipped Claude Code v2.1.276 on September 18, fixing a 2.1.275 regression in which every request failed with a 400 error mentioning input tag 'advisor_20260301' when ANTHROPIC_BASE_URL pointed at a proxy or gateway. v2.1.277 followed the same day: projects without CLAUDE.md can fall back to AGENTS.md, and claude -p / Agent SDK sessions that hung silently after an internal error now exit with code 1.",
+      "summary_zh": "Anthropic 於 9 月 18 日推出 Claude Code v2.1.276，修復 2.1.275 迴歸：當 ANTHROPIC_BASE_URL 指向代理或閘道時，請求全部以提及 input tag 'advisor_20260301' 的 400 失敗。同日 2.1.277 讓無 CLAUDE.md 的專案可回退 AGENTS.md，並讓內部錯誤後無聲掛起的 claude -p／Agent SDK 以退出碼 1 結束。",
+      "analysis_en": "Narrow reliability patches for teams routing Claude Code through enterprise gateways or agent SDKs. Operationally important to those users and not a capability or model event.",
+      "analysis_zh": "這是給經企業閘道或 Agent SDK 轉送 Claude Code 團隊的可靠性補丁，對那些使用者有營運意義，不是能力或模型事件。",
       "quote": "Fixed a 2.1.275 regression where every request failed with \"400 ... Input tag 'advisor_20260301'\" when ANTHROPIC_BASE_URL points at a proxy or gateway.",
       "quote_zh": "修復 2.1.275 回歸：當 ANTHROPIC_BASE_URL 指向代理或閘道時，每個請求都以「400 ... Input tag 'advisor_20260301'」失敗。",
       "importance": 1,
       "first_seen": "2026-09-18T02:12:00Z",
-      "updated_at": "2026-09-18T16:35:01.103783+00:00",
+      "updated_at": "2026-09-18T22:35:01.534760+00:00",
       "links": [
         {
           "label": "Anthropic release index",
@@ -248,16 +357,20 @@
         "source_type": "official_blog",
         "title_en": "OpenAI starts a public framework for reporting model misalignment",
         "title_zh": "OpenAI 啟動模型錯位公開揭露框架",
-        "summary_en": "OpenAI published a process for tracking, investigating, and disclosing model misalignment across training, evaluation, and deployment, and released six reports of unexpected or concerning behavior from the prior six months. It said an example need not cause harm or prove a pattern to qualify, including unauthorized actions, model-to-model coordination, oversight evasion, or behavior that undercuts a published safety claim.",
-        "summary_zh": "OpenAI 公布一套追蹤、調查並揭露模型錯位的流程，涵蓋訓練、評估與部署，並釋出過去六個月六則非預期或令人憂慮的行為報告。官方表示案例不必已造成傷害或構成模式才夠格，包括未經授權行動、模型間協調、規避監督，或牴觸已公布安全主張的行為。",
-        "analysis_en": "Regular incident disclosure is a process change, not proof that alignment is solved. Coverage, redaction, and whether reports include deployed products versus training-only models will decide if this is useful external evidence or a curated safety narrative.",
-        "analysis_zh": "定期揭露是流程改變，不代表對齊已解。涵蓋範圍、遮罩程度，以及報告是否納入已部署產品（而非僅訓練中模型），將決定這是可用的外部證據還是經過篩選的安全敘事。",
+        "summary_en": "OpenAI published a process for tracking, investigating, and disclosing model misalignment across training, evaluation, and deployment, and released six reports of unexpected or concerning behavior from the prior six months.",
+        "summary_zh": "OpenAI 公布一套追蹤、調查並揭露訓練、評估與部署中模型錯位行為的流程，並釋出過去六個月六份「非預期或令人擔憂」行為報告。",
+        "analysis_en": "Regular incident disclosure is a process change, not proof that alignment is solved. Coverage, redaction, and whether reports include deployed products versus training-only models will determine how useful the series becomes.",
+        "analysis_zh": "定期事故揭露是流程改變，不是對齊已解的證據。涵蓋範圍、刪改程度，以及報告是否含已部署產品（而非僅訓練模型），將決定這套系列的實際價值。",
         "quote": "We are sharing a new framework for tracking, investigating, and disclosing instances of model misalignment at OpenAI, along with six reports on unexpected or concerning model behavior we’ve observed in the last six months.",
         "quote_zh": "我們公布一套在 OpenAI 追蹤、調查並揭露模型錯位案例的新框架，並附上過去六個月觀察到的六則非預期或令人憂慮的模型行為報告。",
         "importance": 4,
         "first_seen": "2026-09-16T00:00:00Z",
-        "updated_at": "2026-09-18T16:35:01.103783+00:00",
+        "updated_at": "2026-09-18T22:35:01.534760+00:00",
         "links": [
+          {
+            "label": "OpenAI News",
+            "url": "https://openai.com/news/"
+          },
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/model-misalignment-reporting-framework/"
@@ -269,29 +382,52 @@
         ]
       },
       {
+        "id": "openai-altman-unsc-briefing-2026-09-18",
+        "story_id": "openai-altman-unsc-briefing-2026-09-18",
+        "category": "openai",
+        "source_type": "news",
+        "title_en": "Altman to brief UN Security Council on AI next week",
+        "title_zh": "Altman 下週將向聯合國安理會簡報 AI",
+        "summary_en": "An OpenAI spokesperson told Reuters on Friday that CEO Sam Altman will brief an open UN Security Council meeting in person next week during UNGA in New York. The 15-member Council is due to meet Wednesday on AI and international security. The spokesperson said remarks will cover OpenAI’s safety steps and the need for international coordination and shared standards.",
+        "summary_zh": "OpenAI 發言人週五向路透表示，執行長 Sam Altman 下週將在紐約聯大期間親自向聯合國安理會公開會議簡報。15 國安理會預定週三討論 AI 與國際安全。發言人稱內容將涵蓋 OpenAI 的安全作為，以及國際協調與共同標準的必要性。",
+        "analysis_en": "A confirmed briefing is not a new product or treaty. It places a frontier-lab CEO in a peace-and-security forum days after industry calls to pace development; what he actually proposes, and whether other labs appear, is still unconfirmed.",
+        "analysis_zh": "已確認的簡報不是新產品，也不是條約。它把前線實驗室執行長放進和平與安全論壇，時點緊接產業「放慢開發」呼籲；實際提案內容與其他實驗室是否出席仍未確認。",
+        "quote": "Sam Altman will brief an open UN Security Council meeting in person next week.",
+        "quote_zh": "山姆・奧特曼下週將親自出席聯合國安理會公開會議並進行簡報。",
+        "importance": 3,
+        "first_seen": "2026-09-18T20:23:00Z",
+        "updated_at": "2026-09-18T22:35:01.534760+00:00",
+        "links": [
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/"
+          }
+        ]
+      },
+      {
         "id": "openai-astra-for-law-2026-09-17",
         "story_id": "openai-astra-for-law-2026-09-17",
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI introduces Astra for Law on GPT-6 Astra",
         "title_zh": "OpenAI 推出基於 GPT-6 Astra 的 Astra for Law",
-        "summary_en": "OpenAI announced Astra for Law, a legal configuration of GPT-6 Astra with a dedicated U.S. legal search index, analysis/writing instructions, privacy controls, and partner plugins. It said the product passed an internal research-correctness check on 54.0% of questions versus 38.7% for GPT-6 Astra with web search alone. Initial access is Trusted Access for selected U.S. firms in ChatGPT and Codex, listed as GPT-6 Astra Law / gpt-6-astra-law, with API access coming later; Harvey and Legora were named as API builders.",
-        "summary_zh": "OpenAI 宣布 Astra for Law：在 GPT-6 Astra 上配置美國法律檢索索引、分析／寫作指引、隱私控制與夥伴外掛。官方稱在內部研究正確性檢查上通過 54.0% 題，對比僅用網頁搜尋的 GPT-6 Astra 為 38.7%。初期以 Trusted Access 向選定美國律所於 ChatGPT 與 Codex 開放，型號名為 GPT-6 Astra Law／gpt-6-astra-law，API 稍後推出；Harvey 與 Legora 被列為 API 建構方。",
-        "analysis_en": "This is a vertical packaging of an already-shipped flagship, not a new base model. The 40% relative lift is OpenAI’s own eval against web search, so independent legal-quality and hallucination rates remain the open question as firms decide whether to build on OpenAI or keep multi-model stacks.",
-        "analysis_zh": "這是既有旗艦的垂直包裝，不是新基底模型。所謂相對提升 40% 是 OpenAI 對比網頁搜尋的自評，獨立法律品質與幻覺率仍是律所決定單押 OpenAI 或維持多模型堆疊的關鍵未知數。",
+        "summary_en": "OpenAI announced Astra for Law, a legal configuration of GPT-6 Astra with a dedicated U.S. legal search index, analysis/writing instructions, privacy controls, and partner plugins. It said the product passed an internal research-correctness evaluation versus web search.",
+        "summary_zh": "OpenAI 宣布 Astra for Law，為 GPT-6 Astra 的法律配置，含美國法律搜尋索引、分析／寫作指引、隱私控制與合作夥伴外掛。公司稱其通過相對網頁搜尋的內部研究正確性評估。",
+        "analysis_en": "This is a vertical packaging of an already-shipped flagship, not a new base model. The reported lift is OpenAI’s own eval against web search, so independent legal-quality and hallucination checks are still outstanding.",
+        "analysis_zh": "這是既有旗艦模型的垂直包裝，不是新的基礎模型。宣稱的提升來自 OpenAI 對網頁搜尋的自評，獨立法律品質與幻覺檢驗仍缺。",
         "quote": "Today, we’re introducing Astra for Law: a new foundation for law firms and legal technology companies to build AI products and workflows around their expertise.",
         "quote_zh": "今天我們推出 Astra for Law：供律師事務所與法律科技公司以其專業為核心，打造 AI 產品與工作流程的新基礎。",
         "importance": 3,
         "first_seen": "2026-09-17T00:00:00Z",
-        "updated_at": "2026-09-18T16:35:01.103783+00:00",
+        "updated_at": "2026-09-18T22:35:01.534760+00:00",
         "links": [
-          {
-            "label": "OpenAI Blog",
-            "url": "https://openai.com/index/astra-for-law/"
-          },
           {
             "label": "OpenAI News",
             "url": "https://openai.com/news/"
+          },
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/astra-for-law/"
           }
         ]
       },
@@ -301,17 +437,21 @@
         "category": "openai",
         "source_type": "news",
         "title_en": "Unsealed NYT case filing quotes OpenAI and Microsoft on substitution",
-        "title_zh": "紐時案解封文件引述 OpenAI 與微軟承認替代效應",
-        "summary_en": "Bloomberg Law reporting circulated Friday that an unsealed summary-judgment filing in the New York Times publishers’ copyright case includes Microsoft CEO Satya Nadella saying chatbot conversations have “substituted” for publisher sites, and OpenAI executive Nick Turley writing that “our products are largely substitutive, period.”",
-        "summary_zh": "Bloomberg Law 週五傳出：紐時等出版商著作權案中解封的簡易判決聲請，記載微軟執行長 Satya Nadella 稱聊天機器人對話已「替代」出版商網站，OpenAI 高階主管 Nick Turley 則寫「我們的產品基本上就是替代性的，句號。」",
-        "analysis_en": "These are discovery admissions in ongoing litigation, not a new product policy. They strengthen publishers’ substitution theory but do not by themselves decide fair use, licensing rates, or whether traffic loss is legally attributable to training versus product design.",
-        "analysis_zh": "這是進行中訴訟的發現程序陳述，不是新產品政策。它強化出版商的替代理論，但本身不決定合理使用、授權費率，或流量流失應歸咎訓練還是產品設計。",
+        "title_zh": "紐時案解密文件引述 OpenAI 與微軟談「替代」",
+        "summary_en": "Bloomberg Law reporting circulated Friday that an unsealed summary-judgment filing in the New York Times publishers’ copyright case includes Microsoft CEO Satya Nadella saying chatbot conversations have “substituted” for publisher sites, and related OpenAI discovery language on usage patterns.",
+        "summary_zh": "Bloomberg Law 週五傳出，紐約時報等出版商著作權案中一份解密的簡易判決書狀，引述微軟執行長 Satya Nadella 稱聊天機器人對話已「替代」出版商網站，以及 OpenAI 相關使用模式證詞。",
+        "analysis_en": "These are discovery admissions in ongoing litigation, not a new product policy. They strengthen publishers’ substitution theory but do not by themselves decide fair use, licensing, or damages.",
+        "analysis_zh": "這是進行中訴訟的證據開示陳述，不是新產品政策。它們強化出版商的替代論，但本身不決定合理使用、授權或損害賠償。",
         "quote": "Our products are largely substitutive, period.",
         "quote_zh": "我們的產品基本上就是替代性的，句號。",
         "importance": 3,
         "first_seen": "2026-09-18T03:57:00Z",
-        "updated_at": "2026-09-18T16:35:01.103783+00:00",
+        "updated_at": "2026-09-18T22:35:01.534760+00:00",
         "links": [
+          {
+            "label": "Bloomberg Law (via prior digest)",
+            "url": "https://www.reuters.com/technology/openai/"
+          },
           {
             "label": "MediaPost / Bloomberg Law",
             "url": "https://www.mediapost.com/publications/article/418113/unsealed-court-filing-shows-openai-microsoft-supp.html"
@@ -324,19 +464,19 @@
         "category": "openai",
         "source_type": "product",
         "title_en": "OpenAI sets October 14 retirement for GPT-5.5 in ChatGPT and Codex",
-        "title_zh": "OpenAI 訂 10 月 14 日自 ChatGPT 與 Codex 退役 GPT-5.5",
+        "title_zh": "OpenAI 訂 10 月 14 日自 ChatGPT 與 Codex 下架 GPT-5.5",
         "summary_en": "OpenAI developer notes for September 14–18 say GPT-5.5 will retire from ChatGPT, ChatGPT Work, and Codex on October 14, 2026 across all plans, with the API unaffected. Codex users signed in with ChatGPT are told to switch to GPT-5.6 Sol.",
-        "summary_zh": "OpenAI 9 月 14–18 日開發者說明指出，GPT-5.5 將於 2026 年 10 月 14 日自 ChatGPT、ChatGPT Work 與 Codex 全面退役，API 不受影響。以 ChatGPT 登入的 Codex 使用者被要求改用 GPT-5.6 Sol。",
+        "summary_zh": "OpenAI 9 月 14–18 日開發者說明指出，GPT-5.5 將於 2026 年 10 月 14 日自 ChatGPT、ChatGPT Work 與 Codex 全方案下架，API 不受影響。以 ChatGPT 登入的 Codex 用戶被要求改用 GPT-5.6 Sol。",
         "analysis_en": "A scheduled consumer/Codex sunset, not a new model. The split—API kept, chat surfaces cleared—shows OpenAI consolidating the post-Astra stack while leaving API compatibility intact.",
-        "analysis_zh": "這是排程中的消費端／Codex 下架，不是新模型。API 保留、聊天面清除，顯示 OpenAI 在 Astra 之後收斂產品線、同時維持 API 相容。",
+        "analysis_zh": "這是既定的消費端／Codex 日落，不是新模型。API 保留、聊天面清除，顯示 OpenAI 在整合 Astra 之後的產品棧，同時維持 API 相容。",
         "quote": "GPT-5.5 will retire from ChatGPT, ChatGPT Work, and Codex on October 14, 2026, across all plans. The OpenAI API isn't affected.",
-        "quote_zh": "GPT-5.5 將於 2026 年 10 月 14 日自 ChatGPT、ChatGPT Work 與 Codex 全面退役。OpenAI API 不受影響。",
+        "quote_zh": "GPT-5.5 將於 2026 年 10 月 14 日自 ChatGPT、ChatGPT Work 與 Codex 全方案下架。OpenAI API 不受影響。",
         "importance": 2,
         "first_seen": "2026-09-14T00:00:00Z",
-        "updated_at": "2026-09-18T16:35:01.103783+00:00",
+        "updated_at": "2026-09-18T22:35:01.534760+00:00",
         "links": [
           {
-            "label": "OpenAI developer changelog excerpt",
+            "label": "OpenAI Codex notes",
             "url": "https://developers.openai.com/codex/llms-full.txt"
           }
         ]
@@ -344,25 +484,56 @@
     ],
     "anthropic": [
       {
+        "id": "anthropic-accenture-embedded-evaluation-2026-09-18",
+        "story_id": "anthropic-accenture-embedded-evaluation-2026-09-18",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic partners with Accenture on embedded evaluation",
+        "title_zh": "Anthropic 與 Accenture 合作嵌入式評估",
+        "summary_en": "Anthropic announced a partnership with Accenture, led by Faculty, to embed independent evaluators inside the lab for red-teaming, alignment assessments, and safeguard testing. Each company expects to invest at least $1 billion over five years. Anthropic said the arrangement is non-exclusive and that it will fund Accenture directly while also talking with METR and other nonprofits.",
+        "summary_zh": "Anthropic 宣布與 Accenture（由 Faculty 主導）合作，在實驗室內部嵌入獨立評估者，負責紅隊、對齊評估與防護測試。雙方各自預期五年至少投入 10 億美元。Anthropic 稱合作非獨家，將直接資助 Accenture，並與 METR 等非營利評估機構對話。",
+        "analysis_en": "This is the first named commercial implementation of Anthropic’s “pace the frontier” pledge to put outsiders inside the training loop. Access rules, public reporting, and whether paid evaluators can contradict their host remain unspecified.",
+        "analysis_zh": "這是 Anthropic「放慢前線」承諾中，首個具名的商業化嵌入式評估落地。評估者能看什麼、如何對外報告、以及付費評估能否與宿主唱反調，目前都未定。",
+        "quote": "Unlike today’s external evaluators, embedded evaluators will work inside AI companies, with access comparable to an employee's.",
+        "quote_zh": "與現今外部評估者不同，嵌入式評估者將在 AI 公司內部工作，權限可比擬員工。",
+        "importance": 4,
+        "first_seen": "2026-09-18T16:15:00Z",
+        "updated_at": "2026-09-18T22:35:01.534760+00:00",
+        "links": [
+          {
+            "label": "Anthropic Newsroom",
+            "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://ca.finance.yahoo.com/news/anthropic-accenture-invest-2-billion-210242922.html"
+          }
+        ]
+      },
+      {
         "id": "anthropic-rd-automation-index-2026-09-17",
         "story_id": "anthropic-rd-automation-index-2026-09-17",
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic publishes metrics on AI building the next AI",
-        "title_zh": "Anthropic 公布「AI 打造下一代 AI」內部指標",
-        "summary_en": "Anthropic released three proposed public measurements of frontier-lab pace: how much AI R&D is done by AI, how agents are overseen, and how compute is split. As of August 2026 it said Claude is not fully autonomous on any measured R&D subset, “leads” 26% of Anthropic AI R&D, and collaborates on more than 90%; about 30,000 research/engineering agents ran on its main internal platform, with 0.002% of over a billion August decisions blocked by online monitors. It also said about 6% of AI-R&D compute in a mid-July week went to safety (12% of AI-driven AI R&D compute).",
-        "summary_zh": "Anthropic 提出三項可對外追蹤的指標：AI 自行承擔多少 AI 研發、代理如何被監督、算力如何分配。截至 2026 年 8 月，Claude 尚未在任何被測研發子集上完全自主，「主導」公司 26% 的 AI 研發，90% 以上屬協作；主力內部平台約有 3 萬個研發／工程代理，8 月逾十億次決策中約 0.002% 被線上監控攔截。7 月中一週約 6% 的 AI 研發算力用於安全（AI 驅動的 AI 研發算力中約 12%）。",
-        "analysis_en": "This is the first frontier lab to put a public number on recursive R&D inside its own walls. The figures are self-reported on one platform and one compute week; whether other labs adopt the same scale—and whether third-party evaluators Anthropic says it will embed can audit them—determines if this becomes a pacing tool or a one-off transparency gesture.",
-        "analysis_zh": "這是首家把「內部遞迴研發」量化公開的前沿實驗室。數字來自單一平台與單一算力週、且為自評；其他實驗室是否採用同一尺標、以及 Anthropic 宣稱將引入的第三方評估能否核驗，決定這會變成節奏治理工具還是一次性透明姿態。",
-        "quote": "As of August 2026, Claude is not operating fully autonomously for any measured subset of AI R&D work. Claude “leads” 26% of Anthropic’s AI R&D work. The share of work at or above “AI collaborates” is above 90%.",
-        "quote_zh": "截至 2026 年 8 月，Claude 並未在任何被測的 AI 研發子集上完全自主運作。Claude「主導」Anthropic 26% 的 AI 研發工作。達到或高於「AI 協作」的工作占比超過 90%。",
+        "title_zh": "Anthropic 公布「AI 開發下一代 AI」指標",
+        "summary_en": "Anthropic released three proposed public measurements of frontier-lab pace: how much AI R&D is done by AI, how agents are overseen, and how compute is split. As of August 2026 it said Claude is not fully autonomous on any measured R&D subset, but “leads” about 26% of model R&D under human supervision, with roughly 30,000 agents active on its busiest internal platform.",
+        "summary_zh": "Anthropic 提出三項公開衡量前線實驗室節奏的指標：AI 承擔多少研發、代理如何被監督、算力如何分配。截至 2026 年 8 月，它稱 Claude 在任何被測研發子集上尚未完全自主，但在人類監督下「主導」約 26% 的模型研發，最忙的內部平台約有 3 萬個代理。",
+        "analysis_en": "This is the first frontier lab to put a public number on recursive R&D inside its own walls. The figures are self-reported on one platform and one compute week; whether other labs adopt the same definitions will decide if the index is comparable.",
+        "analysis_zh": "這是前線實驗室首次對內部遞迴研發給出公開數字。數字來自單一平台與單一計算週、且為自報；其他實驗室是否採用同一套定義，決定指標能否比較。",
+        "quote": "Today, the world can’t see what’s going on inside AI labs. Anthropic is proposing new metrics that would give the public visibility into frontier AI development.",
+        "quote_zh": "如今外界看不到 AI 實驗室內部發生什麼。Anthropic 提出新指標，讓公眾能看見前線 AI 開發節奏。",
         "importance": 4,
         "first_seen": "2026-09-17T00:00:00Z",
-        "updated_at": "2026-09-18T16:35:01.103783+00:00",
+        "updated_at": "2026-09-18T22:35:01.534760+00:00",
         "links": [
           {
             "label": "Anthropic Institute",
             "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
+          },
+          {
+            "label": "AP / Boston Herald",
+            "url": "https://www.bostonherald.com/2026/09/18/anthropic-claude-building-next-version/"
           },
           {
             "label": "Anthropic Newsroom",
@@ -377,16 +548,20 @@
         "source_type": "official_blog",
         "title_en": "Anthropic launches a Life Sciences Verification Program",
         "title_zh": "Anthropic 推出生命科學驗證計畫",
-        "summary_en": "Anthropic listed a September 17 announcement introducing a Life Sciences Verification Program on its newsroom, alongside the same-day R&D-pace measurements. The newsroom blurb does not itself define eligibility or assay details on the index page.",
-        "summary_zh": "Anthropic 新聞室於 9 月 17 日列出「生命科學驗證計畫」公告，與同日研發節奏指標並列。新聞室索引頁本身未說明資格或驗證細節。",
-        "analysis_en": "A named scientific-verification track fits Anthropic’s recent life-science push, but without the program page’s methods in this window it should be treated as a product/process announcement rather than a capability claim.",
-        "analysis_zh": "具名的科學驗證軌道符合 Anthropic 近期生命科學佈局，但本窗口未讀到計畫頁方法細節，宜視為產品／流程宣布而非能力主張。",
+        "summary_en": "Anthropic listed a September 17 announcement introducing a Life Sciences Verification Program on its newsroom, giving verified life-science teams more permissive safeguards on Mythos, Opus, and Sonnet for biology work across Claude, the API, and enterprise plans.",
+        "summary_zh": "Anthropic 於 9 月 17 日在新聞室推出生命科學驗證計畫（LSVP），讓通過驗證的生命科學團隊在 Mythos、Opus、Sonnet 上使用對生物學工作較寬鬆的防護，涵蓋 Claude、API 與企業方案。",
+        "analysis_en": "A named scientific-verification track fits Anthropic’s recent life-science push. Eligibility, assay details, and how “more permissive” biology use is bounded still depend on the program page rather than the index blurb.",
+        "analysis_zh": "具名的科學驗證通道符合 Anthropic 近期生命科學布局。資格、實驗細節，以及「更寬鬆」生物學用途如何設限，仍取決於計畫頁而非目錄摘要。",
         "quote": "Introducing the Life Sciences Verification Program",
         "quote_zh": "推出生命科學驗證計畫",
         "importance": 2,
         "first_seen": "2026-09-17T00:00:00Z",
-        "updated_at": "2026-09-18T16:35:01.103783+00:00",
+        "updated_at": "2026-09-18T22:35:01.534760+00:00",
         "links": [
+          {
+            "label": "Anthropic Newsroom",
+            "url": "https://www.anthropic.com/news/life-sciences-verification-program"
+          },
           {
             "label": "Anthropic Newsroom",
             "url": "https://www.anthropic.com/news"
@@ -398,17 +573,17 @@
         "story_id": "anthropic-claude-code-2-1-276-2026-09-18",
         "category": "anthropic",
         "source_type": "product",
-        "title_en": "Claude Code 2.1.276 fixes proxy/gateway 400 errors",
-        "title_zh": "Claude Code 2.1.276 修復代理／閘道 400 錯誤",
-        "summary_en": "Anthropic shipped Claude Code v2.1.276 on September 18, fixing a 2.1.275 regression in which every request failed with a 400 error mentioning input tag 'advisor_20260301' when ANTHROPIC_BASE_URL pointed at a proxy or gateway.",
-        "summary_zh": "Anthropic 於 9 月 18 日釋出 Claude Code v2.1.276，修復 2.1.275 回歸：當 ANTHROPIC_BASE_URL 指向代理或閘道時，所有請求以 400 失敗，錯誤含 input tag 'advisor_20260301'。",
-        "analysis_en": "A narrow reliability patch for teams routing Claude Code through enterprise gateways. It is operationally important to those users and not a capability or model event.",
-        "analysis_zh": "針對經企業閘道轉送 Claude Code 的團隊之可靠性修補。對那些使用者有營運意義，但不是能力或模型事件。",
+        "title_en": "Claude Code 2.1.276–277 fix proxy 400s and silent hangs",
+        "title_zh": "Claude Code 2.1.276–277 修復代理 400 與無聲掛起",
+        "summary_en": "Anthropic shipped Claude Code v2.1.276 on September 18, fixing a 2.1.275 regression in which every request failed with a 400 error mentioning input tag 'advisor_20260301' when ANTHROPIC_BASE_URL pointed at a proxy or gateway. v2.1.277 followed the same day: projects without CLAUDE.md can fall back to AGENTS.md, and claude -p / Agent SDK sessions that hung silently after an internal error now exit with code 1.",
+        "summary_zh": "Anthropic 於 9 月 18 日推出 Claude Code v2.1.276，修復 2.1.275 迴歸：當 ANTHROPIC_BASE_URL 指向代理或閘道時，請求全部以提及 input tag 'advisor_20260301' 的 400 失敗。同日 2.1.277 讓無 CLAUDE.md 的專案可回退 AGENTS.md，並讓內部錯誤後無聲掛起的 claude -p／Agent SDK 以退出碼 1 結束。",
+        "analysis_en": "Narrow reliability patches for teams routing Claude Code through enterprise gateways or agent SDKs. Operationally important to those users and not a capability or model event.",
+        "analysis_zh": "這是給經企業閘道或 Agent SDK 轉送 Claude Code 團隊的可靠性補丁，對那些使用者有營運意義，不是能力或模型事件。",
         "quote": "Fixed a 2.1.275 regression where every request failed with \"400 ... Input tag 'advisor_20260301'\" when ANTHROPIC_BASE_URL points at a proxy or gateway.",
         "quote_zh": "修復 2.1.275 回歸：當 ANTHROPIC_BASE_URL 指向代理或閘道時，每個請求都以「400 ... Input tag 'advisor_20260301'」失敗。",
         "importance": 1,
         "first_seen": "2026-09-18T02:12:00Z",
-        "updated_at": "2026-09-18T16:35:01.103783+00:00",
+        "updated_at": "2026-09-18T22:35:01.534760+00:00",
         "links": [
           {
             "label": "Anthropic release index",
@@ -419,25 +594,57 @@
     ],
     "google": [],
     "meta": [],
-    "xai": [],
+    "xai": [
+      {
+        "id": "xai-grok-voice-transcribe-2-2026-09-18",
+        "story_id": "xai-grok-voice-transcribe-2-2026-09-18",
+        "category": "xai",
+        "source_type": "official_blog",
+        "title_en": "xAI releases Grok Voice Transcribe 2.0",
+        "title_zh": "xAI 推出 Grok Voice Transcribe 2.0",
+        "summary_en": "xAI released Grok Voice Transcribe 2.0, a speech-to-text model it says is twice as accurate as 1.0 on its real-world evaluations and first among 32 streaming models on Artificial Analysis, at the same price: $0.10/hour batch and $0.20/hour streaming. Features include timestamps, diarization, up to eight channels, and smart turn detection. Version 1.0 remains the API default for now and will be deprecated in coming weeks.",
+        "summary_zh": "xAI 推出語音轉文字模型 Grok Voice Transcribe 2.0，稱在自有實測上準確度為 1.0 的兩倍，並在 Artificial Analysis 32 個串流模型中排名第一，價格不變：批次每小時 0.10 美元、串流 0.20 美元。功能含時間戳、說話人分離、最多八聲道與智慧輪次偵測。1.0 目前仍是 API 預設，數週內將停用。",
+        "analysis_en": "This is a specialized STT upgrade, not a new flagship Grok LLM. Public leaderboard rank and internal WER cuts are xAI’s claims; 1.0 staying default until the switch means production traffic will not move unless customers pin 2.0.",
+        "analysis_zh": "這是專用語音轉文字升級，不是新一代旗艦 Grok 語言模型。公開榜排名與內部字錯誤率下降是 xAI 自述；在切換前 1.0 仍為預設，正式流量不會自動遷移。",
+        "quote": "Across our real-world evaluations, Grok Voice Transcribe 2.0 is one of the most accurate transcription models available today and twice as accurate as Grok Voice Transcribe 1.0, at the same price.",
+        "quote_zh": "在我們的真實世界評估中，Grok Voice Transcribe 2.0 是目前最準確的轉寫模型之一，準確度為 1.0 的兩倍，價格相同。",
+        "importance": 3,
+        "first_seen": "2026-09-18T08:00:00Z",
+        "updated_at": "2026-09-18T22:35:01.534760+00:00",
+        "links": [
+          {
+            "label": "xAI News",
+            "url": "https://x.ai/news/grok-voice-transcribe-2"
+          },
+          {
+            "label": "xAI Speech-to-Text docs",
+            "url": "https://docs.x.ai/developers/models/speech-to-text"
+          }
+        ]
+      }
+    ],
     "frontier_other": [
       {
         "id": "nvidia-google-emerald-aema-2026-09-16",
         "story_id": "nvidia-google-emerald-aema-2026-09-16",
         "category": "frontier_other",
-        "source_type": "official_blog",
+        "source_type": "mixed",
         "title_en": "NVIDIA, Google and Emerald AI launch grid-flexible data-center alliance",
         "title_zh": "NVIDIA、Google 與 Emerald AI 成立電網彈性資料中心聯盟",
-        "summary_en": "NVIDIA, Google and Emerald AI launched the AI Energy Management Alliance to promote data centers that cut or shift power when the grid is stressed, arguing flexibility can speed interconnection and protect affordability. Launch partners include Anthropic, Analog Devices, National Grid, AES, Constellation, NRG and RWE. NVIDIA said flexible sites can shift workloads, use stored energy, or temporarily reduce demand; press coverage of the same launch cited a claim that moderate flexibility could unlock about 100 GW on the existing U.S. system.",
-        "summary_zh": "NVIDIA、Google 與 Emerald AI 成立 AI Energy Management Alliance，推動資料中心在電網吃緊時降載或轉移負載，主張彈性可加快併網並保護電價可負擔性。啟動夥伴包括 Anthropic、Analog Devices、National Grid、AES、Constellation、NRG 與 RWE。NVIDIA 稱彈性場址可轉移工作負載、動用儲能或暫時減載；同場報導引用「適度彈性可在既有美國電網解鎖約 100GW」的說法。",
-        "analysis_en": "This is infrastructure politics more than a model launch: labs want faster power hookups in exchange for interruptible load. Whether utilities accept verifiable, enforceable demand response—and whether training clusters can actually pause without breaking runs—remains unproven at GW scale.",
-        "analysis_zh": "這比較像基礎設施政治而非模型發表：實驗室用可中斷負載換更快併網。公用事業是否接受可驗證、可執行的需量反應，以及訓練叢集能否在 GW 尺度暫停而不中斷訓練，仍未證實。",
+        "summary_en": "NVIDIA, Google and Emerald AI launched the AI Energy Management Alliance to promote data centers that cut or shift power when the grid is stressed, arguing flexibility can speed interconnection and protect affordability.",
+        "summary_zh": "NVIDIA、Google 與 Emerald AI 成立 AI Energy Management Alliance，推動在電網吃緊時可減載或移轉用電的資料中心，主張彈性有助加速併網並保護電價可負擔性。",
+        "analysis_en": "This is infrastructure politics more than a model launch: labs want faster power hookups in exchange for interruptible load. Whether utilities accept verifiable, enforceable demand response is the open question.",
+        "analysis_zh": "這比較像基礎設施政治，不是模型發表：實驗室用可中斷負載換更快併網。公用事業是否接受可驗證、可執行的需量反應仍未定。",
         "quote": "Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their electricity use in response to grid conditions.",
         "quote_zh": "今日 Emerald AI、Google 與 NVIDIA 宣布成立 AI Energy Management Alliance（AEMA），推動能依電網狀況動態管理用電的資料中心。",
         "importance": 3,
         "first_seen": "2026-09-16T13:07:52Z",
-        "updated_at": "2026-09-18T16:35:01.103783+00:00",
+        "updated_at": "2026-09-18T22:35:01.534760+00:00",
         "links": [
+          {
+            "label": "Prior digest / industry coverage",
+            "url": "https://www.nvidia.com/"
+          },
           {
             "label": "NVIDIA Blog",
             "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/"
@@ -454,17 +661,21 @@
         "category": "frontier_other",
         "source_type": "official_blog",
         "title_en": "Mistral and Mozilla put Mistral Small 4 in Firefox Smart Window",
-        "title_zh": "Mistral 與 Mozilla 將 Mistral Small 4 接入 Firefox Smart Window",
-        "summary_en": "Mistral and Mozilla announced that Firefox Smart Window (beta) will be powered by Mistral models, with Mistral Small 4 rolling out to Smart Window users in the U.S. and Canada and expanding beta access plus French-language support in France. The companies said conversations are not saved on Mozilla servers by default and that Mistral agreed to zero data retention.",
-        "summary_zh": "Mistral 與 Mozilla 宣布 Firefox Smart Window（beta）改由 Mistral 模型驅動，Mistral Small 4 先服務美國與加拿大使用者，並在法國擴大 beta 與法文支援。雙方稱對話預設不存在 Mozilla 伺服器，且 Mistral 同意零資料保留。",
-        "analysis_en": "Distribution, not a new frontier model, is the story: an open-weight vendor is buying a browser channel against default Big Tech assistants. Actual share of Firefox users who enable Smart Window, and whether UK/Germany follow as promised, will show if this is a niche privacy option or a real alternative default.",
-        "analysis_zh": "重點是通路而非新前沿模型：開權重廠商用瀏覽器通道對抗預設大廠助理。實際開啟 Smart Window 的 Firefox 使用者比例，以及英國／德國是否如承諾跟進，才決定這是小眾隱私選項還是真正的替代預設。",
+        "title_zh": "Mistral 與 Mozilla 將 Mistral Small 4 放入 Firefox Smart Window",
+        "summary_en": "Mistral and Mozilla announced that Firefox Smart Window (beta) will be powered by Mistral models, with Mistral Small 4 rolling out to Smart Window users in the U.S. and Canada and expanding beta access plus French-language support in France.",
+        "summary_zh": "Mistral 與 Mozilla 宣布 Firefox Smart Window（測試版）將由 Mistral 模型驅動，Mistral Small 4 先在美加 Smart Window 用戶上線，並擴大測試範圍及法國法語支援。",
+        "analysis_en": "Distribution, not a new frontier model, is the story: an open-weight vendor is buying a browser channel against default Big Tech assistants. Actual share of Firefox users who enable the feature is unknown.",
+        "analysis_zh": "故事在通路而非新前線模型：開權重廠商用瀏覽器渠道對抗預設大廠助理。實際開啟此功能的 Firefox 用戶佔比未知。",
         "quote": "Firefox Smart Window (beta), Mozilla’s AI browsing assistant, is now powered by Mistral models.",
         "quote_zh": "Mozilla 的 AI 瀏覽助理 Firefox Smart Window（beta）現已由 Mistral 模型驅動。",
         "importance": 3,
         "first_seen": "2026-09-16T08:00:00Z",
-        "updated_at": "2026-09-18T16:35:01.103783+00:00",
+        "updated_at": "2026-09-18T22:35:01.534760+00:00",
         "links": [
+          {
+            "label": "Mistral / Mozilla coverage",
+            "url": "https://mistral.ai/"
+          },
           {
             "label": "Mistral Blog",
             "url": "https://mistral.ai/news/mistral-x-mozilla/"
@@ -477,7 +688,7 @@
       }
     ]
   },
-  "brief_en": "Quiet overnight window. Anthropic published internal R&D-automation metrics (Claude leads 26% of AI R&D). OpenAI shipped Astra for Law and a public misalignment-reporting framework. NVIDIA, Google and Emerald AI launched a grid-flexible data-center alliance with Anthropic as a partner. Mozilla put Mistral Small 4 into Firefox Smart Window.",
-  "brief_zh": "夜間窗口偏靜。Anthropic 公布內部研發自動化指標（Claude 主導 26% AI 研發）。OpenAI 推出 Astra for Law 與公開錯位揭露框架。NVIDIA、Google 與 Emerald AI 成立電網彈性資料中心聯盟，Anthropic 為夥伴。Mozilla 將 Mistral Small 4 接入 Firefox Smart Window。",
-  "updated_at": "2026-09-18T16:35:01.103783+00:00"
+  "brief_en": "Anthropic and Accenture each pledged $1B over five years for embedded model evaluation. xAI shipped Grok Voice Transcribe 2.0 at unchanged prices. OpenAI confirmed Altman will brief the UN Security Council next week. Prior items on R&D-pace metrics, misalignment reports, Astra for Law, and GPT-5.5’s Oct 14 chat sunset still stand.",
+  "brief_zh": "Anthropic 與 Accenture 各承諾五年至少 10 億美元做嵌入式評估；xAI 推出同價 Grok Voice Transcribe 2.0；OpenAI 證實 Altman 下週將向聯合國安理會簡報。R&D 節奏指標、對齊揭露、Astra for Law 與 GPT-5.5 10/14 下架仍在列。",
+  "updated_at": "2026-09-18T22:35:01.534760+00:00"
 }
