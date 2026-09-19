@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-09-18T22:35:01.534760+00:00",
+  "updated_at": "2026-09-19T04:35:00.443944+00:00",
   "models": [
     {
       "model_id": "grok-voice-transcribe-2-0",
       "name": "Grok Voice Transcribe 2.0",
       "lab": "xai",
-      "kind": "model",
+      "kind": "update",
       "released": "2026-09-18",
-      "note_en": "Speech-to-text model; xAI says ~2× accuracy vs 1.0 at the same $0.10/$0.20 per hour; 1.0 to be deprecated in coming weeks.",
-      "note_zh": "語音轉文字模型；xAI 稱準確度約為 1.0 的兩倍、同價每小時 0.10／0.20 美元；1.0 將於數週內停用。",
-      "link": "https://x.ai/news/grok-voice-transcribe-2",
+      "note_en": "Speech-to-text successor to Transcribe 1.0; xAI claims ~2x real-world accuracy at unchanged $0.10/$0.20 per hour pricing.",
+      "note_zh": "Transcribe 1.0的語音轉文字後繼；xAI稱真實場景準確度約為兩倍，價格維持每小時0.10／0.20美元。",
+      "link": "https://releasebot.io/updates/xai",
       "recorded_at": "2026-09-18T22:35:01.534760+00:00"
     },
     {
@@ -33,6 +33,17 @@
       "note_zh": "較高算力的即時語音模型，面向多步驟口語任務；Google引用多項語音代理人基準領先成績。",
       "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
       "recorded_at": "2026-09-16T04:35:01.274541+00:00"
+    },
+    {
+      "model_id": "gpt-5-5-chatgpt-codex-retirement",
+      "name": "GPT-5.5 (ChatGPT / Codex sunset)",
+      "lab": "openai",
+      "kind": "deprecation",
+      "released": "2026-09-14",
+      "note_en": "Scheduled removal from ChatGPT, ChatGPT Work, and Codex on 2026-10-14; API remains available.",
+      "note_zh": "預定2026-10-14從ChatGPT、ChatGPT Work與Codex下架；API仍可用。",
+      "link": "https://openai.com/products/release-notes/",
+      "recorded_at": "2026-09-19T04:35:00.443944+00:00"
     },
     {
       "model_id": "sakana-fugu-max",
