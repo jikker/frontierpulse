@@ -16,6 +16,14 @@
       "item_count": 2,
       "updated_count": 2,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-09-21T04:35:01.365349+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 2,
+      "updated_count": 2,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -25,24 +33,32 @@
       "category": "frontier_other",
       "source_type": "news",
       "title_en": "FT: residual-value guarantees hide up to $300B of AI infrastructure exposure",
-      "title_zh": "FT：殘值保證使最高約 3,000 億美元 AI 基礎建設曝險難見於資產負債表",
-      "summary_en": "The Financial Times reported that technology firms have offered as much as $300 billion of residual-value guarantees over the past year to back AI data-center and chip financing through special-purpose vehicles. Coverage of the investigation says Meta used the structure on its Hyperion project, Broadcom took on about $29 billion of exposure tied to chips for Anthropic, and Nvidia provided about $105 billion in guarantees linked to a SoftBank energy data-center build for OpenAI. Because the debt sits primarily at the SPV, most of the contingent exposure does not initially appear as ordinary corporate debt.",
-      "summary_zh": "《金融時報》報導，科技公司過去一年提供最高約 3,000 億美元殘值保證，透過特殊目的實體為 AI 資料中心與晶片融資背書。後續整理指出 Meta 在 Hyperion 專案使用此結構、Broadcom 承擔約 290 億美元與 Anthropic 晶片相關曝險、Nvidia 則為服務 OpenAI 的軟銀能源資料中心提供約 1,050 億美元保證。債務主要落在 SPV，多數或有曝險起初不會以一般公司債呈現。",
-      "analysis_en": "This is not a model launch, but it is how frontier capacity is being paid for: demand and residual-value risk are shifted into contingent guarantees that appear late, if at all, as conventional debt. What remains unverified in public filings is how often those floors would actually be called if utilization or chip resale values disappoint.",
-      "analysis_zh": "這不是模型發布，而是前沿算力如何被付錢：需求與殘值風險被轉成或有保證，未必即時以一般負債入帳。公開財報仍難核實：若使用率或晶片轉售價值不如預期，這些下限保證實際被觸發的頻率有多高。",
+      "title_zh": "FT：殘值擔保使高達3,000億美元AI基建曝險留在資產負債表外",
+      "summary_en": "The Financial Times reported that technology firms have offered as much as $300 billion of residual-value guarantees over the past year to back AI data-center and chip financing through special-purpose vehicles. Follow-on coverage named Meta’s Hyperion / Beignet structure (~$28B guarantee behind ~$27B of project debt), Broadcom exposure tied to Anthropic-bound chips, Nvidia guarantees linked to a SoftBank–OpenAI development, and Alphabet data-center guarantees rising from $16.9B to $43.8B in six months with little booked as on-balance-sheet liability.",
+      "summary_zh": "《金融時報》報導，科技公司過去一年透過特殊目的公司，為AI資料中心與晶片融資提供高達約3,000億美元殘值擔保。後續整理點名Meta路易斯安那Hyperion／Beignet結構（約280億美元擔保支撐約270億美元專案債）、Broadcom與Anthropic晶片融資相關曝險、輝達與軟銀—OpenAI開發案相關擔保，以及Alphabet資料中心擔保半年內由169億升至438億美元、入帳負債極少。",
+      "analysis_en": "This is not a model launch, but it is how frontier capacity is being paid for: demand and residual-value risk are shifted into contingent guarantees that appear late, if at all, as ordinary debt. What remains uncertain is whether GPU and campus residuals hold if utilization or rental prices normalize—the structures work only while the assets stay financeable.",
+      "analysis_zh": "這不是模型發表，而是前線算力如何被付錢：需求與殘值風險被移到或然擔保，未必即時進入一般負債。不確定點在於，若利用率或租賃價格回歸常態，GPU與園區殘值能否撐住——結構成立的前提是資產仍可融資。",
       "quote": "",
       "quote_zh": "",
       "importance": 4,
       "first_seen": "2026-09-20T13:00:00Z",
-      "updated_at": "2026-09-20T22:35:02.120643+00:00",
+      "updated_at": "2026-09-21T04:35:01.365349+00:00",
       "links": [
+        {
+          "label": "Coinpaper summary of FT investigation",
+          "url": "https://coinpaper.com/35989/big-tech-has-300-billion-of-ai-exposure-you-cant-see-on-the-balance-sheet"
+        },
+        {
+          "label": "Startup Fortune recap of FT figures",
+          "url": "https://startupfortune.com/big-tech-uses-corporate-guarantees-to-keep-300-billion-of-ai-debt-off-its-books/"
+        },
+        {
+          "label": "AI Weekly alert on FT story",
+          "url": "https://aiweekly.co/alerts/ft-big-tech-hides-300b-of-ai-infrastructure-debt-off-balance-sheets-via"
+        },
         {
           "label": "Seeking Alpha summary of FT reporting",
           "url": "https://seekingalpha.com/news/4644577-big-tech-s-300b-ai-guarantees-raise-hidden-risk-for-investors"
-        },
-        {
-          "label": "Coinpaper recap of FT investigation",
-          "url": "https://coinpaper.com/35989/big-tech-has-300-billion-of-ai-exposure-you-cant-see-on-the-balance-sheet"
         },
         {
           "label": "Traders Union recap of FT figures",
@@ -56,23 +72,27 @@
       "category": "frontier_other",
       "source_type": "official_x",
       "title_en": "Nvidia posts Jensen Huang CBS Sunday remarks: speed and safeguards ‘aren’t at odds’",
-      "title_zh": "Nvidia 官方轉發黃仁勳 CBS 訪談：加速與安全「並不對立」",
-      "summary_en": "Nvidia’s official account posted a CBS Sunday clip of CEO Jensen Huang arguing that moving fast on AI and building safely are compatible if testing, monitoring, and safeguards run in parallel. The company linked an extended interview on CBS News covering fears about AI.",
-      "summary_zh": "Nvidia 官方帳號轉發 CBS Sunday 片段，執行長黃仁勳主張：只要測試、監控與防護同步進行，AI 加速與安全可以並行。公司並附上 CBS News 延長訪談，討論外界對 AI 的疑慮。",
-      "analysis_en": "The clip is messaging, not a product or capital-commitment change. It lands in the same 24-hour window as reporting on large Nvidia-linked infrastructure guarantees, so the public line on safety sits next to a financing story about contingent exposure rather than replacing it.",
-      "analysis_zh": "這是對外表述，不是產品或資本承諾變更。它與同一日有關 Nvidia 相關基礎建設保證的報導重疊，安全論述與或有曝險融資故事並列，並未互相取代。",
+      "title_zh": "輝達轉發黃仁勳CBS訪談：速度與防護「並不對立」",
+      "summary_en": "Nvidia’s official account posted a CBS Sunday clip of CEO Jensen Huang arguing that moving fast on AI and building safely are compatible if testing, monitoring, and safeguards run in parallel. CBS News separately quoted him rejecting 2030 extinction timelines as a “doomsday narrative,” saying there is a “0% chance” 2030 is “the end of the world,” while also saying the U.S. should not slow the AI race with China and should not ship products before they are ready. The company linked an extended interview on CBS.",
+      "summary_zh": "輝達官方帳號轉發CBS Sunday片段，執行長黃仁勳主張只要測試、監控與防護同步進行，AI快速推進與安全並不衝突。CBS另引述他否定2030滅絕時間表為「末日敘事」，稱2030是世界末日的機率為「0%」，同時表示美國不應在對中AI競賽中放慢、也不該在產品未就緒時出貨。公司並附上延伸訪談連結。",
+      "analysis_en": "The clip is messaging, not a product or capital-commitment change. It lands in the same window as reporting on large Nvidia-linked infrastructure guarantees, so the public line on speed-plus-safety is running beside contingent financing that assumes residuals hold.",
+      "analysis_zh": "這是對外表述，不是產品或資本承諾的變更。它與輝達相關大型基建擔保報導落在同一時窗，公開的「速度加安全」論述，與假設殘值仍站得住的或然融資並排出現。",
       "quote": "Moving fast and building safely aren’t at odds. AI should move as fast as we can, with rigorous testing, monitoring, and safeguards every step of the way.",
-      "quote_zh": "加速與安全並不對立。AI 應盡可能快，同時在每一步做嚴謹測試、監控與防護。",
+      "quote_zh": "快速推進與安全打造並不對立。AI應盡可能快，但每一步都要有嚴謹測試、監控與防護。",
       "importance": 2,
       "first_seen": "2026-09-20T14:41:54Z",
-      "updated_at": "2026-09-20T22:35:02.120643+00:00",
+      "updated_at": "2026-09-21T04:35:01.365349+00:00",
       "links": [
         {
           "label": "NVIDIA on X",
           "url": "https://x.com/nvidia/status/2101683275634712630"
         },
         {
-          "label": "CBS News extended interview",
+          "label": "CBS News interview write-up",
+          "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-rejects-ai-extinction-warnings/"
+        },
+        {
+          "label": "CBS extended interview",
           "url": "https://www.cbsnews.com/video/extended-interview-nvidia-ceo-jensen-huang-on-fears-about-ai"
         }
       ]
@@ -91,24 +111,32 @@
         "category": "frontier_other",
         "source_type": "news",
         "title_en": "FT: residual-value guarantees hide up to $300B of AI infrastructure exposure",
-        "title_zh": "FT：殘值保證使最高約 3,000 億美元 AI 基礎建設曝險難見於資產負債表",
-        "summary_en": "The Financial Times reported that technology firms have offered as much as $300 billion of residual-value guarantees over the past year to back AI data-center and chip financing through special-purpose vehicles. Coverage of the investigation says Meta used the structure on its Hyperion project, Broadcom took on about $29 billion of exposure tied to chips for Anthropic, and Nvidia provided about $105 billion in guarantees linked to a SoftBank energy data-center build for OpenAI. Because the debt sits primarily at the SPV, most of the contingent exposure does not initially appear as ordinary corporate debt.",
-        "summary_zh": "《金融時報》報導，科技公司過去一年提供最高約 3,000 億美元殘值保證，透過特殊目的實體為 AI 資料中心與晶片融資背書。後續整理指出 Meta 在 Hyperion 專案使用此結構、Broadcom 承擔約 290 億美元與 Anthropic 晶片相關曝險、Nvidia 則為服務 OpenAI 的軟銀能源資料中心提供約 1,050 億美元保證。債務主要落在 SPV，多數或有曝險起初不會以一般公司債呈現。",
-        "analysis_en": "This is not a model launch, but it is how frontier capacity is being paid for: demand and residual-value risk are shifted into contingent guarantees that appear late, if at all, as conventional debt. What remains unverified in public filings is how often those floors would actually be called if utilization or chip resale values disappoint.",
-        "analysis_zh": "這不是模型發布，而是前沿算力如何被付錢：需求與殘值風險被轉成或有保證，未必即時以一般負債入帳。公開財報仍難核實：若使用率或晶片轉售價值不如預期，這些下限保證實際被觸發的頻率有多高。",
+        "title_zh": "FT：殘值擔保使高達3,000億美元AI基建曝險留在資產負債表外",
+        "summary_en": "The Financial Times reported that technology firms have offered as much as $300 billion of residual-value guarantees over the past year to back AI data-center and chip financing through special-purpose vehicles. Follow-on coverage named Meta’s Hyperion / Beignet structure (~$28B guarantee behind ~$27B of project debt), Broadcom exposure tied to Anthropic-bound chips, Nvidia guarantees linked to a SoftBank–OpenAI development, and Alphabet data-center guarantees rising from $16.9B to $43.8B in six months with little booked as on-balance-sheet liability.",
+        "summary_zh": "《金融時報》報導，科技公司過去一年透過特殊目的公司，為AI資料中心與晶片融資提供高達約3,000億美元殘值擔保。後續整理點名Meta路易斯安那Hyperion／Beignet結構（約280億美元擔保支撐約270億美元專案債）、Broadcom與Anthropic晶片融資相關曝險、輝達與軟銀—OpenAI開發案相關擔保，以及Alphabet資料中心擔保半年內由169億升至438億美元、入帳負債極少。",
+        "analysis_en": "This is not a model launch, but it is how frontier capacity is being paid for: demand and residual-value risk are shifted into contingent guarantees that appear late, if at all, as ordinary debt. What remains uncertain is whether GPU and campus residuals hold if utilization or rental prices normalize—the structures work only while the assets stay financeable.",
+        "analysis_zh": "這不是模型發表，而是前線算力如何被付錢：需求與殘值風險被移到或然擔保，未必即時進入一般負債。不確定點在於，若利用率或租賃價格回歸常態，GPU與園區殘值能否撐住——結構成立的前提是資產仍可融資。",
         "quote": "",
         "quote_zh": "",
         "importance": 4,
         "first_seen": "2026-09-20T13:00:00Z",
-        "updated_at": "2026-09-20T22:35:02.120643+00:00",
+        "updated_at": "2026-09-21T04:35:01.365349+00:00",
         "links": [
+          {
+            "label": "Coinpaper summary of FT investigation",
+            "url": "https://coinpaper.com/35989/big-tech-has-300-billion-of-ai-exposure-you-cant-see-on-the-balance-sheet"
+          },
+          {
+            "label": "Startup Fortune recap of FT figures",
+            "url": "https://startupfortune.com/big-tech-uses-corporate-guarantees-to-keep-300-billion-of-ai-debt-off-its-books/"
+          },
+          {
+            "label": "AI Weekly alert on FT story",
+            "url": "https://aiweekly.co/alerts/ft-big-tech-hides-300b-of-ai-infrastructure-debt-off-balance-sheets-via"
+          },
           {
             "label": "Seeking Alpha summary of FT reporting",
             "url": "https://seekingalpha.com/news/4644577-big-tech-s-300b-ai-guarantees-raise-hidden-risk-for-investors"
-          },
-          {
-            "label": "Coinpaper recap of FT investigation",
-            "url": "https://coinpaper.com/35989/big-tech-has-300-billion-of-ai-exposure-you-cant-see-on-the-balance-sheet"
           },
           {
             "label": "Traders Union recap of FT figures",
@@ -122,30 +150,34 @@
         "category": "frontier_other",
         "source_type": "official_x",
         "title_en": "Nvidia posts Jensen Huang CBS Sunday remarks: speed and safeguards ‘aren’t at odds’",
-        "title_zh": "Nvidia 官方轉發黃仁勳 CBS 訪談：加速與安全「並不對立」",
-        "summary_en": "Nvidia’s official account posted a CBS Sunday clip of CEO Jensen Huang arguing that moving fast on AI and building safely are compatible if testing, monitoring, and safeguards run in parallel. The company linked an extended interview on CBS News covering fears about AI.",
-        "summary_zh": "Nvidia 官方帳號轉發 CBS Sunday 片段，執行長黃仁勳主張：只要測試、監控與防護同步進行，AI 加速與安全可以並行。公司並附上 CBS News 延長訪談，討論外界對 AI 的疑慮。",
-        "analysis_en": "The clip is messaging, not a product or capital-commitment change. It lands in the same 24-hour window as reporting on large Nvidia-linked infrastructure guarantees, so the public line on safety sits next to a financing story about contingent exposure rather than replacing it.",
-        "analysis_zh": "這是對外表述，不是產品或資本承諾變更。它與同一日有關 Nvidia 相關基礎建設保證的報導重疊，安全論述與或有曝險融資故事並列，並未互相取代。",
+        "title_zh": "輝達轉發黃仁勳CBS訪談：速度與防護「並不對立」",
+        "summary_en": "Nvidia’s official account posted a CBS Sunday clip of CEO Jensen Huang arguing that moving fast on AI and building safely are compatible if testing, monitoring, and safeguards run in parallel. CBS News separately quoted him rejecting 2030 extinction timelines as a “doomsday narrative,” saying there is a “0% chance” 2030 is “the end of the world,” while also saying the U.S. should not slow the AI race with China and should not ship products before they are ready. The company linked an extended interview on CBS.",
+        "summary_zh": "輝達官方帳號轉發CBS Sunday片段，執行長黃仁勳主張只要測試、監控與防護同步進行，AI快速推進與安全並不衝突。CBS另引述他否定2030滅絕時間表為「末日敘事」，稱2030是世界末日的機率為「0%」，同時表示美國不應在對中AI競賽中放慢、也不該在產品未就緒時出貨。公司並附上延伸訪談連結。",
+        "analysis_en": "The clip is messaging, not a product or capital-commitment change. It lands in the same window as reporting on large Nvidia-linked infrastructure guarantees, so the public line on speed-plus-safety is running beside contingent financing that assumes residuals hold.",
+        "analysis_zh": "這是對外表述，不是產品或資本承諾的變更。它與輝達相關大型基建擔保報導落在同一時窗，公開的「速度加安全」論述，與假設殘值仍站得住的或然融資並排出現。",
         "quote": "Moving fast and building safely aren’t at odds. AI should move as fast as we can, with rigorous testing, monitoring, and safeguards every step of the way.",
-        "quote_zh": "加速與安全並不對立。AI 應盡可能快，同時在每一步做嚴謹測試、監控與防護。",
+        "quote_zh": "快速推進與安全打造並不對立。AI應盡可能快，但每一步都要有嚴謹測試、監控與防護。",
         "importance": 2,
         "first_seen": "2026-09-20T14:41:54Z",
-        "updated_at": "2026-09-20T22:35:02.120643+00:00",
+        "updated_at": "2026-09-21T04:35:01.365349+00:00",
         "links": [
           {
             "label": "NVIDIA on X",
             "url": "https://x.com/nvidia/status/2101683275634712630"
           },
           {
-            "label": "CBS News extended interview",
+            "label": "CBS News interview write-up",
+            "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-rejects-ai-extinction-warnings/"
+          },
+          {
+            "label": "CBS extended interview",
             "url": "https://www.cbsnews.com/video/extended-interview-nvidia-ceo-jensen-huang-on-fears-about-ai"
           }
         ]
       }
     ]
   },
-  "brief_en": "Sunday was a financing-and-messaging day, not a model-launch day. The FT reported up to $300B of residual-value guarantees backing AI data-center and chip SPVs. Nvidia posted Jensen Huang’s CBS Sunday remarks that speed and safeguards can run in parallel. No tracked lab shipped a new named model in the latest window.",
-  "brief_zh": "週日是融資與對外表述日，而非模型發布日。FT 報導科技業過去一年以殘值保證支撐最高約 3,000 億美元 AI 機房與晶片融資。Nvidia 官方轉發黃仁勳 CBS 訪談：加速與安全可並行。最近時段無追蹤實驗室發布新命名模型。",
-  "updated_at": "2026-09-20T22:35:02.120643+00:00"
+  "brief_en": "No new lab model ships in the last 12 hours. The day’s signal remains infrastructure finance: FT reporting of up to $300B in residual-value guarantees, plus Nvidia amplifying Jensen Huang’s CBS line that speed and safeguards can run together.",
+  "brief_zh": "過去12小時無新旗艦模型發表。今日主軸仍是基礎建設融資：FT指高達3,000億美元殘值擔保，以及輝達轉發黃仁勳在CBS稱速度與安全可並行。",
+  "updated_at": "2026-09-21T04:35:01.365349+00:00"
 }
