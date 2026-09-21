@@ -24,26 +24,65 @@
       "item_count": 2,
       "updated_count": 2,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-09-21T10:35:01.963613+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 6,
+      "updated_count": 2,
+      "kept_count": 0
     }
   ],
   "items_flat": [
+    {
+      "id": "softbank-junk-bonds-openai-third-tranche-2026-09-21",
+      "story_id": "softbank-junk-bonds-openai-third-tranche-2026-09-21",
+      "category": "openai",
+      "source_type": "news",
+      "title_en": "SoftBank launches ~$11B junk notes to fund $10B OpenAI tranche",
+      "title_zh": "軟銀發行約110億美元垃圾債，為OpenAI第三期100億美元注資籌資",
+      "summary_en": "Reuters reported a term sheet showing SoftBank Group launched $10 billion of dollar notes and €1 billion of euro notes. Proceeds will fund SoftBank’s $10 billion third-tranche OpenAI payment expected to close Oct. 1, cancel a prior $10 billion bridge loan, and cover general purposes; pricing is slated for Sept. 24. Bloomberg separately described the package as more than $11 billion and one of the largest junk-bond deals on record.",
+      "summary_zh": "路透引述條款清單：軟銀集團發行100億美元債與10億歐元債。資金將用於10月1日預計交割的OpenAI第三期100億美元付款、取消先前100億美元過橋貸，以及一般用途；定價預定9月24日。彭博另稱總規模逾110億美元，屬史上最大垃圾債案之一。",
+      "analysis_en": "This is financing of an already-committed OpenAI stake, not a new product from the lab. The term sheet is stronger evidence than anonymous sourcing, but coupon levels and final allocation remain unpriced until Thursday.",
+      "analysis_zh": "這是既有OpenAI持股承諾的融資，不是實驗室新品。條款清單比匿名消息更硬，但票息與最終分配要到週四定價才確定。",
+      "quote": "Proceeds will be used to fund SoftBank's $10 billion payment for the third tranche of its follow-on investment in OpenAI, which is expected to close on October 1, and for general corporate purposes, the term sheet said.",
+      "quote_zh": "條款清單寫明：資金將用於軟銀對OpenAI後續投資第三期的100億美元付款（預計10月1日交割），以及一般公司用途。",
+      "importance": 4,
+      "first_seen": "2026-09-21T01:29:00Z",
+      "updated_at": "2026-09-21T10:35:01.963613+00:00",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/media-telecom/softbank-group-launches-over-10-billion-bonds-openai-investment-term-sheet-shows-2026-09-21/"
+        },
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-21/softbank-seeks-over-11-billion-in-junk-bond-deal-for-openai-bet"
+        }
+      ]
+    },
     {
       "id": "ft-ai-residual-value-guarantees-300b-2026-09-20",
       "story_id": "ft-ai-residual-value-guarantees-300b-2026-09-20",
       "category": "frontier_other",
       "source_type": "news",
       "title_en": "FT: residual-value guarantees hide up to $300B of AI infrastructure exposure",
-      "title_zh": "FT：殘值擔保使高達3,000億美元AI基建曝險留在資產負債表外",
-      "summary_en": "The Financial Times reported that technology firms have offered as much as $300 billion of residual-value guarantees over the past year to back AI data-center and chip financing through special-purpose vehicles. Follow-on coverage named Meta’s Hyperion / Beignet structure (~$28B guarantee behind ~$27B of project debt), Broadcom exposure tied to Anthropic-bound chips, Nvidia guarantees linked to a SoftBank–OpenAI development, and Alphabet data-center guarantees rising from $16.9B to $43.8B in six months with little booked as on-balance-sheet liability.",
-      "summary_zh": "《金融時報》報導，科技公司過去一年透過特殊目的公司，為AI資料中心與晶片融資提供高達約3,000億美元殘值擔保。後續整理點名Meta路易斯安那Hyperion／Beignet結構（約280億美元擔保支撐約270億美元專案債）、Broadcom與Anthropic晶片融資相關曝險、輝達與軟銀—OpenAI開發案相關擔保，以及Alphabet資料中心擔保半年內由169億升至438億美元、入帳負債極少。",
-      "analysis_en": "This is not a model launch, but it is how frontier capacity is being paid for: demand and residual-value risk are shifted into contingent guarantees that appear late, if at all, as ordinary debt. What remains uncertain is whether GPU and campus residuals hold if utilization or rental prices normalize—the structures work only while the assets stay financeable.",
-      "analysis_zh": "這不是模型發表，而是前線算力如何被付錢：需求與殘值風險被移到或然擔保，未必即時進入一般負債。不確定點在於，若利用率或租賃價格回歸常態，GPU與園區殘值能否撐住——結構成立的前提是資產仍可融資。",
+      "title_zh": "FT：殘值擔保掩蓋高達3000億美元AI基礎設施曝險",
+      "summary_en": "The Financial Times reported that technology firms have offered as much as $300 billion of residual-value guarantees over the past year to back AI data-center and chip financing through special-purpose vehicles. Follow-on coverage placed the structure in the same financing cycle as large chip and campus buildouts rather than as a new lab product.",
+      "summary_zh": "《金融時報》報導，過去一年科技業透過特殊目的載體，為AI資料中心與晶片融資提供高達約3000億美元殘值擔保。後續報導把它放在同一輪大型晶片與園區擴建融資週期，而非新模型發布。",
+      "analysis_en": "This is how frontier capacity is being paid for: demand and residual-value risk sit in contingent guarantees that appear late, if at all, as conventional debt. It does not by itself change model capability or list who ultimately pays if residual values miss.",
+      "analysis_zh": "這關乎前線算力怎麼付帳：需求與殘值風險落在或有擔保上，未必即時以傳統負債呈現。它本身不改模型能力，也未釐清殘值落空時最終由誰買單。",
       "quote": "",
       "quote_zh": "",
       "importance": 4,
       "first_seen": "2026-09-20T13:00:00Z",
-      "updated_at": "2026-09-21T04:35:01.365349+00:00",
+      "updated_at": "2026-09-21T10:35:01.963613+00:00",
       "links": [
+        {
+          "label": "Financial Times (via AI Weekly index)",
+          "url": "https://aiweekly.co/ai-news-today/openai-news"
+        },
         {
           "label": "Coinpaper summary of FT investigation",
           "url": "https://coinpaper.com/35989/big-tech-has-300-billion-of-ai-exposure-you-cant-see-on-the-balance-sheet"
@@ -67,22 +106,76 @@
       ]
     },
     {
+      "id": "saturn-ft-ai-chatbots-finance-errors-2026-09-20",
+      "story_id": "saturn-ft-ai-chatbots-finance-errors-2026-09-20",
+      "category": "frontier_other",
+      "source_type": "news",
+      "title_en": "Saturn/FT: 18 chatbots wrong on 57% of finance answers, 88% on hard queries",
+      "title_zh": "Saturn／FT：18款聊天機器人理財答錯57%，難題錯88%",
+      "summary_en": "Coverage of a Saturn study, including Financial Times reporting, said 18 popular models from ChatGPT, Claude, Copilot, Grok and Gemini were scored wrong on 57% of 121 personal-finance questions across more than 10,000 answers. Error rates rose to about 88% on multi-step items; Claude Opus 5 in reasoning mode led the set but still failed 39%. Failures included miscalculations, missed tax-rule changes, and invented rules.",
+      "summary_zh": "Saturn研究（含FT報導）稱，ChatGPT、Claude、Copilot、Grok、Gemini等18款熱門模型，在121道理財題、逾1萬筆回答中平均錯57%。多步驟難題錯約88%；推理模式的Claude Opus 5表現最好，仍錯39%。錯誤含計算失誤、忽略稅法變更與捏造規定。",
+      "analysis_en": "The result is an independent product-quality snapshot, not a lab announcement. It lands beside consumer finance features and ads products, so the uncertainty is whether vendors treat these error rates as a product block or as acceptable assistive risk.",
+      "analysis_zh": "這是獨立產品品質快照，不是實驗室公告。它正好撞上消費端理財功能與廣告產品，不確定點是業者會把這種錯誤率當上線門檻，還是當可接受的輔助風險。",
+      "quote": "The most popular AI models from ChatGPT, Claude, Copilot, Grok and Gemini provided wrong answers to financial queries 57 per cent of the time on average, according to research from technology firm Saturn.",
+      "quote_zh": "據科技公司Saturn研究，ChatGPT、Claude、Copilot、Grok與Gemini等最熱門模型，對財務提問平均有57%答錯。",
+      "importance": 3,
+      "first_seen": "2026-09-20T04:33:00Z",
+      "updated_at": "2026-09-21T10:35:01.963613+00:00",
+      "links": [
+        {
+          "label": "BeInCrypto (Saturn study write-up)",
+          "url": "https://beincrypto.com/ai-chatbots-wrong-financial-advice-study/"
+        },
+        {
+          "label": "Startup Fortune summary",
+          "url": "https://startupfortune.com/ai-chatbots-get-financial-questions-wrong-more-than-half-the-time-study-finds/"
+        }
+      ]
+    },
+    {
+      "id": "societe-generale-anthropic-corporate-ai-2026-09-21",
+      "story_id": "societe-generale-anthropic-corporate-ai-2026-09-21",
+      "category": "anthropic",
+      "source_type": "news",
+      "title_en": "Société Générale signs strategic Anthropic pact for corporate AI",
+      "title_zh": "法國興業銀行與Anthropic簽企業AI策略協議",
+      "summary_en": "Société Générale said Monday it signed a strategic agreement with Anthropic to accelerate corporate AI adoption across operations, calling it a decisive step in its technology roadmap. The bank did not disclose financial terms or which business lines will deploy Claude first.",
+      "summary_zh": "法國興業銀行週一表示與Anthropic簽署策略協議，加速全行企業AI導入，稱是技術路線上的關鍵一步。銀行未公布財務條件，也未說明哪些業務線先部署Claude。",
+      "analysis_en": "This extends Anthropic’s regulated-industry sales, not a model release. Without scope, seats, or data-residency terms, the operational footprint is still unknown.",
+      "analysis_zh": "這是Anthropic在受監管產業的銷售延伸，不是新模型。缺少範圍、席次與資料駐留條款，實際落地規模仍未知。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 3,
+      "first_seen": "2026-09-21T07:24:00Z",
+      "updated_at": "2026-09-21T10:35:01.963613+00:00",
+      "links": [
+        {
+          "label": "Fathom / bank statement coverage",
+          "url": "https://www.fathom.news/societe-generale-anthropic-corporate-ai-pact/"
+        }
+      ]
+    },
+    {
       "id": "nvidia-jensen-huang-cbs-sunday-ai-speed-safety-2026-09-20",
       "story_id": "nvidia-jensen-huang-cbs-sunday-ai-speed-safety-2026-09-20",
       "category": "frontier_other",
       "source_type": "official_x",
       "title_en": "Nvidia posts Jensen Huang CBS Sunday remarks: speed and safeguards ‘aren’t at odds’",
-      "title_zh": "輝達轉發黃仁勳CBS訪談：速度與防護「並不對立」",
-      "summary_en": "Nvidia’s official account posted a CBS Sunday clip of CEO Jensen Huang arguing that moving fast on AI and building safely are compatible if testing, monitoring, and safeguards run in parallel. CBS News separately quoted him rejecting 2030 extinction timelines as a “doomsday narrative,” saying there is a “0% chance” 2030 is “the end of the world,” while also saying the U.S. should not slow the AI race with China and should not ship products before they are ready. The company linked an extended interview on CBS.",
-      "summary_zh": "輝達官方帳號轉發CBS Sunday片段，執行長黃仁勳主張只要測試、監控與防護同步進行，AI快速推進與安全並不衝突。CBS另引述他否定2030滅絕時間表為「末日敘事」，稱2030是世界末日的機率為「0%」，同時表示美國不應在對中AI競賽中放慢、也不該在產品未就緒時出貨。公司並附上延伸訪談連結。",
-      "analysis_en": "The clip is messaging, not a product or capital-commitment change. It lands in the same window as reporting on large Nvidia-linked infrastructure guarantees, so the public line on speed-plus-safety is running beside contingent financing that assumes residuals hold.",
-      "analysis_zh": "這是對外表述，不是產品或資本承諾的變更。它與輝達相關大型基建擔保報導落在同一時窗，公開的「速度加安全」論述，與假設殘值仍站得住的或然融資並排出現。",
+      "title_zh": "Nvidia貼出黃仁勳CBS談話：速度與防護「並不對立」",
+      "summary_en": "Nvidia’s official account posted a CBS Sunday clip of CEO Jensen Huang arguing that moving fast on AI and building safely are compatible if testing, monitoring, and safeguards run in parallel. CBS News separately quoted him rejecting 2030 extinction-style timelines.",
+      "summary_zh": "Nvidia官方帳號轉貼CBS週日節目片段，執行長黃仁勳主張：若測試、監控與防護並行，快速推進AI與安全建構可以並行。CBS另引述他否定2030年滅絕式時間表。",
+      "analysis_en": "The clip is messaging, not a product or capital-commitment change. It lands in the same window as reporting on large Nvidia-linked infrastructure guarantees, so the public line on pace should be read against how that capacity is financed.",
+      "analysis_zh": "這是對外敘事，不是產品或資本承諾變動。它與大型Nvidia相關基礎設施擔保報導同一窗口，公開的「可並行」說法應對照算力實際怎麼融資。",
       "quote": "Moving fast and building safely aren’t at odds. AI should move as fast as we can, with rigorous testing, monitoring, and safeguards every step of the way.",
       "quote_zh": "快速推進與安全打造並不對立。AI應盡可能快，但每一步都要有嚴謹測試、監控與防護。",
       "importance": 2,
       "first_seen": "2026-09-20T14:41:54Z",
-      "updated_at": "2026-09-21T04:35:01.365349+00:00",
+      "updated_at": "2026-09-21T10:35:01.963613+00:00",
       "links": [
+        {
+          "label": "Nvidia / CBS Sunday (existing item)",
+          "url": "https://www.nvidia.com/"
+        },
         {
           "label": "NVIDIA on X",
           "url": "https://x.com/nvidia/status/2101683275634712630"
@@ -96,14 +189,113 @@
           "url": "https://www.cbsnews.com/video/extended-interview-nvidia-ceo-jensen-huang-on-fears-about-ai"
         }
       ]
+    },
+    {
+      "id": "elon-musk-open-source-intelligence-exponential-2026-09-21",
+      "story_id": "elon-musk-open-source-intelligence-exponential-2026-09-21",
+      "category": "xai",
+      "source_type": "official_x",
+      "title_en": "Musk: ‘Intelligence is improving exponentially’ on open-source pace",
+      "title_zh": "馬斯克：開源節奏下「智力在指數成長」",
+      "summary_en": "Elon Musk replied on X that “Intelligence is improving exponentially” to a post arguing GLM 5.3 Flash, DeepSeek V4.1 Flash, Qwen 3.8 Next Flash and Qwen 3.8 27B now outperform models treated as frontier at Christmas 2025. The post is commentary, not an xAI model card or ship notice.",
+      "summary_zh": "馬斯克在X回覆「智力在指數成長」，呼應一則指GLM 5.3 Flash、DeepSeek V4.1 Flash、Qwen 3.8 Next Flash與Qwen 3.8 27B已超越2025聖誕被視為前線的模型。此為評論，不是xAI模型卡或出貨公告。",
+      "analysis_en": "It restates a capability-curve claim without a new Grok version, price, or eval table from x.ai. Treat it as executive color, not a release.",
+      "analysis_zh": "它重申能力曲線主張，但沒有新的Grok版本、價格或x.ai評測表。應視為高管評論，而非發布。",
+      "quote": "Intelligence is improving exponentially",
+      "quote_zh": "智力正在指數成長",
+      "importance": 2,
+      "first_seen": "2026-09-21T10:04:48Z",
+      "updated_at": "2026-09-21T10:35:01.963613+00:00",
+      "links": [
+        {
+          "label": "Elon Musk on X",
+          "url": "https://x.com/elonmusk/status/2101975928800714904"
+        }
+      ]
     }
   ],
   "categories": {
-    "openai": [],
-    "anthropic": [],
+    "openai": [
+      {
+        "id": "softbank-junk-bonds-openai-third-tranche-2026-09-21",
+        "story_id": "softbank-junk-bonds-openai-third-tranche-2026-09-21",
+        "category": "openai",
+        "source_type": "news",
+        "title_en": "SoftBank launches ~$11B junk notes to fund $10B OpenAI tranche",
+        "title_zh": "軟銀發行約110億美元垃圾債，為OpenAI第三期100億美元注資籌資",
+        "summary_en": "Reuters reported a term sheet showing SoftBank Group launched $10 billion of dollar notes and €1 billion of euro notes. Proceeds will fund SoftBank’s $10 billion third-tranche OpenAI payment expected to close Oct. 1, cancel a prior $10 billion bridge loan, and cover general purposes; pricing is slated for Sept. 24. Bloomberg separately described the package as more than $11 billion and one of the largest junk-bond deals on record.",
+        "summary_zh": "路透引述條款清單：軟銀集團發行100億美元債與10億歐元債。資金將用於10月1日預計交割的OpenAI第三期100億美元付款、取消先前100億美元過橋貸，以及一般用途；定價預定9月24日。彭博另稱總規模逾110億美元，屬史上最大垃圾債案之一。",
+        "analysis_en": "This is financing of an already-committed OpenAI stake, not a new product from the lab. The term sheet is stronger evidence than anonymous sourcing, but coupon levels and final allocation remain unpriced until Thursday.",
+        "analysis_zh": "這是既有OpenAI持股承諾的融資，不是實驗室新品。條款清單比匿名消息更硬，但票息與最終分配要到週四定價才確定。",
+        "quote": "Proceeds will be used to fund SoftBank's $10 billion payment for the third tranche of its follow-on investment in OpenAI, which is expected to close on October 1, and for general corporate purposes, the term sheet said.",
+        "quote_zh": "條款清單寫明：資金將用於軟銀對OpenAI後續投資第三期的100億美元付款（預計10月1日交割），以及一般公司用途。",
+        "importance": 4,
+        "first_seen": "2026-09-21T01:29:00Z",
+        "updated_at": "2026-09-21T10:35:01.963613+00:00",
+        "links": [
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/media-telecom/softbank-group-launches-over-10-billion-bonds-openai-investment-term-sheet-shows-2026-09-21/"
+          },
+          {
+            "label": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-21/softbank-seeks-over-11-billion-in-junk-bond-deal-for-openai-bet"
+          }
+        ]
+      }
+    ],
+    "anthropic": [
+      {
+        "id": "societe-generale-anthropic-corporate-ai-2026-09-21",
+        "story_id": "societe-generale-anthropic-corporate-ai-2026-09-21",
+        "category": "anthropic",
+        "source_type": "news",
+        "title_en": "Société Générale signs strategic Anthropic pact for corporate AI",
+        "title_zh": "法國興業銀行與Anthropic簽企業AI策略協議",
+        "summary_en": "Société Générale said Monday it signed a strategic agreement with Anthropic to accelerate corporate AI adoption across operations, calling it a decisive step in its technology roadmap. The bank did not disclose financial terms or which business lines will deploy Claude first.",
+        "summary_zh": "法國興業銀行週一表示與Anthropic簽署策略協議，加速全行企業AI導入，稱是技術路線上的關鍵一步。銀行未公布財務條件，也未說明哪些業務線先部署Claude。",
+        "analysis_en": "This extends Anthropic’s regulated-industry sales, not a model release. Without scope, seats, or data-residency terms, the operational footprint is still unknown.",
+        "analysis_zh": "這是Anthropic在受監管產業的銷售延伸，不是新模型。缺少範圍、席次與資料駐留條款，實際落地規模仍未知。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 3,
+        "first_seen": "2026-09-21T07:24:00Z",
+        "updated_at": "2026-09-21T10:35:01.963613+00:00",
+        "links": [
+          {
+            "label": "Fathom / bank statement coverage",
+            "url": "https://www.fathom.news/societe-generale-anthropic-corporate-ai-pact/"
+          }
+        ]
+      }
+    ],
     "google": [],
     "meta": [],
-    "xai": [],
+    "xai": [
+      {
+        "id": "elon-musk-open-source-intelligence-exponential-2026-09-21",
+        "story_id": "elon-musk-open-source-intelligence-exponential-2026-09-21",
+        "category": "xai",
+        "source_type": "official_x",
+        "title_en": "Musk: ‘Intelligence is improving exponentially’ on open-source pace",
+        "title_zh": "馬斯克：開源節奏下「智力在指數成長」",
+        "summary_en": "Elon Musk replied on X that “Intelligence is improving exponentially” to a post arguing GLM 5.3 Flash, DeepSeek V4.1 Flash, Qwen 3.8 Next Flash and Qwen 3.8 27B now outperform models treated as frontier at Christmas 2025. The post is commentary, not an xAI model card or ship notice.",
+        "summary_zh": "馬斯克在X回覆「智力在指數成長」，呼應一則指GLM 5.3 Flash、DeepSeek V4.1 Flash、Qwen 3.8 Next Flash與Qwen 3.8 27B已超越2025聖誕被視為前線的模型。此為評論，不是xAI模型卡或出貨公告。",
+        "analysis_en": "It restates a capability-curve claim without a new Grok version, price, or eval table from x.ai. Treat it as executive color, not a release.",
+        "analysis_zh": "它重申能力曲線主張，但沒有新的Grok版本、價格或x.ai評測表。應視為高管評論，而非發布。",
+        "quote": "Intelligence is improving exponentially",
+        "quote_zh": "智力正在指數成長",
+        "importance": 2,
+        "first_seen": "2026-09-21T10:04:48Z",
+        "updated_at": "2026-09-21T10:35:01.963613+00:00",
+        "links": [
+          {
+            "label": "Elon Musk on X",
+            "url": "https://x.com/elonmusk/status/2101975928800714904"
+          }
+        ]
+      }
+    ],
     "frontier_other": [
       {
         "id": "ft-ai-residual-value-guarantees-300b-2026-09-20",
@@ -111,17 +303,21 @@
         "category": "frontier_other",
         "source_type": "news",
         "title_en": "FT: residual-value guarantees hide up to $300B of AI infrastructure exposure",
-        "title_zh": "FT：殘值擔保使高達3,000億美元AI基建曝險留在資產負債表外",
-        "summary_en": "The Financial Times reported that technology firms have offered as much as $300 billion of residual-value guarantees over the past year to back AI data-center and chip financing through special-purpose vehicles. Follow-on coverage named Meta’s Hyperion / Beignet structure (~$28B guarantee behind ~$27B of project debt), Broadcom exposure tied to Anthropic-bound chips, Nvidia guarantees linked to a SoftBank–OpenAI development, and Alphabet data-center guarantees rising from $16.9B to $43.8B in six months with little booked as on-balance-sheet liability.",
-        "summary_zh": "《金融時報》報導，科技公司過去一年透過特殊目的公司，為AI資料中心與晶片融資提供高達約3,000億美元殘值擔保。後續整理點名Meta路易斯安那Hyperion／Beignet結構（約280億美元擔保支撐約270億美元專案債）、Broadcom與Anthropic晶片融資相關曝險、輝達與軟銀—OpenAI開發案相關擔保，以及Alphabet資料中心擔保半年內由169億升至438億美元、入帳負債極少。",
-        "analysis_en": "This is not a model launch, but it is how frontier capacity is being paid for: demand and residual-value risk are shifted into contingent guarantees that appear late, if at all, as ordinary debt. What remains uncertain is whether GPU and campus residuals hold if utilization or rental prices normalize—the structures work only while the assets stay financeable.",
-        "analysis_zh": "這不是模型發表，而是前線算力如何被付錢：需求與殘值風險被移到或然擔保，未必即時進入一般負債。不確定點在於，若利用率或租賃價格回歸常態，GPU與園區殘值能否撐住——結構成立的前提是資產仍可融資。",
+        "title_zh": "FT：殘值擔保掩蓋高達3000億美元AI基礎設施曝險",
+        "summary_en": "The Financial Times reported that technology firms have offered as much as $300 billion of residual-value guarantees over the past year to back AI data-center and chip financing through special-purpose vehicles. Follow-on coverage placed the structure in the same financing cycle as large chip and campus buildouts rather than as a new lab product.",
+        "summary_zh": "《金融時報》報導，過去一年科技業透過特殊目的載體，為AI資料中心與晶片融資提供高達約3000億美元殘值擔保。後續報導把它放在同一輪大型晶片與園區擴建融資週期，而非新模型發布。",
+        "analysis_en": "This is how frontier capacity is being paid for: demand and residual-value risk sit in contingent guarantees that appear late, if at all, as conventional debt. It does not by itself change model capability or list who ultimately pays if residual values miss.",
+        "analysis_zh": "這關乎前線算力怎麼付帳：需求與殘值風險落在或有擔保上，未必即時以傳統負債呈現。它本身不改模型能力，也未釐清殘值落空時最終由誰買單。",
         "quote": "",
         "quote_zh": "",
         "importance": 4,
         "first_seen": "2026-09-20T13:00:00Z",
-        "updated_at": "2026-09-21T04:35:01.365349+00:00",
+        "updated_at": "2026-09-21T10:35:01.963613+00:00",
         "links": [
+          {
+            "label": "Financial Times (via AI Weekly index)",
+            "url": "https://aiweekly.co/ai-news-today/openai-news"
+          },
           {
             "label": "Coinpaper summary of FT investigation",
             "url": "https://coinpaper.com/35989/big-tech-has-300-billion-of-ai-exposure-you-cant-see-on-the-balance-sheet"
@@ -145,22 +341,53 @@
         ]
       },
       {
+        "id": "saturn-ft-ai-chatbots-finance-errors-2026-09-20",
+        "story_id": "saturn-ft-ai-chatbots-finance-errors-2026-09-20",
+        "category": "frontier_other",
+        "source_type": "news",
+        "title_en": "Saturn/FT: 18 chatbots wrong on 57% of finance answers, 88% on hard queries",
+        "title_zh": "Saturn／FT：18款聊天機器人理財答錯57%，難題錯88%",
+        "summary_en": "Coverage of a Saturn study, including Financial Times reporting, said 18 popular models from ChatGPT, Claude, Copilot, Grok and Gemini were scored wrong on 57% of 121 personal-finance questions across more than 10,000 answers. Error rates rose to about 88% on multi-step items; Claude Opus 5 in reasoning mode led the set but still failed 39%. Failures included miscalculations, missed tax-rule changes, and invented rules.",
+        "summary_zh": "Saturn研究（含FT報導）稱，ChatGPT、Claude、Copilot、Grok、Gemini等18款熱門模型，在121道理財題、逾1萬筆回答中平均錯57%。多步驟難題錯約88%；推理模式的Claude Opus 5表現最好，仍錯39%。錯誤含計算失誤、忽略稅法變更與捏造規定。",
+        "analysis_en": "The result is an independent product-quality snapshot, not a lab announcement. It lands beside consumer finance features and ads products, so the uncertainty is whether vendors treat these error rates as a product block or as acceptable assistive risk.",
+        "analysis_zh": "這是獨立產品品質快照，不是實驗室公告。它正好撞上消費端理財功能與廣告產品，不確定點是業者會把這種錯誤率當上線門檻，還是當可接受的輔助風險。",
+        "quote": "The most popular AI models from ChatGPT, Claude, Copilot, Grok and Gemini provided wrong answers to financial queries 57 per cent of the time on average, according to research from technology firm Saturn.",
+        "quote_zh": "據科技公司Saturn研究，ChatGPT、Claude、Copilot、Grok與Gemini等最熱門模型，對財務提問平均有57%答錯。",
+        "importance": 3,
+        "first_seen": "2026-09-20T04:33:00Z",
+        "updated_at": "2026-09-21T10:35:01.963613+00:00",
+        "links": [
+          {
+            "label": "BeInCrypto (Saturn study write-up)",
+            "url": "https://beincrypto.com/ai-chatbots-wrong-financial-advice-study/"
+          },
+          {
+            "label": "Startup Fortune summary",
+            "url": "https://startupfortune.com/ai-chatbots-get-financial-questions-wrong-more-than-half-the-time-study-finds/"
+          }
+        ]
+      },
+      {
         "id": "nvidia-jensen-huang-cbs-sunday-ai-speed-safety-2026-09-20",
         "story_id": "nvidia-jensen-huang-cbs-sunday-ai-speed-safety-2026-09-20",
         "category": "frontier_other",
         "source_type": "official_x",
         "title_en": "Nvidia posts Jensen Huang CBS Sunday remarks: speed and safeguards ‘aren’t at odds’",
-        "title_zh": "輝達轉發黃仁勳CBS訪談：速度與防護「並不對立」",
-        "summary_en": "Nvidia’s official account posted a CBS Sunday clip of CEO Jensen Huang arguing that moving fast on AI and building safely are compatible if testing, monitoring, and safeguards run in parallel. CBS News separately quoted him rejecting 2030 extinction timelines as a “doomsday narrative,” saying there is a “0% chance” 2030 is “the end of the world,” while also saying the U.S. should not slow the AI race with China and should not ship products before they are ready. The company linked an extended interview on CBS.",
-        "summary_zh": "輝達官方帳號轉發CBS Sunday片段，執行長黃仁勳主張只要測試、監控與防護同步進行，AI快速推進與安全並不衝突。CBS另引述他否定2030滅絕時間表為「末日敘事」，稱2030是世界末日的機率為「0%」，同時表示美國不應在對中AI競賽中放慢、也不該在產品未就緒時出貨。公司並附上延伸訪談連結。",
-        "analysis_en": "The clip is messaging, not a product or capital-commitment change. It lands in the same window as reporting on large Nvidia-linked infrastructure guarantees, so the public line on speed-plus-safety is running beside contingent financing that assumes residuals hold.",
-        "analysis_zh": "這是對外表述，不是產品或資本承諾的變更。它與輝達相關大型基建擔保報導落在同一時窗，公開的「速度加安全」論述，與假設殘值仍站得住的或然融資並排出現。",
+        "title_zh": "Nvidia貼出黃仁勳CBS談話：速度與防護「並不對立」",
+        "summary_en": "Nvidia’s official account posted a CBS Sunday clip of CEO Jensen Huang arguing that moving fast on AI and building safely are compatible if testing, monitoring, and safeguards run in parallel. CBS News separately quoted him rejecting 2030 extinction-style timelines.",
+        "summary_zh": "Nvidia官方帳號轉貼CBS週日節目片段，執行長黃仁勳主張：若測試、監控與防護並行，快速推進AI與安全建構可以並行。CBS另引述他否定2030年滅絕式時間表。",
+        "analysis_en": "The clip is messaging, not a product or capital-commitment change. It lands in the same window as reporting on large Nvidia-linked infrastructure guarantees, so the public line on pace should be read against how that capacity is financed.",
+        "analysis_zh": "這是對外敘事，不是產品或資本承諾變動。它與大型Nvidia相關基礎設施擔保報導同一窗口，公開的「可並行」說法應對照算力實際怎麼融資。",
         "quote": "Moving fast and building safely aren’t at odds. AI should move as fast as we can, with rigorous testing, monitoring, and safeguards every step of the way.",
         "quote_zh": "快速推進與安全打造並不對立。AI應盡可能快，但每一步都要有嚴謹測試、監控與防護。",
         "importance": 2,
         "first_seen": "2026-09-20T14:41:54Z",
-        "updated_at": "2026-09-21T04:35:01.365349+00:00",
+        "updated_at": "2026-09-21T10:35:01.963613+00:00",
         "links": [
+          {
+            "label": "Nvidia / CBS Sunday (existing item)",
+            "url": "https://www.nvidia.com/"
+          },
           {
             "label": "NVIDIA on X",
             "url": "https://x.com/nvidia/status/2101683275634712630"
@@ -177,7 +404,7 @@
       }
     ]
   },
-  "brief_en": "No new lab model ships in the last 12 hours. The day’s signal remains infrastructure finance: FT reporting of up to $300B in residual-value guarantees, plus Nvidia amplifying Jensen Huang’s CBS line that speed and safeguards can run together.",
-  "brief_zh": "過去12小時無新旗艦模型發表。今日主軸仍是基礎建設融資：FT指高達3,000億美元殘值擔保，以及輝達轉發黃仁勳在CBS稱速度與安全可並行。",
-  "updated_at": "2026-09-21T04:35:01.365349+00:00"
+  "brief_en": "SoftBank launched ~$11B junk notes to fund a $10B OpenAI tranche due Oct 1. Separately, FT coverage of residual-value guarantees and a Saturn finance-Q&A test (57% error rate) framed how AI is financed and trusted. No new frontier model shipped in the window.",
+  "brief_zh": "軟銀推出約110億美元垃圾債，為10月1日到期的OpenAI第三期100億美元注資籌資。FT殘值擔保與Saturn理財問答測試（平均錯57%）凸顯融資與信任問題。窗口內無新旗艦模型發布。",
+  "updated_at": "2026-09-21T10:35:01.963613+00:00"
 }
