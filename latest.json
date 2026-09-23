@@ -8,6 +8,14 @@
       "item_count": 5,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-09-23T22:35:00.395134+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 8,
+      "updated_count": 5,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -17,16 +25,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI extends Daybreak cyber access to Ukraine",
-      "title_zh": "OpenAI將Daybreak網路防禦計畫開放給烏克蘭",
-      "summary_en": "OpenAI announced it will give Ukraine’s government access to its Daybreak program to help defend civilian infrastructure, working with the Ministry of Digital Transformation. Daybreak is for authorized security work such as reviewing legacy software, investigating suspicious activity, validating vulnerabilities and testing fixes. OpenAI cited CERT-UA’s nearly 6,000 cyber incidents in 2025 and said similar access is already in place in France, Germany, Poland and with ENISA.",
-      "summary_zh": "OpenAI宣布與烏克蘭數位轉型部合作，向烏克蘭政府提供Daybreak計畫，協助防護民用基礎設施。Daybreak用於授權安全工作，包括檢視舊軟體、調查可疑活動、驗證漏洞與測試修補。官方援引CERT-UA在2025年處理近6,000起事件，並指法國、德國、波蘭及歐盟ENISA已有類似部署。",
-      "analysis_en": "This is a policy deployment of frontier cyber models, not a new model launch. Independent reporting says access includes GPT-5.6 Sol and is framed as free support, but the official post does not publish token volumes, model IDs or dual-use controls.",
-      "analysis_zh": "這是前沿資安模型的政策部署，而非新模型發表。獨立報導指包含GPT-5.6 Sol且為免費支援，但官網未公布token規模、模型代號或雙用途管控細節。",
-      "quote": "Ukraine is already on the front line, and its defenders need support now. We want to put more capable tools in their hands to help them find and fix vulnerabilities and protect the critical networks people depend on.",
-      "quote_zh": "烏克蘭已在前線，防禦者現在就需要支援。我們希望把更有能力的工具交到他們手上，協助找出並修補漏洞，保護人們依賴的關鍵網路。",
+      "title_zh": "OpenAI 向烏克蘭開放 Daybreak 網路防禦計畫",
+      "summary_en": "OpenAI announced it will give Ukraine’s government access to its Daybreak program to help defend civilian infrastructure, working with the Ministry of Digital Transformation. Daybreak is for authorized security work such as reviewing legacy software, investigating suspicious activity, validating vulnerabilities and testing fixes. The announcement was made on the sidelines of the UN General Assembly.",
+      "summary_zh": "OpenAI 宣布與烏克蘭數位轉型部合作，向烏克蘭政府開放 Daybreak 計畫，協助防護民用基礎設施。Daybreak 用於授權的安全工作，例如檢視舊系統、調查可疑活動、驗證漏洞並測試修補。消息於聯合國大會場邊公布。",
+      "analysis_en": "This is a policy deployment of frontier cyber tools, not a new model launch. Independent reporting says access includes GPT-5.6 Sol and is framed as free support; the official post does not name a specific model or publish usage terms.",
+      "analysis_zh": "這是前沿資安能力的政策部署，不是新模型發表。獨立報導稱包含 GPT-5.6 Sol 且定位為免費支援；官方稿未點名特定模型，也未公布使用條款。",
+      "quote": "OpenAI today announced it will offer the Government of Ukraine access to its Daybreak program to support the cyber defense of civilian infrastructure.",
+      "quote_zh": "OpenAI 今日宣布將向烏克蘭政府提供 Daybreak 計畫存取權，以支援民用基礎設施的網路防禦。",
       "importance": 4,
       "first_seen": "2026-09-23T16:35:01Z",
-      "updated_at": "2026-09-23T16:35:01.920661+00:00",
+      "updated_at": "2026-09-23T22:35:00.395134+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -44,24 +52,78 @@
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google launches Gemini 3.8 Flash and Flash-Lite TTS",
-      "title_zh": "Google推出Gemini 3.8 Flash與Flash-Lite語音合成模型",
-      "summary_en": "Google introduced Gemini 3.8 Flash TTS for custom voice design and line-by-line direction, and Gemini 3.8 Flash-Lite TTS for high-volume, lower-cost speech. Both support 100+ languages, 2,000+ library voices, long-form and two-speaker scenes, SynthID watermarking and consent-checked voice replication. They are live in Google AI Studio and the Gemini API, with consumer rollouts in Gemini Notebook and Google Vids; Gemini Enterprise is listed as coming soon.",
-      "summary_zh": "Google推出Gemini 3.8 Flash TTS（自訂聲線與逐句導演）及面向高量、低成本的Gemini 3.8 Flash-Lite TTS。兩者支援100種以上語言、2,000餘種庫存聲線、長篇與雙人場景、SynthID浮水印與需同意的聲音複製。已上線Google AI Studio與Gemini API，消費端進入Gemini Notebook與Google Vids；Enterprise列為即將推出。",
-      "analysis_en": "This extends Gemini Audio after Live models, competing on controllable production speech rather than a new text flagship. Voice replication is geo-restricted, so availability and rights enforcement will decide real-world use.",
-      "analysis_zh": "這是繼Live之後的Gemini Audio延伸，主打可控製播語音而非新一代文字旗艦。聲音複製有地區限制，實際採用將取決於可用性與權利把關。",
-      "quote": "Today, we’re introducing two new text-to-speech models to the Gemini family, transforming voice generation from static presets into a dynamic creative studio.",
-      "quote_zh": "我們今天推出Gemini家族兩款新的文字轉語音模型，把語音生成從固定預設變成可導演的創作工作室。",
+      "title_zh": "Google 推出 Gemini 3.8 Flash 與 Flash-Lite TTS",
+      "summary_en": "Google introduced Gemini 3.8 Flash TTS for custom voice design and line-by-line direction, and Gemini 3.8 Flash-Lite TTS for high-volume, lower-cost speech. Both support 100+ languages, a large prebuilt voice library, long-form and two-speaker scenes, and are rolling out in the Gemini API, Google AI Studio, Gemini Notebook and Google Vids.",
+      "summary_zh": "Google 推出 Gemini 3.8 Flash TTS（自訂音色與逐句導演）以及面向大量、較低成本語音的 Gemini 3.8 Flash-Lite TTS。兩者支援 100 多種語言、大型預建音色庫、長篇與雙人場景，並於 Gemini API、AI Studio、Notebook 與 Vids 推出。",
+      "analysis_en": "This extends Gemini Audio after Live models, competing on controllable production speech rather than a new text flagship. Voice replication is geo-restricted, so availability and rights terms still determine who can ship commercial clones.",
+      "analysis_zh": "這是 Gemini Audio 在 Live 之後的延伸，競爭點是可控的製作級語音，而非新的文字旗艦。音色複製有地區限制，能否商用仍取決於供應範圍與授權條款。",
+      "quote": "Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS are our most expressive audio generation models yet.",
+      "quote_zh": "Gemini 3.8 Flash TTS 與 Gemini 3.8 Flash-Lite TTS 是我們迄今最具表現力的音訊生成模型。",
       "importance": 4,
       "first_seen": "2026-09-23T16:35:01Z",
-      "updated_at": "2026-09-23T16:35:01.920661+00:00",
+      "updated_at": "2026-09-23T22:35:00.395134+00:00",
       "links": [
         {
           "label": "Google Blog",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
         },
         {
+          "label": "Gemini API docs",
+          "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts"
+        },
+        {
           "label": "Google AI on X",
           "url": "https://x.com/GoogleAI/status/2102781694730285427"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-claude-art-enzyme-2026-09-23",
+      "story_id": "anthropic-claude-art-enzyme-2026-09-23",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic says Claude discovered a CRISPR-like phage enzyme system",
+      "title_zh": "Anthropic：Claude 發現類 CRISPR 噬菌體酶系統",
+      "summary_en": "Anthropic introduced a new in-house life-sciences lab and said Claude agents, given a high-level prompt, found array-associated reverse transcriptases (ART) in jumbo-phage DNA—an uncharacterized RT plus a partner gene and CRISPR-like repeat array. Humans ran the wet-lab follow-up; function is still unknown. A preprint was released.",
+      "summary_zh": "Anthropic 宣布自建生命科學實驗室，並稱 Claude 代理在高層提示下，於巨型噬菌體 DNA 中發現陣列相關反轉錄酶（ART）：未知功能的 RT、伴生基因與類 CRISPR 重複陣列。濕實驗由人類執行，功能尚未釐清，並已釋出預印本。",
+      "analysis_en": "The claim is agent-led genome mining plus human validation, not a proven gene-editing tool. Anthropic itself says ART’s job is unknown; independent labs still need to reproduce the array finding and test whether it is programmable.",
+      "analysis_zh": "重點是代理主導的基因組探勘加上人類驗證，不是已證實的基因編輯工具。Anthropic 自己也說 ART 功能未知；仍須獨立實驗室複現陣列發現並檢驗是否可編程。",
+      "quote": "Claude autonomously discovered a novel enzyme system that is associated with an array of DNA repeats, a pattern reminiscent of CRISPR.",
+      "quote_zh": "Claude 自主發現一套與 DNA 重複陣列相關的新型酶系統，其模式令人聯想到 CRISPR。",
+      "importance": 4,
+      "first_seen": "2026-09-23T22:35:00Z",
+      "updated_at": "2026-09-23T22:35:00.395134+00:00",
+      "links": [
+        {
+          "label": "Anthropic News",
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+        }
+      ]
+    },
+    {
+      "id": "openai-mentalhealthbench-2026-09-23",
+      "story_id": "openai-mentalhealthbench-2026-09-23",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI releases open MentalHealthBench with 80+ clinicians",
+      "title_zh": "OpenAI 與 80 多名臨床專家發布開放 MentalHealthBench",
+      "summary_en": "OpenAI published MentalHealthBench, an open evaluation of 1,215 synthetic mental-health conversations co-created with more than 80 licensed experts in 22 countries. It scores safety, context-seeking, user agency and guidance across non-acute, high-acuity and emergency cases. OpenAI says frontier models improved versus older systems but still leave large gaps.",
+      "summary_zh": "OpenAI 發布開放基準 MentalHealthBench：1,215 則合成心理健康對話，由 22 國逾 80 名持證專家共同制定。評分涵蓋安全、追問脈絡、使用者自主與建議，覆蓋非急性、高嚴重度與緊急情境。官方稱前沿模型較舊系統進步，但仍有明顯缺口。",
+      "analysis_en": "This is a measurement and safety product, not a therapy feature. Scores are OpenAI-run with an automated grader; other labs can now rerun the open set, which is the main check on whether reported gaps hold.",
+      "analysis_zh": "這是評測與安全產物，不是治療功能。分數由 OpenAI 以自動評分器產出；其他實驗室現可重跑開放題庫，這才是檢驗報告缺口是否成立的關鍵。",
+      "quote": "We’re introducing MentalHealthBench, a new open benchmark for measuring how AI systems respond in realistic mental health conversations.",
+      "quote_zh": "我們推出 MentalHealthBench，這是一套新的開放基準，用來衡量 AI 系統在真實心理健康對話中如何回應。",
+      "importance": 3,
+      "first_seen": "2026-09-23T22:35:00Z",
+      "updated_at": "2026-09-23T22:35:00.395134+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/introducing-mentalhealthbench/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI"
         }
       ]
     },
@@ -71,16 +133,16 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Amazon opens seller tools to Claude and Quick agents",
-      "title_zh": "Amazon向Claude與Quick開放賣家工具外掛",
-      "summary_en": "Amazon said Seller Assistant now keeps persistent memory and can run always-on workflows for restocking, pricing and alerts, still on Bedrock with Claude. A Selling Partner plugin launches in Amazon Quick and in beta with Anthropic’s Claude so U.S. sellers can inspect inventory and act on listings from those apps, with human approval and audit trails. Amazon said 90% of selling partners already use third-party AI tools.",
-      "summary_zh": "Amazon表示Seller Assistant現具持久記憶，並可在Bedrock上以Claude執行補貨、定價與警示等常駐工作流。賣家外掛先上Amazon Quick，並在Anthropic Claude進行美國賣家測試，可查庫存並在核准與稽核下更新商品。Amazon稱九成賣家夥伴已在使用第三方AI工具。",
-      "analysis_en": "The story is Amazon’s distribution of Claude into merchant operations, not a new Anthropic model. The gap to watch is whether approved write-actions stay inside Amazon’s data boundary as more third-party agents are added.",
-      "analysis_zh": "重點是Claude進入賣家營運通道，而非Anthropic發表新模型。後續要看更多第三方代理加入後，經核准的寫入動作是否仍留在Amazon資料邊界內。",
-      "quote": "The Seller Assistant plugin for Claude now brings these data-driven insights into sellers’ Claude account alongside their existing accounting and supplier data connections.",
-      "quote_zh": "Claude上的Seller Assistant外掛，把這些資料驅動洞察帶進賣家既有的Claude帳號，並與會計與供應商連線並列。",
+      "title_zh": "Amazon 向 Claude 與 Quick 代理開放賣家工具",
+      "summary_en": "Amazon said Seller Assistant now keeps persistent memory and can run always-on workflows for restocking, pricing and alerts, still on Bedrock with Claude. A Selling Partner plugin launches in Amazon Quick and in beta with Anthropic’s Claude for U.S. sellers, with seller-approved actions and audit trails.",
+      "summary_zh": "Amazon 表示 Seller Assistant 現具持久記憶，並可常駐執行補貨、定價與警示工作流，仍走 Bedrock 上的 Claude。Selling Partner 外掛已在 Amazon Quick 上線，並與 Anthropic Claude 進行美國賣家測試，動作需賣家核准並留有稽核軌跡。",
+      "analysis_en": "The story is Amazon’s distribution of Claude into merchant operations, not a new Anthropic model. The gap to watch is whether approved write-actions stay inside Amazon’s data boundaries once more third-party assistants are added.",
+      "analysis_zh": "重點是 Amazon 把 Claude 分發進賣家營運，而非 Anthropic 發表新模型。後續要看核准寫入動作在接入更多第三方助理後，是否仍留在 Amazon 資料邊界內。",
+      "quote": "We are launching the Amazon Selling Partner plugin in Quick and in beta with Claude, with more integrations to follow.",
+      "quote_zh": "我們在 Quick 推出 Amazon Selling Partner 外掛，並與 Claude 進行測試，後續還會有更多整合。",
       "importance": 3,
       "first_seen": "2026-09-23T16:35:01Z",
-      "updated_at": "2026-09-23T16:35:01.920661+00:00",
+      "updated_at": "2026-09-23T22:35:00.395134+00:00",
       "links": [
         {
           "label": "About Amazon",
@@ -98,16 +160,16 @@
       "category": "xai",
       "source_type": "official_x",
       "title_en": "Musk says Grok Bot usage is accelerating; weekly feature drop",
-      "title_zh": "馬斯克稱Grok Bot用量加速，並釋出本週功能",
-      "summary_en": "Elon Musk wrote that “Grok @Bot usage is growing faster than anything we’ve ever seen,” quoting Bloomberg coverage that SpaceXAI staff presented 418,000 weekly users in the week ending September 14, up 24% week on week. He separately amplified a Grok Bot product video listing voice calls and memos, a 1Password vault, inline forms, email/Slack drafts, account switching and desktop traffic routing.",
-      "summary_zh": "馬斯克寫道「Grok @Bot用量成長快過我們見過的任何東西」，並轉述Bloomberg：SpaceXAI簡報指截至9月14日當週有41.8萬週活躍用戶、週增24%。他另轉發產品影片，列出語音通話與備忘、1Password保險庫、行內表單、郵件／Slack草稿、帳號切換與經桌面路由流量。",
+      "title_zh": "Musk：Grok Bot 用量加速；本週功能更新",
+      "summary_en": "Elon Musk wrote that “Grok @Bot usage is growing faster than anything we’ve ever seen,” quoting Bloomberg coverage that SpaceXAI staff presented 418,000 weekly users in the week ending September 14, up 24% week on week. He separately amplified a product video on voice calls, a 1Password vault, inline forms and drafts, account switching and desktop routing.",
+      "summary_zh": "Elon Musk 寫道「Grok @Bot 用量成長快過我們見過的任何產品」，並引用彭博報導：SpaceXAI 員工簡報稱截至 9 月 14 日當週有 41.8 萬週活用戶、週增 24%。他另轉發產品影片，涵蓋語音通話、1Password 保險庫、行內表單與草稿、帳號切換與桌面路由。",
       "analysis_en": "These are executive and product-team posts, not an xAI model card. The 418k figure is from a staff presentation reported by Bloomberg, not an audited xAI metrics release.",
-      "analysis_zh": "這是執行長與產品團隊貼文，不是xAI模型卡。41.8萬人數據來自Bloomberg引述的內部簡報，並非經審計的官方指標發布。",
+      "analysis_zh": "這是高階主管與產品團隊貼文，不是 xAI 模型卡。41.8 萬這個數字來自彭博報導的內部簡報，並非經審計的官方指標。",
       "quote": "Grok @Bot usage is growing faster than anything we’ve ever seen",
-      "quote_zh": "Grok @Bot的用量成長，快過我們見過的任何東西",
+      "quote_zh": "Grok @Bot 的用量成長，快過我們見過的任何產品",
       "importance": 3,
       "first_seen": "2026-09-23T16:35:01Z",
-      "updated_at": "2026-09-23T16:35:01.920661+00:00",
+      "updated_at": "2026-09-23T22:35:00.395134+00:00",
       "links": [
         {
           "label": "Elon Musk on X",
@@ -120,25 +182,56 @@
       ]
     },
     {
+      "id": "openai-chatgpt-voice-plugins-2026-09-23",
+      "story_id": "openai-chatgpt-voice-plugins-2026-09-23",
+      "category": "openai",
+      "source_type": "official_x",
+      "title_en": "ChatGPT Voice adds plugins and GPT-6 models",
+      "title_zh": "ChatGPT Voice 支援外掛並可改用 GPT-6",
+      "summary_en": "OpenAI said ChatGPT Voice can now use plugins such as email, calendar and Slack; be powered by GPT-6 Astra, Sol and Luna; and run inside ChatGPT Work on web and mobile for spoken document, deck and spreadsheet work. Help-center notes list Live voice as able to use connected apps on the account.",
+      "summary_zh": "OpenAI 表示 ChatGPT Voice 現可使用電子郵件、日曆、Slack 等外掛；可由 GPT-6 Astra、Sol、Luna 驅動；並能在網頁與行動版 ChatGPT Work 以語音製作文件、簡報與試算表。說明中心指出 Live 語音可使用帳號已連線的應用。",
+      "analysis_en": "This is a product wiring change, not a new voice model. The practical limit is whether Live-mode plugin actions stay reliable under full-duplex talk, which OpenAI has not published as a separate eval.",
+      "analysis_zh": "這是產品接線更新，不是新語音模型。實際瓶頸在全雙工對話下 Live 外掛動作是否穩定，OpenAI 尚未另發評測。",
+      "quote": "We heard you loud and clear. ChatGPT Voice can now: Use plugins like your email, calendar, and Slack. Be powered by GPT-6 Astra, Sol, and Luna.",
+      "quote_zh": "我們聽清楚了。ChatGPT Voice 現在可以：使用電子郵件、日曆、Slack 等外掛；並由 GPT-6 Astra、Sol、Luna 驅動。",
+      "importance": 3,
+      "first_seen": "2026-09-23T22:35:00Z",
+      "updated_at": "2026-09-23T22:35:00.395134+00:00",
+      "links": [
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI"
+        },
+        {
+          "label": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/20001274-chatgpt-voice"
+        }
+      ]
+    },
+    {
       "id": "openai-grab-go-forward-ai-2026-09-23",
       "story_id": "openai-grab-go-forward-ai-2026-09-23",
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI and Grab launch GO Forward with AI for 30,000 partners",
-      "title_zh": "OpenAI與Grab啟動GO Forward with AI，培訓3萬名夥伴",
-      "summary_en": "OpenAI and Grab launched a two-year regional program to teach practical AI skills to 30,000 Grab driver, delivery and merchant partners. It started in Singapore on September 23 and is slated for Thailand, Indonesia and the Philippines later this year, then Malaysia and Vietnam in 2027. The firms cite prior Driver AI Assistant use by nearly 500,000 drivers; press reports add free three-month ChatGPT Plus after workshops.",
-      "summary_zh": "OpenAI與Grab啟動兩年計畫，為3萬名司機、外送與商戶夥伴教授實用AI技能。9月23日先在新加坡開課，今年稍後擴至泰國、印尼與菲律賓，2027年到馬來西亞與越南。雙方指既有司機AI助理已接近50萬人使用；媒體另報工作坊後贈三個月ChatGPT Plus。",
+      "title_zh": "OpenAI 與 Grab 推出 GO Forward with AI，培訓 3 萬名夥伴",
+      "summary_en": "OpenAI and Grab launched a two-year regional program to teach practical AI skills to 30,000 Grab driver, delivery and merchant partners. It started in Singapore on September 23 and is slated for Thailand, Indonesia and the Philippines later this year, then Malaysia and Vietnam in 2027.",
+      "summary_zh": "OpenAI 與 Grab 啟動兩年區域計畫，為 3 萬名司機、外送與商家夥伴教授實用 AI 技能。9 月 23 日先在新加坡開課，今年稍後擴至泰國、印尼與菲律賓，2027 年再到馬來西亞與越南。",
       "analysis_en": "This is distribution and skilling, not a model release. Impact depends on completion rates and whether workshop use converts into lasting paid or work-tool usage.",
-      "analysis_zh": "這是通路與技能計畫，不是模型發表。成效取決於完訓率，以及工作坊使用能否轉成持續付費或工作工具。",
+      "analysis_zh": "這是通路與技能培訓，不是模型發表。成效取決於完訓率，以及工作坊使用能否轉成持續付費或工作工具習慣。",
       "quote": "Over the next two years, the programme will help 30,000 of Grab’s driver-, delivery-, and merchant-partners across Southeast Asia build skills they can use in their work and businesses.",
-      "quote_zh": "未來兩年，這項計畫將協助東南亞3萬名Grab司機、外送與商戶夥伴，建立可直接用於工作與經營的技能。",
+      "quote_zh": "未來兩年，此計畫將協助東南亞 3 萬名 Grab 司機、外送與商家夥伴，建立可直接用於工作與生意的技能。",
       "importance": 2,
       "first_seen": "2026-09-23T16:35:01Z",
-      "updated_at": "2026-09-23T16:35:01.920661+00:00",
+      "updated_at": "2026-09-23T22:35:00.395134+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia/"
+        },
+        {
+          "label": "Grab Press",
+          "url": "https://www.grab.com/sg/press/others/grab-and-openai-partnership-expands-access-to-practical-ai-skills-across-sea/"
         },
         {
           "label": "The Straits Times",
@@ -155,16 +248,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI extends Daybreak cyber access to Ukraine",
-        "title_zh": "OpenAI將Daybreak網路防禦計畫開放給烏克蘭",
-        "summary_en": "OpenAI announced it will give Ukraine’s government access to its Daybreak program to help defend civilian infrastructure, working with the Ministry of Digital Transformation. Daybreak is for authorized security work such as reviewing legacy software, investigating suspicious activity, validating vulnerabilities and testing fixes. OpenAI cited CERT-UA’s nearly 6,000 cyber incidents in 2025 and said similar access is already in place in France, Germany, Poland and with ENISA.",
-        "summary_zh": "OpenAI宣布與烏克蘭數位轉型部合作，向烏克蘭政府提供Daybreak計畫，協助防護民用基礎設施。Daybreak用於授權安全工作，包括檢視舊軟體、調查可疑活動、驗證漏洞與測試修補。官方援引CERT-UA在2025年處理近6,000起事件，並指法國、德國、波蘭及歐盟ENISA已有類似部署。",
-        "analysis_en": "This is a policy deployment of frontier cyber models, not a new model launch. Independent reporting says access includes GPT-5.6 Sol and is framed as free support, but the official post does not publish token volumes, model IDs or dual-use controls.",
-        "analysis_zh": "這是前沿資安模型的政策部署，而非新模型發表。獨立報導指包含GPT-5.6 Sol且為免費支援，但官網未公布token規模、模型代號或雙用途管控細節。",
-        "quote": "Ukraine is already on the front line, and its defenders need support now. We want to put more capable tools in their hands to help them find and fix vulnerabilities and protect the critical networks people depend on.",
-        "quote_zh": "烏克蘭已在前線，防禦者現在就需要支援。我們希望把更有能力的工具交到他們手上，協助找出並修補漏洞，保護人們依賴的關鍵網路。",
+        "title_zh": "OpenAI 向烏克蘭開放 Daybreak 網路防禦計畫",
+        "summary_en": "OpenAI announced it will give Ukraine’s government access to its Daybreak program to help defend civilian infrastructure, working with the Ministry of Digital Transformation. Daybreak is for authorized security work such as reviewing legacy software, investigating suspicious activity, validating vulnerabilities and testing fixes. The announcement was made on the sidelines of the UN General Assembly.",
+        "summary_zh": "OpenAI 宣布與烏克蘭數位轉型部合作，向烏克蘭政府開放 Daybreak 計畫，協助防護民用基礎設施。Daybreak 用於授權的安全工作，例如檢視舊系統、調查可疑活動、驗證漏洞並測試修補。消息於聯合國大會場邊公布。",
+        "analysis_en": "This is a policy deployment of frontier cyber tools, not a new model launch. Independent reporting says access includes GPT-5.6 Sol and is framed as free support; the official post does not name a specific model or publish usage terms.",
+        "analysis_zh": "這是前沿資安能力的政策部署，不是新模型發表。獨立報導稱包含 GPT-5.6 Sol 且定位為免費支援；官方稿未點名特定模型，也未公布使用條款。",
+        "quote": "OpenAI today announced it will offer the Government of Ukraine access to its Daybreak program to support the cyber defense of civilian infrastructure.",
+        "quote_zh": "OpenAI 今日宣布將向烏克蘭政府提供 Daybreak 計畫存取權，以支援民用基礎設施的網路防禦。",
         "importance": 4,
         "first_seen": "2026-09-23T16:35:01Z",
-        "updated_at": "2026-09-23T16:35:01.920661+00:00",
+        "updated_at": "2026-09-23T22:35:00.395134+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -177,25 +270,83 @@
         ]
       },
       {
+        "id": "openai-mentalhealthbench-2026-09-23",
+        "story_id": "openai-mentalhealthbench-2026-09-23",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI releases open MentalHealthBench with 80+ clinicians",
+        "title_zh": "OpenAI 與 80 多名臨床專家發布開放 MentalHealthBench",
+        "summary_en": "OpenAI published MentalHealthBench, an open evaluation of 1,215 synthetic mental-health conversations co-created with more than 80 licensed experts in 22 countries. It scores safety, context-seeking, user agency and guidance across non-acute, high-acuity and emergency cases. OpenAI says frontier models improved versus older systems but still leave large gaps.",
+        "summary_zh": "OpenAI 發布開放基準 MentalHealthBench：1,215 則合成心理健康對話，由 22 國逾 80 名持證專家共同制定。評分涵蓋安全、追問脈絡、使用者自主與建議，覆蓋非急性、高嚴重度與緊急情境。官方稱前沿模型較舊系統進步，但仍有明顯缺口。",
+        "analysis_en": "This is a measurement and safety product, not a therapy feature. Scores are OpenAI-run with an automated grader; other labs can now rerun the open set, which is the main check on whether reported gaps hold.",
+        "analysis_zh": "這是評測與安全產物，不是治療功能。分數由 OpenAI 以自動評分器產出；其他實驗室現可重跑開放題庫，這才是檢驗報告缺口是否成立的關鍵。",
+        "quote": "We’re introducing MentalHealthBench, a new open benchmark for measuring how AI systems respond in realistic mental health conversations.",
+        "quote_zh": "我們推出 MentalHealthBench，這是一套新的開放基準，用來衡量 AI 系統在真實心理健康對話中如何回應。",
+        "importance": 3,
+        "first_seen": "2026-09-23T22:35:00Z",
+        "updated_at": "2026-09-23T22:35:00.395134+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/introducing-mentalhealthbench/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI"
+          }
+        ]
+      },
+      {
+        "id": "openai-chatgpt-voice-plugins-2026-09-23",
+        "story_id": "openai-chatgpt-voice-plugins-2026-09-23",
+        "category": "openai",
+        "source_type": "official_x",
+        "title_en": "ChatGPT Voice adds plugins and GPT-6 models",
+        "title_zh": "ChatGPT Voice 支援外掛並可改用 GPT-6",
+        "summary_en": "OpenAI said ChatGPT Voice can now use plugins such as email, calendar and Slack; be powered by GPT-6 Astra, Sol and Luna; and run inside ChatGPT Work on web and mobile for spoken document, deck and spreadsheet work. Help-center notes list Live voice as able to use connected apps on the account.",
+        "summary_zh": "OpenAI 表示 ChatGPT Voice 現可使用電子郵件、日曆、Slack 等外掛；可由 GPT-6 Astra、Sol、Luna 驅動；並能在網頁與行動版 ChatGPT Work 以語音製作文件、簡報與試算表。說明中心指出 Live 語音可使用帳號已連線的應用。",
+        "analysis_en": "This is a product wiring change, not a new voice model. The practical limit is whether Live-mode plugin actions stay reliable under full-duplex talk, which OpenAI has not published as a separate eval.",
+        "analysis_zh": "這是產品接線更新，不是新語音模型。實際瓶頸在全雙工對話下 Live 外掛動作是否穩定，OpenAI 尚未另發評測。",
+        "quote": "We heard you loud and clear. ChatGPT Voice can now: Use plugins like your email, calendar, and Slack. Be powered by GPT-6 Astra, Sol, and Luna.",
+        "quote_zh": "我們聽清楚了。ChatGPT Voice 現在可以：使用電子郵件、日曆、Slack 等外掛；並由 GPT-6 Astra、Sol、Luna 驅動。",
+        "importance": 3,
+        "first_seen": "2026-09-23T22:35:00Z",
+        "updated_at": "2026-09-23T22:35:00.395134+00:00",
+        "links": [
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI"
+          },
+          {
+            "label": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/20001274-chatgpt-voice"
+          }
+        ]
+      },
+      {
         "id": "openai-grab-go-forward-ai-2026-09-23",
         "story_id": "openai-grab-go-forward-ai-2026-09-23",
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI and Grab launch GO Forward with AI for 30,000 partners",
-        "title_zh": "OpenAI與Grab啟動GO Forward with AI，培訓3萬名夥伴",
-        "summary_en": "OpenAI and Grab launched a two-year regional program to teach practical AI skills to 30,000 Grab driver, delivery and merchant partners. It started in Singapore on September 23 and is slated for Thailand, Indonesia and the Philippines later this year, then Malaysia and Vietnam in 2027. The firms cite prior Driver AI Assistant use by nearly 500,000 drivers; press reports add free three-month ChatGPT Plus after workshops.",
-        "summary_zh": "OpenAI與Grab啟動兩年計畫，為3萬名司機、外送與商戶夥伴教授實用AI技能。9月23日先在新加坡開課，今年稍後擴至泰國、印尼與菲律賓，2027年到馬來西亞與越南。雙方指既有司機AI助理已接近50萬人使用；媒體另報工作坊後贈三個月ChatGPT Plus。",
+        "title_zh": "OpenAI 與 Grab 推出 GO Forward with AI，培訓 3 萬名夥伴",
+        "summary_en": "OpenAI and Grab launched a two-year regional program to teach practical AI skills to 30,000 Grab driver, delivery and merchant partners. It started in Singapore on September 23 and is slated for Thailand, Indonesia and the Philippines later this year, then Malaysia and Vietnam in 2027.",
+        "summary_zh": "OpenAI 與 Grab 啟動兩年區域計畫，為 3 萬名司機、外送與商家夥伴教授實用 AI 技能。9 月 23 日先在新加坡開課，今年稍後擴至泰國、印尼與菲律賓，2027 年再到馬來西亞與越南。",
         "analysis_en": "This is distribution and skilling, not a model release. Impact depends on completion rates and whether workshop use converts into lasting paid or work-tool usage.",
-        "analysis_zh": "這是通路與技能計畫，不是模型發表。成效取決於完訓率，以及工作坊使用能否轉成持續付費或工作工具。",
+        "analysis_zh": "這是通路與技能培訓，不是模型發表。成效取決於完訓率，以及工作坊使用能否轉成持續付費或工作工具習慣。",
         "quote": "Over the next two years, the programme will help 30,000 of Grab’s driver-, delivery-, and merchant-partners across Southeast Asia build skills they can use in their work and businesses.",
-        "quote_zh": "未來兩年，這項計畫將協助東南亞3萬名Grab司機、外送與商戶夥伴，建立可直接用於工作與經營的技能。",
+        "quote_zh": "未來兩年，此計畫將協助東南亞 3 萬名 Grab 司機、外送與商家夥伴，建立可直接用於工作與生意的技能。",
         "importance": 2,
         "first_seen": "2026-09-23T16:35:01Z",
-        "updated_at": "2026-09-23T16:35:01.920661+00:00",
+        "updated_at": "2026-09-23T22:35:00.395134+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia/"
+          },
+          {
+            "label": "Grab Press",
+            "url": "https://www.grab.com/sg/press/others/grab-and-openai-partnership-expands-access-to-practical-ai-skills-across-sea/"
           },
           {
             "label": "The Straits Times",
@@ -206,21 +357,44 @@
     ],
     "anthropic": [
       {
+        "id": "anthropic-claude-art-enzyme-2026-09-23",
+        "story_id": "anthropic-claude-art-enzyme-2026-09-23",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic says Claude discovered a CRISPR-like phage enzyme system",
+        "title_zh": "Anthropic：Claude 發現類 CRISPR 噬菌體酶系統",
+        "summary_en": "Anthropic introduced a new in-house life-sciences lab and said Claude agents, given a high-level prompt, found array-associated reverse transcriptases (ART) in jumbo-phage DNA—an uncharacterized RT plus a partner gene and CRISPR-like repeat array. Humans ran the wet-lab follow-up; function is still unknown. A preprint was released.",
+        "summary_zh": "Anthropic 宣布自建生命科學實驗室，並稱 Claude 代理在高層提示下，於巨型噬菌體 DNA 中發現陣列相關反轉錄酶（ART）：未知功能的 RT、伴生基因與類 CRISPR 重複陣列。濕實驗由人類執行，功能尚未釐清，並已釋出預印本。",
+        "analysis_en": "The claim is agent-led genome mining plus human validation, not a proven gene-editing tool. Anthropic itself says ART’s job is unknown; independent labs still need to reproduce the array finding and test whether it is programmable.",
+        "analysis_zh": "重點是代理主導的基因組探勘加上人類驗證，不是已證實的基因編輯工具。Anthropic 自己也說 ART 功能未知；仍須獨立實驗室複現陣列發現並檢驗是否可編程。",
+        "quote": "Claude autonomously discovered a novel enzyme system that is associated with an array of DNA repeats, a pattern reminiscent of CRISPR.",
+        "quote_zh": "Claude 自主發現一套與 DNA 重複陣列相關的新型酶系統，其模式令人聯想到 CRISPR。",
+        "importance": 4,
+        "first_seen": "2026-09-23T22:35:00Z",
+        "updated_at": "2026-09-23T22:35:00.395134+00:00",
+        "links": [
+          {
+            "label": "Anthropic News",
+            "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+          }
+        ]
+      },
+      {
         "id": "amazon-claude-seller-plugin-2026-09-23",
         "story_id": "amazon-claude-seller-plugin-2026-09-23",
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Amazon opens seller tools to Claude and Quick agents",
-        "title_zh": "Amazon向Claude與Quick開放賣家工具外掛",
-        "summary_en": "Amazon said Seller Assistant now keeps persistent memory and can run always-on workflows for restocking, pricing and alerts, still on Bedrock with Claude. A Selling Partner plugin launches in Amazon Quick and in beta with Anthropic’s Claude so U.S. sellers can inspect inventory and act on listings from those apps, with human approval and audit trails. Amazon said 90% of selling partners already use third-party AI tools.",
-        "summary_zh": "Amazon表示Seller Assistant現具持久記憶，並可在Bedrock上以Claude執行補貨、定價與警示等常駐工作流。賣家外掛先上Amazon Quick，並在Anthropic Claude進行美國賣家測試，可查庫存並在核准與稽核下更新商品。Amazon稱九成賣家夥伴已在使用第三方AI工具。",
-        "analysis_en": "The story is Amazon’s distribution of Claude into merchant operations, not a new Anthropic model. The gap to watch is whether approved write-actions stay inside Amazon’s data boundary as more third-party agents are added.",
-        "analysis_zh": "重點是Claude進入賣家營運通道，而非Anthropic發表新模型。後續要看更多第三方代理加入後，經核准的寫入動作是否仍留在Amazon資料邊界內。",
-        "quote": "The Seller Assistant plugin for Claude now brings these data-driven insights into sellers’ Claude account alongside their existing accounting and supplier data connections.",
-        "quote_zh": "Claude上的Seller Assistant外掛，把這些資料驅動洞察帶進賣家既有的Claude帳號，並與會計與供應商連線並列。",
+        "title_zh": "Amazon 向 Claude 與 Quick 代理開放賣家工具",
+        "summary_en": "Amazon said Seller Assistant now keeps persistent memory and can run always-on workflows for restocking, pricing and alerts, still on Bedrock with Claude. A Selling Partner plugin launches in Amazon Quick and in beta with Anthropic’s Claude for U.S. sellers, with seller-approved actions and audit trails.",
+        "summary_zh": "Amazon 表示 Seller Assistant 現具持久記憶，並可常駐執行補貨、定價與警示工作流，仍走 Bedrock 上的 Claude。Selling Partner 外掛已在 Amazon Quick 上線，並與 Anthropic Claude 進行美國賣家測試，動作需賣家核准並留有稽核軌跡。",
+        "analysis_en": "The story is Amazon’s distribution of Claude into merchant operations, not a new Anthropic model. The gap to watch is whether approved write-actions stay inside Amazon’s data boundaries once more third-party assistants are added.",
+        "analysis_zh": "重點是 Amazon 把 Claude 分發進賣家營運，而非 Anthropic 發表新模型。後續要看核准寫入動作在接入更多第三方助理後，是否仍留在 Amazon 資料邊界內。",
+        "quote": "We are launching the Amazon Selling Partner plugin in Quick and in beta with Claude, with more integrations to follow.",
+        "quote_zh": "我們在 Quick 推出 Amazon Selling Partner 外掛，並與 Claude 進行測試，後續還會有更多整合。",
         "importance": 3,
         "first_seen": "2026-09-23T16:35:01Z",
-        "updated_at": "2026-09-23T16:35:01.920661+00:00",
+        "updated_at": "2026-09-23T22:35:00.395134+00:00",
         "links": [
           {
             "label": "About Amazon",
@@ -240,20 +414,24 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google launches Gemini 3.8 Flash and Flash-Lite TTS",
-        "title_zh": "Google推出Gemini 3.8 Flash與Flash-Lite語音合成模型",
-        "summary_en": "Google introduced Gemini 3.8 Flash TTS for custom voice design and line-by-line direction, and Gemini 3.8 Flash-Lite TTS for high-volume, lower-cost speech. Both support 100+ languages, 2,000+ library voices, long-form and two-speaker scenes, SynthID watermarking and consent-checked voice replication. They are live in Google AI Studio and the Gemini API, with consumer rollouts in Gemini Notebook and Google Vids; Gemini Enterprise is listed as coming soon.",
-        "summary_zh": "Google推出Gemini 3.8 Flash TTS（自訂聲線與逐句導演）及面向高量、低成本的Gemini 3.8 Flash-Lite TTS。兩者支援100種以上語言、2,000餘種庫存聲線、長篇與雙人場景、SynthID浮水印與需同意的聲音複製。已上線Google AI Studio與Gemini API，消費端進入Gemini Notebook與Google Vids；Enterprise列為即將推出。",
-        "analysis_en": "This extends Gemini Audio after Live models, competing on controllable production speech rather than a new text flagship. Voice replication is geo-restricted, so availability and rights enforcement will decide real-world use.",
-        "analysis_zh": "這是繼Live之後的Gemini Audio延伸，主打可控製播語音而非新一代文字旗艦。聲音複製有地區限制，實際採用將取決於可用性與權利把關。",
-        "quote": "Today, we’re introducing two new text-to-speech models to the Gemini family, transforming voice generation from static presets into a dynamic creative studio.",
-        "quote_zh": "我們今天推出Gemini家族兩款新的文字轉語音模型，把語音生成從固定預設變成可導演的創作工作室。",
+        "title_zh": "Google 推出 Gemini 3.8 Flash 與 Flash-Lite TTS",
+        "summary_en": "Google introduced Gemini 3.8 Flash TTS for custom voice design and line-by-line direction, and Gemini 3.8 Flash-Lite TTS for high-volume, lower-cost speech. Both support 100+ languages, a large prebuilt voice library, long-form and two-speaker scenes, and are rolling out in the Gemini API, Google AI Studio, Gemini Notebook and Google Vids.",
+        "summary_zh": "Google 推出 Gemini 3.8 Flash TTS（自訂音色與逐句導演）以及面向大量、較低成本語音的 Gemini 3.8 Flash-Lite TTS。兩者支援 100 多種語言、大型預建音色庫、長篇與雙人場景，並於 Gemini API、AI Studio、Notebook 與 Vids 推出。",
+        "analysis_en": "This extends Gemini Audio after Live models, competing on controllable production speech rather than a new text flagship. Voice replication is geo-restricted, so availability and rights terms still determine who can ship commercial clones.",
+        "analysis_zh": "這是 Gemini Audio 在 Live 之後的延伸，競爭點是可控的製作級語音，而非新的文字旗艦。音色複製有地區限制，能否商用仍取決於供應範圍與授權條款。",
+        "quote": "Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS are our most expressive audio generation models yet.",
+        "quote_zh": "Gemini 3.8 Flash TTS 與 Gemini 3.8 Flash-Lite TTS 是我們迄今最具表現力的音訊生成模型。",
         "importance": 4,
         "first_seen": "2026-09-23T16:35:01Z",
-        "updated_at": "2026-09-23T16:35:01.920661+00:00",
+        "updated_at": "2026-09-23T22:35:00.395134+00:00",
         "links": [
           {
             "label": "Google Blog",
             "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
+          },
+          {
+            "label": "Gemini API docs",
+            "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts"
           },
           {
             "label": "Google AI on X",
@@ -270,16 +448,16 @@
         "category": "xai",
         "source_type": "official_x",
         "title_en": "Musk says Grok Bot usage is accelerating; weekly feature drop",
-        "title_zh": "馬斯克稱Grok Bot用量加速，並釋出本週功能",
-        "summary_en": "Elon Musk wrote that “Grok @Bot usage is growing faster than anything we’ve ever seen,” quoting Bloomberg coverage that SpaceXAI staff presented 418,000 weekly users in the week ending September 14, up 24% week on week. He separately amplified a Grok Bot product video listing voice calls and memos, a 1Password vault, inline forms, email/Slack drafts, account switching and desktop traffic routing.",
-        "summary_zh": "馬斯克寫道「Grok @Bot用量成長快過我們見過的任何東西」，並轉述Bloomberg：SpaceXAI簡報指截至9月14日當週有41.8萬週活躍用戶、週增24%。他另轉發產品影片，列出語音通話與備忘、1Password保險庫、行內表單、郵件／Slack草稿、帳號切換與經桌面路由流量。",
+        "title_zh": "Musk：Grok Bot 用量加速；本週功能更新",
+        "summary_en": "Elon Musk wrote that “Grok @Bot usage is growing faster than anything we’ve ever seen,” quoting Bloomberg coverage that SpaceXAI staff presented 418,000 weekly users in the week ending September 14, up 24% week on week. He separately amplified a product video on voice calls, a 1Password vault, inline forms and drafts, account switching and desktop routing.",
+        "summary_zh": "Elon Musk 寫道「Grok @Bot 用量成長快過我們見過的任何產品」，並引用彭博報導：SpaceXAI 員工簡報稱截至 9 月 14 日當週有 41.8 萬週活用戶、週增 24%。他另轉發產品影片，涵蓋語音通話、1Password 保險庫、行內表單與草稿、帳號切換與桌面路由。",
         "analysis_en": "These are executive and product-team posts, not an xAI model card. The 418k figure is from a staff presentation reported by Bloomberg, not an audited xAI metrics release.",
-        "analysis_zh": "這是執行長與產品團隊貼文，不是xAI模型卡。41.8萬人數據來自Bloomberg引述的內部簡報，並非經審計的官方指標發布。",
+        "analysis_zh": "這是高階主管與產品團隊貼文，不是 xAI 模型卡。41.8 萬這個數字來自彭博報導的內部簡報，並非經審計的官方指標。",
         "quote": "Grok @Bot usage is growing faster than anything we’ve ever seen",
-        "quote_zh": "Grok @Bot的用量成長，快過我們見過的任何東西",
+        "quote_zh": "Grok @Bot 的用量成長，快過我們見過的任何產品",
         "importance": 3,
         "first_seen": "2026-09-23T16:35:01Z",
-        "updated_at": "2026-09-23T16:35:01.920661+00:00",
+        "updated_at": "2026-09-23T22:35:00.395134+00:00",
         "links": [
           {
             "label": "Elon Musk on X",
@@ -294,7 +472,7 @@
     ],
     "frontier_other": []
   },
-  "brief_en": "OpenAI opened Daybreak cyber tools to Ukraine and launched a Grab skilling program for 30,000 SEA partners. Google shipped Gemini 3.8 Flash/Flash-Lite TTS. Amazon opened Seller Central actions to Claude. Musk said Grok Bot usage is accelerating, with new voice and vault features.",
-  "brief_zh": "OpenAI將Daybreak防禦工具開放給烏克蘭，並與Grab啟動東南亞3萬人AI技能計畫。Google推出Gemini 3.8 TTS。Amazon讓賣家在Claude操作賣場。馬斯克稱Grok Bot用量加速，並有語音與保險庫新功能。",
-  "updated_at": "2026-09-23T16:35:01.920661+00:00"
+  "brief_en": "OpenAI opened Daybreak to Ukraine, shipped MentalHealthBench, and wired ChatGPT Voice to plugins plus GPT-6. Google launched Gemini 3.8 Flash/Flash-Lite TTS. Anthropic said Claude found a CRISPR-like phage enzyme system. Amazon plugged Seller Assistant into Claude. Musk highlighted Grok Bot growth.",
+  "brief_zh": "OpenAI 向烏克蘭開放 Daybreak、發布 MentalHealthBench，並讓 ChatGPT Voice 接上外掛與 GPT-6。Google 推出 Gemini 3.8 Flash／Flash-Lite TTS。Anthropic 稱 Claude 發現類 CRISPR 噬菌體酶系統。Amazon 把賣家助理接入 Claude。Musk 強調 Grok Bot 用量成長。",
+  "updated_at": "2026-09-23T22:35:00.395134+00:00"
 }
