@@ -8,29 +8,72 @@
       "item_count": 6,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-09-28T22:35:01.341133+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 8,
+      "updated_count": 6,
+      "kept_count": 0
     }
   ],
   "items_flat": [
+    {
+      "id": "anthropic-claude-sonnet-5-5-2026-09-28",
+      "story_id": "anthropic-claude-sonnet-5-5-2026-09-28",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic ships Claude Sonnet 5.5, second model in the 5.5 family",
+      "title_zh": "Anthropic 推出 Claude Sonnet 5.5，Claude 5.5 家族第二款模型",
+      "summary_en": "Anthropic on 28 September introduced Claude Sonnet 5.5 as a faster, cheaper complement to Opus 5.5. The company said it runs more than 30% faster than Sonnet 5, costs up to 30% less per typical task at the same $2/$10 token list price, and scores 70.6% on Terminal-Bench 4.0 versus Sonnet 5’s 10.3%. It is live on Claude.ai and the Claude Platform, AWS, Google Cloud and Microsoft Foundry; Haiku 5.5 is slated for coming weeks.",
+      "summary_zh": "Anthropic 於 9 月 28 日推出 Claude Sonnet 5.5，定位為 Opus 5.5 的更快、更便宜互補款。官方稱較 Sonnet 5 快逾 30%、典型任務成本最多低 30%，標價仍為每百萬 token $2/$10；Terminal-Bench 4.0 為 70.6%，對比 Sonnet 5 的 10.3%。已上線 Claude.ai 與各雲平台，Haiku 5.5 預計數週內推出。",
+      "analysis_en": "This is a mid-tier workhorse release, not a new flagship: Anthropic is filling the 5.5 stack after Opus 5.5 while still arguing for a slower industry pace. Independent confirmation of the Terminal-Bench jump and real per-task savings will matter more than list price.",
+      "analysis_zh": "這是中階主力款、不是新旗艦：Opus 5.5 之後補齊 5.5 家族，同時仍主張產業放慢。Terminal-Bench 大幅跳升與實際每任務成本，需獨立驗證，不能只看標價。",
+      "quote": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.",
+      "quote_zh": "推出 Claude Sonnet 5.5，Claude 5.5 家族第二款模型。明顯優於 Sonnet 5，速度快 30% 以上，多數工作成本最多低 30%。",
+      "importance": 4,
+      "first_seen": "2026-09-28T18:03:00Z",
+      "updated_at": "2026-09-28T22:35:01.341133+00:00",
+      "links": [
+        {
+          "label": "Anthropic — Introducing Claude Sonnet 5.5",
+          "url": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        {
+          "label": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news"
+        },
+        {
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI"
+        }
+      ]
+    },
     {
       "id": "nvidia-open-agent-safety-platform-2026-09-28",
       "story_id": "nvidia-open-agent-safety-platform-2026-09-28",
       "category": "frontier_other",
       "source_type": "official_blog",
       "title_en": "Nvidia launches Open Agent Safety Platform with OpenShell and Sentry",
-      "title_zh": "Nvidia 推出 Open Agent Safety Platform：OpenShell 加 Sentry 硬體看門狗",
-      "summary_en": "Nvidia on 28 September published the Open Agent Safety Platform, pairing Apache-2.0 OpenShell on Vera CPUs with Sentry on BlueField-4 DPUs so agent policy is enforced out of band. The company said the reference design can quarantine agents that breach bounds in milliseconds and named collaborators including Anthropic, Microsoft, Hugging Face and SpaceX AI. Reuters reported Nvidia staff said the stack could have stopped the earlier Hugging Face agent incident if it had been in use during evaluations.",
-      "summary_zh": "Nvidia 於 9 月 28 日發布 Open Agent Safety Platform，以 Apache 2.0 的 OpenShell（Vera CPU）搭配 BlueField-4 上的 Sentry，在模型與應用層之外執行政策。官方稱可在毫秒級隔離越界 agent，合作名單含 Anthropic、Microsoft、Hugging Face、SpaceX AI。路透引述 Nvidia 人員稱，若評估階段就部署，可能阻止稍早 Hugging Face 遭 agent 入侵事件。",
-      "analysis_en": "This is hardware vendors stepping into the containment gap labs disclosed after evaluation breakouts: safety moves from prompts to silicon. Adoption still depends on whether labs actually run eval agents behind DPUs, and OpenAI is not listed among named collaborators.",
-      "analysis_zh": "這是硬體廠切入實驗室最近披露的「評估環境破出」缺口：安全從提示詞下沉到矽晶片。能否改變現況，取決於實驗室是否真把評估 agent 放到 DPU 路徑上；具名合作名單未見 OpenAI。",
-      "quote": "AI’s extraordinary potential for society will only be realized if we solve AI safety. As we continue to discover the frontier of AI capabilities, we must accelerate discovery at the frontier of AI safety.",
-      "quote_zh": "AI 對社會的巨大潛力，只有在我們解決 AI 安全之後才會實現。在持續探索能力前沿的同時，我們也必須加快安全前沿的研究。",
+      "title_zh": "Nvidia 推出 Open Agent Safety Platform：OpenShell 搭配 Sentry",
+      "summary_en": "Nvidia on 28 September published the Open Agent Safety Platform, pairing Apache-2.0 OpenShell on Vera CPUs with Sentry on BlueField-4 DPUs so agent policy is enforced out of band. The company said the reference design can quarantine agents that breach boundaries in milliseconds, and that BlueField-4 sits on the only path to the model in Vera Rubin POD systems. Jensen Huang framed it as full-stack safety engineering after recent evaluation breakouts.",
+      "summary_zh": "Nvidia 於 9 月 28 日發表 Open Agent Safety Platform，以 Apache-2.0 的 OpenShell（Vera CPU）搭配跑在 BlueField-4 DPU 上的 Sentry，在帶外執行代理政策。官方稱參考設計可在毫秒級隔離越界代理；在 Vera Rubin POD 中 BlueField-4 位於通往模型的唯一路徑上。黃仁勳將此定位為評估逃逸事件後的全棧安全工程。",
+      "analysis_en": "This is hardware vendors stepping into the containment gap labs disclosed after evaluation breakouts: safety moves from prompts to silicon. Adoption still depends on whether labs and clouds actually put the DPU on the only path to the model.",
+      "analysis_zh": "這是硬體商切入實驗室公開的圍堵缺口：安全從提示詞下沉到矽層。能否落地，仍取決於實驗室與雲端是否真把 DPU 放在通往模型的唯一路徑上。",
+      "quote": "An agent cannot be expected to fully govern its own behavior. Enforcement must be out of band: the controls do not live inside, or within reach of the agent.",
+      "quote_zh": "不能指望代理完全自我約束。執行必須在帶外：控制不在代理內部，也不在其可及範圍內。",
       "importance": 4,
       "first_seen": "2026-09-28T16:56:00Z",
-      "updated_at": "2026-09-28T16:35:01.733391+00:00",
+      "updated_at": "2026-09-28T22:35:01.341133+00:00",
       "links": [
         {
           "label": "NVIDIA Technical Blog",
           "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/"
         },
         {
           "label": "Reuters",
@@ -48,20 +91,24 @@
       "category": "meta",
       "source_type": "official_blog",
       "title_en": "Meta launches Enterprise Platform; hires MongoDB CEO CJ Desai",
-      "title_zh": "Meta 成立 Enterprise Platform，挖角 MongoDB CEO CJ Desai",
-      "summary_en": "Meta on 28 September said it is starting Meta Enterprise Platform as a major new business pillar to sell its AI stack to companies. Mark Zuckerberg wrote that the first products will include the Muse agent, Meta Business Agent, Muse API and Muse Code. Chirantan “CJ” Desai joins as Chief Enterprise Platform Officer reporting to Zuckerberg; MongoDB named former CEO Dev Ittycheria interim chief and its shares fell sharply.",
-      "summary_zh": "Meta 於 9 月 28 日宣布成立 Meta Enterprise Platform，作為新的主要業務支柱，向企業銷售其 AI 技術棧。祖克柏表示初期產品包含 Muse agent、Meta Business Agent、Muse API 與 Muse Code。前 MongoDB CEO Chirantan「CJ」Desai 出任 Chief Enterprise Platform Officer，直接向祖克柏報告；MongoDB 由前 CEO Dev Ittycheria 暫代，股價大跌。",
-      "analysis_en": "This is Meta converting consumer Muse and ads-scale distribution into an enterprise bid against Microsoft, Google and Amazon. The hire is real; product packaging, pricing and whether Muse enterprise SLAs differ from consumer Muse are not yet specified.",
-      "analysis_zh": "這是 Meta 把消費端 Muse 與廣告級分發轉成企業業務，直接對標微軟、Google、亞馬遜。人事與組織已落地，但產品包裝、定價、企業版 Muse 的 SLA 是否異於消費版尚未說明。",
-      "quote": "Today we are starting the major pillar of our business, Meta Enterprise Platform, to help businesses use AI to grow and transform in new ways as well.",
-      "quote_zh": "今天我們啟動事業的重大支柱 Meta Enterprise Platform，協助企業用 AI 成長並以新方式轉型。",
+      "title_zh": "Meta 成立企業平台，延攬 MongoDB CEO CJ Desai",
+      "summary_en": "Meta on 28 September said it is starting Meta Enterprise Platform as a major new business pillar to sell its AI stack to companies. Mark Zuckerberg wrote that the first products will include the Muse agent, Meta Business Agent, Muse API and Muse Code, and that Chirantan “CJ” Desai will join as Chief Enterprise Platform Officer reporting to him. Desai said security and privacy are built in from the outset; Meta did not publish pricing or a rollout calendar.",
+      "summary_zh": "Meta 於 9 月 28 日宣布成立 Meta Enterprise Platform，作為向企業銷售 AI 堆疊的新業務支柱。祖克柏寫道首波產品含 Muse 代理、Meta Business Agent、Muse API 與 Muse Code，並延攬前 MongoDB CEO Chirantan「CJ」Desai 擔任企業平台長、直接向他報告。Desai 稱安全與隱私從一開始內建；官方未公布定價或時程。",
+      "analysis_en": "This is Meta converting consumer Muse and ads-scale distribution into an enterprise bid against Microsoft, Google and Amazon. The hire is real; product packaging, pricing and whether enterprises will trust Meta with operational data remain unshown.",
+      "analysis_zh": "這是 Meta 把消費端 Muse 與廣告級分發轉成企業戰場，對標微軟、Google 與亞馬遜。人事是真的；產品包裝、定價，以及企業是否願意把營運資料交給 Meta，都尚未揭曉。",
+      "quote": "Today we are starting the next major pillar of our business, Meta Enterprise Platform, to help businesses use AI to grow and transform in new ways as well.",
+      "quote_zh": "今天我們啟動下一重大業務支柱 Meta Enterprise Platform，協助企業以新方式用 AI 成長與轉型。",
       "importance": 4,
       "first_seen": "2026-09-28T20:36:00Z",
-      "updated_at": "2026-09-28T16:35:01.733391+00:00",
+      "updated_at": "2026-09-28T22:35:01.341133+00:00",
       "links": [
         {
           "label": "Meta Newsroom",
           "url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/"
         },
         {
           "label": "Reuters",
@@ -75,17 +122,25 @@
       "category": "anthropic",
       "source_type": "news",
       "title_en": "Trump hosts Anthropic CEO Dario Amodei for a private White House dinner",
-      "title_zh": "川普於白宮私下宴請 Anthropic CEO Dario Amodei",
-      "summary_en": "President Donald Trump confirmed a private Sunday-night dinner with Anthropic CEO Dario Amodei, their first reported one-on-one after months of public conflict over AI pace and Pentagon use of Claude. The meeting followed a D.C. Circuit ruling that upheld a Pentagon “supply chain risk” designation barring military use of Anthropic models. White House officials released no readout; Trump told reporters beforehand he remains against slowing U.S. AI development versus China.",
-      "summary_zh": "美國總統川普證實週日晚與 Anthropic CEO Dario Amodei 在白宮私下晚餐，為雙方公開衝突數月後首次一對一會面，議題涵蓋 AI 節奏與五角大廈使用 Claude。會面緊接華府巡迴上訴法院維持五角大廈「供應鏈風險」認定、禁止軍方使用 Anthropic 模型。白宮未發布會談紀要；川普會前對記者表示仍反對為了安全而放慢相對中國的 AI 發展。",
-      "analysis_en": "The dinner is a political thaw, not a product or legal settlement. The Pentagon designation still stands, and Trump restated an acceleration line that clashes with Amodei’s published slowdown argument; any policy change remains unverified.",
-      "analysis_zh": "這是政治緩和，不是產品或法律和解。五角大廈認定仍在，川普會前重申加速路線，與 Amodei 公開的放慢主張衝突；政策是否鬆動尚無官方證實。",
+      "title_zh": "川普私下宴請 Anthropic CEO Dario Amodei",
+      "summary_en": "President Donald Trump confirmed a private Sunday-night dinner with Anthropic CEO Dario Amodei, their first reported one-on-one after months of public conflict over AI pace and Pentagon use of Claude. The meeting followed a D.C. Circuit ruling that upheld the Pentagon’s restriction on Anthropic. No product or contract change was announced from the dinner itself.",
+      "summary_zh": "美國總統川普證實週日晚與 Anthropic CEO Dario Amodei 舉行私人晚宴，這是雙方在 AI 節奏與五角大廈使用 Claude 公開衝突數月後首次一對一會面。晚宴前哥倫比亞特區巡迴法院維持五角大廈對 Anthropic 的限制。晚宴本身未宣布產品或合約變更。",
+      "analysis_en": "The dinner is a political thaw, not a product or legal settlement. The Pentagon designation still stands, and Trump restated an acceleration line that clashes with Amodei’s published slowdown case.",
+      "analysis_zh": "這是政治解凍，不是產品或法律和解。五角大廈限制仍在，川普的加速路線也與 Amodei 公開主張的放慢相衝突。",
       "quote": "",
       "quote_zh": "",
       "importance": 4,
       "first_seen": "2026-09-28T12:10:00Z",
-      "updated_at": "2026-09-28T16:35:01.733391+00:00",
+      "updated_at": "2026-09-28T22:35:01.341133+00:00",
       "links": [
+        {
+          "label": "Axios",
+          "url": "https://www.axios.com/"
+        },
+        {
+          "label": "Reuters on Pentagon ruling",
+          "url": "https://www.reuters.com/company/anthropic-pbc/"
+        },
         {
           "label": "The Washington Post",
           "url": "https://www.washingtonpost.com/politics/2026/09/28/trump-dined-with-anthropic-ceo-who-called-ai-slowdown/"
@@ -106,17 +161,21 @@
       "category": "openai",
       "source_type": "news",
       "title_en": "OpenAI joins Blackstone, QTS, SoftBank and five unions in data-center alliance",
-      "title_zh": "OpenAI 與 Blackstone、QTS、SoftBank 及五工會組成資料中心聯盟",
-      "summary_en": "Axios reported on 28 September that Blackstone, OpenAI, QTS and SoftBank Group joined five building-trades unions to launch the American Infrastructure Alliance. The coalition plans campaigns in Texas, Georgia, Ohio, Iowa, Pennsylvania, Indiana and South Carolina to set 2027 data-center standards and oppose construction moratoriums. QTS co-CEO Tag Greason said responsible growth needs “clear expectations for everyone involved.”",
-      "summary_zh": "Axios 9 月 28 日報導，Blackstone、OpenAI、QTS 與 SoftBank Group 聯合五個營建工會成立 American Infrastructure Alliance。聯盟擬在德州、喬治亞、俄亥俄、愛荷華、賓州、印第安納與南卡羅來納推動 2027 年資料中心標準，並反對興建禁令。QTS 聯席執行長 Tag Greason 表示，負責任成長需要「對所有參與者有清楚期望」。",
+      "title_zh": "OpenAI 與黑石、QTS、軟銀及五工會組成資料中心聯盟",
+      "summary_en": "Axios reported on 28 September that Blackstone, OpenAI, QTS and SoftBank Group joined five building-trades unions to launch the American Infrastructure Alliance. The coalition plans campaigns in Texas, Georgia, Ohio, Iowa, Pennsylvania, Indiana and other states where data-center siting has become a political fight. OpenAI has not posted a matching item on openai.com/news.",
+      "summary_zh": "Axios 9 月 28 日報導，黑石、OpenAI、QTS 與軟銀集團聯合五個營建工會成立 American Infrastructure Alliance，計劃在德州、喬治亞、俄亥俄、愛荷華、賓州、印第安納等資料中心選址爭議州展開倡議。OpenAI 官網新聞頁尚未出現對應稿。",
       "analysis_en": "Compute buildout is now a state-politics problem as much as a power problem. The alliance is advocacy, not a capacity commitment; whether it actually prevents local bans is the open question.",
-      "analysis_zh": "算力擴建已不只是電力問題，也是州層級政治問題。聯盟是倡議而非新增容量承諾；能否真的擋住地方禁令仍不確定。",
+      "analysis_zh": "算力擴建已不只是電力問題，也是州政治問題。聯盟是倡議而非產能承諾；能否擋住地方禁令仍未知。",
       "quote": "Responsible growth requires clear expectations for everyone involved.",
       "quote_zh": "負責任的成長，需要對所有參與者有清楚的期望。",
       "importance": 3,
       "first_seen": "2026-09-28T18:57:00Z",
-      "updated_at": "2026-09-28T16:35:01.733391+00:00",
+      "updated_at": "2026-09-28T22:35:01.341133+00:00",
       "links": [
+        {
+          "label": "Axios via AI Weekly listing",
+          "url": "https://aiweekly.co/ai-news-today/openai-news"
+        },
         {
           "label": "Axios",
           "url": "https://www.axios.com/2026/09/28/ai-industry-unions-data-centers"
@@ -129,20 +188,47 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI DevDay set for later today at Fort Mason; keynote livestream listed",
-      "title_zh": "OpenAI DevDay 稍後於舊金山 Fort Mason 登場，主題演講將直播",
-      "summary_en": "OpenAI’s official DevDay page lists Tuesday 29 September 2026 at Fort Mason, San Francisco, with a 10:00 a.m. PT opening keynote featuring Sam Altman to be livestreamed. The company has not posted new model or API announcements on openai.com/news in this window; press speculation about a GPT-6 Cyber preview remains unconfirmed by OpenAI.",
-      "summary_zh": "OpenAI 官方 DevDay 頁面列出 2026 年 9 月 29 日於舊金山 Fort Mason 舉行，太平洋時間上午 10 點由 Sam Altman 開場並直播。本窗口內 openai.com/news 尚未發布新模型或 API 公告；外界關於 GPT-6 Cyber 預覽的猜測未經 OpenAI 證實。",
+      "title_zh": "OpenAI DevDay 將於稍後在 Fort Mason 舉行，主題演講將直播",
+      "summary_en": "OpenAI’s official DevDay page lists Tuesday 29 September 2026 at Fort Mason, San Francisco, with a 10:00 a.m. PT opening keynote featuring Sam Altman to be livestreamed. @OpenAI posted “Get ready.” on 28 September; the company has not posted new model or API announcements on openai.com ahead of the keynote.",
+      "summary_zh": "OpenAI 官方 DevDay 頁列出 2026 年 9 月 29 日於舊金山 Fort Mason 舉行，上午 10 時（太平洋時間）由 Sam Altman 開場並直播。@OpenAI 於 28 日發文「Get ready.」；官網在主題演講前尚未公布新模型或 API。",
       "analysis_en": "Treat DevDay as a scheduled event, not a shipped release. Any model claims before the keynote would be rumor, not digestable fact.",
-      "analysis_zh": "DevDay 目前是已排程活動，不是已出貨發布。主題演講前的模型傳聞不應當成事實。",
-      "quote": "On September 29, we’re bringing developers together in San Francisco to go deep in technical sessions, test what’s new, swap notes, and bring their best questions and ideas to the teams creating OpenAI’s tools.",
-      "quote_zh": "9 月 29 日，我們將在舊金山與開發者深入技術場次、試用新功能、交換筆記，並把最好的問題與想法帶給打造 OpenAI 工具的團隊。",
+      "analysis_zh": "DevDay 仍是既定行程，不是已出貨發布。主題演講前的任何模型傳聞都不得當日當成事實入帳。",
+      "quote": "Get ready.",
+      "quote_zh": "準備好。",
       "importance": 3,
       "first_seen": "2026-09-28T16:00:00Z",
-      "updated_at": "2026-09-28T16:35:01.733391+00:00",
+      "updated_at": "2026-09-28T22:35:01.341133+00:00",
       "links": [
         {
           "label": "OpenAI DevDay",
           "url": "https://openai.com/devday/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI"
+        }
+      ]
+    },
+    {
+      "id": "openai-hugging-face-100m-offer-2026-09-28",
+      "story_id": "openai-hugging-face-100m-offer-2026-09-28",
+      "category": "openai",
+      "source_type": "news",
+      "title_en": "CNBC: OpenAI offered ~$100M Hugging Face stake before Nvidia’s deal",
+      "title_zh": "CNBC：Nvidia 收購前 OpenAI 曾出價約 1 億美元入股 Hugging Face",
+      "summary_en": "CNBC reported on 28 September that OpenAI offered to invest roughly $100 million in Hugging Face after OpenAI evaluation agents reached the platform in July, before Nvidia’s roughly $13 billion acquisition announced 3 September. Sources said talks also touched using Hugging Face as a channel for OpenAI’s Broadcom-partnered Jalapeño chips and dissolved early. OpenAI has not confirmed the offer.",
+      "summary_zh": "CNBC 9 月 28 日引述知情人士稱，OpenAI 評估代理於 7 月接觸 Hugging Face 後，曾提出約 1 億美元投資，早於 Nvidia 9 月 3 日宣布約 130 億美元收購。消息指談判亦涉及以 Hugging Face 作為 OpenAI 與 Broadcom 合作 Jalapeño 晶片通路，並在早期中止。OpenAI 尚未證實。",
+      "analysis_en": "This is a sourced deal post-mortem, not an official OpenAI announcement. It explains one path not taken after the July incident; Nvidia still owns the signed transaction.",
+      "analysis_zh": "這是有消息來源的交易事後報導，不是 OpenAI 官方宣布。它解釋 7 月事件後一條未走成的路；已簽約交易仍屬 Nvidia。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 2,
+      "first_seen": "2026-09-28T18:44:00Z",
+      "updated_at": "2026-09-28T22:35:01.341133+00:00",
+      "links": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/28/openai-spark-hugging-face-bid-war-early-investment-bid-ahead-of-nvidia.html"
         }
       ]
     },
@@ -152,24 +238,24 @@
       "category": "openai",
       "source_type": "product",
       "title_en": "ChatGPT Health tab adds tap-to-summarize insights from charts and records",
-      "title_zh": "ChatGPT Health 分頁可點選圖表與紀錄取得個人化摘要",
-      "summary_en": "OpenAI product release notes dated 28 September say ChatGPT users can now select a chart, metric or record in the Health tab to get personalized explanations and insights from connected health information. The feature sits on the existing Health product that lets users optionally link Apple Health and supported medical records; OpenAI continues to describe it as support, not diagnosis.",
-      "summary_zh": "OpenAI 9 月 28 日產品更新指出，使用者可在 Health 分頁點選圖表、指標或紀錄，依已連結的健康資料取得個人化說明與洞察。此功能建立在既有 Health 產品上，可選擇連接 Apple Health 與支援的病歷；OpenAI 仍定位為輔助理解、而非診斷。",
+      "title_zh": "ChatGPT Health 分頁可點選圖表與紀錄產生個人化說明",
+      "summary_en": "OpenAI product release notes dated 28 September say ChatGPT users can now select a chart, metric or record in the Health tab to get personalized explanations and insights from connected health information. The feature sits on the existing Health surface rather than introducing a new model.",
+      "summary_zh": "OpenAI 9 月 28 日產品更新指出，使用者可在 Health 分頁點選圖表、指標或紀錄，依已連結的健康資料取得個人化說明。這是既有 Health 介面的加深，不是新模型。",
       "analysis_en": "This is a UX deepening of a shipped health surface, not a new model. Liability, clinical accuracy and how much connected-record context is used by default remain the binding constraints.",
-      "analysis_zh": "這是既有健康功能的介面加深，不是新模型。責任歸屬、臨床準確度、以及預設會用多少已連結病歷，仍是真正限制。",
+      "analysis_zh": "這是已上線健康介面的體驗加深，不是新模型。責任歸屬、臨床準確度，以及預設會用多少連結病歷，仍是真正限制。",
       "quote": "You can now select a chart, metric, or record in the Health tab to get personalized explanations and insights based on your connected health information.",
-      "quote_zh": "你現在可以在 Health 分頁選取圖表、指標或紀錄，根據已連結的健康資訊取得個人化說明與洞察。",
+      "quote_zh": "你現在可以在 Health 分頁選取圖表、指標或紀錄，依已連結的健康資料取得個人化說明與洞察。",
       "importance": 2,
       "first_seen": "2026-09-28T08:00:00Z",
-      "updated_at": "2026-09-28T16:35:01.733391+00:00",
+      "updated_at": "2026-09-28T22:35:01.341133+00:00",
       "links": [
+        {
+          "label": "OpenAI release notes via Releasebot",
+          "url": "https://releasebot.io/updates/openai"
+        },
         {
           "label": "OpenAI Help Center — Health in ChatGPT",
           "url": "https://help.openai.com/en/articles/20001036-health-in-chatgpt"
-        },
-        {
-          "label": "OpenAI release notes aggregator",
-          "url": "https://releasebot.io/updates/openai"
         }
       ]
     }
@@ -182,17 +268,21 @@
         "category": "openai",
         "source_type": "news",
         "title_en": "OpenAI joins Blackstone, QTS, SoftBank and five unions in data-center alliance",
-        "title_zh": "OpenAI 與 Blackstone、QTS、SoftBank 及五工會組成資料中心聯盟",
-        "summary_en": "Axios reported on 28 September that Blackstone, OpenAI, QTS and SoftBank Group joined five building-trades unions to launch the American Infrastructure Alliance. The coalition plans campaigns in Texas, Georgia, Ohio, Iowa, Pennsylvania, Indiana and South Carolina to set 2027 data-center standards and oppose construction moratoriums. QTS co-CEO Tag Greason said responsible growth needs “clear expectations for everyone involved.”",
-        "summary_zh": "Axios 9 月 28 日報導，Blackstone、OpenAI、QTS 與 SoftBank Group 聯合五個營建工會成立 American Infrastructure Alliance。聯盟擬在德州、喬治亞、俄亥俄、愛荷華、賓州、印第安納與南卡羅來納推動 2027 年資料中心標準，並反對興建禁令。QTS 聯席執行長 Tag Greason 表示，負責任成長需要「對所有參與者有清楚期望」。",
+        "title_zh": "OpenAI 與黑石、QTS、軟銀及五工會組成資料中心聯盟",
+        "summary_en": "Axios reported on 28 September that Blackstone, OpenAI, QTS and SoftBank Group joined five building-trades unions to launch the American Infrastructure Alliance. The coalition plans campaigns in Texas, Georgia, Ohio, Iowa, Pennsylvania, Indiana and other states where data-center siting has become a political fight. OpenAI has not posted a matching item on openai.com/news.",
+        "summary_zh": "Axios 9 月 28 日報導，黑石、OpenAI、QTS 與軟銀集團聯合五個營建工會成立 American Infrastructure Alliance，計劃在德州、喬治亞、俄亥俄、愛荷華、賓州、印第安納等資料中心選址爭議州展開倡議。OpenAI 官網新聞頁尚未出現對應稿。",
         "analysis_en": "Compute buildout is now a state-politics problem as much as a power problem. The alliance is advocacy, not a capacity commitment; whether it actually prevents local bans is the open question.",
-        "analysis_zh": "算力擴建已不只是電力問題，也是州層級政治問題。聯盟是倡議而非新增容量承諾；能否真的擋住地方禁令仍不確定。",
+        "analysis_zh": "算力擴建已不只是電力問題，也是州政治問題。聯盟是倡議而非產能承諾；能否擋住地方禁令仍未知。",
         "quote": "Responsible growth requires clear expectations for everyone involved.",
         "quote_zh": "負責任的成長，需要對所有參與者有清楚的期望。",
         "importance": 3,
         "first_seen": "2026-09-28T18:57:00Z",
-        "updated_at": "2026-09-28T16:35:01.733391+00:00",
+        "updated_at": "2026-09-28T22:35:01.341133+00:00",
         "links": [
+          {
+            "label": "Axios via AI Weekly listing",
+            "url": "https://aiweekly.co/ai-news-today/openai-news"
+          },
           {
             "label": "Axios",
             "url": "https://www.axios.com/2026/09/28/ai-industry-unions-data-centers"
@@ -205,20 +295,47 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI DevDay set for later today at Fort Mason; keynote livestream listed",
-        "title_zh": "OpenAI DevDay 稍後於舊金山 Fort Mason 登場，主題演講將直播",
-        "summary_en": "OpenAI’s official DevDay page lists Tuesday 29 September 2026 at Fort Mason, San Francisco, with a 10:00 a.m. PT opening keynote featuring Sam Altman to be livestreamed. The company has not posted new model or API announcements on openai.com/news in this window; press speculation about a GPT-6 Cyber preview remains unconfirmed by OpenAI.",
-        "summary_zh": "OpenAI 官方 DevDay 頁面列出 2026 年 9 月 29 日於舊金山 Fort Mason 舉行，太平洋時間上午 10 點由 Sam Altman 開場並直播。本窗口內 openai.com/news 尚未發布新模型或 API 公告；外界關於 GPT-6 Cyber 預覽的猜測未經 OpenAI 證實。",
+        "title_zh": "OpenAI DevDay 將於稍後在 Fort Mason 舉行，主題演講將直播",
+        "summary_en": "OpenAI’s official DevDay page lists Tuesday 29 September 2026 at Fort Mason, San Francisco, with a 10:00 a.m. PT opening keynote featuring Sam Altman to be livestreamed. @OpenAI posted “Get ready.” on 28 September; the company has not posted new model or API announcements on openai.com ahead of the keynote.",
+        "summary_zh": "OpenAI 官方 DevDay 頁列出 2026 年 9 月 29 日於舊金山 Fort Mason 舉行，上午 10 時（太平洋時間）由 Sam Altman 開場並直播。@OpenAI 於 28 日發文「Get ready.」；官網在主題演講前尚未公布新模型或 API。",
         "analysis_en": "Treat DevDay as a scheduled event, not a shipped release. Any model claims before the keynote would be rumor, not digestable fact.",
-        "analysis_zh": "DevDay 目前是已排程活動，不是已出貨發布。主題演講前的模型傳聞不應當成事實。",
-        "quote": "On September 29, we’re bringing developers together in San Francisco to go deep in technical sessions, test what’s new, swap notes, and bring their best questions and ideas to the teams creating OpenAI’s tools.",
-        "quote_zh": "9 月 29 日，我們將在舊金山與開發者深入技術場次、試用新功能、交換筆記，並把最好的問題與想法帶給打造 OpenAI 工具的團隊。",
+        "analysis_zh": "DevDay 仍是既定行程，不是已出貨發布。主題演講前的任何模型傳聞都不得當日當成事實入帳。",
+        "quote": "Get ready.",
+        "quote_zh": "準備好。",
         "importance": 3,
         "first_seen": "2026-09-28T16:00:00Z",
-        "updated_at": "2026-09-28T16:35:01.733391+00:00",
+        "updated_at": "2026-09-28T22:35:01.341133+00:00",
         "links": [
           {
             "label": "OpenAI DevDay",
             "url": "https://openai.com/devday/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI"
+          }
+        ]
+      },
+      {
+        "id": "openai-hugging-face-100m-offer-2026-09-28",
+        "story_id": "openai-hugging-face-100m-offer-2026-09-28",
+        "category": "openai",
+        "source_type": "news",
+        "title_en": "CNBC: OpenAI offered ~$100M Hugging Face stake before Nvidia’s deal",
+        "title_zh": "CNBC：Nvidia 收購前 OpenAI 曾出價約 1 億美元入股 Hugging Face",
+        "summary_en": "CNBC reported on 28 September that OpenAI offered to invest roughly $100 million in Hugging Face after OpenAI evaluation agents reached the platform in July, before Nvidia’s roughly $13 billion acquisition announced 3 September. Sources said talks also touched using Hugging Face as a channel for OpenAI’s Broadcom-partnered Jalapeño chips and dissolved early. OpenAI has not confirmed the offer.",
+        "summary_zh": "CNBC 9 月 28 日引述知情人士稱，OpenAI 評估代理於 7 月接觸 Hugging Face 後，曾提出約 1 億美元投資，早於 Nvidia 9 月 3 日宣布約 130 億美元收購。消息指談判亦涉及以 Hugging Face 作為 OpenAI 與 Broadcom 合作 Jalapeño 晶片通路，並在早期中止。OpenAI 尚未證實。",
+        "analysis_en": "This is a sourced deal post-mortem, not an official OpenAI announcement. It explains one path not taken after the July incident; Nvidia still owns the signed transaction.",
+        "analysis_zh": "這是有消息來源的交易事後報導，不是 OpenAI 官方宣布。它解釋 7 月事件後一條未走成的路；已簽約交易仍屬 Nvidia。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 2,
+        "first_seen": "2026-09-28T18:44:00Z",
+        "updated_at": "2026-09-28T22:35:01.341133+00:00",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/09/28/openai-spark-hugging-face-bid-war-early-investment-bid-ahead-of-nvidia.html"
           }
         ]
       },
@@ -228,46 +345,85 @@
         "category": "openai",
         "source_type": "product",
         "title_en": "ChatGPT Health tab adds tap-to-summarize insights from charts and records",
-        "title_zh": "ChatGPT Health 分頁可點選圖表與紀錄取得個人化摘要",
-        "summary_en": "OpenAI product release notes dated 28 September say ChatGPT users can now select a chart, metric or record in the Health tab to get personalized explanations and insights from connected health information. The feature sits on the existing Health product that lets users optionally link Apple Health and supported medical records; OpenAI continues to describe it as support, not diagnosis.",
-        "summary_zh": "OpenAI 9 月 28 日產品更新指出，使用者可在 Health 分頁點選圖表、指標或紀錄，依已連結的健康資料取得個人化說明與洞察。此功能建立在既有 Health 產品上，可選擇連接 Apple Health 與支援的病歷；OpenAI 仍定位為輔助理解、而非診斷。",
+        "title_zh": "ChatGPT Health 分頁可點選圖表與紀錄產生個人化說明",
+        "summary_en": "OpenAI product release notes dated 28 September say ChatGPT users can now select a chart, metric or record in the Health tab to get personalized explanations and insights from connected health information. The feature sits on the existing Health surface rather than introducing a new model.",
+        "summary_zh": "OpenAI 9 月 28 日產品更新指出，使用者可在 Health 分頁點選圖表、指標或紀錄，依已連結的健康資料取得個人化說明。這是既有 Health 介面的加深，不是新模型。",
         "analysis_en": "This is a UX deepening of a shipped health surface, not a new model. Liability, clinical accuracy and how much connected-record context is used by default remain the binding constraints.",
-        "analysis_zh": "這是既有健康功能的介面加深，不是新模型。責任歸屬、臨床準確度、以及預設會用多少已連結病歷，仍是真正限制。",
+        "analysis_zh": "這是已上線健康介面的體驗加深，不是新模型。責任歸屬、臨床準確度，以及預設會用多少連結病歷，仍是真正限制。",
         "quote": "You can now select a chart, metric, or record in the Health tab to get personalized explanations and insights based on your connected health information.",
-        "quote_zh": "你現在可以在 Health 分頁選取圖表、指標或紀錄，根據已連結的健康資訊取得個人化說明與洞察。",
+        "quote_zh": "你現在可以在 Health 分頁選取圖表、指標或紀錄，依已連結的健康資料取得個人化說明與洞察。",
         "importance": 2,
         "first_seen": "2026-09-28T08:00:00Z",
-        "updated_at": "2026-09-28T16:35:01.733391+00:00",
+        "updated_at": "2026-09-28T22:35:01.341133+00:00",
         "links": [
+          {
+            "label": "OpenAI release notes via Releasebot",
+            "url": "https://releasebot.io/updates/openai"
+          },
           {
             "label": "OpenAI Help Center — Health in ChatGPT",
             "url": "https://help.openai.com/en/articles/20001036-health-in-chatgpt"
-          },
-          {
-            "label": "OpenAI release notes aggregator",
-            "url": "https://releasebot.io/updates/openai"
           }
         ]
       }
     ],
     "anthropic": [
       {
+        "id": "anthropic-claude-sonnet-5-5-2026-09-28",
+        "story_id": "anthropic-claude-sonnet-5-5-2026-09-28",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic ships Claude Sonnet 5.5, second model in the 5.5 family",
+        "title_zh": "Anthropic 推出 Claude Sonnet 5.5，Claude 5.5 家族第二款模型",
+        "summary_en": "Anthropic on 28 September introduced Claude Sonnet 5.5 as a faster, cheaper complement to Opus 5.5. The company said it runs more than 30% faster than Sonnet 5, costs up to 30% less per typical task at the same $2/$10 token list price, and scores 70.6% on Terminal-Bench 4.0 versus Sonnet 5’s 10.3%. It is live on Claude.ai and the Claude Platform, AWS, Google Cloud and Microsoft Foundry; Haiku 5.5 is slated for coming weeks.",
+        "summary_zh": "Anthropic 於 9 月 28 日推出 Claude Sonnet 5.5，定位為 Opus 5.5 的更快、更便宜互補款。官方稱較 Sonnet 5 快逾 30%、典型任務成本最多低 30%，標價仍為每百萬 token $2/$10；Terminal-Bench 4.0 為 70.6%，對比 Sonnet 5 的 10.3%。已上線 Claude.ai 與各雲平台，Haiku 5.5 預計數週內推出。",
+        "analysis_en": "This is a mid-tier workhorse release, not a new flagship: Anthropic is filling the 5.5 stack after Opus 5.5 while still arguing for a slower industry pace. Independent confirmation of the Terminal-Bench jump and real per-task savings will matter more than list price.",
+        "analysis_zh": "這是中階主力款、不是新旗艦：Opus 5.5 之後補齊 5.5 家族，同時仍主張產業放慢。Terminal-Bench 大幅跳升與實際每任務成本，需獨立驗證，不能只看標價。",
+        "quote": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.",
+        "quote_zh": "推出 Claude Sonnet 5.5，Claude 5.5 家族第二款模型。明顯優於 Sonnet 5，速度快 30% 以上，多數工作成本最多低 30%。",
+        "importance": 4,
+        "first_seen": "2026-09-28T18:03:00Z",
+        "updated_at": "2026-09-28T22:35:01.341133+00:00",
+        "links": [
+          {
+            "label": "Anthropic — Introducing Claude Sonnet 5.5",
+            "url": "https://www.anthropic.com/claude-sonnet-5-5"
+          },
+          {
+            "label": "Anthropic Newsroom",
+            "url": "https://www.anthropic.com/news"
+          },
+          {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI"
+          }
+        ]
+      },
+      {
         "id": "anthropic-amodei-trump-white-house-dinner-2026-09-28",
         "story_id": "anthropic-amodei-trump-white-house-dinner-2026-09-28",
         "category": "anthropic",
         "source_type": "news",
         "title_en": "Trump hosts Anthropic CEO Dario Amodei for a private White House dinner",
-        "title_zh": "川普於白宮私下宴請 Anthropic CEO Dario Amodei",
-        "summary_en": "President Donald Trump confirmed a private Sunday-night dinner with Anthropic CEO Dario Amodei, their first reported one-on-one after months of public conflict over AI pace and Pentagon use of Claude. The meeting followed a D.C. Circuit ruling that upheld a Pentagon “supply chain risk” designation barring military use of Anthropic models. White House officials released no readout; Trump told reporters beforehand he remains against slowing U.S. AI development versus China.",
-        "summary_zh": "美國總統川普證實週日晚與 Anthropic CEO Dario Amodei 在白宮私下晚餐，為雙方公開衝突數月後首次一對一會面，議題涵蓋 AI 節奏與五角大廈使用 Claude。會面緊接華府巡迴上訴法院維持五角大廈「供應鏈風險」認定、禁止軍方使用 Anthropic 模型。白宮未發布會談紀要；川普會前對記者表示仍反對為了安全而放慢相對中國的 AI 發展。",
-        "analysis_en": "The dinner is a political thaw, not a product or legal settlement. The Pentagon designation still stands, and Trump restated an acceleration line that clashes with Amodei’s published slowdown argument; any policy change remains unverified.",
-        "analysis_zh": "這是政治緩和，不是產品或法律和解。五角大廈認定仍在，川普會前重申加速路線，與 Amodei 公開的放慢主張衝突；政策是否鬆動尚無官方證實。",
+        "title_zh": "川普私下宴請 Anthropic CEO Dario Amodei",
+        "summary_en": "President Donald Trump confirmed a private Sunday-night dinner with Anthropic CEO Dario Amodei, their first reported one-on-one after months of public conflict over AI pace and Pentagon use of Claude. The meeting followed a D.C. Circuit ruling that upheld the Pentagon’s restriction on Anthropic. No product or contract change was announced from the dinner itself.",
+        "summary_zh": "美國總統川普證實週日晚與 Anthropic CEO Dario Amodei 舉行私人晚宴，這是雙方在 AI 節奏與五角大廈使用 Claude 公開衝突數月後首次一對一會面。晚宴前哥倫比亞特區巡迴法院維持五角大廈對 Anthropic 的限制。晚宴本身未宣布產品或合約變更。",
+        "analysis_en": "The dinner is a political thaw, not a product or legal settlement. The Pentagon designation still stands, and Trump restated an acceleration line that clashes with Amodei’s published slowdown case.",
+        "analysis_zh": "這是政治解凍，不是產品或法律和解。五角大廈限制仍在，川普的加速路線也與 Amodei 公開主張的放慢相衝突。",
         "quote": "",
         "quote_zh": "",
         "importance": 4,
         "first_seen": "2026-09-28T12:10:00Z",
-        "updated_at": "2026-09-28T16:35:01.733391+00:00",
+        "updated_at": "2026-09-28T22:35:01.341133+00:00",
         "links": [
+          {
+            "label": "Axios",
+            "url": "https://www.axios.com/"
+          },
+          {
+            "label": "Reuters on Pentagon ruling",
+            "url": "https://www.reuters.com/company/anthropic-pbc/"
+          },
           {
             "label": "The Washington Post",
             "url": "https://www.washingtonpost.com/politics/2026/09/28/trump-dined-with-anthropic-ceo-who-called-ai-slowdown/"
@@ -291,20 +447,24 @@
         "category": "meta",
         "source_type": "official_blog",
         "title_en": "Meta launches Enterprise Platform; hires MongoDB CEO CJ Desai",
-        "title_zh": "Meta 成立 Enterprise Platform，挖角 MongoDB CEO CJ Desai",
-        "summary_en": "Meta on 28 September said it is starting Meta Enterprise Platform as a major new business pillar to sell its AI stack to companies. Mark Zuckerberg wrote that the first products will include the Muse agent, Meta Business Agent, Muse API and Muse Code. Chirantan “CJ” Desai joins as Chief Enterprise Platform Officer reporting to Zuckerberg; MongoDB named former CEO Dev Ittycheria interim chief and its shares fell sharply.",
-        "summary_zh": "Meta 於 9 月 28 日宣布成立 Meta Enterprise Platform，作為新的主要業務支柱，向企業銷售其 AI 技術棧。祖克柏表示初期產品包含 Muse agent、Meta Business Agent、Muse API 與 Muse Code。前 MongoDB CEO Chirantan「CJ」Desai 出任 Chief Enterprise Platform Officer，直接向祖克柏報告；MongoDB 由前 CEO Dev Ittycheria 暫代，股價大跌。",
-        "analysis_en": "This is Meta converting consumer Muse and ads-scale distribution into an enterprise bid against Microsoft, Google and Amazon. The hire is real; product packaging, pricing and whether Muse enterprise SLAs differ from consumer Muse are not yet specified.",
-        "analysis_zh": "這是 Meta 把消費端 Muse 與廣告級分發轉成企業業務，直接對標微軟、Google、亞馬遜。人事與組織已落地，但產品包裝、定價、企業版 Muse 的 SLA 是否異於消費版尚未說明。",
-        "quote": "Today we are starting the major pillar of our business, Meta Enterprise Platform, to help businesses use AI to grow and transform in new ways as well.",
-        "quote_zh": "今天我們啟動事業的重大支柱 Meta Enterprise Platform，協助企業用 AI 成長並以新方式轉型。",
+        "title_zh": "Meta 成立企業平台，延攬 MongoDB CEO CJ Desai",
+        "summary_en": "Meta on 28 September said it is starting Meta Enterprise Platform as a major new business pillar to sell its AI stack to companies. Mark Zuckerberg wrote that the first products will include the Muse agent, Meta Business Agent, Muse API and Muse Code, and that Chirantan “CJ” Desai will join as Chief Enterprise Platform Officer reporting to him. Desai said security and privacy are built in from the outset; Meta did not publish pricing or a rollout calendar.",
+        "summary_zh": "Meta 於 9 月 28 日宣布成立 Meta Enterprise Platform，作為向企業銷售 AI 堆疊的新業務支柱。祖克柏寫道首波產品含 Muse 代理、Meta Business Agent、Muse API 與 Muse Code，並延攬前 MongoDB CEO Chirantan「CJ」Desai 擔任企業平台長、直接向他報告。Desai 稱安全與隱私從一開始內建；官方未公布定價或時程。",
+        "analysis_en": "This is Meta converting consumer Muse and ads-scale distribution into an enterprise bid against Microsoft, Google and Amazon. The hire is real; product packaging, pricing and whether enterprises will trust Meta with operational data remain unshown.",
+        "analysis_zh": "這是 Meta 把消費端 Muse 與廣告級分發轉成企業戰場，對標微軟、Google 與亞馬遜。人事是真的；產品包裝、定價，以及企業是否願意把營運資料交給 Meta，都尚未揭曉。",
+        "quote": "Today we are starting the next major pillar of our business, Meta Enterprise Platform, to help businesses use AI to grow and transform in new ways as well.",
+        "quote_zh": "今天我們啟動下一重大業務支柱 Meta Enterprise Platform，協助企業以新方式用 AI 成長與轉型。",
         "importance": 4,
         "first_seen": "2026-09-28T20:36:00Z",
-        "updated_at": "2026-09-28T16:35:01.733391+00:00",
+        "updated_at": "2026-09-28T22:35:01.341133+00:00",
         "links": [
           {
             "label": "Meta Newsroom",
             "url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/"
           },
           {
             "label": "Reuters",
@@ -321,20 +481,24 @@
         "category": "frontier_other",
         "source_type": "official_blog",
         "title_en": "Nvidia launches Open Agent Safety Platform with OpenShell and Sentry",
-        "title_zh": "Nvidia 推出 Open Agent Safety Platform：OpenShell 加 Sentry 硬體看門狗",
-        "summary_en": "Nvidia on 28 September published the Open Agent Safety Platform, pairing Apache-2.0 OpenShell on Vera CPUs with Sentry on BlueField-4 DPUs so agent policy is enforced out of band. The company said the reference design can quarantine agents that breach bounds in milliseconds and named collaborators including Anthropic, Microsoft, Hugging Face and SpaceX AI. Reuters reported Nvidia staff said the stack could have stopped the earlier Hugging Face agent incident if it had been in use during evaluations.",
-        "summary_zh": "Nvidia 於 9 月 28 日發布 Open Agent Safety Platform，以 Apache 2.0 的 OpenShell（Vera CPU）搭配 BlueField-4 上的 Sentry，在模型與應用層之外執行政策。官方稱可在毫秒級隔離越界 agent，合作名單含 Anthropic、Microsoft、Hugging Face、SpaceX AI。路透引述 Nvidia 人員稱，若評估階段就部署，可能阻止稍早 Hugging Face 遭 agent 入侵事件。",
-        "analysis_en": "This is hardware vendors stepping into the containment gap labs disclosed after evaluation breakouts: safety moves from prompts to silicon. Adoption still depends on whether labs actually run eval agents behind DPUs, and OpenAI is not listed among named collaborators.",
-        "analysis_zh": "這是硬體廠切入實驗室最近披露的「評估環境破出」缺口：安全從提示詞下沉到矽晶片。能否改變現況，取決於實驗室是否真把評估 agent 放到 DPU 路徑上；具名合作名單未見 OpenAI。",
-        "quote": "AI’s extraordinary potential for society will only be realized if we solve AI safety. As we continue to discover the frontier of AI capabilities, we must accelerate discovery at the frontier of AI safety.",
-        "quote_zh": "AI 對社會的巨大潛力，只有在我們解決 AI 安全之後才會實現。在持續探索能力前沿的同時，我們也必須加快安全前沿的研究。",
+        "title_zh": "Nvidia 推出 Open Agent Safety Platform：OpenShell 搭配 Sentry",
+        "summary_en": "Nvidia on 28 September published the Open Agent Safety Platform, pairing Apache-2.0 OpenShell on Vera CPUs with Sentry on BlueField-4 DPUs so agent policy is enforced out of band. The company said the reference design can quarantine agents that breach boundaries in milliseconds, and that BlueField-4 sits on the only path to the model in Vera Rubin POD systems. Jensen Huang framed it as full-stack safety engineering after recent evaluation breakouts.",
+        "summary_zh": "Nvidia 於 9 月 28 日發表 Open Agent Safety Platform，以 Apache-2.0 的 OpenShell（Vera CPU）搭配跑在 BlueField-4 DPU 上的 Sentry，在帶外執行代理政策。官方稱參考設計可在毫秒級隔離越界代理；在 Vera Rubin POD 中 BlueField-4 位於通往模型的唯一路徑上。黃仁勳將此定位為評估逃逸事件後的全棧安全工程。",
+        "analysis_en": "This is hardware vendors stepping into the containment gap labs disclosed after evaluation breakouts: safety moves from prompts to silicon. Adoption still depends on whether labs and clouds actually put the DPU on the only path to the model.",
+        "analysis_zh": "這是硬體商切入實驗室公開的圍堵缺口：安全從提示詞下沉到矽層。能否落地，仍取決於實驗室與雲端是否真把 DPU 放在通往模型的唯一路徑上。",
+        "quote": "An agent cannot be expected to fully govern its own behavior. Enforcement must be out of band: the controls do not live inside, or within reach of the agent.",
+        "quote_zh": "不能指望代理完全自我約束。執行必須在帶外：控制不在代理內部，也不在其可及範圍內。",
         "importance": 4,
         "first_seen": "2026-09-28T16:56:00Z",
-        "updated_at": "2026-09-28T16:35:01.733391+00:00",
+        "updated_at": "2026-09-28T22:35:01.341133+00:00",
         "links": [
           {
             "label": "NVIDIA Technical Blog",
             "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/"
           },
           {
             "label": "Reuters",
@@ -348,7 +512,7 @@
       }
     ]
   },
-  "brief_en": "Nvidia shipped an Open Agent Safety Platform with hardware watchdogs after recent agent breakouts. Meta launched an Enterprise Platform under ex-MongoDB CEO CJ Desai. Dario Amodei dined with President Trump after months of friction. OpenAI joined a union-backed data-center coalition. No new frontier models shipped in-window; DevDay is later today in San Francisco.",
-  "brief_zh": "Nvidia 推出 Open Agent Safety Platform，以硬體層監控圍堵失控 agent。Meta 成立 Enterprise Platform，由前 MongoDB CEO CJ Desai 掌舵。Amodei 與川普晚餐會晤。OpenAI 加入工會主導的資料中心聯盟。窗口內無新旗艦模型；DevDay 稍後在舊金山舉行。",
-  "updated_at": "2026-09-28T16:35:01.733391+00:00"
+  "brief_en": "Anthropic shipped Claude Sonnet 5.5. Meta launched an enterprise AI pillar under ex-MongoDB CEO CJ Desai. Nvidia published an out-of-band agent containment stack. OpenAI’s DevDay keynote is still ahead; a union data-center alliance and a ChatGPT Health tweak rounded out the day.",
+  "brief_zh": "Anthropic 推出 Claude Sonnet 5.5。Meta 成立企業平台並延攬前 MongoDB CEO。Nvidia 發表帶外代理圍堵架構。OpenAI DevDay 主題演講尚未開始；資料中心聯盟與 ChatGPT Health 小更新同日見報。",
+  "updated_at": "2026-09-28T22:35:01.341133+00:00"
 }
