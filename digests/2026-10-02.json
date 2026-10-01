@@ -8,28 +8,82 @@
       "item_count": 4,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-10-01T22:35:01.595023+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 6,
+      "updated_count": 4,
+      "kept_count": 0
     }
   ],
   "items_flat": [
+    {
+      "id": "google-gemini-4-argon-gated-launch-2026-10-01",
+      "story_id": "google-gemini-4-argon-gated-launch-2026-10-01",
+      "category": "google",
+      "source_type": "official_blog",
+      "title_en": "Google announces Gemini 4 Argon, limited first to cyber defenders",
+      "title_zh": "Google 公布 Gemini 4 Argon，先僅開放資安防禦者",
+      "summary_en": "On Oct 1, Google said it is announcing Gemini 4 Argon and rolling it out first to trusted cyber defenders in the Fairwind Program, while taking part in a U.S. voluntary pre-release access process. Introductory API pricing is $2 per million input tokens and $10 per million output tokens, with cached input 95% off, and the output limit rises to 1 million tokens from 64K. Broader access is planned to start with paid API customers and Google AI Ultra, with no general-availability date given.",
+      "summary_zh": "Google 於 10 月 1 日表示推出 Gemini 4 Argon，先透過 Fairwind 計畫提供給受信任的資安防禦者，並參與美國自願性發布前存取流程。導入期 API 價格為每百萬輸入 token 2 美元、每百萬輸出 10 美元，快取輸入打 95 折，輸出上限由 6.4 萬提高到 100 萬 token。後續預計先開放付費 API 與 Google AI Ultra，未給一般可用日期。",
+      "analysis_en": "Argon is a flagship-class release on paper, but gated access means it is not yet a market-wide substitute for GPT-6.1 Sol or Claude. The listed internal wins and the Gray Swan prompt-injection claim are vendor-reported, and the post does not say when the intro $2/$10 rate ends.",
+      "analysis_zh": "規格上看是旗艦級發布，但存取仍受限，短期還不能當成 GPT-6.1 Sol 或 Claude 的全面替代。文中內部成效與提示注入韌性均為廠商自述，也未說明導入價何時結束。",
+      "quote": "Today, we're announcing our new frontier model, Gemini 4 Argon, which is rolling out to a set of trusted cyber defenders through our Fairwind Program.",
+      "quote_zh": "今天我們宣布新的前沿模型 Gemini 4 Argon，並透過 Fairwind 計畫向一批受信任的資安防禦者推出。",
+      "importance": 5,
+      "first_seen": "2026-10-01T22:35:01Z",
+      "updated_at": "2026-10-01T22:35:01.595023+00:00",
+      "links": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/intl/en-mena/company-news/technology/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-broadcom-42b-tpu-facility-2026-10-01",
+      "story_id": "anthropic-broadcom-42b-tpu-facility-2026-10-01",
+      "category": "anthropic",
+      "source_type": "news",
+      "title_en": "Reuters: Broadcom may lend Anthropic up to $42 billion for TPU leases",
+      "title_zh": "路透：博通擬貸 Anthropic 至多 420 億美元租用 TPU",
+      "summary_en": "Reuters reported on Oct 1 that Anthropic's IPO prospectus shows Broadcom has agreed to lend Anthropic up to $42 billion to finance infrastructure, covering about one-third of a $125.2 billion five-year TPU lease commitment. The debt could convert into Anthropic shares, and Anthropic does not expect notes to be sold before the IPO. Anthropic declined to comment; the filing itself flags potential conflicts because Broadcom is both supplier and financier.",
+      "summary_zh": "路透 10 月 1 日報導，Anthropic 的 IPO 公開說明書顯示博通同意提供至多 420 億美元貸款，用於基礎設施，約可覆蓋 1,252 億美元、五年期 TPU 租約承諾的三分之一。該債務可轉換為 Anthropic 股份，公司預期 IPO 完成前不會出售票據。Anthropic 拒絕置評；文件也指出博通兼具供應商與融資方，存在潛在利益衝突。",
+      "analysis_en": "This is circular financing risk, not a model launch: Anthropic's compute plan is tied to a counterparty that can also take equity. The facility is disclosed in a filing Reuters reviewed, not announced by Anthropic, and no notes are expected to sell before the IPO.",
+      "analysis_zh": "這是循環融資風險，不是模型發布：算力計畫綁定可能取得股權的交易對手。數字來自路透檢視的文件，而非 Anthropic 主動宣布，且預期 IPO 前不會售出票據。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 4,
+      "first_seen": "2026-10-01T22:35:01Z",
+      "updated_at": "2026-10-01T22:35:01.595023+00:00",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/"
+        }
+      ]
+    },
     {
       "id": "anthropic-barclays-claude-rollout-2026-10-01",
       "story_id": "anthropic-barclays-claude-rollout-2026-10-01",
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic and Barclays expand Claude across the bank",
-      "title_zh": "Anthropic 與巴克萊擴大全行 Claude 部署",
-      "summary_en": "Anthropic said on Oct 1 that Barclays is extending Claude across global operations to speed software work, modernize legacy systems, and improve servicing. The bank expects Claude Code to reach 50% of developers by the end of 2026 and a majority of software engineers in 2027. A Claude knowledge assistant already used by more than 16,000 colleagues has handled over one million searches, and a markets workflow processes about 120,000 emails a day.",
-      "summary_zh": "Anthropic 10月1日宣布，巴克萊正把 Claude 擴到全球營運，用於加速軟體開發、現代化舊系統並改善客戶服務。銀行預期 Claude Code 到2026年底覆蓋50%開發者，2027年涵蓋多數軟體工程師。既有同事知識助理已有逾1.6萬人使用、處理超過100萬次搜尋，市場業務流程每天約處理12萬封郵件。",
-      "analysis_en": "This is an enterprise deployment story, not a model launch: it shows Claude moving into regulated banking workflows with explicit human oversight. The adoption targets are Barclays' expectations, not audited usage, so the productivity claim is still unproven.",
-      "analysis_zh": "這是企業導入而非新模型：Claude 正進入受監管的銀行流程，並強調人工監督。採用比例是巴克萊的預期而非經查核的用量，生產力效果仍未證實。",
+      "title_zh": "Anthropic 與 Barclays 擴大全行 Claude 部署",
+      "summary_en": "Anthropic said on Oct 1 that Barclays is extending Claude across global operations to speed software work, modernize legacy systems, and improve servicing. The bank expects Claude Code to reach 50% of developers by the end of 2026 and a majority of software engineers in 2027. An existing assistant, live since 2025, has more than 16,000 users and over one million searches; markets workflows sort about 120,000 emails a day, with human oversight retained.",
+      "summary_zh": "Anthropic 10 月 1 日表示，Barclays 正把 Claude 擴及全球營運，以加快軟體開發、現代化舊系統並改善服務。銀行預期 Claude Code 到 2026 年底覆蓋 50% 開發者，2027 年覆蓋過半軟體工程師。2025 年起上線的助理已有逾 1.6 萬使用者、超過 100 萬次搜尋；市場業務每日處理約 12 萬封郵件，並保留人工監督。",
+      "analysis_en": "This is an enterprise deployment story, not a model launch: it shows Claude moving into regulated banking workflows with explicit human oversight. The adoption targets are Barclays' expectations, not measured results.",
+      "analysis_zh": "這是企業部署而非模型發布，顯示 Claude 進入受監管銀行流程且保留人工監督。採用目標是 Barclays 的預期，不是已實現的成效。",
       "quote": "Claude now helps 16,000 Barclays’ colleagues find answers for customers, sorts 120,000 emails a day, and will be in the hands of most Barclays engineers by 2027.",
-      "quote_zh": "Claude 現在協助1.6萬名巴克萊同事為客戶找答案、每天整理12萬封郵件，並將在2027年前交到多數巴克萊工程師手中。",
+      "quote_zh": "Claude 目前協助 1.6 萬名 Barclays 同事為客戶找答案，每天分類 12 萬封郵件，並將在 2027 年前交到大多數 Barclays 工程師手中。",
       "importance": 3,
       "first_seen": "2026-10-01T16:35:01Z",
-      "updated_at": "2026-10-01T16:35:01.756168+00:00",
+      "updated_at": "2026-10-01T22:35:01.595023+00:00",
       "links": [
         {
-          "label": "Anthropic Newsroom",
+          "label": "Anthropic News",
           "url": "https://www.anthropic.com/news/barclays-scales-claude"
         },
         {
@@ -43,21 +97,25 @@
       "story_id": "google-synthid-bio-open-research-2026-10-01",
       "category": "google",
       "source_type": "mixed",
-      "title_en": "DeepMind highlights open SynthID Bio protein watermarking",
-      "title_zh": "DeepMind 公開 SynthID Bio 蛋白質浮水印工具",
-      "summary_en": "On Oct 1, Google DeepMind posted that SynthID Bio can embed an imperceptible signature in protein sequences without changing biological function, and that the tools are being released on an open basis for research use. The method paper and lab post, dated Sep 30, say watermarked designs matched unwatermarked ones on hit rate and binding across VEGF-A, SARS-CoV-2 spike RBD, and PD-L1, and that code, in-vitro data, and weights are being released to researchers.",
-      "summary_zh": "Google DeepMind 10月1日發文表示，SynthID Bio 可在蛋白質序列嵌入不易察覺的簽名且不影響生物功能，並以開放方式供研究使用。9月30日的方法論文與實驗室文章稱，在 VEGF-A、SARS-CoV-2 棘蛋白 RBD 與 PD-L1 上，帶浮水印設計的命中率與結合力與未加浮水印版本相當，並將向研究社群釋出程式碼、體外實驗數據與權重。",
-      "analysis_en": "If labs adopt it, provenance could move from model logs into the physical sequence, which matters as AI protein design scales. It is still a proof of concept: DeepMind says community uptake and further research are required before it functions as biosecurity infrastructure.",
-      "analysis_zh": "若實驗室採用，來源追溯可從模型日誌延伸到實體序列，對規模化蛋白質設計有意義。目前仍是概念驗證，DeepMind 也說需社群採用與後續研究，才談得上生物安全基建。",
-      "quote": "In a world first, we can now embed an imperceptible signature directly into protein sequences without affecting their biological function.",
-      "quote_zh": "我們現在可在全球首創的做法中，把不易察覺的簽名直接嵌入蛋白質序列，且不影響其生物功能。",
+      "title_en": "DeepMind highlights SynthID Bio protein watermarking",
+      "title_zh": "DeepMind 強調 SynthID Bio 蛋白質浮水印",
+      "summary_en": "Google DeepMind's SynthID Bio post says the method can embed an imperceptible signature in protein sequences without changing biological function in lab tests on VEGF-A, SARS-CoV-2 spike RBD, and PD-L1 binders. A structure method fine-tunes part of AlphaFold 3. On Oct 1, DeepMind pointed to a podcast on provenance covering SynthID and SynthID Bio; the underlying blog is dated Sep 30.",
+      "summary_zh": "Google DeepMind 的 SynthID Bio 文章稱，該方法可在蛋白質序列嵌入難以察覺的簽名，並在 VEGF-A、SARS-CoV-2 棘蛋白 RBD 與 PD-L1 結合劑的實驗中不改變生物功能。結構方法則微調 AlphaFold 3 的一部分。10 月 1 日 DeepMind 以播客討論數位與生物設計的來源標記；原始文章日期為 9 月 30 日。",
+      "analysis_en": "If labs adopt it, provenance could move from model logs into the physical sequence, which matters as AI protein design scales. It is still a proof of concept on three targets, and the Oct 1 post is amplification rather than a new method.",
+      "analysis_zh": "若實驗室採用，來源標記可能從模型日誌進到實體序列，對 AI 蛋白質設計規模化有意義。目前仍是三個靶點的概念驗證，10 月 1 日貼文是延續宣傳而非新方法。",
+      "quote": "SynthID Bio embeds an imperceptible signature directly into the biological code, ensuring the watermark is verifiable not just on a digital model but on the synthesized, physical protein itself.",
+      "quote_zh": "SynthID Bio 把難以察覺的簽名直接嵌入生物編碼，使浮水印不只可在數位模型上驗證，也能在合成出的實體蛋白質上驗證。",
       "importance": 3,
       "first_seen": "2026-10-01T16:35:01Z",
-      "updated_at": "2026-10-01T16:35:01.756168+00:00",
+      "updated_at": "2026-10-01T22:35:01.595023+00:00",
       "links": [
         {
           "label": "Google DeepMind Blog",
           "url": "https://deepmind.google/blog/introducing-synthid-bio/"
+        },
+        {
+          "label": "Google DeepMind on X",
+          "url": "https://x.com/GoogleDeepMind/status/2105707085287567709"
         },
         {
           "label": "Google DeepMind on X",
@@ -71,20 +129,24 @@
       "category": "openai",
       "source_type": "official_x",
       "title_en": "Altman says GPT-6.1 Sol growth strained capacity, now easing",
-      "title_zh": "Altman：GPT-6.1 Sol 成長造成負載，現已緩解",
-      "summary_en": "Sam Altman posted on Oct 1 that GPT-6.1 Sol was OpenAI's fastest-growing model ever and had been slow under load, adding that it should be much better now. In the same thread he called DevDay builder energy high and said Sign In With ChatGPT and plugin extensions have more potential than realized. He did not give latency numbers or a new product date.",
-      "summary_zh": "Sam Altman 10月1日發文稱，GPT-6.1 Sol 是 OpenAI 成長最快的模型，負載下曾經變慢，現在應該好很多。同串文他也稱 DevDay 建造者能量很高，並認為 Sign In With ChatGPT 與外掛擴充的潛力被低估。他未提供延遲數字或新產品時程。",
-      "analysis_en": "The post is evidence of demand concentration on the cheaper near-flagship tier, not a new launch. Without published latency or error rates, 'much better' remains an executive claim rather than a verified reliability fix.",
-      "analysis_zh": "這則貼文說明需求集中在較便宜的近旗艦層級，不是新發布。沒有公開延遲或錯誤率，「好很多」仍是高層說法，而非已驗證的可靠性修復。",
+      "title_zh": "Altman：GPT-6.1 Sol 成長造成負載，目前已緩解",
+      "summary_en": "Sam Altman posted on Oct 1 that GPT-6.1 Sol was OpenAI's fastest-growing model ever and had been slow under load, adding that it should be much better now. In the same window he said users should be able to use an AI subscription wherever they need it, pointing at Sign in with ChatGPT and plugin extensions, including third-party apps such as Devin that draw on ChatGPT Plus or Pro quota.",
+      "summary_zh": "Sam Altman 10 月 1 日發文稱，GPT-6.1 Sol 是 OpenAI 成長最快的模型，負載下曾變慢，並說現在應該好很多。同一時段他表示使用者應能在需要的地方使用 AI 訂閱，指向 Sign in with ChatGPT 與外掛擴充，包括 Devin 等第三方應用可扣 ChatGPT Plus 或 Pro 額度。",
+      "analysis_en": "The post is evidence of demand concentration on the cheaper near-flagship tier, not a new launch. Without published latency or error rates, 'much better' remains an executive claim; subscription portability also means third-party agents can consume the same Codex quota.",
+      "analysis_zh": "貼文顯示需求集中在較便宜的近旗艦層，不是新發布。沒有公開延遲或錯誤率，「好很多」仍是高層說法；訂閱可攜也意味第三方代理會消耗同一份 Codex 額度。",
       "quote": "Also, 6.1 Sol was our fastest-growing model ever, and was a bit slow under load. Should be much better now!",
       "quote_zh": "另外，6.1 Sol 是我們成長最快的模型，負載下有點慢。現在應該好很多了！",
       "importance": 2,
       "first_seen": "2026-10-01T16:35:01Z",
-      "updated_at": "2026-10-01T16:35:01.756168+00:00",
+      "updated_at": "2026-10-01T22:35:01.595023+00:00",
       "links": [
         {
           "label": "Sam Altman on X",
           "url": "https://x.com/sama/status/2105688354834756036"
+        },
+        {
+          "label": "Sam Altman on X (subscription portability)",
+          "url": "https://x.com/sama/status/2105739098640298253"
         }
       ]
     },
@@ -95,16 +157,20 @@
       "source_type": "product",
       "title_en": "OpenAI removes gpt-5.4-cyber from the API",
       "title_zh": "OpenAI 自 API 移除 gpt-5.4-cyber",
-      "summary_en": "OpenAI's deprecations page lists Oct 1, 2026 as the shutdown date for gpt-5.4-cyber, announced Sep 11, and tells developers to move to the most capable cyber model available to them. The page does not name a single public replacement ID in that row.",
-      "summary_zh": "OpenAI 棄用頁將 gpt-5.4-cyber 的關閉日列為2026年10月1日，該通知於9月11日發出，並要求開發者改用目前可用、能力最強的資安模型。該列未指定單一公開替代模型 ID。",
-      "analysis_en": "The cutoff is a migration event, not a new cyber model. Teams still on gpt-5.4-cyber lose API access today, and the replacement path depends on which cyber model their account can already call.",
-      "analysis_zh": "這是遷移截止，不是新的資安模型。仍使用 gpt-5.4-cyber 的團隊今天起失去 API 存取，替代路徑取決於帳號已能呼叫的資安模型。",
+      "summary_en": "OpenAI's deprecations page lists Oct 1, 2026 as the shutdown date for gpt-5.4-cyber, announced Sep 11, and tells developers to move to the most capable cyber model available to them. The page does not name a single public replacement ID in that row. The model catalog still lists a GPT-5.6 Cyber specialized model for authorized vulnerability research.",
+      "summary_zh": "OpenAI 棄用頁把 gpt-5.4-cyber 的關閉日列為 2026 年 10 月 1 日，該棄用於 9 月 11 日宣布，並要求開發者改用帳戶可用的最強資安模型。該列沒有指定單一公開替代 ID。模型目錄仍列出供授權漏洞研究使用的 GPT-5.6 Cyber。",
+      "analysis_en": "The cutoff is a migration event, not a new cyber model. Teams still on gpt-5.4-cyber lose API access today, and the replacement path depends on which cyber model their account can call.",
+      "analysis_zh": "這是遷移截止，不是新的資安模型。仍使用 gpt-5.4-cyber 的團隊今日起失去 API，替代路徑取決於帳戶能呼叫哪一個資安模型。",
       "quote": "The gpt-5.4-cyber model is deprecated and will be removed from the API on October 1, 2026.",
-      "quote_zh": "gpt-5.4-cyber 模型已棄用，並將於2026年10月1日從 API 移除。",
+      "quote_zh": "gpt-5.4-cyber 模型已棄用，並將於 2026 年 10 月 1 日從 API 移除。",
       "importance": 2,
       "first_seen": "2026-10-01T16:35:01Z",
-      "updated_at": "2026-10-01T16:35:01.756168+00:00",
+      "updated_at": "2026-10-01T22:35:01.595023+00:00",
       "links": [
+        {
+          "label": "OpenAI API Deprecations",
+          "url": "https://developers.openai.com/api/docs/deprecations"
+        },
         {
           "label": "OpenAI API deprecations",
           "url": "https://platform.openai.com/docs/deprecations"
@@ -120,20 +186,24 @@
         "category": "openai",
         "source_type": "official_x",
         "title_en": "Altman says GPT-6.1 Sol growth strained capacity, now easing",
-        "title_zh": "Altman：GPT-6.1 Sol 成長造成負載，現已緩解",
-        "summary_en": "Sam Altman posted on Oct 1 that GPT-6.1 Sol was OpenAI's fastest-growing model ever and had been slow under load, adding that it should be much better now. In the same thread he called DevDay builder energy high and said Sign In With ChatGPT and plugin extensions have more potential than realized. He did not give latency numbers or a new product date.",
-        "summary_zh": "Sam Altman 10月1日發文稱，GPT-6.1 Sol 是 OpenAI 成長最快的模型，負載下曾經變慢，現在應該好很多。同串文他也稱 DevDay 建造者能量很高，並認為 Sign In With ChatGPT 與外掛擴充的潛力被低估。他未提供延遲數字或新產品時程。",
-        "analysis_en": "The post is evidence of demand concentration on the cheaper near-flagship tier, not a new launch. Without published latency or error rates, 'much better' remains an executive claim rather than a verified reliability fix.",
-        "analysis_zh": "這則貼文說明需求集中在較便宜的近旗艦層級，不是新發布。沒有公開延遲或錯誤率，「好很多」仍是高層說法，而非已驗證的可靠性修復。",
+        "title_zh": "Altman：GPT-6.1 Sol 成長造成負載，目前已緩解",
+        "summary_en": "Sam Altman posted on Oct 1 that GPT-6.1 Sol was OpenAI's fastest-growing model ever and had been slow under load, adding that it should be much better now. In the same window he said users should be able to use an AI subscription wherever they need it, pointing at Sign in with ChatGPT and plugin extensions, including third-party apps such as Devin that draw on ChatGPT Plus or Pro quota.",
+        "summary_zh": "Sam Altman 10 月 1 日發文稱，GPT-6.1 Sol 是 OpenAI 成長最快的模型，負載下曾變慢，並說現在應該好很多。同一時段他表示使用者應能在需要的地方使用 AI 訂閱，指向 Sign in with ChatGPT 與外掛擴充，包括 Devin 等第三方應用可扣 ChatGPT Plus 或 Pro 額度。",
+        "analysis_en": "The post is evidence of demand concentration on the cheaper near-flagship tier, not a new launch. Without published latency or error rates, 'much better' remains an executive claim; subscription portability also means third-party agents can consume the same Codex quota.",
+        "analysis_zh": "貼文顯示需求集中在較便宜的近旗艦層，不是新發布。沒有公開延遲或錯誤率，「好很多」仍是高層說法；訂閱可攜也意味第三方代理會消耗同一份 Codex 額度。",
         "quote": "Also, 6.1 Sol was our fastest-growing model ever, and was a bit slow under load. Should be much better now!",
         "quote_zh": "另外，6.1 Sol 是我們成長最快的模型，負載下有點慢。現在應該好很多了！",
         "importance": 2,
         "first_seen": "2026-10-01T16:35:01Z",
-        "updated_at": "2026-10-01T16:35:01.756168+00:00",
+        "updated_at": "2026-10-01T22:35:01.595023+00:00",
         "links": [
           {
             "label": "Sam Altman on X",
             "url": "https://x.com/sama/status/2105688354834756036"
+          },
+          {
+            "label": "Sam Altman on X (subscription portability)",
+            "url": "https://x.com/sama/status/2105739098640298253"
           }
         ]
       },
@@ -144,16 +214,20 @@
         "source_type": "product",
         "title_en": "OpenAI removes gpt-5.4-cyber from the API",
         "title_zh": "OpenAI 自 API 移除 gpt-5.4-cyber",
-        "summary_en": "OpenAI's deprecations page lists Oct 1, 2026 as the shutdown date for gpt-5.4-cyber, announced Sep 11, and tells developers to move to the most capable cyber model available to them. The page does not name a single public replacement ID in that row.",
-        "summary_zh": "OpenAI 棄用頁將 gpt-5.4-cyber 的關閉日列為2026年10月1日，該通知於9月11日發出，並要求開發者改用目前可用、能力最強的資安模型。該列未指定單一公開替代模型 ID。",
-        "analysis_en": "The cutoff is a migration event, not a new cyber model. Teams still on gpt-5.4-cyber lose API access today, and the replacement path depends on which cyber model their account can already call.",
-        "analysis_zh": "這是遷移截止，不是新的資安模型。仍使用 gpt-5.4-cyber 的團隊今天起失去 API 存取，替代路徑取決於帳號已能呼叫的資安模型。",
+        "summary_en": "OpenAI's deprecations page lists Oct 1, 2026 as the shutdown date for gpt-5.4-cyber, announced Sep 11, and tells developers to move to the most capable cyber model available to them. The page does not name a single public replacement ID in that row. The model catalog still lists a GPT-5.6 Cyber specialized model for authorized vulnerability research.",
+        "summary_zh": "OpenAI 棄用頁把 gpt-5.4-cyber 的關閉日列為 2026 年 10 月 1 日，該棄用於 9 月 11 日宣布，並要求開發者改用帳戶可用的最強資安模型。該列沒有指定單一公開替代 ID。模型目錄仍列出供授權漏洞研究使用的 GPT-5.6 Cyber。",
+        "analysis_en": "The cutoff is a migration event, not a new cyber model. Teams still on gpt-5.4-cyber lose API access today, and the replacement path depends on which cyber model their account can call.",
+        "analysis_zh": "這是遷移截止，不是新的資安模型。仍使用 gpt-5.4-cyber 的團隊今日起失去 API，替代路徑取決於帳戶能呼叫哪一個資安模型。",
         "quote": "The gpt-5.4-cyber model is deprecated and will be removed from the API on October 1, 2026.",
-        "quote_zh": "gpt-5.4-cyber 模型已棄用，並將於2026年10月1日從 API 移除。",
+        "quote_zh": "gpt-5.4-cyber 模型已棄用，並將於 2026 年 10 月 1 日從 API 移除。",
         "importance": 2,
         "first_seen": "2026-10-01T16:35:01Z",
-        "updated_at": "2026-10-01T16:35:01.756168+00:00",
+        "updated_at": "2026-10-01T22:35:01.595023+00:00",
         "links": [
+          {
+            "label": "OpenAI API Deprecations",
+            "url": "https://developers.openai.com/api/docs/deprecations"
+          },
           {
             "label": "OpenAI API deprecations",
             "url": "https://platform.openai.com/docs/deprecations"
@@ -163,24 +237,47 @@
     ],
     "anthropic": [
       {
+        "id": "anthropic-broadcom-42b-tpu-facility-2026-10-01",
+        "story_id": "anthropic-broadcom-42b-tpu-facility-2026-10-01",
+        "category": "anthropic",
+        "source_type": "news",
+        "title_en": "Reuters: Broadcom may lend Anthropic up to $42 billion for TPU leases",
+        "title_zh": "路透：博通擬貸 Anthropic 至多 420 億美元租用 TPU",
+        "summary_en": "Reuters reported on Oct 1 that Anthropic's IPO prospectus shows Broadcom has agreed to lend Anthropic up to $42 billion to finance infrastructure, covering about one-third of a $125.2 billion five-year TPU lease commitment. The debt could convert into Anthropic shares, and Anthropic does not expect notes to be sold before the IPO. Anthropic declined to comment; the filing itself flags potential conflicts because Broadcom is both supplier and financier.",
+        "summary_zh": "路透 10 月 1 日報導，Anthropic 的 IPO 公開說明書顯示博通同意提供至多 420 億美元貸款，用於基礎設施，約可覆蓋 1,252 億美元、五年期 TPU 租約承諾的三分之一。該債務可轉換為 Anthropic 股份，公司預期 IPO 完成前不會出售票據。Anthropic 拒絕置評；文件也指出博通兼具供應商與融資方，存在潛在利益衝突。",
+        "analysis_en": "This is circular financing risk, not a model launch: Anthropic's compute plan is tied to a counterparty that can also take equity. The facility is disclosed in a filing Reuters reviewed, not announced by Anthropic, and no notes are expected to sell before the IPO.",
+        "analysis_zh": "這是循環融資風險，不是模型發布：算力計畫綁定可能取得股權的交易對手。數字來自路透檢視的文件，而非 Anthropic 主動宣布，且預期 IPO 前不會售出票據。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 4,
+        "first_seen": "2026-10-01T22:35:01Z",
+        "updated_at": "2026-10-01T22:35:01.595023+00:00",
+        "links": [
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/"
+          }
+        ]
+      },
+      {
         "id": "anthropic-barclays-claude-rollout-2026-10-01",
         "story_id": "anthropic-barclays-claude-rollout-2026-10-01",
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic and Barclays expand Claude across the bank",
-        "title_zh": "Anthropic 與巴克萊擴大全行 Claude 部署",
-        "summary_en": "Anthropic said on Oct 1 that Barclays is extending Claude across global operations to speed software work, modernize legacy systems, and improve servicing. The bank expects Claude Code to reach 50% of developers by the end of 2026 and a majority of software engineers in 2027. A Claude knowledge assistant already used by more than 16,000 colleagues has handled over one million searches, and a markets workflow processes about 120,000 emails a day.",
-        "summary_zh": "Anthropic 10月1日宣布，巴克萊正把 Claude 擴到全球營運，用於加速軟體開發、現代化舊系統並改善客戶服務。銀行預期 Claude Code 到2026年底覆蓋50%開發者，2027年涵蓋多數軟體工程師。既有同事知識助理已有逾1.6萬人使用、處理超過100萬次搜尋，市場業務流程每天約處理12萬封郵件。",
-        "analysis_en": "This is an enterprise deployment story, not a model launch: it shows Claude moving into regulated banking workflows with explicit human oversight. The adoption targets are Barclays' expectations, not audited usage, so the productivity claim is still unproven.",
-        "analysis_zh": "這是企業導入而非新模型：Claude 正進入受監管的銀行流程，並強調人工監督。採用比例是巴克萊的預期而非經查核的用量，生產力效果仍未證實。",
+        "title_zh": "Anthropic 與 Barclays 擴大全行 Claude 部署",
+        "summary_en": "Anthropic said on Oct 1 that Barclays is extending Claude across global operations to speed software work, modernize legacy systems, and improve servicing. The bank expects Claude Code to reach 50% of developers by the end of 2026 and a majority of software engineers in 2027. An existing assistant, live since 2025, has more than 16,000 users and over one million searches; markets workflows sort about 120,000 emails a day, with human oversight retained.",
+        "summary_zh": "Anthropic 10 月 1 日表示，Barclays 正把 Claude 擴及全球營運，以加快軟體開發、現代化舊系統並改善服務。銀行預期 Claude Code 到 2026 年底覆蓋 50% 開發者，2027 年覆蓋過半軟體工程師。2025 年起上線的助理已有逾 1.6 萬使用者、超過 100 萬次搜尋；市場業務每日處理約 12 萬封郵件，並保留人工監督。",
+        "analysis_en": "This is an enterprise deployment story, not a model launch: it shows Claude moving into regulated banking workflows with explicit human oversight. The adoption targets are Barclays' expectations, not measured results.",
+        "analysis_zh": "這是企業部署而非模型發布，顯示 Claude 進入受監管銀行流程且保留人工監督。採用目標是 Barclays 的預期，不是已實現的成效。",
         "quote": "Claude now helps 16,000 Barclays’ colleagues find answers for customers, sorts 120,000 emails a day, and will be in the hands of most Barclays engineers by 2027.",
-        "quote_zh": "Claude 現在協助1.6萬名巴克萊同事為客戶找答案、每天整理12萬封郵件，並將在2027年前交到多數巴克萊工程師手中。",
+        "quote_zh": "Claude 目前協助 1.6 萬名 Barclays 同事為客戶找答案，每天分類 12 萬封郵件，並將在 2027 年前交到大多數 Barclays 工程師手中。",
         "importance": 3,
         "first_seen": "2026-10-01T16:35:01Z",
-        "updated_at": "2026-10-01T16:35:01.756168+00:00",
+        "updated_at": "2026-10-01T22:35:01.595023+00:00",
         "links": [
           {
-            "label": "Anthropic Newsroom",
+            "label": "Anthropic News",
             "url": "https://www.anthropic.com/news/barclays-scales-claude"
           },
           {
@@ -192,25 +289,52 @@
     ],
     "google": [
       {
+        "id": "google-gemini-4-argon-gated-launch-2026-10-01",
+        "story_id": "google-gemini-4-argon-gated-launch-2026-10-01",
+        "category": "google",
+        "source_type": "official_blog",
+        "title_en": "Google announces Gemini 4 Argon, limited first to cyber defenders",
+        "title_zh": "Google 公布 Gemini 4 Argon，先僅開放資安防禦者",
+        "summary_en": "On Oct 1, Google said it is announcing Gemini 4 Argon and rolling it out first to trusted cyber defenders in the Fairwind Program, while taking part in a U.S. voluntary pre-release access process. Introductory API pricing is $2 per million input tokens and $10 per million output tokens, with cached input 95% off, and the output limit rises to 1 million tokens from 64K. Broader access is planned to start with paid API customers and Google AI Ultra, with no general-availability date given.",
+        "summary_zh": "Google 於 10 月 1 日表示推出 Gemini 4 Argon，先透過 Fairwind 計畫提供給受信任的資安防禦者，並參與美國自願性發布前存取流程。導入期 API 價格為每百萬輸入 token 2 美元、每百萬輸出 10 美元，快取輸入打 95 折，輸出上限由 6.4 萬提高到 100 萬 token。後續預計先開放付費 API 與 Google AI Ultra，未給一般可用日期。",
+        "analysis_en": "Argon is a flagship-class release on paper, but gated access means it is not yet a market-wide substitute for GPT-6.1 Sol or Claude. The listed internal wins and the Gray Swan prompt-injection claim are vendor-reported, and the post does not say when the intro $2/$10 rate ends.",
+        "analysis_zh": "規格上看是旗艦級發布，但存取仍受限，短期還不能當成 GPT-6.1 Sol 或 Claude 的全面替代。文中內部成效與提示注入韌性均為廠商自述，也未說明導入價何時結束。",
+        "quote": "Today, we're announcing our new frontier model, Gemini 4 Argon, which is rolling out to a set of trusted cyber defenders through our Fairwind Program.",
+        "quote_zh": "今天我們宣布新的前沿模型 Gemini 4 Argon，並透過 Fairwind 計畫向一批受信任的資安防禦者推出。",
+        "importance": 5,
+        "first_seen": "2026-10-01T22:35:01Z",
+        "updated_at": "2026-10-01T22:35:01.595023+00:00",
+        "links": [
+          {
+            "label": "Google Blog",
+            "url": "https://blog.google/intl/en-mena/company-news/technology/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+          }
+        ]
+      },
+      {
         "id": "google-synthid-bio-open-research-2026-10-01",
         "story_id": "google-synthid-bio-open-research-2026-10-01",
         "category": "google",
         "source_type": "mixed",
-        "title_en": "DeepMind highlights open SynthID Bio protein watermarking",
-        "title_zh": "DeepMind 公開 SynthID Bio 蛋白質浮水印工具",
-        "summary_en": "On Oct 1, Google DeepMind posted that SynthID Bio can embed an imperceptible signature in protein sequences without changing biological function, and that the tools are being released on an open basis for research use. The method paper and lab post, dated Sep 30, say watermarked designs matched unwatermarked ones on hit rate and binding across VEGF-A, SARS-CoV-2 spike RBD, and PD-L1, and that code, in-vitro data, and weights are being released to researchers.",
-        "summary_zh": "Google DeepMind 10月1日發文表示，SynthID Bio 可在蛋白質序列嵌入不易察覺的簽名且不影響生物功能，並以開放方式供研究使用。9月30日的方法論文與實驗室文章稱，在 VEGF-A、SARS-CoV-2 棘蛋白 RBD 與 PD-L1 上，帶浮水印設計的命中率與結合力與未加浮水印版本相當，並將向研究社群釋出程式碼、體外實驗數據與權重。",
-        "analysis_en": "If labs adopt it, provenance could move from model logs into the physical sequence, which matters as AI protein design scales. It is still a proof of concept: DeepMind says community uptake and further research are required before it functions as biosecurity infrastructure.",
-        "analysis_zh": "若實驗室採用，來源追溯可從模型日誌延伸到實體序列，對規模化蛋白質設計有意義。目前仍是概念驗證，DeepMind 也說需社群採用與後續研究，才談得上生物安全基建。",
-        "quote": "In a world first, we can now embed an imperceptible signature directly into protein sequences without affecting their biological function.",
-        "quote_zh": "我們現在可在全球首創的做法中，把不易察覺的簽名直接嵌入蛋白質序列，且不影響其生物功能。",
+        "title_en": "DeepMind highlights SynthID Bio protein watermarking",
+        "title_zh": "DeepMind 強調 SynthID Bio 蛋白質浮水印",
+        "summary_en": "Google DeepMind's SynthID Bio post says the method can embed an imperceptible signature in protein sequences without changing biological function in lab tests on VEGF-A, SARS-CoV-2 spike RBD, and PD-L1 binders. A structure method fine-tunes part of AlphaFold 3. On Oct 1, DeepMind pointed to a podcast on provenance covering SynthID and SynthID Bio; the underlying blog is dated Sep 30.",
+        "summary_zh": "Google DeepMind 的 SynthID Bio 文章稱，該方法可在蛋白質序列嵌入難以察覺的簽名，並在 VEGF-A、SARS-CoV-2 棘蛋白 RBD 與 PD-L1 結合劑的實驗中不改變生物功能。結構方法則微調 AlphaFold 3 的一部分。10 月 1 日 DeepMind 以播客討論數位與生物設計的來源標記；原始文章日期為 9 月 30 日。",
+        "analysis_en": "If labs adopt it, provenance could move from model logs into the physical sequence, which matters as AI protein design scales. It is still a proof of concept on three targets, and the Oct 1 post is amplification rather than a new method.",
+        "analysis_zh": "若實驗室採用，來源標記可能從模型日誌進到實體序列，對 AI 蛋白質設計規模化有意義。目前仍是三個靶點的概念驗證，10 月 1 日貼文是延續宣傳而非新方法。",
+        "quote": "SynthID Bio embeds an imperceptible signature directly into the biological code, ensuring the watermark is verifiable not just on a digital model but on the synthesized, physical protein itself.",
+        "quote_zh": "SynthID Bio 把難以察覺的簽名直接嵌入生物編碼，使浮水印不只可在數位模型上驗證，也能在合成出的實體蛋白質上驗證。",
         "importance": 3,
         "first_seen": "2026-10-01T16:35:01Z",
-        "updated_at": "2026-10-01T16:35:01.756168+00:00",
+        "updated_at": "2026-10-01T22:35:01.595023+00:00",
         "links": [
           {
             "label": "Google DeepMind Blog",
             "url": "https://deepmind.google/blog/introducing-synthid-bio/"
+          },
+          {
+            "label": "Google DeepMind on X",
+            "url": "https://x.com/GoogleDeepMind/status/2105707085287567709"
           },
           {
             "label": "Google DeepMind on X",
@@ -223,7 +347,7 @@
     "xai": [],
     "frontier_other": []
   },
-  "brief_en": "In the last 12 hours Anthropic expanded Claude with Barclays, DeepMind pushed open SynthID Bio protein watermarking, and Sam Altman said GPT-6.1 Sol load had eased. No new flagship model launched in the window.",
-  "brief_zh": "近12小時：Anthropic擴大巴克萊Claude部署，DeepMind公開蛋白質浮水印SynthID Bio，Altman稱GPT-6.1 Sol負載已緩解。無新旗艦模型。",
-  "updated_at": "2026-10-01T16:35:01.756168+00:00"
+  "brief_en": "Google posted Gemini 4 Argon on Oct 1, gated to cyber defenders at an intro $2/$10 per million tokens and a 1M output cap. Reuters reported Broadcom may lend Anthropic up to $42B for TPU leases. Anthropic expanded Claude at Barclays; OpenAI shut down gpt-5.4-cyber and Altman said Sol load is easing.",
+  "brief_zh": "Argon先限資安方。博通或貸Anthropic至多420億。Barclays擴用Claude，OpenAI停舊模型。",
+  "updated_at": "2026-10-01T22:35:01.595023+00:00"
 }
