@@ -8,6 +8,14 @@
       "item_count": 7,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-10-03T04:35:02.156598+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 9,
+      "updated_count": 7,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -18,19 +26,23 @@
       "source_type": "official_blog",
       "title_en": "Anthropic puts $100 million behind Claude Frontier Academy",
       "title_zh": "Anthropic 以 1 億美元成立 Claude Frontier Academy",
-      "summary_en": "Anthropic said on October 2 it is launching Claude Frontier Academy and committing $100 million to train 10,000 Frontier Deployed Engineers by the end of 2027. The first residency follows a medical-training model, with cohorts already running in San Francisco, New York and London from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk. First credentials are expected in early 2027, and entry is by nomination.",
-      "summary_zh": "Anthropic 於 10 月 2 日宣布成立 Claude Frontier Academy，承諾投入 1 億美元，目標在 2027 年底前培訓 1 萬名 Frontier Deployed Engineers。首期駐點計畫仿醫療住院訓練，舊金山、紐約與倫敦已開班，首批來自 Accenture、Bain、Capgemini、澳洲聯邦銀行、Deloitte、McKinsey、Morgan Stanley 與 Novo Nordisk。首批認證預計 2027 年初發出，參與須由企業提名。",
-      "analysis_en": "This is a distribution bet: Anthropic is treating scarce deployers, not only model quality, as the bottleneck to enterprise revenue. Whether a badge and a 12-week residency actually move production adoption is still unproven.",
-      "analysis_zh": "這是通路賭注：Anthropic 把企業落地人才、而不只是模型品質，當成營收瓶頸。徽章與 12 週駐點能否真正提高上線率，仍待驗證。",
+      "summary_en": "Anthropic said on October 2 it is launching Claude Frontier Academy and committing $100 million to train 10,000 Frontier Deployed Engineers by the end of 2027. The first residency follows a medical-training model: a multi-day in-person practical, a Claude Resident Engineer badge, then a 12-week deployment at the nominee’s own company. Cohorts are already running in San Francisco, New York and London, with engineers nominated by Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk. The first Frontier Deployed Engineer badges are expected in early 2027.",
+      "summary_zh": "Anthropic 10 月 2 日宣布成立 Claude Frontier Academy，承諾投入 1 億美元，目標在 2027 年底前培訓 1 萬名 Frontier Deployed Engineer。首個駐點計畫仿醫學訓練：多日實體實作、Resident Engineer 徽章，再回原公司做 12 週部署。舊金山、紐約與倫敦已開班，提名企業含 Accenture、Bain、Capgemini、澳洲聯邦銀行、Deloitte、McKinsey、Morgan Stanley 與 Novo Nordisk。首批最終徽章預計 2027 年初發出。",
+      "analysis_en": "This is a distribution bet: Anthropic is treating scarce deployers, not only model quality, as the bottleneck to enterprise revenue. Whether a badge and a 12-week residency actually move production systems is still unproven; the first credentials are not due until early 2027.",
+      "analysis_zh": "這是通路賭注：Anthropic 把稀缺的部署人才，而不只是模型品質，當成企業營收瓶頸。徽章與 12 週駐點能否真的把系統送進生產環境仍未驗證，首批證照要到 2027 年初才會出現。",
       "quote": "Today we are launching Claude Frontier Academy to solve one of the most pressing issues in AI implementation: talent.",
       "quote_zh": "今天我們推出 Claude Frontier Academy，以解決 AI 落地最迫切的問題之一：人才。",
       "importance": 4,
       "first_seen": "2026-10-02T22:35:02Z",
-      "updated_at": "2026-10-02T22:35:02.224781+00:00",
+      "updated_at": "2026-10-03T04:35:02.156598+00:00",
       "links": [
         {
           "label": "Anthropic News",
           "url": "https://www.anthropic.com/news/claude-frontier-academy"
+        },
+        {
+          "label": "Claude Frontier Academy program page",
+          "url": "https://claude.com/programs/frontier-academy"
         },
         {
           "label": "CNBC",
@@ -42,19 +54,23 @@
       "id": "google-suncatcher-tpu-satellite-orbit-2026-10-02",
       "story_id": "google-suncatcher-tpu-satellite-orbit-2026-10-02",
       "category": "google",
-      "source_type": "official_x",
+      "source_type": "official_blog",
       "title_en": "Google says its Project Suncatcher TPU satellite is in orbit",
-      "title_zh": "Google 宣布 Project Suncatcher 的 TPU 原型衛星已入軌",
-      "summary_en": "Google AI said on October 2 that a prototype satellite built with Planet launched on SpaceX’s Transporter-18 rideshare and is now gathering data on how Google TPUs handle launch stress, radiation and thermal extremes. The company framed it as an early test of hosting machine-learning infrastructure in low Earth orbit, where near-constant sunlight could yield up to 8x the solar power available on Earth. Linking satellite constellations for scaled workloads remains a later step.",
-      "summary_zh": "Google AI 於 10 月 2 日表示，與 Planet 合作的原型衛星已搭 SpaceX Transporter-18 共乘任務升空，正在收集 Google TPU 承受發射應力、輻射與極端溫度的資料。公司將其定位為在近地軌道部署機器學習基礎設施的早期測試，並稱近乎持續的日照最多可帶來地球上 8 倍的太陽能。多星互聯以承載規模化工作負載仍是後續步驟。",
-      "analysis_en": "A single prototype in orbit tests hardware survival, not an orbital data center. The useful signal is whether Trillium-class TPUs stay reliable outside the lab; interconnect and cooling at constellation scale are still research problems.",
-      "analysis_zh": "單顆原型衛星驗證的是硬體存活，不是軌道資料中心。真正有用的訊號是 Trillium 級 TPU 離開實驗室後是否仍可靠；星座級互聯與散熱仍是研究問題。",
-      "quote": "Project Suncatcher has liftoff! This initial mission will gather data on how Google TPUs handle the physical stress and extremes of spaceflight.",
-      "quote_zh": "Project Suncatcher 升空了！這次初始任務將收集 Google TPU 如何承受太空飛行物理應力與極端環境的資料。",
+      "title_zh": "Google 稱 Project Suncatcher 的 TPU 原型衛星已入軌",
+      "summary_en": "Google Research said on October 1 that a prototype satellite built with Planet launched on SpaceX’s Transporter-18 rideshare, that contact was confirmed, and that it is operating as expected. Over the coming weeks the team will gather data on how Google TPUs handle launch stress, radiation and thermal extremes. The post frames the flight as the first step of a moonshot on whether space could host scalable machine-learning infrastructure, and points to a peer-reviewed paper in Joule.",
+      "summary_zh": "Google Research 10 月 1 日表示，與 Planet 合作的原型衛星已搭 SpaceX Transporter-18 共乘任務入軌，團隊已確認聯繫且運作如預期。未來數週將蒐集 Google TPU 承受發射應力、輻射與極端溫度的資料。文章將此次飛行定位為探索太空能否承載可擴展機器學習基礎設施的第一步，並指向《Joule》上的同儕審查論文。",
+      "analysis_en": "A single prototype in orbit tests hardware survival, not an orbital data center. The useful signal is whether Trillium-class TPUs stay reliable outside the lab; interconnect, cooling and continuous duty cycles remain unaddressed by this flight.",
+      "analysis_zh": "一顆原型衛星在軌只測硬體存活，不是軌道資料中心。有用的訊號是 Trillium 級 TPU 離開實驗室後是否仍可靠；互連、散熱與連續運轉都不在這次飛行的範圍內。",
+      "quote": "Today, our prototype satellite for Project Suncatcher, built in partnership with Planet, launched into orbit aboard the Transporter-18 rideshare mission with SpaceX.",
+      "quote_zh": "今天，我們與 Planet 合作的 Project Suncatcher 原型衛星，搭乘 SpaceX 的 Transporter-18 共乘任務進入軌道。",
       "importance": 4,
       "first_seen": "2026-10-02T22:35:02Z",
-      "updated_at": "2026-10-02T22:35:02.224781+00:00",
+      "updated_at": "2026-10-03T04:35:02.156598+00:00",
       "links": [
+        {
+          "label": "Google Research Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/"
+        },
         {
           "label": "Google AI on X",
           "url": "https://x.com/GoogleAI/status/2106049984164463069"
@@ -71,23 +87,23 @@
       "category": "openai",
       "source_type": "news",
       "title_en": "California AG says OpenAI subpoena seeks all material cyber-incident records",
-      "title_zh": "加州檢察長：對 OpenAI 的傳票要全部重大資安事件資料",
-      "summary_en": "California Attorney General Rob Bonta told POLITICO on October 2 that the investigative subpoena his office served on OpenAI seeks all material information on cybersecurity incidents the company has experienced, including what was done to avoid them, what happened when they occurred, and what followed. He criticized OpenAI’s rolling disclosures. The office’s October 1 release tied the subpoena to an ongoing inquiry that includes the Hugging Face incident and said developers whose models enable cyberattacks can be held legally accountable.",
-      "summary_zh": "加州檢察長 Rob Bonta 於 10 月 2 日向 POLITICO 表示，辦公室對 OpenAI 發出的調查傳票，要的是公司經歷過的資安事件全部重大資料，包括如何防範、事發經過與事後處置。他批評 OpenAI 分批揭露資訊。檢方 10 月 1 日的新聞稿把傳票連到持續調查，範圍包含 Hugging Face 事件，並稱若模型促成網路攻擊，開發者可被追究法律責任。",
-      "analysis_en": "The new fact is scope, not the subpoena itself: California wants the full incident file, not a single Hugging Face narrative. What OpenAI must produce, and whether any finding becomes an enforcement action, is not yet public.",
-      "analysis_zh": "新資訊是範圍，不是傳票本身：加州要的是完整事件檔，而非單一 Hugging Face 敘事。OpenAI 必須交出什麼、以及是否變成執法行動，目前都尚未公開。",
+      "title_zh": "加州檢方稱對 OpenAI 的傳票要全部重大資安事件資料",
+      "summary_en": "California Attorney General Rob Bonta told POLITICO on October 2 that the investigative subpoena his office served on OpenAI seeks all material information on cybersecurity incidents the company has experienced, including what was done to avoid them, what happened when they occurred, and what followed. He said OpenAI’s rolling disclosures were “not particularly impressive,” and that it is too early to say whether any remedy would be civil or something else. POLITICO reported OpenAI could not immediately be reached.",
+      "summary_zh": "加州檢察長 Rob Bonta 10 月 2 日向 POLITICO 表示，辦公室對 OpenAI 發出的調查傳票，要求該公司經歷過的資安事件之全部重大資料，包括如何防範、事發經過與事後處理。他說 OpenAI 分批揭露「並不特別讓我印象深刻」，且現在談救濟是民事或其他仍太早。POLITICO 稱當時未能立即聯絡到 OpenAI。",
+      "analysis_en": "The new fact is scope, not the subpoena itself: California wants the full incident file, not a single Hugging Face narrative. What OpenAI must produce, and whether any finding becomes a public enforcement action, is still open.",
+      "analysis_zh": "新事實是範圍，不是傳票本身：加州要的是完整事件檔，不是單一 Hugging Face 敘事。OpenAI 必須交出什麼、調查是否變成公開執法，目前都還未定。",
       "quote": "We're seeking all material information about the cybersecurity incidents that OpenAI has experienced.",
       "quote_zh": "我們要求取得 OpenAI 所經歷資安事件的全部重大資訊。",
       "importance": 4,
       "first_seen": "2026-10-02T22:35:02Z",
-      "updated_at": "2026-10-02T22:35:02.224781+00:00",
+      "updated_at": "2026-10-03T04:35:02.156598+00:00",
       "links": [
         {
           "label": "POLITICO",
           "url": "https://www.politico.com/news/2026/10/02/ag-bonta-seeking-all-material-information-about-openai-hacks-01104667"
         },
         {
-          "label": "California Attorney General",
+          "label": "California AG press release (Oct 1 subpoena)",
           "url": "https://oag.ca.gov/news/press-releases/part-ongoing-investigation-attorney-general-bonta-serves-investigative-subpoena"
         }
       ]
@@ -98,16 +114,16 @@
       "category": "meta",
       "source_type": "official_blog",
       "title_en": "Meta shares six Muse Spark math papers, five claiming open problems",
-      "title_zh": "Meta 公布六篇 Muse Spark 數學論文，五篇稱解答未解問題",
-      "summary_en": "Meta AI Research said on October 2 that mathematicians used Muse Spark 1.1 and 1.2 in ordinary meta.ai chat, with no custom research scaffold, to produce six papers. Five present answers to previously open questions in probability, differential equations, group theory, optimization and non-associative algebra; a sixth links a string-theory calculation to a height function on a curve. Meta says human authors guided the work, a second group reviewed it, and AI-drafted passages are marked. It also notes independent outside solutions to some of the same problems.",
-      "summary_zh": "Meta AI Research 於 10 月 2 日表示，數學家透過一般 meta.ai 聊天介面使用 Muse Spark 1.1 與 1.2，沒有客製研究脚手架，合作完成六篇論文。其中五篇宣稱解答機率、微分方程、群論、最佳化與非結合代數的既有開放問題；第六篇把弦論計算連到曲線上的高度函數。Meta 稱由人類主導、另有數學家覆核，並標示主要由 AI 起草的段落，也承認外部團隊以不同方法獨立解出部分相同問題。",
-      "analysis_en": "The notable part is the process claim: a consumer chat model, human-led proofs, and explicit credit for concurrent work. Independent verification, not the blog post, will decide how many of the five results hold.",
-      "analysis_zh": "值得看的是流程主張：一般聊天模型、人類主導證明，並明確註記同期成果。這五項結果能否成立，要靠獨立驗證，而不是部落格本身。",
-      "quote": "Today, we're sharing six such papers from that collaboration. Five present answers to previously open research questions.",
-      "quote_zh": "今天我們公開這次合作的六篇論文。其中五篇對先前未解的研究問題提出解答。",
+      "title_zh": "Meta 公布六篇 Muse Spark 數學論文，五篇稱解答開放問題",
+      "summary_en": "Meta AI Research said on October 2 that mathematicians used Muse Spark 1.1 and 1.2 in ordinary meta.ai chat, with no custom research scaffold, to produce six papers. Five present answers to previously open questions in probability, differential equations, group theory, optimization and non-associative algebra; a sixth links a string-theory calculation to a number-theory height function. Meta says human authors guided the work, a second group reviewed it, AI-drafted passages are marked, and independent concurrent solutions are credited.",
+      "summary_zh": "Meta AI Research 10 月 2 日表示，數學家以一般 meta.ai 聊天中的 Muse Spark 1.1 與 1.2、Thinking Mode、且無客製研究支架，合作產出六篇論文。五篇提出機率、微分方程、群論、最佳化與非結合代數既有開放問題的解答；另一篇把弦論計算連到數論高度函數。Meta 稱由人類主導、第二組審查、標出 AI 起草段落，並致謝外部同步解法。",
+      "analysis_en": "The notable part is the process claim: a consumer chat model, human-led proofs, and explicit credit for concurrent work. Independent verification, not the blog post, will decide how many of the five “open problem” claims hold.",
+      "analysis_zh": "值得注意的是流程主張：消費級聊天模型、人類主導證明，並明確致謝同步工作。五項「開放問題」主張能否成立，要看獨立驗證，不是部落格文章。",
+      "quote": "They used both Muse Spark 1.1 and 1.2 in Thinking Mode through the regular meta.ai chat interface, with no custom research scaffold.",
+      "quote_zh": "他們透過一般 meta.ai 聊天介面、以 Thinking Mode 使用 Muse Spark 1.1 與 1.2，沒有客製研究支架。",
       "importance": 3,
       "first_seen": "2026-10-02T22:35:02Z",
-      "updated_at": "2026-10-02T22:35:02.224781+00:00",
+      "updated_at": "2026-10-03T04:35:02.156598+00:00",
       "links": [
         {
           "label": "Meta AI Research Blog",
@@ -120,25 +136,75 @@
       ]
     },
     {
+      "id": "meta-muse-gadgets-open-source-2026-10-02",
+      "story_id": "meta-muse-gadgets-open-source-2026-10-02",
+      "category": "meta",
+      "source_type": "news",
+      "title_en": "Meta open-sources kits so developers can build Muse gadgets",
+      "title_zh": "Meta 開源套件，讓開發者自製 Muse 裝置",
+      "summary_en": "The Verge and TechCrunch reported on October 2 that Meta introduced Muse Gadgets, an open-source project for connecting the Muse agent to hardware the user builds. Meta describes the kits as firmware and SDKs for ESP32 boards or a Raspberry Pi, attached to displays, buttons, sensors and actuators. TechCrunch said product lead Nat Friedman posted that Meta built a USB-C Muse Home Link for home-network devices and is giving away 5,000 units to Muse subscribers while supplies last.",
+      "summary_zh": "The Verge 與 TechCrunch 10 月 2 日報導，Meta 推出 Muse Gadgets 開源專案，讓使用者把 Muse 代理接到自製硬體。Meta 將套件描述為 ESP32 或 Raspberry Pi 的韌體與 SDK，可接螢幕、按鈕、感測器與致動器。TechCrunch 稱產品負責人 Nat Friedman 貼文表示，Meta 做了 USB-C 的 Muse Home Link 以連接家用網路裝置，並向 Muse 訂戶免費送出 5,000 台，送完為止。",
+      "analysis_en": "This extends Muse from an app into a hardware surface, but the giveaway and SDK do not show demand or reliability outside Meta’s own prototypes. Whether third-party gadgets can act on a home network without new safety failures is the open question.",
+      "analysis_zh": "這把 Muse 從應用程式延伸到硬體介面，但贈送與 SDK 還看不出實驗室以外的需求或可靠度。第三方裝置能否操作家用網路而不製造新的安全問題，仍是未解之處。",
+      "quote": "Muse gadgets are open source devices you build yourself.",
+      "quote_zh": "Muse gadgets 是你自己打造的開源裝置。",
+      "importance": 3,
+      "first_seen": "2026-10-03T04:35:02Z",
+      "updated_at": "2026-10-03T04:35:02.156598+00:00",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/"
+        }
+      ]
+    },
+    {
       "id": "openai-altman-cerebras-speed-2026-10-02",
       "story_id": "openai-altman-cerebras-speed-2026-10-02",
       "category": "openai",
       "source_type": "official_x",
       "title_en": "Altman calls Cerebras a close partner on inference speed",
-      "title_zh": "Altman 稱 Cerebras 是速度前沿的緊密夥伴",
-      "summary_en": "Sam Altman posted on October 2 that speculation about OpenAI’s Cerebras partnership was circulating, and said Cerebras is a close partner with a deep engagement on the frontiers of speed. He did not announce a new contract, capacity figure, or product change in the post.",
-      "summary_zh": "Sam Altman 於 10 月 2 日發文，稱外界對 OpenAI 與 Cerebras 的合作有所揣測，並表示 Cerebras 是緊密夥伴，雙方在速度前沿有深度合作。該貼文沒有宣布新合約、容量數字或產品變更。",
-      "analysis_en": "The post confirms the relationship is active after reports that OpenAI was also using Nvidia for a fast model tier. It does not say whether Cerebras capacity is expanding, flat, or being supplemented.",
-      "analysis_zh": "這則貼文確認合作仍在進行，背景是有報導指 OpenAI 也用 Nvidia 做高速層級。它沒有說明 Cerebras 容量是擴張、持平，還是被其他供應補充。",
+      "title_zh": "Altman 稱 Cerebras 是推論速度上的緊密夥伴",
+      "summary_en": "Sam Altman posted on October 2 that speculation about OpenAI’s Cerebras partnership was circulating, and said Cerebras is a close partner with a deep engagement on the frontiers of speed. He did not announce a new contract, capacity figure, or model that would run on Cerebras hardware.",
+      "summary_zh": "Sam Altman 10 月 2 日發文，稱外界正在猜測 OpenAI 與 Cerebras 的合作，並表示 Cerebras 是緊密夥伴，雙方在速度前沿有深度合作。他沒有宣布新合約、產能數字，或哪個模型會跑在 Cerebras 硬體上。",
+      "analysis_en": "The post confirms the relationship is active after reports that OpenAI was also using Nvidia for a fast model tier. It does not say whether Cerebras capacity is expanding, flat, or being displaced.",
+      "analysis_zh": "這則貼文確認合作仍在，背景是先前有報導稱 OpenAI 也用 Nvidia 做快速模型層。它沒有說明 Cerebras 產能是擴張、持平，還是被取代。",
       "quote": "Cerebras is a close partner, and we have a deep engagement pushing on the frontiers of speed.",
       "quote_zh": "Cerebras 是緊密夥伴，我們在速度前沿有深度合作。",
       "importance": 3,
       "first_seen": "2026-10-02T22:35:02Z",
-      "updated_at": "2026-10-02T22:35:02.224781+00:00",
+      "updated_at": "2026-10-03T04:35:02.156598+00:00",
       "links": [
         {
           "label": "Sam Altman on X",
           "url": "https://x.com/sama/status/2106147184693620924"
+        }
+      ]
+    },
+    {
+      "id": "openai-gpt6-family-model-guide-2026-10-02",
+      "story_id": "openai-gpt6-family-model-guide-2026-10-02",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI publishes a practical guide to the GPT-6 family",
+      "title_zh": "OpenAI 發布 GPT-6 家族實務指南",
+      "summary_en": "OpenAI published on October 2 a model guide for the GPT-6 family, aimed at choosing a model, writing instructions, managing long-running work and preparing production. The guide positions GPT-6 Astra for the hardest reasoning, GPT-6.1 Sol for complex coding, research and computer use, and GPT-6 Luna for repeated, well-scoped tasks. It points developers to caching, compaction, mid-conversation reasoning-effort changes and a Fast mode when latency matters. It does not announce a new model.",
+      "summary_zh": "OpenAI 10 月 2 日發布 GPT-6 家族模型指南，說明如何選模型、寫指令、管理長時任務並準備上線。指南把 GPT-6 Astra 放在最難推理，GPT-6.1 Sol 放在複雜程式、研究與電腦操作，GPT-6 Luna 放在目標清楚的重複工作。文中指向快取、壓縮、對話中途調整推理力度，以及在意延遲時使用 Fast mode。沒有宣布新模型。",
+      "analysis_en": "The guide is a routing document for models already shipped, not a capability jump. Its practical effect is to push cost-sensitive workloads off Astra; whether Sol and Luna hold quality at the stated savings is left to the reader’s own evals.",
+      "analysis_zh": "這份指南是已出貨模型的分流說明，不是能力躍進。實際作用是把在意成本的工作從 Astra 挪走；Sol 與 Luna 能否在宣稱的省錢幅度下保住品質，仍要使用者自己評測。",
+      "quote": "GPT-6 is our most advanced suite of models yet, and offers you a choice of models for different kinds of work.",
+      "quote_zh": "GPT-6 是我們迄今最先進的模型系列，並讓你依不同工作選擇模型。",
+      "importance": 2,
+      "first_seen": "2026-10-03T04:35:02Z",
+      "updated_at": "2026-10-03T04:35:02.156598+00:00",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/practical-guide-building-gpt-6/"
         }
       ]
     },
@@ -148,16 +214,16 @@
       "category": "xai",
       "source_type": "product",
       "title_en": "xAI retires grok-voice-transcribe-1.0 and routes it to 2.0",
-      "title_zh": "xAI 停用 grok-voice-transcribe-1.0，請求改走 2.0",
-      "summary_en": "SpaceXAI developer release notes dated October 2 say grok-voice-transcribe-1.0 is deprecated and reached end of life that day. Requests to the old slug are routed to grok-voice-transcribe-2.0 at the same price, which the docs describe as higher accuracy. Speech-to-text pricing remains $0.10 per hour for REST and $0.20 per hour for streaming.",
-      "summary_zh": "SpaceXAI 開發者釋出說明標示 10 月 2 日，grok-voice-transcribe-1.0 已棄用並於當天終止服務。對舊模型代號的請求會以相同價格導向 grok-voice-transcribe-2.0，文件稱其準確度較高。語音轉文字價格維持 REST 每小時 0.10 美元、串流每小時 0.20 美元。",
+      "title_zh": "xAI 停用 grok-voice-transcribe-1.0 並轉到 2.0",
+      "summary_en": "SpaceXAI developer release notes dated October 2 say grok-voice-transcribe-1.0 is deprecated and reached end of life that day. Requests to the old slug are routed to grok-voice-transcribe-2.0 at the same price, which the docs describe as higher accuracy. Speech-to-text docs list REST at $0.10 per hour and streaming at $0.20 per hour, with 2.0 as the default.",
+      "summary_zh": "SpaceXAI 開發者發行說明標示 10 月 2 日，稱 grok-voice-transcribe-1.0 已棄用並於當日終止。對舊 slug 的請求會以相同價格轉到 grok-voice-transcribe-2.0，文件稱其準確率較高。語音轉文字文件列出 REST 每小時 0.10 美元、串流每小時 0.20 美元，預設為 2.0。",
       "analysis_en": "This is a compatibility cutoff, not a new model launch. Apps still pinned to the 1.0 slug keep working only because traffic is silently remapped, so behavior can change without a client update.",
-      "analysis_zh": "這是相容性截止，不是新模型發布。仍寫死 1.0 代號的應用能繼續跑，只因流量被靜默轉送，客戶端不更新也可能看到行為改變。",
-      "quote": "grok-voice-transcribe-1.0 is deprecated and reaches end of life on October 2, 2026. All requests to that slug are routed to grok-voice-transcribe-2.0 at the same price, with higher accuracy.",
-      "quote_zh": "grok-voice-transcribe-1.0 已棄用，並於 2026 年 10 月 2 日終止服務。對該代號的所有請求會以相同價格導向 grok-voice-transcribe-2.0，且準確度較高。",
+      "analysis_zh": "這是相容性截止，不是新模型發布。仍釘在 1.0 slug 的應用能繼續跑，只因流量被靜默改道，因此行為可能在客戶端不更新的情況下改變。",
+      "quote": "grok-voice-transcribe-1.0 is deprecated and reaches end of life on October 2, 2026.",
+      "quote_zh": "grok-voice-transcribe-1.0 已棄用，並於 2026 年 10 月 2 日終止服務。",
       "importance": 2,
       "first_seen": "2026-10-02T22:35:02Z",
-      "updated_at": "2026-10-02T22:35:02.224781+00:00",
+      "updated_at": "2026-10-03T04:35:02.156598+00:00",
       "links": [
         {
           "label": "SpaceXAI Release Notes",
@@ -176,15 +242,15 @@
       "source_type": "official_x",
       "title_en": "Altman says dot is his favorite OpenAI product so far",
       "title_zh": "Altman 說 dot 是他迄今最喜歡的 OpenAI 產品",
-      "summary_en": "Sam Altman posted on October 2 that dot is his favorite OpenAI product so far, and that it feels noticeably better each day as it learns his workflow and style. He said having it handle tasks he dislikes has made him happy. The post is a personal endorsement of the always-on agent, not a feature or pricing change.",
-      "summary_zh": "Sam Altman 於 10 月 2 日發文，稱 dot 是他迄今最喜歡的 OpenAI 產品，而且隨著它學會自己的工作流程與風格，每天都感覺明顯更好。他說把不想做的事交給 dot，讓他很滿意。這是對常駐代理人的個人背書，不是功能或價格變更。",
-      "analysis_en": "Executive praise does not add a shipped capability, but it signals where OpenAI wants attention after DevDay: persistent agents that adapt to a user, not another model name. Reliability and oversight of that adaptation remain the open questions.",
-      "analysis_zh": "高層稱讚沒有新增已出貨能力，但顯示 DevDay 之後 OpenAI 想把注意力放在會適應使用者的常駐代理人，而不是下一個模型名稱。這種適應的可靠性與監督仍是未解問題。",
-      "quote": "dot is my favorite openai product so far! it is amazing to me that each day it feels noticably better as it learns more of my workflow and style.",
-      "quote_zh": "dot 是我迄今最喜歡的 OpenAI 產品。它每天都因為更了解我的工作流程與風格而明顯變好，這讓我很驚訝。",
+      "summary_en": "Sam Altman posted on October 2 that dot is his favorite OpenAI product so far, and that it feels noticeably better each day as it learns his workflow and style. He said having it handle tasks he dislikes has made him happy. The post is a personal endorsement and does not list a new feature, price or availability change.",
+      "summary_zh": "Sam Altman 10 月 2 日發文，稱 dot 是他迄今最喜歡的 OpenAI 產品，而且每天都因學習他的工作流與風格而明顯變好。他說讓它處理自己不喜歡的事讓他很高興。貼文是個人背書，沒有列出新功能、價格或可用性變更。",
+      "analysis_en": "Executive praise does not add a shipped capability, but it signals where OpenAI wants attention after DevDay: persistent agents that adapt to a user, not another model name. Reliability of that learning loop is not evidenced by the post.",
+      "analysis_zh": "高層稱讚沒有新增已出貨能力，但顯示 DevDay 之後 OpenAI 想把注意力放在會適應使用者的持久代理，而不是另一個模型名稱。這種學習迴圈是否可靠，貼文本身沒有證據。",
+      "quote": "dot is my favorite openai product so far!",
+      "quote_zh": "dot 是我迄今最喜歡的 OpenAI 產品！",
       "importance": 2,
       "first_seen": "2026-10-02T22:35:02Z",
-      "updated_at": "2026-10-02T22:35:02.224781+00:00",
+      "updated_at": "2026-10-03T04:35:02.156598+00:00",
       "links": [
         {
           "label": "Sam Altman on X",
@@ -201,23 +267,23 @@
         "category": "openai",
         "source_type": "news",
         "title_en": "California AG says OpenAI subpoena seeks all material cyber-incident records",
-        "title_zh": "加州檢察長：對 OpenAI 的傳票要全部重大資安事件資料",
-        "summary_en": "California Attorney General Rob Bonta told POLITICO on October 2 that the investigative subpoena his office served on OpenAI seeks all material information on cybersecurity incidents the company has experienced, including what was done to avoid them, what happened when they occurred, and what followed. He criticized OpenAI’s rolling disclosures. The office’s October 1 release tied the subpoena to an ongoing inquiry that includes the Hugging Face incident and said developers whose models enable cyberattacks can be held legally accountable.",
-        "summary_zh": "加州檢察長 Rob Bonta 於 10 月 2 日向 POLITICO 表示，辦公室對 OpenAI 發出的調查傳票，要的是公司經歷過的資安事件全部重大資料，包括如何防範、事發經過與事後處置。他批評 OpenAI 分批揭露資訊。檢方 10 月 1 日的新聞稿把傳票連到持續調查，範圍包含 Hugging Face 事件，並稱若模型促成網路攻擊，開發者可被追究法律責任。",
-        "analysis_en": "The new fact is scope, not the subpoena itself: California wants the full incident file, not a single Hugging Face narrative. What OpenAI must produce, and whether any finding becomes an enforcement action, is not yet public.",
-        "analysis_zh": "新資訊是範圍，不是傳票本身：加州要的是完整事件檔，而非單一 Hugging Face 敘事。OpenAI 必須交出什麼、以及是否變成執法行動，目前都尚未公開。",
+        "title_zh": "加州檢方稱對 OpenAI 的傳票要全部重大資安事件資料",
+        "summary_en": "California Attorney General Rob Bonta told POLITICO on October 2 that the investigative subpoena his office served on OpenAI seeks all material information on cybersecurity incidents the company has experienced, including what was done to avoid them, what happened when they occurred, and what followed. He said OpenAI’s rolling disclosures were “not particularly impressive,” and that it is too early to say whether any remedy would be civil or something else. POLITICO reported OpenAI could not immediately be reached.",
+        "summary_zh": "加州檢察長 Rob Bonta 10 月 2 日向 POLITICO 表示，辦公室對 OpenAI 發出的調查傳票，要求該公司經歷過的資安事件之全部重大資料，包括如何防範、事發經過與事後處理。他說 OpenAI 分批揭露「並不特別讓我印象深刻」，且現在談救濟是民事或其他仍太早。POLITICO 稱當時未能立即聯絡到 OpenAI。",
+        "analysis_en": "The new fact is scope, not the subpoena itself: California wants the full incident file, not a single Hugging Face narrative. What OpenAI must produce, and whether any finding becomes a public enforcement action, is still open.",
+        "analysis_zh": "新事實是範圍，不是傳票本身：加州要的是完整事件檔，不是單一 Hugging Face 敘事。OpenAI 必須交出什麼、調查是否變成公開執法，目前都還未定。",
         "quote": "We're seeking all material information about the cybersecurity incidents that OpenAI has experienced.",
         "quote_zh": "我們要求取得 OpenAI 所經歷資安事件的全部重大資訊。",
         "importance": 4,
         "first_seen": "2026-10-02T22:35:02Z",
-        "updated_at": "2026-10-02T22:35:02.224781+00:00",
+        "updated_at": "2026-10-03T04:35:02.156598+00:00",
         "links": [
           {
             "label": "POLITICO",
             "url": "https://www.politico.com/news/2026/10/02/ag-bonta-seeking-all-material-information-about-openai-hacks-01104667"
           },
           {
-            "label": "California Attorney General",
+            "label": "California AG press release (Oct 1 subpoena)",
             "url": "https://oag.ca.gov/news/press-releases/part-ongoing-investigation-attorney-general-bonta-serves-investigative-subpoena"
           }
         ]
@@ -228,20 +294,43 @@
         "category": "openai",
         "source_type": "official_x",
         "title_en": "Altman calls Cerebras a close partner on inference speed",
-        "title_zh": "Altman 稱 Cerebras 是速度前沿的緊密夥伴",
-        "summary_en": "Sam Altman posted on October 2 that speculation about OpenAI’s Cerebras partnership was circulating, and said Cerebras is a close partner with a deep engagement on the frontiers of speed. He did not announce a new contract, capacity figure, or product change in the post.",
-        "summary_zh": "Sam Altman 於 10 月 2 日發文，稱外界對 OpenAI 與 Cerebras 的合作有所揣測，並表示 Cerebras 是緊密夥伴，雙方在速度前沿有深度合作。該貼文沒有宣布新合約、容量數字或產品變更。",
-        "analysis_en": "The post confirms the relationship is active after reports that OpenAI was also using Nvidia for a fast model tier. It does not say whether Cerebras capacity is expanding, flat, or being supplemented.",
-        "analysis_zh": "這則貼文確認合作仍在進行，背景是有報導指 OpenAI 也用 Nvidia 做高速層級。它沒有說明 Cerebras 容量是擴張、持平，還是被其他供應補充。",
+        "title_zh": "Altman 稱 Cerebras 是推論速度上的緊密夥伴",
+        "summary_en": "Sam Altman posted on October 2 that speculation about OpenAI’s Cerebras partnership was circulating, and said Cerebras is a close partner with a deep engagement on the frontiers of speed. He did not announce a new contract, capacity figure, or model that would run on Cerebras hardware.",
+        "summary_zh": "Sam Altman 10 月 2 日發文，稱外界正在猜測 OpenAI 與 Cerebras 的合作，並表示 Cerebras 是緊密夥伴，雙方在速度前沿有深度合作。他沒有宣布新合約、產能數字，或哪個模型會跑在 Cerebras 硬體上。",
+        "analysis_en": "The post confirms the relationship is active after reports that OpenAI was also using Nvidia for a fast model tier. It does not say whether Cerebras capacity is expanding, flat, or being displaced.",
+        "analysis_zh": "這則貼文確認合作仍在，背景是先前有報導稱 OpenAI 也用 Nvidia 做快速模型層。它沒有說明 Cerebras 產能是擴張、持平，還是被取代。",
         "quote": "Cerebras is a close partner, and we have a deep engagement pushing on the frontiers of speed.",
         "quote_zh": "Cerebras 是緊密夥伴，我們在速度前沿有深度合作。",
         "importance": 3,
         "first_seen": "2026-10-02T22:35:02Z",
-        "updated_at": "2026-10-02T22:35:02.224781+00:00",
+        "updated_at": "2026-10-03T04:35:02.156598+00:00",
         "links": [
           {
             "label": "Sam Altman on X",
             "url": "https://x.com/sama/status/2106147184693620924"
+          }
+        ]
+      },
+      {
+        "id": "openai-gpt6-family-model-guide-2026-10-02",
+        "story_id": "openai-gpt6-family-model-guide-2026-10-02",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI publishes a practical guide to the GPT-6 family",
+        "title_zh": "OpenAI 發布 GPT-6 家族實務指南",
+        "summary_en": "OpenAI published on October 2 a model guide for the GPT-6 family, aimed at choosing a model, writing instructions, managing long-running work and preparing production. The guide positions GPT-6 Astra for the hardest reasoning, GPT-6.1 Sol for complex coding, research and computer use, and GPT-6 Luna for repeated, well-scoped tasks. It points developers to caching, compaction, mid-conversation reasoning-effort changes and a Fast mode when latency matters. It does not announce a new model.",
+        "summary_zh": "OpenAI 10 月 2 日發布 GPT-6 家族模型指南，說明如何選模型、寫指令、管理長時任務並準備上線。指南把 GPT-6 Astra 放在最難推理，GPT-6.1 Sol 放在複雜程式、研究與電腦操作，GPT-6 Luna 放在目標清楚的重複工作。文中指向快取、壓縮、對話中途調整推理力度，以及在意延遲時使用 Fast mode。沒有宣布新模型。",
+        "analysis_en": "The guide is a routing document for models already shipped, not a capability jump. Its practical effect is to push cost-sensitive workloads off Astra; whether Sol and Luna hold quality at the stated savings is left to the reader’s own evals.",
+        "analysis_zh": "這份指南是已出貨模型的分流說明，不是能力躍進。實際作用是把在意成本的工作從 Astra 挪走；Sol 與 Luna 能否在宣稱的省錢幅度下保住品質，仍要使用者自己評測。",
+        "quote": "GPT-6 is our most advanced suite of models yet, and offers you a choice of models for different kinds of work.",
+        "quote_zh": "GPT-6 是我們迄今最先進的模型系列，並讓你依不同工作選擇模型。",
+        "importance": 2,
+        "first_seen": "2026-10-03T04:35:02Z",
+        "updated_at": "2026-10-03T04:35:02.156598+00:00",
+        "links": [
+          {
+            "label": "OpenAI",
+            "url": "https://openai.com/index/practical-guide-building-gpt-6/"
           }
         ]
       },
@@ -252,15 +341,15 @@
         "source_type": "official_x",
         "title_en": "Altman says dot is his favorite OpenAI product so far",
         "title_zh": "Altman 說 dot 是他迄今最喜歡的 OpenAI 產品",
-        "summary_en": "Sam Altman posted on October 2 that dot is his favorite OpenAI product so far, and that it feels noticeably better each day as it learns his workflow and style. He said having it handle tasks he dislikes has made him happy. The post is a personal endorsement of the always-on agent, not a feature or pricing change.",
-        "summary_zh": "Sam Altman 於 10 月 2 日發文，稱 dot 是他迄今最喜歡的 OpenAI 產品，而且隨著它學會自己的工作流程與風格，每天都感覺明顯更好。他說把不想做的事交給 dot，讓他很滿意。這是對常駐代理人的個人背書，不是功能或價格變更。",
-        "analysis_en": "Executive praise does not add a shipped capability, but it signals where OpenAI wants attention after DevDay: persistent agents that adapt to a user, not another model name. Reliability and oversight of that adaptation remain the open questions.",
-        "analysis_zh": "高層稱讚沒有新增已出貨能力，但顯示 DevDay 之後 OpenAI 想把注意力放在會適應使用者的常駐代理人，而不是下一個模型名稱。這種適應的可靠性與監督仍是未解問題。",
-        "quote": "dot is my favorite openai product so far! it is amazing to me that each day it feels noticably better as it learns more of my workflow and style.",
-        "quote_zh": "dot 是我迄今最喜歡的 OpenAI 產品。它每天都因為更了解我的工作流程與風格而明顯變好，這讓我很驚訝。",
+        "summary_en": "Sam Altman posted on October 2 that dot is his favorite OpenAI product so far, and that it feels noticeably better each day as it learns his workflow and style. He said having it handle tasks he dislikes has made him happy. The post is a personal endorsement and does not list a new feature, price or availability change.",
+        "summary_zh": "Sam Altman 10 月 2 日發文，稱 dot 是他迄今最喜歡的 OpenAI 產品，而且每天都因學習他的工作流與風格而明顯變好。他說讓它處理自己不喜歡的事讓他很高興。貼文是個人背書，沒有列出新功能、價格或可用性變更。",
+        "analysis_en": "Executive praise does not add a shipped capability, but it signals where OpenAI wants attention after DevDay: persistent agents that adapt to a user, not another model name. Reliability of that learning loop is not evidenced by the post.",
+        "analysis_zh": "高層稱讚沒有新增已出貨能力，但顯示 DevDay 之後 OpenAI 想把注意力放在會適應使用者的持久代理，而不是另一個模型名稱。這種學習迴圈是否可靠，貼文本身沒有證據。",
+        "quote": "dot is my favorite openai product so far!",
+        "quote_zh": "dot 是我迄今最喜歡的 OpenAI 產品！",
         "importance": 2,
         "first_seen": "2026-10-02T22:35:02Z",
-        "updated_at": "2026-10-02T22:35:02.224781+00:00",
+        "updated_at": "2026-10-03T04:35:02.156598+00:00",
         "links": [
           {
             "label": "Sam Altman on X",
@@ -277,19 +366,23 @@
         "source_type": "official_blog",
         "title_en": "Anthropic puts $100 million behind Claude Frontier Academy",
         "title_zh": "Anthropic 以 1 億美元成立 Claude Frontier Academy",
-        "summary_en": "Anthropic said on October 2 it is launching Claude Frontier Academy and committing $100 million to train 10,000 Frontier Deployed Engineers by the end of 2027. The first residency follows a medical-training model, with cohorts already running in San Francisco, New York and London from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk. First credentials are expected in early 2027, and entry is by nomination.",
-        "summary_zh": "Anthropic 於 10 月 2 日宣布成立 Claude Frontier Academy，承諾投入 1 億美元，目標在 2027 年底前培訓 1 萬名 Frontier Deployed Engineers。首期駐點計畫仿醫療住院訓練，舊金山、紐約與倫敦已開班，首批來自 Accenture、Bain、Capgemini、澳洲聯邦銀行、Deloitte、McKinsey、Morgan Stanley 與 Novo Nordisk。首批認證預計 2027 年初發出，參與須由企業提名。",
-        "analysis_en": "This is a distribution bet: Anthropic is treating scarce deployers, not only model quality, as the bottleneck to enterprise revenue. Whether a badge and a 12-week residency actually move production adoption is still unproven.",
-        "analysis_zh": "這是通路賭注：Anthropic 把企業落地人才、而不只是模型品質，當成營收瓶頸。徽章與 12 週駐點能否真正提高上線率，仍待驗證。",
+        "summary_en": "Anthropic said on October 2 it is launching Claude Frontier Academy and committing $100 million to train 10,000 Frontier Deployed Engineers by the end of 2027. The first residency follows a medical-training model: a multi-day in-person practical, a Claude Resident Engineer badge, then a 12-week deployment at the nominee’s own company. Cohorts are already running in San Francisco, New York and London, with engineers nominated by Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk. The first Frontier Deployed Engineer badges are expected in early 2027.",
+        "summary_zh": "Anthropic 10 月 2 日宣布成立 Claude Frontier Academy，承諾投入 1 億美元，目標在 2027 年底前培訓 1 萬名 Frontier Deployed Engineer。首個駐點計畫仿醫學訓練：多日實體實作、Resident Engineer 徽章，再回原公司做 12 週部署。舊金山、紐約與倫敦已開班，提名企業含 Accenture、Bain、Capgemini、澳洲聯邦銀行、Deloitte、McKinsey、Morgan Stanley 與 Novo Nordisk。首批最終徽章預計 2027 年初發出。",
+        "analysis_en": "This is a distribution bet: Anthropic is treating scarce deployers, not only model quality, as the bottleneck to enterprise revenue. Whether a badge and a 12-week residency actually move production systems is still unproven; the first credentials are not due until early 2027.",
+        "analysis_zh": "這是通路賭注：Anthropic 把稀缺的部署人才，而不只是模型品質，當成企業營收瓶頸。徽章與 12 週駐點能否真的把系統送進生產環境仍未驗證，首批證照要到 2027 年初才會出現。",
         "quote": "Today we are launching Claude Frontier Academy to solve one of the most pressing issues in AI implementation: talent.",
         "quote_zh": "今天我們推出 Claude Frontier Academy，以解決 AI 落地最迫切的問題之一：人才。",
         "importance": 4,
         "first_seen": "2026-10-02T22:35:02Z",
-        "updated_at": "2026-10-02T22:35:02.224781+00:00",
+        "updated_at": "2026-10-03T04:35:02.156598+00:00",
         "links": [
           {
             "label": "Anthropic News",
             "url": "https://www.anthropic.com/news/claude-frontier-academy"
+          },
+          {
+            "label": "Claude Frontier Academy program page",
+            "url": "https://claude.com/programs/frontier-academy"
           },
           {
             "label": "CNBC",
@@ -303,19 +396,23 @@
         "id": "google-suncatcher-tpu-satellite-orbit-2026-10-02",
         "story_id": "google-suncatcher-tpu-satellite-orbit-2026-10-02",
         "category": "google",
-        "source_type": "official_x",
+        "source_type": "official_blog",
         "title_en": "Google says its Project Suncatcher TPU satellite is in orbit",
-        "title_zh": "Google 宣布 Project Suncatcher 的 TPU 原型衛星已入軌",
-        "summary_en": "Google AI said on October 2 that a prototype satellite built with Planet launched on SpaceX’s Transporter-18 rideshare and is now gathering data on how Google TPUs handle launch stress, radiation and thermal extremes. The company framed it as an early test of hosting machine-learning infrastructure in low Earth orbit, where near-constant sunlight could yield up to 8x the solar power available on Earth. Linking satellite constellations for scaled workloads remains a later step.",
-        "summary_zh": "Google AI 於 10 月 2 日表示，與 Planet 合作的原型衛星已搭 SpaceX Transporter-18 共乘任務升空，正在收集 Google TPU 承受發射應力、輻射與極端溫度的資料。公司將其定位為在近地軌道部署機器學習基礎設施的早期測試，並稱近乎持續的日照最多可帶來地球上 8 倍的太陽能。多星互聯以承載規模化工作負載仍是後續步驟。",
-        "analysis_en": "A single prototype in orbit tests hardware survival, not an orbital data center. The useful signal is whether Trillium-class TPUs stay reliable outside the lab; interconnect and cooling at constellation scale are still research problems.",
-        "analysis_zh": "單顆原型衛星驗證的是硬體存活，不是軌道資料中心。真正有用的訊號是 Trillium 級 TPU 離開實驗室後是否仍可靠；星座級互聯與散熱仍是研究問題。",
-        "quote": "Project Suncatcher has liftoff! This initial mission will gather data on how Google TPUs handle the physical stress and extremes of spaceflight.",
-        "quote_zh": "Project Suncatcher 升空了！這次初始任務將收集 Google TPU 如何承受太空飛行物理應力與極端環境的資料。",
+        "title_zh": "Google 稱 Project Suncatcher 的 TPU 原型衛星已入軌",
+        "summary_en": "Google Research said on October 1 that a prototype satellite built with Planet launched on SpaceX’s Transporter-18 rideshare, that contact was confirmed, and that it is operating as expected. Over the coming weeks the team will gather data on how Google TPUs handle launch stress, radiation and thermal extremes. The post frames the flight as the first step of a moonshot on whether space could host scalable machine-learning infrastructure, and points to a peer-reviewed paper in Joule.",
+        "summary_zh": "Google Research 10 月 1 日表示，與 Planet 合作的原型衛星已搭 SpaceX Transporter-18 共乘任務入軌，團隊已確認聯繫且運作如預期。未來數週將蒐集 Google TPU 承受發射應力、輻射與極端溫度的資料。文章將此次飛行定位為探索太空能否承載可擴展機器學習基礎設施的第一步，並指向《Joule》上的同儕審查論文。",
+        "analysis_en": "A single prototype in orbit tests hardware survival, not an orbital data center. The useful signal is whether Trillium-class TPUs stay reliable outside the lab; interconnect, cooling and continuous duty cycles remain unaddressed by this flight.",
+        "analysis_zh": "一顆原型衛星在軌只測硬體存活，不是軌道資料中心。有用的訊號是 Trillium 級 TPU 離開實驗室後是否仍可靠；互連、散熱與連續運轉都不在這次飛行的範圍內。",
+        "quote": "Today, our prototype satellite for Project Suncatcher, built in partnership with Planet, launched into orbit aboard the Transporter-18 rideshare mission with SpaceX.",
+        "quote_zh": "今天，我們與 Planet 合作的 Project Suncatcher 原型衛星，搭乘 SpaceX 的 Transporter-18 共乘任務進入軌道。",
         "importance": 4,
         "first_seen": "2026-10-02T22:35:02Z",
-        "updated_at": "2026-10-02T22:35:02.224781+00:00",
+        "updated_at": "2026-10-03T04:35:02.156598+00:00",
         "links": [
+          {
+            "label": "Google Research Blog",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/"
+          },
           {
             "label": "Google AI on X",
             "url": "https://x.com/GoogleAI/status/2106049984164463069"
@@ -334,16 +431,16 @@
         "category": "meta",
         "source_type": "official_blog",
         "title_en": "Meta shares six Muse Spark math papers, five claiming open problems",
-        "title_zh": "Meta 公布六篇 Muse Spark 數學論文，五篇稱解答未解問題",
-        "summary_en": "Meta AI Research said on October 2 that mathematicians used Muse Spark 1.1 and 1.2 in ordinary meta.ai chat, with no custom research scaffold, to produce six papers. Five present answers to previously open questions in probability, differential equations, group theory, optimization and non-associative algebra; a sixth links a string-theory calculation to a height function on a curve. Meta says human authors guided the work, a second group reviewed it, and AI-drafted passages are marked. It also notes independent outside solutions to some of the same problems.",
-        "summary_zh": "Meta AI Research 於 10 月 2 日表示，數學家透過一般 meta.ai 聊天介面使用 Muse Spark 1.1 與 1.2，沒有客製研究脚手架，合作完成六篇論文。其中五篇宣稱解答機率、微分方程、群論、最佳化與非結合代數的既有開放問題；第六篇把弦論計算連到曲線上的高度函數。Meta 稱由人類主導、另有數學家覆核，並標示主要由 AI 起草的段落，也承認外部團隊以不同方法獨立解出部分相同問題。",
-        "analysis_en": "The notable part is the process claim: a consumer chat model, human-led proofs, and explicit credit for concurrent work. Independent verification, not the blog post, will decide how many of the five results hold.",
-        "analysis_zh": "值得看的是流程主張：一般聊天模型、人類主導證明，並明確註記同期成果。這五項結果能否成立，要靠獨立驗證，而不是部落格本身。",
-        "quote": "Today, we're sharing six such papers from that collaboration. Five present answers to previously open research questions.",
-        "quote_zh": "今天我們公開這次合作的六篇論文。其中五篇對先前未解的研究問題提出解答。",
+        "title_zh": "Meta 公布六篇 Muse Spark 數學論文，五篇稱解答開放問題",
+        "summary_en": "Meta AI Research said on October 2 that mathematicians used Muse Spark 1.1 and 1.2 in ordinary meta.ai chat, with no custom research scaffold, to produce six papers. Five present answers to previously open questions in probability, differential equations, group theory, optimization and non-associative algebra; a sixth links a string-theory calculation to a number-theory height function. Meta says human authors guided the work, a second group reviewed it, AI-drafted passages are marked, and independent concurrent solutions are credited.",
+        "summary_zh": "Meta AI Research 10 月 2 日表示，數學家以一般 meta.ai 聊天中的 Muse Spark 1.1 與 1.2、Thinking Mode、且無客製研究支架，合作產出六篇論文。五篇提出機率、微分方程、群論、最佳化與非結合代數既有開放問題的解答；另一篇把弦論計算連到數論高度函數。Meta 稱由人類主導、第二組審查、標出 AI 起草段落，並致謝外部同步解法。",
+        "analysis_en": "The notable part is the process claim: a consumer chat model, human-led proofs, and explicit credit for concurrent work. Independent verification, not the blog post, will decide how many of the five “open problem” claims hold.",
+        "analysis_zh": "值得注意的是流程主張：消費級聊天模型、人類主導證明，並明確致謝同步工作。五項「開放問題」主張能否成立，要看獨立驗證，不是部落格文章。",
+        "quote": "They used both Muse Spark 1.1 and 1.2 in Thinking Mode through the regular meta.ai chat interface, with no custom research scaffold.",
+        "quote_zh": "他們透過一般 meta.ai 聊天介面、以 Thinking Mode 使用 Muse Spark 1.1 與 1.2，沒有客製研究支架。",
         "importance": 3,
         "first_seen": "2026-10-02T22:35:02Z",
-        "updated_at": "2026-10-02T22:35:02.224781+00:00",
+        "updated_at": "2026-10-03T04:35:02.156598+00:00",
         "links": [
           {
             "label": "Meta AI Research Blog",
@@ -352,6 +449,33 @@
           {
             "label": "AI at Meta on X",
             "url": "https://x.com/AIatMeta/status/2106099797375766819"
+          }
+        ]
+      },
+      {
+        "id": "meta-muse-gadgets-open-source-2026-10-02",
+        "story_id": "meta-muse-gadgets-open-source-2026-10-02",
+        "category": "meta",
+        "source_type": "news",
+        "title_en": "Meta open-sources kits so developers can build Muse gadgets",
+        "title_zh": "Meta 開源套件，讓開發者自製 Muse 裝置",
+        "summary_en": "The Verge and TechCrunch reported on October 2 that Meta introduced Muse Gadgets, an open-source project for connecting the Muse agent to hardware the user builds. Meta describes the kits as firmware and SDKs for ESP32 boards or a Raspberry Pi, attached to displays, buttons, sensors and actuators. TechCrunch said product lead Nat Friedman posted that Meta built a USB-C Muse Home Link for home-network devices and is giving away 5,000 units to Muse subscribers while supplies last.",
+        "summary_zh": "The Verge 與 TechCrunch 10 月 2 日報導，Meta 推出 Muse Gadgets 開源專案，讓使用者把 Muse 代理接到自製硬體。Meta 將套件描述為 ESP32 或 Raspberry Pi 的韌體與 SDK，可接螢幕、按鈕、感測器與致動器。TechCrunch 稱產品負責人 Nat Friedman 貼文表示，Meta 做了 USB-C 的 Muse Home Link 以連接家用網路裝置，並向 Muse 訂戶免費送出 5,000 台，送完為止。",
+        "analysis_en": "This extends Muse from an app into a hardware surface, but the giveaway and SDK do not show demand or reliability outside Meta’s own prototypes. Whether third-party gadgets can act on a home network without new safety failures is the open question.",
+        "analysis_zh": "這把 Muse 從應用程式延伸到硬體介面，但贈送與 SDK 還看不出實驗室以外的需求或可靠度。第三方裝置能否操作家用網路而不製造新的安全問題，仍是未解之處。",
+        "quote": "Muse gadgets are open source devices you build yourself.",
+        "quote_zh": "Muse gadgets 是你自己打造的開源裝置。",
+        "importance": 3,
+        "first_seen": "2026-10-03T04:35:02Z",
+        "updated_at": "2026-10-03T04:35:02.156598+00:00",
+        "links": [
+          {
+            "label": "The Verge",
+            "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/"
           }
         ]
       }
@@ -363,16 +487,16 @@
         "category": "xai",
         "source_type": "product",
         "title_en": "xAI retires grok-voice-transcribe-1.0 and routes it to 2.0",
-        "title_zh": "xAI 停用 grok-voice-transcribe-1.0，請求改走 2.0",
-        "summary_en": "SpaceXAI developer release notes dated October 2 say grok-voice-transcribe-1.0 is deprecated and reached end of life that day. Requests to the old slug are routed to grok-voice-transcribe-2.0 at the same price, which the docs describe as higher accuracy. Speech-to-text pricing remains $0.10 per hour for REST and $0.20 per hour for streaming.",
-        "summary_zh": "SpaceXAI 開發者釋出說明標示 10 月 2 日，grok-voice-transcribe-1.0 已棄用並於當天終止服務。對舊模型代號的請求會以相同價格導向 grok-voice-transcribe-2.0，文件稱其準確度較高。語音轉文字價格維持 REST 每小時 0.10 美元、串流每小時 0.20 美元。",
+        "title_zh": "xAI 停用 grok-voice-transcribe-1.0 並轉到 2.0",
+        "summary_en": "SpaceXAI developer release notes dated October 2 say grok-voice-transcribe-1.0 is deprecated and reached end of life that day. Requests to the old slug are routed to grok-voice-transcribe-2.0 at the same price, which the docs describe as higher accuracy. Speech-to-text docs list REST at $0.10 per hour and streaming at $0.20 per hour, with 2.0 as the default.",
+        "summary_zh": "SpaceXAI 開發者發行說明標示 10 月 2 日，稱 grok-voice-transcribe-1.0 已棄用並於當日終止。對舊 slug 的請求會以相同價格轉到 grok-voice-transcribe-2.0，文件稱其準確率較高。語音轉文字文件列出 REST 每小時 0.10 美元、串流每小時 0.20 美元，預設為 2.0。",
         "analysis_en": "This is a compatibility cutoff, not a new model launch. Apps still pinned to the 1.0 slug keep working only because traffic is silently remapped, so behavior can change without a client update.",
-        "analysis_zh": "這是相容性截止，不是新模型發布。仍寫死 1.0 代號的應用能繼續跑，只因流量被靜默轉送，客戶端不更新也可能看到行為改變。",
-        "quote": "grok-voice-transcribe-1.0 is deprecated and reaches end of life on October 2, 2026. All requests to that slug are routed to grok-voice-transcribe-2.0 at the same price, with higher accuracy.",
-        "quote_zh": "grok-voice-transcribe-1.0 已棄用，並於 2026 年 10 月 2 日終止服務。對該代號的所有請求會以相同價格導向 grok-voice-transcribe-2.0，且準確度較高。",
+        "analysis_zh": "這是相容性截止，不是新模型發布。仍釘在 1.0 slug 的應用能繼續跑，只因流量被靜默改道，因此行為可能在客戶端不更新的情況下改變。",
+        "quote": "grok-voice-transcribe-1.0 is deprecated and reaches end of life on October 2, 2026.",
+        "quote_zh": "grok-voice-transcribe-1.0 已棄用，並於 2026 年 10 月 2 日終止服務。",
         "importance": 2,
         "first_seen": "2026-10-02T22:35:02Z",
-        "updated_at": "2026-10-02T22:35:02.224781+00:00",
+        "updated_at": "2026-10-03T04:35:02.156598+00:00",
         "links": [
           {
             "label": "SpaceXAI Release Notes",
@@ -387,7 +511,7 @@
     ],
     "frontier_other": []
   },
-  "brief_en": "In the last 12 hours labs shipped talent and research, not a new flagship model. Anthropic opened a $100M engineer academy; Meta published six Muse Spark math papers; Google confirmed a TPU satellite is in orbit; xAI retired an old voice model; Altman reaffirmed Cerebras.",
-  "brief_zh": "過去12小時沒有新旗艦模型。Anthropic投1億美元訓企業工程師，Meta公開六篇Muse Spark數學論文，Google確認TPU衛星入軌，xAI停用舊語音模型，Altman重申Cerebras合作。",
-  "updated_at": "2026-10-02T22:35:02.224781+00:00"
+  "brief_en": "Anthropic committed $100 million to train 10,000 Claude deployers by 2027. Google confirmed a Suncatcher TPU satellite is in orbit. California’s AG wants OpenAI’s full cyber-incident file. Meta published six Muse Spark math papers and opened Muse hardware kits. xAI retired voice-transcribe 1.0.",
+  "brief_zh": "Anthropic 砸1億美元培訓部署工程師。Google TPU衛星入軌。加州檢方要OpenAI交出全部資安紀錄。Meta以Muse Spark解開放問題並開源裝置。xAI停用語音轉寫1.0。",
+  "updated_at": "2026-10-03T04:35:02.156598+00:00"
 }
