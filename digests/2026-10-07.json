@@ -8,6 +8,14 @@
       "item_count": 3,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-10-06T22:35:01.457635+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 6,
+      "updated_count": 3,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -17,20 +25,24 @@
       "category": "frontier_other",
       "source_type": "official_blog",
       "title_en": "Mistral launches Large 4 preview, nicknamed Le Chonk",
-      "title_zh": "Mistral 公開預覽 Large 4（Le Chonk）",
-      "summary_en": "Mistral launched a public preview of Mistral Large 4, a natively multimodal mixture-of-experts model with about 1 trillion total parameters and 49 billion active, trained on 3,800 NVIDIA Grace Blackwell GPUs in its European datacenters. The preview API is live on Mistral Studio; open weights are planned by the end of October after red-teaming with cybersecurity partners and state authorities.",
-      "summary_zh": "Mistral 公開預覽 Mistral Large 4，為原生多模態 MoE，總參數約 1 兆、啟動約 490 億，於歐洲自有資料中心的 3,800 顆 NVIDIA Grace Blackwell GPU 上從零訓練。預覽 API 已在 Mistral Studio 上線；權重預計 10 月底釋出，期間先與資安夥伴及政府機構做較低審查的紅隊測試。",
-      "analysis_en": "This is the clearest European open-weight bid at frontier scale in the window, but the weights are not public yet and several headline scores are Mistral’s own. The cyber positioning matters mainly if defenders can actually self-host a less refusal-constrained model without widening offensive misuse.",
-      "analysis_zh": "這是本窗口最明確的歐洲開源權重前沿嘗試，但權重尚未公開，多項亮眼分數也來自自家評測。資安定位是否成立，取決於防禦方能否自行部署、且不會同步放大攻擊用途。",
+      "title_zh": "Mistral 推出 Large 4 公開預覽，暱稱 Le Chonk",
+      "summary_en": "Mistral launched a public preview of Mistral Large 4, officially nicknamed le Chonk, a natively multimodal mixture-of-experts model with about 1.05 trillion total parameters and 49 billion active, a 1 million-token context window, and a 1.6 billion-parameter vision encoder. It was trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral’s European datacenters; the preview API is live on Mistral Studio, with weights promised by the end of October. Mistral says it leads open models on cybersecurity, finance, and law, and cites its own scores of 93% on Cybench and 82% on CyberGym-E2E, noting some closed frontier models score near zero because they refuse the task.",
+      "summary_zh": "Mistral 公開預覽 Mistral Large 4（正式暱稱 le Chonk）：原生多模態 MoE，總參數量約 1.05 兆、每次啟動約 490 億，上下文 100 萬 token，視覺編碼器約 16 億參數。模型在歐洲自有資料中心的 3,800 顆 NVIDIA Grace Blackwell GPU 上從零訓練；Studio 預覽 API 已上線，權重預計十月底釋出。官方稱其在資安、金融與法律的開放模型中領先，並自報 Cybench 93%、CyberGym-E2E 82%，同時指出部分閉源前沿模型因拒絕作答而接近零分。",
+      "analysis_en": "This is the clearest European open-weight bid at frontier scale in the window, but the weights are not public yet and several headline cyber scores are Mistral’s own. The practical change is a sovereign preview API now; whether it outruns DeepSeek-class open models once weights and a license land remains unproven.",
+      "analysis_zh": "這是本窗口內最明確的歐洲開放權重前沿規模嘗試，但權重尚未公開，多項資安高分來自官方自測。眼下改變的是可立即使用的主權預覽 API；權重與授權落地後能否勝過 DeepSeek 級開放模型，仍待獨立驗證。",
       "quote": "Today, we’re launching a public preview of Mistral Large 4. Unofficially ML4, very officially: le Chonk. Weights drop end of this month.",
-      "quote_zh": "今天我們公開預覽 Mistral Large 4。非正式名稱是 ML4，正式暱稱是 le Chonk。權重將於本月底釋出。",
+      "quote_zh": "今天我們推出 Mistral Large 4 公開預覽。非正式叫 ML4，正式名稱是 le Chonk。權重將於本月底釋出。",
       "importance": 5,
       "first_seen": "2026-10-06T16:35:01Z",
-      "updated_at": "2026-10-06T16:35:01.302853+00:00",
+      "updated_at": "2026-10-06T22:35:01.457635+00:00",
       "links": [
         {
-          "label": "Mistral Blog",
+          "label": "Mistral News",
           "url": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "label": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/"
         },
         {
           "label": "Mistral AI on X",
@@ -48,20 +60,24 @@
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google DeepMind releases EmbeddingGemma 2 under Apache 2.0",
-      "title_zh": "Google DeepMind 以 Apache 2.0 發布 EmbeddingGemma 2",
-      "summary_en": "Google DeepMind launched EmbeddingGemma 2, a 740-million-parameter open embedding model that maps text, code, images, audio, and video into one 768-dimensional space. It is built on Gemma 4, uses an 8K context window, and is released under Apache 2.0 on Hugging Face and Kaggle for on-device retrieval and RAG.",
-      "summary_zh": "Google DeepMind 推出 EmbeddingGemma 2，7.4 億參數的開源嵌入模型，把文字、程式碼、影像、音訊與影片映到同一 768 維空間。架構基於 Gemma 4、上下文 8K，以 Apache 2.0 在 Hugging Face 與 Kaggle 釋出，供裝置端檢索與 RAG。",
-      "analysis_en": "This is a productized open embedding release, not a new frontier chatbot. The practical change is private cross-modal search on phones and laptops; whether it beats larger specialist embedders outside Google’s own benchmarks is still open.",
-      "analysis_zh": "這是產品化的開源嵌入模型，不是新的前沿對話模型。實際改變在於手機與筆電上的私密跨模態搜尋；在 Google 自家基準之外能否勝過更大的專用模型，仍待外部驗證。",
+      "title_zh": "Google DeepMind 以 Apache 2.0 釋出 EmbeddingGemma 2",
+      "summary_en": "Google DeepMind launched EmbeddingGemma 2, a 740-million-parameter open embedding model built on Gemma 4 that maps text, code, images, audio, and video into one 768-dimensional space, with an 8,192-token context and Matryoshka truncation down to 128 dimensions. Optional encoders let text-only use drop to about 270 million parameters; Google says quantized full multimodal weights need about 567MB of active RAM on a Pixel 11 Pro. Weights are on Hugging Face and Kaggle under Apache 2.0. Google also showed a Mac demo, AI Edge Foresight, that turns meeting scribbles into notes from an on-device transcript.",
+      "summary_zh": "Google DeepMind 推出 EmbeddingGemma 2：以 Gemma 4 為基礎的 7.4 億參數開放嵌入模型，把文字、程式碼、影像、音訊與影片映射到同一 768 維空間，上下文 8,192 token，並可用 Matryoshka 截斷至 128 維。僅文字工作負載可降到約 2.7 億參數；官方稱在 Pixel 11 Pro 上，量化後的完整多模態權重約需 567MB 活躍記憶體。權重以 Apache 2.0 放在 Hugging Face 與 Kaggle。Google 也用 Mac 示範應用 AI Edge Foresight，以裝置端逐字稿把會議速記補成筆記。",
+      "analysis_en": "This is a productized open embedding release, not a new frontier chatbot. The practical change is private cross-modal search on phones and laptops; whether it beats larger specialist embedders outside Google’s own MTEB and MAEB claims is still open.",
+      "analysis_zh": "這是產品化的開放嵌入模型，不是新的前沿對話模型。實際改變是手機與筆電上的私密跨模態搜尋；它是否在 Google 自報的 MTEB 與 MAEB 之外勝過更大的專用嵌入模型，仍未定論。",
       "quote": "Today, we’re launching EmbeddingGemma 2, expanding beyond text to unify code, images, video, and audio in a shared embedding space.",
-      "quote_zh": "今天我們推出 EmbeddingGemma 2，把能力從文字擴展到程式碼、影像、影片與音訊，統一在同一個嵌入空間。",
+      "quote_zh": "今天我們推出 EmbeddingGemma 2，把能力從文字擴展到在同一嵌入空間統整程式碼、影像、影片與音訊。",
       "importance": 4,
       "first_seen": "2026-10-06T16:35:01Z",
-      "updated_at": "2026-10-06T16:35:01.302853+00:00",
+      "updated_at": "2026-10-06T22:35:01.457635+00:00",
       "links": [
         {
           "label": "Google Blog",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
+        },
+        {
+          "label": "Google DeepMind on X",
+          "url": "https://x.com/GoogleDeepMind"
         },
         {
           "label": "EmbeddingGemma 2 model card",
@@ -74,32 +90,165 @@
       ]
     },
     {
+      "id": "anthropic-cvp-expansion-2026-10-06",
+      "story_id": "anthropic-cvp-expansion-2026-10-06",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic expands Cyber Verification Program into three tiers",
+      "title_zh": "Anthropic 把資安驗證計畫擴成三級存取",
+      "summary_en": "Anthropic launched an expanded Cyber Verification Program that merges Project Glasswing and the earlier CVP, giving qualifying security teams reduced blocking classifiers on Claude Opus 5.5, Sonnet 5.5, Mythos 5.1, and future models. Defense Access covers incident response and vulnerability analysis; Red Team Access adds authorized penetration testing; Specialized Access, reviewed with the US government, is for testing systems such as grids, flight operations, and interbank networks. Anthropic says Glasswing partners found at least 129,000 verified vulnerabilities from April to July 2026, plus 5,500 from its own open-source scanning, with more than 33,000 rated critical or high.",
+      "summary_zh": "Anthropic 推出擴充版資安驗證計畫（CVP），把 Project Glasswing 與原 CVP 合併，讓符合資格的資安團隊在 Claude Opus 5.5、Sonnet 5.5、Mythos 5.1 及後續模型上使用較少攔截。Defense 涵蓋事件回應與漏洞分析；Red Team 增加經授權的滲透測試；Specialized 與美國政府共同審查，用於電網、飛航與銀行間轉帳等系統測試。官方稱 Glasswing 夥伴在 2026 年 4 至 7 月發現至少 12.9 萬個已驗證漏洞，自有開源掃描另有 5,500 個，其中逾 3.3 萬個為重大或高風險。",
+      "analysis_en": "The shift is from a small critical-software pilot to a tiered defender program, while general models stay tightly blocked on cyber work. The vulnerability counts are partner-survey lower bounds, and Specialized Access still depends on US-government review, so breadth of real-world rollout is the open question.",
+      "analysis_zh": "變化是從少數關鍵軟體試點，轉成分級的防禦者計畫，一般模型的資安攔截仍維持保守。漏洞數字是夥伴調查的下限，Specialized 仍須美國政府審查，實際開放範圍仍是變數。",
+      "quote": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+      "quote_zh": "我們推出擴充版資安驗證計畫（CVP），讓符合資格的資安專業人員取得進階資安能力，並降低攔截分類器的阻擋。",
+      "importance": 4,
+      "first_seen": "2026-10-06T18:58:00Z",
+      "updated_at": "2026-10-06T22:35:01.457635+00:00",
+      "links": [
+        {
+          "label": "Anthropic News",
+          "url": "https://www.anthropic.com/news/cyber-verification-program"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/anthropic-opens-its-most-powerful-ai-models-more-security-teams-2026-10-06/"
+        }
+      ]
+    },
+    {
       "id": "google-earth-ai-public-health-2026-10-06",
       "story_id": "google-earth-ai-public-health-2026-10-06",
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google details Earth AI outbreak forecasts with health partners",
-      "title_zh": "Google 公開 Earth AI 與公衛夥伴的疫情預警應用",
-      "summary_en": "Google Research and Google Health published field results for Google Earth AI, pairing AlphaEarth Foundations, the Population Dynamics Foundation Model, and a prototype Geospatial Reasoning agent with partner health data. With WHO AFRO and DRC’s INRB, they reported mapping 48 exposed settlements and more than 45,500 at-risk people during the ongoing Ebola outbreak, plus earlier cholera-zone forecasts.",
-      "summary_zh": "Google Research 與 Google Health 公布 Google Earth AI 的現場結果，把 AlphaEarth Foundations、人口動態基礎模型與地理空間推理代理原型，接到夥伴的公衛資料。與 WHO 非洲區辦事處及剛果民主共和國 INRB 合作時，稱在進行中的伊波拉疫情中數分鐘內標出 48 個暴露聚落、逾 45,500 名高風險者，並提前預估霍亂熱區。",
-      "analysis_en": "The shift is from maps to agent-assisted targeting in an active outbreak, but the figures come from partner prototypes rather than a generally available product. Lead time and false-alarm rates outside these case studies are not established here.",
-      "analysis_zh": "重點是把地圖工具推進到疫情現場的代理輔助定位，但數字來自夥伴試點，不是全面開放的產品。個案之外的預警提前量與誤報率，本文並未建立。",
+      "title_zh": "Google 公布 Earth AI 與衛生夥伴的疫情預報結果",
+      "summary_en": "Google Research and Google Health published field results for Google Earth AI, pairing AlphaEarth Foundations, the Population Dynamics Foundation Model, and a prototype Geospatial Reasoning agent with partner health data. With WHO AFRO, the agent mapped 48 exposed settlements and more than 45,500 at-risk people along remote mining corridors in minutes. With UMIE it produced weekly Ebola spread estimates; Oxford and Tecnológico de Monterrey used the population model plus local climate data to forecast dengue in Mexico. Google frames these as research prototypes, not a generally available product.",
+      "summary_zh": "Google Research 與 Google Health 公布 Google Earth AI 的實地結果，把 AlphaEarth Foundations、人口動態基礎模型與原型地理空間推理代理，接到夥伴的衛生資料。WHO 非洲區團隊用該代理在數分鐘內標出 48 個暴露聚落、逾 4.55 萬名高風險者。與 UMIE 合作產出每週伊波拉擴散估計；牛津與蒙特雷理工則用人口模型加在地氣候資料預報墨西哥登革熱。Google 將這些定位為研究原型，而非一般可用產品。",
+      "analysis_en": "The shift is from maps to agent-assisted targeting in an active outbreak, but the figures come from partner prototypes rather than a generally available product. Lead time and false-alarm rates are not independently reported.",
+      "analysis_zh": "重點是從地圖走到疫情中的代理輔助標定，但數字來自夥伴原型，不是已普遍開放的產品。領先時間與誤報率尚未有獨立報告。",
       "quote": "We're helping public health leaders overcome reporting lags, forecast disease outbreaks, and deliver care to vulnerable communities around the world by combining local health data with advanced geospatial models.",
-      "quote_zh": "我們協助公衛決策者克服通報延遲、預測疾病爆發，並把在地健康資料與先進地理空間模型結合，把照護送到全球脆弱社區。",
+      "quote_zh": "我們協助公衛主管克服通報延遲、預報疾病爆發，並把在地衛生資料與進階地理空間模型結合，把照護送到脆弱社區。",
       "importance": 3,
       "first_seen": "2026-10-06T16:35:01Z",
-      "updated_at": "2026-10-06T16:35:01.302853+00:00",
+      "updated_at": "2026-10-06T22:35:01.457635+00:00",
       "links": [
         {
           "label": "Google Blog",
           "url": "https://blog.google/innovation-and-ai/technology/health/google-earth-ai/"
         }
       ]
+    },
+    {
+      "id": "openai-decisions-api-beta-2026-10-06",
+      "story_id": "openai-decisions-api-beta-2026-10-06",
+      "category": "openai",
+      "source_type": "product",
+      "title_en": "OpenAI opens Decisions API beta on GPT-6 Luna",
+      "title_zh": "OpenAI 以 GPT-6 Luna 開放 Decisions API 公測",
+      "summary_en": "OpenAI released the Decisions API in public beta with gpt-6-luna, aimed at turning text and images into typed answers it says are up to 10x faster than the Responses API. Outputs are predicates, choices with confidence scores, or numeric scores; billing is input-only at Luna’s $0.10 per million tokens, with no output-token charge. The same changelog simplified API usage tiers from five to three: Build, Launch, and Grow, with automatic upgrades as credit purchases hit tier minimums.",
+      "summary_zh": "OpenAI 以 gpt-6-luna 把 Decisions API 開放公測，把文字與影像轉成有型別的答案，官方稱比 Responses API 快最多 10 倍。輸出分為真偽機率、帶信心分數的選項，或數值評分；只計輸入 token，沿用 Luna 每百萬 token 0.10 美元，不收輸出費。同一更新日誌把 API 用量級距從五級簡化為 Build、Launch、Grow 三級，累計購買額達門檻即自動升級。",
+      "analysis_en": "This is a routing primitive, not a new model: it productizes constrained classification that developers already approximated with structured outputs. The speed claim is OpenAI’s, and the tier cut mainly changes how rate limits scale with spend.",
+      "analysis_zh": "這是路由原語，不是新模型：把開發者原本用結構化輸出近似的受限分類產品化。速度說法來自 OpenAI，級距精簡主要改變費率隨支出擴張的方式。",
+      "quote": "Released the Decisions API in beta with gpt-6-luna. Turn text and images into typed answers 10x faster than the Responses API.",
+      "quote_zh": "以 gpt-6-luna 推出 Decisions API 測試版。把文字與影像轉成有型別的答案，速度比 Responses API 快 10 倍。",
+      "importance": 3,
+      "first_seen": "2026-10-06T20:53:00Z",
+      "updated_at": "2026-10-06T22:35:01.457635+00:00",
+      "links": [
+        {
+          "label": "OpenAI API Changelog",
+          "url": "https://developers.openai.com/api/docs/changelog"
+        },
+        {
+          "label": "OpenAI Developer Community",
+          "url": "https://community.openai.com/t/decisions-api-is-now-available-in-public-beta/1403877"
+        }
+      ]
+    },
+    {
+      "id": "google-flow-music-vst-2026-10-06",
+      "story_id": "google-flow-music-vst-2026-10-06",
+      "category": "google",
+      "source_type": "official_blog",
+      "title_en": "Google Flow Music Spaces can export as DAW plugins",
+      "title_zh": "Google Flow Music 的 Spaces 可匯出成 DAW 外掛",
+      "summary_en": "Google Labs said producers can now export custom Spaces from Google Flow Music as VST3 or AU plugins and run them inside a digital audio workstation. Spaces are instruments or effects described in natural language, without coding. Google pointed to producer Khris Riddick-Tynes’s “No Chaser” plugin as an example.",
+      "summary_zh": "Google Labs 宣布，創作者可把 Google Flow Music 裡用自然語言打造的自訂 Spaces（樂器或效果器）匯出成 VST3 或 AU 外掛，放進數位音訊工作站。官方舉製作人 Khris Riddick-Tynes 的「No Chaser」外掛為例。",
+      "analysis_en": "This is a creator-tool bridge from a Labs experiment into existing studio software, not a model launch. Adoption depends on whether exported plugins hold up in professional sessions, which Google has not benchmarked.",
+      "analysis_zh": "這是把 Labs 實驗接到既有錄音軟體的創作者工具，不是模型發布。能否在專業工作階段站得住，Google 尚未給出基準。",
+      "quote": "Producers can now export their custom Spaces as VST3/AU plugins, to run inside their Digital Audio Workstations (DAWs).",
+      "quote_zh": "製作人現在可以把自訂 Spaces 匯出成 VST3/AU 外掛，在數位音訊工作站裡執行。",
+      "importance": 2,
+      "first_seen": "2026-10-06T16:00:00Z",
+      "updated_at": "2026-10-06T22:35:01.457635+00:00",
+      "links": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-music-production-plugins-google-flow/"
+        }
+      ]
     }
   ],
   "categories": {
-    "openai": [],
-    "anthropic": [],
+    "openai": [
+      {
+        "id": "openai-decisions-api-beta-2026-10-06",
+        "story_id": "openai-decisions-api-beta-2026-10-06",
+        "category": "openai",
+        "source_type": "product",
+        "title_en": "OpenAI opens Decisions API beta on GPT-6 Luna",
+        "title_zh": "OpenAI 以 GPT-6 Luna 開放 Decisions API 公測",
+        "summary_en": "OpenAI released the Decisions API in public beta with gpt-6-luna, aimed at turning text and images into typed answers it says are up to 10x faster than the Responses API. Outputs are predicates, choices with confidence scores, or numeric scores; billing is input-only at Luna’s $0.10 per million tokens, with no output-token charge. The same changelog simplified API usage tiers from five to three: Build, Launch, and Grow, with automatic upgrades as credit purchases hit tier minimums.",
+        "summary_zh": "OpenAI 以 gpt-6-luna 把 Decisions API 開放公測，把文字與影像轉成有型別的答案，官方稱比 Responses API 快最多 10 倍。輸出分為真偽機率、帶信心分數的選項，或數值評分；只計輸入 token，沿用 Luna 每百萬 token 0.10 美元，不收輸出費。同一更新日誌把 API 用量級距從五級簡化為 Build、Launch、Grow 三級，累計購買額達門檻即自動升級。",
+        "analysis_en": "This is a routing primitive, not a new model: it productizes constrained classification that developers already approximated with structured outputs. The speed claim is OpenAI’s, and the tier cut mainly changes how rate limits scale with spend.",
+        "analysis_zh": "這是路由原語，不是新模型：把開發者原本用結構化輸出近似的受限分類產品化。速度說法來自 OpenAI，級距精簡主要改變費率隨支出擴張的方式。",
+        "quote": "Released the Decisions API in beta with gpt-6-luna. Turn text and images into typed answers 10x faster than the Responses API.",
+        "quote_zh": "以 gpt-6-luna 推出 Decisions API 測試版。把文字與影像轉成有型別的答案，速度比 Responses API 快 10 倍。",
+        "importance": 3,
+        "first_seen": "2026-10-06T20:53:00Z",
+        "updated_at": "2026-10-06T22:35:01.457635+00:00",
+        "links": [
+          {
+            "label": "OpenAI API Changelog",
+            "url": "https://developers.openai.com/api/docs/changelog"
+          },
+          {
+            "label": "OpenAI Developer Community",
+            "url": "https://community.openai.com/t/decisions-api-is-now-available-in-public-beta/1403877"
+          }
+        ]
+      }
+    ],
+    "anthropic": [
+      {
+        "id": "anthropic-cvp-expansion-2026-10-06",
+        "story_id": "anthropic-cvp-expansion-2026-10-06",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic expands Cyber Verification Program into three tiers",
+        "title_zh": "Anthropic 把資安驗證計畫擴成三級存取",
+        "summary_en": "Anthropic launched an expanded Cyber Verification Program that merges Project Glasswing and the earlier CVP, giving qualifying security teams reduced blocking classifiers on Claude Opus 5.5, Sonnet 5.5, Mythos 5.1, and future models. Defense Access covers incident response and vulnerability analysis; Red Team Access adds authorized penetration testing; Specialized Access, reviewed with the US government, is for testing systems such as grids, flight operations, and interbank networks. Anthropic says Glasswing partners found at least 129,000 verified vulnerabilities from April to July 2026, plus 5,500 from its own open-source scanning, with more than 33,000 rated critical or high.",
+        "summary_zh": "Anthropic 推出擴充版資安驗證計畫（CVP），把 Project Glasswing 與原 CVP 合併，讓符合資格的資安團隊在 Claude Opus 5.5、Sonnet 5.5、Mythos 5.1 及後續模型上使用較少攔截。Defense 涵蓋事件回應與漏洞分析；Red Team 增加經授權的滲透測試；Specialized 與美國政府共同審查，用於電網、飛航與銀行間轉帳等系統測試。官方稱 Glasswing 夥伴在 2026 年 4 至 7 月發現至少 12.9 萬個已驗證漏洞，自有開源掃描另有 5,500 個，其中逾 3.3 萬個為重大或高風險。",
+        "analysis_en": "The shift is from a small critical-software pilot to a tiered defender program, while general models stay tightly blocked on cyber work. The vulnerability counts are partner-survey lower bounds, and Specialized Access still depends on US-government review, so breadth of real-world rollout is the open question.",
+        "analysis_zh": "變化是從少數關鍵軟體試點，轉成分級的防禦者計畫，一般模型的資安攔截仍維持保守。漏洞數字是夥伴調查的下限，Specialized 仍須美國政府審查，實際開放範圍仍是變數。",
+        "quote": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+        "quote_zh": "我們推出擴充版資安驗證計畫（CVP），讓符合資格的資安專業人員取得進階資安能力，並降低攔截分類器的阻擋。",
+        "importance": 4,
+        "first_seen": "2026-10-06T18:58:00Z",
+        "updated_at": "2026-10-06T22:35:01.457635+00:00",
+        "links": [
+          {
+            "label": "Anthropic News",
+            "url": "https://www.anthropic.com/news/cyber-verification-program"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/legal/litigation/anthropic-opens-its-most-powerful-ai-models-more-security-teams-2026-10-06/"
+          }
+        ]
+      }
+    ],
     "google": [
       {
         "id": "google-embeddinggemma-2-2026-10-06",
@@ -107,20 +256,24 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google DeepMind releases EmbeddingGemma 2 under Apache 2.0",
-        "title_zh": "Google DeepMind 以 Apache 2.0 發布 EmbeddingGemma 2",
-        "summary_en": "Google DeepMind launched EmbeddingGemma 2, a 740-million-parameter open embedding model that maps text, code, images, audio, and video into one 768-dimensional space. It is built on Gemma 4, uses an 8K context window, and is released under Apache 2.0 on Hugging Face and Kaggle for on-device retrieval and RAG.",
-        "summary_zh": "Google DeepMind 推出 EmbeddingGemma 2，7.4 億參數的開源嵌入模型，把文字、程式碼、影像、音訊與影片映到同一 768 維空間。架構基於 Gemma 4、上下文 8K，以 Apache 2.0 在 Hugging Face 與 Kaggle 釋出，供裝置端檢索與 RAG。",
-        "analysis_en": "This is a productized open embedding release, not a new frontier chatbot. The practical change is private cross-modal search on phones and laptops; whether it beats larger specialist embedders outside Google’s own benchmarks is still open.",
-        "analysis_zh": "這是產品化的開源嵌入模型，不是新的前沿對話模型。實際改變在於手機與筆電上的私密跨模態搜尋；在 Google 自家基準之外能否勝過更大的專用模型，仍待外部驗證。",
+        "title_zh": "Google DeepMind 以 Apache 2.0 釋出 EmbeddingGemma 2",
+        "summary_en": "Google DeepMind launched EmbeddingGemma 2, a 740-million-parameter open embedding model built on Gemma 4 that maps text, code, images, audio, and video into one 768-dimensional space, with an 8,192-token context and Matryoshka truncation down to 128 dimensions. Optional encoders let text-only use drop to about 270 million parameters; Google says quantized full multimodal weights need about 567MB of active RAM on a Pixel 11 Pro. Weights are on Hugging Face and Kaggle under Apache 2.0. Google also showed a Mac demo, AI Edge Foresight, that turns meeting scribbles into notes from an on-device transcript.",
+        "summary_zh": "Google DeepMind 推出 EmbeddingGemma 2：以 Gemma 4 為基礎的 7.4 億參數開放嵌入模型，把文字、程式碼、影像、音訊與影片映射到同一 768 維空間，上下文 8,192 token，並可用 Matryoshka 截斷至 128 維。僅文字工作負載可降到約 2.7 億參數；官方稱在 Pixel 11 Pro 上，量化後的完整多模態權重約需 567MB 活躍記憶體。權重以 Apache 2.0 放在 Hugging Face 與 Kaggle。Google 也用 Mac 示範應用 AI Edge Foresight，以裝置端逐字稿把會議速記補成筆記。",
+        "analysis_en": "This is a productized open embedding release, not a new frontier chatbot. The practical change is private cross-modal search on phones and laptops; whether it beats larger specialist embedders outside Google’s own MTEB and MAEB claims is still open.",
+        "analysis_zh": "這是產品化的開放嵌入模型，不是新的前沿對話模型。實際改變是手機與筆電上的私密跨模態搜尋；它是否在 Google 自報的 MTEB 與 MAEB 之外勝過更大的專用嵌入模型，仍未定論。",
         "quote": "Today, we’re launching EmbeddingGemma 2, expanding beyond text to unify code, images, video, and audio in a shared embedding space.",
-        "quote_zh": "今天我們推出 EmbeddingGemma 2，把能力從文字擴展到程式碼、影像、影片與音訊，統一在同一個嵌入空間。",
+        "quote_zh": "今天我們推出 EmbeddingGemma 2，把能力從文字擴展到在同一嵌入空間統整程式碼、影像、影片與音訊。",
         "importance": 4,
         "first_seen": "2026-10-06T16:35:01Z",
-        "updated_at": "2026-10-06T16:35:01.302853+00:00",
+        "updated_at": "2026-10-06T22:35:01.457635+00:00",
         "links": [
           {
             "label": "Google Blog",
             "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
+          },
+          {
+            "label": "Google DeepMind on X",
+            "url": "https://x.com/GoogleDeepMind"
           },
           {
             "label": "EmbeddingGemma 2 model card",
@@ -138,20 +291,43 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google details Earth AI outbreak forecasts with health partners",
-        "title_zh": "Google 公開 Earth AI 與公衛夥伴的疫情預警應用",
-        "summary_en": "Google Research and Google Health published field results for Google Earth AI, pairing AlphaEarth Foundations, the Population Dynamics Foundation Model, and a prototype Geospatial Reasoning agent with partner health data. With WHO AFRO and DRC’s INRB, they reported mapping 48 exposed settlements and more than 45,500 at-risk people during the ongoing Ebola outbreak, plus earlier cholera-zone forecasts.",
-        "summary_zh": "Google Research 與 Google Health 公布 Google Earth AI 的現場結果，把 AlphaEarth Foundations、人口動態基礎模型與地理空間推理代理原型，接到夥伴的公衛資料。與 WHO 非洲區辦事處及剛果民主共和國 INRB 合作時，稱在進行中的伊波拉疫情中數分鐘內標出 48 個暴露聚落、逾 45,500 名高風險者，並提前預估霍亂熱區。",
-        "analysis_en": "The shift is from maps to agent-assisted targeting in an active outbreak, but the figures come from partner prototypes rather than a generally available product. Lead time and false-alarm rates outside these case studies are not established here.",
-        "analysis_zh": "重點是把地圖工具推進到疫情現場的代理輔助定位，但數字來自夥伴試點，不是全面開放的產品。個案之外的預警提前量與誤報率，本文並未建立。",
+        "title_zh": "Google 公布 Earth AI 與衛生夥伴的疫情預報結果",
+        "summary_en": "Google Research and Google Health published field results for Google Earth AI, pairing AlphaEarth Foundations, the Population Dynamics Foundation Model, and a prototype Geospatial Reasoning agent with partner health data. With WHO AFRO, the agent mapped 48 exposed settlements and more than 45,500 at-risk people along remote mining corridors in minutes. With UMIE it produced weekly Ebola spread estimates; Oxford and Tecnológico de Monterrey used the population model plus local climate data to forecast dengue in Mexico. Google frames these as research prototypes, not a generally available product.",
+        "summary_zh": "Google Research 與 Google Health 公布 Google Earth AI 的實地結果，把 AlphaEarth Foundations、人口動態基礎模型與原型地理空間推理代理，接到夥伴的衛生資料。WHO 非洲區團隊用該代理在數分鐘內標出 48 個暴露聚落、逾 4.55 萬名高風險者。與 UMIE 合作產出每週伊波拉擴散估計；牛津與蒙特雷理工則用人口模型加在地氣候資料預報墨西哥登革熱。Google 將這些定位為研究原型，而非一般可用產品。",
+        "analysis_en": "The shift is from maps to agent-assisted targeting in an active outbreak, but the figures come from partner prototypes rather than a generally available product. Lead time and false-alarm rates are not independently reported.",
+        "analysis_zh": "重點是從地圖走到疫情中的代理輔助標定，但數字來自夥伴原型，不是已普遍開放的產品。領先時間與誤報率尚未有獨立報告。",
         "quote": "We're helping public health leaders overcome reporting lags, forecast disease outbreaks, and deliver care to vulnerable communities around the world by combining local health data with advanced geospatial models.",
-        "quote_zh": "我們協助公衛決策者克服通報延遲、預測疾病爆發，並把在地健康資料與先進地理空間模型結合，把照護送到全球脆弱社區。",
+        "quote_zh": "我們協助公衛主管克服通報延遲、預報疾病爆發，並把在地衛生資料與進階地理空間模型結合，把照護送到脆弱社區。",
         "importance": 3,
         "first_seen": "2026-10-06T16:35:01Z",
-        "updated_at": "2026-10-06T16:35:01.302853+00:00",
+        "updated_at": "2026-10-06T22:35:01.457635+00:00",
         "links": [
           {
             "label": "Google Blog",
             "url": "https://blog.google/innovation-and-ai/technology/health/google-earth-ai/"
+          }
+        ]
+      },
+      {
+        "id": "google-flow-music-vst-2026-10-06",
+        "story_id": "google-flow-music-vst-2026-10-06",
+        "category": "google",
+        "source_type": "official_blog",
+        "title_en": "Google Flow Music Spaces can export as DAW plugins",
+        "title_zh": "Google Flow Music 的 Spaces 可匯出成 DAW 外掛",
+        "summary_en": "Google Labs said producers can now export custom Spaces from Google Flow Music as VST3 or AU plugins and run them inside a digital audio workstation. Spaces are instruments or effects described in natural language, without coding. Google pointed to producer Khris Riddick-Tynes’s “No Chaser” plugin as an example.",
+        "summary_zh": "Google Labs 宣布，創作者可把 Google Flow Music 裡用自然語言打造的自訂 Spaces（樂器或效果器）匯出成 VST3 或 AU 外掛，放進數位音訊工作站。官方舉製作人 Khris Riddick-Tynes 的「No Chaser」外掛為例。",
+        "analysis_en": "This is a creator-tool bridge from a Labs experiment into existing studio software, not a model launch. Adoption depends on whether exported plugins hold up in professional sessions, which Google has not benchmarked.",
+        "analysis_zh": "這是把 Labs 實驗接到既有錄音軟體的創作者工具，不是模型發布。能否在專業工作階段站得住，Google 尚未給出基準。",
+        "quote": "Producers can now export their custom Spaces as VST3/AU plugins, to run inside their Digital Audio Workstations (DAWs).",
+        "quote_zh": "製作人現在可以把自訂 Spaces 匯出成 VST3/AU 外掛，在數位音訊工作站裡執行。",
+        "importance": 2,
+        "first_seen": "2026-10-06T16:00:00Z",
+        "updated_at": "2026-10-06T22:35:01.457635+00:00",
+        "links": [
+          {
+            "label": "Google Blog",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-music-production-plugins-google-flow/"
           }
         ]
       }
@@ -165,20 +341,24 @@
         "category": "frontier_other",
         "source_type": "official_blog",
         "title_en": "Mistral launches Large 4 preview, nicknamed Le Chonk",
-        "title_zh": "Mistral 公開預覽 Large 4（Le Chonk）",
-        "summary_en": "Mistral launched a public preview of Mistral Large 4, a natively multimodal mixture-of-experts model with about 1 trillion total parameters and 49 billion active, trained on 3,800 NVIDIA Grace Blackwell GPUs in its European datacenters. The preview API is live on Mistral Studio; open weights are planned by the end of October after red-teaming with cybersecurity partners and state authorities.",
-        "summary_zh": "Mistral 公開預覽 Mistral Large 4，為原生多模態 MoE，總參數約 1 兆、啟動約 490 億，於歐洲自有資料中心的 3,800 顆 NVIDIA Grace Blackwell GPU 上從零訓練。預覽 API 已在 Mistral Studio 上線；權重預計 10 月底釋出，期間先與資安夥伴及政府機構做較低審查的紅隊測試。",
-        "analysis_en": "This is the clearest European open-weight bid at frontier scale in the window, but the weights are not public yet and several headline scores are Mistral’s own. The cyber positioning matters mainly if defenders can actually self-host a less refusal-constrained model without widening offensive misuse.",
-        "analysis_zh": "這是本窗口最明確的歐洲開源權重前沿嘗試，但權重尚未公開，多項亮眼分數也來自自家評測。資安定位是否成立，取決於防禦方能否自行部署、且不會同步放大攻擊用途。",
+        "title_zh": "Mistral 推出 Large 4 公開預覽，暱稱 Le Chonk",
+        "summary_en": "Mistral launched a public preview of Mistral Large 4, officially nicknamed le Chonk, a natively multimodal mixture-of-experts model with about 1.05 trillion total parameters and 49 billion active, a 1 million-token context window, and a 1.6 billion-parameter vision encoder. It was trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral’s European datacenters; the preview API is live on Mistral Studio, with weights promised by the end of October. Mistral says it leads open models on cybersecurity, finance, and law, and cites its own scores of 93% on Cybench and 82% on CyberGym-E2E, noting some closed frontier models score near zero because they refuse the task.",
+        "summary_zh": "Mistral 公開預覽 Mistral Large 4（正式暱稱 le Chonk）：原生多模態 MoE，總參數量約 1.05 兆、每次啟動約 490 億，上下文 100 萬 token，視覺編碼器約 16 億參數。模型在歐洲自有資料中心的 3,800 顆 NVIDIA Grace Blackwell GPU 上從零訓練；Studio 預覽 API 已上線，權重預計十月底釋出。官方稱其在資安、金融與法律的開放模型中領先，並自報 Cybench 93%、CyberGym-E2E 82%，同時指出部分閉源前沿模型因拒絕作答而接近零分。",
+        "analysis_en": "This is the clearest European open-weight bid at frontier scale in the window, but the weights are not public yet and several headline cyber scores are Mistral’s own. The practical change is a sovereign preview API now; whether it outruns DeepSeek-class open models once weights and a license land remains unproven.",
+        "analysis_zh": "這是本窗口內最明確的歐洲開放權重前沿規模嘗試，但權重尚未公開，多項資安高分來自官方自測。眼下改變的是可立即使用的主權預覽 API；權重與授權落地後能否勝過 DeepSeek 級開放模型，仍待獨立驗證。",
         "quote": "Today, we’re launching a public preview of Mistral Large 4. Unofficially ML4, very officially: le Chonk. Weights drop end of this month.",
-        "quote_zh": "今天我們公開預覽 Mistral Large 4。非正式名稱是 ML4，正式暱稱是 le Chonk。權重將於本月底釋出。",
+        "quote_zh": "今天我們推出 Mistral Large 4 公開預覽。非正式叫 ML4，正式名稱是 le Chonk。權重將於本月底釋出。",
         "importance": 5,
         "first_seen": "2026-10-06T16:35:01Z",
-        "updated_at": "2026-10-06T16:35:01.302853+00:00",
+        "updated_at": "2026-10-06T22:35:01.457635+00:00",
         "links": [
           {
-            "label": "Mistral Blog",
+            "label": "Mistral News",
             "url": "https://mistral.ai/news/mistral-large-4/"
+          },
+          {
+            "label": "MarkTechPost",
+            "url": "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/"
           },
           {
             "label": "Mistral AI on X",
@@ -192,7 +372,7 @@
       }
     ]
   },
-  "brief_en": "Mistral opened a public preview of Mistral Large 4, a 1T multimodal MoE with weights due by month-end. Google DeepMind shipped Apache-licensed EmbeddingGemma 2 for on-device multimodal embeddings, and Google detailed Earth AI outbreak-forecast work with WHO partners. No new flagship from OpenAI, Anthropic, Meta, or xAI in the window.",
-  "brief_zh": "Mistral預覽兆級Large 4，權重月底釋出。Google開源EmbeddingGemma 2，並以Earth AI支援公衛預警。其餘大廠無新模型。",
-  "updated_at": "2026-10-06T16:35:01.302853+00:00"
+  "brief_en": "Mistral opened a Large 4 preview, nicknamed Le Chonk, with weights due by month-end. Google shipped Apache 2.0 EmbeddingGemma 2 and shared Earth AI outbreak prototypes. Anthropic widened vetted cyber access. OpenAI put the Luna Decisions API in public beta.",
+  "brief_zh": "Mistral 公開 Large 4 預覽（Le Chonk），權重月底釋出。Google 推出 Apache 2.0 的 EmbeddingGemma 2，並公布 Earth AI 疫情原型。Anthropic 擴大資安驗證存取。OpenAI 將 Luna Decisions API 開放公測。",
+  "updated_at": "2026-10-06T22:35:01.457635+00:00"
 }
