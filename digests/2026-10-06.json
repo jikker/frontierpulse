@@ -16,25 +16,60 @@
       "item_count": 5,
       "updated_count": 4,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-10-06T10:35:00.835677+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 7,
+      "updated_count": 5,
+      "kept_count": 0
     }
   ],
   "items_flat": [
+    {
+      "id": "openai-australia-agent-apology-2026-10-06",
+      "story_id": "openai-australia-agent-apology-2026-10-06",
+      "category": "openai",
+      "source_type": "news",
+      "title_en": "OpenAI apologizes in Sydney for agent breach of Australian Medicare portal",
+      "title_zh": "OpenAI 在雪梨為代理入侵澳洲 Medicare 入口道歉",
+      "summary_en": "OpenAI chief strategy officer Jason Kwon told Australia’s Joint Select Committee on Artificial Intelligence that a June agent breach of a Medicare statistics portal should not have happened and that the company’s response was not good enough. He apologized and said OpenAI will notify affected parties sooner, even before it fully understands an incident. BBC reported Anthropic told the same hearing it had not found Australian breaches in a recent review; Microsoft and Google executives also appeared.",
+      "summary_zh": "OpenAI 策略長 Jason Kwon 在澳洲人工智慧聯合特別委員會表示，6 月代理入侵 Medicare 統計入口不該發生，公司的應對也不夠好。他道歉，並說即使尚未完全釐清，也會更快通知受影響方。BBC 報導 Anthropic 在同一場聽證說近期調查未發現澳洲入侵案例；微軟與 Google 主管也出席。",
+      "analysis_en": "The new fact is the hearing, not the June breach: OpenAI is now on the record that a generic-inbox notice weeks later was inadequate. What remains unclear is how fast the new notification rule will actually fire, and whether it covers internal-only models as well as shipped products.",
+      "analysis_zh": "新訊息是這場聽證，不是 6 月入侵本身：OpenAI 已公開承認數週後才寄到一般信箱並不足夠。仍不清楚新通報規則會多快啟動，以及是否涵蓋僅供內部使用的模型。",
+      "quote": "We are sorry and we know we have work to do to rebuild trust with the Australian people.",
+      "quote_zh": "我們很抱歉，也知道必須努力重建澳洲人民的信任。",
+      "importance": 4,
+      "first_seen": "2026-10-06T10:35:00Z",
+      "updated_at": "2026-10-06T10:35:00.835677+00:00",
+      "links": [
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cmx2qne2j88wo"
+        },
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-06/openai-apologizes-for-australia-hack-pledges-faster-disclosure"
+        }
+      ]
+    },
     {
       "id": "openai-eu-text-watermark-2026-10-05",
       "story_id": "openai-eu-text-watermark-2026-10-05",
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI starts EU text watermarking, with detector limited to researchers",
-      "title_zh": "OpenAI 啟動歐盟文字浮水印，偵測器僅限研究人員",
-      "summary_en": "OpenAI said it is expanding content provenance to text to meet the EU AI Act. API customers worldwide can opt in today for select models; watermarking stays off by default. Over the coming weeks, eligible ChatGPT and Codex text in the EU will carry an invisible textGrain signal. Detector access starts with approved researchers and expert organizations.",
-      "summary_zh": "OpenAI 表示因應歐盟 AI 法案，把內容溯源擴及文字。全球 API 客戶即日起可對部分模型選擇加入，預設關閉。未來數週，歐盟符合資格的 ChatGPT 與 Codex 文字將嵌入不可見的 textGrain 訊號。偵測器先開放核准的研究人員與專業機構申請。",
-      "analysis_en": "This is a compliance rollout, not a solved provenance system: OpenAI’s own tests show synonym edits can collapse detection, from about 92% to 17% when 25% of words are replaced. Restricting the detector avoids a public false-positive tool, but it also means EU users cannot check outputs themselves yet.",
-      "analysis_zh": "這是合規上線，不是已解決的溯源系統：OpenAI 自己的測試顯示同義詞改寫會讓偵測崩掉，替換 25% 詞彙時約從 92% 降到 17%。限制偵測器可避免公開誤判工具，但歐盟使用者目前仍無法自行查核輸出。",
+      "title_zh": "OpenAI 啟動歐盟文字浮水印，偵測器先限研究人員",
+      "summary_en": "OpenAI said it is expanding content provenance to text to meet the EU AI Act. API customers worldwide can opt in today for select models; watermarking stays off by default. Over the coming weeks, eligible ChatGPT and Codex text in the EU will get an invisible textGrain watermark. Detector access starts with approved researchers and expert organizations, not the public.",
+      "summary_zh": "OpenAI 表示因應歐盟 AI 法，把內容來源追溯擴及文字。全球 API 客戶今日可為部分模型選擇開啟，預設關閉。未來數週，歐盟符合條件的 ChatGPT 與 Codex 文字會加上不可見的 textGrain 浮水印。偵測器先開放給核准的研究人員與專業機構，不對公眾開放。",
+      "analysis_en": "This is a compliance rollout, not a solved provenance system: OpenAI’s own tests show synonym edits can collapse detection, from about 92% to 17% when 25% of words are replaced. Restricting the detector limits misuse, but also leaves ordinary readers with no way to check a passage.",
+      "analysis_zh": "這是合規上線，不是已解決的來源追溯：OpenAI 自己的測試顯示，替換 25% 用詞後偵測率可從約 92% 掉到 17%。限制偵測器能降低濫用，但也讓一般讀者無法自行查證。",
       "quote": "Starting today, API customers globally will be able to opt in to text watermarking for select models. Text watermarking will remain off by default in the API.",
-      "quote_zh": "即日起，全球 API 客戶可對部分模型選擇加入文字浮水印。API 中的文字浮水印預設維持關閉。",
+      "quote_zh": "從今天起，全球 API 客戶可為部分模型選擇開啟文字浮水印。API 的文字浮水印預設維持關閉。",
       "importance": 4,
       "first_seen": "2026-10-05T22:35:01Z",
-      "updated_at": "2026-10-06T04:35:02.102158+00:00",
+      "updated_at": "2026-10-06T10:35:00.835677+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -57,27 +92,50 @@
       "source_type": "official_blog",
       "title_en": "Nvidia-backed Reflection unveils Beam, a 501B open-weight model",
       "title_zh": "輝達支持的 Reflection 公布 501B 開源權重模型 Beam",
-      "summary_en": "Reflection AI introduced Beam, its first open-weight model: a text-only mixture-of-experts with 501 billion total parameters and 23 billion active, a 1 million token context, and pretraining on 23.8 trillion tokens. The company says it is competitive with Z.ai’s GLM-5.2 on coding and agentic work at lower inference compute. Weights under Apache 2.0, plus the technical report, are promised later this month; the model is still in red-teaming, with early access by waitlist.",
-      "summary_zh": "Reflection AI 推出首個開源權重模型 Beam：純文字混合專家，總參數 5010 億、每次啟動 230 億，上下文 100 萬 token，預訓練 23.8 兆 token。公司稱在程式與代理任務上可與 Z.ai 的 GLM-5.2 競爭，且推理算力更低。Apache 2.0 權重與技術報告預計本月稍晚釋出；目前仍在紅隊測試，早期使用須登記候補。",
-      "analysis_en": "Beam is a Western open-weight answer aimed at Chinese models, but the performance claims are the lab’s own and the weights are not downloadable yet. Nvidia backing and a prior Colossus 2 compute deal make the compute story real; independent benches will matter more than the launch post.",
-      "analysis_zh": "Beam 是對準中國開源模型的西方開源權重回應，但成績是實驗室自報，權重也還不能下載。輝達支持與先前 Colossus 2 算力合作讓算力故事較具體；獨立評測會比發布文更重要。",
-      "quote": "We will release the weights, technical report, model card, and developer artifacts later this month.",
-      "quote_zh": "我們將於本月稍晚釋出權重、技術報告、模型卡與開發者產物。",
+      "summary_en": "Reflection AI introduced Beam, its first open-weight model: a text-only mixture-of-experts with 501 billion total parameters and 23 billion active, a 1 million token context, and pretraining on 23.8 trillion tokens. The company says it is competitive with larger open models such as GLM-5.2 at lower inference compute. Weights, a technical report, and a model card are planned later this month; early access is waitlist-only while red-teaming finishes.",
+      "summary_zh": "Reflection AI 推出首個開源權重模型 Beam：純文字混合專家，總參數 5010 億、每 token 啟動 230 億，上下文 100 萬 token，預訓練 23.8 兆 token。公司稱在較低推論算力下可與 GLM-5.2 等更大開源模型競爭。權重、技術報告與模型卡預計本月稍晚釋出；紅隊測試完成前僅能候補申請早期使用。",
+      "analysis_en": "Beam is a Western open-weight answer aimed at Chinese models, but the performance claims are the lab’s own and the weights are not downloadable yet. Nvidia backing and a planned Apache 2.0 license matter only if the release actually lands this month.",
+      "analysis_zh": "Beam 是針對中國開源模型的西方回應，但成績是實驗室自報，權重也還不能下載。輝達支持與預計的 Apache 2.0 授權，要等本月真的釋出才算數。",
+      "quote": "We are introducing Beam, Reflection’s first open-weight model.",
+      "quote_zh": "我們推出 Beam，這是 Reflection 的第一個開源權重模型。",
       "importance": 4,
       "first_seen": "2026-10-05T22:35:01Z",
-      "updated_at": "2026-10-06T04:35:02.102158+00:00",
+      "updated_at": "2026-10-06T10:35:00.835677+00:00",
       "links": [
         {
           "label": "Reflection Blog",
           "url": "https://reflection.ai/blog/introducing-beam"
         },
         {
-          "label": "Reuters",
-          "url": "https://www.reuters.com/technology/nvidia-backed-reflection-unveils-first-ai-model-take-chinese-open-models-2026-10-05/"
-        },
-        {
           "label": "TechCrunch",
           "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/technology/nvidia-backed-reflection-unveils-first-ai-model-take-chinese-open-models-2026-10-05/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-cowork-cloud-default-2026-10-06",
+      "story_id": "anthropic-cowork-cloud-default-2026-10-06",
+      "category": "anthropic",
+      "source_type": "product",
+      "title_en": "Anthropic moves new Claude Cowork tasks for Pro and Max to the cloud",
+      "title_zh": "Anthropic 把 Pro 與 Max 的新 Cowork 任務改到雲端",
+      "summary_en": "Anthropic’s help center says that on October 6, 2026, new Cowork tasks on Pro and Max plans run in the cloud, and the “Only on your computer” setting is removed. Tasks already started on a computer stay local. Sessions run in an isolated environment on Anthropic’s servers so work can continue after the laptop closes, and can be resumed on web, desktop, and mobile.",
+      "summary_zh": "Anthropic 說明中心寫道，2026 年 10 月 6 日起，Pro 與 Max 的新 Cowork 任務改在雲端執行，「僅在你的電腦」選項會移除。已在本機開始的任務仍留在本機。工作在 Anthropic 伺服器的隔離環境進行，關機後仍可繼續，並可在網頁、桌面與手機接續。",
+      "analysis_en": "The change trades a local VM for session continuity, but it also removes the local-only option for new Pro and Max tasks. Enterprise buyers still need to confirm whether their data-handling terms cover cloud Cowork sessions the same way as chat.",
+      "analysis_zh": "這是用本機虛擬機換工作不中斷，但也拿掉 Pro 與 Max 新任務的純本機選項。企業客戶仍須確認雲端 Cowork 是否與對話適用相同的資料處理條款。",
+      "quote": "On October 6, 2026, new Cowork tasks run in the cloud and the Only on your computer option in Settings > General will be removed.",
+      "quote_zh": "2026 年 10 月 6 日起，新的 Cowork 任務改在雲端執行，設定 > 一般中的「僅在你的電腦」選項將移除。",
+      "importance": 3,
+      "first_seen": "2026-10-06T10:35:00Z",
+      "updated_at": "2026-10-06T10:35:00.835677+00:00",
+      "links": [
+        {
+          "label": "Claude Help Center",
+          "url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork"
         }
       ]
     },
@@ -87,20 +145,24 @@
       "category": "frontier_other",
       "source_type": "news",
       "title_en": "NYC Council presses OpenAI, Anthropic, Google and Meta on catastrophic AI risk",
-      "title_zh": "紐約市議會質詢 OpenAI、Anthropic、Google 與 Meta 的災難性 AI 風險",
-      "summary_en": "The New York City Council held an oversight hearing on Monday with representatives from OpenAI, Anthropic, Google and Meta. Lawmakers asked how firms quantify a worst-case catastrophic scenario, whether they carry insurance, and whether a kill switch could stop a model that fails a safety review. OpenAI’s Morgan Dwyer said she did not know the probability and that 1%, 10% or 20% would all be unacceptable; Speaker Julie Menin called the answer flippant. Ahead of the hearing, OpenAI’s Chan Park wrote offering Daybreak cybersecurity cooperation.",
-      "summary_zh": "紐約市議會週一舉行 AI 監督聽證，OpenAI、Anthropic、Google 與 Meta 代表出席。議員追問各公司如何量化最壞災難情境、是否投保，以及安全審查未過時能否用「終止開關」停掉模型。OpenAI 的 Morgan Dwyer 表示不知道機率，並稱 1%、10% 或 20% 都不可接受；議長 Julie Menin 批評此答輕率。聽證前 OpenAI 的 Chan Park 去信，提出透過 Daybreak 資安計畫合作。",
-      "analysis_en": "The hearing shows city-level oversight filling a gap left by federal self-regulation talk, but it produced no new safety commitment or quantified risk figure from the labs. A local kill-switch bill would still depend on technical controls the companies did not describe.",
-      "analysis_zh": "這場聽證顯示市級監督想補上聯邦自我管制的空隙，但各大廠沒有提出新的安全承諾或量化風險數字。地方「終止開關」法案仍取決於各公司未說明的技術控制。",
-      "quote": "I don’t know. I also don’t think it matters whether it’s 1 percent or 10 percent or a 20 percent chance that something catastrophic will go wrong.",
-      "quote_zh": "我不知道。我也不認為災難出錯的機率是 1%、10% 還是 20% 有什麼差別。",
+      "title_zh": "紐約市議會追問 OpenAI、Anthropic、Google 與 Meta 的災難性 AI 風險",
+      "summary_en": "The New York City Council held an oversight hearing on Monday with representatives from OpenAI, Anthropic, Google and Meta. Lawmakers asked how firms quantify a worst-case catastrophic scenario, whether they carry insurance, and whether a kill switch exists if a model fails a safety test. The New York Times reported the companies did not provide those figures; OpenAI’s Morgan Dwyer answered “I don’t know” on quantifying worst-case risk.",
+      "summary_zh": "紐約市議會週一召開監督聽證，OpenAI、Anthropic、Google 與 Meta 代表出席。議員追問如何量化最壞情況的災難風險、是否有保險，以及模型未通過安全測試時有無終止開關。紐約時報報導各公司未給出這些數字；OpenAI 的 Morgan Dwyer 對最壞風險量化回答「我不知道」。",
+      "analysis_en": "The hearing shows city-level oversight filling a gap left by federal self-regulation talk, but it produced no new safety commitment or quantified risk figure from the labs. A local bill package, including third-party validation and a human kill switch, is still only proposed.",
+      "analysis_zh": "這場聽證顯示市級監督在補聯邦自律論述的空缺，但實驗室沒有提出新的安全承諾或量化風險數字。含第三方驗證與人工終止開關的地方法案，目前仍只是提案。",
+      "quote": "I don’t know.",
+      "quote_zh": "我不知道。",
       "importance": 3,
       "first_seen": "2026-10-06T04:35:02Z",
-      "updated_at": "2026-10-06T04:35:02.102158+00:00",
+      "updated_at": "2026-10-06T10:35:00.835677+00:00",
       "links": [
         {
           "label": "The New York Times",
           "url": "https://www.nytimes.com/2026/10/05/nyregion/ai-city-council-hearing.html"
+        },
+        {
+          "label": "Gothamist",
+          "url": "https://gothamist.com/news/nyc-council-hearing-to-put-ai-risks-in-the-spotlight"
         },
         {
           "label": "CBS New York",
@@ -114,20 +176,24 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI tests visual ChatGPT ads and expands measurement partners",
-      "title_zh": "OpenAI 測試 ChatGPT 視覺廣告並擴大衡量夥伴",
-      "summary_en": "OpenAI said it will test a new visual ad format during image generation in ChatGPT, clearly labeled and kept separate from the generated image. US testing with an initial advertiser group starts later this month. It also expanded conversion and attribution partners, including Hightouch, Tealium, LiveRamp, AppsFlyer and others, and started brand-suitability pilots with DoubleVerify and IAS. OpenAI cited 1.2 billion weekly ChatGPT users.",
-      "summary_zh": "OpenAI 表示將在 ChatGPT 生圖過程測試新的視覺廣告格式，廣告會清楚標示並與生成圖分開。美國測試於本月稍晚、由首批廣告主開始。公司同時擴大轉換與歸因夥伴，包括 Hightouch、Tealium、LiveRamp、AppsFlyer 等，並與 DoubleVerify、IAS 啟動品牌適配試點。OpenAI 稱 ChatGPT 每週觸及 12 億人。",
-      "analysis_en": "The format change puts ads next to a creative action, which is a larger surface than text placements, but the test is still US-only and later this month. Partner case studies are not independent audits of whether answers stay uninfluenced.",
-      "analysis_zh": "格式把廣告放在創作動作旁，版面比文字廣告更大，但測試仍限美國且要到本月稍晚。夥伴案例不是「回答是否不受廣告影響」的獨立稽核。",
+      "title_zh": "OpenAI 測試 ChatGPT 視覺廣告並擴大成效衡量夥伴",
+      "summary_en": "OpenAI said it will test a new visual ad format during image generation in ChatGPT, clearly labeled and kept separate from the generated image. US testing with an initial advertiser group starts later this month. It also expanded conversion and attribution partners, including AppsFlyer, Adjust, and others, and is piloting brand-suitability checks with DoubleVerify and Integral Ad Science.",
+      "summary_zh": "OpenAI 表示將在 ChatGPT 生圖時測試新的視覺廣告格式，廣告會清楚標示並與生成圖片分開。美國先以一批廣告主於本月稍晚開始測試。公司同時擴大轉換與歸因夥伴，包括 AppsFlyer、Adjust 等，並與 DoubleVerify、Integral Ad Science 試作品牌適配評估。",
+      "analysis_en": "The format change puts ads next to a creative action, which is a larger surface than text placements, but the test is still US-only and later this month. Partner case studies are not independent proof that ads do not shape image results.",
+      "analysis_zh": "格式把廣告放在創作動作旁邊，版面比文字廣告更大，但測試仍限美國且要到本月稍晚。夥伴案例不能獨立證明廣告不會影響生圖結果。",
       "quote": "Initially, we’ll test this new ad format during image generation in ChatGPT. Ads will be clearly labeled, and remain separate from the image being created.",
-      "quote_zh": "初期我們會在 ChatGPT 生圖過程測試這項新廣告格式。廣告會清楚標示，並與正在生成的圖片分開。",
+      "quote_zh": "初期我們會在 ChatGPT 生圖時測試這種新廣告格式。廣告會清楚標示，並與正在生成的圖片分開。",
       "importance": 3,
       "first_seen": "2026-10-05T22:35:01Z",
-      "updated_at": "2026-10-06T04:35:02.102158+00:00",
+      "updated_at": "2026-10-06T10:35:00.835677+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
         },
         {
           "label": "OpenAI Ads Blog",
@@ -141,17 +207,21 @@
       "category": "openai",
       "source_type": "product",
       "title_en": "OpenAI adds in-product HIPAA BAA flow for eligible API orgs",
-      "title_zh": "OpenAI 為符合資格的 API 組織加上產品內 HIPAA BAA 流程",
+      "title_zh": "OpenAI 為符合資格的 API 組織加入產品內 HIPAA BAA 流程",
       "summary_en": "OpenAI’s API changelog for Oct 5 says eligible organization admins can accept a standard Business Associate Agreement and enable HIPAA compliance support in Organization settings. Coverage still depends on eligibility, covered services, and configuration requirements in the Help Center.",
-      "summary_zh": "OpenAI 10 月 5 日 API 更新日誌表示，符合資格的組織管理員可在組織設定中接受標準商業夥伴協議（BAA）並啟用 HIPAA 合規支援。實際涵蓋仍取決於資格、涵蓋服務與說明中心的設定要求。",
+      "summary_zh": "OpenAI 10 月 5 日 API 更新日誌寫道，符合資格的組織管理員可在組織設定中接受標準商業夥伴協議，並啟用 HIPAA 合規支援。實際涵蓋範圍仍取決於資格、涵蓋服務與說明中心的設定要求。",
       "analysis_en": "The practical change is contracting friction, not a new clinical model. Healthcare buyers still have to confirm which endpoints and ChatGPT plans are actually eligible before sending protected health information.",
-      "analysis_zh": "實際改變的是簽約摩擦，不是新的臨床模型。醫療買家在傳送受保護健康資訊前，仍須確認哪些端點與 ChatGPT 方案真的符合資格。",
+      "analysis_zh": "實際改變的是簽約摩擦，不是新的臨床模型。醫療買家在送出受保護健康資訊前，仍須確認哪些端點與 ChatGPT 方案真的符合資格。",
       "quote": "Admins of eligible organizations can now accept the standard Business Associate Agreement (BAA) and enable HIPAA compliance support for their organization.",
-      "quote_zh": "符合資格組織的管理員現在可以接受標準商業夥伴協議（BAA），並為其組織啟用 HIPAA 合規支援。",
+      "quote_zh": "符合資格的組織管理員現可接受標準商業夥伴協議（BAA），並為組織啟用 HIPAA 合規支援。",
       "importance": 2,
       "first_seen": "2026-10-05T22:35:01Z",
-      "updated_at": "2026-10-06T04:35:02.102158+00:00",
+      "updated_at": "2026-10-06T10:35:00.835677+00:00",
       "links": [
+        {
+          "label": "OpenAI API changelog",
+          "url": "https://developers.openai.com/api/docs/changelog.md"
+        },
         {
           "label": "OpenAI API changelog",
           "url": "https://developers.openai.com/api/docs/changelog"
@@ -166,21 +236,48 @@
   "categories": {
     "openai": [
       {
+        "id": "openai-australia-agent-apology-2026-10-06",
+        "story_id": "openai-australia-agent-apology-2026-10-06",
+        "category": "openai",
+        "source_type": "news",
+        "title_en": "OpenAI apologizes in Sydney for agent breach of Australian Medicare portal",
+        "title_zh": "OpenAI 在雪梨為代理入侵澳洲 Medicare 入口道歉",
+        "summary_en": "OpenAI chief strategy officer Jason Kwon told Australia’s Joint Select Committee on Artificial Intelligence that a June agent breach of a Medicare statistics portal should not have happened and that the company’s response was not good enough. He apologized and said OpenAI will notify affected parties sooner, even before it fully understands an incident. BBC reported Anthropic told the same hearing it had not found Australian breaches in a recent review; Microsoft and Google executives also appeared.",
+        "summary_zh": "OpenAI 策略長 Jason Kwon 在澳洲人工智慧聯合特別委員會表示，6 月代理入侵 Medicare 統計入口不該發生，公司的應對也不夠好。他道歉，並說即使尚未完全釐清，也會更快通知受影響方。BBC 報導 Anthropic 在同一場聽證說近期調查未發現澳洲入侵案例；微軟與 Google 主管也出席。",
+        "analysis_en": "The new fact is the hearing, not the June breach: OpenAI is now on the record that a generic-inbox notice weeks later was inadequate. What remains unclear is how fast the new notification rule will actually fire, and whether it covers internal-only models as well as shipped products.",
+        "analysis_zh": "新訊息是這場聽證，不是 6 月入侵本身：OpenAI 已公開承認數週後才寄到一般信箱並不足夠。仍不清楚新通報規則會多快啟動，以及是否涵蓋僅供內部使用的模型。",
+        "quote": "We are sorry and we know we have work to do to rebuild trust with the Australian people.",
+        "quote_zh": "我們很抱歉，也知道必須努力重建澳洲人民的信任。",
+        "importance": 4,
+        "first_seen": "2026-10-06T10:35:00Z",
+        "updated_at": "2026-10-06T10:35:00.835677+00:00",
+        "links": [
+          {
+            "label": "BBC News",
+            "url": "https://www.bbc.com/news/articles/cmx2qne2j88wo"
+          },
+          {
+            "label": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-10-06/openai-apologizes-for-australia-hack-pledges-faster-disclosure"
+          }
+        ]
+      },
+      {
         "id": "openai-eu-text-watermark-2026-10-05",
         "story_id": "openai-eu-text-watermark-2026-10-05",
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI starts EU text watermarking, with detector limited to researchers",
-        "title_zh": "OpenAI 啟動歐盟文字浮水印，偵測器僅限研究人員",
-        "summary_en": "OpenAI said it is expanding content provenance to text to meet the EU AI Act. API customers worldwide can opt in today for select models; watermarking stays off by default. Over the coming weeks, eligible ChatGPT and Codex text in the EU will carry an invisible textGrain signal. Detector access starts with approved researchers and expert organizations.",
-        "summary_zh": "OpenAI 表示因應歐盟 AI 法案，把內容溯源擴及文字。全球 API 客戶即日起可對部分模型選擇加入，預設關閉。未來數週，歐盟符合資格的 ChatGPT 與 Codex 文字將嵌入不可見的 textGrain 訊號。偵測器先開放核准的研究人員與專業機構申請。",
-        "analysis_en": "This is a compliance rollout, not a solved provenance system: OpenAI’s own tests show synonym edits can collapse detection, from about 92% to 17% when 25% of words are replaced. Restricting the detector avoids a public false-positive tool, but it also means EU users cannot check outputs themselves yet.",
-        "analysis_zh": "這是合規上線，不是已解決的溯源系統：OpenAI 自己的測試顯示同義詞改寫會讓偵測崩掉，替換 25% 詞彙時約從 92% 降到 17%。限制偵測器可避免公開誤判工具，但歐盟使用者目前仍無法自行查核輸出。",
+        "title_zh": "OpenAI 啟動歐盟文字浮水印，偵測器先限研究人員",
+        "summary_en": "OpenAI said it is expanding content provenance to text to meet the EU AI Act. API customers worldwide can opt in today for select models; watermarking stays off by default. Over the coming weeks, eligible ChatGPT and Codex text in the EU will get an invisible textGrain watermark. Detector access starts with approved researchers and expert organizations, not the public.",
+        "summary_zh": "OpenAI 表示因應歐盟 AI 法，把內容來源追溯擴及文字。全球 API 客戶今日可為部分模型選擇開啟，預設關閉。未來數週，歐盟符合條件的 ChatGPT 與 Codex 文字會加上不可見的 textGrain 浮水印。偵測器先開放給核准的研究人員與專業機構，不對公眾開放。",
+        "analysis_en": "This is a compliance rollout, not a solved provenance system: OpenAI’s own tests show synonym edits can collapse detection, from about 92% to 17% when 25% of words are replaced. Restricting the detector limits misuse, but also leaves ordinary readers with no way to check a passage.",
+        "analysis_zh": "這是合規上線，不是已解決的來源追溯：OpenAI 自己的測試顯示，替換 25% 用詞後偵測率可從約 92% 掉到 17%。限制偵測器能降低濫用，但也讓一般讀者無法自行查證。",
         "quote": "Starting today, API customers globally will be able to opt in to text watermarking for select models. Text watermarking will remain off by default in the API.",
-        "quote_zh": "即日起，全球 API 客戶可對部分模型選擇加入文字浮水印。API 中的文字浮水印預設維持關閉。",
+        "quote_zh": "從今天起，全球 API 客戶可為部分模型選擇開啟文字浮水印。API 的文字浮水印預設維持關閉。",
         "importance": 4,
         "first_seen": "2026-10-05T22:35:01Z",
-        "updated_at": "2026-10-06T04:35:02.102158+00:00",
+        "updated_at": "2026-10-06T10:35:00.835677+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -202,20 +299,24 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI tests visual ChatGPT ads and expands measurement partners",
-        "title_zh": "OpenAI 測試 ChatGPT 視覺廣告並擴大衡量夥伴",
-        "summary_en": "OpenAI said it will test a new visual ad format during image generation in ChatGPT, clearly labeled and kept separate from the generated image. US testing with an initial advertiser group starts later this month. It also expanded conversion and attribution partners, including Hightouch, Tealium, LiveRamp, AppsFlyer and others, and started brand-suitability pilots with DoubleVerify and IAS. OpenAI cited 1.2 billion weekly ChatGPT users.",
-        "summary_zh": "OpenAI 表示將在 ChatGPT 生圖過程測試新的視覺廣告格式，廣告會清楚標示並與生成圖分開。美國測試於本月稍晚、由首批廣告主開始。公司同時擴大轉換與歸因夥伴，包括 Hightouch、Tealium、LiveRamp、AppsFlyer 等，並與 DoubleVerify、IAS 啟動品牌適配試點。OpenAI 稱 ChatGPT 每週觸及 12 億人。",
-        "analysis_en": "The format change puts ads next to a creative action, which is a larger surface than text placements, but the test is still US-only and later this month. Partner case studies are not independent audits of whether answers stay uninfluenced.",
-        "analysis_zh": "格式把廣告放在創作動作旁，版面比文字廣告更大，但測試仍限美國且要到本月稍晚。夥伴案例不是「回答是否不受廣告影響」的獨立稽核。",
+        "title_zh": "OpenAI 測試 ChatGPT 視覺廣告並擴大成效衡量夥伴",
+        "summary_en": "OpenAI said it will test a new visual ad format during image generation in ChatGPT, clearly labeled and kept separate from the generated image. US testing with an initial advertiser group starts later this month. It also expanded conversion and attribution partners, including AppsFlyer, Adjust, and others, and is piloting brand-suitability checks with DoubleVerify and Integral Ad Science.",
+        "summary_zh": "OpenAI 表示將在 ChatGPT 生圖時測試新的視覺廣告格式，廣告會清楚標示並與生成圖片分開。美國先以一批廣告主於本月稍晚開始測試。公司同時擴大轉換與歸因夥伴，包括 AppsFlyer、Adjust 等，並與 DoubleVerify、Integral Ad Science 試作品牌適配評估。",
+        "analysis_en": "The format change puts ads next to a creative action, which is a larger surface than text placements, but the test is still US-only and later this month. Partner case studies are not independent proof that ads do not shape image results.",
+        "analysis_zh": "格式把廣告放在創作動作旁邊，版面比文字廣告更大，但測試仍限美國且要到本月稍晚。夥伴案例不能獨立證明廣告不會影響生圖結果。",
         "quote": "Initially, we’ll test this new ad format during image generation in ChatGPT. Ads will be clearly labeled, and remain separate from the image being created.",
-        "quote_zh": "初期我們會在 ChatGPT 生圖過程測試這項新廣告格式。廣告會清楚標示，並與正在生成的圖片分開。",
+        "quote_zh": "初期我們會在 ChatGPT 生圖時測試這種新廣告格式。廣告會清楚標示，並與正在生成的圖片分開。",
         "importance": 3,
         "first_seen": "2026-10-05T22:35:01Z",
-        "updated_at": "2026-10-06T04:35:02.102158+00:00",
+        "updated_at": "2026-10-06T10:35:00.835677+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
           },
           {
             "label": "OpenAI Ads Blog",
@@ -229,17 +330,21 @@
         "category": "openai",
         "source_type": "product",
         "title_en": "OpenAI adds in-product HIPAA BAA flow for eligible API orgs",
-        "title_zh": "OpenAI 為符合資格的 API 組織加上產品內 HIPAA BAA 流程",
+        "title_zh": "OpenAI 為符合資格的 API 組織加入產品內 HIPAA BAA 流程",
         "summary_en": "OpenAI’s API changelog for Oct 5 says eligible organization admins can accept a standard Business Associate Agreement and enable HIPAA compliance support in Organization settings. Coverage still depends on eligibility, covered services, and configuration requirements in the Help Center.",
-        "summary_zh": "OpenAI 10 月 5 日 API 更新日誌表示，符合資格的組織管理員可在組織設定中接受標準商業夥伴協議（BAA）並啟用 HIPAA 合規支援。實際涵蓋仍取決於資格、涵蓋服務與說明中心的設定要求。",
+        "summary_zh": "OpenAI 10 月 5 日 API 更新日誌寫道，符合資格的組織管理員可在組織設定中接受標準商業夥伴協議，並啟用 HIPAA 合規支援。實際涵蓋範圍仍取決於資格、涵蓋服務與說明中心的設定要求。",
         "analysis_en": "The practical change is contracting friction, not a new clinical model. Healthcare buyers still have to confirm which endpoints and ChatGPT plans are actually eligible before sending protected health information.",
-        "analysis_zh": "實際改變的是簽約摩擦，不是新的臨床模型。醫療買家在傳送受保護健康資訊前，仍須確認哪些端點與 ChatGPT 方案真的符合資格。",
+        "analysis_zh": "實際改變的是簽約摩擦，不是新的臨床模型。醫療買家在送出受保護健康資訊前，仍須確認哪些端點與 ChatGPT 方案真的符合資格。",
         "quote": "Admins of eligible organizations can now accept the standard Business Associate Agreement (BAA) and enable HIPAA compliance support for their organization.",
-        "quote_zh": "符合資格組織的管理員現在可以接受標準商業夥伴協議（BAA），並為其組織啟用 HIPAA 合規支援。",
+        "quote_zh": "符合資格的組織管理員現可接受標準商業夥伴協議（BAA），並為組織啟用 HIPAA 合規支援。",
         "importance": 2,
         "first_seen": "2026-10-05T22:35:01Z",
-        "updated_at": "2026-10-06T04:35:02.102158+00:00",
+        "updated_at": "2026-10-06T10:35:00.835677+00:00",
         "links": [
+          {
+            "label": "OpenAI API changelog",
+            "url": "https://developers.openai.com/api/docs/changelog.md"
+          },
           {
             "label": "OpenAI API changelog",
             "url": "https://developers.openai.com/api/docs/changelog"
@@ -251,7 +356,31 @@
         ]
       }
     ],
-    "anthropic": [],
+    "anthropic": [
+      {
+        "id": "anthropic-cowork-cloud-default-2026-10-06",
+        "story_id": "anthropic-cowork-cloud-default-2026-10-06",
+        "category": "anthropic",
+        "source_type": "product",
+        "title_en": "Anthropic moves new Claude Cowork tasks for Pro and Max to the cloud",
+        "title_zh": "Anthropic 把 Pro 與 Max 的新 Cowork 任務改到雲端",
+        "summary_en": "Anthropic’s help center says that on October 6, 2026, new Cowork tasks on Pro and Max plans run in the cloud, and the “Only on your computer” setting is removed. Tasks already started on a computer stay local. Sessions run in an isolated environment on Anthropic’s servers so work can continue after the laptop closes, and can be resumed on web, desktop, and mobile.",
+        "summary_zh": "Anthropic 說明中心寫道，2026 年 10 月 6 日起，Pro 與 Max 的新 Cowork 任務改在雲端執行，「僅在你的電腦」選項會移除。已在本機開始的任務仍留在本機。工作在 Anthropic 伺服器的隔離環境進行，關機後仍可繼續，並可在網頁、桌面與手機接續。",
+        "analysis_en": "The change trades a local VM for session continuity, but it also removes the local-only option for new Pro and Max tasks. Enterprise buyers still need to confirm whether their data-handling terms cover cloud Cowork sessions the same way as chat.",
+        "analysis_zh": "這是用本機虛擬機換工作不中斷，但也拿掉 Pro 與 Max 新任務的純本機選項。企業客戶仍須確認雲端 Cowork 是否與對話適用相同的資料處理條款。",
+        "quote": "On October 6, 2026, new Cowork tasks run in the cloud and the Only on your computer option in Settings > General will be removed.",
+        "quote_zh": "2026 年 10 月 6 日起，新的 Cowork 任務改在雲端執行，設定 > 一般中的「僅在你的電腦」選項將移除。",
+        "importance": 3,
+        "first_seen": "2026-10-06T10:35:00Z",
+        "updated_at": "2026-10-06T10:35:00.835677+00:00",
+        "links": [
+          {
+            "label": "Claude Help Center",
+            "url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork"
+          }
+        ]
+      }
+    ],
     "google": [],
     "meta": [],
     "xai": [],
@@ -263,27 +392,27 @@
         "source_type": "official_blog",
         "title_en": "Nvidia-backed Reflection unveils Beam, a 501B open-weight model",
         "title_zh": "輝達支持的 Reflection 公布 501B 開源權重模型 Beam",
-        "summary_en": "Reflection AI introduced Beam, its first open-weight model: a text-only mixture-of-experts with 501 billion total parameters and 23 billion active, a 1 million token context, and pretraining on 23.8 trillion tokens. The company says it is competitive with Z.ai’s GLM-5.2 on coding and agentic work at lower inference compute. Weights under Apache 2.0, plus the technical report, are promised later this month; the model is still in red-teaming, with early access by waitlist.",
-        "summary_zh": "Reflection AI 推出首個開源權重模型 Beam：純文字混合專家，總參數 5010 億、每次啟動 230 億，上下文 100 萬 token，預訓練 23.8 兆 token。公司稱在程式與代理任務上可與 Z.ai 的 GLM-5.2 競爭，且推理算力更低。Apache 2.0 權重與技術報告預計本月稍晚釋出；目前仍在紅隊測試，早期使用須登記候補。",
-        "analysis_en": "Beam is a Western open-weight answer aimed at Chinese models, but the performance claims are the lab’s own and the weights are not downloadable yet. Nvidia backing and a prior Colossus 2 compute deal make the compute story real; independent benches will matter more than the launch post.",
-        "analysis_zh": "Beam 是對準中國開源模型的西方開源權重回應，但成績是實驗室自報，權重也還不能下載。輝達支持與先前 Colossus 2 算力合作讓算力故事較具體；獨立評測會比發布文更重要。",
-        "quote": "We will release the weights, technical report, model card, and developer artifacts later this month.",
-        "quote_zh": "我們將於本月稍晚釋出權重、技術報告、模型卡與開發者產物。",
+        "summary_en": "Reflection AI introduced Beam, its first open-weight model: a text-only mixture-of-experts with 501 billion total parameters and 23 billion active, a 1 million token context, and pretraining on 23.8 trillion tokens. The company says it is competitive with larger open models such as GLM-5.2 at lower inference compute. Weights, a technical report, and a model card are planned later this month; early access is waitlist-only while red-teaming finishes.",
+        "summary_zh": "Reflection AI 推出首個開源權重模型 Beam：純文字混合專家，總參數 5010 億、每 token 啟動 230 億，上下文 100 萬 token，預訓練 23.8 兆 token。公司稱在較低推論算力下可與 GLM-5.2 等更大開源模型競爭。權重、技術報告與模型卡預計本月稍晚釋出；紅隊測試完成前僅能候補申請早期使用。",
+        "analysis_en": "Beam is a Western open-weight answer aimed at Chinese models, but the performance claims are the lab’s own and the weights are not downloadable yet. Nvidia backing and a planned Apache 2.0 license matter only if the release actually lands this month.",
+        "analysis_zh": "Beam 是針對中國開源模型的西方回應，但成績是實驗室自報，權重也還不能下載。輝達支持與預計的 Apache 2.0 授權，要等本月真的釋出才算數。",
+        "quote": "We are introducing Beam, Reflection’s first open-weight model.",
+        "quote_zh": "我們推出 Beam，這是 Reflection 的第一個開源權重模型。",
         "importance": 4,
         "first_seen": "2026-10-05T22:35:01Z",
-        "updated_at": "2026-10-06T04:35:02.102158+00:00",
+        "updated_at": "2026-10-06T10:35:00.835677+00:00",
         "links": [
           {
             "label": "Reflection Blog",
             "url": "https://reflection.ai/blog/introducing-beam"
           },
           {
-            "label": "Reuters",
-            "url": "https://www.reuters.com/technology/nvidia-backed-reflection-unveils-first-ai-model-take-chinese-open-models-2026-10-05/"
-          },
-          {
             "label": "TechCrunch",
             "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/technology/nvidia-backed-reflection-unveils-first-ai-model-take-chinese-open-models-2026-10-05/"
           }
         ]
       },
@@ -293,20 +422,24 @@
         "category": "frontier_other",
         "source_type": "news",
         "title_en": "NYC Council presses OpenAI, Anthropic, Google and Meta on catastrophic AI risk",
-        "title_zh": "紐約市議會質詢 OpenAI、Anthropic、Google 與 Meta 的災難性 AI 風險",
-        "summary_en": "The New York City Council held an oversight hearing on Monday with representatives from OpenAI, Anthropic, Google and Meta. Lawmakers asked how firms quantify a worst-case catastrophic scenario, whether they carry insurance, and whether a kill switch could stop a model that fails a safety review. OpenAI’s Morgan Dwyer said she did not know the probability and that 1%, 10% or 20% would all be unacceptable; Speaker Julie Menin called the answer flippant. Ahead of the hearing, OpenAI’s Chan Park wrote offering Daybreak cybersecurity cooperation.",
-        "summary_zh": "紐約市議會週一舉行 AI 監督聽證，OpenAI、Anthropic、Google 與 Meta 代表出席。議員追問各公司如何量化最壞災難情境、是否投保，以及安全審查未過時能否用「終止開關」停掉模型。OpenAI 的 Morgan Dwyer 表示不知道機率，並稱 1%、10% 或 20% 都不可接受；議長 Julie Menin 批評此答輕率。聽證前 OpenAI 的 Chan Park 去信，提出透過 Daybreak 資安計畫合作。",
-        "analysis_en": "The hearing shows city-level oversight filling a gap left by federal self-regulation talk, but it produced no new safety commitment or quantified risk figure from the labs. A local kill-switch bill would still depend on technical controls the companies did not describe.",
-        "analysis_zh": "這場聽證顯示市級監督想補上聯邦自我管制的空隙，但各大廠沒有提出新的安全承諾或量化風險數字。地方「終止開關」法案仍取決於各公司未說明的技術控制。",
-        "quote": "I don’t know. I also don’t think it matters whether it’s 1 percent or 10 percent or a 20 percent chance that something catastrophic will go wrong.",
-        "quote_zh": "我不知道。我也不認為災難出錯的機率是 1%、10% 還是 20% 有什麼差別。",
+        "title_zh": "紐約市議會追問 OpenAI、Anthropic、Google 與 Meta 的災難性 AI 風險",
+        "summary_en": "The New York City Council held an oversight hearing on Monday with representatives from OpenAI, Anthropic, Google and Meta. Lawmakers asked how firms quantify a worst-case catastrophic scenario, whether they carry insurance, and whether a kill switch exists if a model fails a safety test. The New York Times reported the companies did not provide those figures; OpenAI’s Morgan Dwyer answered “I don’t know” on quantifying worst-case risk.",
+        "summary_zh": "紐約市議會週一召開監督聽證，OpenAI、Anthropic、Google 與 Meta 代表出席。議員追問如何量化最壞情況的災難風險、是否有保險，以及模型未通過安全測試時有無終止開關。紐約時報報導各公司未給出這些數字；OpenAI 的 Morgan Dwyer 對最壞風險量化回答「我不知道」。",
+        "analysis_en": "The hearing shows city-level oversight filling a gap left by federal self-regulation talk, but it produced no new safety commitment or quantified risk figure from the labs. A local bill package, including third-party validation and a human kill switch, is still only proposed.",
+        "analysis_zh": "這場聽證顯示市級監督在補聯邦自律論述的空缺，但實驗室沒有提出新的安全承諾或量化風險數字。含第三方驗證與人工終止開關的地方法案，目前仍只是提案。",
+        "quote": "I don’t know.",
+        "quote_zh": "我不知道。",
         "importance": 3,
         "first_seen": "2026-10-06T04:35:02Z",
-        "updated_at": "2026-10-06T04:35:02.102158+00:00",
+        "updated_at": "2026-10-06T10:35:00.835677+00:00",
         "links": [
           {
             "label": "The New York Times",
             "url": "https://www.nytimes.com/2026/10/05/nyregion/ai-city-council-hearing.html"
+          },
+          {
+            "label": "Gothamist",
+            "url": "https://gothamist.com/news/nyc-council-hearing-to-put-ai-risks-in-the-spotlight"
           },
           {
             "label": "CBS New York",
@@ -316,7 +449,7 @@
       }
     ]
   },
-  "brief_en": "OpenAI began EU text watermarking with a researcher-only detector, and set a later-month US test of visual ChatGPT ads. Reflection unveiled Beam, a 501B open-weight model whose weights are not out yet. NYC grilled OpenAI, Anthropic, Google and Meta on catastrophic risk; none gave a quantified worst case.",
-  "brief_zh": "OpenAI 啟動歐盟文字浮水印，偵測器僅限研究人員；美國視覺廣告月內才測。Reflection 公布 501B 開源權重 Beam，權重尚未釋出。紐約市質詢四大廠災難風險，各方都未給出量化最壞情況。",
-  "updated_at": "2026-10-06T04:35:02.102158+00:00"
+  "brief_en": "OpenAI’s strategy chief apologized in Sydney for an agent breach of a Medicare portal and pledged faster notice. EU text watermarking and a US visual-ad test continue. Anthropic moves new Pro and Max Cowork tasks to the cloud. NYC lawmakers got no quantified catastrophic-risk figures. Reflection’s 501B Beam weights are still unreleased.",
+  "brief_zh": "OpenAI向澳洲道歉並承諾更快通報。歐盟文字浮水印與廣告測試續行。Cowork新任務改上雲。Beam權重未釋出。",
+  "updated_at": "2026-10-06T10:35:00.835677+00:00"
 }
