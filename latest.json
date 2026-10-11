@@ -8,6 +8,14 @@
       "item_count": 2,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-10-11T22:35:01.978522+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 3,
+      "updated_count": 2,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -17,20 +25,24 @@
       "category": "frontier_other",
       "source_type": "official_x",
       "title_en": "Microsoft CEO Satya Nadella Calls for Containing Super Intelligence as Insider Risks",
-      "title_zh": "微軟CEO納德拉呼籲將超級智能視為內部風險加以控制",
-      "summary_en": "In an October 10 X post titled 'Models as Insider Risks in the Super Intelligence Era,' Satya Nadella argued that frontier models lack mechanistic traceability like traditional software and should not be treated as trusted black boxes. He proposed separating the supply of intelligence from authority over it, surrounding non-deterministic models with deterministic controls, human oversight, and an emergency brake.",
-      "summary_zh": "納德拉於10月10日在X發布貼文《超級智能時代的模型作為內部風險》，指出前沿模型缺乏傳統軟體的機制可追溯性，不應視為可信黑箱。他主張將智能供應與對其的權威分離，並以確定性控制、人類監督與緊急剎車包圍非確定性模型。",
-      "analysis_en": "This frames deployment safety as an enterprise engineering problem rather than pure model alignment, potentially accelerating demand for external harnesses and audit tools while highlighting Microsoft's position as a major AI customer and Azure provider. Uncertainty remains on whether labs will adopt standardized external controls or if competitive pressures will override the call.",
-      "analysis_zh": "這將部署安全定位為企業工程問題而非純模型對齊，可能加速外部 harness 與審計工具需求，同時凸顯微軟作為主要AI客戶與Azure供應商的立場。不確定性在於實驗室是否會採納標準化外部控制，或競爭壓力是否會壓過此呼籲。",
-      "quote": "We can’t treat Super Intelligence as a set of nested black boxes and simply accept or reject its recommendations, answers, and actions. We must build contained systems whose behavior we can observe, limits we can test, and actions we can always contain.",
-      "quote_zh": "我們不能將超級智能視為一組嵌套黑箱，單純接受或拒絕其建議、答案與行動。我們必須建立行為可觀察、限制可測試、行動始終可控制的封閉系統。",
+      "title_zh": "微軟執行長Satya Nadella呼籲將超級智能視為內部風險加以遏制",
+      "summary_en": "On October 10, Satya Nadella posted an essay titled 'Models as Insider Risks in the Super Intelligence Era' arguing that frontier models lack mechanistic traceability of traditional software and should not be treated as trusted black boxes. He said companies must separate the supply of intelligence from authority over it, assume models can be compromised, surround them with deterministic controls, and maintain an emergency brake.",
+      "summary_zh": "10月10日，Satya Nadella發布題為「超級智能時代模型作為內部風險」的文章，主張前沿模型缺乏傳統軟體的機制可追溯性，不應被視為可信任的黑箱。他表示公司必須將智能供應與對其的權威分開，假設模型可能已遭妥協，以確定性控制包圍它們，並維持緊急制動。",
+      "analysis_en": "This frames deployment safety as an enterprise engineering problem rather than pure model alignment, potentially accelerating demand for external harnesses and audit tools while highlighting that provider assurances do not transfer liability.",
+      "analysis_zh": "這將部署安全框架為企業工程問題而非純粹模型對齊，可能加速對外部 harness 與審計工具的需求，同時強調提供者保證並不轉移責任。",
+      "quote": "We simply can't outsource responsibility for what intelligence does on our behalf. A model provider’s assurances do not relieve us of that responsibility. We need to separate the supply of intelligence from the authority over it.",
+      "quote_zh": "我們根本無法外包智能代表我們行事的責任。模型提供者的保證並不能免除我們的這項責任。我們需要將智能的供應與對它的權威分開。",
       "importance": 4,
       "first_seen": "2026-10-11T16:35:01Z",
-      "updated_at": "2026-10-11T16:35:01.963444+00:00",
+      "updated_at": "2026-10-11T22:35:01.978522+00:00",
       "links": [
         {
           "label": "Satya Nadella on X",
           "url": "https://x.com/satyanadella/status/2108931348857827686"
+        },
+        {
+          "label": "Forbes coverage",
+          "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/10/11/microsofts-nadella-wants-an-emergency-brake-on-every-ai-model/"
         },
         {
           "label": "Bloomberg",
@@ -44,17 +56,25 @@
       "category": "xai",
       "source_type": "official_x",
       "title_en": "Elon Musk Says Grok Bot Can Research Deals and Order Online from a Credit Card Photo",
-      "title_zh": "馬斯克稱Grok Bot可從信用卡照片研究最佳價格並完成線上訂購",
-      "summary_en": "On October 10-11, Elon Musk posted that users can photograph a credit card, drop it in Grok Bot chat, and have the agent scour the internet for the best deal and complete the purchase. He demonstrated by asking it to research and order Lego Star Wars kits for kids, noting it bought from the LEGO website after Amazon blocked agents.",
-      "summary_zh": "10月10-11日，馬斯克發文稱用戶可拍攝信用卡照片丟入Grok Bot聊天，讓代理搜尋網路最佳價格並完成購買。他示範要求研究並訂購兒童樂高星際大戰套組，指出在亞馬遜封鎖代理後，它從樂高官網購買。",
-      "analysis_en": "This expands Grok Bot's agentic actions into real-world commerce, testing user trust in autonomous spending, but media reports note his demo screenshot exposed partial address and card details, underscoring privacy and confirmation risks despite documented approval flows. It remains unclear how broadly the photo-to-order path is implemented versus existing Stripe Link confirmations.",
-      "analysis_zh": "這將Grok Bot的代理行動擴展至現實商務，測試用戶對自主消費的信任，但媒體報導指出其示範截圖暴露部分地址與卡片細節，凸顯隱私與確認風險，即使有文件化的批准流程。照片到下單路徑的實際廣度相對現有Stripe Link確認仍不清楚。",
-      "quote": "To buy stuff, you can just take a picture of your credit card, drop it in the chat and Grok @Bot will scour the Internet for the best deal on the item you want and order it.",
-      "quote_zh": "要買東西，你只要拍一張信用卡照片丟進聊天，Grok @Bot就會搜尋網路找出你想要的物品最佳價格並訂購。",
+      "title_zh": "Elon Musk表示Grok Bot可從信用卡照片研究優惠並線上下單",
+      "summary_en": "On October 10-11, Elon Musk posted that users can photograph a credit card, drop it in Grok Bot chat, and have the agent scour the internet for the best deal and complete the purchase. He demonstrated by asking it to research and order Lego Star Wars kits, and continued promoting the capability while clarifying an exposed mailing address was not his residence.",
+      "summary_zh": "10月10日至11日，Elon Musk發文表示用戶可拍攝信用卡照片投入Grok Bot聊天，讓代理搜尋網路最佳優惠並完成購買。他示範要求研究並訂購樂高星球大戰套組，並持續推廣此能力，同時澄清曝光的郵寄地址並非其居所。",
+      "analysis_en": "This expands Grok Bot's agentic actions into real-world commerce, testing user trust in autonomous spending, but media reports note his demo screenshot exposed partial address and payment details to millions of followers.",
+      "analysis_zh": "這將Grok Bot的代理行動擴展至現實商務，測試用戶對自主消費的信任，但媒體報導指出其示範截圖向數百萬粉絲曝光了部分地址與付款細節。",
+      "quote": "I just asked Grok @Bot to research the most fun Lego Star Wars kits for young kids and order them. As easy as that.",
+      "quote_zh": "我剛剛請Grok @Bot研究最有趣的樂高星球大戰套組給小朋友並下單。就是這麼簡單。",
       "importance": 3,
       "first_seen": "2026-10-11T16:35:01Z",
-      "updated_at": "2026-10-11T16:35:01.963444+00:00",
+      "updated_at": "2026-10-11T22:35:01.978522+00:00",
       "links": [
+        {
+          "label": "Elon Musk on X (Lego demo)",
+          "url": "https://x.com/elonmusk/status/2109155867983786382"
+        },
+        {
+          "label": "Ynetnews coverage of exposure",
+          "url": "https://www.ynetnews.com/tech-and-digital/article/b1bfjwksfe"
+        },
         {
           "label": "Elon Musk on X",
           "url": "https://x.com/elonmusk/status/2109027407185277123"
@@ -62,6 +82,33 @@
         {
           "label": "Think Facility",
           "url": "https://www.thinkfacility.com/blog/musk-grok-bot-shop-from-credit-card-photo/"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-reflection-ai-talks-2026-10-10",
+      "story_id": "nvidia-reflection-ai-talks-2026-10-10",
+      "category": "frontier_other",
+      "source_type": "news",
+      "title_en": "NVIDIA in Early Talks to Deepen Investment or Acquire Open-Weights Startup Reflection AI",
+      "title_zh": "NVIDIA早期洽談加深投資或收購開源權重新創Reflection AI",
+      "summary_en": "On October 10, the Financial Times reported that NVIDIA is in early talks to acquire or further invest in Reflection AI, a US open-weights model developer founded by former DeepMind researchers, potentially via an acqui-hire structure. NVIDIA has already invested $800 million; Reflection was last valued at around $25 billion.",
+      "summary_zh": "10月10日，《金融時報》報導NVIDIA正早期洽談收購或進一步投資由前DeepMind研究員創立的美國開源權重模型開發商Reflection AI，可能透過acqui-hire結構。NVIDIA已投資8億美元；Reflection上次估值約250億美元。",
+      "analysis_en": "If completed, the deal would extend NVIDIA’s influence from chips into open-weight model development amid US efforts to counter Chinese open models, though talks remain preliminary and could collapse.",
+      "analysis_zh": "若完成，此交易將把NVIDIA的影響力從晶片延伸至開源權重模型開發，正值美國努力對抗中國開源模型之際，但洽談仍屬初步且可能破裂。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 3,
+      "first_seen": "2026-10-11T22:35:01Z",
+      "updated_at": "2026-10-11T22:35:01.978522+00:00",
+      "links": [
+        {
+          "label": "Financial Times (via Reuters)",
+          "url": "https://www.reuters.com/business/nvidia-talks-invest-further-reflection-ai-or-buy-it-ft-reports-2026-10-10/"
+        },
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports"
         }
       ]
     }
@@ -78,17 +125,25 @@
         "category": "xai",
         "source_type": "official_x",
         "title_en": "Elon Musk Says Grok Bot Can Research Deals and Order Online from a Credit Card Photo",
-        "title_zh": "馬斯克稱Grok Bot可從信用卡照片研究最佳價格並完成線上訂購",
-        "summary_en": "On October 10-11, Elon Musk posted that users can photograph a credit card, drop it in Grok Bot chat, and have the agent scour the internet for the best deal and complete the purchase. He demonstrated by asking it to research and order Lego Star Wars kits for kids, noting it bought from the LEGO website after Amazon blocked agents.",
-        "summary_zh": "10月10-11日，馬斯克發文稱用戶可拍攝信用卡照片丟入Grok Bot聊天，讓代理搜尋網路最佳價格並完成購買。他示範要求研究並訂購兒童樂高星際大戰套組，指出在亞馬遜封鎖代理後，它從樂高官網購買。",
-        "analysis_en": "This expands Grok Bot's agentic actions into real-world commerce, testing user trust in autonomous spending, but media reports note his demo screenshot exposed partial address and card details, underscoring privacy and confirmation risks despite documented approval flows. It remains unclear how broadly the photo-to-order path is implemented versus existing Stripe Link confirmations.",
-        "analysis_zh": "這將Grok Bot的代理行動擴展至現實商務，測試用戶對自主消費的信任，但媒體報導指出其示範截圖暴露部分地址與卡片細節，凸顯隱私與確認風險，即使有文件化的批准流程。照片到下單路徑的實際廣度相對現有Stripe Link確認仍不清楚。",
-        "quote": "To buy stuff, you can just take a picture of your credit card, drop it in the chat and Grok @Bot will scour the Internet for the best deal on the item you want and order it.",
-        "quote_zh": "要買東西，你只要拍一張信用卡照片丟進聊天，Grok @Bot就會搜尋網路找出你想要的物品最佳價格並訂購。",
+        "title_zh": "Elon Musk表示Grok Bot可從信用卡照片研究優惠並線上下單",
+        "summary_en": "On October 10-11, Elon Musk posted that users can photograph a credit card, drop it in Grok Bot chat, and have the agent scour the internet for the best deal and complete the purchase. He demonstrated by asking it to research and order Lego Star Wars kits, and continued promoting the capability while clarifying an exposed mailing address was not his residence.",
+        "summary_zh": "10月10日至11日，Elon Musk發文表示用戶可拍攝信用卡照片投入Grok Bot聊天，讓代理搜尋網路最佳優惠並完成購買。他示範要求研究並訂購樂高星球大戰套組，並持續推廣此能力，同時澄清曝光的郵寄地址並非其居所。",
+        "analysis_en": "This expands Grok Bot's agentic actions into real-world commerce, testing user trust in autonomous spending, but media reports note his demo screenshot exposed partial address and payment details to millions of followers.",
+        "analysis_zh": "這將Grok Bot的代理行動擴展至現實商務，測試用戶對自主消費的信任，但媒體報導指出其示範截圖向數百萬粉絲曝光了部分地址與付款細節。",
+        "quote": "I just asked Grok @Bot to research the most fun Lego Star Wars kits for young kids and order them. As easy as that.",
+        "quote_zh": "我剛剛請Grok @Bot研究最有趣的樂高星球大戰套組給小朋友並下單。就是這麼簡單。",
         "importance": 3,
         "first_seen": "2026-10-11T16:35:01Z",
-        "updated_at": "2026-10-11T16:35:01.963444+00:00",
+        "updated_at": "2026-10-11T22:35:01.978522+00:00",
         "links": [
+          {
+            "label": "Elon Musk on X (Lego demo)",
+            "url": "https://x.com/elonmusk/status/2109155867983786382"
+          },
+          {
+            "label": "Ynetnews coverage of exposure",
+            "url": "https://www.ynetnews.com/tech-and-digital/article/b1bfjwksfe"
+          },
           {
             "label": "Elon Musk on X",
             "url": "https://x.com/elonmusk/status/2109027407185277123"
@@ -107,30 +162,61 @@
         "category": "frontier_other",
         "source_type": "official_x",
         "title_en": "Microsoft CEO Satya Nadella Calls for Containing Super Intelligence as Insider Risks",
-        "title_zh": "微軟CEO納德拉呼籲將超級智能視為內部風險加以控制",
-        "summary_en": "In an October 10 X post titled 'Models as Insider Risks in the Super Intelligence Era,' Satya Nadella argued that frontier models lack mechanistic traceability like traditional software and should not be treated as trusted black boxes. He proposed separating the supply of intelligence from authority over it, surrounding non-deterministic models with deterministic controls, human oversight, and an emergency brake.",
-        "summary_zh": "納德拉於10月10日在X發布貼文《超級智能時代的模型作為內部風險》，指出前沿模型缺乏傳統軟體的機制可追溯性，不應視為可信黑箱。他主張將智能供應與對其的權威分離，並以確定性控制、人類監督與緊急剎車包圍非確定性模型。",
-        "analysis_en": "This frames deployment safety as an enterprise engineering problem rather than pure model alignment, potentially accelerating demand for external harnesses and audit tools while highlighting Microsoft's position as a major AI customer and Azure provider. Uncertainty remains on whether labs will adopt standardized external controls or if competitive pressures will override the call.",
-        "analysis_zh": "這將部署安全定位為企業工程問題而非純模型對齊，可能加速外部 harness 與審計工具需求，同時凸顯微軟作為主要AI客戶與Azure供應商的立場。不確定性在於實驗室是否會採納標準化外部控制，或競爭壓力是否會壓過此呼籲。",
-        "quote": "We can’t treat Super Intelligence as a set of nested black boxes and simply accept or reject its recommendations, answers, and actions. We must build contained systems whose behavior we can observe, limits we can test, and actions we can always contain.",
-        "quote_zh": "我們不能將超級智能視為一組嵌套黑箱，單純接受或拒絕其建議、答案與行動。我們必須建立行為可觀察、限制可測試、行動始終可控制的封閉系統。",
+        "title_zh": "微軟執行長Satya Nadella呼籲將超級智能視為內部風險加以遏制",
+        "summary_en": "On October 10, Satya Nadella posted an essay titled 'Models as Insider Risks in the Super Intelligence Era' arguing that frontier models lack mechanistic traceability of traditional software and should not be treated as trusted black boxes. He said companies must separate the supply of intelligence from authority over it, assume models can be compromised, surround them with deterministic controls, and maintain an emergency brake.",
+        "summary_zh": "10月10日，Satya Nadella發布題為「超級智能時代模型作為內部風險」的文章，主張前沿模型缺乏傳統軟體的機制可追溯性，不應被視為可信任的黑箱。他表示公司必須將智能供應與對其的權威分開，假設模型可能已遭妥協，以確定性控制包圍它們，並維持緊急制動。",
+        "analysis_en": "This frames deployment safety as an enterprise engineering problem rather than pure model alignment, potentially accelerating demand for external harnesses and audit tools while highlighting that provider assurances do not transfer liability.",
+        "analysis_zh": "這將部署安全框架為企業工程問題而非純粹模型對齊，可能加速對外部 harness 與審計工具的需求，同時強調提供者保證並不轉移責任。",
+        "quote": "We simply can't outsource responsibility for what intelligence does on our behalf. A model provider’s assurances do not relieve us of that responsibility. We need to separate the supply of intelligence from the authority over it.",
+        "quote_zh": "我們根本無法外包智能代表我們行事的責任。模型提供者的保證並不能免除我們的這項責任。我們需要將智能的供應與對它的權威分開。",
         "importance": 4,
         "first_seen": "2026-10-11T16:35:01Z",
-        "updated_at": "2026-10-11T16:35:01.963444+00:00",
+        "updated_at": "2026-10-11T22:35:01.978522+00:00",
         "links": [
           {
             "label": "Satya Nadella on X",
             "url": "https://x.com/satyanadella/status/2108931348857827686"
           },
           {
+            "label": "Forbes coverage",
+            "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/10/11/microsofts-nadella-wants-an-emergency-brake-on-every-ai-model/"
+          },
+          {
             "label": "Bloomberg",
             "url": "https://www.bloomberg.com/news/articles/2026-10-10/microsoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai"
+          }
+        ]
+      },
+      {
+        "id": "nvidia-reflection-ai-talks-2026-10-10",
+        "story_id": "nvidia-reflection-ai-talks-2026-10-10",
+        "category": "frontier_other",
+        "source_type": "news",
+        "title_en": "NVIDIA in Early Talks to Deepen Investment or Acquire Open-Weights Startup Reflection AI",
+        "title_zh": "NVIDIA早期洽談加深投資或收購開源權重新創Reflection AI",
+        "summary_en": "On October 10, the Financial Times reported that NVIDIA is in early talks to acquire or further invest in Reflection AI, a US open-weights model developer founded by former DeepMind researchers, potentially via an acqui-hire structure. NVIDIA has already invested $800 million; Reflection was last valued at around $25 billion.",
+        "summary_zh": "10月10日，《金融時報》報導NVIDIA正早期洽談收購或進一步投資由前DeepMind研究員創立的美國開源權重模型開發商Reflection AI，可能透過acqui-hire結構。NVIDIA已投資8億美元；Reflection上次估值約250億美元。",
+        "analysis_en": "If completed, the deal would extend NVIDIA’s influence from chips into open-weight model development amid US efforts to counter Chinese open models, though talks remain preliminary and could collapse.",
+        "analysis_zh": "若完成，此交易將把NVIDIA的影響力從晶片延伸至開源權重模型開發，正值美國努力對抗中國開源模型之際，但洽談仍屬初步且可能破裂。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 3,
+        "first_seen": "2026-10-11T22:35:01Z",
+        "updated_at": "2026-10-11T22:35:01.978522+00:00",
+        "links": [
+          {
+            "label": "Financial Times (via Reuters)",
+            "url": "https://www.reuters.com/business/nvidia-talks-invest-further-reflection-ai-or-buy-it-ft-reports-2026-10-10/"
+          },
+          {
+            "label": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports"
           }
         ]
       }
     ]
   },
-  "brief_en": "Microsoft CEO Satya Nadella called for treating Super Intelligence models as insider risks with external containment and an emergency brake. xAI's Elon Musk promoted Grok Bot's ability to research deals and complete online purchases, including from a credit card photo.",
-  "brief_zh": "微軟CEO納德拉呼籲將超級智能模型視為內部風險，需外部控制與緊急剎車。xAI的馬斯克推廣Grok Bot可研究最佳價格並完成線上購物，包括從信用卡照片下單。",
-  "updated_at": "2026-10-11T16:35:01.963444+00:00"
+  "brief_en": "Microsoft’s Nadella urged treating frontier models as insider risks with external controls and emergency brakes. Musk’s Grok Bot shopping demos continued amid reports that a Lego order screenshot exposed partial address and card details. NVIDIA is in early talks to deepen investment in or acquire open-weights startup Reflection AI.",
+  "brief_zh": "微軟Nadella呼籲將前沿模型視為內部風險，需外部控制與緊急制動。Musk的Grok Bot購物示範持續，媒體報導Lego訂單截圖洩露部分地址與卡號。NVIDIA正早期洽談加深投資或收購開源權重新創Reflection AI。",
+  "updated_at": "2026-10-11T22:35:01.978522+00:00"
 }
