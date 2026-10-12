@@ -1,504 +1,198 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "runs": [
     {
-      "generated_at": "2026-10-11T16:35:01.963444+00:00",
-      "backend": "grok-web",
-      "model": "grok.com (browser)",
-      "item_count": 2,
-      "updated_count": 0,
-      "kept_count": 0
-    },
-    {
-      "generated_at": "2026-10-11T22:35:01.978522+00:00",
+      "generated_at": "2026-10-12T16:35:02.207615+00:00",
       "backend": "grok-web",
       "model": "grok.com (browser)",
       "item_count": 3,
-      "updated_count": 2,
-      "kept_count": 0
-    },
-    {
-      "generated_at": "2026-10-12T04:35:02.320029+00:00",
-      "backend": "grok-web",
-      "model": "grok.com (browser)",
-      "item_count": 6,
-      "updated_count": 3,
-      "kept_count": 0
-    },
-    {
-      "generated_at": "2026-10-12T10:35:01.977128+00:00",
-      "backend": "grok-web",
-      "model": "grok.com (browser)",
-      "item_count": 7,
-      "updated_count": 6,
+      "updated_count": 0,
       "kept_count": 0
     }
   ],
   "items_flat": [
     {
-      "id": "microsoft-nadella-super-intelligence-containment-2026-10-10",
-      "story_id": "microsoft-nadella-super-intelligence-containment-2026-10-10",
+      "id": "microsoft-maia-300-multi-gigawatt-2026-10-12",
+      "story_id": "microsoft-maia-300-multi-gigawatt-2026-10-12",
       "category": "frontier_other",
-      "source_type": "official_x",
-      "title_en": "Microsoft CEO Satya Nadella Calls for Containing Super Intelligence as Insider Risks",
-      "title_zh": "微軟執行長 Satya Nadella 呼籲將超級智慧模型視為內線風險並加以控制",
-      "summary_en": "On October 10, Satya Nadella published an X Article titled “Models as Insider Risks in the Super Intelligence Era,” arguing that frontier models lack the mechanistic traceability of traditional software and should not be treated as trusted black boxes. He proposed seven principles including model diversity, full observability with tamper-proof logs, independent controls and audits, and an “emergency brake” so an authorized person can always pause or shut down a model mid-task. Nadella stated that deploying companies—not just model providers—must own responsibility for containment.",
-      "summary_zh": "10 月 10 日，Satya Nadella 在 X 發表文章〈Models as Insider Risks in the Super Intelligence Era〉，主張前沿模型缺乏傳統軟體的可追溯性，不應被視為可信黑箱。他提出七項原則，包括模型多樣性、完整可觀察性與防篡改日誌、獨立控制與審計，以及「緊急煞車」，讓授權人員隨時能暫停或關閉執行中的模型。Nadella 強調部署公司而非僅模型供應商必須承擔控制責任。",
-      "analysis_en": "This frames deployment safety as an enterprise engineering and governance problem rather than pure model alignment, potentially accelerating demand for external harnesses, audit tools, and kill-switch architectures. It remains unclear how widely Microsoft or other enterprises will operationalize these principles in practice.",
-      "analysis_zh": "這將部署安全定位為企業工程與治理問題，而非單純模型對齊，可能加速對外部控制框架、審計工具與關閉開關架構的需求。目前仍不清楚微軟或其他企業將如何實際落地這些原則。",
-      "quote": "We must assume a model is compromised and contain it from the start. Think of it like an emergency brake. An authorized person should always be able to pause or shut down a model mid-task.",
-      "quote_zh": "我們必須假設模型已被入侵並從一開始就加以控制。把它想成緊急煞車。授權人員應隨時能暫停或關閉執行中的模型。",
+      "source_type": "official_blog",
+      "title_en": "Microsoft announces Maia 300 and multi-gigawatt Maia deployments as primary inference system from 2027",
+      "title_zh": "微軟宣布Maia 300並計劃自2027年起將Maia擴至多吉瓦級作為主要推論系統",
+      "summary_en": "Microsoft announced it will scale its Azure Maia family to multi-gigawatt deployments starting in 2027, making Maia the primary inference system for its products and services. Maia 200 is already in production supporting Copilot and other workloads; Maia 300, expected in 2027, is designed for long-context reasoning, conversational and agentic tasks and is projected to deliver 40% more tokens per megawatt versus leading GPU systems plus up to 7x rack-scale token throughput of Maia 200.",
+      "summary_zh": "微軟宣布將自2027年起把Azure Maia家族擴展至多吉瓦級部署，使其成為產品與服務的主要推論系統。Maia 200已投入生產支援Copilot等負載；Maia 300預計2027年推出，針對長上下文推理、對話與代理任務設計，預計較領先GPU系統多提供40%每兆瓦token，且機架級token吞吐量最高達Maia 200的7倍。",
+      "analysis_en": "This marks a major push by Microsoft to reduce reliance on third-party GPUs for inference at scale, potentially improving cost and power efficiency for its own services, though the 40% and 7x claims remain projections until 2027 production and independent validation. Heterogeneous fleet use of OpenAI, MAI and open models continues.",
+      "analysis_zh": "這顯示微軟大力推動以自研晶片降低大規模推論對第三方GPU的依賴，可能改善自身服務的成本與功耗，但40%與7倍數字仍屬預期，待2027年量產與獨立驗證。同時仍維持對OpenAI、MAI與開源模型的混合使用。",
+      "quote": "Today we are announcing our biggest bet yet on our own silicon. Starting next calendar year, we will scale our Maia family to multi-gigawatt deployments, making it the primary inference system for our own product and services. And we’re introducing Maia 300, which delivers 40% more tokens per watt compared to leading GPU-based systems.",
+      "quote_zh": "今天我們宣布對自研晶片最大的押注。自下一個曆年起，我們將把Maia家族擴展至多吉瓦級部署，使其成為自身產品與服務的主要推論系統。同時我們推出Maia 300，相較領先GPU系統可提供每瓦多40%的token。",
       "importance": 4,
-      "first_seen": "2026-10-11T16:35:01Z",
-      "updated_at": "2026-10-12T10:35:01.977128+00:00",
+      "first_seen": "2026-10-12T16:35:00Z",
+      "updated_at": "2026-10-12T16:35:02.207615+00:00",
       "links": [
+        {
+          "label": "Official Microsoft Blog",
+          "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
+        },
         {
           "label": "Satya Nadella on X",
-          "url": "https://x.com/satyanadella/status/2108931348857827686"
-        },
-        {
-          "label": "Forbes coverage",
-          "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/10/11/microsofts-nadella-wants-an-emergency-brake-on-every-ai-model/"
-        },
-        {
-          "label": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-10/microsoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai"
+          "url": "https://x.com/satyanadella/status/2109631106404487523"
         }
       ]
     },
     {
-      "id": "openai-math-manuscripts-unreleased-model-2026-10-06",
-      "story_id": "openai-math-manuscripts-unreleased-model-2026-10-06",
-      "category": "openai",
-      "source_type": "official_blog",
-      "title_en": "OpenAI Releases Hundreds of Math Manuscripts from an Unreleased Internal Model",
-      "title_zh": "OpenAI 釋出未公開內部模型產出的數百篇數學手稿",
-      "summary_en": "On October 6, OpenAI published a public GitHub repository of mathematical manuscripts produced by an unreleased internal frontier model, covering hundreds of open problems across multiple fields, with some Lean formalizations. By October 7 the catalog stood at 719 manuscripts in 372 families after three withdrawals due to a sign error; OpenAI reported roughly 300 of 719 top-line results (~42%) formalized in Lean and noted that unformalized results could contain issues. Mathematicians have described the volume as overwhelming, with mixed reactions on verification status and field impact.",
-      "summary_zh": "10 月 6 日，OpenAI 在 GitHub 公開由未釋出內部前沿模型產出的數學手稿，涵蓋多個領域的數百個開放問題，並附部分 Lean 形式化證明。至 10 月 7 日因符號錯誤撤回三篇後，目錄為 719 篇手稿、372 個家族；OpenAI 報告約 300/719（約 42%）頂層結果已 Lean 形式化，並警告未形式化結果可能有問題。數學家形容數量壓倒性，對驗證狀態與領域影響反應不一。",
-      "analysis_en": "The dump demonstrates rapid progress on hard formal problems by an internal system while leaving verification, reproducibility, and the model’s availability unresolved, which continues to divide the mathematics community on credit, quality control, and research program disruption.",
-      "analysis_zh": "這批釋出展示內部系統在困難形式問題上的快速進展，但驗證、可重現性與模型可用性仍未解決，持續在數學社群中引發對署名、品質控制與研究計畫受衝擊的分歧。",
-      "quote": "We’re releasing a broad range of new mathematical results produced by an internal frontier model.",
-      "quote_zh": "我們正在釋出由內部前沿模型產出的廣泛新數學結果。",
-      "importance": 4,
-      "first_seen": "2026-10-12T04:35:00Z",
-      "updated_at": "2026-10-12T10:35:01.977128+00:00",
-      "links": [
-        {
-          "label": "OpenAI Blog",
-          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
-        },
-        {
-          "label": "GitHub repository",
-          "url": "https://github.com/openai/math"
-        },
-        {
-          "label": "OpenAI Research",
-          "url": "https://openai.com/research/index/"
-        }
-      ]
-    },
-    {
-      "id": "xai-grok-bot-cybercab-model-y-2026-10-11",
-      "story_id": "xai-grok-bot-cybercab-model-y-2026-10-11",
-      "category": "xai",
-      "source_type": "official_x",
-      "title_en": "Tesla Enables Grok Bot on All Cybercabs and Model Y Fleet for In-Ride Voice Tasks",
-      "title_zh": "Tesla 在所有 Cybercab 與 Model Y 車隊啟用 Grok Bot，支援乘車時語音任務",
-      "summary_en": "On October 11, Tesla AI engineer Yun-Ta Tsai announced that Grok @bot is enabled on all Cybercabs and the rest of the Model Y fleet. Riders sign in once; bots remain available for subsequent rides and auto-logout on exit for privacy. Users can issue voice commands for tasks such as adding items to an Amazon cart, sending emails, or placing coffee orders while the vehicle drives. Elon Musk promoted the feature the same day.",
-      "summary_zh": "10 月 11 日，Tesla AI 工程師 Yun-Ta Tsai 宣布 Grok @bot 已在所有 Cybercab 與其餘 Model Y 車隊啟用。乘客登入一次後，後續乘車即可使用 bot，下車時自動登出以保護隱私。用戶可用語音下達指令，例如將商品加入 Amazon 購物車、寄信或下咖啡訂單，同時車輛自行駕駛。Elon Musk 同日推廣此功能。",
-      "analysis_en": "Shipping agentic Grok Bot into unsupervised robotaxi rides moves it from phone/chat demos into a shared physical environment with session isolation, testing both utility and privacy/security boundaries at fleet scale. Tesla has not published detailed release notes or confirmed rollout beyond Model Y and Cybercab.",
-      "analysis_zh": "將具代理能力的 Grok Bot 部署至無人監督的 robotaxi 乘車，從手機/聊天示範推進至共用實體環境並帶會話隔離，於車隊規模測試實用性與隱私/安全邊界。Tesla 尚未發布詳細釋出說明，也未確認 Model Y 與 Cybercab 以外的推廣範圍。",
-      "quote": "Grok @bot is enabled on all Cybercabs and the rest of the Model Y fleet. Please let us know how it helps you and what to improve.",
-      "quote_zh": "Grok @bot 已在所有 Cybercab 與其餘 Model Y 車隊啟用。請告訴我們它如何幫助你以及需要改進之處。",
-      "importance": 4,
-      "first_seen": "2026-10-12T10:35:00Z",
-      "updated_at": "2026-10-12T10:35:01.977128+00:00",
-      "links": [
-        {
-          "label": "Yun-Ta Tsai on X",
-          "url": "https://x.com/yunta_tsai/status/2109131145816285675"
-        },
-        {
-          "label": "Elon Musk promotion",
-          "url": "https://x.com/elonmusk/status/2109507243007979558"
-        },
-        {
-          "label": "TeslaNorth",
-          "url": "https://teslanorth.com/2026/10/11/grok-bot-cybercab-model-y/"
-        }
-      ]
-    },
-    {
-      "id": "xai-grok-bot-shopping-credit-card-2026-10-10",
-      "story_id": "xai-grok-bot-shopping-credit-card-2026-10-10",
-      "category": "xai",
-      "source_type": "official_x",
-      "title_en": "Elon Musk Says Grok Bot Can Research Deals and Order Online from a Credit Card Photo",
-      "title_zh": "Elon Musk 表示 Grok Bot 可從信用卡照片研究優惠並完成線上訂購",
-      "summary_en": "On October 10-11, Elon Musk posted that users can photograph a credit card, drop it in Grok Bot chat, and have the agent scour the internet for the best deal and complete the purchase. He demonstrated by asking it to research and order Lego, and later highlighted user examples including purchasing an iPhone. Media reports noted that his demo screenshot exposed partial address and payment details, raising privacy questions around autonomous spending.",
-      "summary_zh": "10 月 10-11 日，Elon Musk 發文表示用戶可拍攝信用卡照片丟入 Grok Bot 對話，讓代理搜尋最佳優惠並完成購買。他示範研究並訂購樂高，後續也強調用戶實例（如購買 iPhone）。媒體指出其示範截圖暴露部分地址與付款細節，引發對自主消費隱私的質疑。",
-      "analysis_en": "This expands Grok Bot’s agentic actions into real-world commerce and tests user trust in autonomous spending, but media reports note his demo screenshot exposed partial address and payment details, highlighting unresolved privacy and authorization risks.",
-      "analysis_zh": "這將 Grok Bot 的代理行動擴展至現實商務，測試用戶對自主消費的信任，但媒體指出示範截圖暴露部分地址與付款細節，凸顯隱私與授權風險仍未解決。",
-      "quote": "Seriously, this actually works! Think of Grok @Bot like hiring a super smart employee who works 24/7 and is extremely resourceful.",
-      "quote_zh": "認真說，這真的有效！把 Grok @Bot 想成僱用一位 24/7 工作、極度能幹的超聰明員工。",
-      "importance": 3,
-      "first_seen": "2026-10-11T16:35:01Z",
-      "updated_at": "2026-10-12T10:35:01.977128+00:00",
-      "links": [
-        {
-          "label": "Elon Musk on X",
-          "url": "https://x.com/elonmusk/status/2109387553010851887"
-        },
-        {
-          "label": "TeslaNorth coverage of shopping",
-          "url": "https://teslanorth.com/2026/10/10/elon-grok-bot-shopping/"
-        },
-        {
-          "label": "Elon Musk on X",
-          "url": "https://x.com/elonmusk/status/2109155867983786382"
-        },
-        {
-          "label": "Ynetnews coverage of exposure",
-          "url": "https://www.ynetnews.com/tech-and-digital/article/b1bfjwksfe"
-        },
-        {
-          "label": "Elon Musk on X",
-          "url": "https://x.com/elonmusk/status/2109027407185277123"
-        },
-        {
-          "label": "Think Facility",
-          "url": "https://www.thinkfacility.com/blog/musk-grok-bot-shop-from-credit-card-photo/"
-        }
-      ]
-    },
-    {
-      "id": "nvidia-reflection-ai-talks-2026-10-10",
-      "story_id": "nvidia-reflection-ai-talks-2026-10-10",
+      "id": "white-house-uk-aisi-access-restored-2026-10-11",
+      "story_id": "white-house-uk-aisi-access-restored-2026-10-11",
       "category": "frontier_other",
       "source_type": "news",
-      "title_en": "NVIDIA in Early Talks to Deepen Investment or Acquire Open-Weights Startup Reflection AI",
-      "title_zh": "NVIDIA 正早期洽談加深投資或收購開放權重新創 Reflection AI",
-      "summary_en": "On October 10, the Financial Times reported that NVIDIA is in early talks to acquire or further invest in Reflection AI, a US open-weights model developer founded by former DeepMind researchers, potentially via an acqui-hire structure. NVIDIA has already invested hundreds of millions; talks remain preliminary and could collapse. Reflection recently released its Beam open-weight model.",
-      "summary_zh": "10 月 10 日，《金融時報》報導 NVIDIA 正早期洽談收購或進一步投資美國開放權重模型開發商 Reflection AI（由前 DeepMind 研究員創立），可能採收購人才結構。NVIDIA 已投入數億美元；洽談仍屬初步，可能破裂。Reflection 近期釋出 Beam 開放權重模型。",
-      "analysis_en": "If completed, the deal would extend NVIDIA’s influence from chips into open-weight model development amid US efforts to counter Chinese open models, though talks remain preliminary and no terms have been disclosed.",
-      "analysis_zh": "若完成，此交易將把 NVIDIA 的影響力從晶片延伸至開放權重模型開發，符合美國對抗中國開放模型的努力，但洽談仍屬初步且未披露條款。",
-      "quote": "",
-      "quote_zh": "",
-      "importance": 3,
-      "first_seen": "2026-10-11T22:35:01Z",
-      "updated_at": "2026-10-12T10:35:01.977128+00:00",
+      "title_en": "White House restores UK AISI pre-release access to frontier models from OpenAI, Anthropic and Google DeepMind",
+      "title_zh": "白宮恢復英國AISI對OpenAI、Anthropic與Google DeepMind預發布前沿模型的存取權限",
+      "summary_en": "The White House reversed a September request that US AI developers withhold new frontier models from Britain’s AI Security Institute until US reviews finished. UK AI Minister Kanishka Narayan confirmed on 12 October that AISI scientists are now conducting evaluations of the latest generation of models, including Gemini 4 Argon. Anthropic had previously limited Mythos 5.1 to US organizations under the earlier directive.",
+      "summary_zh": "白宮推翻九月要求美國AI開發商在美方審查完成前暫緩向英國AI安全研究所提供新前沿模型的決定。英國AI部長Kanishka Narayan於10月12日確認，AISI科學家現正對最新一代模型（包括Gemini 4 Argon）進行評估。Anthropic先前依指示將Mythos 5.1限於美國組織。",
+      "analysis_en": "The reversal restores a key external evaluation channel for major labs after a short freeze, potentially aiding earlier risk detection, though it remains a voluntary arrangement without formal binding commitments and follows recent White House emphasis on incident reporting. Confirmation comes primarily from UK government statements rather than US lab announcements.",
+      "analysis_zh": "此逆轉在短暫凍結後恢復主要實驗室的重要外部評估管道，可能有助更早偵測風險，但仍屬自願安排且缺乏正式約束承諾，並延續白宮近期對事件通報的強調。確認主要來自英國政府聲明而非美國實驗室公告。",
+      "quote": "I can confirm that AI scientists at the AI Security Institute are now conducting rigorous evaluations of the latest generation of models, including Gemini 4 Argon to identify risks early, to test robust safeguards, to help keep people safe.",
+      "quote_zh": "我可以確認，AI安全研究所的AI科學家現正對最新一代模型（包括Gemini 4 Argon）進行嚴格評估，以提早識別風險、測試穩健防護措施，協助保障人們安全。",
+      "importance": 4,
+      "first_seen": "2026-10-12T16:35:00Z",
+      "updated_at": "2026-10-12T16:35:02.207615+00:00",
       "links": [
         {
-          "label": "Financial Times (via secondary reports)",
-          "url": "https://www.ft.com/"
+          "label": "UK Government Speech by Kanishka Narayan",
+          "url": "https://www.gov.uk/government/speeches/building-a-safer-more-secure-britain-in-the-age-of-ai"
         },
         {
-          "label": "SiliconANGLE summary",
-          "url": "https://siliconangle.com/2026/10/11/nvidia-reportedly-in-early-talks-to-buy-acqui-hire-or-invest-more-in-reflection-ai/"
+          "label": "The Telegraph",
+          "url": "https://www.telegraph.co.uk/news/2026/10/11/britain-get-first-look-ai-systems-after-white-house-u-turn/"
         },
         {
-          "label": "Financial Times via Reuters",
-          "url": "https://www.reuters.com/business/nvidia-talks-invest-further-reflection-ai-or-buy-it-ft-reports-2026-10-10/"
-        },
-        {
-          "label": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports"
+          "label": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/us-reverses-course-britains-testing-ai-models-telegraph-says-2026-10-11/"
         }
       ]
     },
     {
-      "id": "microsoft-decision-1-model-2026-10-09",
-      "story_id": "microsoft-decision-1-model-2026-10-09",
-      "category": "frontier_other",
-      "source_type": "product",
-      "title_en": "Microsoft Releases Decision-1, a Fast Qwen3.5-9B Decision-Scoring Model",
-      "title_zh": "Microsoft 釋出 Decision-1，一款基於 Qwen3.5-9B 的快速決策評分模型",
-      "summary_en": "Around October 9-10, Microsoft introduced Microsoft-Decision-1 in Foundry and on OpenRouter, a post-trained Qwen3.5-9B model that returns calibrated probabilities for fixed answer options instead of free text. It is positioned for routing, classification, prioritization, verification, and workflow control. Microsoft reports it led a 36-benchmark comparison on accuracy and was the fastest measured, with input priced at $0.042 per million tokens and free output.",
-      "summary_zh": "約 10 月 9-10 日，Microsoft 在 Foundry 與 OpenRouter 推出 Microsoft-Decision-1，這是一款後訓練自 Qwen3.5-9B 的模型，針對固定答案選項回傳校準機率而非自由文字。定位於路由、分類、優先排序、驗證與工作流程控制。Microsoft 報告其在 36 項基準比較中準確率領先且為最快，輸入定價每百萬 token $0.042、輸出免費。",
-      "analysis_en": "The release highlights a growing category of specialized decision models that can sit alongside generative LLMs for cheaper, more deterministic control flows, while relying on a Chinese open-weight base that Microsoft says it will later rebase onto its own and OpenAI models.",
-      "analysis_zh": "此釋出凸顯專門決策模型類別正成長，可與生成式 LLM 並存以實現更便宜、更確定的控制流程，同時依賴中國開放權重基底，Microsoft 表示後續將改以自有與 OpenAI 模型為基礎。",
-      "quote": "Microsoft-Decision-1 delivers top performance in latency and quality on structured decision tasks to outperform both LLMs and other decision models.",
-      "quote_zh": "Microsoft-Decision-1 在結構化決策任務的延遲與品質上表現頂尖，超越 LLM 與其他決策模型。",
-      "importance": 3,
-      "first_seen": "2026-10-12T04:35:00Z",
-      "updated_at": "2026-10-12T10:35:01.977128+00:00",
-      "links": [
-        {
-          "label": "Microsoft Command Line blog",
-          "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/"
-        },
-        {
-          "label": "Microsoft Foundry model card",
-          "url": "https://aka.ms/decision-1"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-cyber-mission-oss-scanner-2026-10-08",
-      "story_id": "anthropic-cyber-mission-oss-scanner-2026-10-08",
+      "id": "anthropic-hcltech-partnership-2026-10-12",
+      "story_id": "anthropic-hcltech-partnership-2026-10-12",
       "category": "anthropic",
-      "source_type": "official_blog",
-      "title_en": "Anthropic Launches Cyber Mission with OSS Scanner and Critical Infrastructure Program",
-      "title_zh": "Anthropic 推出 Cyber Mission，包含 OSS Scanner 與關鍵基礎設施計畫",
-      "summary_en": "On October 8, Anthropic announced the Anthropic Cyber Mission, starting with OSS Scanner (an opt-in free service that sends model-generated vulnerability reports to open-source maintainers) and the Critical Infrastructure Defense Program partnering with firms to protect operational technology. Subsequent reports indicate the scanner has identified roughly 29,000 candidate findings, with thousands reviewed externally at high true-positive rates and several hundred patched upstream so far.",
-      "summary_zh": "10 月 8 日，Anthropic 宣布 Anthropic Cyber Mission，首先推出 OSS Scanner（選擇加入的免費服務，將模型生成的漏洞報告送給開源維護者）以及與企業合作保護操作技術的關鍵基礎設施防禦計畫。後續報告顯示掃描器已識別約 29,000 項候選發現，數千項經外部審查具高真陽性率，目前上游已修補數百項。",
-      "analysis_en": "The initiative positions Anthropic’s models as defensive tools for real-world systems while shifting some triage burden to maintainers and partners, raising questions about false-positive volume, patch adoption speed, and long-term sustainability of unreviewed model-generated reports.",
-      "analysis_zh": "此舉將 Anthropic 模型定位為真實世界系統的防禦工具，同時將部分分類負擔轉移給維護者與合作夥伴，引發對假陽性數量、修補採用速度以及未經審查模型報告長期可持續性的質疑。",
-      "quote": "Today we’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.",
-      "quote_zh": "今天我們推出 Anthropic Cyber Mission，這是一項長期承諾，旨在保護每個人所依賴的系統。",
+      "source_type": "news",
+      "title_en": "Anthropic and HCLTech announce Global Premier Partnership for governed enterprise agentic AI",
+      "title_zh": "Anthropic與HCLTech宣布全球頂級夥伴關係以擴展受治理的企業代理AI",
+      "summary_en": "HCLTech announced a Global Premier Partnership with Anthropic to accelerate enterprise adoption of agentic AI focused on safety, cybersecurity and governance. HCLTech will create a dedicated Anthropic Business Unit and Center of Excellence with secure sandboxes and forward-deployed engineers; HCLSoftware becomes an ISV partner embedding Claude and Claude Code into products such as BigFix and AppScan, plus AIForce workflows.",
+      "summary_zh": "HCLTech宣布與Anthropic建立全球頂級夥伴關係，加速以安全、網路安全與治理為重點的企業代理AI採用。HCLTech將設立專屬Anthropic業務單位與卓越中心，提供安全沙箱與前線部署工程師；HCLSoftware成為ISV夥伴，將Claude與Claude Code嵌入BigFix、AppScan等產品及AIForce工作流。",
+      "analysis_en": "The deal extends Anthropic’s enterprise footprint through a major systems integrator that already manages sensitive workloads in banking, healthcare and manufacturing, pairing Claude with existing governance tooling. Actual deployment scale and safety outcomes will depend on how the CoE and product embeddings are executed.",
+      "analysis_zh": "此協議透過已管理銀行、醫療與製造敏感工作負載的大型系統整合商，擴大Anthropic企業版圖，並將Claude與既有治理工具結合。實際部署規模與安全成效取決於卓越中心與產品嵌入的執行情況。",
+      "quote": "AI can only be as useful as it is trustworthy, and we build Claude to give companies the confidence to bring it into their most sensitive and valuable work. HCLTech manages those kinds of systems for banks, hospitals, telecom companies and manufacturers, and we’re excited to partner with them as they integrate Claude and Claude Code.",
+      "quote_zh": "AI只有在值得信賴時才有用，我們打造Claude是為了讓企業有信心將它帶入最敏感與最有價值的工作。HCLTech為銀行、醫院、電信與製造商管理這類系統，我們很高興與他們合作整合Claude與Claude Code。",
       "importance": 3,
-      "first_seen": "2026-10-12T04:35:00Z",
-      "updated_at": "2026-10-12T10:35:01.977128+00:00",
+      "first_seen": "2026-10-12T16:35:00Z",
+      "updated_at": "2026-10-12T16:35:02.207615+00:00",
       "links": [
         {
-          "label": "Anthropic Cyber Mission announcement",
-          "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+          "label": "HCLTech Press Release",
+          "url": "https://www.hcltech.com/press-releases/hcltech-and-anthropic-sign-global-premier-partnership-scale-governed-agentic-ai"
         },
         {
-          "label": "OSS Scanner launch",
-          "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+          "label": "CNBC TV18 coverage",
+          "url": "https://www.cnbctv18.com/technology/hcltech-and-anthropic-partner-to-expand-enterprise-ai-deployment-using-claude-20010027.htm"
         }
       ]
     }
   ],
   "categories": {
-    "openai": [
-      {
-        "id": "openai-math-manuscripts-unreleased-model-2026-10-06",
-        "story_id": "openai-math-manuscripts-unreleased-model-2026-10-06",
-        "category": "openai",
-        "source_type": "official_blog",
-        "title_en": "OpenAI Releases Hundreds of Math Manuscripts from an Unreleased Internal Model",
-        "title_zh": "OpenAI 釋出未公開內部模型產出的數百篇數學手稿",
-        "summary_en": "On October 6, OpenAI published a public GitHub repository of mathematical manuscripts produced by an unreleased internal frontier model, covering hundreds of open problems across multiple fields, with some Lean formalizations. By October 7 the catalog stood at 719 manuscripts in 372 families after three withdrawals due to a sign error; OpenAI reported roughly 300 of 719 top-line results (~42%) formalized in Lean and noted that unformalized results could contain issues. Mathematicians have described the volume as overwhelming, with mixed reactions on verification status and field impact.",
-        "summary_zh": "10 月 6 日，OpenAI 在 GitHub 公開由未釋出內部前沿模型產出的數學手稿，涵蓋多個領域的數百個開放問題，並附部分 Lean 形式化證明。至 10 月 7 日因符號錯誤撤回三篇後，目錄為 719 篇手稿、372 個家族；OpenAI 報告約 300/719（約 42%）頂層結果已 Lean 形式化，並警告未形式化結果可能有問題。數學家形容數量壓倒性，對驗證狀態與領域影響反應不一。",
-        "analysis_en": "The dump demonstrates rapid progress on hard formal problems by an internal system while leaving verification, reproducibility, and the model’s availability unresolved, which continues to divide the mathematics community on credit, quality control, and research program disruption.",
-        "analysis_zh": "這批釋出展示內部系統在困難形式問題上的快速進展，但驗證、可重現性與模型可用性仍未解決，持續在數學社群中引發對署名、品質控制與研究計畫受衝擊的分歧。",
-        "quote": "We’re releasing a broad range of new mathematical results produced by an internal frontier model.",
-        "quote_zh": "我們正在釋出由內部前沿模型產出的廣泛新數學結果。",
-        "importance": 4,
-        "first_seen": "2026-10-12T04:35:00Z",
-        "updated_at": "2026-10-12T10:35:01.977128+00:00",
-        "links": [
-          {
-            "label": "OpenAI Blog",
-            "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
-          },
-          {
-            "label": "GitHub repository",
-            "url": "https://github.com/openai/math"
-          },
-          {
-            "label": "OpenAI Research",
-            "url": "https://openai.com/research/index/"
-          }
-        ]
-      }
-    ],
+    "openai": [],
     "anthropic": [
       {
-        "id": "anthropic-cyber-mission-oss-scanner-2026-10-08",
-        "story_id": "anthropic-cyber-mission-oss-scanner-2026-10-08",
+        "id": "anthropic-hcltech-partnership-2026-10-12",
+        "story_id": "anthropic-hcltech-partnership-2026-10-12",
         "category": "anthropic",
-        "source_type": "official_blog",
-        "title_en": "Anthropic Launches Cyber Mission with OSS Scanner and Critical Infrastructure Program",
-        "title_zh": "Anthropic 推出 Cyber Mission，包含 OSS Scanner 與關鍵基礎設施計畫",
-        "summary_en": "On October 8, Anthropic announced the Anthropic Cyber Mission, starting with OSS Scanner (an opt-in free service that sends model-generated vulnerability reports to open-source maintainers) and the Critical Infrastructure Defense Program partnering with firms to protect operational technology. Subsequent reports indicate the scanner has identified roughly 29,000 candidate findings, with thousands reviewed externally at high true-positive rates and several hundred patched upstream so far.",
-        "summary_zh": "10 月 8 日，Anthropic 宣布 Anthropic Cyber Mission，首先推出 OSS Scanner（選擇加入的免費服務，將模型生成的漏洞報告送給開源維護者）以及與企業合作保護操作技術的關鍵基礎設施防禦計畫。後續報告顯示掃描器已識別約 29,000 項候選發現，數千項經外部審查具高真陽性率，目前上游已修補數百項。",
-        "analysis_en": "The initiative positions Anthropic’s models as defensive tools for real-world systems while shifting some triage burden to maintainers and partners, raising questions about false-positive volume, patch adoption speed, and long-term sustainability of unreviewed model-generated reports.",
-        "analysis_zh": "此舉將 Anthropic 模型定位為真實世界系統的防禦工具，同時將部分分類負擔轉移給維護者與合作夥伴，引發對假陽性數量、修補採用速度以及未經審查模型報告長期可持續性的質疑。",
-        "quote": "Today we’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.",
-        "quote_zh": "今天我們推出 Anthropic Cyber Mission，這是一項長期承諾，旨在保護每個人所依賴的系統。",
+        "source_type": "news",
+        "title_en": "Anthropic and HCLTech announce Global Premier Partnership for governed enterprise agentic AI",
+        "title_zh": "Anthropic與HCLTech宣布全球頂級夥伴關係以擴展受治理的企業代理AI",
+        "summary_en": "HCLTech announced a Global Premier Partnership with Anthropic to accelerate enterprise adoption of agentic AI focused on safety, cybersecurity and governance. HCLTech will create a dedicated Anthropic Business Unit and Center of Excellence with secure sandboxes and forward-deployed engineers; HCLSoftware becomes an ISV partner embedding Claude and Claude Code into products such as BigFix and AppScan, plus AIForce workflows.",
+        "summary_zh": "HCLTech宣布與Anthropic建立全球頂級夥伴關係，加速以安全、網路安全與治理為重點的企業代理AI採用。HCLTech將設立專屬Anthropic業務單位與卓越中心，提供安全沙箱與前線部署工程師；HCLSoftware成為ISV夥伴，將Claude與Claude Code嵌入BigFix、AppScan等產品及AIForce工作流。",
+        "analysis_en": "The deal extends Anthropic’s enterprise footprint through a major systems integrator that already manages sensitive workloads in banking, healthcare and manufacturing, pairing Claude with existing governance tooling. Actual deployment scale and safety outcomes will depend on how the CoE and product embeddings are executed.",
+        "analysis_zh": "此協議透過已管理銀行、醫療與製造敏感工作負載的大型系統整合商，擴大Anthropic企業版圖，並將Claude與既有治理工具結合。實際部署規模與安全成效取決於卓越中心與產品嵌入的執行情況。",
+        "quote": "AI can only be as useful as it is trustworthy, and we build Claude to give companies the confidence to bring it into their most sensitive and valuable work. HCLTech manages those kinds of systems for banks, hospitals, telecom companies and manufacturers, and we’re excited to partner with them as they integrate Claude and Claude Code.",
+        "quote_zh": "AI只有在值得信賴時才有用，我們打造Claude是為了讓企業有信心將它帶入最敏感與最有價值的工作。HCLTech為銀行、醫院、電信與製造商管理這類系統，我們很高興與他們合作整合Claude與Claude Code。",
         "importance": 3,
-        "first_seen": "2026-10-12T04:35:00Z",
-        "updated_at": "2026-10-12T10:35:01.977128+00:00",
+        "first_seen": "2026-10-12T16:35:00Z",
+        "updated_at": "2026-10-12T16:35:02.207615+00:00",
         "links": [
           {
-            "label": "Anthropic Cyber Mission announcement",
-            "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+            "label": "HCLTech Press Release",
+            "url": "https://www.hcltech.com/press-releases/hcltech-and-anthropic-sign-global-premier-partnership-scale-governed-agentic-ai"
           },
           {
-            "label": "OSS Scanner launch",
-            "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+            "label": "CNBC TV18 coverage",
+            "url": "https://www.cnbctv18.com/technology/hcltech-and-anthropic-partner-to-expand-enterprise-ai-deployment-using-claude-20010027.htm"
           }
         ]
       }
     ],
     "google": [],
     "meta": [],
-    "xai": [
-      {
-        "id": "xai-grok-bot-cybercab-model-y-2026-10-11",
-        "story_id": "xai-grok-bot-cybercab-model-y-2026-10-11",
-        "category": "xai",
-        "source_type": "official_x",
-        "title_en": "Tesla Enables Grok Bot on All Cybercabs and Model Y Fleet for In-Ride Voice Tasks",
-        "title_zh": "Tesla 在所有 Cybercab 與 Model Y 車隊啟用 Grok Bot，支援乘車時語音任務",
-        "summary_en": "On October 11, Tesla AI engineer Yun-Ta Tsai announced that Grok @bot is enabled on all Cybercabs and the rest of the Model Y fleet. Riders sign in once; bots remain available for subsequent rides and auto-logout on exit for privacy. Users can issue voice commands for tasks such as adding items to an Amazon cart, sending emails, or placing coffee orders while the vehicle drives. Elon Musk promoted the feature the same day.",
-        "summary_zh": "10 月 11 日，Tesla AI 工程師 Yun-Ta Tsai 宣布 Grok @bot 已在所有 Cybercab 與其餘 Model Y 車隊啟用。乘客登入一次後，後續乘車即可使用 bot，下車時自動登出以保護隱私。用戶可用語音下達指令，例如將商品加入 Amazon 購物車、寄信或下咖啡訂單，同時車輛自行駕駛。Elon Musk 同日推廣此功能。",
-        "analysis_en": "Shipping agentic Grok Bot into unsupervised robotaxi rides moves it from phone/chat demos into a shared physical environment with session isolation, testing both utility and privacy/security boundaries at fleet scale. Tesla has not published detailed release notes or confirmed rollout beyond Model Y and Cybercab.",
-        "analysis_zh": "將具代理能力的 Grok Bot 部署至無人監督的 robotaxi 乘車，從手機/聊天示範推進至共用實體環境並帶會話隔離，於車隊規模測試實用性與隱私/安全邊界。Tesla 尚未發布詳細釋出說明，也未確認 Model Y 與 Cybercab 以外的推廣範圍。",
-        "quote": "Grok @bot is enabled on all Cybercabs and the rest of the Model Y fleet. Please let us know how it helps you and what to improve.",
-        "quote_zh": "Grok @bot 已在所有 Cybercab 與其餘 Model Y 車隊啟用。請告訴我們它如何幫助你以及需要改進之處。",
-        "importance": 4,
-        "first_seen": "2026-10-12T10:35:00Z",
-        "updated_at": "2026-10-12T10:35:01.977128+00:00",
-        "links": [
-          {
-            "label": "Yun-Ta Tsai on X",
-            "url": "https://x.com/yunta_tsai/status/2109131145816285675"
-          },
-          {
-            "label": "Elon Musk promotion",
-            "url": "https://x.com/elonmusk/status/2109507243007979558"
-          },
-          {
-            "label": "TeslaNorth",
-            "url": "https://teslanorth.com/2026/10/11/grok-bot-cybercab-model-y/"
-          }
-        ]
-      },
-      {
-        "id": "xai-grok-bot-shopping-credit-card-2026-10-10",
-        "story_id": "xai-grok-bot-shopping-credit-card-2026-10-10",
-        "category": "xai",
-        "source_type": "official_x",
-        "title_en": "Elon Musk Says Grok Bot Can Research Deals and Order Online from a Credit Card Photo",
-        "title_zh": "Elon Musk 表示 Grok Bot 可從信用卡照片研究優惠並完成線上訂購",
-        "summary_en": "On October 10-11, Elon Musk posted that users can photograph a credit card, drop it in Grok Bot chat, and have the agent scour the internet for the best deal and complete the purchase. He demonstrated by asking it to research and order Lego, and later highlighted user examples including purchasing an iPhone. Media reports noted that his demo screenshot exposed partial address and payment details, raising privacy questions around autonomous spending.",
-        "summary_zh": "10 月 10-11 日，Elon Musk 發文表示用戶可拍攝信用卡照片丟入 Grok Bot 對話，讓代理搜尋最佳優惠並完成購買。他示範研究並訂購樂高，後續也強調用戶實例（如購買 iPhone）。媒體指出其示範截圖暴露部分地址與付款細節，引發對自主消費隱私的質疑。",
-        "analysis_en": "This expands Grok Bot’s agentic actions into real-world commerce and tests user trust in autonomous spending, but media reports note his demo screenshot exposed partial address and payment details, highlighting unresolved privacy and authorization risks.",
-        "analysis_zh": "這將 Grok Bot 的代理行動擴展至現實商務，測試用戶對自主消費的信任，但媒體指出示範截圖暴露部分地址與付款細節，凸顯隱私與授權風險仍未解決。",
-        "quote": "Seriously, this actually works! Think of Grok @Bot like hiring a super smart employee who works 24/7 and is extremely resourceful.",
-        "quote_zh": "認真說，這真的有效！把 Grok @Bot 想成僱用一位 24/7 工作、極度能幹的超聰明員工。",
-        "importance": 3,
-        "first_seen": "2026-10-11T16:35:01Z",
-        "updated_at": "2026-10-12T10:35:01.977128+00:00",
-        "links": [
-          {
-            "label": "Elon Musk on X",
-            "url": "https://x.com/elonmusk/status/2109387553010851887"
-          },
-          {
-            "label": "TeslaNorth coverage of shopping",
-            "url": "https://teslanorth.com/2026/10/10/elon-grok-bot-shopping/"
-          },
-          {
-            "label": "Elon Musk on X",
-            "url": "https://x.com/elonmusk/status/2109155867983786382"
-          },
-          {
-            "label": "Ynetnews coverage of exposure",
-            "url": "https://www.ynetnews.com/tech-and-digital/article/b1bfjwksfe"
-          },
-          {
-            "label": "Elon Musk on X",
-            "url": "https://x.com/elonmusk/status/2109027407185277123"
-          },
-          {
-            "label": "Think Facility",
-            "url": "https://www.thinkfacility.com/blog/musk-grok-bot-shop-from-credit-card-photo/"
-          }
-        ]
-      }
-    ],
+    "xai": [],
     "frontier_other": [
       {
-        "id": "microsoft-nadella-super-intelligence-containment-2026-10-10",
-        "story_id": "microsoft-nadella-super-intelligence-containment-2026-10-10",
+        "id": "microsoft-maia-300-multi-gigawatt-2026-10-12",
+        "story_id": "microsoft-maia-300-multi-gigawatt-2026-10-12",
         "category": "frontier_other",
-        "source_type": "official_x",
-        "title_en": "Microsoft CEO Satya Nadella Calls for Containing Super Intelligence as Insider Risks",
-        "title_zh": "微軟執行長 Satya Nadella 呼籲將超級智慧模型視為內線風險並加以控制",
-        "summary_en": "On October 10, Satya Nadella published an X Article titled “Models as Insider Risks in the Super Intelligence Era,” arguing that frontier models lack the mechanistic traceability of traditional software and should not be treated as trusted black boxes. He proposed seven principles including model diversity, full observability with tamper-proof logs, independent controls and audits, and an “emergency brake” so an authorized person can always pause or shut down a model mid-task. Nadella stated that deploying companies—not just model providers—must own responsibility for containment.",
-        "summary_zh": "10 月 10 日，Satya Nadella 在 X 發表文章〈Models as Insider Risks in the Super Intelligence Era〉，主張前沿模型缺乏傳統軟體的可追溯性，不應被視為可信黑箱。他提出七項原則，包括模型多樣性、完整可觀察性與防篡改日誌、獨立控制與審計，以及「緊急煞車」，讓授權人員隨時能暫停或關閉執行中的模型。Nadella 強調部署公司而非僅模型供應商必須承擔控制責任。",
-        "analysis_en": "This frames deployment safety as an enterprise engineering and governance problem rather than pure model alignment, potentially accelerating demand for external harnesses, audit tools, and kill-switch architectures. It remains unclear how widely Microsoft or other enterprises will operationalize these principles in practice.",
-        "analysis_zh": "這將部署安全定位為企業工程與治理問題，而非單純模型對齊，可能加速對外部控制框架、審計工具與關閉開關架構的需求。目前仍不清楚微軟或其他企業將如何實際落地這些原則。",
-        "quote": "We must assume a model is compromised and contain it from the start. Think of it like an emergency brake. An authorized person should always be able to pause or shut down a model mid-task.",
-        "quote_zh": "我們必須假設模型已被入侵並從一開始就加以控制。把它想成緊急煞車。授權人員應隨時能暫停或關閉執行中的模型。",
+        "source_type": "official_blog",
+        "title_en": "Microsoft announces Maia 300 and multi-gigawatt Maia deployments as primary inference system from 2027",
+        "title_zh": "微軟宣布Maia 300並計劃自2027年起將Maia擴至多吉瓦級作為主要推論系統",
+        "summary_en": "Microsoft announced it will scale its Azure Maia family to multi-gigawatt deployments starting in 2027, making Maia the primary inference system for its products and services. Maia 200 is already in production supporting Copilot and other workloads; Maia 300, expected in 2027, is designed for long-context reasoning, conversational and agentic tasks and is projected to deliver 40% more tokens per megawatt versus leading GPU systems plus up to 7x rack-scale token throughput of Maia 200.",
+        "summary_zh": "微軟宣布將自2027年起把Azure Maia家族擴展至多吉瓦級部署，使其成為產品與服務的主要推論系統。Maia 200已投入生產支援Copilot等負載；Maia 300預計2027年推出，針對長上下文推理、對話與代理任務設計，預計較領先GPU系統多提供40%每兆瓦token，且機架級token吞吐量最高達Maia 200的7倍。",
+        "analysis_en": "This marks a major push by Microsoft to reduce reliance on third-party GPUs for inference at scale, potentially improving cost and power efficiency for its own services, though the 40% and 7x claims remain projections until 2027 production and independent validation. Heterogeneous fleet use of OpenAI, MAI and open models continues.",
+        "analysis_zh": "這顯示微軟大力推動以自研晶片降低大規模推論對第三方GPU的依賴，可能改善自身服務的成本與功耗，但40%與7倍數字仍屬預期，待2027年量產與獨立驗證。同時仍維持對OpenAI、MAI與開源模型的混合使用。",
+        "quote": "Today we are announcing our biggest bet yet on our own silicon. Starting next calendar year, we will scale our Maia family to multi-gigawatt deployments, making it the primary inference system for our own product and services. And we’re introducing Maia 300, which delivers 40% more tokens per watt compared to leading GPU-based systems.",
+        "quote_zh": "今天我們宣布對自研晶片最大的押注。自下一個曆年起，我們將把Maia家族擴展至多吉瓦級部署，使其成為自身產品與服務的主要推論系統。同時我們推出Maia 300，相較領先GPU系統可提供每瓦多40%的token。",
         "importance": 4,
-        "first_seen": "2026-10-11T16:35:01Z",
-        "updated_at": "2026-10-12T10:35:01.977128+00:00",
+        "first_seen": "2026-10-12T16:35:00Z",
+        "updated_at": "2026-10-12T16:35:02.207615+00:00",
         "links": [
+          {
+            "label": "Official Microsoft Blog",
+            "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
+          },
           {
             "label": "Satya Nadella on X",
-            "url": "https://x.com/satyanadella/status/2108931348857827686"
-          },
-          {
-            "label": "Forbes coverage",
-            "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/10/11/microsofts-nadella-wants-an-emergency-brake-on-every-ai-model/"
-          },
-          {
-            "label": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-10-10/microsoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai"
+            "url": "https://x.com/satyanadella/status/2109631106404487523"
           }
         ]
       },
       {
-        "id": "nvidia-reflection-ai-talks-2026-10-10",
-        "story_id": "nvidia-reflection-ai-talks-2026-10-10",
+        "id": "white-house-uk-aisi-access-restored-2026-10-11",
+        "story_id": "white-house-uk-aisi-access-restored-2026-10-11",
         "category": "frontier_other",
         "source_type": "news",
-        "title_en": "NVIDIA in Early Talks to Deepen Investment or Acquire Open-Weights Startup Reflection AI",
-        "title_zh": "NVIDIA 正早期洽談加深投資或收購開放權重新創 Reflection AI",
-        "summary_en": "On October 10, the Financial Times reported that NVIDIA is in early talks to acquire or further invest in Reflection AI, a US open-weights model developer founded by former DeepMind researchers, potentially via an acqui-hire structure. NVIDIA has already invested hundreds of millions; talks remain preliminary and could collapse. Reflection recently released its Beam open-weight model.",
-        "summary_zh": "10 月 10 日，《金融時報》報導 NVIDIA 正早期洽談收購或進一步投資美國開放權重模型開發商 Reflection AI（由前 DeepMind 研究員創立），可能採收購人才結構。NVIDIA 已投入數億美元；洽談仍屬初步，可能破裂。Reflection 近期釋出 Beam 開放權重模型。",
-        "analysis_en": "If completed, the deal would extend NVIDIA’s influence from chips into open-weight model development amid US efforts to counter Chinese open models, though talks remain preliminary and no terms have been disclosed.",
-        "analysis_zh": "若完成，此交易將把 NVIDIA 的影響力從晶片延伸至開放權重模型開發，符合美國對抗中國開放模型的努力，但洽談仍屬初步且未披露條款。",
-        "quote": "",
-        "quote_zh": "",
-        "importance": 3,
-        "first_seen": "2026-10-11T22:35:01Z",
-        "updated_at": "2026-10-12T10:35:01.977128+00:00",
+        "title_en": "White House restores UK AISI pre-release access to frontier models from OpenAI, Anthropic and Google DeepMind",
+        "title_zh": "白宮恢復英國AISI對OpenAI、Anthropic與Google DeepMind預發布前沿模型的存取權限",
+        "summary_en": "The White House reversed a September request that US AI developers withhold new frontier models from Britain’s AI Security Institute until US reviews finished. UK AI Minister Kanishka Narayan confirmed on 12 October that AISI scientists are now conducting evaluations of the latest generation of models, including Gemini 4 Argon. Anthropic had previously limited Mythos 5.1 to US organizations under the earlier directive.",
+        "summary_zh": "白宮推翻九月要求美國AI開發商在美方審查完成前暫緩向英國AI安全研究所提供新前沿模型的決定。英國AI部長Kanishka Narayan於10月12日確認，AISI科學家現正對最新一代模型（包括Gemini 4 Argon）進行評估。Anthropic先前依指示將Mythos 5.1限於美國組織。",
+        "analysis_en": "The reversal restores a key external evaluation channel for major labs after a short freeze, potentially aiding earlier risk detection, though it remains a voluntary arrangement without formal binding commitments and follows recent White House emphasis on incident reporting. Confirmation comes primarily from UK government statements rather than US lab announcements.",
+        "analysis_zh": "此逆轉在短暫凍結後恢復主要實驗室的重要外部評估管道，可能有助更早偵測風險，但仍屬自願安排且缺乏正式約束承諾，並延續白宮近期對事件通報的強調。確認主要來自英國政府聲明而非美國實驗室公告。",
+        "quote": "I can confirm that AI scientists at the AI Security Institute are now conducting rigorous evaluations of the latest generation of models, including Gemini 4 Argon to identify risks early, to test robust safeguards, to help keep people safe.",
+        "quote_zh": "我可以確認，AI安全研究所的AI科學家現正對最新一代模型（包括Gemini 4 Argon）進行嚴格評估，以提早識別風險、測試穩健防護措施，協助保障人們安全。",
+        "importance": 4,
+        "first_seen": "2026-10-12T16:35:00Z",
+        "updated_at": "2026-10-12T16:35:02.207615+00:00",
         "links": [
           {
-            "label": "Financial Times (via secondary reports)",
-            "url": "https://www.ft.com/"
+            "label": "UK Government Speech by Kanishka Narayan",
+            "url": "https://www.gov.uk/government/speeches/building-a-safer-more-secure-britain-in-the-age-of-ai"
           },
           {
-            "label": "SiliconANGLE summary",
-            "url": "https://siliconangle.com/2026/10/11/nvidia-reportedly-in-early-talks-to-buy-acqui-hire-or-invest-more-in-reflection-ai/"
+            "label": "The Telegraph",
+            "url": "https://www.telegraph.co.uk/news/2026/10/11/britain-get-first-look-ai-systems-after-white-house-u-turn/"
           },
           {
-            "label": "Financial Times via Reuters",
-            "url": "https://www.reuters.com/business/nvidia-talks-invest-further-reflection-ai-or-buy-it-ft-reports-2026-10-10/"
-          },
-          {
-            "label": "Bloomberg",
-            "url": "https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports"
-          }
-        ]
-      },
-      {
-        "id": "microsoft-decision-1-model-2026-10-09",
-        "story_id": "microsoft-decision-1-model-2026-10-09",
-        "category": "frontier_other",
-        "source_type": "product",
-        "title_en": "Microsoft Releases Decision-1, a Fast Qwen3.5-9B Decision-Scoring Model",
-        "title_zh": "Microsoft 釋出 Decision-1，一款基於 Qwen3.5-9B 的快速決策評分模型",
-        "summary_en": "Around October 9-10, Microsoft introduced Microsoft-Decision-1 in Foundry and on OpenRouter, a post-trained Qwen3.5-9B model that returns calibrated probabilities for fixed answer options instead of free text. It is positioned for routing, classification, prioritization, verification, and workflow control. Microsoft reports it led a 36-benchmark comparison on accuracy and was the fastest measured, with input priced at $0.042 per million tokens and free output.",
-        "summary_zh": "約 10 月 9-10 日，Microsoft 在 Foundry 與 OpenRouter 推出 Microsoft-Decision-1，這是一款後訓練自 Qwen3.5-9B 的模型，針對固定答案選項回傳校準機率而非自由文字。定位於路由、分類、優先排序、驗證與工作流程控制。Microsoft 報告其在 36 項基準比較中準確率領先且為最快，輸入定價每百萬 token $0.042、輸出免費。",
-        "analysis_en": "The release highlights a growing category of specialized decision models that can sit alongside generative LLMs for cheaper, more deterministic control flows, while relying on a Chinese open-weight base that Microsoft says it will later rebase onto its own and OpenAI models.",
-        "analysis_zh": "此釋出凸顯專門決策模型類別正成長，可與生成式 LLM 並存以實現更便宜、更確定的控制流程，同時依賴中國開放權重基底，Microsoft 表示後續將改以自有與 OpenAI 模型為基礎。",
-        "quote": "Microsoft-Decision-1 delivers top performance in latency and quality on structured decision tasks to outperform both LLMs and other decision models.",
-        "quote_zh": "Microsoft-Decision-1 在結構化決策任務的延遲與品質上表現頂尖，超越 LLM 與其他決策模型。",
-        "importance": 3,
-        "first_seen": "2026-10-12T04:35:00Z",
-        "updated_at": "2026-10-12T10:35:01.977128+00:00",
-        "links": [
-          {
-            "label": "Microsoft Command Line blog",
-            "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/"
-          },
-          {
-            "label": "Microsoft Foundry model card",
-            "url": "https://aka.ms/decision-1"
+            "label": "Reuters",
+            "url": "https://www.reuters.com/legal/litigation/us-reverses-course-britains-testing-ai-models-telegraph-says-2026-10-11/"
           }
         ]
       }
     ]
   },
-  "brief_en": "Grok Bot expands into Tesla Cybercabs and Model Y for voice tasks during rides. OpenAI’s math dump sees withdrawals and partial Lean verification amid mathematician reactions. Nadella calls for external containment of models as insider risks; Anthropic’s OSS Scanner reports tens of thousands of findings; Microsoft ships Decision-1; NVIDIA talks on Reflection AI continue.",
-  "brief_zh": "Grok Bot 擴展至 Tesla Cybercab 與 Model Y，支援乘車時語音任務。OpenAI 數學手稿出現撤回與部分 Lean 驗證，引發數學家反應。Nadella 呼籲將模型視為內線風險並外部控制；Anthropic OSS Scanner 報告數萬項發現；Microsoft 推出 Decision-1；NVIDIA 與 Reflection AI 洽談持續。",
-  "updated_at": "2026-10-12T10:35:01.977128+00:00"
+  "brief_en": "Microsoft bets big on custom silicon with Maia 300 and multi-gigawatt inference scale-up from 2027. Anthropic partners with HCLTech for governed enterprise agentic AI. White House restores UK AISI pre-release access to models from OpenAI, Anthropic and Google DeepMind after a brief freeze.",
+  "brief_zh": "微軟宣布Maia 300與多吉瓦級自研推論晶片擴張；Anthropic與HCLTech結盟推廣受治理的企業代理AI；白宮恢復英國AISI對OpenAI、Anthropic與Google DeepMind預發布模型的測試權限。",
+  "updated_at": "2026-10-12T16:35:02.207615+00:00"
 }
