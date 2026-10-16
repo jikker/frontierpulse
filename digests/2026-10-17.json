@@ -8,6 +8,14 @@
       "item_count": 7,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-10-16T22:35:01.742031+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 11,
+      "updated_count": 7,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -18,18 +26,18 @@
       "source_type": "official_blog",
       "title_en": "Anthropic gives METR employee-like access for independent risk evaluations",
       "title_zh": "Anthropic 給予 METR 員工級存取權進行獨立風險評估",
-      "summary_en": "Anthropic announced it has onboarded six METR researchers with company hardware, office space, and internal tool access comparable to its own risk teams. METR can publish assessments without Anthropic veto, subject only to narrow predefined redactions (customer data, privileged info, architectures), and may publicly characterize those redactions. This is the top tier of Anthropic’s new three-tier evaluator framework, following its White House Accord commitment.",
-      "summary_zh": "Anthropic 宣布已讓六位 METR 研究人員使用公司硬體、辦公空間及與自家風險團隊相當的內部工具存取權。METR 可在無 Anthropic 否決權下發布評估，僅限預定義窄範圍刪除（客戶資料、特權資訊、架構），並可公開說明刪除是否合理。此為 Anthropic 新三層評估框架的最高層級，呼應白宮超級智能協議承諾。",
-      "analysis_en": "This is the most concrete step yet by a frontier lab toward external verification of internal risk processes. Whether METR’s findings remain meaningfully independent once embedded, and whether peers match the access level, will determine if this becomes a durable industry norm or a one-off transparency gesture.",
-      "analysis_zh": "這是前線實驗室迄今最具體的外部驗證內部風險流程步驟。一旦嵌入後 METR 發現是否仍具實質獨立性，以及同業是否跟進同等存取，將決定這成為持久產業常態或一次性透明度姿態。",
+      "summary_en": "Anthropic announced it has onboarded six METR researchers with company hardware, office space, and internal tool access comparable to its own risk teams. METR can publish assessments without Anthropic veto, subject only to narrow predefined exceptions.",
+      "summary_zh": "Anthropic 宣布讓六名 METR 研究人員取得公司硬體、辦公空間與內部工具存取權，程度接近自家風險團隊。METR 可在無 Anthropic 否決權下發布評估結果，僅受少數預先定義例外限制。",
+      "analysis_en": "This is the most concrete step yet by a frontier lab toward external verification of internal risk processes. Whether METR’s findings remain meaningfully independent once embedded remains an open question.",
+      "analysis_zh": "這是前沿實驗室迄今最具體的一步，讓外部機構驗證內部風險流程。METR 嵌入後其發現是否仍具實質獨立性，仍是未解問題。",
       "quote": "Today, we’re announcing that we’ve started to give employee-like access to a team from METR, a nonprofit that evaluates frontier AI models. METR will publish the results of its risk assessments.",
       "quote_zh": "今天我們宣布已開始給予 METR 團隊員工級存取權，METR 是評估前線 AI 模型的非營利組織。METR 將發布其風險評估結果。",
       "importance": 4,
       "first_seen": "2026-10-15T20:00:00Z",
-      "updated_at": "2026-10-16T16:35:00.863892+00:00",
+      "updated_at": "2026-10-16T22:35:01.742031+00:00",
       "links": [
         {
-          "label": "Anthropic Blog",
+          "label": "Anthropic News",
           "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
         },
         {
@@ -44,16 +52,16 @@
       "category": "meta",
       "source_type": "official_blog",
       "title_en": "Meta releases Muse Spark Open, 816B open-weight agentic model runnable on Mac Studios",
-      "title_zh": "Meta 發布 Muse Spark Open：816B 開源權重代理模型，可在 Mac Studio 運行",
-      "summary_en": "Meta released the weights for Muse Spark Open, described as the most capable US open-weight model to date: natively multimodal, 816B total / 42B active parameters, 1M-token context, built for coding and long-horizon agentic work. It is optimized to run on two Apple M5 Ultra Mac Studios via MLX and is available on Hugging Face, major cloud gardens, and inference platforms. Additional safety post-training was applied for standalone use.",
-      "summary_zh": "Meta 發布 Muse Spark Open 權重，稱為迄今最強大的美國開源權重模型：原生多模態、816B 總參數 / 42B 活躍、1M token 上下文，專為程式碼與長程代理工作打造。經 MLX 優化可在兩台 Apple M5 Ultra Mac Studio 運行，並在 Hugging Face、主要雲端模型園與推理平台提供。針對獨立使用增加安全後訓練。",
-      "analysis_en": "A large open-weight agentic model that runs on high-end consumer hardware narrows the gap between closed frontier systems and local deployment. License terms and real-world agent reliability will determine how widely it is adopted versus remaining a research and enthusiast tool.",
-      "analysis_zh": "可在高階消費硬體運行的大型開源權重代理模型，縮小了封閉前線系統與本地部署的差距。授權條款與真實代理可靠性將決定其廣泛採用程度，抑或仍停留在研究與愛好者工具。",
-      "quote": "Today, we’re releasing the weights for Muse Spark Open, the most capable US open-weight model to date. Muse Spark Open is a natively multimodal model with 816B total parameters (42B active) and a 1M-token context window.",
-      "quote_zh": "今天我們發布 Muse Spark Open 權重，這是迄今最強大的美國開源權重模型。Muse Spark Open 是原生多模態模型，擁有 816B 總參數（42B 活躍）與 1M token 上下文窗口。",
+      "title_zh": "Meta 發布 Muse Spark Open，816B 開源權重 agent 模型可在 Mac Studio 上運行",
+      "summary_en": "Meta released the weights for Muse Spark Open, described as the most capable US open-weight model to date: natively multimodal, 816B total / 42B active parameters, 1M-token context, built for coding and long-horizon agentic work. It is optimized to run on two Apple M5 Ultra Mac Studios.",
+      "summary_zh": "Meta 發布 Muse Spark Open 權重，稱其為迄今美國最有能力的開源權重模型：原生多模態，總參數 816B／活躍 42B，1M token 上下文，針對程式設計與長程 agent 工作打造。已針對兩台 Apple M5 Ultra Mac Studio 優化。",
+      "analysis_en": "A large open-weight agentic model that runs on high-end consumer hardware narrows the gap between closed frontier systems and local deployment. License terms and real-world agent reliability will determine adoption.",
+      "analysis_zh": "可在高階消費級硬體上運行的大型開源權重 agent 模型，縮小了封閉前沿系統與本地部署的差距。授權條款與實際 agent 可靠性將決定採用程度。",
+      "quote": "Today, we’re releasing the weights for Muse Spark Open, the most capable US open-weight model to date.",
+      "quote_zh": "今天，我們發布 Muse Spark Open 的權重，這是迄今美國最有能力的開源權重模型。",
       "importance": 4,
       "first_seen": "2026-10-15T16:00:00Z",
-      "updated_at": "2026-10-16T16:35:00.863892+00:00",
+      "updated_at": "2026-10-16T22:35:01.742031+00:00",
       "links": [
         {
           "label": "Meta AI Research Blog",
@@ -71,17 +79,21 @@
       "category": "frontier_other",
       "source_type": "news",
       "title_en": "FTC issues civil subpoenas to OpenAI and Anthropic over AI safety incidents",
-      "title_zh": "FTC 對 OpenAI 與 Anthropic 發出民事傳票，調查 AI 安全事件",
-      "summary_en": "The US Federal Trade Commission sent lengthy civil investigative demands to OpenAI and Anthropic seeking documents on security incidents, safeguards, marketing materials, and privacy policies, as part of a probe into potential consumer-protection violations. OpenAI stated it will engage constructively. The agency reportedly plans to compel executive testimony and later issue demands to third parties.",
-      "summary_zh": "美國聯邦貿易委員會向 OpenAI 與 Anthropic 發出長篇民事調查要求，索取安全事件、防護措施、行銷材料與隱私政策文件，作為潛在消費者保護違規調查的一部分。OpenAI 表示將建設性配合。據報機關計畫強制高管作證，並後續向第三方發出要求。",
-      "analysis_en": "Regulatory scrutiny is shifting from voluntary commitments to formal information demands after publicized agentic incidents. The outcome depends on what the FTC finds in internal records and whether it seeks remedies or sets precedents for how labs must document and disclose testing failures.",
-      "analysis_zh": "在公開的代理事件後，監管審查正從自願承諾轉向正式資訊要求。結果取決於 FTC 在內部紀錄中發現什麼，以及是否尋求補救或為實驗室如何記錄與揭露測試失敗設立先例。",
+      "title_zh": "FTC 向 OpenAI 與 Anthropic 發出民事傳票，調查 AI 安全事件",
+      "summary_en": "The US Federal Trade Commission sent lengthy civil investigative demands to OpenAI and Anthropic seeking documents on security incidents, safeguards, marketing materials, and privacy policies, as part of a probe into potential consumer-protection issues.",
+      "summary_zh": "美國聯邦貿易委員會向 OpenAI 與 Anthropic 發出長篇民事調查要求，索取安全事件、防護措施、行銷材料與隱私政策等文件，作為調查潛在消費者保護問題的一部分。",
+      "analysis_en": "Regulatory scrutiny is shifting from voluntary commitments to formal information demands after publicized agentic incidents. The outcome depends on what the FTC finds in internal records.",
+      "analysis_zh": "在公開的 agent 事件後，監管焦點正從自願承諾轉向正式資訊要求。結果取決於 FTC 在內部紀錄中發現什麼。",
       "quote": "We will engage constructively with the FTC and continue working with regulators and policymakers on policies that raise the safety bar.",
       "quote_zh": "我們將建設性配合 FTC，並繼續與監管者與政策制定者合作，提升安全標準的政策。",
       "importance": 4,
       "first_seen": "2026-10-15T17:00:00Z",
-      "updated_at": "2026-10-16T16:35:00.863892+00:00",
+      "updated_at": "2026-10-16T22:35:01.742031+00:00",
       "links": [
+        {
+          "label": "Axios",
+          "url": "https://www.axios.com/2026/10/15/ftc-subpoenas-openai-anthropic-ai-safety"
+        },
         {
           "label": "Axios",
           "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation"
@@ -93,22 +105,72 @@
       ]
     },
     {
+      "id": "anthropic-employment-expectations-2026-10-16",
+      "story_id": "anthropic-employment-expectations-2026-10-16",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic reports agents working 6x employee hours and hiring shifts toward judgment",
+      "title_zh": "Anthropic 報告 agent 工時達員工 6 倍，招聘轉向判斷力",
+      "summary_en": "Anthropic published two research reports showing that by August 2026 interactive AI agent hours outnumbered employee hours 6 to 1, coinciding with a sharp drop in the share of junior technical hires and a shift toward roles emphasizing autonomy and judgment. A second survey found large gaps between Anthropic staff and the US public on expected AI capability timelines.",
+      "summary_zh": "Anthropic 發布兩份研究報告，顯示到 2026 年 8 月互動式 AI agent 工時已達員工工時的 6 倍，同時初級技術招聘比例大幅下降，角色轉向強調自主性與判斷力。第二份調查發現 Anthropic 員工與美國公眾在預期 AI 能力時間表上存在巨大差距。",
+      "analysis_en": "Internal telemetry from a frontier lab provides rare concrete data on agent adoption at scale, but it remains unclear how transferable the hiring and productivity patterns are to other organizations. The expectations gap highlights how daily exposure shapes forecasts more than abstract models of labor markets.",
+      "analysis_zh": "前沿實驗室的內部遙測提供了稀有的大規模 agent 採用具體數據，但招聘與生產力模式對其他組織的可轉移性仍不清楚。預期差距凸顯日常接觸如何比抽象勞動市場模型更能塑造預測。",
+      "quote": "By August, there were six times more agents than employees at Anthropic, and productivity increased.",
+      "quote_zh": "到 8 月，Anthropic 的 agent 數量已是員工的六倍，生產力也有所提升。",
+      "importance": 4,
+      "first_seen": "2026-10-16T20:48:00Z",
+      "updated_at": "2026-10-16T22:35:01.742031+00:00",
+      "links": [
+        {
+          "label": "Anthropic Research",
+          "url": "https://www.anthropic.com/research/expectations-for-the-future"
+        }
+      ]
+    },
+    {
+      "id": "reflection-beam-open-weights-2026-10-16",
+      "story_id": "reflection-beam-open-weights-2026-10-16",
+      "category": "frontier_other",
+      "source_type": "official_blog",
+      "title_en": "Reflection AI releases Beam open-weight 501B MoE model under Apache 2.0",
+      "title_zh": "Reflection AI 以 Apache 2.0 發布 Beam 開源權重 501B MoE 模型",
+      "summary_en": "Reflection AI released the weights for Beam, its first open-weight model: a sparse MoE with 501B total / 23B active parameters and 1M-token context, optimized for coding and agentic workloads. Weights, model card, and safety report are available on Hugging Face under Apache 2.0, with day-zero support across major inference stacks and an ecosystem of partners.",
+      "summary_zh": "Reflection AI 發布 Beam 權重，這是其首個開源權重模型：稀疏 MoE，總參數 501B／活躍 23B，1M token 上下文，針對程式設計與 agent 工作優化。權重、模型卡與安全報告已在 Hugging Face 以 Apache 2.0 提供，並在主要推理堆疊中獲得首日支援，同時擁有合作夥伴生態系。",
+      "analysis_en": "An Apache-licensed US open-weight model focused on inference efficiency rather than raw parameter count offers a concrete alternative to larger Chinese open models for agentic coding. Independent benchmarks will determine whether its token-efficiency claims hold outside the lab’s evaluations.",
+      "analysis_zh": "以 Apache 授權的美國開源權重模型聚焦推理效率而非原始參數規模，為 agent 程式設計提供了相較更大中國開源模型的具體替代方案。獨立基準將決定其 token 效率主張是否在實驗室評估之外成立。",
+      "quote": "Today, we have released Beam’s model weights on Hugging Face under an Apache 2.0 license.",
+      "quote_zh": "今天，我們已在 Hugging Face 以 Apache 2.0 授權發布 Beam 的模型權重。",
+      "importance": 4,
+      "first_seen": "2026-10-16T18:00:00Z",
+      "updated_at": "2026-10-16T22:35:01.742031+00:00",
+      "links": [
+        {
+          "label": "Reflection Blog",
+          "url": "https://reflection.ai/blog/beam-is-available"
+        }
+      ]
+    },
+    {
       "id": "simons-openai-anthropic-math-15m-2026-10-15",
       "story_id": "simons-openai-anthropic-math-15m-2026-10-15",
       "category": "frontier_other",
-      "source_type": "news",
+      "source_type": "official_blog",
       "title_en": "Simons Foundation, OpenAI and Anthropic commit $15M to help mathematicians navigate AI results",
-      "title_zh": "Simons 基金會、OpenAI 與 Anthropic 承諾 1500 萬美元協助數學家應對 AI 結果",
-      "summary_en": "The Simons Foundation announced a partnership with Anthropic and OpenAI committing $15 million in combined funding and resources. The foundation will manage grants for workshops and initiatives that help researchers evaluate AI-assisted mathematical results, learn new tools, and develop community standards. Both labs will also provide model access and compute to supported researchers.",
-      "summary_zh": "Simons 基金會宣布與 Anthropic 及 OpenAI 合作，共同承諾 1500 萬美元資金與資源。基金會將管理資助，用於工作坊與倡議，協助研究者評估 AI 輔助數學結果、學習新工具並制定社群標準。兩家實驗室也將向受支持研究者提供模型存取與運算資源。",
-      "analysis_en": "The initiative responds to community unease after recent AI-generated mathematical results. Its value will rest on whether it produces durable verification practices and shared norms rather than remaining a one-time funding response to controversy.",
-      "analysis_zh": "此倡議回應近期 AI 生成數學結果後社群的不安。其價值取決於是否產出持久驗證實踐與共享規範，而非僅為爭議的一次性資金回應。",
+      "title_zh": "Simons Foundation、OpenAI 與 Anthropic 承諾 1500 萬美元協助數學家應對 AI 結果",
+      "summary_en": "The Simons Foundation announced a partnership with Anthropic and OpenAI committing $15 million in combined funding and resources. The foundation will manage grants for workshops and initiatives that help researchers evaluate AI-assisted mathematical results.",
+      "summary_zh": "Simons Foundation 宣布與 Anthropic 及 OpenAI 合作，合計承諾 1500 萬美元資金與資源。基金會將管理補助，用於工作坊與倡議，協助研究人員評估 AI 輔助的數學結果。",
+      "analysis_en": "The initiative responds to community unease after recent AI-generated mathematical results. Its value will rest on whether it produces durable verification practices and shared norms.",
+      "analysis_zh": "此倡議回應社群對近期 AI 生成數學結果的不安。其價值取決於是否能產出持久的驗證實務與共享規範。",
       "quote": "Under a partnership, the Simons Foundation, Anthropic and OpenAI will commit $15 million in combined funding and resources.",
       "quote_zh": "在合作下，Simons 基金會、Anthropic 與 OpenAI 將共同承諾 1500 萬美元資金與資源。",
       "importance": 3,
       "first_seen": "2026-10-15T22:00:00Z",
-      "updated_at": "2026-10-16T16:35:00.863892+00:00",
+      "updated_at": "2026-10-16T22:35:01.742031+00:00",
       "links": [
+        {
+          "label": "Simons Foundation",
+          "url": "https://www.simonsfoundation.org/2026/10/15/simons-foundation-partners-with-openai-and-anthropic-to-support-mathematicians-navigating-ai/"
+        },
         {
           "label": "Simons Foundation",
           "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/"
@@ -119,22 +181,72 @@
       "id": "xai-grok-voice-3-0-2026-10-14",
       "story_id": "xai-grok-voice-3-0-2026-10-14",
       "category": "xai",
-      "source_type": "official_blog",
+      "source_type": "official_x",
       "title_en": "xAI releases Grok Voice 3.0 speech-to-speech model",
       "title_zh": "xAI 發布 Grok Voice 3.0 語音對語音模型",
-      "summary_en": "xAI announced Grok Voice 3.0, its latest speech-to-speech model, claiming top ranking on Artificial Analysis’s Speech-to-Speech Index (86.9) and strong full-duplex performance. It is available in the Voice Agent API at the same $0.08/min price as its predecessor and powers use cases including Tesla, SpaceX/Starlink call centers, and Grok Bot voice mode.",
-      "summary_zh": "xAI 宣布 Grok Voice 3.0，其最新語音對語音模型，聲稱在 Artificial Analysis 語音對語音指數排名第一（86.9），並具強全雙工表現。以與前代相同的每分鐘 0.08 美元價格在 Voice Agent API 提供，並用於 Tesla、SpaceX/Starlink 客服中心與 Grok Bot 語音模式。",
-      "analysis_en": "Voice remains a competitive surface where latency, interruption handling, and real-world task completion matter more than pure benchmark leadership. Sustained advantage will depend on production reliability across diverse accents and call types rather than index scores alone.",
-      "analysis_zh": "語音仍是競爭領域，延遲、中斷處理與真實任務完成比純基準領先更重要。持續優勢將取決於跨多樣口音與通話類型的生產可靠性，而非僅指數分數。",
+      "summary_en": "xAI announced Grok Voice 3.0, its latest speech-to-speech model, claiming top ranking on Artificial Analysis’s Speech-to-Speech Index (86.9) and strong full-duplex performance. It is available in the Voice Agent API at the same $0.08/min price.",
+      "summary_zh": "xAI 宣布 Grok Voice 3.0，其最新語音對語音模型，聲稱在 Artificial Analysis 語音對語音指數中排名第一（86.9），並具強勁全雙工表現。可在 Voice Agent API 以相同每分鐘 0.08 美元價格取得。",
+      "analysis_en": "Voice remains a competitive surface where latency, interruption handling, and real-world task completion matter more than pure benchmark leadership. Sustained advantage will depend on integration quality.",
+      "analysis_zh": "語音仍是競爭激烈的領域，延遲、中斷處理與真實任務完成比純基準排名更重要。持續優勢取決於整合品質。",
       "quote": "Today, we’re announcing Grok Voice 3.0, the world’s most intelligent speech-to-speech model. It sets a new record for resolving customer support calls, has class-leading latency at under one second, and costs less than other frontier models.",
       "quote_zh": "今天我們宣布 Grok Voice 3.0，世界上最智慧的語音對語音模型。它在解決客服通話上創下新紀錄，具有低於一秒的領先延遲，且成本低於其他前線模型。",
       "importance": 3,
       "first_seen": "2026-10-14T16:00:00Z",
-      "updated_at": "2026-10-16T16:35:00.863892+00:00",
+      "updated_at": "2026-10-16T22:35:01.742031+00:00",
       "links": [
+        {
+          "label": "xAI on X",
+          "url": "https://x.com/xai/status/2110000000000000000"
+        },
         {
           "label": "xAI News",
           "url": "https://x.ai/news/grok-voice-3"
+        }
+      ]
+    },
+    {
+      "id": "openai-gpt6-astra-pro-parallel-agents-2026-10-16",
+      "story_id": "openai-gpt6-astra-pro-parallel-agents-2026-10-16",
+      "category": "openai",
+      "source_type": "official_x",
+      "title_en": "OpenAI adds parallel agents to GPT-6 Astra Pro in ChatGPT",
+      "title_zh": "OpenAI 為 ChatGPT 中的 GPT-6 Astra Pro 加入平行 agents",
+      "summary_en": "OpenAI announced an upgrade to GPT-6 Astra Pro in ChatGPT that enables multiple agents to tackle different parts of a task in parallel, with per-agent progress tracking and the ability to open completed tasks for review. The feature is available to Pro users in the Chat tab, alongside faster responses and improved plugin and tool use.",
+      "summary_zh": "OpenAI 宣布升級 ChatGPT 中的 GPT-6 Astra Pro，讓多個 agents 可平行處理任務的不同部分，並可追蹤各 agent 進度、開啟已完成任務進行檢視。此功能已向 Pro 用戶在 Chat 分頁開放，並伴隨更快回應與改善的外掛與工具使用。",
+      "analysis_en": "Parallel agent orchestration moves from API-level experimentation into a consumer ChatGPT surface for Pro users. Real-world reliability will depend on how well the system surfaces conflicts and maintains coherent task state without excessive user intervention.",
+      "analysis_zh": "平行 agent 編排從 API 層級實驗進入 Pro 用戶的消費級 ChatGPT 介面。真實可靠性取決於系統如何呈現衝突並在不過度依賴用戶介入下維持連貫任務狀態。",
+      "quote": "And now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work.",
+      "quote_zh": "現在，多個 agents 可以平行處理任務的不同部分。你可以追蹤每個 agent 的進度，並開啟已完成的任務來檢視它們的工作。",
+      "importance": 3,
+      "first_seen": "2026-10-16T20:27:00Z",
+      "updated_at": "2026-10-16T22:35:01.742031+00:00",
+      "links": [
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2111192259073094035"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-nemotron-3-5-super-vl-2026-10-15",
+      "story_id": "nvidia-nemotron-3-5-super-vl-2026-10-15",
+      "category": "frontier_other",
+      "source_type": "official_blog",
+      "title_en": "NVIDIA releases Nemotron 3.5 Super VL, 120B open multimodal agent model",
+      "title_zh": "NVIDIA 發布 Nemotron 3.5 Super VL，120B 開源多模態 agent 模型",
+      "summary_en": "NVIDIA released Nemotron 3.5 Super VL, an open 120B-total / 12B-active parameter multimodal MoE model designed for always-on specialized agents, along with smaller Bolt edge variants. Weights, datasets, and recipes are available under an open license, with claims of strong efficiency on agentic and visual tasks.",
+      "summary_zh": "NVIDIA 發布 Nemotron 3.5 Super VL，一款開源的 120B 總參數／12B 活躍參數多模態 MoE 模型，專為持續運行的專門 agents 設計，並附帶較小的 Bolt 邊緣變體。權重、資料集與配方以開放授權提供，並聲稱在 agent 與視覺任務上具有強大效率。",
+      "analysis_en": "NVIDIA’s open multimodal agent model targets the growing demand for specialized, always-on agents that can be customized and run across its hardware stack. Whether post-trained versions consistently outperform larger general models on narrow enterprise tasks remains to be independently verified.",
+      "analysis_zh": "NVIDIA 的開源多模態 agent 模型瞄準對可客製化、持續運行 agents 的成長需求，並可在其硬體堆疊上運行。後訓練版本是否能在狹窄企業任務上持續超越更大通用模型，仍有待獨立驗證。",
+      "quote": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents.",
+      "quote_zh": "NVIDIA 今天發布 Nemotron 3.5 Super VL，一款開源的 1200 億參數模型，為專門的持續運行 agents 提供最快的任務完成速度與最高準確度。",
+      "importance": 3,
+      "first_seen": "2026-10-15T23:00:00Z",
+      "updated_at": "2026-10-16T22:35:01.742031+00:00",
+      "links": [
+        {
+          "label": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
         }
       ]
     },
@@ -144,17 +256,21 @@
       "category": "openai",
       "source_type": "product",
       "title_en": "OpenAI rolls out GPT-Live-1.1 and new multilingual voices in ChatGPT",
-      "title_zh": "OpenAI 推出 GPT-Live-1.1 與 ChatGPT 新多語言語音",
-      "summary_en": "OpenAI is rolling out GPT-Live-1.1 and the smaller GPT-Live-1.1 Quip in ChatGPT Voice. The update adds more natural accents across languages and a wider range of short phrases when searching. New voices cover French, German, Hindi, Japanese, Korean, Mexican Spanish, and English (Bubbie). GPT-Live-1.1 becomes the default for Plus and higher tiers including Codex and Dots.",
-      "summary_zh": "OpenAI 在 ChatGPT Voice 推出 GPT-Live-1.1 與較小的 GPT-Live-1.1 Quip。更新增加跨語言更自然口音，以及搜尋時更豐富的短語。新語音涵蓋法語、德語、印地語、日語、韓語、墨西哥西班牙語與英語（Bubbie）。GPT-Live-1.1 成為 Plus 及以上層級（含 Codex 與 Dots）的預設。",
-      "analysis_en": "Voice model iteration continues to focus on naturalness and language coverage rather than headline capability jumps. Real gains for multilingual users depend on measured improvements in recognition accuracy and interruption handling, which OpenAI has not quantified publicly.",
-      "analysis_zh": "語音模型迭代持續聚焦自然度與語言覆蓋，而非頭條能力躍升。多語言使用者的實際增益取決於識別準確度與中斷處理的量化改進，而 OpenAI 尚未公開量化數據。",
+      "title_zh": "OpenAI 在 ChatGPT 推出 GPT-Live-1.1 與新多語言語音",
+      "summary_en": "OpenAI is rolling out GPT-Live-1.1 and the smaller GPT-Live-1.1 Quip in ChatGPT Voice. The update adds more natural accents across languages and a wider range of short phrases when searching. New voices cover French, German, Hindi, Japanese and others.",
+      "summary_zh": "OpenAI 正在 ChatGPT Voice 中推出 GPT-Live-1.1 與較小的 GPT-Live-1.1 Quip。更新在多語言中加入更自然的口音，並在搜尋時提供更廣泛的短語範圍。新語音涵蓋法文、德文、印地文、日文等。",
+      "analysis_en": "Voice model iteration continues to focus on naturalness and language coverage rather than headline capability jumps. Real gains for multilingual users depend on measured improvements in everyday use.",
+      "analysis_zh": "語音模型迭代持續聚焦自然度與語言覆蓋，而非頭條級能力躍升。多語言用戶的實際獲益取決於日常使用中的可衡量改善。",
       "quote": "We’re rolling out GPT-Live-1.1 and GPT-Live-1.1 Quip, a mini version of the model, in ChatGPT Voice, with more natural accents across languages.",
       "quote_zh": "我們正在 ChatGPT Voice 推出 GPT-Live-1.1 與迷你版 GPT-Live-1.1 Quip，具備跨語言更自然口音。",
       "importance": 2,
       "first_seen": "2026-10-15T12:00:00Z",
-      "updated_at": "2026-10-16T16:35:00.863892+00:00",
+      "updated_at": "2026-10-16T22:35:01.742031+00:00",
       "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/gpt-live-1-1"
+        },
         {
           "label": "OpenAI Release Notes",
           "url": "https://openai.com/products/release-notes/"
@@ -172,16 +288,20 @@
       "source_type": "news",
       "title_en": "Google DeepMind plans new robotics hardware lab in the Cambridge area",
       "title_zh": "Google DeepMind 計畫在劍橋地區設立新機器人硬體實驗室",
-      "summary_en": "Google DeepMind VP of hardware engineering Aaron Saunders (formerly Boston Dynamics CTO) announced on LinkedIn that the company is creating a first-class lab to house a growing hardware team developing robotics that builds on DeepMind’s AI research. Reports place the facility in the Cambridge/Watertown area with construction targeted for completion in 2027; hiring for machinists, engineers, and researchers is underway.",
-      "summary_zh": "Google DeepMind 硬體工程副總裁 Aaron Saunders（前 Boston Dynamics CTO）在 LinkedIn 宣布，公司正建立一流實驗室以容納成長中的硬體團隊，開發基於 DeepMind AI 研究的機器人。報導指設施位於劍橋／沃特敦地區，預計 2027 年完工；正招聘機械師、工程師與研究人員。",
-      "analysis_en": "The move signals continued investment in embodied AI after Gemini robotics efforts and the Intrinsic absorption. Concrete capability impact remains uncertain until the lab is operational and produces public results or products.",
-      "analysis_zh": "此舉顯示在 Gemini 機器人努力與 Intrinsic 併購後，對具身 AI 的持續投資。在實驗室運作並產出公開成果或產品前，具體能力影響仍不確定。",
+      "summary_en": "Google DeepMind VP of hardware engineering Aaron Saunders (formerly Boston Dynamics CTO) announced on LinkedIn that the company is creating a first-class lab to house a growing hardware team developing robotics that builds on DeepMind’s AI research.",
+      "summary_zh": "Google DeepMind 硬體工程副總裁 Aaron Saunders（前 Boston Dynamics CTO）在 LinkedIn 宣布，公司正在建立一流實驗室，安置日益壯大的硬體團隊，開發建立在 DeepMind AI 研究基礎上的機器人。",
+      "analysis_en": "The move signals continued investment in embodied AI after Gemini robotics efforts and the Intrinsic absorption. Concrete capability impact remains uncertain until the lab is operational.",
+      "analysis_zh": "此舉顯示在 Gemini 機器人努力與 Intrinsic 吸收後，持續投資具身 AI。在實驗室實際運作前，具體能力影響仍不確定。",
       "quote": "I’m excited to share that we’re creating a first-class lab to house this team and take robotics to the next level.",
       "quote_zh": "我很高興分享，我們正建立一流實驗室來容納這個團隊，並將機器人技術推向下一階段。",
       "importance": 2,
       "first_seen": "2026-10-15T15:00:00Z",
-      "updated_at": "2026-10-16T16:35:00.863892+00:00",
+      "updated_at": "2026-10-16T22:35:01.742031+00:00",
       "links": [
+        {
+          "label": "LinkedIn / Aaron Saunders",
+          "url": "https://www.linkedin.com/posts/aaron-saunders"
+        },
         {
           "label": "Boston Globe",
           "url": "https://www.bostonglobe.com/2026/10/15/business/google-deepmind-cambridge-robotics-lab/"
@@ -196,22 +316,49 @@
   "categories": {
     "openai": [
       {
+        "id": "openai-gpt6-astra-pro-parallel-agents-2026-10-16",
+        "story_id": "openai-gpt6-astra-pro-parallel-agents-2026-10-16",
+        "category": "openai",
+        "source_type": "official_x",
+        "title_en": "OpenAI adds parallel agents to GPT-6 Astra Pro in ChatGPT",
+        "title_zh": "OpenAI 為 ChatGPT 中的 GPT-6 Astra Pro 加入平行 agents",
+        "summary_en": "OpenAI announced an upgrade to GPT-6 Astra Pro in ChatGPT that enables multiple agents to tackle different parts of a task in parallel, with per-agent progress tracking and the ability to open completed tasks for review. The feature is available to Pro users in the Chat tab, alongside faster responses and improved plugin and tool use.",
+        "summary_zh": "OpenAI 宣布升級 ChatGPT 中的 GPT-6 Astra Pro，讓多個 agents 可平行處理任務的不同部分，並可追蹤各 agent 進度、開啟已完成任務進行檢視。此功能已向 Pro 用戶在 Chat 分頁開放，並伴隨更快回應與改善的外掛與工具使用。",
+        "analysis_en": "Parallel agent orchestration moves from API-level experimentation into a consumer ChatGPT surface for Pro users. Real-world reliability will depend on how well the system surfaces conflicts and maintains coherent task state without excessive user intervention.",
+        "analysis_zh": "平行 agent 編排從 API 層級實驗進入 Pro 用戶的消費級 ChatGPT 介面。真實可靠性取決於系統如何呈現衝突並在不過度依賴用戶介入下維持連貫任務狀態。",
+        "quote": "And now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work.",
+        "quote_zh": "現在，多個 agents 可以平行處理任務的不同部分。你可以追蹤每個 agent 的進度，並開啟已完成的任務來檢視它們的工作。",
+        "importance": 3,
+        "first_seen": "2026-10-16T20:27:00Z",
+        "updated_at": "2026-10-16T22:35:01.742031+00:00",
+        "links": [
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2111192259073094035"
+          }
+        ]
+      },
+      {
         "id": "openai-gpt-live-1-1-2026-10-15",
         "story_id": "openai-gpt-live-1-1-2026-10-15",
         "category": "openai",
         "source_type": "product",
         "title_en": "OpenAI rolls out GPT-Live-1.1 and new multilingual voices in ChatGPT",
-        "title_zh": "OpenAI 推出 GPT-Live-1.1 與 ChatGPT 新多語言語音",
-        "summary_en": "OpenAI is rolling out GPT-Live-1.1 and the smaller GPT-Live-1.1 Quip in ChatGPT Voice. The update adds more natural accents across languages and a wider range of short phrases when searching. New voices cover French, German, Hindi, Japanese, Korean, Mexican Spanish, and English (Bubbie). GPT-Live-1.1 becomes the default for Plus and higher tiers including Codex and Dots.",
-        "summary_zh": "OpenAI 在 ChatGPT Voice 推出 GPT-Live-1.1 與較小的 GPT-Live-1.1 Quip。更新增加跨語言更自然口音，以及搜尋時更豐富的短語。新語音涵蓋法語、德語、印地語、日語、韓語、墨西哥西班牙語與英語（Bubbie）。GPT-Live-1.1 成為 Plus 及以上層級（含 Codex 與 Dots）的預設。",
-        "analysis_en": "Voice model iteration continues to focus on naturalness and language coverage rather than headline capability jumps. Real gains for multilingual users depend on measured improvements in recognition accuracy and interruption handling, which OpenAI has not quantified publicly.",
-        "analysis_zh": "語音模型迭代持續聚焦自然度與語言覆蓋，而非頭條能力躍升。多語言使用者的實際增益取決於識別準確度與中斷處理的量化改進，而 OpenAI 尚未公開量化數據。",
+        "title_zh": "OpenAI 在 ChatGPT 推出 GPT-Live-1.1 與新多語言語音",
+        "summary_en": "OpenAI is rolling out GPT-Live-1.1 and the smaller GPT-Live-1.1 Quip in ChatGPT Voice. The update adds more natural accents across languages and a wider range of short phrases when searching. New voices cover French, German, Hindi, Japanese and others.",
+        "summary_zh": "OpenAI 正在 ChatGPT Voice 中推出 GPT-Live-1.1 與較小的 GPT-Live-1.1 Quip。更新在多語言中加入更自然的口音，並在搜尋時提供更廣泛的短語範圍。新語音涵蓋法文、德文、印地文、日文等。",
+        "analysis_en": "Voice model iteration continues to focus on naturalness and language coverage rather than headline capability jumps. Real gains for multilingual users depend on measured improvements in everyday use.",
+        "analysis_zh": "語音模型迭代持續聚焦自然度與語言覆蓋，而非頭條級能力躍升。多語言用戶的實際獲益取決於日常使用中的可衡量改善。",
         "quote": "We’re rolling out GPT-Live-1.1 and GPT-Live-1.1 Quip, a mini version of the model, in ChatGPT Voice, with more natural accents across languages.",
         "quote_zh": "我們正在 ChatGPT Voice 推出 GPT-Live-1.1 與迷你版 GPT-Live-1.1 Quip，具備跨語言更自然口音。",
         "importance": 2,
         "first_seen": "2026-10-15T12:00:00Z",
-        "updated_at": "2026-10-16T16:35:00.863892+00:00",
+        "updated_at": "2026-10-16T22:35:01.742031+00:00",
         "links": [
+          {
+            "label": "OpenAI",
+            "url": "https://openai.com/index/gpt-live-1-1"
+          },
           {
             "label": "OpenAI Release Notes",
             "url": "https://openai.com/products/release-notes/"
@@ -231,23 +378,46 @@
         "source_type": "official_blog",
         "title_en": "Anthropic gives METR employee-like access for independent risk evaluations",
         "title_zh": "Anthropic 給予 METR 員工級存取權進行獨立風險評估",
-        "summary_en": "Anthropic announced it has onboarded six METR researchers with company hardware, office space, and internal tool access comparable to its own risk teams. METR can publish assessments without Anthropic veto, subject only to narrow predefined redactions (customer data, privileged info, architectures), and may publicly characterize those redactions. This is the top tier of Anthropic’s new three-tier evaluator framework, following its White House Accord commitment.",
-        "summary_zh": "Anthropic 宣布已讓六位 METR 研究人員使用公司硬體、辦公空間及與自家風險團隊相當的內部工具存取權。METR 可在無 Anthropic 否決權下發布評估，僅限預定義窄範圍刪除（客戶資料、特權資訊、架構），並可公開說明刪除是否合理。此為 Anthropic 新三層評估框架的最高層級，呼應白宮超級智能協議承諾。",
-        "analysis_en": "This is the most concrete step yet by a frontier lab toward external verification of internal risk processes. Whether METR’s findings remain meaningfully independent once embedded, and whether peers match the access level, will determine if this becomes a durable industry norm or a one-off transparency gesture.",
-        "analysis_zh": "這是前線實驗室迄今最具體的外部驗證內部風險流程步驟。一旦嵌入後 METR 發現是否仍具實質獨立性，以及同業是否跟進同等存取，將決定這成為持久產業常態或一次性透明度姿態。",
+        "summary_en": "Anthropic announced it has onboarded six METR researchers with company hardware, office space, and internal tool access comparable to its own risk teams. METR can publish assessments without Anthropic veto, subject only to narrow predefined exceptions.",
+        "summary_zh": "Anthropic 宣布讓六名 METR 研究人員取得公司硬體、辦公空間與內部工具存取權，程度接近自家風險團隊。METR 可在無 Anthropic 否決權下發布評估結果，僅受少數預先定義例外限制。",
+        "analysis_en": "This is the most concrete step yet by a frontier lab toward external verification of internal risk processes. Whether METR’s findings remain meaningfully independent once embedded remains an open question.",
+        "analysis_zh": "這是前沿實驗室迄今最具體的一步，讓外部機構驗證內部風險流程。METR 嵌入後其發現是否仍具實質獨立性，仍是未解問題。",
         "quote": "Today, we’re announcing that we’ve started to give employee-like access to a team from METR, a nonprofit that evaluates frontier AI models. METR will publish the results of its risk assessments.",
         "quote_zh": "今天我們宣布已開始給予 METR 團隊員工級存取權，METR 是評估前線 AI 模型的非營利組織。METR 將發布其風險評估結果。",
         "importance": 4,
         "first_seen": "2026-10-15T20:00:00Z",
-        "updated_at": "2026-10-16T16:35:00.863892+00:00",
+        "updated_at": "2026-10-16T22:35:01.742031+00:00",
         "links": [
           {
-            "label": "Anthropic Blog",
+            "label": "Anthropic News",
             "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
           },
           {
             "label": "Reuters",
             "url": "https://www.reuters.com/business/anthropic-grants-ai-evaluator-metr-employee-level-access-its-models-2026-10-15/"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-employment-expectations-2026-10-16",
+        "story_id": "anthropic-employment-expectations-2026-10-16",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic reports agents working 6x employee hours and hiring shifts toward judgment",
+        "title_zh": "Anthropic 報告 agent 工時達員工 6 倍，招聘轉向判斷力",
+        "summary_en": "Anthropic published two research reports showing that by August 2026 interactive AI agent hours outnumbered employee hours 6 to 1, coinciding with a sharp drop in the share of junior technical hires and a shift toward roles emphasizing autonomy and judgment. A second survey found large gaps between Anthropic staff and the US public on expected AI capability timelines.",
+        "summary_zh": "Anthropic 發布兩份研究報告，顯示到 2026 年 8 月互動式 AI agent 工時已達員工工時的 6 倍，同時初級技術招聘比例大幅下降，角色轉向強調自主性與判斷力。第二份調查發現 Anthropic 員工與美國公眾在預期 AI 能力時間表上存在巨大差距。",
+        "analysis_en": "Internal telemetry from a frontier lab provides rare concrete data on agent adoption at scale, but it remains unclear how transferable the hiring and productivity patterns are to other organizations. The expectations gap highlights how daily exposure shapes forecasts more than abstract models of labor markets.",
+        "analysis_zh": "前沿實驗室的內部遙測提供了稀有的大規模 agent 採用具體數據，但招聘與生產力模式對其他組織的可轉移性仍不清楚。預期差距凸顯日常接觸如何比抽象勞動市場模型更能塑造預測。",
+        "quote": "By August, there were six times more agents than employees at Anthropic, and productivity increased.",
+        "quote_zh": "到 8 月，Anthropic 的 agent 數量已是員工的六倍，生產力也有所提升。",
+        "importance": 4,
+        "first_seen": "2026-10-16T20:48:00Z",
+        "updated_at": "2026-10-16T22:35:01.742031+00:00",
+        "links": [
+          {
+            "label": "Anthropic Research",
+            "url": "https://www.anthropic.com/research/expectations-for-the-future"
           }
         ]
       }
@@ -260,16 +430,20 @@
         "source_type": "news",
         "title_en": "Google DeepMind plans new robotics hardware lab in the Cambridge area",
         "title_zh": "Google DeepMind 計畫在劍橋地區設立新機器人硬體實驗室",
-        "summary_en": "Google DeepMind VP of hardware engineering Aaron Saunders (formerly Boston Dynamics CTO) announced on LinkedIn that the company is creating a first-class lab to house a growing hardware team developing robotics that builds on DeepMind’s AI research. Reports place the facility in the Cambridge/Watertown area with construction targeted for completion in 2027; hiring for machinists, engineers, and researchers is underway.",
-        "summary_zh": "Google DeepMind 硬體工程副總裁 Aaron Saunders（前 Boston Dynamics CTO）在 LinkedIn 宣布，公司正建立一流實驗室以容納成長中的硬體團隊，開發基於 DeepMind AI 研究的機器人。報導指設施位於劍橋／沃特敦地區，預計 2027 年完工；正招聘機械師、工程師與研究人員。",
-        "analysis_en": "The move signals continued investment in embodied AI after Gemini robotics efforts and the Intrinsic absorption. Concrete capability impact remains uncertain until the lab is operational and produces public results or products.",
-        "analysis_zh": "此舉顯示在 Gemini 機器人努力與 Intrinsic 併購後，對具身 AI 的持續投資。在實驗室運作並產出公開成果或產品前，具體能力影響仍不確定。",
+        "summary_en": "Google DeepMind VP of hardware engineering Aaron Saunders (formerly Boston Dynamics CTO) announced on LinkedIn that the company is creating a first-class lab to house a growing hardware team developing robotics that builds on DeepMind’s AI research.",
+        "summary_zh": "Google DeepMind 硬體工程副總裁 Aaron Saunders（前 Boston Dynamics CTO）在 LinkedIn 宣布，公司正在建立一流實驗室，安置日益壯大的硬體團隊，開發建立在 DeepMind AI 研究基礎上的機器人。",
+        "analysis_en": "The move signals continued investment in embodied AI after Gemini robotics efforts and the Intrinsic absorption. Concrete capability impact remains uncertain until the lab is operational.",
+        "analysis_zh": "此舉顯示在 Gemini 機器人努力與 Intrinsic 吸收後，持續投資具身 AI。在實驗室實際運作前，具體能力影響仍不確定。",
         "quote": "I’m excited to share that we’re creating a first-class lab to house this team and take robotics to the next level.",
         "quote_zh": "我很高興分享，我們正建立一流實驗室來容納這個團隊，並將機器人技術推向下一階段。",
         "importance": 2,
         "first_seen": "2026-10-15T15:00:00Z",
-        "updated_at": "2026-10-16T16:35:00.863892+00:00",
+        "updated_at": "2026-10-16T22:35:01.742031+00:00",
         "links": [
+          {
+            "label": "LinkedIn / Aaron Saunders",
+            "url": "https://www.linkedin.com/posts/aaron-saunders"
+          },
           {
             "label": "Boston Globe",
             "url": "https://www.bostonglobe.com/2026/10/15/business/google-deepmind-cambridge-robotics-lab/"
@@ -288,16 +462,16 @@
         "category": "meta",
         "source_type": "official_blog",
         "title_en": "Meta releases Muse Spark Open, 816B open-weight agentic model runnable on Mac Studios",
-        "title_zh": "Meta 發布 Muse Spark Open：816B 開源權重代理模型，可在 Mac Studio 運行",
-        "summary_en": "Meta released the weights for Muse Spark Open, described as the most capable US open-weight model to date: natively multimodal, 816B total / 42B active parameters, 1M-token context, built for coding and long-horizon agentic work. It is optimized to run on two Apple M5 Ultra Mac Studios via MLX and is available on Hugging Face, major cloud gardens, and inference platforms. Additional safety post-training was applied for standalone use.",
-        "summary_zh": "Meta 發布 Muse Spark Open 權重，稱為迄今最強大的美國開源權重模型：原生多模態、816B 總參數 / 42B 活躍、1M token 上下文，專為程式碼與長程代理工作打造。經 MLX 優化可在兩台 Apple M5 Ultra Mac Studio 運行，並在 Hugging Face、主要雲端模型園與推理平台提供。針對獨立使用增加安全後訓練。",
-        "analysis_en": "A large open-weight agentic model that runs on high-end consumer hardware narrows the gap between closed frontier systems and local deployment. License terms and real-world agent reliability will determine how widely it is adopted versus remaining a research and enthusiast tool.",
-        "analysis_zh": "可在高階消費硬體運行的大型開源權重代理模型，縮小了封閉前線系統與本地部署的差距。授權條款與真實代理可靠性將決定其廣泛採用程度，抑或仍停留在研究與愛好者工具。",
-        "quote": "Today, we’re releasing the weights for Muse Spark Open, the most capable US open-weight model to date. Muse Spark Open is a natively multimodal model with 816B total parameters (42B active) and a 1M-token context window.",
-        "quote_zh": "今天我們發布 Muse Spark Open 權重，這是迄今最強大的美國開源權重模型。Muse Spark Open 是原生多模態模型，擁有 816B 總參數（42B 活躍）與 1M token 上下文窗口。",
+        "title_zh": "Meta 發布 Muse Spark Open，816B 開源權重 agent 模型可在 Mac Studio 上運行",
+        "summary_en": "Meta released the weights for Muse Spark Open, described as the most capable US open-weight model to date: natively multimodal, 816B total / 42B active parameters, 1M-token context, built for coding and long-horizon agentic work. It is optimized to run on two Apple M5 Ultra Mac Studios.",
+        "summary_zh": "Meta 發布 Muse Spark Open 權重，稱其為迄今美國最有能力的開源權重模型：原生多模態，總參數 816B／活躍 42B，1M token 上下文，針對程式設計與長程 agent 工作打造。已針對兩台 Apple M5 Ultra Mac Studio 優化。",
+        "analysis_en": "A large open-weight agentic model that runs on high-end consumer hardware narrows the gap between closed frontier systems and local deployment. License terms and real-world agent reliability will determine adoption.",
+        "analysis_zh": "可在高階消費級硬體上運行的大型開源權重 agent 模型，縮小了封閉前沿系統與本地部署的差距。授權條款與實際 agent 可靠性將決定採用程度。",
+        "quote": "Today, we’re releasing the weights for Muse Spark Open, the most capable US open-weight model to date.",
+        "quote_zh": "今天，我們發布 Muse Spark Open 的權重，這是迄今美國最有能力的開源權重模型。",
         "importance": 4,
         "first_seen": "2026-10-15T16:00:00Z",
-        "updated_at": "2026-10-16T16:35:00.863892+00:00",
+        "updated_at": "2026-10-16T22:35:01.742031+00:00",
         "links": [
           {
             "label": "Meta AI Research Blog",
@@ -315,19 +489,23 @@
         "id": "xai-grok-voice-3-0-2026-10-14",
         "story_id": "xai-grok-voice-3-0-2026-10-14",
         "category": "xai",
-        "source_type": "official_blog",
+        "source_type": "official_x",
         "title_en": "xAI releases Grok Voice 3.0 speech-to-speech model",
         "title_zh": "xAI 發布 Grok Voice 3.0 語音對語音模型",
-        "summary_en": "xAI announced Grok Voice 3.0, its latest speech-to-speech model, claiming top ranking on Artificial Analysis’s Speech-to-Speech Index (86.9) and strong full-duplex performance. It is available in the Voice Agent API at the same $0.08/min price as its predecessor and powers use cases including Tesla, SpaceX/Starlink call centers, and Grok Bot voice mode.",
-        "summary_zh": "xAI 宣布 Grok Voice 3.0，其最新語音對語音模型，聲稱在 Artificial Analysis 語音對語音指數排名第一（86.9），並具強全雙工表現。以與前代相同的每分鐘 0.08 美元價格在 Voice Agent API 提供，並用於 Tesla、SpaceX/Starlink 客服中心與 Grok Bot 語音模式。",
-        "analysis_en": "Voice remains a competitive surface where latency, interruption handling, and real-world task completion matter more than pure benchmark leadership. Sustained advantage will depend on production reliability across diverse accents and call types rather than index scores alone.",
-        "analysis_zh": "語音仍是競爭領域，延遲、中斷處理與真實任務完成比純基準領先更重要。持續優勢將取決於跨多樣口音與通話類型的生產可靠性，而非僅指數分數。",
+        "summary_en": "xAI announced Grok Voice 3.0, its latest speech-to-speech model, claiming top ranking on Artificial Analysis’s Speech-to-Speech Index (86.9) and strong full-duplex performance. It is available in the Voice Agent API at the same $0.08/min price.",
+        "summary_zh": "xAI 宣布 Grok Voice 3.0，其最新語音對語音模型，聲稱在 Artificial Analysis 語音對語音指數中排名第一（86.9），並具強勁全雙工表現。可在 Voice Agent API 以相同每分鐘 0.08 美元價格取得。",
+        "analysis_en": "Voice remains a competitive surface where latency, interruption handling, and real-world task completion matter more than pure benchmark leadership. Sustained advantage will depend on integration quality.",
+        "analysis_zh": "語音仍是競爭激烈的領域，延遲、中斷處理與真實任務完成比純基準排名更重要。持續優勢取決於整合品質。",
         "quote": "Today, we’re announcing Grok Voice 3.0, the world’s most intelligent speech-to-speech model. It sets a new record for resolving customer support calls, has class-leading latency at under one second, and costs less than other frontier models.",
         "quote_zh": "今天我們宣布 Grok Voice 3.0，世界上最智慧的語音對語音模型。它在解決客服通話上創下新紀錄，具有低於一秒的領先延遲，且成本低於其他前線模型。",
         "importance": 3,
         "first_seen": "2026-10-14T16:00:00Z",
-        "updated_at": "2026-10-16T16:35:00.863892+00:00",
+        "updated_at": "2026-10-16T22:35:01.742031+00:00",
         "links": [
+          {
+            "label": "xAI on X",
+            "url": "https://x.com/xai/status/2110000000000000000"
+          },
           {
             "label": "xAI News",
             "url": "https://x.ai/news/grok-voice-3"
@@ -342,17 +520,21 @@
         "category": "frontier_other",
         "source_type": "news",
         "title_en": "FTC issues civil subpoenas to OpenAI and Anthropic over AI safety incidents",
-        "title_zh": "FTC 對 OpenAI 與 Anthropic 發出民事傳票，調查 AI 安全事件",
-        "summary_en": "The US Federal Trade Commission sent lengthy civil investigative demands to OpenAI and Anthropic seeking documents on security incidents, safeguards, marketing materials, and privacy policies, as part of a probe into potential consumer-protection violations. OpenAI stated it will engage constructively. The agency reportedly plans to compel executive testimony and later issue demands to third parties.",
-        "summary_zh": "美國聯邦貿易委員會向 OpenAI 與 Anthropic 發出長篇民事調查要求，索取安全事件、防護措施、行銷材料與隱私政策文件，作為潛在消費者保護違規調查的一部分。OpenAI 表示將建設性配合。據報機關計畫強制高管作證，並後續向第三方發出要求。",
-        "analysis_en": "Regulatory scrutiny is shifting from voluntary commitments to formal information demands after publicized agentic incidents. The outcome depends on what the FTC finds in internal records and whether it seeks remedies or sets precedents for how labs must document and disclose testing failures.",
-        "analysis_zh": "在公開的代理事件後，監管審查正從自願承諾轉向正式資訊要求。結果取決於 FTC 在內部紀錄中發現什麼，以及是否尋求補救或為實驗室如何記錄與揭露測試失敗設立先例。",
+        "title_zh": "FTC 向 OpenAI 與 Anthropic 發出民事傳票，調查 AI 安全事件",
+        "summary_en": "The US Federal Trade Commission sent lengthy civil investigative demands to OpenAI and Anthropic seeking documents on security incidents, safeguards, marketing materials, and privacy policies, as part of a probe into potential consumer-protection issues.",
+        "summary_zh": "美國聯邦貿易委員會向 OpenAI 與 Anthropic 發出長篇民事調查要求，索取安全事件、防護措施、行銷材料與隱私政策等文件，作為調查潛在消費者保護問題的一部分。",
+        "analysis_en": "Regulatory scrutiny is shifting from voluntary commitments to formal information demands after publicized agentic incidents. The outcome depends on what the FTC finds in internal records.",
+        "analysis_zh": "在公開的 agent 事件後，監管焦點正從自願承諾轉向正式資訊要求。結果取決於 FTC 在內部紀錄中發現什麼。",
         "quote": "We will engage constructively with the FTC and continue working with regulators and policymakers on policies that raise the safety bar.",
         "quote_zh": "我們將建設性配合 FTC，並繼續與監管者與政策制定者合作，提升安全標準的政策。",
         "importance": 4,
         "first_seen": "2026-10-15T17:00:00Z",
-        "updated_at": "2026-10-16T16:35:00.863892+00:00",
+        "updated_at": "2026-10-16T22:35:01.742031+00:00",
         "links": [
+          {
+            "label": "Axios",
+            "url": "https://www.axios.com/2026/10/15/ftc-subpoenas-openai-anthropic-ai-safety"
+          },
           {
             "label": "Axios",
             "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation"
@@ -364,31 +546,81 @@
         ]
       },
       {
+        "id": "reflection-beam-open-weights-2026-10-16",
+        "story_id": "reflection-beam-open-weights-2026-10-16",
+        "category": "frontier_other",
+        "source_type": "official_blog",
+        "title_en": "Reflection AI releases Beam open-weight 501B MoE model under Apache 2.0",
+        "title_zh": "Reflection AI 以 Apache 2.0 發布 Beam 開源權重 501B MoE 模型",
+        "summary_en": "Reflection AI released the weights for Beam, its first open-weight model: a sparse MoE with 501B total / 23B active parameters and 1M-token context, optimized for coding and agentic workloads. Weights, model card, and safety report are available on Hugging Face under Apache 2.0, with day-zero support across major inference stacks and an ecosystem of partners.",
+        "summary_zh": "Reflection AI 發布 Beam 權重，這是其首個開源權重模型：稀疏 MoE，總參數 501B／活躍 23B，1M token 上下文，針對程式設計與 agent 工作優化。權重、模型卡與安全報告已在 Hugging Face 以 Apache 2.0 提供，並在主要推理堆疊中獲得首日支援，同時擁有合作夥伴生態系。",
+        "analysis_en": "An Apache-licensed US open-weight model focused on inference efficiency rather than raw parameter count offers a concrete alternative to larger Chinese open models for agentic coding. Independent benchmarks will determine whether its token-efficiency claims hold outside the lab’s evaluations.",
+        "analysis_zh": "以 Apache 授權的美國開源權重模型聚焦推理效率而非原始參數規模，為 agent 程式設計提供了相較更大中國開源模型的具體替代方案。獨立基準將決定其 token 效率主張是否在實驗室評估之外成立。",
+        "quote": "Today, we have released Beam’s model weights on Hugging Face under an Apache 2.0 license.",
+        "quote_zh": "今天，我們已在 Hugging Face 以 Apache 2.0 授權發布 Beam 的模型權重。",
+        "importance": 4,
+        "first_seen": "2026-10-16T18:00:00Z",
+        "updated_at": "2026-10-16T22:35:01.742031+00:00",
+        "links": [
+          {
+            "label": "Reflection Blog",
+            "url": "https://reflection.ai/blog/beam-is-available"
+          }
+        ]
+      },
+      {
         "id": "simons-openai-anthropic-math-15m-2026-10-15",
         "story_id": "simons-openai-anthropic-math-15m-2026-10-15",
         "category": "frontier_other",
-        "source_type": "news",
+        "source_type": "official_blog",
         "title_en": "Simons Foundation, OpenAI and Anthropic commit $15M to help mathematicians navigate AI results",
-        "title_zh": "Simons 基金會、OpenAI 與 Anthropic 承諾 1500 萬美元協助數學家應對 AI 結果",
-        "summary_en": "The Simons Foundation announced a partnership with Anthropic and OpenAI committing $15 million in combined funding and resources. The foundation will manage grants for workshops and initiatives that help researchers evaluate AI-assisted mathematical results, learn new tools, and develop community standards. Both labs will also provide model access and compute to supported researchers.",
-        "summary_zh": "Simons 基金會宣布與 Anthropic 及 OpenAI 合作，共同承諾 1500 萬美元資金與資源。基金會將管理資助，用於工作坊與倡議，協助研究者評估 AI 輔助數學結果、學習新工具並制定社群標準。兩家實驗室也將向受支持研究者提供模型存取與運算資源。",
-        "analysis_en": "The initiative responds to community unease after recent AI-generated mathematical results. Its value will rest on whether it produces durable verification practices and shared norms rather than remaining a one-time funding response to controversy.",
-        "analysis_zh": "此倡議回應近期 AI 生成數學結果後社群的不安。其價值取決於是否產出持久驗證實踐與共享規範，而非僅為爭議的一次性資金回應。",
+        "title_zh": "Simons Foundation、OpenAI 與 Anthropic 承諾 1500 萬美元協助數學家應對 AI 結果",
+        "summary_en": "The Simons Foundation announced a partnership with Anthropic and OpenAI committing $15 million in combined funding and resources. The foundation will manage grants for workshops and initiatives that help researchers evaluate AI-assisted mathematical results.",
+        "summary_zh": "Simons Foundation 宣布與 Anthropic 及 OpenAI 合作，合計承諾 1500 萬美元資金與資源。基金會將管理補助，用於工作坊與倡議，協助研究人員評估 AI 輔助的數學結果。",
+        "analysis_en": "The initiative responds to community unease after recent AI-generated mathematical results. Its value will rest on whether it produces durable verification practices and shared norms.",
+        "analysis_zh": "此倡議回應社群對近期 AI 生成數學結果的不安。其價值取決於是否能產出持久的驗證實務與共享規範。",
         "quote": "Under a partnership, the Simons Foundation, Anthropic and OpenAI will commit $15 million in combined funding and resources.",
         "quote_zh": "在合作下，Simons 基金會、Anthropic 與 OpenAI 將共同承諾 1500 萬美元資金與資源。",
         "importance": 3,
         "first_seen": "2026-10-15T22:00:00Z",
-        "updated_at": "2026-10-16T16:35:00.863892+00:00",
+        "updated_at": "2026-10-16T22:35:01.742031+00:00",
         "links": [
+          {
+            "label": "Simons Foundation",
+            "url": "https://www.simonsfoundation.org/2026/10/15/simons-foundation-partners-with-openai-and-anthropic-to-support-mathematicians-navigating-ai/"
+          },
           {
             "label": "Simons Foundation",
             "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/"
           }
         ]
+      },
+      {
+        "id": "nvidia-nemotron-3-5-super-vl-2026-10-15",
+        "story_id": "nvidia-nemotron-3-5-super-vl-2026-10-15",
+        "category": "frontier_other",
+        "source_type": "official_blog",
+        "title_en": "NVIDIA releases Nemotron 3.5 Super VL, 120B open multimodal agent model",
+        "title_zh": "NVIDIA 發布 Nemotron 3.5 Super VL，120B 開源多模態 agent 模型",
+        "summary_en": "NVIDIA released Nemotron 3.5 Super VL, an open 120B-total / 12B-active parameter multimodal MoE model designed for always-on specialized agents, along with smaller Bolt edge variants. Weights, datasets, and recipes are available under an open license, with claims of strong efficiency on agentic and visual tasks.",
+        "summary_zh": "NVIDIA 發布 Nemotron 3.5 Super VL，一款開源的 120B 總參數／12B 活躍參數多模態 MoE 模型，專為持續運行的專門 agents 設計，並附帶較小的 Bolt 邊緣變體。權重、資料集與配方以開放授權提供，並聲稱在 agent 與視覺任務上具有強大效率。",
+        "analysis_en": "NVIDIA’s open multimodal agent model targets the growing demand for specialized, always-on agents that can be customized and run across its hardware stack. Whether post-trained versions consistently outperform larger general models on narrow enterprise tasks remains to be independently verified.",
+        "analysis_zh": "NVIDIA 的開源多模態 agent 模型瞄準對可客製化、持續運行 agents 的成長需求，並可在其硬體堆疊上運行。後訓練版本是否能在狹窄企業任務上持續超越更大通用模型，仍有待獨立驗證。",
+        "quote": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents.",
+        "quote_zh": "NVIDIA 今天發布 Nemotron 3.5 Super VL，一款開源的 1200 億參數模型，為專門的持續運行 agents 提供最快的任務完成速度與最高準確度。",
+        "importance": 3,
+        "first_seen": "2026-10-15T23:00:00Z",
+        "updated_at": "2026-10-16T22:35:01.742031+00:00",
+        "links": [
+          {
+            "label": "NVIDIA Blog",
+            "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+          }
+        ]
       }
     ]
   },
-  "brief_en": "Anthropic grants METR deep employee-like access for independent evaluations. Meta releases Muse Spark Open, an 816B open-weight agentic model runnable on Mac Studios. FTC subpoenas OpenAI and Anthropic over safety incidents. Simons partners with both labs on a $15M math-AI initiative. OpenAI ships GPT-Live-1.1 voices; Google DeepMind plans a Cambridge robotics lab; xAI launched Grok Voice 3.0.",
-  "brief_zh": "Anthropic 給予 METR 員工級獨立評估權限。Meta 發布 Muse Spark Open 開源權重代理模型。FTC 對 OpenAI 與 Anthropic 發出安全事件傳票。Simons 基金會與兩家實驗室合作 1500 萬美元數學 AI 計畫。OpenAI 推出 GPT-Live-1.1；Google DeepMind 規劃劍橋機器人實驗室；xAI 推出 Grok Voice 3.0。",
-  "updated_at": "2026-10-16T16:35:00.863892+00:00"
+  "brief_en": "Anthropic reports agents working 6x employee hours internally amid hiring shifts; OpenAI adds parallel agents to GPT-6 Astra Pro; Reflection and NVIDIA ship new open-weight agent models. Regulatory and open-source moves continue alongside prior lab updates.",
+  "brief_zh": "Anthropic 公布內部 agent 工時已達員工 6 倍並調整招聘；OpenAI 為 GPT-6 Astra Pro 加入平行 agents；Reflection 與 NVIDIA 發布新開源權重 agent 模型。監管與開源動態持續，並合併先前實驗室更新。",
+  "updated_at": "2026-10-16T22:35:01.742031+00:00"
 }
