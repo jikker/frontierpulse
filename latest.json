@@ -1,279 +1,140 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "runs": [
     {
-      "generated_at": "2026-10-17T16:35:01.987511+00:00",
+      "generated_at": "2026-10-18T16:35:01.965667+00:00",
       "backend": "grok-web",
       "model": "grok.com (browser)",
-      "item_count": 7,
+      "item_count": 5,
       "updated_count": 0,
-      "kept_count": 0
-    },
-    {
-      "generated_at": "2026-10-18T04:35:01.510832+00:00",
-      "backend": "grok-web",
-      "model": "grok.com (browser)",
-      "item_count": 10,
-      "updated_count": 7,
       "kept_count": 0
     }
   ],
   "items_flat": [
     {
-      "id": "anthropic-employment-agents-2026-10-16",
-      "story_id": "anthropic-employment-agents-2026-10-16",
-      "category": "anthropic",
-      "source_type": "official_blog",
-      "title_en": "Anthropic reports junior tech hires fall from 27% to 9% as agent hours reach 6x employees",
-      "title_zh": "Anthropic報告初級技術招聘從27%降至9%，代理工時達員工6倍",
-      "summary_en": "Anthropic published two research reports on Oct 16 showing that the share of junior technical hires fell from 27% to 9% while interactive AI agent hours outnumbered employees 6-to-1 by August 2026. The company noted productivity gains in coding output per person alongside these organizational shifts.",
-      "summary_zh": "Anthropic於10月16日發布兩份研究報告，顯示初級技術招聘比例從27%降至9%，而到2026年8月互動式AI代理工時已達員工的6倍。公司同時指出人均程式碼產出提升。",
-      "analysis_en": "This is the clearest internal data yet from a frontier lab on how heavy agent use reshapes hiring and work organization, potentially previewing broader knowledge-work shifts if others adopt similar patterns. Causation versus correlation with growth remains open.",
-      "analysis_zh": "這是前沿實驗室至今最清晰的內部數據，顯示重度代理使用如何重塑招聘與工作組織，若其他機構採類似模式，可能預示更廣知識工作轉變。因果與成長相關性仍待釐清。",
-      "quote": "By August, there were six times more agents than employees at Anthropic, and productivity increased.",
-      "quote_zh": "到8月，Anthropic的代理數量是員工的六倍，生產力也提升了。",
-      "importance": 4,
-      "first_seen": "2026-10-17T16:35:00Z",
-      "updated_at": "2026-10-18T04:35:01.510832+00:00",
-      "links": [
-        {
-          "label": "Anthropic Research",
-          "url": "https://www.anthropic.com/research/expectations-for-the-future"
-        },
-        {
-          "label": "Anthropic Research: How employment is changing at Anthropic",
-          "url": "https://www.anthropic.com/research/employment-at-anthropic"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-claude-ecdsa-seeds-2026-10-16",
-      "story_id": "anthropic-claude-ecdsa-seeds-2026-10-16",
-      "category": "anthropic",
-      "source_type": "official_blog",
-      "title_en": "Claude solves 25-year NIST ECDSA curve seed mystery in under 30 minutes",
-      "title_zh": "Claude在30分鐘內解開25年NIST ECDSA曲線種子謎團",
-      "summary_en": "Anthropic’s Frontier Red Team reported that an internal Claude research model, given no specific clues, determined in under half an hour that the long-mysterious NSA-supplied seeds for NIST P-192 through P-521 curves came from the 1990s C library lrand48 generator seeded with Unix timestamps.",
-      "summary_zh": "Anthropic前沿紅隊報告，內部Claude研究模型在無特定線索下，於半小時內判定NIST P-192至P-521曲線長期神秘的NSA種子來自1990年代C函式庫lrand48生成器，並以Unix時間戳種子。",
-      "analysis_en": "A verifiable, reproducible result that closes a decades-old crypto suspicion demonstrates concrete research utility of frontier models beyond coding benchmarks. Remaining unexplained is how readily such results generalize to other open problems.",
-      "analysis_zh": "可驗證且可重現的結果結束數十年加密疑慮，展現前沿模型在編碼基準以外的具體研究效用。如何輕易推廣至其他開放問題仍不明。",
-      "quote": "In under half an hour, Claude discovered the origins of the NIST P-192, P-224, P-256, P-384, and P-521 seeds. None of them were the results of any hash algorithm at all, but rather the output of the C library’s lrand48 random-number generator, seeded with a Unix timestamp!",
-      "quote_zh": "在不到半小時內，Claude 發現了 NIST P-192、P-224、P-256、P-384 與 P-521 種子的來源。它們完全不是任何雜湊演算法的結果，而是 C 函式庫 lrand48 隨機數產生器的輸出，以 Unix 時間戳為種子！",
-      "importance": 4,
-      "first_seen": "2026-10-17T16:35:00Z",
-      "updated_at": "2026-10-18T04:35:01.510832+00:00",
-      "links": [
-        {
-          "label": "Anthropic Research",
-          "url": "https://www.anthropic.com/research"
-        },
-        {
-          "label": "Anthropic Research: Claude reveals ECDSA curve origins",
-          "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
-        }
-      ]
-    },
-    {
-      "id": "meta-muse-spark-open-2026-10-15",
-      "story_id": "meta-muse-spark-open-2026-10-15",
-      "category": "meta",
-      "source_type": "official_blog",
-      "title_en": "Meta releases Muse Spark Open 816B open-weight model optimized for local Mac Studios",
-      "title_zh": "Meta發布Muse Spark Open 816B開源權重模型，優化於本地Mac Studio",
-      "summary_en": "Meta on Oct 15 released open weights for Muse Spark Open, an 816-billion-parameter (42B active) natively multimodal MoE model with 1M context, described as the most capable US open-weight model. It targets coding and long-horizon agentic work and is optimized to run on two Apple M5 Ultra Mac Studios via MLX.",
-      "summary_zh": "Meta於10月15日發布Muse Spark Open開源權重，為8160億參數（42B活躍）原生多模態MoE模型，1M上下文，被描述為美國最強開源權重模型。針對編碼與長程代理工作，並透過MLX優化於兩台Apple M5 Ultra Mac Studio運行。",
-      "analysis_en": "The release expands the US open-weight frontier for agentic coding while highlighting hardware partnerships for local deployment. Benchmarks show mixed results versus leading Chinese open models on coding versus tool use.",
-      "analysis_zh": "此發布擴展美國開源權重在代理編碼的前沿，同時突顯本地部署的硬體合作。基準顯示相對領先中國開源模型在編碼與工具使用上結果混雜。",
-      "quote": "Today, we’re releasing the weights for Muse Spark Open, the most capable US open-weight model to date.",
-      "quote_zh": "今天，我們發布Muse Spark Open權重，迄今美國最強開源權重模型。",
-      "importance": 4,
-      "first_seen": "2026-10-18T04:35:00Z",
-      "updated_at": "2026-10-18T04:35:01.510832+00:00",
-      "links": [
-        {
-          "label": "Reuters",
-          "url": "https://www.reuters.com/business/meta-releases-open-weight-muse-spark-model-coding-agentic-tasks-2026-10-15/"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-quantum-circuits-2026-10-16",
-      "story_id": "anthropic-quantum-circuits-2026-10-16",
-      "category": "anthropic",
-      "source_type": "official_blog",
-      "title_en": "Claude designs more efficient quantum circuits, improving on published designs",
-      "title_zh": "Claude設計更高效量子電路，優於已發表設計",
-      "summary_en": "Anthropic reported that Claude, working largely autonomously with an automated evaluator on eight circuit specifications, produced designs requiring fewer quantum resources than the best previously published versions—in some cases by an order of magnitude.",
-      "summary_zh": "Anthropic報告Claude在自動化評估器協助下，對八項電路規格 largely自主工作，產出所需量子資源少於先前最佳發表版本的設計，部分達一個數量級。",
-      "analysis_en": "While the target hardware does not yet exist, the resource reductions illustrate how models can accelerate specialized scientific design loops. Independent verification of the circuits and practical impact remain open.",
-      "analysis_zh": "目標硬體尚未存在，但資源減少顯示模型如何加速專門科學設計迴圈。電路獨立驗證與實際影響仍待觀察。",
-      "quote": "Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.",
-      "quote_zh": "Claude  largely 自主工作，改進了最佳已發表電路，部分情況改善一個數量級或更多，可能使實用量子電腦比先前預期更早到來。",
-      "importance": 3,
-      "first_seen": "2026-10-17T16:35:00Z",
-      "updated_at": "2026-10-18T04:35:01.510832+00:00",
-      "links": [
-        {
-          "label": "Anthropic Research",
-          "url": "https://www.anthropic.com/research"
-        },
-        {
-          "label": "Anthropic Research: Designing more efficient quantum circuits with Claude",
-          "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-safety-bill-pitch-2026-10-16",
-      "story_id": "anthropic-safety-bill-pitch-2026-10-16",
-      "category": "anthropic",
-      "source_type": "news",
-      "title_en": "Anthropic pitches draft frontier AI safety bill to U.S. lawmakers",
-      "title_zh": "Anthropic向美國議員提出前沿AI安全法案草案",
-      "summary_en": "Politico reported that Anthropic representatives shared a confidential draft bill allowing the Commerce Department to seek a court order blocking a model’s release only for imminent risks exceeding $1 billion in damages or 50 serious injuries.",
-      "summary_zh": "Politico報導Anthropic代表分享機密草案，允許商務部僅在即將造成超過10億美元損害或50起嚴重傷害的風險時，尋求法院命令阻擋模型發布。",
-      "analysis_en": "By floating narrow, high-threshold intervention powers rather than broad licensing, Anthropic is attempting to shape federal rules in its preferred direction amid ongoing safety debates. Legislative uptake is uncertain.",
-      "analysis_zh": "透過提出狹窄高門檻干預權而非廣泛許可，Anthropic試圖在持續安全辯論中引導聯邦規則朝其偏好方向。立法採納仍不確定。",
-      "quote": "This bill represents the proposals outlined in Anthropic's Advanced AI Framework, which we have been advocating for with federal and state lawmakers since June.",
-      "quote_zh": "此法案代表 Anthropic Advanced AI Framework 中概述的提案，我們自六月以來一直向聯邦與州議員倡議。",
-      "importance": 3,
-      "first_seen": "2026-10-17T16:35:00Z",
-      "updated_at": "2026-10-18T04:35:01.510832+00:00",
-      "links": [
-        {
-          "label": "Politico",
-          "url": "https://www.politico.com"
-        },
-        {
-          "label": "Politico: Anthropic quietly pitches its own AI safety bill",
-          "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654"
-        },
-        {
-          "label": "Reuters summary",
-          "url": "https://www.reuters.com/legal/litigation/anthropic-quietly-pitches-its-own-ai-safety-bill-lawmakers-politico-reports-2026-10-16/"
-        }
-      ]
-    },
-    {
-      "id": "openai-chatgpt-slides-pro-agents-2026-10-16",
-      "story_id": "openai-chatgpt-slides-pro-agents-2026-10-16",
+      "id": "openai-gpt6-pro-parallel-agents-slides-2026-10-16",
+      "story_id": "openai-gpt6-pro-parallel-agents-slides-2026-10-16",
       "category": "openai",
-      "source_type": "product",
-      "title_en": "OpenAI adds collaborative ChatGPT Slides and parallel agents for GPT-6 Pro",
-      "title_zh": "OpenAI新增協作ChatGPT Slides與GPT-6 Pro並行代理",
-      "summary_en": "OpenAI’s Oct 16 ChatGPT release notes announced ChatGPT Slides for creating and real-time collaborative editing of presentations in Space (with export to PowerPoint, PDF, or Google Slides) for eligible Pro, Business, and Enterprise users. Separately, GPT-6 Pro now supports multiple agents working on different parts of a task in parallel.",
-      "summary_zh": "OpenAI 10月16日ChatGPT發布說明宣布ChatGPT Slides，讓符合資格的Pro、Business與Enterprise用戶在Space中建立並即時協作編輯簡報，並可匯出至PowerPoint、PDF或Google Slides。另GPT-6 Pro現支援多代理並行處理任務不同部分。",
-      "analysis_en": "Native collaborative slides move ChatGPT further into everyday productivity workflows that previously required exporting to other suites. Parallel agents expand multi-step capabilities but practical reliability across complex tasks is still being tested by users.",
-      "analysis_zh": "原生協作簡報讓ChatGPT更深入先前需匯出其他套件的日常生產力流程。並行代理擴展多步驟能力，但複雜任務的實際可靠性仍由用戶測試中。",
-      "quote": "Multiple agents that can work on different parts of a task in parallel.",
-      "quote_zh": "多個代理可並行處理任務的不同部分。",
-      "importance": 3,
-      "first_seen": "2026-10-17T16:35:00Z",
-      "updated_at": "2026-10-18T04:35:01.510832+00:00",
+      "source_type": "official_x",
+      "title_en": "OpenAI upgrades GPT-6 Pro in ChatGPT with parallel agents and collaborative Slides",
+      "title_zh": "OpenAI 升級 ChatGPT 中的 GPT-6 Pro，加入平行代理與協作簡報功能",
+      "summary_en": "OpenAI announced that GPT-6 Pro in the Chat tab now delivers faster responses, better plugin and tool use, and support for multiple agents working on different parts of a task in parallel, with visible progress tracking. The company also introduced ChatGPT Slides for creating, editing, and real-time collaborative presentations that can be exported to PowerPoint, PDF, or Google Slides.",
+      "summary_zh": "OpenAI 宣布 ChatGPT 中的 GPT-6 Pro 現提供更快回應、更好的外掛與工具使用，並支援多個代理平行處理任務不同部分，且可追蹤進度。同時推出 ChatGPT Slides，可建立、編輯並即時協作簡報，並匯出至 PowerPoint、PDF 或 Google Slides。",
+      "analysis_en": "Parallel agents mark a concrete step from single-threaded chat toward multi-agent workflows inside the consumer product, though availability is still limited to Pro users and real-world reliability remains to be proven at scale.",
+      "analysis_zh": "平行代理代表從單一對話轉向產品內多代理工作流的具體進展，但目前僅限 Pro 用戶，大規模實際可靠性仍待驗證。",
+      "quote": "GPT-6 Pro in the chat tab now offers: Faster responses. Improved use of plugins and tools to carry out tasks. Multiple agents that can work on different parts of a task in parallel.",
+      "quote_zh": "ChatGPT 中的 GPT-6 Pro 現提供：更快回應。改善外掛與工具使用以完成任務。多個代理可平行處理任務的不同部分。",
+      "importance": 4,
+      "first_seen": "2026-10-18T16:35:00Z",
+      "updated_at": "2026-10-18T16:35:01.965667+00:00",
       "links": [
         {
-          "label": "OpenAI Help Center",
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2111185504746213705"
+        },
+        {
+          "label": "ChatGPT release notes",
           "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
         }
       ]
     },
     {
-      "id": "deepseek-v41-flash-1017-2026-10-17",
-      "story_id": "deepseek-v41-flash-1017-2026-10-17",
+      "id": "anthropic-workforce-agent-hours-junior-hiring-2026-10-16",
+      "story_id": "anthropic-workforce-agent-hours-junior-hiring-2026-10-16",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic reports junior technical hiring drop and agents logging 6x human hours",
+      "title_zh": "Anthropic 報告初級技術招聘下降，代理工時達人類 6 倍",
+      "summary_en": "Anthropic published research showing that the share of junior technical hires fell from 27% to 9% over roughly a year, while technical roles as a share of the workforce declined from 61% to 56%. By August 2026, employee-directed Claude agents were logging six times more active work hours than humans, with productivity metrics such as code commits per engineer rising substantially.",
+      "summary_zh": "Anthropic 發布研究指出，初級技術招聘占比約一年內從 27% 降至 9%，技術角色占整體人力從 61% 降至 56%。到 2026 年 8 月，員工指揮的 Claude 代理活躍工時已達人類 6 倍，工程師程式碼提交等生產力指標大幅提升。",
+      "analysis_en": "The data offers a rare inside view of how heavy agent adoption can reshape hiring and work composition at a frontier lab, though Anthropic notes its AI-native workflows may not fully generalize to traditional companies.",
+      "analysis_zh": "這些數據提供了前沿實驗室重度採用代理後如何重塑招聘與工作組成的罕見內部視角，但 Anthropic 指出其 AI 原生工作流未必能完全套用到傳統企業。",
+      "quote": "By August, there were six times more agents than employees at Anthropic, and productivity increased.",
+      "quote_zh": "到八月，Anthropic 的代理數量已是員工的六倍，生產力也隨之提升。",
+      "importance": 4,
+      "first_seen": "2026-10-18T16:35:00Z",
+      "updated_at": "2026-10-18T16:35:01.965667+00:00",
+      "links": [
+        {
+          "label": "Anthropic Research",
+          "url": "https://www.anthropic.com/research/expectations-for-the-future"
+        }
+      ]
+    },
+    {
+      "id": "deepseek-v41-flash-1017-release-2026-10-17",
+      "story_id": "deepseek-v41-flash-1017-release-2026-10-17",
       "category": "frontier_other",
       "source_type": "official_blog",
-      "title_en": "DeepSeek ships V4.1-Flash-1017 with higher agent scores and open MIT weights",
-      "title_zh": "DeepSeek推出V4.1-Flash-1017，代理分數提升並開放MIT權重",
-      "summary_en": "DeepSeek released DeepSeek-V4.1-Flash-1017 on Oct 17 as a minor update to its September Flash model. Official benchmarks show gains across reasoning, coding, and agentic tasks (e.g., Terminal-Bench 4.0 from 31.2 to 42.3, DeepSWE v1.1 to 77.0) with shorter runtimes, plus newly opened Search and Fetch APIs; weights are on Hugging Face under MIT.",
-      "summary_zh": "DeepSeek於10月17日發布DeepSeek-V4.1-Flash-1017，作為九月Flash模型的小更新。官方基準顯示推理、編碼與代理任務提升（如Terminal-Bench 4.0從31.2至42.3，DeepSWE v1.1至77.0），運行時間更短，並開放Search與Fetch API；權重以MIT授權在Hugging Face。",
-      "analysis_en": "Continued rapid iteration on an open-weight, low-cost model strengthens the open ecosystem’s competitive pressure on closed frontier labs in agentic coding. Independent third-party evaluations are still pending for the reported gains.",
-      "analysis_zh": "開源權重低成本模型的持續快速迭代，加強開放生態系統在代理編碼上對封閉前沿實驗室的競爭壓力。報告提升仍待獨立第三方評估。",
+      "title_en": "DeepSeek releases V4.1-Flash-1017 with stronger agent scores and open weights",
+      "title_zh": "DeepSeek 釋出 V4.1-Flash-1017，代理分數提升並開放權重",
+      "summary_en": "DeepSeek shipped DeepSeek-V4.1-Flash-1017, a minor update to its previous Flash model that improves scores across agentic and coding benchmarks (including 77.0 on DeepSWE v1.1 versus 74.0 for Claude Opus 5 in the company’s table), finishes tasks faster, and produces shorter outputs. Weights are available on Hugging Face under MIT, and the company opened Search and Fetch APIs.",
+      "summary_zh": "DeepSeek 推出 DeepSeek-V4.1-Flash-1017，為先前 Flash 模型的小幅更新，在代理與程式碼基準上分數提升（公司表格中 DeepSWE v1.1 達 77.0，對比 Claude Opus 5 的 74.0），任務完成更快且輸出更短。權重以 MIT 授權釋出於 Hugging Face，並開放 Search 與 Fetch API。",
+      "analysis_en": "The update strengthens the cost-performance case for open-weight agentic models relative to closed frontier options on specific coding benchmarks, though independent verification of the claimed gains is still limited.",
+      "analysis_zh": "此更新強化了開放權重代理模型在特定程式碼基準上相對封閉前沿模型的成本效能優勢，但宣稱提升的獨立驗證仍有限。",
       "quote": "Stronger benchmark performance, faster task completion, and shorter outputs than the previous version—a Pareto improvement in performance and cost.",
-      "quote_zh": "基準表現更強、任務完成更快、輸出更短——性能與成本的帕累托改進。",
+      "quote_zh": "比先前版本更強的基準表現、更快的任務完成與更短的輸出——在效能與成本上的帕累托改進。",
       "importance": 3,
-      "first_seen": "2026-10-17T16:35:00Z",
-      "updated_at": "2026-10-18T04:35:01.510832+00:00",
+      "first_seen": "2026-10-18T16:35:00Z",
+      "updated_at": "2026-10-18T16:35:01.965667+00:00",
       "links": [
         {
           "label": "DeepSeek API Docs",
           "url": "https://api-docs.deepseek.com/news/news261017"
         },
         {
-          "label": "Hugging Face: DeepSeek-V4.1-Flash-1017",
+          "label": "Hugging Face",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
         }
       ]
     },
     {
-      "id": "xai-grok-voice-3-2026-10-14",
-      "story_id": "xai-grok-voice-3-2026-10-14",
-      "category": "xai",
-      "source_type": "product",
-      "title_en": "xAI releases Grok Voice 3.0, topping independent speech-to-speech rankings",
-      "title_zh": "xAI發布Grok Voice 3.0，居獨立語音對語音排名之首",
-      "summary_en": "xAI (SpaceXSI) announced Grok Voice 3.0 on Oct 14 as its speech-to-speech model, available in the Voice Agent API at the same $0.08/min price as the prior version. It ranked #1 on Artificial Analysis’s Speech-to-Speech Index (86.9) ahead of competitors and is used in high-volume Tesla and Starlink calls.",
-      "summary_zh": "xAI（SpaceXSI）於10月14日宣布Grok Voice 3.0語音對語音模型，在Voice Agent API以與前版相同$0.08/分鐘價格提供。它在Artificial Analysis語音對語音指數以86.9居首，並用於高量Tesla與Starlink通話。",
-      "analysis_en": "Strong independent ranking plus production deployment in high-volume call centers gives the release practical weight beyond benchmark tables. Real-world interruption handling and telephony edge cases will determine sustained advantage.",
-      "analysis_zh": "強勁獨立排名加上高量呼叫中心生產部署，讓此發布在基準表以外具實用份量。真實中斷處理與電話邊緣案例將決定持續優勢。",
-      "quote": "Today, we’re announcing Grok Voice 3.0, the world’s most intelligent speech-to-speech model.",
-      "quote_zh": "今天，我們宣布 Grok Voice 3.0，全球最智慧的語音對語音模型。",
+      "id": "meta-commercial-terms-crawl-language-removal-2026-10-17",
+      "story_id": "meta-commercial-terms-crawl-language-removal-2026-10-17",
+      "category": "meta",
+      "source_type": "news",
+      "title_en": "Meta removes controversial AI training language from updated commercial terms after backlash",
+      "title_zh": "Meta 在引發反彈後，從更新商業條款中移除爭議性 AI 訓練用語",
+      "summary_en": "Meta updated its commercial terms and then removed language that critics said could allow the company to crawl business customers’ websites and use the content to train AI models. A Meta spokesperson stated the crawling provisions only applied to ads and business products and that the revision clarified existing practices without changing how Meta uses web crawlers.",
+      "summary_zh": "Meta 更新商業條款後，移除了批評者認為可能允許公司爬取商業客戶網站並用內容訓練 AI 模型的用語。Meta 發言人表示爬取條款僅適用於廣告與商業產品，修訂是為釐清既有做法，並未改變 Meta 使用網頁爬蟲的方式。",
+      "analysis_en": "The rapid walk-back highlights ongoing sensitivity around web-crawling rights for AI training, especially for publishers, even as Meta maintains there was no substantive change in practice.",
+      "analysis_zh": "快速撤回凸顯 AI 訓練網頁爬取權利的持續敏感性，尤其對出版商而言，即使 Meta 堅持實務上並無實質改變。",
+      "quote": "We’ve heard you and want to clarify: the crawling terms we consolidated only applied to our ads and business products, and we’ve clarified that in the terms themselves.",
+      "quote_zh": "我們聽到你們的意見並想澄清：我們整合的爬取條款僅適用於廣告與商業產品，我們已在條款中加以釐清。",
       "importance": 3,
-      "first_seen": "2026-10-17T16:35:00Z",
-      "updated_at": "2026-10-18T04:35:01.510832+00:00",
+      "first_seen": "2026-10-18T16:35:00Z",
+      "updated_at": "2026-10-18T16:35:01.965667+00:00",
       "links": [
         {
-          "label": "xAI News",
-          "url": "https://x.ai/news"
+          "label": "The Verge",
+          "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
         },
         {
-          "label": "xAI / SpaceXSI: Introducing Grok Voice 3.0",
-          "url": "https://x.ai/news/grok-voice-3"
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
         }
       ]
     },
     {
-      "id": "nvidia-nemotron-35-super-vl-2026-10-15",
-      "story_id": "nvidia-nemotron-35-super-vl-2026-10-15",
+      "id": "opencode-api-key-breach-openai-anthropic-google-2026-10-17",
+      "story_id": "opencode-api-key-breach-openai-anthropic-google-2026-10-17",
       "category": "frontier_other",
-      "source_type": "official_blog",
-      "title_en": "NVIDIA releases open Nemotron 3.5 Super VL 120B multimodal agent model",
-      "title_zh": "NVIDIA發布開源Nemotron 3.5 Super VL 120B多模態代理模型",
-      "summary_en": "NVIDIA on Oct 15 released Nemotron 3.5 Super VL, an open 120-billion-parameter (12B active) multimodal model for always-on agents, claiming frontier-class accuracy at one-fifth the size of its largest reasoning model and up to 5x faster throughput. Companion Bolt edge models were also released.",
-      "summary_zh": "NVIDIA於10月15日發布Nemotron 3.5 Super VL，開源1200億參數（12B活躍）多模態模型，用於常開代理，宣稱以最大推理模型五分之一規模達前沿級準確度，並最高5倍吞吐。同時發布Bolt邊緣模型。",
-      "analysis_en": "Open weights with post-training recipes and hardware stack coverage lower the barrier for specialized agent deployment. Independent accuracy claims versus closed frontier models still require broader third-party checks.",
-      "analysis_zh": "開源權重搭配後訓練配方與硬體堆疊覆蓋，降低專門代理部署門檻。相對封閉前沿模型的獨立準確度宣稱仍需更廣第三方檢核。",
-      "quote": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents.",
-      "quote_zh": "NVIDIA今天發布Nemotron 3.5 Super VL，開源1200億參數模型，為專門常開代理提供最快任務完成與最高準確度。",
-      "importance": 3,
-      "first_seen": "2026-10-18T04:35:00Z",
-      "updated_at": "2026-10-18T04:35:01.510832+00:00",
-      "links": [
-        {
-          "label": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-jack-clark-imf-2026-10-17",
-      "story_id": "anthropic-jack-clark-imf-2026-10-17",
-      "category": "anthropic",
       "source_type": "news",
-      "title_en": "Jack Clark tells IMF AI progress may mark singularity start and large GDP gains",
-      "title_zh": "Jack Clark向IMF表示AI進展可能標誌奇點開始與大幅GDP增益",
-      "summary_en": "On Oct 17 Anthropic co-founder Jack Clark delivered the Per Jacobsson Lecture at the IMF/World Bank meetings in Bangkok, arguing that AI capabilities are advancing rapidly enough that a singularity may have begun and that under certain conditions an internal model projected nearly 50% US GDP growth by 2030.",
-      "summary_zh": "10月17日Anthropic共同創辦人Jack Clark在曼谷IMF/世銀年會Per Jacobsson講座中表示，AI能力進展迅速，奇點可能已開始，且在某些條件下內部模型預測到2030年美國GDP可近增50%。",
-      "analysis_en": "The high-profile policy venue amplifies Anthropic’s view that transformative effects are already underway and that unusual rules may be needed. The GDP figure is a conditional model output, not a firm forecast.",
-      "analysis_zh": "高調政策場合放大Anthropic認為轉型效應已在進行、需不尋常規則的觀點。GDP數字為條件模型輸出，非確定預測。",
-      "quote": "I’m speaking at the IMF in an hour about the singularity and why I believe it has begun",
-      "quote_zh": "我即將在IMF演講奇點以及為何我相信它已開始",
+      "title_en": "OpenCode reports breach exposing OpenAI, Anthropic, and Google API keys for some users",
+      "title_zh": "OpenCode 報告安全漏洞，部分用戶的 OpenAI、Anthropic 與 Google API 金鑰可能外洩",
+      "summary_en": "OpenCode disclosed unauthorized access to a legacy system it was decommissioning, stating that third-party provider API keys (including OpenAI, Anthropic, and Google) saved by about 1.4% of Console users may have been exposed in what it described as a large-scale distillation attack. The company said it notified affected users and is working with the providers to remediate.",
+      "summary_zh": "OpenCode 揭露其正在淘汰的舊系統遭未授權存取，指出約 1.4% Console 用戶儲存的第三方供應商 API 金鑰（包括 OpenAI、Anthropic 與 Google）可能外洩，並將其描述為大規模蒸餾攻擊。公司表示已通知受影響用戶，並正與供應商合作處理。",
+      "analysis_en": "The incident underscores the security risks of third-party tools that store frontier-lab API keys, with limited public detail so far on the full scope or confirmed misuse beyond initial user reports of unauthorized charges.",
+      "analysis_zh": "此事件凸顯儲存前沿實驗室 API 金鑰的第三方工具安全風險，目前公開細節有限，除初步用戶報告的未授權扣款外，完整範圍或確認濫用情況仍不明。",
+      "quote": "We had a security breach last night related to a large scale distillation attack that impacted 1.4% of OpenCode Console users.",
+      "quote_zh": "我們昨晚發生與大規模蒸餾攻擊相關的安全漏洞，影響了 1.4% 的 OpenCode Console 用戶。",
       "importance": 3,
-      "first_seen": "2026-10-18T04:35:00Z",
-      "updated_at": "2026-10-18T04:35:01.510832+00:00",
+      "first_seen": "2026-10-18T16:35:00Z",
+      "updated_at": "2026-10-18T16:35:01.965667+00:00",
       "links": [
         {
-          "label": "Reuters",
-          "url": "https://www.reuters.com"
+          "label": "FourWeekMBA (quoting OpenCode)",
+          "url": "https://fourweekmba.com/ai-opencode-breach-puts-openai-anthropic-keys-at-risk-for-1-4/"
         }
       ]
     }
@@ -281,24 +142,28 @@
   "categories": {
     "openai": [
       {
-        "id": "openai-chatgpt-slides-pro-agents-2026-10-16",
-        "story_id": "openai-chatgpt-slides-pro-agents-2026-10-16",
+        "id": "openai-gpt6-pro-parallel-agents-slides-2026-10-16",
+        "story_id": "openai-gpt6-pro-parallel-agents-slides-2026-10-16",
         "category": "openai",
-        "source_type": "product",
-        "title_en": "OpenAI adds collaborative ChatGPT Slides and parallel agents for GPT-6 Pro",
-        "title_zh": "OpenAI新增協作ChatGPT Slides與GPT-6 Pro並行代理",
-        "summary_en": "OpenAI’s Oct 16 ChatGPT release notes announced ChatGPT Slides for creating and real-time collaborative editing of presentations in Space (with export to PowerPoint, PDF, or Google Slides) for eligible Pro, Business, and Enterprise users. Separately, GPT-6 Pro now supports multiple agents working on different parts of a task in parallel.",
-        "summary_zh": "OpenAI 10月16日ChatGPT發布說明宣布ChatGPT Slides，讓符合資格的Pro、Business與Enterprise用戶在Space中建立並即時協作編輯簡報，並可匯出至PowerPoint、PDF或Google Slides。另GPT-6 Pro現支援多代理並行處理任務不同部分。",
-        "analysis_en": "Native collaborative slides move ChatGPT further into everyday productivity workflows that previously required exporting to other suites. Parallel agents expand multi-step capabilities but practical reliability across complex tasks is still being tested by users.",
-        "analysis_zh": "原生協作簡報讓ChatGPT更深入先前需匯出其他套件的日常生產力流程。並行代理擴展多步驟能力，但複雜任務的實際可靠性仍由用戶測試中。",
-        "quote": "Multiple agents that can work on different parts of a task in parallel.",
-        "quote_zh": "多個代理可並行處理任務的不同部分。",
-        "importance": 3,
-        "first_seen": "2026-10-17T16:35:00Z",
-        "updated_at": "2026-10-18T04:35:01.510832+00:00",
+        "source_type": "official_x",
+        "title_en": "OpenAI upgrades GPT-6 Pro in ChatGPT with parallel agents and collaborative Slides",
+        "title_zh": "OpenAI 升級 ChatGPT 中的 GPT-6 Pro，加入平行代理與協作簡報功能",
+        "summary_en": "OpenAI announced that GPT-6 Pro in the Chat tab now delivers faster responses, better plugin and tool use, and support for multiple agents working on different parts of a task in parallel, with visible progress tracking. The company also introduced ChatGPT Slides for creating, editing, and real-time collaborative presentations that can be exported to PowerPoint, PDF, or Google Slides.",
+        "summary_zh": "OpenAI 宣布 ChatGPT 中的 GPT-6 Pro 現提供更快回應、更好的外掛與工具使用，並支援多個代理平行處理任務不同部分，且可追蹤進度。同時推出 ChatGPT Slides，可建立、編輯並即時協作簡報，並匯出至 PowerPoint、PDF 或 Google Slides。",
+        "analysis_en": "Parallel agents mark a concrete step from single-threaded chat toward multi-agent workflows inside the consumer product, though availability is still limited to Pro users and real-world reliability remains to be proven at scale.",
+        "analysis_zh": "平行代理代表從單一對話轉向產品內多代理工作流的具體進展，但目前僅限 Pro 用戶，大規模實際可靠性仍待驗證。",
+        "quote": "GPT-6 Pro in the chat tab now offers: Faster responses. Improved use of plugins and tools to carry out tasks. Multiple agents that can work on different parts of a task in parallel.",
+        "quote_zh": "ChatGPT 中的 GPT-6 Pro 現提供：更快回應。改善外掛與工具使用以完成任務。多個代理可平行處理任務的不同部分。",
+        "importance": 4,
+        "first_seen": "2026-10-18T16:35:00Z",
+        "updated_at": "2026-10-18T16:35:01.965667+00:00",
         "links": [
           {
-            "label": "OpenAI Help Center",
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2111185504746213705"
+          },
+          {
+            "label": "ChatGPT release notes",
             "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
           }
         ]
@@ -306,137 +171,25 @@
     ],
     "anthropic": [
       {
-        "id": "anthropic-employment-agents-2026-10-16",
-        "story_id": "anthropic-employment-agents-2026-10-16",
+        "id": "anthropic-workforce-agent-hours-junior-hiring-2026-10-16",
+        "story_id": "anthropic-workforce-agent-hours-junior-hiring-2026-10-16",
         "category": "anthropic",
         "source_type": "official_blog",
-        "title_en": "Anthropic reports junior tech hires fall from 27% to 9% as agent hours reach 6x employees",
-        "title_zh": "Anthropic報告初級技術招聘從27%降至9%，代理工時達員工6倍",
-        "summary_en": "Anthropic published two research reports on Oct 16 showing that the share of junior technical hires fell from 27% to 9% while interactive AI agent hours outnumbered employees 6-to-1 by August 2026. The company noted productivity gains in coding output per person alongside these organizational shifts.",
-        "summary_zh": "Anthropic於10月16日發布兩份研究報告，顯示初級技術招聘比例從27%降至9%，而到2026年8月互動式AI代理工時已達員工的6倍。公司同時指出人均程式碼產出提升。",
-        "analysis_en": "This is the clearest internal data yet from a frontier lab on how heavy agent use reshapes hiring and work organization, potentially previewing broader knowledge-work shifts if others adopt similar patterns. Causation versus correlation with growth remains open.",
-        "analysis_zh": "這是前沿實驗室至今最清晰的內部數據，顯示重度代理使用如何重塑招聘與工作組織，若其他機構採類似模式，可能預示更廣知識工作轉變。因果與成長相關性仍待釐清。",
+        "title_en": "Anthropic reports junior technical hiring drop and agents logging 6x human hours",
+        "title_zh": "Anthropic 報告初級技術招聘下降，代理工時達人類 6 倍",
+        "summary_en": "Anthropic published research showing that the share of junior technical hires fell from 27% to 9% over roughly a year, while technical roles as a share of the workforce declined from 61% to 56%. By August 2026, employee-directed Claude agents were logging six times more active work hours than humans, with productivity metrics such as code commits per engineer rising substantially.",
+        "summary_zh": "Anthropic 發布研究指出，初級技術招聘占比約一年內從 27% 降至 9%，技術角色占整體人力從 61% 降至 56%。到 2026 年 8 月，員工指揮的 Claude 代理活躍工時已達人類 6 倍，工程師程式碼提交等生產力指標大幅提升。",
+        "analysis_en": "The data offers a rare inside view of how heavy agent adoption can reshape hiring and work composition at a frontier lab, though Anthropic notes its AI-native workflows may not fully generalize to traditional companies.",
+        "analysis_zh": "這些數據提供了前沿實驗室重度採用代理後如何重塑招聘與工作組成的罕見內部視角，但 Anthropic 指出其 AI 原生工作流未必能完全套用到傳統企業。",
         "quote": "By August, there were six times more agents than employees at Anthropic, and productivity increased.",
-        "quote_zh": "到8月，Anthropic的代理數量是員工的六倍，生產力也提升了。",
+        "quote_zh": "到八月，Anthropic 的代理數量已是員工的六倍，生產力也隨之提升。",
         "importance": 4,
-        "first_seen": "2026-10-17T16:35:00Z",
-        "updated_at": "2026-10-18T04:35:01.510832+00:00",
+        "first_seen": "2026-10-18T16:35:00Z",
+        "updated_at": "2026-10-18T16:35:01.965667+00:00",
         "links": [
           {
             "label": "Anthropic Research",
             "url": "https://www.anthropic.com/research/expectations-for-the-future"
-          },
-          {
-            "label": "Anthropic Research: How employment is changing at Anthropic",
-            "url": "https://www.anthropic.com/research/employment-at-anthropic"
-          }
-        ]
-      },
-      {
-        "id": "anthropic-claude-ecdsa-seeds-2026-10-16",
-        "story_id": "anthropic-claude-ecdsa-seeds-2026-10-16",
-        "category": "anthropic",
-        "source_type": "official_blog",
-        "title_en": "Claude solves 25-year NIST ECDSA curve seed mystery in under 30 minutes",
-        "title_zh": "Claude在30分鐘內解開25年NIST ECDSA曲線種子謎團",
-        "summary_en": "Anthropic’s Frontier Red Team reported that an internal Claude research model, given no specific clues, determined in under half an hour that the long-mysterious NSA-supplied seeds for NIST P-192 through P-521 curves came from the 1990s C library lrand48 generator seeded with Unix timestamps.",
-        "summary_zh": "Anthropic前沿紅隊報告，內部Claude研究模型在無特定線索下，於半小時內判定NIST P-192至P-521曲線長期神秘的NSA種子來自1990年代C函式庫lrand48生成器，並以Unix時間戳種子。",
-        "analysis_en": "A verifiable, reproducible result that closes a decades-old crypto suspicion demonstrates concrete research utility of frontier models beyond coding benchmarks. Remaining unexplained is how readily such results generalize to other open problems.",
-        "analysis_zh": "可驗證且可重現的結果結束數十年加密疑慮，展現前沿模型在編碼基準以外的具體研究效用。如何輕易推廣至其他開放問題仍不明。",
-        "quote": "In under half an hour, Claude discovered the origins of the NIST P-192, P-224, P-256, P-384, and P-521 seeds. None of them were the results of any hash algorithm at all, but rather the output of the C library’s lrand48 random-number generator, seeded with a Unix timestamp!",
-        "quote_zh": "在不到半小時內，Claude 發現了 NIST P-192、P-224、P-256、P-384 與 P-521 種子的來源。它們完全不是任何雜湊演算法的結果，而是 C 函式庫 lrand48 隨機數產生器的輸出，以 Unix 時間戳為種子！",
-        "importance": 4,
-        "first_seen": "2026-10-17T16:35:00Z",
-        "updated_at": "2026-10-18T04:35:01.510832+00:00",
-        "links": [
-          {
-            "label": "Anthropic Research",
-            "url": "https://www.anthropic.com/research"
-          },
-          {
-            "label": "Anthropic Research: Claude reveals ECDSA curve origins",
-            "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
-          }
-        ]
-      },
-      {
-        "id": "anthropic-quantum-circuits-2026-10-16",
-        "story_id": "anthropic-quantum-circuits-2026-10-16",
-        "category": "anthropic",
-        "source_type": "official_blog",
-        "title_en": "Claude designs more efficient quantum circuits, improving on published designs",
-        "title_zh": "Claude設計更高效量子電路，優於已發表設計",
-        "summary_en": "Anthropic reported that Claude, working largely autonomously with an automated evaluator on eight circuit specifications, produced designs requiring fewer quantum resources than the best previously published versions—in some cases by an order of magnitude.",
-        "summary_zh": "Anthropic報告Claude在自動化評估器協助下，對八項電路規格 largely自主工作，產出所需量子資源少於先前最佳發表版本的設計，部分達一個數量級。",
-        "analysis_en": "While the target hardware does not yet exist, the resource reductions illustrate how models can accelerate specialized scientific design loops. Independent verification of the circuits and practical impact remain open.",
-        "analysis_zh": "目標硬體尚未存在，但資源減少顯示模型如何加速專門科學設計迴圈。電路獨立驗證與實際影響仍待觀察。",
-        "quote": "Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.",
-        "quote_zh": "Claude  largely 自主工作，改進了最佳已發表電路，部分情況改善一個數量級或更多，可能使實用量子電腦比先前預期更早到來。",
-        "importance": 3,
-        "first_seen": "2026-10-17T16:35:00Z",
-        "updated_at": "2026-10-18T04:35:01.510832+00:00",
-        "links": [
-          {
-            "label": "Anthropic Research",
-            "url": "https://www.anthropic.com/research"
-          },
-          {
-            "label": "Anthropic Research: Designing more efficient quantum circuits with Claude",
-            "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
-          }
-        ]
-      },
-      {
-        "id": "anthropic-safety-bill-pitch-2026-10-16",
-        "story_id": "anthropic-safety-bill-pitch-2026-10-16",
-        "category": "anthropic",
-        "source_type": "news",
-        "title_en": "Anthropic pitches draft frontier AI safety bill to U.S. lawmakers",
-        "title_zh": "Anthropic向美國議員提出前沿AI安全法案草案",
-        "summary_en": "Politico reported that Anthropic representatives shared a confidential draft bill allowing the Commerce Department to seek a court order blocking a model’s release only for imminent risks exceeding $1 billion in damages or 50 serious injuries.",
-        "summary_zh": "Politico報導Anthropic代表分享機密草案，允許商務部僅在即將造成超過10億美元損害或50起嚴重傷害的風險時，尋求法院命令阻擋模型發布。",
-        "analysis_en": "By floating narrow, high-threshold intervention powers rather than broad licensing, Anthropic is attempting to shape federal rules in its preferred direction amid ongoing safety debates. Legislative uptake is uncertain.",
-        "analysis_zh": "透過提出狹窄高門檻干預權而非廣泛許可，Anthropic試圖在持續安全辯論中引導聯邦規則朝其偏好方向。立法採納仍不確定。",
-        "quote": "This bill represents the proposals outlined in Anthropic's Advanced AI Framework, which we have been advocating for with federal and state lawmakers since June.",
-        "quote_zh": "此法案代表 Anthropic Advanced AI Framework 中概述的提案，我們自六月以來一直向聯邦與州議員倡議。",
-        "importance": 3,
-        "first_seen": "2026-10-17T16:35:00Z",
-        "updated_at": "2026-10-18T04:35:01.510832+00:00",
-        "links": [
-          {
-            "label": "Politico",
-            "url": "https://www.politico.com"
-          },
-          {
-            "label": "Politico: Anthropic quietly pitches its own AI safety bill",
-            "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654"
-          },
-          {
-            "label": "Reuters summary",
-            "url": "https://www.reuters.com/legal/litigation/anthropic-quietly-pitches-its-own-ai-safety-bill-lawmakers-politico-reports-2026-10-16/"
-          }
-        ]
-      },
-      {
-        "id": "anthropic-jack-clark-imf-2026-10-17",
-        "story_id": "anthropic-jack-clark-imf-2026-10-17",
-        "category": "anthropic",
-        "source_type": "news",
-        "title_en": "Jack Clark tells IMF AI progress may mark singularity start and large GDP gains",
-        "title_zh": "Jack Clark向IMF表示AI進展可能標誌奇點開始與大幅GDP增益",
-        "summary_en": "On Oct 17 Anthropic co-founder Jack Clark delivered the Per Jacobsson Lecture at the IMF/World Bank meetings in Bangkok, arguing that AI capabilities are advancing rapidly enough that a singularity may have begun and that under certain conditions an internal model projected nearly 50% US GDP growth by 2030.",
-        "summary_zh": "10月17日Anthropic共同創辦人Jack Clark在曼谷IMF/世銀年會Per Jacobsson講座中表示，AI能力進展迅速，奇點可能已開始，且在某些條件下內部模型預測到2030年美國GDP可近增50%。",
-        "analysis_en": "The high-profile policy venue amplifies Anthropic’s view that transformative effects are already underway and that unusual rules may be needed. The GDP figure is a conditional model output, not a firm forecast.",
-        "analysis_zh": "高調政策場合放大Anthropic認為轉型效應已在進行、需不尋常規則的觀點。GDP數字為條件模型輸出，非確定預測。",
-        "quote": "I’m speaking at the IMF in an hour about the singularity and why I believe it has begun",
-        "quote_zh": "我即將在IMF演講奇點以及為何我相信它已開始",
-        "importance": 3,
-        "first_seen": "2026-10-18T04:35:00Z",
-        "updated_at": "2026-10-18T04:35:01.510832+00:00",
-        "links": [
-          {
-            "label": "Reuters",
-            "url": "https://www.reuters.com"
           }
         ]
       }
@@ -444,112 +197,88 @@
     "google": [],
     "meta": [
       {
-        "id": "meta-muse-spark-open-2026-10-15",
-        "story_id": "meta-muse-spark-open-2026-10-15",
+        "id": "meta-commercial-terms-crawl-language-removal-2026-10-17",
+        "story_id": "meta-commercial-terms-crawl-language-removal-2026-10-17",
         "category": "meta",
-        "source_type": "official_blog",
-        "title_en": "Meta releases Muse Spark Open 816B open-weight model optimized for local Mac Studios",
-        "title_zh": "Meta發布Muse Spark Open 816B開源權重模型，優化於本地Mac Studio",
-        "summary_en": "Meta on Oct 15 released open weights for Muse Spark Open, an 816-billion-parameter (42B active) natively multimodal MoE model with 1M context, described as the most capable US open-weight model. It targets coding and long-horizon agentic work and is optimized to run on two Apple M5 Ultra Mac Studios via MLX.",
-        "summary_zh": "Meta於10月15日發布Muse Spark Open開源權重，為8160億參數（42B活躍）原生多模態MoE模型，1M上下文，被描述為美國最強開源權重模型。針對編碼與長程代理工作，並透過MLX優化於兩台Apple M5 Ultra Mac Studio運行。",
-        "analysis_en": "The release expands the US open-weight frontier for agentic coding while highlighting hardware partnerships for local deployment. Benchmarks show mixed results versus leading Chinese open models on coding versus tool use.",
-        "analysis_zh": "此發布擴展美國開源權重在代理編碼的前沿，同時突顯本地部署的硬體合作。基準顯示相對領先中國開源模型在編碼與工具使用上結果混雜。",
-        "quote": "Today, we’re releasing the weights for Muse Spark Open, the most capable US open-weight model to date.",
-        "quote_zh": "今天，我們發布Muse Spark Open權重，迄今美國最強開源權重模型。",
-        "importance": 4,
-        "first_seen": "2026-10-18T04:35:00Z",
-        "updated_at": "2026-10-18T04:35:01.510832+00:00",
-        "links": [
-          {
-            "label": "Reuters",
-            "url": "https://www.reuters.com/business/meta-releases-open-weight-muse-spark-model-coding-agentic-tasks-2026-10-15/"
-          }
-        ]
-      }
-    ],
-    "xai": [
-      {
-        "id": "xai-grok-voice-3-2026-10-14",
-        "story_id": "xai-grok-voice-3-2026-10-14",
-        "category": "xai",
-        "source_type": "product",
-        "title_en": "xAI releases Grok Voice 3.0, topping independent speech-to-speech rankings",
-        "title_zh": "xAI發布Grok Voice 3.0，居獨立語音對語音排名之首",
-        "summary_en": "xAI (SpaceXSI) announced Grok Voice 3.0 on Oct 14 as its speech-to-speech model, available in the Voice Agent API at the same $0.08/min price as the prior version. It ranked #1 on Artificial Analysis’s Speech-to-Speech Index (86.9) ahead of competitors and is used in high-volume Tesla and Starlink calls.",
-        "summary_zh": "xAI（SpaceXSI）於10月14日宣布Grok Voice 3.0語音對語音模型，在Voice Agent API以與前版相同$0.08/分鐘價格提供。它在Artificial Analysis語音對語音指數以86.9居首，並用於高量Tesla與Starlink通話。",
-        "analysis_en": "Strong independent ranking plus production deployment in high-volume call centers gives the release practical weight beyond benchmark tables. Real-world interruption handling and telephony edge cases will determine sustained advantage.",
-        "analysis_zh": "強勁獨立排名加上高量呼叫中心生產部署，讓此發布在基準表以外具實用份量。真實中斷處理與電話邊緣案例將決定持續優勢。",
-        "quote": "Today, we’re announcing Grok Voice 3.0, the world’s most intelligent speech-to-speech model.",
-        "quote_zh": "今天，我們宣布 Grok Voice 3.0，全球最智慧的語音對語音模型。",
+        "source_type": "news",
+        "title_en": "Meta removes controversial AI training language from updated commercial terms after backlash",
+        "title_zh": "Meta 在引發反彈後，從更新商業條款中移除爭議性 AI 訓練用語",
+        "summary_en": "Meta updated its commercial terms and then removed language that critics said could allow the company to crawl business customers’ websites and use the content to train AI models. A Meta spokesperson stated the crawling provisions only applied to ads and business products and that the revision clarified existing practices without changing how Meta uses web crawlers.",
+        "summary_zh": "Meta 更新商業條款後，移除了批評者認為可能允許公司爬取商業客戶網站並用內容訓練 AI 模型的用語。Meta 發言人表示爬取條款僅適用於廣告與商業產品，修訂是為釐清既有做法，並未改變 Meta 使用網頁爬蟲的方式。",
+        "analysis_en": "The rapid walk-back highlights ongoing sensitivity around web-crawling rights for AI training, especially for publishers, even as Meta maintains there was no substantive change in practice.",
+        "analysis_zh": "快速撤回凸顯 AI 訓練網頁爬取權利的持續敏感性，尤其對出版商而言，即使 Meta 堅持實務上並無實質改變。",
+        "quote": "We’ve heard you and want to clarify: the crawling terms we consolidated only applied to our ads and business products, and we’ve clarified that in the terms themselves.",
+        "quote_zh": "我們聽到你們的意見並想澄清：我們整合的爬取條款僅適用於廣告與商業產品，我們已在條款中加以釐清。",
         "importance": 3,
-        "first_seen": "2026-10-17T16:35:00Z",
-        "updated_at": "2026-10-18T04:35:01.510832+00:00",
+        "first_seen": "2026-10-18T16:35:00Z",
+        "updated_at": "2026-10-18T16:35:01.965667+00:00",
         "links": [
           {
-            "label": "xAI News",
-            "url": "https://x.ai/news"
+            "label": "The Verge",
+            "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
           },
           {
-            "label": "xAI / SpaceXSI: Introducing Grok Voice 3.0",
-            "url": "https://x.ai/news/grok-voice-3"
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
           }
         ]
       }
     ],
+    "xai": [],
     "frontier_other": [
       {
-        "id": "deepseek-v41-flash-1017-2026-10-17",
-        "story_id": "deepseek-v41-flash-1017-2026-10-17",
+        "id": "deepseek-v41-flash-1017-release-2026-10-17",
+        "story_id": "deepseek-v41-flash-1017-release-2026-10-17",
         "category": "frontier_other",
         "source_type": "official_blog",
-        "title_en": "DeepSeek ships V4.1-Flash-1017 with higher agent scores and open MIT weights",
-        "title_zh": "DeepSeek推出V4.1-Flash-1017，代理分數提升並開放MIT權重",
-        "summary_en": "DeepSeek released DeepSeek-V4.1-Flash-1017 on Oct 17 as a minor update to its September Flash model. Official benchmarks show gains across reasoning, coding, and agentic tasks (e.g., Terminal-Bench 4.0 from 31.2 to 42.3, DeepSWE v1.1 to 77.0) with shorter runtimes, plus newly opened Search and Fetch APIs; weights are on Hugging Face under MIT.",
-        "summary_zh": "DeepSeek於10月17日發布DeepSeek-V4.1-Flash-1017，作為九月Flash模型的小更新。官方基準顯示推理、編碼與代理任務提升（如Terminal-Bench 4.0從31.2至42.3，DeepSWE v1.1至77.0），運行時間更短，並開放Search與Fetch API；權重以MIT授權在Hugging Face。",
-        "analysis_en": "Continued rapid iteration on an open-weight, low-cost model strengthens the open ecosystem’s competitive pressure on closed frontier labs in agentic coding. Independent third-party evaluations are still pending for the reported gains.",
-        "analysis_zh": "開源權重低成本模型的持續快速迭代，加強開放生態系統在代理編碼上對封閉前沿實驗室的競爭壓力。報告提升仍待獨立第三方評估。",
+        "title_en": "DeepSeek releases V4.1-Flash-1017 with stronger agent scores and open weights",
+        "title_zh": "DeepSeek 釋出 V4.1-Flash-1017，代理分數提升並開放權重",
+        "summary_en": "DeepSeek shipped DeepSeek-V4.1-Flash-1017, a minor update to its previous Flash model that improves scores across agentic and coding benchmarks (including 77.0 on DeepSWE v1.1 versus 74.0 for Claude Opus 5 in the company’s table), finishes tasks faster, and produces shorter outputs. Weights are available on Hugging Face under MIT, and the company opened Search and Fetch APIs.",
+        "summary_zh": "DeepSeek 推出 DeepSeek-V4.1-Flash-1017，為先前 Flash 模型的小幅更新，在代理與程式碼基準上分數提升（公司表格中 DeepSWE v1.1 達 77.0，對比 Claude Opus 5 的 74.0），任務完成更快且輸出更短。權重以 MIT 授權釋出於 Hugging Face，並開放 Search 與 Fetch API。",
+        "analysis_en": "The update strengthens the cost-performance case for open-weight agentic models relative to closed frontier options on specific coding benchmarks, though independent verification of the claimed gains is still limited.",
+        "analysis_zh": "此更新強化了開放權重代理模型在特定程式碼基準上相對封閉前沿模型的成本效能優勢，但宣稱提升的獨立驗證仍有限。",
         "quote": "Stronger benchmark performance, faster task completion, and shorter outputs than the previous version—a Pareto improvement in performance and cost.",
-        "quote_zh": "基準表現更強、任務完成更快、輸出更短——性能與成本的帕累托改進。",
+        "quote_zh": "比先前版本更強的基準表現、更快的任務完成與更短的輸出——在效能與成本上的帕累托改進。",
         "importance": 3,
-        "first_seen": "2026-10-17T16:35:00Z",
-        "updated_at": "2026-10-18T04:35:01.510832+00:00",
+        "first_seen": "2026-10-18T16:35:00Z",
+        "updated_at": "2026-10-18T16:35:01.965667+00:00",
         "links": [
           {
             "label": "DeepSeek API Docs",
             "url": "https://api-docs.deepseek.com/news/news261017"
           },
           {
-            "label": "Hugging Face: DeepSeek-V4.1-Flash-1017",
+            "label": "Hugging Face",
             "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
           }
         ]
       },
       {
-        "id": "nvidia-nemotron-35-super-vl-2026-10-15",
-        "story_id": "nvidia-nemotron-35-super-vl-2026-10-15",
+        "id": "opencode-api-key-breach-openai-anthropic-google-2026-10-17",
+        "story_id": "opencode-api-key-breach-openai-anthropic-google-2026-10-17",
         "category": "frontier_other",
-        "source_type": "official_blog",
-        "title_en": "NVIDIA releases open Nemotron 3.5 Super VL 120B multimodal agent model",
-        "title_zh": "NVIDIA發布開源Nemotron 3.5 Super VL 120B多模態代理模型",
-        "summary_en": "NVIDIA on Oct 15 released Nemotron 3.5 Super VL, an open 120-billion-parameter (12B active) multimodal model for always-on agents, claiming frontier-class accuracy at one-fifth the size of its largest reasoning model and up to 5x faster throughput. Companion Bolt edge models were also released.",
-        "summary_zh": "NVIDIA於10月15日發布Nemotron 3.5 Super VL，開源1200億參數（12B活躍）多模態模型，用於常開代理，宣稱以最大推理模型五分之一規模達前沿級準確度，並最高5倍吞吐。同時發布Bolt邊緣模型。",
-        "analysis_en": "Open weights with post-training recipes and hardware stack coverage lower the barrier for specialized agent deployment. Independent accuracy claims versus closed frontier models still require broader third-party checks.",
-        "analysis_zh": "開源權重搭配後訓練配方與硬體堆疊覆蓋，降低專門代理部署門檻。相對封閉前沿模型的獨立準確度宣稱仍需更廣第三方檢核。",
-        "quote": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents.",
-        "quote_zh": "NVIDIA今天發布Nemotron 3.5 Super VL，開源1200億參數模型，為專門常開代理提供最快任務完成與最高準確度。",
+        "source_type": "news",
+        "title_en": "OpenCode reports breach exposing OpenAI, Anthropic, and Google API keys for some users",
+        "title_zh": "OpenCode 報告安全漏洞，部分用戶的 OpenAI、Anthropic 與 Google API 金鑰可能外洩",
+        "summary_en": "OpenCode disclosed unauthorized access to a legacy system it was decommissioning, stating that third-party provider API keys (including OpenAI, Anthropic, and Google) saved by about 1.4% of Console users may have been exposed in what it described as a large-scale distillation attack. The company said it notified affected users and is working with the providers to remediate.",
+        "summary_zh": "OpenCode 揭露其正在淘汰的舊系統遭未授權存取，指出約 1.4% Console 用戶儲存的第三方供應商 API 金鑰（包括 OpenAI、Anthropic 與 Google）可能外洩，並將其描述為大規模蒸餾攻擊。公司表示已通知受影響用戶，並正與供應商合作處理。",
+        "analysis_en": "The incident underscores the security risks of third-party tools that store frontier-lab API keys, with limited public detail so far on the full scope or confirmed misuse beyond initial user reports of unauthorized charges.",
+        "analysis_zh": "此事件凸顯儲存前沿實驗室 API 金鑰的第三方工具安全風險，目前公開細節有限，除初步用戶報告的未授權扣款外，完整範圍或確認濫用情況仍不明。",
+        "quote": "We had a security breach last night related to a large scale distillation attack that impacted 1.4% of OpenCode Console users.",
+        "quote_zh": "我們昨晚發生與大規模蒸餾攻擊相關的安全漏洞，影響了 1.4% 的 OpenCode Console 用戶。",
         "importance": 3,
-        "first_seen": "2026-10-18T04:35:00Z",
-        "updated_at": "2026-10-18T04:35:01.510832+00:00",
+        "first_seen": "2026-10-18T16:35:00Z",
+        "updated_at": "2026-10-18T16:35:01.965667+00:00",
         "links": [
           {
-            "label": "NVIDIA Blog",
-            "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+            "label": "FourWeekMBA (quoting OpenCode)",
+            "url": "https://fourweekmba.com/ai-opencode-breach-puts-openai-anthropic-keys-at-risk-for-1-4/"
           }
         ]
       }
     ]
   },
-  "brief_en": "Anthropic shared internal data on agent-driven hiring shifts and Claude research wins in crypto and quantum; OpenAI expanded ChatGPT collaboration tools; DeepSeek, Meta and NVIDIA advanced open-weight agent models; xAI's Voice 3.0 topped speech rankings.",
-  "brief_zh": "Anthropic公布內部代理使用改變招聘數據與Claude研究突破；OpenAI擴展協作功能；DeepSeek、Meta與NVIDIA推進開源權重代理模型；xAI語音模型居領先。",
-  "updated_at": "2026-10-18T04:35:01.510832+00:00"
+  "brief_en": "OpenAI added parallel agents and collaborative slides to GPT-6 Pro in ChatGPT. Anthropic reported sharp drops in junior technical hiring as agents log far more hours. DeepSeek shipped an improved open-weight Flash update with stronger agent scores, while Meta walked back controversial commercial terms language on web crawling for AI training.",
+  "brief_zh": "OpenAI 為 GPT-6 Pro 加入平行代理與簡報協作功能。Anthropic 報告初級技術招聘大幅下降，代理工時遠超人類。DeepSeek 釋出強化開放權重 Flash 更新，代理分數提升。Meta 則撤回商業條款中引發爭議的網頁爬取訓練用語。",
+  "updated_at": "2026-10-18T16:35:01.965667+00:00"
 }
