@@ -24,6 +24,14 @@
       "item_count": 6,
       "updated_count": 5,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-10-20T10:35:02.269346+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 7,
+      "updated_count": 6,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -33,16 +41,16 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic commits 5% of shares to new Public Benefit Fund that scales with valuation",
-      "title_zh": "Anthropic 承諾將 5% 股份投入新公益基金，估值上升時比例可增加",
-      "summary_en": "Anthropic announced it will commit 5% of its shares to the Anthropic Public Benefit Fund, a wholly-owned LLC, subject to stockholder approval. An additional 2% can be added at board discretion for every 50% increase in company value above a baseline. Combined with founder and employee pledges, roughly 20% of shares are dedicated to public purposes, with none used for lobbying.",
-      "summary_zh": "Anthropic 宣布將在股東批准下，把 5% 股份投入全新全資 LLC「Anthropic 公益基金」。公司價值每上升 50%，董事會可酌情再增加 2%。加上創辦人與員工承諾，約 20% 股份將用於公益，且不用於遊說。",
-      "analysis_en": "This structure directly ties Anthropic’s commercial growth to expanding public-benefit resources as a public benefit corporation, distinguishing it from typical tech equity practices. Governance details, valuation baseline, and specific beneficiaries remain undisclosed, leaving the practical impact uncertain.",
-      "analysis_zh": "此結構將 Anthropic 作為公益公司的商業成長直接與擴大公益資源掛鉤，有別於一般科技股權做法。治理細節、估值基準與具體受益對象尚未公布，實際影響仍不確定。",
-      "quote": "Today, we’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
-      "quote_zh": "今天，我們將 Anthropic 的一部分股份投入 Anthropic 公益基金，這是一個新實體，其結構會隨著公司成長而增加持股比例。",
+      "title_zh": "Anthropic承諾將5%股份投入新公益基金，隨估值成長而增加",
+      "summary_en": "Anthropic announced on October 18 that it will commit 5% of its shares to the Anthropic Public Benefit Fund, a wholly-owned LLC, subject to stockholder approval. An additional 2% can be added at board discretion for every 50% increase in company value above a set baseline; combined with founder and employee pledges, roughly 20% of shares would be dedicated to public benefit.",
+      "summary_zh": "Anthropic於10月18日宣布，將在股東批准下把5%股份投入全新的Anthropic公益基金（全資LLC）。公司價值每較基線增加50%，董事會可再酌增2%；加上創辦人與員工承諾，約20%股份將用於公益。",
+      "analysis_en": "This structure directly ties Anthropic’s commercial growth to expanding public-benefit resources as a public benefit corporation, distinguishing it from typical tech equity practices. Key details on governance, baseline valuation, and actual deployment remain to be disclosed.",
+      "analysis_zh": "此結構直接將Anthropic的商業成長與擴大公益資源連結，作為公共利益公司，有別於典型科技股權實務。治理、基線估值與實際運用等關鍵細節仍待披露。",
+      "quote": "Subject to stockholder approval, 5% of Anthropic’s shares will be committed today, with an additional 2% added at the board’s discretion for every 50% increase in the company’s value above a set baseline.",
+      "quote_zh": "在股東批准下，今天將承諾Anthropic 5%的股份，之後公司價值每較設定基線增加50%，董事會可再酌情增加2%。",
       "importance": 4,
       "first_seen": "2026-10-18T18:07:51Z",
-      "updated_at": "2026-10-20T04:35:02.214324+00:00",
+      "updated_at": "2026-10-20T10:35:02.269346+00:00",
       "links": [
         {
           "label": "Anthropic Blog",
@@ -66,26 +74,134 @@
       "id": "meta-muse-glimmer-report-2026-10-19",
       "story_id": "meta-muse-glimmer-report-2026-10-19",
       "category": "meta",
-      "source_type": "official_x",
+      "source_type": "paper",
       "title_en": "Meta publishes technical report on open-weight Muse Glimmer 30B for on-device agentic tasks",
-      "title_zh": "Meta 發布開源權重 Muse Glimmer 30B 技術報告，針對裝置端代理任務",
-      "summary_en": "On October 19 Meta released a technical report on Muse Glimmer, its 30B open-weight model with a perception encoder, purpose-built for autonomous agentic tasks on consumer hardware. The model is quantized to ~4-bit for single-GPU inference and leads comparably sized open models on tool use and multi-step planning.",
-      "summary_zh": "Meta 於 10 月 19 日發布 Muse Glimmer 技術報告，這是 30B 開源權重模型，內建感知編碼器，專為消費級硬體上的自主代理任務設計。模型量化至約 4-bit，可在單一消費級 GPU 上實用速度推論，並在工具使用與多步驟規劃上領先同規模開源模型。",
-      "analysis_en": "An Apache 2.0 local agent model that fits on a consumer GPU lowers the barrier for private or offline agent workflows. Vendor-reported benchmarks still need independent confirmation of real-world agent reliability.",
-      "analysis_zh": "Apache 2.0 授權且能跑在消費級 GPU 上的本地代理模型，降低了私有或離線代理工作流的門檻。廠商報告的基準仍需獨立驗證真實世界的代理可靠性。",
-      "quote": "Today we published a technical report on Muse Glimmer, our 30B open-weight model built for agentic tasks on consumer hardware.",
-      "quote_zh": "今天我們發布了 Muse Glimmer 的技術報告，這是我們針對消費級硬體代理任務打造的 30B 開源權重模型。",
+      "title_zh": "Meta發布開源Muse Glimmer 30B技術報告，專為裝置端代理任務設計",
+      "summary_en": "On October 19 Meta released a technical report on Muse Glimmer, its 30B open-weight model with a perception encoder, purpose-built for autonomous agentic tasks on consumer hardware. The model is quantized to ~4-bit for single-GPU inference and is released under Apache 2.0; Meta states it leads comparably sized open models on tool use and multi-step planning.",
+      "summary_zh": "Meta於10月19日發布Muse Glimmer技術報告，這是30B開源模型，配備感知編碼器，專為消費級硬體上的自主代理任務設計。模型量化至約4-bit以支援單GPU推論，採Apache 2.0授權；Meta稱其在工具使用與多步驟規劃上領先同級開源模型。",
+      "analysis_en": "An Apache 2.0 local agent model that fits on a consumer GPU lowers the barrier for private or offline agent workflows. Vendor-reported benchmarks still need independent confirmation of real-world reliability and failure recovery.",
+      "analysis_zh": "可在消費級GPU上運行的Apache 2.0本地代理模型，降低了私密或離線代理工作流程的門檻。廠商回報的基準仍需獨立驗證真實可靠性與故障恢復能力。",
+      "quote": "Today we published a technical report on Muse Glimmer, our 30B open-weight model built for agentic tasks on consumer hardware. It runs at practical speeds on a Mac or PC with a single consumer GPU at 4-bit precision.",
+      "quote_zh": "今天我們發布了Muse Glimmer的技術報告，這是我們為消費級硬體上的代理任務打造的30B開源模型。它在單一消費級GPU以4-bit精度於Mac或PC上以實用速度運行。",
       "importance": 4,
       "first_seen": "2026-10-19T19:33:10Z",
-      "updated_at": "2026-10-20T04:35:02.214324+00:00",
+      "updated_at": "2026-10-20T10:35:02.269346+00:00",
       "links": [
         {
           "label": "AI at Meta on X",
           "url": "https://x.com/AIatMeta/status/2112265822274302066"
         },
         {
-          "label": "Meta AI Research",
+          "label": "Meta Research",
           "url": "https://ai.meta.com/research/publications/muse-glimmer-30b-an-on-device-agentic-model/"
+        }
+      ]
+    },
+    {
+      "id": "openai-funding-acceleration-2026-10-20",
+      "story_id": "openai-funding-acceleration-2026-10-20",
+      "category": "openai",
+      "source_type": "news",
+      "title_en": "OpenAI reportedly accelerating ~$30B round at over $1.4T valuation ahead of Anthropic IPO",
+      "title_zh": "OpenAI據報加速約300億美元融資，估值或超1.4兆美元，以搶在Anthropic IPO前",
+      "summary_en": "Reuters reported on October 19-20 that OpenAI is racing to secure commitments for a roughly $30 billion financing round that could value the company above $1.4 trillion, ahead of Anthropic’s expected mid-November IPO. SoftBank and MGX are among existing backers in talks to participate; the company has not confirmed the details.",
+      "summary_zh": "Reuters於10月19-20日報導，OpenAI正加速爭取約300億美元融資承諾，估值或超過1.4兆美元，以搶在Anthropic預計11月中IPO之前。SoftBank與MGX等既有投資人據稱正在洽談參與；公司尚未確認細節。",
+      "analysis_en": "The compressed timeline highlights intensifying capital competition between the two leading labs and sensitivity to Anthropic’s upcoming public disclosures. Valuation and final terms remain unconfirmed and could shift with market conditions or Anthropic’s IPO pricing.",
+      "analysis_zh": "壓縮時程凸顯兩大實驗室間資本競爭加劇，以及對Anthropic即將公開資訊的敏感度。估值與最終條款尚未確認，可能因市場狀況或Anthropic IPO定價而變動。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 3,
+      "first_seen": "2026-10-20T04:35:00Z",
+      "updated_at": "2026-10-20T10:35:02.269346+00:00",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/world/openai-seeks-accelerate-fundraising-ahead-anthropic-ipo-sources-say-2026-10-19/"
+        },
+        {
+          "label": "Reuters via The Star",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/10/20/exclusive-openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-nscale-compute-talks-2026-10-20",
+      "story_id": "anthropic-nscale-compute-talks-2026-10-20",
+      "category": "anthropic",
+      "source_type": "news",
+      "title_en": "Anthropic in talks for second ~$45B Nscale compute deal at West Virginia campus",
+      "title_zh": "Anthropic正洽談與Nscale第二筆約450億美元算力合約，位於西維吉尼亞園區",
+      "summary_en": "Bloomberg and Reuters reported on October 19-20 that Anthropic is in talks with Nvidia-backed Nscale for a second deal worth about $45 billion to secure roughly 460 MW of capacity at its Monarch campus in West Virginia using Vera Rubin chips. Anthropic already has an agreement of similar scale with Nscale; both sides declined comment and terms could change.",
+      "summary_zh": "Bloomberg與Reuters於10月19-20日報導，Anthropic正與Nvidia支持的Nscale洽談第二筆約450億美元合約，以取得西維吉尼亞Monarch園區約460 MW算力，使用Vera Rubin晶片。Anthropic已與Nscale有類似規模協議；雙方拒評，條款仍可能變動。",
+      "analysis_en": "A second large commitment would further lock in multi-year infrastructure ahead of Anthropic’s expected IPO and illustrate the scale of compute required for continued frontier training. The talks remain non-binding and come amid broader scrutiny of debt-funded AI data-center buildouts.",
+      "analysis_zh": "第二筆大型承諾將在預期IPO前進一步鎖定多年期基礎設施，並顯示持續前沿訓練所需算力規模。洽談仍不具約束力，且正值市場對債務融資AI資料中心建設的更廣泛審視。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 3,
+      "first_seen": "2026-10-20T10:35:02Z",
+      "updated_at": "2026-10-20T10:35:02.269346+00:00",
+      "links": [
+        {
+          "label": "Bloomberg (via reports)",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/technology/nscale-anthropic-talks-45-billion-cloud-computing-deal-bloomberg-news-reports-2026-10-19/"
+        }
+      ]
+    },
+    {
+      "id": "meta-prometheus-supercluster-2026-10-19",
+      "story_id": "meta-prometheus-supercluster-2026-10-19",
+      "category": "meta",
+      "source_type": "official_blog",
+      "title_en": "Meta details Prometheus gigawatt-scale supercluster used to train Muse Wonder models",
+      "title_zh": "Meta詳述用於訓練Muse Wonder模型的Prometheus千兆瓦級超級叢集",
+      "summary_en": "Meta published an engineering post on October 19 describing Prometheus, its gigawatt-scale supercluster in New Albany, Ohio. The first phase is complete with hundreds of thousands of GPUs and was used to train Muse foundational models including Muse Wonder; Meta reported >85% goodput on pre-training and >90% on RL runs, with plans to scale toward ~1 million GPUs.",
+      "summary_zh": "Meta於10月19日發布工程文章，詳述俄亥俄州New Albany的Prometheus千兆瓦級超級叢集。第一階段已完成，配備數十萬GPU，用於訓練包括Muse Wonder在內的Muse基礎模型；Meta稱預訓練goodput超過85%、RL超過90%，並計畫擴展至約100萬GPU。",
+      "analysis_en": "Concrete reliability numbers at this scale illustrate the infrastructure engineering required to train frontier models and give context for Meta’s recent Muse Wonder claims. Full capacity timeline and independent verification of goodput remain open.",
+      "analysis_zh": "此規模的具體可靠性數據說明訓練前沿模型所需的基礎設施工程，並為Meta近期Muse Wonder宣稱提供脈絡。全容量時程與goodput的獨立驗證仍待觀察。",
+      "quote": "Across a supercluster with hundreds of thousands of GPUs, even one underperforming host can slow an entire training run. We engineered Prometheus for resilience at scale, achieving 85%+ goodput on pretraining, 90%+ on reinforcement learning.",
+      "quote_zh": "在擁有數十萬GPU的超級叢集中，即使一台表現不佳的主機也可能拖慢整個訓練運行。我們為Prometheus設計了規模級韌性，在預訓練達到85%以上goodput，強化式學習達到90%以上。",
+      "importance": 3,
+      "first_seen": "2026-10-19T18:14:17Z",
+      "updated_at": "2026-10-20T10:35:02.269346+00:00",
+      "links": [
+        {
+          "label": "Engineering at Meta",
+          "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/"
+        },
+        {
+          "label": "AI at Meta on X",
+          "url": "https://x.com/AIatMeta/status/2112245968750145561"
+        }
+      ]
+    },
+    {
+      "id": "openai-low-resource-coding-2026-10-19",
+      "story_id": "openai-low-resource-coding-2026-10-19",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI highlights stronger model capabilities for low-resource languages like COBOL and Fortran",
+      "title_zh": "OpenAI強調模型在COBOL、Fortran等低資源語言的能力提升",
+      "summary_en": "OpenAI posted on October 19 that its latest model advances deliver stronger capabilities for building and migrating software in low-resource programming languages such as COBOL, Fortran, and Visual Basic. The company released MultiLangBench and a COBOL migration evaluation, reporting large gains (e.g., GPT-6 Astra at 87.4% average on MultiLangBench vs 26.8% for GPT-5.6 Sol).",
+      "summary_zh": "OpenAI於10月19日發文表示，最新模型進展為COBOL、Fortran與Visual Basic等低資源程式語言的軟體建構與遷移帶來更強能力。公司發布MultiLangBench與COBOL遷移評估，並報告顯著提升（例如GPT-6 Astra在MultiLangBench平均達87.4%，較GPT-5.6 Sol的26.8%大幅進步）。",
+      "analysis_en": "Progress on legacy languages addresses a practical enterprise bottleneck where modern models have historically underperformed due to sparse training data. The absence of specific benchmarks on production mainframe systems leaves real-world impact to be verified.",
+      "analysis_zh": "在遺留語言上的進展解決了現代模型因訓練資料稀缺而長期表現不佳的企業實務瓶頸。缺乏針對生產級大型主機系統的具體基準，真實影響仍待驗證。",
+      "quote": "Our latest model advances bring stronger capabilities for building and migrating software in low-resource programming languages such as COBOL, Fortran, and Visual Basic.",
+      "quote_zh": "我們最新的模型進展為COBOL、Fortran與Visual Basic等低資源程式語言的軟體建構與遷移帶來更強能力。",
+      "importance": 3,
+      "first_seen": "2026-10-19T22:30:05Z",
+      "updated_at": "2026-10-20T10:35:02.269346+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/low-resource-programming-languages/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2112310345863930168"
         }
       ]
     },
@@ -95,24 +211,24 @@
       "category": "frontier_other",
       "source_type": "official_blog",
       "title_en": "MiniMax launches M3.1 Flash with claimed generational leap in agentic and coding tasks",
-      "title_zh": "MiniMax 推出 M3.1 Flash，宣稱在代理與程式任務上有世代躍進",
-      "summary_en": "MiniMax officially rolled out M3.1 Flash on October 19, describing it as a next-generation Flash model that delivers major improvements in agentic tasks, coding, Computer Use, and cybersecurity, with nearly 3x faster online inference and 70% lower cost than prior versions.",
-      "summary_zh": "MiniMax 於 10 月 19 日正式推出 M3.1 Flash，稱其為新一代 Flash 模型，在代理任務、程式碼、Computer Use 與網路安全方面有重大進步，線上推論速度近 3 倍、成本降低 70%。",
-      "analysis_en": "The release underscores Chinese labs’ ability to deliver high agentic capability at aggressive price and speed points, potentially pressuring frontier pricing. Independent verification of the claimed leap and long-context reliability is still limited.",
-      "analysis_zh": "此發布凸顯中國實驗室能以激進價格與速度提供高代理能力，可能對前沿定價形成壓力。宣稱的世代躍進與長上下文可靠性仍缺乏充分獨立驗證。",
+      "title_zh": "MiniMax推出M3.1 Flash，宣稱在代理與編碼任務上實現代際躍升",
+      "summary_en": "MiniMax officially rolled out M3.1 Flash on October 19, describing it as a next-generation Flash model that delivers major improvements in agentic tasks, coding, Computer Use, and cybersecurity, with nearly 3x faster online inference and 70% lower usage cost. Pricing is $0.15 / $0.60 per million input/output tokens; weights are promised later.",
+      "summary_zh": "MiniMax於10月19日正式推出M3.1 Flash，描述其為新一代Flash模型，在代理任務、編碼、Computer Use與網路安全上大幅提升，線上推論速度近3倍、使用成本降低70%。定價為每百萬輸入/輸出token 0.15/0.60美元；權重稍後公布。",
+      "analysis_en": "The release underscores Chinese labs’ ability to deliver high agentic capability at aggressive price and speed points, potentially pressuring frontier pricing. Independent verification of the claimed benchmark parity and production reliability is still limited.",
+      "analysis_zh": "此發布凸顯中國實驗室以積極價格與速度點提供高代理能力的能力，可能對前沿定價形成壓力。所宣稱基準對等與生產可靠性的獨立驗證仍有限。",
       "quote": "As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly three times faster and reducing usage costs by 70%.",
-      "quote_zh": "作為新一代 Flash 模型，M3.1 Flash 在代理任務、程式開發、Computer Use 及網路安全等方面實現代際提升，同時線上推論速度提升近 3 倍，使用成本降低 70%。",
+      "quote_zh": "作為新一代Flash模型，M3.1 Flash在代理任務、編碼、Computer Use與網路安全方面實現代際躍升，同時使線上推論速度提升近三倍，並將使用成本降低70%。",
       "importance": 3,
       "first_seen": "2026-10-19T11:56:23Z",
-      "updated_at": "2026-10-20T04:35:02.214324+00:00",
+      "updated_at": "2026-10-20T10:35:02.269346+00:00",
       "links": [
-        {
-          "label": "MiniMax official",
-          "url": "https://www.minimax.io/"
-        },
         {
           "label": "MiniMax Blog",
           "url": "https://www.minimax.io/blog/minimax-m31f"
+        },
+        {
+          "label": "MiniMax official",
+          "url": "https://www.minimax.io/"
         },
         {
           "label": "Reuters",
@@ -127,134 +243,61 @@
           "url": "https://www.minimax.io/blog"
         }
       ]
-    },
-    {
-      "id": "openai-low-resource-coding-2026-10-19",
-      "story_id": "openai-low-resource-coding-2026-10-19",
-      "category": "openai",
-      "source_type": "official_x",
-      "title_en": "OpenAI highlights stronger model capabilities for low-resource languages like COBOL and Fortran",
-      "title_zh": "OpenAI 強調模型在 COBOL、Fortran 等低資源語言的程式能力提升",
-      "summary_en": "OpenAI posted on October 19 that its latest model advances deliver stronger capabilities for building and migrating software in low-resource programming languages such as COBOL, Fortran, and Visual Basic. The company noted these languages underpin critical systems at banks, governments, and businesses, and invited feedback on additional languages and workflows.",
-      "summary_zh": "OpenAI 於 10 月 19 日發文指出，最新模型進展在 COBOL、Fortran、Visual Basic 等低資源程式語言的軟體建置與遷移能力上有所加強。公司表示這些語言支撐銀行、政府與企業的關鍵系統，並邀請回饋其他語言與工作流需求。",
-      "analysis_en": "Progress on legacy languages addresses a practical enterprise bottleneck where modern models have historically underperformed due to sparse training data. The absence of specific benchmarks or migration success metrics leaves the magnitude of the improvement unclear.",
-      "analysis_zh": "在舊語言上的進展針對企業實務瓶頸，現代模型因訓練資料稀少而表現不佳。缺乏具體基準或遷移成功指標，使改善幅度仍不明確。",
-      "quote": "Our latest model advances bring stronger capabilities for building and migrating software in low-resource programming languages such as COBOL, Fortran, and Visual Basic.",
-      "quote_zh": "我們最新的模型進展為 COBOL、Fortran 和 Visual Basic 等低資源程式語言的軟體建置與遷移帶來更強的能力。",
-      "importance": 3,
-      "first_seen": "2026-10-19T22:30:05Z",
-      "updated_at": "2026-10-20T04:35:02.214324+00:00",
-      "links": [
-        {
-          "label": "OpenAI on X",
-          "url": "https://x.com/OpenAI/status/2112310345863930168"
-        },
-        {
-          "label": "OpenAI Research",
-          "url": "https://openai.com/index/low-resource-programming-languages/"
-        }
-      ]
-    },
-    {
-      "id": "meta-prometheus-supercluster-2026-10-19",
-      "story_id": "meta-prometheus-supercluster-2026-10-19",
-      "category": "meta",
-      "source_type": "official_blog",
-      "title_en": "Meta details Prometheus gigawatt-scale supercluster used to train Muse Wonder models",
-      "title_zh": "Meta 詳述用於訓練 Muse Wonder 模型的 Prometheus 吉瓦級超算叢集",
-      "summary_en": "Meta published an engineering post on October 19 describing Prometheus, its gigawatt-scale supercluster in New Albany, Ohio. The first phase is complete with hundreds of thousands of GPUs and was used to train Muse foundational models including Muse Wonder, achieving over 85% pre-training goodput and ~47K GPU-hour mean time between interruptions; the system is scaling toward roughly 1 million GPUs.",
-      "summary_zh": "Meta 於 10 月 19 日發布工程文章，詳述位於俄亥俄州 New Albany 的 Prometheus 吉瓦級超算叢集。第一階段已完成，擁有數十萬 GPU，用於訓練包括 Muse Wonder 在內的 Muse 基礎模型，預訓練 goodput 超過 85%，平均中斷間隔約 47K GPU 小時；系統正朝約 100 萬 GPU 規模擴展。",
-      "analysis_en": "Concrete reliability numbers at this scale illustrate the infrastructure engineering required to train frontier models and give context for Meta’s recent Muse Wonder claims. Full cost, power efficiency, and independent validation of the goodput figures are not yet public.",
-      "analysis_zh": "此規模下的具體可靠性數字說明了訓練前沿模型所需的基礎設施工程，也為 Meta 近期 Muse Wonder 主張提供背景。完整成本、電力效率與 goodput 數字的獨立驗證尚未公開。",
-      "quote": "The first phase of Prometheus, our gigawatt-scale supercluster, is already complete and we’re working toward scaling it to comprise ~1 million GPUs.",
-      "quote_zh": "Prometheus 吉瓦級超算叢集的第一階段已完成，我們正朝約 100 萬 GPU 的規模擴展。",
-      "importance": 3,
-      "first_seen": "2026-10-19T18:14:17Z",
-      "updated_at": "2026-10-20T04:35:02.214324+00:00",
-      "links": [
-        {
-          "label": "Engineering at Meta",
-          "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/"
-        },
-        {
-          "label": "AI at Meta on X",
-          "url": "https://x.com/AIatMeta/status/2112245968750145561"
-        }
-      ]
-    },
-    {
-      "id": "openai-funding-acceleration-2026-10-20",
-      "story_id": "openai-funding-acceleration-2026-10-20",
-      "category": "openai",
-      "source_type": "news",
-      "title_en": "OpenAI reportedly accelerating ~$30B round at over $1.4T valuation ahead of Anthropic IPO",
-      "title_zh": "報導指 OpenAI 在 Anthropic IPO 前加速約 300 億美元、估值逾 1.4 兆的融資",
-      "summary_en": "Reuters reported on October 19-20 that OpenAI is racing to secure commitments for a roughly $30 billion financing round that could value the company above $1.4 trillion, ahead of Anthropic’s expected mid-November IPO. SoftBank and MGX are among existing backers in talks; OpenAI is pitching accelerated revenue growth after GPT-6 Astra, citing a $50 billion annualized run rate aiming for $70 billion by year-end.",
-      "summary_zh": "路透社 10 月 19-20 日報導，OpenAI 正加速鎖定約 300 億美元融資承諾，可能使公司估值超過 1.4 兆美元，以趕在 Anthropic 預計 11 月中旬 IPO 之前。軟銀與 MGX 等現有支持者正在洽談；OpenAI 以 GPT-6 Astra 後收入加速成長為賣點，稱年化營收達 500 億美元、年底目標 700 億美元。",
-      "analysis_en": "The compressed timeline highlights intensifying capital competition between the two leading labs and sensitivity to Anthropic’s upcoming public disclosures. Valuation and final terms remain subject to market conditions and investor comparisons, with no official confirmation from OpenAI.",
-      "analysis_zh": "壓縮時程凸顯兩大領先實驗室間的資本競爭加劇，以及對 Anthropic 即將公開財務資訊的敏感度。估值與最終條款仍受市場條件與投資人比較影響，OpenAI 尚未正式確認。",
-      "quote": "",
-      "quote_zh": "",
-      "importance": 3,
-      "first_seen": "2026-10-20T04:35:00Z",
-      "updated_at": "2026-10-20T04:35:02.214324+00:00",
-      "links": [
-        {
-          "label": "Reuters via The Star",
-          "url": "https://www.thestar.com.my/tech/tech-news/2026/10/20/exclusive-openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say"
-        }
-      ]
     }
   ],
   "categories": {
     "openai": [
-      {
-        "id": "openai-low-resource-coding-2026-10-19",
-        "story_id": "openai-low-resource-coding-2026-10-19",
-        "category": "openai",
-        "source_type": "official_x",
-        "title_en": "OpenAI highlights stronger model capabilities for low-resource languages like COBOL and Fortran",
-        "title_zh": "OpenAI 強調模型在 COBOL、Fortran 等低資源語言的程式能力提升",
-        "summary_en": "OpenAI posted on October 19 that its latest model advances deliver stronger capabilities for building and migrating software in low-resource programming languages such as COBOL, Fortran, and Visual Basic. The company noted these languages underpin critical systems at banks, governments, and businesses, and invited feedback on additional languages and workflows.",
-        "summary_zh": "OpenAI 於 10 月 19 日發文指出，最新模型進展在 COBOL、Fortran、Visual Basic 等低資源程式語言的軟體建置與遷移能力上有所加強。公司表示這些語言支撐銀行、政府與企業的關鍵系統，並邀請回饋其他語言與工作流需求。",
-        "analysis_en": "Progress on legacy languages addresses a practical enterprise bottleneck where modern models have historically underperformed due to sparse training data. The absence of specific benchmarks or migration success metrics leaves the magnitude of the improvement unclear.",
-        "analysis_zh": "在舊語言上的進展針對企業實務瓶頸，現代模型因訓練資料稀少而表現不佳。缺乏具體基準或遷移成功指標，使改善幅度仍不明確。",
-        "quote": "Our latest model advances bring stronger capabilities for building and migrating software in low-resource programming languages such as COBOL, Fortran, and Visual Basic.",
-        "quote_zh": "我們最新的模型進展為 COBOL、Fortran 和 Visual Basic 等低資源程式語言的軟體建置與遷移帶來更強的能力。",
-        "importance": 3,
-        "first_seen": "2026-10-19T22:30:05Z",
-        "updated_at": "2026-10-20T04:35:02.214324+00:00",
-        "links": [
-          {
-            "label": "OpenAI on X",
-            "url": "https://x.com/OpenAI/status/2112310345863930168"
-          },
-          {
-            "label": "OpenAI Research",
-            "url": "https://openai.com/index/low-resource-programming-languages/"
-          }
-        ]
-      },
       {
         "id": "openai-funding-acceleration-2026-10-20",
         "story_id": "openai-funding-acceleration-2026-10-20",
         "category": "openai",
         "source_type": "news",
         "title_en": "OpenAI reportedly accelerating ~$30B round at over $1.4T valuation ahead of Anthropic IPO",
-        "title_zh": "報導指 OpenAI 在 Anthropic IPO 前加速約 300 億美元、估值逾 1.4 兆的融資",
-        "summary_en": "Reuters reported on October 19-20 that OpenAI is racing to secure commitments for a roughly $30 billion financing round that could value the company above $1.4 trillion, ahead of Anthropic’s expected mid-November IPO. SoftBank and MGX are among existing backers in talks; OpenAI is pitching accelerated revenue growth after GPT-6 Astra, citing a $50 billion annualized run rate aiming for $70 billion by year-end.",
-        "summary_zh": "路透社 10 月 19-20 日報導，OpenAI 正加速鎖定約 300 億美元融資承諾，可能使公司估值超過 1.4 兆美元，以趕在 Anthropic 預計 11 月中旬 IPO 之前。軟銀與 MGX 等現有支持者正在洽談；OpenAI 以 GPT-6 Astra 後收入加速成長為賣點，稱年化營收達 500 億美元、年底目標 700 億美元。",
-        "analysis_en": "The compressed timeline highlights intensifying capital competition between the two leading labs and sensitivity to Anthropic’s upcoming public disclosures. Valuation and final terms remain subject to market conditions and investor comparisons, with no official confirmation from OpenAI.",
-        "analysis_zh": "壓縮時程凸顯兩大領先實驗室間的資本競爭加劇，以及對 Anthropic 即將公開財務資訊的敏感度。估值與最終條款仍受市場條件與投資人比較影響，OpenAI 尚未正式確認。",
+        "title_zh": "OpenAI據報加速約300億美元融資，估值或超1.4兆美元，以搶在Anthropic IPO前",
+        "summary_en": "Reuters reported on October 19-20 that OpenAI is racing to secure commitments for a roughly $30 billion financing round that could value the company above $1.4 trillion, ahead of Anthropic’s expected mid-November IPO. SoftBank and MGX are among existing backers in talks to participate; the company has not confirmed the details.",
+        "summary_zh": "Reuters於10月19-20日報導，OpenAI正加速爭取約300億美元融資承諾，估值或超過1.4兆美元，以搶在Anthropic預計11月中IPO之前。SoftBank與MGX等既有投資人據稱正在洽談參與；公司尚未確認細節。",
+        "analysis_en": "The compressed timeline highlights intensifying capital competition between the two leading labs and sensitivity to Anthropic’s upcoming public disclosures. Valuation and final terms remain unconfirmed and could shift with market conditions or Anthropic’s IPO pricing.",
+        "analysis_zh": "壓縮時程凸顯兩大實驗室間資本競爭加劇，以及對Anthropic即將公開資訊的敏感度。估值與最終條款尚未確認，可能因市場狀況或Anthropic IPO定價而變動。",
         "quote": "",
         "quote_zh": "",
         "importance": 3,
         "first_seen": "2026-10-20T04:35:00Z",
-        "updated_at": "2026-10-20T04:35:02.214324+00:00",
+        "updated_at": "2026-10-20T10:35:02.269346+00:00",
         "links": [
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/world/openai-seeks-accelerate-fundraising-ahead-anthropic-ipo-sources-say-2026-10-19/"
+          },
           {
             "label": "Reuters via The Star",
             "url": "https://www.thestar.com.my/tech/tech-news/2026/10/20/exclusive-openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say"
+          }
+        ]
+      },
+      {
+        "id": "openai-low-resource-coding-2026-10-19",
+        "story_id": "openai-low-resource-coding-2026-10-19",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI highlights stronger model capabilities for low-resource languages like COBOL and Fortran",
+        "title_zh": "OpenAI強調模型在COBOL、Fortran等低資源語言的能力提升",
+        "summary_en": "OpenAI posted on October 19 that its latest model advances deliver stronger capabilities for building and migrating software in low-resource programming languages such as COBOL, Fortran, and Visual Basic. The company released MultiLangBench and a COBOL migration evaluation, reporting large gains (e.g., GPT-6 Astra at 87.4% average on MultiLangBench vs 26.8% for GPT-5.6 Sol).",
+        "summary_zh": "OpenAI於10月19日發文表示，最新模型進展為COBOL、Fortran與Visual Basic等低資源程式語言的軟體建構與遷移帶來更強能力。公司發布MultiLangBench與COBOL遷移評估，並報告顯著提升（例如GPT-6 Astra在MultiLangBench平均達87.4%，較GPT-5.6 Sol的26.8%大幅進步）。",
+        "analysis_en": "Progress on legacy languages addresses a practical enterprise bottleneck where modern models have historically underperformed due to sparse training data. The absence of specific benchmarks on production mainframe systems leaves real-world impact to be verified.",
+        "analysis_zh": "在遺留語言上的進展解決了現代模型因訓練資料稀缺而長期表現不佳的企業實務瓶頸。缺乏針對生產級大型主機系統的具體基準，真實影響仍待驗證。",
+        "quote": "Our latest model advances bring stronger capabilities for building and migrating software in low-resource programming languages such as COBOL, Fortran, and Visual Basic.",
+        "quote_zh": "我們最新的模型進展為COBOL、Fortran與Visual Basic等低資源程式語言的軟體建構與遷移帶來更強能力。",
+        "importance": 3,
+        "first_seen": "2026-10-19T22:30:05Z",
+        "updated_at": "2026-10-20T10:35:02.269346+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/low-resource-programming-languages/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2112310345863930168"
           }
         ]
       }
@@ -266,16 +309,16 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic commits 5% of shares to new Public Benefit Fund that scales with valuation",
-        "title_zh": "Anthropic 承諾將 5% 股份投入新公益基金，估值上升時比例可增加",
-        "summary_en": "Anthropic announced it will commit 5% of its shares to the Anthropic Public Benefit Fund, a wholly-owned LLC, subject to stockholder approval. An additional 2% can be added at board discretion for every 50% increase in company value above a baseline. Combined with founder and employee pledges, roughly 20% of shares are dedicated to public purposes, with none used for lobbying.",
-        "summary_zh": "Anthropic 宣布將在股東批准下，把 5% 股份投入全新全資 LLC「Anthropic 公益基金」。公司價值每上升 50%，董事會可酌情再增加 2%。加上創辦人與員工承諾，約 20% 股份將用於公益，且不用於遊說。",
-        "analysis_en": "This structure directly ties Anthropic’s commercial growth to expanding public-benefit resources as a public benefit corporation, distinguishing it from typical tech equity practices. Governance details, valuation baseline, and specific beneficiaries remain undisclosed, leaving the practical impact uncertain.",
-        "analysis_zh": "此結構將 Anthropic 作為公益公司的商業成長直接與擴大公益資源掛鉤，有別於一般科技股權做法。治理細節、估值基準與具體受益對象尚未公布，實際影響仍不確定。",
-        "quote": "Today, we’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
-        "quote_zh": "今天，我們將 Anthropic 的一部分股份投入 Anthropic 公益基金，這是一個新實體，其結構會隨著公司成長而增加持股比例。",
+        "title_zh": "Anthropic承諾將5%股份投入新公益基金，隨估值成長而增加",
+        "summary_en": "Anthropic announced on October 18 that it will commit 5% of its shares to the Anthropic Public Benefit Fund, a wholly-owned LLC, subject to stockholder approval. An additional 2% can be added at board discretion for every 50% increase in company value above a set baseline; combined with founder and employee pledges, roughly 20% of shares would be dedicated to public benefit.",
+        "summary_zh": "Anthropic於10月18日宣布，將在股東批准下把5%股份投入全新的Anthropic公益基金（全資LLC）。公司價值每較基線增加50%，董事會可再酌增2%；加上創辦人與員工承諾，約20%股份將用於公益。",
+        "analysis_en": "This structure directly ties Anthropic’s commercial growth to expanding public-benefit resources as a public benefit corporation, distinguishing it from typical tech equity practices. Key details on governance, baseline valuation, and actual deployment remain to be disclosed.",
+        "analysis_zh": "此結構直接將Anthropic的商業成長與擴大公益資源連結，作為公共利益公司，有別於典型科技股權實務。治理、基線估值與實際運用等關鍵細節仍待披露。",
+        "quote": "Subject to stockholder approval, 5% of Anthropic’s shares will be committed today, with an additional 2% added at the board’s discretion for every 50% increase in the company’s value above a set baseline.",
+        "quote_zh": "在股東批准下，今天將承諾Anthropic 5%的股份，之後公司價值每較設定基線增加50%，董事會可再酌情增加2%。",
         "importance": 4,
         "first_seen": "2026-10-18T18:07:51Z",
-        "updated_at": "2026-10-20T04:35:02.214324+00:00",
+        "updated_at": "2026-10-20T10:35:02.269346+00:00",
         "links": [
           {
             "label": "Anthropic Blog",
@@ -294,6 +337,33 @@
             "url": "https://x.com/AnthropicAI/status/2111881963657412903"
           }
         ]
+      },
+      {
+        "id": "anthropic-nscale-compute-talks-2026-10-20",
+        "story_id": "anthropic-nscale-compute-talks-2026-10-20",
+        "category": "anthropic",
+        "source_type": "news",
+        "title_en": "Anthropic in talks for second ~$45B Nscale compute deal at West Virginia campus",
+        "title_zh": "Anthropic正洽談與Nscale第二筆約450億美元算力合約，位於西維吉尼亞園區",
+        "summary_en": "Bloomberg and Reuters reported on October 19-20 that Anthropic is in talks with Nvidia-backed Nscale for a second deal worth about $45 billion to secure roughly 460 MW of capacity at its Monarch campus in West Virginia using Vera Rubin chips. Anthropic already has an agreement of similar scale with Nscale; both sides declined comment and terms could change.",
+        "summary_zh": "Bloomberg與Reuters於10月19-20日報導，Anthropic正與Nvidia支持的Nscale洽談第二筆約450億美元合約，以取得西維吉尼亞Monarch園區約460 MW算力，使用Vera Rubin晶片。Anthropic已與Nscale有類似規模協議；雙方拒評，條款仍可能變動。",
+        "analysis_en": "A second large commitment would further lock in multi-year infrastructure ahead of Anthropic’s expected IPO and illustrate the scale of compute required for continued frontier training. The talks remain non-binding and come amid broader scrutiny of debt-funded AI data-center buildouts.",
+        "analysis_zh": "第二筆大型承諾將在預期IPO前進一步鎖定多年期基礎設施，並顯示持續前沿訓練所需算力規模。洽談仍不具約束力，且正值市場對債務融資AI資料中心建設的更廣泛審視。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 3,
+        "first_seen": "2026-10-20T10:35:02Z",
+        "updated_at": "2026-10-20T10:35:02.269346+00:00",
+        "links": [
+          {
+            "label": "Bloomberg (via reports)",
+            "url": "https://www.bloomberg.com/news/articles/2026-10-19/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/technology/nscale-anthropic-talks-45-billion-cloud-computing-deal-bloomberg-news-reports-2026-10-19/"
+          }
+        ]
       }
     ],
     "google": [],
@@ -302,25 +372,25 @@
         "id": "meta-muse-glimmer-report-2026-10-19",
         "story_id": "meta-muse-glimmer-report-2026-10-19",
         "category": "meta",
-        "source_type": "official_x",
+        "source_type": "paper",
         "title_en": "Meta publishes technical report on open-weight Muse Glimmer 30B for on-device agentic tasks",
-        "title_zh": "Meta 發布開源權重 Muse Glimmer 30B 技術報告，針對裝置端代理任務",
-        "summary_en": "On October 19 Meta released a technical report on Muse Glimmer, its 30B open-weight model with a perception encoder, purpose-built for autonomous agentic tasks on consumer hardware. The model is quantized to ~4-bit for single-GPU inference and leads comparably sized open models on tool use and multi-step planning.",
-        "summary_zh": "Meta 於 10 月 19 日發布 Muse Glimmer 技術報告，這是 30B 開源權重模型，內建感知編碼器，專為消費級硬體上的自主代理任務設計。模型量化至約 4-bit，可在單一消費級 GPU 上實用速度推論，並在工具使用與多步驟規劃上領先同規模開源模型。",
-        "analysis_en": "An Apache 2.0 local agent model that fits on a consumer GPU lowers the barrier for private or offline agent workflows. Vendor-reported benchmarks still need independent confirmation of real-world agent reliability.",
-        "analysis_zh": "Apache 2.0 授權且能跑在消費級 GPU 上的本地代理模型，降低了私有或離線代理工作流的門檻。廠商報告的基準仍需獨立驗證真實世界的代理可靠性。",
-        "quote": "Today we published a technical report on Muse Glimmer, our 30B open-weight model built for agentic tasks on consumer hardware.",
-        "quote_zh": "今天我們發布了 Muse Glimmer 的技術報告，這是我們針對消費級硬體代理任務打造的 30B 開源權重模型。",
+        "title_zh": "Meta發布開源Muse Glimmer 30B技術報告，專為裝置端代理任務設計",
+        "summary_en": "On October 19 Meta released a technical report on Muse Glimmer, its 30B open-weight model with a perception encoder, purpose-built for autonomous agentic tasks on consumer hardware. The model is quantized to ~4-bit for single-GPU inference and is released under Apache 2.0; Meta states it leads comparably sized open models on tool use and multi-step planning.",
+        "summary_zh": "Meta於10月19日發布Muse Glimmer技術報告，這是30B開源模型，配備感知編碼器，專為消費級硬體上的自主代理任務設計。模型量化至約4-bit以支援單GPU推論，採Apache 2.0授權；Meta稱其在工具使用與多步驟規劃上領先同級開源模型。",
+        "analysis_en": "An Apache 2.0 local agent model that fits on a consumer GPU lowers the barrier for private or offline agent workflows. Vendor-reported benchmarks still need independent confirmation of real-world reliability and failure recovery.",
+        "analysis_zh": "可在消費級GPU上運行的Apache 2.0本地代理模型，降低了私密或離線代理工作流程的門檻。廠商回報的基準仍需獨立驗證真實可靠性與故障恢復能力。",
+        "quote": "Today we published a technical report on Muse Glimmer, our 30B open-weight model built for agentic tasks on consumer hardware. It runs at practical speeds on a Mac or PC with a single consumer GPU at 4-bit precision.",
+        "quote_zh": "今天我們發布了Muse Glimmer的技術報告，這是我們為消費級硬體上的代理任務打造的30B開源模型。它在單一消費級GPU以4-bit精度於Mac或PC上以實用速度運行。",
         "importance": 4,
         "first_seen": "2026-10-19T19:33:10Z",
-        "updated_at": "2026-10-20T04:35:02.214324+00:00",
+        "updated_at": "2026-10-20T10:35:02.269346+00:00",
         "links": [
           {
             "label": "AI at Meta on X",
             "url": "https://x.com/AIatMeta/status/2112265822274302066"
           },
           {
-            "label": "Meta AI Research",
+            "label": "Meta Research",
             "url": "https://ai.meta.com/research/publications/muse-glimmer-30b-an-on-device-agentic-model/"
           }
         ]
@@ -331,16 +401,16 @@
         "category": "meta",
         "source_type": "official_blog",
         "title_en": "Meta details Prometheus gigawatt-scale supercluster used to train Muse Wonder models",
-        "title_zh": "Meta 詳述用於訓練 Muse Wonder 模型的 Prometheus 吉瓦級超算叢集",
-        "summary_en": "Meta published an engineering post on October 19 describing Prometheus, its gigawatt-scale supercluster in New Albany, Ohio. The first phase is complete with hundreds of thousands of GPUs and was used to train Muse foundational models including Muse Wonder, achieving over 85% pre-training goodput and ~47K GPU-hour mean time between interruptions; the system is scaling toward roughly 1 million GPUs.",
-        "summary_zh": "Meta 於 10 月 19 日發布工程文章，詳述位於俄亥俄州 New Albany 的 Prometheus 吉瓦級超算叢集。第一階段已完成，擁有數十萬 GPU，用於訓練包括 Muse Wonder 在內的 Muse 基礎模型，預訓練 goodput 超過 85%，平均中斷間隔約 47K GPU 小時；系統正朝約 100 萬 GPU 規模擴展。",
-        "analysis_en": "Concrete reliability numbers at this scale illustrate the infrastructure engineering required to train frontier models and give context for Meta’s recent Muse Wonder claims. Full cost, power efficiency, and independent validation of the goodput figures are not yet public.",
-        "analysis_zh": "此規模下的具體可靠性數字說明了訓練前沿模型所需的基礎設施工程，也為 Meta 近期 Muse Wonder 主張提供背景。完整成本、電力效率與 goodput 數字的獨立驗證尚未公開。",
-        "quote": "The first phase of Prometheus, our gigawatt-scale supercluster, is already complete and we’re working toward scaling it to comprise ~1 million GPUs.",
-        "quote_zh": "Prometheus 吉瓦級超算叢集的第一階段已完成，我們正朝約 100 萬 GPU 的規模擴展。",
+        "title_zh": "Meta詳述用於訓練Muse Wonder模型的Prometheus千兆瓦級超級叢集",
+        "summary_en": "Meta published an engineering post on October 19 describing Prometheus, its gigawatt-scale supercluster in New Albany, Ohio. The first phase is complete with hundreds of thousands of GPUs and was used to train Muse foundational models including Muse Wonder; Meta reported >85% goodput on pre-training and >90% on RL runs, with plans to scale toward ~1 million GPUs.",
+        "summary_zh": "Meta於10月19日發布工程文章，詳述俄亥俄州New Albany的Prometheus千兆瓦級超級叢集。第一階段已完成，配備數十萬GPU，用於訓練包括Muse Wonder在內的Muse基礎模型；Meta稱預訓練goodput超過85%、RL超過90%，並計畫擴展至約100萬GPU。",
+        "analysis_en": "Concrete reliability numbers at this scale illustrate the infrastructure engineering required to train frontier models and give context for Meta’s recent Muse Wonder claims. Full capacity timeline and independent verification of goodput remain open.",
+        "analysis_zh": "此規模的具體可靠性數據說明訓練前沿模型所需的基礎設施工程，並為Meta近期Muse Wonder宣稱提供脈絡。全容量時程與goodput的獨立驗證仍待觀察。",
+        "quote": "Across a supercluster with hundreds of thousands of GPUs, even one underperforming host can slow an entire training run. We engineered Prometheus for resilience at scale, achieving 85%+ goodput on pretraining, 90%+ on reinforcement learning.",
+        "quote_zh": "在擁有數十萬GPU的超級叢集中，即使一台表現不佳的主機也可能拖慢整個訓練運行。我們為Prometheus設計了規模級韌性，在預訓練達到85%以上goodput，強化式學習達到90%以上。",
         "importance": 3,
         "first_seen": "2026-10-19T18:14:17Z",
-        "updated_at": "2026-10-20T04:35:02.214324+00:00",
+        "updated_at": "2026-10-20T10:35:02.269346+00:00",
         "links": [
           {
             "label": "Engineering at Meta",
@@ -361,24 +431,24 @@
         "category": "frontier_other",
         "source_type": "official_blog",
         "title_en": "MiniMax launches M3.1 Flash with claimed generational leap in agentic and coding tasks",
-        "title_zh": "MiniMax 推出 M3.1 Flash，宣稱在代理與程式任務上有世代躍進",
-        "summary_en": "MiniMax officially rolled out M3.1 Flash on October 19, describing it as a next-generation Flash model that delivers major improvements in agentic tasks, coding, Computer Use, and cybersecurity, with nearly 3x faster online inference and 70% lower cost than prior versions.",
-        "summary_zh": "MiniMax 於 10 月 19 日正式推出 M3.1 Flash，稱其為新一代 Flash 模型，在代理任務、程式碼、Computer Use 與網路安全方面有重大進步，線上推論速度近 3 倍、成本降低 70%。",
-        "analysis_en": "The release underscores Chinese labs’ ability to deliver high agentic capability at aggressive price and speed points, potentially pressuring frontier pricing. Independent verification of the claimed leap and long-context reliability is still limited.",
-        "analysis_zh": "此發布凸顯中國實驗室能以激進價格與速度提供高代理能力，可能對前沿定價形成壓力。宣稱的世代躍進與長上下文可靠性仍缺乏充分獨立驗證。",
+        "title_zh": "MiniMax推出M3.1 Flash，宣稱在代理與編碼任務上實現代際躍升",
+        "summary_en": "MiniMax officially rolled out M3.1 Flash on October 19, describing it as a next-generation Flash model that delivers major improvements in agentic tasks, coding, Computer Use, and cybersecurity, with nearly 3x faster online inference and 70% lower usage cost. Pricing is $0.15 / $0.60 per million input/output tokens; weights are promised later.",
+        "summary_zh": "MiniMax於10月19日正式推出M3.1 Flash，描述其為新一代Flash模型，在代理任務、編碼、Computer Use與網路安全上大幅提升，線上推論速度近3倍、使用成本降低70%。定價為每百萬輸入/輸出token 0.15/0.60美元；權重稍後公布。",
+        "analysis_en": "The release underscores Chinese labs’ ability to deliver high agentic capability at aggressive price and speed points, potentially pressuring frontier pricing. Independent verification of the claimed benchmark parity and production reliability is still limited.",
+        "analysis_zh": "此發布凸顯中國實驗室以積極價格與速度點提供高代理能力的能力，可能對前沿定價形成壓力。所宣稱基準對等與生產可靠性的獨立驗證仍有限。",
         "quote": "As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly three times faster and reducing usage costs by 70%.",
-        "quote_zh": "作為新一代 Flash 模型，M3.1 Flash 在代理任務、程式開發、Computer Use 及網路安全等方面實現代際提升，同時線上推論速度提升近 3 倍，使用成本降低 70%。",
+        "quote_zh": "作為新一代Flash模型，M3.1 Flash在代理任務、編碼、Computer Use與網路安全方面實現代際躍升，同時使線上推論速度提升近三倍，並將使用成本降低70%。",
         "importance": 3,
         "first_seen": "2026-10-19T11:56:23Z",
-        "updated_at": "2026-10-20T04:35:02.214324+00:00",
+        "updated_at": "2026-10-20T10:35:02.269346+00:00",
         "links": [
-          {
-            "label": "MiniMax official",
-            "url": "https://www.minimax.io/"
-          },
           {
             "label": "MiniMax Blog",
             "url": "https://www.minimax.io/blog/minimax-m31f"
+          },
+          {
+            "label": "MiniMax official",
+            "url": "https://www.minimax.io/"
           },
           {
             "label": "Reuters",
@@ -396,7 +466,7 @@
       }
     ]
   },
-  "brief_en": "Anthropic’s equity-linked public benefit fund and Meta’s open-weight agent model plus Prometheus supercluster details lead the day. OpenAI highlights legacy-language coding gains while MiniMax ships a faster agentic Flash model. Secondary reports note OpenAI accelerating a large funding round ahead of Anthropic’s IPO path.",
-  "brief_zh": "Anthropic 股權掛鉤公益基金與 Meta 開源權重代理模型及 Prometheus 超算細節主導今日動態。OpenAI 強調舊語言程式碼能力，MiniMax 推出更快代理 Flash 模型。次要報導指出 OpenAI 在 Anthropic IPO 前加速大額融資。",
-  "updated_at": "2026-10-20T04:35:02.214324+00:00"
+  "brief_en": "OpenAI is accelerating a ~$30B round that could value it above $1.4T ahead of Anthropic’s mid-November IPO. Anthropic is in talks for a second ~$45B Nscale compute deal while its Public Benefit Fund structure remains pending approval. Meta detailed Prometheus reliability and published a Muse Glimmer report; MiniMax launched M3.1 Flash. No major new model launches from tracked labs in the last 12 hours.",
+  "brief_zh": "OpenAI 加速約300億美元融資，估值或超1.4兆美元，以搶在Anthropic 11月中IPO前。Anthropic正洽談第二筆約450億美元Nscale算力合約，公益基金架構仍待股東批准。Meta詳述Prometheus可靠性並發布Muse Glimmer報告；MiniMax推出M3.1 Flash。過去12小時無主要大廠新模型發布。",
+  "updated_at": "2026-10-20T10:35:02.269346+00:00"
 }
