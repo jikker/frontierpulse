@@ -16,6 +16,14 @@
       "item_count": 5,
       "updated_count": 1,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-10-21T04:35:01.735359+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 7,
+      "updated_count": 5,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -25,20 +33,24 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic: Claude Designs Protein Binders Against Scorpion Neurotoxins",
-      "title_zh": "Anthropic：Claude 設計對抗蝎子神經毒素的蛋白結合劑",
-      "summary_en": "Anthropic announced that an internal Claude research model, operating largely autonomously over 64 hours from one initial prompt and four follow-ups developed with Citrini Research, generated 318,484 protein designs targeting five scorpion neurotoxins. Partners Adaptyv Bio and Twist Bioscience lab-tested 211 designs; 17 met strict binding criteria (KD ≤1 µM, no off-target stickiness), with strongest hits against Mexican Cn2 in the single-digit nanomolar range. Anthropic released all designs and data but stated it has not confirmed neutralization in cells or animals and does not claim an antivenom.",
-      "summary_zh": "Anthropic 宣布內部 Claude 研究模型在與 Citrini Research 合作的單一提示與四次後續指示下，於約 64 小時內主要自主運作，生成 318,484 個針對五種蝎子神經毒素的蛋白設計。Adaptyv Bio 與 Twist Bioscience 實驗室測試 211 個設計，17 個符合嚴格結合標準（KD ≤1 µM、無非目標黏著），最強針對墨西哥 Cn2 達個位數奈米摩爾親和力。Anthropic 公開所有設計與數據，但表示尚未在細胞或動物中確認中和效果，不宣稱已製成抗毒素。",
-      "analysis_en": "The result shows AI agents can rapidly generate and filter credible binder candidates for neglected diseases with low commercial incentives, compressing early design from months to days at typical hit rates (~18% for single-toxin designs). Whether these binders advance to safe, affordable therapeutics remains uncertain, as no cellular or animal neutralization data exist yet.",
-      "analysis_zh": "結果顯示 AI 代理能快速生成並篩選針對商業誘因低的被忽視疾病的可信結合劑候選，將早期設計從數月壓縮至數日，且命中率與常規蛋白設計相當（單毒素約 18%）。這些結合劑能否推進為安全、可負擔的治療藥物仍不確定，因尚無細胞或動物中和數據。",
-      "quote": "Claude’s design campaign produced 17 protein binders that each bind to one of four scorpion neurotoxins that are known to be dangerous to humans. ... We have not confirmed whether these binders neutralize scorpion venom in a cellular environment, so we do not claim to have produced an antivenom.",
-      "quote_zh": "Claude 的設計活動產出 17 個蛋白結合劑，各自結合四種已知對人類危險的蝎子神經毒素之一。……我們尚未確認這些結合劑是否在細胞環境中中和蝎毒，因此不宣稱已製成抗毒素。",
+      "title_zh": "Anthropic：Claude設計對抗蠍子神經毒素的蛋白結合劑",
+      "summary_en": "Anthropic announced that an internal Claude research model, operating largely autonomously over 64 hours from one initial prompt and four follow-ups developed with Citrini Research, generated 318,484 protein designs targeting five scorpion neurotoxins. Of 211 lab-tested designs (via Adaptyv Bio and Twist Bioscience), 17 met binder criteria against four toxins; all designs and data were released on Hugging Face. Anthropic stressed this is not an antivenom, as no cellular or animal neutralization tests were done.",
+      "summary_zh": "Anthropic宣布內部Claude研究模型在與Citrini Research合作的單一初始提示與四次後續指引下，主要自主運作64小時，生成318,484個針對五種蠍子神經毒素的蛋白設計。透過Adaptyv Bio與Twist Bioscience測試211個設計後，17個符合對四種毒素的結合劑標準；所有設計與數據已在Hugging Face公開。Anthropic強調這並非抗毒血清，因未進行細胞或動物中和測試。",
+      "analysis_en": "The result shows AI agents can rapidly generate and filter credible binder candidates for neglected diseases with low commercial incentives, compressing early design from months to days. Key uncertainty remains whether these binders neutralize toxins in living systems and can be developed into affordable therapies.",
+      "analysis_zh": "結果顯示AI代理能快速生成並篩選被忽視疾病的可信結合劑候選，將早期設計從數月壓縮至數天。關鍵不確定性仍在於這些結合劑能否在活體系統中中和毒素，並開發成可負擔的療法。",
+      "quote": "Over the next 64 hours, Claude generated over 300,000 designs; we sent 211 to Adaptyv Bio and Twist Bioscience for lab testing.",
+      "quote_zh": "接下來64小時，Claude生成超過30萬個設計；我們將211個送交Adaptyv Bio與Twist Bioscience進行實驗室測試。",
       "importance": 4,
       "first_seen": "2026-10-20T16:18:38Z",
-      "updated_at": "2026-10-20T22:35:01.965501+00:00",
+      "updated_at": "2026-10-21T04:35:01.735359+00:00",
       "links": [
         {
           "label": "Anthropic Research Blog",
           "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
+        },
+        {
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2112579251555721573"
         },
         {
           "label": "Anthropic on X",
@@ -60,20 +72,24 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI Acquires Orchestra Bio to Expand Rosalind Life-Sciences Agents",
-      "title_zh": "OpenAI 收購 Orchestra Bio，擴展 Rosalind 生命科學代理",
-      "summary_en": "OpenAI announced the acquisition of Orchestra Bio, a platform where people and AI agents coordinate complex drug-development programs by monitoring studies, tracking timelines, and flagging delays. The team and technology will integrate with Rosalind, OpenAI’s AI models and tools for life-sciences research (including GPT-Rosalind and Rosalind Workbench), which already serves customers such as Moderna and Novo Nordisk. Terms were not disclosed.",
-      "summary_zh": "OpenAI 宣布收購 Orchestra Bio，該平台讓人與 AI 代理共同協調複雜的藥物開發專案，監控研究、追蹤時程並標示延遲。團隊與技術將整合進 Rosalind——OpenAI 的生命科學研究 AI 模型與工具（含 GPT-Rosalind 與 Rosalind Workbench），已服務 Moderna、Novo Nordisk 等客戶。交易條件未揭露。",
-      "analysis_en": "The deal moves OpenAI deeper into operational agentic software for biopharma, pairing scientific reasoning models with workflow coordination that spans internal teams and external partners. Success will depend on how quickly the combined system reduces actual development timelines without introducing new coordination failures.",
-      "analysis_zh": "此交易讓 OpenAI 更深入生物製藥的營運代理軟體，將科學推理模型與跨越內部團隊與外部夥伴的工作流程協調結合。成敗取決於整合系統能否實際縮短開發時程，而不引入新的協調失敗。",
-      "quote": "OpenAI has acquired Orchestra Bio, a platform that helps biopharma teams coordinate the complex process of drug development. We’re bringing Orchestra’s team and technology together with Rosalind, our AI models and tools for life sciences research.",
-      "quote_zh": "OpenAI 已收購 Orchestra Bio，這是一個協助生物製藥團隊協調複雜藥物開發過程的平台。我們將 Orchestra 的團隊與技術與 Rosalind——我們的生命科學研究 AI 模型與工具——結合在一起。",
+      "title_zh": "OpenAI收購Orchestra Bio以擴充Rosalind生科代理",
+      "summary_en": "OpenAI announced the acquisition of Orchestra Bio, a platform where people and AI agents coordinate complex drug-development programs by monitoring studies, tracking timelines, and flagging delays. The team and technology will integrate with Rosalind (including GPT-Rosalind and Workbench) to connect scientific reasoning with operational workflows spanning internal teams and external partners.",
+      "summary_zh": "OpenAI宣布收購Orchestra Bio，這是一個讓人員與AI代理協調複雜藥物開發計畫的平台，負責監控研究、追蹤時程並標示延遲。團隊與技術將整合進Rosalind（含GPT-Rosalind與Workbench），將科學推理與跨內部團隊及外部合作夥伴的營運工作流連結。",
+      "analysis_en": "The deal moves OpenAI deeper into operational agentic software for biopharma, pairing scientific reasoning models with workflow coordination. It signals continued expansion of domain-specific agents beyond pure research into program management.",
+      "analysis_zh": "此交易讓OpenAI更深入生物製藥的營運代理軟體，將科學推理模型與工作流協調配對。它顯示領域專屬代理正從純研究擴展至計畫管理。",
+      "quote": "We’ve acquired Orchestra Bio, a platform that helps biopharma teams coordinate the complex process of drug development.",
+      "quote_zh": "我們已收購Orchestra Bio，這是一個協助生物製藥團隊協調複雜藥物開發流程的平台。",
       "importance": 4,
       "first_seen": "2026-10-20T18:10:16Z",
-      "updated_at": "2026-10-20T22:35:01.965501+00:00",
+      "updated_at": "2026-10-21T04:35:01.735359+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2112607347688583586"
         },
         {
           "label": "OpenAI on X",
@@ -85,19 +101,27 @@
       "id": "spacex-q3-2026-super-intelligence-revenue-2026-10-20",
       "story_id": "spacex-q3-2026-super-intelligence-revenue-2026-10-20",
       "category": "xai",
-      "source_type": "news",
+      "source_type": "mixed",
       "title_en": "SpaceX Q3 Results: Super Intelligence Revenue Hits $7.6B, Over Half of Total",
-      "title_zh": "SpaceX 第三季財報：Super Intelligence 營收達 76 億美元，占總營收過半",
-      "summary_en": "SpaceX reported unaudited Q3 2026 revenue of $14.6 billion (up 161% year-over-year) and net income of $4.4 billion. Its Super Intelligence segment (covering Grok, Cursor, Grok Bot, and neocloud compute) generated $7.56 billion, roughly 52% of total revenue and up more than ninefold, driven largely by cloud capacity rentals. Nameplate compute reached 1.7 GW; AI-related capital expenditure accounted for the majority of the $19.6 billion quarterly spend.",
-      "summary_zh": "SpaceX 報告未經審計的 2026 年第三季營收 146 億美元（年增 161%）、淨利 44 億美元。其 Super Intelligence 部門（涵蓋 Grok、Cursor、Grok Bot 與 neocloud 算力）產生 75.6 億美元，約占總營收 52%，年增逾九倍，主要由雲端算力出租驅動。名牌算力達 1.7 GW；AI 相關資本支出占當季 196 億美元支出的大部分。",
-      "analysis_en": "The numbers confirm SpaceX’s pivot toward AI infrastructure and software as its largest revenue line, with most AI income currently from renting compute rather than Grok product sales. Sustained profitability will depend on whether utilization of the expanding Colossus capacity keeps pace with the heavy ongoing capital outlays.",
-      "analysis_zh": "數字確認 SpaceX 轉向 AI 基礎設施與軟體成為最大營收來源，目前多數 AI 收入來自出租算力而非 Grok 產品銷售。持續獲利取決於擴張中的 Colossus 算力利用率能否跟上沉重的持續資本支出。",
+      "title_zh": "SpaceX Q3結果：超智能營收達76億美元，佔總營收過半",
+      "summary_en": "SpaceX reported unaudited Q3 2026 revenue of $14.6 billion (up 161% year-over-year) and net income of $4.4 billion. Its Super Intelligence segment (covering Grok, Cursor, Grok Bot, and neocloud compute) generated $7.56 billion, roughly 52% of total revenue and up over 800% YoY, primarily from compute rentals, the Cursor acquisition, and Grok adoption.",
+      "summary_zh": "SpaceX報告未經審計的2026年Q3營收146億美元（年增161%）、淨利44億美元。其超智能部門（涵蓋Grok、Cursor、Grok Bot與新雲端算力）產生75.6億美元，約佔總營收52%，年增逾800%，主要來自算力租賃、Cursor收購與Grok採用。",
+      "analysis_en": "The numbers confirm SpaceX’s pivot toward AI infrastructure and software as its largest revenue line, with most AI income currently from renting compute rather than Grok product sales. Heavy ongoing capex on data centers remains the central execution risk.",
+      "analysis_zh": "數字確認SpaceX轉向以AI基礎設施與軟體為最大營收線，目前多數AI收入來自租賃算力而非Grok產品銷售。持續的資料中心資本支出仍是核心執行風險。",
       "quote": "Delivered revenue of $14.6 billion, up 161% year-over-year, fueled by our Super Intelligence (SI) segment and accelerated growth in Connectivity.",
       "quote_zh": "實現營收 146 億美元，年增 161%，由我們的 Super Intelligence（SI）部門與連通性加速成長所帶動。",
       "importance": 4,
       "first_seen": "2026-10-20T20:00:00Z",
-      "updated_at": "2026-10-20T22:35:01.965501+00:00",
+      "updated_at": "2026-10-21T04:35:01.735359+00:00",
       "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings"
+        },
+        {
+          "label": "Stock Titan / SEC filing coverage",
+          "url": "https://www.stocktitan.net/articles/spacex-q3-2026-earnings-ai-revenue-passes-starlink"
+        },
         {
           "label": "Reuters",
           "url": "https://www.reuters.com/business/media-telecom/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-2026-10-20/"
@@ -114,24 +138,82 @@
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google Public Sector Launches Gemini for Government Services in Preview",
-      "title_zh": "Google Public Sector 推出政府服務版 Gemini（預覽）",
-      "summary_en": "Google Public Sector announced Gemini for government services in private preview, a purpose-built agentic platform for federal, state, and local agencies. It includes specialized skills for regulatory research, FOIA redaction, procurement, and expense auditing, plus secure connectors to systems of record, with governance controls. Early users include the U.S. Department of Health and Human Services and the State of Missouri.",
-      "summary_zh": "Google Public Sector 宣布政府服務版 Gemini 進入私人預覽，這是專為聯邦、州與地方政府設計的代理平台。包含法規研究、FOIA 遮黑、採購與費用稽核等專門技能，以及安全連接至既有系統，並附治理控制。早期使用者包括美國衛生與公眾服務部與密蘇里州。",
-      "analysis_en": "The offering packages Gemini agents with government-specific skills and connectors rather than a new foundation model, aiming to reduce administrative burden while inheriting existing identity and access controls. Real-world impact will hinge on how agencies handle citation accuracy, data residency, and the residual risk of agent errors in high-stakes workflows.",
-      "analysis_zh": "此產品將 Gemini 代理搭配政府專用技能與連接器，而非新基礎模型，目標是減輕行政負擔並繼承既有身份與存取控制。實際影響取決於機構如何處理引用準確性、資料駐留，以及高風險工作流程中代理錯誤的殘餘風險。",
-      "quote": "This morning we launched Gemini for government services in private preview, a purpose-built platform engineered for the security, governance, and workflow complexity of public sector missions.",
-      "quote_zh": "今早我們推出政府服務版 Gemini 私人預覽，這是專為公共部門任務的安全、治理與工作流程複雜度所設計的平台。",
+      "title_zh": "Google公共部門推出政府服務Gemini預覽版",
+      "summary_en": "Google Public Sector announced Gemini for government services in private preview, a purpose-built agentic platform for federal, state, and local agencies. It includes specialized skills for regulatory research, FOIA redaction, procurement, and connectors to existing systems of record, with early users including HHS and the State of Missouri.",
+      "summary_zh": "Google公共部門宣布政府服務Gemini私密預覽版，這是為聯邦、州與地方機構打造的專用代理平台。它包含法規研究、FOIA塗黑、採購等專用技能，以及連接現有紀錄系統的連接器，早期使用者包括HHS與密蘇里州。",
+      "analysis_en": "The offering packages Gemini agents with government-specific skills and connectors rather than a new foundation model, aiming to reduce administrative burden while inheriting existing security and governance controls. Adoption will depend on agency trust in agentic automation for high-stakes workflows.",
+      "analysis_zh": "此產品將Gemini代理與政府專用技能及連接器打包，而非新基礎模型，目標是減輕行政負擔並繼承現有安全與治理控制。採用將取決於機構對高風險工作流中代理自動化的信任。",
+      "quote": "Today we're bringing the Gemini agent to public service with Gemini for government services in preview.",
+      "quote_zh": "今天我們將Gemini代理帶入公共服務，推出政府服務Gemini預覽版。",
       "importance": 3,
       "first_seen": "2026-10-20T14:00:00Z",
-      "updated_at": "2026-10-20T22:35:01.965501+00:00",
+      "updated_at": "2026-10-21T04:35:01.735359+00:00",
       "links": [
         {
           "label": "Google Cloud Blog",
-          "url": "https://cloud.google.com/blog/topics/public-sector/announcements-and-highlights-from-google-public-sector-summit-2026"
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services"
         },
         {
           "label": "PR Newswire",
           "url": "https://www.prnewswire.com/news-releases/google-public-sector-launches-gemini-for-government-services-302913759.html"
+        },
+        {
+          "label": "Google Cloud Blog",
+          "url": "https://cloud.google.com/blog/topics/public-sector/announcements-and-highlights-from-google-public-sector-summit-2026"
+        }
+      ]
+    },
+    {
+      "id": "deepseek-opensources-deepinfer-2026-10-20",
+      "story_id": "deepseek-opensources-deepinfer-2026-10-20",
+      "category": "frontier_other",
+      "source_type": "news",
+      "title_en": "DeepSeek Open-Sources DeepInfer, Its Production Inference Engine",
+      "title_zh": "DeepSeek開源DeepInfer，其生產推論引擎",
+      "summary_en": "DeepSeek open-sourced DeepInfer under Apache 2.0, the high-performance inference framework that powers its production services including DeepSeek-V4.1-Flash. It supports NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs, includes optimizations such as speculative decoding, and is accompanied by deepseek-recipe for token handling; the company stated the goal is to help lower compute costs and energy use.",
+      "summary_zh": "DeepSeek以Apache 2.0開源DeepInfer，這是驅動其生產服務（含DeepSeek-V4.1-Flash）的高效能推論框架。它支援NVIDIA SM100 GPU與華為昇騰950 NPU，包含推測解碼等優化，並伴隨deepseek-recipe處理token；公司表示目標是協助降低算力成本與能源使用。",
+      "analysis_en": "Releasing a production serving stack (built primarily on vLLM) increases pressure on Western inference providers and dual-tracks Chinese and U.S. hardware. Completeness is limited: key service components such as full KV cache and load balancing are not included.",
+      "analysis_zh": "釋出主要基於vLLM的生產服務堆疊，增加對西方推論供應商的壓力，並同時支援中國與美國硬體。完整性有限：完整KV快取與負載平衡等關鍵服務元件未包含。",
+      "quote": "We're sharing our production stack to help the community lower compute costs, reduce energy use, and make AI more affordable.",
+      "quote_zh": "我們分享生產堆疊，協助社群降低算力成本、減少能源使用，並讓AI更可負擔。",
+      "importance": 3,
+      "first_seen": "2026-10-20T16:00:00Z",
+      "updated_at": "2026-10-21T04:35:01.735359+00:00",
+      "links": [
+        {
+          "label": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework/"
+        },
+        {
+          "label": "TechTarget",
+          "url": "https://www.techtarget.com/ai/news/366652363/DeepSeek-makes-DeepInfer-open-source-to-cut-AI-costs"
+        }
+      ]
+    },
+    {
+      "id": "mistral-voxtral-3-2026-10-20",
+      "story_id": "mistral-voxtral-3-2026-10-20",
+      "category": "frontier_other",
+      "source_type": "official_blog",
+      "title_en": "Mistral Releases Voxtral 3 Speech Models and Voice Agent SDK",
+      "title_zh": "Mistral發布Voxtral 3語音模型與語音代理SDK",
+      "summary_en": "Mistral announced Voxtral 3, a family of state-of-the-art transcription (Mini/Small, including realtime) and speech models supporting 50+ languages, plus a LiveKit-based voice agent SDK that streams listening, reasoning with tool calls, and speaking as one pipeline. Available via Mistral’s EU/US/global API or self-deployment; transcription pricing starts at $0.0035/min and speech at $13 per million characters.",
+      "summary_zh": "Mistral宣布Voxtral 3，一套頂尖轉錄（Mini/Small含即時）與語音模型家族，支援50+語言，外加基於LiveKit的語音代理SDK，將聆聽、推理（含工具呼叫）與說話串流為單一管線。可透過Mistral歐盟/美國/全球API或自行部署；轉錄起價每分鐘0.0035美元，語音每百萬字元13美元。",
+      "analysis_en": "The release strengthens Mistral’s position in sovereign and cost-efficient voice agents, with competitive latency claims and dual cloud/self-host options. Independent verification of the multilingual SOTA claims and real-world agent reliability will determine market impact.",
+      "analysis_zh": "此發布強化Mistral在主權與高成本效益語音代理的地位，具有競爭延遲宣稱與雲端/自架雙選項。多語言SOTA宣稱與實際代理可靠性的獨立驗證將決定市場影響。",
+      "quote": "Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API.",
+      "quote_zh": "介紹Voxtral 3：驅動Mistral新語音代理API的頂尖轉錄與語音模型。",
+      "importance": 3,
+      "first_seen": "2026-10-20T16:00:12Z",
+      "updated_at": "2026-10-21T04:35:01.735359+00:00",
+      "links": [
+        {
+          "label": "Mistral Blog",
+          "url": "https://mistral.ai/news/voxtral-3/"
+        },
+        {
+          "label": "Mistral AI on X",
+          "url": "https://x.com/MistralAI/status/2112574615318876178"
         }
       ]
     },
@@ -141,17 +223,21 @@
       "category": "openai",
       "source_type": "product",
       "title_en": "OpenAI Rolls Out Locked Chats in ChatGPT with PIN and Biometric Access",
-      "title_zh": "OpenAI 在 ChatGPT 推出 Locked Chats，支援 PIN 與生物辨識",
-      "summary_en": "OpenAI began rolling out Locked Chats, which move selected conversations out of regular history, pinned chats, and search into a protected space unlocked by a 4-digit account PIN (or Face ID/Touch ID/device unlock on mobile). New messages in locked chats update only the locked-section memory, not regular Memory. The feature does not add end-to-end encryption or change retention or model-improvement settings and is available across Free, Go, Plus, Pro, Business, Enterprise, and Edu plans.",
-      "summary_zh": "OpenAI 開始推出 Locked Chats，將選定對話移出一般歷史、釘選與搜尋，進入需 4 位數帳號 PIN（行動裝置可用 Face ID/Touch ID/裝置解鎖）才能開啟的保護空間。鎖定後新訊息只更新鎖定區記憶，不影響一般 Memory。此功能不加端對端加密，也不改變保留或模型改進設定，適用 Free、Go、Plus、Pro、Business、Enterprise 與 Edu 方案。",
-      "analysis_en": "Locked Chats addresses shared-device and screen-sharing privacy needs but is a visibility control rather than a cryptographic safeguard; prior memory and retention policies remain unchanged. Its practical value will depend on user adoption and whether the separate memory boundary reduces unintended context leakage.",
-      "analysis_zh": "Locked Chats 回應共用裝置與螢幕分享的隱私需求，但屬於可見性控制而非密碼學保護；先前記憶與保留政策維持不變。實際價值取決於使用者採用程度，以及獨立記憶邊界能否減少非預期的上下文外洩。",
-      "quote": "Keep sensitive conversations out of view with Locked Chats in ChatGPT. Move chats out of your regular history and search into a protected space you can unlock with a PIN on web and desktop, or a PIN, Face ID, Touch ID, or device unlock on supported mobile devices.",
-      "quote_zh": "用 ChatGPT 的 Locked Chats 讓敏感對話不外露。將對話移出一般歷史與搜尋，進入受保護空間，網頁與桌面用 PIN 解鎖，支援的行動裝置可用 PIN、Face ID、Touch ID 或裝置解鎖。",
+      "title_zh": "OpenAI在ChatGPT推出鎖定聊天，支援PIN與生物辨識存取",
+      "summary_en": "OpenAI began rolling out Locked Chats, which move selected conversations out of regular history, pinned chats, and search into a protected space unlocked by a 4-digit account PIN (or Face ID/Touch ID/device unlock on mobile). New messages in locked chats remain subject to existing retention and model-improvement settings; rollout is gradual across Free, Go, Plus, and Pro users.",
+      "summary_zh": "OpenAI開始推出鎖定聊天，將選定對話移出一般歷史、釘選聊天與搜尋，進入以4位數帳號PIN（或行動裝置Face ID/Touch ID/裝置解鎖）保護的空間。鎖定聊天中的新訊息仍受現有保留與模型改進設定約束；正逐步向Free、Go、Plus與Pro用戶推出。",
+      "analysis_en": "Locked Chats addresses shared-device and screen-sharing privacy needs but is a visibility control rather than a cryptographic safeguard; prior memory and retention policies remain unchanged. It is a modest product convenience rather than a fundamental privacy architecture shift.",
+      "analysis_zh": "鎖定聊天解決共用裝置與螢幕分享的隱私需求，但屬於可見性控制而非加密保護；既有記憶與保留政策維持不變。這是適度的產品便利性，而非根本的隱私架構轉變。",
+      "quote": "Locked chats let you keep selected conversations in your account while hiding them from regular chat history, pinned chats, and search.",
+      "quote_zh": "鎖定聊天讓你將選定對話保留在帳號中，同時從一般聊天歷史、釘選聊天與搜尋中隱藏。",
       "importance": 2,
       "first_seen": "2026-10-20T17:32:12Z",
-      "updated_at": "2026-10-20T22:35:01.965501+00:00",
+      "updated_at": "2026-10-21T04:35:01.735359+00:00",
       "links": [
+        {
+          "label": "OpenAI Help Center Release Notes",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        },
         {
           "label": "ChatGPT on X",
           "url": "https://x.com/ChatGPT/status/2112597766333673624"
@@ -171,20 +257,24 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI Acquires Orchestra Bio to Expand Rosalind Life-Sciences Agents",
-        "title_zh": "OpenAI 收購 Orchestra Bio，擴展 Rosalind 生命科學代理",
-        "summary_en": "OpenAI announced the acquisition of Orchestra Bio, a platform where people and AI agents coordinate complex drug-development programs by monitoring studies, tracking timelines, and flagging delays. The team and technology will integrate with Rosalind, OpenAI’s AI models and tools for life-sciences research (including GPT-Rosalind and Rosalind Workbench), which already serves customers such as Moderna and Novo Nordisk. Terms were not disclosed.",
-        "summary_zh": "OpenAI 宣布收購 Orchestra Bio，該平台讓人與 AI 代理共同協調複雜的藥物開發專案，監控研究、追蹤時程並標示延遲。團隊與技術將整合進 Rosalind——OpenAI 的生命科學研究 AI 模型與工具（含 GPT-Rosalind 與 Rosalind Workbench），已服務 Moderna、Novo Nordisk 等客戶。交易條件未揭露。",
-        "analysis_en": "The deal moves OpenAI deeper into operational agentic software for biopharma, pairing scientific reasoning models with workflow coordination that spans internal teams and external partners. Success will depend on how quickly the combined system reduces actual development timelines without introducing new coordination failures.",
-        "analysis_zh": "此交易讓 OpenAI 更深入生物製藥的營運代理軟體，將科學推理模型與跨越內部團隊與外部夥伴的工作流程協調結合。成敗取決於整合系統能否實際縮短開發時程，而不引入新的協調失敗。",
-        "quote": "OpenAI has acquired Orchestra Bio, a platform that helps biopharma teams coordinate the complex process of drug development. We’re bringing Orchestra’s team and technology together with Rosalind, our AI models and tools for life sciences research.",
-        "quote_zh": "OpenAI 已收購 Orchestra Bio，這是一個協助生物製藥團隊協調複雜藥物開發過程的平台。我們將 Orchestra 的團隊與技術與 Rosalind——我們的生命科學研究 AI 模型與工具——結合在一起。",
+        "title_zh": "OpenAI收購Orchestra Bio以擴充Rosalind生科代理",
+        "summary_en": "OpenAI announced the acquisition of Orchestra Bio, a platform where people and AI agents coordinate complex drug-development programs by monitoring studies, tracking timelines, and flagging delays. The team and technology will integrate with Rosalind (including GPT-Rosalind and Workbench) to connect scientific reasoning with operational workflows spanning internal teams and external partners.",
+        "summary_zh": "OpenAI宣布收購Orchestra Bio，這是一個讓人員與AI代理協調複雜藥物開發計畫的平台，負責監控研究、追蹤時程並標示延遲。團隊與技術將整合進Rosalind（含GPT-Rosalind與Workbench），將科學推理與跨內部團隊及外部合作夥伴的營運工作流連結。",
+        "analysis_en": "The deal moves OpenAI deeper into operational agentic software for biopharma, pairing scientific reasoning models with workflow coordination. It signals continued expansion of domain-specific agents beyond pure research into program management.",
+        "analysis_zh": "此交易讓OpenAI更深入生物製藥的營運代理軟體，將科學推理模型與工作流協調配對。它顯示領域專屬代理正從純研究擴展至計畫管理。",
+        "quote": "We’ve acquired Orchestra Bio, a platform that helps biopharma teams coordinate the complex process of drug development.",
+        "quote_zh": "我們已收購Orchestra Bio，這是一個協助生物製藥團隊協調複雜藥物開發流程的平台。",
         "importance": 4,
         "first_seen": "2026-10-20T18:10:16Z",
-        "updated_at": "2026-10-20T22:35:01.965501+00:00",
+        "updated_at": "2026-10-21T04:35:01.735359+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2112607347688583586"
           },
           {
             "label": "OpenAI on X",
@@ -198,17 +288,21 @@
         "category": "openai",
         "source_type": "product",
         "title_en": "OpenAI Rolls Out Locked Chats in ChatGPT with PIN and Biometric Access",
-        "title_zh": "OpenAI 在 ChatGPT 推出 Locked Chats，支援 PIN 與生物辨識",
-        "summary_en": "OpenAI began rolling out Locked Chats, which move selected conversations out of regular history, pinned chats, and search into a protected space unlocked by a 4-digit account PIN (or Face ID/Touch ID/device unlock on mobile). New messages in locked chats update only the locked-section memory, not regular Memory. The feature does not add end-to-end encryption or change retention or model-improvement settings and is available across Free, Go, Plus, Pro, Business, Enterprise, and Edu plans.",
-        "summary_zh": "OpenAI 開始推出 Locked Chats，將選定對話移出一般歷史、釘選與搜尋，進入需 4 位數帳號 PIN（行動裝置可用 Face ID/Touch ID/裝置解鎖）才能開啟的保護空間。鎖定後新訊息只更新鎖定區記憶，不影響一般 Memory。此功能不加端對端加密，也不改變保留或模型改進設定，適用 Free、Go、Plus、Pro、Business、Enterprise 與 Edu 方案。",
-        "analysis_en": "Locked Chats addresses shared-device and screen-sharing privacy needs but is a visibility control rather than a cryptographic safeguard; prior memory and retention policies remain unchanged. Its practical value will depend on user adoption and whether the separate memory boundary reduces unintended context leakage.",
-        "analysis_zh": "Locked Chats 回應共用裝置與螢幕分享的隱私需求，但屬於可見性控制而非密碼學保護；先前記憶與保留政策維持不變。實際價值取決於使用者採用程度，以及獨立記憶邊界能否減少非預期的上下文外洩。",
-        "quote": "Keep sensitive conversations out of view with Locked Chats in ChatGPT. Move chats out of your regular history and search into a protected space you can unlock with a PIN on web and desktop, or a PIN, Face ID, Touch ID, or device unlock on supported mobile devices.",
-        "quote_zh": "用 ChatGPT 的 Locked Chats 讓敏感對話不外露。將對話移出一般歷史與搜尋，進入受保護空間，網頁與桌面用 PIN 解鎖，支援的行動裝置可用 PIN、Face ID、Touch ID 或裝置解鎖。",
+        "title_zh": "OpenAI在ChatGPT推出鎖定聊天，支援PIN與生物辨識存取",
+        "summary_en": "OpenAI began rolling out Locked Chats, which move selected conversations out of regular history, pinned chats, and search into a protected space unlocked by a 4-digit account PIN (or Face ID/Touch ID/device unlock on mobile). New messages in locked chats remain subject to existing retention and model-improvement settings; rollout is gradual across Free, Go, Plus, and Pro users.",
+        "summary_zh": "OpenAI開始推出鎖定聊天，將選定對話移出一般歷史、釘選聊天與搜尋，進入以4位數帳號PIN（或行動裝置Face ID/Touch ID/裝置解鎖）保護的空間。鎖定聊天中的新訊息仍受現有保留與模型改進設定約束；正逐步向Free、Go、Plus與Pro用戶推出。",
+        "analysis_en": "Locked Chats addresses shared-device and screen-sharing privacy needs but is a visibility control rather than a cryptographic safeguard; prior memory and retention policies remain unchanged. It is a modest product convenience rather than a fundamental privacy architecture shift.",
+        "analysis_zh": "鎖定聊天解決共用裝置與螢幕分享的隱私需求，但屬於可見性控制而非加密保護；既有記憶與保留政策維持不變。這是適度的產品便利性，而非根本的隱私架構轉變。",
+        "quote": "Locked chats let you keep selected conversations in your account while hiding them from regular chat history, pinned chats, and search.",
+        "quote_zh": "鎖定聊天讓你將選定對話保留在帳號中，同時從一般聊天歷史、釘選聊天與搜尋中隱藏。",
         "importance": 2,
         "first_seen": "2026-10-20T17:32:12Z",
-        "updated_at": "2026-10-20T22:35:01.965501+00:00",
+        "updated_at": "2026-10-21T04:35:01.735359+00:00",
         "links": [
+          {
+            "label": "OpenAI Help Center Release Notes",
+            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+          },
           {
             "label": "ChatGPT on X",
             "url": "https://x.com/ChatGPT/status/2112597766333673624"
@@ -227,20 +321,24 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic: Claude Designs Protein Binders Against Scorpion Neurotoxins",
-        "title_zh": "Anthropic：Claude 設計對抗蝎子神經毒素的蛋白結合劑",
-        "summary_en": "Anthropic announced that an internal Claude research model, operating largely autonomously over 64 hours from one initial prompt and four follow-ups developed with Citrini Research, generated 318,484 protein designs targeting five scorpion neurotoxins. Partners Adaptyv Bio and Twist Bioscience lab-tested 211 designs; 17 met strict binding criteria (KD ≤1 µM, no off-target stickiness), with strongest hits against Mexican Cn2 in the single-digit nanomolar range. Anthropic released all designs and data but stated it has not confirmed neutralization in cells or animals and does not claim an antivenom.",
-        "summary_zh": "Anthropic 宣布內部 Claude 研究模型在與 Citrini Research 合作的單一提示與四次後續指示下，於約 64 小時內主要自主運作，生成 318,484 個針對五種蝎子神經毒素的蛋白設計。Adaptyv Bio 與 Twist Bioscience 實驗室測試 211 個設計，17 個符合嚴格結合標準（KD ≤1 µM、無非目標黏著），最強針對墨西哥 Cn2 達個位數奈米摩爾親和力。Anthropic 公開所有設計與數據，但表示尚未在細胞或動物中確認中和效果，不宣稱已製成抗毒素。",
-        "analysis_en": "The result shows AI agents can rapidly generate and filter credible binder candidates for neglected diseases with low commercial incentives, compressing early design from months to days at typical hit rates (~18% for single-toxin designs). Whether these binders advance to safe, affordable therapeutics remains uncertain, as no cellular or animal neutralization data exist yet.",
-        "analysis_zh": "結果顯示 AI 代理能快速生成並篩選針對商業誘因低的被忽視疾病的可信結合劑候選，將早期設計從數月壓縮至數日，且命中率與常規蛋白設計相當（單毒素約 18%）。這些結合劑能否推進為安全、可負擔的治療藥物仍不確定，因尚無細胞或動物中和數據。",
-        "quote": "Claude’s design campaign produced 17 protein binders that each bind to one of four scorpion neurotoxins that are known to be dangerous to humans. ... We have not confirmed whether these binders neutralize scorpion venom in a cellular environment, so we do not claim to have produced an antivenom.",
-        "quote_zh": "Claude 的設計活動產出 17 個蛋白結合劑，各自結合四種已知對人類危險的蝎子神經毒素之一。……我們尚未確認這些結合劑是否在細胞環境中中和蝎毒，因此不宣稱已製成抗毒素。",
+        "title_zh": "Anthropic：Claude設計對抗蠍子神經毒素的蛋白結合劑",
+        "summary_en": "Anthropic announced that an internal Claude research model, operating largely autonomously over 64 hours from one initial prompt and four follow-ups developed with Citrini Research, generated 318,484 protein designs targeting five scorpion neurotoxins. Of 211 lab-tested designs (via Adaptyv Bio and Twist Bioscience), 17 met binder criteria against four toxins; all designs and data were released on Hugging Face. Anthropic stressed this is not an antivenom, as no cellular or animal neutralization tests were done.",
+        "summary_zh": "Anthropic宣布內部Claude研究模型在與Citrini Research合作的單一初始提示與四次後續指引下，主要自主運作64小時，生成318,484個針對五種蠍子神經毒素的蛋白設計。透過Adaptyv Bio與Twist Bioscience測試211個設計後，17個符合對四種毒素的結合劑標準；所有設計與數據已在Hugging Face公開。Anthropic強調這並非抗毒血清，因未進行細胞或動物中和測試。",
+        "analysis_en": "The result shows AI agents can rapidly generate and filter credible binder candidates for neglected diseases with low commercial incentives, compressing early design from months to days. Key uncertainty remains whether these binders neutralize toxins in living systems and can be developed into affordable therapies.",
+        "analysis_zh": "結果顯示AI代理能快速生成並篩選被忽視疾病的可信結合劑候選，將早期設計從數月壓縮至數天。關鍵不確定性仍在於這些結合劑能否在活體系統中中和毒素，並開發成可負擔的療法。",
+        "quote": "Over the next 64 hours, Claude generated over 300,000 designs; we sent 211 to Adaptyv Bio and Twist Bioscience for lab testing.",
+        "quote_zh": "接下來64小時，Claude生成超過30萬個設計；我們將211個送交Adaptyv Bio與Twist Bioscience進行實驗室測試。",
         "importance": 4,
         "first_seen": "2026-10-20T16:18:38Z",
-        "updated_at": "2026-10-20T22:35:01.965501+00:00",
+        "updated_at": "2026-10-21T04:35:01.735359+00:00",
         "links": [
           {
             "label": "Anthropic Research Blog",
             "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
+          },
+          {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI/status/2112579251555721573"
           },
           {
             "label": "Anthropic on X",
@@ -264,24 +362,28 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google Public Sector Launches Gemini for Government Services in Preview",
-        "title_zh": "Google Public Sector 推出政府服務版 Gemini（預覽）",
-        "summary_en": "Google Public Sector announced Gemini for government services in private preview, a purpose-built agentic platform for federal, state, and local agencies. It includes specialized skills for regulatory research, FOIA redaction, procurement, and expense auditing, plus secure connectors to systems of record, with governance controls. Early users include the U.S. Department of Health and Human Services and the State of Missouri.",
-        "summary_zh": "Google Public Sector 宣布政府服務版 Gemini 進入私人預覽，這是專為聯邦、州與地方政府設計的代理平台。包含法規研究、FOIA 遮黑、採購與費用稽核等專門技能，以及安全連接至既有系統，並附治理控制。早期使用者包括美國衛生與公眾服務部與密蘇里州。",
-        "analysis_en": "The offering packages Gemini agents with government-specific skills and connectors rather than a new foundation model, aiming to reduce administrative burden while inheriting existing identity and access controls. Real-world impact will hinge on how agencies handle citation accuracy, data residency, and the residual risk of agent errors in high-stakes workflows.",
-        "analysis_zh": "此產品將 Gemini 代理搭配政府專用技能與連接器，而非新基礎模型，目標是減輕行政負擔並繼承既有身份與存取控制。實際影響取決於機構如何處理引用準確性、資料駐留，以及高風險工作流程中代理錯誤的殘餘風險。",
-        "quote": "This morning we launched Gemini for government services in private preview, a purpose-built platform engineered for the security, governance, and workflow complexity of public sector missions.",
-        "quote_zh": "今早我們推出政府服務版 Gemini 私人預覽，這是專為公共部門任務的安全、治理與工作流程複雜度所設計的平台。",
+        "title_zh": "Google公共部門推出政府服務Gemini預覽版",
+        "summary_en": "Google Public Sector announced Gemini for government services in private preview, a purpose-built agentic platform for federal, state, and local agencies. It includes specialized skills for regulatory research, FOIA redaction, procurement, and connectors to existing systems of record, with early users including HHS and the State of Missouri.",
+        "summary_zh": "Google公共部門宣布政府服務Gemini私密預覽版，這是為聯邦、州與地方機構打造的專用代理平台。它包含法規研究、FOIA塗黑、採購等專用技能，以及連接現有紀錄系統的連接器，早期使用者包括HHS與密蘇里州。",
+        "analysis_en": "The offering packages Gemini agents with government-specific skills and connectors rather than a new foundation model, aiming to reduce administrative burden while inheriting existing security and governance controls. Adoption will depend on agency trust in agentic automation for high-stakes workflows.",
+        "analysis_zh": "此產品將Gemini代理與政府專用技能及連接器打包，而非新基礎模型，目標是減輕行政負擔並繼承現有安全與治理控制。採用將取決於機構對高風險工作流中代理自動化的信任。",
+        "quote": "Today we're bringing the Gemini agent to public service with Gemini for government services in preview.",
+        "quote_zh": "今天我們將Gemini代理帶入公共服務，推出政府服務Gemini預覽版。",
         "importance": 3,
         "first_seen": "2026-10-20T14:00:00Z",
-        "updated_at": "2026-10-20T22:35:01.965501+00:00",
+        "updated_at": "2026-10-21T04:35:01.735359+00:00",
         "links": [
           {
             "label": "Google Cloud Blog",
-            "url": "https://cloud.google.com/blog/topics/public-sector/announcements-and-highlights-from-google-public-sector-summit-2026"
+            "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services"
           },
           {
             "label": "PR Newswire",
             "url": "https://www.prnewswire.com/news-releases/google-public-sector-launches-gemini-for-government-services-302913759.html"
+          },
+          {
+            "label": "Google Cloud Blog",
+            "url": "https://cloud.google.com/blog/topics/public-sector/announcements-and-highlights-from-google-public-sector-summit-2026"
           }
         ]
       }
@@ -292,19 +394,27 @@
         "id": "spacex-q3-2026-super-intelligence-revenue-2026-10-20",
         "story_id": "spacex-q3-2026-super-intelligence-revenue-2026-10-20",
         "category": "xai",
-        "source_type": "news",
+        "source_type": "mixed",
         "title_en": "SpaceX Q3 Results: Super Intelligence Revenue Hits $7.6B, Over Half of Total",
-        "title_zh": "SpaceX 第三季財報：Super Intelligence 營收達 76 億美元，占總營收過半",
-        "summary_en": "SpaceX reported unaudited Q3 2026 revenue of $14.6 billion (up 161% year-over-year) and net income of $4.4 billion. Its Super Intelligence segment (covering Grok, Cursor, Grok Bot, and neocloud compute) generated $7.56 billion, roughly 52% of total revenue and up more than ninefold, driven largely by cloud capacity rentals. Nameplate compute reached 1.7 GW; AI-related capital expenditure accounted for the majority of the $19.6 billion quarterly spend.",
-        "summary_zh": "SpaceX 報告未經審計的 2026 年第三季營收 146 億美元（年增 161%）、淨利 44 億美元。其 Super Intelligence 部門（涵蓋 Grok、Cursor、Grok Bot 與 neocloud 算力）產生 75.6 億美元，約占總營收 52%，年增逾九倍，主要由雲端算力出租驅動。名牌算力達 1.7 GW；AI 相關資本支出占當季 196 億美元支出的大部分。",
-        "analysis_en": "The numbers confirm SpaceX’s pivot toward AI infrastructure and software as its largest revenue line, with most AI income currently from renting compute rather than Grok product sales. Sustained profitability will depend on whether utilization of the expanding Colossus capacity keeps pace with the heavy ongoing capital outlays.",
-        "analysis_zh": "數字確認 SpaceX 轉向 AI 基礎設施與軟體成為最大營收來源，目前多數 AI 收入來自出租算力而非 Grok 產品銷售。持續獲利取決於擴張中的 Colossus 算力利用率能否跟上沉重的持續資本支出。",
+        "title_zh": "SpaceX Q3結果：超智能營收達76億美元，佔總營收過半",
+        "summary_en": "SpaceX reported unaudited Q3 2026 revenue of $14.6 billion (up 161% year-over-year) and net income of $4.4 billion. Its Super Intelligence segment (covering Grok, Cursor, Grok Bot, and neocloud compute) generated $7.56 billion, roughly 52% of total revenue and up over 800% YoY, primarily from compute rentals, the Cursor acquisition, and Grok adoption.",
+        "summary_zh": "SpaceX報告未經審計的2026年Q3營收146億美元（年增161%）、淨利44億美元。其超智能部門（涵蓋Grok、Cursor、Grok Bot與新雲端算力）產生75.6億美元，約佔總營收52%，年增逾800%，主要來自算力租賃、Cursor收購與Grok採用。",
+        "analysis_en": "The numbers confirm SpaceX’s pivot toward AI infrastructure and software as its largest revenue line, with most AI income currently from renting compute rather than Grok product sales. Heavy ongoing capex on data centers remains the central execution risk.",
+        "analysis_zh": "數字確認SpaceX轉向以AI基礎設施與軟體為最大營收線，目前多數AI收入來自租賃算力而非Grok產品銷售。持續的資料中心資本支出仍是核心執行風險。",
         "quote": "Delivered revenue of $14.6 billion, up 161% year-over-year, fueled by our Super Intelligence (SI) segment and accelerated growth in Connectivity.",
         "quote_zh": "實現營收 146 億美元，年增 161%，由我們的 Super Intelligence（SI）部門與連通性加速成長所帶動。",
         "importance": 4,
         "first_seen": "2026-10-20T20:00:00Z",
-        "updated_at": "2026-10-20T22:35:01.965501+00:00",
+        "updated_at": "2026-10-21T04:35:01.735359+00:00",
         "links": [
+          {
+            "label": "The Verge",
+            "url": "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings"
+          },
+          {
+            "label": "Stock Titan / SEC filing coverage",
+            "url": "https://www.stocktitan.net/articles/spacex-q3-2026-earnings-ai-revenue-passes-starlink"
+          },
           {
             "label": "Reuters",
             "url": "https://www.reuters.com/business/media-telecom/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-2026-10-20/"
@@ -316,9 +426,64 @@
         ]
       }
     ],
-    "frontier_other": []
+    "frontier_other": [
+      {
+        "id": "deepseek-opensources-deepinfer-2026-10-20",
+        "story_id": "deepseek-opensources-deepinfer-2026-10-20",
+        "category": "frontier_other",
+        "source_type": "news",
+        "title_en": "DeepSeek Open-Sources DeepInfer, Its Production Inference Engine",
+        "title_zh": "DeepSeek開源DeepInfer，其生產推論引擎",
+        "summary_en": "DeepSeek open-sourced DeepInfer under Apache 2.0, the high-performance inference framework that powers its production services including DeepSeek-V4.1-Flash. It supports NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs, includes optimizations such as speculative decoding, and is accompanied by deepseek-recipe for token handling; the company stated the goal is to help lower compute costs and energy use.",
+        "summary_zh": "DeepSeek以Apache 2.0開源DeepInfer，這是驅動其生產服務（含DeepSeek-V4.1-Flash）的高效能推論框架。它支援NVIDIA SM100 GPU與華為昇騰950 NPU，包含推測解碼等優化，並伴隨deepseek-recipe處理token；公司表示目標是協助降低算力成本與能源使用。",
+        "analysis_en": "Releasing a production serving stack (built primarily on vLLM) increases pressure on Western inference providers and dual-tracks Chinese and U.S. hardware. Completeness is limited: key service components such as full KV cache and load balancing are not included.",
+        "analysis_zh": "釋出主要基於vLLM的生產服務堆疊，增加對西方推論供應商的壓力，並同時支援中國與美國硬體。完整性有限：完整KV快取與負載平衡等關鍵服務元件未包含。",
+        "quote": "We're sharing our production stack to help the community lower compute costs, reduce energy use, and make AI more affordable.",
+        "quote_zh": "我們分享生產堆疊，協助社群降低算力成本、減少能源使用，並讓AI更可負擔。",
+        "importance": 3,
+        "first_seen": "2026-10-20T16:00:00Z",
+        "updated_at": "2026-10-21T04:35:01.735359+00:00",
+        "links": [
+          {
+            "label": "MarkTechPost",
+            "url": "https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework/"
+          },
+          {
+            "label": "TechTarget",
+            "url": "https://www.techtarget.com/ai/news/366652363/DeepSeek-makes-DeepInfer-open-source-to-cut-AI-costs"
+          }
+        ]
+      },
+      {
+        "id": "mistral-voxtral-3-2026-10-20",
+        "story_id": "mistral-voxtral-3-2026-10-20",
+        "category": "frontier_other",
+        "source_type": "official_blog",
+        "title_en": "Mistral Releases Voxtral 3 Speech Models and Voice Agent SDK",
+        "title_zh": "Mistral發布Voxtral 3語音模型與語音代理SDK",
+        "summary_en": "Mistral announced Voxtral 3, a family of state-of-the-art transcription (Mini/Small, including realtime) and speech models supporting 50+ languages, plus a LiveKit-based voice agent SDK that streams listening, reasoning with tool calls, and speaking as one pipeline. Available via Mistral’s EU/US/global API or self-deployment; transcription pricing starts at $0.0035/min and speech at $13 per million characters.",
+        "summary_zh": "Mistral宣布Voxtral 3，一套頂尖轉錄（Mini/Small含即時）與語音模型家族，支援50+語言，外加基於LiveKit的語音代理SDK，將聆聽、推理（含工具呼叫）與說話串流為單一管線。可透過Mistral歐盟/美國/全球API或自行部署；轉錄起價每分鐘0.0035美元，語音每百萬字元13美元。",
+        "analysis_en": "The release strengthens Mistral’s position in sovereign and cost-efficient voice agents, with competitive latency claims and dual cloud/self-host options. Independent verification of the multilingual SOTA claims and real-world agent reliability will determine market impact.",
+        "analysis_zh": "此發布強化Mistral在主權與高成本效益語音代理的地位，具有競爭延遲宣稱與雲端/自架雙選項。多語言SOTA宣稱與實際代理可靠性的獨立驗證將決定市場影響。",
+        "quote": "Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API.",
+        "quote_zh": "介紹Voxtral 3：驅動Mistral新語音代理API的頂尖轉錄與語音模型。",
+        "importance": 3,
+        "first_seen": "2026-10-20T16:00:12Z",
+        "updated_at": "2026-10-21T04:35:01.735359+00:00",
+        "links": [
+          {
+            "label": "Mistral Blog",
+            "url": "https://mistral.ai/news/voxtral-3/"
+          },
+          {
+            "label": "Mistral AI on X",
+            "url": "https://x.com/MistralAI/status/2112574615318876178"
+          }
+        ]
+      }
+    ]
   },
-  "brief_en": "Anthropic's Claude autonomously designed lab-validated protein binders against scorpion toxins. OpenAI acquired Orchestra Bio to strengthen Rosalind drug-development agents and rolled out Locked Chats. Google launched Gemini for government services; SpaceX reported Super Intelligence revenue of $7.6B, over half of Q3 sales.",
-  "brief_zh": "Anthropic 的 Claude 自主設計並經實驗室驗證的蝎毒蛋白結合劑。OpenAI 收購 Orchestra Bio 強化 Rosalind 藥物開發代理，並推出 Locked Chats。Google 推出政府服務版 Gemini；SpaceX 報告 Super Intelligence 營收 76 億美元，占第三季過半。",
-  "updated_at": "2026-10-20T22:35:01.965501+00:00"
+  "brief_en": "Oct 21 AI labs: Anthropic's Claude autonomously designed scorpion-toxin protein binders; OpenAI acquired Orchestra Bio for Rosalind life-sciences agents; SpaceX Q3 showed Super Intelligence (Grok/Cursor/compute) at $7.6B (over half revenue); Google launched Gemini for Government Services preview; OpenAI rolled out Locked Chats. Open-source: DeepSeek open-sourced DeepInfer inference engine; Mistral shipped Voxtral 3 voice models/SDK.",
+  "brief_zh": "10月21日AI大廠：Anthropic Claude自主設計蠍毒蛋白結合劑；OpenAI收購Orchestra Bio擴充Rosalind生科代理；SpaceX Q3超智能（Grok/Cursor/算力）營收76億美元佔過半；Google推出政府服務Gemini預覽；OpenAI上線鎖定聊天。開源：DeepSeek開源DeepInfer推論引擎；Mistral發布Voxtral 3語音模型/SDK。",
+  "updated_at": "2026-10-21T04:35:01.735359+00:00"
 }
