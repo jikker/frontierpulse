@@ -1,370 +1,140 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "runs": [
     {
-      "generated_at": "2026-10-20T16:35:01.909091+00:00",
-      "backend": "grok-web",
-      "model": "grok.com (browser)",
-      "item_count": 1,
-      "updated_count": 0,
-      "kept_count": 0
-    },
-    {
-      "generated_at": "2026-10-20T22:35:01.965501+00:00",
+      "generated_at": "2026-10-21T16:35:01.535557+00:00",
       "backend": "grok-web",
       "model": "grok.com (browser)",
       "item_count": 5,
-      "updated_count": 1,
-      "kept_count": 0
-    },
-    {
-      "generated_at": "2026-10-21T04:35:01.735359+00:00",
-      "backend": "grok-web",
-      "model": "grok.com (browser)",
-      "item_count": 7,
-      "updated_count": 5,
-      "kept_count": 0
-    },
-    {
-      "generated_at": "2026-10-21T10:35:01.302332+00:00",
-      "backend": "grok-web",
-      "model": "grok.com (browser)",
-      "item_count": 11,
-      "updated_count": 7,
+      "updated_count": 0,
       "kept_count": 0
     }
   ],
   "items_flat": [
     {
-      "id": "anthropic-claude-scorpion-toxin-binders-2026-10-20",
-      "story_id": "anthropic-claude-scorpion-toxin-binders-2026-10-20",
-      "category": "anthropic",
-      "source_type": "official_blog",
-      "title_en": "Anthropic: Claude Designs Protein Binders Against Scorpion Neurotoxins",
-      "title_zh": "Anthropic：Claude 設計針對蠍子神經毒素的蛋白結合體",
-      "summary_en": "Anthropic announced that an internal Claude research model, operating largely autonomously over 64 hours from one initial prompt and four follow-ups developed with Citrini Research, generated 318,484 protein designs targeting five scorpion neurotoxins. Outside labs tested 211 designs; 17 met strict criteria for binding a single toxin. The designs are being released publicly, though neutralization in cells or animals has not yet been demonstrated.",
-      "summary_zh": "Anthropic 宣布內部 Claude 研究模型在幾乎自主運作下，以初始提示與四次跟進（與 Citrini Research 合作）於 64 小時內生成 318,484 個針對五種蠍子神經毒素的蛋白設計。外部實驗室測試了 211 個設計，其中 17 個達到單一毒素結合的嚴格標準。設計將公開釋出，但尚未證明能在細胞或動物中中和毒素。",
-      "analysis_en": "The result shows AI agents can rapidly generate and filter credible binder candidates for neglected diseases with low commercial incentives, compressing early design from months to hours. It remains early-stage research; independent functional validation and clinical translation are still unproven.",
-      "analysis_zh": "結果顯示 AI 代理能快速生成並篩選低商業誘因的被忽略疾病結合候選物，將早期設計從數月壓縮至數小時。目前仍屬早期研究；獨立功能驗證與臨床轉化尚未證實。",
-      "quote": "Claude has made an early step toward finding new treatments.",
-      "quote_zh": "Claude 已朝尋找新療法邁出早期一步。",
-      "importance": 4,
-      "first_seen": "2026-10-20T16:18:38Z",
-      "updated_at": "2026-10-21T10:35:01.302332+00:00",
-      "links": [
-        {
-          "label": "Anthropic Science Blog / X",
-          "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
-        },
-        {
-          "label": "Anthropic on X",
-          "url": "https://x.com/AnthropicAI/status/2112579251555721573"
-        },
-        {
-          "label": "Anthropic on X",
-          "url": "https://x.com/AnthropicAI/status/2112579254538141981"
-        },
-        {
-          "label": "Technical report PDF",
-          "url": "https://www-cdn.anthropic.com/31ac578806cffd8b3d92d8affe6edc4c04d502e1.pdf"
-        },
-        {
-          "label": "Hugging Face dataset",
-          "url": "https://huggingface.co/datasets/Anthropic/scorpion-toxin-binder-design"
-        }
-      ]
-    },
-    {
-      "id": "openai-acquires-orchestra-bio-2026-10-20",
-      "story_id": "openai-acquires-orchestra-bio-2026-10-20",
+      "id": "openai-models-google-cloud-2026-10-21",
+      "story_id": "openai-models-google-cloud-2026-10-21",
       "category": "openai",
       "source_type": "official_blog",
-      "title_en": "OpenAI Acquires Orchestra Bio to Expand Rosalind Life-Sciences Agents",
-      "title_zh": "OpenAI 收購 Orchestra Bio 以擴展 Rosalind 生命科學代理",
-      "summary_en": "OpenAI announced the acquisition of Orchestra Bio, a platform where people and AI agents coordinate complex drug-development programs by monitoring studies, tracking timelines, and flagging delays. The team and technology will integrate with Rosalind (including GPT-Rosalind and Rosalind Workbench) to connect scientific findings with operational next steps. Terms were not disclosed.",
-      "summary_zh": "OpenAI 宣布收購 Orchestra Bio，這是一個讓人與 AI 代理協調複雜藥物開發計畫的平台，負責監控研究、追蹤時程並標記延誤。團隊與技術將整合進 Rosalind（含 GPT-Rosalind 與 Rosalind Workbench），以連接科學發現與營運後續步驟。交易條款未揭露。",
-      "analysis_en": "The deal moves OpenAI deeper into operational agentic software for biopharma, pairing scientific reasoning models with workflow coordination. It signals continued expansion of domain-specific agents beyond pure research into industry execution.",
-      "analysis_zh": "交易使 OpenAI 更深入生物製藥的營運代理軟體，將科學推理模型與工作流程協調結合。這顯示領域專用代理正從純研究擴展至產業執行。",
-      "quote": "We’ve acquired Orchestra Bio, a platform that helps biopharma teams coordinate the complex process of drug development.",
-      "quote_zh": "我們已收購 Orchestra Bio，這是一個協助生物製藥團隊協調複雜藥物開發流程的平台。",
+      "title_en": "OpenAI models and Codex coming to Google Cloud Model Garden",
+      "title_zh": "OpenAI模型與Codex即將進入Google Cloud Model Garden",
+      "summary_en": "OpenAI announced a partnership with Google Cloud to bring its frontier models, including GPT-6 Astra, GPT-6.1 Sol and GPT-6 Luna, plus Codex agentic workflows into Google Cloud’s Model Garden. Customers can purchase via Google Cloud Marketplace and apply existing spend commitments; general availability is planned in the coming weeks, with Microsoft remaining the primary cloud partner.",
+      "summary_zh": "OpenAI宣布與Google Cloud合作，將其前沿模型（包括GPT-6 Astra、GPT-6.1 Sol與GPT-6 Luna）及Codex代理工作流程帶入Google Cloud的Model Garden。客戶可透過Google Cloud Marketplace購買並使用既有消費承諾；一般可用性計劃在未來數週推出，微軟仍為主要雲端合作夥伴。",
+      "analysis_en": "This expands OpenAI’s enterprise distribution beyond Microsoft and AWS to all three major US hyperscalers, reducing lock-in for customers while creating complex competitive dynamics with Google. Uncertainty remains around exact GA timing, pricing parity, and data governance in regulated industries.",
+      "analysis_zh": "這將OpenAI的企業分發從微軟與AWS擴展至美國三大超大規模雲端供應商，降低客戶鎖定，同時與Google形成複雜競爭動態。一般可用性時程、價格對等及受監管產業的資料治理仍不確定。",
+      "quote": "This partnership is an important step in making our most capable models and Codex available where customers are already building, giving them even more choice in how they use frontier AI.",
+      "quote_zh": "這項合作是讓我們最強大模型與Codex在客戶已在建構的環境中可用的重要一步，讓他們在使用前沿AI時有更多選擇。",
       "importance": 4,
-      "first_seen": "2026-10-20T18:10:16Z",
-      "updated_at": "2026-10-21T10:35:01.302332+00:00",
+      "first_seen": "2026-10-21T00:00:00Z",
+      "updated_at": "2026-10-21T16:35:01.535557+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
-          "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/"
-        },
-        {
-          "label": "OpenAI on X",
-          "url": "https://x.com/OpenAI/status/2112607347688583586"
-        },
-        {
-          "label": "OpenAI on X",
-          "url": "https://x.com/OpenAI/status/2112606024209408300"
-        }
-      ]
-    },
-    {
-      "id": "spacex-q3-2026-super-intelligence-revenue-2026-10-20",
-      "story_id": "spacex-q3-2026-super-intelligence-revenue-2026-10-20",
-      "category": "xai",
-      "source_type": "mixed",
-      "title_en": "SpaceX Q3 Results: Super Intelligence Revenue Hits $7.6B, Over Half of Total",
-      "title_zh": "SpaceX 第三季財報：超智慧營收達 76 億美元，超過總額一半",
-      "summary_en": "SpaceX reported unaudited Q3 2026 revenue of $14.6 billion (up 161% year-over-year) and net income of $4.4 billion. Its Super Intelligence segment (covering Grok, Cursor, Grok Bot, and neocloud compute) generated $7.56 billion, roughly 52% of total revenue, with most AI income currently from compute rentals rather than product sales.",
-      "summary_zh": "SpaceX 報告未經審計的 2026 年第三季營收 146 億美元（年增 161%）、淨利 44 億美元。其超智慧部門（涵蓋 Grok、Cursor、Grok Bot 與新雲端算力）產生 75.6 億美元，約佔總營收 52%，目前多數 AI 收入來自算力租賃而非產品銷售。",
-      "analysis_en": "The numbers confirm SpaceX’s pivot toward AI infrastructure and software as its largest revenue line. Sustainability depends on whether compute rentals convert into durable Grok product revenue and how capital-intensive growth remains.",
-      "analysis_zh": "數字確認 SpaceX 正轉向以 AI 基礎設施與軟體為最大營收來源。持續性取決於算力租賃能否轉化為持久的 Grok 產品營收，以及成長的資本密集程度。",
-      "quote": "Delivered revenue of $14.6 billion, up 161% year-over-year, fueled by our Super Intelligence (SI) segment and accelerated growth in Connectivity.",
-      "quote_zh": "實現營收 146 億美元，年增 161%，由我們的 Super Intelligence（SI）部門與連通性加速成長所帶動。",
-      "importance": 4,
-      "first_seen": "2026-10-20T20:00:00Z",
-      "updated_at": "2026-10-21T10:35:01.302332+00:00",
-      "links": [
-        {
-          "label": "SpaceX / industry reporting",
-          "url": "https://artificialprism.com/daily/2026-10-21/"
-        },
-        {
-          "label": "The Verge",
-          "url": "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings"
-        },
-        {
-          "label": "Stock Titan / SEC filing coverage",
-          "url": "https://www.stocktitan.net/articles/spacex-q3-2026-earnings-ai-revenue-passes-starlink"
-        },
-        {
-          "label": "Reuters",
-          "url": "https://www.reuters.com/business/media-telecom/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-2026-10-20/"
-        },
-        {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-federal-ai-safety-bill-2026-10-20",
-      "story_id": "anthropic-federal-ai-safety-bill-2026-10-20",
-      "category": "anthropic",
-      "source_type": "news",
-      "title_en": "Anthropic Pitches Draft Federal AI Safety Bill with Narrow Catastrophic Thresholds",
-      "title_zh": "Anthropic 向國會推銷草稿聯邦 AI 安全法案，設窄範圍災難門檻",
-      "summary_en": "Anthropic has quietly circulated a draft bill to lawmakers that would allow the U.S. Commerce Department to seek a federal judge’s order to halt a frontier model only for a foreseeable, imminent risk of more than 50 deaths/serious injuries or over $1 billion in damages stemming from bioweapons, loss of control, or cyberattacks. Independent evaluators (potentially paid by labs) would flag risks within 72 hours. An Anthropic spokesperson confirmed it reflects the company’s Advanced AI Framework advocated since June; the company later said it would refine preemption language after backlash.",
-      "summary_zh": "Anthropic 已悄悄向立法者傳閱一份草案，允許美國商務部僅在可預見且迫在眉睫的風險下（超過 50 人死亡/重傷或逾 10 億美元損害，源自生物武器、失控或網路攻擊）向聯邦法官請求停止前沿模型發布。獨立評估者（可能由實驗室付費）須在 72 小時內標記風險。Anthropic 發言人確認此反映其自 6 月以來倡議的 Advanced AI Framework；公司後續表示將在反彈後調整優先權語言。",
-      "analysis_en": "The proposal seeks to shape federal rules with high thresholds and judicial checks rather than broad agency discretion, mirroring elements of California’s SB 53. Uncertainty remains over congressional reception, exact text, and whether the narrow triggers adequately address current non-catastrophic harms.",
-      "analysis_zh": "提案試圖以高門檻與司法制衡塑造聯邦規則，而非廣泛機構裁量，呼應加州 SB 53 元素。國會接受度、確切文本，以及窄觸發條件是否足以應對當前非災難性危害，仍不確定。",
-      "quote": "This bill represents the proposals outlined in Anthropic's Advanced AI Framework, which we have been advocating for with federal and state lawmakers since June. These are sensible policies we believe Congress should act on.",
-      "quote_zh": "此法案代表 Anthropic Advanced AI Framework 中概述的提案，我們自 6 月以來一直向聯邦與州立法者倡議。這些是我們認為國會應採取的合理政策。",
-      "importance": 4,
-      "first_seen": "2026-10-20T22:00:00Z",
-      "updated_at": "2026-10-21T10:35:01.302332+00:00",
-      "links": [
-        {
-          "label": "Politico (via TechCrunch / Reuters)",
-          "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654"
-        }
-      ]
-    },
-    {
-      "id": "google-gemini-government-services-2026-10-20",
-      "story_id": "google-gemini-government-services-2026-10-20",
-      "category": "google",
-      "source_type": "product",
-      "title_en": "Google Public Sector Launches Gemini for Government Services in Preview",
-      "title_zh": "Google Public Sector 推出 Gemini for Government Services 預覽版",
-      "summary_en": "Google Public Sector announced Gemini for government services in private preview, a purpose-built agentic platform for federal, state, and local agencies. It includes specialized skills for regulatory research, FOIA redaction, procurement, and other administrative tasks, packaged with government-specific connectors.",
-      "summary_zh": "Google Public Sector 宣布 Gemini for government services 私人預覽版，這是一個專為聯邦、州與地方政府機關打造的代理平台。它包含監管研究、FOIA 塗黑、採購等行政任務的專用技能，並搭配政府專用連接器。",
-      "analysis_en": "The offering packages Gemini agents with government-specific skills and connectors rather than a new foundation model, aiming to reduce administrative burden while inheriting existing model capabilities and limitations. Adoption will depend on security certifications and integration depth.",
-      "analysis_zh": "此產品將 Gemini 代理與政府專用技能及連接器打包，而非新基礎模型，旨在減輕行政負擔，同時繼承現有模型能力與限制。採用將取決於安全認證與整合深度。",
-      "quote": "Today we're bringing the Gemini agent to public service with Gemini for government services in preview.",
-      "quote_zh": "今天我們將Gemini代理帶入公共服務，推出政府服務Gemini預覽版。",
-      "importance": 3,
-      "first_seen": "2026-10-20T14:00:00Z",
-      "updated_at": "2026-10-21T10:35:01.302332+00:00",
-      "links": [
-        {
-          "label": "Google Public Sector announcement",
-          "url": "https://blog.google/"
+          "url": "https://openai.com/index/openai-models-google-cloud/"
         },
         {
           "label": "Google Cloud Blog",
-          "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services"
-        },
-        {
-          "label": "PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/google-public-sector-launches-gemini-for-government-services-302913759.html"
-        },
-        {
-          "label": "Google Cloud Blog",
-          "url": "https://cloud.google.com/blog/topics/public-sector/announcements-and-highlights-from-google-public-sector-summit-2026"
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers/"
         }
       ]
     },
     {
-      "id": "deepseek-opensources-deepinfer-2026-10-20",
-      "story_id": "deepseek-opensources-deepinfer-2026-10-20",
-      "category": "frontier_other",
+      "id": "openai-ai-agents-biological-data-2026-10-21",
+      "story_id": "openai-ai-agents-biological-data-2026-10-21",
+      "category": "openai",
       "source_type": "official_blog",
-      "title_en": "DeepSeek Open-Sources DeepInfer, Its Production Inference Engine",
-      "title_zh": "DeepSeek 開源 DeepInfer 生產推論引擎",
-      "summary_en": "DeepSeek open-sourced DeepInfer under Apache 2.0, the high-performance inference framework that powers its production services including DeepSeek-V4.1-Flash. It supports NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs, includes optimizations such as those built primarily on vLLM, and targets both Chinese and U.S. hardware.",
-      "summary_zh": "DeepSeek 以 Apache 2.0 開源 DeepInfer，這是驅動其生產服務（含 DeepSeek-V4.1-Flash）的高效能推論框架。它支援 NVIDIA SM100 GPU 與華為昇騰 950 NPU，包含主要基於 vLLM 的優化，並針對中美硬體。",
-      "analysis_en": "Releasing a production serving stack increases pressure on Western inference providers and dual-tracks Chinese and U.S. hardware. Completeness is limited: key production tuning and full stack details may remain proprietary.",
-      "analysis_zh": "釋出生產服務堆疊增加對西方推論供應商的壓力，並雙軌中美硬體。完整性有限：關鍵生產調優與完整堆疊細節可能仍為專有。",
-      "quote": "We're sharing our production stack to help the community lower compute costs, reduce energy use, and make AI more affordable.",
-      "quote_zh": "我們分享生產堆疊，協助社群降低算力成本、減少能源使用，並讓AI更可負擔。",
-      "importance": 3,
-      "first_seen": "2026-10-20T16:00:00Z",
-      "updated_at": "2026-10-21T10:35:01.302332+00:00",
+      "title_en": "Thousands of GPT-Rosalind agents analyze brain CRISPR data in 32 minutes",
+      "title_zh": "數千GPT-Rosalind代理在32分鐘內分析大腦CRISPR數據",
+      "summary_en": "OpenAI, PerturbAI and Scripps Research used thousands of distributed AI agents powered by GPT-Rosalind to analyze a whole-brain CRISPR atlas of millions of mouse brain cells in 32 minutes. The agents linked gene disruptions to literature and surfaced leads related to neurodegenerative disease, with human experts preferring the distributed approach.",
+      "summary_zh": "OpenAI、PerturbAI與Scripps Research使用由GPT-Rosalind驅動的數千分散式AI代理，在32分鐘內分析數百萬小鼠腦細胞的全腦CRISPR圖譜。代理將基因破壞連結至文獻，並浮現與神經退化疾病相關的線索，人類專家偏好分散式方法。",
+      "analysis_en": "This demonstrates practical multi-agent scientific reasoning at scale on real biological datasets, compressing months of analysis. Follow-up experimental validation of the novel hypotheses remains the key open question for real-world impact.",
+      "analysis_zh": "這展示了在真實生物數據集上大規模實用多代理科學推理，將數月分析壓縮。對新假設的後續實驗驗證仍是現實影響的關鍵未解問題。",
+      "quote": "Working together, OpenAI, PerturbAI, and Scripps Research used thousands of AI agents powered by GPT‑Rosalind to analyze and interpret existing experimental data from millions of mouse brain cells in just 32 minutes.",
+      "quote_zh": "OpenAI、PerturbAI與Scripps Research合作，使用由GPT‑Rosalind驅動的數千AI代理，在短短32分鐘內分析並詮釋來自數百萬小鼠腦細胞的既有實驗數據。",
+      "importance": 4,
+      "first_seen": "2026-10-21T00:00:00Z",
+      "updated_at": "2026-10-21T16:35:01.535557+00:00",
       "links": [
         {
-          "label": "DeepSeek announcement",
-          "url": "https://www.deepseek.com/"
-        },
-        {
-          "label": "MarkTechPost",
-          "url": "https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework/"
-        },
-        {
-          "label": "TechTarget",
-          "url": "https://www.techtarget.com/ai/news/366652363/DeepSeek-makes-DeepInfer-open-source-to-cut-AI-costs"
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/"
         }
       ]
     },
     {
-      "id": "mistral-voxtral-3-2026-10-20",
-      "story_id": "mistral-voxtral-3-2026-10-20",
-      "category": "frontier_other",
+      "id": "openai-patch-the-planet-php-2026-10-21",
+      "story_id": "openai-patch-the-planet-php-2026-10-21",
+      "category": "openai",
       "source_type": "official_blog",
-      "title_en": "Mistral Releases Voxtral 3 Speech Models and Voice Agent SDK",
-      "title_zh": "Mistral 發布 Voxtral 3 語音模型與語音代理 SDK",
-      "summary_en": "Mistral announced Voxtral 3, a family of state-of-the-art transcription (Mini/Small, including realtime) and speech models supporting 50+ languages, plus a LiveKit-based voice agent SDK that streams listening, reasoning with tool calls, and speaking. It offers dual cloud/self-host options with competitive latency claims.",
-      "summary_zh": "Mistral 宣布 Voxtral 3，一系列最先進的轉錄（Mini/Small，含即時）與語音模型，支援 50 多種語言，外加基於 LiveKit 的語音代理 SDK，可串流聆聽、以工具呼叫推理與說話。它提供雲端/自架雙選項，並宣稱具競爭延遲。",
-      "analysis_en": "The release strengthens Mistral’s position in sovereign and cost-efficient voice agents. Independent verification of latency and quality claims against closed models remains limited so far.",
-      "analysis_zh": "發布強化 Mistral 在主權與高成本效益語音代理的地位。對比閉源模型的延遲與品質宣稱，獨立驗證目前仍有限。",
-      "quote": "Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API.",
-      "quote_zh": "介紹Voxtral 3：驅動Mistral新語音代理API的頂尖轉錄與語音模型。",
-      "importance": 3,
-      "first_seen": "2026-10-20T16:00:12Z",
-      "updated_at": "2026-10-21T10:35:01.302332+00:00",
+      "title_en": "OpenAI leads coordinated disclosure of critical PHP vulnerabilities found with models",
+      "title_zh": "OpenAI主導以模型發現的關鍵PHP漏洞協調披露",
+      "summary_en": "As part of its Patch the Planet initiative, OpenAI coordinated a two-month response with maintainers, researchers and providers to critical PHP vulnerabilities (including one discovered using GPT-5.6 Sol). The flaws affect a widely used language powering an estimated 70% of websites; patches and guidance are now available.",
+      "summary_zh": "作為Patch the Planet計畫的一部分，OpenAI與維護者、研究人員與供應商協調兩個月回應關鍵PHP漏洞（包括使用GPT-5.6 Sol發現的一個）。這些缺陷影響估計運行70%網站的廣泛使用語言；補丁與指引現已可用。",
+      "analysis_en": "It shows frontier models contributing to high-impact open-source security at internet scale, with defenders getting a window ahead of attackers. The early leak and intricate engine changes highlight coordination challenges for future AI-assisted disclosures.",
+      "analysis_zh": "這顯示前沿模型對網路規模高影響開源安全的貢獻，防禦者獲得領先攻擊者的窗口。早期洩漏與複雜引擎變更凸顯未來AI輔助披露的協調挑戰。",
+      "quote": "OpenAI models helped researchers—operating as part of our Patch the Planet initiative—discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of websites.",
+      "quote_zh": "OpenAI模型協助研究人員——作為我們Patch the Planet計畫的一部分——發現PHP中的關鍵安全缺陷，這是估計運行70%網站的開源程式語言。",
+      "importance": 4,
+      "first_seen": "2026-10-21T00:00:00Z",
+      "updated_at": "2026-10-21T16:35:01.535557+00:00",
       "links": [
         {
-          "label": "Mistral announcement",
-          "url": "https://mistral.ai/"
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
         },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2112937187029250209"
+        }
+      ]
+    },
+    {
+      "id": "openai-chatgpt-ads-expansion-2026-10-21",
+      "story_id": "openai-chatgpt-ads-expansion-2026-10-21",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "ChatGPT Ads expands to 26 new countries, reaching 89 total",
+      "title_zh": "ChatGPT廣告擴展至26個新國家，總計89國",
+      "summary_en": "OpenAI expanded ChatGPT Ads to 26 additional countries (including more of Latin America, Europe, Africa and Asia), bringing total availability to 89 countries. Over 100,000 advertisers have run campaigns since launch; ads appear only on Free and Go plans, while Plus, Pro and Enterprise remain ad-free.",
+      "summary_zh": "OpenAI將ChatGPT廣告擴展至26個額外國家（包括更多拉丁美洲、歐洲、非洲與亞洲地區），總可用性達89國。自推出以來已有超過10萬廣告主運行活動；廣告僅出現在免費與Go方案，Plus、Pro與Enterprise保持無廣告。",
+      "analysis_en": "The expansion accelerates monetization of free users to support broader access, with a reported path toward $1B annualized ad revenue. It tests user trust as conversational ads scale globally, while keeping paid tiers clean.",
+      "analysis_zh": "此擴展加速免費用戶變現以支持更廣泛存取，並有朝向年化10億美元廣告收入的路徑。隨著對話式廣告全球擴展，將測試用戶信任，同時保持付費方案純淨。",
+      "quote": "Since we launched ads just over eight months ago, over 100,000 advertisers have run campaigns on ChatGPT. Today, we’re expanding ChatGPT Ads to 26 additional countries, extending availability to 89 countries worldwide.",
+      "quote_zh": "自約八個月前推出廣告以來，已有超過10萬廣告主在ChatGPT運行活動。今天，我們將ChatGPT廣告擴展至26個額外國家，將可用性延伸至全球89國。",
+      "importance": 3,
+      "first_seen": "2026-10-21T00:00:00Z",
+      "updated_at": "2026-10-21T16:35:01.535557+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries/"
+        }
+      ]
+    },
+    {
+      "id": "mistral-nvidia-industrial-engineering-2026-10-21",
+      "story_id": "mistral-nvidia-industrial-engineering-2026-10-21",
+      "category": "frontier_other",
+      "source_type": "official_blog",
+      "title_en": "Mistral and NVIDIA collaborate on AI-native industrial engineering workflows",
+      "title_zh": "Mistral與NVIDIA合作開發AI原生工業工程工作流程",
+      "summary_en": "Mistral announced a collaboration with NVIDIA to integrate Mistral Large 4 and physics AI capabilities with NVIDIA accelerated computing, CUDA-X, Warp and Omniverse. The work will produce public benchmarks and open datasets for physics models and agentic AI in CAE and EDA, targeting aerospace, automotive and semiconductor applications.",
+      "summary_zh": "Mistral宣布與NVIDIA合作，將Mistral Large 4與物理AI能力整合至NVIDIA加速運算、CUDA-X、Warp與Omniverse。此工作將產出物理模型與CAE/EDA代理AI的公開基準與開放數據集，針對航太、汽車與半導體應用。",
+      "analysis_en": "This pairs Europe’s leading open-weight frontier model with NVIDIA’s simulation stack to target domain-specific agentic workflows, potentially standardizing evaluations that general leaderboards miss. Impact depends on the quality and adoption of the forthcoming benchmarks.",
+      "analysis_zh": "這將歐洲領先開放權重前沿模型與NVIDIA模擬堆疊配對，針對領域特定代理工作流程，可能標準化一般排行榜遺漏的評估。影響取決於即將推出的基準品質與採用程度。",
+      "quote": "With Mistral's open-weight models and physics AI capabilities, combined with NVIDIA’s accelerated computing stack, we’re giving engineers faster simulation cycles, as well as open benchmarks rigorous enough to validate agents on real CAE and EDA work.",
+      "quote_zh": "結合Mistral的開放權重模型與物理AI能力，以及NVIDIA的加速運算堆疊，我們正為工程師提供更快的模擬週期，以及足以在真實CAE與EDA工作上驗證代理的嚴格開放基準。",
+      "importance": 3,
+      "first_seen": "2026-10-21T00:00:00Z",
+      "updated_at": "2026-10-21T16:35:01.535557+00:00",
+      "links": [
         {
           "label": "Mistral Blog",
-          "url": "https://mistral.ai/news/voxtral-3/"
+          "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/"
         },
         {
           "label": "Mistral AI on X",
-          "url": "https://x.com/MistralAI/status/2112574615318876178"
-        }
-      ]
-    },
-    {
-      "id": "nvidia-isaac-robotics-expansion-2026-10-21",
-      "story_id": "nvidia-isaac-robotics-expansion-2026-10-21",
-      "category": "frontier_other",
-      "source_type": "official_blog",
-      "title_en": "NVIDIA Advances Isaac Platform with New Reference Humanoid and Robotics Tools",
-      "title_zh": "NVIDIA 以新參考人形機器人與工具推進 Isaac 平台",
-      "summary_en": "NVIDIA announced a major expansion of its open Isaac robotics development platform, adding a reference humanoid (Agile ONE SN from Agile Robots, built on Isaac GR00T and powered by Jetson Thor), new datasets, runtime, and updates to its robot learning framework. The move supports training, simulation, and deployment of humanoid skills, with partners across Europe’s robotics ecosystem.",
-      "summary_zh": "NVIDIA 宣布大幅擴展其開放 Isaac 機器人開發平台，加入參考人形機器人（Agile Robots 的 Agile ONE SN，基於 Isaac GR00T 並由 Jetson Thor 驅動）、新資料集、運行時與機器人學習框架更新。此舉支援人形技能的訓練、模擬與部署，並有歐洲機器人生態系夥伴參與。",
-      "analysis_en": "The expansion lowers barriers to humanoid research by offering integrated open hardware-software reference designs. Real-world impact depends on how quickly partners achieve reliable sim-to-real transfer and production deployments.",
-      "analysis_zh": "擴展透過整合開放硬體軟體參考設計降低人形研究門檻。實際影響取決於夥伴多快達成可靠的模擬到現實轉移與生產部署。",
-      "quote": "NVIDIA today announced a major expansion of the NVIDIA Isaac™ open robotics development platform, adding a reference humanoid, datasets and runtime, along with updates to its robot learning framework.",
-      "quote_zh": "NVIDIA 今日宣布大幅擴展 NVIDIA Isaac™ 開放機器人開發平台，加入參考人形機器人、資料集與運行時，以及機器人學習框架更新。",
-      "importance": 3,
-      "first_seen": "2026-10-21T10:30:00Z",
-      "updated_at": "2026-10-21T10:35:01.302332+00:00",
-      "links": [
-        {
-          "label": "NVIDIA Newsroom",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data"
-        }
-      ]
-    },
-    {
-      "id": "meta-muse-share-privacy-pause-2026-10-20",
-      "story_id": "meta-muse-share-privacy-pause-2026-10-20",
-      "category": "meta",
-      "source_type": "news",
-      "title_en": "Meta Pauses Muse Chat Sharing After 6,800 Links Found in Public DNS",
-      "title_zh": "Meta 因公開 DNS 發現 6800 個連結而暫停 Muse 聊天分享",
-      "summary_en": "Meta paused the conversation-sharing feature in its Muse AI agent after security firm Claroc reported finding more than 6,800 share hostnames via passive DNS. Shares used conversation titles in hostnames under cf.metaaiusercontent.com, making unlisted links discoverable; sampled pages included sensitive personal and business documents. Meta said it paused the feature while reviewing the report and considering discovery changes; Claroc confirmed sampled links no longer opened.",
-      "summary_zh": "Meta 暫停其 Muse AI 代理的對話分享功能，因安全公司 Claroc 報告透過被動 DNS 發現超過 6800 個分享主機名稱。分享使用對話標題作為 cf.metaaiusercontent.com 下的主機名稱，使未列出連結可被發現；抽樣頁面包含敏感個人與商業文件。Meta 表示在審查報告並考慮發現機制變更時暫停功能；Claroc 確認抽樣連結已無法開啟。",
-      "analysis_en": "The incident highlights how link-based sharing in agentic tools can leak via infrastructure side channels even without account compromise. It underscores the need for stronger access controls as AI assistants handle more sensitive workflows.",
-      "analysis_zh": "事件凸顯代理工具中的連結分享即使無帳號入侵，也可能透過基礎設施側通道外洩。隨著 AI 助理處理更多敏感工作流程，更強存取控制的需求更為明確。",
-      "quote": "However, we’ve paused this functionality while we review this report and consider changes to how these links can be discovered.",
-      "quote_zh": "然而，我們已暫停此功能，同時審查此報告並考慮如何改變這些連結的發現方式。",
-      "importance": 3,
-      "first_seen": "2026-10-20T18:07:00Z",
-      "updated_at": "2026-10-21T10:35:01.302332+00:00",
-      "links": [
-        {
-          "label": "The Verge / Ars Technica / Claroc",
-          "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats"
-        }
-      ]
-    },
-    {
-      "id": "openai-chatgpt-locked-chats-2026-10-20",
-      "story_id": "openai-chatgpt-locked-chats-2026-10-20",
-      "category": "openai",
-      "source_type": "product",
-      "title_en": "OpenAI Rolls Out Locked Chats in ChatGPT with PIN and Biometric Access",
-      "title_zh": "OpenAI 在 ChatGPT 推出鎖定聊天，以 PIN 與生物辨識存取",
-      "summary_en": "OpenAI began rolling out Locked Chats, which move selected conversations out of regular history, pinned chats, and search into a protected space unlocked by a 4-digit account PIN (or Face ID/Touch ID/device unlock on mobile). New messages in locked chats do not appear in standard history.",
-      "summary_zh": "OpenAI 開始推出鎖定聊天，將選定對話移出一般歷史、置頂聊天與搜尋，進入以 4 位數帳號 PIN（或行動裝置上的 Face ID/Touch ID/裝置解鎖）保護的空間。鎖定聊天中的新訊息不會出現在標準歷史中。",
-      "analysis_en": "Locked Chats addresses shared-device and screen-sharing privacy needs but is a visibility control rather than a cryptographic safeguard; prior memory and retention policies remain unchanged.",
-      "analysis_zh": "鎖定聊天滿足共用裝置與螢幕分享的隱私需求，但屬於可見性控制而非加密保障；先前記憶與保留政策維持不變。",
-      "quote": "Locked chats let you keep selected conversations in your account while hiding them from regular chat history, pinned chats, and search.",
-      "quote_zh": "鎖定聊天讓你將選定對話保留在帳號中，同時從一般聊天歷史、釘選聊天與搜尋中隱藏。",
-      "importance": 2,
-      "first_seen": "2026-10-20T17:32:12Z",
-      "updated_at": "2026-10-21T10:35:01.302332+00:00",
-      "links": [
-        {
-          "label": "OpenAI product update",
-          "url": "https://openai.com/"
-        },
-        {
-          "label": "OpenAI Help Center Release Notes",
-          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-        },
-        {
-          "label": "ChatGPT on X",
-          "url": "https://x.com/ChatGPT/status/2112597766333673624"
-        },
-        {
-          "label": "OpenAI Help Center",
-          "url": "https://help.openai.com/en/articles/20001411-using-locked-chats-in-chatgpt"
-        }
-      ]
-    },
-    {
-      "id": "openai-12hour-prompt-caching-2026-10-20",
-      "story_id": "openai-12hour-prompt-caching-2026-10-20",
-      "category": "openai",
-      "source_type": "product",
-      "title_en": "OpenAI Adds Optional 12-Hour Prompt Caching to API",
-      "title_zh": "OpenAI 為 API 新增可選 12 小時提示快取",
-      "summary_en": "OpenAI Developers announced that developers can now opt into 12-hour prompt caching in the Responses API (alongside the existing 30-minute default) for GPT-5.6 and later models. Cache writes for the longer TTL cost 2.5× the uncached input rate (vs 1.25× for 30 minutes); reads remain at the discounted cached rate. The feature supports persistent agents that reuse instructions and context across longer gaps.",
-      "summary_zh": "OpenAI Developers 宣布開發者現可在 Responses API 中選擇 12 小時提示快取（與現有 30 分鐘預設並列），適用 GPT-5.6 及更新模型。較長 TTL 的快取寫入成本為未快取輸入率的 2.5 倍（30 分鐘為 1.25 倍）；讀取仍維持折扣快取費率。此功能支援在較長間隔重複使用指令與上下文的持久代理。",
-      "analysis_en": "Longer caching reduces costs for day-long agentic workflows but raises the upfront write premium, so net savings depend on reuse frequency. It is a developer productivity feature rather than a model capability upgrade.",
-      "analysis_zh": "較長快取降低全天代理工作流程成本，但提高前期寫入溢價，淨節省取決於重複使用頻率。這是開發者生產力功能，而非模型能力升級。",
-      "quote": "You can now choose 12-hour prompt caching in the API. Persistent agents, like dots, reuse context throughout the day.",
-      "quote_zh": "您現可在 API 中選擇 12 小時提示快取。持久代理（如 dots）全天重複使用上下文。",
-      "importance": 2,
-      "first_seen": "2026-10-20T17:56:38Z",
-      "updated_at": "2026-10-21T10:35:01.302332+00:00",
-      "links": [
-        {
-          "label": "OpenAI Developers on X / API Docs",
-          "url": "https://developers.openai.com/api/docs/guides/prompt-caching"
+          "url": "https://x.com/MistralAI/status/2112870261829603589"
         }
       ]
     }
@@ -372,351 +142,141 @@
   "categories": {
     "openai": [
       {
-        "id": "openai-acquires-orchestra-bio-2026-10-20",
-        "story_id": "openai-acquires-orchestra-bio-2026-10-20",
+        "id": "openai-models-google-cloud-2026-10-21",
+        "story_id": "openai-models-google-cloud-2026-10-21",
         "category": "openai",
         "source_type": "official_blog",
-        "title_en": "OpenAI Acquires Orchestra Bio to Expand Rosalind Life-Sciences Agents",
-        "title_zh": "OpenAI 收購 Orchestra Bio 以擴展 Rosalind 生命科學代理",
-        "summary_en": "OpenAI announced the acquisition of Orchestra Bio, a platform where people and AI agents coordinate complex drug-development programs by monitoring studies, tracking timelines, and flagging delays. The team and technology will integrate with Rosalind (including GPT-Rosalind and Rosalind Workbench) to connect scientific findings with operational next steps. Terms were not disclosed.",
-        "summary_zh": "OpenAI 宣布收購 Orchestra Bio，這是一個讓人與 AI 代理協調複雜藥物開發計畫的平台，負責監控研究、追蹤時程並標記延誤。團隊與技術將整合進 Rosalind（含 GPT-Rosalind 與 Rosalind Workbench），以連接科學發現與營運後續步驟。交易條款未揭露。",
-        "analysis_en": "The deal moves OpenAI deeper into operational agentic software for biopharma, pairing scientific reasoning models with workflow coordination. It signals continued expansion of domain-specific agents beyond pure research into industry execution.",
-        "analysis_zh": "交易使 OpenAI 更深入生物製藥的營運代理軟體，將科學推理模型與工作流程協調結合。這顯示領域專用代理正從純研究擴展至產業執行。",
-        "quote": "We’ve acquired Orchestra Bio, a platform that helps biopharma teams coordinate the complex process of drug development.",
-        "quote_zh": "我們已收購 Orchestra Bio，這是一個協助生物製藥團隊協調複雜藥物開發流程的平台。",
+        "title_en": "OpenAI models and Codex coming to Google Cloud Model Garden",
+        "title_zh": "OpenAI模型與Codex即將進入Google Cloud Model Garden",
+        "summary_en": "OpenAI announced a partnership with Google Cloud to bring its frontier models, including GPT-6 Astra, GPT-6.1 Sol and GPT-6 Luna, plus Codex agentic workflows into Google Cloud’s Model Garden. Customers can purchase via Google Cloud Marketplace and apply existing spend commitments; general availability is planned in the coming weeks, with Microsoft remaining the primary cloud partner.",
+        "summary_zh": "OpenAI宣布與Google Cloud合作，將其前沿模型（包括GPT-6 Astra、GPT-6.1 Sol與GPT-6 Luna）及Codex代理工作流程帶入Google Cloud的Model Garden。客戶可透過Google Cloud Marketplace購買並使用既有消費承諾；一般可用性計劃在未來數週推出，微軟仍為主要雲端合作夥伴。",
+        "analysis_en": "This expands OpenAI’s enterprise distribution beyond Microsoft and AWS to all three major US hyperscalers, reducing lock-in for customers while creating complex competitive dynamics with Google. Uncertainty remains around exact GA timing, pricing parity, and data governance in regulated industries.",
+        "analysis_zh": "這將OpenAI的企業分發從微軟與AWS擴展至美國三大超大規模雲端供應商，降低客戶鎖定，同時與Google形成複雜競爭動態。一般可用性時程、價格對等及受監管產業的資料治理仍不確定。",
+        "quote": "This partnership is an important step in making our most capable models and Codex available where customers are already building, giving them even more choice in how they use frontier AI.",
+        "quote_zh": "這項合作是讓我們最強大模型與Codex在客戶已在建構的環境中可用的重要一步，讓他們在使用前沿AI時有更多選擇。",
         "importance": 4,
-        "first_seen": "2026-10-20T18:10:16Z",
-        "updated_at": "2026-10-21T10:35:01.302332+00:00",
+        "first_seen": "2026-10-21T00:00:00Z",
+        "updated_at": "2026-10-21T16:35:01.535557+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
-            "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/"
+            "url": "https://openai.com/index/openai-models-google-cloud/"
           },
           {
-            "label": "OpenAI on X",
-            "url": "https://x.com/OpenAI/status/2112607347688583586"
-          },
-          {
-            "label": "OpenAI on X",
-            "url": "https://x.com/OpenAI/status/2112606024209408300"
+            "label": "Google Cloud Blog",
+            "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers/"
           }
         ]
       },
       {
-        "id": "openai-chatgpt-locked-chats-2026-10-20",
-        "story_id": "openai-chatgpt-locked-chats-2026-10-20",
+        "id": "openai-ai-agents-biological-data-2026-10-21",
+        "story_id": "openai-ai-agents-biological-data-2026-10-21",
         "category": "openai",
-        "source_type": "product",
-        "title_en": "OpenAI Rolls Out Locked Chats in ChatGPT with PIN and Biometric Access",
-        "title_zh": "OpenAI 在 ChatGPT 推出鎖定聊天，以 PIN 與生物辨識存取",
-        "summary_en": "OpenAI began rolling out Locked Chats, which move selected conversations out of regular history, pinned chats, and search into a protected space unlocked by a 4-digit account PIN (or Face ID/Touch ID/device unlock on mobile). New messages in locked chats do not appear in standard history.",
-        "summary_zh": "OpenAI 開始推出鎖定聊天，將選定對話移出一般歷史、置頂聊天與搜尋，進入以 4 位數帳號 PIN（或行動裝置上的 Face ID/Touch ID/裝置解鎖）保護的空間。鎖定聊天中的新訊息不會出現在標準歷史中。",
-        "analysis_en": "Locked Chats addresses shared-device and screen-sharing privacy needs but is a visibility control rather than a cryptographic safeguard; prior memory and retention policies remain unchanged.",
-        "analysis_zh": "鎖定聊天滿足共用裝置與螢幕分享的隱私需求，但屬於可見性控制而非加密保障；先前記憶與保留政策維持不變。",
-        "quote": "Locked chats let you keep selected conversations in your account while hiding them from regular chat history, pinned chats, and search.",
-        "quote_zh": "鎖定聊天讓你將選定對話保留在帳號中，同時從一般聊天歷史、釘選聊天與搜尋中隱藏。",
-        "importance": 2,
-        "first_seen": "2026-10-20T17:32:12Z",
-        "updated_at": "2026-10-21T10:35:01.302332+00:00",
-        "links": [
-          {
-            "label": "OpenAI product update",
-            "url": "https://openai.com/"
-          },
-          {
-            "label": "OpenAI Help Center Release Notes",
-            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-          },
-          {
-            "label": "ChatGPT on X",
-            "url": "https://x.com/ChatGPT/status/2112597766333673624"
-          },
-          {
-            "label": "OpenAI Help Center",
-            "url": "https://help.openai.com/en/articles/20001411-using-locked-chats-in-chatgpt"
-          }
-        ]
-      },
-      {
-        "id": "openai-12hour-prompt-caching-2026-10-20",
-        "story_id": "openai-12hour-prompt-caching-2026-10-20",
-        "category": "openai",
-        "source_type": "product",
-        "title_en": "OpenAI Adds Optional 12-Hour Prompt Caching to API",
-        "title_zh": "OpenAI 為 API 新增可選 12 小時提示快取",
-        "summary_en": "OpenAI Developers announced that developers can now opt into 12-hour prompt caching in the Responses API (alongside the existing 30-minute default) for GPT-5.6 and later models. Cache writes for the longer TTL cost 2.5× the uncached input rate (vs 1.25× for 30 minutes); reads remain at the discounted cached rate. The feature supports persistent agents that reuse instructions and context across longer gaps.",
-        "summary_zh": "OpenAI Developers 宣布開發者現可在 Responses API 中選擇 12 小時提示快取（與現有 30 分鐘預設並列），適用 GPT-5.6 及更新模型。較長 TTL 的快取寫入成本為未快取輸入率的 2.5 倍（30 分鐘為 1.25 倍）；讀取仍維持折扣快取費率。此功能支援在較長間隔重複使用指令與上下文的持久代理。",
-        "analysis_en": "Longer caching reduces costs for day-long agentic workflows but raises the upfront write premium, so net savings depend on reuse frequency. It is a developer productivity feature rather than a model capability upgrade.",
-        "analysis_zh": "較長快取降低全天代理工作流程成本，但提高前期寫入溢價，淨節省取決於重複使用頻率。這是開發者生產力功能，而非模型能力升級。",
-        "quote": "You can now choose 12-hour prompt caching in the API. Persistent agents, like dots, reuse context throughout the day.",
-        "quote_zh": "您現可在 API 中選擇 12 小時提示快取。持久代理（如 dots）全天重複使用上下文。",
-        "importance": 2,
-        "first_seen": "2026-10-20T17:56:38Z",
-        "updated_at": "2026-10-21T10:35:01.302332+00:00",
-        "links": [
-          {
-            "label": "OpenAI Developers on X / API Docs",
-            "url": "https://developers.openai.com/api/docs/guides/prompt-caching"
-          }
-        ]
-      }
-    ],
-    "anthropic": [
-      {
-        "id": "anthropic-claude-scorpion-toxin-binders-2026-10-20",
-        "story_id": "anthropic-claude-scorpion-toxin-binders-2026-10-20",
-        "category": "anthropic",
         "source_type": "official_blog",
-        "title_en": "Anthropic: Claude Designs Protein Binders Against Scorpion Neurotoxins",
-        "title_zh": "Anthropic：Claude 設計針對蠍子神經毒素的蛋白結合體",
-        "summary_en": "Anthropic announced that an internal Claude research model, operating largely autonomously over 64 hours from one initial prompt and four follow-ups developed with Citrini Research, generated 318,484 protein designs targeting five scorpion neurotoxins. Outside labs tested 211 designs; 17 met strict criteria for binding a single toxin. The designs are being released publicly, though neutralization in cells or animals has not yet been demonstrated.",
-        "summary_zh": "Anthropic 宣布內部 Claude 研究模型在幾乎自主運作下，以初始提示與四次跟進（與 Citrini Research 合作）於 64 小時內生成 318,484 個針對五種蠍子神經毒素的蛋白設計。外部實驗室測試了 211 個設計，其中 17 個達到單一毒素結合的嚴格標準。設計將公開釋出，但尚未證明能在細胞或動物中中和毒素。",
-        "analysis_en": "The result shows AI agents can rapidly generate and filter credible binder candidates for neglected diseases with low commercial incentives, compressing early design from months to hours. It remains early-stage research; independent functional validation and clinical translation are still unproven.",
-        "analysis_zh": "結果顯示 AI 代理能快速生成並篩選低商業誘因的被忽略疾病結合候選物，將早期設計從數月壓縮至數小時。目前仍屬早期研究；獨立功能驗證與臨床轉化尚未證實。",
-        "quote": "Claude has made an early step toward finding new treatments.",
-        "quote_zh": "Claude 已朝尋找新療法邁出早期一步。",
+        "title_en": "Thousands of GPT-Rosalind agents analyze brain CRISPR data in 32 minutes",
+        "title_zh": "數千GPT-Rosalind代理在32分鐘內分析大腦CRISPR數據",
+        "summary_en": "OpenAI, PerturbAI and Scripps Research used thousands of distributed AI agents powered by GPT-Rosalind to analyze a whole-brain CRISPR atlas of millions of mouse brain cells in 32 minutes. The agents linked gene disruptions to literature and surfaced leads related to neurodegenerative disease, with human experts preferring the distributed approach.",
+        "summary_zh": "OpenAI、PerturbAI與Scripps Research使用由GPT-Rosalind驅動的數千分散式AI代理，在32分鐘內分析數百萬小鼠腦細胞的全腦CRISPR圖譜。代理將基因破壞連結至文獻，並浮現與神經退化疾病相關的線索，人類專家偏好分散式方法。",
+        "analysis_en": "This demonstrates practical multi-agent scientific reasoning at scale on real biological datasets, compressing months of analysis. Follow-up experimental validation of the novel hypotheses remains the key open question for real-world impact.",
+        "analysis_zh": "這展示了在真實生物數據集上大規模實用多代理科學推理，將數月分析壓縮。對新假設的後續實驗驗證仍是現實影響的關鍵未解問題。",
+        "quote": "Working together, OpenAI, PerturbAI, and Scripps Research used thousands of AI agents powered by GPT‑Rosalind to analyze and interpret existing experimental data from millions of mouse brain cells in just 32 minutes.",
+        "quote_zh": "OpenAI、PerturbAI與Scripps Research合作，使用由GPT‑Rosalind驅動的數千AI代理，在短短32分鐘內分析並詮釋來自數百萬小鼠腦細胞的既有實驗數據。",
         "importance": 4,
-        "first_seen": "2026-10-20T16:18:38Z",
-        "updated_at": "2026-10-21T10:35:01.302332+00:00",
+        "first_seen": "2026-10-21T00:00:00Z",
+        "updated_at": "2026-10-21T16:35:01.535557+00:00",
         "links": [
           {
-            "label": "Anthropic Science Blog / X",
-            "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
-          },
-          {
-            "label": "Anthropic on X",
-            "url": "https://x.com/AnthropicAI/status/2112579251555721573"
-          },
-          {
-            "label": "Anthropic on X",
-            "url": "https://x.com/AnthropicAI/status/2112579254538141981"
-          },
-          {
-            "label": "Technical report PDF",
-            "url": "https://www-cdn.anthropic.com/31ac578806cffd8b3d92d8affe6edc4c04d502e1.pdf"
-          },
-          {
-            "label": "Hugging Face dataset",
-            "url": "https://huggingface.co/datasets/Anthropic/scorpion-toxin-binder-design"
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/"
           }
         ]
       },
       {
-        "id": "anthropic-federal-ai-safety-bill-2026-10-20",
-        "story_id": "anthropic-federal-ai-safety-bill-2026-10-20",
-        "category": "anthropic",
-        "source_type": "news",
-        "title_en": "Anthropic Pitches Draft Federal AI Safety Bill with Narrow Catastrophic Thresholds",
-        "title_zh": "Anthropic 向國會推銷草稿聯邦 AI 安全法案，設窄範圍災難門檻",
-        "summary_en": "Anthropic has quietly circulated a draft bill to lawmakers that would allow the U.S. Commerce Department to seek a federal judge’s order to halt a frontier model only for a foreseeable, imminent risk of more than 50 deaths/serious injuries or over $1 billion in damages stemming from bioweapons, loss of control, or cyberattacks. Independent evaluators (potentially paid by labs) would flag risks within 72 hours. An Anthropic spokesperson confirmed it reflects the company’s Advanced AI Framework advocated since June; the company later said it would refine preemption language after backlash.",
-        "summary_zh": "Anthropic 已悄悄向立法者傳閱一份草案，允許美國商務部僅在可預見且迫在眉睫的風險下（超過 50 人死亡/重傷或逾 10 億美元損害，源自生物武器、失控或網路攻擊）向聯邦法官請求停止前沿模型發布。獨立評估者（可能由實驗室付費）須在 72 小時內標記風險。Anthropic 發言人確認此反映其自 6 月以來倡議的 Advanced AI Framework；公司後續表示將在反彈後調整優先權語言。",
-        "analysis_en": "The proposal seeks to shape federal rules with high thresholds and judicial checks rather than broad agency discretion, mirroring elements of California’s SB 53. Uncertainty remains over congressional reception, exact text, and whether the narrow triggers adequately address current non-catastrophic harms.",
-        "analysis_zh": "提案試圖以高門檻與司法制衡塑造聯邦規則，而非廣泛機構裁量，呼應加州 SB 53 元素。國會接受度、確切文本，以及窄觸發條件是否足以應對當前非災難性危害，仍不確定。",
-        "quote": "This bill represents the proposals outlined in Anthropic's Advanced AI Framework, which we have been advocating for with federal and state lawmakers since June. These are sensible policies we believe Congress should act on.",
-        "quote_zh": "此法案代表 Anthropic Advanced AI Framework 中概述的提案，我們自 6 月以來一直向聯邦與州立法者倡議。這些是我們認為國會應採取的合理政策。",
+        "id": "openai-patch-the-planet-php-2026-10-21",
+        "story_id": "openai-patch-the-planet-php-2026-10-21",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI leads coordinated disclosure of critical PHP vulnerabilities found with models",
+        "title_zh": "OpenAI主導以模型發現的關鍵PHP漏洞協調披露",
+        "summary_en": "As part of its Patch the Planet initiative, OpenAI coordinated a two-month response with maintainers, researchers and providers to critical PHP vulnerabilities (including one discovered using GPT-5.6 Sol). The flaws affect a widely used language powering an estimated 70% of websites; patches and guidance are now available.",
+        "summary_zh": "作為Patch the Planet計畫的一部分，OpenAI與維護者、研究人員與供應商協調兩個月回應關鍵PHP漏洞（包括使用GPT-5.6 Sol發現的一個）。這些缺陷影響估計運行70%網站的廣泛使用語言；補丁與指引現已可用。",
+        "analysis_en": "It shows frontier models contributing to high-impact open-source security at internet scale, with defenders getting a window ahead of attackers. The early leak and intricate engine changes highlight coordination challenges for future AI-assisted disclosures.",
+        "analysis_zh": "這顯示前沿模型對網路規模高影響開源安全的貢獻，防禦者獲得領先攻擊者的窗口。早期洩漏與複雜引擎變更凸顯未來AI輔助披露的協調挑戰。",
+        "quote": "OpenAI models helped researchers—operating as part of our Patch the Planet initiative—discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of websites.",
+        "quote_zh": "OpenAI模型協助研究人員——作為我們Patch the Planet計畫的一部分——發現PHP中的關鍵安全缺陷，這是估計運行70%網站的開源程式語言。",
         "importance": 4,
-        "first_seen": "2026-10-20T22:00:00Z",
-        "updated_at": "2026-10-21T10:35:01.302332+00:00",
+        "first_seen": "2026-10-21T00:00:00Z",
+        "updated_at": "2026-10-21T16:35:01.535557+00:00",
         "links": [
           {
-            "label": "Politico (via TechCrunch / Reuters)",
-            "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654"
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2112937187029250209"
           }
         ]
-      }
-    ],
-    "google": [
+      },
       {
-        "id": "google-gemini-government-services-2026-10-20",
-        "story_id": "google-gemini-government-services-2026-10-20",
-        "category": "google",
-        "source_type": "product",
-        "title_en": "Google Public Sector Launches Gemini for Government Services in Preview",
-        "title_zh": "Google Public Sector 推出 Gemini for Government Services 預覽版",
-        "summary_en": "Google Public Sector announced Gemini for government services in private preview, a purpose-built agentic platform for federal, state, and local agencies. It includes specialized skills for regulatory research, FOIA redaction, procurement, and other administrative tasks, packaged with government-specific connectors.",
-        "summary_zh": "Google Public Sector 宣布 Gemini for government services 私人預覽版，這是一個專為聯邦、州與地方政府機關打造的代理平台。它包含監管研究、FOIA 塗黑、採購等行政任務的專用技能，並搭配政府專用連接器。",
-        "analysis_en": "The offering packages Gemini agents with government-specific skills and connectors rather than a new foundation model, aiming to reduce administrative burden while inheriting existing model capabilities and limitations. Adoption will depend on security certifications and integration depth.",
-        "analysis_zh": "此產品將 Gemini 代理與政府專用技能及連接器打包，而非新基礎模型，旨在減輕行政負擔，同時繼承現有模型能力與限制。採用將取決於安全認證與整合深度。",
-        "quote": "Today we're bringing the Gemini agent to public service with Gemini for government services in preview.",
-        "quote_zh": "今天我們將Gemini代理帶入公共服務，推出政府服務Gemini預覽版。",
+        "id": "openai-chatgpt-ads-expansion-2026-10-21",
+        "story_id": "openai-chatgpt-ads-expansion-2026-10-21",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "ChatGPT Ads expands to 26 new countries, reaching 89 total",
+        "title_zh": "ChatGPT廣告擴展至26個新國家，總計89國",
+        "summary_en": "OpenAI expanded ChatGPT Ads to 26 additional countries (including more of Latin America, Europe, Africa and Asia), bringing total availability to 89 countries. Over 100,000 advertisers have run campaigns since launch; ads appear only on Free and Go plans, while Plus, Pro and Enterprise remain ad-free.",
+        "summary_zh": "OpenAI將ChatGPT廣告擴展至26個額外國家（包括更多拉丁美洲、歐洲、非洲與亞洲地區），總可用性達89國。自推出以來已有超過10萬廣告主運行活動；廣告僅出現在免費與Go方案，Plus、Pro與Enterprise保持無廣告。",
+        "analysis_en": "The expansion accelerates monetization of free users to support broader access, with a reported path toward $1B annualized ad revenue. It tests user trust as conversational ads scale globally, while keeping paid tiers clean.",
+        "analysis_zh": "此擴展加速免費用戶變現以支持更廣泛存取，並有朝向年化10億美元廣告收入的路徑。隨著對話式廣告全球擴展，將測試用戶信任，同時保持付費方案純淨。",
+        "quote": "Since we launched ads just over eight months ago, over 100,000 advertisers have run campaigns on ChatGPT. Today, we’re expanding ChatGPT Ads to 26 additional countries, extending availability to 89 countries worldwide.",
+        "quote_zh": "自約八個月前推出廣告以來，已有超過10萬廣告主在ChatGPT運行活動。今天，我們將ChatGPT廣告擴展至26個額外國家，將可用性延伸至全球89國。",
         "importance": 3,
-        "first_seen": "2026-10-20T14:00:00Z",
-        "updated_at": "2026-10-21T10:35:01.302332+00:00",
+        "first_seen": "2026-10-21T00:00:00Z",
+        "updated_at": "2026-10-21T16:35:01.535557+00:00",
         "links": [
           {
-            "label": "Google Public Sector announcement",
-            "url": "https://blog.google/"
-          },
-          {
-            "label": "Google Cloud Blog",
-            "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services"
-          },
-          {
-            "label": "PR Newswire",
-            "url": "https://www.prnewswire.com/news-releases/google-public-sector-launches-gemini-for-government-services-302913759.html"
-          },
-          {
-            "label": "Google Cloud Blog",
-            "url": "https://cloud.google.com/blog/topics/public-sector/announcements-and-highlights-from-google-public-sector-summit-2026"
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries/"
           }
         ]
       }
     ],
-    "meta": [
-      {
-        "id": "meta-muse-share-privacy-pause-2026-10-20",
-        "story_id": "meta-muse-share-privacy-pause-2026-10-20",
-        "category": "meta",
-        "source_type": "news",
-        "title_en": "Meta Pauses Muse Chat Sharing After 6,800 Links Found in Public DNS",
-        "title_zh": "Meta 因公開 DNS 發現 6800 個連結而暫停 Muse 聊天分享",
-        "summary_en": "Meta paused the conversation-sharing feature in its Muse AI agent after security firm Claroc reported finding more than 6,800 share hostnames via passive DNS. Shares used conversation titles in hostnames under cf.metaaiusercontent.com, making unlisted links discoverable; sampled pages included sensitive personal and business documents. Meta said it paused the feature while reviewing the report and considering discovery changes; Claroc confirmed sampled links no longer opened.",
-        "summary_zh": "Meta 暫停其 Muse AI 代理的對話分享功能，因安全公司 Claroc 報告透過被動 DNS 發現超過 6800 個分享主機名稱。分享使用對話標題作為 cf.metaaiusercontent.com 下的主機名稱，使未列出連結可被發現；抽樣頁面包含敏感個人與商業文件。Meta 表示在審查報告並考慮發現機制變更時暫停功能；Claroc 確認抽樣連結已無法開啟。",
-        "analysis_en": "The incident highlights how link-based sharing in agentic tools can leak via infrastructure side channels even without account compromise. It underscores the need for stronger access controls as AI assistants handle more sensitive workflows.",
-        "analysis_zh": "事件凸顯代理工具中的連結分享即使無帳號入侵，也可能透過基礎設施側通道外洩。隨著 AI 助理處理更多敏感工作流程，更強存取控制的需求更為明確。",
-        "quote": "However, we’ve paused this functionality while we review this report and consider changes to how these links can be discovered.",
-        "quote_zh": "然而，我們已暫停此功能，同時審查此報告並考慮如何改變這些連結的發現方式。",
-        "importance": 3,
-        "first_seen": "2026-10-20T18:07:00Z",
-        "updated_at": "2026-10-21T10:35:01.302332+00:00",
-        "links": [
-          {
-            "label": "The Verge / Ars Technica / Claroc",
-            "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats"
-          }
-        ]
-      }
-    ],
-    "xai": [
-      {
-        "id": "spacex-q3-2026-super-intelligence-revenue-2026-10-20",
-        "story_id": "spacex-q3-2026-super-intelligence-revenue-2026-10-20",
-        "category": "xai",
-        "source_type": "mixed",
-        "title_en": "SpaceX Q3 Results: Super Intelligence Revenue Hits $7.6B, Over Half of Total",
-        "title_zh": "SpaceX 第三季財報：超智慧營收達 76 億美元，超過總額一半",
-        "summary_en": "SpaceX reported unaudited Q3 2026 revenue of $14.6 billion (up 161% year-over-year) and net income of $4.4 billion. Its Super Intelligence segment (covering Grok, Cursor, Grok Bot, and neocloud compute) generated $7.56 billion, roughly 52% of total revenue, with most AI income currently from compute rentals rather than product sales.",
-        "summary_zh": "SpaceX 報告未經審計的 2026 年第三季營收 146 億美元（年增 161%）、淨利 44 億美元。其超智慧部門（涵蓋 Grok、Cursor、Grok Bot 與新雲端算力）產生 75.6 億美元，約佔總營收 52%，目前多數 AI 收入來自算力租賃而非產品銷售。",
-        "analysis_en": "The numbers confirm SpaceX’s pivot toward AI infrastructure and software as its largest revenue line. Sustainability depends on whether compute rentals convert into durable Grok product revenue and how capital-intensive growth remains.",
-        "analysis_zh": "數字確認 SpaceX 正轉向以 AI 基礎設施與軟體為最大營收來源。持續性取決於算力租賃能否轉化為持久的 Grok 產品營收，以及成長的資本密集程度。",
-        "quote": "Delivered revenue of $14.6 billion, up 161% year-over-year, fueled by our Super Intelligence (SI) segment and accelerated growth in Connectivity.",
-        "quote_zh": "實現營收 146 億美元，年增 161%，由我們的 Super Intelligence（SI）部門與連通性加速成長所帶動。",
-        "importance": 4,
-        "first_seen": "2026-10-20T20:00:00Z",
-        "updated_at": "2026-10-21T10:35:01.302332+00:00",
-        "links": [
-          {
-            "label": "SpaceX / industry reporting",
-            "url": "https://artificialprism.com/daily/2026-10-21/"
-          },
-          {
-            "label": "The Verge",
-            "url": "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings"
-          },
-          {
-            "label": "Stock Titan / SEC filing coverage",
-            "url": "https://www.stocktitan.net/articles/spacex-q3-2026-earnings-ai-revenue-passes-starlink"
-          },
-          {
-            "label": "Reuters",
-            "url": "https://www.reuters.com/business/media-telecom/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-2026-10-20/"
-          },
-          {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/"
-          }
-        ]
-      }
-    ],
+    "anthropic": [],
+    "google": [],
+    "meta": [],
+    "xai": [],
     "frontier_other": [
       {
-        "id": "deepseek-opensources-deepinfer-2026-10-20",
-        "story_id": "deepseek-opensources-deepinfer-2026-10-20",
+        "id": "mistral-nvidia-industrial-engineering-2026-10-21",
+        "story_id": "mistral-nvidia-industrial-engineering-2026-10-21",
         "category": "frontier_other",
         "source_type": "official_blog",
-        "title_en": "DeepSeek Open-Sources DeepInfer, Its Production Inference Engine",
-        "title_zh": "DeepSeek 開源 DeepInfer 生產推論引擎",
-        "summary_en": "DeepSeek open-sourced DeepInfer under Apache 2.0, the high-performance inference framework that powers its production services including DeepSeek-V4.1-Flash. It supports NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs, includes optimizations such as those built primarily on vLLM, and targets both Chinese and U.S. hardware.",
-        "summary_zh": "DeepSeek 以 Apache 2.0 開源 DeepInfer，這是驅動其生產服務（含 DeepSeek-V4.1-Flash）的高效能推論框架。它支援 NVIDIA SM100 GPU 與華為昇騰 950 NPU，包含主要基於 vLLM 的優化，並針對中美硬體。",
-        "analysis_en": "Releasing a production serving stack increases pressure on Western inference providers and dual-tracks Chinese and U.S. hardware. Completeness is limited: key production tuning and full stack details may remain proprietary.",
-        "analysis_zh": "釋出生產服務堆疊增加對西方推論供應商的壓力，並雙軌中美硬體。完整性有限：關鍵生產調優與完整堆疊細節可能仍為專有。",
-        "quote": "We're sharing our production stack to help the community lower compute costs, reduce energy use, and make AI more affordable.",
-        "quote_zh": "我們分享生產堆疊，協助社群降低算力成本、減少能源使用，並讓AI更可負擔。",
+        "title_en": "Mistral and NVIDIA collaborate on AI-native industrial engineering workflows",
+        "title_zh": "Mistral與NVIDIA合作開發AI原生工業工程工作流程",
+        "summary_en": "Mistral announced a collaboration with NVIDIA to integrate Mistral Large 4 and physics AI capabilities with NVIDIA accelerated computing, CUDA-X, Warp and Omniverse. The work will produce public benchmarks and open datasets for physics models and agentic AI in CAE and EDA, targeting aerospace, automotive and semiconductor applications.",
+        "summary_zh": "Mistral宣布與NVIDIA合作，將Mistral Large 4與物理AI能力整合至NVIDIA加速運算、CUDA-X、Warp與Omniverse。此工作將產出物理模型與CAE/EDA代理AI的公開基準與開放數據集，針對航太、汽車與半導體應用。",
+        "analysis_en": "This pairs Europe’s leading open-weight frontier model with NVIDIA’s simulation stack to target domain-specific agentic workflows, potentially standardizing evaluations that general leaderboards miss. Impact depends on the quality and adoption of the forthcoming benchmarks.",
+        "analysis_zh": "這將歐洲領先開放權重前沿模型與NVIDIA模擬堆疊配對，針對領域特定代理工作流程，可能標準化一般排行榜遺漏的評估。影響取決於即將推出的基準品質與採用程度。",
+        "quote": "With Mistral's open-weight models and physics AI capabilities, combined with NVIDIA’s accelerated computing stack, we’re giving engineers faster simulation cycles, as well as open benchmarks rigorous enough to validate agents on real CAE and EDA work.",
+        "quote_zh": "結合Mistral的開放權重模型與物理AI能力，以及NVIDIA的加速運算堆疊，我們正為工程師提供更快的模擬週期，以及足以在真實CAE與EDA工作上驗證代理的嚴格開放基準。",
         "importance": 3,
-        "first_seen": "2026-10-20T16:00:00Z",
-        "updated_at": "2026-10-21T10:35:01.302332+00:00",
+        "first_seen": "2026-10-21T00:00:00Z",
+        "updated_at": "2026-10-21T16:35:01.535557+00:00",
         "links": [
-          {
-            "label": "DeepSeek announcement",
-            "url": "https://www.deepseek.com/"
-          },
-          {
-            "label": "MarkTechPost",
-            "url": "https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework/"
-          },
-          {
-            "label": "TechTarget",
-            "url": "https://www.techtarget.com/ai/news/366652363/DeepSeek-makes-DeepInfer-open-source-to-cut-AI-costs"
-          }
-        ]
-      },
-      {
-        "id": "mistral-voxtral-3-2026-10-20",
-        "story_id": "mistral-voxtral-3-2026-10-20",
-        "category": "frontier_other",
-        "source_type": "official_blog",
-        "title_en": "Mistral Releases Voxtral 3 Speech Models and Voice Agent SDK",
-        "title_zh": "Mistral 發布 Voxtral 3 語音模型與語音代理 SDK",
-        "summary_en": "Mistral announced Voxtral 3, a family of state-of-the-art transcription (Mini/Small, including realtime) and speech models supporting 50+ languages, plus a LiveKit-based voice agent SDK that streams listening, reasoning with tool calls, and speaking. It offers dual cloud/self-host options with competitive latency claims.",
-        "summary_zh": "Mistral 宣布 Voxtral 3，一系列最先進的轉錄（Mini/Small，含即時）與語音模型，支援 50 多種語言，外加基於 LiveKit 的語音代理 SDK，可串流聆聽、以工具呼叫推理與說話。它提供雲端/自架雙選項，並宣稱具競爭延遲。",
-        "analysis_en": "The release strengthens Mistral’s position in sovereign and cost-efficient voice agents. Independent verification of latency and quality claims against closed models remains limited so far.",
-        "analysis_zh": "發布強化 Mistral 在主權與高成本效益語音代理的地位。對比閉源模型的延遲與品質宣稱，獨立驗證目前仍有限。",
-        "quote": "Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API.",
-        "quote_zh": "介紹Voxtral 3：驅動Mistral新語音代理API的頂尖轉錄與語音模型。",
-        "importance": 3,
-        "first_seen": "2026-10-20T16:00:12Z",
-        "updated_at": "2026-10-21T10:35:01.302332+00:00",
-        "links": [
-          {
-            "label": "Mistral announcement",
-            "url": "https://mistral.ai/"
-          },
           {
             "label": "Mistral Blog",
-            "url": "https://mistral.ai/news/voxtral-3/"
+            "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/"
           },
           {
             "label": "Mistral AI on X",
-            "url": "https://x.com/MistralAI/status/2112574615318876178"
-          }
-        ]
-      },
-      {
-        "id": "nvidia-isaac-robotics-expansion-2026-10-21",
-        "story_id": "nvidia-isaac-robotics-expansion-2026-10-21",
-        "category": "frontier_other",
-        "source_type": "official_blog",
-        "title_en": "NVIDIA Advances Isaac Platform with New Reference Humanoid and Robotics Tools",
-        "title_zh": "NVIDIA 以新參考人形機器人與工具推進 Isaac 平台",
-        "summary_en": "NVIDIA announced a major expansion of its open Isaac robotics development platform, adding a reference humanoid (Agile ONE SN from Agile Robots, built on Isaac GR00T and powered by Jetson Thor), new datasets, runtime, and updates to its robot learning framework. The move supports training, simulation, and deployment of humanoid skills, with partners across Europe’s robotics ecosystem.",
-        "summary_zh": "NVIDIA 宣布大幅擴展其開放 Isaac 機器人開發平台，加入參考人形機器人（Agile Robots 的 Agile ONE SN，基於 Isaac GR00T 並由 Jetson Thor 驅動）、新資料集、運行時與機器人學習框架更新。此舉支援人形技能的訓練、模擬與部署，並有歐洲機器人生態系夥伴參與。",
-        "analysis_en": "The expansion lowers barriers to humanoid research by offering integrated open hardware-software reference designs. Real-world impact depends on how quickly partners achieve reliable sim-to-real transfer and production deployments.",
-        "analysis_zh": "擴展透過整合開放硬體軟體參考設計降低人形研究門檻。實際影響取決於夥伴多快達成可靠的模擬到現實轉移與生產部署。",
-        "quote": "NVIDIA today announced a major expansion of the NVIDIA Isaac™ open robotics development platform, adding a reference humanoid, datasets and runtime, along with updates to its robot learning framework.",
-        "quote_zh": "NVIDIA 今日宣布大幅擴展 NVIDIA Isaac™ 開放機器人開發平台，加入參考人形機器人、資料集與運行時，以及機器人學習框架更新。",
-        "importance": 3,
-        "first_seen": "2026-10-21T10:30:00Z",
-        "updated_at": "2026-10-21T10:35:01.302332+00:00",
-        "links": [
-          {
-            "label": "NVIDIA Newsroom",
-            "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data"
+            "url": "https://x.com/MistralAI/status/2112870261829603589"
           }
         ]
       }
     ]
   },
-  "brief_en": "Labs push AI into biotech workflows and physical robotics while advancing policy and privacy controls. Anthropic’s scorpion-toxin binders and OpenAI’s Orchestra Bio acquisition deepen life-sciences agents; SpaceX reports AI revenue dominance; NVIDIA expands Isaac robotics tools; Meta pauses Muse sharing over DNS exposure; OpenAI adds longer API caching.",
-  "brief_zh": "大廠將 AI 推進生技流程與實體機器人，同時強化政策與隱私控管。Anthropic 蠍毒結合蛋白與 OpenAI 收購 Orchestra Bio 深化生命科學代理；SpaceX 報告 AI 營收主導；NVIDIA 擴展 Isaac 機器人工具；Meta 因 DNS 外洩暫停 Muse 分享；OpenAI 延長 API 快取。",
-  "updated_at": "2026-10-21T10:35:01.302332+00:00"
+  "brief_en": "OpenAI partners with Google Cloud to distribute frontier models and Codex, expands ChatGPT Ads to 89 countries, deploys thousands of GPT-Rosalind agents to analyze brain CRISPR data in 32 minutes, and leads coordinated disclosure of critical PHP vulnerabilities found via models. Mistral and NVIDIA collaborate on AI-native industrial engineering workflows and open benchmarks.",
+  "brief_zh": "OpenAI與Google Cloud合作分發前沿模型與Codex，ChatGPT廣告擴展至89國，部署數千GPT-Rosalind代理在32分鐘內分析大腦CRISPR數據，並主導由模型發現的關鍵PHP漏洞協調披露。Mistral與NVIDIA合作開發工業工程AI工作流程與開放基準。",
+  "updated_at": "2026-10-21T16:35:01.535557+00:00"
 }
