@@ -24,6 +24,14 @@
       "item_count": 12,
       "updated_count": 10,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-10-23T10:35:01.787674+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 12,
+      "updated_count": 12,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -34,16 +42,20 @@
       "source_type": "mixed",
       "title_en": "METR and Redwood publish embedded audit of OpenAI agent monitoring",
       "title_zh": "METR與Redwood發布OpenAI代理監控嵌入式審計",
-      "summary_en": "METR and Redwood Research published findings from a three-week on-premises pilot (21 July–11 August 2026) assessing OpenAI’s internal misalignment monitoring for agents. They estimated monitoring coverage at roughly 75–94% for strong models and identified novel vulnerabilities, including an exploit that could hide hundreds of actions.",
-      "summary_zh": "METR與Redwood Research發布三週現場試點（2026年7月21日至8月11日）評估結果，檢視OpenAI內部代理錯位監控系統。他們估計強模型監控覆蓋率約75–94%，並發現新漏洞，包括可隱藏數百動作的漏洞。",
-      "analysis_en": "The exercise demonstrates progress on third-party deep access but remains a limited, high-level public disclosure of a historical system snapshot. It underscores ongoing challenges in achieving reliable coverage against sophisticated agent behaviors.",
-      "analysis_zh": "此演習展現第三方深度存取的進展，但仍是歷史系統快照的有限高階公開。它凸顯在對抗複雜代理行為時，達成可靠覆蓋的持續挑戰。",
-      "quote": "This summer, we invited METR and Redwood Research to pilot an embedded evaluation of our internal monitoring system, providing deep access to our infrastructure over three weeks.",
-      "quote_zh": "今年夏天，我們邀請METR與Redwood Research進行內部監控系統的嵌入式評估試點，提供三週對基礎設施的深度存取。",
+      "summary_en": "METR and Redwood Research published findings from a three-week on-premises pilot (21 July–11 August 2026) assessing OpenAI’s internal misalignment monitoring for agents. They estimated monitoring coverage at roughly 75–94% for strong models and identified novel vulnerabilities in the historical system; OpenAI states production-impacting issues were patched.",
+      "summary_zh": "METR與Redwood Research發布為期三週（2026年7月21日至8月11日）的現場試點結果，評估OpenAI內部代理錯位監控系統。他們估計強模型監控覆蓋率約75–94%，並發現歷史系統中的新漏洞；OpenAI表示影響生產的問題已修補。",
+      "analysis_en": "The exercise demonstrates progress on third-party deep access but remains a limited, high-level public disclosure of a historical system snapshot. It underscores ongoing challenges in achieving robust, real-time monitoring against capable agents.",
+      "analysis_zh": "此演習展現第三方深度存取的進展，但仍僅為歷史系統快照的有限高層公開揭露。它凸顯對抗能力強代理時實現穩健即時監控的持續挑戰。",
+      "quote": "We estimated that roughly 75–94% of agentic internal Responses API traffic from models at least as strong as GPT-5.5 was eligible for monitoring.",
+      "quote_zh": "我們估計，至少與GPT-5.5同等強度模型的代理內部Responses API流量約有75–94%符合監控資格。",
       "importance": 4,
       "first_seen": "2026-10-22T15:26:00Z",
-      "updated_at": "2026-10-23T04:35:01.640021+00:00",
+      "updated_at": "2026-10-23T10:35:01.787674+00:00",
       "links": [
+        {
+          "label": "METR Blog",
+          "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
+        },
         {
           "label": "OpenAI on X",
           "url": "https://x.com/OpenAI/status/2113298833392496746"
@@ -57,10 +69,6 @@
           "url": "https://www.reuters.com/technology/openai/"
         },
         {
-          "label": "METR Blog",
-          "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
-        },
-        {
           "label": "Reuters",
           "url": "https://www.reuters.com/business/ai-safety-group-metr-finds-flaws-openais-internal-monitoring-system-2026-10-22/"
         }
@@ -70,21 +78,21 @@
       "id": "anthropic-claude-duet-preview-2026-10-21",
       "story_id": "anthropic-claude-duet-preview-2026-10-21",
       "category": "anthropic",
-      "source_type": "official_blog",
+      "source_type": "product",
       "title_en": "Anthropic opens Claude Duet research preview",
-      "title_zh": "Anthropic開啟Claude Duet研究預覽",
-      "summary_en": "Anthropic launched a research preview of Claude Duet, a standalone proactive agent app (iOS, Android, and claude.ai) powered by Claude Opus 5.5. It delivers morning briefs, works on a cloud computer with marketplace connectors, and requires user approval for sensitive actions; initially for US Pro/Max subscribers.",
-      "summary_zh": "Anthropic推出Claude Duet研究預覽，這是由Claude Opus 5.5驅動的獨立主動代理App（iOS、Android與claude.ai）。它提供晨間簡報、在雲端電腦上透過市場連接器工作，並對敏感動作要求用戶核准；初期僅限美國Pro/Max訂閱者。",
-      "analysis_en": "Claude Duet joins a crowded field of always-on agents (including OpenAI Dots, Meta Muse, and Grok Bot). Its focus on professional/small-business workflows and explicit approval gates differentiates it, though real adoption will depend on reliability and limit consumption.",
-      "analysis_zh": "Claude Duet加入總是在線代理的擁擠領域（包括OpenAI Dots、Meta Muse與Grok Bot）。其專注專業/小型企業工作流程與明確核准關卡形成差異，但實際採用將取決於可靠性與額度消耗。",
+      "title_zh": "Anthropic開放Claude Duet研究預覽",
+      "summary_en": "Anthropic launched a research preview of Claude Duet, a standalone proactive agent app (iOS, Android, and claude.ai) powered by Claude Opus 5.5. It delivers morning briefs, works on a cloud computer with marketplace connectors, and requires user approval for high-stakes actions.",
+      "summary_zh": "Anthropic推出Claude Duet研究預覽，這是一款由Claude Opus 5.5驅動的獨立主動代理應用（iOS、Android與claude.ai）。它提供晨間簡報、在雲端電腦上運作並連接市集插件，高風險行動需使用者核准。",
+      "analysis_en": "Claude Duet joins a crowded field of always-on agents (including OpenAI Dots, Meta Muse, and Grok Bot). Its focus on professional/small-business workflows and explicit approval gates differentiates it from more personal assistants.",
+      "analysis_zh": "Claude Duet加入始終在線代理的擁擠領域（包括OpenAI Dots、Meta Muse與Grok Bot）。其專注專業/小型企業工作流程與明確核准閘道，與更個人化的助理有所區別。",
       "quote": "A research preview is available by waitlist today, starting with US Pro and Max subscribers.",
       "quote_zh": "研究預覽今日透過候補名單開放，先從美國Pro與Max訂閱者開始。",
       "importance": 4,
       "first_seen": "2026-10-21T20:00:00Z",
-      "updated_at": "2026-10-23T04:35:01.640021+00:00",
+      "updated_at": "2026-10-23T10:35:01.787674+00:00",
       "links": [
         {
-          "label": "Anthropic Product Announcements",
+          "label": "Anthropic / Claude Product",
           "url": "https://claude.com/resources/product-announcements"
         },
         {
@@ -105,26 +113,26 @@
       "id": "anthropic-formal-verification-oss-2026-10-22",
       "story_id": "anthropic-formal-verification-oss-2026-10-22",
       "category": "anthropic",
-      "source_type": "official_blog",
+      "source_type": "official_x",
       "title_en": "Anthropic uses Claude for large-scale formal software verification",
-      "title_zh": "Anthropic使用Claude進行大規模軟體形式驗證",
-      "summary_en": "Anthropic’s Frontier Red Team, collaborating with Theorem Labs, used Claude to formally prove no-crash security properties at the RISC-V assembly level for 239 entry points across 123 OSS-Fuzz open-source libraries (about 180 million lines of Rocq). Claude also discovered and patched bugs during the process.",
-      "summary_zh": "Anthropic的Frontier Red Team與Theorem Labs合作，使用Claude在RISC-V組語層級為123個OSS-Fuzz開源函式庫的239個進入點正式證明無崩潰安全屬性（約1.8億行Rocq）。過程中Claude也發現並修補了漏洞。",
-      "analysis_en": "This shows LLMs can make previously impractical formal verification feasible at production scale, shifting from finding bugs to proving their absence under defined conditions. Remaining trusted components (semantics, checker) and scope limits mean it is a strong but incomplete step toward guaranteed security.",
-      "analysis_zh": "這顯示LLM可使先前不切實際的形式驗證在生產規模變得可行，從找漏洞轉向在定義條件下證明其不存在。剩餘可信元件（語意、檢查器）與範圍限制意味這是朝向保證安全的強但未完成步驟。",
-      "quote": "Using Claude, we proved security properties at the assembly code level (RISC-V) in over 100 real-world open-source software libraries.",
-      "quote_zh": "使用Claude，我們在超過100個真實世界開源軟體函式庫中，於組語層級（RISC-V）證明了安全屬性。",
+      "title_zh": "Anthropic使用Claude進行大規模形式軟體驗證",
+      "summary_en": "Anthropic’s Frontier Red Team, collaborating with Theorem Labs, used Claude to formally prove no-crash security properties at the RISC-V assembly level for 239 entry points across 123 OSS-Fuzz open-source libraries (about 180 million lines of code) over a few weeks.",
+      "summary_zh": "Anthropic的Frontier Red Team與Theorem Labs合作，使用Claude在數週內於RISC-V組合語言層級，為123個OSS-Fuzz開源函式庫的239個入口點（約1.8億行程式碼）形式證明無崩潰安全屬性。",
+      "analysis_en": "This shows LLMs can make previously impractical formal verification feasible at production scale, shifting from finding bugs to proving their absence under defined conditions. Remaining limits include proof coverage and unpatched vulnerabilities not released.",
+      "analysis_zh": "這顯示LLM可讓先前不切實際的形式驗證在生產規模可行，從找bug轉向證明定義條件下的缺席。剩餘限制包括證明覆蓋範圍與未發布的未修補漏洞。",
+      "quote": "With AI models, however, this is beginning to change. In collaboration with @theoremlabs, we used Claude to prove security properties in over one hundred real-world open-source libraries.",
+      "quote_zh": "然而，有了AI模型，這開始改變。我們與@theoremlabs合作，使用Claude在超過一百個真實開源函式庫中證明安全屬性。",
       "importance": 4,
       "first_seen": "2026-10-22T22:01:00Z",
-      "updated_at": "2026-10-23T04:35:01.640021+00:00",
+      "updated_at": "2026-10-23T10:35:01.787674+00:00",
       "links": [
+        {
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2113390212911083894"
+        },
         {
           "label": "Anthropic Research",
           "url": "https://www.anthropic.com/research/formal-verification"
-        },
-        {
-          "label": "AnthropicAI on X",
-          "url": "https://x.com/AnthropicAI/status/2113390212911083894"
         }
       ]
     },
@@ -134,16 +142,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI explains Forward Deployed Engineering",
-      "title_zh": "OpenAI說明前向部署工程",
+      "title_zh": "OpenAI說明Forward Deployed Engineering",
       "summary_en": "OpenAI published a post by Colin Jarvis, Head of Forward Deployed Engineering, describing how FDE teams embed with customers to close the ‘deployment gap’ between model capabilities and reliable production use, focusing on the hardest enterprise problems.",
-      "summary_zh": "OpenAI發布由前向部署工程主管Colin Jarvis撰寫的文章，說明FDE團隊如何嵌入客戶以縮小模型能力與可靠生產使用間的「部署差距」，聚焦最困難的企業問題。",
-      "analysis_en": "This formalizes a services-heavy deployment model that has become standard among frontier labs as pure API access proves insufficient for complex enterprise workflows. It signals OpenAI’s push into high-touch enterprise adoption.",
-      "analysis_zh": "這將服務密集型部署模式正式化，隨著純API存取對複雜企業工作流程不足，已成為前沿實驗室的標準。它顯示OpenAI推進高接觸企業採用。",
+      "summary_zh": "OpenAI發布Forward Deployed Engineering主管Colin Jarvis的文章，描述FDE團隊如何嵌入客戶，縮小模型能力與可靠生產使用間的「部署差距」，專注最困難的企業問題。",
+      "analysis_en": "This formalizes a services-heavy deployment model that has become standard among frontier labs as pure API access proves insufficient for complex enterprise workflows. It signals OpenAI’s continued investment in hands-on customer success.",
+      "analysis_zh": "這將服務重型部署模型正式化，隨著純API存取不足以應付複雜企業工作流程，已成為前沿實驗室標準。它顯示OpenAI持續投資實地客戶成功。",
       "quote": "I founded the team in early 2025 to close what we call “the deployment gap”: the distance between what models appear capable of and what people can reliably use to do their work.",
       "quote_zh": "我在 2025 年初成立這個團隊，以縮小我們所稱的「部署差距」：模型看似能做到的與人們能可靠用來完成工作的距離。",
       "importance": 3,
       "first_seen": "2026-10-22T08:00:00Z",
-      "updated_at": "2026-10-23T04:35:01.640021+00:00",
+      "updated_at": "2026-10-23T10:35:01.787674+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -157,16 +165,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "Uber deploys ChatGPT Work to all 30,000 employees",
-      "title_zh": "Uber將ChatGPT Work部署給全部30,000名員工",
-      "summary_en": "Uber and OpenAI expanded their partnership so ChatGPT Work reaches the company’s entire global workforce of about 30,000 people, after an earlier pilot with 1,000 employees (mostly non-engineers) who used it for data analysis, localization, and other tasks.",
-      "summary_zh": "Uber與OpenAI擴大合作，使ChatGPT Work覆蓋公司全球約30,000名員工，此前已有1,000名員工（多為非工程師）試點用於資料分析、本地化等任務。",
+      "title_zh": "Uber將ChatGPT Work部署至全體30,000名員工",
+      "summary_en": "Uber and OpenAI expanded their partnership so ChatGPT Work reaches the company’s entire global workforce of about 30,000 people, after an earlier pilot with 1,000 employees (mostly non-engineers) who used it for data analysis, localization, and more.",
+      "summary_zh": "Uber與OpenAI擴大合作，讓ChatGPT Work覆蓋公司約30,000名全球員工，先前試點1,000名員工（多為非工程師）用於資料分析、在地化等。",
       "analysis_en": "A large-scale enterprise agent rollout tests real-world utility and adoption friction beyond pilots. Success or friction here will inform how quickly similar agent products scale across large organizations.",
-      "analysis_zh": "大規模企業代理推出測試超越試點的真實效用與採用摩擦。此處的成功或摩擦將影響類似代理產品在大型組織中的擴展速度。",
+      "analysis_zh": "大規模企業代理推出測試試點之外的真實效用與採用摩擦。此處成功或摩擦將影響類似代理產品在大型組織擴展的速度。",
       "quote": "",
       "quote_zh": "",
       "importance": 3,
       "first_seen": "2026-10-22T16:00:00Z",
-      "updated_at": "2026-10-23T04:35:01.640021+00:00",
+      "updated_at": "2026-10-23T10:35:01.787674+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -188,19 +196,19 @@
       "category": "xai",
       "source_type": "official_blog",
       "title_en": "SpaceXSI launches Super Intelligence Partner Network",
-      "title_zh": "SpaceXSI推出超級智慧合作夥伴網路",
-      "summary_en": "SpaceXSI introduced its official Partner Network for companies building products, solutions, and services with Grok. It includes Transformation Partners (for enterprise deployment) and Marketplace Partners (for plugins and integrations); more than 130 companies joined early access.",
-      "summary_zh": "SpaceXSI推出官方合作夥伴網路，供與Grok建立產品、解決方案與服務的公司使用。包含轉型合作夥伴（企業部署）與市場合作夥伴（外掛與整合）；超過130家公司參與早期存取。",
-      "analysis_en": "The network formalizes an ecosystem play around Grok as SpaceXSI scales enterprise reach. Early participation by firms such as NVIDIA and Snowflake will indicate whether it can compete with other labs’ partner programs.",
-      "analysis_zh": "此網路正式化圍繞Grok的生態系統佈局，隨著SpaceXSI擴大企業觸及。NVIDIA與Snowflake等早期參與將顯示它能否與其他實驗室的合作夥伴計畫競爭。",
-      "quote": "Today, we’re introducing the SpaceX Super Intelligence Partner Network, our official program for companies building products, solutions, and services with Grok for our joint prospects and customers.",
-      "quote_zh": "今日，我們推出SpaceX Super Intelligence Partner Network，這是我們的官方計畫，供與Grok為共同潛在客戶與客戶建立產品、解決方案與服務的公司使用。",
+      "title_zh": "SpaceXSI推出Super Intelligence Partner Network",
+      "summary_en": "SpaceXSI introduced its official Partner Network for companies building products, solutions, and services with Grok. It includes Transformation Partners (for enterprise deployment) and Marketplace Partners (for plugins and integrations); more than 130 companies participated in early access.",
+      "summary_zh": "SpaceXSI推出官方合作夥伴網路，供以Grok打造產品、解決方案與服務的公司使用。包括Transformation Partners（企業部署）與Marketplace Partners（插件與整合）；超過130家公司參與早期存取。",
+      "analysis_en": "The network formalizes an ecosystem play around Grok as SpaceXSI scales enterprise reach. Early participation by firms such as NVIDIA and Snowflake will indicate whether it can compete with established partner programs.",
+      "analysis_zh": "此網路正式化Grok周邊的生態系策略，隨SpaceXSI擴展企業觸及。NVIDIA與Snowflake等公司的早期參與將顯示其是否能與既有合作夥伴計畫競爭。",
+      "quote": "Today, we’re introducing the SpaceX Super Intelligence Partner Network, our official program for companies building products, solutions, and services with Grok.",
+      "quote_zh": "今天，我們推出SpaceX Super Intelligence Partner Network，這是我們與Grok共同打造產品、解決方案與服務公司的官方計畫。",
       "importance": 3,
       "first_seen": "2026-10-22T08:00:00Z",
-      "updated_at": "2026-10-23T04:35:01.640021+00:00",
+      "updated_at": "2026-10-23T10:35:01.787674+00:00",
       "links": [
         {
-          "label": "SpaceXSI News",
+          "label": "xAI / SpaceXSI News",
           "url": "https://x.ai/news/partnernetworkannouncement"
         }
       ]
@@ -209,19 +217,23 @@
       "id": "xai-grok-bot-phone-apps-2026-10-22",
       "story_id": "xai-grok-bot-phone-apps-2026-10-22",
       "category": "xai",
-      "source_type": "official_x",
+      "source_type": "product",
       "title_en": "Grok Bot gains phone app integrations",
-      "title_zh": "Grok Bot獲得手機App整合",
+      "title_zh": "Grok Bot新增手機應用整合",
       "summary_en": "Grok Bot announced it can now use Calendar, Reminders, Contacts, and more apps on users’ phones, with the feature rolling out on iOS and Android. Elon Musk highlighted the integration.",
-      "summary_zh": "Grok Bot宣布現在可使用用戶手機上的行事曆、提醒、聯絡人等更多App，功能正在iOS與Android推出。Elon Musk強調此整合。",
-      "analysis_en": "Native phone integrations move Grok Bot closer to ambient personal assistance, testing whether chaining actions across apps with clear confirmation can overcome prior assistant limitations. Privacy and permission models will determine practical uptake.",
-      "analysis_zh": "原生手機整合使Grok Bot更接近環境個人助理，測試跨App串接動作並有明確確認能否克服先前助理限制。隱私與權限模型將決定實際採用。",
+      "summary_zh": "Grok Bot宣布現在可使用使用者手機上的行事曆、提醒、聯絡人等應用，功能正於iOS與Android推出。Elon Musk強調此整合。",
+      "analysis_en": "Native phone integrations move Grok Bot closer to ambient personal assistance, testing whether chaining actions across apps with clear confirmation can overcome prior assistant limitations.",
+      "analysis_zh": "原生手機整合讓Grok Bot更接近環境個人助理，測試透過明確確認跨應用串接行動是否能克服先前助理限制。",
       "quote": "Grok Bot can now use Calendar, Reminders, Contacts, and more apps on your phone. Rolling out now on iOS and Android.",
       "quote_zh": "Grok Bot現在可使用你手機上的行事曆、提醒、聯絡人等更多App。正在iOS與Android推出。",
       "importance": 3,
       "first_seen": "2026-10-22T22:14:00Z",
-      "updated_at": "2026-10-23T04:35:01.640021+00:00",
+      "updated_at": "2026-10-23T10:35:01.787674+00:00",
       "links": [
+        {
+          "label": "xAI Product",
+          "url": "https://x.ai/news"
+        },
         {
           "label": "Grok Bot on X",
           "url": "https://x.com/bot/status/2113393684209176718"
@@ -240,14 +252,14 @@
       "title_en": "Mistral and NVIDIA collaborate on AI for industrial engineering",
       "title_zh": "Mistral與NVIDIA合作工業工程AI",
       "summary_en": "Mistral and NVIDIA announced a collaboration to integrate Mistral Large 4 with NVIDIA accelerated computing and physics tools for faster simulations and closed-loop AI-driven design. They plan public benchmarks, open datasets, and Omniverse integration.",
-      "summary_zh": "Mistral與NVIDIA宣布合作，將Mistral Large 4與NVIDIA加速運算及物理工具整合，以加速模擬與閉環AI驅動設計。他們計畫公開基準、開放資料集與Omniverse整合。",
-      "analysis_en": "The partnership targets a domain where simulation and physical constraints matter, beyond general-purpose LLMs. Delivery of the promised open benchmarks will be key to assessing progress.",
-      "analysis_zh": "此合作鎖定模擬與物理約束重要的領域，超越通用LLM。承諾的開放基準交付將是評估進展的關鍵。",
+      "summary_zh": "Mistral與NVIDIA宣布合作，整合Mistral Large 4與NVIDIA加速運算及物理工具，實現更快模擬與閉環AI驅動設計。他們計畫公開基準、開放資料集與Omniverse整合。",
+      "analysis_en": "The partnership targets a domain where simulation and physical constraints matter, beyond general-purpose LLMs. Delivery of the promised open benchmarks will be key to assessing practical gains.",
+      "analysis_zh": "此合作瞄準模擬與物理約束重要的領域，超越通用LLM。承諾的公開基準交付將是評估實際收益的關鍵。",
       "quote": "Mistral is collaborating with NVIDIA to develop a new generation of AI-native engineering workflows powered by NVIDIA accelerated computing.",
       "quote_zh": "Mistral正與NVIDIA合作，開發由NVIDIA加速計算驅動的新一代AI原生工程工作流。",
       "importance": 3,
       "first_seen": "2026-10-21T20:00:00Z",
-      "updated_at": "2026-10-23T04:35:01.640021+00:00",
+      "updated_at": "2026-10-23T10:35:01.787674+00:00",
       "links": [
         {
           "label": "Mistral News",
@@ -263,18 +275,18 @@
       "id": "openai-decisions-api-ga-2026-10-22",
       "story_id": "openai-decisions-api-ga-2026-10-22",
       "category": "openai",
-      "source_type": "product",
+      "source_type": "official_blog",
       "title_en": "OpenAI makes Decisions API generally available",
-      "title_zh": "OpenAI使Decisions API正式上線",
-      "summary_en": "OpenAI made the Decisions API generally available on 22 October 2026. Built on GPT-6 Luna, it returns typed bounded answers (probability, choice, or score) for classification, routing, and prioritization from text, images, or JSON, with higher question limits and prompt caching.",
-      "summary_zh": "OpenAI於2026年10月22日使Decisions API正式上線。基於GPT-6 Luna，它從文字、影像或JSON返回類型化有界答案（機率、選擇或分數），用於分類、路由與優先排序，並提高問題上限與提示快取。",
-      "analysis_en": "Specialized decision endpoints lower latency and cost for high-volume agent routing compared with full generation. Independent benchmarks will show whether the speed claims hold against alternatives.",
-      "analysis_zh": "專門決策端點相較完整生成，降低高量代理路由的延遲與成本。獨立基準將顯示速度聲稱是否成立。",
-      "quote": "Today, we’re making the Decisions API generally available. Built with GPT‑6 Luna, the Decisions API focuses Luna’s intelligence on questions with bounded answers, helping applications and agents make near real-time decisions from text, images, and structured inputs up to 10x faster than GPT‑6 Luna through the Responses API.",
-      "quote_zh": "今日，我們正式推出 Decisions API。基於 GPT‑6 Luna 建構，Decisions API 將 Luna 的智慧聚焦於有界答案的問題，幫助應用與代理從文字、影像與結構化輸入做出近即時決策，比透過 Responses API 的 GPT‑6 Luna 快達 10 倍。",
+      "title_zh": "OpenAI正式推出Decisions API",
+      "summary_en": "OpenAI made the Decisions API generally available on 22 October 2026. Built on GPT-6 Luna, it returns typed bounded answers (probability, choice, or score) for classification, routing, and prioritization from text, images, or JSON, with higher speed and lower cost than full Responses API calls.",
+      "summary_zh": "OpenAI於2026年10月22日正式推出Decisions API。基於GPT-6 Luna，它從文字、圖像或JSON返回有界類型答案（機率、選擇或分數），用於分類、路由與優先排序，速度更快、成本低於完整Responses API呼叫。",
+      "analysis_en": "Specialized decision endpoints lower latency and cost for high-volume agent routing compared with full generation. Independent benchmarks will show whether the speed claims hold against general models.",
+      "analysis_zh": "專用決策端點相較完整生成，降低高量代理路由的延遲與成本。獨立基準將顯示速度宣稱是否優於通用模型。",
+      "quote": "Today, we’re making the Decisions API generally available. Built with GPT‑6 Luna, the Decisions API focuses Luna’s intelligence on questions with bounded answers, helping applications and agents make near real-time decisions... up to 10x faster.",
+      "quote_zh": "今天，我們正式推出Decisions API。基於GPT‑6 Luna，Decisions API將Luna的智慧聚焦於有界答案問題，幫助應用與代理做出近即時決策……最多快10倍。",
       "importance": 3,
       "first_seen": "2026-10-22T12:00:00Z",
-      "updated_at": "2026-10-23T04:35:01.640021+00:00",
+      "updated_at": "2026-10-23T10:35:01.787674+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -296,19 +308,19 @@
       "category": "google",
       "source_type": "news",
       "title_en": "Google DeepMind researchers resign over military AI contracts",
-      "title_zh": "Google DeepMind研究員因軍方AI合約辭職",
+      "title_zh": "Google DeepMind研究人員因軍事AI合約辭職",
       "summary_en": "BBC reported that Google DeepMind research engineer Sofia Liguori resigned this week and researcher Andreas Kirsch left earlier in October, citing concerns over Google’s AI contracts with the US military (and related Israeli work such as Project Nimbus).",
-      "summary_zh": "BBC報導Google DeepMind研究工程師Sofia Liguori本週辭職，研究員Andreas Kirsch較早於十月離開，理由是對Google與美軍AI合約（及相關以色列工作如Project Nimbus）的擔憂。",
-      "analysis_en": "Public resignations from DeepMind staff highlight persistent internal tension over military applications even as frontier labs expand government contracts. The episode underscores governance challenges inside large labs.",
-      "analysis_zh": "DeepMind員工公開辭職凸顯即使前沿實驗室擴大政府合約，對軍方應用的內部張力持續。此事件強調大型實驗室內部的治理挑戰。",
+      "summary_zh": "BBC報導Google DeepMind研究工程師Sofia Liguori本週辭職，研究人員Andreas Kirsch於10月初離開，理由是對Google與美軍AI合約（及相關以色列工作如Project Nimbus）的擔憂。",
+      "analysis_en": "Public resignations from DeepMind staff highlight persistent internal tension over military applications even as frontier labs expand government contracts. The episode underscores unresolved ethical boundaries in dual-use AI.",
+      "analysis_zh": "DeepMind員工公開辭職凸顯即使前沿實驗室擴展政府合約，對軍事應用的內部緊張仍持續。此事件凸顯雙用AI未解決的倫理界限。",
       "quote": "Realising my company is pushing more and more for AI systems in military operations makes me feel ashamed to work at Google.",
       "quote_zh": "意識到我的公司越來越多地推動軍事行動中的 AI 系統，讓我對在 Google 工作感到羞愧。",
       "importance": 3,
       "first_seen": "2026-10-22T10:00:00Z",
-      "updated_at": "2026-10-23T04:35:01.640021+00:00",
+      "updated_at": "2026-10-23T10:35:01.787674+00:00",
       "links": [
         {
-          "label": "BBC (via secondary reporting)",
+          "label": "BBC",
           "url": "https://www.bbc.com"
         },
         {
@@ -327,17 +339,21 @@
       "category": "anthropic",
       "source_type": "product",
       "title_en": "Anthropic makes Anthropic-managed Claude Platform generally available on Google Cloud",
-      "title_zh": "Anthropic使Anthropic託管Claude Platform在Google Cloud正式上線",
-      "summary_en": "On 22 October 2026 Anthropic announced general availability of Claude Models on Google Cloud (Anthropic managed). Customers get the full Claude Platform feature set (including day-zero betas, Managed Agents, computer use, skills, MCP, etc.) with Google Cloud IAM, billing, and commitment retirement.",
-      "summary_zh": "2026年10月22日Anthropic宣布Claude Models on Google Cloud（Anthropic託管）正式上線。客戶獲得完整Claude Platform功能集（包括第一天beta、Managed Agents、電腦使用、skills、MCP等），搭配Google Cloud IAM、計費與承諾退役。",
-      "analysis_en": "The dual managed options give enterprises clearer choice between day-zero feature parity and data-processor preferences on Google Cloud. It strengthens Google Cloud’s multi-lab model marketplace position.",
-      "analysis_zh": "雙重託管選項給企業在Google Cloud上於第一天功能對等與資料處理偏好間更清晰選擇。它強化Google Cloud的多實驗室模型市場地位。",
+      "title_zh": "Anthropic在Google Cloud正式推出Anthropic管理的Claude平台",
+      "summary_en": "On 22 October 2026 Anthropic announced general availability of Claude Models on Google Cloud (Anthropic managed). Customers get the full Claude Platform feature set (including day-zero betas, Managed Agents, computer use, skills, MCP, etc.) with Google Cloud IAM and billing.",
+      "summary_zh": "2026年10月22日，Anthropic宣布Claude Models on Google Cloud（Anthropic管理）正式可用。客戶獲得完整Claude平台功能集（包括零日測試版、Managed Agents、電腦使用、技能、MCP等），搭配Google Cloud IAM與計費。",
+      "analysis_en": "The dual managed options give enterprises clearer choice between day-zero feature parity and data-processor preferences on Google Cloud. It strengthens Google Cloud’s multi-lab model garden positioning.",
+      "analysis_zh": "雙管理選項讓企業在Google Cloud上於零日功能對等與資料處理偏好間有更清晰選擇。它強化Google Cloud多實驗室模型花園定位。",
       "quote": "Claude Models on Google Cloud (Anthropic managed) is now generally available, giving Google Cloud customers the full set of Claude Platform features, with Google Cloud IAM credentials, billing, and commitment retirement.",
       "quote_zh": "Claude Models on Google Cloud（Anthropic 管理）現已正式推出，讓 Google Cloud 客戶獲得完整 Claude Platform 功能集，搭配 Google Cloud IAM 憑證、計費與承諾抵扣。",
       "importance": 3,
       "first_seen": "2026-10-22T16:00:00Z",
-      "updated_at": "2026-10-23T04:35:01.640021+00:00",
+      "updated_at": "2026-10-23T10:35:01.787674+00:00",
       "links": [
+        {
+          "label": "Claude Platform Docs / Anthropic",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/anthropic-managed"
+        },
         {
           "label": "Claude Platform Release Notes",
           "url": "https://docs.anthropic.com/en/release-notes/overview"
@@ -362,19 +378,19 @@
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google DeepMind releases ForTy forest typology map",
-      "title_zh": "Google DeepMind發布ForTy森林類型地圖",
+      "title_zh": "Google DeepMind發布ForTy森林類型圖",
       "summary_en": "Google DeepMind announced Forest Typology (ForTy), a 10 m resolution map distinguishing natural, planted, and farmed forests, built on AlphaEarth Foundations and years of satellite imagery. The data is available on Google Earth Engine to support deforestation-free supply chains.",
-      "summary_zh": "Google DeepMind宣布Forest Typology（ForTy），10公尺解析度地圖區分自然、種植與農耕森林，基於AlphaEarth Foundations與多年衛星影像。資料在Google Earth Engine上提供，以支援無森林砍伐供應鏈。",
-      "analysis_en": "The release shows continued application of foundational geospatial models to practical environmental monitoring. Independent validation of accuracy across regions will determine its utility for policy and corporate use.",
-      "analysis_zh": "此發布顯示基礎地理空間模型持續應用於實用環境監測。跨區域準確性的獨立驗證將決定其對政策與企業使用的效用。",
+      "summary_zh": "Google DeepMind宣布Forest Typology (ForTy)，一種10米解析度地圖，區分自然、種植與農耕森林，基於AlphaEarth Foundations與多年衛星影像。資料可在Google Earth Engine取得，支援無森林砍伐供應鏈。",
+      "analysis_en": "The release shows continued application of foundational geospatial models to practical environmental monitoring. Independent validation of accuracy across regions will determine its real-world utility.",
+      "analysis_zh": "此發布顯示基礎地理空間模型持續應用於實用環境監測。跨區域準確度的獨立驗證將決定其實用性。",
       "quote": "Meet Forest Typology (ForTy): a 10m map of natural, planted, and farmed forests to help identify deforestation and protect the forests that matter most.",
-      "quote_zh": "認識Forest Typology（ForTy）：自然、種植與農耕森林的10公尺地圖，協助識別森林砍伐並保護最重要的森林。",
+      "quote_zh": "認識Forest Typology (ForTy)：自然、種植與農耕森林的10米地圖，協助辨識森林砍伐並保護最重要的森林。",
       "importance": 2,
       "first_seen": "2026-10-22T14:38:00Z",
-      "updated_at": "2026-10-23T04:35:01.640021+00:00",
+      "updated_at": "2026-10-23T10:35:01.787674+00:00",
       "links": [
         {
-          "label": "Google DeepMind on X",
+          "label": "Google DeepMind on X / Blog",
           "url": "https://x.com/GoogleDeepMind/status/2113278710795153785"
         },
         {
@@ -393,16 +409,20 @@
         "source_type": "mixed",
         "title_en": "METR and Redwood publish embedded audit of OpenAI agent monitoring",
         "title_zh": "METR與Redwood發布OpenAI代理監控嵌入式審計",
-        "summary_en": "METR and Redwood Research published findings from a three-week on-premises pilot (21 July–11 August 2026) assessing OpenAI’s internal misalignment monitoring for agents. They estimated monitoring coverage at roughly 75–94% for strong models and identified novel vulnerabilities, including an exploit that could hide hundreds of actions.",
-        "summary_zh": "METR與Redwood Research發布三週現場試點（2026年7月21日至8月11日）評估結果，檢視OpenAI內部代理錯位監控系統。他們估計強模型監控覆蓋率約75–94%，並發現新漏洞，包括可隱藏數百動作的漏洞。",
-        "analysis_en": "The exercise demonstrates progress on third-party deep access but remains a limited, high-level public disclosure of a historical system snapshot. It underscores ongoing challenges in achieving reliable coverage against sophisticated agent behaviors.",
-        "analysis_zh": "此演習展現第三方深度存取的進展，但仍是歷史系統快照的有限高階公開。它凸顯在對抗複雜代理行為時，達成可靠覆蓋的持續挑戰。",
-        "quote": "This summer, we invited METR and Redwood Research to pilot an embedded evaluation of our internal monitoring system, providing deep access to our infrastructure over three weeks.",
-        "quote_zh": "今年夏天，我們邀請METR與Redwood Research進行內部監控系統的嵌入式評估試點，提供三週對基礎設施的深度存取。",
+        "summary_en": "METR and Redwood Research published findings from a three-week on-premises pilot (21 July–11 August 2026) assessing OpenAI’s internal misalignment monitoring for agents. They estimated monitoring coverage at roughly 75–94% for strong models and identified novel vulnerabilities in the historical system; OpenAI states production-impacting issues were patched.",
+        "summary_zh": "METR與Redwood Research發布為期三週（2026年7月21日至8月11日）的現場試點結果，評估OpenAI內部代理錯位監控系統。他們估計強模型監控覆蓋率約75–94%，並發現歷史系統中的新漏洞；OpenAI表示影響生產的問題已修補。",
+        "analysis_en": "The exercise demonstrates progress on third-party deep access but remains a limited, high-level public disclosure of a historical system snapshot. It underscores ongoing challenges in achieving robust, real-time monitoring against capable agents.",
+        "analysis_zh": "此演習展現第三方深度存取的進展，但仍僅為歷史系統快照的有限高層公開揭露。它凸顯對抗能力強代理時實現穩健即時監控的持續挑戰。",
+        "quote": "We estimated that roughly 75–94% of agentic internal Responses API traffic from models at least as strong as GPT-5.5 was eligible for monitoring.",
+        "quote_zh": "我們估計，至少與GPT-5.5同等強度模型的代理內部Responses API流量約有75–94%符合監控資格。",
         "importance": 4,
         "first_seen": "2026-10-22T15:26:00Z",
-        "updated_at": "2026-10-23T04:35:01.640021+00:00",
+        "updated_at": "2026-10-23T10:35:01.787674+00:00",
         "links": [
+          {
+            "label": "METR Blog",
+            "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
+          },
           {
             "label": "OpenAI on X",
             "url": "https://x.com/OpenAI/status/2113298833392496746"
@@ -416,10 +436,6 @@
             "url": "https://www.reuters.com/technology/openai/"
           },
           {
-            "label": "METR Blog",
-            "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
-          },
-          {
             "label": "Reuters",
             "url": "https://www.reuters.com/business/ai-safety-group-metr-finds-flaws-openais-internal-monitoring-system-2026-10-22/"
           }
@@ -431,16 +447,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI explains Forward Deployed Engineering",
-        "title_zh": "OpenAI說明前向部署工程",
+        "title_zh": "OpenAI說明Forward Deployed Engineering",
         "summary_en": "OpenAI published a post by Colin Jarvis, Head of Forward Deployed Engineering, describing how FDE teams embed with customers to close the ‘deployment gap’ between model capabilities and reliable production use, focusing on the hardest enterprise problems.",
-        "summary_zh": "OpenAI發布由前向部署工程主管Colin Jarvis撰寫的文章，說明FDE團隊如何嵌入客戶以縮小模型能力與可靠生產使用間的「部署差距」，聚焦最困難的企業問題。",
-        "analysis_en": "This formalizes a services-heavy deployment model that has become standard among frontier labs as pure API access proves insufficient for complex enterprise workflows. It signals OpenAI’s push into high-touch enterprise adoption.",
-        "analysis_zh": "這將服務密集型部署模式正式化，隨著純API存取對複雜企業工作流程不足，已成為前沿實驗室的標準。它顯示OpenAI推進高接觸企業採用。",
+        "summary_zh": "OpenAI發布Forward Deployed Engineering主管Colin Jarvis的文章，描述FDE團隊如何嵌入客戶，縮小模型能力與可靠生產使用間的「部署差距」，專注最困難的企業問題。",
+        "analysis_en": "This formalizes a services-heavy deployment model that has become standard among frontier labs as pure API access proves insufficient for complex enterprise workflows. It signals OpenAI’s continued investment in hands-on customer success.",
+        "analysis_zh": "這將服務重型部署模型正式化，隨著純API存取不足以應付複雜企業工作流程，已成為前沿實驗室標準。它顯示OpenAI持續投資實地客戶成功。",
         "quote": "I founded the team in early 2025 to close what we call “the deployment gap”: the distance between what models appear capable of and what people can reliably use to do their work.",
         "quote_zh": "我在 2025 年初成立這個團隊，以縮小我們所稱的「部署差距」：模型看似能做到的與人們能可靠用來完成工作的距離。",
         "importance": 3,
         "first_seen": "2026-10-22T08:00:00Z",
-        "updated_at": "2026-10-23T04:35:01.640021+00:00",
+        "updated_at": "2026-10-23T10:35:01.787674+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -454,16 +470,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "Uber deploys ChatGPT Work to all 30,000 employees",
-        "title_zh": "Uber將ChatGPT Work部署給全部30,000名員工",
-        "summary_en": "Uber and OpenAI expanded their partnership so ChatGPT Work reaches the company’s entire global workforce of about 30,000 people, after an earlier pilot with 1,000 employees (mostly non-engineers) who used it for data analysis, localization, and other tasks.",
-        "summary_zh": "Uber與OpenAI擴大合作，使ChatGPT Work覆蓋公司全球約30,000名員工，此前已有1,000名員工（多為非工程師）試點用於資料分析、本地化等任務。",
+        "title_zh": "Uber將ChatGPT Work部署至全體30,000名員工",
+        "summary_en": "Uber and OpenAI expanded their partnership so ChatGPT Work reaches the company’s entire global workforce of about 30,000 people, after an earlier pilot with 1,000 employees (mostly non-engineers) who used it for data analysis, localization, and more.",
+        "summary_zh": "Uber與OpenAI擴大合作，讓ChatGPT Work覆蓋公司約30,000名全球員工，先前試點1,000名員工（多為非工程師）用於資料分析、在地化等。",
         "analysis_en": "A large-scale enterprise agent rollout tests real-world utility and adoption friction beyond pilots. Success or friction here will inform how quickly similar agent products scale across large organizations.",
-        "analysis_zh": "大規模企業代理推出測試超越試點的真實效用與採用摩擦。此處的成功或摩擦將影響類似代理產品在大型組織中的擴展速度。",
+        "analysis_zh": "大規模企業代理推出測試試點之外的真實效用與採用摩擦。此處成功或摩擦將影響類似代理產品在大型組織擴展的速度。",
         "quote": "",
         "quote_zh": "",
         "importance": 3,
         "first_seen": "2026-10-22T16:00:00Z",
-        "updated_at": "2026-10-23T04:35:01.640021+00:00",
+        "updated_at": "2026-10-23T10:35:01.787674+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -483,18 +499,18 @@
         "id": "openai-decisions-api-ga-2026-10-22",
         "story_id": "openai-decisions-api-ga-2026-10-22",
         "category": "openai",
-        "source_type": "product",
+        "source_type": "official_blog",
         "title_en": "OpenAI makes Decisions API generally available",
-        "title_zh": "OpenAI使Decisions API正式上線",
-        "summary_en": "OpenAI made the Decisions API generally available on 22 October 2026. Built on GPT-6 Luna, it returns typed bounded answers (probability, choice, or score) for classification, routing, and prioritization from text, images, or JSON, with higher question limits and prompt caching.",
-        "summary_zh": "OpenAI於2026年10月22日使Decisions API正式上線。基於GPT-6 Luna，它從文字、影像或JSON返回類型化有界答案（機率、選擇或分數），用於分類、路由與優先排序，並提高問題上限與提示快取。",
-        "analysis_en": "Specialized decision endpoints lower latency and cost for high-volume agent routing compared with full generation. Independent benchmarks will show whether the speed claims hold against alternatives.",
-        "analysis_zh": "專門決策端點相較完整生成，降低高量代理路由的延遲與成本。獨立基準將顯示速度聲稱是否成立。",
-        "quote": "Today, we’re making the Decisions API generally available. Built with GPT‑6 Luna, the Decisions API focuses Luna’s intelligence on questions with bounded answers, helping applications and agents make near real-time decisions from text, images, and structured inputs up to 10x faster than GPT‑6 Luna through the Responses API.",
-        "quote_zh": "今日，我們正式推出 Decisions API。基於 GPT‑6 Luna 建構，Decisions API 將 Luna 的智慧聚焦於有界答案的問題，幫助應用與代理從文字、影像與結構化輸入做出近即時決策，比透過 Responses API 的 GPT‑6 Luna 快達 10 倍。",
+        "title_zh": "OpenAI正式推出Decisions API",
+        "summary_en": "OpenAI made the Decisions API generally available on 22 October 2026. Built on GPT-6 Luna, it returns typed bounded answers (probability, choice, or score) for classification, routing, and prioritization from text, images, or JSON, with higher speed and lower cost than full Responses API calls.",
+        "summary_zh": "OpenAI於2026年10月22日正式推出Decisions API。基於GPT-6 Luna，它從文字、圖像或JSON返回有界類型答案（機率、選擇或分數），用於分類、路由與優先排序，速度更快、成本低於完整Responses API呼叫。",
+        "analysis_en": "Specialized decision endpoints lower latency and cost for high-volume agent routing compared with full generation. Independent benchmarks will show whether the speed claims hold against general models.",
+        "analysis_zh": "專用決策端點相較完整生成，降低高量代理路由的延遲與成本。獨立基準將顯示速度宣稱是否優於通用模型。",
+        "quote": "Today, we’re making the Decisions API generally available. Built with GPT‑6 Luna, the Decisions API focuses Luna’s intelligence on questions with bounded answers, helping applications and agents make near real-time decisions... up to 10x faster.",
+        "quote_zh": "今天，我們正式推出Decisions API。基於GPT‑6 Luna，Decisions API將Luna的智慧聚焦於有界答案問題，幫助應用與代理做出近即時決策……最多快10倍。",
         "importance": 3,
         "first_seen": "2026-10-22T12:00:00Z",
-        "updated_at": "2026-10-23T04:35:01.640021+00:00",
+        "updated_at": "2026-10-23T10:35:01.787674+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -516,21 +532,21 @@
         "id": "anthropic-claude-duet-preview-2026-10-21",
         "story_id": "anthropic-claude-duet-preview-2026-10-21",
         "category": "anthropic",
-        "source_type": "official_blog",
+        "source_type": "product",
         "title_en": "Anthropic opens Claude Duet research preview",
-        "title_zh": "Anthropic開啟Claude Duet研究預覽",
-        "summary_en": "Anthropic launched a research preview of Claude Duet, a standalone proactive agent app (iOS, Android, and claude.ai) powered by Claude Opus 5.5. It delivers morning briefs, works on a cloud computer with marketplace connectors, and requires user approval for sensitive actions; initially for US Pro/Max subscribers.",
-        "summary_zh": "Anthropic推出Claude Duet研究預覽，這是由Claude Opus 5.5驅動的獨立主動代理App（iOS、Android與claude.ai）。它提供晨間簡報、在雲端電腦上透過市場連接器工作，並對敏感動作要求用戶核准；初期僅限美國Pro/Max訂閱者。",
-        "analysis_en": "Claude Duet joins a crowded field of always-on agents (including OpenAI Dots, Meta Muse, and Grok Bot). Its focus on professional/small-business workflows and explicit approval gates differentiates it, though real adoption will depend on reliability and limit consumption.",
-        "analysis_zh": "Claude Duet加入總是在線代理的擁擠領域（包括OpenAI Dots、Meta Muse與Grok Bot）。其專注專業/小型企業工作流程與明確核准關卡形成差異，但實際採用將取決於可靠性與額度消耗。",
+        "title_zh": "Anthropic開放Claude Duet研究預覽",
+        "summary_en": "Anthropic launched a research preview of Claude Duet, a standalone proactive agent app (iOS, Android, and claude.ai) powered by Claude Opus 5.5. It delivers morning briefs, works on a cloud computer with marketplace connectors, and requires user approval for high-stakes actions.",
+        "summary_zh": "Anthropic推出Claude Duet研究預覽，這是一款由Claude Opus 5.5驅動的獨立主動代理應用（iOS、Android與claude.ai）。它提供晨間簡報、在雲端電腦上運作並連接市集插件，高風險行動需使用者核准。",
+        "analysis_en": "Claude Duet joins a crowded field of always-on agents (including OpenAI Dots, Meta Muse, and Grok Bot). Its focus on professional/small-business workflows and explicit approval gates differentiates it from more personal assistants.",
+        "analysis_zh": "Claude Duet加入始終在線代理的擁擠領域（包括OpenAI Dots、Meta Muse與Grok Bot）。其專注專業/小型企業工作流程與明確核准閘道，與更個人化的助理有所區別。",
         "quote": "A research preview is available by waitlist today, starting with US Pro and Max subscribers.",
         "quote_zh": "研究預覽今日透過候補名單開放，先從美國Pro與Max訂閱者開始。",
         "importance": 4,
         "first_seen": "2026-10-21T20:00:00Z",
-        "updated_at": "2026-10-23T04:35:01.640021+00:00",
+        "updated_at": "2026-10-23T10:35:01.787674+00:00",
         "links": [
           {
-            "label": "Anthropic Product Announcements",
+            "label": "Anthropic / Claude Product",
             "url": "https://claude.com/resources/product-announcements"
           },
           {
@@ -551,26 +567,26 @@
         "id": "anthropic-formal-verification-oss-2026-10-22",
         "story_id": "anthropic-formal-verification-oss-2026-10-22",
         "category": "anthropic",
-        "source_type": "official_blog",
+        "source_type": "official_x",
         "title_en": "Anthropic uses Claude for large-scale formal software verification",
-        "title_zh": "Anthropic使用Claude進行大規模軟體形式驗證",
-        "summary_en": "Anthropic’s Frontier Red Team, collaborating with Theorem Labs, used Claude to formally prove no-crash security properties at the RISC-V assembly level for 239 entry points across 123 OSS-Fuzz open-source libraries (about 180 million lines of Rocq). Claude also discovered and patched bugs during the process.",
-        "summary_zh": "Anthropic的Frontier Red Team與Theorem Labs合作，使用Claude在RISC-V組語層級為123個OSS-Fuzz開源函式庫的239個進入點正式證明無崩潰安全屬性（約1.8億行Rocq）。過程中Claude也發現並修補了漏洞。",
-        "analysis_en": "This shows LLMs can make previously impractical formal verification feasible at production scale, shifting from finding bugs to proving their absence under defined conditions. Remaining trusted components (semantics, checker) and scope limits mean it is a strong but incomplete step toward guaranteed security.",
-        "analysis_zh": "這顯示LLM可使先前不切實際的形式驗證在生產規模變得可行，從找漏洞轉向在定義條件下證明其不存在。剩餘可信元件（語意、檢查器）與範圍限制意味這是朝向保證安全的強但未完成步驟。",
-        "quote": "Using Claude, we proved security properties at the assembly code level (RISC-V) in over 100 real-world open-source software libraries.",
-        "quote_zh": "使用Claude，我們在超過100個真實世界開源軟體函式庫中，於組語層級（RISC-V）證明了安全屬性。",
+        "title_zh": "Anthropic使用Claude進行大規模形式軟體驗證",
+        "summary_en": "Anthropic’s Frontier Red Team, collaborating with Theorem Labs, used Claude to formally prove no-crash security properties at the RISC-V assembly level for 239 entry points across 123 OSS-Fuzz open-source libraries (about 180 million lines of code) over a few weeks.",
+        "summary_zh": "Anthropic的Frontier Red Team與Theorem Labs合作，使用Claude在數週內於RISC-V組合語言層級，為123個OSS-Fuzz開源函式庫的239個入口點（約1.8億行程式碼）形式證明無崩潰安全屬性。",
+        "analysis_en": "This shows LLMs can make previously impractical formal verification feasible at production scale, shifting from finding bugs to proving their absence under defined conditions. Remaining limits include proof coverage and unpatched vulnerabilities not released.",
+        "analysis_zh": "這顯示LLM可讓先前不切實際的形式驗證在生產規模可行，從找bug轉向證明定義條件下的缺席。剩餘限制包括證明覆蓋範圍與未發布的未修補漏洞。",
+        "quote": "With AI models, however, this is beginning to change. In collaboration with @theoremlabs, we used Claude to prove security properties in over one hundred real-world open-source libraries.",
+        "quote_zh": "然而，有了AI模型，這開始改變。我們與@theoremlabs合作，使用Claude在超過一百個真實開源函式庫中證明安全屬性。",
         "importance": 4,
         "first_seen": "2026-10-22T22:01:00Z",
-        "updated_at": "2026-10-23T04:35:01.640021+00:00",
+        "updated_at": "2026-10-23T10:35:01.787674+00:00",
         "links": [
+          {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI/status/2113390212911083894"
+          },
           {
             "label": "Anthropic Research",
             "url": "https://www.anthropic.com/research/formal-verification"
-          },
-          {
-            "label": "AnthropicAI on X",
-            "url": "https://x.com/AnthropicAI/status/2113390212911083894"
           }
         ]
       },
@@ -580,17 +596,21 @@
         "category": "anthropic",
         "source_type": "product",
         "title_en": "Anthropic makes Anthropic-managed Claude Platform generally available on Google Cloud",
-        "title_zh": "Anthropic使Anthropic託管Claude Platform在Google Cloud正式上線",
-        "summary_en": "On 22 October 2026 Anthropic announced general availability of Claude Models on Google Cloud (Anthropic managed). Customers get the full Claude Platform feature set (including day-zero betas, Managed Agents, computer use, skills, MCP, etc.) with Google Cloud IAM, billing, and commitment retirement.",
-        "summary_zh": "2026年10月22日Anthropic宣布Claude Models on Google Cloud（Anthropic託管）正式上線。客戶獲得完整Claude Platform功能集（包括第一天beta、Managed Agents、電腦使用、skills、MCP等），搭配Google Cloud IAM、計費與承諾退役。",
-        "analysis_en": "The dual managed options give enterprises clearer choice between day-zero feature parity and data-processor preferences on Google Cloud. It strengthens Google Cloud’s multi-lab model marketplace position.",
-        "analysis_zh": "雙重託管選項給企業在Google Cloud上於第一天功能對等與資料處理偏好間更清晰選擇。它強化Google Cloud的多實驗室模型市場地位。",
+        "title_zh": "Anthropic在Google Cloud正式推出Anthropic管理的Claude平台",
+        "summary_en": "On 22 October 2026 Anthropic announced general availability of Claude Models on Google Cloud (Anthropic managed). Customers get the full Claude Platform feature set (including day-zero betas, Managed Agents, computer use, skills, MCP, etc.) with Google Cloud IAM and billing.",
+        "summary_zh": "2026年10月22日，Anthropic宣布Claude Models on Google Cloud（Anthropic管理）正式可用。客戶獲得完整Claude平台功能集（包括零日測試版、Managed Agents、電腦使用、技能、MCP等），搭配Google Cloud IAM與計費。",
+        "analysis_en": "The dual managed options give enterprises clearer choice between day-zero feature parity and data-processor preferences on Google Cloud. It strengthens Google Cloud’s multi-lab model garden positioning.",
+        "analysis_zh": "雙管理選項讓企業在Google Cloud上於零日功能對等與資料處理偏好間有更清晰選擇。它強化Google Cloud多實驗室模型花園定位。",
         "quote": "Claude Models on Google Cloud (Anthropic managed) is now generally available, giving Google Cloud customers the full set of Claude Platform features, with Google Cloud IAM credentials, billing, and commitment retirement.",
         "quote_zh": "Claude Models on Google Cloud（Anthropic 管理）現已正式推出，讓 Google Cloud 客戶獲得完整 Claude Platform 功能集，搭配 Google Cloud IAM 憑證、計費與承諾抵扣。",
         "importance": 3,
         "first_seen": "2026-10-22T16:00:00Z",
-        "updated_at": "2026-10-23T04:35:01.640021+00:00",
+        "updated_at": "2026-10-23T10:35:01.787674+00:00",
         "links": [
+          {
+            "label": "Claude Platform Docs / Anthropic",
+            "url": "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/anthropic-managed"
+          },
           {
             "label": "Claude Platform Release Notes",
             "url": "https://docs.anthropic.com/en/release-notes/overview"
@@ -617,19 +637,19 @@
         "category": "google",
         "source_type": "news",
         "title_en": "Google DeepMind researchers resign over military AI contracts",
-        "title_zh": "Google DeepMind研究員因軍方AI合約辭職",
+        "title_zh": "Google DeepMind研究人員因軍事AI合約辭職",
         "summary_en": "BBC reported that Google DeepMind research engineer Sofia Liguori resigned this week and researcher Andreas Kirsch left earlier in October, citing concerns over Google’s AI contracts with the US military (and related Israeli work such as Project Nimbus).",
-        "summary_zh": "BBC報導Google DeepMind研究工程師Sofia Liguori本週辭職，研究員Andreas Kirsch較早於十月離開，理由是對Google與美軍AI合約（及相關以色列工作如Project Nimbus）的擔憂。",
-        "analysis_en": "Public resignations from DeepMind staff highlight persistent internal tension over military applications even as frontier labs expand government contracts. The episode underscores governance challenges inside large labs.",
-        "analysis_zh": "DeepMind員工公開辭職凸顯即使前沿實驗室擴大政府合約，對軍方應用的內部張力持續。此事件強調大型實驗室內部的治理挑戰。",
+        "summary_zh": "BBC報導Google DeepMind研究工程師Sofia Liguori本週辭職，研究人員Andreas Kirsch於10月初離開，理由是對Google與美軍AI合約（及相關以色列工作如Project Nimbus）的擔憂。",
+        "analysis_en": "Public resignations from DeepMind staff highlight persistent internal tension over military applications even as frontier labs expand government contracts. The episode underscores unresolved ethical boundaries in dual-use AI.",
+        "analysis_zh": "DeepMind員工公開辭職凸顯即使前沿實驗室擴展政府合約，對軍事應用的內部緊張仍持續。此事件凸顯雙用AI未解決的倫理界限。",
         "quote": "Realising my company is pushing more and more for AI systems in military operations makes me feel ashamed to work at Google.",
         "quote_zh": "意識到我的公司越來越多地推動軍事行動中的 AI 系統，讓我對在 Google 工作感到羞愧。",
         "importance": 3,
         "first_seen": "2026-10-22T10:00:00Z",
-        "updated_at": "2026-10-23T04:35:01.640021+00:00",
+        "updated_at": "2026-10-23T10:35:01.787674+00:00",
         "links": [
           {
-            "label": "BBC (via secondary reporting)",
+            "label": "BBC",
             "url": "https://www.bbc.com"
           },
           {
@@ -648,19 +668,19 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google DeepMind releases ForTy forest typology map",
-        "title_zh": "Google DeepMind發布ForTy森林類型地圖",
+        "title_zh": "Google DeepMind發布ForTy森林類型圖",
         "summary_en": "Google DeepMind announced Forest Typology (ForTy), a 10 m resolution map distinguishing natural, planted, and farmed forests, built on AlphaEarth Foundations and years of satellite imagery. The data is available on Google Earth Engine to support deforestation-free supply chains.",
-        "summary_zh": "Google DeepMind宣布Forest Typology（ForTy），10公尺解析度地圖區分自然、種植與農耕森林，基於AlphaEarth Foundations與多年衛星影像。資料在Google Earth Engine上提供，以支援無森林砍伐供應鏈。",
-        "analysis_en": "The release shows continued application of foundational geospatial models to practical environmental monitoring. Independent validation of accuracy across regions will determine its utility for policy and corporate use.",
-        "analysis_zh": "此發布顯示基礎地理空間模型持續應用於實用環境監測。跨區域準確性的獨立驗證將決定其對政策與企業使用的效用。",
+        "summary_zh": "Google DeepMind宣布Forest Typology (ForTy)，一種10米解析度地圖，區分自然、種植與農耕森林，基於AlphaEarth Foundations與多年衛星影像。資料可在Google Earth Engine取得，支援無森林砍伐供應鏈。",
+        "analysis_en": "The release shows continued application of foundational geospatial models to practical environmental monitoring. Independent validation of accuracy across regions will determine its real-world utility.",
+        "analysis_zh": "此發布顯示基礎地理空間模型持續應用於實用環境監測。跨區域準確度的獨立驗證將決定其實用性。",
         "quote": "Meet Forest Typology (ForTy): a 10m map of natural, planted, and farmed forests to help identify deforestation and protect the forests that matter most.",
-        "quote_zh": "認識Forest Typology（ForTy）：自然、種植與農耕森林的10公尺地圖，協助識別森林砍伐並保護最重要的森林。",
+        "quote_zh": "認識Forest Typology (ForTy)：自然、種植與農耕森林的10米地圖，協助辨識森林砍伐並保護最重要的森林。",
         "importance": 2,
         "first_seen": "2026-10-22T14:38:00Z",
-        "updated_at": "2026-10-23T04:35:01.640021+00:00",
+        "updated_at": "2026-10-23T10:35:01.787674+00:00",
         "links": [
           {
-            "label": "Google DeepMind on X",
+            "label": "Google DeepMind on X / Blog",
             "url": "https://x.com/GoogleDeepMind/status/2113278710795153785"
           },
           {
@@ -678,19 +698,19 @@
         "category": "xai",
         "source_type": "official_blog",
         "title_en": "SpaceXSI launches Super Intelligence Partner Network",
-        "title_zh": "SpaceXSI推出超級智慧合作夥伴網路",
-        "summary_en": "SpaceXSI introduced its official Partner Network for companies building products, solutions, and services with Grok. It includes Transformation Partners (for enterprise deployment) and Marketplace Partners (for plugins and integrations); more than 130 companies joined early access.",
-        "summary_zh": "SpaceXSI推出官方合作夥伴網路，供與Grok建立產品、解決方案與服務的公司使用。包含轉型合作夥伴（企業部署）與市場合作夥伴（外掛與整合）；超過130家公司參與早期存取。",
-        "analysis_en": "The network formalizes an ecosystem play around Grok as SpaceXSI scales enterprise reach. Early participation by firms such as NVIDIA and Snowflake will indicate whether it can compete with other labs’ partner programs.",
-        "analysis_zh": "此網路正式化圍繞Grok的生態系統佈局，隨著SpaceXSI擴大企業觸及。NVIDIA與Snowflake等早期參與將顯示它能否與其他實驗室的合作夥伴計畫競爭。",
-        "quote": "Today, we’re introducing the SpaceX Super Intelligence Partner Network, our official program for companies building products, solutions, and services with Grok for our joint prospects and customers.",
-        "quote_zh": "今日，我們推出SpaceX Super Intelligence Partner Network，這是我們的官方計畫，供與Grok為共同潛在客戶與客戶建立產品、解決方案與服務的公司使用。",
+        "title_zh": "SpaceXSI推出Super Intelligence Partner Network",
+        "summary_en": "SpaceXSI introduced its official Partner Network for companies building products, solutions, and services with Grok. It includes Transformation Partners (for enterprise deployment) and Marketplace Partners (for plugins and integrations); more than 130 companies participated in early access.",
+        "summary_zh": "SpaceXSI推出官方合作夥伴網路，供以Grok打造產品、解決方案與服務的公司使用。包括Transformation Partners（企業部署）與Marketplace Partners（插件與整合）；超過130家公司參與早期存取。",
+        "analysis_en": "The network formalizes an ecosystem play around Grok as SpaceXSI scales enterprise reach. Early participation by firms such as NVIDIA and Snowflake will indicate whether it can compete with established partner programs.",
+        "analysis_zh": "此網路正式化Grok周邊的生態系策略，隨SpaceXSI擴展企業觸及。NVIDIA與Snowflake等公司的早期參與將顯示其是否能與既有合作夥伴計畫競爭。",
+        "quote": "Today, we’re introducing the SpaceX Super Intelligence Partner Network, our official program for companies building products, solutions, and services with Grok.",
+        "quote_zh": "今天，我們推出SpaceX Super Intelligence Partner Network，這是我們與Grok共同打造產品、解決方案與服務公司的官方計畫。",
         "importance": 3,
         "first_seen": "2026-10-22T08:00:00Z",
-        "updated_at": "2026-10-23T04:35:01.640021+00:00",
+        "updated_at": "2026-10-23T10:35:01.787674+00:00",
         "links": [
           {
-            "label": "SpaceXSI News",
+            "label": "xAI / SpaceXSI News",
             "url": "https://x.ai/news/partnernetworkannouncement"
           }
         ]
@@ -699,19 +719,23 @@
         "id": "xai-grok-bot-phone-apps-2026-10-22",
         "story_id": "xai-grok-bot-phone-apps-2026-10-22",
         "category": "xai",
-        "source_type": "official_x",
+        "source_type": "product",
         "title_en": "Grok Bot gains phone app integrations",
-        "title_zh": "Grok Bot獲得手機App整合",
+        "title_zh": "Grok Bot新增手機應用整合",
         "summary_en": "Grok Bot announced it can now use Calendar, Reminders, Contacts, and more apps on users’ phones, with the feature rolling out on iOS and Android. Elon Musk highlighted the integration.",
-        "summary_zh": "Grok Bot宣布現在可使用用戶手機上的行事曆、提醒、聯絡人等更多App，功能正在iOS與Android推出。Elon Musk強調此整合。",
-        "analysis_en": "Native phone integrations move Grok Bot closer to ambient personal assistance, testing whether chaining actions across apps with clear confirmation can overcome prior assistant limitations. Privacy and permission models will determine practical uptake.",
-        "analysis_zh": "原生手機整合使Grok Bot更接近環境個人助理，測試跨App串接動作並有明確確認能否克服先前助理限制。隱私與權限模型將決定實際採用。",
+        "summary_zh": "Grok Bot宣布現在可使用使用者手機上的行事曆、提醒、聯絡人等應用，功能正於iOS與Android推出。Elon Musk強調此整合。",
+        "analysis_en": "Native phone integrations move Grok Bot closer to ambient personal assistance, testing whether chaining actions across apps with clear confirmation can overcome prior assistant limitations.",
+        "analysis_zh": "原生手機整合讓Grok Bot更接近環境個人助理，測試透過明確確認跨應用串接行動是否能克服先前助理限制。",
         "quote": "Grok Bot can now use Calendar, Reminders, Contacts, and more apps on your phone. Rolling out now on iOS and Android.",
         "quote_zh": "Grok Bot現在可使用你手機上的行事曆、提醒、聯絡人等更多App。正在iOS與Android推出。",
         "importance": 3,
         "first_seen": "2026-10-22T22:14:00Z",
-        "updated_at": "2026-10-23T04:35:01.640021+00:00",
+        "updated_at": "2026-10-23T10:35:01.787674+00:00",
         "links": [
+          {
+            "label": "xAI Product",
+            "url": "https://x.ai/news"
+          },
           {
             "label": "Grok Bot on X",
             "url": "https://x.com/bot/status/2113393684209176718"
@@ -732,14 +756,14 @@
         "title_en": "Mistral and NVIDIA collaborate on AI for industrial engineering",
         "title_zh": "Mistral與NVIDIA合作工業工程AI",
         "summary_en": "Mistral and NVIDIA announced a collaboration to integrate Mistral Large 4 with NVIDIA accelerated computing and physics tools for faster simulations and closed-loop AI-driven design. They plan public benchmarks, open datasets, and Omniverse integration.",
-        "summary_zh": "Mistral與NVIDIA宣布合作，將Mistral Large 4與NVIDIA加速運算及物理工具整合，以加速模擬與閉環AI驅動設計。他們計畫公開基準、開放資料集與Omniverse整合。",
-        "analysis_en": "The partnership targets a domain where simulation and physical constraints matter, beyond general-purpose LLMs. Delivery of the promised open benchmarks will be key to assessing progress.",
-        "analysis_zh": "此合作鎖定模擬與物理約束重要的領域，超越通用LLM。承諾的開放基準交付將是評估進展的關鍵。",
+        "summary_zh": "Mistral與NVIDIA宣布合作，整合Mistral Large 4與NVIDIA加速運算及物理工具，實現更快模擬與閉環AI驅動設計。他們計畫公開基準、開放資料集與Omniverse整合。",
+        "analysis_en": "The partnership targets a domain where simulation and physical constraints matter, beyond general-purpose LLMs. Delivery of the promised open benchmarks will be key to assessing practical gains.",
+        "analysis_zh": "此合作瞄準模擬與物理約束重要的領域，超越通用LLM。承諾的公開基準交付將是評估實際收益的關鍵。",
         "quote": "Mistral is collaborating with NVIDIA to develop a new generation of AI-native engineering workflows powered by NVIDIA accelerated computing.",
         "quote_zh": "Mistral正與NVIDIA合作，開發由NVIDIA加速計算驅動的新一代AI原生工程工作流。",
         "importance": 3,
         "first_seen": "2026-10-21T20:00:00Z",
-        "updated_at": "2026-10-23T04:35:01.640021+00:00",
+        "updated_at": "2026-10-23T10:35:01.787674+00:00",
         "links": [
           {
             "label": "Mistral News",
@@ -753,7 +777,7 @@
       }
     ]
   },
-  "brief_en": "OpenAI advanced enterprise agents via Decisions API GA, FDE details, and full Uber ChatGPT Work rollout, plus METR/Redwood monitoring audit findings. Anthropic launched Claude Duet preview, Google Cloud managed platform GA, and large-scale formal verification research with Claude. Google released ForTy forest map amid staff resignations over military contracts. xAI opened Super Intelligence Partner Network and rolled out Grok Bot phone app integrations. Mistral-NVIDIA engineering AI collab continues.",
-  "brief_zh": "OpenAI推進企業代理：Decisions API正式上線、FDE說明與Uber全面部署ChatGPT Work，並公布METR/Redwood監控審計。Anthropic推出Claude Duet預覽、Google Cloud託管平台GA，以及Claude大規模形式驗證研究。Google發布ForTy森林地圖，同時有研究員因軍方合約辭職。xAI開啟超級智慧合作夥伴網路，Grok Bot整合手機App。Mistral與NVIDIA工程AI合作持續。",
-  "updated_at": "2026-10-23T04:35:01.640021+00:00"
+  "brief_en": "Labs advanced agent safety, enterprise deployment, and specialized APIs. METR/Redwood audited OpenAI monitoring; Anthropic previewed Claude Duet and scaled formal verification with Claude; OpenAI GA'd Decisions API and rolled ChatGPT Work to Uber; SpaceXSI launched Grok partner network and phone app integrations.",
+  "brief_zh": "各大實驗室推進代理安全、企業部署與專用API。METR/Redwood審計OpenAI監控；Anthropic預覽Claude Duet並以Claude大規模形式驗證；OpenAI正式推出Decisions API並將ChatGPT Work擴至Uber全體員工；SpaceXSI推出Grok合作夥伴網路與手機應用整合。",
+  "updated_at": "2026-10-23T10:35:01.787674+00:00"
 }
