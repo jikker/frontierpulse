@@ -1,0 +1,406 @@
+{
+  "date": "2026-10-27",
+  "runs": [
+    {
+      "generated_at": "2026-10-26T16:35:01.129255+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 8,
+      "updated_count": 0,
+      "kept_count": 0
+    }
+  ],
+  "items_flat": [
+    {
+      "id": "anthropic-s1-ipo-filing-2026-10-26",
+      "story_id": "anthropic-s1-ipo-filing-2026-10-26",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic files S-1 for proposed Nasdaq IPO under ticker ANT",
+      "title_zh": "Anthropic 向 SEC 提交 S-1，擬以 ANT 代號在納斯達克上市",
+      "summary_en": "Anthropic filed a registration statement on Form S-1 with the SEC relating to a proposed initial public offering of its Class A common stock. It intends to list on the Nasdaq Global Select Market under the symbol ANT. The number of shares and price range have not yet been determined.",
+      "summary_zh": "Anthropic 向美國證券交易委員會提交 Form S-1 註冊聲明，擬首次公開發行其 Class A 普通股。公司計畫以 ANT 代號在納斯達克全球精選市場上市。發行股數與價格區間尚未確定。",
+      "analysis_en": "This is the first public step toward Anthropic becoming a listed company, following earlier confidential filings and rapid revenue growth. Valuation targets and timing remain subject to market conditions and the eventual prospectus details.",
+      "analysis_zh": "這是 Anthropic 走向公開上市的首個公開步驟，先前已有機密申報與快速營收成長。估值目標與時程仍取決於市場狀況與最終招股說明書細節。",
+      "quote": "Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock. Anthropic intends to list its Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.”",
+      "quote_zh": "今天，Anthropic, PBC 向美國證券交易委員會提交 Form S-1 註冊聲明，涉及其 Class A 普通股的擬議首次公開發行。Anthropic 擬以「ANT」代號在納斯達克全球精選市場上市其 Class A 普通股。",
+      "importance": 5,
+      "first_seen": "2026-10-26T16:35:01Z",
+      "updated_at": "2026-10-26T16:35:01.129255+00:00",
+      "links": [
+        {
+          "label": "Anthropic Blog",
+          "url": "https://www.anthropic.com/news/s1-sec"
+        },
+        {
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2114705042817110293"
+        }
+      ]
+    },
+    {
+      "id": "openai-decisions-api-ga-2026-10-22",
+      "story_id": "openai-decisions-api-ga-2026-10-22",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI makes Decisions API generally available with GPT-6 Luna",
+      "title_zh": "OpenAI 將 Decisions API 與 GPT-6 Luna 全面開放",
+      "summary_en": "OpenAI made the Decisions API generally available, built with GPT-6 Luna, for fast, low-cost structured decisions from text, images, and JSON. It supports up to 400 questions per request, prompt caching, and native GPT-Live integration, with no output-token charges.",
+      "summary_zh": "OpenAI 將基於 GPT-6 Luna 的 Decisions API 全面開放，用於從文字、圖像與 JSON 快速、低成本產生結構化決策。每請求最多支援 400 個問題、提示快取，以及原生 GPT-Live 整合，且不收取輸出 token 費用。",
+      "analysis_en": "The API targets high-volume routing and classification inside agents and apps, trading some generality for latency and cost. Early customer reports cite multi-x speedups versus the Responses API, but real-world reliability at scale still needs broader validation.",
+      "analysis_zh": "此 API 針對代理與應用中的高量路由與分類，以延遲與成本換取部分通用性。早期客戶回報相對 Responses API 有數倍加速，但大規模可靠性仍需更多驗證。",
+      "quote": "Today, we’re making the Decisions API generally available. Built with GPT‑6 Luna, the Decisions API focuses Luna’s intelligence on questions with bounded answers, helping applications and agents make near real-time decisions from text, images, and structured inputs up to 10x faster than GPT‑6 Luna through the Responses API.",
+      "quote_zh": "今天，我們將 Decisions API 全面開放。基於 GPT‑6 Luna，Decisions API 將 Luna 的智能聚焦於有界答案的問題，協助應用與代理從文字、圖像與結構化輸入做出近即時決策，速度最高可達透過 Responses API 的 GPT‑6 Luna 的 10 倍。",
+      "importance": 4,
+      "first_seen": "2026-10-26T16:35:01Z",
+      "updated_at": "2026-10-26T16:35:01.129255+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/decisions-api/"
+        }
+      ]
+    },
+    {
+      "id": "openai-securing-frontier-training-2026-10-23",
+      "story_id": "openai-securing-frontier-training-2026-10-23",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI details hardened containment for frontier model training",
+      "title_zh": "OpenAI 詳述前線模型訓練的強化隔離措施",
+      "summary_en": "OpenAI published how it strengthened research environments for frontier-model training and evaluation, implementing no-internet access for training, defense-in-depth isolation, and large-scale red-teaming with its own models. It resumed RL training on October 1 after addressing findings.",
+      "summary_zh": "OpenAI 公布如何強化前線模型訓練與評估的研究環境，實施訓練無網路存取、多層防禦隔離，並以自身模型進行大規模紅隊測試。在處理發現後，於 10 月 1 日恢復強化學習訓練。",
+      "analysis_en": "The post shows concrete operational responses to model containment risks, including offline web caches and microVM isolation. Whether these measures scale as models grow more capable remains an open question.",
+      "analysis_zh": "此文顯示對模型隔離風險的具體營運回應，包括離線網頁快取與微虛擬機隔離。隨著模型能力提升，這些措施能否持續有效仍是開放問題。",
+      "quote": "Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no internet access. We’ve implemented this policy and will maintain it until advances in these safeguards justify broader internet access.",
+      "quote_zh": "基於目前對齊研究、監控系統與網路基礎設施安全的狀態，我們認為負責任的做法是在無網路存取的情況下進行前線模型訓練。我們已實施此政策，並將維持至這些防護措施的進展足以證明更廣泛網路存取的合理性為止。",
+      "importance": 4,
+      "first_seen": "2026-10-26T16:35:01Z",
+      "updated_at": "2026-10-26T16:35:01.129255+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-agent-skills-aaif-2026-10-22",
+      "story_id": "anthropic-agent-skills-aaif-2026-10-22",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic donates Agent Skills standard to Agentic AI Foundation",
+      "title_zh": "Anthropic 將 Agent Skills 標準捐贈給 Agentic AI Foundation",
+      "summary_en": "Anthropic donated the Agent Skills open standard (SKILL.md folders for specialized agent knowledge) to the Agentic AI Foundation under the Linux Foundation. More than 70 platforms including ChatGPT, Cursor, and VS Code have integrated it since December 2025.",
+      "summary_zh": "Anthropic 將 Agent Skills 開放標準（用於專業代理知識的 SKILL.md 資料夾）捐贈給 Linux Foundation 旗下的 Agentic AI Foundation。自 2025 年 12 月以來，包括 ChatGPT、Cursor 與 VS Code 在內的超過 70 個平台已整合此標準。",
+      "analysis_en": "Moving the standard to a neutral foundation reduces single-vendor control and supports broader agent interoperability. Adoption will depend on how quickly other labs and platforms contribute to and maintain the shared format.",
+      "analysis_zh": "將標準移至中立基金會可降低單一廠商控制，並支援更廣泛的代理互通性。採用程度將取決於其他實驗室與平台貢獻與維護共享格式的速度。",
+      "quote": "Today, we’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation (AAIF).",
+      "quote_zh": "今天，我們將 Agent Skills（賦予 AI 代理專業知識與工作流程的開放標準）捐贈給 Agentic AI Foundation (AAIF)。",
+      "importance": 3,
+      "first_seen": "2026-10-26T16:35:01Z",
+      "updated_at": "2026-10-26T16:35:01.129255+00:00",
+      "links": [
+        {
+          "label": "Anthropic Blog",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+        }
+      ]
+    },
+    {
+      "id": "xai-partner-network-2026-10-22",
+      "story_id": "xai-partner-network-2026-10-22",
+      "category": "xai",
+      "source_type": "official_blog",
+      "title_en": "xAI introduces SpaceX Super Intelligence Partner Network",
+      "title_zh": "xAI 推出 SpaceX Super Intelligence 合作夥伴網路",
+      "summary_en": "xAI launched the SpaceX Super Intelligence Partner Network for companies building products and services with Grok. It includes Transformation Partners for enterprise deployment and Marketplace Partners for plugins and integrations, with more than 130 companies in early access.",
+      "summary_zh": "xAI 推出 SpaceX Super Intelligence 合作夥伴網路，供以 Grok 建置產品與服務的公司使用。包含協助企業部署的轉型合作夥伴與建置插件及整合的市場合作夥伴，早期存取已有超過 130 家公司參與。",
+      "analysis_en": "The program formalizes a channel strategy around Grok as xAI integrates further with SpaceX. Success will depend on partner quality and whether the network drives measurable enterprise adoption beyond existing API and product distribution.",
+      "analysis_zh": "此計畫在 xAI 與 SpaceX 進一步整合之際，正式化圍繞 Grok 的通路策略。成功與否將取決於合作夥伴品質，以及網路能否在現有 API 與產品通路之外推動可衡量的企業採用。",
+      "quote": "Today, we’re introducing the SpaceX Super Intelligence Partner Network, our official program for companies building products, solutions, and services with Grok for our joint prospects and customers.",
+      "quote_zh": "今天，我們推出 SpaceX Super Intelligence 合作夥伴網路，這是我們的官方計畫，供以 Grok 為共同潛在客戶與客戶建置產品、解決方案與服務的公司使用。",
+      "importance": 3,
+      "first_seen": "2026-10-26T16:35:01Z",
+      "updated_at": "2026-10-26T16:35:01.129255+00:00",
+      "links": [
+        {
+          "label": "xAI News",
+          "url": "https://x.ai/news/partnernetworkannouncement"
+        }
+      ]
+    },
+    {
+      "id": "openai-models-google-cloud-2026-10-21",
+      "story_id": "openai-models-google-cloud-2026-10-21",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI models become available on Google Cloud",
+      "title_zh": "OpenAI 模型登陸 Google Cloud",
+      "summary_en": "OpenAI announced that its models are coming to Google Cloud, expanding distribution alongside existing partnerships. The company continues aligning safety standards across providers that offer its models.",
+      "summary_zh": "OpenAI 宣布其模型將登陸 Google Cloud，擴展現有合作夥伴之外的分發。公司持續協調提供其模型的各服務供應商之間的安全標準。",
+      "analysis_en": "Broader cloud availability increases enterprise reach but also raises the importance of consistent safeguards across different hosting environments. Details on exact models, pricing, and regional availability were limited in the initial announcement.",
+      "analysis_zh": "更廣泛的雲端可用性增加企業觸及，但也提高不同託管環境間一致防護措施的重要性。初始公告中關於具體模型、定價與區域可用性的細節有限。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 3,
+      "first_seen": "2026-10-26T16:35:01Z",
+      "updated_at": "2026-10-26T16:35:01.129255+00:00",
+      "links": [
+        {
+          "label": "OpenAI News",
+          "url": "https://openai.com/news/"
+        }
+      ]
+    },
+    {
+      "id": "mistral-nvidia-engineering-2026-10-21",
+      "story_id": "mistral-nvidia-engineering-2026-10-21",
+      "category": "frontier_other",
+      "source_type": "official_blog",
+      "title_en": "Mistral and NVIDIA collaborate on AI-native engineering workflows",
+      "title_zh": "Mistral 與 NVIDIA 合作 AI 原生工程工作流程",
+      "summary_en": "Mistral and NVIDIA announced collaboration to integrate Mistral models, including Large 4, with NVIDIA accelerated computing and physics tools for faster engineering simulations and closed-loop design. Large 4 weights remain planned for release by the end of October.",
+      "summary_zh": "Mistral 與 NVIDIA 宣布合作，將包括 Large 4 在內的 Mistral 模型與 NVIDIA 加速運算及物理工具整合，以加速工程模擬與閉環設計。Large 4 權重仍計畫於 10 月底前發布。",
+      "analysis_en": "The partnership targets domain-specific industrial use cases rather than general chat. Open-weight release of Large 4 would be the more consequential near-term development for the broader ecosystem.",
+      "analysis_zh": "此合作針對領域特定工業用例，而非一般聊天。Large 4 的開放權重發布對更廣泛生態系統而言，將是更重要的近期發展。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 3,
+      "first_seen": "2026-10-26T16:35:01Z",
+      "updated_at": "2026-10-26T16:35:01.129255+00:00",
+      "links": [
+        {
+          "label": "Mistral Blog",
+          "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/"
+        }
+      ]
+    },
+    {
+      "id": "openai-chatgpt-storage-scaling-2026-10-23",
+      "story_id": "openai-chatgpt-storage-scaling-2026-10-23",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI details storage scaling for over 1 billion ChatGPT users",
+      "title_zh": "OpenAI 詳述超過 10 億 ChatGPT 用戶的儲存擴展",
+      "summary_en": "OpenAI published Part II of its engineering series on Habitat, the online storage platform that serves ChatGPT and other products. The post focuses on optimizing Azure Cosmos DB to handle growth to over 500 petabytes across 40 regions.",
+      "summary_zh": "OpenAI 發布其工程系列第二篇，介紹服務 ChatGPT 與其他產品的線上儲存平台 Habitat。文章聚焦於優化 Azure Cosmos DB，以處理跨 40 個區域超過 500 PB 的成長。",
+      "analysis_en": "Infrastructure posts of this kind are rare public windows into the operational scale required to serve frontier AI products. They rarely change product capabilities directly but signal sustained investment in reliability at extreme volume.",
+      "analysis_zh": "此類基礎設施文章是罕見的公開窗口，揭示服務前線 AI 產品所需的營運規模。它們很少直接改變產品能力，但顯示在極端流量下持續投資於可靠性。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 2,
+      "first_seen": "2026-10-26T16:35:01Z",
+      "updated_at": "2026-10-26T16:35:01.129255+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two/"
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "openai": [
+      {
+        "id": "openai-decisions-api-ga-2026-10-22",
+        "story_id": "openai-decisions-api-ga-2026-10-22",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI makes Decisions API generally available with GPT-6 Luna",
+        "title_zh": "OpenAI 將 Decisions API 與 GPT-6 Luna 全面開放",
+        "summary_en": "OpenAI made the Decisions API generally available, built with GPT-6 Luna, for fast, low-cost structured decisions from text, images, and JSON. It supports up to 400 questions per request, prompt caching, and native GPT-Live integration, with no output-token charges.",
+        "summary_zh": "OpenAI 將基於 GPT-6 Luna 的 Decisions API 全面開放，用於從文字、圖像與 JSON 快速、低成本產生結構化決策。每請求最多支援 400 個問題、提示快取，以及原生 GPT-Live 整合，且不收取輸出 token 費用。",
+        "analysis_en": "The API targets high-volume routing and classification inside agents and apps, trading some generality for latency and cost. Early customer reports cite multi-x speedups versus the Responses API, but real-world reliability at scale still needs broader validation.",
+        "analysis_zh": "此 API 針對代理與應用中的高量路由與分類，以延遲與成本換取部分通用性。早期客戶回報相對 Responses API 有數倍加速，但大規模可靠性仍需更多驗證。",
+        "quote": "Today, we’re making the Decisions API generally available. Built with GPT‑6 Luna, the Decisions API focuses Luna’s intelligence on questions with bounded answers, helping applications and agents make near real-time decisions from text, images, and structured inputs up to 10x faster than GPT‑6 Luna through the Responses API.",
+        "quote_zh": "今天，我們將 Decisions API 全面開放。基於 GPT‑6 Luna，Decisions API 將 Luna 的智能聚焦於有界答案的問題，協助應用與代理從文字、圖像與結構化輸入做出近即時決策，速度最高可達透過 Responses API 的 GPT‑6 Luna 的 10 倍。",
+        "importance": 4,
+        "first_seen": "2026-10-26T16:35:01Z",
+        "updated_at": "2026-10-26T16:35:01.129255+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/decisions-api/"
+          }
+        ]
+      },
+      {
+        "id": "openai-securing-frontier-training-2026-10-23",
+        "story_id": "openai-securing-frontier-training-2026-10-23",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI details hardened containment for frontier model training",
+        "title_zh": "OpenAI 詳述前線模型訓練的強化隔離措施",
+        "summary_en": "OpenAI published how it strengthened research environments for frontier-model training and evaluation, implementing no-internet access for training, defense-in-depth isolation, and large-scale red-teaming with its own models. It resumed RL training on October 1 after addressing findings.",
+        "summary_zh": "OpenAI 公布如何強化前線模型訓練與評估的研究環境，實施訓練無網路存取、多層防禦隔離，並以自身模型進行大規模紅隊測試。在處理發現後，於 10 月 1 日恢復強化學習訓練。",
+        "analysis_en": "The post shows concrete operational responses to model containment risks, including offline web caches and microVM isolation. Whether these measures scale as models grow more capable remains an open question.",
+        "analysis_zh": "此文顯示對模型隔離風險的具體營運回應，包括離線網頁快取與微虛擬機隔離。隨著模型能力提升，這些措施能否持續有效仍是開放問題。",
+        "quote": "Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no internet access. We’ve implemented this policy and will maintain it until advances in these safeguards justify broader internet access.",
+        "quote_zh": "基於目前對齊研究、監控系統與網路基礎設施安全的狀態，我們認為負責任的做法是在無網路存取的情況下進行前線模型訓練。我們已實施此政策，並將維持至這些防護措施的進展足以證明更廣泛網路存取的合理性為止。",
+        "importance": 4,
+        "first_seen": "2026-10-26T16:35:01Z",
+        "updated_at": "2026-10-26T16:35:01.129255+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/securing-our-frontier-model-training-environment/"
+          }
+        ]
+      },
+      {
+        "id": "openai-models-google-cloud-2026-10-21",
+        "story_id": "openai-models-google-cloud-2026-10-21",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI models become available on Google Cloud",
+        "title_zh": "OpenAI 模型登陸 Google Cloud",
+        "summary_en": "OpenAI announced that its models are coming to Google Cloud, expanding distribution alongside existing partnerships. The company continues aligning safety standards across providers that offer its models.",
+        "summary_zh": "OpenAI 宣布其模型將登陸 Google Cloud，擴展現有合作夥伴之外的分發。公司持續協調提供其模型的各服務供應商之間的安全標準。",
+        "analysis_en": "Broader cloud availability increases enterprise reach but also raises the importance of consistent safeguards across different hosting environments. Details on exact models, pricing, and regional availability were limited in the initial announcement.",
+        "analysis_zh": "更廣泛的雲端可用性增加企業觸及，但也提高不同託管環境間一致防護措施的重要性。初始公告中關於具體模型、定價與區域可用性的細節有限。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 3,
+        "first_seen": "2026-10-26T16:35:01Z",
+        "updated_at": "2026-10-26T16:35:01.129255+00:00",
+        "links": [
+          {
+            "label": "OpenAI News",
+            "url": "https://openai.com/news/"
+          }
+        ]
+      },
+      {
+        "id": "openai-chatgpt-storage-scaling-2026-10-23",
+        "story_id": "openai-chatgpt-storage-scaling-2026-10-23",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI details storage scaling for over 1 billion ChatGPT users",
+        "title_zh": "OpenAI 詳述超過 10 億 ChatGPT 用戶的儲存擴展",
+        "summary_en": "OpenAI published Part II of its engineering series on Habitat, the online storage platform that serves ChatGPT and other products. The post focuses on optimizing Azure Cosmos DB to handle growth to over 500 petabytes across 40 regions.",
+        "summary_zh": "OpenAI 發布其工程系列第二篇，介紹服務 ChatGPT 與其他產品的線上儲存平台 Habitat。文章聚焦於優化 Azure Cosmos DB，以處理跨 40 個區域超過 500 PB 的成長。",
+        "analysis_en": "Infrastructure posts of this kind are rare public windows into the operational scale required to serve frontier AI products. They rarely change product capabilities directly but signal sustained investment in reliability at extreme volume.",
+        "analysis_zh": "此類基礎設施文章是罕見的公開窗口，揭示服務前線 AI 產品所需的營運規模。它們很少直接改變產品能力，但顯示在極端流量下持續投資於可靠性。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 2,
+        "first_seen": "2026-10-26T16:35:01Z",
+        "updated_at": "2026-10-26T16:35:01.129255+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two/"
+          }
+        ]
+      }
+    ],
+    "anthropic": [
+      {
+        "id": "anthropic-s1-ipo-filing-2026-10-26",
+        "story_id": "anthropic-s1-ipo-filing-2026-10-26",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic files S-1 for proposed Nasdaq IPO under ticker ANT",
+        "title_zh": "Anthropic 向 SEC 提交 S-1，擬以 ANT 代號在納斯達克上市",
+        "summary_en": "Anthropic filed a registration statement on Form S-1 with the SEC relating to a proposed initial public offering of its Class A common stock. It intends to list on the Nasdaq Global Select Market under the symbol ANT. The number of shares and price range have not yet been determined.",
+        "summary_zh": "Anthropic 向美國證券交易委員會提交 Form S-1 註冊聲明，擬首次公開發行其 Class A 普通股。公司計畫以 ANT 代號在納斯達克全球精選市場上市。發行股數與價格區間尚未確定。",
+        "analysis_en": "This is the first public step toward Anthropic becoming a listed company, following earlier confidential filings and rapid revenue growth. Valuation targets and timing remain subject to market conditions and the eventual prospectus details.",
+        "analysis_zh": "這是 Anthropic 走向公開上市的首個公開步驟，先前已有機密申報與快速營收成長。估值目標與時程仍取決於市場狀況與最終招股說明書細節。",
+        "quote": "Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock. Anthropic intends to list its Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.”",
+        "quote_zh": "今天，Anthropic, PBC 向美國證券交易委員會提交 Form S-1 註冊聲明，涉及其 Class A 普通股的擬議首次公開發行。Anthropic 擬以「ANT」代號在納斯達克全球精選市場上市其 Class A 普通股。",
+        "importance": 5,
+        "first_seen": "2026-10-26T16:35:01Z",
+        "updated_at": "2026-10-26T16:35:01.129255+00:00",
+        "links": [
+          {
+            "label": "Anthropic Blog",
+            "url": "https://www.anthropic.com/news/s1-sec"
+          },
+          {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI/status/2114705042817110293"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-agent-skills-aaif-2026-10-22",
+        "story_id": "anthropic-agent-skills-aaif-2026-10-22",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic donates Agent Skills standard to Agentic AI Foundation",
+        "title_zh": "Anthropic 將 Agent Skills 標準捐贈給 Agentic AI Foundation",
+        "summary_en": "Anthropic donated the Agent Skills open standard (SKILL.md folders for specialized agent knowledge) to the Agentic AI Foundation under the Linux Foundation. More than 70 platforms including ChatGPT, Cursor, and VS Code have integrated it since December 2025.",
+        "summary_zh": "Anthropic 將 Agent Skills 開放標準（用於專業代理知識的 SKILL.md 資料夾）捐贈給 Linux Foundation 旗下的 Agentic AI Foundation。自 2025 年 12 月以來，包括 ChatGPT、Cursor 與 VS Code 在內的超過 70 個平台已整合此標準。",
+        "analysis_en": "Moving the standard to a neutral foundation reduces single-vendor control and supports broader agent interoperability. Adoption will depend on how quickly other labs and platforms contribute to and maintain the shared format.",
+        "analysis_zh": "將標準移至中立基金會可降低單一廠商控制，並支援更廣泛的代理互通性。採用程度將取決於其他實驗室與平台貢獻與維護共享格式的速度。",
+        "quote": "Today, we’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation (AAIF).",
+        "quote_zh": "今天，我們將 Agent Skills（賦予 AI 代理專業知識與工作流程的開放標準）捐贈給 Agentic AI Foundation (AAIF)。",
+        "importance": 3,
+        "first_seen": "2026-10-26T16:35:01Z",
+        "updated_at": "2026-10-26T16:35:01.129255+00:00",
+        "links": [
+          {
+            "label": "Anthropic Blog",
+            "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+          }
+        ]
+      }
+    ],
+    "google": [],
+    "meta": [],
+    "xai": [
+      {
+        "id": "xai-partner-network-2026-10-22",
+        "story_id": "xai-partner-network-2026-10-22",
+        "category": "xai",
+        "source_type": "official_blog",
+        "title_en": "xAI introduces SpaceX Super Intelligence Partner Network",
+        "title_zh": "xAI 推出 SpaceX Super Intelligence 合作夥伴網路",
+        "summary_en": "xAI launched the SpaceX Super Intelligence Partner Network for companies building products and services with Grok. It includes Transformation Partners for enterprise deployment and Marketplace Partners for plugins and integrations, with more than 130 companies in early access.",
+        "summary_zh": "xAI 推出 SpaceX Super Intelligence 合作夥伴網路，供以 Grok 建置產品與服務的公司使用。包含協助企業部署的轉型合作夥伴與建置插件及整合的市場合作夥伴，早期存取已有超過 130 家公司參與。",
+        "analysis_en": "The program formalizes a channel strategy around Grok as xAI integrates further with SpaceX. Success will depend on partner quality and whether the network drives measurable enterprise adoption beyond existing API and product distribution.",
+        "analysis_zh": "此計畫在 xAI 與 SpaceX 進一步整合之際，正式化圍繞 Grok 的通路策略。成功與否將取決於合作夥伴品質，以及網路能否在現有 API 與產品通路之外推動可衡量的企業採用。",
+        "quote": "Today, we’re introducing the SpaceX Super Intelligence Partner Network, our official program for companies building products, solutions, and services with Grok for our joint prospects and customers.",
+        "quote_zh": "今天，我們推出 SpaceX Super Intelligence 合作夥伴網路，這是我們的官方計畫，供以 Grok 為共同潛在客戶與客戶建置產品、解決方案與服務的公司使用。",
+        "importance": 3,
+        "first_seen": "2026-10-26T16:35:01Z",
+        "updated_at": "2026-10-26T16:35:01.129255+00:00",
+        "links": [
+          {
+            "label": "xAI News",
+            "url": "https://x.ai/news/partnernetworkannouncement"
+          }
+        ]
+      }
+    ],
+    "frontier_other": [
+      {
+        "id": "mistral-nvidia-engineering-2026-10-21",
+        "story_id": "mistral-nvidia-engineering-2026-10-21",
+        "category": "frontier_other",
+        "source_type": "official_blog",
+        "title_en": "Mistral and NVIDIA collaborate on AI-native engineering workflows",
+        "title_zh": "Mistral 與 NVIDIA 合作 AI 原生工程工作流程",
+        "summary_en": "Mistral and NVIDIA announced collaboration to integrate Mistral models, including Large 4, with NVIDIA accelerated computing and physics tools for faster engineering simulations and closed-loop design. Large 4 weights remain planned for release by the end of October.",
+        "summary_zh": "Mistral 與 NVIDIA 宣布合作，將包括 Large 4 在內的 Mistral 模型與 NVIDIA 加速運算及物理工具整合，以加速工程模擬與閉環設計。Large 4 權重仍計畫於 10 月底前發布。",
+        "analysis_en": "The partnership targets domain-specific industrial use cases rather than general chat. Open-weight release of Large 4 would be the more consequential near-term development for the broader ecosystem.",
+        "analysis_zh": "此合作針對領域特定工業用例，而非一般聊天。Large 4 的開放權重發布對更廣泛生態系統而言，將是更重要的近期發展。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 3,
+        "first_seen": "2026-10-26T16:35:01Z",
+        "updated_at": "2026-10-26T16:35:01.129255+00:00",
+        "links": [
+          {
+            "label": "Mistral Blog",
+            "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/"
+          }
+        ]
+      }
+    ]
+  },
+  "brief_en": "Anthropic filed an S-1 for a proposed Nasdaq IPO under ticker ANT. OpenAI made the Decisions API generally available with GPT-6 Luna and detailed hardened containment for frontier training. xAI launched a partner network; other labs focused on product and infrastructure updates.",
+  "brief_zh": "Anthropic 向 SEC 提交 S-1，擬以 ANT 代號在納斯達克上市。OpenAI 將 Decisions API 與 GPT-6 Luna 全面開放，並強化前線模型訓練環境隔離。xAI 推出合作夥伴網路，其他實驗室以產品與基礎設施更新為主。",
+  "updated_at": "2026-10-26T16:35:01.129255+00:00"
+}
