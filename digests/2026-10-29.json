@@ -8,26 +8,92 @@
       "item_count": 8,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-10-28T22:35:01.567662+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 11,
+      "updated_count": 8,
+      "kept_count": 0
     }
   ],
   "items_flat": [
+    {
+      "id": "google-gemini-4-carbon-2026-10-28",
+      "story_id": "google-gemini-4-carbon-2026-10-28",
+      "category": "google",
+      "source_type": "official_blog",
+      "title_en": "Google DeepMind announces Gemini 4 Carbon as next frontier model with cybersecurity focus",
+      "title_zh": "Google DeepMind 宣布 Gemini 4 Carbon 為下一款前沿模型，聚焦資安能力",
+      "summary_en": "Google DeepMind announced Gemini 4 Carbon on October 28 as its strongest model, ranking #1 on Artificial Analysis Intelligence Index v5.0 at 59 with state-of-the-art cybersecurity performance (e.g., 88.2% on SEC-bench Pro for vulnerabilities, more than 2x secure code generation success vs. Argon on internal benchmarks). It is initially available only to a subset of cyber defenders via the Fairwind Program, with pricing matching Argon’s introductory rates of $2/$10 per million tokens.",
+      "summary_zh": "Google DeepMind 於10月28日宣布 Gemini 4 Carbon 為其最強模型，在 Artificial Analysis Intelligence Index v5.0 以59分排名第一，並在資安任務上領先（例如 SEC-bench Pro 漏洞發現達88.2%，內部基準安全程式碼生成成功率較 Argon 超過2倍）。目前僅透過 Fairwind 計畫提供給部分資安防禦者，定價與 Argon 入門價相同（每百萬token 輸入2美元/輸出10美元）。",
+      "analysis_en": "Carbon demonstrates rapid iteration in Google’s Gemini 4 series and prioritizes high-stakes defense use cases, but staged rollout and reliance on internal/external benchmarks leave real-world reliability and broader availability timelines uncertain.",
+      "analysis_zh": "Carbon 顯示 Gemini 4 系列快速迭代並優先高風險防禦用途，但分階段推出與依賴內外部基準，使真實世界可靠性與全面開放時程仍不確定。",
+      "quote": "Today, we’re announcing the next frontier model: Gemini 4 Carbon, our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
+      "quote_zh": "今天，我們宣布下一款前沿模型：Gemini 4 Carbon，我們最強的模型，具備最先進的資安與長程能力。",
+      "importance": 5,
+      "first_seen": "2026-10-28T22:35:00Z",
+      "updated_at": "2026-10-28T22:35:01.567662+00:00",
+      "links": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "label": "Google DeepMind on X",
+          "url": "https://x.com/GoogleDeepMind/status/2115489359415890211"
+        }
+      ]
+    },
+    {
+      "id": "openai-servicenow-partnership-2026-10-28",
+      "story_id": "openai-servicenow-partnership-2026-10-28",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI and ServiceNow expand partnership to connect workflows with ChatGPT and Codex",
+      "title_zh": "OpenAI 與 ServiceNow 擴大合作，將工作流程連接至 ChatGPT 與 Codex",
+      "summary_en": "OpenAI and ServiceNow announced an expansion on October 28 bringing ServiceNow business context and governed actions into ChatGPT via a new MCP plugin (available now), while planning Codex integration for app development, joint cybersecurity solutions, and voice features for risk assessment. ServiceNow will expand ChatGPT Work and Codex access to all employees; OpenAI will use ServiceNow internally.",
+      "summary_zh": "OpenAI 與 ServiceNow 於10月28日宣布擴大合作，透過新 MCP 外掛（現已上架）將 ServiceNow 業務上下文與受控行動帶入 ChatGPT，並規劃 Codex 整合用於應用開發、聯合資安方案及語音風險評估。ServiceNow 將把 ChatGPT Work 與 Codex 擴及全體員工；OpenAI 也將內部使用 ServiceNow。",
+      "analysis_en": "The deal advances agentic enterprise execution inside existing governed systems, but most advanced capabilities remain planned for 2027, so near-term impact depends on plugin adoption and integration depth.",
+      "analysis_zh": "此交易推進在既有受控系統中的代理式企業執行，但多數進階能力規劃於2027年，近期影響取決於外掛採用與整合深度。",
+      "quote": "AI becomes more useful when people can put it to work in the systems their businesses depend on.",
+      "quote_zh": "當人們能在企業所依賴的系統中運用 AI 時，AI 會變得更有用。",
+      "importance": 4,
+      "first_seen": "2026-10-28T22:35:00Z",
+      "updated_at": "2026-10-28T22:35:01.567662+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion/"
+        },
+        {
+          "label": "ServiceNow News on X",
+          "url": "https://x.com/ServiceNowNews/status/2115541647106646443"
+        }
+      ]
+    },
     {
       "id": "google-genie-4-world-model-2026-10-27",
       "story_id": "google-genie-4-world-model-2026-10-27",
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google DeepMind announces Genie 4 world model with native audio and real-time steering",
-      "title_zh": "Google DeepMind宣布Genie 4世界模型：原生音訊與即時場景操控",
-      "summary_en": "Google DeepMind announced Genie 4, a next-generation world model that generates photorealistic interactive environments with native audio (ambient sound, music, dialogue) and allows real-time natural-language steering of scenes. It builds on Gemini Omni for appearance and Gemini models for coherence, and is rolling out as a research preview for trusted testers, with later access planned for Google AI Ultra in Project Genie and early Gemini API partners.",
-      "summary_zh": "Google DeepMind宣布Genie 4，下一代世界模型，可生成具備原生音訊（環境音、音樂、對話）的擬真互動環境，並支援自然語言即時操控場景。它以Gemini Omni錨定外觀、以其他Gemini模型維持連貫性，目前以研究預覽形式開放給受信任測試者，稍後將開放給Google AI Ultra的Project Genie與Gemini API早期合作夥伴。",
-      "analysis_en": "Genie 4 advances interactive simulation for robotics training, creative tools and agent evaluation, but coherence remains limited to short sessions and object permanence can still drift. Wider availability and measured sim-to-real transfer rates will determine practical impact.",
-      "analysis_zh": "Genie 4推進了互動模擬在機器人訓練、創意工具與代理評估上的應用，但連貫性仍限於短時段，物件持久性仍可能漂移。更廣泛的可用性與實測sim-to-real遷移率將決定實際影響。",
+      "title_zh": "Google DeepMind 宣布 Genie 4 世界模型，具備原生音訊與即時導引",
+      "summary_en": "Google DeepMind announced Genie 4, a next-generation world model that generates photorealistic interactive environments with native audio (ambient sound, music, dialogue) and allows real-time natural-language steering of scenes. Simulations run up to about two minutes, roughly double Genie 3, and it is available as a research preview.",
+      "summary_zh": "Google DeepMind 宣布 Genie 4，新一代世界模型可生成具原生音訊（環境聲、音樂、對話）的擬真互動環境，並支援即時自然語言導引場景。模擬時長約兩分鐘，約為 Genie 3 的兩倍，目前以研究預覽形式提供。",
+      "analysis_en": "Genie 4 advances interactive simulation for robotics training, creative tools and agent evaluation, but coherence remains limited to short sessions and object permanence can still degrade.",
+      "analysis_zh": "Genie 4 推進互動模擬在機器人訓練、創意工具與代理評估的應用，但連貫性仍限於短時段，物件持久性仍可能下降。",
       "quote": "Today, we are announcing Genie 4, our new world model, which unlocks unprecedented realism and improves real-time interactive simulation. Genie 4 is natively multimodal, enabling audio-like music, ambient noises, and interactive dialogue to be simultaneously generated with the world.",
       "quote_zh": "今天，我們宣布Genie 4，我們的新世界模型，它解鎖了前所未有的擬真度並改善即時互動模擬。Genie 4是原生多模態的，能同時生成音樂般的音訊、環境音與互動對話。",
       "importance": 4,
       "first_seen": "2026-10-28T16:35:00Z",
-      "updated_at": "2026-10-28T16:35:01.553952+00:00",
+      "updated_at": "2026-10-28T22:35:01.567662+00:00",
       "links": [
+        {
+          "label": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/"
+        },
         {
           "label": "Google DeepMind Blog",
           "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
@@ -44,17 +110,21 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic reports early progress accelerating drug development with Claude",
-      "title_zh": "Anthropic報告以Claude加速藥物開發的早期進展",
-      "summary_en": "Anthropic detailed partnerships with six organizations (including Generate Biomedicines, BigHat, Divergence Labs, Enveda, The Column Group and Bristol Myers Squibb) using Claude across modality design, hit generation, lead optimization, manufacturing paperwork and trial planning. It also acquired one-person Mithril Medicine and began internal programs, including for rare muscular dystrophy, with promising preclinical results in mice.",
-      "summary_zh": "Anthropic詳述與六家機構（含Generate Biomedicines、BigHat、Divergence Labs、Enveda、The Column Group與Bristol Myers Squibb）的合作，使用Claude進行模態設計、命中生成、先導優化、製造文件與試驗規劃。同時收購單人公司Mithril Medicine並啟動內部計畫，包括罕見肌肉萎縮症，小鼠臨床前結果具潛力。",
-      "analysis_en": "The case studies show Claude handling distributed bottlenecks from design to regulatory drafts, but most work remains preclinical. Translating mouse results and operational gains into approved medicines will take years and still depends on model improvements Anthropic says it is prioritizing.",
-      "analysis_zh": "案例顯示Claude處理從設計到法規草稿的分散瓶頸，但多數仍屬臨床前。將小鼠結果與營運增益轉化為核准藥物仍需多年，且仍取決於Anthropic表示正優先處理的模型改進。",
+      "title_zh": "Anthropic 報告使用 Claude 加速藥物開發的早期進展",
+      "summary_en": "Anthropic detailed partnerships with six organizations (including Generate Biomedicines, BigHat, Divergence Labs, Enveda, The Column Group and Bristol Myers Squibb) using Claude across modality design, hit generation, lead optimization, manufacturing review and regulatory drafting, plus its own early programs after acquiring Mithril Medicine for rare muscular dystrophy work.",
+      "summary_zh": "Anthropic 詳述與六家機構（含 Generate Biomedicines、BigHat、Divergence Labs、Enveda、The Column Group 與 Bristol Myers Squibb）合作，使用 Claude 涵蓋模態設計、命中生成、先導優化、製造審查與法規草稿，並在收購 Mithril Medicine 後啟動自身罕見肌肉萎縮症早期計畫。",
+      "analysis_en": "The case studies show Claude handling distributed bottlenecks from design to regulatory drafts, but most work remains preclinical. Translating mouse results and operational gains into approved therapies is still uncertain.",
+      "analysis_zh": "案例顯示 Claude 處理從設計到法規草稿的分散瓶頸，但多數仍屬臨床前。將小鼠結果與營運增益轉化為核准療法仍不確定。",
       "quote": "Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines... We've also begun drug discovery efforts of our own.",
       "quote_zh": "過去數月，我們的科學家與六家開發新藥的機構進行深度研究合作……我們也開始了自己的藥物發現工作。",
       "importance": 4,
       "first_seen": "2026-10-28T16:35:00Z",
-      "updated_at": "2026-10-28T16:35:01.553952+00:00",
+      "updated_at": "2026-10-28T22:35:01.567662+00:00",
       "links": [
+        {
+          "label": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news"
+        },
         {
           "label": "Anthropic Research",
           "url": "https://www.anthropic.com/research/early-progress-drug-development"
@@ -62,24 +132,51 @@
       ]
     },
     {
+      "id": "meta-university-research-partnerships-2026-10-28",
+      "story_id": "meta-university-research-partnerships-2026-10-28",
+      "category": "meta",
+      "source_type": "official_blog",
+      "title_en": "Meta partners with five US universities, providing $2M and Muse model access for science and medicine",
+      "title_zh": "Meta 與五所美國大學合作，提供200萬美元與 Muse 模型存取以推進科學與醫學",
+      "summary_en": "Meta announced partnerships on October 28 with Caltech, Ohio State College of Medicine, LSU, Indiana University and UTHealth Houston, granting $2 million across projects plus access to Muse models (including Wonder, Spark Open, Glimmer), computer vision tools and researcher collaboration to accelerate work in medicine, physics, chemistry and related fields.",
+      "summary_zh": "Meta 於10月28日宣布與加州理工、俄亥俄州立醫學院、路易斯安那州立、印第安納大學及德州大學健康科學中心休士頓分校合作，跨計畫提供200萬美元補助，並開放 Muse 模型（含 Wonder、Spark Open、Glimmer）、電腦視覺工具與研究員協作，以加速醫學、物理、化學等領域突破。",
+      "analysis_en": "The initiative extends Meta’s open-weight models into applied academic research, particularly healthcare, but outcomes will depend on how effectively teams translate model access into validated clinical or scientific results.",
+      "analysis_zh": "此計畫將 Meta 開源權重模型延伸至應用型學術研究（特別是醫療），但成果取決於團隊如何有效將模型存取轉化為經過驗證的臨床或科學結果。",
+      "quote": "We’re supporting their work with $2 million in grants and access to our latest models.",
+      "quote_zh": "我們以200萬美元補助與最新模型存取支持他們的工作。",
+      "importance": 3,
+      "first_seen": "2026-10-28T22:35:00Z",
+      "updated_at": "2026-10-28T22:35:01.567662+00:00",
+      "links": [
+        {
+          "label": "Meta Newsroom",
+          "url": "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/"
+        },
+        {
+          "label": "Meta AI Research Blog",
+          "url": "https://research.meta.ai/blog/supporting-medical-scientific-research"
+        }
+      ]
+    },
+    {
       "id": "anthropic-claude-legal-artifacts-2026-10-28",
       "story_id": "anthropic-claude-legal-artifacts-2026-10-28",
       "category": "anthropic",
-      "source_type": "official_blog",
+      "source_type": "product",
       "title_en": "Anthropic introduces ready-to-use artifacts gallery for Claude for Legal",
-      "title_zh": "Anthropic為Claude for Legal推出即用型artifacts法律工具庫",
-      "summary_en": "Anthropic launched a gallery of ready-to-use interactive artifacts for Claude for Legal, covering contract review, cite checking, regulatory horizon scans, tabular review and more. Teams can adapt them with their own data and 60+ legal connectors, and share them with guardrails; partner-built tools from firms like Goodwin, Harvey, Foley & Lardner and PwC are included, along with access-to-justice artifacts.",
-      "summary_zh": "Anthropic為Claude for Legal推出即用型互動artifacts工具庫，涵蓋合約審查、引用檢查、法規掃描、表格審查等。團隊可用自有資料與60多個法律連接器調整，並在防護下分享；包含Goodwin、Harvey、Foley & Lardner、PwC等合作夥伴工具，以及司法可及性artifacts。",
-      "analysis_en": "The move shifts Claude from pure chat toward structured legal workflows, addressing common requests for easier collaboration. Success depends on how well artifacts reduce review time without introducing new privilege or accuracy risks in high-stakes work.",
-      "analysis_zh": "此舉將Claude從純對話轉向結構化法律工作流，回應常見的協作需求。成敗取決於artifacts能否縮短審查時間，同時不在高風險工作中引入新的特權或準確性風險。",
+      "title_zh": "Anthropic 為 Claude for Legal 推出現成工件藝廊",
+      "summary_en": "Anthropic launched a gallery of ready-to-use interactive artifacts for Claude for Legal, covering contract review, cite checking, regulatory horizon scans, tabular review and more. Teams can adapt them with their own data and 60+ legal connectors.",
+      "summary_zh": "Anthropic 為 Claude for Legal 推出現成互動工件藝廊，涵蓋合約審查、引用檢查、法規掃描、表格審查等。團隊可用自身資料與超過60個法律連接器進行調整。",
+      "analysis_en": "The move shifts Claude from pure chat toward structured legal workflows, addressing common requests for easier collaboration. Success depends on how well artifacts reduce review time in practice.",
+      "analysis_zh": "此舉將 Claude 從純聊天轉向結構化法律工作流程，回應更易協作的常見需求。成功取決於工件在實務中能多有效縮短審查時間。",
       "quote": "Today, we’re introducing ready-to-use artifacts that legal professionals can adapt to how their teams work and share with colleagues across the business.",
       "quote_zh": "今天，我們推出法律專業人士可依團隊工作方式調整、並與企業同事分享的即用型artifacts。",
       "importance": 3,
       "first_seen": "2026-10-28T16:35:00Z",
-      "updated_at": "2026-10-28T16:35:01.553952+00:00",
+      "updated_at": "2026-10-28T22:35:01.567662+00:00",
       "links": [
         {
-          "label": "Claude by Anthropic",
+          "label": "Claude Resources",
           "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work"
         }
       ]
@@ -90,17 +187,21 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic expands GSA partnership with 40% discount for all levels of US government",
-      "title_zh": "Anthropic擴大GSA合作，為美國各級政府提供40%折扣",
-      "summary_en": "Anthropic expanded its GSA agreement to offer a 40% discount on Claude Enterprise, Claude for Government and the Claude API across federal, state, local, tribal and territorial governments, with no minimum spend. Roughly 500 government organizations already use Claude; weekly active users in Claude for Government are up about eightfold since February.",
-      "summary_zh": "Anthropic擴大GSA協議，對聯邦、州、地方、部落與領地政府提供Claude Enterprise、Claude for Government與Claude API 40%折扣，無最低消費。約500個政府組織已使用Claude；Claude for Government每週活躍用戶自2月以來約增八倍。",
-      "analysis_en": "The discount lowers barriers for public-sector adoption amid long procurement cycles and tight budgets, but actual uptake still depends on security authorizations and agency implementation capacity.",
-      "analysis_zh": "折扣降低了公共部門在冗長採購週期與緊縮預算下的採用門檻，但實際採用仍取決於安全授權與機構執行能力。",
+      "title_zh": "Anthropic 擴大 GSA 合作，為美國各級政府提供40%折扣",
+      "summary_en": "Anthropic expanded its GSA agreement to offer a 40% discount on Claude Enterprise, Claude for Government and the Claude API across federal, state, local, tribal and territorial governments, with no minimum spend. Roughly 500 government organizations already use Claude.",
+      "summary_zh": "Anthropic 擴大 GSA 協議，為聯邦、州、地方、部落與領地政府提供 Claude Enterprise、Claude for Government 與 Claude API 40% 折扣，無最低消費。約500個政府組織已在使用 Claude。",
+      "analysis_en": "The discount lowers barriers for public-sector adoption amid long procurement cycles and tight budgets, but actual uptake still depends on security authorizations and agency implementation.",
+      "analysis_zh": "折扣在長採購週期與緊縮預算下降低公部門採用門檻，但實際採用仍取決於安全授權與機關落地。",
       "quote": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.",
       "quote_zh": "我們透過新協議擴大與總務署（GSA）的合作，給予政府合作夥伴在Claude Enterprise、Claude for Government與Claude API上40%的折扣。",
       "importance": 3,
       "first_seen": "2026-10-28T16:35:00Z",
-      "updated_at": "2026-10-28T16:35:01.553952+00:00",
+      "updated_at": "2026-10-28T22:35:01.567662+00:00",
       "links": [
+        {
+          "label": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news"
+        },
         {
           "label": "Anthropic News",
           "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
@@ -113,17 +214,21 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI expands Oracle partnership to bring apps and data into ChatGPT",
-      "title_zh": "OpenAI擴大Oracle合作，將應用與資料帶入ChatGPT",
-      "summary_en": "OpenAI and Oracle announced an expansion that will bring Oracle applications and data into ChatGPT via Oracle AI Workspace (in development), while powering new Oracle offerings such as AI Security Mesh, an SMB Bundle with ChatGPT Business and Codex, and App Composer. US Oracle customers can also purchase OpenAI API, Codex and ChatGPT Work through Oracle Marketplace.",
-      "summary_zh": "OpenAI與Oracle宣布擴大合作，將透過開發中的Oracle AI Workspace把Oracle應用與資料帶入ChatGPT，同時以OpenAI模型驅動Oracle AI Security Mesh、含ChatGPT Business與Codex的SMB套件，以及App Composer。美國Oracle客戶亦可透過Oracle Marketplace購買OpenAI API、Codex與ChatGPT Work。",
-      "analysis_en": "The deal deepens enterprise distribution for ChatGPT and Codex inside existing Oracle procurement flows, but Oracle AI Workspace remains in development and the practical depth of data/workflow integration is still to be proven.",
-      "analysis_zh": "此協議深化ChatGPT與Codex在既有Oracle採購流程中的企業分銷，但Oracle AI Workspace仍在開發中，資料與工作流整合的實際深度尚待驗證。",
+      "title_zh": "OpenAI 擴大與 Oracle 合作，將應用與資料帶入 ChatGPT",
+      "summary_en": "OpenAI and Oracle announced an expansion that will bring Oracle applications and data into ChatGPT via Oracle AI Workspace (in development), while powering new Oracle offerings such as AI Security Mesh, an SMB Bundle with ChatGPT Business and other tools.",
+      "summary_zh": "OpenAI 與 Oracle 宣布擴大合作，將透過開發中的 Oracle AI Workspace 把 Oracle 應用與資料帶入 ChatGPT，同時支援 Oracle 新產品如 AI Security Mesh、含 ChatGPT Business 的中小企業套件等。",
+      "analysis_en": "The deal deepens enterprise distribution for ChatGPT and Codex inside existing Oracle procurement flows, but Oracle AI Workspace remains in development and the practical depth of data access is still unclear.",
+      "analysis_zh": "此交易加深 ChatGPT 與 Codex 在既有 Oracle 採購流程中的企業分銷，但 Oracle AI Workspace 仍在開發中，資料存取實際深度仍不明。",
       "quote": "OpenAI and Oracle are bringing Oracle applications and data into ChatGPT and powering new Oracle products and services with OpenAI models and products.",
       "quote_zh": "OpenAI與Oracle正將Oracle應用與資料帶入ChatGPT，並以OpenAI模型與產品驅動新的Oracle產品與服務。",
       "importance": 3,
       "first_seen": "2026-10-28T16:35:00Z",
-      "updated_at": "2026-10-28T16:35:01.553952+00:00",
+      "updated_at": "2026-10-28T22:35:01.567662+00:00",
       "links": [
+        {
+          "label": "OpenAI News",
+          "url": "https://openai.com/news/"
+        },
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/oracle-apps-in-chatgpt/"
@@ -134,19 +239,23 @@
       "id": "google-gemini-robotics-er2-cloud-2026-10-27",
       "story_id": "google-gemini-robotics-er2-cloud-2026-10-27",
       "category": "google",
-      "source_type": "official_blog",
+      "source_type": "product",
       "title_en": "Gemini Robotics Embodied Reasoning 2 enters public preview on Google Cloud",
-      "title_zh": "Gemini Robotics Embodied Reasoning 2在Google Cloud公開預覽",
-      "summary_en": "Google Cloud made Gemini Robotics Embodied Reasoning 2 (ER 2) available in public preview on the Gemini platform. The specialized model serves as a high-level robot brain for spatial-temporal reasoning, long-horizon planning, self-correction and multi-robot orchestration across embodiments, with enterprise security and lifecycle management.",
-      "summary_zh": "Google Cloud將Gemini Robotics Embodied Reasoning 2（ER 2）在Gemini平台以公開預覽開放。此專用模型作為機器人高階大腦，提供時空推理、長程規劃、自我修正與跨形態多機器人編排，並搭配企業級安全與生命週期管理。",
-      "analysis_en": "Putting a frontier embodied-reasoning model into production cloud tooling lowers the barrier for enterprise physical AI, but real-world reliability, safety guardrail performance and cost still need broader validation beyond research demos.",
-      "analysis_zh": "將前沿具身推理模型放入生產級雲端工具降低了企業實體AI的門檻，但真實世界可靠性、安全防護表現與成本仍需超越研究演示的更廣泛驗證。",
+      "title_zh": "Gemini Robotics Embodied Reasoning 2 在 Google Cloud 進入公開預覽",
+      "summary_en": "Google Cloud made Gemini Robotics Embodied Reasoning 2 (ER 2) available in public preview on the Gemini platform. The specialized model serves as a high-level robot brain for spatial-temporal reasoning, long-horizon planning, self-correction and related embodied tasks.",
+      "summary_zh": "Google Cloud 在 Gemini 平台公開預覽 Gemini Robotics Embodied Reasoning 2（ER 2）。此專門模型作為高階機器人大腦，支援空間時間推理、長程規劃、自我修正等體現任務。",
+      "analysis_en": "Putting a frontier embodied-reasoning model into production cloud tooling lowers the barrier for enterprise physical AI, but real-world reliability, safety guardrail performance and latency remain key open questions.",
+      "analysis_zh": "將前沿體現推理模型放入生產雲端工具降低企業實體 AI 門檻，但真實世界可靠性、安全護欄表現與延遲仍是關鍵開放問題。",
       "quote": "Today, we are bringing this same frontier embodied reasoning model to enterprise production environments: Gemini Robotics ER 2 is now available in public preview on the Gemini platform.",
       "quote_zh": "今天，我們將同一套前沿具身推理模型帶入企業生產環境：Gemini Robotics ER 2現已在Gemini平台公開預覽。",
       "importance": 3,
       "first_seen": "2026-10-28T16:35:00Z",
-      "updated_at": "2026-10-28T16:35:01.553952+00:00",
+      "updated_at": "2026-10-28T22:35:01.567662+00:00",
       "links": [
+        {
+          "label": "Google Cloud / DeepMind",
+          "url": "https://deepmind.google/blog/"
+        },
         {
           "label": "Google Cloud Blog",
           "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud"
@@ -157,26 +266,26 @@
       "id": "meta-nvidia-muse-partnership-investment-2026-10-27",
       "story_id": "meta-nvidia-muse-partnership-investment-2026-10-27",
       "category": "meta",
-      "source_type": "mixed",
+      "source_type": "news",
       "title_en": "NVIDIA invests $3 billion in Meta and expands collaboration on Muse agents",
-      "title_zh": "NVIDIA投資Meta 30億美元並擴大Muse代理合作",
-      "summary_en": "NVIDIA and Meta announced an expanded partnership on Muse and the Muse family of models to improve inference and training performance, alongside a $3 billion NVIDIA investment in Meta’s equity offering. Meta plans to expand deployment of NVIDIA Vera Rubin systems, Vera CPUs, Spectrum-X networking and BlueField-4; the companies may also explore OpenShell and Sentry for agent security.",
-      "summary_zh": "NVIDIA與Meta宣布擴大在Muse及Muse模型家族上的合作，以改善推論與訓練效能，並由NVIDIA投資Meta股權發行30億美元。Meta計畫擴大部署NVIDIA Vera Rubin系統、Vera CPU、Spectrum-X網路與BlueField-4；雙方亦可能探索OpenShell與Sentry以強化代理安全。",
-      "analysis_en": "The deal ties capital, hardware and model optimization together for Meta’s personal-agent push, but it is part of a larger equity raise and does not by itself change Muse’s current availability or measured capabilities.",
-      "analysis_zh": "此協議將資本、硬體與模型優化綁在一起，支持Meta的個人代理推進，但它是更大規模股權融資的一部分，本身並未改變Muse目前的可用性或已測能力。",
+      "title_zh": "NVIDIA 投資 Meta 30億美元並擴大 Muse 代理合作",
+      "summary_en": "NVIDIA and Meta announced an expanded partnership on Muse and the Muse family of models to improve inference and training performance, alongside a $3 billion NVIDIA investment in Meta’s equity offering. Meta plans to expand deployment of NVIDIA infrastructure.",
+      "summary_zh": "NVIDIA 與 Meta 宣布擴大 Muse 與 Muse 模型家族合作以改善推論與訓練效能，並由 NVIDIA 投資 Meta 股權發行30億美元。Meta 計劃擴大 NVIDIA 基礎設施部署。",
+      "analysis_en": "The deal ties capital, hardware and model optimization together for Meta’s personal-agent push, but it is part of a larger equity raise and does not by itself change Muse’s current capabilities or availability.",
+      "analysis_zh": "此交易將資本、硬體與模型優化綁定以推進 Meta 個人代理戰略，但屬於更大股權募資的一部分，本身並未改變 Muse 目前能力或可用性。",
       "quote": "NVIDIA and Meta today announced they will partner to expand their work on Muse and the Muse family of models to improve inference and training performance... In addition, NVIDIA will invest $3 billion in Meta’s equity offering.",
       "quote_zh": "NVIDIA與Meta今天宣布將合作擴大在Muse及Muse模型家族上的工作，以改善推論與訓練效能……此外，NVIDIA將投資Meta股權發行30億美元。",
       "importance": 3,
       "first_seen": "2026-10-28T16:35:00Z",
-      "updated_at": "2026-10-28T16:35:01.553952+00:00",
+      "updated_at": "2026-10-28T22:35:01.567662+00:00",
       "links": [
-        {
-          "label": "NVIDIA Press Release",
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Meta-to-Expand-Collaboration-on-Muse-and-Muse-Family-of-Models-Amid-Robust-Growth/default.aspx"
-        },
         {
           "label": "Reuters",
           "url": "https://www.reuters.com/technology/nvidia-meta-partner-muse-agent-nvidia-invests-3-billion-2026-10-27/"
+        },
+        {
+          "label": "NVIDIA Press Release",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Meta-to-Expand-Collaboration-on-Muse-and-Muse-Family-of-Models-Amid-Robust-Growth/default.aspx"
         }
       ]
     },
@@ -186,17 +295,21 @@
       "category": "frontier_other",
       "source_type": "official_x",
       "title_en": "Mistral launches Responses API in public preview for agent building",
-      "title_zh": "Mistral以公開預覽推出Responses API供建構代理",
-      "summary_en": "Mistral introduced the Responses API in public preview, returning the model’s answer, reasoning and tool calls as separate items to make agent construction easier than Chat Completions. It works with all Mistral-hosted chat models including Large 4, and is served on Mistral AI Cloud Inference in the EU and US.",
-      "summary_zh": "Mistral以公開預覽推出Responses API，將模型答案、推理與工具呼叫作為獨立項目返回，使代理建構比Chat Completions更容易。它適用於所有Mistral託管的聊天模型（含Large 4），並在歐盟與美國的Mistral AI Cloud Inference上提供。",
-      "analysis_en": "Aligning with the OpenAI Responses format lowers switching cost for agent developers, but the preview is still stateless and early; production readiness and parity with larger labs’ agent tooling remain to be shown.",
-      "analysis_zh": "對齊OpenAI Responses格式降低了代理開發者的切換成本，但預覽仍是無狀態且早期；生產就緒度與與較大實驗室代理工具的對等性仍待證明。",
+      "title_zh": "Mistral 推出 Responses API 公開預覽以利代理建構",
+      "summary_en": "Mistral introduced the Responses API in public preview, returning the model’s answer, reasoning and tool calls as separate items to make agent construction easier than Chat Completions. It works with all Mistral-hosted chat models including Large 4.",
+      "summary_zh": "Mistral 推出 Responses API 公開預覽，將模型答案、推理與工具呼叫分開回傳，使代理建構比 Chat Completions 更簡單。適用所有 Mistral 託管聊天模型，包括 Large 4。",
+      "analysis_en": "Aligning with the OpenAI Responses format lowers switching cost for agent developers, but the preview is still stateless and early; production readiness and parity with larger labs remain to be proven.",
+      "analysis_zh": "與 OpenAI Responses 格式對齊降低代理開發者切換成本，但預覽仍無狀態且早期；生產就緒度與與大型實驗室的對等性仍待證明。",
       "quote": "Today, we’re introducing the Responses API in public preview, made for building agents on Mistral. Each response returns the model’s answer, its reasoning and its tool calls as separate items...",
       "quote_zh": "今天，我們以公開預覽推出Responses API，專為在Mistral上建構代理而設計。每次回應將模型答案、推理與工具呼叫作為獨立項目返回……",
       "importance": 3,
       "first_seen": "2026-10-28T16:35:00Z",
-      "updated_at": "2026-10-28T16:35:01.553952+00:00",
+      "updated_at": "2026-10-28T22:35:01.567662+00:00",
       "links": [
+        {
+          "label": "Mistral AI on X",
+          "url": "https://x.com/MistralAI"
+        },
         {
           "label": "Mistral Docs",
           "url": "https://docs.mistral.ai/studio/conversations/responses"
@@ -211,22 +324,53 @@
   "categories": {
     "openai": [
       {
+        "id": "openai-servicenow-partnership-2026-10-28",
+        "story_id": "openai-servicenow-partnership-2026-10-28",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI and ServiceNow expand partnership to connect workflows with ChatGPT and Codex",
+        "title_zh": "OpenAI 與 ServiceNow 擴大合作，將工作流程連接至 ChatGPT 與 Codex",
+        "summary_en": "OpenAI and ServiceNow announced an expansion on October 28 bringing ServiceNow business context and governed actions into ChatGPT via a new MCP plugin (available now), while planning Codex integration for app development, joint cybersecurity solutions, and voice features for risk assessment. ServiceNow will expand ChatGPT Work and Codex access to all employees; OpenAI will use ServiceNow internally.",
+        "summary_zh": "OpenAI 與 ServiceNow 於10月28日宣布擴大合作，透過新 MCP 外掛（現已上架）將 ServiceNow 業務上下文與受控行動帶入 ChatGPT，並規劃 Codex 整合用於應用開發、聯合資安方案及語音風險評估。ServiceNow 將把 ChatGPT Work 與 Codex 擴及全體員工；OpenAI 也將內部使用 ServiceNow。",
+        "analysis_en": "The deal advances agentic enterprise execution inside existing governed systems, but most advanced capabilities remain planned for 2027, so near-term impact depends on plugin adoption and integration depth.",
+        "analysis_zh": "此交易推進在既有受控系統中的代理式企業執行，但多數進階能力規劃於2027年，近期影響取決於外掛採用與整合深度。",
+        "quote": "AI becomes more useful when people can put it to work in the systems their businesses depend on.",
+        "quote_zh": "當人們能在企業所依賴的系統中運用 AI 時，AI 會變得更有用。",
+        "importance": 4,
+        "first_seen": "2026-10-28T22:35:00Z",
+        "updated_at": "2026-10-28T22:35:01.567662+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/openai-servicenow-partnership-expansion/"
+          },
+          {
+            "label": "ServiceNow News on X",
+            "url": "https://x.com/ServiceNowNews/status/2115541647106646443"
+          }
+        ]
+      },
+      {
         "id": "openai-oracle-partnership-expansion-2026-10-27",
         "story_id": "openai-oracle-partnership-expansion-2026-10-27",
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI expands Oracle partnership to bring apps and data into ChatGPT",
-        "title_zh": "OpenAI擴大Oracle合作，將應用與資料帶入ChatGPT",
-        "summary_en": "OpenAI and Oracle announced an expansion that will bring Oracle applications and data into ChatGPT via Oracle AI Workspace (in development), while powering new Oracle offerings such as AI Security Mesh, an SMB Bundle with ChatGPT Business and Codex, and App Composer. US Oracle customers can also purchase OpenAI API, Codex and ChatGPT Work through Oracle Marketplace.",
-        "summary_zh": "OpenAI與Oracle宣布擴大合作，將透過開發中的Oracle AI Workspace把Oracle應用與資料帶入ChatGPT，同時以OpenAI模型驅動Oracle AI Security Mesh、含ChatGPT Business與Codex的SMB套件，以及App Composer。美國Oracle客戶亦可透過Oracle Marketplace購買OpenAI API、Codex與ChatGPT Work。",
-        "analysis_en": "The deal deepens enterprise distribution for ChatGPT and Codex inside existing Oracle procurement flows, but Oracle AI Workspace remains in development and the practical depth of data/workflow integration is still to be proven.",
-        "analysis_zh": "此協議深化ChatGPT與Codex在既有Oracle採購流程中的企業分銷，但Oracle AI Workspace仍在開發中，資料與工作流整合的實際深度尚待驗證。",
+        "title_zh": "OpenAI 擴大與 Oracle 合作，將應用與資料帶入 ChatGPT",
+        "summary_en": "OpenAI and Oracle announced an expansion that will bring Oracle applications and data into ChatGPT via Oracle AI Workspace (in development), while powering new Oracle offerings such as AI Security Mesh, an SMB Bundle with ChatGPT Business and other tools.",
+        "summary_zh": "OpenAI 與 Oracle 宣布擴大合作，將透過開發中的 Oracle AI Workspace 把 Oracle 應用與資料帶入 ChatGPT，同時支援 Oracle 新產品如 AI Security Mesh、含 ChatGPT Business 的中小企業套件等。",
+        "analysis_en": "The deal deepens enterprise distribution for ChatGPT and Codex inside existing Oracle procurement flows, but Oracle AI Workspace remains in development and the practical depth of data access is still unclear.",
+        "analysis_zh": "此交易加深 ChatGPT 與 Codex 在既有 Oracle 採購流程中的企業分銷，但 Oracle AI Workspace 仍在開發中，資料存取實際深度仍不明。",
         "quote": "OpenAI and Oracle are bringing Oracle applications and data into ChatGPT and powering new Oracle products and services with OpenAI models and products.",
         "quote_zh": "OpenAI與Oracle正將Oracle應用與資料帶入ChatGPT，並以OpenAI模型與產品驅動新的Oracle產品與服務。",
         "importance": 3,
         "first_seen": "2026-10-28T16:35:00Z",
-        "updated_at": "2026-10-28T16:35:01.553952+00:00",
+        "updated_at": "2026-10-28T22:35:01.567662+00:00",
         "links": [
+          {
+            "label": "OpenAI News",
+            "url": "https://openai.com/news/"
+          },
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/oracle-apps-in-chatgpt/"
@@ -241,17 +385,21 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic reports early progress accelerating drug development with Claude",
-        "title_zh": "Anthropic報告以Claude加速藥物開發的早期進展",
-        "summary_en": "Anthropic detailed partnerships with six organizations (including Generate Biomedicines, BigHat, Divergence Labs, Enveda, The Column Group and Bristol Myers Squibb) using Claude across modality design, hit generation, lead optimization, manufacturing paperwork and trial planning. It also acquired one-person Mithril Medicine and began internal programs, including for rare muscular dystrophy, with promising preclinical results in mice.",
-        "summary_zh": "Anthropic詳述與六家機構（含Generate Biomedicines、BigHat、Divergence Labs、Enveda、The Column Group與Bristol Myers Squibb）的合作，使用Claude進行模態設計、命中生成、先導優化、製造文件與試驗規劃。同時收購單人公司Mithril Medicine並啟動內部計畫，包括罕見肌肉萎縮症，小鼠臨床前結果具潛力。",
-        "analysis_en": "The case studies show Claude handling distributed bottlenecks from design to regulatory drafts, but most work remains preclinical. Translating mouse results and operational gains into approved medicines will take years and still depends on model improvements Anthropic says it is prioritizing.",
-        "analysis_zh": "案例顯示Claude處理從設計到法規草稿的分散瓶頸，但多數仍屬臨床前。將小鼠結果與營運增益轉化為核准藥物仍需多年，且仍取決於Anthropic表示正優先處理的模型改進。",
+        "title_zh": "Anthropic 報告使用 Claude 加速藥物開發的早期進展",
+        "summary_en": "Anthropic detailed partnerships with six organizations (including Generate Biomedicines, BigHat, Divergence Labs, Enveda, The Column Group and Bristol Myers Squibb) using Claude across modality design, hit generation, lead optimization, manufacturing review and regulatory drafting, plus its own early programs after acquiring Mithril Medicine for rare muscular dystrophy work.",
+        "summary_zh": "Anthropic 詳述與六家機構（含 Generate Biomedicines、BigHat、Divergence Labs、Enveda、The Column Group 與 Bristol Myers Squibb）合作，使用 Claude 涵蓋模態設計、命中生成、先導優化、製造審查與法規草稿，並在收購 Mithril Medicine 後啟動自身罕見肌肉萎縮症早期計畫。",
+        "analysis_en": "The case studies show Claude handling distributed bottlenecks from design to regulatory drafts, but most work remains preclinical. Translating mouse results and operational gains into approved therapies is still uncertain.",
+        "analysis_zh": "案例顯示 Claude 處理從設計到法規草稿的分散瓶頸，但多數仍屬臨床前。將小鼠結果與營運增益轉化為核准療法仍不確定。",
         "quote": "Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines... We've also begun drug discovery efforts of our own.",
         "quote_zh": "過去數月，我們的科學家與六家開發新藥的機構進行深度研究合作……我們也開始了自己的藥物發現工作。",
         "importance": 4,
         "first_seen": "2026-10-28T16:35:00Z",
-        "updated_at": "2026-10-28T16:35:01.553952+00:00",
+        "updated_at": "2026-10-28T22:35:01.567662+00:00",
         "links": [
+          {
+            "label": "Anthropic Newsroom",
+            "url": "https://www.anthropic.com/news"
+          },
           {
             "label": "Anthropic Research",
             "url": "https://www.anthropic.com/research/early-progress-drug-development"
@@ -262,21 +410,21 @@
         "id": "anthropic-claude-legal-artifacts-2026-10-28",
         "story_id": "anthropic-claude-legal-artifacts-2026-10-28",
         "category": "anthropic",
-        "source_type": "official_blog",
+        "source_type": "product",
         "title_en": "Anthropic introduces ready-to-use artifacts gallery for Claude for Legal",
-        "title_zh": "Anthropic為Claude for Legal推出即用型artifacts法律工具庫",
-        "summary_en": "Anthropic launched a gallery of ready-to-use interactive artifacts for Claude for Legal, covering contract review, cite checking, regulatory horizon scans, tabular review and more. Teams can adapt them with their own data and 60+ legal connectors, and share them with guardrails; partner-built tools from firms like Goodwin, Harvey, Foley & Lardner and PwC are included, along with access-to-justice artifacts.",
-        "summary_zh": "Anthropic為Claude for Legal推出即用型互動artifacts工具庫，涵蓋合約審查、引用檢查、法規掃描、表格審查等。團隊可用自有資料與60多個法律連接器調整，並在防護下分享；包含Goodwin、Harvey、Foley & Lardner、PwC等合作夥伴工具，以及司法可及性artifacts。",
-        "analysis_en": "The move shifts Claude from pure chat toward structured legal workflows, addressing common requests for easier collaboration. Success depends on how well artifacts reduce review time without introducing new privilege or accuracy risks in high-stakes work.",
-        "analysis_zh": "此舉將Claude從純對話轉向結構化法律工作流，回應常見的協作需求。成敗取決於artifacts能否縮短審查時間，同時不在高風險工作中引入新的特權或準確性風險。",
+        "title_zh": "Anthropic 為 Claude for Legal 推出現成工件藝廊",
+        "summary_en": "Anthropic launched a gallery of ready-to-use interactive artifacts for Claude for Legal, covering contract review, cite checking, regulatory horizon scans, tabular review and more. Teams can adapt them with their own data and 60+ legal connectors.",
+        "summary_zh": "Anthropic 為 Claude for Legal 推出現成互動工件藝廊，涵蓋合約審查、引用檢查、法規掃描、表格審查等。團隊可用自身資料與超過60個法律連接器進行調整。",
+        "analysis_en": "The move shifts Claude from pure chat toward structured legal workflows, addressing common requests for easier collaboration. Success depends on how well artifacts reduce review time in practice.",
+        "analysis_zh": "此舉將 Claude 從純聊天轉向結構化法律工作流程，回應更易協作的常見需求。成功取決於工件在實務中能多有效縮短審查時間。",
         "quote": "Today, we’re introducing ready-to-use artifacts that legal professionals can adapt to how their teams work and share with colleagues across the business.",
         "quote_zh": "今天，我們推出法律專業人士可依團隊工作方式調整、並與企業同事分享的即用型artifacts。",
         "importance": 3,
         "first_seen": "2026-10-28T16:35:00Z",
-        "updated_at": "2026-10-28T16:35:01.553952+00:00",
+        "updated_at": "2026-10-28T22:35:01.567662+00:00",
         "links": [
           {
-            "label": "Claude by Anthropic",
+            "label": "Claude Resources",
             "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work"
           }
         ]
@@ -287,17 +435,21 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic expands GSA partnership with 40% discount for all levels of US government",
-        "title_zh": "Anthropic擴大GSA合作，為美國各級政府提供40%折扣",
-        "summary_en": "Anthropic expanded its GSA agreement to offer a 40% discount on Claude Enterprise, Claude for Government and the Claude API across federal, state, local, tribal and territorial governments, with no minimum spend. Roughly 500 government organizations already use Claude; weekly active users in Claude for Government are up about eightfold since February.",
-        "summary_zh": "Anthropic擴大GSA協議，對聯邦、州、地方、部落與領地政府提供Claude Enterprise、Claude for Government與Claude API 40%折扣，無最低消費。約500個政府組織已使用Claude；Claude for Government每週活躍用戶自2月以來約增八倍。",
-        "analysis_en": "The discount lowers barriers for public-sector adoption amid long procurement cycles and tight budgets, but actual uptake still depends on security authorizations and agency implementation capacity.",
-        "analysis_zh": "折扣降低了公共部門在冗長採購週期與緊縮預算下的採用門檻，但實際採用仍取決於安全授權與機構執行能力。",
+        "title_zh": "Anthropic 擴大 GSA 合作，為美國各級政府提供40%折扣",
+        "summary_en": "Anthropic expanded its GSA agreement to offer a 40% discount on Claude Enterprise, Claude for Government and the Claude API across federal, state, local, tribal and territorial governments, with no minimum spend. Roughly 500 government organizations already use Claude.",
+        "summary_zh": "Anthropic 擴大 GSA 協議，為聯邦、州、地方、部落與領地政府提供 Claude Enterprise、Claude for Government 與 Claude API 40% 折扣，無最低消費。約500個政府組織已在使用 Claude。",
+        "analysis_en": "The discount lowers barriers for public-sector adoption amid long procurement cycles and tight budgets, but actual uptake still depends on security authorizations and agency implementation.",
+        "analysis_zh": "折扣在長採購週期與緊縮預算下降低公部門採用門檻，但實際採用仍取決於安全授權與機關落地。",
         "quote": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.",
         "quote_zh": "我們透過新協議擴大與總務署（GSA）的合作，給予政府合作夥伴在Claude Enterprise、Claude for Government與Claude API上40%的折扣。",
         "importance": 3,
         "first_seen": "2026-10-28T16:35:00Z",
-        "updated_at": "2026-10-28T16:35:01.553952+00:00",
+        "updated_at": "2026-10-28T22:35:01.567662+00:00",
         "links": [
+          {
+            "label": "Anthropic Newsroom",
+            "url": "https://www.anthropic.com/news"
+          },
           {
             "label": "Anthropic News",
             "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
@@ -307,22 +459,53 @@
     ],
     "google": [
       {
+        "id": "google-gemini-4-carbon-2026-10-28",
+        "story_id": "google-gemini-4-carbon-2026-10-28",
+        "category": "google",
+        "source_type": "official_blog",
+        "title_en": "Google DeepMind announces Gemini 4 Carbon as next frontier model with cybersecurity focus",
+        "title_zh": "Google DeepMind 宣布 Gemini 4 Carbon 為下一款前沿模型，聚焦資安能力",
+        "summary_en": "Google DeepMind announced Gemini 4 Carbon on October 28 as its strongest model, ranking #1 on Artificial Analysis Intelligence Index v5.0 at 59 with state-of-the-art cybersecurity performance (e.g., 88.2% on SEC-bench Pro for vulnerabilities, more than 2x secure code generation success vs. Argon on internal benchmarks). It is initially available only to a subset of cyber defenders via the Fairwind Program, with pricing matching Argon’s introductory rates of $2/$10 per million tokens.",
+        "summary_zh": "Google DeepMind 於10月28日宣布 Gemini 4 Carbon 為其最強模型，在 Artificial Analysis Intelligence Index v5.0 以59分排名第一，並在資安任務上領先（例如 SEC-bench Pro 漏洞發現達88.2%，內部基準安全程式碼生成成功率較 Argon 超過2倍）。目前僅透過 Fairwind 計畫提供給部分資安防禦者，定價與 Argon 入門價相同（每百萬token 輸入2美元/輸出10美元）。",
+        "analysis_en": "Carbon demonstrates rapid iteration in Google’s Gemini 4 series and prioritizes high-stakes defense use cases, but staged rollout and reliance on internal/external benchmarks leave real-world reliability and broader availability timelines uncertain.",
+        "analysis_zh": "Carbon 顯示 Gemini 4 系列快速迭代並優先高風險防禦用途，但分階段推出與依賴內外部基準，使真實世界可靠性與全面開放時程仍不確定。",
+        "quote": "Today, we’re announcing the next frontier model: Gemini 4 Carbon, our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
+        "quote_zh": "今天，我們宣布下一款前沿模型：Gemini 4 Carbon，我們最強的模型，具備最先進的資安與長程能力。",
+        "importance": 5,
+        "first_seen": "2026-10-28T22:35:00Z",
+        "updated_at": "2026-10-28T22:35:01.567662+00:00",
+        "links": [
+          {
+            "label": "Google Blog",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+          },
+          {
+            "label": "Google DeepMind on X",
+            "url": "https://x.com/GoogleDeepMind/status/2115489359415890211"
+          }
+        ]
+      },
+      {
         "id": "google-genie-4-world-model-2026-10-27",
         "story_id": "google-genie-4-world-model-2026-10-27",
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google DeepMind announces Genie 4 world model with native audio and real-time steering",
-        "title_zh": "Google DeepMind宣布Genie 4世界模型：原生音訊與即時場景操控",
-        "summary_en": "Google DeepMind announced Genie 4, a next-generation world model that generates photorealistic interactive environments with native audio (ambient sound, music, dialogue) and allows real-time natural-language steering of scenes. It builds on Gemini Omni for appearance and Gemini models for coherence, and is rolling out as a research preview for trusted testers, with later access planned for Google AI Ultra in Project Genie and early Gemini API partners.",
-        "summary_zh": "Google DeepMind宣布Genie 4，下一代世界模型，可生成具備原生音訊（環境音、音樂、對話）的擬真互動環境，並支援自然語言即時操控場景。它以Gemini Omni錨定外觀、以其他Gemini模型維持連貫性，目前以研究預覽形式開放給受信任測試者，稍後將開放給Google AI Ultra的Project Genie與Gemini API早期合作夥伴。",
-        "analysis_en": "Genie 4 advances interactive simulation for robotics training, creative tools and agent evaluation, but coherence remains limited to short sessions and object permanence can still drift. Wider availability and measured sim-to-real transfer rates will determine practical impact.",
-        "analysis_zh": "Genie 4推進了互動模擬在機器人訓練、創意工具與代理評估上的應用，但連貫性仍限於短時段，物件持久性仍可能漂移。更廣泛的可用性與實測sim-to-real遷移率將決定實際影響。",
+        "title_zh": "Google DeepMind 宣布 Genie 4 世界模型，具備原生音訊與即時導引",
+        "summary_en": "Google DeepMind announced Genie 4, a next-generation world model that generates photorealistic interactive environments with native audio (ambient sound, music, dialogue) and allows real-time natural-language steering of scenes. Simulations run up to about two minutes, roughly double Genie 3, and it is available as a research preview.",
+        "summary_zh": "Google DeepMind 宣布 Genie 4，新一代世界模型可生成具原生音訊（環境聲、音樂、對話）的擬真互動環境，並支援即時自然語言導引場景。模擬時長約兩分鐘，約為 Genie 3 的兩倍，目前以研究預覽形式提供。",
+        "analysis_en": "Genie 4 advances interactive simulation for robotics training, creative tools and agent evaluation, but coherence remains limited to short sessions and object permanence can still degrade.",
+        "analysis_zh": "Genie 4 推進互動模擬在機器人訓練、創意工具與代理評估的應用，但連貫性仍限於短時段，物件持久性仍可能下降。",
         "quote": "Today, we are announcing Genie 4, our new world model, which unlocks unprecedented realism and improves real-time interactive simulation. Genie 4 is natively multimodal, enabling audio-like music, ambient noises, and interactive dialogue to be simultaneously generated with the world.",
         "quote_zh": "今天，我們宣布Genie 4，我們的新世界模型，它解鎖了前所未有的擬真度並改善即時互動模擬。Genie 4是原生多模態的，能同時生成音樂般的音訊、環境音與互動對話。",
         "importance": 4,
         "first_seen": "2026-10-28T16:35:00Z",
-        "updated_at": "2026-10-28T16:35:01.553952+00:00",
+        "updated_at": "2026-10-28T22:35:01.567662+00:00",
         "links": [
+          {
+            "label": "Google DeepMind Blog",
+            "url": "https://deepmind.google/blog/"
+          },
           {
             "label": "Google DeepMind Blog",
             "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
@@ -337,19 +520,23 @@
         "id": "google-gemini-robotics-er2-cloud-2026-10-27",
         "story_id": "google-gemini-robotics-er2-cloud-2026-10-27",
         "category": "google",
-        "source_type": "official_blog",
+        "source_type": "product",
         "title_en": "Gemini Robotics Embodied Reasoning 2 enters public preview on Google Cloud",
-        "title_zh": "Gemini Robotics Embodied Reasoning 2在Google Cloud公開預覽",
-        "summary_en": "Google Cloud made Gemini Robotics Embodied Reasoning 2 (ER 2) available in public preview on the Gemini platform. The specialized model serves as a high-level robot brain for spatial-temporal reasoning, long-horizon planning, self-correction and multi-robot orchestration across embodiments, with enterprise security and lifecycle management.",
-        "summary_zh": "Google Cloud將Gemini Robotics Embodied Reasoning 2（ER 2）在Gemini平台以公開預覽開放。此專用模型作為機器人高階大腦，提供時空推理、長程規劃、自我修正與跨形態多機器人編排，並搭配企業級安全與生命週期管理。",
-        "analysis_en": "Putting a frontier embodied-reasoning model into production cloud tooling lowers the barrier for enterprise physical AI, but real-world reliability, safety guardrail performance and cost still need broader validation beyond research demos.",
-        "analysis_zh": "將前沿具身推理模型放入生產級雲端工具降低了企業實體AI的門檻，但真實世界可靠性、安全防護表現與成本仍需超越研究演示的更廣泛驗證。",
+        "title_zh": "Gemini Robotics Embodied Reasoning 2 在 Google Cloud 進入公開預覽",
+        "summary_en": "Google Cloud made Gemini Robotics Embodied Reasoning 2 (ER 2) available in public preview on the Gemini platform. The specialized model serves as a high-level robot brain for spatial-temporal reasoning, long-horizon planning, self-correction and related embodied tasks.",
+        "summary_zh": "Google Cloud 在 Gemini 平台公開預覽 Gemini Robotics Embodied Reasoning 2（ER 2）。此專門模型作為高階機器人大腦，支援空間時間推理、長程規劃、自我修正等體現任務。",
+        "analysis_en": "Putting a frontier embodied-reasoning model into production cloud tooling lowers the barrier for enterprise physical AI, but real-world reliability, safety guardrail performance and latency remain key open questions.",
+        "analysis_zh": "將前沿體現推理模型放入生產雲端工具降低企業實體 AI 門檻，但真實世界可靠性、安全護欄表現與延遲仍是關鍵開放問題。",
         "quote": "Today, we are bringing this same frontier embodied reasoning model to enterprise production environments: Gemini Robotics ER 2 is now available in public preview on the Gemini platform.",
         "quote_zh": "今天，我們將同一套前沿具身推理模型帶入企業生產環境：Gemini Robotics ER 2現已在Gemini平台公開預覽。",
         "importance": 3,
         "first_seen": "2026-10-28T16:35:00Z",
-        "updated_at": "2026-10-28T16:35:01.553952+00:00",
+        "updated_at": "2026-10-28T22:35:01.567662+00:00",
         "links": [
+          {
+            "label": "Google Cloud / DeepMind",
+            "url": "https://deepmind.google/blog/"
+          },
           {
             "label": "Google Cloud Blog",
             "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud"
@@ -359,29 +546,56 @@
     ],
     "meta": [
       {
+        "id": "meta-university-research-partnerships-2026-10-28",
+        "story_id": "meta-university-research-partnerships-2026-10-28",
+        "category": "meta",
+        "source_type": "official_blog",
+        "title_en": "Meta partners with five US universities, providing $2M and Muse model access for science and medicine",
+        "title_zh": "Meta 與五所美國大學合作，提供200萬美元與 Muse 模型存取以推進科學與醫學",
+        "summary_en": "Meta announced partnerships on October 28 with Caltech, Ohio State College of Medicine, LSU, Indiana University and UTHealth Houston, granting $2 million across projects plus access to Muse models (including Wonder, Spark Open, Glimmer), computer vision tools and researcher collaboration to accelerate work in medicine, physics, chemistry and related fields.",
+        "summary_zh": "Meta 於10月28日宣布與加州理工、俄亥俄州立醫學院、路易斯安那州立、印第安納大學及德州大學健康科學中心休士頓分校合作，跨計畫提供200萬美元補助，並開放 Muse 模型（含 Wonder、Spark Open、Glimmer）、電腦視覺工具與研究員協作，以加速醫學、物理、化學等領域突破。",
+        "analysis_en": "The initiative extends Meta’s open-weight models into applied academic research, particularly healthcare, but outcomes will depend on how effectively teams translate model access into validated clinical or scientific results.",
+        "analysis_zh": "此計畫將 Meta 開源權重模型延伸至應用型學術研究（特別是醫療），但成果取決於團隊如何有效將模型存取轉化為經過驗證的臨床或科學結果。",
+        "quote": "We’re supporting their work with $2 million in grants and access to our latest models.",
+        "quote_zh": "我們以200萬美元補助與最新模型存取支持他們的工作。",
+        "importance": 3,
+        "first_seen": "2026-10-28T22:35:00Z",
+        "updated_at": "2026-10-28T22:35:01.567662+00:00",
+        "links": [
+          {
+            "label": "Meta Newsroom",
+            "url": "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/"
+          },
+          {
+            "label": "Meta AI Research Blog",
+            "url": "https://research.meta.ai/blog/supporting-medical-scientific-research"
+          }
+        ]
+      },
+      {
         "id": "meta-nvidia-muse-partnership-investment-2026-10-27",
         "story_id": "meta-nvidia-muse-partnership-investment-2026-10-27",
         "category": "meta",
-        "source_type": "mixed",
+        "source_type": "news",
         "title_en": "NVIDIA invests $3 billion in Meta and expands collaboration on Muse agents",
-        "title_zh": "NVIDIA投資Meta 30億美元並擴大Muse代理合作",
-        "summary_en": "NVIDIA and Meta announced an expanded partnership on Muse and the Muse family of models to improve inference and training performance, alongside a $3 billion NVIDIA investment in Meta’s equity offering. Meta plans to expand deployment of NVIDIA Vera Rubin systems, Vera CPUs, Spectrum-X networking and BlueField-4; the companies may also explore OpenShell and Sentry for agent security.",
-        "summary_zh": "NVIDIA與Meta宣布擴大在Muse及Muse模型家族上的合作，以改善推論與訓練效能，並由NVIDIA投資Meta股權發行30億美元。Meta計畫擴大部署NVIDIA Vera Rubin系統、Vera CPU、Spectrum-X網路與BlueField-4；雙方亦可能探索OpenShell與Sentry以強化代理安全。",
-        "analysis_en": "The deal ties capital, hardware and model optimization together for Meta’s personal-agent push, but it is part of a larger equity raise and does not by itself change Muse’s current availability or measured capabilities.",
-        "analysis_zh": "此協議將資本、硬體與模型優化綁在一起，支持Meta的個人代理推進，但它是更大規模股權融資的一部分，本身並未改變Muse目前的可用性或已測能力。",
+        "title_zh": "NVIDIA 投資 Meta 30億美元並擴大 Muse 代理合作",
+        "summary_en": "NVIDIA and Meta announced an expanded partnership on Muse and the Muse family of models to improve inference and training performance, alongside a $3 billion NVIDIA investment in Meta’s equity offering. Meta plans to expand deployment of NVIDIA infrastructure.",
+        "summary_zh": "NVIDIA 與 Meta 宣布擴大 Muse 與 Muse 模型家族合作以改善推論與訓練效能，並由 NVIDIA 投資 Meta 股權發行30億美元。Meta 計劃擴大 NVIDIA 基礎設施部署。",
+        "analysis_en": "The deal ties capital, hardware and model optimization together for Meta’s personal-agent push, but it is part of a larger equity raise and does not by itself change Muse’s current capabilities or availability.",
+        "analysis_zh": "此交易將資本、硬體與模型優化綁定以推進 Meta 個人代理戰略，但屬於更大股權募資的一部分，本身並未改變 Muse 目前能力或可用性。",
         "quote": "NVIDIA and Meta today announced they will partner to expand their work on Muse and the Muse family of models to improve inference and training performance... In addition, NVIDIA will invest $3 billion in Meta’s equity offering.",
         "quote_zh": "NVIDIA與Meta今天宣布將合作擴大在Muse及Muse模型家族上的工作，以改善推論與訓練效能……此外，NVIDIA將投資Meta股權發行30億美元。",
         "importance": 3,
         "first_seen": "2026-10-28T16:35:00Z",
-        "updated_at": "2026-10-28T16:35:01.553952+00:00",
+        "updated_at": "2026-10-28T22:35:01.567662+00:00",
         "links": [
-          {
-            "label": "NVIDIA Press Release",
-            "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Meta-to-Expand-Collaboration-on-Muse-and-Muse-Family-of-Models-Amid-Robust-Growth/default.aspx"
-          },
           {
             "label": "Reuters",
             "url": "https://www.reuters.com/technology/nvidia-meta-partner-muse-agent-nvidia-invests-3-billion-2026-10-27/"
+          },
+          {
+            "label": "NVIDIA Press Release",
+            "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Meta-to-Expand-Collaboration-on-Muse-and-Muse-Family-of-Models-Amid-Robust-Growth/default.aspx"
           }
         ]
       }
@@ -394,17 +608,21 @@
         "category": "frontier_other",
         "source_type": "official_x",
         "title_en": "Mistral launches Responses API in public preview for agent building",
-        "title_zh": "Mistral以公開預覽推出Responses API供建構代理",
-        "summary_en": "Mistral introduced the Responses API in public preview, returning the model’s answer, reasoning and tool calls as separate items to make agent construction easier than Chat Completions. It works with all Mistral-hosted chat models including Large 4, and is served on Mistral AI Cloud Inference in the EU and US.",
-        "summary_zh": "Mistral以公開預覽推出Responses API，將模型答案、推理與工具呼叫作為獨立項目返回，使代理建構比Chat Completions更容易。它適用於所有Mistral託管的聊天模型（含Large 4），並在歐盟與美國的Mistral AI Cloud Inference上提供。",
-        "analysis_en": "Aligning with the OpenAI Responses format lowers switching cost for agent developers, but the preview is still stateless and early; production readiness and parity with larger labs’ agent tooling remain to be shown.",
-        "analysis_zh": "對齊OpenAI Responses格式降低了代理開發者的切換成本，但預覽仍是無狀態且早期；生產就緒度與與較大實驗室代理工具的對等性仍待證明。",
+        "title_zh": "Mistral 推出 Responses API 公開預覽以利代理建構",
+        "summary_en": "Mistral introduced the Responses API in public preview, returning the model’s answer, reasoning and tool calls as separate items to make agent construction easier than Chat Completions. It works with all Mistral-hosted chat models including Large 4.",
+        "summary_zh": "Mistral 推出 Responses API 公開預覽，將模型答案、推理與工具呼叫分開回傳，使代理建構比 Chat Completions 更簡單。適用所有 Mistral 託管聊天模型，包括 Large 4。",
+        "analysis_en": "Aligning with the OpenAI Responses format lowers switching cost for agent developers, but the preview is still stateless and early; production readiness and parity with larger labs remain to be proven.",
+        "analysis_zh": "與 OpenAI Responses 格式對齊降低代理開發者切換成本，但預覽仍無狀態且早期；生產就緒度與與大型實驗室的對等性仍待證明。",
         "quote": "Today, we’re introducing the Responses API in public preview, made for building agents on Mistral. Each response returns the model’s answer, its reasoning and its tool calls as separate items...",
         "quote_zh": "今天，我們以公開預覽推出Responses API，專為在Mistral上建構代理而設計。每次回應將模型答案、推理與工具呼叫作為獨立項目返回……",
         "importance": 3,
         "first_seen": "2026-10-28T16:35:00Z",
-        "updated_at": "2026-10-28T16:35:01.553952+00:00",
+        "updated_at": "2026-10-28T22:35:01.567662+00:00",
         "links": [
+          {
+            "label": "Mistral AI on X",
+            "url": "https://x.com/MistralAI"
+          },
           {
             "label": "Mistral Docs",
             "url": "https://docs.mistral.ai/studio/conversations/responses"
@@ -417,7 +635,7 @@
       }
     ]
   },
-  "brief_en": "Labs focused on agents, robotics and domain tools: Google shipped Genie 4 world model and Robotics ER 2 on Cloud; Anthropic added legal artifacts, drug-development case studies and a 40% government discount; OpenAI expanded Oracle integration; Meta-NVIDIA deepened Muse partnership with $3B investment; Mistral previewed a Responses API.",
-  "brief_zh": "大廠聚焦代理、機器人與垂直工具：Google推出Genie 4世界模型與雲端機器人ER 2；Anthropic新增法律artifacts、藥物研發案例與政府40%折扣；OpenAI擴大Oracle整合；Meta與NVIDIA深化Muse合作並投資30億美元；Mistral預覽Responses API。",
-  "updated_at": "2026-10-28T16:35:01.553952+00:00"
+  "brief_en": "Google launches Gemini 4 Carbon as its top frontier model with cybersecurity strengths but limited access; OpenAI expands ServiceNow partnership for governed enterprise workflows; Meta funds university research with Muse models; Anthropic advances Claude in legal tools, government pricing and drug development; Google’s Genie 4 world model and other partnerships continue.",
+  "brief_zh": "Google推出Gemini 4 Carbon前沿模型，強調資安與長程能力但初期限縮；OpenAI擴大與ServiceNow合作將流程帶入ChatGPT；Meta以Muse模型資助大學科研；Anthropic推進法律工件、政府折扣與藥物開發；Genie 4世界模型等既有動態持續。",
+  "updated_at": "2026-10-28T22:35:01.567662+00:00"
 }
