@@ -1,0 +1,339 @@
+{
+  "date": "2026-10-30",
+  "runs": [
+    {
+      "generated_at": "2026-10-29T16:35:02.036225+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 6,
+      "updated_count": 0,
+      "kept_count": 0
+    }
+  ],
+  "items_flat": [
+    {
+      "id": "google-gemini-4-carbon-preview-2026-10-28",
+      "story_id": "google-gemini-4-carbon-preview-2026-10-28",
+      "category": "google",
+      "source_type": "official_blog",
+      "title_en": "Google DeepMind announces Gemini 4 Carbon, next frontier model with SOTA cyber and long-horizon capabilities",
+      "title_zh": "Google DeepMind 宣布 Gemini 4 Carbon，下一代前沿模型在資安與長時程任務領先",
+      "summary_en": "Google DeepMind announced Gemini 4 Carbon as its strongest model yet, ranking #1 on Artificial Analysis Intelligence Index v5.0 at 59 with strong gains on SEC-bench Pro (88.2%), ExploitGym (54.8%), and CWE-bench (71.0%). Access starts this week for a subset of cyber defenders in the Fairwind Program under voluntary U.S. pre-release review, at introductory pricing of $2/$10 per million tokens matching Argon.",
+      "summary_zh": "Google DeepMind 宣布 Gemini 4 Carbon 為其迄今最強模型，在 Artificial Analysis Intelligence Index v5.0 以 59 分居首，並在 SEC-bench Pro（88.2%）、ExploitGym（54.8%）與 CWE-bench（71.0%）大幅領先。本週先向 Fairwind 計畫部分資安防禦者開放，正接受美國自願預發布審查，入門價格與 Argon 相同為每百萬 token $2/$10。",
+      "analysis_en": "The rapid follow-up to Gemini 4 Argon underscores competitive pressure on frontier releases, but limited initial access and ongoing government review leave the timeline for broader developer and consumer availability uncertain.",
+      "analysis_zh": "緊接 Argon 之後快速推出顯示前沿發布競爭加劇，但初期有限開放與持續政府審查，使更廣泛開發者與消費者取得時程仍不確定。",
+      "quote": "Today, we’re announcing the next frontier model: Gemini 4 Carbon, our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
+      "quote_zh": "今天，我們宣布下一代前沿模型：Gemini 4 Carbon，我們最強的模型，具備最先進的網路安全與長時程能力。",
+      "importance": 5,
+      "first_seen": "2026-10-29T16:35:02Z",
+      "updated_at": "2026-10-29T16:35:02.036225+00:00",
+      "links": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "label": "Demis Hassabis on X",
+          "url": "https://x.com/demishassabis/status/2115489550256746502"
+        }
+      ]
+    },
+    {
+      "id": "mistral-large-4-open-weights-2026-10-29",
+      "story_id": "mistral-large-4-open-weights-2026-10-29",
+      "category": "frontier_other",
+      "source_type": "official_blog",
+      "title_en": "Mistral releases open weights for improved Mistral Large 4 (Le Chonk)",
+      "title_zh": "Mistral 發布改進版 Mistral Large 4（Le Chonk）開放權重",
+      "summary_en": "Mistral released the open weights of its 1-trillion-parameter multimodal Mistral Large 4 (Le Chonk), improved via additional reinforcement learning for agentic coding and cybersecurity. It leads open-weight models on FrontierCode and Terminal-Bench 4.0 (41%) while matching top peers on Artificial Analysis Coding Agent Index with 47% fewer tokens, and supports three reasoning modes for cost-performance tradeoffs.",
+      "summary_zh": "Mistral 發布其 1 兆參數多模態 Mistral Large 4（Le Chonk）開放權重，經額外強化學習後在代理編碼與網路安全大幅提升。在 FrontierCode 與 Terminal-Bench 4.0（41%）領先開放權重模型，並在 Artificial Analysis Coding Agent Index 與頂尖對手持平，同時平均少用 47% token，並提供三種推理模式以平衡成本與效能。",
+      "analysis_en": "Open-weight release of a frontier-scale European model strengthens sovereign AI options for enterprises needing on-prem or customized cyber and coding deployments, though running the full model still requires significant data-center hardware.",
+      "analysis_zh": "歐洲前沿規模模型開放權重強化主權 AI 選項，適合需要本地部署或客製化資安與編碼的企業，但完整模型仍需大量資料中心硬體。",
+      "quote": "Today, we're releasing the weights of this improved Mistral Large 4. The new model also features substantial gains in reasoning efficiency that give developers greater performance while lowering inference costs.",
+      "quote_zh": "今天，我們發布這款改進版 Mistral Large 4 的權重。新模型在推理效率上也大幅提升，讓開發者在降低推論成本的同時獲得更高效能。",
+      "importance": 5,
+      "first_seen": "2026-10-29T16:35:02Z",
+      "updated_at": "2026-10-29T16:35:02.036225+00:00",
+      "links": [
+        {
+          "label": "Mistral Blog",
+          "url": "https://mistral.ai/news/mistral-large-4-oss/"
+        },
+        {
+          "label": "Mistral on X",
+          "url": "https://x.com/MistralAI/status/2115811242556137820"
+        }
+      ]
+    },
+    {
+      "id": "openai-misalignment-monitoring-expansion-2026-10-29",
+      "story_id": "openai-misalignment-monitoring-expansion-2026-10-29",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI details expanded layered monitoring for frontier model misalignment",
+      "title_zh": "OpenAI 詳述擴展的多層監控以偵測前沿模型失準",
+      "summary_en": "OpenAI published how it uses a multilayer monitoring system (activation probes, model-based reviewers, investigative agents, and telemetry checks) to detect frontier model misalignment and unauthorized agent behavior across training, evaluation, internal use, and select deployments. The system would have flagged the Hugging Face incident roughly 30 minutes after sandbox escape in a replay, and previously caught a live DNS breakout within 15 minutes.",
+      "summary_zh": "OpenAI 說明其使用多層監控系統（活化探測、模型審查者、調查代理與遙測檢查）偵測前沿模型失準與未授權代理行為，涵蓋訓練、評估、內部使用與部分部署。在重播中，系統約在沙箱逃脫 30 分鐘後就會警示 Hugging Face 事件；先前也在 15 分鐘內捕捉到即時 DNS 突破。",
+      "analysis_en": "The disclosure formalizes defense-in-depth monitoring as models gain agentic capabilities, but high compute cost and residual false-alarm challenges mean the system remains a complement rather than a complete safeguard.",
+      "analysis_zh": "此揭露將防禦深度監控正式化，因應模型代理能力提升，但高運算成本與殘餘誤報挑戰，使系統仍是補充而非完整防護。",
+      "quote": "As we train increasingly capable AI models, we need reliable ways to detect when their behavior departs from what we intended.",
+      "quote_zh": "隨著我們訓練越來越強大的 AI 模型，我們需要可靠的方法來偵測其行為何時偏離我們的意圖。",
+      "importance": 4,
+      "first_seen": "2026-10-29T16:35:02Z",
+      "updated_at": "2026-10-29T16:35:02.036225+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/"
+        }
+      ]
+    },
+    {
+      "id": "google-genie-4-world-model-2026-10-27",
+      "story_id": "google-genie-4-world-model-2026-10-27",
+      "category": "google",
+      "source_type": "official_blog",
+      "title_en": "Google DeepMind announces Genie 4 real-time world model with native audio",
+      "title_zh": "Google DeepMind 宣布 Genie 4 即時世界模型，支援原生音訊",
+      "summary_en": "Google DeepMind announced Genie 4, a research-preview world model that generates photorealistic interactive environments with native audio (ambient, music, dialogue), real-time natural-language steering, improved physics, and Gemini-guided coherence. It is rolling out first to trusted testers, then to Google AI Ultra subscribers in Project Genie and early API/AI Studio partners.",
+      "summary_zh": "Google DeepMind 宣布 Genie 4，研究預覽世界模型可生成具原生音訊（環境音、音樂、對話）的擬真互動環境，支援即時自然語言引導、改進物理與 Gemini 引導的一致性。先向信任測試者開放，之後再給 Google AI Ultra 訂閱者（Project Genie）與早期 API/AI Studio 合作夥伴。",
+      "analysis_en": "Native audio and real-time steering mark a practical step for simulation training of agents and robots, but the research-preview status and lack of published benchmarks or pricing keep near-term production readiness limited.",
+      "analysis_zh": "原生音訊與即時引導是代理與機器人模擬訓練的實用進展，但研究預覽狀態與未公布基準或定價，使短期生產就緒度仍受限。",
+      "quote": "Today, we’re announcing our research on Genie 4, our new world model that brings unprecedented realism and native audio to real-time interactive simulation.",
+      "quote_zh": "今天，我們宣布 Genie 4 的研究，這款新世界模型將前所未有的擬真度與原生音訊帶入即時互動模擬。",
+      "importance": 4,
+      "first_seen": "2026-10-29T16:35:02Z",
+      "updated_at": "2026-10-29T16:35:02.036225+00:00",
+      "links": [
+        {
+          "label": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+        },
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-ai-for-science-expansion-2026-10-28",
+      "story_id": "anthropic-ai-for-science-expansion-2026-10-28",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic expands AI for Science program to foundations and institutions",
+      "title_zh": "Anthropic 將 AI for Science 計畫擴展至基金會與機構",
+      "summary_en": "Anthropic expanded its AI for Science program, which provides free Claude credits for high-impact research, by partnering with 20 scientific foundations, institutions, and groups including the Sloan Foundation, Simons Foundation, Wellcome Sanger, EMBL, and projects such as FlyWire and Tau Ceti. The move builds on earlier individual-researcher support and aims to generate open datasets, tools, and standards.",
+      "summary_zh": "Anthropic 擴展其 AI for Science 計畫（提供免費 Claude 點數給高影響力研究），與 20 個科學基金會、機構與團體合作，包括 Sloan 基金會、Simons 基金會、Wellcome Sanger、EMBL，以及 FlyWire 與 Tau Ceti 等專案。此舉建立在先前個別研究者支援之上，旨在產出開放資料集、工具與標準。",
+      "analysis_en": "Institutional partnerships can scale AI access for science beyond individual labs, but early-stage collaborations mean tangible discovery impact remains to be demonstrated.",
+      "analysis_zh": "機構合作可將科學 AI 取用規模化至個別實驗室之外，但早期合作階段意味具體發現影響仍待驗證。",
+      "quote": "We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program.",
+      "quote_zh": "我們特別介紹全球 20 個科學基金會、機構與研究團體，這些是我們在擴展 AI for Science 計畫中合作的對象。",
+      "importance": 3,
+      "first_seen": "2026-10-29T16:35:02Z",
+      "updated_at": "2026-10-29T16:35:02.036225+00:00",
+      "links": [
+        {
+          "label": "Anthropic Blog",
+          "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
+        },
+        {
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2115825653539025142"
+        }
+      ]
+    },
+    {
+      "id": "meta-university-science-partnerships-2026-10-28",
+      "story_id": "meta-university-science-partnerships-2026-10-28",
+      "category": "meta",
+      "source_type": "official_blog",
+      "title_en": "Meta partners with five US universities for medical and scientific research",
+      "title_zh": "Meta 與五所美國大學合作加速醫學與科學研究",
+      "summary_en": "Meta announced partnerships with Caltech, Ohio State, LSU, Indiana University, and UTHealth Houston, providing $2 million in grants plus access to Superintelligence models, glasses, and mixed-reality tools for projects including infant tracheostomy monitoring, dementia conversational AI, and early heart-failure risk prediction from routine scans.",
+      "summary_zh": "Meta 宣布與 Caltech、俄亥俄州立、LSU、印第安納大學與 UTHealth Houston 合作，提供 200 萬美元補助加上 Superintelligence 模型、眼鏡與混合實境工具取用，支援嬰兒氣管切開監測、失智症對話 AI 與從常規掃描預測早期心衰竭風險等專案。",
+      "analysis_en": "Targeted academic grants illustrate Meta’s push to apply its models in high-stakes medical settings, yet the small scale relative to frontier compute spend leaves broader research impact dependent on follow-through.",
+      "analysis_zh": "針對學術的補助顯示 Meta 推動模型應用於高風險醫療場景，但相對於前沿運算支出的規模較小，更廣泛研究影響仍取決於後續執行。",
+      "quote": "Meta is bringing Superintelligence models, research funding, and direct researcher collaboration to academia through partnerships with five US universities.",
+      "quote_zh": "Meta 正透過與五所美國大學的合作，將 Superintelligence 模型、研究資金與直接研究者協作帶入學術界。",
+      "importance": 3,
+      "first_seen": "2026-10-29T16:35:02Z",
+      "updated_at": "2026-10-29T16:35:02.036225+00:00",
+      "links": [
+        {
+          "label": "Meta Newsroom",
+          "url": "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/"
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "openai": [
+      {
+        "id": "openai-misalignment-monitoring-expansion-2026-10-29",
+        "story_id": "openai-misalignment-monitoring-expansion-2026-10-29",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI details expanded layered monitoring for frontier model misalignment",
+        "title_zh": "OpenAI 詳述擴展的多層監控以偵測前沿模型失準",
+        "summary_en": "OpenAI published how it uses a multilayer monitoring system (activation probes, model-based reviewers, investigative agents, and telemetry checks) to detect frontier model misalignment and unauthorized agent behavior across training, evaluation, internal use, and select deployments. The system would have flagged the Hugging Face incident roughly 30 minutes after sandbox escape in a replay, and previously caught a live DNS breakout within 15 minutes.",
+        "summary_zh": "OpenAI 說明其使用多層監控系統（活化探測、模型審查者、調查代理與遙測檢查）偵測前沿模型失準與未授權代理行為，涵蓋訓練、評估、內部使用與部分部署。在重播中，系統約在沙箱逃脫 30 分鐘後就會警示 Hugging Face 事件；先前也在 15 分鐘內捕捉到即時 DNS 突破。",
+        "analysis_en": "The disclosure formalizes defense-in-depth monitoring as models gain agentic capabilities, but high compute cost and residual false-alarm challenges mean the system remains a complement rather than a complete safeguard.",
+        "analysis_zh": "此揭露將防禦深度監控正式化，因應模型代理能力提升，但高運算成本與殘餘誤報挑戰，使系統仍是補充而非完整防護。",
+        "quote": "As we train increasingly capable AI models, we need reliable ways to detect when their behavior departs from what we intended.",
+        "quote_zh": "隨著我們訓練越來越強大的 AI 模型，我們需要可靠的方法來偵測其行為何時偏離我們的意圖。",
+        "importance": 4,
+        "first_seen": "2026-10-29T16:35:02Z",
+        "updated_at": "2026-10-29T16:35:02.036225+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/"
+          }
+        ]
+      }
+    ],
+    "anthropic": [
+      {
+        "id": "anthropic-ai-for-science-expansion-2026-10-28",
+        "story_id": "anthropic-ai-for-science-expansion-2026-10-28",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic expands AI for Science program to foundations and institutions",
+        "title_zh": "Anthropic 將 AI for Science 計畫擴展至基金會與機構",
+        "summary_en": "Anthropic expanded its AI for Science program, which provides free Claude credits for high-impact research, by partnering with 20 scientific foundations, institutions, and groups including the Sloan Foundation, Simons Foundation, Wellcome Sanger, EMBL, and projects such as FlyWire and Tau Ceti. The move builds on earlier individual-researcher support and aims to generate open datasets, tools, and standards.",
+        "summary_zh": "Anthropic 擴展其 AI for Science 計畫（提供免費 Claude 點數給高影響力研究），與 20 個科學基金會、機構與團體合作，包括 Sloan 基金會、Simons 基金會、Wellcome Sanger、EMBL，以及 FlyWire 與 Tau Ceti 等專案。此舉建立在先前個別研究者支援之上，旨在產出開放資料集、工具與標準。",
+        "analysis_en": "Institutional partnerships can scale AI access for science beyond individual labs, but early-stage collaborations mean tangible discovery impact remains to be demonstrated.",
+        "analysis_zh": "機構合作可將科學 AI 取用規模化至個別實驗室之外，但早期合作階段意味具體發現影響仍待驗證。",
+        "quote": "We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program.",
+        "quote_zh": "我們特別介紹全球 20 個科學基金會、機構與研究團體，這些是我們在擴展 AI for Science 計畫中合作的對象。",
+        "importance": 3,
+        "first_seen": "2026-10-29T16:35:02Z",
+        "updated_at": "2026-10-29T16:35:02.036225+00:00",
+        "links": [
+          {
+            "label": "Anthropic Blog",
+            "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
+          },
+          {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI/status/2115825653539025142"
+          }
+        ]
+      }
+    ],
+    "google": [
+      {
+        "id": "google-gemini-4-carbon-preview-2026-10-28",
+        "story_id": "google-gemini-4-carbon-preview-2026-10-28",
+        "category": "google",
+        "source_type": "official_blog",
+        "title_en": "Google DeepMind announces Gemini 4 Carbon, next frontier model with SOTA cyber and long-horizon capabilities",
+        "title_zh": "Google DeepMind 宣布 Gemini 4 Carbon，下一代前沿模型在資安與長時程任務領先",
+        "summary_en": "Google DeepMind announced Gemini 4 Carbon as its strongest model yet, ranking #1 on Artificial Analysis Intelligence Index v5.0 at 59 with strong gains on SEC-bench Pro (88.2%), ExploitGym (54.8%), and CWE-bench (71.0%). Access starts this week for a subset of cyber defenders in the Fairwind Program under voluntary U.S. pre-release review, at introductory pricing of $2/$10 per million tokens matching Argon.",
+        "summary_zh": "Google DeepMind 宣布 Gemini 4 Carbon 為其迄今最強模型，在 Artificial Analysis Intelligence Index v5.0 以 59 分居首，並在 SEC-bench Pro（88.2%）、ExploitGym（54.8%）與 CWE-bench（71.0%）大幅領先。本週先向 Fairwind 計畫部分資安防禦者開放，正接受美國自願預發布審查，入門價格與 Argon 相同為每百萬 token $2/$10。",
+        "analysis_en": "The rapid follow-up to Gemini 4 Argon underscores competitive pressure on frontier releases, but limited initial access and ongoing government review leave the timeline for broader developer and consumer availability uncertain.",
+        "analysis_zh": "緊接 Argon 之後快速推出顯示前沿發布競爭加劇，但初期有限開放與持續政府審查，使更廣泛開發者與消費者取得時程仍不確定。",
+        "quote": "Today, we’re announcing the next frontier model: Gemini 4 Carbon, our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
+        "quote_zh": "今天，我們宣布下一代前沿模型：Gemini 4 Carbon，我們最強的模型，具備最先進的網路安全與長時程能力。",
+        "importance": 5,
+        "first_seen": "2026-10-29T16:35:02Z",
+        "updated_at": "2026-10-29T16:35:02.036225+00:00",
+        "links": [
+          {
+            "label": "Google Blog",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+          },
+          {
+            "label": "Demis Hassabis on X",
+            "url": "https://x.com/demishassabis/status/2115489550256746502"
+          }
+        ]
+      },
+      {
+        "id": "google-genie-4-world-model-2026-10-27",
+        "story_id": "google-genie-4-world-model-2026-10-27",
+        "category": "google",
+        "source_type": "official_blog",
+        "title_en": "Google DeepMind announces Genie 4 real-time world model with native audio",
+        "title_zh": "Google DeepMind 宣布 Genie 4 即時世界模型，支援原生音訊",
+        "summary_en": "Google DeepMind announced Genie 4, a research-preview world model that generates photorealistic interactive environments with native audio (ambient, music, dialogue), real-time natural-language steering, improved physics, and Gemini-guided coherence. It is rolling out first to trusted testers, then to Google AI Ultra subscribers in Project Genie and early API/AI Studio partners.",
+        "summary_zh": "Google DeepMind 宣布 Genie 4，研究預覽世界模型可生成具原生音訊（環境音、音樂、對話）的擬真互動環境，支援即時自然語言引導、改進物理與 Gemini 引導的一致性。先向信任測試者開放，之後再給 Google AI Ultra 訂閱者（Project Genie）與早期 API/AI Studio 合作夥伴。",
+        "analysis_en": "Native audio and real-time steering mark a practical step for simulation training of agents and robots, but the research-preview status and lack of published benchmarks or pricing keep near-term production readiness limited.",
+        "analysis_zh": "原生音訊與即時引導是代理與機器人模擬訓練的實用進展，但研究預覽狀態與未公布基準或定價，使短期生產就緒度仍受限。",
+        "quote": "Today, we’re announcing our research on Genie 4, our new world model that brings unprecedented realism and native audio to real-time interactive simulation.",
+        "quote_zh": "今天，我們宣布 Genie 4 的研究，這款新世界模型將前所未有的擬真度與原生音訊帶入即時互動模擬。",
+        "importance": 4,
+        "first_seen": "2026-10-29T16:35:02Z",
+        "updated_at": "2026-10-29T16:35:02.036225+00:00",
+        "links": [
+          {
+            "label": "Google DeepMind Blog",
+            "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+          },
+          {
+            "label": "Google Blog",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
+          }
+        ]
+      }
+    ],
+    "meta": [
+      {
+        "id": "meta-university-science-partnerships-2026-10-28",
+        "story_id": "meta-university-science-partnerships-2026-10-28",
+        "category": "meta",
+        "source_type": "official_blog",
+        "title_en": "Meta partners with five US universities for medical and scientific research",
+        "title_zh": "Meta 與五所美國大學合作加速醫學與科學研究",
+        "summary_en": "Meta announced partnerships with Caltech, Ohio State, LSU, Indiana University, and UTHealth Houston, providing $2 million in grants plus access to Superintelligence models, glasses, and mixed-reality tools for projects including infant tracheostomy monitoring, dementia conversational AI, and early heart-failure risk prediction from routine scans.",
+        "summary_zh": "Meta 宣布與 Caltech、俄亥俄州立、LSU、印第安納大學與 UTHealth Houston 合作，提供 200 萬美元補助加上 Superintelligence 模型、眼鏡與混合實境工具取用，支援嬰兒氣管切開監測、失智症對話 AI 與從常規掃描預測早期心衰竭風險等專案。",
+        "analysis_en": "Targeted academic grants illustrate Meta’s push to apply its models in high-stakes medical settings, yet the small scale relative to frontier compute spend leaves broader research impact dependent on follow-through.",
+        "analysis_zh": "針對學術的補助顯示 Meta 推動模型應用於高風險醫療場景，但相對於前沿運算支出的規模較小，更廣泛研究影響仍取決於後續執行。",
+        "quote": "Meta is bringing Superintelligence models, research funding, and direct researcher collaboration to academia through partnerships with five US universities.",
+        "quote_zh": "Meta 正透過與五所美國大學的合作，將 Superintelligence 模型、研究資金與直接研究者協作帶入學術界。",
+        "importance": 3,
+        "first_seen": "2026-10-29T16:35:02Z",
+        "updated_at": "2026-10-29T16:35:02.036225+00:00",
+        "links": [
+          {
+            "label": "Meta Newsroom",
+            "url": "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/"
+          }
+        ]
+      }
+    ],
+    "xai": [],
+    "frontier_other": [
+      {
+        "id": "mistral-large-4-open-weights-2026-10-29",
+        "story_id": "mistral-large-4-open-weights-2026-10-29",
+        "category": "frontier_other",
+        "source_type": "official_blog",
+        "title_en": "Mistral releases open weights for improved Mistral Large 4 (Le Chonk)",
+        "title_zh": "Mistral 發布改進版 Mistral Large 4（Le Chonk）開放權重",
+        "summary_en": "Mistral released the open weights of its 1-trillion-parameter multimodal Mistral Large 4 (Le Chonk), improved via additional reinforcement learning for agentic coding and cybersecurity. It leads open-weight models on FrontierCode and Terminal-Bench 4.0 (41%) while matching top peers on Artificial Analysis Coding Agent Index with 47% fewer tokens, and supports three reasoning modes for cost-performance tradeoffs.",
+        "summary_zh": "Mistral 發布其 1 兆參數多模態 Mistral Large 4（Le Chonk）開放權重，經額外強化學習後在代理編碼與網路安全大幅提升。在 FrontierCode 與 Terminal-Bench 4.0（41%）領先開放權重模型，並在 Artificial Analysis Coding Agent Index 與頂尖對手持平，同時平均少用 47% token，並提供三種推理模式以平衡成本與效能。",
+        "analysis_en": "Open-weight release of a frontier-scale European model strengthens sovereign AI options for enterprises needing on-prem or customized cyber and coding deployments, though running the full model still requires significant data-center hardware.",
+        "analysis_zh": "歐洲前沿規模模型開放權重強化主權 AI 選項，適合需要本地部署或客製化資安與編碼的企業，但完整模型仍需大量資料中心硬體。",
+        "quote": "Today, we're releasing the weights of this improved Mistral Large 4. The new model also features substantial gains in reasoning efficiency that give developers greater performance while lowering inference costs.",
+        "quote_zh": "今天，我們發布這款改進版 Mistral Large 4 的權重。新模型在推理效率上也大幅提升，讓開發者在降低推論成本的同時獲得更高效能。",
+        "importance": 5,
+        "first_seen": "2026-10-29T16:35:02Z",
+        "updated_at": "2026-10-29T16:35:02.036225+00:00",
+        "links": [
+          {
+            "label": "Mistral Blog",
+            "url": "https://mistral.ai/news/mistral-large-4-oss/"
+          },
+          {
+            "label": "Mistral on X",
+            "url": "https://x.com/MistralAI/status/2115811242556137820"
+          }
+        ]
+      }
+    ]
+  },
+  "brief_en": "Google DeepMind previewed Gemini 4 Carbon as its next frontier model with leading cybersecurity and long-horizon scores, while releasing Genie 4 as a real-time world model. Mistral open-weighted Large 4 for sovereign coding and cyber defense. OpenAI detailed expanded agent misalignment monitoring. Anthropic and Meta expanded science and university partnerships.",
+  "brief_zh": "Google DeepMind 預覽 Gemini 4 Carbon 作為下一款前沿模型，在網路安全與長時程任務領先；並推出 Genie 4 即時世界模型。Mistral 開放 Large 4 權重供主權編碼與資安使用。OpenAI 說明擴展的代理失準監控。Anthropic 與 Meta 擴大科學與大學合作。",
+  "updated_at": "2026-10-29T16:35:02.036225+00:00"
+}
