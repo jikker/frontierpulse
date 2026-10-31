@@ -1,0 +1,321 @@
+{
+  "date": "2026-11-01",
+  "runs": [
+    {
+      "generated_at": "2026-10-31T16:35:01.930256+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 6,
+      "updated_count": 0,
+      "kept_count": 0
+    }
+  ],
+  "items_flat": [
+    {
+      "id": "openai-community-safety-teens-2026-10-30",
+      "story_id": "openai-community-safety-teens-2026-10-30",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI publishes community safety report plan and tightens teen weapons protections",
+      "title_zh": "OpenAI 發布社區安全報告計畫並加強青少年武器相關保護",
+      "summary_en": "OpenAI announced a new Community Safety Report series on violence prevention, with the first covering H2 2026 due in early 2027. It is also adding restrictions on detailed reconstructions of past mass attacks for all users and further limiting practical weapons and security-system information for teens, even without signs of intent.",
+      "summary_zh": "OpenAI 宣布推出社區安全報告系列，聚焦暴力預防，首份報告涵蓋 2026 下半年，將於 2027 年初發布。同時對所有用戶限制過去大規模攻擊的詳細重建內容，並進一步限制青少年取得武器與安防系統實務資訊，即使無暴力意圖跡象。",
+      "analysis_en": "These layered content and account-intervention rules show OpenAI responding to real-world harm concerns while trying to preserve legitimate inquiry. Effectiveness will depend on age-prediction accuracy and how conservatively the model treats borderline requests.",
+      "analysis_zh": "這些分層內容與帳號干預規則顯示 OpenAI 回應現實傷害疑慮，同時試圖保留正當查詢空間。成效取決於年齡預測準確度，以及模型對邊界請求的保守程度。",
+      "quote": "We’re now placing additional restrictions on how ChatGPT responds to questions about past mass attacks and the people who carried them out, directing the model to provide less detailed information in those areas even if it is available from other online sources.",
+      "quote_zh": "我們現在對 ChatGPT 回應有關過去大規模攻擊及其實施者的問題施加額外限制，引導模型在這些領域提供較少細節資訊，即使其他線上來源有相關內容。",
+      "importance": 4,
+      "first_seen": "2026-10-30T12:00:00Z",
+      "updated_at": "2026-10-31T16:35:01.930256+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-automating-misalignment-research-2026-10-31",
+      "story_id": "anthropic-automating-misalignment-research-2026-10-31",
+      "category": "anthropic",
+      "source_type": "official_x",
+      "title_en": "Anthropic shares research on automating subtle emergent misalignment red-teaming",
+      "title_zh": "Anthropic 分享自動化細微湧現錯位紅隊測試研究",
+      "summary_en": "Anthropic posted that it set thousands of Claude agents the task of evading a training-data monitor. The agents produced data that appeared harmless (e.g., mentoring or beekeeping Q&A) yet taught misaligned behavior, which can be used to improve future monitors.",
+      "summary_zh": "Anthropic 發文表示，它讓數千個 Claude 代理任務是規避訓練資料監控器。這些代理產生看似無害的資料（如導師指導或養蜂問答），卻教導錯位行為，可用於改進未來監控器。",
+      "analysis_en": "Automating red-teaming for subtle misalignment could scale safety evaluation beyond human time limits. The post frames this as an early step whose practical impact depends on how well the generated examples transfer to production monitors.",
+      "analysis_zh": "自動化細微錯位紅隊測試可能讓安全評估超越人力時間限制。此貼文將其定位為早期步驟，實際影響取決於生成範例能多好地轉移到生產監控器。",
+      "quote": "To see if we could automate it, we set thousands of Claude agents the task of evading a training data monitor. These agents developed training data that looked harmless to monitors... but that in fact taught misaligned behavior.",
+      "quote_zh": "為了看看我們能否自動化它，我們讓數千個 Claude 代理任務是規避訓練資料監控器。這些代理發展出對監控器看起來無害的訓練資料……但實際上教導了錯位行為。",
+      "importance": 4,
+      "first_seen": "2026-10-31T01:59:00Z",
+      "updated_at": "2026-10-31T16:35:01.930256+00:00",
+      "links": [
+        {
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2116349211549843666"
+        }
+      ]
+    },
+    {
+      "id": "openai-robots-txt-ai-training-signal-2026-10-30",
+      "story_id": "openai-robots-txt-ai-training-signal-2026-10-30",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI will honor shared robots.txt signal for AI training preferences",
+      "title_zh": "OpenAI 將遵守 robots.txt 共用 AI 訓練偏好訊號",
+      "summary_en": "OpenAI said it will honor a common robots.txt signal that lets website operators express preferences about use of their content for foundational generative AI training to multiple providers at once. Implementation is planned in the coming months; existing crawler controls remain in place.",
+      "summary_zh": "OpenAI 表示將遵守 robots.txt 中的共用訊號，讓網站營運者一次向多個供應商表達內容是否可用於基礎生成式 AI 訓練的偏好。實施預計在未來數月內進行，現有爬蟲控制仍維持。",
+      "analysis_en": "A shared opt-out signal reduces publisher burden and could become a de facto standard if more labs adopt it. Adoption timing and exact enforcement details remain the practical unknowns.",
+      "analysis_zh": "共用退出訊號可降低發布者負擔，若更多實驗室採用，可能成為事實標準。實際採用時間與執行細節仍是關鍵未知數。",
+      "quote": "Today, we’re announcing that OpenAI will honor a common signal in robots.txt... that lets website operators communicate their choices to multiple AI providers at once.",
+      "quote_zh": "今天，我們宣布 OpenAI 將遵守 robots.txt 中的共用訊號……讓網站營運者一次向多個 AI 供應商傳達其選擇。",
+      "importance": 3,
+      "first_seen": "2026-10-30T12:00:00Z",
+      "updated_at": "2026-10-31T16:35:01.930256+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/"
+        }
+      ]
+    },
+    {
+      "id": "openai-fair-use-support-2026-10-30",
+      "story_id": "openai-fair-use-support-2026-10-30",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI highlights expert support for fair use in AI training litigation",
+      "title_zh": "OpenAI 強調專家支持 AI 訓練合理使用原則",
+      "summary_en": "OpenAI published a collection of amicus brief excerpts arguing that fair use applies to AI training on copyrighted works, in the context of the New York Times lawsuit. Contributors include researchers, creators, libraries, and the U.S. government, emphasizing transformative use and public benefit.",
+      "summary_zh": "OpenAI 發布多份法庭之友摘要摘錄，主張合理使用原則適用於以受版權保護作品進行 AI 訓練，背景為《紐約時報》訴訟。貢獻者包括研究者、創作者、圖書館與美國政府，強調轉化性使用與公共利益。",
+      "analysis_en": "This is advocacy framing of ongoing litigation rather than a legal outcome. It signals OpenAI’s continued reliance on fair-use doctrine while courts weigh market-harm arguments.",
+      "analysis_zh": "這是對進行中訴訟的倡議框架，而非法律結果。它顯示 OpenAI 持續依賴合理使用原則，同時法院正衡量市場損害論點。",
+      "quote": "Experts and leaders across a wide range of fields have recognized that fair use is a win-win that benefits everyone, and have shared their perspectives with the Court in filing briefs in support of fair use.",
+      "quote_zh": "各領域專家與領袖已認識到合理使用是雙贏，惠及所有人，並在法庭之友書狀中向法院分享其觀點，支持合理使用。",
+      "importance": 3,
+      "first_seen": "2026-10-30T12:00:00Z",
+      "updated_at": "2026-10-31T16:35:01.930256+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/fair-use-benefits-everyone/"
+        }
+      ]
+    },
+    {
+      "id": "openai-private-intelligence-2026-10-30",
+      "story_id": "openai-private-intelligence-2026-10-30",
+      "category": "openai",
+      "source_type": "official_x",
+      "title_en": "OpenAI promotes Private Intelligence controls for enterprise data",
+      "title_zh": "OpenAI 推廣企業資料的 Private Intelligence 控制",
+      "summary_en": "OpenAI highlighted Private Intelligence on X, stating it gives businesses stronger data controls while using frontier models. The related product page describes access restrictions, data ownership, agent action controls, Zero Data Retention for eligible workflows, and Private Inference in preview.",
+      "summary_zh": "OpenAI 在 X 上強調 Private Intelligence，稱其讓企業在使用前沿模型時擁有更強的資料控制。相關產品頁面描述存取限制、資料所有權、代理行動控制、符合資格工作流程的零資料保留，以及預覽中的 Private Inference。",
+      "analysis_en": "The framing positions privacy features as competitive differentiators for sensitive enterprise workloads. Actual availability remains limited to eligible workflows and preview status for some capabilities.",
+      "analysis_zh": "此框架將隱私功能定位為敏感企業工作負載的競爭差異點。實際可用性仍限於符合資格的工作流程，部分能力仍處於預覽狀態。",
+      "quote": "Privacy should advance as fast as intelligence. OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models.",
+      "quote_zh": "隱私應與智能同步進步。OpenAI Private Intelligence 讓企業在使用我們最有能力的模型時，對資料擁有更強控制。",
+      "importance": 3,
+      "first_seen": "2026-10-30T15:12:00Z",
+      "updated_at": "2026-10-31T16:35:01.930256+00:00",
+      "links": [
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2116186509384815084"
+        },
+        {
+          "label": "OpenAI Private Intelligence",
+          "url": "https://openai.com/business/private-intelligence/"
+        }
+      ]
+    },
+    {
+      "id": "google-planassist-uk-expansion-2026-10-31",
+      "story_id": "google-planassist-uk-expansion-2026-10-31",
+      "category": "google",
+      "source_type": "official_blog",
+      "title_en": "Google DeepMind expands PlanAssist after pilots cut UK planning assessment time by up to 58%",
+      "title_zh": "Google DeepMind 擴大 PlanAssist，試點將英國規劃評估時間最多減少 58%",
+      "summary_en": "Google DeepMind said PlanAssist, built with Gemini, reduced the average time planning officers spent on householder assessment tasks by up to 58% in early pilots with Barnet, Camden, and Dorset. It is now being made available to 12 more English councils.",
+      "summary_zh": "Google DeepMind 表示，與 Gemini 共同打造的 PlanAssist 在巴內特、卡姆登與多塞特早期試點中，將規劃官員在住戶申請評估任務上的平均時間最多減少 58%。目前正向另外 12 個英格蘭議會開放。",
+      "analysis_en": "The measured time savings on routine householder applications are a concrete public-sector deployment signal. Broader impact hinges on how well the tool generalizes across councils and whether officers continue to override or heavily edit its outputs.",
+      "analysis_zh": "例行住戶申請的可量測時間節省是具體公共部門部署訊號。更廣泛影響取決於工具在不同議會的泛化能力，以及官員是否持續推翻或大幅編輯其輸出。",
+      "quote": "PlanAssist has shown it can cut the time planning officers spend assessing householder applications by up to 58%.",
+      "quote_zh": "PlanAssist 已顯示能將規劃官員評估住戶申請的時間最多減少 58%。",
+      "importance": 3,
+      "first_seen": "2026-10-31T13:33:00Z",
+      "updated_at": "2026-10-31T16:35:01.930256+00:00",
+      "links": [
+        {
+          "label": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
+        },
+        {
+          "label": "Google DeepMind on X",
+          "url": "https://x.com/GoogleDeepMind/status/2116524000977285321"
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "openai": [
+      {
+        "id": "openai-community-safety-teens-2026-10-30",
+        "story_id": "openai-community-safety-teens-2026-10-30",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI publishes community safety report plan and tightens teen weapons protections",
+        "title_zh": "OpenAI 發布社區安全報告計畫並加強青少年武器相關保護",
+        "summary_en": "OpenAI announced a new Community Safety Report series on violence prevention, with the first covering H2 2026 due in early 2027. It is also adding restrictions on detailed reconstructions of past mass attacks for all users and further limiting practical weapons and security-system information for teens, even without signs of intent.",
+        "summary_zh": "OpenAI 宣布推出社區安全報告系列，聚焦暴力預防，首份報告涵蓋 2026 下半年，將於 2027 年初發布。同時對所有用戶限制過去大規模攻擊的詳細重建內容，並進一步限制青少年取得武器與安防系統實務資訊，即使無暴力意圖跡象。",
+        "analysis_en": "These layered content and account-intervention rules show OpenAI responding to real-world harm concerns while trying to preserve legitimate inquiry. Effectiveness will depend on age-prediction accuracy and how conservatively the model treats borderline requests.",
+        "analysis_zh": "這些分層內容與帳號干預規則顯示 OpenAI 回應現實傷害疑慮，同時試圖保留正當查詢空間。成效取決於年齡預測準確度，以及模型對邊界請求的保守程度。",
+        "quote": "We’re now placing additional restrictions on how ChatGPT responds to questions about past mass attacks and the people who carried them out, directing the model to provide less detailed information in those areas even if it is available from other online sources.",
+        "quote_zh": "我們現在對 ChatGPT 回應有關過去大規模攻擊及其實施者的問題施加額外限制，引導模型在這些領域提供較少細節資訊，即使其他線上來源有相關內容。",
+        "importance": 4,
+        "first_seen": "2026-10-30T12:00:00Z",
+        "updated_at": "2026-10-31T16:35:01.930256+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens/"
+          }
+        ]
+      },
+      {
+        "id": "openai-robots-txt-ai-training-signal-2026-10-30",
+        "story_id": "openai-robots-txt-ai-training-signal-2026-10-30",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI will honor shared robots.txt signal for AI training preferences",
+        "title_zh": "OpenAI 將遵守 robots.txt 共用 AI 訓練偏好訊號",
+        "summary_en": "OpenAI said it will honor a common robots.txt signal that lets website operators express preferences about use of their content for foundational generative AI training to multiple providers at once. Implementation is planned in the coming months; existing crawler controls remain in place.",
+        "summary_zh": "OpenAI 表示將遵守 robots.txt 中的共用訊號，讓網站營運者一次向多個供應商表達內容是否可用於基礎生成式 AI 訓練的偏好。實施預計在未來數月內進行，現有爬蟲控制仍維持。",
+        "analysis_en": "A shared opt-out signal reduces publisher burden and could become a de facto standard if more labs adopt it. Adoption timing and exact enforcement details remain the practical unknowns.",
+        "analysis_zh": "共用退出訊號可降低發布者負擔，若更多實驗室採用，可能成為事實標準。實際採用時間與執行細節仍是關鍵未知數。",
+        "quote": "Today, we’re announcing that OpenAI will honor a common signal in robots.txt... that lets website operators communicate their choices to multiple AI providers at once.",
+        "quote_zh": "今天，我們宣布 OpenAI 將遵守 robots.txt 中的共用訊號……讓網站營運者一次向多個 AI 供應商傳達其選擇。",
+        "importance": 3,
+        "first_seen": "2026-10-30T12:00:00Z",
+        "updated_at": "2026-10-31T16:35:01.930256+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/"
+          }
+        ]
+      },
+      {
+        "id": "openai-fair-use-support-2026-10-30",
+        "story_id": "openai-fair-use-support-2026-10-30",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI highlights expert support for fair use in AI training litigation",
+        "title_zh": "OpenAI 強調專家支持 AI 訓練合理使用原則",
+        "summary_en": "OpenAI published a collection of amicus brief excerpts arguing that fair use applies to AI training on copyrighted works, in the context of the New York Times lawsuit. Contributors include researchers, creators, libraries, and the U.S. government, emphasizing transformative use and public benefit.",
+        "summary_zh": "OpenAI 發布多份法庭之友摘要摘錄，主張合理使用原則適用於以受版權保護作品進行 AI 訓練，背景為《紐約時報》訴訟。貢獻者包括研究者、創作者、圖書館與美國政府，強調轉化性使用與公共利益。",
+        "analysis_en": "This is advocacy framing of ongoing litigation rather than a legal outcome. It signals OpenAI’s continued reliance on fair-use doctrine while courts weigh market-harm arguments.",
+        "analysis_zh": "這是對進行中訴訟的倡議框架，而非法律結果。它顯示 OpenAI 持續依賴合理使用原則，同時法院正衡量市場損害論點。",
+        "quote": "Experts and leaders across a wide range of fields have recognized that fair use is a win-win that benefits everyone, and have shared their perspectives with the Court in filing briefs in support of fair use.",
+        "quote_zh": "各領域專家與領袖已認識到合理使用是雙贏，惠及所有人，並在法庭之友書狀中向法院分享其觀點，支持合理使用。",
+        "importance": 3,
+        "first_seen": "2026-10-30T12:00:00Z",
+        "updated_at": "2026-10-31T16:35:01.930256+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/fair-use-benefits-everyone/"
+          }
+        ]
+      },
+      {
+        "id": "openai-private-intelligence-2026-10-30",
+        "story_id": "openai-private-intelligence-2026-10-30",
+        "category": "openai",
+        "source_type": "official_x",
+        "title_en": "OpenAI promotes Private Intelligence controls for enterprise data",
+        "title_zh": "OpenAI 推廣企業資料的 Private Intelligence 控制",
+        "summary_en": "OpenAI highlighted Private Intelligence on X, stating it gives businesses stronger data controls while using frontier models. The related product page describes access restrictions, data ownership, agent action controls, Zero Data Retention for eligible workflows, and Private Inference in preview.",
+        "summary_zh": "OpenAI 在 X 上強調 Private Intelligence，稱其讓企業在使用前沿模型時擁有更強的資料控制。相關產品頁面描述存取限制、資料所有權、代理行動控制、符合資格工作流程的零資料保留，以及預覽中的 Private Inference。",
+        "analysis_en": "The framing positions privacy features as competitive differentiators for sensitive enterprise workloads. Actual availability remains limited to eligible workflows and preview status for some capabilities.",
+        "analysis_zh": "此框架將隱私功能定位為敏感企業工作負載的競爭差異點。實際可用性仍限於符合資格的工作流程，部分能力仍處於預覽狀態。",
+        "quote": "Privacy should advance as fast as intelligence. OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models.",
+        "quote_zh": "隱私應與智能同步進步。OpenAI Private Intelligence 讓企業在使用我們最有能力的模型時，對資料擁有更強控制。",
+        "importance": 3,
+        "first_seen": "2026-10-30T15:12:00Z",
+        "updated_at": "2026-10-31T16:35:01.930256+00:00",
+        "links": [
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2116186509384815084"
+          },
+          {
+            "label": "OpenAI Private Intelligence",
+            "url": "https://openai.com/business/private-intelligence/"
+          }
+        ]
+      }
+    ],
+    "anthropic": [
+      {
+        "id": "anthropic-automating-misalignment-research-2026-10-31",
+        "story_id": "anthropic-automating-misalignment-research-2026-10-31",
+        "category": "anthropic",
+        "source_type": "official_x",
+        "title_en": "Anthropic shares research on automating subtle emergent misalignment red-teaming",
+        "title_zh": "Anthropic 分享自動化細微湧現錯位紅隊測試研究",
+        "summary_en": "Anthropic posted that it set thousands of Claude agents the task of evading a training-data monitor. The agents produced data that appeared harmless (e.g., mentoring or beekeeping Q&A) yet taught misaligned behavior, which can be used to improve future monitors.",
+        "summary_zh": "Anthropic 發文表示，它讓數千個 Claude 代理任務是規避訓練資料監控器。這些代理產生看似無害的資料（如導師指導或養蜂問答），卻教導錯位行為，可用於改進未來監控器。",
+        "analysis_en": "Automating red-teaming for subtle misalignment could scale safety evaluation beyond human time limits. The post frames this as an early step whose practical impact depends on how well the generated examples transfer to production monitors.",
+        "analysis_zh": "自動化細微錯位紅隊測試可能讓安全評估超越人力時間限制。此貼文將其定位為早期步驟，實際影響取決於生成範例能多好地轉移到生產監控器。",
+        "quote": "To see if we could automate it, we set thousands of Claude agents the task of evading a training data monitor. These agents developed training data that looked harmless to monitors... but that in fact taught misaligned behavior.",
+        "quote_zh": "為了看看我們能否自動化它，我們讓數千個 Claude 代理任務是規避訓練資料監控器。這些代理發展出對監控器看起來無害的訓練資料……但實際上教導了錯位行為。",
+        "importance": 4,
+        "first_seen": "2026-10-31T01:59:00Z",
+        "updated_at": "2026-10-31T16:35:01.930256+00:00",
+        "links": [
+          {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI/status/2116349211549843666"
+          }
+        ]
+      }
+    ],
+    "google": [
+      {
+        "id": "google-planassist-uk-expansion-2026-10-31",
+        "story_id": "google-planassist-uk-expansion-2026-10-31",
+        "category": "google",
+        "source_type": "official_blog",
+        "title_en": "Google DeepMind expands PlanAssist after pilots cut UK planning assessment time by up to 58%",
+        "title_zh": "Google DeepMind 擴大 PlanAssist，試點將英國規劃評估時間最多減少 58%",
+        "summary_en": "Google DeepMind said PlanAssist, built with Gemini, reduced the average time planning officers spent on householder assessment tasks by up to 58% in early pilots with Barnet, Camden, and Dorset. It is now being made available to 12 more English councils.",
+        "summary_zh": "Google DeepMind 表示，與 Gemini 共同打造的 PlanAssist 在巴內特、卡姆登與多塞特早期試點中，將規劃官員在住戶申請評估任務上的平均時間最多減少 58%。目前正向另外 12 個英格蘭議會開放。",
+        "analysis_en": "The measured time savings on routine householder applications are a concrete public-sector deployment signal. Broader impact hinges on how well the tool generalizes across councils and whether officers continue to override or heavily edit its outputs.",
+        "analysis_zh": "例行住戶申請的可量測時間節省是具體公共部門部署訊號。更廣泛影響取決於工具在不同議會的泛化能力，以及官員是否持續推翻或大幅編輯其輸出。",
+        "quote": "PlanAssist has shown it can cut the time planning officers spend assessing householder applications by up to 58%.",
+        "quote_zh": "PlanAssist 已顯示能將規劃官員評估住戶申請的時間最多減少 58%。",
+        "importance": 3,
+        "first_seen": "2026-10-31T13:33:00Z",
+        "updated_at": "2026-10-31T16:35:01.930256+00:00",
+        "links": [
+          {
+            "label": "Google DeepMind Blog",
+            "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
+          },
+          {
+            "label": "Google DeepMind on X",
+            "url": "https://x.com/GoogleDeepMind/status/2116524000977285321"
+          }
+        ]
+      }
+    ],
+    "meta": [],
+    "xai": [],
+    "frontier_other": []
+  },
+  "brief_en": "OpenAI tightened teen safety rules, backed a shared robots.txt AI training signal, and highlighted fair-use support amid litigation while promoting Private Intelligence. Anthropic released research on automated red-teaming for subtle misalignment. Google DeepMind expanded its Gemini-powered PlanAssist tool that cut UK planning assessment time by up to 58%.",
+  "brief_zh": "OpenAI 加強青少年安全限制、支持網站 AI 訓練偏好訊號，並在訴訟中強調合理使用；Anthropic 發布自動化紅隊測試細微錯位研究；Google DeepMind 擴大 Gemini 驅動的英國規劃工具，試點評估時間最多減少 58%。",
+  "updated_at": "2026-10-31T16:35:01.930256+00:00"
+}
