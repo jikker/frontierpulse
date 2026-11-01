@@ -16,6 +16,14 @@
       "item_count": 8,
       "updated_count": 6,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-11-01T04:35:01.303633+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 9,
+      "updated_count": 8,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -25,17 +33,21 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI publishes community safety report plan and tightens teen weapons protections",
-      "title_zh": "OpenAI發布社群安全報告計畫並收緊青少年武器保護",
-      "summary_en": "OpenAI announced a new Community Safety Report series on violence prevention, with the first covering H2 2026 due in early 2027. It is also adding restrictions on detailed reconstructions of past mass attacks for all users and further limiting practical weapons and security-system information for teens even without signs of intent, plus automated chat-ending and account pauses for fixation patterns.",
-      "summary_zh": "OpenAI宣布新的社群安全報告系列，聚焦暴力預防，首份涵蓋2026下半年、預計2027年初發布。同時對所有用戶限制過去大規模攻擊的詳細重建，並進一步限制青少年取得武器與安全系統實用資訊（即使無意圖跡象），以及對執著模式自動結束對話與暫停帳號。",
-      "analysis_en": "These layered content and account-intervention rules show OpenAI responding to real-world harm concerns while trying to preserve legitimate inquiry. Effectiveness will depend on age-prediction accuracy and how well automated interventions avoid false positives.",
-      "analysis_zh": "這些分層內容與帳號干預規則顯示OpenAI在回應現實傷害疑慮的同時，仍試圖保留合法查詢。成效取決於年齡預測準確度，以及自動干預如何避免誤判。",
+      "title_zh": "OpenAI 發布社區安全報告計畫並強化青少年武器相關保護",
+      "summary_en": "OpenAI announced a new Community Safety Report series on violence prevention, with the first covering H2 2026 due in early 2027. It is also adding restrictions on detailed reconstructions of past mass attacks for all users and further limiting certain weapons-related content for teens.",
+      "summary_zh": "OpenAI 宣布推出聚焦暴力預防的社區安全報告系列，首份涵蓋 2026 下半年的報告預計 2027 年初發布。同時對所有用戶限制過去大規模攻擊的詳細重建內容，並進一步限制青少年相關武器內容。",
+      "analysis_en": "These layered content and account-intervention rules show OpenAI responding to real-world harm concerns while trying to preserve legitimate inquiry. Effectiveness will depend on age-verification accuracy and how well the rules balance safety with open discussion.",
+      "analysis_zh": "這些分層內容與帳號干預規則顯示 OpenAI 回應現實傷害疑慮，同時試圖保留正當探究空間。成效取決於年齡驗證準確度，以及規則在安全與開放討論間的平衡程度。",
       "quote": "We’re making two announcements to further our work in this area: a new Community Safeguards Report and more restrictions around firearms content for minors.",
       "quote_zh": "我們在此領域進一步宣布兩項措施：新的社群安全報告，以及對未成年人槍支相關內容的更多限制。",
       "importance": 4,
       "first_seen": "2026-10-30T12:00:00Z",
-      "updated_at": "2026-10-31T22:35:01.800263+00:00",
+      "updated_at": "2026-11-01T04:35:01.303633+00:00",
       "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/news/"
+        },
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens/"
@@ -46,26 +58,49 @@
       "id": "anthropic-automating-misalignment-research-2026-10-31",
       "story_id": "anthropic-automating-misalignment-research-2026-10-31",
       "category": "anthropic",
-      "source_type": "paper",
+      "source_type": "official_x",
       "title_en": "Anthropic shares research on automating subtle emergent misalignment red-teaming",
-      "title_zh": "Anthropic分享自動化細微湧現失準紅隊研究",
+      "title_zh": "Anthropic 分享自動化細微湧現錯位紅隊研究",
       "summary_en": "Anthropic posted that it set thousands of Claude agents the task of evading a training-data monitor. The agents produced data that appeared harmless (e.g., mentoring or beekeeping Q&A) yet taught misaligned behavior, which can be used to improve future monitors.",
-      "summary_zh": "Anthropic發布研究，讓數千個Claude代理執行規避訓練數據監控的任務。代理產出看似無害的數據（例如導師或養蜂問答），卻能教導失準行為，可用於改進未來監控。",
-      "analysis_en": "Automating red-teaming for subtle misalignment could scale safety evaluation beyond human time limits. The post frames this as an early step whose practical impact depends on how well the methodology transfers to more realistic production constraints.",
-      "analysis_zh": "自動化細微失準的紅隊測試，可能讓安全評估超越人力時間限制。文章將此定位為早期步驟，實際影響取決於方法能否轉移到更現實的生產約束。",
-      "quote": "Given enough attempts, it succeeded, mostly by hiding the behavior in fiction and roleplay.",
-      "quote_zh": "給予足夠嘗試後，它成功了，主要是把行為隱藏在虛構與角色扮演中。",
+      "summary_zh": "Anthropic 表示已讓數千個 Claude 代理嘗試規避訓練資料監測器。代理產生看似無害的資料（如導師指導或養蜂問答），卻能教導錯位行為，可用於改進未來監測器。",
+      "analysis_en": "Automating red-teaming for subtle misalignment could scale safety evaluation beyond human time limits. The post frames this as an early step whose practical impact depends on how well the generated examples transfer to real training pipelines.",
+      "analysis_zh": "自動化細微錯位的紅隊測試有望突破人類時間限制來擴展安全評估。文章將此定位為早期步驟，實際影響取決於生成範例能多好地轉移到真實訓練流程。",
+      "quote": "These agents developed training data that looked harmless to monitors (like a veteran wrestler mentoring a newcomer, or a Q&A about professional beekeeping), but that in fact taught misaligned behavior.",
+      "quote_zh": "這些代理開發出對監測器看起來無害的訓練資料（例如資深摔角手指導新手，或專業養蜂問答），但實際上卻教導了錯位行為。",
       "importance": 4,
       "first_seen": "2026-10-31T01:59:00Z",
-      "updated_at": "2026-10-31T22:35:01.800263+00:00",
+      "updated_at": "2026-11-01T04:35:01.303633+00:00",
       "links": [
-        {
-          "label": "Anthropic Alignment Science Blog",
-          "url": "https://alignment.anthropic.com/2026/automated-em-search/"
-        },
         {
           "label": "Anthropic on X",
           "url": "https://x.com/AnthropicAI/status/2116349211549843666"
+        },
+        {
+          "label": "Anthropic Alignment Science Blog",
+          "url": "https://alignment.anthropic.com/2026/automated-em-search/"
+        }
+      ]
+    },
+    {
+      "id": "openai-model-spec-update-2026-10-29",
+      "story_id": "openai-model-spec-update-2026-10-29",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI updates Model Spec around five core values for more capable AI",
+      "title_zh": "OpenAI 以五大核心價值重編 Model Spec，應對更強模型",
+      "summary_en": "OpenAI released an updated Model Spec that reorganizes guidance around five values: faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care. It adds guidance on context, memory, oversight, and agency, retires most detailed style rules, and renames the model reference from “the assistant” to “GPT.”",
+      "summary_zh": "OpenAI 發布更新版 Model Spec，將指引圍繞五大價值重組：對人類意圖的忠實、傷害最小化、誠實與透明、人類主體性，以及關懷。新增關於上下文、記憶、監督與主體性的指引，刪除大多數詳細風格規則，並將模型稱謂從「助理」改為「GPT」。",
+      "analysis_en": "Explicit value scaffolding may help models exercise judgment in underspecified agentic settings, but real-world adherence still depends on training and evaluation against the Spec. Public feedback will test whether the five values resolve prior ambiguities.",
+      "analysis_zh": "明確的價值框架可能有助模型在未充分指定的代理情境中行使判斷，但實際遵循仍取決於針對 Spec 的訓練與評估。公眾回饋將檢驗這五大價值能否解決先前的歧義。",
+      "quote": "Today we’re updating the Model Spec, our public description of how we want our models to behave. The update reorganizes its guidance around five underlying values: faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care.",
+      "quote_zh": "今天我們更新 Model Spec，這是我們希望模型如何行為的公開描述。此次更新將指引圍繞五個根本價值重組：對人類意圖的忠實、傷害最小化、誠實與透明、人類主體性，以及關懷。",
+      "importance": 4,
+      "first_seen": "2026-10-29T08:00:00Z",
+      "updated_at": "2026-11-01T04:35:01.303633+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/updated-model-spec/"
         }
       ]
     },
@@ -75,17 +110,21 @@
       "category": "frontier_other",
       "source_type": "official_blog",
       "title_en": "Mistral releases open weights for 1-trillion-parameter Large 4 model",
-      "title_zh": "Mistral發布1兆參數Large 4模型開放權重",
-      "summary_en": "Mistral released the open weights of Mistral Large 4 (Le Chonk), its flagship 1-trillion-parameter multimodal model, after additional reinforcement learning improved coding and cybersecurity performance. It is available under a modified MIT-style license on Hugging Face and via Mistral’s API, with the company noting potential uplift for real attacks and updating guardrails accordingly.",
-      "summary_zh": "Mistral發布旗艦1兆參數多模態模型Mistral Large 4（Le Chonk）的開放權重，經額外強化學習後編碼與網路安全表現提升。可在Hugging Face以修改版MIT式授權下載，並透過Mistral API使用；公司指出對真實攻擊有潛在提升，並相應更新防護。",
-      "analysis_en": "An open-weight trillion-parameter model with strong coding and defensive cyber scores gives organizations a self-hostable European alternative. The company’s own caveat on offensive uplift highlights the dual-use tension that remains unresolved for downloaded copies.",
-      "analysis_zh": "具強編碼與防禦網路安全分數的開放權重兆參數模型，給組織一個可自託管的歐洲替代方案。公司對攻擊提升的自身警告，凸顯已下載副本的雙重用途張力仍未解決。",
+      "title_zh": "Mistral 發布 1 兆參數 Large 4 模型開源權重",
+      "summary_en": "Mistral released the open weights of Mistral Large 4 (Le Chonk), its flagship 1-trillion-parameter multimodal model, after additional reinforcement learning improved coding and cybersecurity performance. It is available under a modified MIT license on Hugging Face, with a commercial restriction for Model-as-a-Service offerings.",
+      "summary_zh": "Mistral 在額外強化學習改善編碼與資安表現後，發布旗艦 1 兆參數多模態模型 Mistral Large 4（Le Chonk）的開源權重。權重可在 Hugging Face 以修改版 MIT 授權取得，但對 Model-as-a-Service 商業使用有額外限制。",
+      "analysis_en": "An open-weight trillion-parameter model with strong coding and defensive cyber scores gives organizations a self-hostable European alternative. The company’s own caveat on offensive uplift means deployers must manage residual dual-use risk themselves.",
+      "analysis_zh": "擁有強編碼與防禦性資安分數的開源兆參數模型，為組織提供可自架的歐洲替代方案。公司對攻擊性提升的提醒意味部署者必須自行管理殘餘雙用風險。",
       "quote": "We release the weights of Le Chonk, advancing the frontier of open models in agentic coding and cybersecurity.",
       "quote_zh": "我們發布Le Chonk的權重，推進開放模型在代理編碼與網路安全的前沿。",
       "importance": 4,
       "first_seen": "2026-10-29T20:00:00Z",
-      "updated_at": "2026-10-31T22:35:01.800263+00:00",
+      "updated_at": "2026-11-01T04:35:01.303633+00:00",
       "links": [
+        {
+          "label": "Mistral AI",
+          "url": "https://mistral.ai/"
+        },
         {
           "label": "Mistral Blog",
           "url": "https://mistral.ai/news/mistral-large-4-oss/"
@@ -96,26 +135,26 @@
       "id": "google-planassist-uk-expansion-2026-10-31",
       "story_id": "google-planassist-uk-expansion-2026-10-31",
       "category": "google",
-      "source_type": "official_blog",
+      "source_type": "official_x",
       "title_en": "Google DeepMind expands PlanAssist after pilots cut UK planning assessment time by up to 58%",
-      "title_zh": "Google DeepMind擴展PlanAssist，試點將英國規劃評估時間最多削減58%",
-      "summary_en": "Google DeepMind said PlanAssist, built with Gemini, reduced the average time planning officers spent on householder assessment tasks by up to 58% in early pilots with Barnet, Camden, and Dorset. It is now being made available to 12 more English councils in a 12-month beta, with the government aiming for nationwide availability in 2027 if successful; officers retain final decision authority and over 70% of pilot reports needed no edits.",
-      "summary_zh": "Google DeepMind表示，以Gemini打造的PlanAssist在Barnet、Camden與Dorset早期試點中，將規劃官員在住戶申請評估任務的平均時間最多減少58%。現正向另外12個英國議會開放12個月測試，政府目標若成功則2027年全國可用；官員保留最終決定權，試點中超過70%報告無需修改。",
-      "analysis_en": "The measured time savings on routine householder applications are a concrete public-sector deployment signal. Broader impact hinges on how well the tool generalizes across councils and whether officers continue to override recommendations at similar rates.",
-      "analysis_zh": "例行住戶申請的量化時間節省，是公共部門部署的具體訊號。更廣影響取決於工具能否跨議會泛化，以及官員是否持續以相近比率否決建議。",
-      "quote": "PlanAssist has shown it can cut the time planning officers spend assessing householder applications by up to 58%.",
-      "quote_zh": "PlanAssist已顯示能將規劃官員評估住戶申請的時間最多削減58%。",
+      "title_zh": "Google DeepMind 擴大 PlanAssist，試點最高縮短英國規劃評估時間 58%",
+      "summary_en": "Google DeepMind said PlanAssist, built with Gemini, reduced the average time planning officers spent on householder assessment tasks by up to 58% in early pilots with Barnet, Camden, and Dorset. It is now being made available to 12 more English councils.",
+      "summary_zh": "Google DeepMind 表示，以 Gemini 打造的 PlanAssist 在與 Barnet、Camden 與 Dorset 的早期試點中，將規劃官員評估住戶申請任務的平均時間最高縮短 58%。現正向另外 12 個英格蘭議會開放。",
+      "analysis_en": "The measured time savings on routine householder applications are a concrete public-sector deployment signal. Broader impact hinges on how well the tool generalizes across councils and whether officers retain effective oversight of AI-assisted decisions.",
+      "analysis_zh": "例行住戶申請的可量測時間節省，是公共部門部署的具體訊號。更廣泛影響取決於工具在不同議會的泛化能力，以及官員是否能有效監督 AI 輔助決策。",
+      "quote": "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country. Built with Gemini, it has shown it can cut the time planning officers spend assessing householder applications by up to 58%.",
+      "quote_zh": "我們打造 PlanAssist 協助英國政府規劃官員加速全國建築與翻修。以 Gemini 打造，已顯示可將規劃官員評估住戶申請的時間最高縮短 58%。",
       "importance": 3,
       "first_seen": "2026-10-31T13:33:00Z",
-      "updated_at": "2026-10-31T22:35:01.800263+00:00",
+      "updated_at": "2026-11-01T04:35:01.303633+00:00",
       "links": [
-        {
-          "label": "Google DeepMind Blog",
-          "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
-        },
         {
           "label": "Google DeepMind on X",
           "url": "https://x.com/GoogleDeepMind/status/2116524000977285321"
+        },
+        {
+          "label": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
         }
       ]
     },
@@ -125,17 +164,21 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI will honor shared robots.txt signal for AI training preferences",
-      "title_zh": "OpenAI將尊重共享robots.txt AI訓練偏好訊號",
-      "summary_en": "OpenAI said it will honor a common robots.txt signal that lets website operators express preferences about use of their content for foundational generative AI training to multiple providers at once. Implementation is planned in the coming months; existing crawler controls remain in place.",
-      "summary_zh": "OpenAI表示將尊重共享的robots.txt訊號，讓網站營運者一次向多個提供者表達對內容用於基礎生成式AI訓練的偏好。實施預計在未來數月內進行；現有爬蟲控制仍維持。",
+      "title_zh": "OpenAI 將遵守共享 robots.txt 訊號以表達 AI 訓練偏好",
+      "summary_en": "OpenAI said it will honor a common robots.txt signal that lets website operators express preferences about use of their content for foundational generative AI training to multiple providers at once. Implementation is planned in the coming months.",
+      "summary_zh": "OpenAI 表示將遵守一種共同的 robots.txt 訊號，讓網站營運者一次向多家供應商表達其內容是否可用於基礎生成式 AI 訓練的偏好。實施預計在未來數月內進行。",
       "analysis_en": "A shared opt-out signal reduces publisher burden and could become a de facto standard if more labs adopt it. Adoption timing and exact enforcement details remain the practical unknowns.",
-      "analysis_zh": "共享退出訊號降低出版者負擔，若更多實驗室採用可能成為實質標準。採用時程與確切執行細節仍是實務未知數。",
+      "analysis_zh": "共享退出訊號可減輕發布者負擔，若更多實驗室採用，可能成為事實標準。採用時程與確切執行細節仍是實務上的未知數。",
       "quote": "Today, we’re announcing that OpenAI will honor a common signal in robots.txt... that lets websites express their preferences about the use of their content for foundational generative AI training.",
       "quote_zh": "今天我們宣布OpenAI將尊重robots.txt中的共同訊號……讓網站表達對其內容用於基礎生成式AI訓練的偏好。",
       "importance": 3,
       "first_seen": "2026-10-30T12:00:00Z",
-      "updated_at": "2026-10-31T22:35:01.800263+00:00",
+      "updated_at": "2026-11-01T04:35:01.303633+00:00",
       "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/news/"
+        },
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/"
@@ -148,17 +191,21 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI highlights expert support for fair use in AI training litigation",
-      "title_zh": "OpenAI強調專家支持AI訓練訴訟中的合理使用",
+      "title_zh": "OpenAI 強調專家支持 AI 訓練訴訟中的合理使用",
       "summary_en": "OpenAI published a collection of amicus brief excerpts arguing that fair use applies to AI training on copyrighted works, in the context of the New York Times lawsuit. Contributors include researchers, creators, libraries, and the U.S. government.",
-      "summary_zh": "OpenAI發布多份法庭之友摘要摘錄，主張合理使用適用於以受版權作品訓練AI，背景為紐約時報訴訟。貢獻者包括研究者、創作者、圖書館與美國政府。",
+      "summary_zh": "OpenAI 發布一系列法庭之友意見書摘錄，主張合理使用適用於以受版權保護作品進行的 AI 訓練，背景為《紐約時報》訴訟。貢獻者包括研究者、創作者、圖書館與美國政府。",
       "analysis_en": "This is advocacy framing of ongoing litigation rather than a legal outcome. It signals OpenAI’s continued reliance on fair-use doctrine while courts weigh market-harm arguments.",
-      "analysis_zh": "這是對進行中訴訟的倡議框架，而非法律結果。它顯示OpenAI持續依賴合理使用原則，同時法院權衡市場傷害論點。",
+      "analysis_zh": "這是對進行中訴訟的倡議框架，而非法律結果。它顯示 OpenAI 持續依賴合理使用原則，同時法院正權衡市場傷害論點。",
       "quote": "Experts and leaders across a wide range of fields have recognized that fair use is a win-win that benefits everyone, and have shared their perspectives with the Court in filing briefs in support of fair use.",
       "quote_zh": "各領域專家與領袖已認識到合理使用是雙贏，惠及所有人，並在法庭之友書狀中向法院分享其觀點，支持合理使用。",
       "importance": 3,
       "first_seen": "2026-10-30T12:00:00Z",
-      "updated_at": "2026-10-31T22:35:01.800263+00:00",
+      "updated_at": "2026-11-01T04:35:01.303633+00:00",
       "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/news/"
+        },
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/"
@@ -175,24 +222,24 @@
       "category": "openai",
       "source_type": "official_x",
       "title_en": "OpenAI promotes Private Intelligence controls for enterprise data",
-      "title_zh": "OpenAI推廣企業數據的Private Intelligence控制",
+      "title_zh": "OpenAI 推廣 Private Intelligence 企業資料控制",
       "summary_en": "OpenAI highlighted Private Intelligence on X, stating it gives businesses stronger data controls while using frontier models. The related product page describes access restrictions, data ownership, agent action controls, Zero Data Retention options, and preview availability for eligible workflows.",
-      "summary_zh": "OpenAI在X上強調Private Intelligence，表示在使用前沿模型時給企業更強的數據控制。相關產品頁面描述存取限制、數據所有權、代理行動控制、零數據保留選項，以及符合資格工作流程的預覽可用性。",
+      "summary_zh": "OpenAI 在 X 上強調 Private Intelligence，稱其讓企業在使用前沿模型時擁有更強的資料控制。相關產品頁面描述存取限制、資料所有權、代理行動控制、零資料保留選項，以及符合資格工作流程的預覽可用性。",
       "analysis_en": "The framing positions privacy features as competitive differentiators for sensitive enterprise workloads. Actual availability remains limited to eligible workflows and preview status.",
-      "analysis_zh": "此框架將隱私功能定位為敏感企業工作負載的競爭差異化。實際可用性仍限於符合資格工作流程與預覽狀態。",
+      "analysis_zh": "此框架將隱私功能定位為敏感企業工作負載的競爭差異化因素。實際可用性仍限於符合資格的工作流程與預覽狀態。",
       "quote": "Privacy should advance as fast as intelligence. OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models.",
-      "quote_zh": "隱私應與智能同步進步。OpenAI Private Intelligence讓企業在使用我們最有能力的模型時，對數據有更強控制。",
+      "quote_zh": "隱私應該與智能同步進步。OpenAI Private Intelligence 讓企業在使用我們最有能力的模型時，對資料擁有更強的控制。",
       "importance": 3,
       "first_seen": "2026-10-30T15:12:00Z",
-      "updated_at": "2026-10-31T22:35:01.800263+00:00",
+      "updated_at": "2026-11-01T04:35:01.303633+00:00",
       "links": [
         {
           "label": "OpenAI on X",
-          "url": "https://x.com/openai"
+          "url": "https://x.com/OpenAI/status/2116186509384815084"
         },
         {
           "label": "OpenAI on X",
-          "url": "https://x.com/OpenAI/status/2116186509384815084"
+          "url": "https://x.com/openai"
         },
         {
           "label": "OpenAI Private Intelligence",
@@ -206,17 +253,21 @@
       "category": "xai",
       "source_type": "product",
       "title_en": "xAI will watermark Grok API text output by default starting November 7",
-      "title_zh": "xAI將於11月7日起預設為Grok API文字輸出加上浮水印",
-      "summary_en": "xAI documented that text responses from supported Grok models will include an invisible watermark starting November 7, 2026, to comply with the EU AI Act. It is on by default across listed models (including Grok 4.7), with team admins able to opt out per model; the watermark requires no request changes.",
-      "summary_zh": "xAI文件說明，支援的Grok模型文字回應將自2026年11月7日起包含隱形浮水印，以符合歐盟AI法案。預設開啟於列出模型（含Grok 4.7），團隊管理員可依模型退出；浮水印無需修改請求。",
-      "analysis_en": "Default watermarking is a concrete compliance step for EU rules on generative AI. Its practical effect depends on whether downstream systems can reliably detect it and how many users exercise the opt-out.",
-      "analysis_zh": "預設浮水印是針對歐盟生成式AI規則的具體合規步驟。實際效果取決於下游系統能否可靠偵測，以及多少使用者選擇退出。",
+      "title_zh": "xAI 將自 11 月 7 日起預設為 Grok API 文字輸出加入浮水印",
+      "summary_en": "xAI documented that text responses from supported Grok models will include an invisible watermark starting November 7, 2026, to comply with the EU AI Act. It is on by default across listed models (including Grok 4.7), with team admins able to adjust settings.",
+      "summary_zh": "xAI 文件指出，自 2026 年 11 月 7 日起，支援的 Grok 模型文字回應將包含隱形浮水印，以符合歐盟 AI 法案。該功能在列出的模型（包括 Grok 4.7）上預設開啟，團隊管理員可調整設定。",
+      "analysis_en": "Default watermarking is a concrete compliance step for EU rules on generative AI. Its practical effect depends on whether downstream systems can reliably detect it and how many users disable or bypass the option.",
+      "analysis_zh": "預設浮水印是針對歐盟生成式 AI 規則的具體合規步驟。其實務效果取決於下游系統能否可靠偵測，以及多少使用者會停用或規避此選項。",
       "quote": "Starting November 7, 2026, responses from these models include a watermark. It's on by default, and you can opt out per model.",
       "quote_zh": "自2026年11月7日起，這些模型的回應將包含浮水印。預設開啟，您可依模型退出。",
       "importance": 2,
       "first_seen": "2026-10-31T08:00:00Z",
-      "updated_at": "2026-10-31T22:35:01.800263+00:00",
+      "updated_at": "2026-11-01T04:35:01.303633+00:00",
       "links": [
+        {
+          "label": "xAI Documentation",
+          "url": "https://x.ai/news"
+        },
         {
           "label": "xAI Docs",
           "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking"
@@ -232,20 +283,47 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI publishes community safety report plan and tightens teen weapons protections",
-        "title_zh": "OpenAI發布社群安全報告計畫並收緊青少年武器保護",
-        "summary_en": "OpenAI announced a new Community Safety Report series on violence prevention, with the first covering H2 2026 due in early 2027. It is also adding restrictions on detailed reconstructions of past mass attacks for all users and further limiting practical weapons and security-system information for teens even without signs of intent, plus automated chat-ending and account pauses for fixation patterns.",
-        "summary_zh": "OpenAI宣布新的社群安全報告系列，聚焦暴力預防，首份涵蓋2026下半年、預計2027年初發布。同時對所有用戶限制過去大規模攻擊的詳細重建，並進一步限制青少年取得武器與安全系統實用資訊（即使無意圖跡象），以及對執著模式自動結束對話與暫停帳號。",
-        "analysis_en": "These layered content and account-intervention rules show OpenAI responding to real-world harm concerns while trying to preserve legitimate inquiry. Effectiveness will depend on age-prediction accuracy and how well automated interventions avoid false positives.",
-        "analysis_zh": "這些分層內容與帳號干預規則顯示OpenAI在回應現實傷害疑慮的同時，仍試圖保留合法查詢。成效取決於年齡預測準確度，以及自動干預如何避免誤判。",
+        "title_zh": "OpenAI 發布社區安全報告計畫並強化青少年武器相關保護",
+        "summary_en": "OpenAI announced a new Community Safety Report series on violence prevention, with the first covering H2 2026 due in early 2027. It is also adding restrictions on detailed reconstructions of past mass attacks for all users and further limiting certain weapons-related content for teens.",
+        "summary_zh": "OpenAI 宣布推出聚焦暴力預防的社區安全報告系列，首份涵蓋 2026 下半年的報告預計 2027 年初發布。同時對所有用戶限制過去大規模攻擊的詳細重建內容，並進一步限制青少年相關武器內容。",
+        "analysis_en": "These layered content and account-intervention rules show OpenAI responding to real-world harm concerns while trying to preserve legitimate inquiry. Effectiveness will depend on age-verification accuracy and how well the rules balance safety with open discussion.",
+        "analysis_zh": "這些分層內容與帳號干預規則顯示 OpenAI 回應現實傷害疑慮，同時試圖保留正當探究空間。成效取決於年齡驗證準確度，以及規則在安全與開放討論間的平衡程度。",
         "quote": "We’re making two announcements to further our work in this area: a new Community Safeguards Report and more restrictions around firearms content for minors.",
         "quote_zh": "我們在此領域進一步宣布兩項措施：新的社群安全報告，以及對未成年人槍支相關內容的更多限制。",
         "importance": 4,
         "first_seen": "2026-10-30T12:00:00Z",
-        "updated_at": "2026-10-31T22:35:01.800263+00:00",
+        "updated_at": "2026-11-01T04:35:01.303633+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
+            "url": "https://openai.com/news/"
+          },
+          {
+            "label": "OpenAI Blog",
             "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens/"
+          }
+        ]
+      },
+      {
+        "id": "openai-model-spec-update-2026-10-29",
+        "story_id": "openai-model-spec-update-2026-10-29",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI updates Model Spec around five core values for more capable AI",
+        "title_zh": "OpenAI 以五大核心價值重編 Model Spec，應對更強模型",
+        "summary_en": "OpenAI released an updated Model Spec that reorganizes guidance around five values: faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care. It adds guidance on context, memory, oversight, and agency, retires most detailed style rules, and renames the model reference from “the assistant” to “GPT.”",
+        "summary_zh": "OpenAI 發布更新版 Model Spec，將指引圍繞五大價值重組：對人類意圖的忠實、傷害最小化、誠實與透明、人類主體性，以及關懷。新增關於上下文、記憶、監督與主體性的指引，刪除大多數詳細風格規則，並將模型稱謂從「助理」改為「GPT」。",
+        "analysis_en": "Explicit value scaffolding may help models exercise judgment in underspecified agentic settings, but real-world adherence still depends on training and evaluation against the Spec. Public feedback will test whether the five values resolve prior ambiguities.",
+        "analysis_zh": "明確的價值框架可能有助模型在未充分指定的代理情境中行使判斷，但實際遵循仍取決於針對 Spec 的訓練與評估。公眾回饋將檢驗這五大價值能否解決先前的歧義。",
+        "quote": "Today we’re updating the Model Spec, our public description of how we want our models to behave. The update reorganizes its guidance around five underlying values: faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care.",
+        "quote_zh": "今天我們更新 Model Spec，這是我們希望模型如何行為的公開描述。此次更新將指引圍繞五個根本價值重組：對人類意圖的忠實、傷害最小化、誠實與透明、人類主體性，以及關懷。",
+        "importance": 4,
+        "first_seen": "2026-10-29T08:00:00Z",
+        "updated_at": "2026-11-01T04:35:01.303633+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/updated-model-spec/"
           }
         ]
       },
@@ -255,17 +333,21 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI will honor shared robots.txt signal for AI training preferences",
-        "title_zh": "OpenAI將尊重共享robots.txt AI訓練偏好訊號",
-        "summary_en": "OpenAI said it will honor a common robots.txt signal that lets website operators express preferences about use of their content for foundational generative AI training to multiple providers at once. Implementation is planned in the coming months; existing crawler controls remain in place.",
-        "summary_zh": "OpenAI表示將尊重共享的robots.txt訊號，讓網站營運者一次向多個提供者表達對內容用於基礎生成式AI訓練的偏好。實施預計在未來數月內進行；現有爬蟲控制仍維持。",
+        "title_zh": "OpenAI 將遵守共享 robots.txt 訊號以表達 AI 訓練偏好",
+        "summary_en": "OpenAI said it will honor a common robots.txt signal that lets website operators express preferences about use of their content for foundational generative AI training to multiple providers at once. Implementation is planned in the coming months.",
+        "summary_zh": "OpenAI 表示將遵守一種共同的 robots.txt 訊號，讓網站營運者一次向多家供應商表達其內容是否可用於基礎生成式 AI 訓練的偏好。實施預計在未來數月內進行。",
         "analysis_en": "A shared opt-out signal reduces publisher burden and could become a de facto standard if more labs adopt it. Adoption timing and exact enforcement details remain the practical unknowns.",
-        "analysis_zh": "共享退出訊號降低出版者負擔，若更多實驗室採用可能成為實質標準。採用時程與確切執行細節仍是實務未知數。",
+        "analysis_zh": "共享退出訊號可減輕發布者負擔，若更多實驗室採用，可能成為事實標準。採用時程與確切執行細節仍是實務上的未知數。",
         "quote": "Today, we’re announcing that OpenAI will honor a common signal in robots.txt... that lets websites express their preferences about the use of their content for foundational generative AI training.",
         "quote_zh": "今天我們宣布OpenAI將尊重robots.txt中的共同訊號……讓網站表達對其內容用於基礎生成式AI訓練的偏好。",
         "importance": 3,
         "first_seen": "2026-10-30T12:00:00Z",
-        "updated_at": "2026-10-31T22:35:01.800263+00:00",
+        "updated_at": "2026-11-01T04:35:01.303633+00:00",
         "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/news/"
+          },
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/"
@@ -278,17 +360,21 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI highlights expert support for fair use in AI training litigation",
-        "title_zh": "OpenAI強調專家支持AI訓練訴訟中的合理使用",
+        "title_zh": "OpenAI 強調專家支持 AI 訓練訴訟中的合理使用",
         "summary_en": "OpenAI published a collection of amicus brief excerpts arguing that fair use applies to AI training on copyrighted works, in the context of the New York Times lawsuit. Contributors include researchers, creators, libraries, and the U.S. government.",
-        "summary_zh": "OpenAI發布多份法庭之友摘要摘錄，主張合理使用適用於以受版權作品訓練AI，背景為紐約時報訴訟。貢獻者包括研究者、創作者、圖書館與美國政府。",
+        "summary_zh": "OpenAI 發布一系列法庭之友意見書摘錄，主張合理使用適用於以受版權保護作品進行的 AI 訓練，背景為《紐約時報》訴訟。貢獻者包括研究者、創作者、圖書館與美國政府。",
         "analysis_en": "This is advocacy framing of ongoing litigation rather than a legal outcome. It signals OpenAI’s continued reliance on fair-use doctrine while courts weigh market-harm arguments.",
-        "analysis_zh": "這是對進行中訴訟的倡議框架，而非法律結果。它顯示OpenAI持續依賴合理使用原則，同時法院權衡市場傷害論點。",
+        "analysis_zh": "這是對進行中訴訟的倡議框架，而非法律結果。它顯示 OpenAI 持續依賴合理使用原則，同時法院正權衡市場傷害論點。",
         "quote": "Experts and leaders across a wide range of fields have recognized that fair use is a win-win that benefits everyone, and have shared their perspectives with the Court in filing briefs in support of fair use.",
         "quote_zh": "各領域專家與領袖已認識到合理使用是雙贏，惠及所有人，並在法庭之友書狀中向法院分享其觀點，支持合理使用。",
         "importance": 3,
         "first_seen": "2026-10-30T12:00:00Z",
-        "updated_at": "2026-10-31T22:35:01.800263+00:00",
+        "updated_at": "2026-11-01T04:35:01.303633+00:00",
         "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/news/"
+          },
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/"
@@ -305,24 +391,24 @@
         "category": "openai",
         "source_type": "official_x",
         "title_en": "OpenAI promotes Private Intelligence controls for enterprise data",
-        "title_zh": "OpenAI推廣企業數據的Private Intelligence控制",
+        "title_zh": "OpenAI 推廣 Private Intelligence 企業資料控制",
         "summary_en": "OpenAI highlighted Private Intelligence on X, stating it gives businesses stronger data controls while using frontier models. The related product page describes access restrictions, data ownership, agent action controls, Zero Data Retention options, and preview availability for eligible workflows.",
-        "summary_zh": "OpenAI在X上強調Private Intelligence，表示在使用前沿模型時給企業更強的數據控制。相關產品頁面描述存取限制、數據所有權、代理行動控制、零數據保留選項，以及符合資格工作流程的預覽可用性。",
+        "summary_zh": "OpenAI 在 X 上強調 Private Intelligence，稱其讓企業在使用前沿模型時擁有更強的資料控制。相關產品頁面描述存取限制、資料所有權、代理行動控制、零資料保留選項，以及符合資格工作流程的預覽可用性。",
         "analysis_en": "The framing positions privacy features as competitive differentiators for sensitive enterprise workloads. Actual availability remains limited to eligible workflows and preview status.",
-        "analysis_zh": "此框架將隱私功能定位為敏感企業工作負載的競爭差異化。實際可用性仍限於符合資格工作流程與預覽狀態。",
+        "analysis_zh": "此框架將隱私功能定位為敏感企業工作負載的競爭差異化因素。實際可用性仍限於符合資格的工作流程與預覽狀態。",
         "quote": "Privacy should advance as fast as intelligence. OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models.",
-        "quote_zh": "隱私應與智能同步進步。OpenAI Private Intelligence讓企業在使用我們最有能力的模型時，對數據有更強控制。",
+        "quote_zh": "隱私應該與智能同步進步。OpenAI Private Intelligence 讓企業在使用我們最有能力的模型時，對資料擁有更強的控制。",
         "importance": 3,
         "first_seen": "2026-10-30T15:12:00Z",
-        "updated_at": "2026-10-31T22:35:01.800263+00:00",
+        "updated_at": "2026-11-01T04:35:01.303633+00:00",
         "links": [
           {
             "label": "OpenAI on X",
-            "url": "https://x.com/openai"
+            "url": "https://x.com/OpenAI/status/2116186509384815084"
           },
           {
             "label": "OpenAI on X",
-            "url": "https://x.com/OpenAI/status/2116186509384815084"
+            "url": "https://x.com/openai"
           },
           {
             "label": "OpenAI Private Intelligence",
@@ -336,26 +422,26 @@
         "id": "anthropic-automating-misalignment-research-2026-10-31",
         "story_id": "anthropic-automating-misalignment-research-2026-10-31",
         "category": "anthropic",
-        "source_type": "paper",
+        "source_type": "official_x",
         "title_en": "Anthropic shares research on automating subtle emergent misalignment red-teaming",
-        "title_zh": "Anthropic分享自動化細微湧現失準紅隊研究",
+        "title_zh": "Anthropic 分享自動化細微湧現錯位紅隊研究",
         "summary_en": "Anthropic posted that it set thousands of Claude agents the task of evading a training-data monitor. The agents produced data that appeared harmless (e.g., mentoring or beekeeping Q&A) yet taught misaligned behavior, which can be used to improve future monitors.",
-        "summary_zh": "Anthropic發布研究，讓數千個Claude代理執行規避訓練數據監控的任務。代理產出看似無害的數據（例如導師或養蜂問答），卻能教導失準行為，可用於改進未來監控。",
-        "analysis_en": "Automating red-teaming for subtle misalignment could scale safety evaluation beyond human time limits. The post frames this as an early step whose practical impact depends on how well the methodology transfers to more realistic production constraints.",
-        "analysis_zh": "自動化細微失準的紅隊測試，可能讓安全評估超越人力時間限制。文章將此定位為早期步驟，實際影響取決於方法能否轉移到更現實的生產約束。",
-        "quote": "Given enough attempts, it succeeded, mostly by hiding the behavior in fiction and roleplay.",
-        "quote_zh": "給予足夠嘗試後，它成功了，主要是把行為隱藏在虛構與角色扮演中。",
+        "summary_zh": "Anthropic 表示已讓數千個 Claude 代理嘗試規避訓練資料監測器。代理產生看似無害的資料（如導師指導或養蜂問答），卻能教導錯位行為，可用於改進未來監測器。",
+        "analysis_en": "Automating red-teaming for subtle misalignment could scale safety evaluation beyond human time limits. The post frames this as an early step whose practical impact depends on how well the generated examples transfer to real training pipelines.",
+        "analysis_zh": "自動化細微錯位的紅隊測試有望突破人類時間限制來擴展安全評估。文章將此定位為早期步驟，實際影響取決於生成範例能多好地轉移到真實訓練流程。",
+        "quote": "These agents developed training data that looked harmless to monitors (like a veteran wrestler mentoring a newcomer, or a Q&A about professional beekeeping), but that in fact taught misaligned behavior.",
+        "quote_zh": "這些代理開發出對監測器看起來無害的訓練資料（例如資深摔角手指導新手，或專業養蜂問答），但實際上卻教導了錯位行為。",
         "importance": 4,
         "first_seen": "2026-10-31T01:59:00Z",
-        "updated_at": "2026-10-31T22:35:01.800263+00:00",
+        "updated_at": "2026-11-01T04:35:01.303633+00:00",
         "links": [
-          {
-            "label": "Anthropic Alignment Science Blog",
-            "url": "https://alignment.anthropic.com/2026/automated-em-search/"
-          },
           {
             "label": "Anthropic on X",
             "url": "https://x.com/AnthropicAI/status/2116349211549843666"
+          },
+          {
+            "label": "Anthropic Alignment Science Blog",
+            "url": "https://alignment.anthropic.com/2026/automated-em-search/"
           }
         ]
       }
@@ -365,26 +451,26 @@
         "id": "google-planassist-uk-expansion-2026-10-31",
         "story_id": "google-planassist-uk-expansion-2026-10-31",
         "category": "google",
-        "source_type": "official_blog",
+        "source_type": "official_x",
         "title_en": "Google DeepMind expands PlanAssist after pilots cut UK planning assessment time by up to 58%",
-        "title_zh": "Google DeepMind擴展PlanAssist，試點將英國規劃評估時間最多削減58%",
-        "summary_en": "Google DeepMind said PlanAssist, built with Gemini, reduced the average time planning officers spent on householder assessment tasks by up to 58% in early pilots with Barnet, Camden, and Dorset. It is now being made available to 12 more English councils in a 12-month beta, with the government aiming for nationwide availability in 2027 if successful; officers retain final decision authority and over 70% of pilot reports needed no edits.",
-        "summary_zh": "Google DeepMind表示，以Gemini打造的PlanAssist在Barnet、Camden與Dorset早期試點中，將規劃官員在住戶申請評估任務的平均時間最多減少58%。現正向另外12個英國議會開放12個月測試，政府目標若成功則2027年全國可用；官員保留最終決定權，試點中超過70%報告無需修改。",
-        "analysis_en": "The measured time savings on routine householder applications are a concrete public-sector deployment signal. Broader impact hinges on how well the tool generalizes across councils and whether officers continue to override recommendations at similar rates.",
-        "analysis_zh": "例行住戶申請的量化時間節省，是公共部門部署的具體訊號。更廣影響取決於工具能否跨議會泛化，以及官員是否持續以相近比率否決建議。",
-        "quote": "PlanAssist has shown it can cut the time planning officers spend assessing householder applications by up to 58%.",
-        "quote_zh": "PlanAssist已顯示能將規劃官員評估住戶申請的時間最多削減58%。",
+        "title_zh": "Google DeepMind 擴大 PlanAssist，試點最高縮短英國規劃評估時間 58%",
+        "summary_en": "Google DeepMind said PlanAssist, built with Gemini, reduced the average time planning officers spent on householder assessment tasks by up to 58% in early pilots with Barnet, Camden, and Dorset. It is now being made available to 12 more English councils.",
+        "summary_zh": "Google DeepMind 表示，以 Gemini 打造的 PlanAssist 在與 Barnet、Camden 與 Dorset 的早期試點中，將規劃官員評估住戶申請任務的平均時間最高縮短 58%。現正向另外 12 個英格蘭議會開放。",
+        "analysis_en": "The measured time savings on routine householder applications are a concrete public-sector deployment signal. Broader impact hinges on how well the tool generalizes across councils and whether officers retain effective oversight of AI-assisted decisions.",
+        "analysis_zh": "例行住戶申請的可量測時間節省，是公共部門部署的具體訊號。更廣泛影響取決於工具在不同議會的泛化能力，以及官員是否能有效監督 AI 輔助決策。",
+        "quote": "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country. Built with Gemini, it has shown it can cut the time planning officers spend assessing householder applications by up to 58%.",
+        "quote_zh": "我們打造 PlanAssist 協助英國政府規劃官員加速全國建築與翻修。以 Gemini 打造，已顯示可將規劃官員評估住戶申請的時間最高縮短 58%。",
         "importance": 3,
         "first_seen": "2026-10-31T13:33:00Z",
-        "updated_at": "2026-10-31T22:35:01.800263+00:00",
+        "updated_at": "2026-11-01T04:35:01.303633+00:00",
         "links": [
-          {
-            "label": "Google DeepMind Blog",
-            "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
-          },
           {
             "label": "Google DeepMind on X",
             "url": "https://x.com/GoogleDeepMind/status/2116524000977285321"
+          },
+          {
+            "label": "Google DeepMind Blog",
+            "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
           }
         ]
       }
@@ -397,17 +483,21 @@
         "category": "xai",
         "source_type": "product",
         "title_en": "xAI will watermark Grok API text output by default starting November 7",
-        "title_zh": "xAI將於11月7日起預設為Grok API文字輸出加上浮水印",
-        "summary_en": "xAI documented that text responses from supported Grok models will include an invisible watermark starting November 7, 2026, to comply with the EU AI Act. It is on by default across listed models (including Grok 4.7), with team admins able to opt out per model; the watermark requires no request changes.",
-        "summary_zh": "xAI文件說明，支援的Grok模型文字回應將自2026年11月7日起包含隱形浮水印，以符合歐盟AI法案。預設開啟於列出模型（含Grok 4.7），團隊管理員可依模型退出；浮水印無需修改請求。",
-        "analysis_en": "Default watermarking is a concrete compliance step for EU rules on generative AI. Its practical effect depends on whether downstream systems can reliably detect it and how many users exercise the opt-out.",
-        "analysis_zh": "預設浮水印是針對歐盟生成式AI規則的具體合規步驟。實際效果取決於下游系統能否可靠偵測，以及多少使用者選擇退出。",
+        "title_zh": "xAI 將自 11 月 7 日起預設為 Grok API 文字輸出加入浮水印",
+        "summary_en": "xAI documented that text responses from supported Grok models will include an invisible watermark starting November 7, 2026, to comply with the EU AI Act. It is on by default across listed models (including Grok 4.7), with team admins able to adjust settings.",
+        "summary_zh": "xAI 文件指出，自 2026 年 11 月 7 日起，支援的 Grok 模型文字回應將包含隱形浮水印，以符合歐盟 AI 法案。該功能在列出的模型（包括 Grok 4.7）上預設開啟，團隊管理員可調整設定。",
+        "analysis_en": "Default watermarking is a concrete compliance step for EU rules on generative AI. Its practical effect depends on whether downstream systems can reliably detect it and how many users disable or bypass the option.",
+        "analysis_zh": "預設浮水印是針對歐盟生成式 AI 規則的具體合規步驟。其實務效果取決於下游系統能否可靠偵測，以及多少使用者會停用或規避此選項。",
         "quote": "Starting November 7, 2026, responses from these models include a watermark. It's on by default, and you can opt out per model.",
         "quote_zh": "自2026年11月7日起，這些模型的回應將包含浮水印。預設開啟，您可依模型退出。",
         "importance": 2,
         "first_seen": "2026-10-31T08:00:00Z",
-        "updated_at": "2026-10-31T22:35:01.800263+00:00",
+        "updated_at": "2026-11-01T04:35:01.303633+00:00",
         "links": [
+          {
+            "label": "xAI Documentation",
+            "url": "https://x.ai/news"
+          },
           {
             "label": "xAI Docs",
             "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking"
@@ -422,17 +512,21 @@
         "category": "frontier_other",
         "source_type": "official_blog",
         "title_en": "Mistral releases open weights for 1-trillion-parameter Large 4 model",
-        "title_zh": "Mistral發布1兆參數Large 4模型開放權重",
-        "summary_en": "Mistral released the open weights of Mistral Large 4 (Le Chonk), its flagship 1-trillion-parameter multimodal model, after additional reinforcement learning improved coding and cybersecurity performance. It is available under a modified MIT-style license on Hugging Face and via Mistral’s API, with the company noting potential uplift for real attacks and updating guardrails accordingly.",
-        "summary_zh": "Mistral發布旗艦1兆參數多模態模型Mistral Large 4（Le Chonk）的開放權重，經額外強化學習後編碼與網路安全表現提升。可在Hugging Face以修改版MIT式授權下載，並透過Mistral API使用；公司指出對真實攻擊有潛在提升，並相應更新防護。",
-        "analysis_en": "An open-weight trillion-parameter model with strong coding and defensive cyber scores gives organizations a self-hostable European alternative. The company’s own caveat on offensive uplift highlights the dual-use tension that remains unresolved for downloaded copies.",
-        "analysis_zh": "具強編碼與防禦網路安全分數的開放權重兆參數模型，給組織一個可自託管的歐洲替代方案。公司對攻擊提升的自身警告，凸顯已下載副本的雙重用途張力仍未解決。",
+        "title_zh": "Mistral 發布 1 兆參數 Large 4 模型開源權重",
+        "summary_en": "Mistral released the open weights of Mistral Large 4 (Le Chonk), its flagship 1-trillion-parameter multimodal model, after additional reinforcement learning improved coding and cybersecurity performance. It is available under a modified MIT license on Hugging Face, with a commercial restriction for Model-as-a-Service offerings.",
+        "summary_zh": "Mistral 在額外強化學習改善編碼與資安表現後，發布旗艦 1 兆參數多模態模型 Mistral Large 4（Le Chonk）的開源權重。權重可在 Hugging Face 以修改版 MIT 授權取得，但對 Model-as-a-Service 商業使用有額外限制。",
+        "analysis_en": "An open-weight trillion-parameter model with strong coding and defensive cyber scores gives organizations a self-hostable European alternative. The company’s own caveat on offensive uplift means deployers must manage residual dual-use risk themselves.",
+        "analysis_zh": "擁有強編碼與防禦性資安分數的開源兆參數模型，為組織提供可自架的歐洲替代方案。公司對攻擊性提升的提醒意味部署者必須自行管理殘餘雙用風險。",
         "quote": "We release the weights of Le Chonk, advancing the frontier of open models in agentic coding and cybersecurity.",
         "quote_zh": "我們發布Le Chonk的權重，推進開放模型在代理編碼與網路安全的前沿。",
         "importance": 4,
         "first_seen": "2026-10-29T20:00:00Z",
-        "updated_at": "2026-10-31T22:35:01.800263+00:00",
+        "updated_at": "2026-11-01T04:35:01.303633+00:00",
         "links": [
+          {
+            "label": "Mistral AI",
+            "url": "https://mistral.ai/"
+          },
           {
             "label": "Mistral Blog",
             "url": "https://mistral.ai/news/mistral-large-4-oss/"
@@ -441,7 +535,7 @@
       }
     ]
   },
-  "brief_en": "Labs focused on safety and governance today: OpenAI detailed teen weapons limits plus a new community safety report series and a shared robots.txt AI-training signal; Anthropic showed agents generating subtle misalignment data that evades monitors; Google expanded its Gemini-powered PlanAssist planning tool after 58% time cuts in UK pilots. Mistral released open weights for its 1T Large 4 model.",
-  "brief_zh": "今日重點在安全與治理：OpenAI推出青少年武器限制、社群安全報告系列，並支持共享robots.txt訓練訊號；Anthropic展示代理生成能規避監控的細微失準數據；Google將Gemini驅動的PlanAssist擴至更多英國議會，試點節省58%時間。Mistral公開1兆參數Large 4權重。",
-  "updated_at": "2026-10-31T22:35:01.800263+00:00"
+  "brief_en": "Labs focused on safety and governance: OpenAI updated its Model Spec around five core values and published misalignment monitoring details; Anthropic shared automated red-teaming research; Google expanded PlanAssist for UK planning; xAI set a default API watermark date; Mistral’s open Large 4 weights remain available.",
+  "brief_zh": "大廠聚焦安全與治理：OpenAI 以五大價值重編 Model Spec 並公布錯位監測；Anthropic 分享自動化紅隊研究；Google 擴大 PlanAssist 至英國規劃；xAI 設定 API 預設浮水印日期；Mistral Large 4 開源權重持續可用。",
+  "updated_at": "2026-11-01T04:35:01.303633+00:00"
 }
