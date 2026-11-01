@@ -8,6 +8,14 @@
       "item_count": 5,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-11-01T22:35:01.782656+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 7,
+      "updated_count": 5,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -17,24 +25,28 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI releases GPT-6 Rosalind Research for trusted life-sciences access",
-      "title_zh": "OpenAI推出受信任存取的生物學專用GPT-6 Rosalind Research",
-      "summary_en": "OpenAI’s October 30 changelog and system-card addendum introduce GPT-6 Rosalind Research (gpt-6-rosalind), a biology/drug-discovery variant that uses the same weights as GPT-6 Astra with adjusted refusals. It is available only to approved organizations via trusted access in Work, Codex, and the API, not in general Chat.",
-      "summary_zh": "OpenAI 10月30日變更紀錄與系統卡附錄推出GPT-6 Rosalind Research（gpt-6-rosalind），採用與GPT-6 Astra相同權重但調整拒絕機制的生物學／藥物發現專用模型。僅限經核准機構透過受信任存取在Work、Codex與API使用，一般Chat不提供。",
-      "analysis_en": "This is a configuration-and-access product rather than a new trained model, letting OpenAI serve dual-use biology research under tighter institutional controls while keeping the base Astra weights unchanged. Independent benchmarks and broader availability timelines remain unstated.",
-      "analysis_zh": "這是配置與存取控管產品而非全新訓練模型，讓OpenAI在維持Astra基礎權重下，以更嚴格機構控管服務雙用途生物學研究。獨立基準與更廣泛開放時程尚未公布。",
-      "quote": "GPT-6 Rosalind Research brings GPT-6 reasoning capabilities to multistep life sciences research, with safeguards designed for biological work.",
-      "quote_zh": "GPT-6 Rosalind Research將GPT-6推理能力帶入多步驟生命科學研究，並配備專為生物工作設計的防護措施。",
+      "title_zh": "OpenAI推出GPT-6 Rosalind Research，供可信生命科學研究存取",
+      "summary_en": "OpenAI’s October 30 system-card addendum and Business release notes introduce GPT-6 Rosalind Research (API id gpt-6-rosalind), a biology/drug-discovery configuration that reuses GPT-6 Astra weights with no additional training and adjusted refusals for dual-use biological queries. It is limited to approved organizations via trusted access in Work, Codex, and the API; pricing lists at $15 input / $75 output per million tokens (1.5× Astra).",
+      "summary_zh": "OpenAI 10月30日系統卡附錄與Business更新說明推出GPT-6 Rosalind Research（API識別碼gpt-6-rosalind），此為生命科學/藥物發現配置，重用GPT-6 Astra權重、無額外訓練，並調整雙用途生物查詢的拒絕設定。僅限通過可信存取審核的組織在Work、Codex與API使用；定價為每百萬token輸入15美元、輸出75美元（Astra的1.5倍）。",
+      "analysis_en": "This is a refusal-and-access product on existing weights rather than a newly trained model, letting OpenAI serve dual-use biology research under institutional controls while charging a premium. Independent verification of the published bio-benchmark gains remains limited, and the higher price is purely for the governance configuration.",
+      "analysis_zh": "這是在既有權重上的拒絕與存取產品，而非新訓練模型，讓OpenAI能在機構管控下服務雙用途生物研究並收取溢價。已公布的生物基準增益仍缺獨立驗證，較高定價純粹反映治理配置。",
+      "quote": "We did not add training data or perform additional post-training for this release.",
+      "quote_zh": "我們未為此發布新增訓練數據或進行額外後訓練。",
       "importance": 4,
       "first_seen": "2026-11-01T16:35:02Z",
-      "updated_at": "2026-11-01T16:35:02.179081+00:00",
+      "updated_at": "2026-11-01T22:35:01.782656+00:00",
       "links": [
+        {
+          "label": "OpenAI GPT-Rosalind-6 System Card Addendum",
+          "url": "https://deploymentsafety.openai.com/gpt-rosalind-6"
+        },
+        {
+          "label": "OpenAI ChatGPT Business release notes",
+          "url": "https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes"
+        },
         {
           "label": "OpenAI Help Center Model Release Notes",
           "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
-        },
-        {
-          "label": "GPT-Rosalind-6 System Card Addendum",
-          "url": "https://deploymentsafety.openai.com/gpt-rosalind-6"
         }
       ]
     },
@@ -42,19 +54,27 @@
       "id": "mistral-large-4-open-weights-2026-10-29",
       "story_id": "mistral-large-4-open-weights-2026-10-29",
       "category": "frontier_other",
-      "source_type": "product",
+      "source_type": "official_blog",
       "title_en": "Mistral releases open weights for 1-trillion-parameter Large 4",
-      "title_zh": "Mistral發布1兆參數Large 4開放權重",
-      "summary_en": "Mistral released the open weights of Mistral Large 4 (Le Chonk), a multimodal MoE model with roughly 1 trillion total parameters (about 52 billion active), on or around October 29 under its ecosystem open-weight license. Company reports cite gains on Terminal-Bench and token efficiency versus prior checkpoints; weights are on Hugging Face and also available via its API.",
-      "summary_zh": "Mistral約於10月29日以生態系開放權重授權發布Mistral Large 4（Le Chonk）開放權重，為約1兆總參數（約520億啟用）的多模態MoE模型。公司報告稱在Terminal-Bench與token效率上較先前檢查點有所提升；權重已上Hugging Face，並可透過其API使用。",
-      "analysis_en": "This is the largest recent open-weight frontier-class release, improving access for organizations that prefer self-hosting. Reported benchmark gains are company-sourced and still trail closed frontier models on several agentic coding suites; long-term maintenance and license restrictions will determine real-world uptake.",
-      "analysis_zh": "這是近期最大規模的開放權重前沿級發布，提升偏好自託管組織的存取。報告基準提升來自公司來源，在多項代理編碼套件上仍落後封閉前沿模型；長期維護與授權限制將決定實際採用。",
-      "quote": "",
-      "quote_zh": "",
+      "title_zh": "Mistral發布1兆參數Large 4開源權重",
+      "summary_en": "Mistral released the open weights of Mistral Large 4 (Le Chonk), a multimodal MoE model with roughly 1 trillion total parameters (about 52 billion active), on or around October 29 under its ecosystem open-weight license on Hugging Face. The company reports coding-agent and cyber-defense gains after additional reinforcement learning from the October 6 preview.",
+      "summary_zh": "Mistral於10月29日左右在Hugging Face依其生態系統開源權重授權發布Mistral Large 4（Le Chonk）權重，此為多模態MoE模型，總參數約1兆、活躍約520億。公司報告自10月6日預覽版後經額外強化學習，在程式代理與網路防禦基準有所提升。",
+      "analysis_en": "This is the largest recent open-weight frontier-class release, improving access for organizations that prefer self-hosting. Reported benchmark gains are company-sourced and still trail leading closed models on several agentic coding tests; the license restricts certain Model-as-a-Service commercial uses.",
+      "analysis_zh": "這是近期最大規模的開源權重前沿級發布，提升偏好自託管組織的存取。報告的基準增益來自公司，在多項代理程式測試仍落後領先封閉模型；授權限制部分Model-as-a-Service商業用途。",
+      "quote": "ML4 OSS showcases our science team’s ability to innovate at speed.",
+      "quote_zh": "ML4開源權重展現我們科學團隊高速創新的能力。",
       "importance": 4,
       "first_seen": "2026-11-01T16:35:02Z",
-      "updated_at": "2026-11-01T16:35:02.179081+00:00",
+      "updated_at": "2026-11-01T22:35:01.782656+00:00",
       "links": [
+        {
+          "label": "Mistral Large 4 announcement",
+          "url": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "label": "SiliconANGLE coverage of weights release",
+          "url": "https://siliconangle.com/2026/10/29/mistral-releases-open-weights-for-mistral-large-4-providing-sovereign-control-for-the-companys-le-chonk-ai-model/"
+        },
         {
           "label": "Coverage of Mistral Large 4 open-weights release",
           "url": "https://thenextweb.com/news/mistral-large-4-open-weights-release"
@@ -65,21 +85,21 @@
       "id": "anthropic-claude-ultra-plan-rename-2026-10-30",
       "story_id": "anthropic-claude-ultra-plan-rename-2026-10-30",
       "category": "anthropic",
-      "source_type": "product",
+      "source_type": "official_x",
       "title_en": "Anthropic renames Max 20x to Ultra and removes five-hour limit for verified accounts",
-      "title_zh": "Anthropic將Max 20x改名Ultra，並對驗證帳號取消五小時限制",
-      "summary_en": "Anthropic’s help center documents that the $200 Max 20x plan is now called Ultra, with prices unchanged. Verified Ultra accounts no longer face the rolling five-hour usage cap; weekly limits and other constraints remain. The change appeared around October 30 and is reflected in current pricing and support pages.",
-      "summary_zh": "Anthropic說明中心記載，200美元的Max 20x方案現改名Ultra，價格不變。已驗證的Ultra帳號不再受滾動五小時使用上限限制；每週上限與其他約束仍在。此變更約於10月30日出現，並反映在目前定價與支援頁面。",
-      "analysis_en": "Removing the short-cycle cap on the top consumer plan reduces friction for heavy Claude Code users without increasing total weekly allowance, while the verification step adds a light anti-abuse gate. It is a product-policy tweak rather than a capability expansion.",
-      "analysis_zh": "取消最高消費者方案的短週期上限，降低重度Claude Code使用者摩擦，但不增加每週總用量；驗證步驟則增加輕量反濫用門檻。屬產品政策調整而非能力擴張。",
-      "quote": "Verified Ultra accounts don't have a five-hour limit.",
-      "quote_zh": "已驗證的Ultra帳號沒有五小時限制。",
+      "title_zh": "Anthropic將Max 20x更名Ultra，並取消已驗證帳戶五小時限制",
+      "summary_en": "Anthropic’s help center documents that the $200 Max 20x plan is now called Ultra, with prices unchanged. Verified Ultra accounts no longer face the rolling five-hour usage cap; weekly limits (10× Pro) and other constraints remain. The change appeared around October 30 and is reflected on the official pricing and support pages.",
+      "summary_zh": "Anthropic說明中心記載，200美元的Max 20x方案現稱為Ultra，價格不變。已驗證的Ultra帳戶不再受滾動五小時使用上限；每週限制（Pro的10倍）及其他約束仍保留。變更約於10月30日出現，並反映在官方定價與支援頁面。",
+      "analysis_en": "Removing the short-cycle cap on the top consumer plan reduces friction for heavy Claude Code users without increasing total weekly allowance, while the verification step adds a light anti-abuse gate. It is a packaging and limit tweak rather than a capability or price change.",
+      "analysis_zh": "取消頂級消費者方案的短週期上限，降低重度Claude Code使用者摩擦，但不增加每週總額度，驗證步驟則增加輕量反濫用門檻。這是包裝與限制調整，而非能力或價格變更。",
+      "quote": "The Max 20x plan is now called the Ultra plan. Existing Max 20x subscribers move to Ultra automatically, with no price change.",
+      "quote_zh": "Max 20x方案現稱為Ultra方案。現有Max 20x訂閱者自動移至Ultra，價格不變。",
       "importance": 3,
       "first_seen": "2026-11-01T16:35:02Z",
-      "updated_at": "2026-11-01T16:35:02.179081+00:00",
+      "updated_at": "2026-11-01T22:35:01.782656+00:00",
       "links": [
         {
-          "label": "Claude Help Center – What is the Ultra plan?",
+          "label": "Claude Help Center: What is the Ultra plan?",
           "url": "https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan"
         }
       ]
@@ -90,19 +110,19 @@
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google DeepMind expands Gemini-powered PlanAssist to 12 more UK councils",
-      "title_zh": "Google DeepMind將Gemini驅動的PlanAssist擴至另外12個英國議會",
-      "summary_en": "DeepMind’s October 31 blog post states that PlanAssist, built with Gemini, is moving from three pilot councils into a 12-month beta with 12 additional English local authorities (15 total). Early pilots cut householder application assessment time by up to 58 percent; officers retain final decision authority.",
-      "summary_zh": "DeepMind 10月31日部落格指出，以Gemini打造的PlanAssist正從三個試點議會進入12個月測試，新增12個英格蘭地方當局（共15個）。早期試點將住戶申請評估時間最多減少58%；官員仍保有最終決定權。",
-      "analysis_en": "This is a practical government-deployment story rather than a model release, showing Gemini applied to high-volume administrative work with human oversight retained. The 58 percent figure covers selected assessment tasks in pilots; end-to-end decision-time savings and error rates across the larger set are still to be measured.",
-      "analysis_zh": "這是實際政府部署案例而非模型發布，顯示Gemini應用於高量行政工作且保留人類監督。58%數字涵蓋試點中選定評估任務；更大範圍的端到端決策時間節省與錯誤率仍待衡量。",
+      "title_zh": "Google DeepMind將Gemini驅動的PlanAssist擴展至另外12個英國議會",
+      "summary_en": "DeepMind’s October 31 blog post states that PlanAssist, built with Gemini, is moving from three pilot councils into a 12-month beta with 12 additional English local authorities (15 total). Early pilots cut householder application assessment time by up to 58 percent, with more than 70 percent of drafted reports approved without edits; officers retain final decision authority.",
+      "summary_zh": "DeepMind 10月31日部落格指出，由Gemini建構的PlanAssist正從三個試點議會進入12個月測試，新增12個英格蘭地方當局（共15個）。早期試點將屋主申請評估時間最多減少58%，超過70%的起草報告無需編輯即獲核准；官員保留最終決定權。",
+      "analysis_en": "This is a practical government-deployment story rather than a model release, showing Gemini applied to high-volume administrative work with human oversight retained. The 58 percent figure covers selected assessment tasks in the pilot, not independently verified end-to-end decision times.",
+      "analysis_zh": "這是實用政府部署故事而非模型發布，顯示Gemini應用於高量行政工作並保留人工監督。58%數字涵蓋試點中選定評估任務，而非獨立驗證的端到端決策時間。",
       "quote": "PlanAssist has shown it can cut the time planning officers spend assessing householder applications by up to 58%.",
-      "quote_zh": "PlanAssist已顯示可將規劃官員評估住戶申請的時間最多減少58%。",
+      "quote_zh": "PlanAssist已顯示可將規劃官員評估屋主申請的時間最多減少58%。",
       "importance": 3,
       "first_seen": "2026-11-01T16:35:02Z",
-      "updated_at": "2026-11-01T16:35:02.179081+00:00",
+      "updated_at": "2026-11-01T22:35:01.782656+00:00",
       "links": [
         {
-          "label": "Google DeepMind Blog",
+          "label": "Google DeepMind blog: Speeding up planning decisions with AI",
           "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
         }
       ]
@@ -113,20 +133,78 @@
       "category": "xai",
       "source_type": "product",
       "title_en": "xAI/SpaceXSI to enable default invisible text watermarks on Grok API from November 7",
-      "title_zh": "xAI/SpaceXSI自11月7日起對Grok API文字預設啟用隱形浮水印",
-      "summary_en": "SpaceXSI developer documentation states that starting November 7, 2026, text outputs from grok-4.7, grok-4.6, grok-4.5, grok-4.3 and three grok-4.20 variants will carry an invisible statistical watermark by default on both Responses and Chat Completions APIs. Team admins can opt out per model after confirming a legal exception; the change is framed as EU AI Act compliance.",
-      "summary_zh": "SpaceXSI開發者文件指出，自2026年11月7日起，grok-4.7、grok-4.6、grok-4.5、grok-4.3及三個grok-4.20變體的文字輸出，將在Responses與Chat Completions API上預設帶有隱形統計浮水印。團隊管理員可在確認法律例外後按模型退出；此變更以符合歐盟AI法案為框架。",
-      "analysis_en": "The watermark is a compliance mechanism that slightly shapes token selection without adding visible characters or changing length/speed claims. It affects API customers only for now and leaves consumer Grok surfaces untouched; how detectable or robust the mark is in practice is not independently quantified in the docs.",
-      "analysis_zh": "浮水印是合規機制，透過輕微塑造token選擇實現，不添加可見字元，亦不宣稱改變長度或速度。目前僅影響API客戶，消費者端Grok介面不受影響；實務上可偵測性與穩健性在文件中未有獨立量化。",
-      "quote": "Starting November 7, 2026, responses from these models include a watermark. It's on by default, and you can opt out per model.",
-      "quote_zh": "自2026年11月7日起，這些模型的回應將包含浮水印。預設開啟，您可按模型退出。",
+      "title_zh": "xAI/SpaceXSI自11月7日起於Grok API預設啟用隱形文字浮水印",
+      "summary_en": "SpaceXSI developer documentation states that starting November 7, 2026, text outputs from grok-4.7, grok-4.6, grok-4.5, grok-4.3 and three grok-4.20 variants will carry an invisible statistical watermark by default on both Responses and Chat Completions APIs. The watermark slightly shapes token selection without adding characters; team admins may opt out per model after confirming a legal exception under the EU AI Act.",
+      "summary_zh": "SpaceXSI開發者文件指出，自2026年11月7日起，grok-4.7、grok-4.6、grok-4.5、grok-4.3及三個grok-4.20變體的文字輸出將在Responses與Chat Completions API上預設攜帶隱形統計浮水印。浮水印輕微影響token選擇而不新增字元；團隊管理員可在確認法律例外後按模型選擇退出，以符合歐盟AI法案。",
+      "analysis_en": "The watermark is a compliance mechanism that slightly shapes token selection without adding visible characters or changing length/speed claims. It affects API customers only for now and leaves consumer-facing Grok products unchanged; detection remains statistical rather than cryptographic.",
+      "analysis_zh": "浮水印是合規機制，輕微影響token選擇而不新增可見字元或改變長度/速度主張。目前僅影響API客戶，消費者端Grok產品不變；偵測仍為統計性而非密碼學。",
+      "quote": "SpaceXSI watermarks text model output to comply with the EU AI Act.",
+      "quote_zh": "SpaceXSI對文字模型輸出加上浮水印以符合歐盟AI法案。",
       "importance": 3,
       "first_seen": "2026-11-01T16:35:02Z",
-      "updated_at": "2026-11-01T16:35:02.179081+00:00",
+      "updated_at": "2026-11-01T22:35:01.782656+00:00",
       "links": [
+        {
+          "label": "SpaceXSI Docs: Output Watermarking",
+          "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking"
+        },
         {
           "label": "SpaceXSI / xAI Developer Docs – Output Watermarking",
           "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking.md"
+        }
+      ]
+    },
+    {
+      "id": "xai-naacp-turbine-lawsuit-dismissal-denied-2026-10-30",
+      "story_id": "xai-naacp-turbine-lawsuit-dismissal-denied-2026-10-30",
+      "category": "xai",
+      "source_type": "news",
+      "title_en": "Judge denies xAI motion to dismiss NAACP Clean Air Act suit over Southaven turbines",
+      "title_zh": "法官駁回xAI撤銷NAACP南Haven渦輪清潔空氣法訴訟的動議",
+      "summary_en": "On or around October 30, U.S. District Judge Debra M. Brown denied xAI’s motion to dismiss the NAACP’s Clean Air Act lawsuit concerning gas turbines powering the Colossus data center in Southaven, Mississippi. The court found the turbines are not exempt as mobile sources and that the citizen-suit provision is constitutional; the case proceeds on the merits.",
+      "summary_zh": "約10月30日，美國地區法官Debra M. Brown駁回xAI撤銷NAACP針對密西西比州Southaven Colossus資料中心燃氣渦輪的清潔空氣法訴訟動議。法院認定渦輪非豁免的移動來源，公民訴訟條款合憲；案件將進入實體審理。",
+      "analysis_en": "The ruling keeps the permitting and emissions claims alive but does not decide liability. It is an operational and regulatory risk story for xAI’s power infrastructure rather than a model or product announcement.",
+      "analysis_zh": "裁定讓許可與排放主張繼續，但未決定責任。這是xAI電力基礎設施的營運與監管風險故事，而非模型或產品公告。",
+      "quote": "Because the Plant is not a ‘mobile source’ according to the federal regulations…the Plant was not (and is not) exempted from permitting requirements under the Clean Air Act.",
+      "quote_zh": "根據聯邦法規，該廠並非『移動來源』……該廠過去（及現在）並未豁免清潔空氣法下的許可要求。",
+      "importance": 3,
+      "first_seen": "2026-11-01T22:35:00Z",
+      "updated_at": "2026-11-01T22:35:01.782656+00:00",
+      "links": [
+        {
+          "label": "Earthjustice press release",
+          "url": "https://earthjustice.org/press/2026/court-denies-xais-motion-to-dismiss-air-pollution-lawsuit-against-elon-musks-company"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+        }
+      ]
+    },
+    {
+      "id": "meta-university-research-partnerships-2026-10-28",
+      "story_id": "meta-university-research-partnerships-2026-10-28",
+      "category": "meta",
+      "source_type": "official_blog",
+      "title_en": "Meta partners with five US universities on medical and scientific research with Muse models",
+      "title_zh": "Meta與五所美國大學合作，以Muse模型推進醫學與科學研究",
+      "summary_en": "On October 28 Meta announced partnerships with Caltech, Ohio State College of Medicine, LSU, Indiana University, and UTHealth Houston, providing $2 million in grants plus access to latest Muse models (including Wonder, Spark Open, and Glimmer) and researcher collaboration. Projects target clinical and scientific problems such as heart-failure risk prediction and formal verification of AI-generated artifacts.",
+      "summary_zh": "10月28日Meta宣布與加州理工、俄亥俄州立醫學院、路易斯安那州立、印第安納大學及UTHealth休士頓合作，提供200萬美元補助、最新Muse模型（含Wonder、Spark Open與Glimmer）存取及研究員協作。專案針對臨床與科學問題，如心衰竭風險預測與AI生成成果的形式驗證。",
+      "analysis_en": "The program expands academic access to Meta’s newer closed and open-weight models under controlled terms, particularly useful for domain-specific medical work. Funding is modest relative to lab scale and does not alter model availability for the broader public.",
+      "analysis_zh": "此計畫在受控條件下擴大學術界對Meta較新封閉與開源權重模型的存取，對領域特定醫學工作尤其有用。資助規模相對實驗室有限，且未改變公眾模型可用性。",
+      "quote": "Meta is bringing Superintelligence models, research funding, and direct researcher collaboration to US universities.",
+      "quote_zh": "Meta正將超智慧模型、研究資金與直接研究員協作帶給美國大學。",
+      "importance": 2,
+      "first_seen": "2026-11-01T22:35:00Z",
+      "updated_at": "2026-11-01T22:35:01.782656+00:00",
+      "links": [
+        {
+          "label": "Meta Newsroom",
+          "url": "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/"
+        },
+        {
+          "label": "Meta AI Research blog",
+          "url": "https://research.meta.ai/blog/supporting-medical-scientific-research"
         }
       ]
     }
@@ -139,24 +217,28 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI releases GPT-6 Rosalind Research for trusted life-sciences access",
-        "title_zh": "OpenAI推出受信任存取的生物學專用GPT-6 Rosalind Research",
-        "summary_en": "OpenAI’s October 30 changelog and system-card addendum introduce GPT-6 Rosalind Research (gpt-6-rosalind), a biology/drug-discovery variant that uses the same weights as GPT-6 Astra with adjusted refusals. It is available only to approved organizations via trusted access in Work, Codex, and the API, not in general Chat.",
-        "summary_zh": "OpenAI 10月30日變更紀錄與系統卡附錄推出GPT-6 Rosalind Research（gpt-6-rosalind），採用與GPT-6 Astra相同權重但調整拒絕機制的生物學／藥物發現專用模型。僅限經核准機構透過受信任存取在Work、Codex與API使用，一般Chat不提供。",
-        "analysis_en": "This is a configuration-and-access product rather than a new trained model, letting OpenAI serve dual-use biology research under tighter institutional controls while keeping the base Astra weights unchanged. Independent benchmarks and broader availability timelines remain unstated.",
-        "analysis_zh": "這是配置與存取控管產品而非全新訓練模型，讓OpenAI在維持Astra基礎權重下，以更嚴格機構控管服務雙用途生物學研究。獨立基準與更廣泛開放時程尚未公布。",
-        "quote": "GPT-6 Rosalind Research brings GPT-6 reasoning capabilities to multistep life sciences research, with safeguards designed for biological work.",
-        "quote_zh": "GPT-6 Rosalind Research將GPT-6推理能力帶入多步驟生命科學研究，並配備專為生物工作設計的防護措施。",
+        "title_zh": "OpenAI推出GPT-6 Rosalind Research，供可信生命科學研究存取",
+        "summary_en": "OpenAI’s October 30 system-card addendum and Business release notes introduce GPT-6 Rosalind Research (API id gpt-6-rosalind), a biology/drug-discovery configuration that reuses GPT-6 Astra weights with no additional training and adjusted refusals for dual-use biological queries. It is limited to approved organizations via trusted access in Work, Codex, and the API; pricing lists at $15 input / $75 output per million tokens (1.5× Astra).",
+        "summary_zh": "OpenAI 10月30日系統卡附錄與Business更新說明推出GPT-6 Rosalind Research（API識別碼gpt-6-rosalind），此為生命科學/藥物發現配置，重用GPT-6 Astra權重、無額外訓練，並調整雙用途生物查詢的拒絕設定。僅限通過可信存取審核的組織在Work、Codex與API使用；定價為每百萬token輸入15美元、輸出75美元（Astra的1.5倍）。",
+        "analysis_en": "This is a refusal-and-access product on existing weights rather than a newly trained model, letting OpenAI serve dual-use biology research under institutional controls while charging a premium. Independent verification of the published bio-benchmark gains remains limited, and the higher price is purely for the governance configuration.",
+        "analysis_zh": "這是在既有權重上的拒絕與存取產品，而非新訓練模型，讓OpenAI能在機構管控下服務雙用途生物研究並收取溢價。已公布的生物基準增益仍缺獨立驗證，較高定價純粹反映治理配置。",
+        "quote": "We did not add training data or perform additional post-training for this release.",
+        "quote_zh": "我們未為此發布新增訓練數據或進行額外後訓練。",
         "importance": 4,
         "first_seen": "2026-11-01T16:35:02Z",
-        "updated_at": "2026-11-01T16:35:02.179081+00:00",
+        "updated_at": "2026-11-01T22:35:01.782656+00:00",
         "links": [
+          {
+            "label": "OpenAI GPT-Rosalind-6 System Card Addendum",
+            "url": "https://deploymentsafety.openai.com/gpt-rosalind-6"
+          },
+          {
+            "label": "OpenAI ChatGPT Business release notes",
+            "url": "https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes"
+          },
           {
             "label": "OpenAI Help Center Model Release Notes",
             "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
-          },
-          {
-            "label": "GPT-Rosalind-6 System Card Addendum",
-            "url": "https://deploymentsafety.openai.com/gpt-rosalind-6"
           }
         ]
       }
@@ -166,21 +248,21 @@
         "id": "anthropic-claude-ultra-plan-rename-2026-10-30",
         "story_id": "anthropic-claude-ultra-plan-rename-2026-10-30",
         "category": "anthropic",
-        "source_type": "product",
+        "source_type": "official_x",
         "title_en": "Anthropic renames Max 20x to Ultra and removes five-hour limit for verified accounts",
-        "title_zh": "Anthropic將Max 20x改名Ultra，並對驗證帳號取消五小時限制",
-        "summary_en": "Anthropic’s help center documents that the $200 Max 20x plan is now called Ultra, with prices unchanged. Verified Ultra accounts no longer face the rolling five-hour usage cap; weekly limits and other constraints remain. The change appeared around October 30 and is reflected in current pricing and support pages.",
-        "summary_zh": "Anthropic說明中心記載，200美元的Max 20x方案現改名Ultra，價格不變。已驗證的Ultra帳號不再受滾動五小時使用上限限制；每週上限與其他約束仍在。此變更約於10月30日出現，並反映在目前定價與支援頁面。",
-        "analysis_en": "Removing the short-cycle cap on the top consumer plan reduces friction for heavy Claude Code users without increasing total weekly allowance, while the verification step adds a light anti-abuse gate. It is a product-policy tweak rather than a capability expansion.",
-        "analysis_zh": "取消最高消費者方案的短週期上限，降低重度Claude Code使用者摩擦，但不增加每週總用量；驗證步驟則增加輕量反濫用門檻。屬產品政策調整而非能力擴張。",
-        "quote": "Verified Ultra accounts don't have a five-hour limit.",
-        "quote_zh": "已驗證的Ultra帳號沒有五小時限制。",
+        "title_zh": "Anthropic將Max 20x更名Ultra，並取消已驗證帳戶五小時限制",
+        "summary_en": "Anthropic’s help center documents that the $200 Max 20x plan is now called Ultra, with prices unchanged. Verified Ultra accounts no longer face the rolling five-hour usage cap; weekly limits (10× Pro) and other constraints remain. The change appeared around October 30 and is reflected on the official pricing and support pages.",
+        "summary_zh": "Anthropic說明中心記載，200美元的Max 20x方案現稱為Ultra，價格不變。已驗證的Ultra帳戶不再受滾動五小時使用上限；每週限制（Pro的10倍）及其他約束仍保留。變更約於10月30日出現，並反映在官方定價與支援頁面。",
+        "analysis_en": "Removing the short-cycle cap on the top consumer plan reduces friction for heavy Claude Code users without increasing total weekly allowance, while the verification step adds a light anti-abuse gate. It is a packaging and limit tweak rather than a capability or price change.",
+        "analysis_zh": "取消頂級消費者方案的短週期上限，降低重度Claude Code使用者摩擦，但不增加每週總額度，驗證步驟則增加輕量反濫用門檻。這是包裝與限制調整，而非能力或價格變更。",
+        "quote": "The Max 20x plan is now called the Ultra plan. Existing Max 20x subscribers move to Ultra automatically, with no price change.",
+        "quote_zh": "Max 20x方案現稱為Ultra方案。現有Max 20x訂閱者自動移至Ultra，價格不變。",
         "importance": 3,
         "first_seen": "2026-11-01T16:35:02Z",
-        "updated_at": "2026-11-01T16:35:02.179081+00:00",
+        "updated_at": "2026-11-01T22:35:01.782656+00:00",
         "links": [
           {
-            "label": "Claude Help Center – What is the Ultra plan?",
+            "label": "Claude Help Center: What is the Ultra plan?",
             "url": "https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan"
           }
         ]
@@ -193,25 +275,53 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google DeepMind expands Gemini-powered PlanAssist to 12 more UK councils",
-        "title_zh": "Google DeepMind將Gemini驅動的PlanAssist擴至另外12個英國議會",
-        "summary_en": "DeepMind’s October 31 blog post states that PlanAssist, built with Gemini, is moving from three pilot councils into a 12-month beta with 12 additional English local authorities (15 total). Early pilots cut householder application assessment time by up to 58 percent; officers retain final decision authority.",
-        "summary_zh": "DeepMind 10月31日部落格指出，以Gemini打造的PlanAssist正從三個試點議會進入12個月測試，新增12個英格蘭地方當局（共15個）。早期試點將住戶申請評估時間最多減少58%；官員仍保有最終決定權。",
-        "analysis_en": "This is a practical government-deployment story rather than a model release, showing Gemini applied to high-volume administrative work with human oversight retained. The 58 percent figure covers selected assessment tasks in pilots; end-to-end decision-time savings and error rates across the larger set are still to be measured.",
-        "analysis_zh": "這是實際政府部署案例而非模型發布，顯示Gemini應用於高量行政工作且保留人類監督。58%數字涵蓋試點中選定評估任務；更大範圍的端到端決策時間節省與錯誤率仍待衡量。",
+        "title_zh": "Google DeepMind將Gemini驅動的PlanAssist擴展至另外12個英國議會",
+        "summary_en": "DeepMind’s October 31 blog post states that PlanAssist, built with Gemini, is moving from three pilot councils into a 12-month beta with 12 additional English local authorities (15 total). Early pilots cut householder application assessment time by up to 58 percent, with more than 70 percent of drafted reports approved without edits; officers retain final decision authority.",
+        "summary_zh": "DeepMind 10月31日部落格指出，由Gemini建構的PlanAssist正從三個試點議會進入12個月測試，新增12個英格蘭地方當局（共15個）。早期試點將屋主申請評估時間最多減少58%，超過70%的起草報告無需編輯即獲核准；官員保留最終決定權。",
+        "analysis_en": "This is a practical government-deployment story rather than a model release, showing Gemini applied to high-volume administrative work with human oversight retained. The 58 percent figure covers selected assessment tasks in the pilot, not independently verified end-to-end decision times.",
+        "analysis_zh": "這是實用政府部署故事而非模型發布，顯示Gemini應用於高量行政工作並保留人工監督。58%數字涵蓋試點中選定評估任務，而非獨立驗證的端到端決策時間。",
         "quote": "PlanAssist has shown it can cut the time planning officers spend assessing householder applications by up to 58%.",
-        "quote_zh": "PlanAssist已顯示可將規劃官員評估住戶申請的時間最多減少58%。",
+        "quote_zh": "PlanAssist已顯示可將規劃官員評估屋主申請的時間最多減少58%。",
         "importance": 3,
         "first_seen": "2026-11-01T16:35:02Z",
-        "updated_at": "2026-11-01T16:35:02.179081+00:00",
+        "updated_at": "2026-11-01T22:35:01.782656+00:00",
         "links": [
           {
-            "label": "Google DeepMind Blog",
+            "label": "Google DeepMind blog: Speeding up planning decisions with AI",
             "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
           }
         ]
       }
     ],
-    "meta": [],
+    "meta": [
+      {
+        "id": "meta-university-research-partnerships-2026-10-28",
+        "story_id": "meta-university-research-partnerships-2026-10-28",
+        "category": "meta",
+        "source_type": "official_blog",
+        "title_en": "Meta partners with five US universities on medical and scientific research with Muse models",
+        "title_zh": "Meta與五所美國大學合作，以Muse模型推進醫學與科學研究",
+        "summary_en": "On October 28 Meta announced partnerships with Caltech, Ohio State College of Medicine, LSU, Indiana University, and UTHealth Houston, providing $2 million in grants plus access to latest Muse models (including Wonder, Spark Open, and Glimmer) and researcher collaboration. Projects target clinical and scientific problems such as heart-failure risk prediction and formal verification of AI-generated artifacts.",
+        "summary_zh": "10月28日Meta宣布與加州理工、俄亥俄州立醫學院、路易斯安那州立、印第安納大學及UTHealth休士頓合作，提供200萬美元補助、最新Muse模型（含Wonder、Spark Open與Glimmer）存取及研究員協作。專案針對臨床與科學問題，如心衰竭風險預測與AI生成成果的形式驗證。",
+        "analysis_en": "The program expands academic access to Meta’s newer closed and open-weight models under controlled terms, particularly useful for domain-specific medical work. Funding is modest relative to lab scale and does not alter model availability for the broader public.",
+        "analysis_zh": "此計畫在受控條件下擴大學術界對Meta較新封閉與開源權重模型的存取，對領域特定醫學工作尤其有用。資助規模相對實驗室有限，且未改變公眾模型可用性。",
+        "quote": "Meta is bringing Superintelligence models, research funding, and direct researcher collaboration to US universities.",
+        "quote_zh": "Meta正將超智慧模型、研究資金與直接研究員協作帶給美國大學。",
+        "importance": 2,
+        "first_seen": "2026-11-01T22:35:00Z",
+        "updated_at": "2026-11-01T22:35:01.782656+00:00",
+        "links": [
+          {
+            "label": "Meta Newsroom",
+            "url": "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/"
+          },
+          {
+            "label": "Meta AI Research blog",
+            "url": "https://research.meta.ai/blog/supporting-medical-scientific-research"
+          }
+        ]
+      }
+    ],
     "xai": [
       {
         "id": "xai-grok-api-text-watermark-2026-11-07",
@@ -219,20 +329,51 @@
         "category": "xai",
         "source_type": "product",
         "title_en": "xAI/SpaceXSI to enable default invisible text watermarks on Grok API from November 7",
-        "title_zh": "xAI/SpaceXSI自11月7日起對Grok API文字預設啟用隱形浮水印",
-        "summary_en": "SpaceXSI developer documentation states that starting November 7, 2026, text outputs from grok-4.7, grok-4.6, grok-4.5, grok-4.3 and three grok-4.20 variants will carry an invisible statistical watermark by default on both Responses and Chat Completions APIs. Team admins can opt out per model after confirming a legal exception; the change is framed as EU AI Act compliance.",
-        "summary_zh": "SpaceXSI開發者文件指出，自2026年11月7日起，grok-4.7、grok-4.6、grok-4.5、grok-4.3及三個grok-4.20變體的文字輸出，將在Responses與Chat Completions API上預設帶有隱形統計浮水印。團隊管理員可在確認法律例外後按模型退出；此變更以符合歐盟AI法案為框架。",
-        "analysis_en": "The watermark is a compliance mechanism that slightly shapes token selection without adding visible characters or changing length/speed claims. It affects API customers only for now and leaves consumer Grok surfaces untouched; how detectable or robust the mark is in practice is not independently quantified in the docs.",
-        "analysis_zh": "浮水印是合規機制，透過輕微塑造token選擇實現，不添加可見字元，亦不宣稱改變長度或速度。目前僅影響API客戶，消費者端Grok介面不受影響；實務上可偵測性與穩健性在文件中未有獨立量化。",
-        "quote": "Starting November 7, 2026, responses from these models include a watermark. It's on by default, and you can opt out per model.",
-        "quote_zh": "自2026年11月7日起，這些模型的回應將包含浮水印。預設開啟，您可按模型退出。",
+        "title_zh": "xAI/SpaceXSI自11月7日起於Grok API預設啟用隱形文字浮水印",
+        "summary_en": "SpaceXSI developer documentation states that starting November 7, 2026, text outputs from grok-4.7, grok-4.6, grok-4.5, grok-4.3 and three grok-4.20 variants will carry an invisible statistical watermark by default on both Responses and Chat Completions APIs. The watermark slightly shapes token selection without adding characters; team admins may opt out per model after confirming a legal exception under the EU AI Act.",
+        "summary_zh": "SpaceXSI開發者文件指出，自2026年11月7日起，grok-4.7、grok-4.6、grok-4.5、grok-4.3及三個grok-4.20變體的文字輸出將在Responses與Chat Completions API上預設攜帶隱形統計浮水印。浮水印輕微影響token選擇而不新增字元；團隊管理員可在確認法律例外後按模型選擇退出，以符合歐盟AI法案。",
+        "analysis_en": "The watermark is a compliance mechanism that slightly shapes token selection without adding visible characters or changing length/speed claims. It affects API customers only for now and leaves consumer-facing Grok products unchanged; detection remains statistical rather than cryptographic.",
+        "analysis_zh": "浮水印是合規機制，輕微影響token選擇而不新增可見字元或改變長度/速度主張。目前僅影響API客戶，消費者端Grok產品不變；偵測仍為統計性而非密碼學。",
+        "quote": "SpaceXSI watermarks text model output to comply with the EU AI Act.",
+        "quote_zh": "SpaceXSI對文字模型輸出加上浮水印以符合歐盟AI法案。",
         "importance": 3,
         "first_seen": "2026-11-01T16:35:02Z",
-        "updated_at": "2026-11-01T16:35:02.179081+00:00",
+        "updated_at": "2026-11-01T22:35:01.782656+00:00",
         "links": [
+          {
+            "label": "SpaceXSI Docs: Output Watermarking",
+            "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking"
+          },
           {
             "label": "SpaceXSI / xAI Developer Docs – Output Watermarking",
             "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking.md"
+          }
+        ]
+      },
+      {
+        "id": "xai-naacp-turbine-lawsuit-dismissal-denied-2026-10-30",
+        "story_id": "xai-naacp-turbine-lawsuit-dismissal-denied-2026-10-30",
+        "category": "xai",
+        "source_type": "news",
+        "title_en": "Judge denies xAI motion to dismiss NAACP Clean Air Act suit over Southaven turbines",
+        "title_zh": "法官駁回xAI撤銷NAACP南Haven渦輪清潔空氣法訴訟的動議",
+        "summary_en": "On or around October 30, U.S. District Judge Debra M. Brown denied xAI’s motion to dismiss the NAACP’s Clean Air Act lawsuit concerning gas turbines powering the Colossus data center in Southaven, Mississippi. The court found the turbines are not exempt as mobile sources and that the citizen-suit provision is constitutional; the case proceeds on the merits.",
+        "summary_zh": "約10月30日，美國地區法官Debra M. Brown駁回xAI撤銷NAACP針對密西西比州Southaven Colossus資料中心燃氣渦輪的清潔空氣法訴訟動議。法院認定渦輪非豁免的移動來源，公民訴訟條款合憲；案件將進入實體審理。",
+        "analysis_en": "The ruling keeps the permitting and emissions claims alive but does not decide liability. It is an operational and regulatory risk story for xAI’s power infrastructure rather than a model or product announcement.",
+        "analysis_zh": "裁定讓許可與排放主張繼續，但未決定責任。這是xAI電力基礎設施的營運與監管風險故事，而非模型或產品公告。",
+        "quote": "Because the Plant is not a ‘mobile source’ according to the federal regulations…the Plant was not (and is not) exempted from permitting requirements under the Clean Air Act.",
+        "quote_zh": "根據聯邦法規，該廠並非『移動來源』……該廠過去（及現在）並未豁免清潔空氣法下的許可要求。",
+        "importance": 3,
+        "first_seen": "2026-11-01T22:35:00Z",
+        "updated_at": "2026-11-01T22:35:01.782656+00:00",
+        "links": [
+          {
+            "label": "Earthjustice press release",
+            "url": "https://earthjustice.org/press/2026/court-denies-xais-motion-to-dismiss-air-pollution-lawsuit-against-elon-musks-company"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
           }
         ]
       }
@@ -242,19 +383,27 @@
         "id": "mistral-large-4-open-weights-2026-10-29",
         "story_id": "mistral-large-4-open-weights-2026-10-29",
         "category": "frontier_other",
-        "source_type": "product",
+        "source_type": "official_blog",
         "title_en": "Mistral releases open weights for 1-trillion-parameter Large 4",
-        "title_zh": "Mistral發布1兆參數Large 4開放權重",
-        "summary_en": "Mistral released the open weights of Mistral Large 4 (Le Chonk), a multimodal MoE model with roughly 1 trillion total parameters (about 52 billion active), on or around October 29 under its ecosystem open-weight license. Company reports cite gains on Terminal-Bench and token efficiency versus prior checkpoints; weights are on Hugging Face and also available via its API.",
-        "summary_zh": "Mistral約於10月29日以生態系開放權重授權發布Mistral Large 4（Le Chonk）開放權重，為約1兆總參數（約520億啟用）的多模態MoE模型。公司報告稱在Terminal-Bench與token效率上較先前檢查點有所提升；權重已上Hugging Face，並可透過其API使用。",
-        "analysis_en": "This is the largest recent open-weight frontier-class release, improving access for organizations that prefer self-hosting. Reported benchmark gains are company-sourced and still trail closed frontier models on several agentic coding suites; long-term maintenance and license restrictions will determine real-world uptake.",
-        "analysis_zh": "這是近期最大規模的開放權重前沿級發布，提升偏好自託管組織的存取。報告基準提升來自公司來源，在多項代理編碼套件上仍落後封閉前沿模型；長期維護與授權限制將決定實際採用。",
-        "quote": "",
-        "quote_zh": "",
+        "title_zh": "Mistral發布1兆參數Large 4開源權重",
+        "summary_en": "Mistral released the open weights of Mistral Large 4 (Le Chonk), a multimodal MoE model with roughly 1 trillion total parameters (about 52 billion active), on or around October 29 under its ecosystem open-weight license on Hugging Face. The company reports coding-agent and cyber-defense gains after additional reinforcement learning from the October 6 preview.",
+        "summary_zh": "Mistral於10月29日左右在Hugging Face依其生態系統開源權重授權發布Mistral Large 4（Le Chonk）權重，此為多模態MoE模型，總參數約1兆、活躍約520億。公司報告自10月6日預覽版後經額外強化學習，在程式代理與網路防禦基準有所提升。",
+        "analysis_en": "This is the largest recent open-weight frontier-class release, improving access for organizations that prefer self-hosting. Reported benchmark gains are company-sourced and still trail leading closed models on several agentic coding tests; the license restricts certain Model-as-a-Service commercial uses.",
+        "analysis_zh": "這是近期最大規模的開源權重前沿級發布，提升偏好自託管組織的存取。報告的基準增益來自公司，在多項代理程式測試仍落後領先封閉模型；授權限制部分Model-as-a-Service商業用途。",
+        "quote": "ML4 OSS showcases our science team’s ability to innovate at speed.",
+        "quote_zh": "ML4開源權重展現我們科學團隊高速創新的能力。",
         "importance": 4,
         "first_seen": "2026-11-01T16:35:02Z",
-        "updated_at": "2026-11-01T16:35:02.179081+00:00",
+        "updated_at": "2026-11-01T22:35:01.782656+00:00",
         "links": [
+          {
+            "label": "Mistral Large 4 announcement",
+            "url": "https://mistral.ai/news/mistral-large-4/"
+          },
+          {
+            "label": "SiliconANGLE coverage of weights release",
+            "url": "https://siliconangle.com/2026/10/29/mistral-releases-open-weights-for-mistral-large-4-providing-sovereign-control-for-the-companys-le-chonk-ai-model/"
+          },
           {
             "label": "Coverage of Mistral Large 4 open-weights release",
             "url": "https://thenextweb.com/news/mistral-large-4-open-weights-release"
@@ -263,7 +412,7 @@
       }
     ]
   },
-  "brief_en": "Quiet day on major model launches. OpenAI ships trusted-access GPT-6 Rosalind for biology; Anthropic renames top plan Ultra and lifts its 5-hour limit for verified users; Google expands Gemini-powered PlanAssist to more UK councils; xAI enables default API text watermarks from Nov 7 for EU compliance. Mistral’s Large 4 open weights remain the latest major open release.",
-  "brief_zh": "今日大廠無旗艦模型發布。OpenAI推出受信任存取的生物學專用GPT-6 Rosalind；Anthropic將最高方案改名Ultra並對驗證帳號取消五小時限制；Google將Gemini驅動的PlanAssist擴至更多英國議會；xAI自11月7日起對API文字預設加入隱形浮水印以符合歐盟法規。Mistral Large 4開放權重仍是最新主要開源發布。",
-  "updated_at": "2026-11-01T16:35:02.179081+00:00"
+  "brief_en": "OpenAI ships GPT-6 Rosalind Research (same Astra weights, trusted life-sciences access, $15/$75). Mistral open-weights 1T Large 4. Anthropic renames Max 20x to Ultra and drops five-hour cap for verified accounts. Google expands PlanAssist beta. xAI defaults invisible API watermarks from Nov 7; judge lets NAACP turbine suit proceed.",
+  "brief_zh": "OpenAI推出GPT-6 Rosalind Research（同Astra權重、可信生命科學存取、$15/$75）。Mistral開源1T Large 4權重。Anthropic將Max 20x更名Ultra並取消已驗證帳戶五小時限制。Google擴大PlanAssist試點。xAI自11月7日起API文字預設隱形浮水印；法官允許NAACP渦輪訴訟繼續。",
+  "updated_at": "2026-11-01T22:35:01.782656+00:00"
 }
