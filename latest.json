@@ -8,6 +8,14 @@
       "item_count": 1,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-11-02T22:35:01.519275+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 5,
+      "updated_count": 1,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -17,20 +25,116 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI launches Grid Protectors Program for flexible data center power use",
-      "title_zh": "OpenAI推出Grid Protectors計畫，支援資料中心電力彈性",
-      "summary_en": "OpenAI announced the Grid Protectors Program, a national effort for its future compute campuses to reduce electricity demand when the grid is under strain, working with utilities, regulators and policymakers. Georgia is the starting point: the planned Effingham County campus includes up to 1,000 MW of flexible demand response (roughly 700,000 households’ average usage) and OpenAI commits to covering full infrastructure and electric-service costs. Arrangements will vary by site, with options for on-site generation, storage and batteries.",
-      "summary_zh": "OpenAI宣布推出Grid Protectors計畫，這是一項全國性努力，讓其未來運算校園在電網緊張時降低電力需求，並與公用事業、監管機構與政策制定者合作。喬治亞州為起點：計畫中的Effingham County校園包含高達1,000 MW的彈性需求回應（約相當於70萬戶家庭平均用電），OpenAI承諾承擔全部基礎設施與電力服務成本。各地安排將有所不同，並可考慮現場發電、儲能與電池。",
-      "analysis_en": "The program positions OpenAI as a flexible load that can ease permitting and public pushback on AI power demand by helping utilities manage peaks, while the company still pays its full costs. Effectiveness will hinge on enforceable utility contracts and whether campuses can actually shed load without major disruption to training or inference; details for sites beyond Georgia are not yet public.",
-      "analysis_zh": "此計畫將OpenAI定位為可協助公用事業管理尖峰的彈性負載，有助減輕AI電力需求的許可與公眾阻力，同時公司仍全額支付自身成本。成效取決於可執行的公用事業合約，以及校園能否在不嚴重干擾訓練或推理的情況下真正降低負載；喬治亞州以外場址細節尚未公開。",
+      "title_zh": "OpenAI推出電網保護者計畫，讓資料中心可彈性調整用電",
+      "summary_en": "OpenAI announced the Grid Protectors Program, a national effort so its future compute campuses can reduce electricity demand when the grid is strained, working with utilities, regulators and policymakers. Georgia is the pilot: the Effingham campus agreement includes up to 1,000 MW of flexible demand response (roughly the average demand of 700,000 households) and full payment of infrastructure costs; Georgia Power projects related large-load deals can save typical residential customers at least $15/month from 2029.",
+      "summary_zh": "OpenAI宣布推出電網保護者計畫，讓未來算力園區在電網吃緊時可降低用電需求，並與公用事業、監管機構與政策制定者合作。喬治亞州為試點：Effingham園區協議包含最高1,000 MW彈性需求回應（約相當於70萬戶家庭平均用電），並全額負擔基礎設施成本；Georgia Power估計相關大型負載協議自2029年起可讓典型住宅用戶每月至少節省15美元。",
+      "analysis_en": "The program positions OpenAI as a flexible load that can ease permitting and public pushback on AI power demand by helping utilities manage peaks, while the company still pays its full costs. Whether other labs follow or whether the flexibility materializes at scale remains the open question.",
+      "analysis_zh": "該計畫把OpenAI定位為可彈性負載，協助公用事業管理尖峰，從而減輕AI用電對許可與公眾反彈的壓力，同時公司仍全額負擔自身成本。其他實驗室是否跟進、以及彈性是否能規模化落地，仍是關鍵不確定性。",
       "quote": "Today we’re launching the Grid Protectors Program, a national effort to support affordable, reliable electricity for families and businesses in the communities where we build.",
-      "quote_zh": "今天我們推出Grid Protectors計畫，這是一項全國性努力，旨在支持我們建設所在社區家庭與企業的可負擔、可靠電力。",
+      "quote_zh": "今天我們推出電網保護者計畫，這是一項全國性努力，旨在為我們建設所在社區的家庭與企業提供可負擔、可靠的電力支持。",
       "importance": 4,
       "first_seen": "2026-11-02T16:35:00Z",
-      "updated_at": "2026-11-02T16:35:02.216024+00:00",
+      "updated_at": "2026-11-02T22:35:01.519275+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/grid-protectors-program/"
+        }
+      ]
+    },
+    {
+      "id": "openai-lifeval-benchmark-2026-11-02",
+      "story_id": "openai-lifeval-benchmark-2026-11-02",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI introduces LifeVal benchmark for everyday personal-assistant tasks",
+      "title_zh": "OpenAI推出LifeVal基準，評估AI處理日常個人助理任務的能力",
+      "summary_en": "OpenAI published LifeVal, a benchmark measuring how well AI helps people complete everyday tasks (finding childcare, managing finances, government paperwork, meal planning, etc.). It is grounded in U.S. and multinational time-use surveys plus a new demographically representative survey of ~4,000 people on where they most want personal-assistant help. Current models score highly on many examples (often >90%); OpenAI says it has used the eval over the past year to drive improvements in browser/computer-use and connector capabilities.",
+      "summary_zh": "OpenAI發布LifeVal基準，衡量AI協助人們完成日常任務（找托兒、理財、政府文書、餐點規劃等）的表現。基準以美國與跨國時間使用調查，加上約4,000人代表性新調查為基礎，聚焦人們最想要個人助理幫忙的領域。現行模型在多個範例上得分很高（常超過90%）；OpenAI表示過去一年已用此評估推動瀏覽器/電腦操作與連接器能力的改善。",
+      "analysis_en": "LifeVal shifts evaluation emphasis from academic knowledge toward practical agentic assistance that matches real user demand, reinforcing OpenAI’s push of ChatGPT toward actionable personal agents. Independent verification of the high scores and whether the benchmark becomes a public standard are still open.",
+      "analysis_zh": "LifeVal把評估重點從學術知識轉向符合真實用戶需求的實務代理協助，強化OpenAI將ChatGPT推向可執行個人代理的方向。高分是否經獨立驗證、以及基準能否成為公開標準，仍待觀察。",
+      "quote": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal...",
+      "quote_zh": "若要讓AGI造福全人類，它應協助人們處理對他們最重要的日常任務。因此我們建立了LifeVal……",
+      "importance": 3,
+      "first_seen": "2026-11-02T17:00:00Z",
+      "updated_at": "2026-11-02T22:35:01.519275+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/lifeval/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2117307611338997846"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-message-threads-agents-2026-11-02",
+      "story_id": "anthropic-message-threads-agents-2026-11-02",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic launches message threads beta to cut latency for long-running agents",
+      "title_zh": "Anthropic推出訊息執行緒公開測試，降低長時間運行代理的延遲",
+      "summary_en": "Anthropic made message threads available in public beta on the Claude Platform (and partner clouds). Agents send the full conversation only on the first turn; subsequent turns transmit only new messages plus the previous response ID. Threads are held encrypted in memory and expire after 5 minutes of inactivity. For most Claude Code users it is on by default; median time-to-first-token drops ~35% on 500k–1M token requests. Token usage is unchanged because Claude still reads the full context.",
+      "summary_zh": "Anthropic在Claude Platform（及合作雲端）公開測試推出訊息執行緒。代理只需在第一輪傳送完整對話，後續輪次只傳送新訊息加上前一回應ID。執行緒加密暫存於記憶體，閒置5分鐘後失效。對大多數Claude Code用戶預設開啟；在50萬至100萬token請求上，中位首token時間約降低35%。因Claude仍讀取完整上下文，token用量不變。",
+      "analysis_en": "The feature directly attacks the latency tax of long agent sessions without changing pricing or context windows, making high-volume coding and computer-use agents more practical. How broadly developers adopt the new API parameter and whether the 5-minute expiry creates friction will determine real-world impact.",
+      "analysis_zh": "此功能直接降低長時間代理會話的延遲成本，而不改變定價或上下文窗口，讓高用量編碼與電腦操作代理更實用。開發者採用新API參數的廣度，以及5分鐘過期是否造成摩擦，將決定實際影響。",
+      "quote": "Message threads is now available in public beta on the Claude Platform. With message threads, agents no longer need to resend the full conversation history on every turn, reducing latency for long-running sessions.",
+      "quote_zh": "訊息執行緒現已在Claude Platform公開測試中推出。有了訊息執行緒，代理不再需要在每一輪重新傳送完整對話歷史，從而降低長時間運行會話的延遲。",
+      "importance": 3,
+      "first_seen": "2026-11-02T12:00:00Z",
+      "updated_at": "2026-11-02T22:35:01.519275+00:00",
+      "links": [
+        {
+          "label": "Claude by Anthropic",
+          "url": "https://claude.com/resources/articles/message-threads"
+        }
+      ]
+    },
+    {
+      "id": "xai-grok-bot-data-bot-2026-11-02",
+      "story_id": "xai-grok-bot-data-bot-2026-11-02",
+      "category": "xai",
+      "source_type": "official_blog",
+      "title_en": "xAI/SpaceXSI details internal Data Bot Team Bot that scaled data-science help",
+      "title_zh": "xAI/SpaceXSI詳述內部Data Bot團隊機器人，擴展資料科學協助",
+      "summary_en": "SpaceXSI published a case study of Data Bot, a Team Bot in Grok Bot taught by the internal data-science team. It can query the warehouse, run analyses, create charts/dashboards, and join Slack channels using shared skills and memory. Last week it handled an estimated 70 hours of work that would otherwise have gone to the data team; complex judgment work still stays with humans. The post illustrates how Team Bots share expertise across the company.",
+      "summary_zh": "SpaceXSI發布Data Bot案例研究，這是Grok Bot中的團隊機器人，由內部資料科學團隊教導。它可查詢資料倉儲、執行分析、建立圖表/儀表板，並加入Slack頻道，使用共享技能與記憶。上週估計處理了原本會落到資料團隊的約70小時工作；複雜判斷仍由人類負責。文章說明團隊機器人如何在公司內共享專業知識。",
+      "analysis_en": "The internal success story shows Grok Bot Team Bots moving from generic agents to role-specific shared expertise, potentially reducing specialist bottlenecks. External customers still need to build and maintain the skills themselves; the 70-hour figure is an internal estimate.",
+      "analysis_zh": "內部成功案例顯示Grok Bot團隊機器人從通用代理轉向特定角色的共享專業，可能減少專家瓶頸。外部客戶仍需自行建立與維護技能；70小時數字為內部估計。",
+      "quote": "Data Bot is a Team Bot in Grok Bot that the data science team teaches, so every team can query the warehouse, run analyses, and get answers the way a data scientist would.",
+      "quote_zh": "Data Bot是Grok Bot中的團隊機器人，由資料科學團隊教導，讓每個團隊都能查詢資料倉儲、執行分析，並以資料科學家的方式取得答案。",
+      "importance": 3,
+      "first_seen": "2026-11-02T08:00:00Z",
+      "updated_at": "2026-11-02T22:35:01.519275+00:00",
+      "links": [
+        {
+          "label": "SpaceXSI News",
+          "url": "https://x.ai/news/data-bot"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-residency-applications-2026-11-02",
+      "story_id": "anthropic-residency-applications-2026-11-02",
+      "category": "anthropic",
+      "source_type": "official_x",
+      "title_en": "Anthropic opens applications for paid AI safety Residency program",
+      "title_zh": "Anthropic開放付費AI安全駐留計畫申請",
+      "summary_en": "Anthropic announced that applications are open for the Anthropic Residency, a paid fixed-term research program for academics, technical founders, and staff-level engineers who want to work on making AI safe and beneficial. No machine-learning background is required. The application deadline is 22 November.",
+      "summary_zh": "Anthropic宣布開放Anthropic駐留計畫申請，這是一項付費固定期限研究計畫，對象為想讓AI安全且有益於所有人的學者、技術創辦人與資深工程師。不需要機器學習背景。申請截止日期為11月22日。",
+      "analysis_en": "The residency lowers the barrier for non-ML experts to contribute to frontier safety work, potentially broadening the talent pool amid intense hiring competition. Details on cohort size, compensation, and research focus were not elaborated in the announcement.",
+      "analysis_zh": "駐留計畫降低非機器學習專家參與前沿安全工作的門檻，可能在激烈人才競爭中擴大人才池。公告中未詳述屆期規模、薪酬與研究重點。",
+      "quote": "Applications are now open for the Anthropic Residency, a paid, fixed-term research program for academics, technical founders, and staff-level engineers who want to make AI safe and beneficial for everyone. No ML background is required.",
+      "quote_zh": "Anthropic駐留計畫現已開放申請，這是一項付費固定期限研究計畫，對象為想讓AI安全且有益於所有人的學者、技術創辦人與資深工程師。不需要機器學習背景。",
+      "importance": 2,
+      "first_seen": "2026-11-02T19:51:45Z",
+      "updated_at": "2026-11-02T22:35:01.519275+00:00",
+      "links": [
+        {
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2117343929960112486"
         }
       ]
     }
@@ -43,31 +147,129 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI launches Grid Protectors Program for flexible data center power use",
-        "title_zh": "OpenAI推出Grid Protectors計畫，支援資料中心電力彈性",
-        "summary_en": "OpenAI announced the Grid Protectors Program, a national effort for its future compute campuses to reduce electricity demand when the grid is under strain, working with utilities, regulators and policymakers. Georgia is the starting point: the planned Effingham County campus includes up to 1,000 MW of flexible demand response (roughly 700,000 households’ average usage) and OpenAI commits to covering full infrastructure and electric-service costs. Arrangements will vary by site, with options for on-site generation, storage and batteries.",
-        "summary_zh": "OpenAI宣布推出Grid Protectors計畫，這是一項全國性努力，讓其未來運算校園在電網緊張時降低電力需求，並與公用事業、監管機構與政策制定者合作。喬治亞州為起點：計畫中的Effingham County校園包含高達1,000 MW的彈性需求回應（約相當於70萬戶家庭平均用電），OpenAI承諾承擔全部基礎設施與電力服務成本。各地安排將有所不同，並可考慮現場發電、儲能與電池。",
-        "analysis_en": "The program positions OpenAI as a flexible load that can ease permitting and public pushback on AI power demand by helping utilities manage peaks, while the company still pays its full costs. Effectiveness will hinge on enforceable utility contracts and whether campuses can actually shed load without major disruption to training or inference; details for sites beyond Georgia are not yet public.",
-        "analysis_zh": "此計畫將OpenAI定位為可協助公用事業管理尖峰的彈性負載，有助減輕AI電力需求的許可與公眾阻力，同時公司仍全額支付自身成本。成效取決於可執行的公用事業合約，以及校園能否在不嚴重干擾訓練或推理的情況下真正降低負載；喬治亞州以外場址細節尚未公開。",
+        "title_zh": "OpenAI推出電網保護者計畫，讓資料中心可彈性調整用電",
+        "summary_en": "OpenAI announced the Grid Protectors Program, a national effort so its future compute campuses can reduce electricity demand when the grid is strained, working with utilities, regulators and policymakers. Georgia is the pilot: the Effingham campus agreement includes up to 1,000 MW of flexible demand response (roughly the average demand of 700,000 households) and full payment of infrastructure costs; Georgia Power projects related large-load deals can save typical residential customers at least $15/month from 2029.",
+        "summary_zh": "OpenAI宣布推出電網保護者計畫，讓未來算力園區在電網吃緊時可降低用電需求，並與公用事業、監管機構與政策制定者合作。喬治亞州為試點：Effingham園區協議包含最高1,000 MW彈性需求回應（約相當於70萬戶家庭平均用電），並全額負擔基礎設施成本；Georgia Power估計相關大型負載協議自2029年起可讓典型住宅用戶每月至少節省15美元。",
+        "analysis_en": "The program positions OpenAI as a flexible load that can ease permitting and public pushback on AI power demand by helping utilities manage peaks, while the company still pays its full costs. Whether other labs follow or whether the flexibility materializes at scale remains the open question.",
+        "analysis_zh": "該計畫把OpenAI定位為可彈性負載，協助公用事業管理尖峰，從而減輕AI用電對許可與公眾反彈的壓力，同時公司仍全額負擔自身成本。其他實驗室是否跟進、以及彈性是否能規模化落地，仍是關鍵不確定性。",
         "quote": "Today we’re launching the Grid Protectors Program, a national effort to support affordable, reliable electricity for families and businesses in the communities where we build.",
-        "quote_zh": "今天我們推出Grid Protectors計畫，這是一項全國性努力，旨在支持我們建設所在社區家庭與企業的可負擔、可靠電力。",
+        "quote_zh": "今天我們推出電網保護者計畫，這是一項全國性努力，旨在為我們建設所在社區的家庭與企業提供可負擔、可靠的電力支持。",
         "importance": 4,
         "first_seen": "2026-11-02T16:35:00Z",
-        "updated_at": "2026-11-02T16:35:02.216024+00:00",
+        "updated_at": "2026-11-02T22:35:01.519275+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/grid-protectors-program/"
           }
         ]
+      },
+      {
+        "id": "openai-lifeval-benchmark-2026-11-02",
+        "story_id": "openai-lifeval-benchmark-2026-11-02",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI introduces LifeVal benchmark for everyday personal-assistant tasks",
+        "title_zh": "OpenAI推出LifeVal基準，評估AI處理日常個人助理任務的能力",
+        "summary_en": "OpenAI published LifeVal, a benchmark measuring how well AI helps people complete everyday tasks (finding childcare, managing finances, government paperwork, meal planning, etc.). It is grounded in U.S. and multinational time-use surveys plus a new demographically representative survey of ~4,000 people on where they most want personal-assistant help. Current models score highly on many examples (often >90%); OpenAI says it has used the eval over the past year to drive improvements in browser/computer-use and connector capabilities.",
+        "summary_zh": "OpenAI發布LifeVal基準，衡量AI協助人們完成日常任務（找托兒、理財、政府文書、餐點規劃等）的表現。基準以美國與跨國時間使用調查，加上約4,000人代表性新調查為基礎，聚焦人們最想要個人助理幫忙的領域。現行模型在多個範例上得分很高（常超過90%）；OpenAI表示過去一年已用此評估推動瀏覽器/電腦操作與連接器能力的改善。",
+        "analysis_en": "LifeVal shifts evaluation emphasis from academic knowledge toward practical agentic assistance that matches real user demand, reinforcing OpenAI’s push of ChatGPT toward actionable personal agents. Independent verification of the high scores and whether the benchmark becomes a public standard are still open.",
+        "analysis_zh": "LifeVal把評估重點從學術知識轉向符合真實用戶需求的實務代理協助，強化OpenAI將ChatGPT推向可執行個人代理的方向。高分是否經獨立驗證、以及基準能否成為公開標準，仍待觀察。",
+        "quote": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal...",
+        "quote_zh": "若要讓AGI造福全人類，它應協助人們處理對他們最重要的日常任務。因此我們建立了LifeVal……",
+        "importance": 3,
+        "first_seen": "2026-11-02T17:00:00Z",
+        "updated_at": "2026-11-02T22:35:01.519275+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/lifeval/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2117307611338997846"
+          }
+        ]
       }
     ],
-    "anthropic": [],
+    "anthropic": [
+      {
+        "id": "anthropic-message-threads-agents-2026-11-02",
+        "story_id": "anthropic-message-threads-agents-2026-11-02",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic launches message threads beta to cut latency for long-running agents",
+        "title_zh": "Anthropic推出訊息執行緒公開測試，降低長時間運行代理的延遲",
+        "summary_en": "Anthropic made message threads available in public beta on the Claude Platform (and partner clouds). Agents send the full conversation only on the first turn; subsequent turns transmit only new messages plus the previous response ID. Threads are held encrypted in memory and expire after 5 minutes of inactivity. For most Claude Code users it is on by default; median time-to-first-token drops ~35% on 500k–1M token requests. Token usage is unchanged because Claude still reads the full context.",
+        "summary_zh": "Anthropic在Claude Platform（及合作雲端）公開測試推出訊息執行緒。代理只需在第一輪傳送完整對話，後續輪次只傳送新訊息加上前一回應ID。執行緒加密暫存於記憶體，閒置5分鐘後失效。對大多數Claude Code用戶預設開啟；在50萬至100萬token請求上，中位首token時間約降低35%。因Claude仍讀取完整上下文，token用量不變。",
+        "analysis_en": "The feature directly attacks the latency tax of long agent sessions without changing pricing or context windows, making high-volume coding and computer-use agents more practical. How broadly developers adopt the new API parameter and whether the 5-minute expiry creates friction will determine real-world impact.",
+        "analysis_zh": "此功能直接降低長時間代理會話的延遲成本，而不改變定價或上下文窗口，讓高用量編碼與電腦操作代理更實用。開發者採用新API參數的廣度，以及5分鐘過期是否造成摩擦，將決定實際影響。",
+        "quote": "Message threads is now available in public beta on the Claude Platform. With message threads, agents no longer need to resend the full conversation history on every turn, reducing latency for long-running sessions.",
+        "quote_zh": "訊息執行緒現已在Claude Platform公開測試中推出。有了訊息執行緒，代理不再需要在每一輪重新傳送完整對話歷史，從而降低長時間運行會話的延遲。",
+        "importance": 3,
+        "first_seen": "2026-11-02T12:00:00Z",
+        "updated_at": "2026-11-02T22:35:01.519275+00:00",
+        "links": [
+          {
+            "label": "Claude by Anthropic",
+            "url": "https://claude.com/resources/articles/message-threads"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-residency-applications-2026-11-02",
+        "story_id": "anthropic-residency-applications-2026-11-02",
+        "category": "anthropic",
+        "source_type": "official_x",
+        "title_en": "Anthropic opens applications for paid AI safety Residency program",
+        "title_zh": "Anthropic開放付費AI安全駐留計畫申請",
+        "summary_en": "Anthropic announced that applications are open for the Anthropic Residency, a paid fixed-term research program for academics, technical founders, and staff-level engineers who want to work on making AI safe and beneficial. No machine-learning background is required. The application deadline is 22 November.",
+        "summary_zh": "Anthropic宣布開放Anthropic駐留計畫申請，這是一項付費固定期限研究計畫，對象為想讓AI安全且有益於所有人的學者、技術創辦人與資深工程師。不需要機器學習背景。申請截止日期為11月22日。",
+        "analysis_en": "The residency lowers the barrier for non-ML experts to contribute to frontier safety work, potentially broadening the talent pool amid intense hiring competition. Details on cohort size, compensation, and research focus were not elaborated in the announcement.",
+        "analysis_zh": "駐留計畫降低非機器學習專家參與前沿安全工作的門檻，可能在激烈人才競爭中擴大人才池。公告中未詳述屆期規模、薪酬與研究重點。",
+        "quote": "Applications are now open for the Anthropic Residency, a paid, fixed-term research program for academics, technical founders, and staff-level engineers who want to make AI safe and beneficial for everyone. No ML background is required.",
+        "quote_zh": "Anthropic駐留計畫現已開放申請，這是一項付費固定期限研究計畫，對象為想讓AI安全且有益於所有人的學者、技術創辦人與資深工程師。不需要機器學習背景。",
+        "importance": 2,
+        "first_seen": "2026-11-02T19:51:45Z",
+        "updated_at": "2026-11-02T22:35:01.519275+00:00",
+        "links": [
+          {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI/status/2117343929960112486"
+          }
+        ]
+      }
+    ],
     "google": [],
     "meta": [],
-    "xai": [],
+    "xai": [
+      {
+        "id": "xai-grok-bot-data-bot-2026-11-02",
+        "story_id": "xai-grok-bot-data-bot-2026-11-02",
+        "category": "xai",
+        "source_type": "official_blog",
+        "title_en": "xAI/SpaceXSI details internal Data Bot Team Bot that scaled data-science help",
+        "title_zh": "xAI/SpaceXSI詳述內部Data Bot團隊機器人，擴展資料科學協助",
+        "summary_en": "SpaceXSI published a case study of Data Bot, a Team Bot in Grok Bot taught by the internal data-science team. It can query the warehouse, run analyses, create charts/dashboards, and join Slack channels using shared skills and memory. Last week it handled an estimated 70 hours of work that would otherwise have gone to the data team; complex judgment work still stays with humans. The post illustrates how Team Bots share expertise across the company.",
+        "summary_zh": "SpaceXSI發布Data Bot案例研究，這是Grok Bot中的團隊機器人，由內部資料科學團隊教導。它可查詢資料倉儲、執行分析、建立圖表/儀表板，並加入Slack頻道，使用共享技能與記憶。上週估計處理了原本會落到資料團隊的約70小時工作；複雜判斷仍由人類負責。文章說明團隊機器人如何在公司內共享專業知識。",
+        "analysis_en": "The internal success story shows Grok Bot Team Bots moving from generic agents to role-specific shared expertise, potentially reducing specialist bottlenecks. External customers still need to build and maintain the skills themselves; the 70-hour figure is an internal estimate.",
+        "analysis_zh": "內部成功案例顯示Grok Bot團隊機器人從通用代理轉向特定角色的共享專業，可能減少專家瓶頸。外部客戶仍需自行建立與維護技能；70小時數字為內部估計。",
+        "quote": "Data Bot is a Team Bot in Grok Bot that the data science team teaches, so every team can query the warehouse, run analyses, and get answers the way a data scientist would.",
+        "quote_zh": "Data Bot是Grok Bot中的團隊機器人，由資料科學團隊教導，讓每個團隊都能查詢資料倉儲、執行分析，並以資料科學家的方式取得答案。",
+        "importance": 3,
+        "first_seen": "2026-11-02T08:00:00Z",
+        "updated_at": "2026-11-02T22:35:01.519275+00:00",
+        "links": [
+          {
+            "label": "SpaceXSI News",
+            "url": "https://x.ai/news/data-bot"
+          }
+        ]
+      }
+    ],
     "frontier_other": []
   },
-  "brief_en": "On Nov 2, OpenAI launched the Grid Protectors Program so its future US compute campuses can cut electricity demand during grid strain, starting with up to 1 GW flexible response at its planned Georgia site. No other major official model or product launches from tracked labs appeared in the last 12 hours.",
-  "brief_zh": "11月2日，OpenAI推出Grid Protectors計畫，讓未來美國運算校園在電網緊張時可降低電力需求，喬治亞州計畫場址提供高達1GW彈性回應。過去12小時內其他追蹤實驗室未見重大官方模型或產品發布。",
-  "updated_at": "2026-11-02T16:35:02.216024+00:00"
+  "brief_en": "On Nov 2, OpenAI launched the Grid Protectors Program for flexible data-center power use and the LifeVal everyday-task benchmark. Anthropic opened message-threads beta for lower-latency long-running agents plus residency applications. xAI/SpaceXSI detailed an internal Data Bot Team Bot that handled ~70 hours of data-science work last week.",
+  "brief_zh": "11月2日，OpenAI推出電網保護者計畫與LifeVal日常任務基準；Anthropic開放訊息執行緒公開測試以降低長時間代理延遲，並開放駐留計畫申請；xAI/SpaceXSI公布內部Data Bot團隊機器人，上週處理約70小時資料科學工作。",
+  "updated_at": "2026-11-02T22:35:01.519275+00:00"
 }
