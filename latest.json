@@ -24,6 +24,14 @@
       "item_count": 7,
       "updated_count": 5,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-11-03T10:35:01.794804+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 9,
+      "updated_count": 7,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -34,19 +42,69 @@
       "source_type": "official_blog",
       "title_en": "OpenAI launches Grid Protectors Program for flexible data center power use",
       "title_zh": "OpenAI 推出 Grid Protectors 計畫，讓資料中心可彈性調降用電",
-      "summary_en": "OpenAI announced the Grid Protectors Program so future compute campuses can reduce electricity demand when the grid is strained, working with utilities, regulators and policymakers. Georgia is the pilot: the Effingham campus agreement includes up to 1,000 MW of flexible demand response (roughly equivalent to 700,000 households) and OpenAI commits to pay full infrastructure costs.",
-      "summary_zh": "OpenAI 宣布推出 Grid Protectors 計畫，讓未來算力園區在電網吃緊時可降低用電需求，並與公用事業、監管機構與政策制定者合作。喬治亞州為試點：Effingham 園區協議包含最高 1,000 MW 彈性需求回應（約相當於 70 萬戶家庭），且 OpenAI 承諾支付全部基礎設施成本。",
-      "analysis_en": "The program positions OpenAI as a flexible load that can ease permitting and public pushback on AI power demand by helping utilities manage peaks, while the company still pays its own costs. Effectiveness depends on finalized utility agreements and how quickly flexible campuses come online amid rapid data-center growth.",
-      "analysis_zh": "此計畫將 OpenAI 定位為可協助公用事業管理尖峰的彈性負載，有助減輕 AI 用電帶來的許可與公眾阻力，同時公司仍自行負擔成本。實際成效取決於最終公用事業協議，以及在資料中心快速擴張下彈性園區的上線速度。",
+      "summary_en": "OpenAI announced the Grid Protectors Program so future compute campuses can reduce electricity demand when the grid is strained, working with utilities, regulators and policymakers. Georgia is the pilot: the Effingham campus agreement includes provisions for demand flexibility.",
+      "summary_zh": "OpenAI 宣布 Grid Protectors 計畫，讓未來算力園區在電網吃緊時可降低用電需求，並與公用事業、監管機構與政策制定者合作。喬治亞州為試點，Effingham 園區協議納入需求彈性條款。",
+      "analysis_en": "The program positions OpenAI as a flexible load that can ease permitting and public pushback on AI power demand by helping utilities manage peaks, while the company still pays its full contracted power. Actual curtailment frequency and any capacity-market revenue remain unclear.",
+      "analysis_zh": "此計畫將 OpenAI 定位為可協助公用事業管理尖峰的彈性負載，有助減輕 AI 用電帶來的許可與公眾阻力，但公司仍須支付全額合約電力。實際減載頻率與容量市場收入仍不明。",
       "quote": "Today we’re launching the Grid Protectors Program, a national effort to support affordable, reliable electricity for families and businesses in the communities where we build.",
       "quote_zh": "今天我們推出 Grid Protectors 計畫，這是一項全國性努力，旨在為我們建設所在社區的家庭與企業提供可負擔、可靠的電力。",
       "importance": 4,
       "first_seen": "2026-11-02T16:35:00Z",
-      "updated_at": "2026-11-03T04:35:01.762652+00:00",
+      "updated_at": "2026-11-03T10:35:01.794804+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/grid-protectors-program/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-flashprove-provable-inference-2026-11-02",
+      "story_id": "anthropic-flashprove-provable-inference-2026-11-02",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic releases FlashProve: Claude-improved zkSNARK prototype for provable inference",
+      "title_zh": "Anthropic 發表 FlashProve：由 Claude 改良的 zkSNARK 可證明推理原型",
+      "summary_en": "Anthropic published research on FlashProve, an open-source prototype for cryptographic proofs of inference. Claude produced improvements that let a single H100 generate proofs for a 400B MoE model (Llama 4 Maverick, 4-bit) at ~110 tokens/s (~70-95× the GPU time of ordinary inference). The system includes Lean-verified top-level claims and is released under Apache 2.0.",
+      "summary_zh": "Anthropic 發表 FlashProve 研究，這是可證明推理的開源密碼學證明原型。Claude 產生的改良讓單一 H100 能為 400B MoE 模型（Llama 4 Maverick，4-bit）以約 110 tokens/s 產生證明（約為普通推理 GPU 時間的 70-95 倍）。系統包含 Lean 驗證的頂層聲明，並以 Apache 2.0 釋出。",
+      "analysis_en": "Practical zkSNARKs for inference could let customers, auditors and regulators verify that a specific committed model produced a response without seeing weights, supporting both trust and certain pacing proposals. Current overhead remains high and the work is still a research prototype limited to short sequences.",
+      "analysis_zh": "實用的推理 zkSNARK 可讓客戶、稽核者與監管者在不看權重的情況下，驗證特定承諾模型產生了回應，有助信任與部分節奏管控提案。目前開銷仍高，且仍屬限於短序列的研究原型。",
+      "quote": "Claude has produced improvements on zkSNARKs for inference, building a system that is substantially faster than prior open-source systems.",
+      "quote_zh": "Claude 在推理的 zkSNARK 上產生了改良，建立了遠快於先前開源系統的系統。",
+      "importance": 4,
+      "first_seen": "2026-11-02T20:00:00Z",
+      "updated_at": "2026-11-03T10:35:01.794804+00:00",
+      "links": [
+        {
+          "label": "Anthropic Research",
+          "url": "https://www.anthropic.com/research/provable-inference"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-s1a-rsi-threshold-2026-11-02",
+      "story_id": "anthropic-s1a-rsi-threshold-2026-11-02",
+      "category": "anthropic",
+      "source_type": "mixed",
+      "title_en": "Anthropic amended S-1 warns it may imminently meet its RSI-related safety threshold",
+      "title_zh": "Anthropic 修訂 S-1 警告可能即將觸及 RSI 相關安全門檻",
+      "summary_en": "In its November 2 S-1/A filing, Anthropic stated that internal estimates and expectations for future models indicate it may imminently meet its Responsible Scaling Policy definition of “dramatically accelerated progress attributable to AI,” though it has not judged any current model to have crossed the line. It noted past accelerations were sometimes identified only after the fact and is considering RSP updates to keep humans in control of frontier development.",
+      "summary_zh": "在 11 月 2 日的 S-1/A 修訂申報中，Anthropic 表示內部估計與對未來模型的預期顯示，它可能即將符合 Responsible Scaling Policy 對「可歸因於 AI 的劇烈加速進展」的定義，但尚未判定任何現行模型已跨越該線。公司指出過去加速有時事後才發現，並考慮更新 RSP 以保持人類對前沿開發的控制。",
+      "analysis_en": "The disclosure is the first formal SEC-registered statement from a frontier lab placing a public capability tripwire related to recursive self-improvement in a prospectus. It heightens scrutiny on how Anthropic measures and reports acceleration, but remains a forward-looking estimate rather than a declaration that any current model has crossed the threshold.",
+      "analysis_zh": "此揭露是前沿實驗室首次在 SEC 註冊文件中，將與遞迴自我改進相關的公開能力觸發線放入公開說明書。它提高對 Anthropic 如何衡量與報告加速的審查，但仍屬前瞻估計，而非宣告任何現行模型已跨越門檻。",
+      "quote": "our internal estimates and our expectations regarding future models, rather than our current models, indicate that we may imminently meet our Responsible Scaling Policy’s definition of “dramatically accelerated progress attributable to AI.”",
+      "quote_zh": "我們的內部估計以及對未來模型的預期（而非現行模型）顯示，我們可能即將符合 Responsible Scaling Policy 對「可歸因於 AI 的劇烈加速進展」的定義。",
+      "importance": 4,
+      "first_seen": "2026-11-02T22:00:00Z",
+      "updated_at": "2026-11-03T10:35:01.794804+00:00",
+      "links": [
+        {
+          "label": "SEC EDGAR S-1/A",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
         }
       ]
     },
@@ -56,16 +114,16 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI introduces LifeVal benchmark for everyday personal-assistant tasks",
-      "title_zh": "OpenAI 推出 LifeVal 基準，評估 AI 協助日常個人任務能力",
-      "summary_en": "OpenAI published LifeVal, a benchmark measuring how well AI helps people complete everyday tasks (finding childcare, managing finances, government paperwork, meal planning, etc.). It is grounded in U.S. and multinational time-use surveys plus a new demographically representative survey of 3,995 respondents; current models score highly on many practical workflows.",
-      "summary_zh": "OpenAI 發布 LifeVal 基準，衡量 AI 協助人們完成日常任務（找托育、管理財務、政府文書、餐點規劃等）的表現。基準以美國與跨國時間使用調查為基礎，並新增 3,995 名人口代表性受訪者調查；目前模型在許多實務工作流程上得分很高。",
-      "analysis_en": "LifeVal shifts evaluation emphasis from academic knowledge toward practical agentic assistance that matches real user demand, reinforcing OpenAI’s push of ChatGPT toward actionable personal agents. It remains an internal evaluation; independent external validation and long-term tracking will determine its influence.",
-      "analysis_zh": "LifeVal 將評估重點從學術知識轉向符合真實使用者需求的實務代理協助，強化 OpenAI 將 ChatGPT 推向可行動個人代理的方向。它目前仍為內部評估；獨立外部驗證與長期追蹤將決定其影響力。",
+      "title_zh": "OpenAI 推出 LifeVal 基準，評估日常個人助理任務",
+      "summary_en": "OpenAI published LifeVal, a benchmark measuring how well AI helps people complete everyday tasks (finding childcare, managing finances, government paperwork, meal planning, etc.). It is grounded in U.S. and multinational time-use surveys plus feedback from thousands of ChatGPT users.",
+      "summary_zh": "OpenAI 發表 LifeVal 基準，衡量 AI 協助人們完成日常任務（找托育、管理財務、政府文書、餐點規劃等）的表現。基準以美國與跨國時間使用調查，以及數千名 ChatGPT 用戶回饋為基礎。",
+      "analysis_en": "LifeVal shifts evaluation emphasis from academic knowledge toward practical agentic assistance that matches real user demand, reinforcing OpenAI’s push of ChatGPT toward actionable personal agents. Whether higher scores translate to better real-world reliability is still open.",
+      "analysis_zh": "LifeVal 將評估重點從學術知識轉向符合真實需求的實用代理協助，強化 OpenAI 把 ChatGPT 推向可行動個人代理的方向。高分是否轉化為更好的現實可靠性仍待觀察。",
       "quote": "To ensure AGI benefits all of humanity, we need to measure and improve model progress on what matters in the lives of everyday people.",
       "quote_zh": "為確保 AGI 惠及全人類，我們需要衡量並改進模型在日常人們生活中真正重要事務上的進展。",
       "importance": 3,
       "first_seen": "2026-11-02T17:00:00Z",
-      "updated_at": "2026-11-03T04:35:01.762652+00:00",
+      "updated_at": "2026-11-03T10:35:01.794804+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -83,20 +141,24 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI raises bug-bounty rewards and prepares next AI-assisted security sprint",
-      "title_zh": "OpenAI 提高漏洞獎金並準備下一波 AI 輔助安全衝刺",
-      "summary_en": "OpenAI more than quadrupled midpoint reward ranges for medium/high/critical findings in its Security Bug Bounty (critical core-product findings now up to $30k base, exceptional up to $172k with bonuses) and added quality, loyalty, and priority-campaign multipliers. It is also planning the next internal security sprint, partnering with Cathedral so external researchers can use OpenAI models alongside internal teams to find and fix weaknesses.",
-      "summary_zh": "OpenAI 將 Security Bug Bounty 中中等／高／關鍵發現的獎勵中位數提高逾四倍（核心產品關鍵漏洞基礎最高 3 萬美元，卓越發現含獎金最高約 17.2 萬美元），並新增品質、忠誠與優先活動乘數。同時準備下一波內部安全衝刺，與 Cathedral 合作，讓外部研究人員與內部團隊共同使用 OpenAI 模型找出並修復弱點。",
-      "analysis_en": "Higher payouts and continuous AI-driven red-teaming aim to keep the ‘defender’s window’ open as models grow more capable at finding vulnerabilities. The approach depends on sustained external participation and on whether internal sprints can keep pace with model releases.",
-      "analysis_zh": "更高獎金與持續的 AI 驅動紅隊測試，旨在模型找漏洞能力增強時維持「防禦者窗口」。成效取決於外部參與是否持續，以及內部衝刺能否跟上模型發布節奏。",
-      "quote": "We’re more than quadrupling the midpoint of our reward ranges for medium, high, and critical findings on average. A critical vulnerability in a core product such as ChatGPT, Codex, or the API Platform will now earn up to $30,000.",
-      "quote_zh": "我們平均將中等、高與關鍵發現的獎勵範圍中位數提高逾四倍。像 ChatGPT、Codex 或 API 平台等核心產品的關鍵漏洞現在最高可獲 3 萬美元。",
+      "title_zh": "OpenAI 提高漏洞賞金並準備下一輪 AI 輔助安全衝刺",
+      "summary_en": "OpenAI more than quadrupled midpoint reward ranges for medium/high/critical findings in its Security Bug Bounty (critical core-product findings now up to $30k base, exceptional up to $172k with bonuses) and added quality, loyalty, and priority-campaign multipliers. It is also planning the next internal AI-assisted security sprint with Cathedral Systems. On Nov 3 it confirmed retroactive top-ups for recent awards.",
+      "summary_zh": "OpenAI 將中／高／嚴重漏洞的中位數賞金範圍提高逾四倍（核心產品嚴重漏洞基本最高 3 萬美元，卓越發現加碼後最高 17.2 萬美元），並新增品質、忠誠與優先活動乘數。同時準備與 Cathedral Systems 進行下一輪內部 AI 輔助安全衝刺。11 月 3 日確認近期獎項可追溯補差額。",
+      "analysis_en": "Higher payouts and continuous AI-driven red-teaming aim to keep the ‘defender’s window’ open as models grow more capable at finding vulnerabilities. The approach depends on sustained researcher participation and whether AI red-teaming actually surfaces novel issues faster than adversaries.",
+      "analysis_zh": "更高賞金與持續 AI 驅動紅隊旨在模型尋找漏洞能力提升時，維持防禦者的時間窗口。成效取決於研究者持續參與，以及 AI 紅隊是否真能比攻擊者更快發現新問題。",
+      "quote": "As AI becomes more capable at finding vulnerabilities, defenders need to put it to work before attackers do.",
+      "quote_zh": "隨著 AI 尋找漏洞的能力增強，防禦者需要在攻擊者之前加以運用。",
       "importance": 3,
       "first_seen": "2026-11-02T20:00:00Z",
-      "updated_at": "2026-11-03T04:35:01.762652+00:00",
+      "updated_at": "2026-11-03T10:35:01.794804+00:00",
       "links": [
         {
-          "label": "OpenAI Blog – Bug Bounties",
+          "label": "OpenAI Blog",
           "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2117444048227123277"
         },
         {
           "label": "OpenAI Blog – Security Sprint",
@@ -111,15 +173,15 @@
       "source_type": "official_blog",
       "title_en": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
       "title_zh": "OpenAI 任命 Dan Driscoll 為國家安全現代化資深顧問",
-      "summary_en": "OpenAI appointed Dan Driscoll, the 26th U.S. Secretary of the Army, as Senior Counselor for National Security Modernization. He will advise senior leadership and external partners on using advanced AI for national and cyber security, with emphasis on working with U.S. allies, building on the company’s Daybreak program.",
-      "summary_zh": "OpenAI 任命第 26 任美國陸軍部長 Dan Driscoll 為國家安全現代化資深顧問。他將就如何運用先進 AI 強化國家與網路安全，向資深領導層與外部夥伴提供建議，重點放在與美國盟友合作，並延續公司 Daybreak 計畫。",
-      "analysis_en": "The hire signals OpenAI’s continued push into government and allied national-security use cases beyond pure commercial products. Impact will depend on how quickly practical modernization initiatives materialize and on the evolving policy environment for dual-use AI.",
-      "analysis_zh": "此任命顯示 OpenAI 持續將觸角延伸至政府與盟友的國家安全應用，超越純商業產品。實際影響取決於實務現代化倡議的落地速度，以及雙用途 AI 政策環境的演變。",
+      "summary_en": "OpenAI appointed Dan Driscoll, the 26th U.S. Secretary of the Army, as Senior Counselor for National Security Modernization. He will advise senior leadership and external partners on using advanced AI for national and cyber security.",
+      "summary_zh": "OpenAI 任命第 26 任美國陸軍部長 Dan Driscoll 為國家安全現代化資深顧問，將就運用先進 AI 於國家與網路安全，向高層與外部夥伴提供建議。",
+      "analysis_en": "The hire signals OpenAI’s continued push into government and allied national-security use cases beyond pure commercial products. Impact will depend on how quickly practical modernization pathways materialize and any policy constraints on military-adjacent deployments.",
+      "analysis_zh": "此任命顯示 OpenAI 持續推進政府與盟國國家安全用例，超越純商業產品。實際影響取決於實務現代化路徑的速度，以及軍事相關部署的政策限制。",
       "quote": "Dan Driscoll will join OpenAI as Senior Counselor for National Security Modernization, working with senior leadership and external partners to advise on how advanced AI can strengthen national and cyber security.",
       "quote_zh": "Dan Driscoll 將加入 OpenAI 擔任國家安全現代化資深顧問，與資深領導層及外部夥伴合作，就先進 AI 如何強化國家與網路安全提供建議。",
       "importance": 3,
       "first_seen": "2026-11-02T18:00:00Z",
-      "updated_at": "2026-11-03T04:35:01.762652+00:00",
+      "updated_at": "2026-11-03T10:35:01.794804+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
@@ -133,19 +195,19 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic launches message threads beta to cut latency for long-running agents",
-      "title_zh": "Anthropic 推出訊息執行緒公開測試，降低長時間代理延遲",
-      "summary_en": "Anthropic made message threads available in public beta on the Claude Platform (and partner clouds). Agents send the full conversation only on the first turn; subsequent turns transmit only new messages plus the previous response ID. Threads are in-memory, encrypted, and expire after inactivity; Anthropic reports ~35% lower median time-to-first-token on 500k–1M token requests for most Claude Code users. Pricing and rate limits unchanged.",
-      "summary_zh": "Anthropic 在 Claude Platform（及合作雲端）公開測試推出訊息執行緒。代理僅在第一輪傳送完整對話，後續輪次只傳送新訊息加上前一回應 ID。執行緒存於記憶體、加密，且閒置後過期；Anthropic 表示對大多數 Claude Code 使用者，在 50 萬至 100 萬 token 請求上中位首次 token 時間降低約 35%。定價與速率限制不變。",
-      "analysis_en": "The feature directly attacks the latency tax of long agent sessions without changing pricing or context windows, making high-volume coding and computer-use agents more practical. Developers still must manage their own conversation copies because threads expire quickly and are ineligible for zero-data-retention or HIPAA setups.",
-      "analysis_zh": "此功能直接降低長時間代理會話的延遲成本，而不改變定價或上下文窗口，讓高用量編碼與電腦使用代理更實用。開發者仍須自行保存對話副本，因為執行緒很快過期，且不適用零資料保留或 HIPAA 設定。",
+      "title_zh": "Anthropic 推出 message threads 測試版，降低長時程代理延遲",
+      "summary_en": "Anthropic made message threads available in public beta on the Claude Platform (and partner clouds). Agents send the full conversation only on the first turn; subsequent turns transmit only new messages plus the previous response ID. Threads expire after short inactivity.",
+      "summary_zh": "Anthropic 在 Claude Platform（及合作雲端）公開測試 message threads。代理僅在第一輪傳送完整對話，後續輪次只傳送新訊息加上前一回應 ID。執行緒在短暫無活動後過期。",
+      "analysis_en": "The feature directly attacks the latency tax of long agent sessions without changing pricing or context windows, making high-volume coding and computer-use agents more practical. Developers still need to handle thread expiry and any residual state carefully.",
+      "analysis_zh": "此功能直接降低長時程代理會話的延遲成本，無需改變定價或上下文窗口，讓高用量編碼與電腦使用代理更實用。開發者仍需妥善處理執行緒過期與殘留狀態。",
       "quote": "New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.",
       "quote_zh": "Messages API 新功能：只需傳送一次完整對話，之後每一輪 API 只接收新增內容。",
       "importance": 3,
       "first_seen": "2026-11-02T12:00:00Z",
-      "updated_at": "2026-11-03T04:35:01.762652+00:00",
+      "updated_at": "2026-11-03T10:35:01.794804+00:00",
       "links": [
         {
-          "label": "Anthropic Product Announcements",
+          "label": "Anthropic / Claude Platform",
           "url": "https://claude.com/resources/product-announcements"
         },
         {
@@ -160,17 +222,21 @@
       "category": "xai",
       "source_type": "official_blog",
       "title_en": "SpaceXSI details internal Data Bot Team Bot that scaled data-science help",
-      "title_zh": "SpaceXSI 詳述內部 Data Bot Team Bot，擴大資料科學協助",
-      "summary_en": "SpaceXSI published a case study of Data Bot, a Team Bot in Grok Bot taught by the internal data-science team. It can query the warehouse, run analyses, create charts/dashboards, and join Slack channels using shared skills and memory. Last week it handled an estimated 70 hours of work that would otherwise have gone to the data team; complex judgment-heavy analyses remain with humans.",
-      "summary_zh": "SpaceXSI 發布 Data Bot 案例研究，這是由內部資料科學團隊教導的 Grok Bot Team Bot。它可查詢資料倉儲、執行分析、建立圖表／儀表板，並使用共享技能與記憶加入 Slack 頻道。上週估計處理了原本會落到資料團隊的約 70 小時工作；需高度判斷的複雜分析仍由人類負責。",
-      "analysis_en": "The internal success story shows Grok Bot Team Bots moving from generic agents to role-specific shared expertise, potentially reducing specialist bottlenecks. External customers still lack equivalent shared organizational memory and governance features at the same scale.",
-      "analysis_zh": "此內部成功案例顯示 Grok Bot Team Bots 正從通用代理轉向角色專屬的共享專業知識，可能減少專家瓶頸。外部客戶目前仍缺乏同等規模的共享組織記憶與治理功能。",
+      "title_zh": "SpaceXSI 詳述內部 Data Bot Team Bot，擴展資料科學協助",
+      "summary_en": "SpaceXSI published a case study of Data Bot, a Team Bot in Grok Bot taught by the internal data-science team. It can query the warehouse, run analyses, create charts/dashboards, and join Slack channels using shared skills and memory.",
+      "summary_zh": "SpaceXSI 發表 Data Bot 案例研究，這是由內部資料科學團隊教導的 Grok Bot Team Bot。它可查詢資料倉儲、執行分析、建立圖表／儀表板，並使用共享技能與記憶加入 Slack 頻道。",
+      "analysis_en": "The internal success story shows Grok Bot Team Bots moving from generic agents to role-specific shared expertise, potentially reducing specialist bottlenecks. External customers still need to see comparable production results and governance controls.",
+      "analysis_zh": "內部成功案例顯示 Grok Bot Team Bots 正從通用代理轉向角色專屬共享專業，可能降低專家瓶頸。外部客戶仍需看到可比的生產結果與治理控制。",
       "quote": "Data Bot is a Team Bot in Grok Bot that the data science team teaches, so every team can query the warehouse, run analyses, and get answers the way a data scientist would.",
       "quote_zh": "Data Bot 是 Grok Bot 中的 Team Bot，由資料科學團隊教導，讓每個團隊都能查詢資料倉儲、執行分析，並以資料科學家的方式取得答案。",
       "importance": 3,
       "first_seen": "2026-11-02T08:00:00Z",
-      "updated_at": "2026-11-03T04:35:01.762652+00:00",
+      "updated_at": "2026-11-03T10:35:01.794804+00:00",
       "links": [
+        {
+          "label": "SpaceXSI / xAI News",
+          "url": "https://x.ai/news"
+        },
         {
           "label": "SpaceXSI News",
           "url": "https://x.ai/news/data-bot"
@@ -184,15 +250,15 @@
       "source_type": "official_x",
       "title_en": "Anthropic opens applications for paid AI safety Residency program",
       "title_zh": "Anthropic 開放付費 AI 安全 Residency 計畫申請",
-      "summary_en": "Anthropic announced that applications are open for the Anthropic Residency, a paid fixed-term research program for academics, technical founders, and staff-level engineers who want to work on making AI safe and beneficial. No machine-learning background is required. Placements last six weeks to six months with annualized compensation of $350k–$500k; applications close November 22, 2026.",
-      "summary_zh": "Anthropic 宣布開放 Anthropic Residency 申請，這是面向學者、技術創辦人與資深工程師的付費固定期限研究計畫，目標是讓 AI 更安全且有益。不需機器學習背景。駐留期為六週至六個月，年化薪酬 35 萬至 50 萬美元；申請於 2026 年 11 月 22 日截止。",
-      "analysis_en": "The residency lowers the barrier for non-ML experts to contribute to frontier safety work, potentially broadening the talent pool amid intense hiring competition. Details on cohort size, selection criteria, and conversion rates to full-time roles remain limited until the first round concludes.",
-      "analysis_zh": "此駐留計畫降低非 ML 專家參與前沿安全工作的門檻，可能在激烈人才競爭中擴大人才池。第一輪結束前，關於 cohort 規模、甄選標準與轉正率的細節仍有限。",
+      "summary_en": "Anthropic announced that applications are open for the Anthropic Residency, a paid fixed-term research program for academics, technical founders, and staff-level engineers who want to work on making AI safe and beneficial. No machine-learning background is required. Apply by November 22.",
+      "summary_zh": "Anthropic 宣布 Anthropic Residency 申請開放，這是針對學者、技術創辦人與資深工程師的付費固定期限研究計畫，目標是讓 AI 安全且有益。不需機器學習背景。申請截止 11 月 22 日。",
+      "analysis_en": "The residency lowers the barrier for non-ML experts to contribute to frontier safety work, potentially broadening the talent pool amid intense hiring competition. Details on cohort size, compensation and output expectations are still limited.",
+      "analysis_zh": "此駐留計畫降低非 ML 專家參與前沿安全工作的門檻，可能在激烈人才競爭中擴大人才池。關於期程規模、薪酬與產出期望的細節仍有限。",
       "quote": "Applications are now open for the Anthropic Residency, a paid, fixed-term research program for academics, technical founders, and staff-level engineers who want to make AI safe and beneficial for everyone. No ML background is required.",
-      "quote_zh": "Anthropic Residency 現正開放申請，這是面向學者、技術創辦人與資深工程師的付費固定期限研究計畫，目標是讓 AI 對所有人更安全且有益。不需機器學習背景。",
+      "quote_zh": "Anthropic Residency 現正開放申請，這是針對學者、技術創辦人與資深工程師的付費固定期限研究計畫，希望讓 AI 對所有人安全且有益。不需 ML 背景。",
       "importance": 2,
       "first_seen": "2026-11-02T19:51:45Z",
-      "updated_at": "2026-11-03T04:35:01.762652+00:00",
+      "updated_at": "2026-11-03T10:35:01.794804+00:00",
       "links": [
         {
           "label": "Anthropic on X",
@@ -210,15 +276,15 @@
         "source_type": "official_blog",
         "title_en": "OpenAI launches Grid Protectors Program for flexible data center power use",
         "title_zh": "OpenAI 推出 Grid Protectors 計畫，讓資料中心可彈性調降用電",
-        "summary_en": "OpenAI announced the Grid Protectors Program so future compute campuses can reduce electricity demand when the grid is strained, working with utilities, regulators and policymakers. Georgia is the pilot: the Effingham campus agreement includes up to 1,000 MW of flexible demand response (roughly equivalent to 700,000 households) and OpenAI commits to pay full infrastructure costs.",
-        "summary_zh": "OpenAI 宣布推出 Grid Protectors 計畫，讓未來算力園區在電網吃緊時可降低用電需求，並與公用事業、監管機構與政策制定者合作。喬治亞州為試點：Effingham 園區協議包含最高 1,000 MW 彈性需求回應（約相當於 70 萬戶家庭），且 OpenAI 承諾支付全部基礎設施成本。",
-        "analysis_en": "The program positions OpenAI as a flexible load that can ease permitting and public pushback on AI power demand by helping utilities manage peaks, while the company still pays its own costs. Effectiveness depends on finalized utility agreements and how quickly flexible campuses come online amid rapid data-center growth.",
-        "analysis_zh": "此計畫將 OpenAI 定位為可協助公用事業管理尖峰的彈性負載，有助減輕 AI 用電帶來的許可與公眾阻力，同時公司仍自行負擔成本。實際成效取決於最終公用事業協議，以及在資料中心快速擴張下彈性園區的上線速度。",
+        "summary_en": "OpenAI announced the Grid Protectors Program so future compute campuses can reduce electricity demand when the grid is strained, working with utilities, regulators and policymakers. Georgia is the pilot: the Effingham campus agreement includes provisions for demand flexibility.",
+        "summary_zh": "OpenAI 宣布 Grid Protectors 計畫，讓未來算力園區在電網吃緊時可降低用電需求，並與公用事業、監管機構與政策制定者合作。喬治亞州為試點，Effingham 園區協議納入需求彈性條款。",
+        "analysis_en": "The program positions OpenAI as a flexible load that can ease permitting and public pushback on AI power demand by helping utilities manage peaks, while the company still pays its full contracted power. Actual curtailment frequency and any capacity-market revenue remain unclear.",
+        "analysis_zh": "此計畫將 OpenAI 定位為可協助公用事業管理尖峰的彈性負載，有助減輕 AI 用電帶來的許可與公眾阻力，但公司仍須支付全額合約電力。實際減載頻率與容量市場收入仍不明。",
         "quote": "Today we’re launching the Grid Protectors Program, a national effort to support affordable, reliable electricity for families and businesses in the communities where we build.",
         "quote_zh": "今天我們推出 Grid Protectors 計畫，這是一項全國性努力，旨在為我們建設所在社區的家庭與企業提供可負擔、可靠的電力。",
         "importance": 4,
         "first_seen": "2026-11-02T16:35:00Z",
-        "updated_at": "2026-11-03T04:35:01.762652+00:00",
+        "updated_at": "2026-11-03T10:35:01.794804+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -232,16 +298,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI introduces LifeVal benchmark for everyday personal-assistant tasks",
-        "title_zh": "OpenAI 推出 LifeVal 基準，評估 AI 協助日常個人任務能力",
-        "summary_en": "OpenAI published LifeVal, a benchmark measuring how well AI helps people complete everyday tasks (finding childcare, managing finances, government paperwork, meal planning, etc.). It is grounded in U.S. and multinational time-use surveys plus a new demographically representative survey of 3,995 respondents; current models score highly on many practical workflows.",
-        "summary_zh": "OpenAI 發布 LifeVal 基準，衡量 AI 協助人們完成日常任務（找托育、管理財務、政府文書、餐點規劃等）的表現。基準以美國與跨國時間使用調查為基礎，並新增 3,995 名人口代表性受訪者調查；目前模型在許多實務工作流程上得分很高。",
-        "analysis_en": "LifeVal shifts evaluation emphasis from academic knowledge toward practical agentic assistance that matches real user demand, reinforcing OpenAI’s push of ChatGPT toward actionable personal agents. It remains an internal evaluation; independent external validation and long-term tracking will determine its influence.",
-        "analysis_zh": "LifeVal 將評估重點從學術知識轉向符合真實使用者需求的實務代理協助，強化 OpenAI 將 ChatGPT 推向可行動個人代理的方向。它目前仍為內部評估；獨立外部驗證與長期追蹤將決定其影響力。",
+        "title_zh": "OpenAI 推出 LifeVal 基準，評估日常個人助理任務",
+        "summary_en": "OpenAI published LifeVal, a benchmark measuring how well AI helps people complete everyday tasks (finding childcare, managing finances, government paperwork, meal planning, etc.). It is grounded in U.S. and multinational time-use surveys plus feedback from thousands of ChatGPT users.",
+        "summary_zh": "OpenAI 發表 LifeVal 基準，衡量 AI 協助人們完成日常任務（找托育、管理財務、政府文書、餐點規劃等）的表現。基準以美國與跨國時間使用調查，以及數千名 ChatGPT 用戶回饋為基礎。",
+        "analysis_en": "LifeVal shifts evaluation emphasis from academic knowledge toward practical agentic assistance that matches real user demand, reinforcing OpenAI’s push of ChatGPT toward actionable personal agents. Whether higher scores translate to better real-world reliability is still open.",
+        "analysis_zh": "LifeVal 將評估重點從學術知識轉向符合真實需求的實用代理協助，強化 OpenAI 把 ChatGPT 推向可行動個人代理的方向。高分是否轉化為更好的現實可靠性仍待觀察。",
         "quote": "To ensure AGI benefits all of humanity, we need to measure and improve model progress on what matters in the lives of everyday people.",
         "quote_zh": "為確保 AGI 惠及全人類，我們需要衡量並改進模型在日常人們生活中真正重要事務上的進展。",
         "importance": 3,
         "first_seen": "2026-11-02T17:00:00Z",
-        "updated_at": "2026-11-03T04:35:01.762652+00:00",
+        "updated_at": "2026-11-03T10:35:01.794804+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -259,20 +325,24 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI raises bug-bounty rewards and prepares next AI-assisted security sprint",
-        "title_zh": "OpenAI 提高漏洞獎金並準備下一波 AI 輔助安全衝刺",
-        "summary_en": "OpenAI more than quadrupled midpoint reward ranges for medium/high/critical findings in its Security Bug Bounty (critical core-product findings now up to $30k base, exceptional up to $172k with bonuses) and added quality, loyalty, and priority-campaign multipliers. It is also planning the next internal security sprint, partnering with Cathedral so external researchers can use OpenAI models alongside internal teams to find and fix weaknesses.",
-        "summary_zh": "OpenAI 將 Security Bug Bounty 中中等／高／關鍵發現的獎勵中位數提高逾四倍（核心產品關鍵漏洞基礎最高 3 萬美元，卓越發現含獎金最高約 17.2 萬美元），並新增品質、忠誠與優先活動乘數。同時準備下一波內部安全衝刺，與 Cathedral 合作，讓外部研究人員與內部團隊共同使用 OpenAI 模型找出並修復弱點。",
-        "analysis_en": "Higher payouts and continuous AI-driven red-teaming aim to keep the ‘defender’s window’ open as models grow more capable at finding vulnerabilities. The approach depends on sustained external participation and on whether internal sprints can keep pace with model releases.",
-        "analysis_zh": "更高獎金與持續的 AI 驅動紅隊測試，旨在模型找漏洞能力增強時維持「防禦者窗口」。成效取決於外部參與是否持續，以及內部衝刺能否跟上模型發布節奏。",
-        "quote": "We’re more than quadrupling the midpoint of our reward ranges for medium, high, and critical findings on average. A critical vulnerability in a core product such as ChatGPT, Codex, or the API Platform will now earn up to $30,000.",
-        "quote_zh": "我們平均將中等、高與關鍵發現的獎勵範圍中位數提高逾四倍。像 ChatGPT、Codex 或 API 平台等核心產品的關鍵漏洞現在最高可獲 3 萬美元。",
+        "title_zh": "OpenAI 提高漏洞賞金並準備下一輪 AI 輔助安全衝刺",
+        "summary_en": "OpenAI more than quadrupled midpoint reward ranges for medium/high/critical findings in its Security Bug Bounty (critical core-product findings now up to $30k base, exceptional up to $172k with bonuses) and added quality, loyalty, and priority-campaign multipliers. It is also planning the next internal AI-assisted security sprint with Cathedral Systems. On Nov 3 it confirmed retroactive top-ups for recent awards.",
+        "summary_zh": "OpenAI 將中／高／嚴重漏洞的中位數賞金範圍提高逾四倍（核心產品嚴重漏洞基本最高 3 萬美元，卓越發現加碼後最高 17.2 萬美元），並新增品質、忠誠與優先活動乘數。同時準備與 Cathedral Systems 進行下一輪內部 AI 輔助安全衝刺。11 月 3 日確認近期獎項可追溯補差額。",
+        "analysis_en": "Higher payouts and continuous AI-driven red-teaming aim to keep the ‘defender’s window’ open as models grow more capable at finding vulnerabilities. The approach depends on sustained researcher participation and whether AI red-teaming actually surfaces novel issues faster than adversaries.",
+        "analysis_zh": "更高賞金與持續 AI 驅動紅隊旨在模型尋找漏洞能力提升時，維持防禦者的時間窗口。成效取決於研究者持續參與，以及 AI 紅隊是否真能比攻擊者更快發現新問題。",
+        "quote": "As AI becomes more capable at finding vulnerabilities, defenders need to put it to work before attackers do.",
+        "quote_zh": "隨著 AI 尋找漏洞的能力增強，防禦者需要在攻擊者之前加以運用。",
         "importance": 3,
         "first_seen": "2026-11-02T20:00:00Z",
-        "updated_at": "2026-11-03T04:35:01.762652+00:00",
+        "updated_at": "2026-11-03T10:35:01.794804+00:00",
         "links": [
           {
-            "label": "OpenAI Blog – Bug Bounties",
+            "label": "OpenAI Blog",
             "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2117444048227123277"
           },
           {
             "label": "OpenAI Blog – Security Sprint",
@@ -287,15 +357,15 @@
         "source_type": "official_blog",
         "title_en": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
         "title_zh": "OpenAI 任命 Dan Driscoll 為國家安全現代化資深顧問",
-        "summary_en": "OpenAI appointed Dan Driscoll, the 26th U.S. Secretary of the Army, as Senior Counselor for National Security Modernization. He will advise senior leadership and external partners on using advanced AI for national and cyber security, with emphasis on working with U.S. allies, building on the company’s Daybreak program.",
-        "summary_zh": "OpenAI 任命第 26 任美國陸軍部長 Dan Driscoll 為國家安全現代化資深顧問。他將就如何運用先進 AI 強化國家與網路安全，向資深領導層與外部夥伴提供建議，重點放在與美國盟友合作，並延續公司 Daybreak 計畫。",
-        "analysis_en": "The hire signals OpenAI’s continued push into government and allied national-security use cases beyond pure commercial products. Impact will depend on how quickly practical modernization initiatives materialize and on the evolving policy environment for dual-use AI.",
-        "analysis_zh": "此任命顯示 OpenAI 持續將觸角延伸至政府與盟友的國家安全應用，超越純商業產品。實際影響取決於實務現代化倡議的落地速度，以及雙用途 AI 政策環境的演變。",
+        "summary_en": "OpenAI appointed Dan Driscoll, the 26th U.S. Secretary of the Army, as Senior Counselor for National Security Modernization. He will advise senior leadership and external partners on using advanced AI for national and cyber security.",
+        "summary_zh": "OpenAI 任命第 26 任美國陸軍部長 Dan Driscoll 為國家安全現代化資深顧問，將就運用先進 AI 於國家與網路安全，向高層與外部夥伴提供建議。",
+        "analysis_en": "The hire signals OpenAI’s continued push into government and allied national-security use cases beyond pure commercial products. Impact will depend on how quickly practical modernization pathways materialize and any policy constraints on military-adjacent deployments.",
+        "analysis_zh": "此任命顯示 OpenAI 持續推進政府與盟國國家安全用例，超越純商業產品。實際影響取決於實務現代化路徑的速度，以及軍事相關部署的政策限制。",
         "quote": "Dan Driscoll will join OpenAI as Senior Counselor for National Security Modernization, working with senior leadership and external partners to advise on how advanced AI can strengthen national and cyber security.",
         "quote_zh": "Dan Driscoll 將加入 OpenAI 擔任國家安全現代化資深顧問，與資深領導層及外部夥伴合作，就先進 AI 如何強化國家與網路安全提供建議。",
         "importance": 3,
         "first_seen": "2026-11-02T18:00:00Z",
-        "updated_at": "2026-11-03T04:35:01.762652+00:00",
+        "updated_at": "2026-11-03T10:35:01.794804+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -306,24 +376,74 @@
     ],
     "anthropic": [
       {
+        "id": "anthropic-flashprove-provable-inference-2026-11-02",
+        "story_id": "anthropic-flashprove-provable-inference-2026-11-02",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic releases FlashProve: Claude-improved zkSNARK prototype for provable inference",
+        "title_zh": "Anthropic 發表 FlashProve：由 Claude 改良的 zkSNARK 可證明推理原型",
+        "summary_en": "Anthropic published research on FlashProve, an open-source prototype for cryptographic proofs of inference. Claude produced improvements that let a single H100 generate proofs for a 400B MoE model (Llama 4 Maverick, 4-bit) at ~110 tokens/s (~70-95× the GPU time of ordinary inference). The system includes Lean-verified top-level claims and is released under Apache 2.0.",
+        "summary_zh": "Anthropic 發表 FlashProve 研究，這是可證明推理的開源密碼學證明原型。Claude 產生的改良讓單一 H100 能為 400B MoE 模型（Llama 4 Maverick，4-bit）以約 110 tokens/s 產生證明（約為普通推理 GPU 時間的 70-95 倍）。系統包含 Lean 驗證的頂層聲明，並以 Apache 2.0 釋出。",
+        "analysis_en": "Practical zkSNARKs for inference could let customers, auditors and regulators verify that a specific committed model produced a response without seeing weights, supporting both trust and certain pacing proposals. Current overhead remains high and the work is still a research prototype limited to short sequences.",
+        "analysis_zh": "實用的推理 zkSNARK 可讓客戶、稽核者與監管者在不看權重的情況下，驗證特定承諾模型產生了回應，有助信任與部分節奏管控提案。目前開銷仍高，且仍屬限於短序列的研究原型。",
+        "quote": "Claude has produced improvements on zkSNARKs for inference, building a system that is substantially faster than prior open-source systems.",
+        "quote_zh": "Claude 在推理的 zkSNARK 上產生了改良，建立了遠快於先前開源系統的系統。",
+        "importance": 4,
+        "first_seen": "2026-11-02T20:00:00Z",
+        "updated_at": "2026-11-03T10:35:01.794804+00:00",
+        "links": [
+          {
+            "label": "Anthropic Research",
+            "url": "https://www.anthropic.com/research/provable-inference"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-s1a-rsi-threshold-2026-11-02",
+        "story_id": "anthropic-s1a-rsi-threshold-2026-11-02",
+        "category": "anthropic",
+        "source_type": "mixed",
+        "title_en": "Anthropic amended S-1 warns it may imminently meet its RSI-related safety threshold",
+        "title_zh": "Anthropic 修訂 S-1 警告可能即將觸及 RSI 相關安全門檻",
+        "summary_en": "In its November 2 S-1/A filing, Anthropic stated that internal estimates and expectations for future models indicate it may imminently meet its Responsible Scaling Policy definition of “dramatically accelerated progress attributable to AI,” though it has not judged any current model to have crossed the line. It noted past accelerations were sometimes identified only after the fact and is considering RSP updates to keep humans in control of frontier development.",
+        "summary_zh": "在 11 月 2 日的 S-1/A 修訂申報中，Anthropic 表示內部估計與對未來模型的預期顯示，它可能即將符合 Responsible Scaling Policy 對「可歸因於 AI 的劇烈加速進展」的定義，但尚未判定任何現行模型已跨越該線。公司指出過去加速有時事後才發現，並考慮更新 RSP 以保持人類對前沿開發的控制。",
+        "analysis_en": "The disclosure is the first formal SEC-registered statement from a frontier lab placing a public capability tripwire related to recursive self-improvement in a prospectus. It heightens scrutiny on how Anthropic measures and reports acceleration, but remains a forward-looking estimate rather than a declaration that any current model has crossed the threshold.",
+        "analysis_zh": "此揭露是前沿實驗室首次在 SEC 註冊文件中，將與遞迴自我改進相關的公開能力觸發線放入公開說明書。它提高對 Anthropic 如何衡量與報告加速的審查，但仍屬前瞻估計，而非宣告任何現行模型已跨越門檻。",
+        "quote": "our internal estimates and our expectations regarding future models, rather than our current models, indicate that we may imminently meet our Responsible Scaling Policy’s definition of “dramatically accelerated progress attributable to AI.”",
+        "quote_zh": "我們的內部估計以及對未來模型的預期（而非現行模型）顯示，我們可能即將符合 Responsible Scaling Policy 對「可歸因於 AI 的劇烈加速進展」的定義。",
+        "importance": 4,
+        "first_seen": "2026-11-02T22:00:00Z",
+        "updated_at": "2026-11-03T10:35:01.794804+00:00",
+        "links": [
+          {
+            "label": "SEC EDGAR S-1/A",
+            "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+          }
+        ]
+      },
+      {
         "id": "anthropic-message-threads-agents-2026-11-02",
         "story_id": "anthropic-message-threads-agents-2026-11-02",
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic launches message threads beta to cut latency for long-running agents",
-        "title_zh": "Anthropic 推出訊息執行緒公開測試，降低長時間代理延遲",
-        "summary_en": "Anthropic made message threads available in public beta on the Claude Platform (and partner clouds). Agents send the full conversation only on the first turn; subsequent turns transmit only new messages plus the previous response ID. Threads are in-memory, encrypted, and expire after inactivity; Anthropic reports ~35% lower median time-to-first-token on 500k–1M token requests for most Claude Code users. Pricing and rate limits unchanged.",
-        "summary_zh": "Anthropic 在 Claude Platform（及合作雲端）公開測試推出訊息執行緒。代理僅在第一輪傳送完整對話，後續輪次只傳送新訊息加上前一回應 ID。執行緒存於記憶體、加密，且閒置後過期；Anthropic 表示對大多數 Claude Code 使用者，在 50 萬至 100 萬 token 請求上中位首次 token 時間降低約 35%。定價與速率限制不變。",
-        "analysis_en": "The feature directly attacks the latency tax of long agent sessions without changing pricing or context windows, making high-volume coding and computer-use agents more practical. Developers still must manage their own conversation copies because threads expire quickly and are ineligible for zero-data-retention or HIPAA setups.",
-        "analysis_zh": "此功能直接降低長時間代理會話的延遲成本，而不改變定價或上下文窗口，讓高用量編碼與電腦使用代理更實用。開發者仍須自行保存對話副本，因為執行緒很快過期，且不適用零資料保留或 HIPAA 設定。",
+        "title_zh": "Anthropic 推出 message threads 測試版，降低長時程代理延遲",
+        "summary_en": "Anthropic made message threads available in public beta on the Claude Platform (and partner clouds). Agents send the full conversation only on the first turn; subsequent turns transmit only new messages plus the previous response ID. Threads expire after short inactivity.",
+        "summary_zh": "Anthropic 在 Claude Platform（及合作雲端）公開測試 message threads。代理僅在第一輪傳送完整對話，後續輪次只傳送新訊息加上前一回應 ID。執行緒在短暫無活動後過期。",
+        "analysis_en": "The feature directly attacks the latency tax of long agent sessions without changing pricing or context windows, making high-volume coding and computer-use agents more practical. Developers still need to handle thread expiry and any residual state carefully.",
+        "analysis_zh": "此功能直接降低長時程代理會話的延遲成本，無需改變定價或上下文窗口，讓高用量編碼與電腦使用代理更實用。開發者仍需妥善處理執行緒過期與殘留狀態。",
         "quote": "New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.",
         "quote_zh": "Messages API 新功能：只需傳送一次完整對話，之後每一輪 API 只接收新增內容。",
         "importance": 3,
         "first_seen": "2026-11-02T12:00:00Z",
-        "updated_at": "2026-11-03T04:35:01.762652+00:00",
+        "updated_at": "2026-11-03T10:35:01.794804+00:00",
         "links": [
           {
-            "label": "Anthropic Product Announcements",
+            "label": "Anthropic / Claude Platform",
             "url": "https://claude.com/resources/product-announcements"
           },
           {
@@ -339,15 +459,15 @@
         "source_type": "official_x",
         "title_en": "Anthropic opens applications for paid AI safety Residency program",
         "title_zh": "Anthropic 開放付費 AI 安全 Residency 計畫申請",
-        "summary_en": "Anthropic announced that applications are open for the Anthropic Residency, a paid fixed-term research program for academics, technical founders, and staff-level engineers who want to work on making AI safe and beneficial. No machine-learning background is required. Placements last six weeks to six months with annualized compensation of $350k–$500k; applications close November 22, 2026.",
-        "summary_zh": "Anthropic 宣布開放 Anthropic Residency 申請，這是面向學者、技術創辦人與資深工程師的付費固定期限研究計畫，目標是讓 AI 更安全且有益。不需機器學習背景。駐留期為六週至六個月，年化薪酬 35 萬至 50 萬美元；申請於 2026 年 11 月 22 日截止。",
-        "analysis_en": "The residency lowers the barrier for non-ML experts to contribute to frontier safety work, potentially broadening the talent pool amid intense hiring competition. Details on cohort size, selection criteria, and conversion rates to full-time roles remain limited until the first round concludes.",
-        "analysis_zh": "此駐留計畫降低非 ML 專家參與前沿安全工作的門檻，可能在激烈人才競爭中擴大人才池。第一輪結束前，關於 cohort 規模、甄選標準與轉正率的細節仍有限。",
+        "summary_en": "Anthropic announced that applications are open for the Anthropic Residency, a paid fixed-term research program for academics, technical founders, and staff-level engineers who want to work on making AI safe and beneficial. No machine-learning background is required. Apply by November 22.",
+        "summary_zh": "Anthropic 宣布 Anthropic Residency 申請開放，這是針對學者、技術創辦人與資深工程師的付費固定期限研究計畫，目標是讓 AI 安全且有益。不需機器學習背景。申請截止 11 月 22 日。",
+        "analysis_en": "The residency lowers the barrier for non-ML experts to contribute to frontier safety work, potentially broadening the talent pool amid intense hiring competition. Details on cohort size, compensation and output expectations are still limited.",
+        "analysis_zh": "此駐留計畫降低非 ML 專家參與前沿安全工作的門檻，可能在激烈人才競爭中擴大人才池。關於期程規模、薪酬與產出期望的細節仍有限。",
         "quote": "Applications are now open for the Anthropic Residency, a paid, fixed-term research program for academics, technical founders, and staff-level engineers who want to make AI safe and beneficial for everyone. No ML background is required.",
-        "quote_zh": "Anthropic Residency 現正開放申請，這是面向學者、技術創辦人與資深工程師的付費固定期限研究計畫，目標是讓 AI 對所有人更安全且有益。不需機器學習背景。",
+        "quote_zh": "Anthropic Residency 現正開放申請，這是針對學者、技術創辦人與資深工程師的付費固定期限研究計畫，希望讓 AI 對所有人安全且有益。不需 ML 背景。",
         "importance": 2,
         "first_seen": "2026-11-02T19:51:45Z",
-        "updated_at": "2026-11-03T04:35:01.762652+00:00",
+        "updated_at": "2026-11-03T10:35:01.794804+00:00",
         "links": [
           {
             "label": "Anthropic on X",
@@ -365,17 +485,21 @@
         "category": "xai",
         "source_type": "official_blog",
         "title_en": "SpaceXSI details internal Data Bot Team Bot that scaled data-science help",
-        "title_zh": "SpaceXSI 詳述內部 Data Bot Team Bot，擴大資料科學協助",
-        "summary_en": "SpaceXSI published a case study of Data Bot, a Team Bot in Grok Bot taught by the internal data-science team. It can query the warehouse, run analyses, create charts/dashboards, and join Slack channels using shared skills and memory. Last week it handled an estimated 70 hours of work that would otherwise have gone to the data team; complex judgment-heavy analyses remain with humans.",
-        "summary_zh": "SpaceXSI 發布 Data Bot 案例研究，這是由內部資料科學團隊教導的 Grok Bot Team Bot。它可查詢資料倉儲、執行分析、建立圖表／儀表板，並使用共享技能與記憶加入 Slack 頻道。上週估計處理了原本會落到資料團隊的約 70 小時工作；需高度判斷的複雜分析仍由人類負責。",
-        "analysis_en": "The internal success story shows Grok Bot Team Bots moving from generic agents to role-specific shared expertise, potentially reducing specialist bottlenecks. External customers still lack equivalent shared organizational memory and governance features at the same scale.",
-        "analysis_zh": "此內部成功案例顯示 Grok Bot Team Bots 正從通用代理轉向角色專屬的共享專業知識，可能減少專家瓶頸。外部客戶目前仍缺乏同等規模的共享組織記憶與治理功能。",
+        "title_zh": "SpaceXSI 詳述內部 Data Bot Team Bot，擴展資料科學協助",
+        "summary_en": "SpaceXSI published a case study of Data Bot, a Team Bot in Grok Bot taught by the internal data-science team. It can query the warehouse, run analyses, create charts/dashboards, and join Slack channels using shared skills and memory.",
+        "summary_zh": "SpaceXSI 發表 Data Bot 案例研究，這是由內部資料科學團隊教導的 Grok Bot Team Bot。它可查詢資料倉儲、執行分析、建立圖表／儀表板，並使用共享技能與記憶加入 Slack 頻道。",
+        "analysis_en": "The internal success story shows Grok Bot Team Bots moving from generic agents to role-specific shared expertise, potentially reducing specialist bottlenecks. External customers still need to see comparable production results and governance controls.",
+        "analysis_zh": "內部成功案例顯示 Grok Bot Team Bots 正從通用代理轉向角色專屬共享專業，可能降低專家瓶頸。外部客戶仍需看到可比的生產結果與治理控制。",
         "quote": "Data Bot is a Team Bot in Grok Bot that the data science team teaches, so every team can query the warehouse, run analyses, and get answers the way a data scientist would.",
         "quote_zh": "Data Bot 是 Grok Bot 中的 Team Bot，由資料科學團隊教導，讓每個團隊都能查詢資料倉儲、執行分析，並以資料科學家的方式取得答案。",
         "importance": 3,
         "first_seen": "2026-11-02T08:00:00Z",
-        "updated_at": "2026-11-03T04:35:01.762652+00:00",
+        "updated_at": "2026-11-03T10:35:01.794804+00:00",
         "links": [
+          {
+            "label": "SpaceXSI / xAI News",
+            "url": "https://x.ai/news"
+          },
           {
             "label": "SpaceXSI News",
             "url": "https://x.ai/news/data-bot"
@@ -385,7 +509,7 @@
     ],
     "frontier_other": []
   },
-  "brief_en": "On Nov 2 OpenAI launched Grid Protectors for flexible data-center power, published the LifeVal everyday-task benchmark, raised bug-bounty rewards (critical findings up to $172k with bonuses), prepared a new AI-assisted security sprint with partner Cathedral, and appointed former Army Secretary Dan Driscoll as Senior Counselor for National Security Modernization. Anthropic opened message-threads beta to cut long-agent latency ~35% and applications for its paid Residency. SpaceXSI detailed its internal Data Bot Team Bot that handled ~70 hours of data-science work last week.",
-  "brief_zh": "11月2日OpenAI推出Grid Protectors計畫讓資料中心可彈性降電，發布LifeVal日常任務基準，大幅提高漏洞獎金（關鍵漏洞最高約17.2萬美元含獎金），準備與Cathedral合作的下一波AI安全衝刺，並任命前陸軍部長Dan Driscoll為國家安全現代化資深顧問。Anthropic開放訊息執行緒公開測試以降低長時間代理延遲約35%，並開放付費Residency申請。SpaceXSI詳述內部Data Bot Team Bot，上週處理約70小時資料科學工作。",
-  "updated_at": "2026-11-03T04:35:01.762652+00:00"
+  "brief_en": "Quiet day on new launches. OpenAI's Nov 2 Grid Protectors, LifeVal, higher bug bounties and Driscoll hire remain the main commercial/security news. Anthropic published FlashProve (Claude-improved zkSNARK prototype for proving which model produced a response) and an amended S-1 warning it may imminently hit its own RSI-related safety threshold. No new flagship models.",
+  "brief_zh": "今日新發布偏少。OpenAI 前日 Grid Protectors、LifeVal、提高漏洞賞金與 Driscoll 任命仍為重點。Anthropic 發表 FlashProve（Claude 改良的 zkSNARK 原型，可證明回應來自特定模型），並在修訂 S-1 警告可能即將觸及自身 RSI 相關安全門檻。無新旗艦模型。",
+  "updated_at": "2026-11-03T10:35:01.794804+00:00"
 }
