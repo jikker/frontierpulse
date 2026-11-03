@@ -1,0 +1,329 @@
+{
+  "date": "2026-11-04",
+  "runs": [
+    {
+      "generated_at": "2026-11-03T16:35:01.902663+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 6,
+      "updated_count": 0,
+      "kept_count": 0
+    }
+  ],
+  "items_flat": [
+    {
+      "id": "anthropic-s1-q3-financials-2026-11-02",
+      "story_id": "anthropic-s1-q3-financials-2026-11-02",
+      "category": "anthropic",
+      "source_type": "mixed",
+      "title_en": "Anthropic amended S-1 reveals ~$17B Q3 revenue and $895B compute commitments",
+      "title_zh": "Anthropic 修訂 S-1：第三季營收近 170 億美元，算力承諾達 8950 億",
+      "summary_en": "Anthropic filed an amended Form S-1/A on November 2 disclosing Q3 2026 revenue of $16.96 billion (up 1,127% year-over-year and 47% quarter-over-quarter). It swung to a $567 million operating loss, mainly from higher-cost short-term compute and non-cash donation-matching charges, while reporting aggregate purchase and lease commitments of about $895.4 billion, substantially all for compute and infrastructure.",
+      "summary_zh": "Anthropic 於 11 月 2 日向 SEC 提交修訂版 S-1/A，揭露 2026 年第三季營收達 169.6 億美元（年增 1127%、季增 47%）。因短期高成本算力採購與非現金捐贈匹配費用，營運虧損轉為 5.67 億美元；同時揭露總採購與租賃承諾約 8954 億美元，幾乎全數用於算力與基礎設施。",
+      "analysis_en": "The filing quantifies the capital intensity of frontier AI scaling and shows sequential growth already decelerating while absolute compute obligations remain enormous. IPO investors will weigh the revenue trajectory against funding risk for those commitments and the non-operating valuation charges that dominate reported losses.",
+      "analysis_zh": "這份文件量化了前沿 AI 擴張的資本密集程度，顯示季成長已放緩，但絕對算力承諾規模仍極龐大。IPO 投資人需權衡營收軌跡、承諾融資風險，以及主導帳面虧損的非營運估值調整。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 5,
+      "first_seen": "2026-11-02T22:30:00Z",
+      "updated_at": "2026-11-03T16:35:01.902663+00:00",
+      "links": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/anthropics-quarterly-loss-shrinks-revenue-jumps-ahead-blockbuster-ipo-2026-11-02/"
+        }
+      ]
+    },
+    {
+      "id": "openai-pando-git-backend-2026-11-02",
+      "story_id": "openai-pando-git-backend-2026-11-02",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI introduces Pando, a Git-compatible backend scaled for Codex-driven monorepo work",
+      "title_zh": "OpenAI 推出 Pando：為 Codex 規模打造的 Git 相容後端",
+      "summary_en": "OpenAI published an engineering post on November 2 describing Pando, a new Git-compatible backend that now powers its monorepo. Built in roughly 10 weeks with heavy Codex agent assistance, it supports concurrent pushes across branches, reuses packfiles for high read throughput, cut median push latency by nearly 5x, and serves nearly a petabyte of Git data per day.",
+      "summary_zh": "OpenAI 於 11 月 2 日發表工程文章，介紹 Pando 這個新的 Git 相容後端，現已驅動其 monorepo。約 10 週內在大量 Codex 代理協助下完成，支援跨分支並行推送、重用 packfile 以提高讀取吞吐，中位數推送延遲降低近 5 倍，每日提供近 1 PB 的 Git 資料。",
+      "analysis_en": "Agentic coding has shifted the bottleneck from model capability to surrounding infrastructure such as source control. Pando shows one lab treating that infrastructure as first-class product work while remaining compatible with standard Git tooling.",
+      "analysis_zh": "代理式編碼已把瓶頸從模型能力移到周邊基礎設施（如原始碼控制）。Pando 顯示一家實驗室把這類基礎設施當成一等公民產品來處理，同時維持與標準 Git 工具的相容性。",
+      "quote": "We built Pando, a new backend for Git repositories, without interrupting any engineering work or changing how our team uses Git. Pando now powers all development in OpenAI’s monorepo.",
+      "quote_zh": "我們打造了 Pando，一個新的 Git 儲存庫後端，過程中未中斷任何工程工作，也未改變團隊使用 Git 的方式。Pando 現在驅動 OpenAI monorepo 的所有開發。",
+      "importance": 4,
+      "first_seen": "2026-11-02T08:00:00Z",
+      "updated_at": "2026-11-03T16:35:01.902663+00:00",
+      "links": [
+        {
+          "label": "OpenAI Engineering",
+          "url": "https://openai.com/index/scaling-git-at-openai/"
+        }
+      ]
+    },
+    {
+      "id": "mistral-large-4-open-weights-2026-10-29",
+      "story_id": "mistral-large-4-open-weights-2026-10-29",
+      "category": "frontier_other",
+      "source_type": "official_blog",
+      "title_en": "Mistral releases open weights for 1T-parameter Mistral Large 4 (Le Chonk)",
+      "title_zh": "Mistral 釋出 1 兆參數 Mistral Large 4（Le Chonk）開源權重",
+      "summary_en": "Mistral released the open weights of its improved Mistral Large 4 (Le Chonk), a roughly 1-trillion-parameter natively multimodal Mixture-of-Experts model, on October 29 under a modified MIT-style license. After additional reinforcement learning, it leads open-weight models on several coding-agent benchmarks while using substantially fewer tokens than the prior leading open model on the Artificial Analysis Coding Agent Index; recent demos continue on official channels.",
+      "summary_zh": "Mistral 於 10 月 29 日以修改版 MIT 風格授權釋出改進後的 Mistral Large 4（Le Chonk）開源權重，這是約 1 兆參數的原生多模態混合專家模型。經額外強化學習後，在多項編碼代理基準上領先其他開源模型，並在 Artificial Analysis Coding Agent Index 上使用明顯較少的 token；官方頻道仍持續發布示範。",
+      "analysis_en": "A European lab shipping a trillion-parameter open-weight model with strong coding and cyber results lowers the barrier for sovereign or on-premise frontier-class agents. Token efficiency claims matter for real agent workloads, though closed frontier models remain ahead on the hardest tasks.",
+      "analysis_zh": "歐洲實驗室釋出一兆參數級開源權重模型，並在編碼與資安表現上有競爭力，降低主權或本地部署前沿級代理的門檻。token 效率主張對實際代理工作負載重要，但最難任務上閉源前沿模型仍領先。",
+      "quote": "Today, we're releasing the weights of this improved Mistral Large 4.",
+      "quote_zh": "今天，我們釋出這個改進版 Mistral Large 4 的權重。",
+      "importance": 4,
+      "first_seen": "2026-10-29T20:00:00Z",
+      "updated_at": "2026-11-03T16:35:01.902663+00:00",
+      "links": [
+        {
+          "label": "Mistral Blog",
+          "url": "https://mistral.ai/news/mistral-large-4-oss/"
+        }
+      ]
+    },
+    {
+      "id": "openai-lifeval-everyday-tasks-2026-11-02",
+      "story_id": "openai-lifeval-everyday-tasks-2026-11-02",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI publishes LifeVal, an evaluation of everyday personal-assistant tasks",
+      "title_zh": "OpenAI 發布 LifeVal：評估日常個人助理任務的評測",
+      "summary_en": "OpenAI released LifeVal on November 2, a benchmark of practical everyday tasks (childcare, health, household administration, finances, shopping, government services) shaped by time-use studies and a survey of nearly 4,000 people. On OpenAI’s own scoring, GPT-6 Astra reaches 80.6% average reward, up from 49.3% for GPT-5.2.",
+      "summary_zh": "OpenAI 於 11 月 2 日發布 LifeVal，這是針對日常實際任務（托育、健康、家務行政、財務、購物、政府服務）的評測，依據時間使用研究與近 4000 人調查設計。在 OpenAI 自評中，GPT-6 Astra 平均獎勵達 80.6%，高於 GPT-5.2 的 49.3%。",
+      "analysis_en": "Moving evaluation beyond coding and exams toward multi-step real-world errands is directionally useful for personal agents, but the benchmark is internal and self-scored, so independent comparison remains limited.",
+      "analysis_zh": "把評估從編碼與考試轉向多步驟真實日常任務，對個人代理方向有用，但此評測為內部自評，獨立比較仍受限。",
+      "quote": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal...",
+      "quote_zh": "為了讓 AGI 惠及全人類，它應幫助人們處理最重要的日常任務。因此我們打造了 LifeVal……",
+      "importance": 3,
+      "first_seen": "2026-11-02T17:00:00Z",
+      "updated_at": "2026-11-03T16:35:01.902663+00:00",
+      "links": [
+        {
+          "label": "OpenAI Research",
+          "url": "https://openai.com/index/lifeval/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-residency-applications-2026-11-02",
+      "story_id": "anthropic-residency-applications-2026-11-02",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic opens applications for paid Residency aimed at senior technical leaders",
+      "title_zh": "Anthropic 開放付費 Residency 申請，面向資深技術領導者",
+      "summary_en": "Anthropic announced on November 2 that applications are open for its paid Residency (placements of six weeks to six months). The program targets professors in quantitative fields, technical founders, and staff-level engineers; no machine learning background is required. Compensation is $350,000–$500,000 annualized equivalent; applications close November 22.",
+      "summary_zh": "Anthropic 於 11 月 2 日宣布開放付費 Residency 申請（時長六週至六個月）。對象為量化領域教授、技術創辦人與資深工程師；不要求機器學習背景。年化等值薪酬 35 萬至 50 萬美元；申請截止 11 月 22 日。",
+      "analysis_en": "Recruiting established quantitative talent without requiring prior ML experience is a practical response to the scarcity of experienced AI safety researchers. Success depends on how quickly residents can contribute meaningful empirical work.",
+      "analysis_zh": "招募已有量化資歷、但不強制要求先前 ML 經驗的人才，是因應經驗豐富 AI 安全研究者稀缺的務實做法。成敗取決於居民能多快做出有意義的實證貢獻。",
+      "quote": "Today we are opening applications for the Anthropic Residency, our paid, fixed-term research program with placements lasting between six weeks and six months.",
+      "quote_zh": "今天我們開放 Anthropic Residency 申請，這是一個付費、固定期限的研究計畫，時長介於六週至六個月。",
+      "importance": 3,
+      "first_seen": "2026-11-02T19:51:00Z",
+      "updated_at": "2026-11-03T16:35:01.902663+00:00",
+      "links": [
+        {
+          "label": "Anthropic Alignment Science Blog",
+          "url": "https://alignment.anthropic.com/2026/anthropic-residency/"
+        },
+        {
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2117343929960112486"
+        }
+      ]
+    },
+    {
+      "id": "openai-bug-bounty-security-sprint-2026-11-02",
+      "story_id": "openai-bug-bounty-security-sprint-2026-11-02",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI raises bug bounty rewards (up to $172k) and plans next internal security sprint",
+      "title_zh": "OpenAI 提高漏洞獎金（最高 17.2 萬美元）並規劃下一輪內部安全衝刺",
+      "summary_en": "OpenAI announced on November 2 that it is more than quadrupling average midpoints for medium/high/critical bug bounty rewards, with exceptional critical findings eligible for up to $172,000 including bonuses, and that past-30-day awards can be topped up. It is also planning its next internal security sprint with Cathedral Systems researchers using its models.",
+      "summary_zh": "OpenAI 於 11 月 2 日宣布，將中高嚴重與嚴重漏洞獎金的平均中點提高逾四倍，卓越嚴重發現（含獎金）最高可達 17.2 萬美元，且過去 30 天已發獎金可補差額。同時規劃與 Cathedral Systems 研究人員合作的下一輪內部安全衝刺，使用其模型協助。",
+      "analysis_en": "Higher external incentives plus internal AI-assisted red-teaming reflect growing recognition that model capabilities are outpacing traditional defenses. The real test is whether the additional reports translate into faster, higher-quality fixes.",
+      "analysis_zh": "更高外部激勵加上內部 AI 輔助紅隊，反映實驗室認知到模型能力正超越傳統防禦。真正考驗是額外報告能否轉化為更快、更高品質的修復。",
+      "quote": "As AI becomes more capable at finding vulnerabilities, defenders need to put it to work before attackers do.",
+      "quote_zh": "隨著 AI 在尋找漏洞方面變得更強，防禦方需要在攻擊者之前加以運用。",
+      "importance": 3,
+      "first_seen": "2026-11-02T08:00:00Z",
+      "updated_at": "2026-11-03T16:35:01.902663+00:00",
+      "links": [
+        {
+          "label": "OpenAI Security",
+          "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2117444048227123277"
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "openai": [
+      {
+        "id": "openai-pando-git-backend-2026-11-02",
+        "story_id": "openai-pando-git-backend-2026-11-02",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI introduces Pando, a Git-compatible backend scaled for Codex-driven monorepo work",
+        "title_zh": "OpenAI 推出 Pando：為 Codex 規模打造的 Git 相容後端",
+        "summary_en": "OpenAI published an engineering post on November 2 describing Pando, a new Git-compatible backend that now powers its monorepo. Built in roughly 10 weeks with heavy Codex agent assistance, it supports concurrent pushes across branches, reuses packfiles for high read throughput, cut median push latency by nearly 5x, and serves nearly a petabyte of Git data per day.",
+        "summary_zh": "OpenAI 於 11 月 2 日發表工程文章，介紹 Pando 這個新的 Git 相容後端，現已驅動其 monorepo。約 10 週內在大量 Codex 代理協助下完成，支援跨分支並行推送、重用 packfile 以提高讀取吞吐，中位數推送延遲降低近 5 倍，每日提供近 1 PB 的 Git 資料。",
+        "analysis_en": "Agentic coding has shifted the bottleneck from model capability to surrounding infrastructure such as source control. Pando shows one lab treating that infrastructure as first-class product work while remaining compatible with standard Git tooling.",
+        "analysis_zh": "代理式編碼已把瓶頸從模型能力移到周邊基礎設施（如原始碼控制）。Pando 顯示一家實驗室把這類基礎設施當成一等公民產品來處理，同時維持與標準 Git 工具的相容性。",
+        "quote": "We built Pando, a new backend for Git repositories, without interrupting any engineering work or changing how our team uses Git. Pando now powers all development in OpenAI’s monorepo.",
+        "quote_zh": "我們打造了 Pando，一個新的 Git 儲存庫後端，過程中未中斷任何工程工作，也未改變團隊使用 Git 的方式。Pando 現在驅動 OpenAI monorepo 的所有開發。",
+        "importance": 4,
+        "first_seen": "2026-11-02T08:00:00Z",
+        "updated_at": "2026-11-03T16:35:01.902663+00:00",
+        "links": [
+          {
+            "label": "OpenAI Engineering",
+            "url": "https://openai.com/index/scaling-git-at-openai/"
+          }
+        ]
+      },
+      {
+        "id": "openai-lifeval-everyday-tasks-2026-11-02",
+        "story_id": "openai-lifeval-everyday-tasks-2026-11-02",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI publishes LifeVal, an evaluation of everyday personal-assistant tasks",
+        "title_zh": "OpenAI 發布 LifeVal：評估日常個人助理任務的評測",
+        "summary_en": "OpenAI released LifeVal on November 2, a benchmark of practical everyday tasks (childcare, health, household administration, finances, shopping, government services) shaped by time-use studies and a survey of nearly 4,000 people. On OpenAI’s own scoring, GPT-6 Astra reaches 80.6% average reward, up from 49.3% for GPT-5.2.",
+        "summary_zh": "OpenAI 於 11 月 2 日發布 LifeVal，這是針對日常實際任務（托育、健康、家務行政、財務、購物、政府服務）的評測，依據時間使用研究與近 4000 人調查設計。在 OpenAI 自評中，GPT-6 Astra 平均獎勵達 80.6%，高於 GPT-5.2 的 49.3%。",
+        "analysis_en": "Moving evaluation beyond coding and exams toward multi-step real-world errands is directionally useful for personal agents, but the benchmark is internal and self-scored, so independent comparison remains limited.",
+        "analysis_zh": "把評估從編碼與考試轉向多步驟真實日常任務，對個人代理方向有用，但此評測為內部自評，獨立比較仍受限。",
+        "quote": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal...",
+        "quote_zh": "為了讓 AGI 惠及全人類，它應幫助人們處理最重要的日常任務。因此我們打造了 LifeVal……",
+        "importance": 3,
+        "first_seen": "2026-11-02T17:00:00Z",
+        "updated_at": "2026-11-03T16:35:01.902663+00:00",
+        "links": [
+          {
+            "label": "OpenAI Research",
+            "url": "https://openai.com/index/lifeval/"
+          }
+        ]
+      },
+      {
+        "id": "openai-bug-bounty-security-sprint-2026-11-02",
+        "story_id": "openai-bug-bounty-security-sprint-2026-11-02",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI raises bug bounty rewards (up to $172k) and plans next internal security sprint",
+        "title_zh": "OpenAI 提高漏洞獎金（最高 17.2 萬美元）並規劃下一輪內部安全衝刺",
+        "summary_en": "OpenAI announced on November 2 that it is more than quadrupling average midpoints for medium/high/critical bug bounty rewards, with exceptional critical findings eligible for up to $172,000 including bonuses, and that past-30-day awards can be topped up. It is also planning its next internal security sprint with Cathedral Systems researchers using its models.",
+        "summary_zh": "OpenAI 於 11 月 2 日宣布，將中高嚴重與嚴重漏洞獎金的平均中點提高逾四倍，卓越嚴重發現（含獎金）最高可達 17.2 萬美元，且過去 30 天已發獎金可補差額。同時規劃與 Cathedral Systems 研究人員合作的下一輪內部安全衝刺，使用其模型協助。",
+        "analysis_en": "Higher external incentives plus internal AI-assisted red-teaming reflect growing recognition that model capabilities are outpacing traditional defenses. The real test is whether the additional reports translate into faster, higher-quality fixes.",
+        "analysis_zh": "更高外部激勵加上內部 AI 輔助紅隊，反映實驗室認知到模型能力正超越傳統防禦。真正考驗是額外報告能否轉化為更快、更高品質的修復。",
+        "quote": "As AI becomes more capable at finding vulnerabilities, defenders need to put it to work before attackers do.",
+        "quote_zh": "隨著 AI 在尋找漏洞方面變得更強，防禦方需要在攻擊者之前加以運用。",
+        "importance": 3,
+        "first_seen": "2026-11-02T08:00:00Z",
+        "updated_at": "2026-11-03T16:35:01.902663+00:00",
+        "links": [
+          {
+            "label": "OpenAI Security",
+            "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties/"
+          },
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2117444048227123277"
+          }
+        ]
+      }
+    ],
+    "anthropic": [
+      {
+        "id": "anthropic-s1-q3-financials-2026-11-02",
+        "story_id": "anthropic-s1-q3-financials-2026-11-02",
+        "category": "anthropic",
+        "source_type": "mixed",
+        "title_en": "Anthropic amended S-1 reveals ~$17B Q3 revenue and $895B compute commitments",
+        "title_zh": "Anthropic 修訂 S-1：第三季營收近 170 億美元，算力承諾達 8950 億",
+        "summary_en": "Anthropic filed an amended Form S-1/A on November 2 disclosing Q3 2026 revenue of $16.96 billion (up 1,127% year-over-year and 47% quarter-over-quarter). It swung to a $567 million operating loss, mainly from higher-cost short-term compute and non-cash donation-matching charges, while reporting aggregate purchase and lease commitments of about $895.4 billion, substantially all for compute and infrastructure.",
+        "summary_zh": "Anthropic 於 11 月 2 日向 SEC 提交修訂版 S-1/A，揭露 2026 年第三季營收達 169.6 億美元（年增 1127%、季增 47%）。因短期高成本算力採購與非現金捐贈匹配費用，營運虧損轉為 5.67 億美元；同時揭露總採購與租賃承諾約 8954 億美元，幾乎全數用於算力與基礎設施。",
+        "analysis_en": "The filing quantifies the capital intensity of frontier AI scaling and shows sequential growth already decelerating while absolute compute obligations remain enormous. IPO investors will weigh the revenue trajectory against funding risk for those commitments and the non-operating valuation charges that dominate reported losses.",
+        "analysis_zh": "這份文件量化了前沿 AI 擴張的資本密集程度，顯示季成長已放緩，但絕對算力承諾規模仍極龐大。IPO 投資人需權衡營收軌跡、承諾融資風險，以及主導帳面虧損的非營運估值調整。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 5,
+        "first_seen": "2026-11-02T22:30:00Z",
+        "updated_at": "2026-11-03T16:35:01.902663+00:00",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/anthropics-quarterly-loss-shrinks-revenue-jumps-ahead-blockbuster-ipo-2026-11-02/"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-residency-applications-2026-11-02",
+        "story_id": "anthropic-residency-applications-2026-11-02",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic opens applications for paid Residency aimed at senior technical leaders",
+        "title_zh": "Anthropic 開放付費 Residency 申請，面向資深技術領導者",
+        "summary_en": "Anthropic announced on November 2 that applications are open for its paid Residency (placements of six weeks to six months). The program targets professors in quantitative fields, technical founders, and staff-level engineers; no machine learning background is required. Compensation is $350,000–$500,000 annualized equivalent; applications close November 22.",
+        "summary_zh": "Anthropic 於 11 月 2 日宣布開放付費 Residency 申請（時長六週至六個月）。對象為量化領域教授、技術創辦人與資深工程師；不要求機器學習背景。年化等值薪酬 35 萬至 50 萬美元；申請截止 11 月 22 日。",
+        "analysis_en": "Recruiting established quantitative talent without requiring prior ML experience is a practical response to the scarcity of experienced AI safety researchers. Success depends on how quickly residents can contribute meaningful empirical work.",
+        "analysis_zh": "招募已有量化資歷、但不強制要求先前 ML 經驗的人才，是因應經驗豐富 AI 安全研究者稀缺的務實做法。成敗取決於居民能多快做出有意義的實證貢獻。",
+        "quote": "Today we are opening applications for the Anthropic Residency, our paid, fixed-term research program with placements lasting between six weeks and six months.",
+        "quote_zh": "今天我們開放 Anthropic Residency 申請，這是一個付費、固定期限的研究計畫，時長介於六週至六個月。",
+        "importance": 3,
+        "first_seen": "2026-11-02T19:51:00Z",
+        "updated_at": "2026-11-03T16:35:01.902663+00:00",
+        "links": [
+          {
+            "label": "Anthropic Alignment Science Blog",
+            "url": "https://alignment.anthropic.com/2026/anthropic-residency/"
+          },
+          {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI/status/2117343929960112486"
+          }
+        ]
+      }
+    ],
+    "google": [],
+    "meta": [],
+    "xai": [],
+    "frontier_other": [
+      {
+        "id": "mistral-large-4-open-weights-2026-10-29",
+        "story_id": "mistral-large-4-open-weights-2026-10-29",
+        "category": "frontier_other",
+        "source_type": "official_blog",
+        "title_en": "Mistral releases open weights for 1T-parameter Mistral Large 4 (Le Chonk)",
+        "title_zh": "Mistral 釋出 1 兆參數 Mistral Large 4（Le Chonk）開源權重",
+        "summary_en": "Mistral released the open weights of its improved Mistral Large 4 (Le Chonk), a roughly 1-trillion-parameter natively multimodal Mixture-of-Experts model, on October 29 under a modified MIT-style license. After additional reinforcement learning, it leads open-weight models on several coding-agent benchmarks while using substantially fewer tokens than the prior leading open model on the Artificial Analysis Coding Agent Index; recent demos continue on official channels.",
+        "summary_zh": "Mistral 於 10 月 29 日以修改版 MIT 風格授權釋出改進後的 Mistral Large 4（Le Chonk）開源權重，這是約 1 兆參數的原生多模態混合專家模型。經額外強化學習後，在多項編碼代理基準上領先其他開源模型，並在 Artificial Analysis Coding Agent Index 上使用明顯較少的 token；官方頻道仍持續發布示範。",
+        "analysis_en": "A European lab shipping a trillion-parameter open-weight model with strong coding and cyber results lowers the barrier for sovereign or on-premise frontier-class agents. Token efficiency claims matter for real agent workloads, though closed frontier models remain ahead on the hardest tasks.",
+        "analysis_zh": "歐洲實驗室釋出一兆參數級開源權重模型，並在編碼與資安表現上有競爭力，降低主權或本地部署前沿級代理的門檻。token 效率主張對實際代理工作負載重要，但最難任務上閉源前沿模型仍領先。",
+        "quote": "Today, we're releasing the weights of this improved Mistral Large 4.",
+        "quote_zh": "今天，我們釋出這個改進版 Mistral Large 4 的權重。",
+        "importance": 4,
+        "first_seen": "2026-10-29T20:00:00Z",
+        "updated_at": "2026-11-03T16:35:01.902663+00:00",
+        "links": [
+          {
+            "label": "Mistral Blog",
+            "url": "https://mistral.ai/news/mistral-large-4-oss/"
+          }
+        ]
+      }
+    ]
+  },
+  "brief_en": "Anthropic's amended S-1 shows ~$17B Q3 revenue and $895B compute commitments ahead of IPO. OpenAI detailed Pando, its Codex-scale Git backend, plus LifeVal everyday-task eval and higher bug bounties. Mistral released open weights for 1T-param Large 4.",
+  "brief_zh": "Anthropic 修訂 S-1 顯示第三季營收近 170 億美元、算力承諾 8950 億。OpenAI 公開 Pando（為 Codex 規模打造的 Git 後端）、LifeVal 日常任務評測與更高漏洞獎金。Mistral 釋出 1 兆參數 Large 4 開源權重。",
+  "updated_at": "2026-11-03T16:35:01.902663+00:00"
+}
