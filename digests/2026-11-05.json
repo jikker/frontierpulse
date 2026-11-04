@@ -1,0 +1,314 @@
+{
+  "date": "2026-11-05",
+  "runs": [
+    {
+      "generated_at": "2026-11-04T16:35:01.557867+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 6,
+      "updated_count": 0,
+      "kept_count": 0
+    }
+  ],
+  "items_flat": [
+    {
+      "id": "openai-acquire-pierre-2026-11-04",
+      "story_id": "openai-acquire-pierre-2026-11-04",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI to acquire Pierre Computer Company for Codex and Git tooling",
+      "title_zh": "OpenAI將收購Pierre Computer Company以強化Codex與Git工具",
+      "summary_en": "OpenAI announced it will acquire Pierre Computer Company, Inc., the maker of Code Storage and open-source developer tools including Trees and Diffs already used in Codex. The deal aims to evolve Git workflows for parallel agentic coding, with open-source projects remaining open and Code Storage continuing for customers while features move into Codex. Closing is subject to regulatory approvals.",
+      "summary_zh": "OpenAI宣布將收購Pierre Computer Company, Inc.，該公司開發Code Storage以及已用於Codex的Trees與Diffs等開源開發工具。交易目標是為代理並行編碼演進Git工作流程，開源專案將維持開源，Code Storage在功能整合進Codex前持續服務客戶。交易需取得監管批准後完成。",
+      "analysis_en": "This expands OpenAI’s control over the developer stack around Codex as agentic coding scales, potentially setting standards for source control that blend human decisions with agent output. Uncertainty remains on integration timeline and whether the acquisition accelerates or fragments existing open-source Git tools.",
+      "analysis_zh": "此舉擴大OpenAI對Codex周邊開發者堆疊的控制，隨著代理編碼規模擴大，可能為結合人類決策與代理輸出的源碼控制設定標準。整合時程以及是否會加速或分裂現有開源Git工具仍有不確定性。",
+      "quote": "Today we're announcing that OpenAI will acquire Pierre Computer Company, Inc. (“Pierre”), the company behind Code Storage and a family of standout open-source developer tools.",
+      "quote_zh": "今日我們宣布OpenAI將收購Pierre Computer Company, Inc.（「Pierre」），該公司開發Code Storage以及一系列傑出的開源開發工具。",
+      "importance": 4,
+      "first_seen": "2026-11-04T16:35:00Z",
+      "updated_at": "2026-11-04T16:35:01.557867+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/openai-to-acquire-pierre/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-flashprove-2026-11-02",
+      "story_id": "anthropic-flashprove-2026-11-02",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic open-sources FlashProve for provable inference of model outputs",
+      "title_zh": "Anthropic開源FlashProve以驗證模型輸出的可證明推論",
+      "summary_en": "Anthropic’s Frontier Red Team released FlashProve, an open-source (Apache 2.0) prototype using zkSNARKs so developers can verify a response came from a specific model without revealing weights. On Llama 4 Maverick (400B MoE, 4-bit), a single H100 generates proofs at ~110 tokens/second (~70-95x serving cost on vLLM), with ~19 MB proofs per 1,024 tokens; code, verifiers, and Lean proofs are on GitHub.",
+      "summary_zh": "Anthropic前沿紅隊釋出FlashProve，這是使用zkSNARK的開源（Apache 2.0）原型，讓開發者能驗證回應來自特定模型而不揭露權重。在Llama 4 Maverick（400B MoE、4-bit）上，單一H100以約110 tokens/秒產生證明（約為vLLM服務成本的70-95倍），每1,024 tokens證明約19 MB；程式碼、驗證器與Lean證明已放在GitHub。",
+      "analysis_en": "This advances practical cryptographic verification of model identity, addressing trust issues in routing, evaluation, and potential substitution. It remains a research prototype with high proving overhead, so near-term production impact depends on further efficiency gains and adoption by other labs.",
+      "analysis_zh": "此進展推進模型身份的實用密碼學驗證，解決路由、評估與可能替換的信任問題。它仍是研究原型且證明開銷高，近端生產影響取決於進一步效率提升與其他實驗室的採用。",
+      "quote": "Today, we release FlashProve: an open-source performant prototype for provable inference. For a 400B-parameter mixture-of-experts model (Llama 4 Maverick, 4-bit quantization), we show that a single H100 GPU generates proofs at over 100 tokens/second...",
+      "quote_zh": "今日我們釋出FlashProve：一個開源的高效可證明推論原型。對於400B參數的混合專家模型（Llama 4 Maverick，4-bit量化），我們展示單一H100 GPU以超過100 tokens/秒產生證明……",
+      "importance": 4,
+      "first_seen": "2026-11-04T16:35:00Z",
+      "updated_at": "2026-11-04T16:35:01.557867+00:00",
+      "links": [
+        {
+          "label": "Anthropic Research",
+          "url": "https://www.anthropic.com/research/provable-inference"
+        },
+        {
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2117710942826123294"
+        }
+      ]
+    },
+    {
+      "id": "mistral-large-4-open-weights-2026-11-03",
+      "story_id": "mistral-large-4-open-weights-2026-11-03",
+      "category": "frontier_other",
+      "source_type": "news",
+      "title_en": "Mistral releases open weights for 1-trillion-parameter Large 4",
+      "title_zh": "Mistral釋出1兆參數Large 4開源權重",
+      "summary_en": "Mistral released the open weights of Mistral Large 4 (nicknamed Le Chonk), a natively multimodal MoE model with ~1 trillion total / ~49-52 billion active parameters, on Hugging Face under a modified MIT license. Trained on 3,800 Nvidia Grace Blackwell GPUs in European data centers, it is positioned as a top open model on agentic coding and cyber benchmarks, with API access also available.",
+      "summary_zh": "Mistral在Hugging Face上以修改版MIT授權釋出Mistral Large 4（暱稱Le Chonk）的開源權重，這是原生多模態MoE模型，總參數約1兆、活躍參數約490-520億。它在歐洲資料中心以3,800顆Nvidia Grace Blackwell GPU訓練，定位為代理編碼與網路基準上的頂尖開源模型，同時提供API存取。",
+      "analysis_en": "This strengthens the open-weight frontier outside the US closed labs, offering a high-capacity European alternative for coding and multimodal work. Adoption will hinge on inference cost, license terms for hosted services, and how it compares in real deployments against both closed and other open models.",
+      "analysis_zh": "此舉強化美國封閉實驗室以外的開源權重前沿，為編碼與多模態工作提供高容量歐洲替代方案。採用將取決於推論成本、託管服務的授權條款，以及在實際部署中與封閉及其他開源模型的比較。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 4,
+      "first_seen": "2026-11-04T16:35:00Z",
+      "updated_at": "2026-11-04T16:35:01.557867+00:00",
+      "links": [
+        {
+          "label": "Technology.org report",
+          "url": "https://www.technology.org/2026/11/03/mistral-large-4-open-weights-hugging-face-modified-mit/"
+        }
+      ]
+    },
+    {
+      "id": "openai-daybreak-red-govcloud-2026-11-04",
+      "story_id": "openai-daybreak-red-govcloud-2026-11-04",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI Daybreak Red (GPT-5.6 Cyber) available in AWS GovCloud (US-East)",
+      "title_zh": "OpenAI Daybreak Red（GPT-5.6 Cyber）現於AWS GovCloud（US-East）提供",
+      "summary_en": "OpenAI announced that GPT-5.6 Cyber via Daybreak Red is now available to approved customers in AWS GovCloud (US-East) through Amazon Bedrock. It supports authorized vulnerability research, exploit validation, and security testing with fewer refusals for verified defenders, stronger identity controls, and no training on customer inference data.",
+      "summary_zh": "OpenAI宣布透過Daybreak Red提供的GPT-5.6 Cyber現已向核准客戶在AWS GovCloud（US-East）透過Amazon Bedrock提供。它支援授權的漏洞研究、漏洞利用驗證與安全測試，為經核實的防禦者減少拒絕，並加強身份控制，客戶推論資料不用於訓練。",
+      "analysis_en": "This extends specialized cyber capabilities into government-grade cloud environments, lowering barriers for public-sector defenders. Broader availability and real-world impact will depend on enrollment volume and how teams integrate it with existing governance requirements.",
+      "analysis_zh": "此舉將專門的網路能力延伸至政府級雲端環境，降低公部門防禦者的進入門檻。更廣泛的可用性與實際影響將取決於註冊量以及團隊如何與現有治理要求整合。",
+      "quote": "Building on the availability of Daybreak models on Amazon Bedrock, GPT‑5.6 Cyber is now available to approved customers in AWS GovCloud (US-East) through Daybreak Red.",
+      "quote_zh": "在Daybreak模型於Amazon Bedrock提供的基礎上，GPT‑5.6 Cyber現已透過Daybreak Red向核准客戶在AWS GovCloud（US-East）提供。",
+      "importance": 3,
+      "first_seen": "2026-11-04T16:35:00Z",
+      "updated_at": "2026-11-04T16:35:01.557867+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/daybreak-red-aws-govcloud/"
+        }
+      ]
+    },
+    {
+      "id": "openai-jill-hazelbaker-2026-11-03",
+      "story_id": "openai-jill-hazelbaker-2026-11-03",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "title_zh": "OpenAI任命Jill Hazelbaker為首席企業事務長",
+      "summary_en": "OpenAI appointed Jill Hazelbaker, formerly President and Chief Corporate Affairs Officer at Uber (with prior roles at Snap and Google), as Chief Corporate Affairs Officer to lead global communications and corporate positioning. She will report to President Greg Brockman and focus on building public trust around AI.",
+      "summary_zh": "OpenAI任命前Uber總裁兼首席企業事務長Jill Hazelbaker（此前曾任職Snap與Google）為首席企業事務長，負責全球通訊與企業定位。她將向總裁Greg Brockman報告，並聚焦建立公眾對AI的信任。",
+      "analysis_en": "The hire signals OpenAI’s increased investment in external relations and reputation management as it scales. Effectiveness will depend on how the role navigates ongoing regulatory, safety, and public scrutiny of frontier AI development.",
+      "analysis_zh": "此任命顯示OpenAI在擴大規模時加強外部關係與聲譽管理的投入。成效將取決於該角色如何應對前沿AI發展所面臨的持續監管、安全與公眾審視。",
+      "quote": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "quote_zh": "Jill Hazelbaker將加入OpenAI擔任首席企業事務長，領導公司的全球通訊與企業定位。",
+      "importance": 3,
+      "first_seen": "2026-11-04T16:35:00Z",
+      "updated_at": "2026-11-04T16:35:01.557867+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer/"
+        }
+      ]
+    },
+    {
+      "id": "google-antigravity-cheminformatics-2026-11-03",
+      "story_id": "google-antigravity-cheminformatics-2026-11-03",
+      "category": "google",
+      "source_type": "official_blog",
+      "title_en": "Google DeepMind adds agentic cheminformatics skills to Antigravity for drug discovery",
+      "title_zh": "Google DeepMind為Antigravity新增代理化學資訊學技能以加速藥物發現",
+      "summary_en": "Google DeepMind released Cheminformatics Skills for Google Antigravity that combine language-model orchestration with deterministic tools (RDKit, ChEMBL, PubChem). In a lung-cancer example, an agent searched thousands of compounds, performed matched molecular pair analysis, and proposed rigidified macrocycles with synthetic routes in about one hour, versus days for traditional workflows. Skills are available now; up to 10,000 scientists can apply for free high-tier access for six months.",
+      "summary_zh": "Google DeepMind為Google Antigravity釋出化學資訊學技能，結合語言模型編排與確定性工具（RDKit、ChEMBL、PubChem）。以肺癌藥物為例，代理可在約一小時內搜尋數千種化合物、進行匹配分子對分析，並提出帶有合成路線的剛性大環分子，傳統流程通常需數天。技能現已提供；最多1萬名科學家可申請六個月免費高用量層級。",
+      "analysis_en": "The release shows agentic systems compressing multi-day medicinal chemistry loops into hours by delegating calculation to specialized tools while the model handles planning and reasoning. Outputs remain hypotheses requiring experimental validation; real acceleration depends on scientist adoption and integration into existing lab pipelines.",
+      "analysis_zh": "此釋出顯示代理系統透過將計算委託給專門工具、由模型負責規劃與推理，將多日藥物化學循環壓縮至數小時。產出仍為需實驗驗證的假設；真正加速取決於科學家採用程度與整合至現有實驗室流程的情況。",
+      "quote": "Here we show how Google Antigravity, equipped with our new Cheminformatics Skills, accelerates drug discovery workflows. Using real-world lung cancer treatments, an agent searches through thousands of compounds... in just an hour.",
+      "quote_zh": "在此我們展示配備新化學資訊學技能的Google Antigravity如何加速藥物發現工作流程。使用真實肺癌治療，代理搜尋數千種化合物……僅需約一小時。",
+      "importance": 3,
+      "first_seen": "2026-11-04T16:35:00Z",
+      "updated_at": "2026-11-04T16:35:01.557867+00:00",
+      "links": [
+        {
+          "label": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "openai": [
+      {
+        "id": "openai-acquire-pierre-2026-11-04",
+        "story_id": "openai-acquire-pierre-2026-11-04",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI to acquire Pierre Computer Company for Codex and Git tooling",
+        "title_zh": "OpenAI將收購Pierre Computer Company以強化Codex與Git工具",
+        "summary_en": "OpenAI announced it will acquire Pierre Computer Company, Inc., the maker of Code Storage and open-source developer tools including Trees and Diffs already used in Codex. The deal aims to evolve Git workflows for parallel agentic coding, with open-source projects remaining open and Code Storage continuing for customers while features move into Codex. Closing is subject to regulatory approvals.",
+        "summary_zh": "OpenAI宣布將收購Pierre Computer Company, Inc.，該公司開發Code Storage以及已用於Codex的Trees與Diffs等開源開發工具。交易目標是為代理並行編碼演進Git工作流程，開源專案將維持開源，Code Storage在功能整合進Codex前持續服務客戶。交易需取得監管批准後完成。",
+        "analysis_en": "This expands OpenAI’s control over the developer stack around Codex as agentic coding scales, potentially setting standards for source control that blend human decisions with agent output. Uncertainty remains on integration timeline and whether the acquisition accelerates or fragments existing open-source Git tools.",
+        "analysis_zh": "此舉擴大OpenAI對Codex周邊開發者堆疊的控制，隨著代理編碼規模擴大，可能為結合人類決策與代理輸出的源碼控制設定標準。整合時程以及是否會加速或分裂現有開源Git工具仍有不確定性。",
+        "quote": "Today we're announcing that OpenAI will acquire Pierre Computer Company, Inc. (“Pierre”), the company behind Code Storage and a family of standout open-source developer tools.",
+        "quote_zh": "今日我們宣布OpenAI將收購Pierre Computer Company, Inc.（「Pierre」），該公司開發Code Storage以及一系列傑出的開源開發工具。",
+        "importance": 4,
+        "first_seen": "2026-11-04T16:35:00Z",
+        "updated_at": "2026-11-04T16:35:01.557867+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/openai-to-acquire-pierre/"
+          }
+        ]
+      },
+      {
+        "id": "openai-daybreak-red-govcloud-2026-11-04",
+        "story_id": "openai-daybreak-red-govcloud-2026-11-04",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI Daybreak Red (GPT-5.6 Cyber) available in AWS GovCloud (US-East)",
+        "title_zh": "OpenAI Daybreak Red（GPT-5.6 Cyber）現於AWS GovCloud（US-East）提供",
+        "summary_en": "OpenAI announced that GPT-5.6 Cyber via Daybreak Red is now available to approved customers in AWS GovCloud (US-East) through Amazon Bedrock. It supports authorized vulnerability research, exploit validation, and security testing with fewer refusals for verified defenders, stronger identity controls, and no training on customer inference data.",
+        "summary_zh": "OpenAI宣布透過Daybreak Red提供的GPT-5.6 Cyber現已向核准客戶在AWS GovCloud（US-East）透過Amazon Bedrock提供。它支援授權的漏洞研究、漏洞利用驗證與安全測試，為經核實的防禦者減少拒絕，並加強身份控制，客戶推論資料不用於訓練。",
+        "analysis_en": "This extends specialized cyber capabilities into government-grade cloud environments, lowering barriers for public-sector defenders. Broader availability and real-world impact will depend on enrollment volume and how teams integrate it with existing governance requirements.",
+        "analysis_zh": "此舉將專門的網路能力延伸至政府級雲端環境，降低公部門防禦者的進入門檻。更廣泛的可用性與實際影響將取決於註冊量以及團隊如何與現有治理要求整合。",
+        "quote": "Building on the availability of Daybreak models on Amazon Bedrock, GPT‑5.6 Cyber is now available to approved customers in AWS GovCloud (US-East) through Daybreak Red.",
+        "quote_zh": "在Daybreak模型於Amazon Bedrock提供的基礎上，GPT‑5.6 Cyber現已透過Daybreak Red向核准客戶在AWS GovCloud（US-East）提供。",
+        "importance": 3,
+        "first_seen": "2026-11-04T16:35:00Z",
+        "updated_at": "2026-11-04T16:35:01.557867+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/daybreak-red-aws-govcloud/"
+          }
+        ]
+      },
+      {
+        "id": "openai-jill-hazelbaker-2026-11-03",
+        "story_id": "openai-jill-hazelbaker-2026-11-03",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+        "title_zh": "OpenAI任命Jill Hazelbaker為首席企業事務長",
+        "summary_en": "OpenAI appointed Jill Hazelbaker, formerly President and Chief Corporate Affairs Officer at Uber (with prior roles at Snap and Google), as Chief Corporate Affairs Officer to lead global communications and corporate positioning. She will report to President Greg Brockman and focus on building public trust around AI.",
+        "summary_zh": "OpenAI任命前Uber總裁兼首席企業事務長Jill Hazelbaker（此前曾任職Snap與Google）為首席企業事務長，負責全球通訊與企業定位。她將向總裁Greg Brockman報告，並聚焦建立公眾對AI的信任。",
+        "analysis_en": "The hire signals OpenAI’s increased investment in external relations and reputation management as it scales. Effectiveness will depend on how the role navigates ongoing regulatory, safety, and public scrutiny of frontier AI development.",
+        "analysis_zh": "此任命顯示OpenAI在擴大規模時加強外部關係與聲譽管理的投入。成效將取決於該角色如何應對前沿AI發展所面臨的持續監管、安全與公眾審視。",
+        "quote": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+        "quote_zh": "Jill Hazelbaker將加入OpenAI擔任首席企業事務長，領導公司的全球通訊與企業定位。",
+        "importance": 3,
+        "first_seen": "2026-11-04T16:35:00Z",
+        "updated_at": "2026-11-04T16:35:01.557867+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer/"
+          }
+        ]
+      }
+    ],
+    "anthropic": [
+      {
+        "id": "anthropic-flashprove-2026-11-02",
+        "story_id": "anthropic-flashprove-2026-11-02",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic open-sources FlashProve for provable inference of model outputs",
+        "title_zh": "Anthropic開源FlashProve以驗證模型輸出的可證明推論",
+        "summary_en": "Anthropic’s Frontier Red Team released FlashProve, an open-source (Apache 2.0) prototype using zkSNARKs so developers can verify a response came from a specific model without revealing weights. On Llama 4 Maverick (400B MoE, 4-bit), a single H100 generates proofs at ~110 tokens/second (~70-95x serving cost on vLLM), with ~19 MB proofs per 1,024 tokens; code, verifiers, and Lean proofs are on GitHub.",
+        "summary_zh": "Anthropic前沿紅隊釋出FlashProve，這是使用zkSNARK的開源（Apache 2.0）原型，讓開發者能驗證回應來自特定模型而不揭露權重。在Llama 4 Maverick（400B MoE、4-bit）上，單一H100以約110 tokens/秒產生證明（約為vLLM服務成本的70-95倍），每1,024 tokens證明約19 MB；程式碼、驗證器與Lean證明已放在GitHub。",
+        "analysis_en": "This advances practical cryptographic verification of model identity, addressing trust issues in routing, evaluation, and potential substitution. It remains a research prototype with high proving overhead, so near-term production impact depends on further efficiency gains and adoption by other labs.",
+        "analysis_zh": "此進展推進模型身份的實用密碼學驗證，解決路由、評估與可能替換的信任問題。它仍是研究原型且證明開銷高，近端生產影響取決於進一步效率提升與其他實驗室的採用。",
+        "quote": "Today, we release FlashProve: an open-source performant prototype for provable inference. For a 400B-parameter mixture-of-experts model (Llama 4 Maverick, 4-bit quantization), we show that a single H100 GPU generates proofs at over 100 tokens/second...",
+        "quote_zh": "今日我們釋出FlashProve：一個開源的高效可證明推論原型。對於400B參數的混合專家模型（Llama 4 Maverick，4-bit量化），我們展示單一H100 GPU以超過100 tokens/秒產生證明……",
+        "importance": 4,
+        "first_seen": "2026-11-04T16:35:00Z",
+        "updated_at": "2026-11-04T16:35:01.557867+00:00",
+        "links": [
+          {
+            "label": "Anthropic Research",
+            "url": "https://www.anthropic.com/research/provable-inference"
+          },
+          {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI/status/2117710942826123294"
+          }
+        ]
+      }
+    ],
+    "google": [
+      {
+        "id": "google-antigravity-cheminformatics-2026-11-03",
+        "story_id": "google-antigravity-cheminformatics-2026-11-03",
+        "category": "google",
+        "source_type": "official_blog",
+        "title_en": "Google DeepMind adds agentic cheminformatics skills to Antigravity for drug discovery",
+        "title_zh": "Google DeepMind為Antigravity新增代理化學資訊學技能以加速藥物發現",
+        "summary_en": "Google DeepMind released Cheminformatics Skills for Google Antigravity that combine language-model orchestration with deterministic tools (RDKit, ChEMBL, PubChem). In a lung-cancer example, an agent searched thousands of compounds, performed matched molecular pair analysis, and proposed rigidified macrocycles with synthetic routes in about one hour, versus days for traditional workflows. Skills are available now; up to 10,000 scientists can apply for free high-tier access for six months.",
+        "summary_zh": "Google DeepMind為Google Antigravity釋出化學資訊學技能，結合語言模型編排與確定性工具（RDKit、ChEMBL、PubChem）。以肺癌藥物為例，代理可在約一小時內搜尋數千種化合物、進行匹配分子對分析，並提出帶有合成路線的剛性大環分子，傳統流程通常需數天。技能現已提供；最多1萬名科學家可申請六個月免費高用量層級。",
+        "analysis_en": "The release shows agentic systems compressing multi-day medicinal chemistry loops into hours by delegating calculation to specialized tools while the model handles planning and reasoning. Outputs remain hypotheses requiring experimental validation; real acceleration depends on scientist adoption and integration into existing lab pipelines.",
+        "analysis_zh": "此釋出顯示代理系統透過將計算委託給專門工具、由模型負責規劃與推理，將多日藥物化學循環壓縮至數小時。產出仍為需實驗驗證的假設；真正加速取決於科學家採用程度與整合至現有實驗室流程的情況。",
+        "quote": "Here we show how Google Antigravity, equipped with our new Cheminformatics Skills, accelerates drug discovery workflows. Using real-world lung cancer treatments, an agent searches through thousands of compounds... in just an hour.",
+        "quote_zh": "在此我們展示配備新化學資訊學技能的Google Antigravity如何加速藥物發現工作流程。使用真實肺癌治療，代理搜尋數千種化合物……僅需約一小時。",
+        "importance": 3,
+        "first_seen": "2026-11-04T16:35:00Z",
+        "updated_at": "2026-11-04T16:35:01.557867+00:00",
+        "links": [
+          {
+            "label": "Google DeepMind Blog",
+            "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
+          }
+        ]
+      }
+    ],
+    "meta": [],
+    "xai": [],
+    "frontier_other": [
+      {
+        "id": "mistral-large-4-open-weights-2026-11-03",
+        "story_id": "mistral-large-4-open-weights-2026-11-03",
+        "category": "frontier_other",
+        "source_type": "news",
+        "title_en": "Mistral releases open weights for 1-trillion-parameter Large 4",
+        "title_zh": "Mistral釋出1兆參數Large 4開源權重",
+        "summary_en": "Mistral released the open weights of Mistral Large 4 (nicknamed Le Chonk), a natively multimodal MoE model with ~1 trillion total / ~49-52 billion active parameters, on Hugging Face under a modified MIT license. Trained on 3,800 Nvidia Grace Blackwell GPUs in European data centers, it is positioned as a top open model on agentic coding and cyber benchmarks, with API access also available.",
+        "summary_zh": "Mistral在Hugging Face上以修改版MIT授權釋出Mistral Large 4（暱稱Le Chonk）的開源權重，這是原生多模態MoE模型，總參數約1兆、活躍參數約490-520億。它在歐洲資料中心以3,800顆Nvidia Grace Blackwell GPU訓練，定位為代理編碼與網路基準上的頂尖開源模型，同時提供API存取。",
+        "analysis_en": "This strengthens the open-weight frontier outside the US closed labs, offering a high-capacity European alternative for coding and multimodal work. Adoption will hinge on inference cost, license terms for hosted services, and how it compares in real deployments against both closed and other open models.",
+        "analysis_zh": "此舉強化美國封閉實驗室以外的開源權重前沿，為編碼與多模態工作提供高容量歐洲替代方案。採用將取決於推論成本、託管服務的授權條款，以及在實際部署中與封閉及其他開源模型的比較。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 4,
+        "first_seen": "2026-11-04T16:35:00Z",
+        "updated_at": "2026-11-04T16:35:01.557867+00:00",
+        "links": [
+          {
+            "label": "Technology.org report",
+            "url": "https://www.technology.org/2026/11/03/mistral-large-4-open-weights-hugging-face-modified-mit/"
+          }
+        ]
+      }
+    ]
+  },
+  "brief_en": "OpenAI announced the acquisition of Pierre for Codex/Git tooling and expanded Daybreak Red cyber models to AWS GovCloud, while hiring a corporate affairs chief. Anthropic open-sourced FlashProve for verifiable model inference. Google DeepMind showed agentic cheminformatics speeding drug design on Antigravity. Mistral released open weights for its 1T-parameter Large 4.",
+  "brief_zh": "OpenAI宣布收購Pierre以強化Codex與Git工具，並將Daybreak Red網路模型擴至AWS GovCloud，同時任命企業事務長。Anthropic開源FlashProve以驗證模型推論。Google DeepMind展示Antigravity上的代理化學資訊學加速藥物設計。Mistral釋出1T參數Large 4開源權重。",
+  "updated_at": "2026-11-04T16:35:01.557867+00:00"
+}
