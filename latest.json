@@ -1,28 +1,12 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "runs": [
     {
-      "generated_at": "2026-11-05T16:35:00.509427+00:00",
+      "generated_at": "2026-11-06T16:35:01.943057+00:00",
       "backend": "grok-web",
       "model": "grok.com (browser)",
-      "item_count": 5,
+      "item_count": 4,
       "updated_count": 0,
-      "kept_count": 0
-    },
-    {
-      "generated_at": "2026-11-05T22:35:02.302015+00:00",
-      "backend": "grok-web",
-      "model": "grok.com (browser)",
-      "item_count": 10,
-      "updated_count": 5,
-      "kept_count": 0
-    },
-    {
-      "generated_at": "2026-11-06T04:35:01.467427+00:00",
-      "backend": "grok-web",
-      "model": "grok.com (browser)",
-      "item_count": 13,
-      "updated_count": 10,
       "kept_count": 0
     }
   ],
@@ -32,60 +16,21 @@
       "story_id": "openai-gpt6-cyber-2026-11-05",
       "category": "openai",
       "source_type": "official_blog",
-      "title_en": "OpenAI introduces GPT-6 Cyber, rated Critical for cybersecurity and available via Daybreak Red",
-      "title_zh": "OpenAI 推出 GPT-6 Cyber，網路安全評級 Critical，可透過 Daybreak Red 使用",
-      "summary_en": "OpenAI announced GPT-6 Cyber on November 5 as a major advance in aligned cybersecurity agents. It scores 48.5% on ExploitGym (up from 32.1% for GPT-5.6 Cyber), shows near-perfect scope adherence, and has already produced 948 Linux kernel exploits plus 81 novel high-severity Firefox vulnerabilities. Available to select Daybreak Red customers with access expanding.",
-      "summary_zh": "OpenAI 於 11 月 5 日宣布 GPT-6 Cyber，作為對齊網路安全代理的重大進展。它在 ExploitGym 得分 48.5%（較 GPT-5.6 Cyber 的 32.1% 提升），範圍遵循近乎完美，已產生 948 個 Linux 核心利用與 81 個 Firefox 高嚴重度新漏洞。目前提供給選定 Daybreak Red 客戶，並持續擴大存取。",
-      "analysis_en": "This is the clearest public signal yet that frontier models can move from assisted code review into autonomous exploit development and patch suggestion at scale. The Critical rating and real-world Linux/Firefox results raise the bar for both defensive use and dual-use risk in the narrow defenders’ window.",
-      "analysis_zh": "這是目前最明確的公開訊號，顯示前沿模型已能從輔助程式碼審查推進到大規模自主漏洞利用開發與修補建議。Critical 評級與 Linux/Firefox 真實結果，同時抬高了防禦用途與雙重用途風險的門檻。",
+      "title_en": "OpenAI introduces GPT-6 Cyber for aligned cybersecurity research",
+      "title_zh": "OpenAI 推出 GPT-6 Cyber 用於對齊的網路安全研究",
+      "summary_en": "OpenAI announced GPT-6 Cyber, a specialized model for finding and validating exploitable vulnerabilities while staying within researcher-set scope. It scores 48.5% on ExploitGym (vs 32.1% for GPT-5.6 Cyber), shows strong alignment gains, and has already produced 948 Linux privilege-escalation exploits plus 81 novel high-severity Firefox vulnerabilities. Access is limited to Daybreak Red organizations.",
+      "summary_zh": "OpenAI 宣布 GPT-6 Cyber，一款專門用於尋找與驗證可利用漏洞、並嚴格遵守研究者設定範圍的模型。它在 ExploitGym 得分 48.5%（GPT-5.6 Cyber 為 32.1%），對齊能力大幅提升，並已產出 948 個 Linux 提權漏洞利用與 81 個 Firefox 高嚴重度新漏洞。目前僅限 Daybreak Red 組織使用。",
+      "analysis_en": "Classifying the model as Critical under the Preparedness Framework marks a capability jump that OpenAI is deliberately gating. The real test is whether restricted access plus improved in-scope behavior can scale defensive use faster than offensive diffusion.",
+      "analysis_zh": "將模型列為 Preparedness 框架 Critical 級別，代表能力明顯跳躍，OpenAI 刻意加以限制。關鍵考驗在於受限存取加上更好的範圍內行為，能否讓防禦用途擴展得比攻擊擴散更快。",
       "quote": "We’re introducing GPT‑6 Cyber, a major leap in security research: more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set.",
-      "quote_zh": "我們推出 GPT‑6 Cyber，這是安全研究的重大飛躍：更能發現與修復漏洞，且遠更能可靠地留在研究人員設定的範圍內。",
+      "quote_zh": "我們推出 GPT‑6 Cyber，這是安全研究的重大躍進：更擅長發現與修復漏洞，且遠更能可靠地留在研究者設定的範圍內。",
       "importance": 5,
-      "first_seen": "2026-11-05T17:09:13Z",
-      "updated_at": "2026-11-06T04:35:01.467427+00:00",
+      "first_seen": "2026-11-06T16:35:00Z",
+      "updated_at": "2026-11-06T16:35:01.943057+00:00",
       "links": [
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/introducing-gpt-6-cyber/"
-        },
-        {
-          "label": "OpenAI on X",
-          "url": "https://x.com/OpenAI/status/2118390190246879554"
-        },
-        {
-          "label": "OpenAI on X",
-          "url": "https://x.com/openai/status/2118402103907655903"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-personal-finance-claude-2026-11-05",
-      "story_id": "anthropic-personal-finance-claude-2026-11-05",
-      "category": "anthropic",
-      "source_type": "official_blog",
-      "title_en": "Anthropic launches Personal Finance in Claude (US beta on Pro/Max/Ultra)",
-      "title_zh": "Anthropic 在 Claude 推出個人理財功能（美國 Pro/Max/Ultra beta）",
-      "summary_en": "Anthropic introduced Personal Finance in Claude on November 5. US users on Pro, Max, and Ultra plans can connect bank and card accounts via Plaid for read-only access; Claude answers questions about balances, spending categories, and transactions. It cannot move, manage, or invest money and provides no advice or ads.",
-      "summary_zh": "Anthropic 於 11 月 5 日在 Claude 推出個人理財功能。美國 Pro、Max 與 Ultra 用戶可透過 Plaid 連接銀行與信用卡帳戶進行唯讀存取；Claude 可回答餘額、支出類別與交易問題。它無法移動、管理或投資資金，也不提供建議或廣告。",
-      "analysis_en": "The read-only design and explicit non-advice stance reduce immediate regulatory exposure compared with agentic finance tools, yet connecting real bank data still expands Claude’s surface for sensitive personal information and sets a precedent for consumer financial agents.",
-      "analysis_zh": "唯讀設計與明確不提供建議的立場，相較於代理型金融工具降低了立即監管風險，但連接真實銀行數據仍擴大了 Claude 處理敏感個人資訊的範圍，並為消費者金融代理樹立先例。",
-      "quote": "Access is read-only, and Claude can't move, manage, or invest your money.",
-      "quote_zh": "存取為唯讀，Claude 無法移動、管理或投資你的資金。",
-      "importance": 4,
-      "first_seen": "2026-11-05T00:00:00Z",
-      "updated_at": "2026-11-06T04:35:01.467427+00:00",
-      "links": [
-        {
-          "label": "Claude Product Updates",
-          "url": "https://claude.com/resources/product-updates"
-        },
-        {
-          "label": "Claude on X",
-          "url": "https://x.com/claudeai"
-        },
-        {
-          "label": "Claude Product Update",
-          "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
         }
       ]
     },
@@ -94,315 +39,71 @@
       "story_id": "google-gemini-omni-1-2-flash-2026-11-05",
       "category": "google",
       "source_type": "official_blog",
-      "title_en": "Google releases Gemini Omni 1.2 Flash with 15-second video and 30% lower pricing",
-      "title_zh": "Google 發布 Gemini Omni 1.2 Flash，支援 15 秒影片並降價 30%",
-      "summary_en": "Google DeepMind and Google Cloud made Gemini Omni 1.2 Flash generally available on November 5. The update raises native video length from 10 to 15 seconds, adds multi-turn conversational editing, improves reference adherence and speech, and cuts API pricing by 30% (to $0.07 per second for 720p). Rolling out in Flow, Gemini app, Google Vids, AI Studio, and Gemini for Business.",
-      "summary_zh": "Google DeepMind 與 Google Cloud 於 11 月 5 日全面開放 Gemini Omni 1.2 Flash。更新將原生影片長度從 10 秒提升至 15 秒，新增多輪對話編輯，改善參考遵循與語音，並將 API 價格降低 30%（720p 每秒 $0.07）。在 Flow、Gemini 應用、Google Vids、AI Studio 與 Gemini for Business 逐步推出。",
-      "analysis_en": "Longer clips plus cheaper drafts-and-upscale workflows lower the barrier for high-volume commercial video (ads, try-ons, explainers). Consistency gains matter more for brand work than raw length, but 15 seconds still limits many narrative use cases.",
-      "analysis_zh": "更長片段加上更便宜的草稿與放大流程，降低了高量商業影片（廣告、試穿、說明）的門檻。一致性提升對品牌工作比單純長度更重要，但 15 秒仍限制許多敘事應用。",
-      "quote": "We’ve made the model more cost-effective, bumped the video generation and editing limit up to 15 seconds...",
-      "quote_zh": "我們讓模型更具成本效益，並將影片生成與編輯上限提升至 15 秒……",
+      "title_en": "Google makes Gemini Omni 1.2 Flash generally available",
+      "title_zh": "Google 將 Gemini Omni 1.2 Flash 全面開放",
+      "summary_en": "Google DeepMind and Google Cloud rolled out Gemini Omni 1.2 Flash to general availability on the Gemini API and Gemini for business. It supports native 15-second clips (up from 10s), multi-turn conversational editing, stronger reference adherence, and pricing of $0.07 per second for 720p—30% below Omni 1.1.",
+      "summary_zh": "Google DeepMind 與 Google Cloud 將 Gemini Omni 1.2 Flash 在 Gemini API 與 Gemini for business 全面開放。它支援原生 15 秒影片（從 10 秒提升）、多輪對話式編輯、更強參考遵循，720p 價格為每秒 0.07 美元，較 Omni 1.1 降低 30%。",
+      "analysis_en": "Longer native clips plus conversational editing and a price cut lower the barrier for production video workflows. Consistency and physics still remain the practical limits for high-stakes creative or commercial use.",
+      "analysis_zh": "更長的原生影片加上對話式編輯與降價，降低了生產級影片工作流的門檻。一致性與物理模擬仍是高風險創意或商業用途的實際限制。",
+      "quote": "Gemini Omni 1.2 Flash introduces native 15-second video creation, multi-turn conversational editing capabilities, and enhanced reference following. We have dropped the price 30% from Gemini Omni 1.1 making it available at $0.07 per second for 720p video.",
+      "quote_zh": "Gemini Omni 1.2 Flash 引入原生 15 秒影片創作、多輪對話式編輯能力與更強的參考遵循。我們將價格從 Gemini Omni 1.1 降低 30%，720p 影片每秒 0.07 美元。",
       "importance": 4,
-      "first_seen": "2026-11-05T17:08:19Z",
-      "updated_at": "2026-11-06T04:35:01.467427+00:00",
+      "first_seen": "2026-11-06T16:35:00Z",
+      "updated_at": "2026-11-06T16:35:01.943057+00:00",
       "links": [
-        {
-          "label": "Google DeepMind Blog",
-          "url": "https://deepmind.google/blog/"
-        },
-        {
-          "label": "Google AI on X",
-          "url": "https://x.com/GoogleAI/status/2118389961426874879"
-        },
         {
           "label": "Google Blog",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
-        },
-        {
-          "label": "Google Cloud Blog",
-          "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available"
         }
       ]
     },
     {
-      "id": "metr-anthropic-rd-acceleration-2026-11-05",
-      "story_id": "metr-anthropic-rd-acceleration-2026-11-05",
+      "id": "metr-anthropic-acceleration-report-2026-11-05",
+      "story_id": "metr-anthropic-acceleration-report-2026-11-05",
       "category": "anthropic",
       "source_type": "mixed",
-      "title_en": "METR publishes independent assessment: Anthropic’s AI R&D accelerating ~2x historical rate",
-      "title_zh": "METR 發布獨立評估：Anthropic AI 研發加速約達歷史速率 2 倍",
-      "summary_en": "On November 5 METR released a high-access evaluation (August–October 2026) of AI’s role in accelerating Anthropic’s R&D. It estimates Anthropic is improving well-specified task capabilities at roughly twice the March 2024–October 2025 rate (AECI 1.9x, 95% CI 1.5–2.8x), with a majority of current acceleration likely attributable to AI use. Significant evidence was redacted by Anthropic.",
-      "summary_zh": "METR 於 11 月 5 日發布高存取評估（2026 年 8 月至 10 月），檢視 AI 加速 Anthropic 研發的程度。估計 Anthropic 在明確任務能力上的改善速率約為 2024 年 3 月至 2025 年 10 月的兩倍（AECI 1.9 倍，95% 信賴區間 1.5–2.8 倍），當前加速的多數可能歸因於 AI 使用。Anthropic 已 redact 大量關鍵證據。",
-      "analysis_en": "The ~2x estimate, if sustained, is one of the strongest public signals of recursive improvement so far, but heavy redactions and remaining uncertainty about bottlenecks limit how much outsiders can independently verify or project the trajectory.",
-      "analysis_zh": "若 ~2 倍估計持續，將是目前最強烈的公開遞迴改進訊號之一，但大量 redact 與瓶頸不確定性，限制了外部獨立驗證或預測軌跡的能力。",
+      "title_en": "METR finds Anthropic improving capabilities at roughly twice prior pace",
+      "title_zh": "METR 發現 Anthropic 能力進步速度約為先前兩倍",
+      "summary_en": "Independent evaluator METR published an assessment after 11 weeks of internal access at Anthropic. It estimates AECI benchmark scores have grown at 1.9× the pre-October 2025 rate (95% CI 1.5–2.8×) since October 2025, with roughly 80% of the acceleration attributed to AI assistance in R&D rather than compute scaling. Anthropic redacted substantial portions of the evidence.",
+      "summary_zh": "獨立評估機構 METR 在 Anthropic 內部存取 11 週後發布評估。它估計自 2025 年 10 月起，AECI 基準分數成長速度為 2025 年 10 月前的 1.9 倍（95% 信賴區間 1.5–2.8 倍），約 80% 的加速來自 R&D 中的 AI 輔助而非算力擴展。Anthropic 刪減了大量證據。",
+      "analysis_en": "The report supplies one of the clearer external signals that AI-assisted R&D is already accelerating frontier progress, but heavy redactions and wide confidence intervals leave the exact magnitude and recursive-self-improvement implications uncertain.",
+      "analysis_zh": "報告提供了較清楚的外部訊號，顯示 AI 輔助 R&D 已在加速前沿進步，但大量刪減與寬廣的信賴區間，讓確切幅度與遞迴自我改進的意涵仍不確定。",
       "quote": "As of October 2026, Anthropic is likely improving the capabilities of their models on well-specified tasks at around twice the rate they did between March 2024 and October 2025.",
-      "quote_zh": "截至 2026 年 10 月，Anthropic 很可能在明確指定任務上，以約為 2024 年 3 月至 2025 年 10 月兩倍的速率提升模型能力。",
+      "quote_zh": "截至 2026 年 10 月，Anthropic 很可能在明確定義的任務上，以約為 2024 年 3 月至 2025 年 10 月兩倍的速度改進其模型能力。",
       "importance": 4,
-      "first_seen": "2026-11-05T08:00:00Z",
-      "updated_at": "2026-11-06T04:35:01.467427+00:00",
+      "first_seen": "2026-11-06T16:35:00Z",
+      "updated_at": "2026-11-06T16:35:01.943057+00:00",
       "links": [
         {
           "label": "METR Blog",
           "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/technology/anthropics-models-improving-nearly-twice-fast-with-help-ai-study-finds-2026-11-05/"
         }
       ]
     },
     {
-      "id": "openai-images-2-6-2026-11-04",
-      "story_id": "openai-images-2-6-2026-11-04",
-      "category": "openai",
-      "source_type": "official_blog",
-      "title_en": "OpenAI launches Images 2.6 with GIF creation, faster generation, and two new API models",
-      "title_zh": "OpenAI 推出 Images 2.6，支援 GIF 創作、更快生成與兩款新 API 模型",
-      "summary_en": "OpenAI announced Images 2.6 for ChatGPT, Codex, and the API on November 4. The update generates images 50% faster than the prior version, adds native GIF creation from prompts or images (with frame editing and speed control), and introduces GPT-Image-2.6 Sunburst and Flare models with markup-guided editing.",
-      "summary_zh": "OpenAI 於 11 月 4 日為 ChatGPT、Codex 與 API 宣布 Images 2.6。更新使圖像生成速度比前版快 50%，新增從提示或圖像原生建立 GIF（含幀編輯與速度控制），並推出 GPT-Image-2.6 Sunburst 與 Flare 模型，支援標記引導編輯。",
-      "analysis_en": "The release expands OpenAI’s image stack from static generation into lightweight animation and tighter iterative editing, which matters for consumer and developer workflows that previously required external tools.",
-      "analysis_zh": "此版本將 OpenAI 的圖像堆疊從靜態生成擴展到輕量動畫與更緊密的迭代編輯，對先前需要外部工具的消費者與開發者工作流程有實質影響。",
-      "quote": "Our new image generation model creates images faster and is better at preserving details across edits...",
-      "quote_zh": "我們的新圖像生成模型更快建立圖像，並在編輯過程中更好地保留細節……",
-      "importance": 4,
-      "first_seen": "2026-11-05T16:35:00Z",
-      "updated_at": "2026-11-06T04:35:01.467427+00:00",
-      "links": [
-        {
-          "label": "OpenAI Blog",
-          "url": "https://openai.com/index/introducing-images-2-6/"
-        },
-        {
-          "label": "OpenAI Platform Changelog",
-          "url": "https://platform.openai.com/docs/changelog"
-        },
-        {
-          "label": "OpenAI on X",
-          "url": "https://x.com/OpenAI/status/2118124966055223755"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-riot-corsicana-lease-2026-11-05",
-      "story_id": "anthropic-riot-corsicana-lease-2026-11-05",
-      "category": "anthropic",
-      "source_type": "news",
-      "title_en": "Riot Platforms names Anthropic as tenant of $28B Corsicana, Texas campus lease",
-      "title_zh": "Riot Platforms 指明 Anthropic 為德州 Corsicana $280 億園區租戶",
-      "summary_en": "In its Q3 2026 10-Q filed November 4–5, Riot Platforms identified Anthropic PBC as the counterparty to a 15-year lease covering 910 MW of critical IT capacity at its Corsicana, Texas campus, valued at roughly $28 billion in contracted revenue.",
-      "summary_zh": "Riot Platforms 在 11 月 4–5 日提交的 2026 年第三季 10-Q 中，指明 Anthropic PBC 為其德州 Corsicana 園區 15 年租約的相對方，涵蓋 910 MW 關鍵 IT 容量，合約收入約 280 億美元。",
-      "analysis_en": "The disclosure confirms Anthropic as a major long-term power and capacity customer of a Bitcoin-miner-turned-data-center landlord, underscoring the scale of compute commitments from frontier labs.",
-      "analysis_zh": "此揭露確認 Anthropic 是比特幣礦商轉型資料中心房東的主要長期電力與容量客戶，凸顯前沿實驗室的運算承諾規模。",
-      "quote": "",
-      "quote_zh": "",
-      "importance": 4,
-      "first_seen": "2026-11-05T16:35:00Z",
-      "updated_at": "2026-11-06T04:35:01.467427+00:00",
-      "links": [
-        {
-          "label": "Riot Platforms 10-Q (via filings)",
-          "url": "https://www.sec.gov/"
-        },
-        {
-          "label": "Bitcoin Magazine",
-          "url": "https://bitcoinmagazine.com/news/riot-names-anthropic-texas-lease"
-        },
-        {
-          "label": "Riot 10-Q (SEC)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926122417/riot-20260930x10q.htm"
-        }
-      ]
-    },
-    {
-      "id": "openai-infrastructure-compact-2026-11-05",
-      "story_id": "openai-infrastructure-compact-2026-11-05",
-      "category": "openai",
-      "source_type": "official_blog",
-      "title_en": "OpenAI publishes National Community Compact and Compute Campus Policy Blueprint",
-      "title_zh": "OpenAI 發布國家社區契約與運算園區政策藍圖",
-      "summary_en": "On November 5 OpenAI released its National Community Compact (commitments for owned campuses: pay full electricity and infrastructure costs, water plans, noise studies, local hiring) and a Compute Campus Policy Blueprint proposing broader rules so communities have a voice and share economic gains.",
-      "summary_zh": "OpenAI 於 11 月 5 日發布國家社區契約（自有園區承諾：支付全額電力與基礎設施成本、水資源計畫、噪音研究、在地雇用）以及運算園區政策藍圖，建議更廣泛規則讓社區有發言權並分享經濟收益。",
-      "analysis_en": "The voluntary compact addresses growing local opposition to data centers but applies only to OpenAI-owned sites; the policy blueprint is a bid to shape national rules while the political window for AI infrastructure remains open.",
-      "analysis_zh": "自願契約針對資料中心日益增長的地方反對，但僅適用於 OpenAI 自有場址；政策藍圖則是試圖在 AI 基礎設施政治窗口仍開時塑造國家規則。",
-      "quote": "Today we’re publishing our National Community Compact and a Compute Campus Policy Blueprint.",
-      "quote_zh": "今天我們發布國家社區契約與運算園區政策藍圖。",
-      "importance": 3,
-      "first_seen": "2026-11-05T08:00:00Z",
-      "updated_at": "2026-11-06T04:35:01.467427+00:00",
-      "links": [
-        {
-          "label": "OpenAI Blog",
-          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-enterprise-security-controls-2026-11-05",
-      "story_id": "anthropic-enterprise-security-controls-2026-11-05",
+      "id": "anthropic-personal-finance-claude-2026-11-05",
+      "story_id": "anthropic-personal-finance-claude-2026-11-05",
       "category": "anthropic",
       "source_type": "official_blog",
-      "title_en": "Anthropic adds security center, inference hooks, and admin controls to Claude Enterprise",
-      "title_zh": "Anthropic 為 Claude Enterprise 新增安全中心、推論鉤子與管理員控制",
-      "summary_en": "On November 5 Anthropic published new Claude Enterprise features for security teams: a security center that compares settings to recommended configurations, generally available inference hooks that send prompts and tool calls to external data loss prevention systems, and additional admin controls including IP allowlists and remote sign-out.",
-      "summary_zh": "Anthropic 於 11 月 5 日發布 Claude Enterprise 新安全團隊功能：安全中心可比較設定與建議配置、一般可用的推論鉤子將提示與工具呼叫送至外部資料外洩防護系統，以及額外管理員控制（含 IP 允許清單與遠端登出）。",
-      "analysis_en": "These controls address the operational reality of deploying coding and agentic features at enterprise scale. Inference hooks in particular give security teams a practical intercept point that was previously harder to enforce.",
-      "analysis_zh": "這些控制回應了在企業規模部署編碼與代理功能的操作現實。推論鉤子尤其為安全團隊提供了先前較難執行的實用攔截點。",
-      "quote": "Claude Enterprise has new security and admin features, including a security center, generally available inference hooks, centralized management, and additional access controls.",
-      "quote_zh": "Claude Enterprise新增安全與管理功能，包括安全中心、正式可用的推論鉤子、集中管理與額外存取控管。",
+      "title_en": "Anthropic launches Personal Finance beta in Claude",
+      "title_zh": "Anthropic 在 Claude 推出 Personal Finance 測試版",
+      "summary_en": "Anthropic began rolling out Personal Finance in Claude as a US beta for Pro, Max, and Ultra plans. Users can link bank and card accounts via Plaid for read-only access; Claude answers questions about balances, spending, and bills in plain language, with no ads and no training on finance-hub conversations.",
+      "summary_zh": "Anthropic 開始向美國 Pro、Max 與 Ultra 方案推出 Claude 的 Personal Finance 測試版。用戶可透過 Plaid 連結銀行與信用卡帳戶（僅讀取）；Claude 以日常語言回答餘額、支出與帳單問題，無廣告，且金融中心對話不用於訓練。",
+      "analysis_en": "Read-only bank linking expands Claude from general assistant into personal financial context, but the value depends on accuracy of categorization and user willingness to share sensitive data. It is not investment advice and remains US-only for now.",
+      "analysis_zh": "僅讀取的銀行連結讓 Claude 從通用助理擴展到個人財務脈絡，但價值取決於分類準確度與用戶分享敏感資料的意願。它不是投資建議，目前也僅限美國。",
+      "quote": "With Personal Finance in Claude, you can securely connect your bank and card accounts and ask in your own words. Access is read-only, and Personal Finance can’t move, manage, or invest your money.",
+      "quote_zh": "有了 Claude 的 Personal Finance，你可以安全連結銀行與信用卡帳戶，並用自己的話提問。存取僅限讀取，Personal Finance 無法移動、管理或投資你的金錢。",
       "importance": 3,
-      "first_seen": "2026-11-05T00:00:00Z",
-      "updated_at": "2026-11-06T04:35:01.467427+00:00",
+      "first_seen": "2026-11-06T16:35:00Z",
+      "updated_at": "2026-11-06T16:35:01.943057+00:00",
       "links": [
         {
-          "label": "Claude Product Updates",
-          "url": "https://claude.com/resources/product-updates"
-        },
-        {
-          "label": "Claude Docs Release Notes",
-          "url": "https://docs.anthropic.com/en/release-notes/overview"
-        },
-        {
-          "label": "Claude Product Update",
-          "url": "https://claude.com/resources/articles/claude-enterprise-security-updates"
-        }
-      ]
-    },
-    {
-      "id": "meta-muse-voice-avatars-2026-11-05",
-      "story_id": "meta-muse-voice-avatars-2026-11-05",
-      "category": "meta",
-      "source_type": "official_blog",
-      "title_en": "Meta rolls out real-time voice and expressive avatars in the Muse app",
-      "title_zh": "Meta 在 Muse 應用推出即時語音與表情化身",
-      "summary_en": "Meta announced on November 5 that voice conversations and expressive avatars are rolling out in the Muse app (US first, mobile/web/Mac). Users tap a phone icon to speak; Muse responds in real time, can be interrupted, continues background work, and displays reactive avatars.",
-      "summary_zh": "Meta 於 11 月 5 日宣布，語音對話與表情化身正於 Muse 應用推出（美國優先，手機/網頁/Mac）。用戶點擊電話圖示說話；Muse 即時回應、可被打斷、持續背景工作，並顯示反應式化身。",
-      "analysis_en": "Voice plus a reactive avatar moves Muse closer to the always-available personal agent Meta has described, especially for hands-free or walk-and-talk use. US-only rollout and the still-limited model base remain constraints.",
-      "analysis_zh": "語音加上反應式化身，讓 Muse 更接近 Meta 描述的隨時可用個人代理，尤其適合免持或邊走邊談使用。僅美國推出與仍有限的模型基礎仍是限制。",
-      "quote": "We’re rolling out voice and expressive avatars in the Muse app, giving you a new, natural way to interact with your Muse.",
-      "quote_zh": "我們在Muse應用程式推出語音與表情頭像，讓你以更自然的方式與Muse互動。",
-      "importance": 3,
-      "first_seen": "2026-11-05T00:00:00Z",
-      "updated_at": "2026-11-06T04:35:01.467427+00:00",
-      "links": [
-        {
-          "label": "Meta Newsroom",
-          "url": "https://about.fb.com/news/"
-        },
-        {
-          "label": "Meta Newsroom",
-          "url": "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/"
-        }
-      ]
-    },
-    {
-      "id": "mistral-skiplabs-acquisition-2026-11-05",
-      "story_id": "mistral-skiplabs-acquisition-2026-11-05",
-      "category": "frontier_other",
-      "source_type": "news",
-      "title_en": "Mistral acquires SkipLabs to accelerate AI code generation",
-      "title_zh": "Mistral 收購 SkipLabs 以加速 AI 程式碼生成",
-      "summary_en": "On November 5 Mistral announced its fifth acquisition of 2026: SkipLabs, a French/UK startup founded by former Meta engineer Julien Verlaguet that builds tools for faster, more reliable AI code generation. The team joins chief scientist Guillaume Lample; price undisclosed.",
-      "summary_zh": "Mistral 於 11 月 5 日宣布 2026 年第五次收購：SkipLabs，由前 Meta 工程師 Julien Verlaguet 創立的法/英新創，開發更快、更可靠的 AI 程式碼生成工具。團隊將加入首席科學家 Guillaume Lample；價格未公開。",
-      "analysis_en": "The deal continues Mistral’s vertical expansion strategy (code, industrial AI, advertising) while reinforcing its European talent and sovereignty narrative at a time when open-weight frontier models are closing capability gaps.",
-      "analysis_zh": "此交易延續 Mistral 的垂直擴張策略（程式碼、工業 AI、廣告），同時在開源前沿模型縮小能力差距時，強化其歐洲人才與主權敘事。",
-      "quote": "",
-      "quote_zh": "",
-      "importance": 3,
-      "first_seen": "2026-11-05T15:00:00Z",
-      "updated_at": "2026-11-06T04:35:01.467427+00:00",
-      "links": [
-        {
-          "label": "Les Echos",
-          "url": "https://www.lesechos.fr/tech-medias/intelligence-artificielle/mistral-accelere-dans-le-code-genere-par-ia-grace-a-une-nouvelle-acquisition-2261330"
-        },
-        {
-          "label": "Maddyness",
-          "url": "https://www.maddyness.com/2026/11/05/mistral-ai-soffre-une-cinquieme-acquisition-depuis-le-debut-de-lannee/"
-        }
-      ]
-    },
-    {
-      "id": "openai-acquire-pierre-computer-2026-11-04",
-      "story_id": "openai-acquire-pierre-computer-2026-11-04",
-      "category": "openai",
-      "source_type": "official_blog",
-      "title_en": "OpenAI to acquire Pierre Computer to deepen Codex code infrastructure",
-      "title_zh": "OpenAI 將收購 Pierre Computer 以深化 Codex 程式碼基礎設施",
-      "summary_en": "OpenAI announced on November 4 that it will acquire Pierre Computer Company, the startup behind Code Storage and open-source developer tools (Trees and Diffs) already used in Codex. The deal aims to advance source control for agentic coding agents.",
-      "summary_zh": "OpenAI 於 11 月 4 日宣布將收購 Pierre Computer Company，該新創開發 Code Storage 與已用於 Codex 的開源開發工具（Trees 與 Diffs）。交易旨在推進代理編碼的原始碼控制。",
-      "analysis_en": "The move gives OpenAI more control over the storage and review layer that coding agents depend on, positioning Codex as a more self-contained platform rather than relying solely on external git providers.",
-      "analysis_zh": "此舉讓 OpenAI 更能控制編碼代理所依賴的儲存與審查層，將 Codex 定位為更自給自足的平台，而非僅依賴外部 git 供應商。",
-      "quote": "Today we're announcing that OpenAI will acquire Pierre Computer Company, Inc. ... Once the acquisition closes, our ambition is to advance the future of source control across the industry.",
-      "quote_zh": "今天我們宣布 OpenAI 將收購 Pierre Computer Company, Inc。……收購完成後，我們的目標是推動整個產業的原始碼控制未來發展。",
-      "importance": 3,
-      "first_seen": "2026-11-05T16:35:00Z",
-      "updated_at": "2026-11-06T04:35:01.467427+00:00",
-      "links": [
-        {
-          "label": "OpenAI Blog",
-          "url": "https://openai.com/index/openai-to-acquire-pierre/"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-vault-particle-structure-2026-11-04",
-      "story_id": "anthropic-vault-particle-structure-2026-11-04",
-      "category": "anthropic",
-      "source_type": "official_blog",
-      "title_en": "Anthropic biology team uses Claude to map first 3D structure of a bacterial vault particle",
-      "title_zh": "Anthropic 生物學團隊使用 Claude 繪製細菌 vault 粒子首個 3D 結構",
-      "summary_en": "On November 4 Anthropic published research from its biology team showing that Claude assisted at multiple stages—sequence search, isolation optimization, and structure determination—to produce the first 3D cryo-EM structure of a vault-like particle from bacteria.",
-      "summary_zh": "Anthropic 於 11 月 4 日發布生物學團隊研究，顯示 Claude 在多階段協助——序列搜尋、分離優化與結構測定——產生細菌類 vault 粒子的首個 3D cryo-EM 結構。",
-      "analysis_en": "The result is a concrete example of an AI model participating in a multi-step structural biology workflow rather than only literature summarization. Function of vaults remains unknown, so scientific impact is still early.",
-      "analysis_zh": "此結果是 AI 模型參與多步驟結構生物學工作流程（而非僅文獻摘要）的具體例子。Vault 功能仍未知，科學影響仍屬早期。",
-      "quote": "We’re sharing how our biology research team worked with Claude to map the first 3D structure of a vault particle from bacterial life.",
-      "quote_zh": "我們分享生物學研究團隊如何與 Claude 合作，繪製細菌生命中 vault 粒子的首個 3D 結構。",
-      "importance": 3,
-      "first_seen": "2026-11-05T16:35:00Z",
-      "updated_at": "2026-11-06T04:35:01.467427+00:00",
-      "links": [
-        {
-          "label": "Anthropic News",
-          "url": "https://www.anthropic.com/news"
-        },
-        {
-          "label": "Anthropic Research",
-          "url": "https://www.anthropic.com/research"
-        },
-        {
-          "label": "Anthropic Research",
-          "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude"
-        },
-        {
-          "label": "Anthropic on X",
-          "url": "https://x.com/AnthropicAI/status/2118073667858887068"
-        }
-      ]
-    },
-    {
-      "id": "cat-wu-joins-openai-core-products-2026-11-05",
-      "story_id": "cat-wu-joins-openai-core-products-2026-11-05",
-      "category": "openai",
-      "source_type": "mixed",
-      "title_en": "Cat Wu, former Claude Code product lead, joins OpenAI to lead Core Products PM",
-      "title_zh": "前 Claude Code 產品負責人 Cat Wu 加入 OpenAI 領導 Core Products PM",
-      "summary_en": "On November 5 Cat Wu announced on X that she is joining OpenAI to lead product management for Core Products, after stating that her last day at Anthropic was late October. She previously led product for Claude Code and Cowork. OpenAI confirmed the hire.",
-      "summary_zh": "Cat Wu 於 11 月 5 日在 X 宣布加入 OpenAI 領導 Core Products 產品管理，並表示她在 Anthropic 的最後一天是 10 月下旬。她先前領導 Claude Code 與 Cowork 產品。OpenAI 已確認此聘用。",
-      "analysis_en": "The move is a notable talent shift in the coding-agent race between Claude Code and Codex. Product leadership continuity at Anthropic on its highest-visibility developer tool is now interrupted.",
-      "analysis_zh": "此舉是 Claude Code 與 Codex 編碼代理競賽中的顯著人才流動。Anthropic 在其最高曝光開發者工具上的產品領導連續性現已中斷。",
-      "quote": "Some news: I’m joining OpenAI to lead product management for Core Products! I have a lot of respect for OpenAI for showing the world that scaling works, for bringing AI to over a billion people, and for believing great products are core to the mission.",
-      "quote_zh": "一些消息：我即將加入 OpenAI，領導核心產品的產品管理工作！我很尊敬 OpenAI 向世界證明擴大規模有效、將 AI 帶到超過十億人，並相信優秀產品是使命的核心。",
-      "importance": 3,
-      "first_seen": "2026-11-05T16:35:00Z",
-      "updated_at": "2026-11-06T04:35:01.467427+00:00",
-      "links": [
-        {
-          "label": "Cat Wu on X",
-          "url": "https://x.com/"
-        },
-        {
-          "label": "Business Insider",
-          "url": "https://www.businessinsider.com/cat-wu-joins-openai-from-anthropic-product-lead-coup-2026-11"
-        },
-        {
-          "label": "The Next Web",
-          "url": "https://thenextweb.com/news/cat-wu-claude-code-anthropic-openai-core-products"
+          "label": "Anthropic / Claude Blog",
+          "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
         }
       ]
     }
@@ -414,290 +115,73 @@
         "story_id": "openai-gpt6-cyber-2026-11-05",
         "category": "openai",
         "source_type": "official_blog",
-        "title_en": "OpenAI introduces GPT-6 Cyber, rated Critical for cybersecurity and available via Daybreak Red",
-        "title_zh": "OpenAI 推出 GPT-6 Cyber，網路安全評級 Critical，可透過 Daybreak Red 使用",
-        "summary_en": "OpenAI announced GPT-6 Cyber on November 5 as a major advance in aligned cybersecurity agents. It scores 48.5% on ExploitGym (up from 32.1% for GPT-5.6 Cyber), shows near-perfect scope adherence, and has already produced 948 Linux kernel exploits plus 81 novel high-severity Firefox vulnerabilities. Available to select Daybreak Red customers with access expanding.",
-        "summary_zh": "OpenAI 於 11 月 5 日宣布 GPT-6 Cyber，作為對齊網路安全代理的重大進展。它在 ExploitGym 得分 48.5%（較 GPT-5.6 Cyber 的 32.1% 提升），範圍遵循近乎完美，已產生 948 個 Linux 核心利用與 81 個 Firefox 高嚴重度新漏洞。目前提供給選定 Daybreak Red 客戶，並持續擴大存取。",
-        "analysis_en": "This is the clearest public signal yet that frontier models can move from assisted code review into autonomous exploit development and patch suggestion at scale. The Critical rating and real-world Linux/Firefox results raise the bar for both defensive use and dual-use risk in the narrow defenders’ window.",
-        "analysis_zh": "這是目前最明確的公開訊號，顯示前沿模型已能從輔助程式碼審查推進到大規模自主漏洞利用開發與修補建議。Critical 評級與 Linux/Firefox 真實結果，同時抬高了防禦用途與雙重用途風險的門檻。",
+        "title_en": "OpenAI introduces GPT-6 Cyber for aligned cybersecurity research",
+        "title_zh": "OpenAI 推出 GPT-6 Cyber 用於對齊的網路安全研究",
+        "summary_en": "OpenAI announced GPT-6 Cyber, a specialized model for finding and validating exploitable vulnerabilities while staying within researcher-set scope. It scores 48.5% on ExploitGym (vs 32.1% for GPT-5.6 Cyber), shows strong alignment gains, and has already produced 948 Linux privilege-escalation exploits plus 81 novel high-severity Firefox vulnerabilities. Access is limited to Daybreak Red organizations.",
+        "summary_zh": "OpenAI 宣布 GPT-6 Cyber，一款專門用於尋找與驗證可利用漏洞、並嚴格遵守研究者設定範圍的模型。它在 ExploitGym 得分 48.5%（GPT-5.6 Cyber 為 32.1%），對齊能力大幅提升，並已產出 948 個 Linux 提權漏洞利用與 81 個 Firefox 高嚴重度新漏洞。目前僅限 Daybreak Red 組織使用。",
+        "analysis_en": "Classifying the model as Critical under the Preparedness Framework marks a capability jump that OpenAI is deliberately gating. The real test is whether restricted access plus improved in-scope behavior can scale defensive use faster than offensive diffusion.",
+        "analysis_zh": "將模型列為 Preparedness 框架 Critical 級別，代表能力明顯跳躍，OpenAI 刻意加以限制。關鍵考驗在於受限存取加上更好的範圍內行為，能否讓防禦用途擴展得比攻擊擴散更快。",
         "quote": "We’re introducing GPT‑6 Cyber, a major leap in security research: more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set.",
-        "quote_zh": "我們推出 GPT‑6 Cyber，這是安全研究的重大飛躍：更能發現與修復漏洞，且遠更能可靠地留在研究人員設定的範圍內。",
+        "quote_zh": "我們推出 GPT‑6 Cyber，這是安全研究的重大躍進：更擅長發現與修復漏洞，且遠更能可靠地留在研究者設定的範圍內。",
         "importance": 5,
-        "first_seen": "2026-11-05T17:09:13Z",
-        "updated_at": "2026-11-06T04:35:01.467427+00:00",
+        "first_seen": "2026-11-06T16:35:00Z",
+        "updated_at": "2026-11-06T16:35:01.943057+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/introducing-gpt-6-cyber/"
-          },
-          {
-            "label": "OpenAI on X",
-            "url": "https://x.com/OpenAI/status/2118390190246879554"
-          },
-          {
-            "label": "OpenAI on X",
-            "url": "https://x.com/openai/status/2118402103907655903"
-          }
-        ]
-      },
-      {
-        "id": "openai-images-2-6-2026-11-04",
-        "story_id": "openai-images-2-6-2026-11-04",
-        "category": "openai",
-        "source_type": "official_blog",
-        "title_en": "OpenAI launches Images 2.6 with GIF creation, faster generation, and two new API models",
-        "title_zh": "OpenAI 推出 Images 2.6，支援 GIF 創作、更快生成與兩款新 API 模型",
-        "summary_en": "OpenAI announced Images 2.6 for ChatGPT, Codex, and the API on November 4. The update generates images 50% faster than the prior version, adds native GIF creation from prompts or images (with frame editing and speed control), and introduces GPT-Image-2.6 Sunburst and Flare models with markup-guided editing.",
-        "summary_zh": "OpenAI 於 11 月 4 日為 ChatGPT、Codex 與 API 宣布 Images 2.6。更新使圖像生成速度比前版快 50%，新增從提示或圖像原生建立 GIF（含幀編輯與速度控制），並推出 GPT-Image-2.6 Sunburst 與 Flare 模型，支援標記引導編輯。",
-        "analysis_en": "The release expands OpenAI’s image stack from static generation into lightweight animation and tighter iterative editing, which matters for consumer and developer workflows that previously required external tools.",
-        "analysis_zh": "此版本將 OpenAI 的圖像堆疊從靜態生成擴展到輕量動畫與更緊密的迭代編輯，對先前需要外部工具的消費者與開發者工作流程有實質影響。",
-        "quote": "Our new image generation model creates images faster and is better at preserving details across edits...",
-        "quote_zh": "我們的新圖像生成模型更快建立圖像，並在編輯過程中更好地保留細節……",
-        "importance": 4,
-        "first_seen": "2026-11-05T16:35:00Z",
-        "updated_at": "2026-11-06T04:35:01.467427+00:00",
-        "links": [
-          {
-            "label": "OpenAI Blog",
-            "url": "https://openai.com/index/introducing-images-2-6/"
-          },
-          {
-            "label": "OpenAI Platform Changelog",
-            "url": "https://platform.openai.com/docs/changelog"
-          },
-          {
-            "label": "OpenAI on X",
-            "url": "https://x.com/OpenAI/status/2118124966055223755"
-          }
-        ]
-      },
-      {
-        "id": "openai-infrastructure-compact-2026-11-05",
-        "story_id": "openai-infrastructure-compact-2026-11-05",
-        "category": "openai",
-        "source_type": "official_blog",
-        "title_en": "OpenAI publishes National Community Compact and Compute Campus Policy Blueprint",
-        "title_zh": "OpenAI 發布國家社區契約與運算園區政策藍圖",
-        "summary_en": "On November 5 OpenAI released its National Community Compact (commitments for owned campuses: pay full electricity and infrastructure costs, water plans, noise studies, local hiring) and a Compute Campus Policy Blueprint proposing broader rules so communities have a voice and share economic gains.",
-        "summary_zh": "OpenAI 於 11 月 5 日發布國家社區契約（自有園區承諾：支付全額電力與基礎設施成本、水資源計畫、噪音研究、在地雇用）以及運算園區政策藍圖，建議更廣泛規則讓社區有發言權並分享經濟收益。",
-        "analysis_en": "The voluntary compact addresses growing local opposition to data centers but applies only to OpenAI-owned sites; the policy blueprint is a bid to shape national rules while the political window for AI infrastructure remains open.",
-        "analysis_zh": "自願契約針對資料中心日益增長的地方反對，但僅適用於 OpenAI 自有場址；政策藍圖則是試圖在 AI 基礎設施政治窗口仍開時塑造國家規則。",
-        "quote": "Today we’re publishing our National Community Compact and a Compute Campus Policy Blueprint.",
-        "quote_zh": "今天我們發布國家社區契約與運算園區政策藍圖。",
-        "importance": 3,
-        "first_seen": "2026-11-05T08:00:00Z",
-        "updated_at": "2026-11-06T04:35:01.467427+00:00",
-        "links": [
-          {
-            "label": "OpenAI Blog",
-            "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/"
-          }
-        ]
-      },
-      {
-        "id": "openai-acquire-pierre-computer-2026-11-04",
-        "story_id": "openai-acquire-pierre-computer-2026-11-04",
-        "category": "openai",
-        "source_type": "official_blog",
-        "title_en": "OpenAI to acquire Pierre Computer to deepen Codex code infrastructure",
-        "title_zh": "OpenAI 將收購 Pierre Computer 以深化 Codex 程式碼基礎設施",
-        "summary_en": "OpenAI announced on November 4 that it will acquire Pierre Computer Company, the startup behind Code Storage and open-source developer tools (Trees and Diffs) already used in Codex. The deal aims to advance source control for agentic coding agents.",
-        "summary_zh": "OpenAI 於 11 月 4 日宣布將收購 Pierre Computer Company，該新創開發 Code Storage 與已用於 Codex 的開源開發工具（Trees 與 Diffs）。交易旨在推進代理編碼的原始碼控制。",
-        "analysis_en": "The move gives OpenAI more control over the storage and review layer that coding agents depend on, positioning Codex as a more self-contained platform rather than relying solely on external git providers.",
-        "analysis_zh": "此舉讓 OpenAI 更能控制編碼代理所依賴的儲存與審查層，將 Codex 定位為更自給自足的平台，而非僅依賴外部 git 供應商。",
-        "quote": "Today we're announcing that OpenAI will acquire Pierre Computer Company, Inc. ... Once the acquisition closes, our ambition is to advance the future of source control across the industry.",
-        "quote_zh": "今天我們宣布 OpenAI 將收購 Pierre Computer Company, Inc。……收購完成後，我們的目標是推動整個產業的原始碼控制未來發展。",
-        "importance": 3,
-        "first_seen": "2026-11-05T16:35:00Z",
-        "updated_at": "2026-11-06T04:35:01.467427+00:00",
-        "links": [
-          {
-            "label": "OpenAI Blog",
-            "url": "https://openai.com/index/openai-to-acquire-pierre/"
-          }
-        ]
-      },
-      {
-        "id": "cat-wu-joins-openai-core-products-2026-11-05",
-        "story_id": "cat-wu-joins-openai-core-products-2026-11-05",
-        "category": "openai",
-        "source_type": "mixed",
-        "title_en": "Cat Wu, former Claude Code product lead, joins OpenAI to lead Core Products PM",
-        "title_zh": "前 Claude Code 產品負責人 Cat Wu 加入 OpenAI 領導 Core Products PM",
-        "summary_en": "On November 5 Cat Wu announced on X that she is joining OpenAI to lead product management for Core Products, after stating that her last day at Anthropic was late October. She previously led product for Claude Code and Cowork. OpenAI confirmed the hire.",
-        "summary_zh": "Cat Wu 於 11 月 5 日在 X 宣布加入 OpenAI 領導 Core Products 產品管理，並表示她在 Anthropic 的最後一天是 10 月下旬。她先前領導 Claude Code 與 Cowork 產品。OpenAI 已確認此聘用。",
-        "analysis_en": "The move is a notable talent shift in the coding-agent race between Claude Code and Codex. Product leadership continuity at Anthropic on its highest-visibility developer tool is now interrupted.",
-        "analysis_zh": "此舉是 Claude Code 與 Codex 編碼代理競賽中的顯著人才流動。Anthropic 在其最高曝光開發者工具上的產品領導連續性現已中斷。",
-        "quote": "Some news: I’m joining OpenAI to lead product management for Core Products! I have a lot of respect for OpenAI for showing the world that scaling works, for bringing AI to over a billion people, and for believing great products are core to the mission.",
-        "quote_zh": "一些消息：我即將加入 OpenAI，領導核心產品的產品管理工作！我很尊敬 OpenAI 向世界證明擴大規模有效、將 AI 帶到超過十億人，並相信優秀產品是使命的核心。",
-        "importance": 3,
-        "first_seen": "2026-11-05T16:35:00Z",
-        "updated_at": "2026-11-06T04:35:01.467427+00:00",
-        "links": [
-          {
-            "label": "Cat Wu on X",
-            "url": "https://x.com/"
-          },
-          {
-            "label": "Business Insider",
-            "url": "https://www.businessinsider.com/cat-wu-joins-openai-from-anthropic-product-lead-coup-2026-11"
-          },
-          {
-            "label": "The Next Web",
-            "url": "https://thenextweb.com/news/cat-wu-claude-code-anthropic-openai-core-products"
           }
         ]
       }
     ],
     "anthropic": [
       {
-        "id": "anthropic-personal-finance-claude-2026-11-05",
-        "story_id": "anthropic-personal-finance-claude-2026-11-05",
-        "category": "anthropic",
-        "source_type": "official_blog",
-        "title_en": "Anthropic launches Personal Finance in Claude (US beta on Pro/Max/Ultra)",
-        "title_zh": "Anthropic 在 Claude 推出個人理財功能（美國 Pro/Max/Ultra beta）",
-        "summary_en": "Anthropic introduced Personal Finance in Claude on November 5. US users on Pro, Max, and Ultra plans can connect bank and card accounts via Plaid for read-only access; Claude answers questions about balances, spending categories, and transactions. It cannot move, manage, or invest money and provides no advice or ads.",
-        "summary_zh": "Anthropic 於 11 月 5 日在 Claude 推出個人理財功能。美國 Pro、Max 與 Ultra 用戶可透過 Plaid 連接銀行與信用卡帳戶進行唯讀存取；Claude 可回答餘額、支出類別與交易問題。它無法移動、管理或投資資金，也不提供建議或廣告。",
-        "analysis_en": "The read-only design and explicit non-advice stance reduce immediate regulatory exposure compared with agentic finance tools, yet connecting real bank data still expands Claude’s surface for sensitive personal information and sets a precedent for consumer financial agents.",
-        "analysis_zh": "唯讀設計與明確不提供建議的立場，相較於代理型金融工具降低了立即監管風險，但連接真實銀行數據仍擴大了 Claude 處理敏感個人資訊的範圍，並為消費者金融代理樹立先例。",
-        "quote": "Access is read-only, and Claude can't move, manage, or invest your money.",
-        "quote_zh": "存取為唯讀，Claude 無法移動、管理或投資你的資金。",
-        "importance": 4,
-        "first_seen": "2026-11-05T00:00:00Z",
-        "updated_at": "2026-11-06T04:35:01.467427+00:00",
-        "links": [
-          {
-            "label": "Claude Product Updates",
-            "url": "https://claude.com/resources/product-updates"
-          },
-          {
-            "label": "Claude on X",
-            "url": "https://x.com/claudeai"
-          },
-          {
-            "label": "Claude Product Update",
-            "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
-          }
-        ]
-      },
-      {
-        "id": "metr-anthropic-rd-acceleration-2026-11-05",
-        "story_id": "metr-anthropic-rd-acceleration-2026-11-05",
+        "id": "metr-anthropic-acceleration-report-2026-11-05",
+        "story_id": "metr-anthropic-acceleration-report-2026-11-05",
         "category": "anthropic",
         "source_type": "mixed",
-        "title_en": "METR publishes independent assessment: Anthropic’s AI R&D accelerating ~2x historical rate",
-        "title_zh": "METR 發布獨立評估：Anthropic AI 研發加速約達歷史速率 2 倍",
-        "summary_en": "On November 5 METR released a high-access evaluation (August–October 2026) of AI’s role in accelerating Anthropic’s R&D. It estimates Anthropic is improving well-specified task capabilities at roughly twice the March 2024–October 2025 rate (AECI 1.9x, 95% CI 1.5–2.8x), with a majority of current acceleration likely attributable to AI use. Significant evidence was redacted by Anthropic.",
-        "summary_zh": "METR 於 11 月 5 日發布高存取評估（2026 年 8 月至 10 月），檢視 AI 加速 Anthropic 研發的程度。估計 Anthropic 在明確任務能力上的改善速率約為 2024 年 3 月至 2025 年 10 月的兩倍（AECI 1.9 倍，95% 信賴區間 1.5–2.8 倍），當前加速的多數可能歸因於 AI 使用。Anthropic 已 redact 大量關鍵證據。",
-        "analysis_en": "The ~2x estimate, if sustained, is one of the strongest public signals of recursive improvement so far, but heavy redactions and remaining uncertainty about bottlenecks limit how much outsiders can independently verify or project the trajectory.",
-        "analysis_zh": "若 ~2 倍估計持續，將是目前最強烈的公開遞迴改進訊號之一，但大量 redact 與瓶頸不確定性，限制了外部獨立驗證或預測軌跡的能力。",
+        "title_en": "METR finds Anthropic improving capabilities at roughly twice prior pace",
+        "title_zh": "METR 發現 Anthropic 能力進步速度約為先前兩倍",
+        "summary_en": "Independent evaluator METR published an assessment after 11 weeks of internal access at Anthropic. It estimates AECI benchmark scores have grown at 1.9× the pre-October 2025 rate (95% CI 1.5–2.8×) since October 2025, with roughly 80% of the acceleration attributed to AI assistance in R&D rather than compute scaling. Anthropic redacted substantial portions of the evidence.",
+        "summary_zh": "獨立評估機構 METR 在 Anthropic 內部存取 11 週後發布評估。它估計自 2025 年 10 月起，AECI 基準分數成長速度為 2025 年 10 月前的 1.9 倍（95% 信賴區間 1.5–2.8 倍），約 80% 的加速來自 R&D 中的 AI 輔助而非算力擴展。Anthropic 刪減了大量證據。",
+        "analysis_en": "The report supplies one of the clearer external signals that AI-assisted R&D is already accelerating frontier progress, but heavy redactions and wide confidence intervals leave the exact magnitude and recursive-self-improvement implications uncertain.",
+        "analysis_zh": "報告提供了較清楚的外部訊號，顯示 AI 輔助 R&D 已在加速前沿進步，但大量刪減與寬廣的信賴區間，讓確切幅度與遞迴自我改進的意涵仍不確定。",
         "quote": "As of October 2026, Anthropic is likely improving the capabilities of their models on well-specified tasks at around twice the rate they did between March 2024 and October 2025.",
-        "quote_zh": "截至 2026 年 10 月，Anthropic 很可能在明確指定任務上，以約為 2024 年 3 月至 2025 年 10 月兩倍的速率提升模型能力。",
+        "quote_zh": "截至 2026 年 10 月，Anthropic 很可能在明確定義的任務上，以約為 2024 年 3 月至 2025 年 10 月兩倍的速度改進其模型能力。",
         "importance": 4,
-        "first_seen": "2026-11-05T08:00:00Z",
-        "updated_at": "2026-11-06T04:35:01.467427+00:00",
+        "first_seen": "2026-11-06T16:35:00Z",
+        "updated_at": "2026-11-06T16:35:01.943057+00:00",
         "links": [
           {
             "label": "METR Blog",
             "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/technology/anthropics-models-improving-nearly-twice-fast-with-help-ai-study-finds-2026-11-05/"
           }
         ]
       },
       {
-        "id": "anthropic-riot-corsicana-lease-2026-11-05",
-        "story_id": "anthropic-riot-corsicana-lease-2026-11-05",
-        "category": "anthropic",
-        "source_type": "news",
-        "title_en": "Riot Platforms names Anthropic as tenant of $28B Corsicana, Texas campus lease",
-        "title_zh": "Riot Platforms 指明 Anthropic 為德州 Corsicana $280 億園區租戶",
-        "summary_en": "In its Q3 2026 10-Q filed November 4–5, Riot Platforms identified Anthropic PBC as the counterparty to a 15-year lease covering 910 MW of critical IT capacity at its Corsicana, Texas campus, valued at roughly $28 billion in contracted revenue.",
-        "summary_zh": "Riot Platforms 在 11 月 4–5 日提交的 2026 年第三季 10-Q 中，指明 Anthropic PBC 為其德州 Corsicana 園區 15 年租約的相對方，涵蓋 910 MW 關鍵 IT 容量，合約收入約 280 億美元。",
-        "analysis_en": "The disclosure confirms Anthropic as a major long-term power and capacity customer of a Bitcoin-miner-turned-data-center landlord, underscoring the scale of compute commitments from frontier labs.",
-        "analysis_zh": "此揭露確認 Anthropic 是比特幣礦商轉型資料中心房東的主要長期電力與容量客戶，凸顯前沿實驗室的運算承諾規模。",
-        "quote": "",
-        "quote_zh": "",
-        "importance": 4,
-        "first_seen": "2026-11-05T16:35:00Z",
-        "updated_at": "2026-11-06T04:35:01.467427+00:00",
-        "links": [
-          {
-            "label": "Riot Platforms 10-Q (via filings)",
-            "url": "https://www.sec.gov/"
-          },
-          {
-            "label": "Bitcoin Magazine",
-            "url": "https://bitcoinmagazine.com/news/riot-names-anthropic-texas-lease"
-          },
-          {
-            "label": "Riot 10-Q (SEC)",
-            "url": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926122417/riot-20260930x10q.htm"
-          }
-        ]
-      },
-      {
-        "id": "anthropic-enterprise-security-controls-2026-11-05",
-        "story_id": "anthropic-enterprise-security-controls-2026-11-05",
+        "id": "anthropic-personal-finance-claude-2026-11-05",
+        "story_id": "anthropic-personal-finance-claude-2026-11-05",
         "category": "anthropic",
         "source_type": "official_blog",
-        "title_en": "Anthropic adds security center, inference hooks, and admin controls to Claude Enterprise",
-        "title_zh": "Anthropic 為 Claude Enterprise 新增安全中心、推論鉤子與管理員控制",
-        "summary_en": "On November 5 Anthropic published new Claude Enterprise features for security teams: a security center that compares settings to recommended configurations, generally available inference hooks that send prompts and tool calls to external data loss prevention systems, and additional admin controls including IP allowlists and remote sign-out.",
-        "summary_zh": "Anthropic 於 11 月 5 日發布 Claude Enterprise 新安全團隊功能：安全中心可比較設定與建議配置、一般可用的推論鉤子將提示與工具呼叫送至外部資料外洩防護系統，以及額外管理員控制（含 IP 允許清單與遠端登出）。",
-        "analysis_en": "These controls address the operational reality of deploying coding and agentic features at enterprise scale. Inference hooks in particular give security teams a practical intercept point that was previously harder to enforce.",
-        "analysis_zh": "這些控制回應了在企業規模部署編碼與代理功能的操作現實。推論鉤子尤其為安全團隊提供了先前較難執行的實用攔截點。",
-        "quote": "Claude Enterprise has new security and admin features, including a security center, generally available inference hooks, centralized management, and additional access controls.",
-        "quote_zh": "Claude Enterprise新增安全與管理功能，包括安全中心、正式可用的推論鉤子、集中管理與額外存取控管。",
+        "title_en": "Anthropic launches Personal Finance beta in Claude",
+        "title_zh": "Anthropic 在 Claude 推出 Personal Finance 測試版",
+        "summary_en": "Anthropic began rolling out Personal Finance in Claude as a US beta for Pro, Max, and Ultra plans. Users can link bank and card accounts via Plaid for read-only access; Claude answers questions about balances, spending, and bills in plain language, with no ads and no training on finance-hub conversations.",
+        "summary_zh": "Anthropic 開始向美國 Pro、Max 與 Ultra 方案推出 Claude 的 Personal Finance 測試版。用戶可透過 Plaid 連結銀行與信用卡帳戶（僅讀取）；Claude 以日常語言回答餘額、支出與帳單問題，無廣告，且金融中心對話不用於訓練。",
+        "analysis_en": "Read-only bank linking expands Claude from general assistant into personal financial context, but the value depends on accuracy of categorization and user willingness to share sensitive data. It is not investment advice and remains US-only for now.",
+        "analysis_zh": "僅讀取的銀行連結讓 Claude 從通用助理擴展到個人財務脈絡，但價值取決於分類準確度與用戶分享敏感資料的意願。它不是投資建議，目前也僅限美國。",
+        "quote": "With Personal Finance in Claude, you can securely connect your bank and card accounts and ask in your own words. Access is read-only, and Personal Finance can’t move, manage, or invest your money.",
+        "quote_zh": "有了 Claude 的 Personal Finance，你可以安全連結銀行與信用卡帳戶，並用自己的話提問。存取僅限讀取，Personal Finance 無法移動、管理或投資你的金錢。",
         "importance": 3,
-        "first_seen": "2026-11-05T00:00:00Z",
-        "updated_at": "2026-11-06T04:35:01.467427+00:00",
+        "first_seen": "2026-11-06T16:35:00Z",
+        "updated_at": "2026-11-06T16:35:01.943057+00:00",
         "links": [
           {
-            "label": "Claude Product Updates",
-            "url": "https://claude.com/resources/product-updates"
-          },
-          {
-            "label": "Claude Docs Release Notes",
-            "url": "https://docs.anthropic.com/en/release-notes/overview"
-          },
-          {
-            "label": "Claude Product Update",
-            "url": "https://claude.com/resources/articles/claude-enterprise-security-updates"
-          }
-        ]
-      },
-      {
-        "id": "anthropic-vault-particle-structure-2026-11-04",
-        "story_id": "anthropic-vault-particle-structure-2026-11-04",
-        "category": "anthropic",
-        "source_type": "official_blog",
-        "title_en": "Anthropic biology team uses Claude to map first 3D structure of a bacterial vault particle",
-        "title_zh": "Anthropic 生物學團隊使用 Claude 繪製細菌 vault 粒子首個 3D 結構",
-        "summary_en": "On November 4 Anthropic published research from its biology team showing that Claude assisted at multiple stages—sequence search, isolation optimization, and structure determination—to produce the first 3D cryo-EM structure of a vault-like particle from bacteria.",
-        "summary_zh": "Anthropic 於 11 月 4 日發布生物學團隊研究，顯示 Claude 在多階段協助——序列搜尋、分離優化與結構測定——產生細菌類 vault 粒子的首個 3D cryo-EM 結構。",
-        "analysis_en": "The result is a concrete example of an AI model participating in a multi-step structural biology workflow rather than only literature summarization. Function of vaults remains unknown, so scientific impact is still early.",
-        "analysis_zh": "此結果是 AI 模型參與多步驟結構生物學工作流程（而非僅文獻摘要）的具體例子。Vault 功能仍未知，科學影響仍屬早期。",
-        "quote": "We’re sharing how our biology research team worked with Claude to map the first 3D structure of a vault particle from bacterial life.",
-        "quote_zh": "我們分享生物學研究團隊如何與 Claude 合作，繪製細菌生命中 vault 粒子的首個 3D 結構。",
-        "importance": 3,
-        "first_seen": "2026-11-05T16:35:00Z",
-        "updated_at": "2026-11-06T04:35:01.467427+00:00",
-        "links": [
-          {
-            "label": "Anthropic News",
-            "url": "https://www.anthropic.com/news"
-          },
-          {
-            "label": "Anthropic Research",
-            "url": "https://www.anthropic.com/research"
-          },
-          {
-            "label": "Anthropic Research",
-            "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude"
-          },
-          {
-            "label": "Anthropic on X",
-            "url": "https://x.com/AnthropicAI/status/2118073667858887068"
+            "label": "Anthropic / Claude Blog",
+            "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
           }
         ]
       }
@@ -708,98 +192,30 @@
         "story_id": "google-gemini-omni-1-2-flash-2026-11-05",
         "category": "google",
         "source_type": "official_blog",
-        "title_en": "Google releases Gemini Omni 1.2 Flash with 15-second video and 30% lower pricing",
-        "title_zh": "Google 發布 Gemini Omni 1.2 Flash，支援 15 秒影片並降價 30%",
-        "summary_en": "Google DeepMind and Google Cloud made Gemini Omni 1.2 Flash generally available on November 5. The update raises native video length from 10 to 15 seconds, adds multi-turn conversational editing, improves reference adherence and speech, and cuts API pricing by 30% (to $0.07 per second for 720p). Rolling out in Flow, Gemini app, Google Vids, AI Studio, and Gemini for Business.",
-        "summary_zh": "Google DeepMind 與 Google Cloud 於 11 月 5 日全面開放 Gemini Omni 1.2 Flash。更新將原生影片長度從 10 秒提升至 15 秒，新增多輪對話編輯，改善參考遵循與語音，並將 API 價格降低 30%（720p 每秒 $0.07）。在 Flow、Gemini 應用、Google Vids、AI Studio 與 Gemini for Business 逐步推出。",
-        "analysis_en": "Longer clips plus cheaper drafts-and-upscale workflows lower the barrier for high-volume commercial video (ads, try-ons, explainers). Consistency gains matter more for brand work than raw length, but 15 seconds still limits many narrative use cases.",
-        "analysis_zh": "更長片段加上更便宜的草稿與放大流程，降低了高量商業影片（廣告、試穿、說明）的門檻。一致性提升對品牌工作比單純長度更重要，但 15 秒仍限制許多敘事應用。",
-        "quote": "We’ve made the model more cost-effective, bumped the video generation and editing limit up to 15 seconds...",
-        "quote_zh": "我們讓模型更具成本效益，並將影片生成與編輯上限提升至 15 秒……",
+        "title_en": "Google makes Gemini Omni 1.2 Flash generally available",
+        "title_zh": "Google 將 Gemini Omni 1.2 Flash 全面開放",
+        "summary_en": "Google DeepMind and Google Cloud rolled out Gemini Omni 1.2 Flash to general availability on the Gemini API and Gemini for business. It supports native 15-second clips (up from 10s), multi-turn conversational editing, stronger reference adherence, and pricing of $0.07 per second for 720p—30% below Omni 1.1.",
+        "summary_zh": "Google DeepMind 與 Google Cloud 將 Gemini Omni 1.2 Flash 在 Gemini API 與 Gemini for business 全面開放。它支援原生 15 秒影片（從 10 秒提升）、多輪對話式編輯、更強參考遵循，720p 價格為每秒 0.07 美元，較 Omni 1.1 降低 30%。",
+        "analysis_en": "Longer native clips plus conversational editing and a price cut lower the barrier for production video workflows. Consistency and physics still remain the practical limits for high-stakes creative or commercial use.",
+        "analysis_zh": "更長的原生影片加上對話式編輯與降價，降低了生產級影片工作流的門檻。一致性與物理模擬仍是高風險創意或商業用途的實際限制。",
+        "quote": "Gemini Omni 1.2 Flash introduces native 15-second video creation, multi-turn conversational editing capabilities, and enhanced reference following. We have dropped the price 30% from Gemini Omni 1.1 making it available at $0.07 per second for 720p video.",
+        "quote_zh": "Gemini Omni 1.2 Flash 引入原生 15 秒影片創作、多輪對話式編輯能力與更強的參考遵循。我們將價格從 Gemini Omni 1.1 降低 30%，720p 影片每秒 0.07 美元。",
         "importance": 4,
-        "first_seen": "2026-11-05T17:08:19Z",
-        "updated_at": "2026-11-06T04:35:01.467427+00:00",
+        "first_seen": "2026-11-06T16:35:00Z",
+        "updated_at": "2026-11-06T16:35:01.943057+00:00",
         "links": [
-          {
-            "label": "Google DeepMind Blog",
-            "url": "https://deepmind.google/blog/"
-          },
-          {
-            "label": "Google AI on X",
-            "url": "https://x.com/GoogleAI/status/2118389961426874879"
-          },
           {
             "label": "Google Blog",
             "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
-          },
-          {
-            "label": "Google Cloud Blog",
-            "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available"
           }
         ]
       }
     ],
-    "meta": [
-      {
-        "id": "meta-muse-voice-avatars-2026-11-05",
-        "story_id": "meta-muse-voice-avatars-2026-11-05",
-        "category": "meta",
-        "source_type": "official_blog",
-        "title_en": "Meta rolls out real-time voice and expressive avatars in the Muse app",
-        "title_zh": "Meta 在 Muse 應用推出即時語音與表情化身",
-        "summary_en": "Meta announced on November 5 that voice conversations and expressive avatars are rolling out in the Muse app (US first, mobile/web/Mac). Users tap a phone icon to speak; Muse responds in real time, can be interrupted, continues background work, and displays reactive avatars.",
-        "summary_zh": "Meta 於 11 月 5 日宣布，語音對話與表情化身正於 Muse 應用推出（美國優先，手機/網頁/Mac）。用戶點擊電話圖示說話；Muse 即時回應、可被打斷、持續背景工作，並顯示反應式化身。",
-        "analysis_en": "Voice plus a reactive avatar moves Muse closer to the always-available personal agent Meta has described, especially for hands-free or walk-and-talk use. US-only rollout and the still-limited model base remain constraints.",
-        "analysis_zh": "語音加上反應式化身，讓 Muse 更接近 Meta 描述的隨時可用個人代理，尤其適合免持或邊走邊談使用。僅美國推出與仍有限的模型基礎仍是限制。",
-        "quote": "We’re rolling out voice and expressive avatars in the Muse app, giving you a new, natural way to interact with your Muse.",
-        "quote_zh": "我們在Muse應用程式推出語音與表情頭像，讓你以更自然的方式與Muse互動。",
-        "importance": 3,
-        "first_seen": "2026-11-05T00:00:00Z",
-        "updated_at": "2026-11-06T04:35:01.467427+00:00",
-        "links": [
-          {
-            "label": "Meta Newsroom",
-            "url": "https://about.fb.com/news/"
-          },
-          {
-            "label": "Meta Newsroom",
-            "url": "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/"
-          }
-        ]
-      }
-    ],
+    "meta": [],
     "xai": [],
-    "frontier_other": [
-      {
-        "id": "mistral-skiplabs-acquisition-2026-11-05",
-        "story_id": "mistral-skiplabs-acquisition-2026-11-05",
-        "category": "frontier_other",
-        "source_type": "news",
-        "title_en": "Mistral acquires SkipLabs to accelerate AI code generation",
-        "title_zh": "Mistral 收購 SkipLabs 以加速 AI 程式碼生成",
-        "summary_en": "On November 5 Mistral announced its fifth acquisition of 2026: SkipLabs, a French/UK startup founded by former Meta engineer Julien Verlaguet that builds tools for faster, more reliable AI code generation. The team joins chief scientist Guillaume Lample; price undisclosed.",
-        "summary_zh": "Mistral 於 11 月 5 日宣布 2026 年第五次收購：SkipLabs，由前 Meta 工程師 Julien Verlaguet 創立的法/英新創，開發更快、更可靠的 AI 程式碼生成工具。團隊將加入首席科學家 Guillaume Lample；價格未公開。",
-        "analysis_en": "The deal continues Mistral’s vertical expansion strategy (code, industrial AI, advertising) while reinforcing its European talent and sovereignty narrative at a time when open-weight frontier models are closing capability gaps.",
-        "analysis_zh": "此交易延續 Mistral 的垂直擴張策略（程式碼、工業 AI、廣告），同時在開源前沿模型縮小能力差距時，強化其歐洲人才與主權敘事。",
-        "quote": "",
-        "quote_zh": "",
-        "importance": 3,
-        "first_seen": "2026-11-05T15:00:00Z",
-        "updated_at": "2026-11-06T04:35:01.467427+00:00",
-        "links": [
-          {
-            "label": "Les Echos",
-            "url": "https://www.lesechos.fr/tech-medias/intelligence-artificielle/mistral-accelere-dans-le-code-genere-par-ia-grace-a-une-nouvelle-acquisition-2261330"
-          },
-          {
-            "label": "Maddyness",
-            "url": "https://www.maddyness.com/2026/11/05/mistral-ai-soffre-une-cinquieme-acquisition-depuis-le-debut-de-lannee/"
-          }
-        ]
-      }
-    ]
+    "frontier_other": []
   },
-  "brief_en": "OpenAI launches GPT-6 Cyber (Critical rating, 48.5% ExploitGym) via Daybreak Red; Anthropic rolls out Personal Finance beta plus enterprise security controls and faces METR R&D acceleration review; Google ships Gemini Omni 1.2 Flash with 15s video and 30% lower pricing. Infrastructure, talent, and open-weight moves continue across labs.",
-  "brief_zh": "OpenAI 發布 Critical 級 GPT-6 Cyber（ExploitGym 48.5%）；Anthropic 推出個人理財 beta 與企業安全控制，並接受 METR 研發加速評估；Google 上線 Gemini Omni 1.2 Flash（15 秒影片、價格降 30%）。基礎設施、人才與開源動態持續。",
-  "updated_at": "2026-11-06T04:35:01.467427+00:00"
+  "brief_en": "OpenAI launched GPT-6 Cyber for authorized vulnerability research (Critical under Preparedness). Google made Gemini Omni 1.2 Flash generally available with 15s video and 30% lower pricing. Anthropic rolled out Personal Finance beta in Claude (US paid plans, read-only). METR reported Anthropic capabilities improving ~2x prior pace, largely AI-driven, with high uncertainty and redactions.",
+  "brief_zh": "OpenAI 推出 GPT-6 Cyber 供授權漏洞研究（Preparedness 框架 Critical）。Google 將 Gemini Omni 1.2 Flash 全面開放，支援 15 秒影片且降價 30%。Anthropic 在 Claude 推出 Personal Finance 測試版（美國付費方案，僅讀取）。METR 報告 Anthropic 能力進步約為先前兩倍，主要由 AI 驅動，但有高不確定性與大量刪減。",
+  "updated_at": "2026-11-06T16:35:01.943057+00:00"
 }

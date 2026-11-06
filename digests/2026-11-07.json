@@ -1,0 +1,221 @@
+{
+  "date": "2026-11-07",
+  "runs": [
+    {
+      "generated_at": "2026-11-06T16:35:01.943057+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 4,
+      "updated_count": 0,
+      "kept_count": 0
+    }
+  ],
+  "items_flat": [
+    {
+      "id": "openai-gpt6-cyber-2026-11-05",
+      "story_id": "openai-gpt6-cyber-2026-11-05",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI introduces GPT-6 Cyber for aligned cybersecurity research",
+      "title_zh": "OpenAI 推出 GPT-6 Cyber 用於對齊的網路安全研究",
+      "summary_en": "OpenAI announced GPT-6 Cyber, a specialized model for finding and validating exploitable vulnerabilities while staying within researcher-set scope. It scores 48.5% on ExploitGym (vs 32.1% for GPT-5.6 Cyber), shows strong alignment gains, and has already produced 948 Linux privilege-escalation exploits plus 81 novel high-severity Firefox vulnerabilities. Access is limited to Daybreak Red organizations.",
+      "summary_zh": "OpenAI 宣布 GPT-6 Cyber，一款專門用於尋找與驗證可利用漏洞、並嚴格遵守研究者設定範圍的模型。它在 ExploitGym 得分 48.5%（GPT-5.6 Cyber 為 32.1%），對齊能力大幅提升，並已產出 948 個 Linux 提權漏洞利用與 81 個 Firefox 高嚴重度新漏洞。目前僅限 Daybreak Red 組織使用。",
+      "analysis_en": "Classifying the model as Critical under the Preparedness Framework marks a capability jump that OpenAI is deliberately gating. The real test is whether restricted access plus improved in-scope behavior can scale defensive use faster than offensive diffusion.",
+      "analysis_zh": "將模型列為 Preparedness 框架 Critical 級別，代表能力明顯跳躍，OpenAI 刻意加以限制。關鍵考驗在於受限存取加上更好的範圍內行為，能否讓防禦用途擴展得比攻擊擴散更快。",
+      "quote": "We’re introducing GPT‑6 Cyber, a major leap in security research: more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set.",
+      "quote_zh": "我們推出 GPT‑6 Cyber，這是安全研究的重大躍進：更擅長發現與修復漏洞，且遠更能可靠地留在研究者設定的範圍內。",
+      "importance": 5,
+      "first_seen": "2026-11-06T16:35:00Z",
+      "updated_at": "2026-11-06T16:35:01.943057+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber/"
+        }
+      ]
+    },
+    {
+      "id": "google-gemini-omni-1-2-flash-2026-11-05",
+      "story_id": "google-gemini-omni-1-2-flash-2026-11-05",
+      "category": "google",
+      "source_type": "official_blog",
+      "title_en": "Google makes Gemini Omni 1.2 Flash generally available",
+      "title_zh": "Google 將 Gemini Omni 1.2 Flash 全面開放",
+      "summary_en": "Google DeepMind and Google Cloud rolled out Gemini Omni 1.2 Flash to general availability on the Gemini API and Gemini for business. It supports native 15-second clips (up from 10s), multi-turn conversational editing, stronger reference adherence, and pricing of $0.07 per second for 720p—30% below Omni 1.1.",
+      "summary_zh": "Google DeepMind 與 Google Cloud 將 Gemini Omni 1.2 Flash 在 Gemini API 與 Gemini for business 全面開放。它支援原生 15 秒影片（從 10 秒提升）、多輪對話式編輯、更強參考遵循，720p 價格為每秒 0.07 美元，較 Omni 1.1 降低 30%。",
+      "analysis_en": "Longer native clips plus conversational editing and a price cut lower the barrier for production video workflows. Consistency and physics still remain the practical limits for high-stakes creative or commercial use.",
+      "analysis_zh": "更長的原生影片加上對話式編輯與降價，降低了生產級影片工作流的門檻。一致性與物理模擬仍是高風險創意或商業用途的實際限制。",
+      "quote": "Gemini Omni 1.2 Flash introduces native 15-second video creation, multi-turn conversational editing capabilities, and enhanced reference following. We have dropped the price 30% from Gemini Omni 1.1 making it available at $0.07 per second for 720p video.",
+      "quote_zh": "Gemini Omni 1.2 Flash 引入原生 15 秒影片創作、多輪對話式編輯能力與更強的參考遵循。我們將價格從 Gemini Omni 1.1 降低 30%，720p 影片每秒 0.07 美元。",
+      "importance": 4,
+      "first_seen": "2026-11-06T16:35:00Z",
+      "updated_at": "2026-11-06T16:35:01.943057+00:00",
+      "links": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+        }
+      ]
+    },
+    {
+      "id": "metr-anthropic-acceleration-report-2026-11-05",
+      "story_id": "metr-anthropic-acceleration-report-2026-11-05",
+      "category": "anthropic",
+      "source_type": "mixed",
+      "title_en": "METR finds Anthropic improving capabilities at roughly twice prior pace",
+      "title_zh": "METR 發現 Anthropic 能力進步速度約為先前兩倍",
+      "summary_en": "Independent evaluator METR published an assessment after 11 weeks of internal access at Anthropic. It estimates AECI benchmark scores have grown at 1.9× the pre-October 2025 rate (95% CI 1.5–2.8×) since October 2025, with roughly 80% of the acceleration attributed to AI assistance in R&D rather than compute scaling. Anthropic redacted substantial portions of the evidence.",
+      "summary_zh": "獨立評估機構 METR 在 Anthropic 內部存取 11 週後發布評估。它估計自 2025 年 10 月起，AECI 基準分數成長速度為 2025 年 10 月前的 1.9 倍（95% 信賴區間 1.5–2.8 倍），約 80% 的加速來自 R&D 中的 AI 輔助而非算力擴展。Anthropic 刪減了大量證據。",
+      "analysis_en": "The report supplies one of the clearer external signals that AI-assisted R&D is already accelerating frontier progress, but heavy redactions and wide confidence intervals leave the exact magnitude and recursive-self-improvement implications uncertain.",
+      "analysis_zh": "報告提供了較清楚的外部訊號，顯示 AI 輔助 R&D 已在加速前沿進步，但大量刪減與寬廣的信賴區間，讓確切幅度與遞迴自我改進的意涵仍不確定。",
+      "quote": "As of October 2026, Anthropic is likely improving the capabilities of their models on well-specified tasks at around twice the rate they did between March 2024 and October 2025.",
+      "quote_zh": "截至 2026 年 10 月，Anthropic 很可能在明確定義的任務上，以約為 2024 年 3 月至 2025 年 10 月兩倍的速度改進其模型能力。",
+      "importance": 4,
+      "first_seen": "2026-11-06T16:35:00Z",
+      "updated_at": "2026-11-06T16:35:01.943057+00:00",
+      "links": [
+        {
+          "label": "METR Blog",
+          "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/technology/anthropics-models-improving-nearly-twice-fast-with-help-ai-study-finds-2026-11-05/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-personal-finance-claude-2026-11-05",
+      "story_id": "anthropic-personal-finance-claude-2026-11-05",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic launches Personal Finance beta in Claude",
+      "title_zh": "Anthropic 在 Claude 推出 Personal Finance 測試版",
+      "summary_en": "Anthropic began rolling out Personal Finance in Claude as a US beta for Pro, Max, and Ultra plans. Users can link bank and card accounts via Plaid for read-only access; Claude answers questions about balances, spending, and bills in plain language, with no ads and no training on finance-hub conversations.",
+      "summary_zh": "Anthropic 開始向美國 Pro、Max 與 Ultra 方案推出 Claude 的 Personal Finance 測試版。用戶可透過 Plaid 連結銀行與信用卡帳戶（僅讀取）；Claude 以日常語言回答餘額、支出與帳單問題，無廣告，且金融中心對話不用於訓練。",
+      "analysis_en": "Read-only bank linking expands Claude from general assistant into personal financial context, but the value depends on accuracy of categorization and user willingness to share sensitive data. It is not investment advice and remains US-only for now.",
+      "analysis_zh": "僅讀取的銀行連結讓 Claude 從通用助理擴展到個人財務脈絡，但價值取決於分類準確度與用戶分享敏感資料的意願。它不是投資建議，目前也僅限美國。",
+      "quote": "With Personal Finance in Claude, you can securely connect your bank and card accounts and ask in your own words. Access is read-only, and Personal Finance can’t move, manage, or invest your money.",
+      "quote_zh": "有了 Claude 的 Personal Finance，你可以安全連結銀行與信用卡帳戶，並用自己的話提問。存取僅限讀取，Personal Finance 無法移動、管理或投資你的金錢。",
+      "importance": 3,
+      "first_seen": "2026-11-06T16:35:00Z",
+      "updated_at": "2026-11-06T16:35:01.943057+00:00",
+      "links": [
+        {
+          "label": "Anthropic / Claude Blog",
+          "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "openai": [
+      {
+        "id": "openai-gpt6-cyber-2026-11-05",
+        "story_id": "openai-gpt6-cyber-2026-11-05",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI introduces GPT-6 Cyber for aligned cybersecurity research",
+        "title_zh": "OpenAI 推出 GPT-6 Cyber 用於對齊的網路安全研究",
+        "summary_en": "OpenAI announced GPT-6 Cyber, a specialized model for finding and validating exploitable vulnerabilities while staying within researcher-set scope. It scores 48.5% on ExploitGym (vs 32.1% for GPT-5.6 Cyber), shows strong alignment gains, and has already produced 948 Linux privilege-escalation exploits plus 81 novel high-severity Firefox vulnerabilities. Access is limited to Daybreak Red organizations.",
+        "summary_zh": "OpenAI 宣布 GPT-6 Cyber，一款專門用於尋找與驗證可利用漏洞、並嚴格遵守研究者設定範圍的模型。它在 ExploitGym 得分 48.5%（GPT-5.6 Cyber 為 32.1%），對齊能力大幅提升，並已產出 948 個 Linux 提權漏洞利用與 81 個 Firefox 高嚴重度新漏洞。目前僅限 Daybreak Red 組織使用。",
+        "analysis_en": "Classifying the model as Critical under the Preparedness Framework marks a capability jump that OpenAI is deliberately gating. The real test is whether restricted access plus improved in-scope behavior can scale defensive use faster than offensive diffusion.",
+        "analysis_zh": "將模型列為 Preparedness 框架 Critical 級別，代表能力明顯跳躍，OpenAI 刻意加以限制。關鍵考驗在於受限存取加上更好的範圍內行為，能否讓防禦用途擴展得比攻擊擴散更快。",
+        "quote": "We’re introducing GPT‑6 Cyber, a major leap in security research: more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set.",
+        "quote_zh": "我們推出 GPT‑6 Cyber，這是安全研究的重大躍進：更擅長發現與修復漏洞，且遠更能可靠地留在研究者設定的範圍內。",
+        "importance": 5,
+        "first_seen": "2026-11-06T16:35:00Z",
+        "updated_at": "2026-11-06T16:35:01.943057+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/introducing-gpt-6-cyber/"
+          }
+        ]
+      }
+    ],
+    "anthropic": [
+      {
+        "id": "metr-anthropic-acceleration-report-2026-11-05",
+        "story_id": "metr-anthropic-acceleration-report-2026-11-05",
+        "category": "anthropic",
+        "source_type": "mixed",
+        "title_en": "METR finds Anthropic improving capabilities at roughly twice prior pace",
+        "title_zh": "METR 發現 Anthropic 能力進步速度約為先前兩倍",
+        "summary_en": "Independent evaluator METR published an assessment after 11 weeks of internal access at Anthropic. It estimates AECI benchmark scores have grown at 1.9× the pre-October 2025 rate (95% CI 1.5–2.8×) since October 2025, with roughly 80% of the acceleration attributed to AI assistance in R&D rather than compute scaling. Anthropic redacted substantial portions of the evidence.",
+        "summary_zh": "獨立評估機構 METR 在 Anthropic 內部存取 11 週後發布評估。它估計自 2025 年 10 月起，AECI 基準分數成長速度為 2025 年 10 月前的 1.9 倍（95% 信賴區間 1.5–2.8 倍），約 80% 的加速來自 R&D 中的 AI 輔助而非算力擴展。Anthropic 刪減了大量證據。",
+        "analysis_en": "The report supplies one of the clearer external signals that AI-assisted R&D is already accelerating frontier progress, but heavy redactions and wide confidence intervals leave the exact magnitude and recursive-self-improvement implications uncertain.",
+        "analysis_zh": "報告提供了較清楚的外部訊號，顯示 AI 輔助 R&D 已在加速前沿進步，但大量刪減與寬廣的信賴區間，讓確切幅度與遞迴自我改進的意涵仍不確定。",
+        "quote": "As of October 2026, Anthropic is likely improving the capabilities of their models on well-specified tasks at around twice the rate they did between March 2024 and October 2025.",
+        "quote_zh": "截至 2026 年 10 月，Anthropic 很可能在明確定義的任務上，以約為 2024 年 3 月至 2025 年 10 月兩倍的速度改進其模型能力。",
+        "importance": 4,
+        "first_seen": "2026-11-06T16:35:00Z",
+        "updated_at": "2026-11-06T16:35:01.943057+00:00",
+        "links": [
+          {
+            "label": "METR Blog",
+            "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/technology/anthropics-models-improving-nearly-twice-fast-with-help-ai-study-finds-2026-11-05/"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-personal-finance-claude-2026-11-05",
+        "story_id": "anthropic-personal-finance-claude-2026-11-05",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic launches Personal Finance beta in Claude",
+        "title_zh": "Anthropic 在 Claude 推出 Personal Finance 測試版",
+        "summary_en": "Anthropic began rolling out Personal Finance in Claude as a US beta for Pro, Max, and Ultra plans. Users can link bank and card accounts via Plaid for read-only access; Claude answers questions about balances, spending, and bills in plain language, with no ads and no training on finance-hub conversations.",
+        "summary_zh": "Anthropic 開始向美國 Pro、Max 與 Ultra 方案推出 Claude 的 Personal Finance 測試版。用戶可透過 Plaid 連結銀行與信用卡帳戶（僅讀取）；Claude 以日常語言回答餘額、支出與帳單問題，無廣告，且金融中心對話不用於訓練。",
+        "analysis_en": "Read-only bank linking expands Claude from general assistant into personal financial context, but the value depends on accuracy of categorization and user willingness to share sensitive data. It is not investment advice and remains US-only for now.",
+        "analysis_zh": "僅讀取的銀行連結讓 Claude 從通用助理擴展到個人財務脈絡，但價值取決於分類準確度與用戶分享敏感資料的意願。它不是投資建議，目前也僅限美國。",
+        "quote": "With Personal Finance in Claude, you can securely connect your bank and card accounts and ask in your own words. Access is read-only, and Personal Finance can’t move, manage, or invest your money.",
+        "quote_zh": "有了 Claude 的 Personal Finance，你可以安全連結銀行與信用卡帳戶，並用自己的話提問。存取僅限讀取，Personal Finance 無法移動、管理或投資你的金錢。",
+        "importance": 3,
+        "first_seen": "2026-11-06T16:35:00Z",
+        "updated_at": "2026-11-06T16:35:01.943057+00:00",
+        "links": [
+          {
+            "label": "Anthropic / Claude Blog",
+            "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
+          }
+        ]
+      }
+    ],
+    "google": [
+      {
+        "id": "google-gemini-omni-1-2-flash-2026-11-05",
+        "story_id": "google-gemini-omni-1-2-flash-2026-11-05",
+        "category": "google",
+        "source_type": "official_blog",
+        "title_en": "Google makes Gemini Omni 1.2 Flash generally available",
+        "title_zh": "Google 將 Gemini Omni 1.2 Flash 全面開放",
+        "summary_en": "Google DeepMind and Google Cloud rolled out Gemini Omni 1.2 Flash to general availability on the Gemini API and Gemini for business. It supports native 15-second clips (up from 10s), multi-turn conversational editing, stronger reference adherence, and pricing of $0.07 per second for 720p—30% below Omni 1.1.",
+        "summary_zh": "Google DeepMind 與 Google Cloud 將 Gemini Omni 1.2 Flash 在 Gemini API 與 Gemini for business 全面開放。它支援原生 15 秒影片（從 10 秒提升）、多輪對話式編輯、更強參考遵循，720p 價格為每秒 0.07 美元，較 Omni 1.1 降低 30%。",
+        "analysis_en": "Longer native clips plus conversational editing and a price cut lower the barrier for production video workflows. Consistency and physics still remain the practical limits for high-stakes creative or commercial use.",
+        "analysis_zh": "更長的原生影片加上對話式編輯與降價，降低了生產級影片工作流的門檻。一致性與物理模擬仍是高風險創意或商業用途的實際限制。",
+        "quote": "Gemini Omni 1.2 Flash introduces native 15-second video creation, multi-turn conversational editing capabilities, and enhanced reference following. We have dropped the price 30% from Gemini Omni 1.1 making it available at $0.07 per second for 720p video.",
+        "quote_zh": "Gemini Omni 1.2 Flash 引入原生 15 秒影片創作、多輪對話式編輯能力與更強的參考遵循。我們將價格從 Gemini Omni 1.1 降低 30%，720p 影片每秒 0.07 美元。",
+        "importance": 4,
+        "first_seen": "2026-11-06T16:35:00Z",
+        "updated_at": "2026-11-06T16:35:01.943057+00:00",
+        "links": [
+          {
+            "label": "Google Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+          }
+        ]
+      }
+    ],
+    "meta": [],
+    "xai": [],
+    "frontier_other": []
+  },
+  "brief_en": "OpenAI launched GPT-6 Cyber for authorized vulnerability research (Critical under Preparedness). Google made Gemini Omni 1.2 Flash generally available with 15s video and 30% lower pricing. Anthropic rolled out Personal Finance beta in Claude (US paid plans, read-only). METR reported Anthropic capabilities improving ~2x prior pace, largely AI-driven, with high uncertainty and redactions.",
+  "brief_zh": "OpenAI 推出 GPT-6 Cyber 供授權漏洞研究（Preparedness 框架 Critical）。Google 將 Gemini Omni 1.2 Flash 全面開放，支援 15 秒影片且降價 30%。Anthropic 在 Claude 推出 Personal Finance 測試版（美國付費方案，僅讀取）。METR 報告 Anthropic 能力進步約為先前兩倍，主要由 AI 驅動，但有高不確定性與大量刪減。",
+  "updated_at": "2026-11-06T16:35:01.943057+00:00"
+}
