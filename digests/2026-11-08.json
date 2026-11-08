@@ -1,0 +1,321 @@
+{
+  "date": "2026-11-08",
+  "runs": [
+    {
+      "generated_at": "2026-11-08T04:35:01.548213+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 6,
+      "updated_count": 0,
+      "kept_count": 0
+    }
+  ],
+  "items_flat": [
+    {
+      "id": "openai-gpt-6-cyber-2026-11-05",
+      "story_id": "openai-gpt-6-cyber-2026-11-05",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI releases GPT-6 Cyber with Critical cybersecurity rating",
+      "title_zh": "OpenAI 發布 Critical 級網路安全模型 GPT-6 Cyber",
+      "summary_en": "OpenAI introduced GPT-6 Cyber on November 5 as a specialized GPT-6 Astra variant for authorized vulnerability research and exploit development, rating it Critical under its Preparedness Framework. It is initially available only to select Daybreak Red customers via API and Codex. OpenAI reported the model helped identify 81 previously unknown high-severity Firefox flaws and develop working exploits for 948 Linux kernel issues (588 previously unknown), with stronger adherence to researcher-defined scope.",
+      "summary_zh": "OpenAI 於 11 月 5 日推出 GPT-6 Cyber，這是針對授權漏洞研究與利用開發的 GPT-6 Astra 特化版本，並依其準備框架評為 Critical。目前僅限選定 Daybreak Red 客戶透過 API 與 Codex 使用。OpenAI 表示該模型協助發現 81 個先前未知的 Firefox 高嚴重性漏洞，並為 948 個 Linux 核心問題開發可運作利用（其中 588 個先前未知），且更嚴格遵守研究者定義的範圍。",
+      "analysis_en": "This expands the dual-use frontier of cyber-capable models under tighter access controls, potentially accelerating defensive research while raising concerns about proliferation if scope controls prove imperfect. Independent verification of the full Linux and Firefox findings remains limited outside OpenAI’s disclosures.",
+      "analysis_zh": "這在更嚴格存取控制下擴展了具網路能力模型的雙重用途前沿，可能加速防禦研究，但若範圍控制不夠完善，仍引發擴散疑慮。Linux 與 Firefox 發現的完整獨立驗證目前仍有限，主要依賴 OpenAI 披露。",
+      "quote": "Introducing GPT‑6 Cyber: a major advance in security research that pairs stronger capabilities with better model alignment.",
+      "quote_zh": "推出 GPT-6 Cyber：網路安全研究的重大進展，結合更強能力與更好的模型對齊。",
+      "importance": 5,
+      "first_seen": "2026-11-05T17:00:00Z",
+      "updated_at": "2026-11-08T04:35:01.548213+00:00",
+      "links": [
+        {
+          "label": "OpenAI on X / Product announcement",
+          "url": "https://x.com/OpenAI/status/2118390190246879554"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/technology/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-2026-11-05/"
+        }
+      ]
+    },
+    {
+      "id": "openai-biobasicsbench-2026-11-06",
+      "story_id": "openai-biobasicsbench-2026-11-06",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI and Ligo launch BioBasicsBench for wet-lab agent evaluation",
+      "title_zh": "OpenAI 與 Ligo 推出 BioBasicsBench 濕式實驗室代理評估基準",
+      "summary_en": "On November 6 OpenAI published BioBasicsBench, a 100-task benchmark developed with enzyme-design firm Ligo that tests AI agents on interpreting raw wet-lab evidence (gels, colony plates, microscopy, instrument files) and recognizing insufficient data. At xhigh reasoning effort, GPT-6 Astra scored a mean 66.7% reward, ahead of GPT-6.1 Sol at 62.0% and GPT-5.6 Sol at 43.8%. OpenAI noted remaining errors such as wrong colony selection and overcounting.",
+      "summary_zh": "OpenAI 於 11 月 6 日發布 BioBasicsBench，這是與酵素設計公司 Ligo 共同開發的 100 項任務基準，測試 AI 代理解讀原始濕式實驗室證據（凝膠、菌落平板、顯微鏡、儀器檔案）並辨識證據不足的能力。在 xhigh 推理努力下，GPT-6 Astra 平均獎勵 66.7%，領先 GPT-6.1 Sol 的 62.0% 與 GPT-5.6 Sol 的 43.8%。OpenAI 指出仍有選錯菌落與過度計數等錯誤。",
+      "analysis_en": "The benchmark highlights progress in multimodal scientific agents on messy real-world data while underscoring that current scores do not yet support unsupervised lab decisions. Public task release was not indicated, limiting external reproduction.",
+      "analysis_zh": "此基準顯示多模態科學代理在混亂真實資料上的進展，同時強調目前分數尚不足以支援無人監督的實驗室決策。未見公開任務集，限制外部重現。",
+      "quote": "Introducing BioBasicsBench, a benchmark measuring how well AI agents interpret raw experimental data across 100 routine wet-lab tasks.",
+      "quote_zh": "推出 BioBasicsBench，衡量 AI 代理在 100 項例行濕式實驗室任務中解讀原始實驗資料的能力。",
+      "importance": 4,
+      "first_seen": "2026-11-06T08:00:00Z",
+      "updated_at": "2026-11-08T04:35:01.548213+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/"
+        }
+      ]
+    },
+    {
+      "id": "openai-11b-funding-1-25t-2026-11-06",
+      "story_id": "openai-11b-funding-1-25t-2026-11-06",
+      "category": "openai",
+      "source_type": "news",
+      "title_en": "OpenAI closes $11B tranche at $1.25T valuation",
+      "title_zh": "OpenAI 完成 110 億美元融資，估值 1.25 兆美元",
+      "summary_en": "Sources told Bloomberg and Reuters that OpenAI closed an initial roughly $11 billion of a funding round on November 6, valuing the company at $1.25 trillion, with the total potentially reaching up to $20 billion in coming weeks. This is below earlier targets of $30 billion or more at a higher valuation, amid broader AI market cooling. Participants reportedly include Coatue, T. Rowe Price, SoftBank, and others; OpenAI declined to comment.",
+      "summary_zh": "消息人士告知 Bloomberg 與 Reuters，OpenAI 於 11 月 6 日完成約 110 億美元的首輪融資，公司估值 1.25 兆美元，總額可能在未來數週達 200 億美元。這低於先前 300 億美元以上的目標與更高估值，正值 AI 市場降溫。據報參與者包括 Coatue、T. Rowe Price、SoftBank 等；OpenAI 未予置評。",
+      "analysis_en": "The reduced scale signals investor caution on AI infrastructure spending and valuations even for the category leader, while still providing substantial capital for compute. The exact remaining close and investor mix remain subject to further reporting.",
+      "analysis_zh": "規模縮減顯示即使對龍頭，投資人對 AI 基礎設施支出與估值仍持謹慎，但仍提供可觀運算資本。剩餘關帳與投資人組合仍待後續報導確認。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 4,
+      "first_seen": "2026-11-06T20:00:00Z",
+      "updated_at": "2026-11-08T04:35:01.548213+00:00",
+      "links": [
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06/"
+        }
+      ]
+    },
+    {
+      "id": "google-gemini-omni-1-2-flash-2026-11-05",
+      "story_id": "google-gemini-omni-1-2-flash-2026-11-05",
+      "category": "google",
+      "source_type": "official_blog",
+      "title_en": "Google DeepMind makes Gemini Omni 1.2 Flash generally available",
+      "title_zh": "Google DeepMind 讓 Gemini Omni 1.2 Flash 正式上線",
+      "summary_en": "On November 5 Google announced general availability of Gemini Omni 1.2 Flash on the Gemini API and Gemini for business. It extends native video generation and editing to 15 seconds (from 10), adds multi-turn conversational editing and improved reference adherence, and cuts pricing 30% to $0.07 per second for 720p. Outputs carry SynthID watermarking; draft-then-upscale workflows are supported.",
+      "summary_zh": "Google 於 11 月 5 日宣布 Gemini Omni 1.2 Flash 在 Gemini API 與 Gemini for business 正式上線。原生影片生成與編輯延長至 15 秒（原 10 秒），加入多輪對話式編輯與更好參考遵循，並將 720p 定價降 30% 至每秒 0.07 美元。輸出帶有 SynthID 浮水印，並支援先草擬再升級工作流程。",
+      "analysis_en": "The longer clips and lower unit cost make generative video more practical for production workflows, while watermarking addresses provenance. Broader consumer app availability and real-world consistency claims will be tested by independent use.",
+      "analysis_zh": "更長片段與較低單位成本使生成影片更實用於生產工作流程，浮水印則處理來源問題。更廣泛消費者應用可用性與真實一致性宣稱，仍待獨立使用檢驗。",
+      "quote": "Gemini Omni 1.2 Flash introduces native 15-second video creation, multi-turn conversational editing capabilities, and enhanced reference following. We have dropped the price 30% from Gemini Omni 1.1 making it available at $0.07 per second for 720p video.",
+      "quote_zh": "Gemini Omni 1.2 Flash 引入原生 15 秒影片創作、多輪對話式編輯能力與強化的參考遵循。我們將價格從 Gemini Omni 1.1 降低 30%，720p 影片每秒 0.07 美元。",
+      "importance": 4,
+      "first_seen": "2026-11-05T08:00:00Z",
+      "updated_at": "2026-11-08T04:35:01.548213+00:00",
+      "links": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+        }
+      ]
+    },
+    {
+      "id": "deepmind-rsa-1024-weaknesses-2026-11-06",
+      "story_id": "deepmind-rsa-1024-weaknesses-2026-11-06",
+      "category": "google",
+      "source_type": "mixed",
+      "title_en": "DeepMind agents surface two weaknesses in legacy 1024-bit RSA",
+      "title_zh": "DeepMind 代理發現舊版 1024 位元 RSA 兩個弱點",
+      "summary_en": "On November 6 Pushmeet Kohli (VP of Science) announced that human-guided AI agents found two weaknesses in legacy 1024-bit RSA: a signature-forgery approach estimated roughly 1,600× faster than prior methods in one setting, and a batch-factoring method lowering average cost per additional key by about 30×. A sandboxed reimplementation of a known case used 3.5× less CPU time. DeepMind stated modern 2048-bit keys are unaffected.",
+      "summary_zh": "11 月 6 日，科學副總裁 Pushmeet Kohli 宣布，由人類引導的 AI 代理在舊版 1024 位元 RSA 發現兩個弱點：一種簽名偽造方法在特定設定下估計比先前方法快約 1,600 倍，以及一種批次分解方法使額外金鑰平均成本降低約 30 倍。沙盒中重現已知案例使用的 CPU 時間少 3.5 倍。DeepMind 表示現代 2048 位元金鑰不受影響。",
+      "analysis_en": "The work demonstrates AI agents accelerating cryptanalysis research on obsolete parameters without immediately threatening current standards, but it compresses the timeline for stress-testing assumptions. Full papers and independent review will clarify the practical impact on any remaining 1024-bit deployments.",
+      "analysis_zh": "此工作展示 AI 代理加速過時參數的密碼分析研究，而未立即威脅現行標準，但壓縮了對假設進行壓力測試的時程。完整論文與獨立審查將釐清對仍存 1024 位元部署的實際影響。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 4,
+      "first_seen": "2026-11-06T17:00:00Z",
+      "updated_at": "2026-11-08T04:35:01.548213+00:00",
+      "links": [
+        {
+          "label": "Secondary coverage of DeepMind announcement",
+          "url": "https://www.aichatdaily.com/ai-security/google-deepmind-agents-find-two-weaknesses-legacy-1024-bit"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-personal-finance-claude-2026-11-05",
+      "story_id": "anthropic-personal-finance-claude-2026-11-05",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic launches Personal Finance in Claude (US beta)",
+      "title_zh": "Anthropic 在 Claude 推出個人理財功能（美國 beta）",
+      "summary_en": "On November 5 Anthropic began rolling out Personal Finance in beta for US Pro, Max, and Ultra users. Users can link bank and card accounts via Plaid for read-only access; Claude answers questions about balances, spending, and bills in plain language, builds charts or dashboards, and does not move or invest money. Hub conversations are excluded from training; there are no ads or sponsored products.",
+      "summary_zh": "Anthropic 於 11 月 5 日開始為美國 Pro、Max 與 Ultra 用戶推出 Personal Finance beta。用戶可透過 Plaid 連結銀行與卡片帳戶取得唯讀存取；Claude 以日常語言回答餘額、支出與帳單問題，可建立圖表或儀表板，且不移動或投資資金。Hub 對話不納入訓練；無廣告或贊助產品。",
+      "analysis_en": "The feature brings account-linked financial queries into a major assistant with explicit read-only and no-training safeguards, similar to earlier ChatGPT tools. Adoption will depend on user trust in data handling and accuracy of AI-generated summaries.",
+      "analysis_zh": "此功能將帳戶連結的財務查詢帶入主要助理，並有明確唯讀與不訓練的防護，類似先前 ChatGPT 工具。採用將取決於用戶對資料處理的信任與 AI 摘要準確性。",
+      "quote": "Access is read-only, and Personal Finance can’t move, manage, or invest your money.",
+      "quote_zh": "存取為唯讀，Personal Finance 無法移動、管理或投資您的資金。",
+      "importance": 3,
+      "first_seen": "2026-11-05T08:00:00Z",
+      "updated_at": "2026-11-08T04:35:01.548213+00:00",
+      "links": [
+        {
+          "label": "Anthropic / Claude Blog",
+          "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "openai": [
+      {
+        "id": "openai-gpt-6-cyber-2026-11-05",
+        "story_id": "openai-gpt-6-cyber-2026-11-05",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI releases GPT-6 Cyber with Critical cybersecurity rating",
+        "title_zh": "OpenAI 發布 Critical 級網路安全模型 GPT-6 Cyber",
+        "summary_en": "OpenAI introduced GPT-6 Cyber on November 5 as a specialized GPT-6 Astra variant for authorized vulnerability research and exploit development, rating it Critical under its Preparedness Framework. It is initially available only to select Daybreak Red customers via API and Codex. OpenAI reported the model helped identify 81 previously unknown high-severity Firefox flaws and develop working exploits for 948 Linux kernel issues (588 previously unknown), with stronger adherence to researcher-defined scope.",
+        "summary_zh": "OpenAI 於 11 月 5 日推出 GPT-6 Cyber，這是針對授權漏洞研究與利用開發的 GPT-6 Astra 特化版本，並依其準備框架評為 Critical。目前僅限選定 Daybreak Red 客戶透過 API 與 Codex 使用。OpenAI 表示該模型協助發現 81 個先前未知的 Firefox 高嚴重性漏洞，並為 948 個 Linux 核心問題開發可運作利用（其中 588 個先前未知），且更嚴格遵守研究者定義的範圍。",
+        "analysis_en": "This expands the dual-use frontier of cyber-capable models under tighter access controls, potentially accelerating defensive research while raising concerns about proliferation if scope controls prove imperfect. Independent verification of the full Linux and Firefox findings remains limited outside OpenAI’s disclosures.",
+        "analysis_zh": "這在更嚴格存取控制下擴展了具網路能力模型的雙重用途前沿，可能加速防禦研究，但若範圍控制不夠完善，仍引發擴散疑慮。Linux 與 Firefox 發現的完整獨立驗證目前仍有限，主要依賴 OpenAI 披露。",
+        "quote": "Introducing GPT‑6 Cyber: a major advance in security research that pairs stronger capabilities with better model alignment.",
+        "quote_zh": "推出 GPT-6 Cyber：網路安全研究的重大進展，結合更強能力與更好的模型對齊。",
+        "importance": 5,
+        "first_seen": "2026-11-05T17:00:00Z",
+        "updated_at": "2026-11-08T04:35:01.548213+00:00",
+        "links": [
+          {
+            "label": "OpenAI on X / Product announcement",
+            "url": "https://x.com/OpenAI/status/2118390190246879554"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/technology/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-2026-11-05/"
+          }
+        ]
+      },
+      {
+        "id": "openai-biobasicsbench-2026-11-06",
+        "story_id": "openai-biobasicsbench-2026-11-06",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI and Ligo launch BioBasicsBench for wet-lab agent evaluation",
+        "title_zh": "OpenAI 與 Ligo 推出 BioBasicsBench 濕式實驗室代理評估基準",
+        "summary_en": "On November 6 OpenAI published BioBasicsBench, a 100-task benchmark developed with enzyme-design firm Ligo that tests AI agents on interpreting raw wet-lab evidence (gels, colony plates, microscopy, instrument files) and recognizing insufficient data. At xhigh reasoning effort, GPT-6 Astra scored a mean 66.7% reward, ahead of GPT-6.1 Sol at 62.0% and GPT-5.6 Sol at 43.8%. OpenAI noted remaining errors such as wrong colony selection and overcounting.",
+        "summary_zh": "OpenAI 於 11 月 6 日發布 BioBasicsBench，這是與酵素設計公司 Ligo 共同開發的 100 項任務基準，測試 AI 代理解讀原始濕式實驗室證據（凝膠、菌落平板、顯微鏡、儀器檔案）並辨識證據不足的能力。在 xhigh 推理努力下，GPT-6 Astra 平均獎勵 66.7%，領先 GPT-6.1 Sol 的 62.0% 與 GPT-5.6 Sol 的 43.8%。OpenAI 指出仍有選錯菌落與過度計數等錯誤。",
+        "analysis_en": "The benchmark highlights progress in multimodal scientific agents on messy real-world data while underscoring that current scores do not yet support unsupervised lab decisions. Public task release was not indicated, limiting external reproduction.",
+        "analysis_zh": "此基準顯示多模態科學代理在混亂真實資料上的進展，同時強調目前分數尚不足以支援無人監督的實驗室決策。未見公開任務集，限制外部重現。",
+        "quote": "Introducing BioBasicsBench, a benchmark measuring how well AI agents interpret raw experimental data across 100 routine wet-lab tasks.",
+        "quote_zh": "推出 BioBasicsBench，衡量 AI 代理在 100 項例行濕式實驗室任務中解讀原始實驗資料的能力。",
+        "importance": 4,
+        "first_seen": "2026-11-06T08:00:00Z",
+        "updated_at": "2026-11-08T04:35:01.548213+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/"
+          }
+        ]
+      },
+      {
+        "id": "openai-11b-funding-1-25t-2026-11-06",
+        "story_id": "openai-11b-funding-1-25t-2026-11-06",
+        "category": "openai",
+        "source_type": "news",
+        "title_en": "OpenAI closes $11B tranche at $1.25T valuation",
+        "title_zh": "OpenAI 完成 110 億美元融資，估值 1.25 兆美元",
+        "summary_en": "Sources told Bloomberg and Reuters that OpenAI closed an initial roughly $11 billion of a funding round on November 6, valuing the company at $1.25 trillion, with the total potentially reaching up to $20 billion in coming weeks. This is below earlier targets of $30 billion or more at a higher valuation, amid broader AI market cooling. Participants reportedly include Coatue, T. Rowe Price, SoftBank, and others; OpenAI declined to comment.",
+        "summary_zh": "消息人士告知 Bloomberg 與 Reuters，OpenAI 於 11 月 6 日完成約 110 億美元的首輪融資，公司估值 1.25 兆美元，總額可能在未來數週達 200 億美元。這低於先前 300 億美元以上的目標與更高估值，正值 AI 市場降溫。據報參與者包括 Coatue、T. Rowe Price、SoftBank 等；OpenAI 未予置評。",
+        "analysis_en": "The reduced scale signals investor caution on AI infrastructure spending and valuations even for the category leader, while still providing substantial capital for compute. The exact remaining close and investor mix remain subject to further reporting.",
+        "analysis_zh": "規模縮減顯示即使對龍頭，投資人對 AI 基礎設施支出與估值仍持謹慎，但仍提供可觀運算資本。剩餘關帳與投資人組合仍待後續報導確認。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 4,
+        "first_seen": "2026-11-06T20:00:00Z",
+        "updated_at": "2026-11-08T04:35:01.548213+00:00",
+        "links": [
+          {
+            "label": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06/"
+          }
+        ]
+      }
+    ],
+    "anthropic": [
+      {
+        "id": "anthropic-personal-finance-claude-2026-11-05",
+        "story_id": "anthropic-personal-finance-claude-2026-11-05",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic launches Personal Finance in Claude (US beta)",
+        "title_zh": "Anthropic 在 Claude 推出個人理財功能（美國 beta）",
+        "summary_en": "On November 5 Anthropic began rolling out Personal Finance in beta for US Pro, Max, and Ultra users. Users can link bank and card accounts via Plaid for read-only access; Claude answers questions about balances, spending, and bills in plain language, builds charts or dashboards, and does not move or invest money. Hub conversations are excluded from training; there are no ads or sponsored products.",
+        "summary_zh": "Anthropic 於 11 月 5 日開始為美國 Pro、Max 與 Ultra 用戶推出 Personal Finance beta。用戶可透過 Plaid 連結銀行與卡片帳戶取得唯讀存取；Claude 以日常語言回答餘額、支出與帳單問題，可建立圖表或儀表板，且不移動或投資資金。Hub 對話不納入訓練；無廣告或贊助產品。",
+        "analysis_en": "The feature brings account-linked financial queries into a major assistant with explicit read-only and no-training safeguards, similar to earlier ChatGPT tools. Adoption will depend on user trust in data handling and accuracy of AI-generated summaries.",
+        "analysis_zh": "此功能將帳戶連結的財務查詢帶入主要助理，並有明確唯讀與不訓練的防護，類似先前 ChatGPT 工具。採用將取決於用戶對資料處理的信任與 AI 摘要準確性。",
+        "quote": "Access is read-only, and Personal Finance can’t move, manage, or invest your money.",
+        "quote_zh": "存取為唯讀，Personal Finance 無法移動、管理或投資您的資金。",
+        "importance": 3,
+        "first_seen": "2026-11-05T08:00:00Z",
+        "updated_at": "2026-11-08T04:35:01.548213+00:00",
+        "links": [
+          {
+            "label": "Anthropic / Claude Blog",
+            "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
+          }
+        ]
+      }
+    ],
+    "google": [
+      {
+        "id": "google-gemini-omni-1-2-flash-2026-11-05",
+        "story_id": "google-gemini-omni-1-2-flash-2026-11-05",
+        "category": "google",
+        "source_type": "official_blog",
+        "title_en": "Google DeepMind makes Gemini Omni 1.2 Flash generally available",
+        "title_zh": "Google DeepMind 讓 Gemini Omni 1.2 Flash 正式上線",
+        "summary_en": "On November 5 Google announced general availability of Gemini Omni 1.2 Flash on the Gemini API and Gemini for business. It extends native video generation and editing to 15 seconds (from 10), adds multi-turn conversational editing and improved reference adherence, and cuts pricing 30% to $0.07 per second for 720p. Outputs carry SynthID watermarking; draft-then-upscale workflows are supported.",
+        "summary_zh": "Google 於 11 月 5 日宣布 Gemini Omni 1.2 Flash 在 Gemini API 與 Gemini for business 正式上線。原生影片生成與編輯延長至 15 秒（原 10 秒），加入多輪對話式編輯與更好參考遵循，並將 720p 定價降 30% 至每秒 0.07 美元。輸出帶有 SynthID 浮水印，並支援先草擬再升級工作流程。",
+        "analysis_en": "The longer clips and lower unit cost make generative video more practical for production workflows, while watermarking addresses provenance. Broader consumer app availability and real-world consistency claims will be tested by independent use.",
+        "analysis_zh": "更長片段與較低單位成本使生成影片更實用於生產工作流程，浮水印則處理來源問題。更廣泛消費者應用可用性與真實一致性宣稱，仍待獨立使用檢驗。",
+        "quote": "Gemini Omni 1.2 Flash introduces native 15-second video creation, multi-turn conversational editing capabilities, and enhanced reference following. We have dropped the price 30% from Gemini Omni 1.1 making it available at $0.07 per second for 720p video.",
+        "quote_zh": "Gemini Omni 1.2 Flash 引入原生 15 秒影片創作、多輪對話式編輯能力與強化的參考遵循。我們將價格從 Gemini Omni 1.1 降低 30%，720p 影片每秒 0.07 美元。",
+        "importance": 4,
+        "first_seen": "2026-11-05T08:00:00Z",
+        "updated_at": "2026-11-08T04:35:01.548213+00:00",
+        "links": [
+          {
+            "label": "Google Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+          }
+        ]
+      },
+      {
+        "id": "deepmind-rsa-1024-weaknesses-2026-11-06",
+        "story_id": "deepmind-rsa-1024-weaknesses-2026-11-06",
+        "category": "google",
+        "source_type": "mixed",
+        "title_en": "DeepMind agents surface two weaknesses in legacy 1024-bit RSA",
+        "title_zh": "DeepMind 代理發現舊版 1024 位元 RSA 兩個弱點",
+        "summary_en": "On November 6 Pushmeet Kohli (VP of Science) announced that human-guided AI agents found two weaknesses in legacy 1024-bit RSA: a signature-forgery approach estimated roughly 1,600× faster than prior methods in one setting, and a batch-factoring method lowering average cost per additional key by about 30×. A sandboxed reimplementation of a known case used 3.5× less CPU time. DeepMind stated modern 2048-bit keys are unaffected.",
+        "summary_zh": "11 月 6 日，科學副總裁 Pushmeet Kohli 宣布，由人類引導的 AI 代理在舊版 1024 位元 RSA 發現兩個弱點：一種簽名偽造方法在特定設定下估計比先前方法快約 1,600 倍，以及一種批次分解方法使額外金鑰平均成本降低約 30 倍。沙盒中重現已知案例使用的 CPU 時間少 3.5 倍。DeepMind 表示現代 2048 位元金鑰不受影響。",
+        "analysis_en": "The work demonstrates AI agents accelerating cryptanalysis research on obsolete parameters without immediately threatening current standards, but it compresses the timeline for stress-testing assumptions. Full papers and independent review will clarify the practical impact on any remaining 1024-bit deployments.",
+        "analysis_zh": "此工作展示 AI 代理加速過時參數的密碼分析研究，而未立即威脅現行標準，但壓縮了對假設進行壓力測試的時程。完整論文與獨立審查將釐清對仍存 1024 位元部署的實際影響。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 4,
+        "first_seen": "2026-11-06T17:00:00Z",
+        "updated_at": "2026-11-08T04:35:01.548213+00:00",
+        "links": [
+          {
+            "label": "Secondary coverage of DeepMind announcement",
+            "url": "https://www.aichatdaily.com/ai-security/google-deepmind-agents-find-two-weaknesses-legacy-1024-bit"
+          }
+        ]
+      }
+    ],
+    "meta": [],
+    "xai": [],
+    "frontier_other": []
+  },
+  "brief_en": "OpenAI shipped GPT-6 Cyber (Critical rating, limited Daybreak Red access) after it helped surface hundreds of Linux and Firefox flaws, while closing an $11B tranche at a $1.25T valuation. Google rolled out Gemini Omni 1.2 Flash with 15s video and a 30% price cut; DeepMind agents exposed legacy RSA-1024 weaknesses. Anthropic added read-only Personal Finance in Claude for US paid users.",
+  "brief_zh": "OpenAI 發布 Critical 級 GPT-6 Cyber（限 Daybreak Red），協助發現數百個 Linux 與 Firefox 漏洞，並完成 110 億美元融資、估值 1.25 兆美元。Google 推出 Gemini Omni 1.2 Flash（15 秒影片、降價 30%）；DeepMind 代理發現舊版 RSA-1024 弱點。Anthropic 為美國付費用戶推出 Claude 唯讀個人理財功能。",
+  "updated_at": "2026-11-08T04:35:01.548213+00:00"
+}

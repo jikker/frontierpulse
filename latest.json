@@ -1,172 +1,40 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "runs": [
     {
-      "generated_at": "2026-11-06T16:35:01.943057+00:00",
+      "generated_at": "2026-11-08T04:35:01.548213+00:00",
       "backend": "grok-web",
       "model": "grok.com (browser)",
-      "item_count": 4,
+      "item_count": 6,
       "updated_count": 0,
-      "kept_count": 0
-    },
-    {
-      "generated_at": "2026-11-06T22:35:01.777695+00:00",
-      "backend": "grok-web",
-      "model": "grok.com (browser)",
-      "item_count": 10,
-      "updated_count": 4,
-      "kept_count": 0
-    },
-    {
-      "generated_at": "2026-11-07T04:35:01.753029+00:00",
-      "backend": "grok-web",
-      "model": "grok.com (browser)",
-      "item_count": 12,
-      "updated_count": 10,
       "kept_count": 0
     }
   ],
   "items_flat": [
     {
-      "id": "openai-gpt6-cyber-2026-11-05",
-      "story_id": "openai-gpt6-cyber-2026-11-05",
+      "id": "openai-gpt-6-cyber-2026-11-05",
+      "story_id": "openai-gpt-6-cyber-2026-11-05",
       "category": "openai",
       "source_type": "official_blog",
-      "title_en": "OpenAI introduces GPT-6 Cyber for aligned cybersecurity research",
-      "title_zh": "OpenAI 推出 GPT-6 Cyber，用於對齊的網路安全研究",
-      "summary_en": "OpenAI announced GPT-6 Cyber, a specialized model for finding and validating exploitable vulnerabilities while staying within researcher-set scope. It scores 48.5% on ExploitGym (vs 32.1% for GPT-5.6 Cyber), shows strong alignment gains, and is classified Critical under the Preparedness Framework, with access gated via Daybreak Red.",
-      "summary_zh": "OpenAI 宣布 GPT-6 Cyber，一款專門用於尋找並驗證可利用漏洞、同時維持在研究者設定範圍內的模型。它在 ExploitGym 得分 48.5%（對比 GPT-5.6 Cyber 的 32.1%），對齊能力顯著提升，並依 Preparedness Framework 列為 Critical，存取透過 Daybreak Red 管控。",
-      "analysis_en": "Classifying the model as Critical under the Preparedness Framework marks a capability jump that OpenAI is deliberately gating. The real test is whether restricted access plus improved alignment keeps the dual-use surface manageable as cyber agents scale.",
-      "analysis_zh": "依 Preparedness Framework 將其列為 Critical，標誌能力躍升且 OpenAI 刻意加以管控。真正考驗在於受限存取加上對齊改善，能否在網路安全代理擴張時將雙重用途風險維持在可控範圍。",
+      "title_en": "OpenAI releases GPT-6 Cyber with Critical cybersecurity rating",
+      "title_zh": "OpenAI 發布 Critical 級網路安全模型 GPT-6 Cyber",
+      "summary_en": "OpenAI introduced GPT-6 Cyber on November 5 as a specialized GPT-6 Astra variant for authorized vulnerability research and exploit development, rating it Critical under its Preparedness Framework. It is initially available only to select Daybreak Red customers via API and Codex. OpenAI reported the model helped identify 81 previously unknown high-severity Firefox flaws and develop working exploits for 948 Linux kernel issues (588 previously unknown), with stronger adherence to researcher-defined scope.",
+      "summary_zh": "OpenAI 於 11 月 5 日推出 GPT-6 Cyber，這是針對授權漏洞研究與利用開發的 GPT-6 Astra 特化版本，並依其準備框架評為 Critical。目前僅限選定 Daybreak Red 客戶透過 API 與 Codex 使用。OpenAI 表示該模型協助發現 81 個先前未知的 Firefox 高嚴重性漏洞，並為 948 個 Linux 核心問題開發可運作利用（其中 588 個先前未知），且更嚴格遵守研究者定義的範圍。",
+      "analysis_en": "This expands the dual-use frontier of cyber-capable models under tighter access controls, potentially accelerating defensive research while raising concerns about proliferation if scope controls prove imperfect. Independent verification of the full Linux and Firefox findings remains limited outside OpenAI’s disclosures.",
+      "analysis_zh": "這在更嚴格存取控制下擴展了具網路能力模型的雙重用途前沿，可能加速防禦研究，但若範圍控制不夠完善，仍引發擴散疑慮。Linux 與 Firefox 發現的完整獨立驗證目前仍有限，主要依賴 OpenAI 披露。",
       "quote": "Introducing GPT‑6 Cyber: a major advance in security research that pairs stronger capabilities with better model alignment.",
-      "quote_zh": "推出 GPT‑6 Cyber：安全研究的重大進展，將更強能力與更好的模型對齊結合。",
+      "quote_zh": "推出 GPT-6 Cyber：網路安全研究的重大進展，結合更強能力與更好的模型對齊。",
       "importance": 5,
-      "first_seen": "2026-11-06T16:35:00Z",
-      "updated_at": "2026-11-07T04:35:01.753029+00:00",
+      "first_seen": "2026-11-05T17:00:00Z",
+      "updated_at": "2026-11-08T04:35:01.548213+00:00",
       "links": [
         {
-          "label": "OpenAI Blog",
-          "url": "https://openai.com/index/introducing-gpt-6-cyber/"
-        },
-        {
-          "label": "OpenAI on X",
-          "url": "https://x.com/OpenAI/status/2118390413870412082"
-        }
-      ]
-    },
-    {
-      "id": "google-gemini-omni-1-2-flash-2026-11-05",
-      "story_id": "google-gemini-omni-1-2-flash-2026-11-05",
-      "category": "google",
-      "source_type": "official_blog",
-      "title_en": "Google makes Gemini Omni 1.2 Flash generally available",
-      "title_zh": "Google 將 Gemini Omni 1.2 Flash 正式上線",
-      "summary_en": "Google DeepMind and Google Cloud rolled out Gemini Omni 1.2 Flash to general availability on the Gemini API and Gemini for business. It supports native 15-second clips (up from 10s), multi-turn conversational editing, stronger reference adherence, and a 30% price cut to $0.07 per second for 720p video.",
-      "summary_zh": "Google DeepMind 與 Google Cloud 將 Gemini Omni 1.2 Flash 於 Gemini API 與 Gemini for business 正式上線。支援原生最長 15 秒片段（從 10 秒提升）、多輪對話式編輯、更強參考遵循，以及 720p 影片每秒降至 0.07 美元（降價 30%）。",
-      "analysis_en": "Longer native clips plus conversational editing and a price cut lower the barrier for production video workflows. Consistency and physics still remain the practical limits for high-stakes creative or commercial use.",
-      "analysis_zh": "更長原生片段、對話式編輯與降價降低了生產級影片工作流的門檻。一致性與物理模擬仍是高風險創意或商業應用的實務限制。",
-      "quote": "Today, we’re rolling out Gemini Omni 1.2 Flash, and making it generally available across the Gemini API and Gemini for business.",
-      "quote_zh": "今天，我們推出 Gemini Omni 1.2 Flash，並讓它在 Gemini API 與 Gemini for business 正式上線。",
-      "importance": 4,
-      "first_seen": "2026-11-06T16:35:00Z",
-      "updated_at": "2026-11-07T04:35:01.753029+00:00",
-      "links": [
-        {
-          "label": "Google Blog",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
-        },
-        {
-          "label": "Google Cloud Blog",
-          "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available"
-        },
-        {
-          "label": "Google DeepMind News",
-          "url": "https://deepmind.google/blog/"
-        }
-      ]
-    },
-    {
-      "id": "metr-anthropic-acceleration-report-2026-11-05",
-      "story_id": "metr-anthropic-acceleration-report-2026-11-05",
-      "category": "anthropic",
-      "source_type": "mixed",
-      "title_en": "METR finds Anthropic improving capabilities at roughly twice prior pace",
-      "title_zh": "METR 發現 Anthropic 能力提升速度約為先前的兩倍",
-      "summary_en": "Independent evaluator METR published an assessment after 11 weeks of internal access at Anthropic. It estimates AECI benchmark scores have grown at 1.9× the pre-October 2025 rate (95% CI 1.5–2.8×) since October 2025, with roughly 80% of the acceleration attributed to AI-assisted R&D.",
-      "summary_zh": "獨立評估機構 METR 在 Anthropic 內部存取 11 週後發布評估。估計自 2025 年 10 月起，AECI 基準分數成長速度為 2025 年 10 月前的 1.9 倍（95% CI 1.5–2.8 倍），約 80% 的加速來自 AI 輔助研發。",
-      "analysis_en": "The report supplies one of the clearer external signals that AI-assisted R&D is already accelerating frontier progress, but heavy redactions and wide confidence intervals leave the precise contribution of internal AI use uncertain.",
-      "analysis_zh": "報告提供 AI 輔助研發已加速前沿進展的較清晰外部訊號之一，但大量刪節與寬廣信賴區間使內部 AI 使用的精確貢獻仍不確定。",
-      "quote": "As of October 2026, Anthropic is likely improving the capabilities of their models on well-specified tasks at around twice the rate they did between March 2024 and October 2025.",
-      "quote_zh": "截至 2026 年 10 月，Anthropic 很可能在明確指定任務上，以約為 2024 年 3 月至 2025 年 10 月間兩倍的速度提升模型能力。",
-      "importance": 4,
-      "first_seen": "2026-11-06T16:35:00Z",
-      "updated_at": "2026-11-07T04:35:01.753029+00:00",
-      "links": [
-        {
-          "label": "METR Blog",
-          "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+          "label": "OpenAI on X / Product announcement",
+          "url": "https://x.com/OpenAI/status/2118390190246879554"
         },
         {
           "label": "Reuters",
-          "url": "https://www.reuters.com/technology/anthropics-models-improving-nearly-twice-fast-with-help-ai-study-finds-2026-11-05/"
-        },
-        {
-          "label": "FrameSignal / METR coverage",
-          "url": "https://framesignal.com/topics/anthropic"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-personal-finance-claude-2026-11-05",
-      "story_id": "anthropic-personal-finance-claude-2026-11-05",
-      "category": "anthropic",
-      "source_type": "product",
-      "title_en": "Anthropic launches Personal Finance beta in Claude",
-      "title_zh": "Anthropic 在 Claude 推出 Personal Finance 測試版",
-      "summary_en": "Anthropic began rolling out Personal Finance in Claude as a US beta for Pro, Max, and Ultra plans. Users can link bank and card accounts via Plaid for read-only access; Claude answers questions about balances, spending, and bills in plain language without moving money.",
-      "summary_zh": "Anthropic 開始向美國 Pro、Max 與 Ultra 方案使用者推出 Claude 的 Personal Finance 測試版。使用者可透過 Plaid 連結銀行與信用卡帳戶進行唯讀存取；Claude 以白話回答餘額、支出與帳單問題，但不移動資金。",
-      "analysis_en": "Read-only bank linking expands Claude from general assistant into personal financial context, but the value depends on accuracy of categorization and user willingness to share sensitive data.",
-      "analysis_zh": "唯讀銀行連結將 Claude 從一般助理擴展至個人財務脈絡，但價值取決於分類準確度與使用者分享敏感資料的意願。",
-      "quote": "With Personal Finance in Claude, you can securely connect your bank and card accounts and ask in your own words. Access is read-only, and Personal Finance can’t move, manage, or invest your money.",
-      "quote_zh": "有了 Claude 的 Personal Finance，你可以安全連結銀行與信用卡帳戶，用自己的話提問。存取為唯讀，Personal Finance 無法移動、管理或投資你的金錢。",
-      "importance": 3,
-      "first_seen": "2026-11-06T16:35:00Z",
-      "updated_at": "2026-11-07T04:35:01.753029+00:00",
-      "links": [
-        {
-          "label": "Anthropic Help Center",
-          "url": "https://support.anthropic.com/en/articles/personal-finance-in-claude"
-        },
-        {
-          "label": "Claude by Anthropic",
-          "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
-        }
-      ]
-    },
-    {
-      "id": "openai-hacktron-partnership-2026-11-06",
-      "story_id": "openai-hacktron-partnership-2026-11-06",
-      "category": "openai",
-      "source_type": "official_blog",
-      "title_en": "OpenAI partners with Hacktron to harden its own systems",
-      "title_zh": "OpenAI 與 Hacktron 合作強化自身系統",
-      "summary_en": "OpenAI announced a partnership with Hacktron to jointly test high-priority areas of its systems, focusing on interactions with third-party services. Hacktron receives expanded access to frontier models via Daybreak Red. The move follows prior bug-bounty findings by the firm.",
-      "summary_zh": "OpenAI 宣布與 Hacktron 合作，共同測試其系統高優先區域，聚焦與第三方服務的互動。Hacktron 透過 Daybreak Red 獲得擴展的前沿模型存取權。此舉延續該公司先前透過漏洞賞金計畫的發現。",
-      "analysis_en": "Partnering with a firm that previously demonstrated access paths into OpenAI infrastructure signals a shift toward external red-team depth on agent-to-service boundaries. Effectiveness will depend on how findings translate into durable controls.",
-      "analysis_zh": "與曾展示進入 OpenAI 基礎設施路徑的公司合作，顯示轉向針對代理與服務邊界的外部紅隊深度。成效取決於發現如何轉化為持久控制。",
-      "quote": "Today we’re announcing a partnership with Hacktron to find vulnerabilities in OpenAI’s systems.",
-      "quote_zh": "今天我們宣布與 Hacktron 合作，以尋找 OpenAI 系統中的漏洞。",
-      "importance": 3,
-      "first_seen": "2026-11-06T22:35:00Z",
-      "updated_at": "2026-11-07T04:35:01.753029+00:00",
-      "links": [
-        {
-          "label": "OpenAI Blog",
-          "url": "https://openai.com/index/partnering-with-hacktron/"
-        },
-        {
-          "label": "Hacktron Blog",
-          "url": "https://www.hacktron.ai/blog/openai-partnership"
+          "url": "https://www.reuters.com/technology/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-2026-11-05/"
         }
       ]
     },
@@ -175,26 +43,18 @@
       "story_id": "openai-biobasicsbench-2026-11-06",
       "category": "openai",
       "source_type": "official_blog",
-      "title_en": "OpenAI releases BioBasicsBench for wet-lab AI agents",
-      "title_zh": "OpenAI 發布 BioBasicsBench，評估濕實驗室 AI 代理",
-      "summary_en": "OpenAI, with Ligo, introduced BioBasicsBench: 100 tasks from real experiments testing whether agents can interpret raw wet-lab evidence (gels, plates, microscopy, instrument data), detect errors, and recognize insufficient evidence. At xhigh, GPT-6 Astra scored 66.7% mean reward versus 43.8% for GPT-5.6 Sol.",
-      "summary_zh": "OpenAI 與 Ligo 推出 BioBasicsBench：來自真實實驗的 100 項任務，測試代理能否解讀原始濕實驗室證據（膠體、培養皿、顯微鏡、儀器數據）、偵測錯誤並辨識證據不足。在 xhigh 設定下，GPT-6 Astra 平均獎勵 66.7%，對比 GPT-5.6 Sol 的 43.8%。",
-      "analysis_en": "A benchmark built on raw, ambiguous lab data is more diagnostic for real scientific workflows than paper-figure tasks. The gap to reliable autonomous lab judgment remains large, and higher scores do not yet imply trustworthy independent decisions.",
-      "analysis_zh": "建立在原始、模糊實驗室數據上的基準，比論文圖表任務更能診斷真實科學工作流。距離可靠的自主實驗室判斷仍有大差距，較高分數尚未意味可信的獨立決策。",
-      "quote": "A new way to measure how AI agents handle the routine analyses of wet-lab science—BioBasicsBench.",
-      "quote_zh": "一種衡量 AI 代理如何處理濕實驗室科學例行分析的新方式——BioBasicsBench。",
-      "importance": 3,
-      "first_seen": "2026-11-06T22:35:00Z",
-      "updated_at": "2026-11-07T04:35:01.753029+00:00",
+      "title_en": "OpenAI and Ligo launch BioBasicsBench for wet-lab agent evaluation",
+      "title_zh": "OpenAI 與 Ligo 推出 BioBasicsBench 濕式實驗室代理評估基準",
+      "summary_en": "On November 6 OpenAI published BioBasicsBench, a 100-task benchmark developed with enzyme-design firm Ligo that tests AI agents on interpreting raw wet-lab evidence (gels, colony plates, microscopy, instrument files) and recognizing insufficient data. At xhigh reasoning effort, GPT-6 Astra scored a mean 66.7% reward, ahead of GPT-6.1 Sol at 62.0% and GPT-5.6 Sol at 43.8%. OpenAI noted remaining errors such as wrong colony selection and overcounting.",
+      "summary_zh": "OpenAI 於 11 月 6 日發布 BioBasicsBench，這是與酵素設計公司 Ligo 共同開發的 100 項任務基準，測試 AI 代理解讀原始濕式實驗室證據（凝膠、菌落平板、顯微鏡、儀器檔案）並辨識證據不足的能力。在 xhigh 推理努力下，GPT-6 Astra 平均獎勵 66.7%，領先 GPT-6.1 Sol 的 62.0% 與 GPT-5.6 Sol 的 43.8%。OpenAI 指出仍有選錯菌落與過度計數等錯誤。",
+      "analysis_en": "The benchmark highlights progress in multimodal scientific agents on messy real-world data while underscoring that current scores do not yet support unsupervised lab decisions. Public task release was not indicated, limiting external reproduction.",
+      "analysis_zh": "此基準顯示多模態科學代理在混亂真實資料上的進展，同時強調目前分數尚不足以支援無人監督的實驗室決策。未見公開任務集，限制外部重現。",
+      "quote": "Introducing BioBasicsBench, a benchmark measuring how well AI agents interpret raw experimental data across 100 routine wet-lab tasks.",
+      "quote_zh": "推出 BioBasicsBench，衡量 AI 代理在 100 項例行濕式實驗室任務中解讀原始實驗資料的能力。",
+      "importance": 4,
+      "first_seen": "2026-11-06T08:00:00Z",
+      "updated_at": "2026-11-08T04:35:01.548213+00:00",
       "links": [
-        {
-          "label": "OpenAI on X",
-          "url": "https://x.com/OpenAI/status/2118782708767965238"
-        },
-        {
-          "label": "OpenAI Research",
-          "url": "https://openai.com/index/biobasicsbench/"
-        },
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/"
@@ -202,164 +62,98 @@
       ]
     },
     {
-      "id": "openai-fmf-jailbreak-framework-2026-11-06",
-      "story_id": "openai-fmf-jailbreak-framework-2026-11-06",
+      "id": "openai-11b-funding-1-25t-2026-11-06",
+      "story_id": "openai-11b-funding-1-25t-2026-11-06",
       "category": "openai",
-      "source_type": "official_blog",
-      "title_en": "OpenAI and FMF release cyber jailbreak rating framework",
-      "title_zh": "OpenAI 與 FMF 發布網路越獄評級框架",
-      "summary_en": "OpenAI partnered with the Frontier Model Forum and member firms on Version 1.0 of a Jailbreak Rating Framework for Frontier Cyber Threats. It scores successful jailbreaks on capability gain, scope, ease of deployment, and ease of discovery, mapping to risk bands from Negligible to Critical; public comment is open until 21 December 2026.",
-      "summary_zh": "OpenAI 與 Frontier Model Forum 及其成員公司合作，發布 Frontier Cyber Threats 越獄評級框架 1.0 版。它從能力增益、範圍、部署難易與發現難易評分成功越獄，對應從 Negligible 到 Critical 的風險等級；公眾意見徵詢開放至 2026 年 12 月 21 日。",
-      "analysis_en": "A shared rating vocabulary can reduce inconsistent triage of jailbreaks across labs, but Version 1.0 is preliminary and its practical impact depends on adoption and whether scores correlate with real-world risk.",
-      "analysis_zh": "共享評級詞彙可減少各實驗室對越獄不一致的分類，但 1.0 版仍屬初步，實務影響取決於採用程度以及分數是否與真實世界風險相關。",
-      "quote": "This framework is an important step toward a common methodology for evaluating and comparing the severity of cyber jailbreaks, including the capabilities they unlock and how readily they can be used.",
-      "quote_zh": "此框架是朝向評估與比較網路越獄嚴重性（包括它們解鎖的能力以及多容易被使用）的共同方法論的重要一步。",
-      "importance": 3,
-      "first_seen": "2026-11-06T22:35:00Z",
-      "updated_at": "2026-11-07T04:35:01.753029+00:00",
+      "source_type": "news",
+      "title_en": "OpenAI closes $11B tranche at $1.25T valuation",
+      "title_zh": "OpenAI 完成 110 億美元融資，估值 1.25 兆美元",
+      "summary_en": "Sources told Bloomberg and Reuters that OpenAI closed an initial roughly $11 billion of a funding round on November 6, valuing the company at $1.25 trillion, with the total potentially reaching up to $20 billion in coming weeks. This is below earlier targets of $30 billion or more at a higher valuation, amid broader AI market cooling. Participants reportedly include Coatue, T. Rowe Price, SoftBank, and others; OpenAI declined to comment.",
+      "summary_zh": "消息人士告知 Bloomberg 與 Reuters，OpenAI 於 11 月 6 日完成約 110 億美元的首輪融資，公司估值 1.25 兆美元，總額可能在未來數週達 200 億美元。這低於先前 300 億美元以上的目標與更高估值，正值 AI 市場降溫。據報參與者包括 Coatue、T. Rowe Price、SoftBank 等；OpenAI 未予置評。",
+      "analysis_en": "The reduced scale signals investor caution on AI infrastructure spending and valuations even for the category leader, while still providing substantial capital for compute. The exact remaining close and investor mix remain subject to further reporting.",
+      "analysis_zh": "規模縮減顯示即使對龍頭，投資人對 AI 基礎設施支出與估值仍持謹慎，但仍提供可觀運算資本。剩餘關帳與投資人組合仍待後續報導確認。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 4,
+      "first_seen": "2026-11-06T20:00:00Z",
+      "updated_at": "2026-11-08T04:35:01.548213+00:00",
       "links": [
         {
-          "label": "Frontier Model Forum",
-          "url": "https://www.frontiermodelforum.org/updates/introducing-the-fmf-jailbreak-rating-framework-for-frontier-cyber-threats/"
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value"
         },
         {
-          "label": "OpenAI on X",
-          "url": "https://x.com/OpenAI/status/2118795218099253606"
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06/"
         }
       ]
     },
     {
-      "id": "anthropic-agent-memory-dreaming-2026-11-06",
-      "story_id": "anthropic-agent-memory-dreaming-2026-11-06",
-      "category": "anthropic",
-      "source_type": "official_blog",
-      "title_en": "Anthropic details agent memory and ‘dreaming’ consolidation",
-      "title_zh": "Anthropic 詳述代理記憶與「做夢」整合機制",
-      "summary_en": "Anthropic published an engineering post on the components of agent memory, including how ‘dreaming’ (offline reflection on session logs) corrects mistakes, builds new representations, and organizes notes for future sessions. It is already used in production agents and improves scores on continual-learning benchmarks.",
-      "summary_zh": "Anthropic 發布工程文章，說明代理記憶的組成，包括「做夢」（離線反思會話日誌）如何修正錯誤、建立新表徵並整理筆記供未來會話使用。它已用於生產代理，並提升持續學習基準分數。",
-      "analysis_en": "Making memory consolidation explicit and auditable (without weight updates) addresses a practical failure mode of long-running agents. Whether dreaming systematically improves reliability across diverse tasks remains an open empirical question.",
-      "analysis_zh": "讓記憶整合明確且可稽核（無需權重更新）解決了長時間運行代理的實務失敗模式。做夢是否系統性提升跨多樣任務的可靠性，仍是開放的實證問題。",
-      "quote": "Memory is what allows Claude to learn from experience. In a new Engineering Blog post, we share how “dreaming” helps Claude organize what it’s learned, correct its mistakes, and find what it needs more easily the next time.",
-      "quote_zh": "記憶讓 Claude 從經驗中學習。在新的工程部落格文章中，我們分享「做夢」如何幫助 Claude 整理所學、修正錯誤，並在下次更容易找到所需內容。",
-      "importance": 3,
-      "first_seen": "2026-11-06T22:35:00Z",
-      "updated_at": "2026-11-07T04:35:01.753029+00:00",
-      "links": [
-        {
-          "label": "Anthropic Engineering",
-          "url": "https://www.anthropic.com/research/components-of-agent-memory"
-        },
-        {
-          "label": "Anthropic on X",
-          "url": "https://x.com/AnthropicAI/status/2118814753154064501"
-        }
-      ]
-    },
-    {
-      "id": "meta-muse-wonder-specialized-2026-11-06",
-      "story_id": "meta-muse-wonder-specialized-2026-11-06",
-      "category": "meta",
-      "source_type": "official_x",
-      "title_en": "Meta brings Muse Wonder-derived models to Muse and Meta AI",
-      "title_zh": "Meta 將 Muse Wonder 衍生模型帶入 Muse 與 Meta AI",
-      "summary_en": "Meta announced specialized models trained using Muse Wonder and rolled them out to Muse and Meta AI. They incorporate Active Memory (2.4× reduction in forgetting critical goal information) and Active Focus (67% improvement on tasks with unexpected constraints), with gains reported on Meta’s internal evaluations.",
-      "summary_zh": "Meta 宣布使用 Muse Wonder 訓練的專用模型，並將其推出至 Muse 與 Meta AI。它們納入 Active Memory（忘記關鍵目標資訊減少 2.4 倍）與 Active Focus（在意外限制任務上改善 67%），增益數據來自 Meta 內部評估。",
-      "analysis_en": "Translating frontier-model techniques into consumer-facing assistants narrows the gap between lab capability and everyday use. Reported gains are on Meta’s own evals; independent confirmation of the magnitude is still lacking.",
-      "analysis_zh": "將前沿模型技術轉化為面向消費者的助理，縮小了實驗室能力與日常使用之間的差距。報告增益來自 Meta 自身評估；幅度的獨立確認仍缺乏。",
-      "quote": "Today we're bringing specialized models trained using Muse Wonder to @Muse and Meta AI, giving users access to some of Muse Wonder's frontier capabilities for complex tasks at work and in everyday life.",
-      "quote_zh": "今天我們將使用 Muse Wonder 訓練的專用模型帶入 @Muse 與 Meta AI，讓使用者能存取 Muse Wonder 部分前沿能力，用於工作與日常生活中的複雜任務。",
-      "importance": 3,
-      "first_seen": "2026-11-06T22:35:00Z",
-      "updated_at": "2026-11-07T04:35:01.753029+00:00",
-      "links": [
-        {
-          "label": "AI at Meta on X",
-          "url": "https://x.com/AIatMeta/status/2118768974779634084"
-        },
-        {
-          "label": "Meta Research Blog",
-          "url": "https://research.meta.ai/blog/muse-wonder"
-        },
-        {
-          "label": "Meta AI Research",
-          "url": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai"
-        }
-      ]
-    },
-    {
-      "id": "google-rsa-cryptanalysis-2026-11-06",
-      "story_id": "google-rsa-cryptanalysis-2026-11-06",
+      "id": "google-gemini-omni-1-2-flash-2026-11-05",
+      "story_id": "google-gemini-omni-1-2-flash-2026-11-05",
       "category": "google",
-      "source_type": "official_x",
-      "title_en": "Google DeepMind uses AI agents to accelerate RSA-1024 cryptanalysis",
-      "title_zh": "Google DeepMind 使用 AI 代理加速 RSA-1024 密碼分析",
-      "summary_en": "Google DeepMind shared research showing human-guided AI agents uncovered two major weaknesses in legacy 1024-bit RSA systems: padding becomes ineffective once an attacker controls roughly half the signed block, and a new batch-factoring algorithm speeds factorization. Modern 2048-bit systems remain unaffected.",
-      "summary_zh": "Google DeepMind 分享研究，顯示人類引導的 AI 代理在舊有 1024 位元 RSA 系統中發現兩項重大弱點：當攻擊者控制約一半簽署區塊時，填充變得無效；以及新的批次因數分解演算法加速因數分解。現代 2048 位元系統不受影響。",
-      "analysis_en": "The results do not threaten current standards, but they illustrate how agent-assisted cryptanalysis can compress research cycles that once took years. Continuous, proactive testing of cryptographic assumptions becomes more important as AI tools improve.",
-      "analysis_zh": "結果不威脅現行標準，但說明代理輔助密碼分析如何壓縮過去需數年的研究週期。隨著 AI 工具進步，對密碼假設的持續主動測試變得更重要。",
-      "quote": "We’re sharing new research demonstrating how AI agents can accelerate the science of stress-testing encryption.",
-      "quote_zh": "我們分享新研究，展示 AI 代理如何加速加密壓力測試的科學。",
-      "importance": 3,
-      "first_seen": "2026-11-06T22:35:00Z",
-      "updated_at": "2026-11-07T04:35:01.753029+00:00",
+      "source_type": "official_blog",
+      "title_en": "Google DeepMind makes Gemini Omni 1.2 Flash generally available",
+      "title_zh": "Google DeepMind 讓 Gemini Omni 1.2 Flash 正式上線",
+      "summary_en": "On November 5 Google announced general availability of Gemini Omni 1.2 Flash on the Gemini API and Gemini for business. It extends native video generation and editing to 15 seconds (from 10), adds multi-turn conversational editing and improved reference adherence, and cuts pricing 30% to $0.07 per second for 720p. Outputs carry SynthID watermarking; draft-then-upscale workflows are supported.",
+      "summary_zh": "Google 於 11 月 5 日宣布 Gemini Omni 1.2 Flash 在 Gemini API 與 Gemini for business 正式上線。原生影片生成與編輯延長至 15 秒（原 10 秒），加入多輪對話式編輯與更好參考遵循，並將 720p 定價降 30% 至每秒 0.07 美元。輸出帶有 SynthID 浮水印，並支援先草擬再升級工作流程。",
+      "analysis_en": "The longer clips and lower unit cost make generative video more practical for production workflows, while watermarking addresses provenance. Broader consumer app availability and real-world consistency claims will be tested by independent use.",
+      "analysis_zh": "更長片段與較低單位成本使生成影片更實用於生產工作流程，浮水印則處理來源問題。更廣泛消費者應用可用性與真實一致性宣稱，仍待獨立使用檢驗。",
+      "quote": "Gemini Omni 1.2 Flash introduces native 15-second video creation, multi-turn conversational editing capabilities, and enhanced reference following. We have dropped the price 30% from Gemini Omni 1.1 making it available at $0.07 per second for 720p video.",
+      "quote_zh": "Gemini Omni 1.2 Flash 引入原生 15 秒影片創作、多輪對話式編輯能力與強化的參考遵循。我們將價格從 Gemini Omni 1.1 降低 30%，720p 影片每秒 0.07 美元。",
+      "importance": 4,
+      "first_seen": "2026-11-05T08:00:00Z",
+      "updated_at": "2026-11-08T04:35:01.548213+00:00",
       "links": [
         {
-          "label": "Google DeepMind on X",
-          "url": "https://x.com/GoogleDeepMind/status/2118755418675765656"
+          "label": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
         }
       ]
     },
     {
-      "id": "anthropic-scientific-modeling-2026-11-06",
-      "story_id": "anthropic-scientific-modeling-2026-11-06",
+      "id": "deepmind-rsa-1024-weaknesses-2026-11-06",
+      "story_id": "deepmind-rsa-1024-weaknesses-2026-11-06",
+      "category": "google",
+      "source_type": "mixed",
+      "title_en": "DeepMind agents surface two weaknesses in legacy 1024-bit RSA",
+      "title_zh": "DeepMind 代理發現舊版 1024 位元 RSA 兩個弱點",
+      "summary_en": "On November 6 Pushmeet Kohli (VP of Science) announced that human-guided AI agents found two weaknesses in legacy 1024-bit RSA: a signature-forgery approach estimated roughly 1,600× faster than prior methods in one setting, and a batch-factoring method lowering average cost per additional key by about 30×. A sandboxed reimplementation of a known case used 3.5× less CPU time. DeepMind stated modern 2048-bit keys are unaffected.",
+      "summary_zh": "11 月 6 日，科學副總裁 Pushmeet Kohli 宣布，由人類引導的 AI 代理在舊版 1024 位元 RSA 發現兩個弱點：一種簽名偽造方法在特定設定下估計比先前方法快約 1,600 倍，以及一種批次分解方法使額外金鑰平均成本降低約 30 倍。沙盒中重現已知案例使用的 CPU 時間少 3.5 倍。DeepMind 表示現代 2048 位元金鑰不受影響。",
+      "analysis_en": "The work demonstrates AI agents accelerating cryptanalysis research on obsolete parameters without immediately threatening current standards, but it compresses the timeline for stress-testing assumptions. Full papers and independent review will clarify the practical impact on any remaining 1024-bit deployments.",
+      "analysis_zh": "此工作展示 AI 代理加速過時參數的密碼分析研究，而未立即威脅現行標準，但壓縮了對假設進行壓力測試的時程。完整論文與獨立審查將釐清對仍存 1024 位元部署的實際影響。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 4,
+      "first_seen": "2026-11-06T17:00:00Z",
+      "updated_at": "2026-11-08T04:35:01.548213+00:00",
+      "links": [
+        {
+          "label": "Secondary coverage of DeepMind announcement",
+          "url": "https://www.aichatdaily.com/ai-security/google-deepmind-agents-find-two-weaknesses-legacy-1024-bit"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-personal-finance-claude-2026-11-05",
+      "story_id": "anthropic-personal-finance-claude-2026-11-05",
       "category": "anthropic",
       "source_type": "official_blog",
-      "title_en": "Anthropic publishes guest post on AI helping build scientific models",
-      "title_zh": "Anthropic 發布客座文章，討論 AI 協助建立科學模型",
-      "summary_en": "Anthropic’s Science Blog hosted a guest post by researchers Jakob Macke, Daniel Gedon, and Stefan Wahl describing how AI agents can write, run, fit, and revise scientific models as code. The piece argues agents should return weighted distributions of plausible models rather than a single best fit, illustrated on neuroscience and epidemiological examples.",
-      "summary_zh": "Anthropic 科學部落格刊登 Jakob Macke、Daniel Gedon 與 Stefan Wahl 的客座文章，描述 AI 代理如何以程式碼撰寫、執行、擬合與修訂科學模型。文章主張代理應回傳可信模型的加權分佈而非單一最佳擬合，並以神經科學與流行病學範例說明。",
-      "analysis_en": "Shifting from single-model outputs to model posteriors addresses a real scientific need for uncertainty quantification. Practical uptake will depend on whether agents reliably explore structure space without introducing subtle specification errors.",
-      "analysis_zh": "從單一模型輸出轉向模型後驗，回應科學上對不確定性量化的真實需求。實務採用將取決於代理能否可靠探索結構空間而不引入細微規格錯誤。",
-      "quote": "By writing, running, fitting, and revising scientific models as code, AI can explore many possible model structures, and find out which explanations the data support.",
-      "quote_zh": "透過以程式碼撰寫、執行、擬合與修訂科學模型，AI 可探索多種可能的模型結構，並找出數據支持哪些解釋。",
+      "title_en": "Anthropic launches Personal Finance in Claude (US beta)",
+      "title_zh": "Anthropic 在 Claude 推出個人理財功能（美國 beta）",
+      "summary_en": "On November 5 Anthropic began rolling out Personal Finance in beta for US Pro, Max, and Ultra users. Users can link bank and card accounts via Plaid for read-only access; Claude answers questions about balances, spending, and bills in plain language, builds charts or dashboards, and does not move or invest money. Hub conversations are excluded from training; there are no ads or sponsored products.",
+      "summary_zh": "Anthropic 於 11 月 5 日開始為美國 Pro、Max 與 Ultra 用戶推出 Personal Finance beta。用戶可透過 Plaid 連結銀行與卡片帳戶取得唯讀存取；Claude 以日常語言回答餘額、支出與帳單問題，可建立圖表或儀表板，且不移動或投資資金。Hub 對話不納入訓練；無廣告或贊助產品。",
+      "analysis_en": "The feature brings account-linked financial queries into a major assistant with explicit read-only and no-training safeguards, similar to earlier ChatGPT tools. Adoption will depend on user trust in data handling and accuracy of AI-generated summaries.",
+      "analysis_zh": "此功能將帳戶連結的財務查詢帶入主要助理，並有明確唯讀與不訓練的防護，類似先前 ChatGPT 工具。採用將取決於用戶對資料處理的信任與 AI 摘要準確性。",
+      "quote": "Access is read-only, and Personal Finance can’t move, manage, or invest your money.",
+      "quote_zh": "存取為唯讀，Personal Finance 無法移動、管理或投資您的資金。",
       "importance": 3,
-      "first_seen": "2026-11-07T04:40:00Z",
-      "updated_at": "2026-11-07T04:35:01.753029+00:00",
+      "first_seen": "2026-11-05T08:00:00Z",
+      "updated_at": "2026-11-08T04:35:01.548213+00:00",
       "links": [
         {
-          "label": "Anthropic Science Blog",
-          "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models"
-        },
-        {
-          "label": "Anthropic on X",
-          "url": "https://x.com/AnthropicAI/status/2118792930211107115"
-        }
-      ]
-    },
-    {
-      "id": "meta-muse-spaces-2026-11-06",
-      "story_id": "meta-muse-spaces-2026-11-06",
-      "category": "meta",
-      "source_type": "official_blog",
-      "title_en": "Meta introduces Spaces: custom experiences inside the Muse app",
-      "title_zh": "Meta 推出 Spaces：Muse 應用內的自訂體驗",
-      "summary_en": "Meta launched Spaces in the Muse app, letting users describe an idea and have Muse build a persistent, interactive experience (gift tracker, school dashboard, trip planner, etc.). Connected apps can keep the space updated in the background; spaces can be scheduled or placed in the sidebar or main tabs and are rolling out everywhere Muse is available.",
-      "summary_zh": "Meta 在 Muse 應用推出 Spaces，讓使用者描述想法後由 Muse 建立持久互動體驗（禮物追蹤器、學校儀表板、行程規劃器等）。連結的應用可在背景更新空間；空間可排程或置於側邊欄或主標籤，並在 Muse 可用處推出。",
-      "analysis_en": "Moving from chat to generated, stateful interfaces lowers the friction for task-specific agents. Success will hinge on data-connector reliability and how well the underlying models maintain consistency across sessions.",
-      "analysis_zh": "從聊天轉向生成的有狀態介面，降低了任務專用代理的摩擦。成功將取決於資料連接器可靠性，以及底層模型跨會話維持一致性的程度。",
-      "quote": "Today, we’re introducing spaces, an interactive way to build a more personalized Muse.",
-      "quote_zh": "今天，我們推出 spaces，一種建立更個人化 Muse 的互動方式。",
-      "importance": 3,
-      "first_seen": "2026-11-07T04:40:00Z",
-      "updated_at": "2026-11-07T04:35:01.753029+00:00",
-      "links": [
-        {
-          "label": "Meta Newsroom",
-          "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/"
-        },
-        {
-          "label": "The Verge",
-          "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces"
+          "label": "Anthropic / Claude Blog",
+          "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
         }
       ]
     }
@@ -367,56 +161,29 @@
   "categories": {
     "openai": [
       {
-        "id": "openai-gpt6-cyber-2026-11-05",
-        "story_id": "openai-gpt6-cyber-2026-11-05",
+        "id": "openai-gpt-6-cyber-2026-11-05",
+        "story_id": "openai-gpt-6-cyber-2026-11-05",
         "category": "openai",
         "source_type": "official_blog",
-        "title_en": "OpenAI introduces GPT-6 Cyber for aligned cybersecurity research",
-        "title_zh": "OpenAI 推出 GPT-6 Cyber，用於對齊的網路安全研究",
-        "summary_en": "OpenAI announced GPT-6 Cyber, a specialized model for finding and validating exploitable vulnerabilities while staying within researcher-set scope. It scores 48.5% on ExploitGym (vs 32.1% for GPT-5.6 Cyber), shows strong alignment gains, and is classified Critical under the Preparedness Framework, with access gated via Daybreak Red.",
-        "summary_zh": "OpenAI 宣布 GPT-6 Cyber，一款專門用於尋找並驗證可利用漏洞、同時維持在研究者設定範圍內的模型。它在 ExploitGym 得分 48.5%（對比 GPT-5.6 Cyber 的 32.1%），對齊能力顯著提升，並依 Preparedness Framework 列為 Critical，存取透過 Daybreak Red 管控。",
-        "analysis_en": "Classifying the model as Critical under the Preparedness Framework marks a capability jump that OpenAI is deliberately gating. The real test is whether restricted access plus improved alignment keeps the dual-use surface manageable as cyber agents scale.",
-        "analysis_zh": "依 Preparedness Framework 將其列為 Critical，標誌能力躍升且 OpenAI 刻意加以管控。真正考驗在於受限存取加上對齊改善，能否在網路安全代理擴張時將雙重用途風險維持在可控範圍。",
+        "title_en": "OpenAI releases GPT-6 Cyber with Critical cybersecurity rating",
+        "title_zh": "OpenAI 發布 Critical 級網路安全模型 GPT-6 Cyber",
+        "summary_en": "OpenAI introduced GPT-6 Cyber on November 5 as a specialized GPT-6 Astra variant for authorized vulnerability research and exploit development, rating it Critical under its Preparedness Framework. It is initially available only to select Daybreak Red customers via API and Codex. OpenAI reported the model helped identify 81 previously unknown high-severity Firefox flaws and develop working exploits for 948 Linux kernel issues (588 previously unknown), with stronger adherence to researcher-defined scope.",
+        "summary_zh": "OpenAI 於 11 月 5 日推出 GPT-6 Cyber，這是針對授權漏洞研究與利用開發的 GPT-6 Astra 特化版本，並依其準備框架評為 Critical。目前僅限選定 Daybreak Red 客戶透過 API 與 Codex 使用。OpenAI 表示該模型協助發現 81 個先前未知的 Firefox 高嚴重性漏洞，並為 948 個 Linux 核心問題開發可運作利用（其中 588 個先前未知），且更嚴格遵守研究者定義的範圍。",
+        "analysis_en": "This expands the dual-use frontier of cyber-capable models under tighter access controls, potentially accelerating defensive research while raising concerns about proliferation if scope controls prove imperfect. Independent verification of the full Linux and Firefox findings remains limited outside OpenAI’s disclosures.",
+        "analysis_zh": "這在更嚴格存取控制下擴展了具網路能力模型的雙重用途前沿，可能加速防禦研究，但若範圍控制不夠完善，仍引發擴散疑慮。Linux 與 Firefox 發現的完整獨立驗證目前仍有限，主要依賴 OpenAI 披露。",
         "quote": "Introducing GPT‑6 Cyber: a major advance in security research that pairs stronger capabilities with better model alignment.",
-        "quote_zh": "推出 GPT‑6 Cyber：安全研究的重大進展，將更強能力與更好的模型對齊結合。",
+        "quote_zh": "推出 GPT-6 Cyber：網路安全研究的重大進展，結合更強能力與更好的模型對齊。",
         "importance": 5,
-        "first_seen": "2026-11-06T16:35:00Z",
-        "updated_at": "2026-11-07T04:35:01.753029+00:00",
+        "first_seen": "2026-11-05T17:00:00Z",
+        "updated_at": "2026-11-08T04:35:01.548213+00:00",
         "links": [
           {
-            "label": "OpenAI Blog",
-            "url": "https://openai.com/index/introducing-gpt-6-cyber/"
+            "label": "OpenAI on X / Product announcement",
+            "url": "https://x.com/OpenAI/status/2118390190246879554"
           },
           {
-            "label": "OpenAI on X",
-            "url": "https://x.com/OpenAI/status/2118390413870412082"
-          }
-        ]
-      },
-      {
-        "id": "openai-hacktron-partnership-2026-11-06",
-        "story_id": "openai-hacktron-partnership-2026-11-06",
-        "category": "openai",
-        "source_type": "official_blog",
-        "title_en": "OpenAI partners with Hacktron to harden its own systems",
-        "title_zh": "OpenAI 與 Hacktron 合作強化自身系統",
-        "summary_en": "OpenAI announced a partnership with Hacktron to jointly test high-priority areas of its systems, focusing on interactions with third-party services. Hacktron receives expanded access to frontier models via Daybreak Red. The move follows prior bug-bounty findings by the firm.",
-        "summary_zh": "OpenAI 宣布與 Hacktron 合作，共同測試其系統高優先區域，聚焦與第三方服務的互動。Hacktron 透過 Daybreak Red 獲得擴展的前沿模型存取權。此舉延續該公司先前透過漏洞賞金計畫的發現。",
-        "analysis_en": "Partnering with a firm that previously demonstrated access paths into OpenAI infrastructure signals a shift toward external red-team depth on agent-to-service boundaries. Effectiveness will depend on how findings translate into durable controls.",
-        "analysis_zh": "與曾展示進入 OpenAI 基礎設施路徑的公司合作，顯示轉向針對代理與服務邊界的外部紅隊深度。成效取決於發現如何轉化為持久控制。",
-        "quote": "Today we’re announcing a partnership with Hacktron to find vulnerabilities in OpenAI’s systems.",
-        "quote_zh": "今天我們宣布與 Hacktron 合作，以尋找 OpenAI 系統中的漏洞。",
-        "importance": 3,
-        "first_seen": "2026-11-06T22:35:00Z",
-        "updated_at": "2026-11-07T04:35:01.753029+00:00",
-        "links": [
-          {
-            "label": "OpenAI Blog",
-            "url": "https://openai.com/index/partnering-with-hacktron/"
-          },
-          {
-            "label": "Hacktron Blog",
-            "url": "https://www.hacktron.ai/blog/openai-partnership"
+            "label": "Reuters",
+            "url": "https://www.reuters.com/technology/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-2026-11-05/"
           }
         ]
       },
@@ -425,26 +192,18 @@
         "story_id": "openai-biobasicsbench-2026-11-06",
         "category": "openai",
         "source_type": "official_blog",
-        "title_en": "OpenAI releases BioBasicsBench for wet-lab AI agents",
-        "title_zh": "OpenAI 發布 BioBasicsBench，評估濕實驗室 AI 代理",
-        "summary_en": "OpenAI, with Ligo, introduced BioBasicsBench: 100 tasks from real experiments testing whether agents can interpret raw wet-lab evidence (gels, plates, microscopy, instrument data), detect errors, and recognize insufficient evidence. At xhigh, GPT-6 Astra scored 66.7% mean reward versus 43.8% for GPT-5.6 Sol.",
-        "summary_zh": "OpenAI 與 Ligo 推出 BioBasicsBench：來自真實實驗的 100 項任務，測試代理能否解讀原始濕實驗室證據（膠體、培養皿、顯微鏡、儀器數據）、偵測錯誤並辨識證據不足。在 xhigh 設定下，GPT-6 Astra 平均獎勵 66.7%，對比 GPT-5.6 Sol 的 43.8%。",
-        "analysis_en": "A benchmark built on raw, ambiguous lab data is more diagnostic for real scientific workflows than paper-figure tasks. The gap to reliable autonomous lab judgment remains large, and higher scores do not yet imply trustworthy independent decisions.",
-        "analysis_zh": "建立在原始、模糊實驗室數據上的基準，比論文圖表任務更能診斷真實科學工作流。距離可靠的自主實驗室判斷仍有大差距，較高分數尚未意味可信的獨立決策。",
-        "quote": "A new way to measure how AI agents handle the routine analyses of wet-lab science—BioBasicsBench.",
-        "quote_zh": "一種衡量 AI 代理如何處理濕實驗室科學例行分析的新方式——BioBasicsBench。",
-        "importance": 3,
-        "first_seen": "2026-11-06T22:35:00Z",
-        "updated_at": "2026-11-07T04:35:01.753029+00:00",
+        "title_en": "OpenAI and Ligo launch BioBasicsBench for wet-lab agent evaluation",
+        "title_zh": "OpenAI 與 Ligo 推出 BioBasicsBench 濕式實驗室代理評估基準",
+        "summary_en": "On November 6 OpenAI published BioBasicsBench, a 100-task benchmark developed with enzyme-design firm Ligo that tests AI agents on interpreting raw wet-lab evidence (gels, colony plates, microscopy, instrument files) and recognizing insufficient data. At xhigh reasoning effort, GPT-6 Astra scored a mean 66.7% reward, ahead of GPT-6.1 Sol at 62.0% and GPT-5.6 Sol at 43.8%. OpenAI noted remaining errors such as wrong colony selection and overcounting.",
+        "summary_zh": "OpenAI 於 11 月 6 日發布 BioBasicsBench，這是與酵素設計公司 Ligo 共同開發的 100 項任務基準，測試 AI 代理解讀原始濕式實驗室證據（凝膠、菌落平板、顯微鏡、儀器檔案）並辨識證據不足的能力。在 xhigh 推理努力下，GPT-6 Astra 平均獎勵 66.7%，領先 GPT-6.1 Sol 的 62.0% 與 GPT-5.6 Sol 的 43.8%。OpenAI 指出仍有選錯菌落與過度計數等錯誤。",
+        "analysis_en": "The benchmark highlights progress in multimodal scientific agents on messy real-world data while underscoring that current scores do not yet support unsupervised lab decisions. Public task release was not indicated, limiting external reproduction.",
+        "analysis_zh": "此基準顯示多模態科學代理在混亂真實資料上的進展，同時強調目前分數尚不足以支援無人監督的實驗室決策。未見公開任務集，限制外部重現。",
+        "quote": "Introducing BioBasicsBench, a benchmark measuring how well AI agents interpret raw experimental data across 100 routine wet-lab tasks.",
+        "quote_zh": "推出 BioBasicsBench，衡量 AI 代理在 100 項例行濕式實驗室任務中解讀原始實驗資料的能力。",
+        "importance": 4,
+        "first_seen": "2026-11-06T08:00:00Z",
+        "updated_at": "2026-11-08T04:35:01.548213+00:00",
         "links": [
-          {
-            "label": "OpenAI on X",
-            "url": "https://x.com/OpenAI/status/2118782708767965238"
-          },
-          {
-            "label": "OpenAI Research",
-            "url": "https://openai.com/index/biobasicsbench/"
-          },
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/"
@@ -452,143 +211,54 @@
         ]
       },
       {
-        "id": "openai-fmf-jailbreak-framework-2026-11-06",
-        "story_id": "openai-fmf-jailbreak-framework-2026-11-06",
+        "id": "openai-11b-funding-1-25t-2026-11-06",
+        "story_id": "openai-11b-funding-1-25t-2026-11-06",
         "category": "openai",
-        "source_type": "official_blog",
-        "title_en": "OpenAI and FMF release cyber jailbreak rating framework",
-        "title_zh": "OpenAI 與 FMF 發布網路越獄評級框架",
-        "summary_en": "OpenAI partnered with the Frontier Model Forum and member firms on Version 1.0 of a Jailbreak Rating Framework for Frontier Cyber Threats. It scores successful jailbreaks on capability gain, scope, ease of deployment, and ease of discovery, mapping to risk bands from Negligible to Critical; public comment is open until 21 December 2026.",
-        "summary_zh": "OpenAI 與 Frontier Model Forum 及其成員公司合作，發布 Frontier Cyber Threats 越獄評級框架 1.0 版。它從能力增益、範圍、部署難易與發現難易評分成功越獄，對應從 Negligible 到 Critical 的風險等級；公眾意見徵詢開放至 2026 年 12 月 21 日。",
-        "analysis_en": "A shared rating vocabulary can reduce inconsistent triage of jailbreaks across labs, but Version 1.0 is preliminary and its practical impact depends on adoption and whether scores correlate with real-world risk.",
-        "analysis_zh": "共享評級詞彙可減少各實驗室對越獄不一致的分類，但 1.0 版仍屬初步，實務影響取決於採用程度以及分數是否與真實世界風險相關。",
-        "quote": "This framework is an important step toward a common methodology for evaluating and comparing the severity of cyber jailbreaks, including the capabilities they unlock and how readily they can be used.",
-        "quote_zh": "此框架是朝向評估與比較網路越獄嚴重性（包括它們解鎖的能力以及多容易被使用）的共同方法論的重要一步。",
-        "importance": 3,
-        "first_seen": "2026-11-06T22:35:00Z",
-        "updated_at": "2026-11-07T04:35:01.753029+00:00",
+        "source_type": "news",
+        "title_en": "OpenAI closes $11B tranche at $1.25T valuation",
+        "title_zh": "OpenAI 完成 110 億美元融資，估值 1.25 兆美元",
+        "summary_en": "Sources told Bloomberg and Reuters that OpenAI closed an initial roughly $11 billion of a funding round on November 6, valuing the company at $1.25 trillion, with the total potentially reaching up to $20 billion in coming weeks. This is below earlier targets of $30 billion or more at a higher valuation, amid broader AI market cooling. Participants reportedly include Coatue, T. Rowe Price, SoftBank, and others; OpenAI declined to comment.",
+        "summary_zh": "消息人士告知 Bloomberg 與 Reuters，OpenAI 於 11 月 6 日完成約 110 億美元的首輪融資，公司估值 1.25 兆美元，總額可能在未來數週達 200 億美元。這低於先前 300 億美元以上的目標與更高估值，正值 AI 市場降溫。據報參與者包括 Coatue、T. Rowe Price、SoftBank 等；OpenAI 未予置評。",
+        "analysis_en": "The reduced scale signals investor caution on AI infrastructure spending and valuations even for the category leader, while still providing substantial capital for compute. The exact remaining close and investor mix remain subject to further reporting.",
+        "analysis_zh": "規模縮減顯示即使對龍頭，投資人對 AI 基礎設施支出與估值仍持謹慎，但仍提供可觀運算資本。剩餘關帳與投資人組合仍待後續報導確認。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 4,
+        "first_seen": "2026-11-06T20:00:00Z",
+        "updated_at": "2026-11-08T04:35:01.548213+00:00",
         "links": [
           {
-            "label": "Frontier Model Forum",
-            "url": "https://www.frontiermodelforum.org/updates/introducing-the-fmf-jailbreak-rating-framework-for-frontier-cyber-threats/"
+            "label": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value"
           },
           {
-            "label": "OpenAI on X",
-            "url": "https://x.com/OpenAI/status/2118795218099253606"
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06/"
           }
         ]
       }
     ],
     "anthropic": [
       {
-        "id": "metr-anthropic-acceleration-report-2026-11-05",
-        "story_id": "metr-anthropic-acceleration-report-2026-11-05",
-        "category": "anthropic",
-        "source_type": "mixed",
-        "title_en": "METR finds Anthropic improving capabilities at roughly twice prior pace",
-        "title_zh": "METR 發現 Anthropic 能力提升速度約為先前的兩倍",
-        "summary_en": "Independent evaluator METR published an assessment after 11 weeks of internal access at Anthropic. It estimates AECI benchmark scores have grown at 1.9× the pre-October 2025 rate (95% CI 1.5–2.8×) since October 2025, with roughly 80% of the acceleration attributed to AI-assisted R&D.",
-        "summary_zh": "獨立評估機構 METR 在 Anthropic 內部存取 11 週後發布評估。估計自 2025 年 10 月起，AECI 基準分數成長速度為 2025 年 10 月前的 1.9 倍（95% CI 1.5–2.8 倍），約 80% 的加速來自 AI 輔助研發。",
-        "analysis_en": "The report supplies one of the clearer external signals that AI-assisted R&D is already accelerating frontier progress, but heavy redactions and wide confidence intervals leave the precise contribution of internal AI use uncertain.",
-        "analysis_zh": "報告提供 AI 輔助研發已加速前沿進展的較清晰外部訊號之一，但大量刪節與寬廣信賴區間使內部 AI 使用的精確貢獻仍不確定。",
-        "quote": "As of October 2026, Anthropic is likely improving the capabilities of their models on well-specified tasks at around twice the rate they did between March 2024 and October 2025.",
-        "quote_zh": "截至 2026 年 10 月，Anthropic 很可能在明確指定任務上，以約為 2024 年 3 月至 2025 年 10 月間兩倍的速度提升模型能力。",
-        "importance": 4,
-        "first_seen": "2026-11-06T16:35:00Z",
-        "updated_at": "2026-11-07T04:35:01.753029+00:00",
-        "links": [
-          {
-            "label": "METR Blog",
-            "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
-          },
-          {
-            "label": "Reuters",
-            "url": "https://www.reuters.com/technology/anthropics-models-improving-nearly-twice-fast-with-help-ai-study-finds-2026-11-05/"
-          },
-          {
-            "label": "FrameSignal / METR coverage",
-            "url": "https://framesignal.com/topics/anthropic"
-          }
-        ]
-      },
-      {
         "id": "anthropic-personal-finance-claude-2026-11-05",
         "story_id": "anthropic-personal-finance-claude-2026-11-05",
         "category": "anthropic",
-        "source_type": "product",
-        "title_en": "Anthropic launches Personal Finance beta in Claude",
-        "title_zh": "Anthropic 在 Claude 推出 Personal Finance 測試版",
-        "summary_en": "Anthropic began rolling out Personal Finance in Claude as a US beta for Pro, Max, and Ultra plans. Users can link bank and card accounts via Plaid for read-only access; Claude answers questions about balances, spending, and bills in plain language without moving money.",
-        "summary_zh": "Anthropic 開始向美國 Pro、Max 與 Ultra 方案使用者推出 Claude 的 Personal Finance 測試版。使用者可透過 Plaid 連結銀行與信用卡帳戶進行唯讀存取；Claude 以白話回答餘額、支出與帳單問題，但不移動資金。",
-        "analysis_en": "Read-only bank linking expands Claude from general assistant into personal financial context, but the value depends on accuracy of categorization and user willingness to share sensitive data.",
-        "analysis_zh": "唯讀銀行連結將 Claude 從一般助理擴展至個人財務脈絡，但價值取決於分類準確度與使用者分享敏感資料的意願。",
-        "quote": "With Personal Finance in Claude, you can securely connect your bank and card accounts and ask in your own words. Access is read-only, and Personal Finance can’t move, manage, or invest your money.",
-        "quote_zh": "有了 Claude 的 Personal Finance，你可以安全連結銀行與信用卡帳戶，用自己的話提問。存取為唯讀，Personal Finance 無法移動、管理或投資你的金錢。",
+        "source_type": "official_blog",
+        "title_en": "Anthropic launches Personal Finance in Claude (US beta)",
+        "title_zh": "Anthropic 在 Claude 推出個人理財功能（美國 beta）",
+        "summary_en": "On November 5 Anthropic began rolling out Personal Finance in beta for US Pro, Max, and Ultra users. Users can link bank and card accounts via Plaid for read-only access; Claude answers questions about balances, spending, and bills in plain language, builds charts or dashboards, and does not move or invest money. Hub conversations are excluded from training; there are no ads or sponsored products.",
+        "summary_zh": "Anthropic 於 11 月 5 日開始為美國 Pro、Max 與 Ultra 用戶推出 Personal Finance beta。用戶可透過 Plaid 連結銀行與卡片帳戶取得唯讀存取；Claude 以日常語言回答餘額、支出與帳單問題，可建立圖表或儀表板，且不移動或投資資金。Hub 對話不納入訓練；無廣告或贊助產品。",
+        "analysis_en": "The feature brings account-linked financial queries into a major assistant with explicit read-only and no-training safeguards, similar to earlier ChatGPT tools. Adoption will depend on user trust in data handling and accuracy of AI-generated summaries.",
+        "analysis_zh": "此功能將帳戶連結的財務查詢帶入主要助理，並有明確唯讀與不訓練的防護，類似先前 ChatGPT 工具。採用將取決於用戶對資料處理的信任與 AI 摘要準確性。",
+        "quote": "Access is read-only, and Personal Finance can’t move, manage, or invest your money.",
+        "quote_zh": "存取為唯讀，Personal Finance 無法移動、管理或投資您的資金。",
         "importance": 3,
-        "first_seen": "2026-11-06T16:35:00Z",
-        "updated_at": "2026-11-07T04:35:01.753029+00:00",
+        "first_seen": "2026-11-05T08:00:00Z",
+        "updated_at": "2026-11-08T04:35:01.548213+00:00",
         "links": [
           {
-            "label": "Anthropic Help Center",
-            "url": "https://support.anthropic.com/en/articles/personal-finance-in-claude"
-          },
-          {
-            "label": "Claude by Anthropic",
+            "label": "Anthropic / Claude Blog",
             "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
-          }
-        ]
-      },
-      {
-        "id": "anthropic-agent-memory-dreaming-2026-11-06",
-        "story_id": "anthropic-agent-memory-dreaming-2026-11-06",
-        "category": "anthropic",
-        "source_type": "official_blog",
-        "title_en": "Anthropic details agent memory and ‘dreaming’ consolidation",
-        "title_zh": "Anthropic 詳述代理記憶與「做夢」整合機制",
-        "summary_en": "Anthropic published an engineering post on the components of agent memory, including how ‘dreaming’ (offline reflection on session logs) corrects mistakes, builds new representations, and organizes notes for future sessions. It is already used in production agents and improves scores on continual-learning benchmarks.",
-        "summary_zh": "Anthropic 發布工程文章，說明代理記憶的組成，包括「做夢」（離線反思會話日誌）如何修正錯誤、建立新表徵並整理筆記供未來會話使用。它已用於生產代理，並提升持續學習基準分數。",
-        "analysis_en": "Making memory consolidation explicit and auditable (without weight updates) addresses a practical failure mode of long-running agents. Whether dreaming systematically improves reliability across diverse tasks remains an open empirical question.",
-        "analysis_zh": "讓記憶整合明確且可稽核（無需權重更新）解決了長時間運行代理的實務失敗模式。做夢是否系統性提升跨多樣任務的可靠性，仍是開放的實證問題。",
-        "quote": "Memory is what allows Claude to learn from experience. In a new Engineering Blog post, we share how “dreaming” helps Claude organize what it’s learned, correct its mistakes, and find what it needs more easily the next time.",
-        "quote_zh": "記憶讓 Claude 從經驗中學習。在新的工程部落格文章中，我們分享「做夢」如何幫助 Claude 整理所學、修正錯誤，並在下次更容易找到所需內容。",
-        "importance": 3,
-        "first_seen": "2026-11-06T22:35:00Z",
-        "updated_at": "2026-11-07T04:35:01.753029+00:00",
-        "links": [
-          {
-            "label": "Anthropic Engineering",
-            "url": "https://www.anthropic.com/research/components-of-agent-memory"
-          },
-          {
-            "label": "Anthropic on X",
-            "url": "https://x.com/AnthropicAI/status/2118814753154064501"
-          }
-        ]
-      },
-      {
-        "id": "anthropic-scientific-modeling-2026-11-06",
-        "story_id": "anthropic-scientific-modeling-2026-11-06",
-        "category": "anthropic",
-        "source_type": "official_blog",
-        "title_en": "Anthropic publishes guest post on AI helping build scientific models",
-        "title_zh": "Anthropic 發布客座文章，討論 AI 協助建立科學模型",
-        "summary_en": "Anthropic’s Science Blog hosted a guest post by researchers Jakob Macke, Daniel Gedon, and Stefan Wahl describing how AI agents can write, run, fit, and revise scientific models as code. The piece argues agents should return weighted distributions of plausible models rather than a single best fit, illustrated on neuroscience and epidemiological examples.",
-        "summary_zh": "Anthropic 科學部落格刊登 Jakob Macke、Daniel Gedon 與 Stefan Wahl 的客座文章，描述 AI 代理如何以程式碼撰寫、執行、擬合與修訂科學模型。文章主張代理應回傳可信模型的加權分佈而非單一最佳擬合，並以神經科學與流行病學範例說明。",
-        "analysis_en": "Shifting from single-model outputs to model posteriors addresses a real scientific need for uncertainty quantification. Practical uptake will depend on whether agents reliably explore structure space without introducing subtle specification errors.",
-        "analysis_zh": "從單一模型輸出轉向模型後驗，回應科學上對不確定性量化的真實需求。實務採用將取決於代理能否可靠探索結構空間而不引入細微規格錯誤。",
-        "quote": "By writing, running, fitting, and revising scientific models as code, AI can explore many possible model structures, and find out which explanations the data support.",
-        "quote_zh": "透過以程式碼撰寫、執行、擬合與修訂科學模型，AI 可探索多種可能的模型結構，並找出數據支持哪些解釋。",
-        "importance": 3,
-        "first_seen": "2026-11-07T04:40:00Z",
-        "updated_at": "2026-11-07T04:35:01.753029+00:00",
-        "links": [
-          {
-            "label": "Anthropic Science Blog",
-            "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models"
-          },
-          {
-            "label": "Anthropic on X",
-            "url": "https://x.com/AnthropicAI/status/2118792930211107115"
           }
         ]
       }
@@ -599,120 +269,53 @@
         "story_id": "google-gemini-omni-1-2-flash-2026-11-05",
         "category": "google",
         "source_type": "official_blog",
-        "title_en": "Google makes Gemini Omni 1.2 Flash generally available",
-        "title_zh": "Google 將 Gemini Omni 1.2 Flash 正式上線",
-        "summary_en": "Google DeepMind and Google Cloud rolled out Gemini Omni 1.2 Flash to general availability on the Gemini API and Gemini for business. It supports native 15-second clips (up from 10s), multi-turn conversational editing, stronger reference adherence, and a 30% price cut to $0.07 per second for 720p video.",
-        "summary_zh": "Google DeepMind 與 Google Cloud 將 Gemini Omni 1.2 Flash 於 Gemini API 與 Gemini for business 正式上線。支援原生最長 15 秒片段（從 10 秒提升）、多輪對話式編輯、更強參考遵循，以及 720p 影片每秒降至 0.07 美元（降價 30%）。",
-        "analysis_en": "Longer native clips plus conversational editing and a price cut lower the barrier for production video workflows. Consistency and physics still remain the practical limits for high-stakes creative or commercial use.",
-        "analysis_zh": "更長原生片段、對話式編輯與降價降低了生產級影片工作流的門檻。一致性與物理模擬仍是高風險創意或商業應用的實務限制。",
-        "quote": "Today, we’re rolling out Gemini Omni 1.2 Flash, and making it generally available across the Gemini API and Gemini for business.",
-        "quote_zh": "今天，我們推出 Gemini Omni 1.2 Flash，並讓它在 Gemini API 與 Gemini for business 正式上線。",
+        "title_en": "Google DeepMind makes Gemini Omni 1.2 Flash generally available",
+        "title_zh": "Google DeepMind 讓 Gemini Omni 1.2 Flash 正式上線",
+        "summary_en": "On November 5 Google announced general availability of Gemini Omni 1.2 Flash on the Gemini API and Gemini for business. It extends native video generation and editing to 15 seconds (from 10), adds multi-turn conversational editing and improved reference adherence, and cuts pricing 30% to $0.07 per second for 720p. Outputs carry SynthID watermarking; draft-then-upscale workflows are supported.",
+        "summary_zh": "Google 於 11 月 5 日宣布 Gemini Omni 1.2 Flash 在 Gemini API 與 Gemini for business 正式上線。原生影片生成與編輯延長至 15 秒（原 10 秒），加入多輪對話式編輯與更好參考遵循，並將 720p 定價降 30% 至每秒 0.07 美元。輸出帶有 SynthID 浮水印，並支援先草擬再升級工作流程。",
+        "analysis_en": "The longer clips and lower unit cost make generative video more practical for production workflows, while watermarking addresses provenance. Broader consumer app availability and real-world consistency claims will be tested by independent use.",
+        "analysis_zh": "更長片段與較低單位成本使生成影片更實用於生產工作流程，浮水印則處理來源問題。更廣泛消費者應用可用性與真實一致性宣稱，仍待獨立使用檢驗。",
+        "quote": "Gemini Omni 1.2 Flash introduces native 15-second video creation, multi-turn conversational editing capabilities, and enhanced reference following. We have dropped the price 30% from Gemini Omni 1.1 making it available at $0.07 per second for 720p video.",
+        "quote_zh": "Gemini Omni 1.2 Flash 引入原生 15 秒影片創作、多輪對話式編輯能力與強化的參考遵循。我們將價格從 Gemini Omni 1.1 降低 30%，720p 影片每秒 0.07 美元。",
         "importance": 4,
-        "first_seen": "2026-11-06T16:35:00Z",
-        "updated_at": "2026-11-07T04:35:01.753029+00:00",
+        "first_seen": "2026-11-05T08:00:00Z",
+        "updated_at": "2026-11-08T04:35:01.548213+00:00",
         "links": [
           {
             "label": "Google Blog",
             "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
-          },
-          {
-            "label": "Google Cloud Blog",
-            "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available"
-          },
-          {
-            "label": "Google DeepMind News",
-            "url": "https://deepmind.google/blog/"
           }
         ]
       },
       {
-        "id": "google-rsa-cryptanalysis-2026-11-06",
-        "story_id": "google-rsa-cryptanalysis-2026-11-06",
+        "id": "deepmind-rsa-1024-weaknesses-2026-11-06",
+        "story_id": "deepmind-rsa-1024-weaknesses-2026-11-06",
         "category": "google",
-        "source_type": "official_x",
-        "title_en": "Google DeepMind uses AI agents to accelerate RSA-1024 cryptanalysis",
-        "title_zh": "Google DeepMind 使用 AI 代理加速 RSA-1024 密碼分析",
-        "summary_en": "Google DeepMind shared research showing human-guided AI agents uncovered two major weaknesses in legacy 1024-bit RSA systems: padding becomes ineffective once an attacker controls roughly half the signed block, and a new batch-factoring algorithm speeds factorization. Modern 2048-bit systems remain unaffected.",
-        "summary_zh": "Google DeepMind 分享研究，顯示人類引導的 AI 代理在舊有 1024 位元 RSA 系統中發現兩項重大弱點：當攻擊者控制約一半簽署區塊時，填充變得無效；以及新的批次因數分解演算法加速因數分解。現代 2048 位元系統不受影響。",
-        "analysis_en": "The results do not threaten current standards, but they illustrate how agent-assisted cryptanalysis can compress research cycles that once took years. Continuous, proactive testing of cryptographic assumptions becomes more important as AI tools improve.",
-        "analysis_zh": "結果不威脅現行標準，但說明代理輔助密碼分析如何壓縮過去需數年的研究週期。隨著 AI 工具進步，對密碼假設的持續主動測試變得更重要。",
-        "quote": "We’re sharing new research demonstrating how AI agents can accelerate the science of stress-testing encryption.",
-        "quote_zh": "我們分享新研究，展示 AI 代理如何加速加密壓力測試的科學。",
-        "importance": 3,
-        "first_seen": "2026-11-06T22:35:00Z",
-        "updated_at": "2026-11-07T04:35:01.753029+00:00",
+        "source_type": "mixed",
+        "title_en": "DeepMind agents surface two weaknesses in legacy 1024-bit RSA",
+        "title_zh": "DeepMind 代理發現舊版 1024 位元 RSA 兩個弱點",
+        "summary_en": "On November 6 Pushmeet Kohli (VP of Science) announced that human-guided AI agents found two weaknesses in legacy 1024-bit RSA: a signature-forgery approach estimated roughly 1,600× faster than prior methods in one setting, and a batch-factoring method lowering average cost per additional key by about 30×. A sandboxed reimplementation of a known case used 3.5× less CPU time. DeepMind stated modern 2048-bit keys are unaffected.",
+        "summary_zh": "11 月 6 日，科學副總裁 Pushmeet Kohli 宣布，由人類引導的 AI 代理在舊版 1024 位元 RSA 發現兩個弱點：一種簽名偽造方法在特定設定下估計比先前方法快約 1,600 倍，以及一種批次分解方法使額外金鑰平均成本降低約 30 倍。沙盒中重現已知案例使用的 CPU 時間少 3.5 倍。DeepMind 表示現代 2048 位元金鑰不受影響。",
+        "analysis_en": "The work demonstrates AI agents accelerating cryptanalysis research on obsolete parameters without immediately threatening current standards, but it compresses the timeline for stress-testing assumptions. Full papers and independent review will clarify the practical impact on any remaining 1024-bit deployments.",
+        "analysis_zh": "此工作展示 AI 代理加速過時參數的密碼分析研究，而未立即威脅現行標準，但壓縮了對假設進行壓力測試的時程。完整論文與獨立審查將釐清對仍存 1024 位元部署的實際影響。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 4,
+        "first_seen": "2026-11-06T17:00:00Z",
+        "updated_at": "2026-11-08T04:35:01.548213+00:00",
         "links": [
           {
-            "label": "Google DeepMind on X",
-            "url": "https://x.com/GoogleDeepMind/status/2118755418675765656"
+            "label": "Secondary coverage of DeepMind announcement",
+            "url": "https://www.aichatdaily.com/ai-security/google-deepmind-agents-find-two-weaknesses-legacy-1024-bit"
           }
         ]
       }
     ],
-    "meta": [
-      {
-        "id": "meta-muse-wonder-specialized-2026-11-06",
-        "story_id": "meta-muse-wonder-specialized-2026-11-06",
-        "category": "meta",
-        "source_type": "official_x",
-        "title_en": "Meta brings Muse Wonder-derived models to Muse and Meta AI",
-        "title_zh": "Meta 將 Muse Wonder 衍生模型帶入 Muse 與 Meta AI",
-        "summary_en": "Meta announced specialized models trained using Muse Wonder and rolled them out to Muse and Meta AI. They incorporate Active Memory (2.4× reduction in forgetting critical goal information) and Active Focus (67% improvement on tasks with unexpected constraints), with gains reported on Meta’s internal evaluations.",
-        "summary_zh": "Meta 宣布使用 Muse Wonder 訓練的專用模型，並將其推出至 Muse 與 Meta AI。它們納入 Active Memory（忘記關鍵目標資訊減少 2.4 倍）與 Active Focus（在意外限制任務上改善 67%），增益數據來自 Meta 內部評估。",
-        "analysis_en": "Translating frontier-model techniques into consumer-facing assistants narrows the gap between lab capability and everyday use. Reported gains are on Meta’s own evals; independent confirmation of the magnitude is still lacking.",
-        "analysis_zh": "將前沿模型技術轉化為面向消費者的助理，縮小了實驗室能力與日常使用之間的差距。報告增益來自 Meta 自身評估；幅度的獨立確認仍缺乏。",
-        "quote": "Today we're bringing specialized models trained using Muse Wonder to @Muse and Meta AI, giving users access to some of Muse Wonder's frontier capabilities for complex tasks at work and in everyday life.",
-        "quote_zh": "今天我們將使用 Muse Wonder 訓練的專用模型帶入 @Muse 與 Meta AI，讓使用者能存取 Muse Wonder 部分前沿能力，用於工作與日常生活中的複雜任務。",
-        "importance": 3,
-        "first_seen": "2026-11-06T22:35:00Z",
-        "updated_at": "2026-11-07T04:35:01.753029+00:00",
-        "links": [
-          {
-            "label": "AI at Meta on X",
-            "url": "https://x.com/AIatMeta/status/2118768974779634084"
-          },
-          {
-            "label": "Meta Research Blog",
-            "url": "https://research.meta.ai/blog/muse-wonder"
-          },
-          {
-            "label": "Meta AI Research",
-            "url": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai"
-          }
-        ]
-      },
-      {
-        "id": "meta-muse-spaces-2026-11-06",
-        "story_id": "meta-muse-spaces-2026-11-06",
-        "category": "meta",
-        "source_type": "official_blog",
-        "title_en": "Meta introduces Spaces: custom experiences inside the Muse app",
-        "title_zh": "Meta 推出 Spaces：Muse 應用內的自訂體驗",
-        "summary_en": "Meta launched Spaces in the Muse app, letting users describe an idea and have Muse build a persistent, interactive experience (gift tracker, school dashboard, trip planner, etc.). Connected apps can keep the space updated in the background; spaces can be scheduled or placed in the sidebar or main tabs and are rolling out everywhere Muse is available.",
-        "summary_zh": "Meta 在 Muse 應用推出 Spaces，讓使用者描述想法後由 Muse 建立持久互動體驗（禮物追蹤器、學校儀表板、行程規劃器等）。連結的應用可在背景更新空間；空間可排程或置於側邊欄或主標籤，並在 Muse 可用處推出。",
-        "analysis_en": "Moving from chat to generated, stateful interfaces lowers the friction for task-specific agents. Success will hinge on data-connector reliability and how well the underlying models maintain consistency across sessions.",
-        "analysis_zh": "從聊天轉向生成的有狀態介面，降低了任務專用代理的摩擦。成功將取決於資料連接器可靠性，以及底層模型跨會話維持一致性的程度。",
-        "quote": "Today, we’re introducing spaces, an interactive way to build a more personalized Muse.",
-        "quote_zh": "今天，我們推出 spaces，一種建立更個人化 Muse 的互動方式。",
-        "importance": 3,
-        "first_seen": "2026-11-07T04:40:00Z",
-        "updated_at": "2026-11-07T04:35:01.753029+00:00",
-        "links": [
-          {
-            "label": "Meta Newsroom",
-            "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/"
-          },
-          {
-            "label": "The Verge",
-            "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces"
-          }
-        ]
-      }
-    ],
+    "meta": [],
     "xai": [],
     "frontier_other": []
   },
-  "brief_en": "Labs focused on specialized models and agent infrastructure: OpenAI shipped GPT-6 Cyber (Critical under its framework) plus wet-lab and jailbreak-rating tools; Google GA'd Omni 1.2 Flash for longer, cheaper video; Anthropic shared METR's 1.9× acceleration finding, agent-memory 'dreaming,' and modeling research; Meta pushed Wonder-derived Active Memory/Focus plus custom Spaces into Muse.",
-  "brief_zh": "大廠聚焦專用模型與代理基建：OpenAI 推出 GPT-6 Cyber（依框架列為 Critical）並發布濕實驗室基準與越獄評級工具；Google 讓 Omni 1.2 Flash 正式上線，支援更長更便宜影片；Anthropic 公布 METR 約 1.9 倍加速評估、代理記憶「做夢」機制與建模研究；Meta 將 Wonder 衍生的 Active Memory/Focus 與自訂 Spaces 帶入 Muse。",
-  "updated_at": "2026-11-07T04:35:01.753029+00:00"
+  "brief_en": "OpenAI shipped GPT-6 Cyber (Critical rating, limited Daybreak Red access) after it helped surface hundreds of Linux and Firefox flaws, while closing an $11B tranche at a $1.25T valuation. Google rolled out Gemini Omni 1.2 Flash with 15s video and a 30% price cut; DeepMind agents exposed legacy RSA-1024 weaknesses. Anthropic added read-only Personal Finance in Claude for US paid users.",
+  "brief_zh": "OpenAI 發布 Critical 級 GPT-6 Cyber（限 Daybreak Red），協助發現數百個 Linux 與 Firefox 漏洞，並完成 110 億美元融資、估值 1.25 兆美元。Google 推出 Gemini Omni 1.2 Flash（15 秒影片、降價 30%）；DeepMind 代理發現舊版 RSA-1024 弱點。Anthropic 為美國付費用戶推出 Claude 唯讀個人理財功能。",
+  "updated_at": "2026-11-08T04:35:01.548213+00:00"
 }
