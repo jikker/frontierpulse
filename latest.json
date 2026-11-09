@@ -8,29 +8,137 @@
       "item_count": 6,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-11-09T22:35:01.328530+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 10,
+      "updated_count": 6,
+      "kept_count": 0
     }
   ],
   "items_flat": [
+    {
+      "id": "anthropic-claude-fable-mythos-5-2-2026-11-09",
+      "story_id": "anthropic-claude-fable-mythos-5-2-2026-11-09",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic introduces Claude Fable 5.2 and Claude Mythos 5.2 for demanding technical work",
+      "title_zh": "Anthropic推出Claude Fable 5.2與Claude Mythos 5.2，專攻高難度技術工作",
+      "summary_en": "Anthropic announced Claude Fable 5.2 and Claude Mythos 5.2 on Nov 9 as upgraded models for the most ambitious open-ended technical challenges. They share an underlying model, with Fable carrying stronger cybersecurity and biology safeguards for general availability; both generate outputs up to 30% faster than the 5.1 versions at lower pricing of $8 per million input tokens and $40 per million output, plus an optional faster mode.",
+      "summary_zh": "Anthropic於11月9日宣布Claude Fable 5.2與Claude Mythos 5.2，升級模型以應對最艱鉅的開放式技術挑戰。兩者共享底層模型，Fable具備更強網路安全與生物學防護以供一般使用；兩者輸出速度比5.1版快達30%，定價降至每百萬輸入token 8美元、輸出40美元，並提供可選更快模式。",
+      "analysis_en": "The dual-configuration approach lets Anthropic broaden access while retaining restricted high-capability variants for verified cyber and life-sciences work. Reported gains in agentic coding, scientific research and hardware design raise the bar for long-horizon technical tasks, though independent verification of the most extreme demonstrations remains limited.",
+      "analysis_zh": "雙配置設計讓Anthropic擴大一般可用性，同時保留受限高能力版本給經認證的網路安全與生命科學機構。代理編碼、科學研究與硬體設計的報告進步提升了長時程技術任務門檻，但最極端示範的獨立驗證仍有限。",
+      "quote": "We’ve upgraded Claude Fable and Claude Mythos—models that are designed to tackle the most daunting technical challenges.",
+      "quote_zh": "我們已升級Claude Fable與Claude Mythos——這些模型旨在應對最艱鉅的技術挑戰。",
+      "importance": 5,
+      "first_seen": "2026-11-09T16:35:01.980074+00:00",
+      "updated_at": "2026-11-09T22:35:01.328530+00:00",
+      "links": [
+        {
+          "label": "Anthropic Blog",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+        },
+        {
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2119867707546071125"
+        }
+      ]
+    },
+    {
+      "id": "meta-muse-ember-2026-11-09",
+      "story_id": "meta-muse-ember-2026-11-09",
+      "category": "meta",
+      "source_type": "official_blog",
+      "title_en": "Meta introduces Muse Ember, its smallest and most efficient model for agent workflows",
+      "title_zh": "Meta推出Muse Ember，專為代理工作流程設計的最小且最高效模型",
+      "summary_en": "Meta announced Muse Ember on Nov 9 as its smallest multimodal model built for high-volume agent work such as tool calls, coding subtasks, routing and document parsing. It offers a 1M-token context window, is priced at $0.10 per million input tokens and $0.50 per million output tokens, and is available on the Meta Model API and Muse Code; Meta positions it as delivering more intelligence per dollar than comparable small models.",
+      "summary_zh": "Meta於11月9日宣布Muse Ember，其最小的多模態模型，專為高量代理工作設計，如工具呼叫、編碼子任務、路由與文件解析。它提供100萬token上下文視窗，定價每百萬輸入token 0.10美元、輸出0.50美元，可在Meta Model API與Muse Code上使用；Meta將其定位為比可比小型模型提供更高每美元智能。",
+      "analysis_en": "Ember targets the repetitive sub-steps that dominate agent token usage, potentially lowering the cost of multi-agent systems when paired with larger Muse models. Benchmark claims versus Haiku 5.5 and GPT-6 Luna will need independent confirmation across varied harnesses.",
+      "analysis_zh": "Ember瞄準代理token使用中佔比高的重複子步驟，與較大Muse模型搭配時可能降低多代理系統成本。相對於Haiku 5.5與GPT-6 Luna的基準主張，仍需在不同工具鏈上獨立確認。",
+      "quote": "Today, we're introducing Muse Ember, our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day.",
+      "quote_zh": "今天，我們推出Muse Ember，我們最小且最高效的模型，專為複雜推理執行與代理全天重複的工作設計。",
+      "importance": 4,
+      "first_seen": "2026-11-09T16:35:01.980074+00:00",
+      "updated_at": "2026-11-09T22:35:01.328530+00:00",
+      "links": [
+        {
+          "label": "Meta AI Research Blog",
+          "url": "https://research.meta.ai/blog/muse-ember"
+        },
+        {
+          "label": "AI at Meta on X",
+          "url": "https://x.com/AIatMeta/status/2119853591703998787"
+        }
+      ]
+    },
     {
       "id": "google-tpu-8tx-8i-max-2026-11-09",
       "story_id": "google-tpu-8tx-8i-max-2026-11-09",
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google introduces TPU 8tx and TPU 8i Max for confidential and high-context agentic AI",
-      "title_zh": "Google 推出 TPU 8tx 與 TPU 8i Max，支援機密與高上下文代理式 AI",
-      "summary_en": "Google announced two new eighth-generation TPU systems on Nov 9: TPU 8tx for hardware-level confidential inference (paired with AMD EPYC hosts, keeping data and weights protected in use) and TPU 8i Max (dual TPU 8i chips in one package, doubling compute, SRAM and HBM bandwidth for massive context). These are system configurations, not new silicon, marking four TPU systems in one year for the first time.",
-      "summary_zh": "Google 於 11 月 9 日宣布兩套第八代 TPU 系統：TPU 8tx 用於硬體層級機密推論（搭配 AMD EPYC 主機，使用時保護資料與權重），以及 TPU 8i Max（單封裝雙 TPU 8i 晶片，運算、SRAM 與 HBM 頻寬加倍，支援超大上下文）。這是系統配置而非新晶片，首次單年推出四套 TPU 系統。",
-      "analysis_en": "This shows Google specializing infrastructure for agentic workloads where memory walls and confidential data matter, using modular packaging to ship faster than full chip cycles. Availability, pricing and real-world density gains versus Nvidia remain unstated.",
-      "analysis_zh": "這顯示 Google 針對代理式工作負載的記憶體牆與機密資料需求特化基礎設施，以模組化封裝加速出貨。可用性、定價與相對 Nvidia 的實際密度提升仍未說明。",
-      "quote": "Today, we’re taking that a step further, expanding our eighth-generation TPU portfolio with two additional systems: TPU 8i Max for massive context windows and the highest compute density per rack, and TPU 8tx for secure and confidential inference. This is the first time we have introduced four TPU systems in a single year.",
-      "quote_zh": "今天，我們再進一步擴充第八代 TPU 產品線，新增兩套系統：TPU 8i Max 用於超大上下文視窗與每機架最高運算密度，以及 TPU 8tx 用於安全機密推論。這是我們首次在單一年推出四套 TPU 系統。",
+      "title_zh": "Google推出TPU 8tx與TPU 8i Max，支援機密與高上下文代理AI",
+      "summary_en": "Google announced two new eighth-generation TPU systems on Nov 9: TPU 8tx for hardware-level confidential inference (paired with AMD EPYC hosts, keeping data and weights protected in use) and TPU 8i Max (dual TPU 8i chips in one package for higher compute density and larger effective context). This brings the year’s TPU systems to four, aimed at agentic workloads.",
+      "summary_zh": "Google於11月9日宣布兩款第八代TPU系統：TPU 8tx用於硬體級機密推論（與AMD EPYC主機搭配，保護使用中資料與權重），以及TPU 8i Max（單一封裝中雙TPU 8i晶片，提升計算密度與有效上下文）。今年TPU系統增至四款，瞄準代理工作負載。",
+      "analysis_en": "This shows Google specializing infrastructure for agentic workloads where memory walls and confidential data matter, using modular packaging to ship faster than full chip cycles. Actual deployment timelines and performance under production agent loads remain to be seen.",
+      "analysis_zh": "這顯示Google針對記憶體牆與機密資料重要的代理工作負載專門化基礎設施，並以模組化封裝加快出貨。實際部署時程與生產代理負載下的效能仍待觀察。",
+      "quote": "We’ve expanded our eighth generation TPU portfolio with TPU 8tx and TPU 8i Max, marking four new TPU systems in a single year.",
+      "quote_zh": "我們以TPU 8tx與TPU 8i Max擴充第八代TPU組合，標誌著單年推出四款新TPU系統。",
       "importance": 4,
       "first_seen": "2026-11-09T16:35:01.980074+00:00",
-      "updated_at": "2026-11-09T16:35:01.980074+00:00",
+      "updated_at": "2026-11-09T22:35:01.328530+00:00",
       "links": [
         {
           "label": "Google Blog",
           "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+        }
+      ]
+    },
+    {
+      "id": "openai-chatgpt-enterprise-aws-marketplace-2026-11-09",
+      "story_id": "openai-chatgpt-enterprise-aws-marketplace-2026-11-09",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI makes ChatGPT Enterprise available in AWS Marketplace",
+      "title_zh": "OpenAI將ChatGPT Enterprise上架AWS Marketplace",
+      "summary_en": "OpenAI announced on Nov 9 that ChatGPT Enterprise is now available through AWS Marketplace. Organizations can discover, buy and manage it via existing AWS purchasing and billing relationships, with eligible spend counting toward AWS commitments; customers receive the same models, features and update cadence as direct purchases.",
+      "summary_zh": "OpenAI於11月9日宣布ChatGPT Enterprise現可透過AWS Marketplace取得。組織可透過現有AWS採購與帳單關係發現、購買與管理，合格支出可計入AWS承諾；客戶獲得與直接購買相同的模型、功能與更新節奏。",
+      "analysis_en": "The listing lowers procurement friction for AWS-heavy enterprises and lets them apply committed cloud spend. It does not change the underlying product or guarantee that all customer data remains inside a customer’s own AWS environment.",
+      "analysis_zh": "此上架降低AWS重度企業的採購摩擦，並讓其運用已承諾雲端支出。它未改變底層產品，也不保證所有客戶資料留在客戶自己的AWS環境內。",
+      "quote": "Today, ChatGPT Enterprise is available through AWS Marketplace.",
+      "quote_zh": "今天，ChatGPT Enterprise可透過AWS Marketplace取得。",
+      "importance": 3,
+      "first_seen": "2026-11-09T16:35:01.980074+00:00",
+      "updated_at": "2026-11-09T22:35:01.328530+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/"
+        }
+      ]
+    },
+    {
+      "id": "openai-control-room-safety-2026-11-09",
+      "story_id": "openai-control-room-safety-2026-11-09",
+      "category": "openai",
+      "source_type": "official_x",
+      "title_en": "OpenAI introduces Control Room to rapidly halt research model workloads",
+      "title_zh": "OpenAI推出Control Room，快速中止研究模型工作負載",
+      "summary_en": "OpenAI posted on X on Nov 9 that it built Control Room, a central system tracking every research inference workload—including agentic sampling for training and evaluation—and capable of halting model output within 35 seconds of a decision to intervene. It works with existing misalignment monitoring as part of the lab’s safety approach.",
+      "summary_zh": "OpenAI於11月9日在X發文表示，已建置Control Room，這是一個追蹤所有研究推論工作負載（包括訓練與評估的代理取樣）的中央系統，能在決定干預後35秒內中止模型輸出。它與現有錯位監控系統協同，作為實驗室安全方法的一部分。",
+      "analysis_en": "Faster, centralized kill switches address a practical gap as agentic research workloads grow. The 35-second figure is an internal claim; independent details on coverage, false-positive rates and residual risks are not yet public.",
+      "analysis_zh": "更快的集中式中止開關，解決代理研究工作負載增長帶來的實際缺口。35秒數字為內部主張；覆蓋範圍、誤報率與殘餘風險的獨立細節尚未公開。",
+      "quote": "We built Control Room, a central system to track model workloads across our research infrastructure and stop them quickly when safety or security concerns arise.",
+      "quote_zh": "我們建置了Control Room，一個追蹤研究基礎設施中模型工作負載、並在安全或資安疑慮出現時快速中止的中央系統。",
+      "importance": 3,
+      "first_seen": "2026-11-09T16:35:01.980074+00:00",
+      "updated_at": "2026-11-09T22:35:01.328530+00:00",
+      "links": [
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2119913172039868579"
         }
       ]
     },
@@ -40,17 +148,21 @@
       "category": "xai",
       "source_type": "official_x",
       "title_en": "Elon Musk says overnight Grok Bot fixes follow engineering roundtable",
-      "title_zh": "Elon Musk 稱工程圓桌後連夜修復 Grok Bot",
+      "title_zh": "Elon Musk表示Grok Bot經工程圓桌後隔夜修復",
       "summary_en": "Elon Musk posted on X on Nov 9 that he held a roundtable review with the Grok Bot engineering team, with fixes implemented overnight and users expected to notice a dramatic improvement by the next day. He invited replies for any remaining issues.",
-      "summary_zh": "Elon Musk 於 11 月 9 日在 X 發文，稱已與 Grok Bot 工程團隊進行圓桌檢討，連夜實施修復，使用者應在隔天注意到顯著改善。他邀請回覆回報任何剩餘問題。",
+      "summary_zh": "Elon Musk於11月9日在X發文表示，他與Grok Bot工程團隊進行圓桌審查，修復已隔夜實施，預期用戶隔日將注意到明顯改善。他邀請回覆任何剩餘問題。",
       "analysis_en": "Direct executive involvement signals rapid iteration on the agent product amid user feedback. Concrete changes and measured gains are not yet detailed.",
-      "analysis_zh": "高層直接介入顯示代理產品正快速迭代以回應使用者回饋。具體變更與量化提升尚未詳述。",
+      "analysis_zh": "高階主管直接參與，顯示在用戶回饋下對代理產品的快速迭代。具體變更與量測成果尚未詳述。",
       "quote": "Just did a round table review with the Grok @Bot engineering team. Fixes are being implemented overnight and you should notice a dramatic improvement by tomorrow.",
       "quote_zh": "剛與 Grok @Bot 工程團隊進行圓桌檢討。修復正連夜實施，你明天應會注意到顯著改善。",
       "importance": 3,
       "first_seen": "2026-11-09T16:35:01.980074+00:00",
-      "updated_at": "2026-11-09T16:35:01.980074+00:00",
+      "updated_at": "2026-11-09T22:35:01.328530+00:00",
       "links": [
+        {
+          "label": "Elon Musk on X",
+          "url": "https://x.com/elonmusk"
+        },
         {
           "label": "Elon Musk on X",
           "url": "https://x.com/elonmusk/status/2119617455102333206"
@@ -61,19 +173,23 @@
       "id": "meta-muse-spaces-2026-11-06",
       "story_id": "meta-muse-spaces-2026-11-06",
       "category": "meta",
-      "source_type": "official_blog",
+      "source_type": "product",
       "title_en": "Meta introduces Spaces in Muse for custom experiences built by description",
-      "title_zh": "Meta 在 Muse 推出 Spaces，以描述建立自訂體驗",
-      "summary_en": "Meta launched Spaces in the Muse app on Nov 6, letting users describe an idea (e.g., holiday gift tracker, school dashboard) so Muse builds a custom interactive experience that can be pinned, scheduled and kept updated from connected apps. Available everywhere Muse is offered; sharing is under exploration.",
-      "summary_zh": "Meta 於 11 月 6 日在 Muse 應用推出 Spaces，讓使用者描述想法（如節日禮物追蹤器、學校儀表板），由 Muse 建立可固定、排程並從連結應用持續更新的自訂互動體驗。Muse 可用處皆可使用；分享功能仍在探索。",
-      "analysis_en": "This turns the personal agent into a mini-app builder, reducing friction for routine tools. Success depends on reliability of background updates and data handling from third-party connectors.",
-      "analysis_zh": "這讓個人代理變成迷你應用建構器，降低日常工具摩擦。成功取決於背景更新可靠性與第三方連接器的資料處理。",
+      "title_zh": "Meta在Muse推出Spaces，以描述建立客製體驗",
+      "summary_en": "Meta launched Spaces in the Muse app on Nov 6, letting users describe an idea (e.g., holiday gift tracker, school dashboard) so Muse builds a custom interactive experience that can be pinned, scheduled and kept updated from connected apps.",
+      "summary_zh": "Meta於11月6日在Muse應用推出Spaces，讓用戶描述想法（例如節日禮物追蹤器、學校儀表板），由Muse建立可釘選、排程並從連結應用持續更新的客製互動體驗。",
+      "analysis_en": "This turns the personal agent into a mini-app builder, reducing friction for routine tools. Success depends on reliability of background updates and data handling from third-party apps.",
+      "analysis_zh": "這將個人代理轉為迷你應用建構器，降低例行工具的摩擦。成功取決於背景更新可靠性與第三方應用資料處理。",
       "quote": "Today, we’re introducing spaces, an interactive way to build a more personalized Muse. A space is a custom experience you create inside Muse by describing your idea.",
       "quote_zh": "今天，我們推出 spaces，一種以互動方式建立更個人化 Muse 的方式。Space 是你在 Muse 內以描述想法建立的自訂體驗。",
       "importance": 3,
       "first_seen": "2026-11-09T16:35:01.980074+00:00",
-      "updated_at": "2026-11-09T16:35:01.980074+00:00",
+      "updated_at": "2026-11-09T22:35:01.328530+00:00",
       "links": [
+        {
+          "label": "Meta AI",
+          "url": "https://ai.meta.com"
+        },
         {
           "label": "Meta Newsroom",
           "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/"
@@ -86,17 +202,21 @@
       "category": "frontier_other",
       "source_type": "official_blog",
       "title_en": "Mistral expands Studio with managed agents, workflows and enterprise apps",
-      "title_zh": "Mistral 擴充 Studio，新增管理式代理、工作流與企業應用",
-      "summary_en": "Mistral announced on Nov 5 an expansion of Studio with managed agents (skills, sandboxes, subagents, hooks), natural-language workflow builder (rules + agent reasoning + human approvals), and hosted apps with authentication and access controls. Deployable in cloud, VPC or on-premises; customers cited include BNP Paribas and Accenture.",
-      "summary_zh": "Mistral 於 11 月 5 日宣布擴充 Studio，新增管理式代理（技能、沙盒、子代理、鉤子）、自然語言工作流建構器（規則＋代理推理＋人工核准），以及具備認證與存取控制的託管應用。可部署於雲端、VPC 或地端；引用客戶包括 BNP Paribas 與 Accenture。",
+      "title_zh": "Mistral擴充Studio，加入託管代理、工作流程與企業應用",
+      "summary_en": "Mistral announced on Nov 5 an expansion of Studio with managed agents (skills, sandboxes, subagents, hooks), natural-language workflow builder (rules + agent reasoning + human approvals), and hosted apps with authentication and access controls.",
+      "summary_zh": "Mistral於11月5日宣布擴充Studio，加入託管代理（技能、沙盒、子代理、鉤子）、自然語言工作流程建構器（規則＋代理推理＋人工批准），以及具備驗證與存取控制的託管應用。",
       "analysis_en": "This strengthens Mistral’s enterprise control story for sovereign AI deployments. Public preview status means production readiness and pricing details are still evolving.",
-      "analysis_zh": "這強化 Mistral 在主權 AI 部署的企業控制敘事。公開預覽狀態意味生產就緒度與定價細節仍在演進。",
+      "analysis_zh": "這強化了Mistral針對主權AI部署的企業控制敘事。公開預覽狀態表示生產就緒度與定價細節仍在演進。",
       "quote": "Today, we’re expanding Studio with managed agents and apps, alongside new capabilities for workflows, enterprise context, agent observability and evaluations.",
       "quote_zh": "今天，我們擴充 Studio，新增管理式代理與應用，以及工作流、企業情境、代理可觀測性與評估的新能力。",
       "importance": 3,
       "first_seen": "2026-11-09T16:35:01.980074+00:00",
-      "updated_at": "2026-11-09T16:35:01.980074+00:00",
+      "updated_at": "2026-11-09T22:35:01.328530+00:00",
       "links": [
+        {
+          "label": "Mistral",
+          "url": "https://mistral.ai"
+        },
         {
           "label": "Mistral Blog",
           "url": "https://mistral.ai/news/build-with-studio/"
@@ -109,17 +229,21 @@
       "category": "anthropic",
       "source_type": "news",
       "title_en": "Anthropic secures ~$3.4B deal for 1.7 GW of gas-fired generators, FT reports",
-      "title_zh": "Anthropic 取得約 34 億美元、1.7 GW 燃氣發電機交易，FT 報導",
-      "summary_en": "The Financial Times reported on Nov 8 that Anthropic struck a deal worth about $3.4 billion for commitments to 1.7 gigawatts of heavy-duty gas-fired generators from OnePWR Solutions to power data centers, including engineering and construction capabilities. Reuters noted it could not immediately verify and Anthropic did not respond.",
-      "summary_zh": "《金融時報》於 11 月 8 日報導，Anthropic 與 OnePWR Solutions 達成約 34 億美元交易，取得 1.7 吉瓦重型燃氣發電機承諾以供資料中心使用，含工程與建設能力。路透社表示無法立即查證，Anthropic 未回應。",
+      "title_zh": "金融時報報導Anthropic以約34億美元取得1.7 GW燃氣發電機承諾",
+      "summary_en": "The Financial Times reported on Nov 8 that Anthropic struck a deal worth about $3.4 billion for commitments to 1.7 gigawatts of heavy-duty gas-fired generators from OnePWR Solutions to power data centers, including engineering and construction.",
+      "summary_zh": "金融時報於11月8日報導，Anthropic與OnePWR Solutions達成約34億美元交易，取得1.7吉瓦重型燃氣發電機承諾以供資料中心電力，包含工程與建設。",
       "analysis_en": "If confirmed, this accelerates Anthropic’s power capacity outside traditional grid timelines amid rising demand for Claude. Verification and long-term emissions or cost implications remain open.",
-      "analysis_zh": "若證實，這將加速 Anthropic 在傳統電網時程外取得電力容量，以因應 Claude 需求成長。查證與長期排放或成本影響仍待釐清。",
+      "analysis_zh": "若獲證實，這將在Claude需求上升下，加速Anthropic在傳統電網時程外取得電力容量。驗證與長期排放或成本影響仍開放。",
       "quote": "",
       "quote_zh": "",
       "importance": 3,
       "first_seen": "2026-11-09T16:35:01.980074+00:00",
-      "updated_at": "2026-11-09T16:35:01.980074+00:00",
+      "updated_at": "2026-11-09T22:35:01.328530+00:00",
       "links": [
+        {
+          "label": "Financial Times",
+          "url": "https://www.ft.com"
+        },
         {
           "label": "Reuters",
           "url": "https://www.reuters.com/business/energy/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-2026-11-08/"
@@ -132,17 +256,21 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI publishes National Community Compact and Compute Campus Policy Blueprint",
-      "title_zh": "OpenAI 發布國家社區協定與運算園區政策藍圖",
-      "summary_en": "On Nov 5 OpenAI published a National Community Compact for campuses it owns and operates (community input, published plans, full energy cost coverage, no NDAs with officials) and a Compute Campus Policy Blueprint urging policymakers to protect ratepayers and require reporting. This followed midterm election results rejecting many data-center measures.",
-      "summary_zh": "OpenAI 於 11 月 5 日發布國家社區協定（適用其擁有營運的園區：社區參與、公開計畫、全額能源成本、不與官員簽 NDA）與運算園區政策藍圖，呼籲決策者保護費率繳納者並要求報告。此舉在期中選舉多數資料中心措施遭拒後提出。",
+      "title_zh": "OpenAI發布國家社區契約與計算園區政策藍圖",
+      "summary_en": "On Nov 5 OpenAI published a National Community Compact for campuses it owns and operates (community input, published plans, full energy cost coverage, no NDAs with officials) and a Compute Campus Policy Blueprint urging policymakers to protect communities while enabling AI infrastructure.",
+      "summary_zh": "OpenAI於11月5日發布其擁有並營運園區的國家社區契約（社區意見、公開計畫、全額能源成本覆蓋、與官員無NDA）以及計算園區政策藍圖，呼籲政策制定者在保護社區的同時促成AI基礎設施。",
       "analysis_en": "The commitments aim to ease local opposition while scaling compute. Scope is limited to owned-and-operated sites, leaving partner and leased capacity outside the pledges.",
-      "analysis_zh": "這些承諾旨在緩解地方反對同時擴充算力。範圍限於自有營運據點，夥伴與租賃容量不在承諾內。",
+      "analysis_zh": "這些承諾旨在緩解地方反對的同時擴展計算。範圍限於自有並營運的據點，夥伴與租賃容量不在承諾之內。",
       "quote": "Today we’re publishing our National Community Compact and a Compute Campus Policy Blueprint. The compact sets out what communities can expect from OpenAI at future campuses that we own and operate.",
       "quote_zh": "今天我們發布國家社區協定與運算園區政策藍圖。協定說明社區在 OpenAI 未來擁有營運的園區可期待什麼。",
       "importance": 3,
       "first_seen": "2026-11-09T16:35:01.980074+00:00",
-      "updated_at": "2026-11-09T16:35:01.980074+00:00",
+      "updated_at": "2026-11-09T22:35:01.328530+00:00",
       "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com"
+        },
         {
           "label": "OpenAI",
           "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/"
@@ -153,22 +281,72 @@
   "categories": {
     "openai": [
       {
+        "id": "openai-chatgpt-enterprise-aws-marketplace-2026-11-09",
+        "story_id": "openai-chatgpt-enterprise-aws-marketplace-2026-11-09",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI makes ChatGPT Enterprise available in AWS Marketplace",
+        "title_zh": "OpenAI將ChatGPT Enterprise上架AWS Marketplace",
+        "summary_en": "OpenAI announced on Nov 9 that ChatGPT Enterprise is now available through AWS Marketplace. Organizations can discover, buy and manage it via existing AWS purchasing and billing relationships, with eligible spend counting toward AWS commitments; customers receive the same models, features and update cadence as direct purchases.",
+        "summary_zh": "OpenAI於11月9日宣布ChatGPT Enterprise現可透過AWS Marketplace取得。組織可透過現有AWS採購與帳單關係發現、購買與管理，合格支出可計入AWS承諾；客戶獲得與直接購買相同的模型、功能與更新節奏。",
+        "analysis_en": "The listing lowers procurement friction for AWS-heavy enterprises and lets them apply committed cloud spend. It does not change the underlying product or guarantee that all customer data remains inside a customer’s own AWS environment.",
+        "analysis_zh": "此上架降低AWS重度企業的採購摩擦，並讓其運用已承諾雲端支出。它未改變底層產品，也不保證所有客戶資料留在客戶自己的AWS環境內。",
+        "quote": "Today, ChatGPT Enterprise is available through AWS Marketplace.",
+        "quote_zh": "今天，ChatGPT Enterprise可透過AWS Marketplace取得。",
+        "importance": 3,
+        "first_seen": "2026-11-09T16:35:01.980074+00:00",
+        "updated_at": "2026-11-09T22:35:01.328530+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/"
+          }
+        ]
+      },
+      {
+        "id": "openai-control-room-safety-2026-11-09",
+        "story_id": "openai-control-room-safety-2026-11-09",
+        "category": "openai",
+        "source_type": "official_x",
+        "title_en": "OpenAI introduces Control Room to rapidly halt research model workloads",
+        "title_zh": "OpenAI推出Control Room，快速中止研究模型工作負載",
+        "summary_en": "OpenAI posted on X on Nov 9 that it built Control Room, a central system tracking every research inference workload—including agentic sampling for training and evaluation—and capable of halting model output within 35 seconds of a decision to intervene. It works with existing misalignment monitoring as part of the lab’s safety approach.",
+        "summary_zh": "OpenAI於11月9日在X發文表示，已建置Control Room，這是一個追蹤所有研究推論工作負載（包括訓練與評估的代理取樣）的中央系統，能在決定干預後35秒內中止模型輸出。它與現有錯位監控系統協同，作為實驗室安全方法的一部分。",
+        "analysis_en": "Faster, centralized kill switches address a practical gap as agentic research workloads grow. The 35-second figure is an internal claim; independent details on coverage, false-positive rates and residual risks are not yet public.",
+        "analysis_zh": "更快的集中式中止開關，解決代理研究工作負載增長帶來的實際缺口。35秒數字為內部主張；覆蓋範圍、誤報率與殘餘風險的獨立細節尚未公開。",
+        "quote": "We built Control Room, a central system to track model workloads across our research infrastructure and stop them quickly when safety or security concerns arise.",
+        "quote_zh": "我們建置了Control Room，一個追蹤研究基礎設施中模型工作負載、並在安全或資安疑慮出現時快速中止的中央系統。",
+        "importance": 3,
+        "first_seen": "2026-11-09T16:35:01.980074+00:00",
+        "updated_at": "2026-11-09T22:35:01.328530+00:00",
+        "links": [
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2119913172039868579"
+          }
+        ]
+      },
+      {
         "id": "openai-data-center-community-compact-2026-11-05",
         "story_id": "openai-data-center-community-compact-2026-11-05",
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI publishes National Community Compact and Compute Campus Policy Blueprint",
-        "title_zh": "OpenAI 發布國家社區協定與運算園區政策藍圖",
-        "summary_en": "On Nov 5 OpenAI published a National Community Compact for campuses it owns and operates (community input, published plans, full energy cost coverage, no NDAs with officials) and a Compute Campus Policy Blueprint urging policymakers to protect ratepayers and require reporting. This followed midterm election results rejecting many data-center measures.",
-        "summary_zh": "OpenAI 於 11 月 5 日發布國家社區協定（適用其擁有營運的園區：社區參與、公開計畫、全額能源成本、不與官員簽 NDA）與運算園區政策藍圖，呼籲決策者保護費率繳納者並要求報告。此舉在期中選舉多數資料中心措施遭拒後提出。",
+        "title_zh": "OpenAI發布國家社區契約與計算園區政策藍圖",
+        "summary_en": "On Nov 5 OpenAI published a National Community Compact for campuses it owns and operates (community input, published plans, full energy cost coverage, no NDAs with officials) and a Compute Campus Policy Blueprint urging policymakers to protect communities while enabling AI infrastructure.",
+        "summary_zh": "OpenAI於11月5日發布其擁有並營運園區的國家社區契約（社區意見、公開計畫、全額能源成本覆蓋、與官員無NDA）以及計算園區政策藍圖，呼籲政策制定者在保護社區的同時促成AI基礎設施。",
         "analysis_en": "The commitments aim to ease local opposition while scaling compute. Scope is limited to owned-and-operated sites, leaving partner and leased capacity outside the pledges.",
-        "analysis_zh": "這些承諾旨在緩解地方反對同時擴充算力。範圍限於自有營運據點，夥伴與租賃容量不在承諾內。",
+        "analysis_zh": "這些承諾旨在緩解地方反對的同時擴展計算。範圍限於自有並營運的據點，夥伴與租賃容量不在承諾之內。",
         "quote": "Today we’re publishing our National Community Compact and a Compute Campus Policy Blueprint. The compact sets out what communities can expect from OpenAI at future campuses that we own and operate.",
         "quote_zh": "今天我們發布國家社區協定與運算園區政策藍圖。協定說明社區在 OpenAI 未來擁有營運的園區可期待什麼。",
         "importance": 3,
         "first_seen": "2026-11-09T16:35:01.980074+00:00",
-        "updated_at": "2026-11-09T16:35:01.980074+00:00",
+        "updated_at": "2026-11-09T22:35:01.328530+00:00",
         "links": [
+          {
+            "label": "OpenAI",
+            "url": "https://openai.com"
+          },
           {
             "label": "OpenAI",
             "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/"
@@ -178,22 +356,53 @@
     ],
     "anthropic": [
       {
+        "id": "anthropic-claude-fable-mythos-5-2-2026-11-09",
+        "story_id": "anthropic-claude-fable-mythos-5-2-2026-11-09",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic introduces Claude Fable 5.2 and Claude Mythos 5.2 for demanding technical work",
+        "title_zh": "Anthropic推出Claude Fable 5.2與Claude Mythos 5.2，專攻高難度技術工作",
+        "summary_en": "Anthropic announced Claude Fable 5.2 and Claude Mythos 5.2 on Nov 9 as upgraded models for the most ambitious open-ended technical challenges. They share an underlying model, with Fable carrying stronger cybersecurity and biology safeguards for general availability; both generate outputs up to 30% faster than the 5.1 versions at lower pricing of $8 per million input tokens and $40 per million output, plus an optional faster mode.",
+        "summary_zh": "Anthropic於11月9日宣布Claude Fable 5.2與Claude Mythos 5.2，升級模型以應對最艱鉅的開放式技術挑戰。兩者共享底層模型，Fable具備更強網路安全與生物學防護以供一般使用；兩者輸出速度比5.1版快達30%，定價降至每百萬輸入token 8美元、輸出40美元，並提供可選更快模式。",
+        "analysis_en": "The dual-configuration approach lets Anthropic broaden access while retaining restricted high-capability variants for verified cyber and life-sciences work. Reported gains in agentic coding, scientific research and hardware design raise the bar for long-horizon technical tasks, though independent verification of the most extreme demonstrations remains limited.",
+        "analysis_zh": "雙配置設計讓Anthropic擴大一般可用性，同時保留受限高能力版本給經認證的網路安全與生命科學機構。代理編碼、科學研究與硬體設計的報告進步提升了長時程技術任務門檻，但最極端示範的獨立驗證仍有限。",
+        "quote": "We’ve upgraded Claude Fable and Claude Mythos—models that are designed to tackle the most daunting technical challenges.",
+        "quote_zh": "我們已升級Claude Fable與Claude Mythos——這些模型旨在應對最艱鉅的技術挑戰。",
+        "importance": 5,
+        "first_seen": "2026-11-09T16:35:01.980074+00:00",
+        "updated_at": "2026-11-09T22:35:01.328530+00:00",
+        "links": [
+          {
+            "label": "Anthropic Blog",
+            "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+          },
+          {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI/status/2119867707546071125"
+          }
+        ]
+      },
+      {
         "id": "anthropic-gas-generators-deal-2026-11-08",
         "story_id": "anthropic-gas-generators-deal-2026-11-08",
         "category": "anthropic",
         "source_type": "news",
         "title_en": "Anthropic secures ~$3.4B deal for 1.7 GW of gas-fired generators, FT reports",
-        "title_zh": "Anthropic 取得約 34 億美元、1.7 GW 燃氣發電機交易，FT 報導",
-        "summary_en": "The Financial Times reported on Nov 8 that Anthropic struck a deal worth about $3.4 billion for commitments to 1.7 gigawatts of heavy-duty gas-fired generators from OnePWR Solutions to power data centers, including engineering and construction capabilities. Reuters noted it could not immediately verify and Anthropic did not respond.",
-        "summary_zh": "《金融時報》於 11 月 8 日報導，Anthropic 與 OnePWR Solutions 達成約 34 億美元交易，取得 1.7 吉瓦重型燃氣發電機承諾以供資料中心使用，含工程與建設能力。路透社表示無法立即查證，Anthropic 未回應。",
+        "title_zh": "金融時報報導Anthropic以約34億美元取得1.7 GW燃氣發電機承諾",
+        "summary_en": "The Financial Times reported on Nov 8 that Anthropic struck a deal worth about $3.4 billion for commitments to 1.7 gigawatts of heavy-duty gas-fired generators from OnePWR Solutions to power data centers, including engineering and construction.",
+        "summary_zh": "金融時報於11月8日報導，Anthropic與OnePWR Solutions達成約34億美元交易，取得1.7吉瓦重型燃氣發電機承諾以供資料中心電力，包含工程與建設。",
         "analysis_en": "If confirmed, this accelerates Anthropic’s power capacity outside traditional grid timelines amid rising demand for Claude. Verification and long-term emissions or cost implications remain open.",
-        "analysis_zh": "若證實，這將加速 Anthropic 在傳統電網時程外取得電力容量，以因應 Claude 需求成長。查證與長期排放或成本影響仍待釐清。",
+        "analysis_zh": "若獲證實，這將在Claude需求上升下，加速Anthropic在傳統電網時程外取得電力容量。驗證與長期排放或成本影響仍開放。",
         "quote": "",
         "quote_zh": "",
         "importance": 3,
         "first_seen": "2026-11-09T16:35:01.980074+00:00",
-        "updated_at": "2026-11-09T16:35:01.980074+00:00",
+        "updated_at": "2026-11-09T22:35:01.328530+00:00",
         "links": [
+          {
+            "label": "Financial Times",
+            "url": "https://www.ft.com"
+          },
           {
             "label": "Reuters",
             "url": "https://www.reuters.com/business/energy/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-2026-11-08/"
@@ -208,16 +417,16 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google introduces TPU 8tx and TPU 8i Max for confidential and high-context agentic AI",
-        "title_zh": "Google 推出 TPU 8tx 與 TPU 8i Max，支援機密與高上下文代理式 AI",
-        "summary_en": "Google announced two new eighth-generation TPU systems on Nov 9: TPU 8tx for hardware-level confidential inference (paired with AMD EPYC hosts, keeping data and weights protected in use) and TPU 8i Max (dual TPU 8i chips in one package, doubling compute, SRAM and HBM bandwidth for massive context). These are system configurations, not new silicon, marking four TPU systems in one year for the first time.",
-        "summary_zh": "Google 於 11 月 9 日宣布兩套第八代 TPU 系統：TPU 8tx 用於硬體層級機密推論（搭配 AMD EPYC 主機，使用時保護資料與權重），以及 TPU 8i Max（單封裝雙 TPU 8i 晶片，運算、SRAM 與 HBM 頻寬加倍，支援超大上下文）。這是系統配置而非新晶片，首次單年推出四套 TPU 系統。",
-        "analysis_en": "This shows Google specializing infrastructure for agentic workloads where memory walls and confidential data matter, using modular packaging to ship faster than full chip cycles. Availability, pricing and real-world density gains versus Nvidia remain unstated.",
-        "analysis_zh": "這顯示 Google 針對代理式工作負載的記憶體牆與機密資料需求特化基礎設施，以模組化封裝加速出貨。可用性、定價與相對 Nvidia 的實際密度提升仍未說明。",
-        "quote": "Today, we’re taking that a step further, expanding our eighth-generation TPU portfolio with two additional systems: TPU 8i Max for massive context windows and the highest compute density per rack, and TPU 8tx for secure and confidential inference. This is the first time we have introduced four TPU systems in a single year.",
-        "quote_zh": "今天，我們再進一步擴充第八代 TPU 產品線，新增兩套系統：TPU 8i Max 用於超大上下文視窗與每機架最高運算密度，以及 TPU 8tx 用於安全機密推論。這是我們首次在單一年推出四套 TPU 系統。",
+        "title_zh": "Google推出TPU 8tx與TPU 8i Max，支援機密與高上下文代理AI",
+        "summary_en": "Google announced two new eighth-generation TPU systems on Nov 9: TPU 8tx for hardware-level confidential inference (paired with AMD EPYC hosts, keeping data and weights protected in use) and TPU 8i Max (dual TPU 8i chips in one package for higher compute density and larger effective context). This brings the year’s TPU systems to four, aimed at agentic workloads.",
+        "summary_zh": "Google於11月9日宣布兩款第八代TPU系統：TPU 8tx用於硬體級機密推論（與AMD EPYC主機搭配，保護使用中資料與權重），以及TPU 8i Max（單一封裝中雙TPU 8i晶片，提升計算密度與有效上下文）。今年TPU系統增至四款，瞄準代理工作負載。",
+        "analysis_en": "This shows Google specializing infrastructure for agentic workloads where memory walls and confidential data matter, using modular packaging to ship faster than full chip cycles. Actual deployment timelines and performance under production agent loads remain to be seen.",
+        "analysis_zh": "這顯示Google針對記憶體牆與機密資料重要的代理工作負載專門化基礎設施，並以模組化封裝加快出貨。實際部署時程與生產代理負載下的效能仍待觀察。",
+        "quote": "We’ve expanded our eighth generation TPU portfolio with TPU 8tx and TPU 8i Max, marking four new TPU systems in a single year.",
+        "quote_zh": "我們以TPU 8tx與TPU 8i Max擴充第八代TPU組合，標誌著單年推出四款新TPU系統。",
         "importance": 4,
         "first_seen": "2026-11-09T16:35:01.980074+00:00",
-        "updated_at": "2026-11-09T16:35:01.980074+00:00",
+        "updated_at": "2026-11-09T22:35:01.328530+00:00",
         "links": [
           {
             "label": "Google Blog",
@@ -228,22 +437,53 @@
     ],
     "meta": [
       {
+        "id": "meta-muse-ember-2026-11-09",
+        "story_id": "meta-muse-ember-2026-11-09",
+        "category": "meta",
+        "source_type": "official_blog",
+        "title_en": "Meta introduces Muse Ember, its smallest and most efficient model for agent workflows",
+        "title_zh": "Meta推出Muse Ember，專為代理工作流程設計的最小且最高效模型",
+        "summary_en": "Meta announced Muse Ember on Nov 9 as its smallest multimodal model built for high-volume agent work such as tool calls, coding subtasks, routing and document parsing. It offers a 1M-token context window, is priced at $0.10 per million input tokens and $0.50 per million output tokens, and is available on the Meta Model API and Muse Code; Meta positions it as delivering more intelligence per dollar than comparable small models.",
+        "summary_zh": "Meta於11月9日宣布Muse Ember，其最小的多模態模型，專為高量代理工作設計，如工具呼叫、編碼子任務、路由與文件解析。它提供100萬token上下文視窗，定價每百萬輸入token 0.10美元、輸出0.50美元，可在Meta Model API與Muse Code上使用；Meta將其定位為比可比小型模型提供更高每美元智能。",
+        "analysis_en": "Ember targets the repetitive sub-steps that dominate agent token usage, potentially lowering the cost of multi-agent systems when paired with larger Muse models. Benchmark claims versus Haiku 5.5 and GPT-6 Luna will need independent confirmation across varied harnesses.",
+        "analysis_zh": "Ember瞄準代理token使用中佔比高的重複子步驟，與較大Muse模型搭配時可能降低多代理系統成本。相對於Haiku 5.5與GPT-6 Luna的基準主張，仍需在不同工具鏈上獨立確認。",
+        "quote": "Today, we're introducing Muse Ember, our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day.",
+        "quote_zh": "今天，我們推出Muse Ember，我們最小且最高效的模型，專為複雜推理執行與代理全天重複的工作設計。",
+        "importance": 4,
+        "first_seen": "2026-11-09T16:35:01.980074+00:00",
+        "updated_at": "2026-11-09T22:35:01.328530+00:00",
+        "links": [
+          {
+            "label": "Meta AI Research Blog",
+            "url": "https://research.meta.ai/blog/muse-ember"
+          },
+          {
+            "label": "AI at Meta on X",
+            "url": "https://x.com/AIatMeta/status/2119853591703998787"
+          }
+        ]
+      },
+      {
         "id": "meta-muse-spaces-2026-11-06",
         "story_id": "meta-muse-spaces-2026-11-06",
         "category": "meta",
-        "source_type": "official_blog",
+        "source_type": "product",
         "title_en": "Meta introduces Spaces in Muse for custom experiences built by description",
-        "title_zh": "Meta 在 Muse 推出 Spaces，以描述建立自訂體驗",
-        "summary_en": "Meta launched Spaces in the Muse app on Nov 6, letting users describe an idea (e.g., holiday gift tracker, school dashboard) so Muse builds a custom interactive experience that can be pinned, scheduled and kept updated from connected apps. Available everywhere Muse is offered; sharing is under exploration.",
-        "summary_zh": "Meta 於 11 月 6 日在 Muse 應用推出 Spaces，讓使用者描述想法（如節日禮物追蹤器、學校儀表板），由 Muse 建立可固定、排程並從連結應用持續更新的自訂互動體驗。Muse 可用處皆可使用；分享功能仍在探索。",
-        "analysis_en": "This turns the personal agent into a mini-app builder, reducing friction for routine tools. Success depends on reliability of background updates and data handling from third-party connectors.",
-        "analysis_zh": "這讓個人代理變成迷你應用建構器，降低日常工具摩擦。成功取決於背景更新可靠性與第三方連接器的資料處理。",
+        "title_zh": "Meta在Muse推出Spaces，以描述建立客製體驗",
+        "summary_en": "Meta launched Spaces in the Muse app on Nov 6, letting users describe an idea (e.g., holiday gift tracker, school dashboard) so Muse builds a custom interactive experience that can be pinned, scheduled and kept updated from connected apps.",
+        "summary_zh": "Meta於11月6日在Muse應用推出Spaces，讓用戶描述想法（例如節日禮物追蹤器、學校儀表板），由Muse建立可釘選、排程並從連結應用持續更新的客製互動體驗。",
+        "analysis_en": "This turns the personal agent into a mini-app builder, reducing friction for routine tools. Success depends on reliability of background updates and data handling from third-party apps.",
+        "analysis_zh": "這將個人代理轉為迷你應用建構器，降低例行工具的摩擦。成功取決於背景更新可靠性與第三方應用資料處理。",
         "quote": "Today, we’re introducing spaces, an interactive way to build a more personalized Muse. A space is a custom experience you create inside Muse by describing your idea.",
         "quote_zh": "今天，我們推出 spaces，一種以互動方式建立更個人化 Muse 的方式。Space 是你在 Muse 內以描述想法建立的自訂體驗。",
         "importance": 3,
         "first_seen": "2026-11-09T16:35:01.980074+00:00",
-        "updated_at": "2026-11-09T16:35:01.980074+00:00",
+        "updated_at": "2026-11-09T22:35:01.328530+00:00",
         "links": [
+          {
+            "label": "Meta AI",
+            "url": "https://ai.meta.com"
+          },
           {
             "label": "Meta Newsroom",
             "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/"
@@ -258,17 +498,21 @@
         "category": "xai",
         "source_type": "official_x",
         "title_en": "Elon Musk says overnight Grok Bot fixes follow engineering roundtable",
-        "title_zh": "Elon Musk 稱工程圓桌後連夜修復 Grok Bot",
+        "title_zh": "Elon Musk表示Grok Bot經工程圓桌後隔夜修復",
         "summary_en": "Elon Musk posted on X on Nov 9 that he held a roundtable review with the Grok Bot engineering team, with fixes implemented overnight and users expected to notice a dramatic improvement by the next day. He invited replies for any remaining issues.",
-        "summary_zh": "Elon Musk 於 11 月 9 日在 X 發文，稱已與 Grok Bot 工程團隊進行圓桌檢討，連夜實施修復，使用者應在隔天注意到顯著改善。他邀請回覆回報任何剩餘問題。",
+        "summary_zh": "Elon Musk於11月9日在X發文表示，他與Grok Bot工程團隊進行圓桌審查，修復已隔夜實施，預期用戶隔日將注意到明顯改善。他邀請回覆任何剩餘問題。",
         "analysis_en": "Direct executive involvement signals rapid iteration on the agent product amid user feedback. Concrete changes and measured gains are not yet detailed.",
-        "analysis_zh": "高層直接介入顯示代理產品正快速迭代以回應使用者回饋。具體變更與量化提升尚未詳述。",
+        "analysis_zh": "高階主管直接參與，顯示在用戶回饋下對代理產品的快速迭代。具體變更與量測成果尚未詳述。",
         "quote": "Just did a round table review with the Grok @Bot engineering team. Fixes are being implemented overnight and you should notice a dramatic improvement by tomorrow.",
         "quote_zh": "剛與 Grok @Bot 工程團隊進行圓桌檢討。修復正連夜實施，你明天應會注意到顯著改善。",
         "importance": 3,
         "first_seen": "2026-11-09T16:35:01.980074+00:00",
-        "updated_at": "2026-11-09T16:35:01.980074+00:00",
+        "updated_at": "2026-11-09T22:35:01.328530+00:00",
         "links": [
+          {
+            "label": "Elon Musk on X",
+            "url": "https://x.com/elonmusk"
+          },
           {
             "label": "Elon Musk on X",
             "url": "https://x.com/elonmusk/status/2119617455102333206"
@@ -283,17 +527,21 @@
         "category": "frontier_other",
         "source_type": "official_blog",
         "title_en": "Mistral expands Studio with managed agents, workflows and enterprise apps",
-        "title_zh": "Mistral 擴充 Studio，新增管理式代理、工作流與企業應用",
-        "summary_en": "Mistral announced on Nov 5 an expansion of Studio with managed agents (skills, sandboxes, subagents, hooks), natural-language workflow builder (rules + agent reasoning + human approvals), and hosted apps with authentication and access controls. Deployable in cloud, VPC or on-premises; customers cited include BNP Paribas and Accenture.",
-        "summary_zh": "Mistral 於 11 月 5 日宣布擴充 Studio，新增管理式代理（技能、沙盒、子代理、鉤子）、自然語言工作流建構器（規則＋代理推理＋人工核准），以及具備認證與存取控制的託管應用。可部署於雲端、VPC 或地端；引用客戶包括 BNP Paribas 與 Accenture。",
+        "title_zh": "Mistral擴充Studio，加入託管代理、工作流程與企業應用",
+        "summary_en": "Mistral announced on Nov 5 an expansion of Studio with managed agents (skills, sandboxes, subagents, hooks), natural-language workflow builder (rules + agent reasoning + human approvals), and hosted apps with authentication and access controls.",
+        "summary_zh": "Mistral於11月5日宣布擴充Studio，加入託管代理（技能、沙盒、子代理、鉤子）、自然語言工作流程建構器（規則＋代理推理＋人工批准），以及具備驗證與存取控制的託管應用。",
         "analysis_en": "This strengthens Mistral’s enterprise control story for sovereign AI deployments. Public preview status means production readiness and pricing details are still evolving.",
-        "analysis_zh": "這強化 Mistral 在主權 AI 部署的企業控制敘事。公開預覽狀態意味生產就緒度與定價細節仍在演進。",
+        "analysis_zh": "這強化了Mistral針對主權AI部署的企業控制敘事。公開預覽狀態表示生產就緒度與定價細節仍在演進。",
         "quote": "Today, we’re expanding Studio with managed agents and apps, alongside new capabilities for workflows, enterprise context, agent observability and evaluations.",
         "quote_zh": "今天，我們擴充 Studio，新增管理式代理與應用，以及工作流、企業情境、代理可觀測性與評估的新能力。",
         "importance": 3,
         "first_seen": "2026-11-09T16:35:01.980074+00:00",
-        "updated_at": "2026-11-09T16:35:01.980074+00:00",
+        "updated_at": "2026-11-09T22:35:01.328530+00:00",
         "links": [
+          {
+            "label": "Mistral",
+            "url": "https://mistral.ai"
+          },
           {
             "label": "Mistral Blog",
             "url": "https://mistral.ai/news/build-with-studio/"
@@ -302,7 +550,7 @@
       }
     ]
   },
-  "brief_en": "Google expanded its eighth-gen TPUs with 8tx (confidential inference) and 8i Max (massive context/density), first four systems in one year. Elon Musk directed overnight Grok Bot fixes after a roundtable. Meta added customizable Spaces to Muse; Mistral expanded Studio with managed agents and workflows. No new flagship models.",
-  "brief_zh": "Google 擴充第八代 TPU，推出 8tx（機密推論）與 8i Max（超大上下文／高密度），單年四套系統首見。Elon Musk 主持圓桌後連夜修復 Grok Bot。Meta 為 Muse 新增可自訂 Spaces；Mistral 擴充 Studio 管理式代理與工作流。無新旗艦模型。",
-  "updated_at": "2026-11-09T16:35:01.980074+00:00"
+  "brief_en": "Anthropic launched Claude Fable 5.2 and Mythos 5.2 for demanding technical work, with faster outputs and lower prices. Meta released efficient Muse Ember for agent subtasks. Google expanded its TPU lineup for confidential and high-context agentic AI. OpenAI added ChatGPT Enterprise to AWS Marketplace and introduced Control Room for rapid safety interventions in research.",
+  "brief_zh": "Anthropic發布Fable 5.2與Mythos 5.2，速度更快價格更低；Meta推出高效Muse Ember供代理任務；Google擴充TPU支援機密與高上下文代理AI；OpenAI將Enterprise上架AWS並強化研究安全監控。",
+  "updated_at": "2026-11-09T22:35:01.328530+00:00"
 }
