@@ -1,14 +1,25 @@
 {
-  "updated_at": "2026-11-09T22:35:01.328530+00:00",
+  "updated_at": "2026-11-10T04:35:01.692107+00:00",
   "models": [
+    {
+      "model_id": "claude-mythos-5-2",
+      "name": "Claude Mythos 5.2",
+      "lab": "anthropic",
+      "kind": "model",
+      "released": "2026-11-09",
+      "note_en": "Same underlying model as Fable 5.2 but without the strongest cyber/biology classifiers; available only to verified organizations.",
+      "note_zh": "與 Fable 5.2 相同底層模型，但移除最強網路安全/生物分類器；僅限經驗證組織使用。",
+      "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "recorded_at": "2026-11-10T04:35:01.692107+00:00"
+    },
     {
       "model_id": "claude-fable-5-2",
       "name": "Claude Fable 5.2",
       "lab": "anthropic",
       "kind": "model",
       "released": "2026-11-09",
-      "note_en": "Upgraded model for demanding technical work; up to 30% faster outputs, lower price ($8/$40 per M tokens), optional fast mode; Mythos 5.2 is the same model with reduced cyber/biology safeguards for verified orgs.",
-      "note_zh": "升級模型專攻高難度技術工作；輸出速度提升達30%，定價降低（每百萬token 8/40美元），可選快速模式；Mythos 5.2為同一模型，對經認證機構減少網路安全／生物學防護。",
+      "note_en": "Upgraded model for demanding technical work; 20% cheaper than Fable 5.1, up to 30% faster, 1M context, with stronger safeguards.",
+      "note_zh": "高難度技術工作升級模型；較 Fable 5.1 便宜 20%、最高快 30%、100 萬上下文，並具備較強防護。",
       "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
       "recorded_at": "2026-11-09T22:35:01.328530+00:00"
     },
@@ -18,8 +29,8 @@
       "lab": "meta",
       "kind": "model",
       "released": "2026-11-09",
-      "note_en": "Smallest multimodal model in the Muse family, optimized for high-volume agent subtasks; 1M context, $0.10/$0.50 per M tokens; available on Meta Model API and Muse Code.",
-      "note_zh": "Muse家族中最小的多模態模型，優化用於高量代理子任務；100萬上下文，每百萬token 0.10/0.50美元；可在Meta Model API與Muse Code使用。",
+      "note_en": "Smallest efficient multimodal model for high-volume agent subtasks; $0.10/M input, 1M context.",
+      "note_zh": "最小高效多模態模型，專為高容量代理子任務；輸入 $0.10/M，100 萬上下文。",
       "link": "https://research.meta.ai/blog/muse-ember",
       "recorded_at": "2026-11-09T22:35:01.328530+00:00"
     },
