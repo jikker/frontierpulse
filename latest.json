@@ -1,40 +1,86 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "runs": [
     {
-      "generated_at": "2026-11-12T04:35:02.539157+00:00",
+      "generated_at": "2026-11-12T16:35:01.404174+00:00",
       "backend": "grok-web",
       "model": "grok.com (browser)",
-      "item_count": 10,
+      "item_count": 6,
       "updated_count": 0,
-      "kept_count": 0
-    },
-    {
-      "generated_at": "2026-11-12T10:35:02.087596+00:00",
-      "backend": "grok-web",
-      "model": "grok.com (browser)",
-      "item_count": 10,
-      "updated_count": 10,
       "kept_count": 0
     }
   ],
   "items_flat": [
     {
+      "id": "google-gemini-4-carbon-ga-2026-11-10",
+      "story_id": "google-gemini-4-carbon-ga-2026-11-10",
+      "category": "google",
+      "source_type": "official_blog",
+      "title_en": "Google makes Gemini 4 Carbon generally available",
+      "title_zh": "Google全面開放Gemini 4 Carbon",
+      "summary_en": "Google announced on Nov 10 that Gemini 4 Carbon, its strongest frontier model for long-horizon agentic work, cybersecurity, coding and scientific reasoning, is now available to paying developers via the Gemini API in AI Studio and Gemini for business, and rolling out to Google AI Ultra subscribers in the Gemini app, AI Mode and Antigravity, at introductory $2/$10 per million tokens.",
+      "summary_zh": "Google於11月10日宣布，其最強前沿模型Gemini 4 Carbon（擅長長時程代理工作、網路安全、編碼與科學推理）現已向付費開發者透過Gemini API開放，並逐步向Google AI Ultra訂閱者推出於Gemini App、AI Mode與Antigravity，入門價格為每百萬token 2/10美元。",
+      "analysis_en": "Carbon’s broader release strengthens Google’s position in high-stakes agentic and cyber workflows at competitive introductory pricing, but sustained performance versus rivals and post-November pricing will determine real adoption.",
+      "analysis_zh": "Carbon更廣泛釋出強化Google在高風險代理與資安工作流程的競爭力與入門定價，但長期表現對比對手及11月後定價將決定實際採用程度。",
+      "quote": "Today, we’re making Gemini 4 Carbon available to developers, enterprises, scientists, and consumers. Carbon is our strongest model with frontier performance in cybersecurity capabilities and long-horizon agentic workflows.",
+      "quote_zh": "今天，我們將Gemini 4 Carbon開放給開發者、企業、科學家與消費者。Carbon是我們最強的模型，在網路安全能力與長時程代理工作流程上具有前沿表現。",
+      "importance": 5,
+      "first_seen": "2026-11-12T16:35:00Z",
+      "updated_at": "2026-11-12T16:35:01.404174+00:00",
+      "links": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+        },
+        {
+          "label": "Google AI on X",
+          "url": "https://x.com/GoogleAI/status/2120187753329791341"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-roadshow-2026-11",
+      "story_id": "anthropic-ipo-roadshow-2026-11",
+      "category": "anthropic",
+      "source_type": "mixed",
+      "title_en": "Anthropic advances IPO roadshow with $70–$78 price range",
+      "title_zh": "Anthropic推進IPO路演，價格區間70至78美元",
+      "summary_en": "Anthropic’s IPO roadshow continued on Nov 12, with the company linking to its offering site. Updated filings set a $70–$78 range for 825 million Class A shares (ticker ANT), implying up to roughly $1.4 trillion fully diluted valuation and up to ~$64 billion raised, plus a concurrent ~$26 billion private placement from Google, Nvidia and other chip/cloud partners; trading expected around Nov 19.",
+      "summary_zh": "Anthropic的IPO路演於11月12日持續，公司連結至發行網站。更新申報將825百萬股A類股（代號ANT）價格區間定為70至78美元，完全稀釋估值最高約1.4兆美元，募資最高約640億美元，另加Google、Nvidia等晶片/雲端夥伴約260億美元同步私人配售；預期約11月19日開始交易。",
+      "analysis_en": "The large raise and supplier participation underscore AI capital intensity and circular financing risks; final pricing and post-listing performance will test whether revenue growth (reported ~$81B run-rate) can justify the valuation amid market scrutiny of AI spending.",
+      "analysis_zh": "大規模募資與供應商參與凸顯AI資本密集與循環融資風險；最終定價與上市後表現將測試收入成長（報導約810億美元年化）能否在市場對AI支出的審視下支撐估值。",
+      "quote": "Our initial public offering: https://ipo.anthropic.com/us/",
+      "quote_zh": "我們的首次公開發行：https://ipo.anthropic.com/us/",
+      "importance": 5,
+      "first_seen": "2026-11-12T16:35:00Z",
+      "updated_at": "2026-11-12T16:35:01.404174+00:00",
+      "links": [
+        {
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2120841731302154708"
+        },
+        {
+          "label": "Anthropic News",
+          "url": "https://www.anthropic.com/news"
+        }
+      ]
+    },
+    {
       "id": "google-alphagenome-2-2026-11-11",
       "story_id": "google-alphagenome-2-2026-11-11",
       "category": "google",
       "source_type": "official_blog",
-      "title_en": "Google DeepMind launches AlphaGenome 2 for cell-specific DNA variant effects",
-      "title_zh": "Google DeepMind 推出 AlphaGenome 2，預測細胞特異性 DNA 變異效應",
-      "summary_en": "Google DeepMind announced AlphaGenome 2, a conditional DNA sequence model that predicts how sequences and variants affect specific human cell types and states rather than averaging across tissues. Trained on over 107 million individual cell profiles across 68 tissues, it identified nearly twice as many causal variants (30% vs 16%) on the TenK10K immune-cell dataset. Available for non-commercial research via the AlphaGenome API, with commercial access in private preview.",
-      "summary_zh": "Google DeepMind 宣布 AlphaGenome 2，一款條件式 DNA 序列模型，能預測序列與變異對特定人類細胞類型與狀態的影響，而非僅平均組織層級。模型在 68 種組織逾 1.07 億個細胞檔案上訓練，於 TenK10K 免疫細胞資料集上識別近兩倍的因果變異（30% 對 16%）。非商業研究可透過 AlphaGenome API 使用，商業研究則為私人預覽。",
-      "analysis_en": "Cell-type conditional prediction moves genomics from bulk averages toward mechanistic disease insights, potentially accelerating target discovery; commercial access remains limited and the model is not validated for clinical use.",
-      "analysis_zh": "細胞類型條件預測將基因組學從組織平均推向機制性病因洞察，可能加速靶點發現；商業存取仍受限，且模型尚未通過臨床驗證。",
+      "title_en": "DeepMind releases AlphaGenome 2 for cell-specific DNA variant prediction",
+      "title_zh": "DeepMind發布AlphaGenome 2，預測細胞專屬DNA變異效應",
+      "summary_en": "Google DeepMind announced AlphaGenome 2 on Nov 11, a next-generation DNA sequence model that predicts how genetic variants affect specific human cell types and states, trained on over 100 million cell profiles. It identifies nearly twice as many gene-expression-changing variants as its predecessor and is available for non-commercial research via API (private preview for commercial).",
+      "summary_zh": "Google DeepMind於11月11日宣布AlphaGenome 2，下一代DNA序列模型，能預測基因變異對特定人類細胞類型與狀態的影響，訓練自超過1億個細胞資料。它識別影響基因表達的變異數量幾乎是前代兩倍，現已透過API向非商業研究開放（商業研究私人預覽）。",
+      "analysis_en": "By moving from tissue averages to cell-type resolution and supporting on-the-fly conditioning from new single-cell data, AlphaGenome 2 could accelerate variant-to-mechanism research in disease, though clinical translation remains distant and non-commercial access limits immediate commercial uptake.",
+      "analysis_zh": "從組織平均轉向細胞類型解析，並支援新單細胞資料即時條件化，AlphaGenome 2有望加速疾病中變異至機制的研究，但臨床轉化仍遙遠，非商業存取也限制即時商業採用。",
       "quote": "Today, we are announcing AlphaGenome 2, our next-generation model that predicts how DNA sequences and their variations impact specific human cell types, giving scientists a powerful new tool to uncover the cellular drivers of disease.",
-      "quote_zh": "今天我們宣布 AlphaGenome 2，這是我們的下一代模型，能預測 DNA 序列及其變異如何影響特定人類細胞類型，為科學家提供強大新工具以揭露疾病的細胞驅動因素。",
-      "importance": 5,
-      "first_seen": "2026-11-11T15:03:17Z",
-      "updated_at": "2026-11-12T10:35:02.087596+00:00",
+      "quote_zh": "今天，我們宣布AlphaGenome 2，我們的下一代模型，能預測DNA序列及其變異如何影響特定人類細胞類型，為科學家提供強大新工具，以揭示疾病的細胞驅動因素。",
+      "importance": 4,
+      "first_seen": "2026-11-12T16:35:00Z",
+      "updated_at": "2026-11-12T16:35:01.404174+00:00",
       "links": [
         {
           "label": "Google DeepMind Blog",
@@ -42,34 +88,7 @@
         },
         {
           "label": "Google DeepMind on X",
-          "url": "https://x.com/GoogleDeepMind/status/2120532824465805749"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-claude-fable-mythos-5-2-2026-11-09",
-      "story_id": "anthropic-claude-fable-mythos-5-2-2026-11-09",
-      "category": "anthropic",
-      "source_type": "official_blog",
-      "title_en": "Anthropic releases Claude Fable 5.2 and Claude Mythos 5.2",
-      "title_zh": "Anthropic 發布 Claude Fable 5.2 與 Claude Mythos 5.2",
-      "summary_en": "Anthropic introduced Claude Fable 5.2 and Claude Mythos 5.2 as its most capable models for demanding technical work in coding, finance, and the sciences. Fable 5.2 is available to paid users and platforms including AWS, Google Cloud, and Microsoft; Mythos 5.2 requires verification for high-risk cyber and life-sciences applications. Pricing starts at $8/$40 per million tokens, with a fast mode at $16/$80; outputs are up to 30% faster than the prior version.",
-      "summary_zh": "Anthropic 推出 Claude Fable 5.2 與 Claude Mythos 5.2，作為其在編碼、金融與科學等要求極高技術工作上最有能力的模型。Fable 5.2 可供付費用戶及 AWS、Google Cloud、Microsoft 等平台使用；Mythos 5.2 則需驗證才能用於高風險網路安全與生命科學應用。定價起自每百萬 tokens 8/40 美元，快速模式為 16/80 美元；輸出速度較前一版快最多 30%。",
-      "analysis_en": "Positions Anthropic’s technical-work tier with lower prices than the prior Fable 5.1 while keeping high-risk capabilities tightly controlled; sustained performance on multi-day autonomous tasks will determine real-world impact versus competitors.",
-      "analysis_zh": "將 Anthropic 的技術工作層級定位在較 Fable 5.1 更低價格，同時嚴格控管高風險能力；多日自主任務的持續表現將決定相對競爭對手的實際影響。",
-      "quote": "We’ve upgraded Claude Fable and Claude Mythos—models that are designed to tackle the most daunting technical challenges.",
-      "quote_zh": "我們已升級 Claude Fable 與 Claude Mythos——這些模型專為應對最艱鉅的技術挑戰而設計。",
-      "importance": 5,
-      "first_seen": "2026-11-09T00:00:00Z",
-      "updated_at": "2026-11-12T10:35:02.087596+00:00",
-      "links": [
-        {
-          "label": "Anthropic Blog",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
-        },
-        {
-          "label": "Anthropic Newsroom",
-          "url": "https://www.anthropic.com/news"
+          "url": "https://x.com/GoogleDeepMind/status/2120841923237683462"
         }
       ]
     },
@@ -78,71 +97,25 @@
       "story_id": "google-gemini-decisions-api-2026-11-11",
       "category": "google",
       "source_type": "official_blog",
-      "title_en": "Google launches Gemini Decisions API and Gemini Decision 1 model",
-      "title_zh": "Google 推出 Gemini Decisions API 與 Gemini Decision 1 模型",
-      "summary_en": "Google introduced the Gemini Decisions API powered by the new Gemini Decision 1 model (gemini-decision-1), enabling evaluation of up to 1,000 yes/no, multiple-choice, or rubric questions in a single pass over multimodal inputs (text, images, audio, video, PDFs up to 256K tokens). It returns probabilities and confidence scores in 150-250 ms end-to-end at $0.10 per million input tokens with zero output-token charges, nearly 5x cheaper than Gemini 3.5 Flash-Lite on shared benchmarks.",
-      "summary_zh": "Google 推出由新模型 Gemini Decision 1（gemini-decision-1）驅動的 Gemini Decisions API，可在單次通過中對多模態輸入（文字、影像、音訊、影片、PDF，最高 256K tokens）評估最多 1,000 個是非、選擇或量表問題。回傳機率與信心分數，端到端延遲 150-250 毫秒，每百萬輸入 tokens 0.10 美元且不計輸出 tokens，於共享基準上近乎比 Gemini 3.5 Flash-Lite 便宜 5 倍。",
-      "analysis_en": "Specialized scoring without token-by-token generation targets high-volume agent routing, policy checks, and grading where latency and cost dominate; adoption will hinge on calibration quality in production workflows.",
-      "analysis_zh": "無需逐 token 生成的專門評分，針對高流量代理路由、政策檢查與評分等延遲與成本主導的場景；實際採用將取決於生產工作流程中的校準品質。",
-      "quote": "Today, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model (gemini-decision-1), available through the Gemini API in Google AI Studio.",
-      "quote_zh": "今天我們推出 Gemini Decisions API，這是一個由新模型 Gemini Decision 1（gemini-decision-1）驅動的快速封閉集合決策端點，可透過 Google AI Studio 中的 Gemini API 使用。",
+      "title_en": "Google launches Gemini Decisions API powered by Gemini Decision 1",
+      "title_zh": "Google推出由Gemini Decision 1驅動的Gemini Decisions API",
+      "summary_en": "Google introduced the Gemini Decisions API on Nov 11, powered by the new Gemini Decision 1 model. It evaluates up to 1,000 yes/no, choice or rubric questions against one multimodal input (text, image, audio, video, PDF) in a single fast pass, returning probabilities and confidence scores at $0.10 per million input tokens with zero output-token charges and 150-250 ms latency.",
+      "summary_zh": "Google於11月11日推出Gemini Decisions API，由新模型Gemini Decision 1驅動。它能針對單一多模態輸入（文字、影像、音訊、影片、PDF）在單次快速通過中評估最多1000個是非、選擇或評分問題，回傳機率與信心分數，每百萬輸入token僅0.10美元且輸出token免費，延遲150-250毫秒。",
+      "analysis_en": "Purpose-built for routing, policy checks and grading without full generation, the API could cut latency and cost for agent control planes, but its advantage depends on calibration quality in real production workloads versus general models.",
+      "analysis_zh": "專為路由、政策檢查與評分設計而無需完整生成，此API可降低代理控制平面的延遲與成本，但其優勢取決於真實生產工作負載中的校準品質，相較一般模型如何。",
+      "quote": "Today, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model... returning probabilities and confidence scores in 150-250 ms end-to-end latency at $0.10 per 1M input tokens with zero output tokens billed.",
+      "quote_zh": "今天，我們推出Gemini Decisions API，一個由新Gemini Decision 1模型驅動的快速閉集決策新端點……以150-250毫秒端到端延遲回傳機率與信心分數，每百萬輸入token 0.10美元且輸出token不計費。",
       "importance": 4,
-      "first_seen": "2026-11-11T00:00:00Z",
-      "updated_at": "2026-11-12T10:35:02.087596+00:00",
+      "first_seen": "2026-11-12T16:35:00Z",
+      "updated_at": "2026-11-12T16:35:01.404174+00:00",
       "links": [
         {
           "label": "Google Blog",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
-        }
-      ]
-    },
-    {
-      "id": "google-gemini-robotics-2-5-2026-11-10",
-      "story_id": "google-gemini-robotics-2-5-2026-11-10",
-      "category": "google",
-      "source_type": "official_blog",
-      "title_en": "Google DeepMind introduces Gemini Robotics 2.5 for real-world dexterity",
-      "title_zh": "Google DeepMind 推出 Gemini Robotics 2.5，強化現實世界靈巧度",
-      "summary_en": "Google DeepMind released Gemini Robotics 2.5, its most capable vision-language-action model, improving dexterity, reliability, and speed across more than 200 tasks. In a Mercedes-Benz proof-of-concept with Apptronik Apollo 2 humanoids, it achieved 96% success on pick-and-pack operations. Success rates rose 30-100% and task times fell 20-30% versus prior baselines; rolling out to robotics partners.",
-      "summary_zh": "Google DeepMind 發布 Gemini Robotics 2.5，其最有能力的視覺-語言-動作模型，在超過 200 項任務上提升靈巧度、可靠性與速度。於 Mercedes-Benz 概念驗證中，搭配 Apptronik Apollo 2 人形機器人在撿取包裝作業達到 96% 成功率。成功率較前基準提升 30-100%，任務時間縮短 20-30%；正逐步向機器人合作夥伴推出。",
-      "analysis_en": "Gains in unstructured environments and factory pilots mark progress toward deployable physical AI, but success rates still vary widely by task and long-term robustness outside controlled settings remains unproven.",
-      "analysis_zh": "非結構化環境與工廠試點的進展標誌著可部署實體 AI 的進步，但成功率仍因任務差異大，且受控環境外的長期穩健性尚未證實。",
-      "quote": "Today, we are introducing Gemini Robotics 2.5, our most capable vision-language-action (VLA) model to date.",
-      "quote_zh": "今天我們推出 Gemini Robotics 2.5，這是迄今最有能力的視覺-語言-動作（VLA）模型。",
-      "importance": 4,
-      "first_seen": "2026-11-10T15:00:00Z",
-      "updated_at": "2026-11-12T10:35:02.087596+00:00",
-      "links": [
-        {
-          "label": "Google DeepMind Blog",
-          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
-        }
-      ]
-    },
-    {
-      "id": "google-gemini-4-carbon-availability-2026-11-10",
-      "story_id": "google-gemini-4-carbon-availability-2026-11-10",
-      "category": "google",
-      "source_type": "official_blog",
-      "title_en": "Gemini 4 Carbon becomes available to developers and Ultra users",
-      "title_zh": "Gemini 4 Carbon 向開發者與 Ultra 用戶開放",
-      "summary_en": "Google made Gemini 4 Carbon, its strongest model for cybersecurity and long-horizon agentic work, available to paying developers and enterprises via the Gemini API and to Google AI Ultra subscribers in Antigravity, the Gemini app, and AI Mode. Introductory pricing is $2/$10 per million tokens until November 30, then $4/$20. Previously limited to cyber defenders.",
-      "summary_zh": "Google 將其在網路安全與長視野代理工作上最強的模型 Gemini 4 Carbon，開放給付費開發者與企業透過 Gemini API 使用，並提供給 Google AI Ultra 訂閱者在 Antigravity、Gemini app 與 AI Mode 中使用。介紹期定價至 11 月 30 日為每百萬 tokens 2/10 美元，之後為 4/20 美元。先前僅限網路防禦者。",
-      "analysis_en": "Broader access after a limited cyber-defender rollout tests whether Carbon’s higher token usage for thorough reasoning delivers net value versus Argon on production workloads.",
-      "analysis_zh": "在有限網路防禦者推出後擴大存取，將測試 Carbon 為徹底推理而較高的 token 用量，是否在生產工作負載上相對 Argon 帶來淨價值。",
-      "quote": "Starting today, developers can build with Gemini 4 Carbon, our strongest model with frontier performance in cybersecurity and long-horizon capabilities.",
-      "quote_zh": "即日起，開發者可使用 Gemini 4 Carbon 進行建置，這是我們在網路安全與長時程能力上具備前沿表現的最強模型。",
-      "importance": 4,
-      "first_seen": "2026-11-10T00:00:00Z",
-      "updated_at": "2026-11-12T10:35:02.087596+00:00",
-      "links": [
-        {
-          "label": "Google DeepMind",
-          "url": "https://deepmind.google/models/gemini/"
         },
         {
-          "label": "Google Blog",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+          "label": "Google for Developers on X",
+          "url": "https://x.com/googledevs/status/2120583940247552381"
         }
       ]
     },
@@ -151,22 +124,18 @@
       "story_id": "google-alphaproof-code-signal-2026-11-10",
       "category": "google",
       "source_type": "official_blog",
-      "title_en": "Google DeepMind’s AlphaProof Code formally verifies Signal protocol",
-      "title_zh": "Google DeepMind 的 AlphaProof Code 正式驗證 Signal 協定",
-      "summary_en": "Google DeepMind introduced AlphaProof Code, an agentic framework that, guided by Gemini agents, generated over 6 million lines of Lean proofs to mathematically verify key security properties of Signal’s cryptographic protocol code. Human experts reviewed the results; the work demonstrates AI-assisted formal verification at practical scale for widely used infrastructure.",
-      "summary_zh": "Google DeepMind 推出 AlphaProof Code，這是一個由 Gemini 代理引導的代理框架，生成逾 600 萬行 Lean 證明，以數學方式驗證 Signal 密碼協定程式碼的關鍵安全屬性。人類專家審查結果；此工作展示 AI 輔助形式驗證在廣泛使用基礎設施上的實用規模。",
-      "analysis_en": "Demonstrates AI-assisted formal verification at practical scale for widely used infrastructure; scaling to larger or less modular codebases and independent audits will determine broader impact.",
-      "analysis_zh": "展示 AI 輔助形式驗證在廣泛使用基礎設施上的實用規模；擴展至更大或不那麼模組化的程式碼庫以及獨立稽核將決定更廣泛影響。",
-      "quote": "Google DeepMind researchers guided AI agents to mathematically prove key security properties of the actual code underlying the Signal protocol.",
-      "quote_zh": "Google DeepMind 研究人員引導 AI 代理，對 Signal 協議底層實際程式碼的關鍵安全屬性進行數學證明。",
+      "title_en": "DeepMind’s AlphaProof Code formally verifies Signal protocol implementation",
+      "title_zh": "DeepMind的AlphaProof Code正式驗證Signal協議實作",
+      "summary_en": "Google DeepMind announced AlphaProof Code on Nov 10, an agentic framework that guided AI agents (powered by Gemini Carbon) to generate over six million lines of Lean proofs formally verifying key security properties of the actual compiled Signal protocol code in four weeks—the first time AI has verified a widely deployed cryptographic protocol at this depth.",
+      "summary_zh": "Google DeepMind於11月10日宣布AlphaProof Code，一種代理框架，引導由Gemini Carbon驅動的AI代理在四週內生成超過六百萬行Lean證明，正式驗證實際編譯的Signal協議程式碼關鍵安全屬性——這是首次AI以如此深度驗證廣泛部署的加密協議。",
+      "analysis_en": "Bridging design-to-implementation verification with AI agents marks a practical advance for high-assurance software, potentially scalable to other critical systems, though human expert oversight and the open-sourced artifacts’ real-world reuse remain key open questions.",
+      "analysis_zh": "以AI代理橋接設計至實作驗證，標誌高保證軟體的實用進展，可能擴展至其他關鍵系統，但人類專家監督與開源工件的真實世界再利用仍是關鍵開放問題。",
+      "quote": "This breakthrough discovery was made using AlphaProof Code, a novel agentic framework for formal verification at unprecedented depth... Our work marks the first time AI has been used to formally verify a widely deployed cryptographic protocol at this depth.",
+      "quote_zh": "此突破發現使用AlphaProof Code，一種前所未有深度的新型代理形式驗證框架……我們的工作標誌首次使用AI以如此深度正式驗證廣泛部署的加密協議。",
       "importance": 4,
-      "first_seen": "2026-11-10T12:00:00Z",
-      "updated_at": "2026-11-12T10:35:02.087596+00:00",
+      "first_seen": "2026-11-12T16:35:00Z",
+      "updated_at": "2026-11-12T16:35:01.404174+00:00",
       "links": [
-        {
-          "label": "Google DeepMind",
-          "url": "https://deepmind.google/"
-        },
         {
           "label": "Google DeepMind Blog",
           "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
@@ -174,102 +143,25 @@
       ]
     },
     {
-      "id": "anthropic-ipo-roadshow-2026-11-10",
-      "story_id": "anthropic-ipo-roadshow-2026-11-10",
-      "category": "anthropic",
+      "id": "google-gemini-robotics-2-5-2026-11-10",
+      "story_id": "google-gemini-robotics-2-5-2026-11-10",
+      "category": "google",
       "source_type": "official_blog",
-      "title_en": "Anthropic launches IPO roadshow for Class A shares",
-      "title_zh": "Anthropic 啟動 Class A 股份 IPO 路演",
-      "summary_en": "Anthropic, PBC launched the roadshow for its proposed initial public offering of Class A common stock. The offering comprises 825 million shares (801 million by the company and the rest by existing stockholders), with an expected price range of $70–$78, implying a valuation up to about $1.4 trillion. Trading is targeted around November 19 pending SEC review.",
-      "summary_zh": "Anthropic, PBC 啟動其擬議 Class A 普通股首次公開發行的路演。發行包含 8.25 億股（公司發行 8.01 億股，其餘由現有股東出售），預期價格區間 70–78 美元，隱含估值最高約 1.4 兆美元。交易目標約在 11 月 19 日，待 SEC 審查。",
-      "analysis_en": "Moves Anthropic from private to public-market scrutiny while its S-1 remains effective only after SEC review; valuation and capital allocation between research, safety, and growth will face investor tests.",
-      "analysis_zh": "將 Anthropic 從私人轉向公開市場審查，而其 S-1 僅在 SEC 審查後生效；估值以及研究、安全與成長之間的資本配置將面臨投資人考驗。",
-      "quote": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
-      "quote_zh": "今天，Anthropic, PBC 啟動其 Class A 普通股擬議首次公開發行的路演。",
-      "importance": 4,
-      "first_seen": "2026-11-10T00:00:00Z",
-      "updated_at": "2026-11-12T10:35:02.087596+00:00",
-      "links": [
-        {
-          "label": "Anthropic News",
-          "url": "https://www.anthropic.com/news/roadshow-launch"
-        }
-      ]
-    },
-    {
-      "id": "meta-muse-ember-2026-11-09",
-      "story_id": "meta-muse-ember-2026-11-09",
-      "category": "meta",
-      "source_type": "news",
-      "title_en": "Meta releases Muse Ember, lightweight model for high-volume agent tasks",
-      "title_zh": "Meta 發布 Muse Ember，輕量模型用於高流量代理任務",
-      "summary_en": "Meta Superintelligence Labs released Muse Ember, its smallest and most efficient model for repetitive agent work such as tool calls, coding subtasks, routing, and long-document parsing. Priced at $0.10 per million input tokens and $0.50 per million output tokens, with 1M context and multimodal support; closed weights. Designed to pair with larger Muse models.",
-      "summary_zh": "Meta Superintelligence Labs 發布 Muse Ember，其最小且最有效率的模型，用於工具呼叫、編碼子任務、路由與長文件解析等重複代理工作。定價每百萬輸入 tokens 0.10 美元、輸出 0.50 美元，1M 上下文與多模態支援；權重封閉。設計為與較大 Muse 模型搭配。",
-      "analysis_en": "Targets the cost floor for the bulk of agent traffic by pairing with larger models; closed weights limit independent verification of claimed efficiency gains versus open alternatives.",
-      "analysis_zh": "藉由與較大模型搭配，針對代理流量的成本底線；封閉權重限制對聲稱效率提升相對開放替代方案的獨立驗證。",
-      "quote": "Today, we're introducing Muse Ember, our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day.",
-      "quote_zh": "今天，我們推出 Muse Ember，這是我們最小且最高效的模型，專為複雜推理執行以及代理整天重複的工作而設計。",
-      "importance": 4,
-      "first_seen": "2026-11-09T00:00:00Z",
-      "updated_at": "2026-11-12T10:35:02.087596+00:00",
-      "links": [
-        {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
-        },
-        {
-          "label": "Meta AI Research",
-          "url": "https://research.meta.ai/blog/muse-ember"
-        }
-      ]
-    },
-    {
-      "id": "xai-grok-4-8-soft-rollout-2026-11-10",
-      "story_id": "xai-grok-4-8-soft-rollout-2026-11-10",
-      "category": "xai",
-      "source_type": "official_x",
-      "title_en": "Elon Musk signals soft rollout of Grok 4.8 to Bot users",
-      "title_zh": "Elon Musk 表示將對 Bot 用戶軟性推出 Grok 4.8",
-      "summary_en": "Elon Musk stated that Grok 4.8 pre-training is complete, reinforcement learning is underway after rewriting the RL and inference stack in C/C++, evaluation scores are improving, and xAI will conduct a limited soft rollout to Grok Bot users later in the week of November 10. No full public or API release announced.",
-      "summary_zh": "Elon Musk 表示 Grok 4.8 預訓練已完成，在以 C/C++ 重寫 RL 與推論堆疊後正進行強化學習，評估分數正在提升，xAI 將於 11 月 10 日當週稍後對 Grok Bot 用戶進行有限軟性推出。尚未宣布完整公開或 API 發布。",
-      "analysis_en": "Executive signaling of incremental progress rather than a formal release; performance relative to Grok 4.7 and competitors will only be assessable after broader availability.",
-      "analysis_zh": "高管對增量進展的訊號，而非正式發布；相對 Grok 4.7 與競爭對手的表現，僅在更廣泛可用後才能評估。",
-      "quote": "We will do a soft rollout to Bot users later this week and see how it goes. Grok 4.8 will bear no resemblance to 4.7 (thankfully).",
-      "quote_zh": "我們將於本週稍後對 Bot 用戶進行軟性推出，看看情況如何。Grok 4.8 將與 4.7 毫無相似之處（幸好）。",
+      "title_en": "DeepMind introduces Gemini Robotics 2.5 for faster real-world dexterity",
+      "title_zh": "DeepMind推出Gemini Robotics 2.5，加速真實世界靈巧度",
+      "summary_en": "Google DeepMind released Gemini Robotics 2.5 on Nov 10, its most capable vision-language-action model, improving skill breadth, learning speed, reliability (96% success in a Mercedes-Benz Apptronik Apollo pilot) and safety steerability. It is rolling out to robotics partners.",
+      "summary_zh": "Google DeepMind於11月10日發布Gemini Robotics 2.5，其最強視覺-語言-行動模型，提升技能廣度、學習速度、可靠性（Mercedes-Benz Apptronik Apollo試點96%成功率）與安全可控性。現正向機器人合作夥伴推出。",
+      "analysis_en": "Demonstrated factory success and safety improvements advance physical AI practicality, yet partner-only rollout and the gap to widespread deployment leave the timeline for everyday robotics uncertain.",
+      "analysis_zh": "展示的工廠成功與安全改進推進物理AI實用性，但僅限合作夥伴推出及至廣泛部署的差距，使日常機器人時程仍不確定。",
+      "quote": "Today, we are introducing Gemini Robotics 2.5, our most capable vision-language-action (VLA) model to date. Gemini Robotics 2.5 increases both the breadth of skills a robot can learn and the speed at which it can acquire them.",
+      "quote_zh": "今天，我們推出Gemini Robotics 2.5，迄今最強的視覺-語言-行動（VLA）模型。Gemini Robotics 2.5提升機器人能學習的技能廣度與習得速度。",
       "importance": 3,
-      "first_seen": "2026-11-10T00:00:00Z",
-      "updated_at": "2026-11-12T10:35:02.087596+00:00",
+      "first_seen": "2026-11-12T16:35:00Z",
+      "updated_at": "2026-11-12T16:35:01.404174+00:00",
       "links": [
         {
-          "label": "Elon Musk on X",
-          "url": "https://x.com/elonmusk/status/2120088070443655190"
-        },
-        {
-          "label": "Reporting on Musk statement",
-          "url": "https://grokshelf.com/news/grok-4-8-grok-5-release-date"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-usage-policy-effective-2026-11-12",
-      "story_id": "anthropic-usage-policy-effective-2026-11-12",
-      "category": "anthropic",
-      "source_type": "official_blog",
-      "title_en": "Anthropic 2026 Usage Policy update takes effect",
-      "title_zh": "Anthropic 2026 使用政策更新今日生效",
-      "summary_en": "Anthropic’s updated Usage Policy, first published in October, takes effect on November 12. Changes include a consolidated section on deceptive campaigns or artificial activity, clarified high-risk rules for health and finance requiring qualified human-in-the-loop, controls for autonomous physical actions, and a prohibition on sustained needless abusive behavior toward models.",
-      "summary_zh": "Anthropic 於 10 月首次發布的更新使用政策於 11 月 12 日生效。變更包括整合欺騙性活動或人工活動章節、釐清健康與金融等高風險規則（需合格人類在迴路中）、自主物理行動控管，以及禁止對模型持續無意義虐待行為。",
-      "analysis_en": "Reflects observed misuse patterns and longer autonomous agent use; enforcement consistency across enterprise customers will determine practical impact.",
-      "analysis_zh": "反映觀察到的濫用模式與更長的自主代理使用；對企業客戶的執法一致性將決定實際影響。",
-      "quote": "The updated policy takes effect on November 12.",
-      "quote_zh": "更新政策於 11 月 12 日生效。",
-      "importance": 3,
-      "first_seen": "2026-10-08T00:00:00Z",
-      "updated_at": "2026-11-12T10:35:02.087596+00:00",
-      "links": [
-        {
-          "label": "Anthropic Blog",
-          "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+          "label": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
         }
       ]
     }
@@ -278,96 +170,77 @@
     "openai": [],
     "anthropic": [
       {
-        "id": "anthropic-claude-fable-mythos-5-2-2026-11-09",
-        "story_id": "anthropic-claude-fable-mythos-5-2-2026-11-09",
+        "id": "anthropic-ipo-roadshow-2026-11",
+        "story_id": "anthropic-ipo-roadshow-2026-11",
         "category": "anthropic",
-        "source_type": "official_blog",
-        "title_en": "Anthropic releases Claude Fable 5.2 and Claude Mythos 5.2",
-        "title_zh": "Anthropic 發布 Claude Fable 5.2 與 Claude Mythos 5.2",
-        "summary_en": "Anthropic introduced Claude Fable 5.2 and Claude Mythos 5.2 as its most capable models for demanding technical work in coding, finance, and the sciences. Fable 5.2 is available to paid users and platforms including AWS, Google Cloud, and Microsoft; Mythos 5.2 requires verification for high-risk cyber and life-sciences applications. Pricing starts at $8/$40 per million tokens, with a fast mode at $16/$80; outputs are up to 30% faster than the prior version.",
-        "summary_zh": "Anthropic 推出 Claude Fable 5.2 與 Claude Mythos 5.2，作為其在編碼、金融與科學等要求極高技術工作上最有能力的模型。Fable 5.2 可供付費用戶及 AWS、Google Cloud、Microsoft 等平台使用；Mythos 5.2 則需驗證才能用於高風險網路安全與生命科學應用。定價起自每百萬 tokens 8/40 美元，快速模式為 16/80 美元；輸出速度較前一版快最多 30%。",
-        "analysis_en": "Positions Anthropic’s technical-work tier with lower prices than the prior Fable 5.1 while keeping high-risk capabilities tightly controlled; sustained performance on multi-day autonomous tasks will determine real-world impact versus competitors.",
-        "analysis_zh": "將 Anthropic 的技術工作層級定位在較 Fable 5.1 更低價格，同時嚴格控管高風險能力；多日自主任務的持續表現將決定相對競爭對手的實際影響。",
-        "quote": "We’ve upgraded Claude Fable and Claude Mythos—models that are designed to tackle the most daunting technical challenges.",
-        "quote_zh": "我們已升級 Claude Fable 與 Claude Mythos——這些模型專為應對最艱鉅的技術挑戰而設計。",
+        "source_type": "mixed",
+        "title_en": "Anthropic advances IPO roadshow with $70–$78 price range",
+        "title_zh": "Anthropic推進IPO路演，價格區間70至78美元",
+        "summary_en": "Anthropic’s IPO roadshow continued on Nov 12, with the company linking to its offering site. Updated filings set a $70–$78 range for 825 million Class A shares (ticker ANT), implying up to roughly $1.4 trillion fully diluted valuation and up to ~$64 billion raised, plus a concurrent ~$26 billion private placement from Google, Nvidia and other chip/cloud partners; trading expected around Nov 19.",
+        "summary_zh": "Anthropic的IPO路演於11月12日持續，公司連結至發行網站。更新申報將825百萬股A類股（代號ANT）價格區間定為70至78美元，完全稀釋估值最高約1.4兆美元，募資最高約640億美元，另加Google、Nvidia等晶片/雲端夥伴約260億美元同步私人配售；預期約11月19日開始交易。",
+        "analysis_en": "The large raise and supplier participation underscore AI capital intensity and circular financing risks; final pricing and post-listing performance will test whether revenue growth (reported ~$81B run-rate) can justify the valuation amid market scrutiny of AI spending.",
+        "analysis_zh": "大規模募資與供應商參與凸顯AI資本密集與循環融資風險；最終定價與上市後表現將測試收入成長（報導約810億美元年化）能否在市場對AI支出的審視下支撐估值。",
+        "quote": "Our initial public offering: https://ipo.anthropic.com/us/",
+        "quote_zh": "我們的首次公開發行：https://ipo.anthropic.com/us/",
         "importance": 5,
-        "first_seen": "2026-11-09T00:00:00Z",
-        "updated_at": "2026-11-12T10:35:02.087596+00:00",
+        "first_seen": "2026-11-12T16:35:00Z",
+        "updated_at": "2026-11-12T16:35:01.404174+00:00",
         "links": [
           {
-            "label": "Anthropic Blog",
-            "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI/status/2120841731302154708"
           },
           {
-            "label": "Anthropic Newsroom",
-            "url": "https://www.anthropic.com/news"
-          }
-        ]
-      },
-      {
-        "id": "anthropic-ipo-roadshow-2026-11-10",
-        "story_id": "anthropic-ipo-roadshow-2026-11-10",
-        "category": "anthropic",
-        "source_type": "official_blog",
-        "title_en": "Anthropic launches IPO roadshow for Class A shares",
-        "title_zh": "Anthropic 啟動 Class A 股份 IPO 路演",
-        "summary_en": "Anthropic, PBC launched the roadshow for its proposed initial public offering of Class A common stock. The offering comprises 825 million shares (801 million by the company and the rest by existing stockholders), with an expected price range of $70–$78, implying a valuation up to about $1.4 trillion. Trading is targeted around November 19 pending SEC review.",
-        "summary_zh": "Anthropic, PBC 啟動其擬議 Class A 普通股首次公開發行的路演。發行包含 8.25 億股（公司發行 8.01 億股，其餘由現有股東出售），預期價格區間 70–78 美元，隱含估值最高約 1.4 兆美元。交易目標約在 11 月 19 日，待 SEC 審查。",
-        "analysis_en": "Moves Anthropic from private to public-market scrutiny while its S-1 remains effective only after SEC review; valuation and capital allocation between research, safety, and growth will face investor tests.",
-        "analysis_zh": "將 Anthropic 從私人轉向公開市場審查，而其 S-1 僅在 SEC 審查後生效；估值以及研究、安全與成長之間的資本配置將面臨投資人考驗。",
-        "quote": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
-        "quote_zh": "今天，Anthropic, PBC 啟動其 Class A 普通股擬議首次公開發行的路演。",
-        "importance": 4,
-        "first_seen": "2026-11-10T00:00:00Z",
-        "updated_at": "2026-11-12T10:35:02.087596+00:00",
-        "links": [
-          {
             "label": "Anthropic News",
-            "url": "https://www.anthropic.com/news/roadshow-launch"
-          }
-        ]
-      },
-      {
-        "id": "anthropic-usage-policy-effective-2026-11-12",
-        "story_id": "anthropic-usage-policy-effective-2026-11-12",
-        "category": "anthropic",
-        "source_type": "official_blog",
-        "title_en": "Anthropic 2026 Usage Policy update takes effect",
-        "title_zh": "Anthropic 2026 使用政策更新今日生效",
-        "summary_en": "Anthropic’s updated Usage Policy, first published in October, takes effect on November 12. Changes include a consolidated section on deceptive campaigns or artificial activity, clarified high-risk rules for health and finance requiring qualified human-in-the-loop, controls for autonomous physical actions, and a prohibition on sustained needless abusive behavior toward models.",
-        "summary_zh": "Anthropic 於 10 月首次發布的更新使用政策於 11 月 12 日生效。變更包括整合欺騙性活動或人工活動章節、釐清健康與金融等高風險規則（需合格人類在迴路中）、自主物理行動控管，以及禁止對模型持續無意義虐待行為。",
-        "analysis_en": "Reflects observed misuse patterns and longer autonomous agent use; enforcement consistency across enterprise customers will determine practical impact.",
-        "analysis_zh": "反映觀察到的濫用模式與更長的自主代理使用；對企業客戶的執法一致性將決定實際影響。",
-        "quote": "The updated policy takes effect on November 12.",
-        "quote_zh": "更新政策於 11 月 12 日生效。",
-        "importance": 3,
-        "first_seen": "2026-10-08T00:00:00Z",
-        "updated_at": "2026-11-12T10:35:02.087596+00:00",
-        "links": [
-          {
-            "label": "Anthropic Blog",
-            "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+            "url": "https://www.anthropic.com/news"
           }
         ]
       }
     ],
     "google": [
       {
+        "id": "google-gemini-4-carbon-ga-2026-11-10",
+        "story_id": "google-gemini-4-carbon-ga-2026-11-10",
+        "category": "google",
+        "source_type": "official_blog",
+        "title_en": "Google makes Gemini 4 Carbon generally available",
+        "title_zh": "Google全面開放Gemini 4 Carbon",
+        "summary_en": "Google announced on Nov 10 that Gemini 4 Carbon, its strongest frontier model for long-horizon agentic work, cybersecurity, coding and scientific reasoning, is now available to paying developers via the Gemini API in AI Studio and Gemini for business, and rolling out to Google AI Ultra subscribers in the Gemini app, AI Mode and Antigravity, at introductory $2/$10 per million tokens.",
+        "summary_zh": "Google於11月10日宣布，其最強前沿模型Gemini 4 Carbon（擅長長時程代理工作、網路安全、編碼與科學推理）現已向付費開發者透過Gemini API開放，並逐步向Google AI Ultra訂閱者推出於Gemini App、AI Mode與Antigravity，入門價格為每百萬token 2/10美元。",
+        "analysis_en": "Carbon’s broader release strengthens Google’s position in high-stakes agentic and cyber workflows at competitive introductory pricing, but sustained performance versus rivals and post-November pricing will determine real adoption.",
+        "analysis_zh": "Carbon更廣泛釋出強化Google在高風險代理與資安工作流程的競爭力與入門定價，但長期表現對比對手及11月後定價將決定實際採用程度。",
+        "quote": "Today, we’re making Gemini 4 Carbon available to developers, enterprises, scientists, and consumers. Carbon is our strongest model with frontier performance in cybersecurity capabilities and long-horizon agentic workflows.",
+        "quote_zh": "今天，我們將Gemini 4 Carbon開放給開發者、企業、科學家與消費者。Carbon是我們最強的模型，在網路安全能力與長時程代理工作流程上具有前沿表現。",
+        "importance": 5,
+        "first_seen": "2026-11-12T16:35:00Z",
+        "updated_at": "2026-11-12T16:35:01.404174+00:00",
+        "links": [
+          {
+            "label": "Google Blog",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+          },
+          {
+            "label": "Google AI on X",
+            "url": "https://x.com/GoogleAI/status/2120187753329791341"
+          }
+        ]
+      },
+      {
         "id": "google-alphagenome-2-2026-11-11",
         "story_id": "google-alphagenome-2-2026-11-11",
         "category": "google",
         "source_type": "official_blog",
-        "title_en": "Google DeepMind launches AlphaGenome 2 for cell-specific DNA variant effects",
-        "title_zh": "Google DeepMind 推出 AlphaGenome 2，預測細胞特異性 DNA 變異效應",
-        "summary_en": "Google DeepMind announced AlphaGenome 2, a conditional DNA sequence model that predicts how sequences and variants affect specific human cell types and states rather than averaging across tissues. Trained on over 107 million individual cell profiles across 68 tissues, it identified nearly twice as many causal variants (30% vs 16%) on the TenK10K immune-cell dataset. Available for non-commercial research via the AlphaGenome API, with commercial access in private preview.",
-        "summary_zh": "Google DeepMind 宣布 AlphaGenome 2，一款條件式 DNA 序列模型，能預測序列與變異對特定人類細胞類型與狀態的影響，而非僅平均組織層級。模型在 68 種組織逾 1.07 億個細胞檔案上訓練，於 TenK10K 免疫細胞資料集上識別近兩倍的因果變異（30% 對 16%）。非商業研究可透過 AlphaGenome API 使用，商業研究則為私人預覽。",
-        "analysis_en": "Cell-type conditional prediction moves genomics from bulk averages toward mechanistic disease insights, potentially accelerating target discovery; commercial access remains limited and the model is not validated for clinical use.",
-        "analysis_zh": "細胞類型條件預測將基因組學從組織平均推向機制性病因洞察，可能加速靶點發現；商業存取仍受限，且模型尚未通過臨床驗證。",
+        "title_en": "DeepMind releases AlphaGenome 2 for cell-specific DNA variant prediction",
+        "title_zh": "DeepMind發布AlphaGenome 2，預測細胞專屬DNA變異效應",
+        "summary_en": "Google DeepMind announced AlphaGenome 2 on Nov 11, a next-generation DNA sequence model that predicts how genetic variants affect specific human cell types and states, trained on over 100 million cell profiles. It identifies nearly twice as many gene-expression-changing variants as its predecessor and is available for non-commercial research via API (private preview for commercial).",
+        "summary_zh": "Google DeepMind於11月11日宣布AlphaGenome 2，下一代DNA序列模型，能預測基因變異對特定人類細胞類型與狀態的影響，訓練自超過1億個細胞資料。它識別影響基因表達的變異數量幾乎是前代兩倍，現已透過API向非商業研究開放（商業研究私人預覽）。",
+        "analysis_en": "By moving from tissue averages to cell-type resolution and supporting on-the-fly conditioning from new single-cell data, AlphaGenome 2 could accelerate variant-to-mechanism research in disease, though clinical translation remains distant and non-commercial access limits immediate commercial uptake.",
+        "analysis_zh": "從組織平均轉向細胞類型解析，並支援新單細胞資料即時條件化，AlphaGenome 2有望加速疾病中變異至機制的研究，但臨床轉化仍遙遠，非商業存取也限制即時商業採用。",
         "quote": "Today, we are announcing AlphaGenome 2, our next-generation model that predicts how DNA sequences and their variations impact specific human cell types, giving scientists a powerful new tool to uncover the cellular drivers of disease.",
-        "quote_zh": "今天我們宣布 AlphaGenome 2，這是我們的下一代模型，能預測 DNA 序列及其變異如何影響特定人類細胞類型，為科學家提供強大新工具以揭露疾病的細胞驅動因素。",
-        "importance": 5,
-        "first_seen": "2026-11-11T15:03:17Z",
-        "updated_at": "2026-11-12T10:35:02.087596+00:00",
+        "quote_zh": "今天，我們宣布AlphaGenome 2，我們的下一代模型，能預測DNA序列及其變異如何影響特定人類細胞類型，為科學家提供強大新工具，以揭示疾病的細胞驅動因素。",
+        "importance": 4,
+        "first_seen": "2026-11-12T16:35:00Z",
+        "updated_at": "2026-11-12T16:35:01.404174+00:00",
         "links": [
           {
             "label": "Google DeepMind Blog",
@@ -375,7 +248,7 @@
           },
           {
             "label": "Google DeepMind on X",
-            "url": "https://x.com/GoogleDeepMind/status/2120532824465805749"
+            "url": "https://x.com/GoogleDeepMind/status/2120841923237683462"
           }
         ]
       },
@@ -384,71 +257,25 @@
         "story_id": "google-gemini-decisions-api-2026-11-11",
         "category": "google",
         "source_type": "official_blog",
-        "title_en": "Google launches Gemini Decisions API and Gemini Decision 1 model",
-        "title_zh": "Google 推出 Gemini Decisions API 與 Gemini Decision 1 模型",
-        "summary_en": "Google introduced the Gemini Decisions API powered by the new Gemini Decision 1 model (gemini-decision-1), enabling evaluation of up to 1,000 yes/no, multiple-choice, or rubric questions in a single pass over multimodal inputs (text, images, audio, video, PDFs up to 256K tokens). It returns probabilities and confidence scores in 150-250 ms end-to-end at $0.10 per million input tokens with zero output-token charges, nearly 5x cheaper than Gemini 3.5 Flash-Lite on shared benchmarks.",
-        "summary_zh": "Google 推出由新模型 Gemini Decision 1（gemini-decision-1）驅動的 Gemini Decisions API，可在單次通過中對多模態輸入（文字、影像、音訊、影片、PDF，最高 256K tokens）評估最多 1,000 個是非、選擇或量表問題。回傳機率與信心分數，端到端延遲 150-250 毫秒，每百萬輸入 tokens 0.10 美元且不計輸出 tokens，於共享基準上近乎比 Gemini 3.5 Flash-Lite 便宜 5 倍。",
-        "analysis_en": "Specialized scoring without token-by-token generation targets high-volume agent routing, policy checks, and grading where latency and cost dominate; adoption will hinge on calibration quality in production workflows.",
-        "analysis_zh": "無需逐 token 生成的專門評分，針對高流量代理路由、政策檢查與評分等延遲與成本主導的場景；實際採用將取決於生產工作流程中的校準品質。",
-        "quote": "Today, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model (gemini-decision-1), available through the Gemini API in Google AI Studio.",
-        "quote_zh": "今天我們推出 Gemini Decisions API，這是一個由新模型 Gemini Decision 1（gemini-decision-1）驅動的快速封閉集合決策端點，可透過 Google AI Studio 中的 Gemini API 使用。",
+        "title_en": "Google launches Gemini Decisions API powered by Gemini Decision 1",
+        "title_zh": "Google推出由Gemini Decision 1驅動的Gemini Decisions API",
+        "summary_en": "Google introduced the Gemini Decisions API on Nov 11, powered by the new Gemini Decision 1 model. It evaluates up to 1,000 yes/no, choice or rubric questions against one multimodal input (text, image, audio, video, PDF) in a single fast pass, returning probabilities and confidence scores at $0.10 per million input tokens with zero output-token charges and 150-250 ms latency.",
+        "summary_zh": "Google於11月11日推出Gemini Decisions API，由新模型Gemini Decision 1驅動。它能針對單一多模態輸入（文字、影像、音訊、影片、PDF）在單次快速通過中評估最多1000個是非、選擇或評分問題，回傳機率與信心分數，每百萬輸入token僅0.10美元且輸出token免費，延遲150-250毫秒。",
+        "analysis_en": "Purpose-built for routing, policy checks and grading without full generation, the API could cut latency and cost for agent control planes, but its advantage depends on calibration quality in real production workloads versus general models.",
+        "analysis_zh": "專為路由、政策檢查與評分設計而無需完整生成，此API可降低代理控制平面的延遲與成本，但其優勢取決於真實生產工作負載中的校準品質，相較一般模型如何。",
+        "quote": "Today, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model... returning probabilities and confidence scores in 150-250 ms end-to-end latency at $0.10 per 1M input tokens with zero output tokens billed.",
+        "quote_zh": "今天，我們推出Gemini Decisions API，一個由新Gemini Decision 1模型驅動的快速閉集決策新端點……以150-250毫秒端到端延遲回傳機率與信心分數，每百萬輸入token 0.10美元且輸出token不計費。",
         "importance": 4,
-        "first_seen": "2026-11-11T00:00:00Z",
-        "updated_at": "2026-11-12T10:35:02.087596+00:00",
+        "first_seen": "2026-11-12T16:35:00Z",
+        "updated_at": "2026-11-12T16:35:01.404174+00:00",
         "links": [
           {
             "label": "Google Blog",
             "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
-          }
-        ]
-      },
-      {
-        "id": "google-gemini-robotics-2-5-2026-11-10",
-        "story_id": "google-gemini-robotics-2-5-2026-11-10",
-        "category": "google",
-        "source_type": "official_blog",
-        "title_en": "Google DeepMind introduces Gemini Robotics 2.5 for real-world dexterity",
-        "title_zh": "Google DeepMind 推出 Gemini Robotics 2.5，強化現實世界靈巧度",
-        "summary_en": "Google DeepMind released Gemini Robotics 2.5, its most capable vision-language-action model, improving dexterity, reliability, and speed across more than 200 tasks. In a Mercedes-Benz proof-of-concept with Apptronik Apollo 2 humanoids, it achieved 96% success on pick-and-pack operations. Success rates rose 30-100% and task times fell 20-30% versus prior baselines; rolling out to robotics partners.",
-        "summary_zh": "Google DeepMind 發布 Gemini Robotics 2.5，其最有能力的視覺-語言-動作模型，在超過 200 項任務上提升靈巧度、可靠性與速度。於 Mercedes-Benz 概念驗證中，搭配 Apptronik Apollo 2 人形機器人在撿取包裝作業達到 96% 成功率。成功率較前基準提升 30-100%，任務時間縮短 20-30%；正逐步向機器人合作夥伴推出。",
-        "analysis_en": "Gains in unstructured environments and factory pilots mark progress toward deployable physical AI, but success rates still vary widely by task and long-term robustness outside controlled settings remains unproven.",
-        "analysis_zh": "非結構化環境與工廠試點的進展標誌著可部署實體 AI 的進步，但成功率仍因任務差異大，且受控環境外的長期穩健性尚未證實。",
-        "quote": "Today, we are introducing Gemini Robotics 2.5, our most capable vision-language-action (VLA) model to date.",
-        "quote_zh": "今天我們推出 Gemini Robotics 2.5，這是迄今最有能力的視覺-語言-動作（VLA）模型。",
-        "importance": 4,
-        "first_seen": "2026-11-10T15:00:00Z",
-        "updated_at": "2026-11-12T10:35:02.087596+00:00",
-        "links": [
-          {
-            "label": "Google DeepMind Blog",
-            "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
-          }
-        ]
-      },
-      {
-        "id": "google-gemini-4-carbon-availability-2026-11-10",
-        "story_id": "google-gemini-4-carbon-availability-2026-11-10",
-        "category": "google",
-        "source_type": "official_blog",
-        "title_en": "Gemini 4 Carbon becomes available to developers and Ultra users",
-        "title_zh": "Gemini 4 Carbon 向開發者與 Ultra 用戶開放",
-        "summary_en": "Google made Gemini 4 Carbon, its strongest model for cybersecurity and long-horizon agentic work, available to paying developers and enterprises via the Gemini API and to Google AI Ultra subscribers in Antigravity, the Gemini app, and AI Mode. Introductory pricing is $2/$10 per million tokens until November 30, then $4/$20. Previously limited to cyber defenders.",
-        "summary_zh": "Google 將其在網路安全與長視野代理工作上最強的模型 Gemini 4 Carbon，開放給付費開發者與企業透過 Gemini API 使用，並提供給 Google AI Ultra 訂閱者在 Antigravity、Gemini app 與 AI Mode 中使用。介紹期定價至 11 月 30 日為每百萬 tokens 2/10 美元，之後為 4/20 美元。先前僅限網路防禦者。",
-        "analysis_en": "Broader access after a limited cyber-defender rollout tests whether Carbon’s higher token usage for thorough reasoning delivers net value versus Argon on production workloads.",
-        "analysis_zh": "在有限網路防禦者推出後擴大存取，將測試 Carbon 為徹底推理而較高的 token 用量，是否在生產工作負載上相對 Argon 帶來淨價值。",
-        "quote": "Starting today, developers can build with Gemini 4 Carbon, our strongest model with frontier performance in cybersecurity and long-horizon capabilities.",
-        "quote_zh": "即日起，開發者可使用 Gemini 4 Carbon 進行建置，這是我們在網路安全與長時程能力上具備前沿表現的最強模型。",
-        "importance": 4,
-        "first_seen": "2026-11-10T00:00:00Z",
-        "updated_at": "2026-11-12T10:35:02.087596+00:00",
-        "links": [
-          {
-            "label": "Google DeepMind",
-            "url": "https://deepmind.google/models/gemini/"
           },
           {
-            "label": "Google Blog",
-            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+            "label": "Google for Developers on X",
+            "url": "https://x.com/googledevs/status/2120583940247552381"
           }
         ]
       },
@@ -457,90 +284,53 @@
         "story_id": "google-alphaproof-code-signal-2026-11-10",
         "category": "google",
         "source_type": "official_blog",
-        "title_en": "Google DeepMind’s AlphaProof Code formally verifies Signal protocol",
-        "title_zh": "Google DeepMind 的 AlphaProof Code 正式驗證 Signal 協定",
-        "summary_en": "Google DeepMind introduced AlphaProof Code, an agentic framework that, guided by Gemini agents, generated over 6 million lines of Lean proofs to mathematically verify key security properties of Signal’s cryptographic protocol code. Human experts reviewed the results; the work demonstrates AI-assisted formal verification at practical scale for widely used infrastructure.",
-        "summary_zh": "Google DeepMind 推出 AlphaProof Code，這是一個由 Gemini 代理引導的代理框架，生成逾 600 萬行 Lean 證明，以數學方式驗證 Signal 密碼協定程式碼的關鍵安全屬性。人類專家審查結果；此工作展示 AI 輔助形式驗證在廣泛使用基礎設施上的實用規模。",
-        "analysis_en": "Demonstrates AI-assisted formal verification at practical scale for widely used infrastructure; scaling to larger or less modular codebases and independent audits will determine broader impact.",
-        "analysis_zh": "展示 AI 輔助形式驗證在廣泛使用基礎設施上的實用規模；擴展至更大或不那麼模組化的程式碼庫以及獨立稽核將決定更廣泛影響。",
-        "quote": "Google DeepMind researchers guided AI agents to mathematically prove key security properties of the actual code underlying the Signal protocol.",
-        "quote_zh": "Google DeepMind 研究人員引導 AI 代理，對 Signal 協議底層實際程式碼的關鍵安全屬性進行數學證明。",
+        "title_en": "DeepMind’s AlphaProof Code formally verifies Signal protocol implementation",
+        "title_zh": "DeepMind的AlphaProof Code正式驗證Signal協議實作",
+        "summary_en": "Google DeepMind announced AlphaProof Code on Nov 10, an agentic framework that guided AI agents (powered by Gemini Carbon) to generate over six million lines of Lean proofs formally verifying key security properties of the actual compiled Signal protocol code in four weeks—the first time AI has verified a widely deployed cryptographic protocol at this depth.",
+        "summary_zh": "Google DeepMind於11月10日宣布AlphaProof Code，一種代理框架，引導由Gemini Carbon驅動的AI代理在四週內生成超過六百萬行Lean證明，正式驗證實際編譯的Signal協議程式碼關鍵安全屬性——這是首次AI以如此深度驗證廣泛部署的加密協議。",
+        "analysis_en": "Bridging design-to-implementation verification with AI agents marks a practical advance for high-assurance software, potentially scalable to other critical systems, though human expert oversight and the open-sourced artifacts’ real-world reuse remain key open questions.",
+        "analysis_zh": "以AI代理橋接設計至實作驗證，標誌高保證軟體的實用進展，可能擴展至其他關鍵系統，但人類專家監督與開源工件的真實世界再利用仍是關鍵開放問題。",
+        "quote": "This breakthrough discovery was made using AlphaProof Code, a novel agentic framework for formal verification at unprecedented depth... Our work marks the first time AI has been used to formally verify a widely deployed cryptographic protocol at this depth.",
+        "quote_zh": "此突破發現使用AlphaProof Code，一種前所未有深度的新型代理形式驗證框架……我們的工作標誌首次使用AI以如此深度正式驗證廣泛部署的加密協議。",
         "importance": 4,
-        "first_seen": "2026-11-10T12:00:00Z",
-        "updated_at": "2026-11-12T10:35:02.087596+00:00",
+        "first_seen": "2026-11-12T16:35:00Z",
+        "updated_at": "2026-11-12T16:35:01.404174+00:00",
         "links": [
-          {
-            "label": "Google DeepMind",
-            "url": "https://deepmind.google/"
-          },
           {
             "label": "Google DeepMind Blog",
             "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
           }
         ]
-      }
-    ],
-    "meta": [
+      },
       {
-        "id": "meta-muse-ember-2026-11-09",
-        "story_id": "meta-muse-ember-2026-11-09",
-        "category": "meta",
-        "source_type": "news",
-        "title_en": "Meta releases Muse Ember, lightweight model for high-volume agent tasks",
-        "title_zh": "Meta 發布 Muse Ember，輕量模型用於高流量代理任務",
-        "summary_en": "Meta Superintelligence Labs released Muse Ember, its smallest and most efficient model for repetitive agent work such as tool calls, coding subtasks, routing, and long-document parsing. Priced at $0.10 per million input tokens and $0.50 per million output tokens, with 1M context and multimodal support; closed weights. Designed to pair with larger Muse models.",
-        "summary_zh": "Meta Superintelligence Labs 發布 Muse Ember，其最小且最有效率的模型，用於工具呼叫、編碼子任務、路由與長文件解析等重複代理工作。定價每百萬輸入 tokens 0.10 美元、輸出 0.50 美元，1M 上下文與多模態支援；權重封閉。設計為與較大 Muse 模型搭配。",
-        "analysis_en": "Targets the cost floor for the bulk of agent traffic by pairing with larger models; closed weights limit independent verification of claimed efficiency gains versus open alternatives.",
-        "analysis_zh": "藉由與較大模型搭配，針對代理流量的成本底線；封閉權重限制對聲稱效率提升相對開放替代方案的獨立驗證。",
-        "quote": "Today, we're introducing Muse Ember, our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day.",
-        "quote_zh": "今天，我們推出 Muse Ember，這是我們最小且最高效的模型，專為複雜推理執行以及代理整天重複的工作而設計。",
-        "importance": 4,
-        "first_seen": "2026-11-09T00:00:00Z",
-        "updated_at": "2026-11-12T10:35:02.087596+00:00",
-        "links": [
-          {
-            "label": "TechCrunch",
-            "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
-          },
-          {
-            "label": "Meta AI Research",
-            "url": "https://research.meta.ai/blog/muse-ember"
-          }
-        ]
-      }
-    ],
-    "xai": [
-      {
-        "id": "xai-grok-4-8-soft-rollout-2026-11-10",
-        "story_id": "xai-grok-4-8-soft-rollout-2026-11-10",
-        "category": "xai",
-        "source_type": "official_x",
-        "title_en": "Elon Musk signals soft rollout of Grok 4.8 to Bot users",
-        "title_zh": "Elon Musk 表示將對 Bot 用戶軟性推出 Grok 4.8",
-        "summary_en": "Elon Musk stated that Grok 4.8 pre-training is complete, reinforcement learning is underway after rewriting the RL and inference stack in C/C++, evaluation scores are improving, and xAI will conduct a limited soft rollout to Grok Bot users later in the week of November 10. No full public or API release announced.",
-        "summary_zh": "Elon Musk 表示 Grok 4.8 預訓練已完成，在以 C/C++ 重寫 RL 與推論堆疊後正進行強化學習，評估分數正在提升，xAI 將於 11 月 10 日當週稍後對 Grok Bot 用戶進行有限軟性推出。尚未宣布完整公開或 API 發布。",
-        "analysis_en": "Executive signaling of incremental progress rather than a formal release; performance relative to Grok 4.7 and competitors will only be assessable after broader availability.",
-        "analysis_zh": "高管對增量進展的訊號，而非正式發布；相對 Grok 4.7 與競爭對手的表現，僅在更廣泛可用後才能評估。",
-        "quote": "We will do a soft rollout to Bot users later this week and see how it goes. Grok 4.8 will bear no resemblance to 4.7 (thankfully).",
-        "quote_zh": "我們將於本週稍後對 Bot 用戶進行軟性推出，看看情況如何。Grok 4.8 將與 4.7 毫無相似之處（幸好）。",
+        "id": "google-gemini-robotics-2-5-2026-11-10",
+        "story_id": "google-gemini-robotics-2-5-2026-11-10",
+        "category": "google",
+        "source_type": "official_blog",
+        "title_en": "DeepMind introduces Gemini Robotics 2.5 for faster real-world dexterity",
+        "title_zh": "DeepMind推出Gemini Robotics 2.5，加速真實世界靈巧度",
+        "summary_en": "Google DeepMind released Gemini Robotics 2.5 on Nov 10, its most capable vision-language-action model, improving skill breadth, learning speed, reliability (96% success in a Mercedes-Benz Apptronik Apollo pilot) and safety steerability. It is rolling out to robotics partners.",
+        "summary_zh": "Google DeepMind於11月10日發布Gemini Robotics 2.5，其最強視覺-語言-行動模型，提升技能廣度、學習速度、可靠性（Mercedes-Benz Apptronik Apollo試點96%成功率）與安全可控性。現正向機器人合作夥伴推出。",
+        "analysis_en": "Demonstrated factory success and safety improvements advance physical AI practicality, yet partner-only rollout and the gap to widespread deployment leave the timeline for everyday robotics uncertain.",
+        "analysis_zh": "展示的工廠成功與安全改進推進物理AI實用性，但僅限合作夥伴推出及至廣泛部署的差距，使日常機器人時程仍不確定。",
+        "quote": "Today, we are introducing Gemini Robotics 2.5, our most capable vision-language-action (VLA) model to date. Gemini Robotics 2.5 increases both the breadth of skills a robot can learn and the speed at which it can acquire them.",
+        "quote_zh": "今天，我們推出Gemini Robotics 2.5，迄今最強的視覺-語言-行動（VLA）模型。Gemini Robotics 2.5提升機器人能學習的技能廣度與習得速度。",
         "importance": 3,
-        "first_seen": "2026-11-10T00:00:00Z",
-        "updated_at": "2026-11-12T10:35:02.087596+00:00",
+        "first_seen": "2026-11-12T16:35:00Z",
+        "updated_at": "2026-11-12T16:35:01.404174+00:00",
         "links": [
           {
-            "label": "Elon Musk on X",
-            "url": "https://x.com/elonmusk/status/2120088070443655190"
-          },
-          {
-            "label": "Reporting on Musk statement",
-            "url": "https://grokshelf.com/news/grok-4-8-grok-5-release-date"
+            "label": "Google DeepMind Blog",
+            "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
           }
         ]
       }
     ],
+    "meta": [],
+    "xai": [],
     "frontier_other": []
   },
-  "brief_en": "Google DeepMind ships AlphaGenome 2 for cell-specific DNA variant prediction and Gemini Decision 1 for fast closed-set multimodal scoring. Anthropic’s updated Usage Policy takes effect; Claude Fable/Mythos 5.2 and Gemini Robotics 2.5 remain the week’s flagship technical releases.",
-  "brief_zh": "Google DeepMind 推出細胞特異性 DNA 變異預測模型 AlphaGenome 2，以及快速封閉集合多模態評分的 Gemini Decision 1。Anthropic 更新使用政策今日生效；Claude Fable/Mythos 5.2 與 Gemini Robotics 2.5 仍是本週旗艦技術發布。",
-  "updated_at": "2026-11-12T10:35:02.087596+00:00"
+  "brief_en": "Google DeepMind advanced science and security with AlphaGenome 2 for cell-specific DNA effects and AlphaProof Code verifying Signal’s protocol, while opening Gemini 4 Carbon widely and launching a fast Decisions API. Anthropic continued its IPO roadshow toward a potential $1.4T valuation amid heavy chipmaker backing.",
+  "brief_zh": "Google DeepMind推出AlphaGenome 2細胞專屬DNA預測與AlphaProof Code驗證Signal協議，並全面開放Gemini 4 Carbon及快速Decisions API。Anthropic持續IPO路演，潛在估值達1.4兆美元，獲晶片廠大舉支持。",
+  "updated_at": "2026-11-12T16:35:01.404174+00:00"
 }
