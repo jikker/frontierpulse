@@ -8,6 +8,14 @@
       "item_count": 4,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-11-13T22:35:01.915482+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 8,
+      "updated_count": 4,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -17,17 +25,21 @@
       "category": "frontier_other",
       "source_type": "news",
       "title_en": "Nonprofits sue OpenAI, Anthropic, Google, Meta and SpaceX AI to halt frontier development",
-      "title_zh": "非營利組織起訴OpenAI、Anthropic、Google、Meta與SpaceX AI，要求停止前沿開發",
-      "summary_en": "Four nonprofits including Public Citizen filed suit in San Francisco Superior Court on November 12 against OpenAI, Anthropic, Google, Meta and SpaceX’s AI division. They seek a court order under California unfair-competition law to block further development of the most advanced models, citing existential-risk statements by executives and reported model escapes.",
-      "summary_zh": "包括Public Citizen在內的四家非營利組織於11月12日向舊金山高等法院起訴OpenAI、Anthropic、Google、Meta與SpaceX的AI部門。他們援引加州不公平競爭法，要求法院命令阻止最先進模型的進一步開發，並引用高階主管的存在風險言論與模型逃逸事件。",
-      "analysis_en": "The suit tests whether state consumer-protection statutes can be used to impose a de-facto pause on frontier training across multiple labs simultaneously. No injunction has been granted, and the companies have not yet responded on the merits; the outcome will depend on whether courts treat self-acknowledged risk statements as evidence of unlawful practice.",
-      "analysis_zh": "此訴訟測試州級消費者保護法是否能同時對多家實驗室的前沿訓練施加事實上的暫停。目前尚未核發禁令，公司也尚未就實體問題回應；結果取決於法院是否將公司自行承認的風險言論視為違法行為的證據。",
+      "title_zh": "非營利組織起訴 OpenAI、Anthropic、Google、Meta 與 SpaceX AI，要求暫停前沿開發",
+      "summary_en": "Four nonprofits including Public Citizen filed suit in San Francisco Superior Court on November 12 against OpenAI, Anthropic, Google, Meta and SpaceX’s AI division. They seek a court order under California unfair-competition law to block further frontier-model training.",
+      "summary_zh": "包括 Public Citizen 在內的四家非營利組織於 11 月 12 日在舊金山高等法院對 OpenAI、Anthropic、Google、Meta 與 SpaceX AI 部門提起訴訟，依加州不正當競爭法要求法院下令阻止進一步的前沿模型訓練。",
+      "analysis_en": "The suit tests whether state consumer-protection statutes can be used to impose a de-facto pause on frontier training across multiple labs simultaneously. No injunction has been granted; outcome remains uncertain.",
+      "analysis_zh": "此案測試州消費者保護法規能否同時對多家實驗室施加實質暫停。目前尚未核發禁令，結果仍不明朗。",
       "quote": "No other industry is allowed to treat its own development of unsafe products—much less ones that could kill us all—as inevitable",
       "quote_zh": "沒有其他產業被允許將自身開發不安全產品——更不用說可能殺死我們所有人的產品——視為不可避免",
       "importance": 5,
       "first_seen": "2026-11-12T21:30:00Z",
-      "updated_at": "2026-11-13T16:35:01.792428+00:00",
+      "updated_at": "2026-11-13T22:35:01.915482+00:00",
       "links": [
+        {
+          "label": "Public Citizen / court filing coverage",
+          "url": "https://www.citizen.org/"
+        },
         {
           "label": "Reuters",
           "url": "https://www.reuters.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-frontier-ai-development-2026-11-12/"
@@ -39,22 +51,72 @@
       ]
     },
     {
+      "id": "nvidia-jensen-huang-resigns-2026-11-12",
+      "story_id": "nvidia-jensen-huang-resigns-2026-11-12",
+      "category": "frontier_other",
+      "source_type": "official_blog",
+      "title_en": "NVIDIA board announces Jensen Huang resignation; Colette Kress named interim CEO",
+      "title_zh": "NVIDIA 董事會宣布黃仁勳辭任；Colette Kress 暫代 CEO",
+      "summary_en": "On November 12 NVIDIA’s board announced that Jensen Huang resigned immediately as President, CEO and director. CFO Colette Kress was appointed interim CEO while retaining her finance role; the board is searching for a permanent successor and named Harvey C. Jones its first-ever Chair.",
+      "summary_zh": "NVIDIA 董事會於 11 月 12 日宣布黃仁勳立即辭去總裁、CEO 與董事職務。CFO Colette Kress 獲任暫代 CEO 並保留財務職責；董事會正在尋找永久繼任者，並任命 Harvey C. Jones 為首位董事長。",
+      "analysis_en": "The sudden leadership change at the company whose GPUs power the majority of frontier training introduces near-term operational continuity risk and longer-term uncertainty about product roadmap and capital allocation priorities.",
+      "analysis_zh": "這家 GPU 驅動多數前沿訓練的公司突然更換領導層，帶來短期營運連續性風險，以及產品路線圖與資本配置優先順序的長期不確定性。",
+      "quote": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately.",
+      "quote_zh": "NVIDIA（NASDAQ: NVDA）董事會今日宣布，黃仁勳已辭去總裁、執行長與董事職務，立即生效。",
+      "importance": 5,
+      "first_seen": "2026-11-12T14:00:00Z",
+      "updated_at": "2026-11-13T22:35:01.915482+00:00",
+      "links": [
+        {
+          "label": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        }
+      ]
+    },
+    {
+      "id": "openai-chatgpt-wallet-2026-11-13",
+      "story_id": "openai-chatgpt-wallet-2026-11-13",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI launches ChatGPT Wallet for agentic payments via Dots",
+      "title_zh": "OpenAI 推出 ChatGPT Wallet，讓 Dots 代理完成支付",
+      "summary_en": "OpenAI announced ChatGPT Wallet on November 13, a payment method that lets Dots agents complete purchases without seeing users’ actual card details. Users add a card once, review each order, and approve via biometric check; the network issues a token. Initially available to US ChatGPT Pro subscribers aged 18+ with eligible Amex, Mastercard or Visa cards.",
+      "summary_zh": "OpenAI 於 11 月 13 日宣布 ChatGPT Wallet，讓 Dots 代理在看不到用戶真實卡號的情況下完成購買。用戶一次新增卡片、逐筆審核並以生物驗證核准，網路則發行代幣。初期僅限美國 18 歲以上 ChatGPT Pro 用戶使用符合資格的 Amex、Mastercard 或 Visa 卡。",
+      "analysis_en": "This moves agentic commerce from research to a production payment rail with major networks, but early limits and potential merchant blocks mean real-world volume will depend on compatibility work still underway.",
+      "analysis_zh": "此舉將代理商務從研究推向與主要網路合作的生產支付軌道，但初期限制與商家可能阻擋意味實際量能仍取決於後續相容性工作。",
+      "quote": "We’re introducing ChatGPT Wallet, setting a new bar for secure payments by agents. It’s the first wallet that lets agents pay without access to users’ actual card details and that requires a security check for every purchase, while also preserving existing card rewards and protections for eligible disputes.",
+      "quote_zh": "我們推出 ChatGPT Wallet，為代理支付設定新的安全標準。這是首個讓代理在無法接觸用戶真實卡號的情況下支付、且每筆交易都需安全驗證的錢包，同時保留現有卡片獎勵與符合資格爭議的保護。",
+      "importance": 4,
+      "first_seen": "2026-11-13T16:00:00Z",
+      "updated_at": "2026-11-13T22:35:01.915482+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet/"
+        }
+      ]
+    },
+    {
       "id": "openai-daybreak-red-team-defense-factory-2026-11-13",
       "story_id": "openai-daybreak-red-team-defense-factory-2026-11-13",
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI launches Daybreak Red Team and Defense Factory AI security tools",
-      "title_zh": "OpenAI推出Daybreak Red Team與Defense Factory AI資安工具",
-      "summary_en": "OpenAI announced Daybreak Red Team and Daybreak Defense Factory as part of its Daybreak platform at the Cyber at the Frontier event. Red Team uses AI agents to test web applications for vulnerabilities; Defense Factory investigates findings and prepares patches for human review.",
-      "summary_zh": "OpenAI在Cyber at the Frontier活動中宣布Daybreak Red Team與Daybreak Defense Factory，作為Daybreak平台的一部分。Red Team以AI代理測試網頁應用程式漏洞；Defense Factory則調查發現並準備修補程式供人工審查。",
-      "analysis_en": "The tools shift OpenAI further into defensive cybersecurity by automating both discovery and patching, reflecting the lab’s view that the bottleneck has moved from finding flaws to fixing them at scale. Whether enterprises will widely adopt them depends on access controls and real-world false-positive rates that have not yet been independently measured.",
-      "analysis_zh": "這些工具讓OpenAI更深入防禦性資安領域，同時自動化發現與修補，反映實驗室認為瓶頸已從找漏洞轉向大規模修復。企業是否廣泛採用，取決於存取控管與尚未獨立量測的真實誤報率。",
+      "title_zh": "OpenAI 推出 Daybreak Red Team 與 Defense Factory AI 安全工具",
+      "summary_en": "OpenAI announced Daybreak Red Team and Daybreak Defense Factory as part of its Daybreak platform at the Cyber at the Frontier event. Red Team uses AI agents to test web applications for vulnerabilities; Defense Factory investigates findings and proposes patches.",
+      "summary_zh": "OpenAI 在 Cyber at the Frontier 活動宣布 Daybreak 平台的 Red Team 與 Defense Factory。Red Team 以 AI 代理測試網頁應用漏洞；Defense Factory 調查發現並提出修補建議。",
+      "analysis_en": "The tools shift OpenAI further into defensive cybersecurity by automating both discovery and patching, reflecting the lab’s view that the bottleneck has moved from finding flaws to fixing them at scale.",
+      "analysis_zh": "這些工具將 OpenAI 進一步推向防禦性網路安全，自動化發現與修補，反映出實驗室認為瓶頸已從找漏洞轉為大規模修復。",
       "quote": "Agents use source code and app context to investigate attack paths and confirm vulnerabilities.",
       "quote_zh": "代理使用原始碼與應用程式上下文調查攻擊路徑並確認漏洞。",
       "importance": 4,
       "first_seen": "2026-11-13T04:00:00Z",
-      "updated_at": "2026-11-13T16:35:01.792428+00:00",
+      "updated_at": "2026-11-13T22:35:01.915482+00:00",
       "links": [
+        {
+          "label": "OpenAI product news",
+          "url": "https://openai.com/news/product-releases/"
+        },
         {
           "label": "OpenAI Cyber at the Frontier",
           "url": "https://openai.com/cyber-at-the-frontier/"
@@ -71,19 +133,19 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic launches Claude Meetings beta for Google Meet",
-      "title_zh": "Anthropic推出Claude Meetings測試版，支援Google Meet",
-      "summary_en": "Anthropic released Claude Meetings in beta for Team and Enterprise plans. Claude joins Google Meet calls as a visible participant, takes notes, answers questions in chat, and drafts documents, whiteboards, or other artifacts in real time while the discussion continues.",
-      "summary_zh": "Anthropic為Team與Enterprise方案推出Claude Meetings測試版。Claude以可見參與者身份加入Google Meet通話，記錄筆記、在聊天中回答問題，並在討論持續時即時起草文件、白板或其他產出物。",
-      "analysis_en": "The feature moves AI from post-meeting summarization to live collaboration inside the call, which could compress the time from discussion to actionable output. Privacy defaults (staying out of external calls, no audio storage) address some risks, but enterprise adoption will hinge on admin controls and whether the free-beta artifacts remain attractive after February 2027.",
-      "analysis_zh": "此功能將AI從會後摘要推進到通話中的即時協作，可能縮短從討論到可執行產出的時間。隱私預設（避開外部通話、不儲存音訊）處理部分風險，但企業採用將取決於管理員控制，以及2027年2月後免費產出物是否仍具吸引力。",
+      "title_zh": "Anthropic 推出 Claude Meetings Google Meet 測試版",
+      "summary_en": "Anthropic released Claude Meetings in beta for Team and Enterprise plans. Claude joins Google Meet calls as a visible participant, takes notes, answers questions in chat, and drafts documents, whiteboards, or other artifacts in real time while the conversation continues.",
+      "summary_zh": "Anthropic 為 Team 與 Enterprise 方案推出 Claude Meetings 測試版。Claude 以可見參與者加入 Google Meet，即時記筆記、在聊天回答問題，並在對話進行中草擬文件、白板或其他產物。",
+      "analysis_en": "The feature moves AI from post-meeting summarization to live collaboration inside the call, which could compress the time from discussion to actionable output. Privacy defaults (staying out of external calls unless allowed) remain a key operational constraint.",
+      "analysis_zh": "此功能將 AI 從會後摘要推進到通話內即時協作，可能縮短從討論到可執行產出的時間。預設不加入外部通話（除非管理員允許）仍是關鍵營運限制。",
       "quote": "Claude can now join your video calls as a visible participant, follow the conversation and start on work during the meeting.",
       "quote_zh": "Claude現在可以以可見參與者身份加入你的視訊通話，跟隨對話並在會議期間開始工作。",
       "importance": 4,
       "first_seen": "2026-11-12T16:00:00Z",
-      "updated_at": "2026-11-13T16:35:01.792428+00:00",
+      "updated_at": "2026-11-13T22:35:01.915482+00:00",
       "links": [
         {
-          "label": "Anthropic / Claude Meetings",
+          "label": "Claude Meetings",
           "url": "https://claude.com/resources/articles/claude-meetings"
         },
         {
@@ -96,19 +158,23 @@
       "id": "google-deepmind-pardig-satweave-datasets-2026-11-13",
       "story_id": "google-deepmind-pardig-satweave-datasets-2026-11-13",
       "category": "google",
-      "source_type": "official_x",
+      "source_type": "official_blog",
       "title_en": "Google DeepMind releases PARDIG and SatWeave weather datasets",
-      "title_zh": "Google DeepMind發布PARDIG與SatWeave氣象資料集",
-      "summary_en": "Google DeepMind open-sourced PARDIG and SatWeave, the foundational datasets behind WeatherNext 3. PARDIG provides AI-estimated global precipitation every 15 minutes at ~10 km resolution; SatWeave combines geostationary satellite imagery into an hourly global mosaic.",
-      "summary_zh": "Google DeepMind開源WeatherNext 3背後的基礎資料集PARDIG與SatWeave。PARDIG每15分鐘提供約10公里解析度的AI估計全球降水；SatWeave則將多顆地球同步衛星影像合併成每小時全球馬賽克。",
-      "analysis_en": "Releasing the observation datasets rather than only the forecasting model lowers the barrier for external researchers to improve or audit weather AI. Claims of >30% better light-to-moderate precipitation detection versus NASA IMERG-Final will need independent verification before the practical impact on flood warnings or climate applications is clear.",
-      "analysis_zh": "發布觀測資料集而非僅預報模型，降低外部研究者改進或審計氣象AI的門檻。相較NASA IMERG-Final輕至中度降水偵測技巧提升逾30%的宣稱，需獨立驗證後，對洪水預警或氣候應用的實際影響才會明朗。",
-      "quote": "That’s why we’re releasing PARDIG and SatWeave - the foundational datasets behind WeatherNext 3",
-      "quote_zh": "這就是我們發布PARDIG與SatWeave的原因——WeatherNext 3背後的基礎資料集",
+      "title_zh": "Google DeepMind 發布 PARDIG 與 SatWeave 氣象資料集",
+      "summary_en": "Google DeepMind open-sourced PARDIG and SatWeave, the foundational datasets behind WeatherNext 3. PARDIG provides AI-estimated global precipitation every 15 minutes at ~10 km resolution; SatWeave combines geostationary satellite imagery into an hourly 17-channel global mosaic. Both live feeds and historical archives are available on Google Cloud Storage.",
+      "summary_zh": "Google DeepMind 開源 WeatherNext 3 背後的基礎資料集 PARDIG 與 SatWeave。PARDIG 提供約 10 公里解析度、每 15 分鐘一次的全球 AI 降水估計；SatWeave 將多顆地球同步衛星影像合成為每小時 17 頻道的全球馬賽克。即時資料流與歷史檔案皆可於 Google Cloud Storage 取得。",
+      "analysis_en": "Releasing the observation datasets rather than only the forecasting model lowers the barrier for external researchers to improve or audit weather AI. Claims of >30% better light-to-moderate precipitation detection versus IMERG-Final are based on DeepMind’s own evaluations against ground radar and stations.",
+      "analysis_zh": "發布觀測資料集而非僅預測模型，降低外部研究者改進或審計天氣 AI 的門檻。相較 IMERG-Final 在輕至中度降水偵測上提升超過 30% 的宣稱，基於 DeepMind 自身對地面雷達與測站的評估。",
+      "quote": "Today, we are releasing two foundational datasets, SatWeave and PARDIG, to support the global community in building weather, hydrology, and climate applications.",
+      "quote_zh": "今天，我們發布兩個基礎資料集 SatWeave 與 PARDIG，以支持全球社群建構天氣、水文與氣候應用。",
       "importance": 4,
       "first_seen": "2026-11-13T13:12:00Z",
-      "updated_at": "2026-11-13T16:35:01.792428+00:00",
+      "updated_at": "2026-11-13T22:35:01.915482+00:00",
       "links": [
+        {
+          "label": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/"
+        },
         {
           "label": "Google DeepMind on X",
           "url": "https://x.com/GoogleDeepMind/status/2121229774865527097"
@@ -122,27 +188,104 @@
           "url": "https://developers.google.com/weathernext/guides/satweave"
         }
       ]
+    },
+    {
+      "id": "anthropic-safety-evaluations-guide-2026-11-13",
+      "story_id": "anthropic-safety-evaluations-guide-2026-11-13",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic publishes recommendations for building strong AI safety evaluations",
+      "title_zh": "Anthropic 發布建構強健 AI 安全評估的建議",
+      "summary_en": "On November 13 Anthropic posted an Engineering Blog piece outlining ten recommendations for designing, running and reporting safety evaluations. It emphasizes multi-turn appropriate-response rates over simple refusal, domain-expert rubrics, sandboxed environments, and statistical rigor, illustrated with its own system-card examples.",
+      "summary_zh": "Anthropic 於 11 月 13 日在工程部落格發布文章，提出設計、執行與報告安全評估的十項建議。強調以多輪適當回應率取代單純拒絕率、領域專家評分標準、沙箱環境與統計嚴謹性，並以自身系統卡為例。",
+      "analysis_en": "By documenting how headline safety scores can shift dramatically with setup (e.g., API vs. product system prompt), the post increases transparency but also underscores that published eval numbers remain highly sensitive to methodology choices.",
+      "analysis_zh": "透過記錄標題安全分數如何因設定而大幅變動（例如 API 對產品系統提示），該文提升透明度，同時也凸顯已公布評估數字對方法選擇極為敏感。",
+      "quote": "Safety evaluations inform some of the most consequential decisions we make about an AI model, including whether it’s ready to deploy, which safeguards ship alongside it, and what our next round of safety training and research should focus on.",
+      "quote_zh": "安全評估影響我們對 AI 模型所做的一些最重大決定，包括是否準備好部署、隨之推出哪些防護措施，以及下一輪安全訓練與研究應聚焦何處。",
+      "importance": 3,
+      "first_seen": "2026-11-13T19:00:00Z",
+      "updated_at": "2026-11-13T22:35:01.915482+00:00",
+      "links": [
+        {
+          "label": "Anthropic Research",
+          "url": "https://www.anthropic.com/research/building-strong-safety-evaluations"
+        }
+      ]
+    },
+    {
+      "id": "xai-grok-bot-meetings-2026-11-13",
+      "story_id": "xai-grok-bot-meetings-2026-11-13",
+      "category": "xai",
+      "source_type": "official_x",
+      "title_en": "xAI Grok Bot can now join Google Meet, Zoom and Teams calls",
+      "title_zh": "xAI Grok Bot 現可加入 Google Meet、Zoom 與 Teams 會議",
+      "summary_en": "xAI’s Grok Bot (@bot) announced on November 13 that it can join video meetings. Users paste a Meet, Zoom or Teams link and approve; the bot appears as a named participant, takes notes, answers in chat, and delivers a summary plus action items afterward. Available on Team, Enterprise and Ultra plans.",
+      "summary_zh": "xAI 的 Grok Bot（@bot）於 11 月 13 日宣布可加入視訊會議。用戶貼上 Meet、Zoom 或 Teams 連結並核准後，Bot 以具名參與者出現、記筆記、在聊天回答，並於結束後提供摘要與行動項目。適用於 Team、Enterprise 與 Ultra 方案。",
+      "analysis_en": "Meeting attendance expands Grok Bot from asynchronous chat into real-time workplace context, paralleling similar features from Anthropic and others, though admission still requires host action and enterprise controls.",
+      "analysis_zh": "會議參與將 Grok Bot 從非同步聊天擴展至即時工作場所情境，與 Anthropic 等類似功能並行，但仍需主持人准入與企業控制。",
+      "quote": "Grok Bot can now join meetings. Ask it questions, assign it work, or have it keep track of what your team decides.",
+      "quote_zh": "Grok Bot 現在可以加入會議。向它提問、指派工作，或讓它追蹤團隊決定的事項。",
+      "importance": 3,
+      "first_seen": "2026-11-13T19:11:00Z",
+      "updated_at": "2026-11-13T22:35:01.915482+00:00",
+      "links": [
+        {
+          "label": "Grok Bot on X",
+          "url": "https://x.com/bot/status/2121320089920430181"
+        },
+        {
+          "label": "SpaceXSI Docs",
+          "url": "https://docs.x.ai/grok-bot/meetings"
+        }
+      ]
     }
   ],
   "categories": {
     "openai": [
+      {
+        "id": "openai-chatgpt-wallet-2026-11-13",
+        "story_id": "openai-chatgpt-wallet-2026-11-13",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI launches ChatGPT Wallet for agentic payments via Dots",
+        "title_zh": "OpenAI 推出 ChatGPT Wallet，讓 Dots 代理完成支付",
+        "summary_en": "OpenAI announced ChatGPT Wallet on November 13, a payment method that lets Dots agents complete purchases without seeing users’ actual card details. Users add a card once, review each order, and approve via biometric check; the network issues a token. Initially available to US ChatGPT Pro subscribers aged 18+ with eligible Amex, Mastercard or Visa cards.",
+        "summary_zh": "OpenAI 於 11 月 13 日宣布 ChatGPT Wallet，讓 Dots 代理在看不到用戶真實卡號的情況下完成購買。用戶一次新增卡片、逐筆審核並以生物驗證核准，網路則發行代幣。初期僅限美國 18 歲以上 ChatGPT Pro 用戶使用符合資格的 Amex、Mastercard 或 Visa 卡。",
+        "analysis_en": "This moves agentic commerce from research to a production payment rail with major networks, but early limits and potential merchant blocks mean real-world volume will depend on compatibility work still underway.",
+        "analysis_zh": "此舉將代理商務從研究推向與主要網路合作的生產支付軌道，但初期限制與商家可能阻擋意味實際量能仍取決於後續相容性工作。",
+        "quote": "We’re introducing ChatGPT Wallet, setting a new bar for secure payments by agents. It’s the first wallet that lets agents pay without access to users’ actual card details and that requires a security check for every purchase, while also preserving existing card rewards and protections for eligible disputes.",
+        "quote_zh": "我們推出 ChatGPT Wallet，為代理支付設定新的安全標準。這是首個讓代理在無法接觸用戶真實卡號的情況下支付、且每筆交易都需安全驗證的錢包，同時保留現有卡片獎勵與符合資格爭議的保護。",
+        "importance": 4,
+        "first_seen": "2026-11-13T16:00:00Z",
+        "updated_at": "2026-11-13T22:35:01.915482+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/introducing-chatgpt-wallet/"
+          }
+        ]
+      },
       {
         "id": "openai-daybreak-red-team-defense-factory-2026-11-13",
         "story_id": "openai-daybreak-red-team-defense-factory-2026-11-13",
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI launches Daybreak Red Team and Defense Factory AI security tools",
-        "title_zh": "OpenAI推出Daybreak Red Team與Defense Factory AI資安工具",
-        "summary_en": "OpenAI announced Daybreak Red Team and Daybreak Defense Factory as part of its Daybreak platform at the Cyber at the Frontier event. Red Team uses AI agents to test web applications for vulnerabilities; Defense Factory investigates findings and prepares patches for human review.",
-        "summary_zh": "OpenAI在Cyber at the Frontier活動中宣布Daybreak Red Team與Daybreak Defense Factory，作為Daybreak平台的一部分。Red Team以AI代理測試網頁應用程式漏洞；Defense Factory則調查發現並準備修補程式供人工審查。",
-        "analysis_en": "The tools shift OpenAI further into defensive cybersecurity by automating both discovery and patching, reflecting the lab’s view that the bottleneck has moved from finding flaws to fixing them at scale. Whether enterprises will widely adopt them depends on access controls and real-world false-positive rates that have not yet been independently measured.",
-        "analysis_zh": "這些工具讓OpenAI更深入防禦性資安領域，同時自動化發現與修補，反映實驗室認為瓶頸已從找漏洞轉向大規模修復。企業是否廣泛採用，取決於存取控管與尚未獨立量測的真實誤報率。",
+        "title_zh": "OpenAI 推出 Daybreak Red Team 與 Defense Factory AI 安全工具",
+        "summary_en": "OpenAI announced Daybreak Red Team and Daybreak Defense Factory as part of its Daybreak platform at the Cyber at the Frontier event. Red Team uses AI agents to test web applications for vulnerabilities; Defense Factory investigates findings and proposes patches.",
+        "summary_zh": "OpenAI 在 Cyber at the Frontier 活動宣布 Daybreak 平台的 Red Team 與 Defense Factory。Red Team 以 AI 代理測試網頁應用漏洞；Defense Factory 調查發現並提出修補建議。",
+        "analysis_en": "The tools shift OpenAI further into defensive cybersecurity by automating both discovery and patching, reflecting the lab’s view that the bottleneck has moved from finding flaws to fixing them at scale.",
+        "analysis_zh": "這些工具將 OpenAI 進一步推向防禦性網路安全，自動化發現與修補，反映出實驗室認為瓶頸已從找漏洞轉為大規模修復。",
         "quote": "Agents use source code and app context to investigate attack paths and confirm vulnerabilities.",
         "quote_zh": "代理使用原始碼與應用程式上下文調查攻擊路徑並確認漏洞。",
         "importance": 4,
         "first_seen": "2026-11-13T04:00:00Z",
-        "updated_at": "2026-11-13T16:35:01.792428+00:00",
+        "updated_at": "2026-11-13T22:35:01.915482+00:00",
         "links": [
+          {
+            "label": "OpenAI product news",
+            "url": "https://openai.com/news/product-releases/"
+          },
           {
             "label": "OpenAI Cyber at the Frontier",
             "url": "https://openai.com/cyber-at-the-frontier/"
@@ -161,24 +304,47 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic launches Claude Meetings beta for Google Meet",
-        "title_zh": "Anthropic推出Claude Meetings測試版，支援Google Meet",
-        "summary_en": "Anthropic released Claude Meetings in beta for Team and Enterprise plans. Claude joins Google Meet calls as a visible participant, takes notes, answers questions in chat, and drafts documents, whiteboards, or other artifacts in real time while the discussion continues.",
-        "summary_zh": "Anthropic為Team與Enterprise方案推出Claude Meetings測試版。Claude以可見參與者身份加入Google Meet通話，記錄筆記、在聊天中回答問題，並在討論持續時即時起草文件、白板或其他產出物。",
-        "analysis_en": "The feature moves AI from post-meeting summarization to live collaboration inside the call, which could compress the time from discussion to actionable output. Privacy defaults (staying out of external calls, no audio storage) address some risks, but enterprise adoption will hinge on admin controls and whether the free-beta artifacts remain attractive after February 2027.",
-        "analysis_zh": "此功能將AI從會後摘要推進到通話中的即時協作，可能縮短從討論到可執行產出的時間。隱私預設（避開外部通話、不儲存音訊）處理部分風險，但企業採用將取決於管理員控制，以及2027年2月後免費產出物是否仍具吸引力。",
+        "title_zh": "Anthropic 推出 Claude Meetings Google Meet 測試版",
+        "summary_en": "Anthropic released Claude Meetings in beta for Team and Enterprise plans. Claude joins Google Meet calls as a visible participant, takes notes, answers questions in chat, and drafts documents, whiteboards, or other artifacts in real time while the conversation continues.",
+        "summary_zh": "Anthropic 為 Team 與 Enterprise 方案推出 Claude Meetings 測試版。Claude 以可見參與者加入 Google Meet，即時記筆記、在聊天回答問題，並在對話進行中草擬文件、白板或其他產物。",
+        "analysis_en": "The feature moves AI from post-meeting summarization to live collaboration inside the call, which could compress the time from discussion to actionable output. Privacy defaults (staying out of external calls unless allowed) remain a key operational constraint.",
+        "analysis_zh": "此功能將 AI 從會後摘要推進到通話內即時協作，可能縮短從討論到可執行產出的時間。預設不加入外部通話（除非管理員允許）仍是關鍵營運限制。",
         "quote": "Claude can now join your video calls as a visible participant, follow the conversation and start on work during the meeting.",
         "quote_zh": "Claude現在可以以可見參與者身份加入你的視訊通話，跟隨對話並在會議期間開始工作。",
         "importance": 4,
         "first_seen": "2026-11-12T16:00:00Z",
-        "updated_at": "2026-11-13T16:35:01.792428+00:00",
+        "updated_at": "2026-11-13T22:35:01.915482+00:00",
         "links": [
           {
-            "label": "Anthropic / Claude Meetings",
+            "label": "Claude Meetings",
             "url": "https://claude.com/resources/articles/claude-meetings"
           },
           {
             "label": "Claude Help Center",
             "url": "https://support.claude.com/en/articles/18325154-use-claude-meetings"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-safety-evaluations-guide-2026-11-13",
+        "story_id": "anthropic-safety-evaluations-guide-2026-11-13",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic publishes recommendations for building strong AI safety evaluations",
+        "title_zh": "Anthropic 發布建構強健 AI 安全評估的建議",
+        "summary_en": "On November 13 Anthropic posted an Engineering Blog piece outlining ten recommendations for designing, running and reporting safety evaluations. It emphasizes multi-turn appropriate-response rates over simple refusal, domain-expert rubrics, sandboxed environments, and statistical rigor, illustrated with its own system-card examples.",
+        "summary_zh": "Anthropic 於 11 月 13 日在工程部落格發布文章，提出設計、執行與報告安全評估的十項建議。強調以多輪適當回應率取代單純拒絕率、領域專家評分標準、沙箱環境與統計嚴謹性，並以自身系統卡為例。",
+        "analysis_en": "By documenting how headline safety scores can shift dramatically with setup (e.g., API vs. product system prompt), the post increases transparency but also underscores that published eval numbers remain highly sensitive to methodology choices.",
+        "analysis_zh": "透過記錄標題安全分數如何因設定而大幅變動（例如 API 對產品系統提示），該文提升透明度，同時也凸顯已公布評估數字對方法選擇極為敏感。",
+        "quote": "Safety evaluations inform some of the most consequential decisions we make about an AI model, including whether it’s ready to deploy, which safeguards ship alongside it, and what our next round of safety training and research should focus on.",
+        "quote_zh": "安全評估影響我們對 AI 模型所做的一些最重大決定，包括是否準備好部署、隨之推出哪些防護措施，以及下一輪安全訓練與研究應聚焦何處。",
+        "importance": 3,
+        "first_seen": "2026-11-13T19:00:00Z",
+        "updated_at": "2026-11-13T22:35:01.915482+00:00",
+        "links": [
+          {
+            "label": "Anthropic Research",
+            "url": "https://www.anthropic.com/research/building-strong-safety-evaluations"
           }
         ]
       }
@@ -188,19 +354,23 @@
         "id": "google-deepmind-pardig-satweave-datasets-2026-11-13",
         "story_id": "google-deepmind-pardig-satweave-datasets-2026-11-13",
         "category": "google",
-        "source_type": "official_x",
+        "source_type": "official_blog",
         "title_en": "Google DeepMind releases PARDIG and SatWeave weather datasets",
-        "title_zh": "Google DeepMind發布PARDIG與SatWeave氣象資料集",
-        "summary_en": "Google DeepMind open-sourced PARDIG and SatWeave, the foundational datasets behind WeatherNext 3. PARDIG provides AI-estimated global precipitation every 15 minutes at ~10 km resolution; SatWeave combines geostationary satellite imagery into an hourly global mosaic.",
-        "summary_zh": "Google DeepMind開源WeatherNext 3背後的基礎資料集PARDIG與SatWeave。PARDIG每15分鐘提供約10公里解析度的AI估計全球降水；SatWeave則將多顆地球同步衛星影像合併成每小時全球馬賽克。",
-        "analysis_en": "Releasing the observation datasets rather than only the forecasting model lowers the barrier for external researchers to improve or audit weather AI. Claims of >30% better light-to-moderate precipitation detection versus NASA IMERG-Final will need independent verification before the practical impact on flood warnings or climate applications is clear.",
-        "analysis_zh": "發布觀測資料集而非僅預報模型，降低外部研究者改進或審計氣象AI的門檻。相較NASA IMERG-Final輕至中度降水偵測技巧提升逾30%的宣稱，需獨立驗證後，對洪水預警或氣候應用的實際影響才會明朗。",
-        "quote": "That’s why we’re releasing PARDIG and SatWeave - the foundational datasets behind WeatherNext 3",
-        "quote_zh": "這就是我們發布PARDIG與SatWeave的原因——WeatherNext 3背後的基礎資料集",
+        "title_zh": "Google DeepMind 發布 PARDIG 與 SatWeave 氣象資料集",
+        "summary_en": "Google DeepMind open-sourced PARDIG and SatWeave, the foundational datasets behind WeatherNext 3. PARDIG provides AI-estimated global precipitation every 15 minutes at ~10 km resolution; SatWeave combines geostationary satellite imagery into an hourly 17-channel global mosaic. Both live feeds and historical archives are available on Google Cloud Storage.",
+        "summary_zh": "Google DeepMind 開源 WeatherNext 3 背後的基礎資料集 PARDIG 與 SatWeave。PARDIG 提供約 10 公里解析度、每 15 分鐘一次的全球 AI 降水估計；SatWeave 將多顆地球同步衛星影像合成為每小時 17 頻道的全球馬賽克。即時資料流與歷史檔案皆可於 Google Cloud Storage 取得。",
+        "analysis_en": "Releasing the observation datasets rather than only the forecasting model lowers the barrier for external researchers to improve or audit weather AI. Claims of >30% better light-to-moderate precipitation detection versus IMERG-Final are based on DeepMind’s own evaluations against ground radar and stations.",
+        "analysis_zh": "發布觀測資料集而非僅預測模型，降低外部研究者改進或審計天氣 AI 的門檻。相較 IMERG-Final 在輕至中度降水偵測上提升超過 30% 的宣稱，基於 DeepMind 自身對地面雷達與測站的評估。",
+        "quote": "Today, we are releasing two foundational datasets, SatWeave and PARDIG, to support the global community in building weather, hydrology, and climate applications.",
+        "quote_zh": "今天，我們發布兩個基礎資料集 SatWeave 與 PARDIG，以支持全球社群建構天氣、水文與氣候應用。",
         "importance": 4,
         "first_seen": "2026-11-13T13:12:00Z",
-        "updated_at": "2026-11-13T16:35:01.792428+00:00",
+        "updated_at": "2026-11-13T22:35:01.915482+00:00",
         "links": [
+          {
+            "label": "Google DeepMind Blog",
+            "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/"
+          },
           {
             "label": "Google DeepMind on X",
             "url": "https://x.com/GoogleDeepMind/status/2121229774865527097"
@@ -217,7 +387,35 @@
       }
     ],
     "meta": [],
-    "xai": [],
+    "xai": [
+      {
+        "id": "xai-grok-bot-meetings-2026-11-13",
+        "story_id": "xai-grok-bot-meetings-2026-11-13",
+        "category": "xai",
+        "source_type": "official_x",
+        "title_en": "xAI Grok Bot can now join Google Meet, Zoom and Teams calls",
+        "title_zh": "xAI Grok Bot 現可加入 Google Meet、Zoom 與 Teams 會議",
+        "summary_en": "xAI’s Grok Bot (@bot) announced on November 13 that it can join video meetings. Users paste a Meet, Zoom or Teams link and approve; the bot appears as a named participant, takes notes, answers in chat, and delivers a summary plus action items afterward. Available on Team, Enterprise and Ultra plans.",
+        "summary_zh": "xAI 的 Grok Bot（@bot）於 11 月 13 日宣布可加入視訊會議。用戶貼上 Meet、Zoom 或 Teams 連結並核准後，Bot 以具名參與者出現、記筆記、在聊天回答，並於結束後提供摘要與行動項目。適用於 Team、Enterprise 與 Ultra 方案。",
+        "analysis_en": "Meeting attendance expands Grok Bot from asynchronous chat into real-time workplace context, paralleling similar features from Anthropic and others, though admission still requires host action and enterprise controls.",
+        "analysis_zh": "會議參與將 Grok Bot 從非同步聊天擴展至即時工作場所情境，與 Anthropic 等類似功能並行，但仍需主持人准入與企業控制。",
+        "quote": "Grok Bot can now join meetings. Ask it questions, assign it work, or have it keep track of what your team decides.",
+        "quote_zh": "Grok Bot 現在可以加入會議。向它提問、指派工作，或讓它追蹤團隊決定的事項。",
+        "importance": 3,
+        "first_seen": "2026-11-13T19:11:00Z",
+        "updated_at": "2026-11-13T22:35:01.915482+00:00",
+        "links": [
+          {
+            "label": "Grok Bot on X",
+            "url": "https://x.com/bot/status/2121320089920430181"
+          },
+          {
+            "label": "SpaceXSI Docs",
+            "url": "https://docs.x.ai/grok-bot/meetings"
+          }
+        ]
+      }
+    ],
     "frontier_other": [
       {
         "id": "nonprofits-lawsuit-halt-frontier-ai-2026-11-12",
@@ -225,17 +423,21 @@
         "category": "frontier_other",
         "source_type": "news",
         "title_en": "Nonprofits sue OpenAI, Anthropic, Google, Meta and SpaceX AI to halt frontier development",
-        "title_zh": "非營利組織起訴OpenAI、Anthropic、Google、Meta與SpaceX AI，要求停止前沿開發",
-        "summary_en": "Four nonprofits including Public Citizen filed suit in San Francisco Superior Court on November 12 against OpenAI, Anthropic, Google, Meta and SpaceX’s AI division. They seek a court order under California unfair-competition law to block further development of the most advanced models, citing existential-risk statements by executives and reported model escapes.",
-        "summary_zh": "包括Public Citizen在內的四家非營利組織於11月12日向舊金山高等法院起訴OpenAI、Anthropic、Google、Meta與SpaceX的AI部門。他們援引加州不公平競爭法，要求法院命令阻止最先進模型的進一步開發，並引用高階主管的存在風險言論與模型逃逸事件。",
-        "analysis_en": "The suit tests whether state consumer-protection statutes can be used to impose a de-facto pause on frontier training across multiple labs simultaneously. No injunction has been granted, and the companies have not yet responded on the merits; the outcome will depend on whether courts treat self-acknowledged risk statements as evidence of unlawful practice.",
-        "analysis_zh": "此訴訟測試州級消費者保護法是否能同時對多家實驗室的前沿訓練施加事實上的暫停。目前尚未核發禁令，公司也尚未就實體問題回應；結果取決於法院是否將公司自行承認的風險言論視為違法行為的證據。",
+        "title_zh": "非營利組織起訴 OpenAI、Anthropic、Google、Meta 與 SpaceX AI，要求暫停前沿開發",
+        "summary_en": "Four nonprofits including Public Citizen filed suit in San Francisco Superior Court on November 12 against OpenAI, Anthropic, Google, Meta and SpaceX’s AI division. They seek a court order under California unfair-competition law to block further frontier-model training.",
+        "summary_zh": "包括 Public Citizen 在內的四家非營利組織於 11 月 12 日在舊金山高等法院對 OpenAI、Anthropic、Google、Meta 與 SpaceX AI 部門提起訴訟，依加州不正當競爭法要求法院下令阻止進一步的前沿模型訓練。",
+        "analysis_en": "The suit tests whether state consumer-protection statutes can be used to impose a de-facto pause on frontier training across multiple labs simultaneously. No injunction has been granted; outcome remains uncertain.",
+        "analysis_zh": "此案測試州消費者保護法規能否同時對多家實驗室施加實質暫停。目前尚未核發禁令，結果仍不明朗。",
         "quote": "No other industry is allowed to treat its own development of unsafe products—much less ones that could kill us all—as inevitable",
         "quote_zh": "沒有其他產業被允許將自身開發不安全產品——更不用說可能殺死我們所有人的產品——視為不可避免",
         "importance": 5,
         "first_seen": "2026-11-12T21:30:00Z",
-        "updated_at": "2026-11-13T16:35:01.792428+00:00",
+        "updated_at": "2026-11-13T22:35:01.915482+00:00",
         "links": [
+          {
+            "label": "Public Citizen / court filing coverage",
+            "url": "https://www.citizen.org/"
+          },
           {
             "label": "Reuters",
             "url": "https://www.reuters.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-frontier-ai-development-2026-11-12/"
@@ -245,10 +447,33 @@
             "url": "https://www.platkinllp.com/wp-content/uploads/2026/11/Press-Release-FINAL.pdf"
           }
         ]
+      },
+      {
+        "id": "nvidia-jensen-huang-resigns-2026-11-12",
+        "story_id": "nvidia-jensen-huang-resigns-2026-11-12",
+        "category": "frontier_other",
+        "source_type": "official_blog",
+        "title_en": "NVIDIA board announces Jensen Huang resignation; Colette Kress named interim CEO",
+        "title_zh": "NVIDIA 董事會宣布黃仁勳辭任；Colette Kress 暫代 CEO",
+        "summary_en": "On November 12 NVIDIA’s board announced that Jensen Huang resigned immediately as President, CEO and director. CFO Colette Kress was appointed interim CEO while retaining her finance role; the board is searching for a permanent successor and named Harvey C. Jones its first-ever Chair.",
+        "summary_zh": "NVIDIA 董事會於 11 月 12 日宣布黃仁勳立即辭去總裁、CEO 與董事職務。CFO Colette Kress 獲任暫代 CEO 並保留財務職責；董事會正在尋找永久繼任者，並任命 Harvey C. Jones 為首位董事長。",
+        "analysis_en": "The sudden leadership change at the company whose GPUs power the majority of frontier training introduces near-term operational continuity risk and longer-term uncertainty about product roadmap and capital allocation priorities.",
+        "analysis_zh": "這家 GPU 驅動多數前沿訓練的公司突然更換領導層，帶來短期營運連續性風險，以及產品路線圖與資本配置優先順序的長期不確定性。",
+        "quote": "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately.",
+        "quote_zh": "NVIDIA（NASDAQ: NVDA）董事會今日宣布，黃仁勳已辭去總裁、執行長與董事職務，立即生效。",
+        "importance": 5,
+        "first_seen": "2026-11-12T14:00:00Z",
+        "updated_at": "2026-11-13T22:35:01.915482+00:00",
+        "links": [
+          {
+            "label": "NVIDIA Newsroom",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+          }
+        ]
       }
     ]
   },
-  "brief_en": "OpenAI expanded its Daybreak cyber tools with AI red-team and automated patch agents. Anthropic rolled out Claude Meetings so Claude joins Google Meet calls to draft docs and notes live. DeepMind open-sourced the PARDIG and SatWeave weather datasets behind WeatherNext 3. Nonprofits sued major labs seeking a court order to freeze further frontier model development.",
-  "brief_zh": "OpenAI擴充Daybreak資安工具，推出AI紅隊與自動修補代理。Anthropic推出Claude Meetings，讓Claude加入Google Meet會議即時起草文件與筆記。DeepMind開源WeatherNext 3背後的PARDIG與SatWeave氣象資料集。非營利組織起訴多家大廠，要求法院凍結進一步前沿模型開發。",
-  "updated_at": "2026-11-13T16:35:01.792428+00:00"
+  "brief_en": "OpenAI shipped ChatGPT Wallet so Dots agents can complete US Pro purchases via Amex/Mastercard/Visa tokens after biometric approval. Anthropic published a safety-evals guide and kept Claude Meetings in beta. DeepMind open-sourced PARDIG and SatWeave datasets. NVIDIA’s board confirmed Jensen Huang’s immediate resignation with Colette Kress as interim CEO. xAI’s Grok Bot can now join Meet/Zoom/Teams calls.",
+  "brief_zh": "OpenAI 推出 ChatGPT Wallet，讓 Dots 代理在美 Pro 用戶生物驗證後以代幣完成購買。Anthropic 發布安全評估指南並持續 Claude Meetings 測試。DeepMind 開源 PARDIG 與 SatWeave 氣象資料集。NVIDIA 董事會確認黃仁勳立即辭任，Colette Kress 暫代 CEO。xAI Grok Bot 可加入會議。",
+  "updated_at": "2026-11-13T22:35:01.915482+00:00"
 }
