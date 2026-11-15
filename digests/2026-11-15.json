@@ -16,6 +16,14 @@
       "item_count": 8,
       "updated_count": 8,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-11-15T04:35:00.634482+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 12,
+      "updated_count": 8,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -26,16 +34,20 @@
       "source_type": "official_blog",
       "title_en": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 for demanding technical work",
       "title_zh": "Anthropic 發布 Claude Fable 5.2 與 Mythos 5.2，針對高難度技術工作",
-      "summary_en": "On November 9, Anthropic introduced Claude Fable 5.2 and Claude Mythos 5.2 as the same underlying model, with stronger safeguards on Fable. The models improve coding, reasoning, and vision while generating outputs up to 30% faster than the 5.1 versions; Fable is generally available at reduced pricing while Mythos remains limited to vetted organizations.",
-      "summary_zh": "11月9日，Anthropic 推出 Claude Fable 5.2 與 Claude Mythos 5.2，兩者為同一底層模型，Fable 具備更強安全防護。模型在編碼、推理與視覺上提升，輸出速度較 5.1 版本快最多 30%；Fable 一般可用且定價下調，Mythos 則限於審核通過的組織。",
-      "analysis_en": "The dual-release structure lets Anthropic ship high capability while gating the highest-risk domains. Benchmark gains on agentic coding and science tasks are large relative to 5.1, but real-world reliability outside controlled settings still needs independent confirmation.",
-      "analysis_zh": "雙版本結構讓 Anthropic 在釋出高能力的同時限制高風險領域。相較 5.1 在代理編碼與科學任務上的基準提升明顯，但在受控環境外的實際可靠性仍需獨立驗證。",
+      "summary_en": "On November 9, Anthropic introduced Claude Fable 5.2 and Claude Mythos 5.2 as the same underlying model, with stronger safeguards on Fable. The models improve coding, reasoning, and vision while generating outputs up to 30% faster than the prior version.",
+      "summary_zh": "11 月 9 日，Anthropic 推出 Claude Fable 5.2 與 Claude Mythos 5.2，兩者為同一底層模型，Fable 有更強的安全防護。模型在程式碼、推理與視覺上有所提升，輸出速度較前一版快最多 30%。",
+      "analysis_en": "The dual-release structure lets Anthropic ship high capability while gating the highest-risk domains. Benchmark gains on agentic coding and science tasks are large relative to 5.1, yet independent long-horizon validation remains limited.",
+      "analysis_zh": "雙版本結構讓 Anthropic 能釋出高能力同時限制最高風險領域。相較 5.1，代理程式碼與科學任務的基準進步明顯，但獨立的長程驗證仍有限。",
       "quote": "Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.",
-      "quote_zh": "我們針對艱鉅技術工作的最強模型 Claude Fable 5.2 與 Claude Mythos 5.2，在編碼、金融與科學領域設立了新標竿。",
+      "quote_zh": "我們針對艱鉅技術工作最有能力的模型 Claude Fable 5.2 與 Claude Mythos 5.2，在程式碼、金融與科學領域設立新標竿。",
       "importance": 5,
       "first_seen": "2026-11-14T16:35:02Z",
-      "updated_at": "2026-11-14T22:35:02.274610+00:00",
+      "updated_at": "2026-11-15T04:35:00.634482+00:00",
       "links": [
+        {
+          "label": "Anthropic News",
+          "url": "https://www.anthropic.com/news/claude-fable-mythos-5-2"
+        },
         {
           "label": "Anthropic News",
           "url": "https://www.anthropic.com/news/claude-fable-5-2-and-mythos-5-2"
@@ -50,19 +62,23 @@
       "id": "openai-chatgpt-wallet-2026-11-13",
       "story_id": "openai-chatgpt-wallet-2026-11-13",
       "category": "openai",
-      "source_type": "official_blog",
+      "source_type": "product",
       "title_en": "OpenAI introduces ChatGPT Wallet for secure agent payments",
-      "title_zh": "OpenAI 推出 ChatGPT Wallet，讓代理安全完成付款",
-      "summary_en": "OpenAI announced ChatGPT Wallet on November 13, enabling AI agents (dots) to complete purchases without accessing users’ actual card details. Every transaction requires user approval with a security check such as biometrics; initial rollout is limited to eligible U.S. ChatGPT Pro subscribers aged 18+ with U.S.-issued cards from Amex, Mastercard, or Visa.",
-      "summary_zh": "OpenAI 於11月13日宣布 ChatGPT Wallet，讓 AI 代理（dots）在不接觸用戶實際卡號的情況下完成購買。每筆交易都需用戶以生物辨識等安全檢查批准；初期僅限符合資格的美國 18 歲以上 ChatGPT Pro 訂閱者，並使用美國發行的 Amex、Mastercard 或 Visa 卡。",
-      "analysis_en": "This moves agentic commerce from research demos into a controlled production path that preserves existing card rails and user control. Success still depends on merchant and risk-system adoption to avoid false declines.",
-      "analysis_zh": "這將代理商務從研究展示推進到受控的生產路徑，保留現有卡軌與用戶控制。成功仍取決於商家與風險系統的採用，以避免誤拒交易。",
+      "title_zh": "OpenAI 推出 ChatGPT Wallet，支援安全的代理支付",
+      "summary_en": "OpenAI announced ChatGPT Wallet on November 13, enabling AI agents (dots) to complete purchases without accessing users’ actual card details. Every transaction requires user approval with a security check such as biometrics; initial rollout is to US Pro users.",
+      "summary_zh": "OpenAI 於 11 月 13 日宣布 ChatGPT Wallet，讓 AI 代理（dots）完成購買而不接觸使用者真實卡號。每筆交易需使用者核准並通過生物辨識等安全檢查；初期開放給美國 Pro 用戶。",
+      "analysis_en": "This moves agentic commerce from research demos into a controlled production path that preserves existing card rails and user control. Success still depends on merchant and risk-system adoption.",
+      "analysis_zh": "這將代理商務從研究示範推進到受控的生產路徑，同時保留現有支付軌道與使用者控制。成功仍取決於商家與風險系統的採用。",
       "quote": "We’re introducing ChatGPT Wallet, setting a new bar for secure payments by agents. It’s the first wallet that lets agents pay without access to users’ actual card details and that requires a security check for every purchase.",
       "quote_zh": "我們推出 ChatGPT Wallet，為代理安全付款設立新標竿。這是首個讓代理在不接觸用戶實際卡號的情況下付款，且每筆購買都需安全檢查的錢包。",
       "importance": 4,
       "first_seen": "2026-11-14T16:35:02Z",
-      "updated_at": "2026-11-14T22:35:02.274610+00:00",
+      "updated_at": "2026-11-15T04:35:00.634482+00:00",
       "links": [
+        {
+          "label": "OpenAI Product News",
+          "url": "https://openai.com/news/product-releases/"
+        },
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/introducing-chatgpt-wallet/"
@@ -76,15 +92,15 @@
       "source_type": "official_blog",
       "title_en": "Google launches Gemini 4 Hydrogen for faster everyday agentic workflows",
       "title_zh": "Google 推出 Gemini 4 Hydrogen，加速日常代理工作流程",
-      "summary_en": "On November 12, Google DeepMind and Google introduced Gemini 4 Hydrogen, positioned as a fast, efficient model for coding and agentic workflows rather than the deepest long-horizon reasoning of Carbon or Argon. It is available across the Gemini API, app, Search, and paid tiers at $1.50 / $7.50 per million tokens, claiming speed and intelligence gains over Gemini 3.8 Flash.",
-      "summary_zh": "11月12日，Google DeepMind 與 Google 推出 Gemini 4 Hydrogen，定位為針對編碼與代理工作流程的快速高效模型，而非 Carbon 或 Argon 的深度長程推理。可在 Gemini API、應用、搜尋與付費層級使用，定價每百萬 token $1.50 / $7.50，宣稱較 Gemini 3.8 Flash 在速度與智能上提升。",
-      "analysis_en": "Hydrogen broadens Gemini 4 access at a lower price point while claiming speed and efficiency gains over 3.8 Flash. It does not displace the higher-capability Carbon/Argon tier, so the practical division of labor across the family will depend on real workload results.",
-      "analysis_zh": "Hydrogen 以較低價格擴大 Gemini 4 的可用範圍，並宣稱較 3.8 Flash 在速度與效率上提升。它並未取代更高能力的 Carbon/Argon 層級，家族內的實際分工仍取決於真實工作負載結果。",
-      "quote": "Today, we’re introducing Gemini 4 Hydrogen, bringing cutting-edge intelligence to everyone — with speed and efficiency for everyday coding and agentic workflows.",
-      "quote_zh": "今天，我們推出 Gemini 4 Hydrogen，將前沿智能帶給所有人——以速度與效率支援日常編碼與代理工作流程。",
+      "summary_en": "On November 12, Google DeepMind and Google introduced Gemini 4 Hydrogen, positioned as a fast, efficient model for coding and agentic workflows rather than the deepest long-horizon reasoning of Carbon or Argon. It is available across the Gemini API, app, Search, and Antigravity.",
+      "summary_zh": "11 月 12 日，Google DeepMind 與 Google 推出 Gemini 4 Hydrogen，定位為快速高效的程式碼與代理工作流程模型，而非 Carbon 或 Argon 的最深長程推理。已在 Gemini API、應用、搜尋與 Antigravity 提供。",
+      "analysis_en": "Hydrogen broadens Gemini 4 access at a lower price point while claiming speed and efficiency gains over 3.8 Flash. It does not displace the higher-capability Carbon/Argon tier.",
+      "analysis_zh": "Hydrogen 以較低價格擴大 Gemini 4 取得範圍，並宣稱相較 3.8 Flash 有速度與效率提升。它並未取代更高能力的 Carbon/Argon 層級。",
+      "quote": "Hydrogen brings cutting-edge intelligence to everyone — with speed and efficiency for everyday coding and agentic workflows.",
+      "quote_zh": "Hydrogen 將尖端智慧帶給所有人——以速度與效率支援日常程式碼與代理工作流程。",
       "importance": 4,
       "first_seen": "2026-11-14T16:35:02Z",
-      "updated_at": "2026-11-14T22:35:02.274610+00:00",
+      "updated_at": "2026-11-15T04:35:00.634482+00:00",
       "links": [
         {
           "label": "Google Blog",
@@ -99,16 +115,20 @@
       "source_type": "official_blog",
       "title_en": "Google DeepMind introduces Gemini Robotics 2.5 for improved real-world dexterity",
       "title_zh": "Google DeepMind 推出 Gemini Robotics 2.5，提升真實世界靈巧度",
-      "summary_en": "On November 10, Google DeepMind released Gemini Robotics 2.5, a vision-language-action model that expands task breadth and learning speed. In a Mercedes-Benz proof-of-concept, Apptronik’s Apollo 2 humanoid achieved a reported 96% success rate on a parts-packing workflow, with broader evaluations showing 30–100% higher success rates than prior baselines on many tasks.",
-      "summary_zh": "11月10日，Google DeepMind 發布 Gemini Robotics 2.5，這是一個擴展任務廣度與學習速度的視覺-語言-動作模型。在 Mercedes-Benz 概念驗證中，Apptronik 的 Apollo 2 人形機器人在零件包裝工作流程上達到報導的 96% 成功率，更廣泛評估顯示許多任務的成功率較先前基線提升 30–100%。",
-      "analysis_en": "The industrial pilot supplies a concrete reliability signal beyond lab benchmarks, yet the 96% figure is vendor-reported on a narrow workflow. Broader generalization and safety in unstructured environments remain open questions.",
-      "analysis_zh": "工業試點提供了超越實驗室基準的具體可靠性訊號，但 96% 數字為供應商在狹窄工作流程上的報告。在非結構化環境中的更廣泛泛化與安全性仍是開放問題。",
+      "summary_en": "On November 10, Google DeepMind released Gemini Robotics 2.5, a vision-language-action model that expands task breadth and learning speed. In a Mercedes-Benz proof-of-concept, Apptronik’s Apollo 2 humanoid achieved a reported 96% success rate on a kitting workflow.",
+      "summary_zh": "11 月 10 日，Google DeepMind 發布 Gemini Robotics 2.5，這是一個視覺-語言-動作模型，擴大任務廣度與學習速度。在 Mercedes-Benz 概念驗證中，Apptronik 的 Apollo 2 人形機器人於分揀流程據報達到 96% 成功率。",
+      "analysis_en": "The industrial pilot supplies a concrete reliability signal beyond lab benchmarks, yet the 96% figure is vendor-reported on a narrow workflow. Broader generalization and safety in unstructured settings remain open questions.",
+      "analysis_zh": "工業試點提供超越實驗室基準的具體可靠性訊號，但 96% 數字為廠商在狹窄流程上的報告。更廣的泛化與非結構化環境中的安全仍是開放問題。",
       "quote": "Today, we are introducing Gemini Robotics 2.5, our most capable vision-language-action (VLA) model to date.",
       "quote_zh": "今天，我們推出 Gemini Robotics 2.5，這是我們迄今最強的視覺-語言-動作（VLA）模型。",
       "importance": 4,
       "first_seen": "2026-11-14T16:35:02Z",
-      "updated_at": "2026-11-14T22:35:02.274610+00:00",
+      "updated_at": "2026-11-15T04:35:00.634482+00:00",
       "links": [
+        {
+          "label": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/"
+        },
         {
           "label": "Google DeepMind Blog",
           "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
@@ -122,19 +142,111 @@
       "source_type": "official_blog",
       "title_en": "Anthropic launches roadshow for proposed IPO",
       "title_zh": "Anthropic 啟動擬議 IPO 路演",
-      "summary_en": "On November 10, Anthropic, PBC launched the roadshow for its proposed initial public offering of Class A common stock. The company had previously filed a Form S-1 with the SEC; the offering contemplates roughly 825 million shares at an expected $70–$78 range for a Nasdaq listing under the ticker ANT.",
-      "summary_zh": "11月10日，Anthropic, PBC 啟動其擬議 A 類普通股首次公開發行的路演。公司此前已向 SEC 提交 Form S-1；發行預計約 8.25 億股，預期價格區間 $70–$78，計劃在 Nasdaq 以 ANT 代號上市。",
-      "analysis_en": "The roadshow advances Anthropic’s transition from private lab to public company while it continues to ship frontier models. Market reception and any conditions attached to the offering will shape its capital structure going forward.",
-      "analysis_zh": "路演推進 Anthropic 從私人實驗室轉向上市公司，同時持續發布前沿模型。市場反應與發行附加條件將影響其未來資本結構。",
+      "summary_en": "On November 10, Anthropic, PBC launched the roadshow for its proposed initial public offering of Class A common stock. The company had previously filed a Form S-1 with the SEC; the offering contemplates roughly 825 million shares at an expected price range of $70–$78.",
+      "summary_zh": "11 月 10 日，Anthropic, PBC 啟動其擬議 Class A 普通股首次公開發行的路演。公司先前已向 SEC 提交 Form S-1；發行約 8.25 億股，預期價格區間為 70–78 美元。",
+      "analysis_en": "The roadshow advances Anthropic’s transition from private lab to public company while it continues to ship frontier models. Market reception and any conditions attached to the offering remain to be seen.",
+      "analysis_zh": "路演推進 Anthropic 從私人實驗室轉為上市公司的過程，同時持續推出前沿模型。市場反應與發行附帶的任何條件仍待觀察。",
       "quote": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
-      "quote_zh": "今天，Anthropic, PBC 啟動其擬議 A 類普通股首次公開發行的路演。",
+      "quote_zh": "今日 Anthropic, PBC 啟動其擬議 Class A 普通股首次公開發行的路演。",
       "importance": 4,
       "first_seen": "2026-11-14T16:35:02Z",
-      "updated_at": "2026-11-14T22:35:02.274610+00:00",
+      "updated_at": "2026-11-15T04:35:00.634482+00:00",
       "links": [
         {
           "label": "Anthropic News",
           "url": "https://www.anthropic.com/news/roadshow-launch"
+        }
+      ]
+    },
+    {
+      "id": "google-antigravity-teamwork-research-2026-11-13",
+      "story_id": "google-antigravity-teamwork-research-2026-11-13",
+      "category": "google",
+      "source_type": "official_blog",
+      "title_en": "Google Research opens Antigravity /teamwork multi-agent tools and reports Lean formalizations of major math results",
+      "title_zh": "Google Research 開放 Antigravity /teamwork 多代理工具，並報告以 Lean 形式化重要數學結果",
+      "summary_en": "On November 13, Google Research described results from Antigravity’s /teamwork multi-agent workflows using Gemini 4 models, including claimed machine-checked formalizations such as a full proof of the Courtade–Kumar conjecture and large Lean formalizations of the Weil conjectures. External researchers can use the tools today, with applications open for 10,000 free high-tier seats.",
+      "summary_zh": "11 月 13 日，Google Research 描述使用 Gemini 4 模型的 Antigravity /teamwork 多代理工作流程結果，包括宣稱以機器檢查形式化 Courtade–Kumar 猜想的完整證明，以及 Weil 猜想的大規模 Lean 形式化。外部研究者今日即可使用這些工具，並開放 1 萬個免費高階席位申請。",
+      "analysis_en": "Opening multi-agent research orchestration to outsiders accelerates independent scrutiny of the claimed formalizations. The scale of the Lean outputs is notable, but independent verification of the largest results is still required.",
+      "analysis_zh": "向外部開放多代理研究編排可加速對所宣稱形式化的獨立審查。Lean 輸出規模值得注意，但最大結果仍需獨立驗證。",
+      "quote": "External scientists and developers can use Gemini 4 models with /teamwork and /boost in Antigravity and Deep Review today.",
+      "quote_zh": "外部科學家與開發者今日即可在 Antigravity 與 Deep Review 中使用 Gemini 4 模型搭配 /teamwork 與 /boost。",
+      "importance": 4,
+      "first_seen": "2026-11-15T04:35:00Z",
+      "updated_at": "2026-11-15T04:35:00.634482+00:00",
+      "links": [
+        {
+          "label": "Google Research Blog",
+          "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-opus-55-default-knowledge-guide-2026-11-12",
+      "story_id": "anthropic-opus-55-default-knowledge-guide-2026-11-12",
+      "category": "anthropic",
+      "source_type": "product",
+      "title_en": "Anthropic makes Claude Opus 5.5 the default model on paid plans and publishes knowledge-work guide",
+      "title_zh": "Anthropic 將 Claude Opus 5.5 設為付費方案預設模型並發布知識工作指南",
+      "summary_en": "Anthropic set Claude Opus 5.5 as the default model on Pro, Max, Ultra, and Team plans and published a guide recommending it for daily knowledge work. The guide advises dropping phrases such as “think hard,” starting at Medium effort, and describing finished outputs in the first prompt.",
+      "summary_zh": "Anthropic 將 Claude Opus 5.5 設為 Pro、Max、Ultra 與 Team 方案的預設模型，並發布指南推薦用於日常知識工作。指南建議刪除「think hard」等用語、從 Medium 努力等級開始，並在第一則提示中描述完成後的輸出。",
+      "analysis_en": "Making a stronger model the default lowers the barrier for most users while the prompting guidance aims to avoid habits that under-use adaptive thinking. Whether the higher per-token cost is offset by fewer tokens per task depends on real workloads.",
+      "analysis_zh": "將更強模型設為預設降低多數使用者的門檻，提示指南則旨在避免未能善用自適應思考的習慣。較高的每 token 成本是否被每任務較少 token 抵銷，取決於真實工作負載。",
+      "quote": "Claude Opus 5.5 is now the default model in Claude on Pro, Max, Ultra, and Team plans. We recommend it as your daily driver for knowledge work.",
+      "quote_zh": "Claude Opus 5.5 現在是 Claude 在 Pro、Max、Ultra 與 Team 方案上的預設模型。我們推薦它作為知識工作的日常主力。",
+      "importance": 3,
+      "first_seen": "2026-11-15T04:35:00Z",
+      "updated_at": "2026-11-15T04:35:00.634482+00:00",
+      "links": [
+        {
+          "label": "Claude Resources",
+          "url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-claude-code-code-mode-2026-11-13",
+      "story_id": "anthropic-claude-code-code-mode-2026-11-13",
+      "category": "anthropic",
+      "source_type": "product",
+      "title_en": "Anthropic adds experimental Code Mode to Claude Code for multi-tool calls in JavaScript",
+      "title_zh": "Anthropic 在 Claude Code 加入實驗性 Code Mode，以 JavaScript 執行多工具呼叫",
+      "summary_en": "Claude Code v2.1.323 introduced experimental Code Mode, in which Claude writes JavaScript that issues multiple tool calls (Bash, Read, Edit, etc.) in one step and returns only the needed results. It is off by default and can be enabled via an environment variable on supported accounts.",
+      "summary_zh": "Claude Code v2.1.323 推出實驗性 Code Mode，Claude 撰寫 JavaScript 一次發出多個工具呼叫（Bash、Read、Edit 等），並只回傳所需結果。預設關閉，可在支援帳戶透過環境變數啟用。",
+      "analysis_en": "Code Mode targets the token cost of sequential tool calling, which is a practical bottleneck for long agentic sessions. Its experimental status and restrictions on certain features mean production impact is still uncertain.",
+      "analysis_zh": "Code Mode 針對順序工具呼叫的 token 成本，這是長程代理會話的實用瓶頸。實驗狀態與部分功能限制意味著生產影響仍不確定。",
+      "quote": "With Code Mode, Claude writes a piece of JavaScript that makes the tool calls, and Claude Code runs that code in your session.",
+      "quote_zh": "啟用 Code Mode 後，Claude 會撰寫一段進行工具呼叫的 JavaScript，並由 Claude Code 在您的工作階段中執行該程式碼。",
+      "importance": 3,
+      "first_seen": "2026-11-15T04:35:00Z",
+      "updated_at": "2026-11-15T04:35:00.634482+00:00",
+      "links": [
+        {
+          "label": "Claude Code Docs",
+          "url": "https://code.claude.com/docs/en/code-mode"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-safety-evals-recommendations-2026-11-13",
+      "story_id": "anthropic-safety-evals-recommendations-2026-11-13",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic publishes 10 recommendations for designing and reporting AI safety evaluations",
+      "title_zh": "Anthropic 發布 10 項設計與報告 AI 安全評估的建議",
+      "summary_en": "On November 13, Anthropic posted “Building Strong Safety Evaluations” on its engineering/research blog, offering 10 recommendations for how labs design, run, and report the evaluations that inform deployment and safeguard decisions. The post draws on Anthropic’s own system-card practice and recent incidents.",
+      "summary_zh": "11 月 13 日，Anthropic 在其工程/研究部落格發布《Building Strong Safety Evaluations》，提出 10 項建議，說明實驗室如何設計、執行與報告影響部署與安全護欄決策的評估。文章借鑒 Anthropic 自身系統卡實務與近期事件。",
+      "analysis_en": "Public recommendations raise the floor for evaluation quality across the industry, especially around preregistration and multi-turn testing. Whether other labs adopt them in practice will determine their influence.",
+      "analysis_zh": "公開建議提高整個產業的評估品質門檻，特別是預先註冊與多輪測試方面。其他實驗室是否實際採用將決定其影響力。",
+      "quote": "Safety evaluations inform some of the most consequential decisions we make about an AI model, including whether it’s ready to deploy, which safeguards ship alongside it, and what our next round of safety training and research should focus on.",
+      "quote_zh": "安全評估影響我們對 AI 模型所做的一些最關鍵決定，包括是否準備好部署、隨之附帶哪些安全護欄，以及下一輪安全訓練與研究應聚焦何處。",
+      "importance": 3,
+      "first_seen": "2026-11-15T04:35:00Z",
+      "updated_at": "2026-11-15T04:35:00.634482+00:00",
+      "links": [
+        {
+          "label": "Anthropic Research",
+          "url": "https://www.anthropic.com/research/building-strong-safety-evaluations"
         }
       ]
     },
@@ -145,16 +257,20 @@
       "source_type": "news",
       "title_en": "OpenAI reorganizes stand-alone robotics team into core research and Applied",
       "title_zh": "OpenAI 將獨立機器人團隊重組至核心研究與 Applied",
-      "summary_en": "On November 13, OpenAI confirmed to Fortune that it has reorganized its stand-alone robotics team. Research staff now report to Chief Research Officer Mark Chen; applied robotics and hardware teams moved under President Greg Brockman’s Applied organization. The company framed the change as accelerating progress via general models such as GPT-6 Astra rather than a retreat.",
-      "summary_zh": "11月13日，OpenAI 向 Fortune 確認已重組其獨立機器人團隊。研究人員現向首席研究官 Mark Chen 報告；應用機器人與硬體團隊則移至總裁 Greg Brockman 的 Applied 組織。公司將此舉定位為透過 GPT-6 Astra 等通用模型加速進展，而非撤退。",
-      "analysis_en": "The move signals a strategic bet that frontier general models can reduce the need for specialized robotics teams, echoing OpenAI’s 2020 pause and 2024 restart. It is not framed as an abandonment, but the absence of a dedicated team raises questions about near-term hardware integration pace.",
-      "analysis_zh": "此舉顯示戰略押注：前沿通用模型可降低對專門機器人團隊的需求，呼應 OpenAI 2020 年暫停與 2024 年重啟。並未定位為放棄，但缺乏專門團隊引發對短期硬體整合進度的疑問。",
+      "summary_en": "On November 13, OpenAI confirmed to Fortune that it has reorganized its stand-alone robotics team. Research staff now report to Chief Research Officer Mark Chen; applied robotics and hardware teams moved under President Greg Brockman’s Applied group.",
+      "summary_zh": "11 月 13 日，OpenAI 向 Fortune 確認已重組其獨立機器人團隊。研究人員現向首席研究官 Mark Chen 報告；應用機器人與硬體團隊移至總裁 Greg Brockman 的 Applied 群組下。",
+      "analysis_en": "The move signals a strategic bet that frontier general models can reduce the need for specialized robotics teams, echoing OpenAI’s 2020 pause and 2024 restart. It is not framed as a shutdown.",
+      "analysis_zh": "此舉顯示戰略押注前沿通用模型可減少對專門機器人團隊的需求，呼應 OpenAI 2020 年暫停與 2024 年重啟。並未框定為關閉。",
       "quote": "",
       "quote_zh": "",
       "importance": 3,
       "first_seen": "2026-11-14T16:35:02Z",
-      "updated_at": "2026-11-14T22:35:02.274610+00:00",
+      "updated_at": "2026-11-15T04:35:00.634482+00:00",
       "links": [
+        {
+          "label": "Fortune",
+          "url": "https://fortune.com/"
+        },
         {
           "label": "Fortune (via Yahoo)",
           "url": "https://tech.yahoo.com/ai/articles/exclusive-openai-disbands-stand-alone-170530559.html"
@@ -168,16 +284,20 @@
       "source_type": "official_blog",
       "title_en": "Google DeepMind releases PARDIG and SatWeave weather datasets",
       "title_zh": "Google DeepMind 發布 PARDIG 與 SatWeave 天氣資料集",
-      "summary_en": "On November 13, Google DeepMind released two foundational datasets used by WeatherNext 3: SatWeave (a global mosaic of geostationary satellite imagery) and PARDIG (an AI-based global precipitation dataset). Historical archives and live feeds are available on Google Cloud Storage (and Earth Engine for PARDIG), with claimed gains in precipitation detection skill.",
-      "summary_zh": "11月13日，Google DeepMind 發布 WeatherNext 3 所使用的兩大基礎資料集：SatWeave（全球靜止衛星影像拼接）與 PARDIG（基於 AI 的全球降水資料集）。歷史存檔與即時資料流可在 Google Cloud Storage（PARDIG 亦可在 Earth Engine）取得，並宣稱降水偵測技巧有所提升。",
-      "analysis_en": "Open observational datasets lower the barrier for third parties to build on DeepMind’s weather stack. Independent validation of the claimed precipitation-skill gains will determine how widely they are adopted beyond the lab’s own models.",
-      "analysis_zh": "開放觀測資料集降低第三方在 DeepMind 天氣堆疊上建構的門檻。對所宣稱降水技巧提升的獨立驗證，將決定它們在實驗室自身模型之外被廣泛採用的程度。",
+      "summary_en": "On November 13, Google DeepMind released two foundational datasets used by WeatherNext 3: SatWeave (a global mosaic of geostationary satellite imagery) and PARDIG (an AI-based global precipitation dataset). Historical archives and live feeds are available.",
+      "summary_zh": "11 月 13 日，Google DeepMind 發布 WeatherNext 3 所用的兩個基礎資料集：SatWeave（地球靜止衛星影像的全球拼接）與 PARDIG（基於 AI 的全球降水資料集）。歷史檔案與即時饋送皆可取得。",
+      "analysis_en": "Open observational datasets lower the barrier for third parties to build on DeepMind’s weather stack. Independent validation of the claimed precipitation-skill gains will determine their lasting value.",
+      "analysis_zh": "開放觀測資料集降低第三方在 DeepMind 天氣堆疊上建構的門檻。對所宣稱降水技能提升的獨立驗證將決定其長久價值。",
       "quote": "Today, we are releasing two foundational datasets, SatWeave and PARDIG, to support the global community in building weather, hydrology, and climate applications.",
       "quote_zh": "今天，我們發布兩個基礎資料集 SatWeave 與 PARDIG，以支援全球社群建構天氣、水文與氣候應用。",
       "importance": 3,
       "first_seen": "2026-11-14T16:35:02Z",
-      "updated_at": "2026-11-14T22:35:02.274610+00:00",
+      "updated_at": "2026-11-15T04:35:00.634482+00:00",
       "links": [
+        {
+          "label": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/"
+        },
         {
           "label": "Google DeepMind Blog",
           "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/"
@@ -188,19 +308,23 @@
       "id": "meta-muse-ember-2026-11-09",
       "story_id": "meta-muse-ember-2026-11-09",
       "category": "meta",
-      "source_type": "official_x",
+      "source_type": "official_blog",
       "title_en": "Meta introduces Muse Ember, a small efficient model for agentic workloads",
       "title_zh": "Meta 推出 Muse Ember，針對代理工作負載的小型高效模型",
-      "summary_en": "On November 9, Meta AI announced Muse Ember, its smallest and most efficient model to date, built for high-volume agentic tasks such as tool calls, coding subtasks, and long-document parsing. It is available on the Meta Model API at $0.10 per million input tokens and $0.50 per million output tokens, with native multimodal support and a 1M-token context window.",
-      "summary_zh": "11月9日，Meta AI 宣布 Muse Ember，這是其迄今最小且最高效的模型，針對高量代理任務如工具呼叫、編碼子任務與長文件解析。可在 Meta Model API 以每百萬輸入 token $0.10、輸出 $0.50 取得，具備原生多模態支援與 100 萬 token 上下文視窗。",
-      "analysis_en": "Ember extends Meta’s Muse family into a low-cost, high-throughput tier, aiming at the economics of always-on agents. Claims of matching or beating Haiku 5.5 at one-third the cost need independent verification on sustained real workloads.",
-      "analysis_zh": "Ember 將 Meta 的 Muse 家族延伸至低成本、高吞吐量層級，瞄準持續運行代理的經濟性。關於以三分之一成本匹配或超越 Haiku 5.5 的宣稱，需在持續真實工作負載上獨立驗證。",
+      "summary_en": "On November 9, Meta AI announced Muse Ember, its smallest and most efficient model to date, built for high-volume agentic tasks such as tool calls, coding subtasks, and long-document parsing. It is available on the Meta Model API at $0.10 per million input tokens.",
+      "summary_zh": "11 月 9 日，Meta AI 宣布 Muse Ember，其迄今最小且最有效率的模型，針對高流量代理任務如工具呼叫、程式碼子任務與長文件解析。已在 Meta Model API 提供，每百萬輸入 token 0.10 美元。",
+      "analysis_en": "Ember extends Meta’s Muse family into a low-cost, high-throughput tier, aiming at the economics of always-on agents. Claims of matching or beating Haiku 5.5 at one-third the cost need independent confirmation.",
+      "analysis_zh": "Ember 將 Meta 的 Muse 家族延伸至低成本、高吞吐量層級，瞄準常開代理的經濟性。以三分之一成本匹配或超越 Haiku 5.5 的宣稱需要獨立確認。",
       "quote": "Today we're introducing Muse Ember, our smallest and most efficient model, built for complex reasoning execution and everyday agent work.",
       "quote_zh": "今天我們推出 Muse Ember，這是我們最小且最高效的模型，針對複雜推理執行與日常代理工作而打造。",
       "importance": 3,
       "first_seen": "2026-11-14T16:35:02Z",
-      "updated_at": "2026-11-14T22:35:02.274610+00:00",
+      "updated_at": "2026-11-15T04:35:00.634482+00:00",
       "links": [
+        {
+          "label": "Meta AI",
+          "url": "https://ai.meta.com/"
+        },
         {
           "label": "AI at Meta on X",
           "url": "https://x.com/AIatMeta/status/2119853591703998787"
@@ -218,19 +342,23 @@
         "id": "openai-chatgpt-wallet-2026-11-13",
         "story_id": "openai-chatgpt-wallet-2026-11-13",
         "category": "openai",
-        "source_type": "official_blog",
+        "source_type": "product",
         "title_en": "OpenAI introduces ChatGPT Wallet for secure agent payments",
-        "title_zh": "OpenAI 推出 ChatGPT Wallet，讓代理安全完成付款",
-        "summary_en": "OpenAI announced ChatGPT Wallet on November 13, enabling AI agents (dots) to complete purchases without accessing users’ actual card details. Every transaction requires user approval with a security check such as biometrics; initial rollout is limited to eligible U.S. ChatGPT Pro subscribers aged 18+ with U.S.-issued cards from Amex, Mastercard, or Visa.",
-        "summary_zh": "OpenAI 於11月13日宣布 ChatGPT Wallet，讓 AI 代理（dots）在不接觸用戶實際卡號的情況下完成購買。每筆交易都需用戶以生物辨識等安全檢查批准；初期僅限符合資格的美國 18 歲以上 ChatGPT Pro 訂閱者，並使用美國發行的 Amex、Mastercard 或 Visa 卡。",
-        "analysis_en": "This moves agentic commerce from research demos into a controlled production path that preserves existing card rails and user control. Success still depends on merchant and risk-system adoption to avoid false declines.",
-        "analysis_zh": "這將代理商務從研究展示推進到受控的生產路徑，保留現有卡軌與用戶控制。成功仍取決於商家與風險系統的採用，以避免誤拒交易。",
+        "title_zh": "OpenAI 推出 ChatGPT Wallet，支援安全的代理支付",
+        "summary_en": "OpenAI announced ChatGPT Wallet on November 13, enabling AI agents (dots) to complete purchases without accessing users’ actual card details. Every transaction requires user approval with a security check such as biometrics; initial rollout is to US Pro users.",
+        "summary_zh": "OpenAI 於 11 月 13 日宣布 ChatGPT Wallet，讓 AI 代理（dots）完成購買而不接觸使用者真實卡號。每筆交易需使用者核准並通過生物辨識等安全檢查；初期開放給美國 Pro 用戶。",
+        "analysis_en": "This moves agentic commerce from research demos into a controlled production path that preserves existing card rails and user control. Success still depends on merchant and risk-system adoption.",
+        "analysis_zh": "這將代理商務從研究示範推進到受控的生產路徑，同時保留現有支付軌道與使用者控制。成功仍取決於商家與風險系統的採用。",
         "quote": "We’re introducing ChatGPT Wallet, setting a new bar for secure payments by agents. It’s the first wallet that lets agents pay without access to users’ actual card details and that requires a security check for every purchase.",
         "quote_zh": "我們推出 ChatGPT Wallet，為代理安全付款設立新標竿。這是首個讓代理在不接觸用戶實際卡號的情況下付款，且每筆購買都需安全檢查的錢包。",
         "importance": 4,
         "first_seen": "2026-11-14T16:35:02Z",
-        "updated_at": "2026-11-14T22:35:02.274610+00:00",
+        "updated_at": "2026-11-15T04:35:00.634482+00:00",
         "links": [
+          {
+            "label": "OpenAI Product News",
+            "url": "https://openai.com/news/product-releases/"
+          },
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/introducing-chatgpt-wallet/"
@@ -244,16 +372,20 @@
         "source_type": "news",
         "title_en": "OpenAI reorganizes stand-alone robotics team into core research and Applied",
         "title_zh": "OpenAI 將獨立機器人團隊重組至核心研究與 Applied",
-        "summary_en": "On November 13, OpenAI confirmed to Fortune that it has reorganized its stand-alone robotics team. Research staff now report to Chief Research Officer Mark Chen; applied robotics and hardware teams moved under President Greg Brockman’s Applied organization. The company framed the change as accelerating progress via general models such as GPT-6 Astra rather than a retreat.",
-        "summary_zh": "11月13日，OpenAI 向 Fortune 確認已重組其獨立機器人團隊。研究人員現向首席研究官 Mark Chen 報告；應用機器人與硬體團隊則移至總裁 Greg Brockman 的 Applied 組織。公司將此舉定位為透過 GPT-6 Astra 等通用模型加速進展，而非撤退。",
-        "analysis_en": "The move signals a strategic bet that frontier general models can reduce the need for specialized robotics teams, echoing OpenAI’s 2020 pause and 2024 restart. It is not framed as an abandonment, but the absence of a dedicated team raises questions about near-term hardware integration pace.",
-        "analysis_zh": "此舉顯示戰略押注：前沿通用模型可降低對專門機器人團隊的需求，呼應 OpenAI 2020 年暫停與 2024 年重啟。並未定位為放棄，但缺乏專門團隊引發對短期硬體整合進度的疑問。",
+        "summary_en": "On November 13, OpenAI confirmed to Fortune that it has reorganized its stand-alone robotics team. Research staff now report to Chief Research Officer Mark Chen; applied robotics and hardware teams moved under President Greg Brockman’s Applied group.",
+        "summary_zh": "11 月 13 日，OpenAI 向 Fortune 確認已重組其獨立機器人團隊。研究人員現向首席研究官 Mark Chen 報告；應用機器人與硬體團隊移至總裁 Greg Brockman 的 Applied 群組下。",
+        "analysis_en": "The move signals a strategic bet that frontier general models can reduce the need for specialized robotics teams, echoing OpenAI’s 2020 pause and 2024 restart. It is not framed as a shutdown.",
+        "analysis_zh": "此舉顯示戰略押注前沿通用模型可減少對專門機器人團隊的需求，呼應 OpenAI 2020 年暫停與 2024 年重啟。並未框定為關閉。",
         "quote": "",
         "quote_zh": "",
         "importance": 3,
         "first_seen": "2026-11-14T16:35:02Z",
-        "updated_at": "2026-11-14T22:35:02.274610+00:00",
+        "updated_at": "2026-11-15T04:35:00.634482+00:00",
         "links": [
+          {
+            "label": "Fortune",
+            "url": "https://fortune.com/"
+          },
           {
             "label": "Fortune (via Yahoo)",
             "url": "https://tech.yahoo.com/ai/articles/exclusive-openai-disbands-stand-alone-170530559.html"
@@ -269,16 +401,20 @@
         "source_type": "official_blog",
         "title_en": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 for demanding technical work",
         "title_zh": "Anthropic 發布 Claude Fable 5.2 與 Mythos 5.2，針對高難度技術工作",
-        "summary_en": "On November 9, Anthropic introduced Claude Fable 5.2 and Claude Mythos 5.2 as the same underlying model, with stronger safeguards on Fable. The models improve coding, reasoning, and vision while generating outputs up to 30% faster than the 5.1 versions; Fable is generally available at reduced pricing while Mythos remains limited to vetted organizations.",
-        "summary_zh": "11月9日，Anthropic 推出 Claude Fable 5.2 與 Claude Mythos 5.2，兩者為同一底層模型，Fable 具備更強安全防護。模型在編碼、推理與視覺上提升，輸出速度較 5.1 版本快最多 30%；Fable 一般可用且定價下調，Mythos 則限於審核通過的組織。",
-        "analysis_en": "The dual-release structure lets Anthropic ship high capability while gating the highest-risk domains. Benchmark gains on agentic coding and science tasks are large relative to 5.1, but real-world reliability outside controlled settings still needs independent confirmation.",
-        "analysis_zh": "雙版本結構讓 Anthropic 在釋出高能力的同時限制高風險領域。相較 5.1 在代理編碼與科學任務上的基準提升明顯，但在受控環境外的實際可靠性仍需獨立驗證。",
+        "summary_en": "On November 9, Anthropic introduced Claude Fable 5.2 and Claude Mythos 5.2 as the same underlying model, with stronger safeguards on Fable. The models improve coding, reasoning, and vision while generating outputs up to 30% faster than the prior version.",
+        "summary_zh": "11 月 9 日，Anthropic 推出 Claude Fable 5.2 與 Claude Mythos 5.2，兩者為同一底層模型，Fable 有更強的安全防護。模型在程式碼、推理與視覺上有所提升，輸出速度較前一版快最多 30%。",
+        "analysis_en": "The dual-release structure lets Anthropic ship high capability while gating the highest-risk domains. Benchmark gains on agentic coding and science tasks are large relative to 5.1, yet independent long-horizon validation remains limited.",
+        "analysis_zh": "雙版本結構讓 Anthropic 能釋出高能力同時限制最高風險領域。相較 5.1，代理程式碼與科學任務的基準進步明顯，但獨立的長程驗證仍有限。",
         "quote": "Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.",
-        "quote_zh": "我們針對艱鉅技術工作的最強模型 Claude Fable 5.2 與 Claude Mythos 5.2，在編碼、金融與科學領域設立了新標竿。",
+        "quote_zh": "我們針對艱鉅技術工作最有能力的模型 Claude Fable 5.2 與 Claude Mythos 5.2，在程式碼、金融與科學領域設立新標竿。",
         "importance": 5,
         "first_seen": "2026-11-14T16:35:02Z",
-        "updated_at": "2026-11-14T22:35:02.274610+00:00",
+        "updated_at": "2026-11-15T04:35:00.634482+00:00",
         "links": [
+          {
+            "label": "Anthropic News",
+            "url": "https://www.anthropic.com/news/claude-fable-mythos-5-2"
+          },
           {
             "label": "Anthropic News",
             "url": "https://www.anthropic.com/news/claude-fable-5-2-and-mythos-5-2"
@@ -296,19 +432,88 @@
         "source_type": "official_blog",
         "title_en": "Anthropic launches roadshow for proposed IPO",
         "title_zh": "Anthropic 啟動擬議 IPO 路演",
-        "summary_en": "On November 10, Anthropic, PBC launched the roadshow for its proposed initial public offering of Class A common stock. The company had previously filed a Form S-1 with the SEC; the offering contemplates roughly 825 million shares at an expected $70–$78 range for a Nasdaq listing under the ticker ANT.",
-        "summary_zh": "11月10日，Anthropic, PBC 啟動其擬議 A 類普通股首次公開發行的路演。公司此前已向 SEC 提交 Form S-1；發行預計約 8.25 億股，預期價格區間 $70–$78，計劃在 Nasdaq 以 ANT 代號上市。",
-        "analysis_en": "The roadshow advances Anthropic’s transition from private lab to public company while it continues to ship frontier models. Market reception and any conditions attached to the offering will shape its capital structure going forward.",
-        "analysis_zh": "路演推進 Anthropic 從私人實驗室轉向上市公司，同時持續發布前沿模型。市場反應與發行附加條件將影響其未來資本結構。",
+        "summary_en": "On November 10, Anthropic, PBC launched the roadshow for its proposed initial public offering of Class A common stock. The company had previously filed a Form S-1 with the SEC; the offering contemplates roughly 825 million shares at an expected price range of $70–$78.",
+        "summary_zh": "11 月 10 日，Anthropic, PBC 啟動其擬議 Class A 普通股首次公開發行的路演。公司先前已向 SEC 提交 Form S-1；發行約 8.25 億股，預期價格區間為 70–78 美元。",
+        "analysis_en": "The roadshow advances Anthropic’s transition from private lab to public company while it continues to ship frontier models. Market reception and any conditions attached to the offering remain to be seen.",
+        "analysis_zh": "路演推進 Anthropic 從私人實驗室轉為上市公司的過程，同時持續推出前沿模型。市場反應與發行附帶的任何條件仍待觀察。",
         "quote": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
-        "quote_zh": "今天，Anthropic, PBC 啟動其擬議 A 類普通股首次公開發行的路演。",
+        "quote_zh": "今日 Anthropic, PBC 啟動其擬議 Class A 普通股首次公開發行的路演。",
         "importance": 4,
         "first_seen": "2026-11-14T16:35:02Z",
-        "updated_at": "2026-11-14T22:35:02.274610+00:00",
+        "updated_at": "2026-11-15T04:35:00.634482+00:00",
         "links": [
           {
             "label": "Anthropic News",
             "url": "https://www.anthropic.com/news/roadshow-launch"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-opus-55-default-knowledge-guide-2026-11-12",
+        "story_id": "anthropic-opus-55-default-knowledge-guide-2026-11-12",
+        "category": "anthropic",
+        "source_type": "product",
+        "title_en": "Anthropic makes Claude Opus 5.5 the default model on paid plans and publishes knowledge-work guide",
+        "title_zh": "Anthropic 將 Claude Opus 5.5 設為付費方案預設模型並發布知識工作指南",
+        "summary_en": "Anthropic set Claude Opus 5.5 as the default model on Pro, Max, Ultra, and Team plans and published a guide recommending it for daily knowledge work. The guide advises dropping phrases such as “think hard,” starting at Medium effort, and describing finished outputs in the first prompt.",
+        "summary_zh": "Anthropic 將 Claude Opus 5.5 設為 Pro、Max、Ultra 與 Team 方案的預設模型，並發布指南推薦用於日常知識工作。指南建議刪除「think hard」等用語、從 Medium 努力等級開始，並在第一則提示中描述完成後的輸出。",
+        "analysis_en": "Making a stronger model the default lowers the barrier for most users while the prompting guidance aims to avoid habits that under-use adaptive thinking. Whether the higher per-token cost is offset by fewer tokens per task depends on real workloads.",
+        "analysis_zh": "將更強模型設為預設降低多數使用者的門檻，提示指南則旨在避免未能善用自適應思考的習慣。較高的每 token 成本是否被每任務較少 token 抵銷，取決於真實工作負載。",
+        "quote": "Claude Opus 5.5 is now the default model in Claude on Pro, Max, Ultra, and Team plans. We recommend it as your daily driver for knowledge work.",
+        "quote_zh": "Claude Opus 5.5 現在是 Claude 在 Pro、Max、Ultra 與 Team 方案上的預設模型。我們推薦它作為知識工作的日常主力。",
+        "importance": 3,
+        "first_seen": "2026-11-15T04:35:00Z",
+        "updated_at": "2026-11-15T04:35:00.634482+00:00",
+        "links": [
+          {
+            "label": "Claude Resources",
+            "url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-claude-code-code-mode-2026-11-13",
+        "story_id": "anthropic-claude-code-code-mode-2026-11-13",
+        "category": "anthropic",
+        "source_type": "product",
+        "title_en": "Anthropic adds experimental Code Mode to Claude Code for multi-tool calls in JavaScript",
+        "title_zh": "Anthropic 在 Claude Code 加入實驗性 Code Mode，以 JavaScript 執行多工具呼叫",
+        "summary_en": "Claude Code v2.1.323 introduced experimental Code Mode, in which Claude writes JavaScript that issues multiple tool calls (Bash, Read, Edit, etc.) in one step and returns only the needed results. It is off by default and can be enabled via an environment variable on supported accounts.",
+        "summary_zh": "Claude Code v2.1.323 推出實驗性 Code Mode，Claude 撰寫 JavaScript 一次發出多個工具呼叫（Bash、Read、Edit 等），並只回傳所需結果。預設關閉，可在支援帳戶透過環境變數啟用。",
+        "analysis_en": "Code Mode targets the token cost of sequential tool calling, which is a practical bottleneck for long agentic sessions. Its experimental status and restrictions on certain features mean production impact is still uncertain.",
+        "analysis_zh": "Code Mode 針對順序工具呼叫的 token 成本，這是長程代理會話的實用瓶頸。實驗狀態與部分功能限制意味著生產影響仍不確定。",
+        "quote": "With Code Mode, Claude writes a piece of JavaScript that makes the tool calls, and Claude Code runs that code in your session.",
+        "quote_zh": "啟用 Code Mode 後，Claude 會撰寫一段進行工具呼叫的 JavaScript，並由 Claude Code 在您的工作階段中執行該程式碼。",
+        "importance": 3,
+        "first_seen": "2026-11-15T04:35:00Z",
+        "updated_at": "2026-11-15T04:35:00.634482+00:00",
+        "links": [
+          {
+            "label": "Claude Code Docs",
+            "url": "https://code.claude.com/docs/en/code-mode"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-safety-evals-recommendations-2026-11-13",
+        "story_id": "anthropic-safety-evals-recommendations-2026-11-13",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic publishes 10 recommendations for designing and reporting AI safety evaluations",
+        "title_zh": "Anthropic 發布 10 項設計與報告 AI 安全評估的建議",
+        "summary_en": "On November 13, Anthropic posted “Building Strong Safety Evaluations” on its engineering/research blog, offering 10 recommendations for how labs design, run, and report the evaluations that inform deployment and safeguard decisions. The post draws on Anthropic’s own system-card practice and recent incidents.",
+        "summary_zh": "11 月 13 日，Anthropic 在其工程/研究部落格發布《Building Strong Safety Evaluations》，提出 10 項建議，說明實驗室如何設計、執行與報告影響部署與安全護欄決策的評估。文章借鑒 Anthropic 自身系統卡實務與近期事件。",
+        "analysis_en": "Public recommendations raise the floor for evaluation quality across the industry, especially around preregistration and multi-turn testing. Whether other labs adopt them in practice will determine their influence.",
+        "analysis_zh": "公開建議提高整個產業的評估品質門檻，特別是預先註冊與多輪測試方面。其他實驗室是否實際採用將決定其影響力。",
+        "quote": "Safety evaluations inform some of the most consequential decisions we make about an AI model, including whether it’s ready to deploy, which safeguards ship alongside it, and what our next round of safety training and research should focus on.",
+        "quote_zh": "安全評估影響我們對 AI 模型所做的一些最關鍵決定，包括是否準備好部署、隨之附帶哪些安全護欄，以及下一輪安全訓練與研究應聚焦何處。",
+        "importance": 3,
+        "first_seen": "2026-11-15T04:35:00Z",
+        "updated_at": "2026-11-15T04:35:00.634482+00:00",
+        "links": [
+          {
+            "label": "Anthropic Research",
+            "url": "https://www.anthropic.com/research/building-strong-safety-evaluations"
           }
         ]
       }
@@ -321,15 +526,15 @@
         "source_type": "official_blog",
         "title_en": "Google launches Gemini 4 Hydrogen for faster everyday agentic workflows",
         "title_zh": "Google 推出 Gemini 4 Hydrogen，加速日常代理工作流程",
-        "summary_en": "On November 12, Google DeepMind and Google introduced Gemini 4 Hydrogen, positioned as a fast, efficient model for coding and agentic workflows rather than the deepest long-horizon reasoning of Carbon or Argon. It is available across the Gemini API, app, Search, and paid tiers at $1.50 / $7.50 per million tokens, claiming speed and intelligence gains over Gemini 3.8 Flash.",
-        "summary_zh": "11月12日，Google DeepMind 與 Google 推出 Gemini 4 Hydrogen，定位為針對編碼與代理工作流程的快速高效模型，而非 Carbon 或 Argon 的深度長程推理。可在 Gemini API、應用、搜尋與付費層級使用，定價每百萬 token $1.50 / $7.50，宣稱較 Gemini 3.8 Flash 在速度與智能上提升。",
-        "analysis_en": "Hydrogen broadens Gemini 4 access at a lower price point while claiming speed and efficiency gains over 3.8 Flash. It does not displace the higher-capability Carbon/Argon tier, so the practical division of labor across the family will depend on real workload results.",
-        "analysis_zh": "Hydrogen 以較低價格擴大 Gemini 4 的可用範圍，並宣稱較 3.8 Flash 在速度與效率上提升。它並未取代更高能力的 Carbon/Argon 層級，家族內的實際分工仍取決於真實工作負載結果。",
-        "quote": "Today, we’re introducing Gemini 4 Hydrogen, bringing cutting-edge intelligence to everyone — with speed and efficiency for everyday coding and agentic workflows.",
-        "quote_zh": "今天，我們推出 Gemini 4 Hydrogen，將前沿智能帶給所有人——以速度與效率支援日常編碼與代理工作流程。",
+        "summary_en": "On November 12, Google DeepMind and Google introduced Gemini 4 Hydrogen, positioned as a fast, efficient model for coding and agentic workflows rather than the deepest long-horizon reasoning of Carbon or Argon. It is available across the Gemini API, app, Search, and Antigravity.",
+        "summary_zh": "11 月 12 日，Google DeepMind 與 Google 推出 Gemini 4 Hydrogen，定位為快速高效的程式碼與代理工作流程模型，而非 Carbon 或 Argon 的最深長程推理。已在 Gemini API、應用、搜尋與 Antigravity 提供。",
+        "analysis_en": "Hydrogen broadens Gemini 4 access at a lower price point while claiming speed and efficiency gains over 3.8 Flash. It does not displace the higher-capability Carbon/Argon tier.",
+        "analysis_zh": "Hydrogen 以較低價格擴大 Gemini 4 取得範圍，並宣稱相較 3.8 Flash 有速度與效率提升。它並未取代更高能力的 Carbon/Argon 層級。",
+        "quote": "Hydrogen brings cutting-edge intelligence to everyone — with speed and efficiency for everyday coding and agentic workflows.",
+        "quote_zh": "Hydrogen 將尖端智慧帶給所有人——以速度與效率支援日常程式碼與代理工作流程。",
         "importance": 4,
         "first_seen": "2026-11-14T16:35:02Z",
-        "updated_at": "2026-11-14T22:35:02.274610+00:00",
+        "updated_at": "2026-11-15T04:35:00.634482+00:00",
         "links": [
           {
             "label": "Google Blog",
@@ -344,19 +549,46 @@
         "source_type": "official_blog",
         "title_en": "Google DeepMind introduces Gemini Robotics 2.5 for improved real-world dexterity",
         "title_zh": "Google DeepMind 推出 Gemini Robotics 2.5，提升真實世界靈巧度",
-        "summary_en": "On November 10, Google DeepMind released Gemini Robotics 2.5, a vision-language-action model that expands task breadth and learning speed. In a Mercedes-Benz proof-of-concept, Apptronik’s Apollo 2 humanoid achieved a reported 96% success rate on a parts-packing workflow, with broader evaluations showing 30–100% higher success rates than prior baselines on many tasks.",
-        "summary_zh": "11月10日，Google DeepMind 發布 Gemini Robotics 2.5，這是一個擴展任務廣度與學習速度的視覺-語言-動作模型。在 Mercedes-Benz 概念驗證中，Apptronik 的 Apollo 2 人形機器人在零件包裝工作流程上達到報導的 96% 成功率，更廣泛評估顯示許多任務的成功率較先前基線提升 30–100%。",
-        "analysis_en": "The industrial pilot supplies a concrete reliability signal beyond lab benchmarks, yet the 96% figure is vendor-reported on a narrow workflow. Broader generalization and safety in unstructured environments remain open questions.",
-        "analysis_zh": "工業試點提供了超越實驗室基準的具體可靠性訊號，但 96% 數字為供應商在狹窄工作流程上的報告。在非結構化環境中的更廣泛泛化與安全性仍是開放問題。",
+        "summary_en": "On November 10, Google DeepMind released Gemini Robotics 2.5, a vision-language-action model that expands task breadth and learning speed. In a Mercedes-Benz proof-of-concept, Apptronik’s Apollo 2 humanoid achieved a reported 96% success rate on a kitting workflow.",
+        "summary_zh": "11 月 10 日，Google DeepMind 發布 Gemini Robotics 2.5，這是一個視覺-語言-動作模型，擴大任務廣度與學習速度。在 Mercedes-Benz 概念驗證中，Apptronik 的 Apollo 2 人形機器人於分揀流程據報達到 96% 成功率。",
+        "analysis_en": "The industrial pilot supplies a concrete reliability signal beyond lab benchmarks, yet the 96% figure is vendor-reported on a narrow workflow. Broader generalization and safety in unstructured settings remain open questions.",
+        "analysis_zh": "工業試點提供超越實驗室基準的具體可靠性訊號，但 96% 數字為廠商在狹窄流程上的報告。更廣的泛化與非結構化環境中的安全仍是開放問題。",
         "quote": "Today, we are introducing Gemini Robotics 2.5, our most capable vision-language-action (VLA) model to date.",
         "quote_zh": "今天，我們推出 Gemini Robotics 2.5，這是我們迄今最強的視覺-語言-動作（VLA）模型。",
         "importance": 4,
         "first_seen": "2026-11-14T16:35:02Z",
-        "updated_at": "2026-11-14T22:35:02.274610+00:00",
+        "updated_at": "2026-11-15T04:35:00.634482+00:00",
         "links": [
           {
             "label": "Google DeepMind Blog",
+            "url": "https://deepmind.google/blog/"
+          },
+          {
+            "label": "Google DeepMind Blog",
             "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+          }
+        ]
+      },
+      {
+        "id": "google-antigravity-teamwork-research-2026-11-13",
+        "story_id": "google-antigravity-teamwork-research-2026-11-13",
+        "category": "google",
+        "source_type": "official_blog",
+        "title_en": "Google Research opens Antigravity /teamwork multi-agent tools and reports Lean formalizations of major math results",
+        "title_zh": "Google Research 開放 Antigravity /teamwork 多代理工具，並報告以 Lean 形式化重要數學結果",
+        "summary_en": "On November 13, Google Research described results from Antigravity’s /teamwork multi-agent workflows using Gemini 4 models, including claimed machine-checked formalizations such as a full proof of the Courtade–Kumar conjecture and large Lean formalizations of the Weil conjectures. External researchers can use the tools today, with applications open for 10,000 free high-tier seats.",
+        "summary_zh": "11 月 13 日，Google Research 描述使用 Gemini 4 模型的 Antigravity /teamwork 多代理工作流程結果，包括宣稱以機器檢查形式化 Courtade–Kumar 猜想的完整證明，以及 Weil 猜想的大規模 Lean 形式化。外部研究者今日即可使用這些工具，並開放 1 萬個免費高階席位申請。",
+        "analysis_en": "Opening multi-agent research orchestration to outsiders accelerates independent scrutiny of the claimed formalizations. The scale of the Lean outputs is notable, but independent verification of the largest results is still required.",
+        "analysis_zh": "向外部開放多代理研究編排可加速對所宣稱形式化的獨立審查。Lean 輸出規模值得注意，但最大結果仍需獨立驗證。",
+        "quote": "External scientists and developers can use Gemini 4 models with /teamwork and /boost in Antigravity and Deep Review today.",
+        "quote_zh": "外部科學家與開發者今日即可在 Antigravity 與 Deep Review 中使用 Gemini 4 模型搭配 /teamwork 與 /boost。",
+        "importance": 4,
+        "first_seen": "2026-11-15T04:35:00Z",
+        "updated_at": "2026-11-15T04:35:00.634482+00:00",
+        "links": [
+          {
+            "label": "Google Research Blog",
+            "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
           }
         ]
       },
@@ -367,16 +599,20 @@
         "source_type": "official_blog",
         "title_en": "Google DeepMind releases PARDIG and SatWeave weather datasets",
         "title_zh": "Google DeepMind 發布 PARDIG 與 SatWeave 天氣資料集",
-        "summary_en": "On November 13, Google DeepMind released two foundational datasets used by WeatherNext 3: SatWeave (a global mosaic of geostationary satellite imagery) and PARDIG (an AI-based global precipitation dataset). Historical archives and live feeds are available on Google Cloud Storage (and Earth Engine for PARDIG), with claimed gains in precipitation detection skill.",
-        "summary_zh": "11月13日，Google DeepMind 發布 WeatherNext 3 所使用的兩大基礎資料集：SatWeave（全球靜止衛星影像拼接）與 PARDIG（基於 AI 的全球降水資料集）。歷史存檔與即時資料流可在 Google Cloud Storage（PARDIG 亦可在 Earth Engine）取得，並宣稱降水偵測技巧有所提升。",
-        "analysis_en": "Open observational datasets lower the barrier for third parties to build on DeepMind’s weather stack. Independent validation of the claimed precipitation-skill gains will determine how widely they are adopted beyond the lab’s own models.",
-        "analysis_zh": "開放觀測資料集降低第三方在 DeepMind 天氣堆疊上建構的門檻。對所宣稱降水技巧提升的獨立驗證，將決定它們在實驗室自身模型之外被廣泛採用的程度。",
+        "summary_en": "On November 13, Google DeepMind released two foundational datasets used by WeatherNext 3: SatWeave (a global mosaic of geostationary satellite imagery) and PARDIG (an AI-based global precipitation dataset). Historical archives and live feeds are available.",
+        "summary_zh": "11 月 13 日，Google DeepMind 發布 WeatherNext 3 所用的兩個基礎資料集：SatWeave（地球靜止衛星影像的全球拼接）與 PARDIG（基於 AI 的全球降水資料集）。歷史檔案與即時饋送皆可取得。",
+        "analysis_en": "Open observational datasets lower the barrier for third parties to build on DeepMind’s weather stack. Independent validation of the claimed precipitation-skill gains will determine their lasting value.",
+        "analysis_zh": "開放觀測資料集降低第三方在 DeepMind 天氣堆疊上建構的門檻。對所宣稱降水技能提升的獨立驗證將決定其長久價值。",
         "quote": "Today, we are releasing two foundational datasets, SatWeave and PARDIG, to support the global community in building weather, hydrology, and climate applications.",
         "quote_zh": "今天，我們發布兩個基礎資料集 SatWeave 與 PARDIG，以支援全球社群建構天氣、水文與氣候應用。",
         "importance": 3,
         "first_seen": "2026-11-14T16:35:02Z",
-        "updated_at": "2026-11-14T22:35:02.274610+00:00",
+        "updated_at": "2026-11-15T04:35:00.634482+00:00",
         "links": [
+          {
+            "label": "Google DeepMind Blog",
+            "url": "https://deepmind.google/blog/"
+          },
           {
             "label": "Google DeepMind Blog",
             "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/"
@@ -389,19 +625,23 @@
         "id": "meta-muse-ember-2026-11-09",
         "story_id": "meta-muse-ember-2026-11-09",
         "category": "meta",
-        "source_type": "official_x",
+        "source_type": "official_blog",
         "title_en": "Meta introduces Muse Ember, a small efficient model for agentic workloads",
         "title_zh": "Meta 推出 Muse Ember，針對代理工作負載的小型高效模型",
-        "summary_en": "On November 9, Meta AI announced Muse Ember, its smallest and most efficient model to date, built for high-volume agentic tasks such as tool calls, coding subtasks, and long-document parsing. It is available on the Meta Model API at $0.10 per million input tokens and $0.50 per million output tokens, with native multimodal support and a 1M-token context window.",
-        "summary_zh": "11月9日，Meta AI 宣布 Muse Ember，這是其迄今最小且最高效的模型，針對高量代理任務如工具呼叫、編碼子任務與長文件解析。可在 Meta Model API 以每百萬輸入 token $0.10、輸出 $0.50 取得，具備原生多模態支援與 100 萬 token 上下文視窗。",
-        "analysis_en": "Ember extends Meta’s Muse family into a low-cost, high-throughput tier, aiming at the economics of always-on agents. Claims of matching or beating Haiku 5.5 at one-third the cost need independent verification on sustained real workloads.",
-        "analysis_zh": "Ember 將 Meta 的 Muse 家族延伸至低成本、高吞吐量層級，瞄準持續運行代理的經濟性。關於以三分之一成本匹配或超越 Haiku 5.5 的宣稱，需在持續真實工作負載上獨立驗證。",
+        "summary_en": "On November 9, Meta AI announced Muse Ember, its smallest and most efficient model to date, built for high-volume agentic tasks such as tool calls, coding subtasks, and long-document parsing. It is available on the Meta Model API at $0.10 per million input tokens.",
+        "summary_zh": "11 月 9 日，Meta AI 宣布 Muse Ember，其迄今最小且最有效率的模型，針對高流量代理任務如工具呼叫、程式碼子任務與長文件解析。已在 Meta Model API 提供，每百萬輸入 token 0.10 美元。",
+        "analysis_en": "Ember extends Meta’s Muse family into a low-cost, high-throughput tier, aiming at the economics of always-on agents. Claims of matching or beating Haiku 5.5 at one-third the cost need independent confirmation.",
+        "analysis_zh": "Ember 將 Meta 的 Muse 家族延伸至低成本、高吞吐量層級，瞄準常開代理的經濟性。以三分之一成本匹配或超越 Haiku 5.5 的宣稱需要獨立確認。",
         "quote": "Today we're introducing Muse Ember, our smallest and most efficient model, built for complex reasoning execution and everyday agent work.",
         "quote_zh": "今天我們推出 Muse Ember，這是我們最小且最高效的模型，針對複雜推理執行與日常代理工作而打造。",
         "importance": 3,
         "first_seen": "2026-11-14T16:35:02Z",
-        "updated_at": "2026-11-14T22:35:02.274610+00:00",
+        "updated_at": "2026-11-15T04:35:00.634482+00:00",
         "links": [
+          {
+            "label": "Meta AI",
+            "url": "https://ai.meta.com/"
+          },
           {
             "label": "AI at Meta on X",
             "url": "https://x.com/AIatMeta/status/2119853591703998787"
@@ -416,7 +656,7 @@
     "xai": [],
     "frontier_other": []
   },
-  "brief_en": "No major new lab announcements in the last 12 hours. Today's picture remains Anthropic's Fable/Mythos 5.2 and IPO roadshow, OpenAI's ChatGPT Wallet and robotics reorg, Google's Gemini 4 Hydrogen plus Robotics 2.5 and weather datasets, and Meta's Muse Ember.",
-  "brief_zh": "過去12小時無重大新公告。今日重點仍為Anthropic的Fable/Mythos 5.2與IPO路演、OpenAI的ChatGPT Wallet與機器人團隊重組、Google的Gemini 4 Hydrogen及Robotics 2.5與天氣資料集，以及Meta的Muse Ember。",
-  "updated_at": "2026-11-14T22:35:02.274610+00:00"
+  "brief_en": "Anthropic made Opus 5.5 the default on paid plans with a knowledge-work prompting guide, shipped experimental Code Mode in Claude Code for fewer tool-call tokens, and published 10 safety-evaluation recommendations. Google opened Antigravity /teamwork multi-agent research tools, claiming Lean formalizations of major math results. Prior items on Fable 5.2, ChatGPT Wallet, Gemini 4 Hydrogen, and the Anthropic IPO roadshow remain the week's flagships.",
+  "brief_zh": "Anthropic 將 Opus 5.5 設為付費方案預設模型並發布知識工作提示指南，Claude Code 實驗性 Code Mode 可減少工具呼叫 token；另發表 10 項安全評估建議。Google 開放 Antigravity /teamwork 多代理研究工具，宣稱以 Lean 形式化多項重要數學結果。本週旗艦仍為 Fable 5.2、ChatGPT Wallet、Gemini 4 Hydrogen 與 Anthropic IPO 路演。",
+  "updated_at": "2026-11-15T04:35:00.634482+00:00"
 }
