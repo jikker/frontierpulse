@@ -24,6 +24,14 @@
       "item_count": 5,
       "updated_count": 5,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-11-22T10:35:01.862881+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 5,
+      "updated_count": 5,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -33,19 +41,19 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic closes record IPO with full underwriter option and concurrent private placement",
-      "title_zh": "Anthropic完成史上最大IPO，全額行使承銷商超額配售並同步完成私有配售",
-      "summary_en": "Anthropic announced the closing of its IPO of 1.127 billion Class A shares at $83.00, including full exercise of the underwriters’ option for an additional 147 million shares. Gross proceeds from the public offering were about $93.5 billion, of which Anthropic received about $91.6 billion. It also closed a concurrent private placement of 313 million Class N shares to AMD, Broadcom, Google, Micron, Microsoft, NVIDIA and TSMC for about $26 billion, bringing total gross proceeds to roughly $119.5 billion. Trading began November 19 on Nasdaq under ANT.",
-      "summary_zh": "Anthropic宣布完成IPO，以每股83美元發行11.27億股A類股，包括承銷商全額行使1.47億股超額配售權。公開發行總收益約935億美元，其中公司本身約獲得916億美元。同時完成向AMD、Broadcom、Google、Micron、Microsoft、NVIDIA與TSMC的3.13億股N類股私有配售，金額約260億美元，合計總收益約1195億美元。股票自11月19日起在Nasdaq以ANT代碼交易。",
-      "analysis_en": "The close locks in the largest IPO on record and pairs public capital with strategic hardware-provider investment, giving Anthropic substantial balance-sheet strength while embedding key suppliers as shareholders. Market reception remains mixed: shares closed the first day near $97 but later tested levels close to the offer price amid broader tech weakness.",
-      "analysis_zh": "本次完成鎖定史上最大IPO，並將公開資本與關鍵硬體供應商的戰略投資結合，為Anthropic帶來充沛資產負債表實力，同時讓主要供應商成為股東。市場反應仍分歧：首日收盤接近97美元，隨後在科技股疲弱中一度回測接近發行價水準。",
-      "quote": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares...",
-      "quote_zh": "今日Anthropic, PBC宣布完成其首次公開發行，以每股83.00美元的公開發行價，合計發行1,127,000,000股A類普通股，包括承銷商全額行使其購買額外147,000,000股的選擇權……",
+      "title_zh": "Anthropic完成創紀錄IPO，全額行使承銷選擇權並同步私募",
+      "summary_en": "Anthropic announced the closing of its IPO of 1.127 billion Class A shares at $83.00, including full exercise of the underwriters’ option for an additional 147 million shares. Gross proceeds from the public offering were about $93.5 billion, of which Anthropic received roughly $91.6 billion; a concurrent private placement of Class N shares to hardware providers raised about $26 billion.",
+      "summary_zh": "Anthropic宣布完成其首次公開發行，以每股83美元發行11.27億股A類普通股，並全額行使承銷商額外購買1.47億股的選擇權。公開發行總募集約935億美元，其中公司取得約916億美元；同步向硬體供應商私募N類股約260億美元。",
+      "analysis_en": "The close locks in the largest IPO on record and pairs public capital with strategic hardware-provider investment, giving Anthropic substantial balance-sheet strength while embedding major chipmakers as shareholders. Execution of the underwriters’ option and the private placement both at the IPO price signal strong demand, though post-listing trading performance and capital allocation remain to be observed.",
+      "analysis_zh": "此次完成鎖定史上最大IPO，並將公開資本與策略硬體供應商投資結合，大幅強化Anthropic資產負債表，同時使主要晶片商成為股東。承銷選擇權與私募均以IPO價格執行顯示需求強勁，但上市後交易表現與資金配置仍待觀察。",
+      "quote": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares of Class A common stock from Anthropic at the initial public offering price.",
+      "quote_zh": "今日Anthropic, PBC宣布完成其首次公開發行，以每股83.00美元的公開發行價格發行合計11.27億股A類普通股，包括承銷商全額行使以首次公開發行價格向Anthropic額外購買1.47億股A類普通股的選擇權。",
       "importance": 5,
       "first_seen": "2026-11-21T16:35:00Z",
-      "updated_at": "2026-11-22T04:35:02.081621+00:00",
+      "updated_at": "2026-11-22T10:35:01.862881+00:00",
       "links": [
         {
-          "label": "Anthropic News",
+          "label": "Anthropic Blog",
           "url": "https://www.anthropic.com/news/ipo-close"
         },
         {
@@ -55,103 +63,30 @@
       ]
     },
     {
-      "id": "openai-adversarial-distillation-defenses-2026-11-20",
-      "story_id": "openai-adversarial-distillation-defenses-2026-11-20",
-      "category": "openai",
-      "source_type": "official_blog",
-      "title_en": "OpenAI details defenses that sharply reduce protected-reasoning extraction",
-      "title_zh": "OpenAI詳述大幅降低受保護推理萃取成功率的防禦措施",
-      "summary_en": "OpenAI published how it combats adversarial distillation—unauthorized use of model outputs or reasoning to train another model. It strengthened protections for protected reasoning in GPT-6.2 Astra and Sol. In internal adaptive black-box red-teaming, the average success rate for extracting protected reasoning from an earlier request fell from 54.0% on GPT-6 Astra with original safeguards to 0.2% on GPT-6.2 Astra with updated safeguards. Defenses span adversarial training, input/output classifiers, API-level restrictions that drop reasoning when history is edited, and campaign-level detection.",
-      "summary_zh": "OpenAI公布如何對抗對抗性蒸餾（未經授權使用模型輸出或推理來訓練另一模型）。它加強了GPT-6.2 Astra與Sol的受保護推理防護。在內部自適應黑箱紅隊測試中，從先前請求萃取受保護推理的平均成功率，從採用原始防護的GPT-6 Astra的54.0%，降至採用更新防護的GPT-6.2 Astra的0.2%。防禦涵蓋對抗訓練、輸入/輸出分類器、編輯歷史時丟棄推理的API層限制，以及戰役層級偵測。",
-      "analysis_en": "The large drop in extraction success is OpenAI’s own adaptive red-team result and has not been independently reproduced; it indicates stronger request-level and campaign-level controls that raise the cost of capability transfer, especially for dual-use domains such as cyber. Residual risk remains on third-party platforms and via novel attack patterns.",
-      "analysis_zh": "萃取成功率大幅下降是OpenAI自身的自適應紅隊結果，尚未經獨立重現；它顯示請求層與戰役層控制更強，提高能力轉移成本，尤其在網路等雙重用途領域。第三方平台與新型攻擊模式仍存在殘餘風險。",
-      "quote": "The average attack success rate fell from 54.0% against GPT‑6 Astra with its original safeguards to 0.2% against GPT‑6.2 Astra with its updated safeguards.",
-      "quote_zh": "平均攻擊成功率從採用原始防護的GPT-6 Astra的54.0%，降至採用更新防護的GPT-6.2 Astra的0.2%。",
-      "importance": 4,
-      "first_seen": "2026-11-21T16:35:00Z",
-      "updated_at": "2026-11-22T04:35:02.081621+00:00",
-      "links": [
-        {
-          "label": "OpenAI Blog",
-          "url": "https://openai.com/index/combatting-adversarial-distillation/"
-        },
-        {
-          "label": "OpenAI on X",
-          "url": "https://x.com/OpenAI/status/2123862344422088794"
-        }
-      ]
-    },
-    {
-      "id": "openai-medchembench-2026-11-20",
-      "story_id": "openai-medchembench-2026-11-20",
-      "category": "openai",
-      "source_type": "official_blog",
-      "title_en": "OpenAI introduces MedChemBench for medicinal-chemistry reasoning",
-      "title_zh": "OpenAI推出用於藥物化學推理的MedChemBench基準",
-      "summary_en": "OpenAI released MedChemBench, a 99-problem benchmark drawn from 117 papers and patents covering 761 molecular structures. It evaluates models on reconstructing structures, explaining evidence, ranking/selecting compounds and predicting properties. At xhigh reasoning, GPT-6.2 Astra scored 84.5% of available credit versus 83.3% for GPT-6 Astra, 82.0% for GPT-6.1 Sol and 58.2% for GPT-5.6 Sol. Structure reconstruction and scientific explanation were strong; compound selection and numerical property prediction were substantially weaker.",
-      "summary_zh": "OpenAI釋出MedChemBench，從117篇論文與專利中抽取99題、涵蓋761個分子結構的基準。它評估模型在重建結構、解釋證據、排序/選擇化合物與預測性質上的表現。在xhigh推理設定下，GPT-6.2 Astra獲得84.5%可用分數，GPT-6 Astra為83.3%、GPT-6.1 Sol為82.0%、GPT-5.6 Sol為58.2%。結構重建與科學解釋表現強，化合物選擇與數值性質預測則明顯較弱。",
-      "analysis_en": "The benchmark isolates where current frontier models remain weak (compound selection and numerical property prediction) despite strong structure reconstruction, giving a clearer signal of remaining gaps before reliable assistance in early drug discovery. Results are retrospective and single-turn; real-world impact is unproven.",
-      "analysis_zh": "該基準明確顯示目前前沿模型在結構重建強的同時，化合物選擇與數值性質預測仍弱，為早期藥物發現可靠輔助前的缺口提供更清晰訊號。結果為回溯式且單輪；實際世界影響尚未證實。",
-      "quote": "At the xhigh reasoning setting, GPT‑6.2 Astra earned 84.5% of the available credit, compared with 83.3% for GPT‑6 Astra, 82.0% for GPT‑6.1 Sol, and 58.2% for GPT‑5.6 Sol.",
-      "quote_zh": "在xhigh推理設定下，GPT-6.2 Astra獲得84.5%的可用分數，相較於GPT-6 Astra的83.3%、GPT-6.1 Sol的82.0%以及GPT-5.6 Sol的58.2%。",
-      "importance": 3,
-      "first_seen": "2026-11-21T16:35:00Z",
-      "updated_at": "2026-11-22T04:35:02.081621+00:00",
-      "links": [
-        {
-          "label": "OpenAI Blog",
-          "url": "https://openai.com/index/introducing-medchembench/"
-        },
-        {
-          "label": "OpenAI on X",
-          "url": "https://x.com/OpenAI/status/2123856316187975756"
-        }
-      ]
-    },
-    {
-      "id": "meta-open-source-ai-science-summit-highlights-2026-11-20",
-      "story_id": "meta-open-source-ai-science-summit-highlights-2026-11-20",
-      "category": "meta",
-      "source_type": "official_blog",
-      "title_en": "Meta shares Open Source AI for Science Summit highlights, including UMA Nitro",
-      "title_zh": "Meta分享開源AI科學峰會亮點，包括UMA Nitro",
-      "summary_en": "Meta’s FAIR team recapped its Open Source AI for Science Summit. It expanded the Digital Brain Project data target from 15,000 to 25,000 hours, released UMA Nitro (a faster Universal Model for Atoms) that has identified crystal forms of drug molecules without extra training and simulated entire enzymes, and highlighted ATLAS (formalizing 26 open-access textbooks and over 45,000 computer-checked results). UMA Playground is also reaching classrooms via Discovery Education and RealChem.",
-      "summary_zh": "Meta FAIR團隊回顧其開源AI科學峰會。它將Digital Brain Project資料目標從15,000小時擴大至25,000小時，釋出更快的Universal Model for Atoms版本UMA Nitro（無需額外訓練即可識別藥物分子晶型並模擬整個酶），並強調ATLAS（形式化26本開放教材與超過45,000項電腦驗證結果）。UMA Playground亦透過Discovery Education與RealChem進入課堂。",
-      "analysis_en": "The releases continue Meta’s open-weights science strategy, making atomic-scale simulation and formalized mathematics more accessible to academic partners. Real-world impact depends on independent adoption and whether the speed gains translate into new experimental candidates.",
-      "analysis_zh": "這些釋出延續Meta的開源權重科學策略，讓原子尺度模擬與形式化數學更易被學術夥伴取得。實際影響取決於獨立採用程度，以及速度提升是否能轉化為新的實驗候選。",
-      "quote": "At the summit, we released UMA Nitro, a faster version of Meta’s Universal Model for Atoms.",
-      "quote_zh": "在峰會上，我們釋出UMA Nitro，Meta的Universal Model for Atoms的更快版本。",
-      "importance": 3,
-      "first_seen": "2026-11-21T16:35:00Z",
-      "updated_at": "2026-11-22T04:35:02.081621+00:00",
-      "links": [
-        {
-          "label": "Meta Newsroom",
-          "url": "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit/"
-        },
-        {
-          "label": "AI at Meta on X",
-          "url": "https://x.com/AIatMeta/status/2123882678332322134"
-        }
-      ]
-    },
-    {
       "id": "anthropic-alpoge-riemann-claim-2026-11-20",
       "story_id": "anthropic-alpoge-riemann-claim-2026-11-20",
       "category": "anthropic",
       "source_type": "mixed",
-      "title_en": "Anthropic mathematician claims Lean-formalized Riemann hypothesis proof with Claude",
-      "title_zh": "Anthropic數學家宣稱與Claude以Lean形式化證明黎曼猜想",
-      "summary_en": "Levent Alpöge, a mathematician at Anthropic, posted a note on his personal site stating he believes he and Claude discovered a proof of the Riemann hypothesis (and the generalized form), released only as Lean formalization of roughly 17 million lines. He credits Claude with key late-stage steps and says he checked with Dario Amodei before announcing. Anthropic has not issued an official statement; independent verification of the formalization is pending.",
-      "summary_zh": "Anthropic數學家Levent Alpöge在個人網站發布筆記，稱他相信自己與Claude發現了黎曼猜想（及廣義形式）的證明，僅以約1700萬行Lean形式化釋出。他將後期關鍵步驟歸功於Claude，並表示宣布前曾與Dario Amodei確認。Anthropic尚未發表官方聲明；形式化的獨立驗證仍待進行。",
-      "analysis_en": "If the formalization holds under independent scrutiny it would be a landmark AI-assisted mathematics result, but the absence of a conventional paper and lack of external verification leave the claim unconfirmed. Timing relative to the IPO has drawn attention, though Alpöge has addressed the sequencing.",
-      "analysis_zh": "若形式化在獨立審查下成立，將是AI輔助數學的里程碑結果，但缺乏傳統論文與外部驗證使主張尚未確認。宣布時間與IPO的相對關係已引起注意，儘管Alpöge已說明順序。",
-      "quote": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis.",
-      "quote_zh": "我相信我與Claude一起發現了黎曼猜想的證明。",
-      "importance": 3,
+      "title_en": "Lean and Mathlib communities certify Anthropic mathematician’s Claude-assisted Riemann hypothesis formalization",
+      "title_zh": "Lean與Mathlib社群認證Anthropic數學家與Claude合作的黎曼猜想形式化",
+      "summary_en": "Levent Alpöge posted a note stating he and Claude discovered a proof of the Riemann hypothesis (and generalized form), released only as a Lean formalization of roughly 17 million lines. On November 21 the Lean and Mathlib communities issued a joint statement, endorsed by the Lean FRO and Mathlib Initiative, certifying that both the statement and the proof are correct after compilation, statement-comparison, and multi-kernel checks.",
+      "summary_zh": "Levent Alpöge在個人網站發布說明，稱他與Claude發現黎曼猜想（及廣義形式）的證明，僅以約1700萬行的Lean形式化釋出。11月21日Lean與Mathlib社群發表聯合聲明（獲Lean FRO與Mathlib Initiative背書），經編譯、陳述比對與多核心檢查後，認證陳述與證明均正確。",
+      "analysis_en": "Community certification of the Lean formalization removes a major technical objection and elevates the claim from unverified announcement to machine-checked result. A conventional human-readable paper is still absent, so mathematical understanding and independent conceptual review remain open; the scale of the AI-generated artifact also raises questions about how such proofs will be digested and taught.",
+      "analysis_zh": "社群認證Lean形式化移除主要技術疑慮，使主張從未驗證宣布提升為機器檢查結果。仍缺乏傳統可讀論文，數學理解與獨立概念審查仍待進行；AI生成工件的規模也引發此類證明如何消化與教學的問題。",
+      "quote": "We have full confidence that Alpöge's proof of the Riemann Hypothesis is correct, and we congratulate him on this achievement.",
+      "quote_zh": "我們對Alpöge的黎曼猜想證明正確性具有完全信心，並恭喜他達成此成就。",
+      "importance": 5,
       "first_seen": "2026-11-21T16:35:00Z",
-      "updated_at": "2026-11-22T04:35:02.081621+00:00",
+      "updated_at": "2026-11-22T10:35:01.862881+00:00",
       "links": [
+        {
+          "label": "Lean community blog",
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+        },
+        {
+          "label": "Alpöge note",
+          "url": "https://alpo.ge/remark.pdf"
+        },
         {
           "label": "Levent Alpöge personal site (via reporting)",
           "url": "https://alpo.ge/"
@@ -169,6 +104,87 @@
           "url": "https://www.japantimes.co.jp/news/2026/11/21/world/science-health/ai-anthropic-claude-riemann-hypothesis/"
         }
       ]
+    },
+    {
+      "id": "openai-adversarial-distillation-defenses-2026-11-20",
+      "story_id": "openai-adversarial-distillation-defenses-2026-11-20",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI details defenses that sharply reduce protected-reasoning extraction",
+      "title_zh": "OpenAI詳述大幅降低保護推理提取的防禦措施",
+      "summary_en": "OpenAI published how it combats adversarial distillation—unauthorized use of model outputs or reasoning to train another model. It strengthened protections for protected reasoning in GPT-6.2 Astra and Sol. In internal adaptive black-box red-team tests the average success rate for recovering protected reasoning from an earlier request fell from 54.0% on GPT-6 Astra (original safeguards) to 0.2% on GPT-6.2 Astra (updated safeguards).",
+      "summary_zh": "OpenAI發布對抗對抗性蒸餾（未經授權使用模型輸出或推理訓練另一模型）的方法，並強化GPT-6.2 Astra與Sol對保護推理的防護。內部自適應黑盒紅隊測試顯示，從先前請求恢復保護推理的平均成功率，從原有防護的GPT-6 Astra的54.0%降至更新防護的GPT-6.2 Astra的0.2%。",
+      "analysis_en": "The large drop in extraction success is OpenAI’s own adaptive red-team result and has not been independently reproduced; it indicates stronger request-level and campaign-level controls but leaves open how well the same protections hold on third-party hosts or against future attack techniques.",
+      "analysis_zh": "提取成功率大幅下降是OpenAI自身自適應紅隊結果，尚未獨立重現；顯示請求層與活動層控制強化，但第三方託管或未來攻擊手法下的有效性仍待觀察。",
+      "quote": "The average attack success rate fell from 54.0% against GPT‑6 Astra with its original safeguards to 0.2% against GPT‑6.2 Astra with its updated safeguards.",
+      "quote_zh": "平均攻擊成功率從針對原有防護的GPT-6 Astra的54.0%降至針對更新防護的GPT-6.2 Astra的0.2%。",
+      "importance": 4,
+      "first_seen": "2026-11-21T16:35:00Z",
+      "updated_at": "2026-11-22T10:35:01.862881+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/combatting-adversarial-distillation/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2123862344422088794"
+        }
+      ]
+    },
+    {
+      "id": "openai-medchembench-2026-11-20",
+      "story_id": "openai-medchembench-2026-11-20",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI introduces MedChemBench for medicinal-chemistry reasoning",
+      "title_zh": "OpenAI推出藥物化學推理基準MedChemBench",
+      "summary_en": "OpenAI released MedChemBench, a 99-problem benchmark drawn from 117 papers and patents covering 761 molecular structures. It evaluates models on reconstructing structures, explaining evidence, ranking/selecting compounds and predicting properties. At xhigh reasoning GPT-6.2 Astra scored 84.5% of available credit; structure reconstruction was strong while compound selection and numerical property prediction remained weaker.",
+      "summary_zh": "OpenAI發布MedChemBench，包含99個問題，取材自117篇論文與專利、涵蓋761個分子結構。評估模型重建結構、解釋證據、排序/選擇化合物與預測性質。在xhigh推理設定下GPT-6.2 Astra取得可用分數的84.5%；結構重建強，但化合物選擇與數值性質預測較弱。",
+      "analysis_en": "The benchmark isolates where current frontier models remain weak (compound selection and numerical property prediction) despite strong structure reconstruction, giving a clearer signal for drug-discovery-relevant reasoning. Only OpenAI models are scored, so cross-lab comparison is not yet available.",
+      "analysis_zh": "基準清楚指出當前前沿模型在結構重建強勢下，仍弱於化合物選擇與數值性質預測，為藥物發現相關推理提供更明確信號。目前僅評分OpenAI模型，跨實驗室比較尚未可得。",
+      "quote": "We’re introducing MedChemBench, a benchmark that evaluates AI models on reasoning tasks drawn from medicinal chemistry research.",
+      "quote_zh": "我們推出MedChemBench，一個評估AI模型在藥物化學研究推理任務上表現的基準。",
+      "importance": 3,
+      "first_seen": "2026-11-21T16:35:00Z",
+      "updated_at": "2026-11-22T10:35:01.862881+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/introducing-medchembench/"
+        },
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2123856316187975756"
+        }
+      ]
+    },
+    {
+      "id": "meta-open-source-ai-science-summit-highlights-2026-11-20",
+      "story_id": "meta-open-source-ai-science-summit-highlights-2026-11-20",
+      "category": "meta",
+      "source_type": "official_blog",
+      "title_en": "Meta shares Open Source AI for Science Summit highlights, including UMA Nitro",
+      "title_zh": "Meta分享開源AI科學峰會亮點，包含UMA Nitro",
+      "summary_en": "Meta’s FAIR team recapped its Open Source AI for Science Summit. It expanded the Digital Brain Project data target from 15,000 to 25,000 hours, released UMA Nitro (a faster Universal Model for Atoms) that has identified crystal forms of drug molecules, and demonstrated enzyme simulations and assistive robotics built on open models such as DINOv3 and SAM 3.",
+      "summary_zh": "Meta FAIR團隊回顧開源AI科學峰會。數位大腦計畫數據目標從15,000小時擴至25,000小時，釋出更快的通用原子模型UMA Nitro（已識別藥物分子晶型），並展示以DINOv3與SAM 3等開放模型建構的酶模擬與輔助機器人。",
+      "analysis_en": "The releases continue Meta’s open-weights science strategy, making atomic-scale simulation and formalized mathematics more accessible to academic partners. Real-world impact depends on independent validation of the reported crystal-form and enzyme results and on uptake beyond Meta’s own collaborations.",
+      "analysis_zh": "這些發布延續Meta開放權重科學策略，使原子尺度模擬與形式化數學對學術夥伴更易取得。實際影響取決於所報晶型與酶結果的獨立驗證，以及合作範圍外的採用情況。",
+      "quote": "At the summit, we released UMA Nitro, a faster version of Meta’s Universal Model for Atoms.",
+      "quote_zh": "在峰會上，我們釋出UMA Nitro，Meta通用原子模型的更快版本。",
+      "importance": 3,
+      "first_seen": "2026-11-21T16:35:00Z",
+      "updated_at": "2026-11-22T10:35:01.862881+00:00",
+      "links": [
+        {
+          "label": "Meta Newsroom",
+          "url": "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit/"
+        },
+        {
+          "label": "AI at Meta on X",
+          "url": "https://x.com/AIatMeta/status/2123882678332322134"
+        }
+      ]
     }
   ],
   "categories": {
@@ -179,16 +195,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI details defenses that sharply reduce protected-reasoning extraction",
-        "title_zh": "OpenAI詳述大幅降低受保護推理萃取成功率的防禦措施",
-        "summary_en": "OpenAI published how it combats adversarial distillation—unauthorized use of model outputs or reasoning to train another model. It strengthened protections for protected reasoning in GPT-6.2 Astra and Sol. In internal adaptive black-box red-teaming, the average success rate for extracting protected reasoning from an earlier request fell from 54.0% on GPT-6 Astra with original safeguards to 0.2% on GPT-6.2 Astra with updated safeguards. Defenses span adversarial training, input/output classifiers, API-level restrictions that drop reasoning when history is edited, and campaign-level detection.",
-        "summary_zh": "OpenAI公布如何對抗對抗性蒸餾（未經授權使用模型輸出或推理來訓練另一模型）。它加強了GPT-6.2 Astra與Sol的受保護推理防護。在內部自適應黑箱紅隊測試中，從先前請求萃取受保護推理的平均成功率，從採用原始防護的GPT-6 Astra的54.0%，降至採用更新防護的GPT-6.2 Astra的0.2%。防禦涵蓋對抗訓練、輸入/輸出分類器、編輯歷史時丟棄推理的API層限制，以及戰役層級偵測。",
-        "analysis_en": "The large drop in extraction success is OpenAI’s own adaptive red-team result and has not been independently reproduced; it indicates stronger request-level and campaign-level controls that raise the cost of capability transfer, especially for dual-use domains such as cyber. Residual risk remains on third-party platforms and via novel attack patterns.",
-        "analysis_zh": "萃取成功率大幅下降是OpenAI自身的自適應紅隊結果，尚未經獨立重現；它顯示請求層與戰役層控制更強，提高能力轉移成本，尤其在網路等雙重用途領域。第三方平台與新型攻擊模式仍存在殘餘風險。",
+        "title_zh": "OpenAI詳述大幅降低保護推理提取的防禦措施",
+        "summary_en": "OpenAI published how it combats adversarial distillation—unauthorized use of model outputs or reasoning to train another model. It strengthened protections for protected reasoning in GPT-6.2 Astra and Sol. In internal adaptive black-box red-team tests the average success rate for recovering protected reasoning from an earlier request fell from 54.0% on GPT-6 Astra (original safeguards) to 0.2% on GPT-6.2 Astra (updated safeguards).",
+        "summary_zh": "OpenAI發布對抗對抗性蒸餾（未經授權使用模型輸出或推理訓練另一模型）的方法，並強化GPT-6.2 Astra與Sol對保護推理的防護。內部自適應黑盒紅隊測試顯示，從先前請求恢復保護推理的平均成功率，從原有防護的GPT-6 Astra的54.0%降至更新防護的GPT-6.2 Astra的0.2%。",
+        "analysis_en": "The large drop in extraction success is OpenAI’s own adaptive red-team result and has not been independently reproduced; it indicates stronger request-level and campaign-level controls but leaves open how well the same protections hold on third-party hosts or against future attack techniques.",
+        "analysis_zh": "提取成功率大幅下降是OpenAI自身自適應紅隊結果，尚未獨立重現；顯示請求層與活動層控制強化，但第三方託管或未來攻擊手法下的有效性仍待觀察。",
         "quote": "The average attack success rate fell from 54.0% against GPT‑6 Astra with its original safeguards to 0.2% against GPT‑6.2 Astra with its updated safeguards.",
-        "quote_zh": "平均攻擊成功率從採用原始防護的GPT-6 Astra的54.0%，降至採用更新防護的GPT-6.2 Astra的0.2%。",
+        "quote_zh": "平均攻擊成功率從針對原有防護的GPT-6 Astra的54.0%降至針對更新防護的GPT-6.2 Astra的0.2%。",
         "importance": 4,
         "first_seen": "2026-11-21T16:35:00Z",
-        "updated_at": "2026-11-22T04:35:02.081621+00:00",
+        "updated_at": "2026-11-22T10:35:01.862881+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -206,16 +222,16 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI introduces MedChemBench for medicinal-chemistry reasoning",
-        "title_zh": "OpenAI推出用於藥物化學推理的MedChemBench基準",
-        "summary_en": "OpenAI released MedChemBench, a 99-problem benchmark drawn from 117 papers and patents covering 761 molecular structures. It evaluates models on reconstructing structures, explaining evidence, ranking/selecting compounds and predicting properties. At xhigh reasoning, GPT-6.2 Astra scored 84.5% of available credit versus 83.3% for GPT-6 Astra, 82.0% for GPT-6.1 Sol and 58.2% for GPT-5.6 Sol. Structure reconstruction and scientific explanation were strong; compound selection and numerical property prediction were substantially weaker.",
-        "summary_zh": "OpenAI釋出MedChemBench，從117篇論文與專利中抽取99題、涵蓋761個分子結構的基準。它評估模型在重建結構、解釋證據、排序/選擇化合物與預測性質上的表現。在xhigh推理設定下，GPT-6.2 Astra獲得84.5%可用分數，GPT-6 Astra為83.3%、GPT-6.1 Sol為82.0%、GPT-5.6 Sol為58.2%。結構重建與科學解釋表現強，化合物選擇與數值性質預測則明顯較弱。",
-        "analysis_en": "The benchmark isolates where current frontier models remain weak (compound selection and numerical property prediction) despite strong structure reconstruction, giving a clearer signal of remaining gaps before reliable assistance in early drug discovery. Results are retrospective and single-turn; real-world impact is unproven.",
-        "analysis_zh": "該基準明確顯示目前前沿模型在結構重建強的同時，化合物選擇與數值性質預測仍弱，為早期藥物發現可靠輔助前的缺口提供更清晰訊號。結果為回溯式且單輪；實際世界影響尚未證實。",
-        "quote": "At the xhigh reasoning setting, GPT‑6.2 Astra earned 84.5% of the available credit, compared with 83.3% for GPT‑6 Astra, 82.0% for GPT‑6.1 Sol, and 58.2% for GPT‑5.6 Sol.",
-        "quote_zh": "在xhigh推理設定下，GPT-6.2 Astra獲得84.5%的可用分數，相較於GPT-6 Astra的83.3%、GPT-6.1 Sol的82.0%以及GPT-5.6 Sol的58.2%。",
+        "title_zh": "OpenAI推出藥物化學推理基準MedChemBench",
+        "summary_en": "OpenAI released MedChemBench, a 99-problem benchmark drawn from 117 papers and patents covering 761 molecular structures. It evaluates models on reconstructing structures, explaining evidence, ranking/selecting compounds and predicting properties. At xhigh reasoning GPT-6.2 Astra scored 84.5% of available credit; structure reconstruction was strong while compound selection and numerical property prediction remained weaker.",
+        "summary_zh": "OpenAI發布MedChemBench，包含99個問題，取材自117篇論文與專利、涵蓋761個分子結構。評估模型重建結構、解釋證據、排序/選擇化合物與預測性質。在xhigh推理設定下GPT-6.2 Astra取得可用分數的84.5%；結構重建強，但化合物選擇與數值性質預測較弱。",
+        "analysis_en": "The benchmark isolates where current frontier models remain weak (compound selection and numerical property prediction) despite strong structure reconstruction, giving a clearer signal for drug-discovery-relevant reasoning. Only OpenAI models are scored, so cross-lab comparison is not yet available.",
+        "analysis_zh": "基準清楚指出當前前沿模型在結構重建強勢下，仍弱於化合物選擇與數值性質預測，為藥物發現相關推理提供更明確信號。目前僅評分OpenAI模型，跨實驗室比較尚未可得。",
+        "quote": "We’re introducing MedChemBench, a benchmark that evaluates AI models on reasoning tasks drawn from medicinal chemistry research.",
+        "quote_zh": "我們推出MedChemBench，一個評估AI模型在藥物化學研究推理任務上表現的基準。",
         "importance": 3,
         "first_seen": "2026-11-21T16:35:00Z",
-        "updated_at": "2026-11-22T04:35:02.081621+00:00",
+        "updated_at": "2026-11-22T10:35:01.862881+00:00",
         "links": [
           {
             "label": "OpenAI Blog",
@@ -235,19 +251,19 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic closes record IPO with full underwriter option and concurrent private placement",
-        "title_zh": "Anthropic完成史上最大IPO，全額行使承銷商超額配售並同步完成私有配售",
-        "summary_en": "Anthropic announced the closing of its IPO of 1.127 billion Class A shares at $83.00, including full exercise of the underwriters’ option for an additional 147 million shares. Gross proceeds from the public offering were about $93.5 billion, of which Anthropic received about $91.6 billion. It also closed a concurrent private placement of 313 million Class N shares to AMD, Broadcom, Google, Micron, Microsoft, NVIDIA and TSMC for about $26 billion, bringing total gross proceeds to roughly $119.5 billion. Trading began November 19 on Nasdaq under ANT.",
-        "summary_zh": "Anthropic宣布完成IPO，以每股83美元發行11.27億股A類股，包括承銷商全額行使1.47億股超額配售權。公開發行總收益約935億美元，其中公司本身約獲得916億美元。同時完成向AMD、Broadcom、Google、Micron、Microsoft、NVIDIA與TSMC的3.13億股N類股私有配售，金額約260億美元，合計總收益約1195億美元。股票自11月19日起在Nasdaq以ANT代碼交易。",
-        "analysis_en": "The close locks in the largest IPO on record and pairs public capital with strategic hardware-provider investment, giving Anthropic substantial balance-sheet strength while embedding key suppliers as shareholders. Market reception remains mixed: shares closed the first day near $97 but later tested levels close to the offer price amid broader tech weakness.",
-        "analysis_zh": "本次完成鎖定史上最大IPO，並將公開資本與關鍵硬體供應商的戰略投資結合，為Anthropic帶來充沛資產負債表實力，同時讓主要供應商成為股東。市場反應仍分歧：首日收盤接近97美元，隨後在科技股疲弱中一度回測接近發行價水準。",
-        "quote": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares...",
-        "quote_zh": "今日Anthropic, PBC宣布完成其首次公開發行，以每股83.00美元的公開發行價，合計發行1,127,000,000股A類普通股，包括承銷商全額行使其購買額外147,000,000股的選擇權……",
+        "title_zh": "Anthropic完成創紀錄IPO，全額行使承銷選擇權並同步私募",
+        "summary_en": "Anthropic announced the closing of its IPO of 1.127 billion Class A shares at $83.00, including full exercise of the underwriters’ option for an additional 147 million shares. Gross proceeds from the public offering were about $93.5 billion, of which Anthropic received roughly $91.6 billion; a concurrent private placement of Class N shares to hardware providers raised about $26 billion.",
+        "summary_zh": "Anthropic宣布完成其首次公開發行，以每股83美元發行11.27億股A類普通股，並全額行使承銷商額外購買1.47億股的選擇權。公開發行總募集約935億美元，其中公司取得約916億美元；同步向硬體供應商私募N類股約260億美元。",
+        "analysis_en": "The close locks in the largest IPO on record and pairs public capital with strategic hardware-provider investment, giving Anthropic substantial balance-sheet strength while embedding major chipmakers as shareholders. Execution of the underwriters’ option and the private placement both at the IPO price signal strong demand, though post-listing trading performance and capital allocation remain to be observed.",
+        "analysis_zh": "此次完成鎖定史上最大IPO，並將公開資本與策略硬體供應商投資結合，大幅強化Anthropic資產負債表，同時使主要晶片商成為股東。承銷選擇權與私募均以IPO價格執行顯示需求強勁，但上市後交易表現與資金配置仍待觀察。",
+        "quote": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares of Class A common stock from Anthropic at the initial public offering price.",
+        "quote_zh": "今日Anthropic, PBC宣布完成其首次公開發行，以每股83.00美元的公開發行價格發行合計11.27億股A類普通股，包括承銷商全額行使以首次公開發行價格向Anthropic額外購買1.47億股A類普通股的選擇權。",
         "importance": 5,
         "first_seen": "2026-11-21T16:35:00Z",
-        "updated_at": "2026-11-22T04:35:02.081621+00:00",
+        "updated_at": "2026-11-22T10:35:01.862881+00:00",
         "links": [
           {
-            "label": "Anthropic News",
+            "label": "Anthropic Blog",
             "url": "https://www.anthropic.com/news/ipo-close"
           },
           {
@@ -261,18 +277,26 @@
         "story_id": "anthropic-alpoge-riemann-claim-2026-11-20",
         "category": "anthropic",
         "source_type": "mixed",
-        "title_en": "Anthropic mathematician claims Lean-formalized Riemann hypothesis proof with Claude",
-        "title_zh": "Anthropic數學家宣稱與Claude以Lean形式化證明黎曼猜想",
-        "summary_en": "Levent Alpöge, a mathematician at Anthropic, posted a note on his personal site stating he believes he and Claude discovered a proof of the Riemann hypothesis (and the generalized form), released only as Lean formalization of roughly 17 million lines. He credits Claude with key late-stage steps and says he checked with Dario Amodei before announcing. Anthropic has not issued an official statement; independent verification of the formalization is pending.",
-        "summary_zh": "Anthropic數學家Levent Alpöge在個人網站發布筆記，稱他相信自己與Claude發現了黎曼猜想（及廣義形式）的證明，僅以約1700萬行Lean形式化釋出。他將後期關鍵步驟歸功於Claude，並表示宣布前曾與Dario Amodei確認。Anthropic尚未發表官方聲明；形式化的獨立驗證仍待進行。",
-        "analysis_en": "If the formalization holds under independent scrutiny it would be a landmark AI-assisted mathematics result, but the absence of a conventional paper and lack of external verification leave the claim unconfirmed. Timing relative to the IPO has drawn attention, though Alpöge has addressed the sequencing.",
-        "analysis_zh": "若形式化在獨立審查下成立，將是AI輔助數學的里程碑結果，但缺乏傳統論文與外部驗證使主張尚未確認。宣布時間與IPO的相對關係已引起注意，儘管Alpöge已說明順序。",
-        "quote": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis.",
-        "quote_zh": "我相信我與Claude一起發現了黎曼猜想的證明。",
-        "importance": 3,
+        "title_en": "Lean and Mathlib communities certify Anthropic mathematician’s Claude-assisted Riemann hypothesis formalization",
+        "title_zh": "Lean與Mathlib社群認證Anthropic數學家與Claude合作的黎曼猜想形式化",
+        "summary_en": "Levent Alpöge posted a note stating he and Claude discovered a proof of the Riemann hypothesis (and generalized form), released only as a Lean formalization of roughly 17 million lines. On November 21 the Lean and Mathlib communities issued a joint statement, endorsed by the Lean FRO and Mathlib Initiative, certifying that both the statement and the proof are correct after compilation, statement-comparison, and multi-kernel checks.",
+        "summary_zh": "Levent Alpöge在個人網站發布說明，稱他與Claude發現黎曼猜想（及廣義形式）的證明，僅以約1700萬行的Lean形式化釋出。11月21日Lean與Mathlib社群發表聯合聲明（獲Lean FRO與Mathlib Initiative背書），經編譯、陳述比對與多核心檢查後，認證陳述與證明均正確。",
+        "analysis_en": "Community certification of the Lean formalization removes a major technical objection and elevates the claim from unverified announcement to machine-checked result. A conventional human-readable paper is still absent, so mathematical understanding and independent conceptual review remain open; the scale of the AI-generated artifact also raises questions about how such proofs will be digested and taught.",
+        "analysis_zh": "社群認證Lean形式化移除主要技術疑慮，使主張從未驗證宣布提升為機器檢查結果。仍缺乏傳統可讀論文，數學理解與獨立概念審查仍待進行；AI生成工件的規模也引發此類證明如何消化與教學的問題。",
+        "quote": "We have full confidence that Alpöge's proof of the Riemann Hypothesis is correct, and we congratulate him on this achievement.",
+        "quote_zh": "我們對Alpöge的黎曼猜想證明正確性具有完全信心，並恭喜他達成此成就。",
+        "importance": 5,
         "first_seen": "2026-11-21T16:35:00Z",
-        "updated_at": "2026-11-22T04:35:02.081621+00:00",
+        "updated_at": "2026-11-22T10:35:01.862881+00:00",
         "links": [
+          {
+            "label": "Lean community blog",
+            "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+          },
+          {
+            "label": "Alpöge note",
+            "url": "https://alpo.ge/remark.pdf"
+          },
           {
             "label": "Levent Alpöge personal site (via reporting)",
             "url": "https://alpo.ge/"
@@ -300,16 +324,16 @@
         "category": "meta",
         "source_type": "official_blog",
         "title_en": "Meta shares Open Source AI for Science Summit highlights, including UMA Nitro",
-        "title_zh": "Meta分享開源AI科學峰會亮點，包括UMA Nitro",
-        "summary_en": "Meta’s FAIR team recapped its Open Source AI for Science Summit. It expanded the Digital Brain Project data target from 15,000 to 25,000 hours, released UMA Nitro (a faster Universal Model for Atoms) that has identified crystal forms of drug molecules without extra training and simulated entire enzymes, and highlighted ATLAS (formalizing 26 open-access textbooks and over 45,000 computer-checked results). UMA Playground is also reaching classrooms via Discovery Education and RealChem.",
-        "summary_zh": "Meta FAIR團隊回顧其開源AI科學峰會。它將Digital Brain Project資料目標從15,000小時擴大至25,000小時，釋出更快的Universal Model for Atoms版本UMA Nitro（無需額外訓練即可識別藥物分子晶型並模擬整個酶），並強調ATLAS（形式化26本開放教材與超過45,000項電腦驗證結果）。UMA Playground亦透過Discovery Education與RealChem進入課堂。",
-        "analysis_en": "The releases continue Meta’s open-weights science strategy, making atomic-scale simulation and formalized mathematics more accessible to academic partners. Real-world impact depends on independent adoption and whether the speed gains translate into new experimental candidates.",
-        "analysis_zh": "這些釋出延續Meta的開源權重科學策略，讓原子尺度模擬與形式化數學更易被學術夥伴取得。實際影響取決於獨立採用程度，以及速度提升是否能轉化為新的實驗候選。",
+        "title_zh": "Meta分享開源AI科學峰會亮點，包含UMA Nitro",
+        "summary_en": "Meta’s FAIR team recapped its Open Source AI for Science Summit. It expanded the Digital Brain Project data target from 15,000 to 25,000 hours, released UMA Nitro (a faster Universal Model for Atoms) that has identified crystal forms of drug molecules, and demonstrated enzyme simulations and assistive robotics built on open models such as DINOv3 and SAM 3.",
+        "summary_zh": "Meta FAIR團隊回顧開源AI科學峰會。數位大腦計畫數據目標從15,000小時擴至25,000小時，釋出更快的通用原子模型UMA Nitro（已識別藥物分子晶型），並展示以DINOv3與SAM 3等開放模型建構的酶模擬與輔助機器人。",
+        "analysis_en": "The releases continue Meta’s open-weights science strategy, making atomic-scale simulation and formalized mathematics more accessible to academic partners. Real-world impact depends on independent validation of the reported crystal-form and enzyme results and on uptake beyond Meta’s own collaborations.",
+        "analysis_zh": "這些發布延續Meta開放權重科學策略，使原子尺度模擬與形式化數學對學術夥伴更易取得。實際影響取決於所報晶型與酶結果的獨立驗證，以及合作範圍外的採用情況。",
         "quote": "At the summit, we released UMA Nitro, a faster version of Meta’s Universal Model for Atoms.",
-        "quote_zh": "在峰會上，我們釋出UMA Nitro，Meta的Universal Model for Atoms的更快版本。",
+        "quote_zh": "在峰會上，我們釋出UMA Nitro，Meta通用原子模型的更快版本。",
         "importance": 3,
         "first_seen": "2026-11-21T16:35:00Z",
-        "updated_at": "2026-11-22T04:35:02.081621+00:00",
+        "updated_at": "2026-11-22T10:35:01.862881+00:00",
         "links": [
           {
             "label": "Meta Newsroom",
@@ -325,7 +349,7 @@
     "xai": [],
     "frontier_other": []
   },
-  "brief_en": "Anthropic closed its record IPO at $93.5B public proceeds plus $26B private placement. OpenAI detailed distillation defenses cutting reasoning extraction to 0.2% and launched MedChemBench. Meta recapped its science summit with UMA Nitro. An Anthropic mathematician claimed a Lean-formalized Riemann proof with Claude.",
-  "brief_zh": "Anthropic完成史上最大IPO，公開募資約935億美元並搭配260億私有配售。OpenAI公布蒸餾防禦使推理萃取成功率降至0.2%，並推出MedChemBench。Meta回顧科學峰會並釋出UMA Nitro。Anthropic數學家宣稱與Claude以Lean形式化證明黎曼猜想。",
-  "updated_at": "2026-11-22T04:35:02.081621+00:00"
+  "brief_en": "Anthropic closed its record IPO with a concurrent private placement while its mathematician’s Claude-assisted Riemann hypothesis formalization received community Lean verification. OpenAI detailed stronger defenses against reasoning extraction and released a medicinal-chemistry benchmark. Meta highlighted open science tools including UMA Nitro.",
+  "brief_zh": "Anthropic完成創紀錄IPO並同步私募，其數學家與Claude合作的黎曼猜想Lean形式化獲社群驗證。OpenAI強化推理提取防禦並推出藥物化學基準。Meta分享開放科學工具包含UMA Nitro。",
+  "updated_at": "2026-11-22T10:35:01.862881+00:00"
 }
