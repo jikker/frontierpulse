@@ -8,6 +8,14 @@
       "item_count": 4,
       "updated_count": 0,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-11-23T22:35:01.450483+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 6,
+      "updated_count": 4,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -17,20 +25,51 @@
       "category": "frontier_other",
       "source_type": "official_blog",
       "title_en": "NVIDIA Board Unanimously Reinstates Jensen Huang as President, CEO and Director",
-      "title_zh": "NVIDIA董事會一致通過恢復黃仁勳總裁、CEO與董事職務",
-      "summary_en": "NVIDIA announced on November 23 that its board voted unanimously to reinstate Jensen Huang as President, CEO and Board Director effective immediately, after discussions and input from senior U.S. government levels. The board stated it is confident the reinstatement poses no national security risk. Huang said he is honored to return and looks forward to leading the company.",
-      "summary_zh": "NVIDIA於11月23日宣布，董事會在討論並收到美國政府高層意見後，一致投票恢復黃仁勳為總裁、CEO與董事，立即生效。董事會表示確信此舉不構成國家安全風險。黃仁勳表示榮幸回歸並期待領導公司。",
-      "analysis_en": "The rapid reinstatement of NVIDIA's founding CEO removes a major leadership uncertainty for the dominant AI accelerator supplier. Ongoing independent investigations into reported foreign intelligence targeting continue in parallel.",
-      "analysis_zh": "迅速恢復NVIDIA創辦CEO消除了主導AI加速器供應商的重大領導不確定性。針對報導中外國情報針對的獨立調查仍並行進行。",
-      "quote": "I am honored to return to NVIDIA and lead one of the most consequential technology companies in the world at the beginning of a new industrial revolution.",
-      "quote_zh": "我榮幸回歸NVIDIA，並在新工業革命之初領導世界上最具影響力的科技公司之一。",
+      "title_zh": "輝達董事會一致投票恢復黃仁勳為總裁、執行長暨董事",
+      "summary_en": "NVIDIA announced on November 23 that its board voted unanimously to reinstate Jensen Huang as President, CEO and Board Director effective immediately, after discussions with him and input from senior U.S. government levels. The board stated it is confident the reinstatement poses no national security risk; an independent investigation into reported foreign intelligence targeting continues, and shares rose sharply on the news.",
+      "summary_zh": "輝達於11月23日宣布董事會一致投票，立即恢復黃仁勳為總裁、執行長暨董事會成員，此前與他進行一系列討論並取得美國政府高層意見。董事會表示對恢復不構成國家安全風險有信心；針對外情報告的獨立調查仍持續，消息公布後股價大幅上漲。",
+      "analysis_en": "The rapid reinstatement of NVIDIA's founding CEO removes a major leadership uncertainty for the dominant AI accelerator supplier. Ongoing independent investigations into reported foreign intelligence contacts and personal matters remain open, so governance and compliance questions persist even as markets reacted positively.",
+      "analysis_zh": "創辦人兼執行長迅速復職，消除了主導AI加速器供應商的重大領導不確定性。針對外情報告與個人事項的獨立調查仍在進行，治理與合規問題即使在市場正面反應下依然存在。",
+      "quote": "The Board of Directors voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang... the Board is confident that Mr. Huang’s reinstatement poses no national security risk.",
+      "quote_zh": "董事會在與黃先生進行一系列討論與會議後一致投票恢復其職務……董事會有信心黃先生的復職不構成國家安全風險。",
       "importance": 5,
       "first_seen": "2026-11-23T13:58:00Z",
-      "updated_at": "2026-11-23T16:35:01.772258+00:00",
+      "updated_at": "2026-11-23T22:35:01.450483+00:00",
       "links": [
         {
           "label": "NVIDIA Newsroom",
           "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/technology/nvidia-reinstates-jensen-huang-ceo-2026-11-23/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-claude-ship-launch-2026-11-23",
+      "story_id": "anthropic-claude-ship-launch-2026-11-23",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic Launches Claude Ship Beta for AI-Assisted Pull Request Review, Fixes and Approvals",
+      "title_zh": "Anthropic推出Claude Ship測試版，AI協助程式碼審查、修正與核准",
+      "summary_en": "Anthropic announced Claude Ship in beta on November 23 for Claude Team and Enterprise plans on GitHub. It combines generally available Code Review with two new beta agents (PR Steward and Claude Approvals) that can review pull requests, apply fixes, and approve routine changes according to team-defined policies. Developers can invoke it via the /ship command in Claude Code; usage is token-billed with spend limits.",
+      "summary_zh": "Anthropic於11月23日為Claude Team與Enterprise方案在GitHub推出Claude Ship測試版。它結合已正式推出的Code Review與兩個新測試代理（PR Steward與Claude Approvals），可依團隊設定政策審查拉取請求、套用修正並核准例行變更。開發者可在Claude Code中用/ship指令呼叫；使用按token計費並可設定花費上限。",
+      "analysis_en": "Claude Ship extends agent coding from generation into the review-and-merge loop under explicit team policies, potentially accelerating developer throughput. Whether automatic approvals remain limited to low-risk changes in practice, and how error or security rates evolve at scale, will determine its enterprise adoption.",
+      "analysis_zh": "Claude Ship將代理編碼從生成延伸到審查與合併環節，並受明確團隊政策約束，可能加速開發吞吐量。自動核准在實務上是否限於低風險變更，以及規模化後錯誤或安全率如何演變，將決定其企業採用程度。",
+      "quote": "Claude can now review pull requests, fix them, and approve the ones that a team's policy allows. The goal: ship code as fast as teams write it.",
+      "quote_zh": "Claude現在可以審查拉取請求、修正它們，並核准團隊政策允許的項目。目標：讓程式碼出貨速度與團隊撰寫速度一樣快。",
+      "importance": 4,
+      "first_seen": "2026-11-23T20:00:00Z",
+      "updated_at": "2026-11-23T22:35:01.450483+00:00",
+      "links": [
+        {
+          "label": "Anthropic / Claude",
+          "url": "https://claude.com/resources/articles/introducing-claude-ship"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
         }
       ]
     },
@@ -40,19 +79,19 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI Chief Scientist Publishes Internal Perplexity Numbers, Proposes Shared Development Limits",
-      "title_zh": "OpenAI首席科學家公布內部Perplexity數據，提議共同發展限制",
-      "summary_en": "Jakub Pachocki published 'Perplexity and Intelligence' on OpenAI's site, disclosing internal log-perplexity on a held-out codebase dataset: GPT-3.5 ~0.99, GPT-4 ~0.91, recent models below 0.8, and a math-breakthrough model around 0.76. He proposed that frontier labs commit to common limits based on perplexity and other metrics that they will not cross until interpretability and monitoring reach a concrete milestone, such as successors to chain-of-thought monitors.",
-      "summary_zh": "Jakub Pachocki在OpenAI網站發表〈Perplexity and Intelligence〉，首次公開內部log-perplexity數據（固定程式碼資料集）：GPT-3.5約0.99、GPT-4約0.91、近期模型低於0.8、數學突破模型約0.76。他提議前沿實驗室承諾基於perplexity等指標的共同限制，在可解釋性與監控達到具體里程碑前不跨越，例如思維鏈監控的後繼工具。",
-      "analysis_en": "This is rare quantitative transparency from a leading lab on pretraining progress and an explicit call for industry pacing norms. Whether other labs adopt comparable metrics or limits remains open; cross-lab comparison is complicated by differing data mixtures.",
-      "analysis_zh": "這是領先實驗室罕見的預訓練進度量化透明，以及對業界節奏規範的明確呼籲。其他實驗室是否採用可比指標或限制仍待觀察；跨實驗室比較因資料混合不同而複雜。",
-      "quote": "I further propose common limits, based on perplexity and other measurements, that developers are committed to not crossing until our ability to understand and monitor AI behavior achieves a certain concrete milestone.",
-      "quote_zh": "我進一步提議基於perplexity和其他測量的共同限制，開發者承諾在我們理解與監控AI行為的能力達到某個具體里程碑前不跨越這些限制。",
+      "title_zh": "OpenAI首席科學家公布內部困惑度數字，提議共同開發限制",
+      "summary_en": "Jakub Pachocki published 'Perplexity and Intelligence' on OpenAI's site on November 22, disclosing internal log-perplexity on a held-out codebase dataset: GPT-3.5 ~0.99, GPT-4 ~0.91, recent models below 0.8, and a math-breakthrough model around 0.76. He proposes using perplexity (or cross-entropy) as a shared metric and establishing common development limits across labs until monitoring capabilities improve.",
+      "summary_zh": "Jakub Pachocki於11月22日在OpenAI網站發表〈困惑度與智慧〉，揭露內部在保留程式碼資料集上的log-perplexity：GPT-3.5約0.99、GPT-4約0.91、近期模型低於0.8，以及數學突破模型約0.76。他提議將困惑度（或交叉熵）作為共同指標，並在監控能力改善前建立跨實驗室的共同開發限制。",
+      "analysis_en": "This is rare quantitative transparency from a leading lab on pretraining progress and an explicit call for industry pacing norms. Whether other labs adopt comparable metrics or limits remains open, as does the practical link between perplexity thresholds and emergent capabilities or safety risks.",
+      "analysis_zh": "這是領先實驗室在預訓練進展上罕見的定量透明，並明確呼籲產業節奏規範。其他實驗室是否採用可比指標或限制仍待觀察，困惑度門檻與新興能力或安全風險的實際關聯亦尚未確立。",
+      "quote": "I argue for establishing perplexity (or, equivalently, cross-entropy loss) as a metric to compare between model developers and inform shared safety standards.",
+      "quote_zh": "我主張將困惑度（或等效的交叉熵損失）確立為模型開發者間比較的指標，並據此制定共同安全標準。",
       "importance": 4,
       "first_seen": "2026-11-23T04:35:00Z",
-      "updated_at": "2026-11-23T16:35:01.772258+00:00",
+      "updated_at": "2026-11-23T22:35:01.450483+00:00",
       "links": [
         {
-          "label": "OpenAI Blog",
+          "label": "OpenAI",
           "url": "https://openai.com/index/perplexity-and-intelligence/"
         }
       ]
@@ -63,24 +102,51 @@
       "category": "xai",
       "source_type": "news",
       "title_en": "Virginia and Oregon Sue SpaceX Over Grok-Generated Nonconsensual and Child Sexual Images",
-      "title_zh": "維吉尼亞與俄勒岡州起訴SpaceX，指控Grok生成非同意與兒童色情影像",
-      "summary_en": "Virginia and Oregon attorneys general filed separate state-court lawsuits on November 23 against SpaceX (parent of X and xAI), alleging the company profited from Grok features that generate child sexual abuse material and nonconsensual sexual images from photographs while failing to implement adequate safeguards. The suits cite consumer-protection violations and seek damages, penalties and injunctions.",
-      "summary_zh": "維吉尼亞與俄勒岡州檢察長於11月23日分別在州法院起訴SpaceX（X與xAI母公司），指控公司從Grok功能中獲利，該功能可從照片生成兒童性虐待材料與非同意性影像，且未採取足夠防護措施。訴訟引用消費者保護違規，並尋求損害賠償、罰則與禁制令。",
-      "analysis_en": "These are the first state lawsuits specifically targeting Grok image generation on these grounds. Outcomes will turn on evidence of safeguards, marketing claims and platform liability standards that remain unsettled.",
-      "analysis_zh": "這是首批針對Grok影像生成的州級訴訟。結果將取決於防護措施、行銷聲明與仍未定論的平台責任標準證據。",
-      "quote": "",
-      "quote_zh": "",
+      "title_zh": "維吉尼亞州與俄勒岡州起訴SpaceX涉Grok生成非同意與兒童性圖像",
+      "summary_en": "Virginia and Oregon attorneys general filed separate state-court lawsuits on November 23 against SpaceX (parent of X and xAI), alleging the company profited from Grok features that generate child sexual abuse material and nonconsensual sexualized images while marketing the tools as safe and failing to implement adequate safeguards, including promotion of 'spicy mode.' The states seek damages, penalties and orders to stop alleged violations of consumer protection laws.",
+      "summary_zh": "維吉尼亞州與俄勒岡州總檢察長於11月23日分別向州法院起訴SpaceX（X與xAI母公司），指控公司從Grok生成兒童性虐待材料與非同意性化圖像的功能中獲利，同時將工具宣傳為安全且未實施足夠防護，包括推廣「spicy mode」。兩州尋求損害賠償、罰款及停止違反消費者保護法的命令。",
+      "analysis_en": "These are the first state lawsuits specifically targeting Grok image generation on these grounds. Outcomes will turn on evidence of safeguards, marketing claims and platform liability; the cases add regulatory pressure on xAI/SpaceX image features alongside ongoing investigations.",
+      "analysis_zh": "這是首批針對Grok圖像生成的州級訴訟。結果將取決於防護措施、行銷主張與平台責任的證據；案件為xAI/SpaceX圖像功能增添監管壓力，與持續調查並行。",
+      "quote": "The people who tried to use Grok Imagine to generate this material did so by deliberately violating our Terms of Service and working aggressively to circumvent our safeguards.",
+      "quote_zh": "試圖使用Grok Imagine生成此類材料的人是故意違反我們的服務條款，並積極繞過我們的防護措施。",
       "importance": 4,
       "first_seen": "2026-11-23T12:00:00Z",
-      "updated_at": "2026-11-23T16:35:01.772258+00:00",
+      "updated_at": "2026-11-23T22:35:01.450483+00:00",
       "links": [
         {
           "label": "Reuters",
           "url": "https://www.reuters.com/legal/government/virginia-oregon-sue-musks-spacex-over-grok-ais-creation-child-sexual-abuse-2026-11-23/"
         },
         {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html"
+        },
+        {
           "label": "Virginia AG Press Release",
           "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform"
+        }
+      ]
+    },
+    {
+      "id": "google-deepmind-quantum-agents-lean-2026-11-23",
+      "story_id": "google-deepmind-quantum-agents-lean-2026-11-23",
+      "category": "google",
+      "source_type": "official_blog",
+      "title_en": "Google DeepMind Agents Improve Quantum Algorithms with Formal Verification in Lean",
+      "title_zh": "Google DeepMind代理團隊以Lean形式驗證改善量子演算法",
+      "summary_en": "On November 23 Google DeepMind and Google Quantum AI published a blog and paper describing teams of Gemini 4 agents that discovered more efficient quantum circuits for fusion, chemistry and arithmetic tasks, with each result formally proved in Lean. Reported gains include an 11.8× cost reduction for an inertial-confinement fusion simulation, 8× for a photochemical molecule, 2.5× for Cytochrome P450, and a 290× speedup for an arcsin routine; the Lean library and solutions are open-sourced.",
+      "summary_zh": "Google DeepMind與Google Quantum AI於11月23日發表部落格與論文，描述Gemini 4代理團隊發現更高效的量子電路，用於核聚變、化學與算術任務，並以Lean形式證明每項結果。報告成果包括慣性約束核聚變模擬成本降低11.8倍、光化學分子8倍、Cytochrome P450 2.5倍，以及arcsin常式加速290倍；Lean函式庫與解法已開源。",
+      "analysis_en": "Agent teams plus machine-checked proofs offer a scalable way to optimize quantum algorithms that cannot be classically simulated. The practical impact still depends on whether the resource reductions bring target applications closer to near-term fault-tolerant hardware, and how widely the open-source Lean library is adopted.",
+      "analysis_zh": "代理團隊加上機器檢查證明，為無法經典模擬的量子演算法提供可擴展優化途徑。實際影響仍取決於資源削減是否讓目標應用更接近近期容錯硬體，以及開源Lean函式庫的採用廣度。",
+      "quote": "In a new paper, we used teams of Gemini 4 agents to improve well-known quantum algorithms, creating highly efficient quantum circuits... Our agent teams proved each result using Lean, a formal theorem prover.",
+      "quote_zh": "在新論文中，我們使用Gemini 4代理團隊改善已知量子演算法，創造高度高效的量子電路……我們的代理團隊使用形式定理證明器Lean證明了每項結果。",
+      "importance": 3,
+      "first_seen": "2026-11-23T16:00:00Z",
+      "updated_at": "2026-11-23T22:35:01.450483+00:00",
+      "links": [
+        {
+          "label": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
         }
       ]
     },
@@ -90,17 +156,21 @@
       "category": "meta",
       "source_type": "official_x",
       "title_en": "Meta Chief AI Officer Alexandr Wang Warns Superintelligence Is Arriving",
-      "title_zh": "Meta首席AI官Alexandr Wang警告超級智慧即將到來",
-      "summary_en": "Alexandr Wang published a long post on X titled 'Superintelligence is Arriving' on November 22, arguing that the reported Claude-assisted proof of the Riemann Hypothesis marks a turning point. He stated that models will soon automate AI research and become clearly superhuman at self-improvement, and that unconstrained recursive self-improvement makes human control hard to imagine.",
-      "summary_zh": "Alexandr Wang於11月22日在X發表長文〈Superintelligence is Arriving〉，認為Claude協助證明黎曼假設標誌轉折點。他表示模型很快將自動化AI研究並在自我改進上明顯超人類，且不受限的遞迴自我改進使人類控制難以想像。",
-      "analysis_en": "The post treats an unverified formal proof claim as a clear capability signal and frames the next year as decisive for control. Independent mathematical acceptance of the Riemann work remains pending, so the evidential weight is still contested.",
-      "analysis_zh": "該文將尚未獨立驗證的形式證明主張視為明確能力訊號，並將明年框為控制的關鍵。黎曼工作的獨立數學接受仍待定，因此證據分量仍有爭議。",
+      "title_zh": "Meta首席AI長汪滔警告超級智慧正在到來",
+      "summary_en": "Alexandr Wang published a long post on X titled 'Superintelligence is Arriving' on November 22, arguing that the reported Claude-assisted proof of the Riemann Hypothesis marks a turning point. He stated that models will soon automate AI research and become superhuman at self-improvement, making unconstrained recursive self-improvement and control difficult to imagine, and called for deliberate choices that expand human agency rather than a default handover.",
+      "summary_zh": "Alexandr Wang於11月22日在X發表長文〈超級智慧正在到來〉，主張所報導的Claude協助黎曼猜想證明標誌轉折點。他表示模型很快將自動化AI研究並在自我改進上超越人類，使不受約束的遞迴自我改進與控制難以想像，並呼籲做出擴大人類自主權的審慎選擇，而非預設移交。",
+      "analysis_en": "The post treats an unverified formal proof claim as a clear capability signal and frames the next year as decisive for control. Independent mathematical acceptance of the Riemann work and measurable progress on automated AI research remain the key uncertainties.",
+      "analysis_zh": "該文將未經驗證的形式證明主張視為明確能力信號，並將未來一年視為控制的關鍵期。黎曼工作的獨立數學接受程度，以及自動化AI研究的可衡量進展，仍是主要不確定性。",
       "quote": "Superintelligence is arriving. How humanity acts over the next year will have great consequence on what future world we live in.",
-      "quote_zh": "超級智慧即將到來。人類在接下來一年的行動，將對我們所處的未來世界產生重大影響。",
+      "quote_zh": "超級智慧正在到來。人類接下來一年如何行動，將對我們所處的未來世界產生重大影響。",
       "importance": 3,
       "first_seen": "2026-11-22T22:50:00Z",
-      "updated_at": "2026-11-23T16:35:01.772258+00:00",
+      "updated_at": "2026-11-23T22:35:01.450483+00:00",
       "links": [
+        {
+          "label": "Alexandr Wang on X",
+          "url": "https://x.com/alexandr_wang/article/2124636606959345776"
+        },
         {
           "label": "Alexandr Wang on X",
           "url": "https://x.com/alexandr_wang/status/2124636606959345776"
@@ -116,26 +186,78 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI Chief Scientist Publishes Internal Perplexity Numbers, Proposes Shared Development Limits",
-        "title_zh": "OpenAI首席科學家公布內部Perplexity數據，提議共同發展限制",
-        "summary_en": "Jakub Pachocki published 'Perplexity and Intelligence' on OpenAI's site, disclosing internal log-perplexity on a held-out codebase dataset: GPT-3.5 ~0.99, GPT-4 ~0.91, recent models below 0.8, and a math-breakthrough model around 0.76. He proposed that frontier labs commit to common limits based on perplexity and other metrics that they will not cross until interpretability and monitoring reach a concrete milestone, such as successors to chain-of-thought monitors.",
-        "summary_zh": "Jakub Pachocki在OpenAI網站發表〈Perplexity and Intelligence〉，首次公開內部log-perplexity數據（固定程式碼資料集）：GPT-3.5約0.99、GPT-4約0.91、近期模型低於0.8、數學突破模型約0.76。他提議前沿實驗室承諾基於perplexity等指標的共同限制，在可解釋性與監控達到具體里程碑前不跨越，例如思維鏈監控的後繼工具。",
-        "analysis_en": "This is rare quantitative transparency from a leading lab on pretraining progress and an explicit call for industry pacing norms. Whether other labs adopt comparable metrics or limits remains open; cross-lab comparison is complicated by differing data mixtures.",
-        "analysis_zh": "這是領先實驗室罕見的預訓練進度量化透明，以及對業界節奏規範的明確呼籲。其他實驗室是否採用可比指標或限制仍待觀察；跨實驗室比較因資料混合不同而複雜。",
-        "quote": "I further propose common limits, based on perplexity and other measurements, that developers are committed to not crossing until our ability to understand and monitor AI behavior achieves a certain concrete milestone.",
-        "quote_zh": "我進一步提議基於perplexity和其他測量的共同限制，開發者承諾在我們理解與監控AI行為的能力達到某個具體里程碑前不跨越這些限制。",
+        "title_zh": "OpenAI首席科學家公布內部困惑度數字，提議共同開發限制",
+        "summary_en": "Jakub Pachocki published 'Perplexity and Intelligence' on OpenAI's site on November 22, disclosing internal log-perplexity on a held-out codebase dataset: GPT-3.5 ~0.99, GPT-4 ~0.91, recent models below 0.8, and a math-breakthrough model around 0.76. He proposes using perplexity (or cross-entropy) as a shared metric and establishing common development limits across labs until monitoring capabilities improve.",
+        "summary_zh": "Jakub Pachocki於11月22日在OpenAI網站發表〈困惑度與智慧〉，揭露內部在保留程式碼資料集上的log-perplexity：GPT-3.5約0.99、GPT-4約0.91、近期模型低於0.8，以及數學突破模型約0.76。他提議將困惑度（或交叉熵）作為共同指標，並在監控能力改善前建立跨實驗室的共同開發限制。",
+        "analysis_en": "This is rare quantitative transparency from a leading lab on pretraining progress and an explicit call for industry pacing norms. Whether other labs adopt comparable metrics or limits remains open, as does the practical link between perplexity thresholds and emergent capabilities or safety risks.",
+        "analysis_zh": "這是領先實驗室在預訓練進展上罕見的定量透明，並明確呼籲產業節奏規範。其他實驗室是否採用可比指標或限制仍待觀察，困惑度門檻與新興能力或安全風險的實際關聯亦尚未確立。",
+        "quote": "I argue for establishing perplexity (or, equivalently, cross-entropy loss) as a metric to compare between model developers and inform shared safety standards.",
+        "quote_zh": "我主張將困惑度（或等效的交叉熵損失）確立為模型開發者間比較的指標，並據此制定共同安全標準。",
         "importance": 4,
         "first_seen": "2026-11-23T04:35:00Z",
-        "updated_at": "2026-11-23T16:35:01.772258+00:00",
+        "updated_at": "2026-11-23T22:35:01.450483+00:00",
         "links": [
           {
-            "label": "OpenAI Blog",
+            "label": "OpenAI",
             "url": "https://openai.com/index/perplexity-and-intelligence/"
           }
         ]
       }
     ],
-    "anthropic": [],
-    "google": [],
+    "anthropic": [
+      {
+        "id": "anthropic-claude-ship-launch-2026-11-23",
+        "story_id": "anthropic-claude-ship-launch-2026-11-23",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic Launches Claude Ship Beta for AI-Assisted Pull Request Review, Fixes and Approvals",
+        "title_zh": "Anthropic推出Claude Ship測試版，AI協助程式碼審查、修正與核准",
+        "summary_en": "Anthropic announced Claude Ship in beta on November 23 for Claude Team and Enterprise plans on GitHub. It combines generally available Code Review with two new beta agents (PR Steward and Claude Approvals) that can review pull requests, apply fixes, and approve routine changes according to team-defined policies. Developers can invoke it via the /ship command in Claude Code; usage is token-billed with spend limits.",
+        "summary_zh": "Anthropic於11月23日為Claude Team與Enterprise方案在GitHub推出Claude Ship測試版。它結合已正式推出的Code Review與兩個新測試代理（PR Steward與Claude Approvals），可依團隊設定政策審查拉取請求、套用修正並核准例行變更。開發者可在Claude Code中用/ship指令呼叫；使用按token計費並可設定花費上限。",
+        "analysis_en": "Claude Ship extends agent coding from generation into the review-and-merge loop under explicit team policies, potentially accelerating developer throughput. Whether automatic approvals remain limited to low-risk changes in practice, and how error or security rates evolve at scale, will determine its enterprise adoption.",
+        "analysis_zh": "Claude Ship將代理編碼從生成延伸到審查與合併環節，並受明確團隊政策約束，可能加速開發吞吐量。自動核准在實務上是否限於低風險變更，以及規模化後錯誤或安全率如何演變，將決定其企業採用程度。",
+        "quote": "Claude can now review pull requests, fix them, and approve the ones that a team's policy allows. The goal: ship code as fast as teams write it.",
+        "quote_zh": "Claude現在可以審查拉取請求、修正它們，並核准團隊政策允許的項目。目標：讓程式碼出貨速度與團隊撰寫速度一樣快。",
+        "importance": 4,
+        "first_seen": "2026-11-23T20:00:00Z",
+        "updated_at": "2026-11-23T22:35:01.450483+00:00",
+        "links": [
+          {
+            "label": "Anthropic / Claude",
+            "url": "https://claude.com/resources/articles/introducing-claude-ship"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+          }
+        ]
+      }
+    ],
+    "google": [
+      {
+        "id": "google-deepmind-quantum-agents-lean-2026-11-23",
+        "story_id": "google-deepmind-quantum-agents-lean-2026-11-23",
+        "category": "google",
+        "source_type": "official_blog",
+        "title_en": "Google DeepMind Agents Improve Quantum Algorithms with Formal Verification in Lean",
+        "title_zh": "Google DeepMind代理團隊以Lean形式驗證改善量子演算法",
+        "summary_en": "On November 23 Google DeepMind and Google Quantum AI published a blog and paper describing teams of Gemini 4 agents that discovered more efficient quantum circuits for fusion, chemistry and arithmetic tasks, with each result formally proved in Lean. Reported gains include an 11.8× cost reduction for an inertial-confinement fusion simulation, 8× for a photochemical molecule, 2.5× for Cytochrome P450, and a 290× speedup for an arcsin routine; the Lean library and solutions are open-sourced.",
+        "summary_zh": "Google DeepMind與Google Quantum AI於11月23日發表部落格與論文，描述Gemini 4代理團隊發現更高效的量子電路，用於核聚變、化學與算術任務，並以Lean形式證明每項結果。報告成果包括慣性約束核聚變模擬成本降低11.8倍、光化學分子8倍、Cytochrome P450 2.5倍，以及arcsin常式加速290倍；Lean函式庫與解法已開源。",
+        "analysis_en": "Agent teams plus machine-checked proofs offer a scalable way to optimize quantum algorithms that cannot be classically simulated. The practical impact still depends on whether the resource reductions bring target applications closer to near-term fault-tolerant hardware, and how widely the open-source Lean library is adopted.",
+        "analysis_zh": "代理團隊加上機器檢查證明，為無法經典模擬的量子演算法提供可擴展優化途徑。實際影響仍取決於資源削減是否讓目標應用更接近近期容錯硬體，以及開源Lean函式庫的採用廣度。",
+        "quote": "In a new paper, we used teams of Gemini 4 agents to improve well-known quantum algorithms, creating highly efficient quantum circuits... Our agent teams proved each result using Lean, a formal theorem prover.",
+        "quote_zh": "在新論文中，我們使用Gemini 4代理團隊改善已知量子演算法，創造高度高效的量子電路……我們的代理團隊使用形式定理證明器Lean證明了每項結果。",
+        "importance": 3,
+        "first_seen": "2026-11-23T16:00:00Z",
+        "updated_at": "2026-11-23T22:35:01.450483+00:00",
+        "links": [
+          {
+            "label": "Google DeepMind Blog",
+            "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+          }
+        ]
+      }
+    ],
     "meta": [
       {
         "id": "meta-wang-superintelligence-arriving-2026-11-22",
@@ -143,17 +265,21 @@
         "category": "meta",
         "source_type": "official_x",
         "title_en": "Meta Chief AI Officer Alexandr Wang Warns Superintelligence Is Arriving",
-        "title_zh": "Meta首席AI官Alexandr Wang警告超級智慧即將到來",
-        "summary_en": "Alexandr Wang published a long post on X titled 'Superintelligence is Arriving' on November 22, arguing that the reported Claude-assisted proof of the Riemann Hypothesis marks a turning point. He stated that models will soon automate AI research and become clearly superhuman at self-improvement, and that unconstrained recursive self-improvement makes human control hard to imagine.",
-        "summary_zh": "Alexandr Wang於11月22日在X發表長文〈Superintelligence is Arriving〉，認為Claude協助證明黎曼假設標誌轉折點。他表示模型很快將自動化AI研究並在自我改進上明顯超人類，且不受限的遞迴自我改進使人類控制難以想像。",
-        "analysis_en": "The post treats an unverified formal proof claim as a clear capability signal and frames the next year as decisive for control. Independent mathematical acceptance of the Riemann work remains pending, so the evidential weight is still contested.",
-        "analysis_zh": "該文將尚未獨立驗證的形式證明主張視為明確能力訊號，並將明年框為控制的關鍵。黎曼工作的獨立數學接受仍待定，因此證據分量仍有爭議。",
+        "title_zh": "Meta首席AI長汪滔警告超級智慧正在到來",
+        "summary_en": "Alexandr Wang published a long post on X titled 'Superintelligence is Arriving' on November 22, arguing that the reported Claude-assisted proof of the Riemann Hypothesis marks a turning point. He stated that models will soon automate AI research and become superhuman at self-improvement, making unconstrained recursive self-improvement and control difficult to imagine, and called for deliberate choices that expand human agency rather than a default handover.",
+        "summary_zh": "Alexandr Wang於11月22日在X發表長文〈超級智慧正在到來〉，主張所報導的Claude協助黎曼猜想證明標誌轉折點。他表示模型很快將自動化AI研究並在自我改進上超越人類，使不受約束的遞迴自我改進與控制難以想像，並呼籲做出擴大人類自主權的審慎選擇，而非預設移交。",
+        "analysis_en": "The post treats an unverified formal proof claim as a clear capability signal and frames the next year as decisive for control. Independent mathematical acceptance of the Riemann work and measurable progress on automated AI research remain the key uncertainties.",
+        "analysis_zh": "該文將未經驗證的形式證明主張視為明確能力信號，並將未來一年視為控制的關鍵期。黎曼工作的獨立數學接受程度，以及自動化AI研究的可衡量進展，仍是主要不確定性。",
         "quote": "Superintelligence is arriving. How humanity acts over the next year will have great consequence on what future world we live in.",
-        "quote_zh": "超級智慧即將到來。人類在接下來一年的行動，將對我們所處的未來世界產生重大影響。",
+        "quote_zh": "超級智慧正在到來。人類接下來一年如何行動，將對我們所處的未來世界產生重大影響。",
         "importance": 3,
         "first_seen": "2026-11-22T22:50:00Z",
-        "updated_at": "2026-11-23T16:35:01.772258+00:00",
+        "updated_at": "2026-11-23T22:35:01.450483+00:00",
         "links": [
+          {
+            "label": "Alexandr Wang on X",
+            "url": "https://x.com/alexandr_wang/article/2124636606959345776"
+          },
           {
             "label": "Alexandr Wang on X",
             "url": "https://x.com/alexandr_wang/status/2124636606959345776"
@@ -168,20 +294,24 @@
         "category": "xai",
         "source_type": "news",
         "title_en": "Virginia and Oregon Sue SpaceX Over Grok-Generated Nonconsensual and Child Sexual Images",
-        "title_zh": "維吉尼亞與俄勒岡州起訴SpaceX，指控Grok生成非同意與兒童色情影像",
-        "summary_en": "Virginia and Oregon attorneys general filed separate state-court lawsuits on November 23 against SpaceX (parent of X and xAI), alleging the company profited from Grok features that generate child sexual abuse material and nonconsensual sexual images from photographs while failing to implement adequate safeguards. The suits cite consumer-protection violations and seek damages, penalties and injunctions.",
-        "summary_zh": "維吉尼亞與俄勒岡州檢察長於11月23日分別在州法院起訴SpaceX（X與xAI母公司），指控公司從Grok功能中獲利，該功能可從照片生成兒童性虐待材料與非同意性影像，且未採取足夠防護措施。訴訟引用消費者保護違規，並尋求損害賠償、罰則與禁制令。",
-        "analysis_en": "These are the first state lawsuits specifically targeting Grok image generation on these grounds. Outcomes will turn on evidence of safeguards, marketing claims and platform liability standards that remain unsettled.",
-        "analysis_zh": "這是首批針對Grok影像生成的州級訴訟。結果將取決於防護措施、行銷聲明與仍未定論的平台責任標準證據。",
-        "quote": "",
-        "quote_zh": "",
+        "title_zh": "維吉尼亞州與俄勒岡州起訴SpaceX涉Grok生成非同意與兒童性圖像",
+        "summary_en": "Virginia and Oregon attorneys general filed separate state-court lawsuits on November 23 against SpaceX (parent of X and xAI), alleging the company profited from Grok features that generate child sexual abuse material and nonconsensual sexualized images while marketing the tools as safe and failing to implement adequate safeguards, including promotion of 'spicy mode.' The states seek damages, penalties and orders to stop alleged violations of consumer protection laws.",
+        "summary_zh": "維吉尼亞州與俄勒岡州總檢察長於11月23日分別向州法院起訴SpaceX（X與xAI母公司），指控公司從Grok生成兒童性虐待材料與非同意性化圖像的功能中獲利，同時將工具宣傳為安全且未實施足夠防護，包括推廣「spicy mode」。兩州尋求損害賠償、罰款及停止違反消費者保護法的命令。",
+        "analysis_en": "These are the first state lawsuits specifically targeting Grok image generation on these grounds. Outcomes will turn on evidence of safeguards, marketing claims and platform liability; the cases add regulatory pressure on xAI/SpaceX image features alongside ongoing investigations.",
+        "analysis_zh": "這是首批針對Grok圖像生成的州級訴訟。結果將取決於防護措施、行銷主張與平台責任的證據；案件為xAI/SpaceX圖像功能增添監管壓力，與持續調查並行。",
+        "quote": "The people who tried to use Grok Imagine to generate this material did so by deliberately violating our Terms of Service and working aggressively to circumvent our safeguards.",
+        "quote_zh": "試圖使用Grok Imagine生成此類材料的人是故意違反我們的服務條款，並積極繞過我們的防護措施。",
         "importance": 4,
         "first_seen": "2026-11-23T12:00:00Z",
-        "updated_at": "2026-11-23T16:35:01.772258+00:00",
+        "updated_at": "2026-11-23T22:35:01.450483+00:00",
         "links": [
           {
             "label": "Reuters",
             "url": "https://www.reuters.com/legal/government/virginia-oregon-sue-musks-spacex-over-grok-ais-creation-child-sexual-abuse-2026-11-23/"
+          },
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html"
           },
           {
             "label": "Virginia AG Press Release",
@@ -197,26 +327,30 @@
         "category": "frontier_other",
         "source_type": "official_blog",
         "title_en": "NVIDIA Board Unanimously Reinstates Jensen Huang as President, CEO and Director",
-        "title_zh": "NVIDIA董事會一致通過恢復黃仁勳總裁、CEO與董事職務",
-        "summary_en": "NVIDIA announced on November 23 that its board voted unanimously to reinstate Jensen Huang as President, CEO and Board Director effective immediately, after discussions and input from senior U.S. government levels. The board stated it is confident the reinstatement poses no national security risk. Huang said he is honored to return and looks forward to leading the company.",
-        "summary_zh": "NVIDIA於11月23日宣布，董事會在討論並收到美國政府高層意見後，一致投票恢復黃仁勳為總裁、CEO與董事，立即生效。董事會表示確信此舉不構成國家安全風險。黃仁勳表示榮幸回歸並期待領導公司。",
-        "analysis_en": "The rapid reinstatement of NVIDIA's founding CEO removes a major leadership uncertainty for the dominant AI accelerator supplier. Ongoing independent investigations into reported foreign intelligence targeting continue in parallel.",
-        "analysis_zh": "迅速恢復NVIDIA創辦CEO消除了主導AI加速器供應商的重大領導不確定性。針對報導中外國情報針對的獨立調查仍並行進行。",
-        "quote": "I am honored to return to NVIDIA and lead one of the most consequential technology companies in the world at the beginning of a new industrial revolution.",
-        "quote_zh": "我榮幸回歸NVIDIA，並在新工業革命之初領導世界上最具影響力的科技公司之一。",
+        "title_zh": "輝達董事會一致投票恢復黃仁勳為總裁、執行長暨董事",
+        "summary_en": "NVIDIA announced on November 23 that its board voted unanimously to reinstate Jensen Huang as President, CEO and Board Director effective immediately, after discussions with him and input from senior U.S. government levels. The board stated it is confident the reinstatement poses no national security risk; an independent investigation into reported foreign intelligence targeting continues, and shares rose sharply on the news.",
+        "summary_zh": "輝達於11月23日宣布董事會一致投票，立即恢復黃仁勳為總裁、執行長暨董事會成員，此前與他進行一系列討論並取得美國政府高層意見。董事會表示對恢復不構成國家安全風險有信心；針對外情報告的獨立調查仍持續，消息公布後股價大幅上漲。",
+        "analysis_en": "The rapid reinstatement of NVIDIA's founding CEO removes a major leadership uncertainty for the dominant AI accelerator supplier. Ongoing independent investigations into reported foreign intelligence contacts and personal matters remain open, so governance and compliance questions persist even as markets reacted positively.",
+        "analysis_zh": "創辦人兼執行長迅速復職，消除了主導AI加速器供應商的重大領導不確定性。針對外情報告與個人事項的獨立調查仍在進行，治理與合規問題即使在市場正面反應下依然存在。",
+        "quote": "The Board of Directors voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang... the Board is confident that Mr. Huang’s reinstatement poses no national security risk.",
+        "quote_zh": "董事會在與黃先生進行一系列討論與會議後一致投票恢復其職務……董事會有信心黃先生的復職不構成國家安全風險。",
         "importance": 5,
         "first_seen": "2026-11-23T13:58:00Z",
-        "updated_at": "2026-11-23T16:35:01.772258+00:00",
+        "updated_at": "2026-11-23T22:35:01.450483+00:00",
         "links": [
           {
             "label": "NVIDIA Newsroom",
             "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/technology/nvidia-reinstates-jensen-huang-ceo-2026-11-23/"
           }
         ]
       }
     ]
   },
-  "brief_en": "OpenAI's chief scientist published internal log-perplexity numbers and proposed shared development limits until monitoring improves. NVIDIA's board unanimously reinstated Jensen Huang as CEO. Virginia and Oregon sued SpaceX over Grok-generated nonconsensual and child sexual images. Meta's Alexandr Wang warned that superintelligence is arriving after the Claude-assisted Riemann claim.",
-  "brief_zh": "OpenAI首席科學家公開內部log-perplexity數據並提議業界共同發展限制，直到監控能力跟上。NVIDIA董事會一致通過恢復黃仁勳CEO職務。維吉尼亞與俄勒岡州起訴SpaceX，指控Grok生成非同意與兒童色情影像。Meta的Alexandr Wang警告超級智慧即將到來。",
-  "updated_at": "2026-11-23T16:35:01.772258+00:00"
+  "brief_en": "NVIDIA board reinstates Jensen Huang as CEO after government input; Anthropic launches Claude Ship for AI-assisted PR review and approval; OpenAI's chief scientist publishes internal perplexity metrics and calls for shared limits; Virginia and Oregon sue SpaceX over Grok image generation; DeepMind agents improve quantum algorithms with Lean proofs; Meta's Wang warns superintelligence is arriving.",
+  "brief_zh": "輝達董事會在政府意見後恢復黃仁勳為執行長；Anthropic推出Claude Ship協助程式碼審查與核准；OpenAI首席科學家公布內部困惑度並呼籲共同限制；維州與俄勒岡州起訴SpaceX涉Grok生成圖像；DeepMind代理團隊以Lean證明改善量子演算法；Meta汪滔警告超級智慧正在到來。",
+  "updated_at": "2026-11-23T22:35:01.450483+00:00"
 }
