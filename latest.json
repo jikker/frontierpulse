@@ -24,6 +24,14 @@
       "item_count": 2,
       "updated_count": 2,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-11-23T10:35:02.268214+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 2,
+      "updated_count": 2,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -33,32 +41,32 @@
       "category": "anthropic",
       "source_type": "mixed",
       "title_en": "Anthropic Mathematician’s Claude-Assisted Riemann Hypothesis Proof Certified by Lean and Mathlib Communities",
-      "title_zh": "Anthropic數學家Claude輔助黎曼猜想證明獲Lean與Mathlib社群認證",
-      "summary_en": "Anthropic mathematician Levent Alpöge released on November 20 a Lean formalization of a claimed proof of the Riemann Hypothesis (and generalized version for Dirichlet L-functions), developed over about six weeks working with Claude. The Lean and Mathlib communities, endorsed by the Lean FRO and Mathlib Initiative, subsequently certified both the statement and the proof as correct after independent kernel and comparator checks on the roughly 17-million-line library.",
-      "summary_zh": "Anthropic數學家Levent Alpöge於11月20日釋出與Claude合作約六週完成的黎曼猜想（及狄利克雷L函數廣義版本）Lean形式化證明。Lean與Mathlib社群（獲Lean FRO與Mathlib Initiative背書）經獨立核心與比較器檢查約1700萬行程式庫後，認證陳述與證明正確。",
-      "analysis_en": "Machine verification of a multi-million-line formalization marks a practical advance in AI-assisted mathematics, shifting the bottleneck from checking correctness to human understanding of the argument. Independent community certification strengthens the claim, though a human-readable write-up and prize-committee review remain pending.",
-      "analysis_zh": "機器驗證數百萬行程式碼的形式化證明標誌AI輔助數學的實用進展，瓶頸從正確性檢查轉向人類對論證的理解。獨立社群認證強化主張，但人類可讀寫作與獎項委員會審查仍待完成。",
-      "quote": "We have full confidence that Alpöge’s proof of the Riemann Hypothesis is correct. We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct.",
-      "quote_zh": "我們完全相信Alpöge的黎曼猜想證明是正確的。我們特此認證黎曼猜想的陳述與證明皆正確。",
+      "title_zh": "Anthropic 數學家以 Claude 協助的黎曼猜想證明獲 Lean 與 Mathlib 社群正式認證",
+      "summary_en": "On November 20, Anthropic mathematician Levent Alpöge released a 17-million-line Lean formalization of a claimed proof of the Riemann Hypothesis (and generalized version for Dirichlet L-functions), developed over about six weeks with Claude. On November 21, the Lean FRO and Mathlib Initiative issued a joint statement certifying both the statement and the proof as correct after independent compilations and multiple proof checkers confirmed validity.",
+      "summary_zh": "11 月 20 日，Anthropic 數學家 Levent Alpöge 釋出約 1700 萬行的 Lean 形式化證明，聲稱在約六週內與 Claude 合作完成黎曼猜想（及 Dirichlet L-函數的廣義版本）證明。11 月 21 日，Lean FRO 與 Mathlib Initiative 聯合聲明，經獨立編譯與多個證明檢查器確認後，認證陳述與證明皆正確。",
+      "analysis_en": "Machine verification of a multi-million-line formalization marks a practical advance in AI-assisted mathematics, shifting the bottleneck from checking correctness to human understanding of the underlying ideas; a human-readable exposition is still pending and prize processes require further steps.",
+      "analysis_zh": "數百萬行形式化證明的機器驗證標誌著 AI 協助數學的實用進展，瓶頸從正確性檢查轉向人類理解底層概念；人類可讀的完整闡述仍待完成，獎項程序也需要進一步步驟。",
+      "quote": "We have full confidence that Alpöge's proof of the Riemann Hypothesis is correct, and we congratulate him on this achievement. We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct.",
+      "quote_zh": "我們完全有信心 Alpöge 對黎曼猜想的證明是正確的，並恭喜他取得此成就。我們特此認證黎曼猜想的陳述與證明皆正確。",
       "importance": 5,
       "first_seen": "2026-11-22T16:35:01Z",
-      "updated_at": "2026-11-23T04:35:01.595585+00:00",
+      "updated_at": "2026-11-23T10:35:02.268214+00:00",
       "links": [
         {
-          "label": "Lean/Mathlib community certification / GitHub",
-          "url": "https://github.com/leanprover-community/riemann-hypothesis"
-        },
-        {
-          "label": "Alpöge note (original release)",
-          "url": "https://alpo.ge/remark.pdf"
-        },
-        {
-          "label": "Lean community blog",
+          "label": "Lean community blog / Lean FRO & Mathlib Initiative joint statement",
           "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
         },
         {
-          "label": "The Guardian",
+          "label": "Alpöge note (personal site)",
+          "url": "https://alpo.ge/remark.pdf"
+        },
+        {
+          "label": "The Guardian coverage",
           "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"
+        },
+        {
+          "label": "Lean/Mathlib community certification / GitHub",
+          "url": "https://github.com/leanprover-community/riemann-hypothesis"
         },
         {
           "label": "SiliconANGLE",
@@ -72,28 +80,32 @@
       "category": "openai",
       "source_type": "official_blog",
       "title_en": "OpenAI Chief Scientist Proposes Shared Perplexity-Based Limits on Frontier AI Development",
-      "title_zh": "OpenAI首席科學家提議以Perplexity為基礎的前沿AI開發共享限制",
-      "summary_en": "On November 22, OpenAI Chief Scientist Jakub Pachocki published “Perplexity and Intelligence,” disclosing internal log-perplexity figures (GPT-3.5 ~0.99, GPT-4 ~0.91, recent models below 0.8, a math-capable model ~0.76) on a held-out codebase dataset. He proposes common limits that labs would not cross until AI behavior monitoring reaches a concrete milestone, with further transformative capabilities expected in the ~0.68-0.70 window as soon as 2027; Altman endorsed the post as among OpenAI’s most important recent publications.",
-      "summary_zh": "11月22日，OpenAI首席科學家Jakub Pachocki發表《Perplexity and Intelligence》，公開內部log-perplexity數據（GPT-3.5約0.99、GPT-4約0.91、近期模型低於0.8、數學模型約0.76）。他提議實驗室不應跨越共同限制，直到AI行為監控達具體里程碑，並預期0.68-0.70區間最早2027年出現進一步變革能力；Altman稱此文為近期最重要發表之一。",
-      "analysis_en": "Publishing concrete pretraining metrics creates a potential cross-lab yardstick for pacing, but the proposal’s effectiveness depends on other labs adopting comparable measurements and agreeing on monitoring milestones; comparison challenges across different datasets and the fact that post-training elicitation does not reduce perplexity remain open issues.",
-      "analysis_zh": "公開具體預訓練指標提供跨實驗室節奏衡量的潛在標準，但提案成效取決於其他實驗室採用可比較測量並同意監控里程碑；不同數據集比較困難，以及後訓練引出不降低perplexity仍為未決問題。",
+      "title_zh": "OpenAI 首席科學家提出以 Perplexity 為基礎的前沿 AI 發展共享限制",
+      "summary_en": "On November 22, OpenAI Chief Scientist Jakub Pachocki published “Perplexity and Intelligence,” disclosing internal log-perplexity figures (GPT-3.5 ~0.99, GPT-4 ~0.91, recent models below 0.8, a math-capable model ~0.76) on a held-out codebase dataset and proposing common limits based on perplexity and other measurements that labs would not cross until concrete monitoring milestones (e.g., successor to CoT monitors) are met. Sam Altman endorsed the post as one of OpenAI’s most important recent publications and linked it to White House Accords commitments.",
+      "summary_zh": "11 月 22 日，OpenAI 首席科學家 Jakub Pachocki 發表《Perplexity and Intelligence》，揭露內部 log-perplexity 數據（GPT-3.5 約 0.99、GPT-4 約 0.91、近期模型低於 0.8、某數學能力模型約 0.76），並提議以 perplexity 及其他測量為基礎的共同限制，實驗室承諾在達到具體監控里程碑（如 CoT 監控的後繼者）前不跨越。Sam Altman 背書此文為 OpenAI 近期最重要發表之一，並連結至白宮協議承諾。",
+      "analysis_en": "Publishing concrete pretraining metrics creates a potential cross-lab yardstick for pacing, but the proposal’s effectiveness depends on other labs adopting comparable measurements and agreeing to the limits; challenges include dataset differences and the metric’s detachment from specific capabilities.",
+      "analysis_zh": "公布具體預訓練指標可創造跨實驗室的潛在節奏衡量標準，但提案效力取決於其他實驗室採用可比較測量並同意限制；挑戰包括數據集差異以及該指標與特定能力的脫節。",
       "quote": "I further propose common limits, based on perplexity and other measurements, that developers are committed to not crossing until our ability to understand and monitor AI behavior achieves a certain concrete milestone.",
-      "quote_zh": "我進一步提議以perplexity及其他測量為基礎的共同限制，開發者承諾在我們理解與監控AI行為的能力達到某一具體里程碑之前不跨越。",
+      "quote_zh": "我進一步提議基於 perplexity 及其他測量的共同限制，開發者承諾在我們理解與監控 AI 行為的能力達到某個具體里程碑之前不跨越。",
       "importance": 4,
       "first_seen": "2026-11-22T17:03:00Z",
-      "updated_at": "2026-11-23T04:35:01.595585+00:00",
+      "updated_at": "2026-11-23T10:35:02.268214+00:00",
       "links": [
         {
           "label": "OpenAI Blog: Perplexity and Intelligence",
           "url": "https://openai.com/index/perplexity-and-intelligence/"
         },
         {
-          "label": "Sam Altman on X",
-          "url": "https://x.com/sama/status/2124558713646428663"
+          "label": "Jakub Pachocki on X",
+          "url": "https://x.com/merettm/status/2124549218995949967"
         },
         {
           "label": "Sam Altman on X",
           "url": "https://x.com/sama/status/2124551594691932405"
+        },
+        {
+          "label": "Sam Altman on X",
+          "url": "https://x.com/sama/status/2124558713646428663"
         }
       ]
     }
@@ -106,28 +118,32 @@
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI Chief Scientist Proposes Shared Perplexity-Based Limits on Frontier AI Development",
-        "title_zh": "OpenAI首席科學家提議以Perplexity為基礎的前沿AI開發共享限制",
-        "summary_en": "On November 22, OpenAI Chief Scientist Jakub Pachocki published “Perplexity and Intelligence,” disclosing internal log-perplexity figures (GPT-3.5 ~0.99, GPT-4 ~0.91, recent models below 0.8, a math-capable model ~0.76) on a held-out codebase dataset. He proposes common limits that labs would not cross until AI behavior monitoring reaches a concrete milestone, with further transformative capabilities expected in the ~0.68-0.70 window as soon as 2027; Altman endorsed the post as among OpenAI’s most important recent publications.",
-        "summary_zh": "11月22日，OpenAI首席科學家Jakub Pachocki發表《Perplexity and Intelligence》，公開內部log-perplexity數據（GPT-3.5約0.99、GPT-4約0.91、近期模型低於0.8、數學模型約0.76）。他提議實驗室不應跨越共同限制，直到AI行為監控達具體里程碑，並預期0.68-0.70區間最早2027年出現進一步變革能力；Altman稱此文為近期最重要發表之一。",
-        "analysis_en": "Publishing concrete pretraining metrics creates a potential cross-lab yardstick for pacing, but the proposal’s effectiveness depends on other labs adopting comparable measurements and agreeing on monitoring milestones; comparison challenges across different datasets and the fact that post-training elicitation does not reduce perplexity remain open issues.",
-        "analysis_zh": "公開具體預訓練指標提供跨實驗室節奏衡量的潛在標準，但提案成效取決於其他實驗室採用可比較測量並同意監控里程碑；不同數據集比較困難，以及後訓練引出不降低perplexity仍為未決問題。",
+        "title_zh": "OpenAI 首席科學家提出以 Perplexity 為基礎的前沿 AI 發展共享限制",
+        "summary_en": "On November 22, OpenAI Chief Scientist Jakub Pachocki published “Perplexity and Intelligence,” disclosing internal log-perplexity figures (GPT-3.5 ~0.99, GPT-4 ~0.91, recent models below 0.8, a math-capable model ~0.76) on a held-out codebase dataset and proposing common limits based on perplexity and other measurements that labs would not cross until concrete monitoring milestones (e.g., successor to CoT monitors) are met. Sam Altman endorsed the post as one of OpenAI’s most important recent publications and linked it to White House Accords commitments.",
+        "summary_zh": "11 月 22 日，OpenAI 首席科學家 Jakub Pachocki 發表《Perplexity and Intelligence》，揭露內部 log-perplexity 數據（GPT-3.5 約 0.99、GPT-4 約 0.91、近期模型低於 0.8、某數學能力模型約 0.76），並提議以 perplexity 及其他測量為基礎的共同限制，實驗室承諾在達到具體監控里程碑（如 CoT 監控的後繼者）前不跨越。Sam Altman 背書此文為 OpenAI 近期最重要發表之一，並連結至白宮協議承諾。",
+        "analysis_en": "Publishing concrete pretraining metrics creates a potential cross-lab yardstick for pacing, but the proposal’s effectiveness depends on other labs adopting comparable measurements and agreeing to the limits; challenges include dataset differences and the metric’s detachment from specific capabilities.",
+        "analysis_zh": "公布具體預訓練指標可創造跨實驗室的潛在節奏衡量標準，但提案效力取決於其他實驗室採用可比較測量並同意限制；挑戰包括數據集差異以及該指標與特定能力的脫節。",
         "quote": "I further propose common limits, based on perplexity and other measurements, that developers are committed to not crossing until our ability to understand and monitor AI behavior achieves a certain concrete milestone.",
-        "quote_zh": "我進一步提議以perplexity及其他測量為基礎的共同限制，開發者承諾在我們理解與監控AI行為的能力達到某一具體里程碑之前不跨越。",
+        "quote_zh": "我進一步提議基於 perplexity 及其他測量的共同限制，開發者承諾在我們理解與監控 AI 行為的能力達到某個具體里程碑之前不跨越。",
         "importance": 4,
         "first_seen": "2026-11-22T17:03:00Z",
-        "updated_at": "2026-11-23T04:35:01.595585+00:00",
+        "updated_at": "2026-11-23T10:35:02.268214+00:00",
         "links": [
           {
             "label": "OpenAI Blog: Perplexity and Intelligence",
             "url": "https://openai.com/index/perplexity-and-intelligence/"
           },
           {
-            "label": "Sam Altman on X",
-            "url": "https://x.com/sama/status/2124558713646428663"
+            "label": "Jakub Pachocki on X",
+            "url": "https://x.com/merettm/status/2124549218995949967"
           },
           {
             "label": "Sam Altman on X",
             "url": "https://x.com/sama/status/2124551594691932405"
+          },
+          {
+            "label": "Sam Altman on X",
+            "url": "https://x.com/sama/status/2124558713646428663"
           }
         ]
       }
@@ -139,32 +155,32 @@
         "category": "anthropic",
         "source_type": "mixed",
         "title_en": "Anthropic Mathematician’s Claude-Assisted Riemann Hypothesis Proof Certified by Lean and Mathlib Communities",
-        "title_zh": "Anthropic數學家Claude輔助黎曼猜想證明獲Lean與Mathlib社群認證",
-        "summary_en": "Anthropic mathematician Levent Alpöge released on November 20 a Lean formalization of a claimed proof of the Riemann Hypothesis (and generalized version for Dirichlet L-functions), developed over about six weeks working with Claude. The Lean and Mathlib communities, endorsed by the Lean FRO and Mathlib Initiative, subsequently certified both the statement and the proof as correct after independent kernel and comparator checks on the roughly 17-million-line library.",
-        "summary_zh": "Anthropic數學家Levent Alpöge於11月20日釋出與Claude合作約六週完成的黎曼猜想（及狄利克雷L函數廣義版本）Lean形式化證明。Lean與Mathlib社群（獲Lean FRO與Mathlib Initiative背書）經獨立核心與比較器檢查約1700萬行程式庫後，認證陳述與證明正確。",
-        "analysis_en": "Machine verification of a multi-million-line formalization marks a practical advance in AI-assisted mathematics, shifting the bottleneck from checking correctness to human understanding of the argument. Independent community certification strengthens the claim, though a human-readable write-up and prize-committee review remain pending.",
-        "analysis_zh": "機器驗證數百萬行程式碼的形式化證明標誌AI輔助數學的實用進展，瓶頸從正確性檢查轉向人類對論證的理解。獨立社群認證強化主張，但人類可讀寫作與獎項委員會審查仍待完成。",
-        "quote": "We have full confidence that Alpöge’s proof of the Riemann Hypothesis is correct. We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct.",
-        "quote_zh": "我們完全相信Alpöge的黎曼猜想證明是正確的。我們特此認證黎曼猜想的陳述與證明皆正確。",
+        "title_zh": "Anthropic 數學家以 Claude 協助的黎曼猜想證明獲 Lean 與 Mathlib 社群正式認證",
+        "summary_en": "On November 20, Anthropic mathematician Levent Alpöge released a 17-million-line Lean formalization of a claimed proof of the Riemann Hypothesis (and generalized version for Dirichlet L-functions), developed over about six weeks with Claude. On November 21, the Lean FRO and Mathlib Initiative issued a joint statement certifying both the statement and the proof as correct after independent compilations and multiple proof checkers confirmed validity.",
+        "summary_zh": "11 月 20 日，Anthropic 數學家 Levent Alpöge 釋出約 1700 萬行的 Lean 形式化證明，聲稱在約六週內與 Claude 合作完成黎曼猜想（及 Dirichlet L-函數的廣義版本）證明。11 月 21 日，Lean FRO 與 Mathlib Initiative 聯合聲明，經獨立編譯與多個證明檢查器確認後，認證陳述與證明皆正確。",
+        "analysis_en": "Machine verification of a multi-million-line formalization marks a practical advance in AI-assisted mathematics, shifting the bottleneck from checking correctness to human understanding of the underlying ideas; a human-readable exposition is still pending and prize processes require further steps.",
+        "analysis_zh": "數百萬行形式化證明的機器驗證標誌著 AI 協助數學的實用進展，瓶頸從正確性檢查轉向人類理解底層概念；人類可讀的完整闡述仍待完成，獎項程序也需要進一步步驟。",
+        "quote": "We have full confidence that Alpöge's proof of the Riemann Hypothesis is correct, and we congratulate him on this achievement. We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct.",
+        "quote_zh": "我們完全有信心 Alpöge 對黎曼猜想的證明是正確的，並恭喜他取得此成就。我們特此認證黎曼猜想的陳述與證明皆正確。",
         "importance": 5,
         "first_seen": "2026-11-22T16:35:01Z",
-        "updated_at": "2026-11-23T04:35:01.595585+00:00",
+        "updated_at": "2026-11-23T10:35:02.268214+00:00",
         "links": [
           {
-            "label": "Lean/Mathlib community certification / GitHub",
-            "url": "https://github.com/leanprover-community/riemann-hypothesis"
-          },
-          {
-            "label": "Alpöge note (original release)",
-            "url": "https://alpo.ge/remark.pdf"
-          },
-          {
-            "label": "Lean community blog",
+            "label": "Lean community blog / Lean FRO & Mathlib Initiative joint statement",
             "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
           },
           {
-            "label": "The Guardian",
+            "label": "Alpöge note (personal site)",
+            "url": "https://alpo.ge/remark.pdf"
+          },
+          {
+            "label": "The Guardian coverage",
             "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"
+          },
+          {
+            "label": "Lean/Mathlib community certification / GitHub",
+            "url": "https://github.com/leanprover-community/riemann-hypothesis"
           },
           {
             "label": "SiliconANGLE",
@@ -178,7 +194,7 @@
     "xai": [],
     "frontier_other": []
   },
-  "brief_en": "Anthropic mathematician’s Claude-assisted Riemann Hypothesis Lean formalization certified by the Lean/Mathlib communities. OpenAI Chief Scientist Pachocki discloses internal log-perplexity figures and proposes shared industry limits gated on better AI behavior monitoring, backed by Altman.",
-  "brief_zh": "Anthropic數學家以Claude輔助的黎曼猜想Lean形式化獲Lean/Mathlib社群認證。OpenAI首席科學家Pachocki公開內部log-perplexity數據並提議業界共享限制，須待行為監控達標，獲Altman支持。",
-  "updated_at": "2026-11-23T04:35:01.595585+00:00"
+  "brief_en": "Anthropic’s Claude-assisted Riemann Hypothesis proof received full Lean/Mathlib certification. OpenAI’s chief scientist published internal log-perplexity metrics and proposed shared development limits, endorsed by Sam Altman.",
+  "brief_zh": "Anthropic 的 Claude 協助黎曼猜想證明獲 Lean/Mathlib 社群正式認證。OpenAI 首席科學家公布內部 log-perplexity 數據，並提出跨實驗室發展限制，獲 Altman 背書。",
+  "updated_at": "2026-11-23T10:35:02.268214+00:00"
 }
