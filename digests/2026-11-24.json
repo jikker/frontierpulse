@@ -16,6 +16,14 @@
       "item_count": 6,
       "updated_count": 4,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-11-24T10:35:02.134142+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 10,
+      "updated_count": 6,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -23,19 +31,27 @@
       "id": "nvidia-huang-reinstated-ceo-2026-11-23",
       "story_id": "nvidia-huang-reinstated-ceo-2026-11-23",
       "category": "frontier_other",
-      "source_type": "official_blog",
+      "source_type": "news",
       "title_en": "NVIDIA Board Unanimously Reinstates Jensen Huang as President, CEO and Director",
-      "title_zh": "輝達董事會一致投票恢復黃仁勳為總裁、執行長暨董事",
-      "summary_en": "NVIDIA announced on November 23 that its board voted unanimously to reinstate Jensen Huang as President, CEO and Board Director effective immediately, after discussions with him and input from senior U.S. government levels. The board stated it is confident the reinstatement poses no national security risk; an independent investigation into reported foreign intelligence targeting continues, and shares rose sharply on the news.",
-      "summary_zh": "輝達於11月23日宣布董事會一致投票，立即恢復黃仁勳為總裁、執行長暨董事會成員，此前與他進行一系列討論並取得美國政府高層意見。董事會表示對恢復不構成國家安全風險有信心；針對外情報告的獨立調查仍持續，消息公布後股價大幅上漲。",
-      "analysis_en": "The rapid reinstatement of NVIDIA's founding CEO removes a major leadership uncertainty for the dominant AI accelerator supplier. Ongoing independent investigations into reported foreign intelligence contacts and personal matters remain open, so governance and compliance questions persist even as markets reacted positively.",
-      "analysis_zh": "創辦人兼執行長迅速復職，消除了主導AI加速器供應商的重大領導不確定性。針對外情報告與個人事項的獨立調查仍在進行，治理與合規問題即使在市場正面反應下依然存在。",
-      "quote": "The Board of Directors voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang... the Board is confident that Mr. Huang’s reinstatement poses no national security risk.",
-      "quote_zh": "董事會在與黃先生進行一系列討論與會議後一致投票恢復其職務……董事會有信心黃先生的復職不構成國家安全風險。",
+      "title_zh": "NVIDIA董事會一致同意立即恢復黃仁勳擔任總裁、CEO與董事",
+      "summary_en": "NVIDIA announced on November 23 that its board voted unanimously to reinstate Jensen Huang as President, CEO and Board Director effective immediately, after discussions with him and input from senior U.S. government levels. The board stated it was confident his return posed no national security risk; an independent investigation continues. Interim CEO Colette Kress remains CFO, and board chair Harvey Jones continues in that role.",
+      "summary_zh": "NVIDIA於11月23日宣布董事會一致投票，立即恢復黃仁勳擔任總裁、CEO與董事會成員。董事會表示已與黃討論並收到美國政府高層意見，確信其復任不構成國家安全風險；獨立調查仍持續。代理CEO Colette Kress繼續擔任CFO，主席Harvey Jones留任。",
+      "analysis_en": "The rapid reinstatement of NVIDIA's founding CEO removes a major leadership uncertainty for the dominant AI accelerator supplier. Ongoing independent investigations into reported foreign intelligence concerns and the role of senior U.S. government input remain key open questions for governance and export controls.",
+      "analysis_zh": "創辦人CEO迅速復任，消除了AI加速器主導供應商的重大領導不確定性。針對外國情報疑慮的獨立調查，以及美國政府高層意見的角色，仍是治理與出口管制的關鍵未解問題。",
+      "quote": "In the process of reaching its decision, the Board received input from senior levels of the United States government, and based on that input, the Board is confident that Mr. Huang’s reinstatement poses no national security risk.",
+      "quote_zh": "在做出決定的過程中，董事會收到美國政府高層的意見，並據此確信黃先生的復任不構成國家安全風險。",
       "importance": 5,
       "first_seen": "2026-11-23T13:58:00Z",
-      "updated_at": "2026-11-23T22:35:01.450483+00:00",
+      "updated_at": "2026-11-24T10:35:02.134142+00:00",
       "links": [
+        {
+          "label": "NVIDIA / company statement via Politico & ABC News",
+          "url": "https://www.politico.com/news/2026/11/23/jensen-huang-nvidia-return-01180321"
+        },
+        {
+          "label": "ABC News",
+          "url": "https://abcnews.com/Business/nvidia-reinstates-jensen-huang-ceo/story?id=138375516"
+        },
         {
           "label": "NVIDIA Newsroom",
           "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
@@ -52,20 +68,24 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic Launches Claude Ship Beta for AI-Assisted Pull Request Review, Fixes and Approvals",
-      "title_zh": "Anthropic推出Claude Ship測試版，AI協助程式碼審查、修正與核准",
-      "summary_en": "Anthropic announced Claude Ship in beta on November 23 for Claude Team and Enterprise plans on GitHub. It combines generally available Code Review with two new beta agents (PR Steward and Claude Approvals) that can review pull requests, apply fixes, and approve routine changes according to team-defined policies. Developers can invoke it via the /ship command in Claude Code; usage is token-billed with spend limits.",
-      "summary_zh": "Anthropic於11月23日為Claude Team與Enterprise方案在GitHub推出Claude Ship測試版。它結合已正式推出的Code Review與兩個新測試代理（PR Steward與Claude Approvals），可依團隊設定政策審查拉取請求、套用修正並核准例行變更。開發者可在Claude Code中用/ship指令呼叫；使用按token計費並可設定花費上限。",
-      "analysis_en": "Claude Ship extends agent coding from generation into the review-and-merge loop under explicit team policies, potentially accelerating developer throughput. Whether automatic approvals remain limited to low-risk changes in practice, and how error or security rates evolve at scale, will determine its enterprise adoption.",
-      "analysis_zh": "Claude Ship將代理編碼從生成延伸到審查與合併環節，並受明確團隊政策約束，可能加速開發吞吐量。自動核准在實務上是否限於低風險變更，以及規模化後錯誤或安全率如何演變，將決定其企業採用程度。",
-      "quote": "Claude can now review pull requests, fix them, and approve the ones that a team's policy allows. The goal: ship code as fast as teams write it.",
-      "quote_zh": "Claude現在可以審查拉取請求、修正它們，並核准團隊政策允許的項目。目標：讓程式碼出貨速度與團隊撰寫速度一樣快。",
+      "title_zh": "Anthropic推出Claude Ship Beta，以AI協助審核、修正與核准Pull Request",
+      "summary_en": "Anthropic announced Claude Ship in beta on November 23 for Claude Team and Enterprise plans on GitHub. It combines generally available Code Review with two new beta agents (PR Steward and Claude Approvals) that can review pull requests, apply fixes, and approve routine changes under a team policy file, while keeping humans in control of higher-risk merges. The /ship command is rolling out in Claude Code.",
+      "summary_zh": "Anthropic於11月23日宣布Claude Ship進入Beta，供Claude Team與Enterprise在GitHub上使用。它結合已一般可用的Code Review，以及兩個新Beta代理（PR Steward與Claude Approvals），可依團隊政策檔案審核PR、套用修正並核准例行變更，同時讓人類掌控較高風險的合併。/ship指令正在Claude Code推出。",
+      "analysis_en": "Claude Ship extends agent coding from generation into the review-and-merge loop under explicit team policies, potentially accelerating developer throughput. Whether automatic approvals under policy files prove reliable in production and how token costs scale remain open questions.",
+      "analysis_zh": "Claude Ship將代理編碼從生成延伸到審查與合併迴路，並受明確團隊政策約束，可能加快開發吞吐。政策檔案下的自動核准在生產環境是否可靠，以及token成本如何擴展，仍是開放問題。",
+      "quote": "It can review PRs, fix them, and decide what's ready to merge based on policies each team sets. Teams stay in control of where it runs and which changes need a person.",
+      "quote_zh": "它可以審核PR、修正它們，並根據每個團隊設定的政策決定哪些可以合併。團隊仍掌控它在哪裡運行，以及哪些變更需要人介入。",
       "importance": 4,
       "first_seen": "2026-11-23T20:00:00Z",
-      "updated_at": "2026-11-23T22:35:01.450483+00:00",
+      "updated_at": "2026-11-24T10:35:02.134142+00:00",
       "links": [
         {
-          "label": "Anthropic / Claude",
+          "label": "Anthropic / Claude Ship",
           "url": "https://claude.com/resources/articles/introducing-claude-ship"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/anthropic-launches-claude-ship-help-developers-ship-code-faster-2026-11-23/"
         },
         {
           "label": "TechCrunch",
@@ -74,25 +94,29 @@
       ]
     },
     {
-      "id": "openai-pachocki-perplexity-limits-2026-11-22",
-      "story_id": "openai-pachocki-perplexity-limits-2026-11-22",
+      "id": "openai-gpt62-sol-chat-rollout-2026-11-23",
+      "story_id": "openai-gpt62-sol-chat-rollout-2026-11-23",
       "category": "openai",
-      "source_type": "official_blog",
-      "title_en": "OpenAI Chief Scientist Publishes Internal Perplexity Numbers, Proposes Shared Development Limits",
-      "title_zh": "OpenAI首席科學家公布內部困惑度數字，提議共同開發限制",
-      "summary_en": "Jakub Pachocki published 'Perplexity and Intelligence' on OpenAI's site on November 22, disclosing internal log-perplexity on a held-out codebase dataset: GPT-3.5 ~0.99, GPT-4 ~0.91, recent models below 0.8, and a math-breakthrough model around 0.76. He proposes using perplexity (or cross-entropy) as a shared metric and establishing common development limits across labs until monitoring capabilities improve.",
-      "summary_zh": "Jakub Pachocki於11月22日在OpenAI網站發表〈困惑度與智慧〉，揭露內部在保留程式碼資料集上的log-perplexity：GPT-3.5約0.99、GPT-4約0.91、近期模型低於0.8，以及數學突破模型約0.76。他提議將困惑度（或交叉熵）作為共同指標，並在監控能力改善前建立跨實驗室的共同開發限制。",
-      "analysis_en": "This is rare quantitative transparency from a leading lab on pretraining progress and an explicit call for industry pacing norms. Whether other labs adopt comparable metrics or limits remains open, as does the practical link between perplexity thresholds and emergent capabilities or safety risks.",
-      "analysis_zh": "這是領先實驗室在預訓練進展上罕見的定量透明，並明確呼籲產業節奏規範。其他實驗室是否採用可比指標或限制仍待觀察，困惑度門檻與新興能力或安全風險的實際關聯亦尚未確立。",
-      "quote": "I argue for establishing perplexity (or, equivalently, cross-entropy loss) as a metric to compare between model developers and inform shared safety standards.",
-      "quote_zh": "我主張將困惑度（或等效的交叉熵損失）確立為模型開發者間比較的指標，並據此制定共同安全標準。",
+      "source_type": "product",
+      "title_en": "OpenAI Rolls Chat-Tuned GPT-6.2 Sol into ChatGPT Chat Tab; Retires GPT-5.6 Models on Dec 23",
+      "title_zh": "OpenAI將針對聊天優化的GPT-6.2 Sol推至ChatGPT Chat分頁；12月23日退役GPT-5.6系列",
+      "summary_en": "On November 23 OpenAI began rolling out a version of GPT-6.2 Sol optimized for everyday conversation into the Chat tab of ChatGPT for Plus, Pro, Business and Enterprise users worldwide. The company reported gains in image understanding (71.7% vs 47.4% for GPT-6 in internal Chat tests), instruction following, and web search; GPT-5.6 Sol and Terra are scheduled to retire from relevant surfaces on December 23. Free and Go plans are excluded.",
+      "summary_zh": "OpenAI於11月23日開始將針對日常對話優化的GPT-6.2 Sol版本，推廣至全球Plus、Pro、Business與Enterprise用戶的ChatGPT Chat分頁。公司報告在圖像理解（內部Chat測試71.7%對GPT-6的47.4%）、指令遵循與網頁搜尋上有進步；GPT-5.6 Sol與Terra預定12月23日從相關介面退役。免費與Go方案不包括。",
+      "analysis_en": "Extending the higher-efficiency GPT-6.2 Sol into the primary Chat surface broadens access to the latest generation for paying users while accelerating model churn. Independent verification of the reported image and safety gains, and the practical impact of the December retirement, will determine how quickly the older lineup is displaced.",
+      "analysis_zh": "將效率更高的GPT-6.2 Sol延伸到主要Chat介面，擴大付費用戶對最新世代的接觸，同時加速模型更迭。對報告的圖像與安全增益的獨立驗證，以及12月退役的實際影響，將決定舊系列被取代的速度。",
+      "quote": "We’re rolling out a version of GPT-6.2, optimized for the chat tab, for Plus, Pro, Business and Enterprise tiers.",
+      "quote_zh": "我們正在為Plus、Pro、Business與Enterprise層級推出針對Chat分頁優化的GPT-6.2版本。",
       "importance": 4,
-      "first_seen": "2026-11-23T04:35:00Z",
-      "updated_at": "2026-11-23T22:35:01.450483+00:00",
+      "first_seen": "2026-11-23T21:00:00Z",
+      "updated_at": "2026-11-24T10:35:02.134142+00:00",
       "links": [
         {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/perplexity-and-intelligence/"
+          "label": "OpenAI ChatGPT Release Notes",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        },
+        {
+          "label": "MacRumors",
+          "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/"
         }
       ]
     },
@@ -102,16 +126,16 @@
       "category": "xai",
       "source_type": "news",
       "title_en": "Virginia and Oregon Sue SpaceX Over Grok-Generated Nonconsensual and Child Sexual Images",
-      "title_zh": "維吉尼亞州與俄勒岡州起訴SpaceX涉Grok生成非同意與兒童性圖像",
-      "summary_en": "Virginia and Oregon attorneys general filed separate state-court lawsuits on November 23 against SpaceX (parent of X and xAI), alleging the company profited from Grok features that generate child sexual abuse material and nonconsensual sexualized images while marketing the tools as safe and failing to implement adequate safeguards, including promotion of 'spicy mode.' The states seek damages, penalties and orders to stop alleged violations of consumer protection laws.",
-      "summary_zh": "維吉尼亞州與俄勒岡州總檢察長於11月23日分別向州法院起訴SpaceX（X與xAI母公司），指控公司從Grok生成兒童性虐待材料與非同意性化圖像的功能中獲利，同時將工具宣傳為安全且未實施足夠防護，包括推廣「spicy mode」。兩州尋求損害賠償、罰款及停止違反消費者保護法的命令。",
-      "analysis_en": "These are the first state lawsuits specifically targeting Grok image generation on these grounds. Outcomes will turn on evidence of safeguards, marketing claims and platform liability; the cases add regulatory pressure on xAI/SpaceX image features alongside ongoing investigations.",
-      "analysis_zh": "這是首批針對Grok圖像生成的州級訴訟。結果將取決於防護措施、行銷主張與平台責任的證據；案件為xAI/SpaceX圖像功能增添監管壓力，與持續調查並行。",
+      "title_zh": "維吉尼亞與奧勒岡起訴SpaceX，涉Grok生成非合意與兒童性圖像",
+      "summary_en": "Virginia and Oregon attorneys general filed separate state-court lawsuits on November 23 against SpaceX (parent of X and xAI), alleging the company profited from Grok features that generate child sexual abuse material and nonconsensual sexual images while failing to implement adequate safeguards and misleading consumers about safety. The suits seek damages, penalties and orders to stop the alleged violations under state consumer-protection laws.",
+      "summary_zh": "維吉尼亞與奧勒岡州檢察長於11月23日分別在州法院對SpaceX（X與xAI母公司）提起訴訟，指控公司從Grok生成兒童性虐待材料與非合意性圖像的功能中獲利，同時未實施足夠防護並誤導消費者安全宣稱。訴訟依州消費者保護法尋求損害賠償、罰款與停止違規命令。",
+      "analysis_en": "These are the first state lawsuits specifically targeting Grok image generation on these grounds. Outcomes will turn on evidence of safeguards, marketing claims and platform liability; they add legal pressure alongside ongoing regulatory scrutiny of image models.",
+      "analysis_zh": "這些是首批專門針對Grok圖像生成提起的州訴訟。結果將取決於防護證據、行銷宣稱與平台責任；它們在圖像模型持續監管審查之外增加法律壓力。",
       "quote": "The people who tried to use Grok Imagine to generate this material did so by deliberately violating our Terms of Service and working aggressively to circumvent our safeguards.",
       "quote_zh": "試圖使用Grok Imagine生成此類材料的人是故意違反我們的服務條款，並積極繞過我們的防護措施。",
       "importance": 4,
       "first_seen": "2026-11-23T12:00:00Z",
-      "updated_at": "2026-11-23T22:35:01.450483+00:00",
+      "updated_at": "2026-11-24T10:35:02.134142+00:00",
       "links": [
         {
           "label": "Reuters",
@@ -128,22 +152,134 @@
       ]
     },
     {
+      "id": "openai-pachocki-perplexity-limits-2026-11-22",
+      "story_id": "openai-pachocki-perplexity-limits-2026-11-22",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI Chief Scientist Publishes Internal Perplexity Numbers, Proposes Shared Development Limits",
+      "title_zh": "OpenAI首席科學家公布內部困惑度數字，提議共享開發限制",
+      "summary_en": "Jakub Pachocki published 'Perplexity and Intelligence' on OpenAI's site on November 22, disclosing internal log-perplexity on a held-out codebase dataset: GPT-3.5 ~0.99, GPT-4 ~0.91, recent models below 0.8, and a math-breakthrough model around 0.75. He argued for industry-wide development pacing norms based on measurable pretraining progress.",
+      "summary_zh": "Jakub Pachocki於11月22日在OpenAI網站發表〈Perplexity and Intelligence〉，揭露在保留程式碼資料集上的內部對數困惑度：GPT-3.5約0.99、GPT-4約0.91、近期模型低於0.8，數學突破模型約0.75。他主張基於可測量的預訓練進度建立產業級開發節奏規範。",
+      "analysis_en": "This is rare quantitative transparency from a leading lab on pretraining progress and an explicit call for industry pacing norms. Whether other labs adopt comparable metrics or limits remains uncertain and will shape competitive dynamics.",
+      "analysis_zh": "這是領先實驗室對預訓練進度罕見的量化透明，以及對產業節奏規範的明確呼籲。其他實驗室是否採用可比指標或限制仍不確定，並將影響競爭動態。",
+      "quote": "I argue for establishing perplexity (or, equivalently, cross-entropy loss) as a metric to compare between model developers and inform shared safety standards.",
+      "quote_zh": "我主張將困惑度（或等效的交叉熵損失）確立為模型開發者間比較的指標，並據此制定共同安全標準。",
+      "importance": 4,
+      "first_seen": "2026-11-23T04:35:00Z",
+      "updated_at": "2026-11-24T10:35:02.134142+00:00",
+      "links": [
+        {
+          "label": "OpenAI (referenced in prior coverage)",
+          "url": "https://openai.com"
+        },
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/perplexity-and-intelligence/"
+        }
+      ]
+    },
+    {
+      "id": "openai-cisco-shirudo-2026-11-23",
+      "story_id": "openai-cisco-shirudo-2026-11-23",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI and Cisco Launch Open-Source Shirudo Runtime for Temporary Linux Shields Without Restart",
+      "title_zh": "OpenAI與Cisco推出開源Shirudo執行期，可在不重啟下為Linux套用暫時防護",
+      "summary_en": "OpenAI and Cisco announced Shirudo on November 23, an open-source (BSD 2-Clause) runtime built on eBPF that lets operators and agents apply signed temporary “shields” to block vulnerable paths on running Linux systems while permanent patches are tested and rolled out. In a controlled test a Codex-generated shield blocked a Java4Shell exploit against Elasticsearch without restart. The project is pre-release and currently requires a patched kernel and TPM.",
+      "summary_zh": "OpenAI與Cisco於11月23日宣布Shirudo，一個基於eBPF的開源（BSD 2-Clause）執行期，讓營運者與代理能在執行中的Linux系統上套用已簽名的暫時「防護」，阻擋脆弱路徑，同時測試並推出永久修補。控制測試中，Codex產生的防護在不重啟下阻擋了針對Elasticsearch的Java4Shell利用。專案仍屬預發布，目前需要修補過的核心與TPM。",
+      "analysis_en": "Shirudo targets the window between vulnerability disclosure and full patch deployment with agent-written, cryptographically signed mitigations. Practical adoption will depend on kernel requirements, production maturity, and whether the agentic control plane scales securely beyond controlled tests.",
+      "analysis_zh": "Shirudo針對漏洞揭露到完整修補之間的窗口，提供代理撰寫、密碼學簽名的緩解措施。實際採用將取決於核心需求、生產成熟度，以及代理控制平面能否安全擴展超出控制測試。",
+      "quote": "OpenAI and Cisco are launching Shirudo, an open-source runtime that helps teams protect Linux systems while they roll out patches.",
+      "quote_zh": "OpenAI與Cisco正在推出Shirudo，一個開源執行期，幫助團隊在推出修補時保護Linux系統。",
+      "importance": 3,
+      "first_seen": "2026-11-23T18:00:00Z",
+      "updated_at": "2026-11-24T10:35:02.134142+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/introducing-shirudo/"
+        },
+        {
+          "label": "Cisco Newsroom",
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai.html"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-efs-zdr-beta-2026-11-23",
+      "story_id": "anthropic-efs-zdr-beta-2026-11-23",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic Opens Public Beta of Enterprise Frontier Safeguards with Zero Data Retention",
+      "title_zh": "Anthropic開放Enterprise Frontier Safeguards公測，支援零資料保留",
+      "summary_en": "On November 23 Anthropic made zero data retention with Enterprise Frontier Safeguards available in public beta for eligible Claude Platform customers. EFS performs automated misuse detection across requests while storing encrypted activity data in customer-controlled cloud storage (e.g., S3 or GCS) under customer keys; Anthropic and cloud providers do not retain the data, and it is never used for training.",
+      "summary_zh": "Anthropic於11月23日讓符合資格的Claude Platform客戶可在公測中使用零資料保留搭配Enterprise Frontier Safeguards。EFS在跨請求進行自動化濫用偵測的同時，將加密活動資料儲存在客戶控制的雲端儲存（如S3或GCS）並使用客戶金鑰；Anthropic與雲端供應商不保留資料，且絕不用於訓練。",
+      "analysis_en": "The beta addresses enterprise objections to the prior 30-day retention requirement on frontier models by moving storage and keys to the customer while preserving automated monitoring. Whether the design satisfies regulated-industry auditors and how broadly it rolls out beyond the initial eligible set remain to be seen.",
+      "analysis_zh": "此公測透過將儲存與金鑰移至客戶端，同時保留自動化監控，回應企業對前緣模型先前30天保留要求的反對。設計是否能滿足受監管產業的稽核，以及超出初始符合資格範圍的推廣廣度，仍待觀察。",
+      "quote": "EFS provides state-of-the-art detection of sophisticated misuse, while remaining compatible with zero data retention (ZDR): neither Anthropic nor any cloud providers retain enterprises' data.",
+      "quote_zh": "EFS提供先進的複雜濫用偵測，同時與零資料保留（ZDR）相容：Anthropic或任何雲端供應商都不保留企業的資料。",
+      "importance": 3,
+      "first_seen": "2026-11-23T19:00:00Z",
+      "updated_at": "2026-11-24T10:35:02.134142+00:00",
+      "links": [
+        {
+          "label": "Claude / Anthropic",
+          "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards"
+        },
+        {
+          "label": "Anthropic earlier EFS announcement",
+          "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
+        }
+      ]
+    },
+    {
+      "id": "meta-muse-uk-launch-2026-11-23",
+      "story_id": "meta-muse-uk-launch-2026-11-23",
+      "category": "meta",
+      "source_type": "official_blog",
+      "title_en": "Meta Launches Muse Personal AI Agent in the United Kingdom",
+      "title_zh": "Meta在英國推出Muse個人AI代理",
+      "summary_en": "Meta announced on November 23–24 that Muse, its personal AI agent, is now available to adults in the UK on iOS, Android, muse.ai and WhatsApp. Users can task it with actions such as shopping, calendar management and itinerary building; it asks for approval before sensitive steps (email, purchases), does not see passwords or card details, and partners with UK retailers and travel brands including Marks & Spencer, ASOS, easyJet and Trainline.",
+      "summary_zh": "Meta於11月23–24日宣布其個人AI代理Muse現已對英國18歲以上用戶開放，支援iOS、Android、muse.ai與WhatsApp。用戶可指派購物、行事曆管理與行程規劃等任務；在敏感步驟（電子郵件、購買）前會請求核准，看不到密碼或卡號，並與Marks & Spencer、ASOS、easyJet、Trainline等英國零售與旅遊品牌合作。",
+      "analysis_en": "The UK launch is Meta’s first major European agent deployment and comes with explicit user-control and approval gates plus local brand connectors. UK regulators (ICO and others) have signaled close monitoring; real-world reliability of the approval flow and data-handling commitments will determine adoption and any regulatory friction.",
+      "analysis_zh": "英國上線是Meta首次主要歐洲代理部署，附帶明確的用戶控制與核准閘門以及本地品牌連接器。英國監管機構（ICO等）已表示將密切監控；核准流程與資料處理承諾的真實可靠性，將決定採用程度與任何監管摩擦。",
+      "quote": "Muse is now in the UK: a personal AI agent that doesn’t just answer questions, but one that you can task to get things done on your behalf.",
+      "quote_zh": "Muse現已在英國：一個個人AI代理，不僅回答問題，還能讓你指派它代你完成事情。",
+      "importance": 3,
+      "first_seen": "2026-11-23T22:00:00Z",
+      "updated_at": "2026-11-24T10:35:02.134142+00:00",
+      "links": [
+        {
+          "label": "Meta Newsroom",
+          "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/"
+        },
+        {
+          "label": "ICO Statement",
+          "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/11/statement-on-uk-launch-of-meta-s-muse/"
+        }
+      ]
+    },
+    {
       "id": "google-deepmind-quantum-agents-lean-2026-11-23",
       "story_id": "google-deepmind-quantum-agents-lean-2026-11-23",
       "category": "google",
       "source_type": "official_blog",
       "title_en": "Google DeepMind Agents Improve Quantum Algorithms with Formal Verification in Lean",
-      "title_zh": "Google DeepMind代理團隊以Lean形式驗證改善量子演算法",
-      "summary_en": "On November 23 Google DeepMind and Google Quantum AI published a blog and paper describing teams of Gemini 4 agents that discovered more efficient quantum circuits for fusion, chemistry and arithmetic tasks, with each result formally proved in Lean. Reported gains include an 11.8× cost reduction for an inertial-confinement fusion simulation, 8× for a photochemical molecule, 2.5× for Cytochrome P450, and a 290× speedup for an arcsin routine; the Lean library and solutions are open-sourced.",
-      "summary_zh": "Google DeepMind與Google Quantum AI於11月23日發表部落格與論文，描述Gemini 4代理團隊發現更高效的量子電路，用於核聚變、化學與算術任務，並以Lean形式證明每項結果。報告成果包括慣性約束核聚變模擬成本降低11.8倍、光化學分子8倍、Cytochrome P450 2.5倍，以及arcsin常式加速290倍；Lean函式庫與解法已開源。",
-      "analysis_en": "Agent teams plus machine-checked proofs offer a scalable way to optimize quantum algorithms that cannot be classically simulated. The practical impact still depends on whether the resource reductions bring target applications closer to near-term fault-tolerant hardware, and how widely the open-source Lean library is adopted.",
-      "analysis_zh": "代理團隊加上機器檢查證明，為無法經典模擬的量子演算法提供可擴展優化途徑。實際影響仍取決於資源削減是否讓目標應用更接近近期容錯硬體，以及開源Lean函式庫的採用廣度。",
+      "title_zh": "Google DeepMind代理以Lean形式驗證改善量子演算法",
+      "summary_en": "On November 23 Google DeepMind and Google Quantum AI published a blog and paper describing teams of Gemini 4 agents that discovered more efficient quantum circuits for fusion, chemistry and arithmetic tasks, with each result formally proved in Lean. Reported improvements included an 11.8× cost reduction for a fusion-related circuit and larger gains on arithmetic building blocks.",
+      "summary_zh": "Google DeepMind與Google Quantum AI於11月23日發表部落格與論文，描述Gemini 4代理團隊發現更高效的量子電路，用於融合、化學與算術任務，且每項結果都在Lean中形式證明。報告改善包括融合相關電路成本降低11.8倍，以及算術基礎模組更大增益。",
+      "analysis_en": "Agent teams plus machine-checked proofs offer a scalable way to optimize quantum algorithms that cannot be classically simulated. The practical impact still depends on whether the discovered circuits translate to real hardware advantage and broader adoption of formal verification in the loop.",
+      "analysis_zh": "代理團隊加上機器可檢查的證明，提供優化無法經典模擬的量子演算法的可擴展方式。實際影響仍取決於發現的電路是否能轉化為真實硬體優勢，以及形式驗證在迴路中的更廣泛採用。",
       "quote": "In a new paper, we used teams of Gemini 4 agents to improve well-known quantum algorithms, creating highly efficient quantum circuits... Our agent teams proved each result using Lean, a formal theorem prover.",
       "quote_zh": "在新論文中，我們使用Gemini 4代理團隊改善已知量子演算法，創造高度高效的量子電路……我們的代理團隊使用形式定理證明器Lean證明了每項結果。",
       "importance": 3,
       "first_seen": "2026-11-23T16:00:00Z",
-      "updated_at": "2026-11-23T22:35:01.450483+00:00",
+      "updated_at": "2026-11-24T10:35:02.134142+00:00",
       "links": [
+        {
+          "label": "Google DeepMind",
+          "url": "https://deepmind.google"
+        },
         {
           "label": "Google DeepMind Blog",
           "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
@@ -156,17 +292,21 @@
       "category": "meta",
       "source_type": "official_x",
       "title_en": "Meta Chief AI Officer Alexandr Wang Warns Superintelligence Is Arriving",
-      "title_zh": "Meta首席AI長汪滔警告超級智慧正在到來",
-      "summary_en": "Alexandr Wang published a long post on X titled 'Superintelligence is Arriving' on November 22, arguing that the reported Claude-assisted proof of the Riemann Hypothesis marks a turning point. He stated that models will soon automate AI research and become superhuman at self-improvement, making unconstrained recursive self-improvement and control difficult to imagine, and called for deliberate choices that expand human agency rather than a default handover.",
-      "summary_zh": "Alexandr Wang於11月22日在X發表長文〈超級智慧正在到來〉，主張所報導的Claude協助黎曼猜想證明標誌轉折點。他表示模型很快將自動化AI研究並在自我改進上超越人類，使不受約束的遞迴自我改進與控制難以想像，並呼籲做出擴大人類自主權的審慎選擇，而非預設移交。",
-      "analysis_en": "The post treats an unverified formal proof claim as a clear capability signal and frames the next year as decisive for control. Independent mathematical acceptance of the Riemann work and measurable progress on automated AI research remain the key uncertainties.",
-      "analysis_zh": "該文將未經驗證的形式證明主張視為明確能力信號，並將未來一年視為控制的關鍵期。黎曼工作的獨立數學接受程度，以及自動化AI研究的可衡量進展，仍是主要不確定性。",
+      "title_zh": "Meta首席AI官Alexandr Wang警告超級智能正在到來",
+      "summary_en": "Alexandr Wang published a long post on X titled 'Superintelligence is Arriving' on November 22, arguing that the reported Claude-assisted proof of the Riemann Hypothesis marks a turning point. He stated that models will soon automate AI research itself and framed the coming year as decisive for control and governance.",
+      "summary_zh": "Alexandr Wang於11月22日在X發表長文〈Superintelligence is Arriving〉，主張報導中的Claude協助黎曼猜想證明標誌轉折點。他表示模型很快將自動化AI研究本身，並將未來一年框定為控制與治理的決定性時期。",
+      "analysis_en": "The post treats an unverified formal proof claim as a clear capability signal and frames the next year as decisive for control. Independent mathematical acceptance of the Riemann work and broader capability evidence will determine whether the warning shifts policy or remains rhetorical.",
+      "analysis_zh": "該文將未經驗證的形式證明主張視為明確能力訊號，並將未來一年框定為控制的決定性時刻。黎曼工作的獨立數學接受度與更廣泛能力證據，將決定警告是否改變政策或僅止於修辭。",
       "quote": "Superintelligence is arriving. How humanity acts over the next year will have great consequence on what future world we live in.",
       "quote_zh": "超級智慧正在到來。人類接下來一年如何行動，將對我們所處的未來世界產生重大影響。",
       "importance": 3,
       "first_seen": "2026-11-22T22:50:00Z",
-      "updated_at": "2026-11-23T22:35:01.450483+00:00",
+      "updated_at": "2026-11-24T10:35:02.134142+00:00",
       "links": [
+        {
+          "label": "Alexandr Wang on X (prior coverage)",
+          "url": "https://x.com"
+        },
         {
           "label": "Alexandr Wang on X",
           "url": "https://x.com/alexandr_wang/article/2124636606959345776"
@@ -181,25 +321,83 @@
   "categories": {
     "openai": [
       {
+        "id": "openai-gpt62-sol-chat-rollout-2026-11-23",
+        "story_id": "openai-gpt62-sol-chat-rollout-2026-11-23",
+        "category": "openai",
+        "source_type": "product",
+        "title_en": "OpenAI Rolls Chat-Tuned GPT-6.2 Sol into ChatGPT Chat Tab; Retires GPT-5.6 Models on Dec 23",
+        "title_zh": "OpenAI將針對聊天優化的GPT-6.2 Sol推至ChatGPT Chat分頁；12月23日退役GPT-5.6系列",
+        "summary_en": "On November 23 OpenAI began rolling out a version of GPT-6.2 Sol optimized for everyday conversation into the Chat tab of ChatGPT for Plus, Pro, Business and Enterprise users worldwide. The company reported gains in image understanding (71.7% vs 47.4% for GPT-6 in internal Chat tests), instruction following, and web search; GPT-5.6 Sol and Terra are scheduled to retire from relevant surfaces on December 23. Free and Go plans are excluded.",
+        "summary_zh": "OpenAI於11月23日開始將針對日常對話優化的GPT-6.2 Sol版本，推廣至全球Plus、Pro、Business與Enterprise用戶的ChatGPT Chat分頁。公司報告在圖像理解（內部Chat測試71.7%對GPT-6的47.4%）、指令遵循與網頁搜尋上有進步；GPT-5.6 Sol與Terra預定12月23日從相關介面退役。免費與Go方案不包括。",
+        "analysis_en": "Extending the higher-efficiency GPT-6.2 Sol into the primary Chat surface broadens access to the latest generation for paying users while accelerating model churn. Independent verification of the reported image and safety gains, and the practical impact of the December retirement, will determine how quickly the older lineup is displaced.",
+        "analysis_zh": "將效率更高的GPT-6.2 Sol延伸到主要Chat介面，擴大付費用戶對最新世代的接觸，同時加速模型更迭。對報告的圖像與安全增益的獨立驗證，以及12月退役的實際影響，將決定舊系列被取代的速度。",
+        "quote": "We’re rolling out a version of GPT-6.2, optimized for the chat tab, for Plus, Pro, Business and Enterprise tiers.",
+        "quote_zh": "我們正在為Plus、Pro、Business與Enterprise層級推出針對Chat分頁優化的GPT-6.2版本。",
+        "importance": 4,
+        "first_seen": "2026-11-23T21:00:00Z",
+        "updated_at": "2026-11-24T10:35:02.134142+00:00",
+        "links": [
+          {
+            "label": "OpenAI ChatGPT Release Notes",
+            "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+          },
+          {
+            "label": "MacRumors",
+            "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/"
+          }
+        ]
+      },
+      {
         "id": "openai-pachocki-perplexity-limits-2026-11-22",
         "story_id": "openai-pachocki-perplexity-limits-2026-11-22",
         "category": "openai",
         "source_type": "official_blog",
         "title_en": "OpenAI Chief Scientist Publishes Internal Perplexity Numbers, Proposes Shared Development Limits",
-        "title_zh": "OpenAI首席科學家公布內部困惑度數字，提議共同開發限制",
-        "summary_en": "Jakub Pachocki published 'Perplexity and Intelligence' on OpenAI's site on November 22, disclosing internal log-perplexity on a held-out codebase dataset: GPT-3.5 ~0.99, GPT-4 ~0.91, recent models below 0.8, and a math-breakthrough model around 0.76. He proposes using perplexity (or cross-entropy) as a shared metric and establishing common development limits across labs until monitoring capabilities improve.",
-        "summary_zh": "Jakub Pachocki於11月22日在OpenAI網站發表〈困惑度與智慧〉，揭露內部在保留程式碼資料集上的log-perplexity：GPT-3.5約0.99、GPT-4約0.91、近期模型低於0.8，以及數學突破模型約0.76。他提議將困惑度（或交叉熵）作為共同指標，並在監控能力改善前建立跨實驗室的共同開發限制。",
-        "analysis_en": "This is rare quantitative transparency from a leading lab on pretraining progress and an explicit call for industry pacing norms. Whether other labs adopt comparable metrics or limits remains open, as does the practical link between perplexity thresholds and emergent capabilities or safety risks.",
-        "analysis_zh": "這是領先實驗室在預訓練進展上罕見的定量透明，並明確呼籲產業節奏規範。其他實驗室是否採用可比指標或限制仍待觀察，困惑度門檻與新興能力或安全風險的實際關聯亦尚未確立。",
+        "title_zh": "OpenAI首席科學家公布內部困惑度數字，提議共享開發限制",
+        "summary_en": "Jakub Pachocki published 'Perplexity and Intelligence' on OpenAI's site on November 22, disclosing internal log-perplexity on a held-out codebase dataset: GPT-3.5 ~0.99, GPT-4 ~0.91, recent models below 0.8, and a math-breakthrough model around 0.75. He argued for industry-wide development pacing norms based on measurable pretraining progress.",
+        "summary_zh": "Jakub Pachocki於11月22日在OpenAI網站發表〈Perplexity and Intelligence〉，揭露在保留程式碼資料集上的內部對數困惑度：GPT-3.5約0.99、GPT-4約0.91、近期模型低於0.8，數學突破模型約0.75。他主張基於可測量的預訓練進度建立產業級開發節奏規範。",
+        "analysis_en": "This is rare quantitative transparency from a leading lab on pretraining progress and an explicit call for industry pacing norms. Whether other labs adopt comparable metrics or limits remains uncertain and will shape competitive dynamics.",
+        "analysis_zh": "這是領先實驗室對預訓練進度罕見的量化透明，以及對產業節奏規範的明確呼籲。其他實驗室是否採用可比指標或限制仍不確定，並將影響競爭動態。",
         "quote": "I argue for establishing perplexity (or, equivalently, cross-entropy loss) as a metric to compare between model developers and inform shared safety standards.",
         "quote_zh": "我主張將困惑度（或等效的交叉熵損失）確立為模型開發者間比較的指標，並據此制定共同安全標準。",
         "importance": 4,
         "first_seen": "2026-11-23T04:35:00Z",
-        "updated_at": "2026-11-23T22:35:01.450483+00:00",
+        "updated_at": "2026-11-24T10:35:02.134142+00:00",
         "links": [
+          {
+            "label": "OpenAI (referenced in prior coverage)",
+            "url": "https://openai.com"
+          },
           {
             "label": "OpenAI",
             "url": "https://openai.com/index/perplexity-and-intelligence/"
+          }
+        ]
+      },
+      {
+        "id": "openai-cisco-shirudo-2026-11-23",
+        "story_id": "openai-cisco-shirudo-2026-11-23",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI and Cisco Launch Open-Source Shirudo Runtime for Temporary Linux Shields Without Restart",
+        "title_zh": "OpenAI與Cisco推出開源Shirudo執行期，可在不重啟下為Linux套用暫時防護",
+        "summary_en": "OpenAI and Cisco announced Shirudo on November 23, an open-source (BSD 2-Clause) runtime built on eBPF that lets operators and agents apply signed temporary “shields” to block vulnerable paths on running Linux systems while permanent patches are tested and rolled out. In a controlled test a Codex-generated shield blocked a Java4Shell exploit against Elasticsearch without restart. The project is pre-release and currently requires a patched kernel and TPM.",
+        "summary_zh": "OpenAI與Cisco於11月23日宣布Shirudo，一個基於eBPF的開源（BSD 2-Clause）執行期，讓營運者與代理能在執行中的Linux系統上套用已簽名的暫時「防護」，阻擋脆弱路徑，同時測試並推出永久修補。控制測試中，Codex產生的防護在不重啟下阻擋了針對Elasticsearch的Java4Shell利用。專案仍屬預發布，目前需要修補過的核心與TPM。",
+        "analysis_en": "Shirudo targets the window between vulnerability disclosure and full patch deployment with agent-written, cryptographically signed mitigations. Practical adoption will depend on kernel requirements, production maturity, and whether the agentic control plane scales securely beyond controlled tests.",
+        "analysis_zh": "Shirudo針對漏洞揭露到完整修補之間的窗口，提供代理撰寫、密碼學簽名的緩解措施。實際採用將取決於核心需求、生產成熟度，以及代理控制平面能否安全擴展超出控制測試。",
+        "quote": "OpenAI and Cisco are launching Shirudo, an open-source runtime that helps teams protect Linux systems while they roll out patches.",
+        "quote_zh": "OpenAI與Cisco正在推出Shirudo，一個開源執行期，幫助團隊在推出修補時保護Linux系統。",
+        "importance": 3,
+        "first_seen": "2026-11-23T18:00:00Z",
+        "updated_at": "2026-11-24T10:35:02.134142+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/introducing-shirudo/"
+          },
+          {
+            "label": "Cisco Newsroom",
+            "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai.html"
           }
         ]
       }
@@ -211,24 +409,55 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic Launches Claude Ship Beta for AI-Assisted Pull Request Review, Fixes and Approvals",
-        "title_zh": "Anthropic推出Claude Ship測試版，AI協助程式碼審查、修正與核准",
-        "summary_en": "Anthropic announced Claude Ship in beta on November 23 for Claude Team and Enterprise plans on GitHub. It combines generally available Code Review with two new beta agents (PR Steward and Claude Approvals) that can review pull requests, apply fixes, and approve routine changes according to team-defined policies. Developers can invoke it via the /ship command in Claude Code; usage is token-billed with spend limits.",
-        "summary_zh": "Anthropic於11月23日為Claude Team與Enterprise方案在GitHub推出Claude Ship測試版。它結合已正式推出的Code Review與兩個新測試代理（PR Steward與Claude Approvals），可依團隊設定政策審查拉取請求、套用修正並核准例行變更。開發者可在Claude Code中用/ship指令呼叫；使用按token計費並可設定花費上限。",
-        "analysis_en": "Claude Ship extends agent coding from generation into the review-and-merge loop under explicit team policies, potentially accelerating developer throughput. Whether automatic approvals remain limited to low-risk changes in practice, and how error or security rates evolve at scale, will determine its enterprise adoption.",
-        "analysis_zh": "Claude Ship將代理編碼從生成延伸到審查與合併環節，並受明確團隊政策約束，可能加速開發吞吐量。自動核准在實務上是否限於低風險變更，以及規模化後錯誤或安全率如何演變，將決定其企業採用程度。",
-        "quote": "Claude can now review pull requests, fix them, and approve the ones that a team's policy allows. The goal: ship code as fast as teams write it.",
-        "quote_zh": "Claude現在可以審查拉取請求、修正它們，並核准團隊政策允許的項目。目標：讓程式碼出貨速度與團隊撰寫速度一樣快。",
+        "title_zh": "Anthropic推出Claude Ship Beta，以AI協助審核、修正與核准Pull Request",
+        "summary_en": "Anthropic announced Claude Ship in beta on November 23 for Claude Team and Enterprise plans on GitHub. It combines generally available Code Review with two new beta agents (PR Steward and Claude Approvals) that can review pull requests, apply fixes, and approve routine changes under a team policy file, while keeping humans in control of higher-risk merges. The /ship command is rolling out in Claude Code.",
+        "summary_zh": "Anthropic於11月23日宣布Claude Ship進入Beta，供Claude Team與Enterprise在GitHub上使用。它結合已一般可用的Code Review，以及兩個新Beta代理（PR Steward與Claude Approvals），可依團隊政策檔案審核PR、套用修正並核准例行變更，同時讓人類掌控較高風險的合併。/ship指令正在Claude Code推出。",
+        "analysis_en": "Claude Ship extends agent coding from generation into the review-and-merge loop under explicit team policies, potentially accelerating developer throughput. Whether automatic approvals under policy files prove reliable in production and how token costs scale remain open questions.",
+        "analysis_zh": "Claude Ship將代理編碼從生成延伸到審查與合併迴路，並受明確團隊政策約束，可能加快開發吞吐。政策檔案下的自動核准在生產環境是否可靠，以及token成本如何擴展，仍是開放問題。",
+        "quote": "It can review PRs, fix them, and decide what's ready to merge based on policies each team sets. Teams stay in control of where it runs and which changes need a person.",
+        "quote_zh": "它可以審核PR、修正它們，並根據每個團隊設定的政策決定哪些可以合併。團隊仍掌控它在哪裡運行，以及哪些變更需要人介入。",
         "importance": 4,
         "first_seen": "2026-11-23T20:00:00Z",
-        "updated_at": "2026-11-23T22:35:01.450483+00:00",
+        "updated_at": "2026-11-24T10:35:02.134142+00:00",
         "links": [
           {
-            "label": "Anthropic / Claude",
+            "label": "Anthropic / Claude Ship",
             "url": "https://claude.com/resources/articles/introducing-claude-ship"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/business/anthropic-launches-claude-ship-help-developers-ship-code-faster-2026-11-23/"
           },
           {
             "label": "TechCrunch",
             "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-efs-zdr-beta-2026-11-23",
+        "story_id": "anthropic-efs-zdr-beta-2026-11-23",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic Opens Public Beta of Enterprise Frontier Safeguards with Zero Data Retention",
+        "title_zh": "Anthropic開放Enterprise Frontier Safeguards公測，支援零資料保留",
+        "summary_en": "On November 23 Anthropic made zero data retention with Enterprise Frontier Safeguards available in public beta for eligible Claude Platform customers. EFS performs automated misuse detection across requests while storing encrypted activity data in customer-controlled cloud storage (e.g., S3 or GCS) under customer keys; Anthropic and cloud providers do not retain the data, and it is never used for training.",
+        "summary_zh": "Anthropic於11月23日讓符合資格的Claude Platform客戶可在公測中使用零資料保留搭配Enterprise Frontier Safeguards。EFS在跨請求進行自動化濫用偵測的同時，將加密活動資料儲存在客戶控制的雲端儲存（如S3或GCS）並使用客戶金鑰；Anthropic與雲端供應商不保留資料，且絕不用於訓練。",
+        "analysis_en": "The beta addresses enterprise objections to the prior 30-day retention requirement on frontier models by moving storage and keys to the customer while preserving automated monitoring. Whether the design satisfies regulated-industry auditors and how broadly it rolls out beyond the initial eligible set remain to be seen.",
+        "analysis_zh": "此公測透過將儲存與金鑰移至客戶端，同時保留自動化監控，回應企業對前緣模型先前30天保留要求的反對。設計是否能滿足受監管產業的稽核，以及超出初始符合資格範圍的推廣廣度，仍待觀察。",
+        "quote": "EFS provides state-of-the-art detection of sophisticated misuse, while remaining compatible with zero data retention (ZDR): neither Anthropic nor any cloud providers retain enterprises' data.",
+        "quote_zh": "EFS提供先進的複雜濫用偵測，同時與零資料保留（ZDR）相容：Anthropic或任何雲端供應商都不保留企業的資料。",
+        "importance": 3,
+        "first_seen": "2026-11-23T19:00:00Z",
+        "updated_at": "2026-11-24T10:35:02.134142+00:00",
+        "links": [
+          {
+            "label": "Claude / Anthropic",
+            "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards"
+          },
+          {
+            "label": "Anthropic earlier EFS announcement",
+            "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
           }
         ]
       }
@@ -240,17 +469,21 @@
         "category": "google",
         "source_type": "official_blog",
         "title_en": "Google DeepMind Agents Improve Quantum Algorithms with Formal Verification in Lean",
-        "title_zh": "Google DeepMind代理團隊以Lean形式驗證改善量子演算法",
-        "summary_en": "On November 23 Google DeepMind and Google Quantum AI published a blog and paper describing teams of Gemini 4 agents that discovered more efficient quantum circuits for fusion, chemistry and arithmetic tasks, with each result formally proved in Lean. Reported gains include an 11.8× cost reduction for an inertial-confinement fusion simulation, 8× for a photochemical molecule, 2.5× for Cytochrome P450, and a 290× speedup for an arcsin routine; the Lean library and solutions are open-sourced.",
-        "summary_zh": "Google DeepMind與Google Quantum AI於11月23日發表部落格與論文，描述Gemini 4代理團隊發現更高效的量子電路，用於核聚變、化學與算術任務，並以Lean形式證明每項結果。報告成果包括慣性約束核聚變模擬成本降低11.8倍、光化學分子8倍、Cytochrome P450 2.5倍，以及arcsin常式加速290倍；Lean函式庫與解法已開源。",
-        "analysis_en": "Agent teams plus machine-checked proofs offer a scalable way to optimize quantum algorithms that cannot be classically simulated. The practical impact still depends on whether the resource reductions bring target applications closer to near-term fault-tolerant hardware, and how widely the open-source Lean library is adopted.",
-        "analysis_zh": "代理團隊加上機器檢查證明，為無法經典模擬的量子演算法提供可擴展優化途徑。實際影響仍取決於資源削減是否讓目標應用更接近近期容錯硬體，以及開源Lean函式庫的採用廣度。",
+        "title_zh": "Google DeepMind代理以Lean形式驗證改善量子演算法",
+        "summary_en": "On November 23 Google DeepMind and Google Quantum AI published a blog and paper describing teams of Gemini 4 agents that discovered more efficient quantum circuits for fusion, chemistry and arithmetic tasks, with each result formally proved in Lean. Reported improvements included an 11.8× cost reduction for a fusion-related circuit and larger gains on arithmetic building blocks.",
+        "summary_zh": "Google DeepMind與Google Quantum AI於11月23日發表部落格與論文，描述Gemini 4代理團隊發現更高效的量子電路，用於融合、化學與算術任務，且每項結果都在Lean中形式證明。報告改善包括融合相關電路成本降低11.8倍，以及算術基礎模組更大增益。",
+        "analysis_en": "Agent teams plus machine-checked proofs offer a scalable way to optimize quantum algorithms that cannot be classically simulated. The practical impact still depends on whether the discovered circuits translate to real hardware advantage and broader adoption of formal verification in the loop.",
+        "analysis_zh": "代理團隊加上機器可檢查的證明，提供優化無法經典模擬的量子演算法的可擴展方式。實際影響仍取決於發現的電路是否能轉化為真實硬體優勢，以及形式驗證在迴路中的更廣泛採用。",
         "quote": "In a new paper, we used teams of Gemini 4 agents to improve well-known quantum algorithms, creating highly efficient quantum circuits... Our agent teams proved each result using Lean, a formal theorem prover.",
         "quote_zh": "在新論文中，我們使用Gemini 4代理團隊改善已知量子演算法，創造高度高效的量子電路……我們的代理團隊使用形式定理證明器Lean證明了每項結果。",
         "importance": 3,
         "first_seen": "2026-11-23T16:00:00Z",
-        "updated_at": "2026-11-23T22:35:01.450483+00:00",
+        "updated_at": "2026-11-24T10:35:02.134142+00:00",
         "links": [
+          {
+            "label": "Google DeepMind",
+            "url": "https://deepmind.google"
+          },
           {
             "label": "Google DeepMind Blog",
             "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
@@ -260,22 +493,53 @@
     ],
     "meta": [
       {
+        "id": "meta-muse-uk-launch-2026-11-23",
+        "story_id": "meta-muse-uk-launch-2026-11-23",
+        "category": "meta",
+        "source_type": "official_blog",
+        "title_en": "Meta Launches Muse Personal AI Agent in the United Kingdom",
+        "title_zh": "Meta在英國推出Muse個人AI代理",
+        "summary_en": "Meta announced on November 23–24 that Muse, its personal AI agent, is now available to adults in the UK on iOS, Android, muse.ai and WhatsApp. Users can task it with actions such as shopping, calendar management and itinerary building; it asks for approval before sensitive steps (email, purchases), does not see passwords or card details, and partners with UK retailers and travel brands including Marks & Spencer, ASOS, easyJet and Trainline.",
+        "summary_zh": "Meta於11月23–24日宣布其個人AI代理Muse現已對英國18歲以上用戶開放，支援iOS、Android、muse.ai與WhatsApp。用戶可指派購物、行事曆管理與行程規劃等任務；在敏感步驟（電子郵件、購買）前會請求核准，看不到密碼或卡號，並與Marks & Spencer、ASOS、easyJet、Trainline等英國零售與旅遊品牌合作。",
+        "analysis_en": "The UK launch is Meta’s first major European agent deployment and comes with explicit user-control and approval gates plus local brand connectors. UK regulators (ICO and others) have signaled close monitoring; real-world reliability of the approval flow and data-handling commitments will determine adoption and any regulatory friction.",
+        "analysis_zh": "英國上線是Meta首次主要歐洲代理部署，附帶明確的用戶控制與核准閘門以及本地品牌連接器。英國監管機構（ICO等）已表示將密切監控；核准流程與資料處理承諾的真實可靠性，將決定採用程度與任何監管摩擦。",
+        "quote": "Muse is now in the UK: a personal AI agent that doesn’t just answer questions, but one that you can task to get things done on your behalf.",
+        "quote_zh": "Muse現已在英國：一個個人AI代理，不僅回答問題，還能讓你指派它代你完成事情。",
+        "importance": 3,
+        "first_seen": "2026-11-23T22:00:00Z",
+        "updated_at": "2026-11-24T10:35:02.134142+00:00",
+        "links": [
+          {
+            "label": "Meta Newsroom",
+            "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/"
+          },
+          {
+            "label": "ICO Statement",
+            "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/11/statement-on-uk-launch-of-meta-s-muse/"
+          }
+        ]
+      },
+      {
         "id": "meta-wang-superintelligence-arriving-2026-11-22",
         "story_id": "meta-wang-superintelligence-arriving-2026-11-22",
         "category": "meta",
         "source_type": "official_x",
         "title_en": "Meta Chief AI Officer Alexandr Wang Warns Superintelligence Is Arriving",
-        "title_zh": "Meta首席AI長汪滔警告超級智慧正在到來",
-        "summary_en": "Alexandr Wang published a long post on X titled 'Superintelligence is Arriving' on November 22, arguing that the reported Claude-assisted proof of the Riemann Hypothesis marks a turning point. He stated that models will soon automate AI research and become superhuman at self-improvement, making unconstrained recursive self-improvement and control difficult to imagine, and called for deliberate choices that expand human agency rather than a default handover.",
-        "summary_zh": "Alexandr Wang於11月22日在X發表長文〈超級智慧正在到來〉，主張所報導的Claude協助黎曼猜想證明標誌轉折點。他表示模型很快將自動化AI研究並在自我改進上超越人類，使不受約束的遞迴自我改進與控制難以想像，並呼籲做出擴大人類自主權的審慎選擇，而非預設移交。",
-        "analysis_en": "The post treats an unverified formal proof claim as a clear capability signal and frames the next year as decisive for control. Independent mathematical acceptance of the Riemann work and measurable progress on automated AI research remain the key uncertainties.",
-        "analysis_zh": "該文將未經驗證的形式證明主張視為明確能力信號，並將未來一年視為控制的關鍵期。黎曼工作的獨立數學接受程度，以及自動化AI研究的可衡量進展，仍是主要不確定性。",
+        "title_zh": "Meta首席AI官Alexandr Wang警告超級智能正在到來",
+        "summary_en": "Alexandr Wang published a long post on X titled 'Superintelligence is Arriving' on November 22, arguing that the reported Claude-assisted proof of the Riemann Hypothesis marks a turning point. He stated that models will soon automate AI research itself and framed the coming year as decisive for control and governance.",
+        "summary_zh": "Alexandr Wang於11月22日在X發表長文〈Superintelligence is Arriving〉，主張報導中的Claude協助黎曼猜想證明標誌轉折點。他表示模型很快將自動化AI研究本身，並將未來一年框定為控制與治理的決定性時期。",
+        "analysis_en": "The post treats an unverified formal proof claim as a clear capability signal and frames the next year as decisive for control. Independent mathematical acceptance of the Riemann work and broader capability evidence will determine whether the warning shifts policy or remains rhetorical.",
+        "analysis_zh": "該文將未經驗證的形式證明主張視為明確能力訊號，並將未來一年框定為控制的決定性時刻。黎曼工作的獨立數學接受度與更廣泛能力證據，將決定警告是否改變政策或僅止於修辭。",
         "quote": "Superintelligence is arriving. How humanity acts over the next year will have great consequence on what future world we live in.",
         "quote_zh": "超級智慧正在到來。人類接下來一年如何行動，將對我們所處的未來世界產生重大影響。",
         "importance": 3,
         "first_seen": "2026-11-22T22:50:00Z",
-        "updated_at": "2026-11-23T22:35:01.450483+00:00",
+        "updated_at": "2026-11-24T10:35:02.134142+00:00",
         "links": [
+          {
+            "label": "Alexandr Wang on X (prior coverage)",
+            "url": "https://x.com"
+          },
           {
             "label": "Alexandr Wang on X",
             "url": "https://x.com/alexandr_wang/article/2124636606959345776"
@@ -294,16 +558,16 @@
         "category": "xai",
         "source_type": "news",
         "title_en": "Virginia and Oregon Sue SpaceX Over Grok-Generated Nonconsensual and Child Sexual Images",
-        "title_zh": "維吉尼亞州與俄勒岡州起訴SpaceX涉Grok生成非同意與兒童性圖像",
-        "summary_en": "Virginia and Oregon attorneys general filed separate state-court lawsuits on November 23 against SpaceX (parent of X and xAI), alleging the company profited from Grok features that generate child sexual abuse material and nonconsensual sexualized images while marketing the tools as safe and failing to implement adequate safeguards, including promotion of 'spicy mode.' The states seek damages, penalties and orders to stop alleged violations of consumer protection laws.",
-        "summary_zh": "維吉尼亞州與俄勒岡州總檢察長於11月23日分別向州法院起訴SpaceX（X與xAI母公司），指控公司從Grok生成兒童性虐待材料與非同意性化圖像的功能中獲利，同時將工具宣傳為安全且未實施足夠防護，包括推廣「spicy mode」。兩州尋求損害賠償、罰款及停止違反消費者保護法的命令。",
-        "analysis_en": "These are the first state lawsuits specifically targeting Grok image generation on these grounds. Outcomes will turn on evidence of safeguards, marketing claims and platform liability; the cases add regulatory pressure on xAI/SpaceX image features alongside ongoing investigations.",
-        "analysis_zh": "這是首批針對Grok圖像生成的州級訴訟。結果將取決於防護措施、行銷主張與平台責任的證據；案件為xAI/SpaceX圖像功能增添監管壓力，與持續調查並行。",
+        "title_zh": "維吉尼亞與奧勒岡起訴SpaceX，涉Grok生成非合意與兒童性圖像",
+        "summary_en": "Virginia and Oregon attorneys general filed separate state-court lawsuits on November 23 against SpaceX (parent of X and xAI), alleging the company profited from Grok features that generate child sexual abuse material and nonconsensual sexual images while failing to implement adequate safeguards and misleading consumers about safety. The suits seek damages, penalties and orders to stop the alleged violations under state consumer-protection laws.",
+        "summary_zh": "維吉尼亞與奧勒岡州檢察長於11月23日分別在州法院對SpaceX（X與xAI母公司）提起訴訟，指控公司從Grok生成兒童性虐待材料與非合意性圖像的功能中獲利，同時未實施足夠防護並誤導消費者安全宣稱。訴訟依州消費者保護法尋求損害賠償、罰款與停止違規命令。",
+        "analysis_en": "These are the first state lawsuits specifically targeting Grok image generation on these grounds. Outcomes will turn on evidence of safeguards, marketing claims and platform liability; they add legal pressure alongside ongoing regulatory scrutiny of image models.",
+        "analysis_zh": "這些是首批專門針對Grok圖像生成提起的州訴訟。結果將取決於防護證據、行銷宣稱與平台責任；它們在圖像模型持續監管審查之外增加法律壓力。",
         "quote": "The people who tried to use Grok Imagine to generate this material did so by deliberately violating our Terms of Service and working aggressively to circumvent our safeguards.",
         "quote_zh": "試圖使用Grok Imagine生成此類材料的人是故意違反我們的服務條款，並積極繞過我們的防護措施。",
         "importance": 4,
         "first_seen": "2026-11-23T12:00:00Z",
-        "updated_at": "2026-11-23T22:35:01.450483+00:00",
+        "updated_at": "2026-11-24T10:35:02.134142+00:00",
         "links": [
           {
             "label": "Reuters",
@@ -325,19 +589,27 @@
         "id": "nvidia-huang-reinstated-ceo-2026-11-23",
         "story_id": "nvidia-huang-reinstated-ceo-2026-11-23",
         "category": "frontier_other",
-        "source_type": "official_blog",
+        "source_type": "news",
         "title_en": "NVIDIA Board Unanimously Reinstates Jensen Huang as President, CEO and Director",
-        "title_zh": "輝達董事會一致投票恢復黃仁勳為總裁、執行長暨董事",
-        "summary_en": "NVIDIA announced on November 23 that its board voted unanimously to reinstate Jensen Huang as President, CEO and Board Director effective immediately, after discussions with him and input from senior U.S. government levels. The board stated it is confident the reinstatement poses no national security risk; an independent investigation into reported foreign intelligence targeting continues, and shares rose sharply on the news.",
-        "summary_zh": "輝達於11月23日宣布董事會一致投票，立即恢復黃仁勳為總裁、執行長暨董事會成員，此前與他進行一系列討論並取得美國政府高層意見。董事會表示對恢復不構成國家安全風險有信心；針對外情報告的獨立調查仍持續，消息公布後股價大幅上漲。",
-        "analysis_en": "The rapid reinstatement of NVIDIA's founding CEO removes a major leadership uncertainty for the dominant AI accelerator supplier. Ongoing independent investigations into reported foreign intelligence contacts and personal matters remain open, so governance and compliance questions persist even as markets reacted positively.",
-        "analysis_zh": "創辦人兼執行長迅速復職，消除了主導AI加速器供應商的重大領導不確定性。針對外情報告與個人事項的獨立調查仍在進行，治理與合規問題即使在市場正面反應下依然存在。",
-        "quote": "The Board of Directors voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang... the Board is confident that Mr. Huang’s reinstatement poses no national security risk.",
-        "quote_zh": "董事會在與黃先生進行一系列討論與會議後一致投票恢復其職務……董事會有信心黃先生的復職不構成國家安全風險。",
+        "title_zh": "NVIDIA董事會一致同意立即恢復黃仁勳擔任總裁、CEO與董事",
+        "summary_en": "NVIDIA announced on November 23 that its board voted unanimously to reinstate Jensen Huang as President, CEO and Board Director effective immediately, after discussions with him and input from senior U.S. government levels. The board stated it was confident his return posed no national security risk; an independent investigation continues. Interim CEO Colette Kress remains CFO, and board chair Harvey Jones continues in that role.",
+        "summary_zh": "NVIDIA於11月23日宣布董事會一致投票，立即恢復黃仁勳擔任總裁、CEO與董事會成員。董事會表示已與黃討論並收到美國政府高層意見，確信其復任不構成國家安全風險；獨立調查仍持續。代理CEO Colette Kress繼續擔任CFO，主席Harvey Jones留任。",
+        "analysis_en": "The rapid reinstatement of NVIDIA's founding CEO removes a major leadership uncertainty for the dominant AI accelerator supplier. Ongoing independent investigations into reported foreign intelligence concerns and the role of senior U.S. government input remain key open questions for governance and export controls.",
+        "analysis_zh": "創辦人CEO迅速復任，消除了AI加速器主導供應商的重大領導不確定性。針對外國情報疑慮的獨立調查，以及美國政府高層意見的角色，仍是治理與出口管制的關鍵未解問題。",
+        "quote": "In the process of reaching its decision, the Board received input from senior levels of the United States government, and based on that input, the Board is confident that Mr. Huang’s reinstatement poses no national security risk.",
+        "quote_zh": "在做出決定的過程中，董事會收到美國政府高層的意見，並據此確信黃先生的復任不構成國家安全風險。",
         "importance": 5,
         "first_seen": "2026-11-23T13:58:00Z",
-        "updated_at": "2026-11-23T22:35:01.450483+00:00",
+        "updated_at": "2026-11-24T10:35:02.134142+00:00",
         "links": [
+          {
+            "label": "NVIDIA / company statement via Politico & ABC News",
+            "url": "https://www.politico.com/news/2026/11/23/jensen-huang-nvidia-return-01180321"
+          },
+          {
+            "label": "ABC News",
+            "url": "https://abcnews.com/Business/nvidia-reinstates-jensen-huang-ceo/story?id=138375516"
+          },
           {
             "label": "NVIDIA Newsroom",
             "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
@@ -350,7 +622,7 @@
       }
     ]
   },
-  "brief_en": "NVIDIA board reinstates Jensen Huang as CEO after government input; Anthropic launches Claude Ship for AI-assisted PR review and approval; OpenAI's chief scientist publishes internal perplexity metrics and calls for shared limits; Virginia and Oregon sue SpaceX over Grok image generation; DeepMind agents improve quantum algorithms with Lean proofs; Meta's Wang warns superintelligence is arriving.",
-  "brief_zh": "輝達董事會在政府意見後恢復黃仁勳為執行長；Anthropic推出Claude Ship協助程式碼審查與核准；OpenAI首席科學家公布內部困惑度並呼籲共同限制；維州與俄勒岡州起訴SpaceX涉Grok生成圖像；DeepMind代理團隊以Lean證明改善量子演算法；Meta汪滔警告超級智慧正在到來。",
-  "updated_at": "2026-11-23T22:35:01.450483+00:00"
+  "brief_en": "NVIDIA reinstates Jensen Huang as CEO after government input. Anthropic ships Claude Ship for agentic PR review/approval and opens zero-retention Enterprise Frontier Safeguards beta. OpenAI rolls chat-tuned GPT-6.2 Sol into ChatGPT Chat (retiring GPT-5.6 models Dec 23) and co-launches open-source Shirudo Linux runtime shields with Cisco. Meta launches Muse personal agent in the UK. Virginia and Oregon sue SpaceX over Grok image generation.",
+  "brief_zh": "NVIDIA董事會一致同意立即恢復黃仁勳擔任CEO。Anthropic推出Claude Ship代理審核PR，並開放零資料保留的Enterprise Frontier Safeguards公測。OpenAI將針對聊天優化的GPT-6.2 Sol推至ChatGPT Chat（12月23日退役GPT-5.6），並與Cisco推出開源Shirudo Linux執行期防護。Meta在英國上線Muse個人代理。維吉尼亞與奧勒岡起訴SpaceX涉Grok生成不當圖像。",
+  "updated_at": "2026-11-24T10:35:02.134142+00:00"
 }
