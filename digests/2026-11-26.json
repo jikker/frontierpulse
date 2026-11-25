@@ -1,0 +1,284 @@
+{
+  "date": "2026-11-26",
+  "runs": [
+    {
+      "generated_at": "2026-11-25T16:35:02.282257+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 5,
+      "updated_count": 0,
+      "kept_count": 0
+    }
+  ],
+  "items_flat": [
+    {
+      "id": "anthropic-messages-api-rust-migration-2026-11-25",
+      "story_id": "anthropic-messages-api-rust-migration-2026-11-25",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic migrates Messages API from Python to Rust with Claude agents for verification",
+      "title_zh": "Anthropic 將 Messages API 從 Python 遷移至 Rust，並以 Claude 代理進行驗證",
+      "summary_en": "Anthropic published how it rewrote its core Messages API in Rust. Claude wrote much of the code while the production Python service served as an oracle for shadowing and checkpointing differences. The new version uses about 70% less CPU per request and reduces median time-to-first-token by about 20%, without downtime.",
+      "summary_zh": "Anthropic 發表如何將核心 Messages API 改寫為 Rust。Claude 撰寫大量程式碼，同時以生產中的 Python 服務作為神諭，透過影子流量與檢查點比對差異。新版本每請求 CPU 用量約降 70%，中位首字元延遲約降 20%，且未停機。",
+      "analysis_en": "This shows frontier models can now handle high-stakes production migrations where verification, not generation, is the bottleneck. The privacy-preserving shadowing approach (comparing shapes of diffs without reading user content) is a practical template, though long-term parity under continuous feature changes remains unproven.",
+      "analysis_zh": "這顯示前沿模型已能處理驗證而非生成才是瓶頸的高風險生產遷移。以隱私保護方式比對差異形狀（不讀取使用者內容）的影子測試是實用範本，但在持續功能變動下的長期一致性仍待驗證。",
+      "quote": "This allowed us to ship an API on Rust that uses about 70% less CPU per request and cuts median time to first token by about 20% without ever taking the service offline or freezing feature development.",
+      "quote_zh": "這讓我們得以推出 Rust 版 API，每請求 CPU 用量約降 70%，中位首字元延遲約降 20%，且從未讓服務下線或凍結功能開發。",
+      "importance": 4,
+      "first_seen": "2026-11-25T16:26:59Z",
+      "updated_at": "2026-11-25T16:35:02.282257+00:00",
+      "links": [
+        {
+          "label": "Anthropic Engineering Blog",
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+        },
+        {
+          "label": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2125627317263466739"
+        }
+      ]
+    },
+    {
+      "id": "google-humanitys-first-exam-2026-11-24",
+      "story_id": "google-humanitys-first-exam-2026-11-24",
+      "category": "google",
+      "source_type": "official_blog",
+      "title_en": "Google DeepMind launches Humanity’s First Exam to test LLM reliability on everyday tasks",
+      "title_zh": "Google DeepMind 推出 Humanity’s First Exam，測試大型語言模型對日常任務的可靠性",
+      "summary_en": "Google DeepMind launched the Humanity’s First Exam (HFE) benchmark on Kaggle with 544 elementary text and image prompts across 20 capabilities. It measures whether models answer straightforward questions and slight variations correctly every time (family pass^4) rather than once. A three-week Kaggle competition invites submissions of everyday questions models still fail, running through December 15.",
+      "summary_zh": "Google DeepMind 在 Kaggle 推出 Humanity’s First Exam（HFE）基準，包含 544 道涵蓋 20 種能力的基礎文字與圖像提示。它測量模型是否能每次都正確回答簡單問題及其微小變體（family pass^4），而非僅一次。為期三週的 Kaggle 競賽邀請提交模型仍會出錯的日常問題，截止至 12 月 15 日。",
+      "analysis_en": "By focusing on the reliability floor instead of capability ceilings, HFE highlights a practical gap for automation: top models score 96–98% on single attempts but drop to the mid-80s on consistent multi-attempt family success. Visual tasks drive most failures, suggesting current multimodal reliability is the larger production constraint.",
+      "analysis_zh": "HFE 聚焦可靠性下限而非能力上限，凸顯自動化的實務缺口：頂尖模型單次成功率達 96–98%，但在需多次一致成功的題組上降至 80 中段。視覺任務佔多數失敗，顯示當前多模態可靠性才是更大的生產限制。",
+      "quote": "Instead of focusing on whether a model is capable of solving a task once, HFE measures whether models can consistently solve tasks (and slight variations) every single time.",
+      "quote_zh": "HFE 不關注模型是否能一次解決任務，而是測量模型能否每次都一致地解決任務（及其微小變體）。",
+      "importance": 4,
+      "first_seen": "2026-11-24T00:00:00Z",
+      "updated_at": "2026-11-25T16:35:02.282257+00:00",
+      "links": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/"
+        }
+      ]
+    },
+    {
+      "id": "openai-gpt6-protein-design-2026-11-24",
+      "story_id": "openai-gpt6-protein-design-2026-11-24",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI reports GPT-6 models can design proteins using reasoning and code, with lab binding results",
+      "title_zh": "OpenAI 報告 GPT-6 模型能以推理與程式碼設計蛋白質，並有實驗室結合結果",
+      "summary_en": "OpenAI published that its GPT-6 family can design new protein structures and sequences using only reasoning and general-purpose code, without specialized biology models for the design step. In wet-lab tests with Onava, 35 of 322 minibinders (10.9%) based on GPT-6.2 designs showed binding across five targets. Specialized models still handled sequence proposal and candidate selection in the reported experiments.",
+      "summary_zh": "OpenAI 發表其 GPT-6 家族能僅以推理與通用程式碼設計新蛋白質結構與序列，設計步驟無需專門生物學模型。在與 Onava 的濕實驗中，基於 GPT-6.2 設計的 322 個小型結合蛋白中有 35 個（10.9%）在五個目標上顯示結合。報告實驗中，專門模型仍負責序列提案與候選篩選。",
+      "analysis_en": "The preprint provides early evidence that general models can contribute to protein design pipelines and accept natural-language constraints, but the 10.9% hit rate and continued reliance on specialist tools for sequences and filtering show this is still an assistive rather than fully autonomous capability. Independent replication will be needed.",
+      "analysis_zh": "預印本提供早期證據，顯示通用模型可參與蛋白質設計流程並接受自然語言限制，但 10.9% 的命中率以及序列與篩選仍依賴專門工具，顯示這仍是輔助而非完全自主的能力。需獨立複製驗證。",
+      "quote": "Our GPT‑6 family of models can design new protein shapes and the sequence of their chemical building blocks using only reasoning and code, without calling specialized biology models to generate those designs.",
+      "quote_zh": "我們的 GPT-6 家族模型能僅以推理與程式碼設計新蛋白質形狀及其化學建構單元序列，無需呼叫專門生物學模型來生成這些設計。",
+      "importance": 4,
+      "first_seen": "2026-11-24T00:00:00Z",
+      "updated_at": "2026-11-25T16:35:02.282257+00:00",
+      "links": [
+        {
+          "label": "OpenAI Blog",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+        }
+      ]
+    },
+    {
+      "id": "meta-muse-uk-instagram-2026-11-24",
+      "story_id": "meta-muse-uk-instagram-2026-11-24",
+      "category": "meta",
+      "source_type": "official_blog",
+      "title_en": "Meta launches Muse personal AI agent in the UK and integrates it into Instagram DMs",
+      "title_zh": "Meta 在英國推出 Muse 個人 AI 代理，並整合至 Instagram 私訊",
+      "summary_en": "Meta made its Muse personal AI agent available to adults 18+ in the UK on iOS, Android, muse.ai and WhatsApp, with connectors to UK brands including Marks & Spencer, ASOS and easyJet. It asks for approval before sensitive actions. Separately, Muse began rolling out inside Instagram DM threads in the US, Canada, Mexico, Japan and Singapore so users can share posts and act on saved content.",
+      "summary_zh": "Meta 向英國 18 歲以上成人開放 Muse 個人 AI 代理，支援 iOS、Android、muse.ai 與 WhatsApp，並與 Marks & Spencer、ASOS、easyJet 等英國品牌連接。執行敏感動作前會要求核准。另外，Muse 開始在美國、加拿大、墨西哥、日本與新加坡的 Instagram 私訊中推出，使用者可分享貼文並對收藏內容採取行動。",
+      "analysis_en": "Expanding an agent that can take multi-step actions on connected services into new markets and a high-engagement surface like Instagram DMs tests user willingness to grant broader access. The approval gates and data isolation claims will be watched by regulators already monitoring agentic systems.",
+      "analysis_zh": "將能在連接服務上執行多步驟動作的代理擴展至新市場與 Instagram 私訊這類高互動介面，測試使用者授予更廣權限的意願。核准閘門與資料隔離主張將受到已在監控代理系統的監管機構關注。",
+      "quote": "Muse is now in the UK: a personal AI agent that doesn’t just answer questions, but one that you can task to get things done on your behalf.",
+      "quote_zh": "Muse 現已在英國推出：這是一款個人 AI 代理，不只回答問題，還能讓你指派它代為完成事務。",
+      "importance": 3,
+      "first_seen": "2026-11-23T00:00:00Z",
+      "updated_at": "2026-11-25T16:35:02.282257+00:00",
+      "links": [
+        {
+          "label": "Meta Newsroom (UK launch)",
+          "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/"
+        },
+        {
+          "label": "TechCrunch (Instagram DMs)",
+          "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-enterprise-frontier-safeguards-beta-2026-11-23",
+      "story_id": "anthropic-enterprise-frontier-safeguards-beta-2026-11-23",
+      "category": "anthropic",
+      "source_type": "mixed",
+      "title_en": "Anthropic opens Enterprise Frontier Safeguards public beta for zero-data-retention misuse detection",
+      "title_zh": "Anthropic 開放 Enterprise Frontier Safeguards 公開測試，支援零資料留存的濫用偵測",
+      "summary_en": "Anthropic opened a public beta of Enterprise Frontier Safeguards (EFS). It lets customers store conversation data in their own cloud (with their encryption keys) while automated systems scan for cross-request misuse patterns that single-request classifiers might miss. The feature is available on Claude Platform, AWS and Google Cloud deployments.",
+      "summary_zh": "Anthropic 開放 Enterprise Frontier Safeguards（EFS）公開測試。客戶可將對話資料儲存在自己的雲端（使用自己的加密金鑰），同時由自動化系統掃描跨請求的濫用模式，這些模式單一請求分類器可能會漏掉。此功能適用於 Claude Platform、AWS 與 Google Cloud 部署。",
+      "analysis_en": "EFS addresses a real enterprise tension between zero data retention and the need to detect multi-step agent misuse. Whether the sealed-data model scales operationally and satisfies regulated customers will determine how widely frontier models can be adopted in sensitive environments.",
+      "analysis_zh": "EFS 解決企業在零資料留存與偵測多步驟代理濫用之間的真實矛盾。密封資料模式能否在營運上擴展並滿足受監管客戶，將決定前沿模型在敏感環境中的採用廣度。",
+      "quote": "With EFS, customers can keep sensitive data in their own environments, protected with their own encryption keys, while still preserving the specialized safety mechanisms frontier capabilities require.",
+      "quote_zh": "透過 EFS，客戶可將敏感資料保留在自己的環境中，以自己的加密金鑰保護，同時仍保有前沿能力所需的專門安全機制。",
+      "importance": 3,
+      "first_seen": "2026-11-23T00:00:00Z",
+      "updated_at": "2026-11-25T16:35:02.282257+00:00",
+      "links": [
+        {
+          "label": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/25/anthropic-enterprise-frontier-safeguards-public-beta/"
+        },
+        {
+          "label": "Anthropic (earlier announcement)",
+          "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "openai": [
+      {
+        "id": "openai-gpt6-protein-design-2026-11-24",
+        "story_id": "openai-gpt6-protein-design-2026-11-24",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI reports GPT-6 models can design proteins using reasoning and code, with lab binding results",
+        "title_zh": "OpenAI 報告 GPT-6 模型能以推理與程式碼設計蛋白質，並有實驗室結合結果",
+        "summary_en": "OpenAI published that its GPT-6 family can design new protein structures and sequences using only reasoning and general-purpose code, without specialized biology models for the design step. In wet-lab tests with Onava, 35 of 322 minibinders (10.9%) based on GPT-6.2 designs showed binding across five targets. Specialized models still handled sequence proposal and candidate selection in the reported experiments.",
+        "summary_zh": "OpenAI 發表其 GPT-6 家族能僅以推理與通用程式碼設計新蛋白質結構與序列，設計步驟無需專門生物學模型。在與 Onava 的濕實驗中，基於 GPT-6.2 設計的 322 個小型結合蛋白中有 35 個（10.9%）在五個目標上顯示結合。報告實驗中，專門模型仍負責序列提案與候選篩選。",
+        "analysis_en": "The preprint provides early evidence that general models can contribute to protein design pipelines and accept natural-language constraints, but the 10.9% hit rate and continued reliance on specialist tools for sequences and filtering show this is still an assistive rather than fully autonomous capability. Independent replication will be needed.",
+        "analysis_zh": "預印本提供早期證據，顯示通用模型可參與蛋白質設計流程並接受自然語言限制，但 10.9% 的命中率以及序列與篩選仍依賴專門工具，顯示這仍是輔助而非完全自主的能力。需獨立複製驗證。",
+        "quote": "Our GPT‑6 family of models can design new protein shapes and the sequence of their chemical building blocks using only reasoning and code, without calling specialized biology models to generate those designs.",
+        "quote_zh": "我們的 GPT-6 家族模型能僅以推理與程式碼設計新蛋白質形狀及其化學建構單元序列，無需呼叫專門生物學模型來生成這些設計。",
+        "importance": 4,
+        "first_seen": "2026-11-24T00:00:00Z",
+        "updated_at": "2026-11-25T16:35:02.282257+00:00",
+        "links": [
+          {
+            "label": "OpenAI Blog",
+            "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+          }
+        ]
+      }
+    ],
+    "anthropic": [
+      {
+        "id": "anthropic-messages-api-rust-migration-2026-11-25",
+        "story_id": "anthropic-messages-api-rust-migration-2026-11-25",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic migrates Messages API from Python to Rust with Claude agents for verification",
+        "title_zh": "Anthropic 將 Messages API 從 Python 遷移至 Rust，並以 Claude 代理進行驗證",
+        "summary_en": "Anthropic published how it rewrote its core Messages API in Rust. Claude wrote much of the code while the production Python service served as an oracle for shadowing and checkpointing differences. The new version uses about 70% less CPU per request and reduces median time-to-first-token by about 20%, without downtime.",
+        "summary_zh": "Anthropic 發表如何將核心 Messages API 改寫為 Rust。Claude 撰寫大量程式碼，同時以生產中的 Python 服務作為神諭，透過影子流量與檢查點比對差異。新版本每請求 CPU 用量約降 70%，中位首字元延遲約降 20%，且未停機。",
+        "analysis_en": "This shows frontier models can now handle high-stakes production migrations where verification, not generation, is the bottleneck. The privacy-preserving shadowing approach (comparing shapes of diffs without reading user content) is a practical template, though long-term parity under continuous feature changes remains unproven.",
+        "analysis_zh": "這顯示前沿模型已能處理驗證而非生成才是瓶頸的高風險生產遷移。以隱私保護方式比對差異形狀（不讀取使用者內容）的影子測試是實用範本，但在持續功能變動下的長期一致性仍待驗證。",
+        "quote": "This allowed us to ship an API on Rust that uses about 70% less CPU per request and cuts median time to first token by about 20% without ever taking the service offline or freezing feature development.",
+        "quote_zh": "這讓我們得以推出 Rust 版 API，每請求 CPU 用量約降 70%，中位首字元延遲約降 20%，且從未讓服務下線或凍結功能開發。",
+        "importance": 4,
+        "first_seen": "2026-11-25T16:26:59Z",
+        "updated_at": "2026-11-25T16:35:02.282257+00:00",
+        "links": [
+          {
+            "label": "Anthropic Engineering Blog",
+            "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+          },
+          {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI/status/2125627317263466739"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-enterprise-frontier-safeguards-beta-2026-11-23",
+        "story_id": "anthropic-enterprise-frontier-safeguards-beta-2026-11-23",
+        "category": "anthropic",
+        "source_type": "mixed",
+        "title_en": "Anthropic opens Enterprise Frontier Safeguards public beta for zero-data-retention misuse detection",
+        "title_zh": "Anthropic 開放 Enterprise Frontier Safeguards 公開測試，支援零資料留存的濫用偵測",
+        "summary_en": "Anthropic opened a public beta of Enterprise Frontier Safeguards (EFS). It lets customers store conversation data in their own cloud (with their encryption keys) while automated systems scan for cross-request misuse patterns that single-request classifiers might miss. The feature is available on Claude Platform, AWS and Google Cloud deployments.",
+        "summary_zh": "Anthropic 開放 Enterprise Frontier Safeguards（EFS）公開測試。客戶可將對話資料儲存在自己的雲端（使用自己的加密金鑰），同時由自動化系統掃描跨請求的濫用模式，這些模式單一請求分類器可能會漏掉。此功能適用於 Claude Platform、AWS 與 Google Cloud 部署。",
+        "analysis_en": "EFS addresses a real enterprise tension between zero data retention and the need to detect multi-step agent misuse. Whether the sealed-data model scales operationally and satisfies regulated customers will determine how widely frontier models can be adopted in sensitive environments.",
+        "analysis_zh": "EFS 解決企業在零資料留存與偵測多步驟代理濫用之間的真實矛盾。密封資料模式能否在營運上擴展並滿足受監管客戶，將決定前沿模型在敏感環境中的採用廣度。",
+        "quote": "With EFS, customers can keep sensitive data in their own environments, protected with their own encryption keys, while still preserving the specialized safety mechanisms frontier capabilities require.",
+        "quote_zh": "透過 EFS，客戶可將敏感資料保留在自己的環境中，以自己的加密金鑰保護，同時仍保有前沿能力所需的專門安全機制。",
+        "importance": 3,
+        "first_seen": "2026-11-23T00:00:00Z",
+        "updated_at": "2026-11-25T16:35:02.282257+00:00",
+        "links": [
+          {
+            "label": "Help Net Security",
+            "url": "https://www.helpnetsecurity.com/2026/11/25/anthropic-enterprise-frontier-safeguards-public-beta/"
+          },
+          {
+            "label": "Anthropic (earlier announcement)",
+            "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
+          }
+        ]
+      }
+    ],
+    "google": [
+      {
+        "id": "google-humanitys-first-exam-2026-11-24",
+        "story_id": "google-humanitys-first-exam-2026-11-24",
+        "category": "google",
+        "source_type": "official_blog",
+        "title_en": "Google DeepMind launches Humanity’s First Exam to test LLM reliability on everyday tasks",
+        "title_zh": "Google DeepMind 推出 Humanity’s First Exam，測試大型語言模型對日常任務的可靠性",
+        "summary_en": "Google DeepMind launched the Humanity’s First Exam (HFE) benchmark on Kaggle with 544 elementary text and image prompts across 20 capabilities. It measures whether models answer straightforward questions and slight variations correctly every time (family pass^4) rather than once. A three-week Kaggle competition invites submissions of everyday questions models still fail, running through December 15.",
+        "summary_zh": "Google DeepMind 在 Kaggle 推出 Humanity’s First Exam（HFE）基準，包含 544 道涵蓋 20 種能力的基礎文字與圖像提示。它測量模型是否能每次都正確回答簡單問題及其微小變體（family pass^4），而非僅一次。為期三週的 Kaggle 競賽邀請提交模型仍會出錯的日常問題，截止至 12 月 15 日。",
+        "analysis_en": "By focusing on the reliability floor instead of capability ceilings, HFE highlights a practical gap for automation: top models score 96–98% on single attempts but drop to the mid-80s on consistent multi-attempt family success. Visual tasks drive most failures, suggesting current multimodal reliability is the larger production constraint.",
+        "analysis_zh": "HFE 聚焦可靠性下限而非能力上限，凸顯自動化的實務缺口：頂尖模型單次成功率達 96–98%，但在需多次一致成功的題組上降至 80 中段。視覺任務佔多數失敗，顯示當前多模態可靠性才是更大的生產限制。",
+        "quote": "Instead of focusing on whether a model is capable of solving a task once, HFE measures whether models can consistently solve tasks (and slight variations) every single time.",
+        "quote_zh": "HFE 不關注模型是否能一次解決任務，而是測量模型能否每次都一致地解決任務（及其微小變體）。",
+        "importance": 4,
+        "first_seen": "2026-11-24T00:00:00Z",
+        "updated_at": "2026-11-25T16:35:02.282257+00:00",
+        "links": [
+          {
+            "label": "Google Blog",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/"
+          }
+        ]
+      }
+    ],
+    "meta": [
+      {
+        "id": "meta-muse-uk-instagram-2026-11-24",
+        "story_id": "meta-muse-uk-instagram-2026-11-24",
+        "category": "meta",
+        "source_type": "official_blog",
+        "title_en": "Meta launches Muse personal AI agent in the UK and integrates it into Instagram DMs",
+        "title_zh": "Meta 在英國推出 Muse 個人 AI 代理，並整合至 Instagram 私訊",
+        "summary_en": "Meta made its Muse personal AI agent available to adults 18+ in the UK on iOS, Android, muse.ai and WhatsApp, with connectors to UK brands including Marks & Spencer, ASOS and easyJet. It asks for approval before sensitive actions. Separately, Muse began rolling out inside Instagram DM threads in the US, Canada, Mexico, Japan and Singapore so users can share posts and act on saved content.",
+        "summary_zh": "Meta 向英國 18 歲以上成人開放 Muse 個人 AI 代理，支援 iOS、Android、muse.ai 與 WhatsApp，並與 Marks & Spencer、ASOS、easyJet 等英國品牌連接。執行敏感動作前會要求核准。另外，Muse 開始在美國、加拿大、墨西哥、日本與新加坡的 Instagram 私訊中推出，使用者可分享貼文並對收藏內容採取行動。",
+        "analysis_en": "Expanding an agent that can take multi-step actions on connected services into new markets and a high-engagement surface like Instagram DMs tests user willingness to grant broader access. The approval gates and data isolation claims will be watched by regulators already monitoring agentic systems.",
+        "analysis_zh": "將能在連接服務上執行多步驟動作的代理擴展至新市場與 Instagram 私訊這類高互動介面，測試使用者授予更廣權限的意願。核准閘門與資料隔離主張將受到已在監控代理系統的監管機構關注。",
+        "quote": "Muse is now in the UK: a personal AI agent that doesn’t just answer questions, but one that you can task to get things done on your behalf.",
+        "quote_zh": "Muse 現已在英國推出：這是一款個人 AI 代理，不只回答問題，還能讓你指派它代為完成事務。",
+        "importance": 3,
+        "first_seen": "2026-11-23T00:00:00Z",
+        "updated_at": "2026-11-25T16:35:02.282257+00:00",
+        "links": [
+          {
+            "label": "Meta Newsroom (UK launch)",
+            "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/"
+          },
+          {
+            "label": "TechCrunch (Instagram DMs)",
+            "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/"
+          }
+        ]
+      }
+    ],
+    "xai": [],
+    "frontier_other": []
+  },
+  "brief_en": "Anthropic detailed a Claude-assisted Python-to-Rust rewrite of its Messages API that cut CPU use ~70% and TTFT ~20%. Google DeepMind launched Humanity’s First Exam to measure LLM reliability on everyday tasks. OpenAI reported GPT-6 models designing proteins that bound targets in lab tests. Meta expanded Muse to the UK and Instagram DMs.",
+  "brief_zh": "Anthropic 詳述以 Claude 協助將 Messages API 從 Python 改寫為 Rust，CPU 用量約降 70%、首字元延遲約降 20%。Google DeepMind 推出 Humanity’s First Exam，測試模型對日常問題的可靠性。OpenAI 報告 GPT-6 模型設計的蛋白質在實驗中與目標結合。Meta 將 Muse 擴展至英國並整合至 Instagram 私訊。",
+  "updated_at": "2026-11-25T16:35:02.282257+00:00"
+}
