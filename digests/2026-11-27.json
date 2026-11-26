@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-27",
+  "runs": [
+    {
+      "generated_at": "2026-11-26T16:35:01.835691+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 5,
+      "updated_count": 0,
+      "kept_count": 0
+    }
+  ],
+  "items_flat": [
+    {
+      "id": "anthropic-messages-api-rust-migration-2026-11-25",
+      "story_id": "anthropic-messages-api-rust-migration-2026-11-25",
+      "category": "anthropic",
+      "source_type": "official_blog",
+      "title_en": "Anthropic migrates Messages API to Rust with Claude agents, cuts CPU 70%",
+      "title_zh": "Anthropic用Claude代理將Messages API遷移至Rust，CPU用量降70%",
+      "summary_en": "Anthropic published how it moved its core Messages API from Python to Rust. Claude wrote an initial version quickly; agents then verified parity against live production traffic via shadowing and fingerprinting of differences. The Rust version uses about 70% less CPU per request and reduces median time-to-first-token by about 20%, with no downtime.",
+      "summary_zh": "Anthropic詳述如何將核心Messages API從Python遷移至Rust。Claude快速寫出初版，代理團隊再用生產流量影子比對與差異指紋驗證一致性。Rust版每請求CPU用量約降70%，中位首token時間縮短約20%，全程無停機。",
+      "analysis_en": "This shows AI agents can now handle high-stakes production rewrites when a reliable oracle (the existing system) exists for verification, shifting the bottleneck from coding to trust. Whether the same approach scales to less deterministic or novel systems remains open.",
+      "analysis_zh": "這顯示當有可靠的現有系統作為驗證基準時，AI代理已能處理高風險生產重寫，瓶頸從寫程式轉向建立信任。此方法能否套用到更不確定或全新系統仍待觀察。",
+      "quote": "This allowed us to ship an API on Rust that uses about 70% less CPU per request and cuts median time to first token by about 20% without ever taking the service offline or freezing feature development.",
+      "quote_zh": "這讓我們能上線Rust版API，每請求CPU用量約降70%，中位首token時間縮短約20%，全程服務不停機、功能開發也不凍結。",
+      "importance": 4,
+      "first_seen": "2026-11-25T16:26:59Z",
+      "updated_at": "2026-11-26T16:35:01.835691+00:00",
+      "links": [
+        {
+          "label": "Anthropic Engineering Blog",
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+        },
+        {
+          "label": "AnthropicAI on X",
+          "url": "https://x.com/AnthropicAI/status/2125627317263466739"
+        }
+      ]
+    },
+    {
+      "id": "openai-gpt6-protein-design-wetlab-2026-11-24",
+      "story_id": "openai-gpt6-protein-design-wetlab-2026-11-24",
+      "category": "openai",
+      "source_type": "official_blog",
+      "title_en": "OpenAI reports wet-lab binding for GPT-6.2 protein designs",
+      "title_zh": "OpenAI報告GPT-6.2蛋白質設計在濕實驗室顯示結合證據",
+      "summary_en": "OpenAI shared a preprint and results with partner Onava showing that proteins designed by the GPT-6 family (shapes by GPT-6.2, sequences completed by specialized models) produced binders for all five tested targets in wet-lab experiments. Additional sequence redesigns also retained binding in further tests.",
+      "summary_zh": "OpenAI與合作夥伴Onava分享預印本與結果，顯示GPT-6系列設計的蛋白質（形狀由GPT-6.2生成、序列由專用模型補全）在濕實驗中對五個目標皆產生結合劑。額外序列重新設計也在進一步測試中保留結合能力。",
+      "analysis_en": "Wet-lab confirmation of AI-designed protein binders is a concrete step beyond pure in-silico claims, yet the work still relies on specialized models for parts of the pipeline and is early-stage. Broader functional utility remains to be shown.",
+      "analysis_zh": "AI設計的蛋白質結合劑獲得濕實驗室確認，是超越純計算宣稱的具體進展，但仍依賴專用模型完成流程部分，且處於早期。更廣泛的功能效用仍待證明。",
+      "quote": "Our goal is for scientists to one day design working medicines simply by prompting.",
+      "quote_zh": "我們的目標是讓科學家有一天能僅透過提示就設計出可用的藥物。",
+      "importance": 4,
+      "first_seen": "2026-11-24T21:03:00Z",
+      "updated_at": "2026-11-26T16:35:01.835691+00:00",
+      "links": [
+        {
+          "label": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2125334394491801883"
+        },
+        {
+          "label": "OpenAI Research",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-nemotron-3-5-parse-datasets-dflash2-2026-11-26",
+      "story_id": "nvidia-nemotron-3-5-parse-datasets-dflash2-2026-11-26",
+      "category": "frontier_other",
+      "source_type": "official_blog",
+      "title_en": "NVIDIA opens datasets, fine-tuning recipe and DFlash2 for Nemotron 3.5 Parse",
+      "title_zh": "NVIDIA開源Nemotron 3.5 Parse資料集、微調配方與DFlash2加速器",
+      "summary_en": "On Hugging Face, NVIDIA released three large synthetic datasets (charts, tables, multilingual OCR), a fine-tuning recipe, and the DFlash2 speculative decoder for its Nemotron 3.5 Parse document model. DFlash2 reportedly boosts throughput substantially on H200 GPUs.",
+      "summary_zh": "NVIDIA在Hugging Face發布三組大型合成資料集（圖表、表格、多語言OCR）、微調配方，以及Nemotron 3.5 Parse文件模型的DFlash2推測解碼器。據稱在H200上能大幅提升吞吐量。",
+      "analysis_en": "Document parsing remains a practical bottleneck for RAG and agents; open data plus a fast drafter lowers the barrier for specialized fine-tunes. Independent benchmarks of the speed/accuracy trade-off will determine real uptake.",
+      "analysis_zh": "文件解析仍是RAG與代理的實務瓶頸；開源資料加上快速草稿模型降低了專用微調門檻。速度與準確度的取捨仍需獨立基準驗證，才能判斷實際採用程度。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 3,
+      "first_seen": "2026-11-26T05:00:00Z",
+      "updated_at": "2026-11-26T16:35:01.835691+00:00",
+      "links": [
+        {
+          "label": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog"
+        },
+        {
+          "label": "Nemotron 3.5 Parse on Hugging Face",
+          "url": "https://huggingface.co/nvidia/Nemotron-3.5-Parse"
+        }
+      ]
+    },
+    {
+      "id": "mistral-large-4-visual-grounding-2026-11-26",
+      "story_id": "mistral-large-4-visual-grounding-2026-11-26",
+      "category": "frontier_other",
+      "source_type": "official_x",
+      "title_en": "Mistral says Large 4 leads closed models on visual grounding",
+      "title_zh": "Mistral稱Large 4在視覺定位任務上領先封閉模型",
+      "summary_en": "Mistral AI posted that its open-weight Mistral Large 4 (Le Chonk) can locate and outline exact matches on maps and posts a 42% score on Dense200, one point ahead of GPT-6 Astra by the company’s count.",
+      "summary_zh": "Mistral AI發文表示，其開源權重模型Mistral Large 4（Le Chonk）能在地圖上精準定位並框出匹配項目，並在Dense200基準上取得42%，依公司數據略勝GPT-6 Astra。",
+      "analysis_en": "A narrow edge on one multimodal task from an open model is noteworthy for the open-weights ecosystem, but the margin is small and the evaluation is self-reported. Broader independent tests will show whether the advantage holds.",
+      "analysis_zh": "開源模型在單一多模態任務上取得微弱領先對開源生態有意義，但差距很小且為自評。更廣泛的獨立測試才能確認優勢是否穩固。",
+      "quote": "Mistral Large 4 finds the exact match and outlines it on the map. On visual grounding tasks, Le Chonk beats even closed frontier models.",
+      "quote_zh": "Mistral Large 4能找到精確匹配並在地圖上框出。在視覺定位任務上，Le Chonk甚至超越封閉的前沿模型。",
+      "importance": 3,
+      "first_seen": "2026-11-26T11:33:05Z",
+      "updated_at": "2026-11-26T16:35:01.835691+00:00",
+      "links": [
+        {
+          "label": "MistralAI on X",
+          "url": "https://x.com/MistralAI/status/2125915743212761359"
+        }
+      ]
+    },
+    {
+      "id": "openai-chatgpt-chat-work-shared-limits-2026-11",
+      "story_id": "openai-chatgpt-chat-work-shared-limits-2026-11",
+      "category": "openai",
+      "source_type": "mixed",
+      "title_en": "OpenAI rolls out shared Chat and Work usage limits in ChatGPT",
+      "title_zh": "OpenAI在ChatGPT推出Chat與Work共用額度",
+      "summary_en": "OpenAI has begun testing a unified Chat and Work experience for a small group of Pro users. Starting in December, Plus, Pro and Business plans will share one token-based allowance across ChatGPT and Codex; Instant remains unlimited. The company says most users should not hit limits more often, but the heaviest users may.",
+      "summary_zh": "OpenAI已開始對少數Pro用戶測試統一的Chat與Work體驗。12月起，Plus、Pro與Business方案將在ChatGPT與Codex共用單一以token計算的額度；Instant仍無上限。公司表示多數用戶不應更常觸頂，但重度用戶可能會。",
+      "analysis_en": "Merging the meters simplifies the product surface but reallocates capacity from previously separate buckets. How often power users actually notice tighter effective limits will depend on real token consumption patterns after the wider December rollout.",
+      "analysis_zh": "合併額度簡化了產品介面，但也重新分配了原本分開的容量。重度用戶是否真正感覺額度變緊，需等12月更廣泛上線後的實際token消耗模式才能判斷。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 3,
+      "first_seen": "2026-11-25T12:03:00Z",
+      "updated_at": "2026-11-26T16:35:01.835691+00:00",
+      "links": [
+        {
+          "label": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "openai": [
+      {
+        "id": "openai-gpt6-protein-design-wetlab-2026-11-24",
+        "story_id": "openai-gpt6-protein-design-wetlab-2026-11-24",
+        "category": "openai",
+        "source_type": "official_blog",
+        "title_en": "OpenAI reports wet-lab binding for GPT-6.2 protein designs",
+        "title_zh": "OpenAI報告GPT-6.2蛋白質設計在濕實驗室顯示結合證據",
+        "summary_en": "OpenAI shared a preprint and results with partner Onava showing that proteins designed by the GPT-6 family (shapes by GPT-6.2, sequences completed by specialized models) produced binders for all five tested targets in wet-lab experiments. Additional sequence redesigns also retained binding in further tests.",
+        "summary_zh": "OpenAI與合作夥伴Onava分享預印本與結果，顯示GPT-6系列設計的蛋白質（形狀由GPT-6.2生成、序列由專用模型補全）在濕實驗中對五個目標皆產生結合劑。額外序列重新設計也在進一步測試中保留結合能力。",
+        "analysis_en": "Wet-lab confirmation of AI-designed protein binders is a concrete step beyond pure in-silico claims, yet the work still relies on specialized models for parts of the pipeline and is early-stage. Broader functional utility remains to be shown.",
+        "analysis_zh": "AI設計的蛋白質結合劑獲得濕實驗室確認，是超越純計算宣稱的具體進展，但仍依賴專用模型完成流程部分，且處於早期。更廣泛的功能效用仍待證明。",
+        "quote": "Our goal is for scientists to one day design working medicines simply by prompting.",
+        "quote_zh": "我們的目標是讓科學家有一天能僅透過提示就設計出可用的藥物。",
+        "importance": 4,
+        "first_seen": "2026-11-24T21:03:00Z",
+        "updated_at": "2026-11-26T16:35:01.835691+00:00",
+        "links": [
+          {
+            "label": "OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2125334394491801883"
+          },
+          {
+            "label": "OpenAI Research",
+            "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+          }
+        ]
+      },
+      {
+        "id": "openai-chatgpt-chat-work-shared-limits-2026-11",
+        "story_id": "openai-chatgpt-chat-work-shared-limits-2026-11",
+        "category": "openai",
+        "source_type": "mixed",
+        "title_en": "OpenAI rolls out shared Chat and Work usage limits in ChatGPT",
+        "title_zh": "OpenAI在ChatGPT推出Chat與Work共用額度",
+        "summary_en": "OpenAI has begun testing a unified Chat and Work experience for a small group of Pro users. Starting in December, Plus, Pro and Business plans will share one token-based allowance across ChatGPT and Codex; Instant remains unlimited. The company says most users should not hit limits more often, but the heaviest users may.",
+        "summary_zh": "OpenAI已開始對少數Pro用戶測試統一的Chat與Work體驗。12月起，Plus、Pro與Business方案將在ChatGPT與Codex共用單一以token計算的額度；Instant仍無上限。公司表示多數用戶不應更常觸頂，但重度用戶可能會。",
+        "analysis_en": "Merging the meters simplifies the product surface but reallocates capacity from previously separate buckets. How often power users actually notice tighter effective limits will depend on real token consumption patterns after the wider December rollout.",
+        "analysis_zh": "合併額度簡化了產品介面，但也重新分配了原本分開的容量。重度用戶是否真正感覺額度變緊，需等12月更廣泛上線後的實際token消耗模式才能判斷。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 3,
+        "first_seen": "2026-11-25T12:03:00Z",
+        "updated_at": "2026-11-26T16:35:01.835691+00:00",
+        "links": [
+          {
+            "label": "OpenAI Help Center",
+            "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+          }
+        ]
+      }
+    ],
+    "anthropic": [
+      {
+        "id": "anthropic-messages-api-rust-migration-2026-11-25",
+        "story_id": "anthropic-messages-api-rust-migration-2026-11-25",
+        "category": "anthropic",
+        "source_type": "official_blog",
+        "title_en": "Anthropic migrates Messages API to Rust with Claude agents, cuts CPU 70%",
+        "title_zh": "Anthropic用Claude代理將Messages API遷移至Rust，CPU用量降70%",
+        "summary_en": "Anthropic published how it moved its core Messages API from Python to Rust. Claude wrote an initial version quickly; agents then verified parity against live production traffic via shadowing and fingerprinting of differences. The Rust version uses about 70% less CPU per request and reduces median time-to-first-token by about 20%, with no downtime.",
+        "summary_zh": "Anthropic詳述如何將核心Messages API從Python遷移至Rust。Claude快速寫出初版，代理團隊再用生產流量影子比對與差異指紋驗證一致性。Rust版每請求CPU用量約降70%，中位首token時間縮短約20%，全程無停機。",
+        "analysis_en": "This shows AI agents can now handle high-stakes production rewrites when a reliable oracle (the existing system) exists for verification, shifting the bottleneck from coding to trust. Whether the same approach scales to less deterministic or novel systems remains open.",
+        "analysis_zh": "這顯示當有可靠的現有系統作為驗證基準時，AI代理已能處理高風險生產重寫，瓶頸從寫程式轉向建立信任。此方法能否套用到更不確定或全新系統仍待觀察。",
+        "quote": "This allowed us to ship an API on Rust that uses about 70% less CPU per request and cuts median time to first token by about 20% without ever taking the service offline or freezing feature development.",
+        "quote_zh": "這讓我們能上線Rust版API，每請求CPU用量約降70%，中位首token時間縮短約20%，全程服務不停機、功能開發也不凍結。",
+        "importance": 4,
+        "first_seen": "2026-11-25T16:26:59Z",
+        "updated_at": "2026-11-26T16:35:01.835691+00:00",
+        "links": [
+          {
+            "label": "Anthropic Engineering Blog",
+            "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+          },
+          {
+            "label": "AnthropicAI on X",
+            "url": "https://x.com/AnthropicAI/status/2125627317263466739"
+          }
+        ]
+      }
+    ],
+    "google": [],
+    "meta": [],
+    "xai": [],
+    "frontier_other": [
+      {
+        "id": "nvidia-nemotron-3-5-parse-datasets-dflash2-2026-11-26",
+        "story_id": "nvidia-nemotron-3-5-parse-datasets-dflash2-2026-11-26",
+        "category": "frontier_other",
+        "source_type": "official_blog",
+        "title_en": "NVIDIA opens datasets, fine-tuning recipe and DFlash2 for Nemotron 3.5 Parse",
+        "title_zh": "NVIDIA開源Nemotron 3.5 Parse資料集、微調配方與DFlash2加速器",
+        "summary_en": "On Hugging Face, NVIDIA released three large synthetic datasets (charts, tables, multilingual OCR), a fine-tuning recipe, and the DFlash2 speculative decoder for its Nemotron 3.5 Parse document model. DFlash2 reportedly boosts throughput substantially on H200 GPUs.",
+        "summary_zh": "NVIDIA在Hugging Face發布三組大型合成資料集（圖表、表格、多語言OCR）、微調配方，以及Nemotron 3.5 Parse文件模型的DFlash2推測解碼器。據稱在H200上能大幅提升吞吐量。",
+        "analysis_en": "Document parsing remains a practical bottleneck for RAG and agents; open data plus a fast drafter lowers the barrier for specialized fine-tunes. Independent benchmarks of the speed/accuracy trade-off will determine real uptake.",
+        "analysis_zh": "文件解析仍是RAG與代理的實務瓶頸；開源資料加上快速草稿模型降低了專用微調門檻。速度與準確度的取捨仍需獨立基準驗證，才能判斷實際採用程度。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 3,
+        "first_seen": "2026-11-26T05:00:00Z",
+        "updated_at": "2026-11-26T16:35:01.835691+00:00",
+        "links": [
+          {
+            "label": "Hugging Face Blog",
+            "url": "https://huggingface.co/blog"
+          },
+          {
+            "label": "Nemotron 3.5 Parse on Hugging Face",
+            "url": "https://huggingface.co/nvidia/Nemotron-3.5-Parse"
+          }
+        ]
+      },
+      {
+        "id": "mistral-large-4-visual-grounding-2026-11-26",
+        "story_id": "mistral-large-4-visual-grounding-2026-11-26",
+        "category": "frontier_other",
+        "source_type": "official_x",
+        "title_en": "Mistral says Large 4 leads closed models on visual grounding",
+        "title_zh": "Mistral稱Large 4在視覺定位任務上領先封閉模型",
+        "summary_en": "Mistral AI posted that its open-weight Mistral Large 4 (Le Chonk) can locate and outline exact matches on maps and posts a 42% score on Dense200, one point ahead of GPT-6 Astra by the company’s count.",
+        "summary_zh": "Mistral AI發文表示，其開源權重模型Mistral Large 4（Le Chonk）能在地圖上精準定位並框出匹配項目，並在Dense200基準上取得42%，依公司數據略勝GPT-6 Astra。",
+        "analysis_en": "A narrow edge on one multimodal task from an open model is noteworthy for the open-weights ecosystem, but the margin is small and the evaluation is self-reported. Broader independent tests will show whether the advantage holds.",
+        "analysis_zh": "開源模型在單一多模態任務上取得微弱領先對開源生態有意義，但差距很小且為自評。更廣泛的獨立測試才能確認優勢是否穩固。",
+        "quote": "Mistral Large 4 finds the exact match and outlines it on the map. On visual grounding tasks, Le Chonk beats even closed frontier models.",
+        "quote_zh": "Mistral Large 4能找到精確匹配並在地圖上框出。在視覺定位任務上，Le Chonk甚至超越封閉的前沿模型。",
+        "importance": 3,
+        "first_seen": "2026-11-26T11:33:05Z",
+        "updated_at": "2026-11-26T16:35:01.835691+00:00",
+        "links": [
+          {
+            "label": "MistralAI on X",
+            "url": "https://x.com/MistralAI/status/2125915743212761359"
+          }
+        ]
+      }
+    ]
+  },
+  "brief_en": "Quiet day on new model launches. Anthropic detailed its Claude-assisted Messages API migration to Rust with major efficiency gains. NVIDIA opened datasets and faster inference tools for Nemotron 3.5 Parse. Mistral highlighted Large 4 visual grounding strength. OpenAI advanced shared Chat/Work usage limits.",
+  "brief_zh": "今日無重大新模型發布。Anthropic詳述用Claude將Messages API遷移至Rust並大幅提升效率。NVIDIA開源Nemotron 3.5 Parse資料集與加速工具。Mistral強調Large 4視覺定位能力。OpenAI推進Chat與Work共用額度。",
+  "updated_at": "2026-11-26T16:35:01.835691+00:00"
+}
