@@ -24,26 +24,92 @@
       "item_count": 8,
       "updated_count": 7,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-11-26T10:35:01.819423+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 13,
+      "updated_count": 8,
+      "kept_count": 0
     }
   ],
   "items_flat": [
+    {
+      "id": "openai-chatgpt-chat-work-shared-limits-2026-11-25",
+      "story_id": "openai-chatgpt-chat-work-shared-limits-2026-11-25",
+      "category": "openai",
+      "source_type": "official_x",
+      "title_en": "OpenAI starts limited rollout of merged Chat and Work with shared usage limits",
+      "title_zh": "OpenAI開始限量推出合併的Chat與Work並採用共用用量限制",
+      "summary_en": "OpenAI began rolling out a combined Chat and Work experience to a small group of Pro subscribers, as announced by product lead Thibault Sottiaux. Chat and Work will share one usage meter; Instant remains unlimited and does not count. Shared limits for Plus, Pro, and Business plans are planned more broadly in December, also covering Codex.",
+      "summary_zh": "OpenAI開始向一小群Pro訂閱者推出合併的Chat與Work體驗，由產品負責人Thibault Sottiaux宣布。Chat與Work將共用一個用量計；Instant仍無限且不計入。Plus、Pro與Business方案的共用限制計劃於12月更廣泛推出，也涵蓋Codex。",
+      "analysis_en": "Unifying the interface simplifies agentic workflows but the shared meter may reduce practical capacity for users who previously treated Chat and Work as separate pools. Early feedback will determine whether the December rollout needs adjustments.",
+      "analysis_zh": "統一介面簡化代理工作流程，但共用計量可能降低先前將Chat與Work視為分開額度的用戶實際容量。早期回饋將決定12月推出是否需要調整。",
+      "quote": "We’re beginning to roll out the combined Chat and Work experience to a small group of Pro users to learn from feedback before we roll out more broadly.",
+      "quote_zh": "我們開始向一小群Pro用戶推出合併的Chat與Work體驗，以收集回饋後再更廣泛推出。",
+      "importance": 4,
+      "first_seen": "2026-11-24T17:46:13Z",
+      "updated_at": "2026-11-26T10:35:01.819423+00:00",
+      "links": [
+        {
+          "label": "Thibault Sottiaux on X",
+          "url": "https://x.com/thsottiaux/status/2125284868414394550"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+        }
+      ]
+    },
+    {
+      "id": "openai-private-inference-alpha-2026-11-25",
+      "story_id": "openai-private-inference-alpha-2026-11-25",
+      "category": "openai",
+      "source_type": "official_x",
+      "title_en": "OpenAI begins alpha testing of Private Inference with select business customers",
+      "title_zh": "OpenAI開始與精選商業客戶進行Private Inference alpha測試",
+      "summary_en": "Sam Altman announced that OpenAI is testing Private Inference, part of OpenAI Private Intelligence, with a small group of customers. It uses confidential computing and strict controls to protect prompts and responses during model processing. Zero Data Retention with Private Safety Processing already enables automated safety reviews without OpenAI personnel accessing underlying content.",
+      "summary_zh": "Sam Altman宣布，OpenAI正與一小群客戶測試Private Inference，屬於OpenAI Private Intelligence的一部分。它使用機密計算與嚴格控制，在模型處理期間保護提示與回應。Zero Data Retention配合Private Safety Processing已可進行自動化安全審查，且OpenAI人員無法存取底層內容。",
+      "analysis_en": "Processing-time privacy addresses a remaining exposure for regulated enterprises after retention controls. Broader availability still depends on confidential-compute capacity and independent verification of the claimed protections.",
+      "analysis_zh": "處理時隱私補上保留控制後，受監管企業仍存的曝險。更廣泛可用性仍取決於機密計算容量與對聲稱保護的獨立驗證。",
+      "quote": "We’re now testing Private Inference, our latest offering as part of OpenAI Private Intelligence, with a small group of customers.",
+      "quote_zh": "我們現在正與一小群客戶測試Private Inference，這是OpenAI Private Intelligence的最新產品。",
+      "importance": 4,
+      "first_seen": "2026-11-25T17:12:34Z",
+      "updated_at": "2026-11-26T10:35:01.819423+00:00",
+      "links": [
+        {
+          "label": "Sam Altman on X",
+          "url": "https://x.com/sama/status/2125638790593274259"
+        },
+        {
+          "label": "OpenAI Private Intelligence page",
+          "url": "https://openai.com/business/private-intelligence/"
+        }
+      ]
+    },
     {
       "id": "anthropic-messages-api-rust-migration-2026-11-25",
       "story_id": "anthropic-messages-api-rust-migration-2026-11-25",
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic migrates Messages API from Python to Rust with Claude agents for verification",
-      "title_zh": "Anthropic 以 Claude 代理驗證，將 Messages API 從 Python 遷移至 Rust",
-      "summary_en": "Anthropic published how it rewrote its core Messages API in Rust. Claude wrote much of the code while the production Python service served as an oracle for shadowing and checkpointing differences. The new version uses about 70% less CPU per request and cuts median time to first token by about 20%, without taking the service offline.",
-      "summary_zh": "Anthropic 發表如何將核心 Messages API 以 Rust 重寫。Claude 撰寫大部分程式碼，生產環境的 Python 服務作為預言機進行影子比對與檢查點差異。新版本每請求 CPU 約減少 70%，中位元首次 token 時間約縮短 20%，且服務未下線。",
-      "analysis_en": "This shows frontier models can now handle high-stakes production migrations where verification, not generation, is the bottleneck. The privacy-preserving shadowing approach (comparing shapes and fingerprints without reading user content) offers a template for other live-system rewrites, though long-term parity under continuous feature changes remains to be proven at scale.",
-      "analysis_zh": "這顯示前沿模型現可處理高風險生產遷移，瓶頸在驗證而非生成。隱私保護的影子比對（比對形狀與指紋而不讀取使用者內容）為其他即時系統重寫提供範本，但持續功能變更下的長期一致性仍待大規模驗證。",
+      "title_zh": "Anthropic以Claude代理驗證，將Messages API從Python遷移至Rust",
+      "summary_en": "Anthropic published how it rewrote its core Messages API in Rust. Claude wrote much of the code while the production Python service served as an oracle for shadowing and checkpointing differences. The new version uses about 70% less CPU per request and has a 20% shorter median time to first token.",
+      "summary_zh": "Anthropic發表如何將核心Messages API以Rust重寫。Claude撰寫大部分程式碼，而正式環境的Python服務作為對照，用於影子測試與檢查點差異。新版本每請求CPU用量約少70%，中位首次回應token時間縮短20%。",
+      "analysis_en": "This shows frontier models can now handle high-stakes production migrations where verification, not generation, is the bottleneck. The privacy-preserving shadowing approach compresses engineering effort, but long-term maintainability of agent-written code remains unproven.",
+      "analysis_zh": "這顯示前沿模型現已能處理高風險生產遷移，瓶頸在驗證而非生成。隱私保護的影子測試方法壓縮工程努力，但代理撰寫程式碼的長期可維護性仍未證明。",
       "quote": "We ship an API on Rust that uses about 70% less CPU per request and cuts median time to first token by about 20% without ever taking the service offline or freezing feature development.",
       "quote_zh": "我們交付以 Rust 運行的 API，每請求 CPU 約減少 70%，中位元首次 token 時間約縮短 20%，且從未讓服務下線或凍結功能開發。",
       "importance": 4,
       "first_seen": "2026-11-25T16:26:59Z",
-      "updated_at": "2026-11-26T04:35:01.741700+00:00",
+      "updated_at": "2026-11-26T10:35:01.819423+00:00",
       "links": [
+        {
+          "label": "Anthropic engineering post (referenced in coverage)",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-26-2026/"
+        },
         {
           "label": "Anthropic Engineering Blog",
           "url": "https://www.anthropic.com/research/migrating-api-to-rust"
@@ -58,19 +124,23 @@
       "id": "openai-gpt6-protein-design-2026-11-24",
       "story_id": "openai-gpt6-protein-design-2026-11-24",
       "category": "openai",
-      "source_type": "official_blog",
+      "source_type": "paper",
       "title_en": "OpenAI reports GPT-6 models can design proteins using reasoning and code, with lab binding results",
-      "title_zh": "OpenAI 報告 GPT-6 模型可僅用推理與程式碼設計蛋白質，並有實驗室結合結果",
-      "summary_en": "OpenAI published that its GPT-6 family can design new protein structures and sequences using only reasoning and general-purpose code, without specialized biology models for the design step. In wet-lab tests with Onava, 35 of 322 minibinders (10.9%) showed binding across five targets; specialized models still supplied sequences and filtered candidates.",
-      "summary_zh": "OpenAI 發表其 GPT-6 系列可僅用推理與通用程式碼設計新蛋白質結構與序列，設計步驟無需專門生物模型。與 Onava 的濕實驗室測試中，322 個迷你結合體有 35 個（10.9%）對五個標靶顯示結合；專門模型仍提供序列並過濾候選。",
-      "analysis_en": "The preprint provides early evidence that general models can contribute to protein design pipelines and accept natural-language constraints, but the 10.9% hit rate and continued reliance on specialized tools for sequencing and selection mean this is a proof of principle rather than a replacement for domain-specific systems.",
-      "analysis_zh": "預印本提供早期證據，顯示通用模型可貢獻於蛋白質設計流程並接受自然語言限制，但 10.9% 的命中率及持續依賴專門工具進行序列與篩選，意味這是原理驗證而非取代領域特定系統。",
+      "title_zh": "OpenAI報告GPT-6模型可用推理與程式碼設計蛋白質，並有實驗室結合結果",
+      "summary_en": "OpenAI published that its GPT-6 family can design new protein structures and sequences using only reasoning and general-purpose code, without specialized biology models for the design step. In wet-lab tests with Onava, 35 of 322 minibinders designed by GPT-6.2 showed evidence of binding across five targets.",
+      "summary_zh": "OpenAI發表其GPT-6系列可僅用推理與通用程式碼設計新蛋白質結構與序列，設計步驟不需專用生物學模型。與Onava的濕實驗室測試中，GPT-6.2設計的322個minibinders中有35個對五個目標顯示結合證據。",
+      "analysis_en": "The preprint provides early evidence that general models can contribute to protein design pipelines and accept natural-language constraints, but the roughly 11% hit rate and continued reliance on specialized models for sequencing leave the practical advantage still limited.",
+      "analysis_zh": "預印本提供早期證據，顯示通用模型可貢獻蛋白質設計流程並接受自然語言約束，但約11%的命中率與序列生成仍依賴專用模型，實用優勢仍有限。",
       "quote": "Our GPT-6 family of models can design new protein shapes and the sequence of their chemical building blocks using only reasoning and code, without calling specialized biology models to generate those designs.",
       "quote_zh": "我們的 GPT-6 系列模型可僅用推理與程式碼設計新蛋白質形狀及其化學構建塊序列，無需呼叫專門生物模型來生成這些設計。",
       "importance": 4,
       "first_seen": "2026-11-24T00:00:00Z",
-      "updated_at": "2026-11-26T04:35:01.741700+00:00",
+      "updated_at": "2026-11-26T10:35:01.819423+00:00",
       "links": [
+        {
+          "label": "OpenAI research (via coverage)",
+          "url": "https://ai.info/daily/2026-11-26"
+        },
         {
           "label": "OpenAI Blog",
           "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
@@ -81,19 +151,23 @@
       "id": "google-humanitys-first-exam-2026-11-24",
       "story_id": "google-humanitys-first-exam-2026-11-24",
       "category": "google",
-      "source_type": "official_blog",
+      "source_type": "product",
       "title_en": "Google DeepMind launches Humanity’s First Exam to test LLM reliability on everyday tasks",
-      "title_zh": "Google DeepMind 推出 Humanity’s First Exam 測試 LLM 在日常任務上的可靠性",
-      "summary_en": "Google DeepMind launched the Humanity’s First Exam (HFE) benchmark on Kaggle with 544 elementary text and image prompts across 20 capabilities. It measures whether models answer straightforward questions and slight variations correctly every time, rather than capability ceilings. A three-week community competition collects more failing everyday questions through December 15.",
-      "summary_zh": "Google DeepMind 在 Kaggle 推出 Humanity’s First Exam（HFE）基準，包含 544 個跨 20 項能力的基本文字與圖像提示。它測量模型是否每次都能正確回答直觀問題及其輕微變體，而非能力天花板。三週社群競賽收集更多模型失敗的日常問題，至 12 月 15 日。",
-      "analysis_en": "By focusing on the reliability floor instead of capability ceilings, HFE highlights a practical gap for automation: top models score high once but inconsistently on related variants. Whether the metric correlates with real-world agent failure rates will determine its long-term value.",
-      "analysis_zh": "透過聚焦可靠性底線而非能力天花板，HFE 凸顯自動化的實際缺口：頂尖模型單次得分高，但在相關變體上不一致。該指標是否與真實世界代理失敗率相關，將決定其長期價值。",
+      "title_zh": "Google DeepMind推出Humanity’s First Exam，測試LLM在日常任務上的可靠性",
+      "summary_en": "Google DeepMind launched the Humanity’s First Exam (HFE) benchmark on Kaggle with 544 elementary text and image prompts across 20 capabilities. It measures whether models answer straightforward questions and slight variations correctly every time rather than once.",
+      "summary_zh": "Google DeepMind在Kaggle推出Humanity’s First Exam (HFE)基準，含544個涵蓋20項能力的初級文字與圖像提示。它衡量模型是否每次都能正確回答直截了當的問題及其輕微變體，而非僅一次。",
+      "analysis_en": "By focusing on the reliability floor instead of capability ceilings, HFE highlights a practical gap for automation: top models score high once but inconsistently on related variants.",
+      "analysis_zh": "透過聚焦可靠性下限而非能力上限，HFE凸顯自動化的實務缺口：頂尖模型單次得分高，但在相關變體上不一致。",
       "quote": "Instead of focusing on whether a model is capable of solving a task once, HFE measures whether models can consistently solve tasks (and slight variations) every single time.",
       "quote_zh": "HFE 不聚焦模型是否能單次解決任務，而是測量模型是否能每次一致地解決任務（及輕微變體）。",
       "importance": 4,
       "first_seen": "2026-11-24T00:00:00Z",
-      "updated_at": "2026-11-26T04:35:01.741700+00:00",
+      "updated_at": "2026-11-26T10:35:01.819423+00:00",
       "links": [
+        {
+          "label": "DeepMind / Kaggle (via coverage)",
+          "url": "https://deepmind.google/blog/"
+        },
         {
           "label": "Google DeepMind / Blog",
           "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/"
@@ -108,21 +182,21 @@
       "id": "google-quantum-algorithms-agents-lean-2026-11-23",
       "story_id": "google-quantum-algorithms-agents-lean-2026-11-23",
       "category": "google",
-      "source_type": "official_blog",
+      "source_type": "paper",
       "title_en": "Google DeepMind uses Gemini 4 agent teams to optimize quantum algorithms and prove them in Lean",
-      "title_zh": "Google DeepMind 使用 Gemini 4 代理團隊優化量子演算法並以 Lean 證明",
-      "summary_en": "Google DeepMind and Google Quantum AI reported that teams of Gemini 4 agents found more efficient quantum circuits for fusion, photochemistry, drug metabolism, Grover search, and arcsin. Every result was formally verified in Lean. Reported gains include an 11.8× reduction in a combined qubit-and-operation cost for a fusion circuit.",
-      "summary_zh": "Google DeepMind 與 Google Quantum AI 報告，Gemini 4 代理團隊為融合、光化學、藥物代謝、Grover 搜尋與 arcsin 找到更高效的量子電路。每個結果皆以 Lean 正式驗證。報告增益包括融合電路的合併量子位與操作成本降低 11.8 倍。",
-      "analysis_en": "Formal verification is necessary because the circuits are too large for classical simulation or current hardware. The agent-team plus Lean setup compresses design work, but the reported speed-ups are for specific problem instances and have not yet been run on quantum hardware.",
-      "analysis_zh": "形式驗證是必要的，因為電路太大無法進行經典模擬或當前硬體運行。代理團隊加 Lean 的設定壓縮設計工作，但報告的加速是針對特定問題實例，尚未在量子硬體上運行。",
+      "title_zh": "Google DeepMind以Gemini 4代理團隊優化量子演算法並在Lean中證明",
+      "summary_en": "Google DeepMind and Google Quantum AI reported that teams of Gemini 4 agents found more efficient quantum circuits for fusion, photochemistry, drug metabolism, Grover search, and arcsin. Every result was formally verified in Lean. Reported gains include nearly twelvefold cost reductions on some circuits.",
+      "summary_zh": "Google DeepMind與Google Quantum AI報告，Gemini 4代理團隊為融合、光化學、藥物代謝、Grover搜尋與反正弦找到更高效的量子電路。每個結果都在Lean中正式驗證。報告顯示部分電路成本近十二倍降低。",
+      "analysis_en": "Formal verification is necessary because the circuits are too large for classical simulation or current hardware. The agent-team plus Lean setup compresses design work, but the reported speedups still await independent reproduction and hardware mapping.",
+      "analysis_zh": "正式驗證是必要的，因為電路太大無法古典模擬或在現有硬體上執行。代理團隊加Lean設定壓縮設計工作，但報告的加速仍待獨立重現與硬體映射。",
       "quote": "In a new paper, we used teams of Gemini 4 agents to improve well-known quantum algorithms, creating highly efficient quantum circuits.",
       "quote_zh": "在一篇新論文中，我們使用 Gemini 4 代理團隊改進已知量子演算法，創造出高度高效的量子電路。",
       "importance": 4,
       "first_seen": "2026-11-23T00:00:00Z",
-      "updated_at": "2026-11-26T04:35:01.741700+00:00",
+      "updated_at": "2026-11-26T10:35:01.819423+00:00",
       "links": [
         {
-          "label": "Google DeepMind Blog",
+          "label": "DeepMind blog",
           "url": "https://deepmind.google/blog/"
         },
         {
@@ -136,22 +210,103 @@
       ]
     },
     {
+      "id": "openai-gpt62-billing-fix-2026-11-26",
+      "story_id": "openai-gpt62-billing-fix-2026-11-26",
+      "category": "openai",
+      "source_type": "official_x",
+      "title_en": "OpenAI corrects GPT-6.2 billing undercount, accelerating ChatGPT and Codex limit hits",
+      "title_zh": "OpenAI修正GPT-6.2計費低估，加速ChatGPT與Codex用量上限觸及",
+      "summary_en": "OpenAI product lead Thibault Sottiaux stated the company fixed a launch billing error that undercounted GPT-6.2 Astra and Sol usage for most users. The same work now consumes more of the plan allowance, with limits reached about 40% faster on Astra and 25% faster on Sol versus last week. Past differences will not be charged, and users receive one banked reset.",
+      "summary_zh": "OpenAI產品負責人Thibault Sottiaux表示，公司修正了推出時的計費錯誤，該錯誤讓多數用戶的GPT-6.2 Astra與Sol用量被低估。同樣工作現在會消耗更多方案額度，相較上週，Astra上限約快40%觸及、Sol約快25%。過往差額不會收費，用戶將獲一次儲備重置。",
+      "analysis_en": "The correction raises effective costs for heavy users of the newest models without a price increase, testing retention as agentic workloads grow. It is unclear how many users will notice the change before the December shared-limit rollout.",
+      "analysis_zh": "這項修正在不調價的情況下提高最新模型重度用戶的實際成本，隨著代理工作負載增加將測試用戶留存。尚不清楚有多少用戶會在12月共用限制全面推出前注意到變化。",
+      "quote": "We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users. We’ve fixed this now, so the same work will use more of your plan’s usage allowance.",
+      "quote_zh": "我們在GPT-6.2推出時犯了計費錯誤，錯誤地給多數用戶的GPT-6.2 Astra與Sol用量打折。現在已修正，同樣工作將使用更多方案用量額度。",
+      "importance": 3,
+      "first_seen": "2026-11-26T02:50:10Z",
+      "updated_at": "2026-11-26T10:35:01.819423+00:00",
+      "links": [
+        {
+          "label": "Thibault Sottiaux on X",
+          "url": "https://x.com/thsottiaux/status/2125784147889393806"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-amodei-free-will-rebuttal-2026-11-25",
+      "story_id": "anthropic-amodei-free-will-rebuttal-2026-11-25",
+      "category": "anthropic",
+      "source_type": "official_x",
+      "title_en": "Dario Amodei calls claims he favors surrendering human free will to AI absurd",
+      "title_zh": "Dario Amodei稱他支持人類將自由意志交給AI的說法荒謬",
+      "summary_en": "Anthropic CEO Dario Amodei published a lengthy X post rejecting reports that he or Anthropic believes humans should surrender free will or governance to AI. He argued that legitimacy and self-determination must not be sacrificed for efficiency or security, drawing a parallel to arguments against autocracy, while distinguishing task automation from handing over governance.",
+      "summary_zh": "Anthropic執行長Dario Amodei在X發表長文，駁斥他或Anthropic認為人類應將自由意志或治理交給AI的報導。他主張合法性與自我決定不應為效率或安全而犧牲，並類比反專制論點，同時區分任務自動化與交出治理權。",
+      "analysis_en": "The post clarifies Amodei’s public position amid industry debate on AI control, but earlier statements on specific high-stakes automation leave room for interpretation on where the practical line should be drawn.",
+      "analysis_zh": "這篇貼文在業界關於AI控制的辯論中澄清Amodei的公開立場，但先前關於特定高風險自動化的言論，仍留下實際界線應畫在哪裡的詮釋空間。",
+      "quote": "No, I do not believe that we should “surrender human free will” to AI systems, and it’s absurd to suggest that I do.",
+      "quote_zh": "不，我不相信我們應該將「人類自由意志」交給AI系統，而暗示我有此想法是荒謬的。",
+      "importance": 3,
+      "first_seen": "2026-11-25T00:00:00Z",
+      "updated_at": "2026-11-26T10:35:01.819423+00:00",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
+        },
+        {
+          "label": "Axios",
+          "url": "https://www.axios.com/2026/11/25/anthropic-dario-amodei-ai-free-will-contro-axios"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-claude-duet-india-2026-11-25",
+      "story_id": "anthropic-claude-duet-india-2026-11-25",
+      "category": "anthropic",
+      "source_type": "product",
+      "title_en": "Anthropic expands Claude Duet proactive agent research preview to India",
+      "title_zh": "Anthropic將Claude Duet主動代理研究預覽擴展至印度",
+      "summary_en": "Anthropic made its Claude Duet proactive agent available in India on iOS, Android, and the web. Pro, Max, and Ultra users can join a waitlist; Team plans receive a public beta and Enterprise a private beta. The agent, powered by Claude Opus 5.5, runs on its own virtual machine and supports 35 languages including Hindi and other Indian languages.",
+      "summary_zh": "Anthropic讓Claude Duet主動代理在印度的iOS、Android與網頁上可用。Pro、Max與Ultra用戶可加入等候名單；Team方案獲公開beta，Enterprise獲私人beta。該代理由Claude Opus 5.5驅動，在自己的虛擬機器上運行，支援包括印地語等35種語言。",
+      "analysis_en": "Geographic expansion tests demand for always-on agents in a major market while keeping access tiered. Reliability of background task judgment and approval flows remains the main uncertainty for broader adoption.",
+      "analysis_zh": "地理擴展測試主要市場對始終在線代理的需求，同時保持分層存取。背景任務判斷與核准流程的可靠性，仍是更廣泛採用的主要不確定性。",
+      "quote": "",
+      "quote_zh": "",
+      "importance": 3,
+      "first_seen": "2026-11-25T00:00:00Z",
+      "updated_at": "2026-11-26T10:35:01.819423+00:00",
+      "links": [
+        {
+          "label": "Claude Duet product page",
+          "url": "https://claude.com/product/claude-duet"
+        },
+        {
+          "label": "India Today",
+          "url": "https://www.indiatoday.in/technology/news/story/anthropic-launches-claude-duet-in-india-it-works-for-you-even-when-you-are-not-in-office-3046799-2026-11-25"
+        }
+      ]
+    },
+    {
       "id": "google-mass-spec-skills-2026-11-25",
       "story_id": "google-mass-spec-skills-2026-11-25",
       "category": "google",
-      "source_type": "official_blog",
+      "source_type": "product",
       "title_en": "Google DeepMind releases Mass Spec Skills for identifying molecules in Antigravity",
-      "title_zh": "Google DeepMind 發布質譜技能，用於在 Antigravity 中識別分子",
-      "summary_en": "Google DeepMind launched Mass Spec Skills for Google Antigravity. The skills pair Gemini’s chemical reasoning with established mass-spectrometry tools and public databases so an agent can interpret tandem mass spectra and propose structures for chemist review. On 100 library spectra, models with the skills identified the exact molecule in about 97% of attempts.",
-      "summary_zh": "Google DeepMind 為 Google Antigravity 推出質譜技能。這些技能將 Gemini 的化學推理與既有質譜工具及公共資料庫配對，讓代理能解讀串聯質譜並提出結構供化學家審閱。在 100 個庫譜上，使用技能的模型約 97% 嘗試中識別出確切分子。",
-      "analysis_en": "Domain skills that wrap existing scientific tools raise identification accuracy dramatically for catalogued molecules and reduce token use. The approach still requires human review for novel compounds and isomers, so it accelerates rather than fully automates structure elucidation.",
-      "analysis_zh": "包裝既有科學工具的領域技能大幅提升已編目分子的識別準確度並減少 token 用量。對新穎化合物與異構體仍需人工審閱，因此是加速而非完全自動化結構闡明。",
+      "title_zh": "Google DeepMind發布Mass Spec Skills，用於在Antigravity中識別分子",
+      "summary_en": "Google DeepMind launched Mass Spec Skills for Google Antigravity. The skills pair Gemini’s chemical reasoning with established mass-spectrometry tools and public databases so an agent can interpret tandem mass spectra and propose structures for catalogued molecules.",
+      "summary_zh": "Google DeepMind為Google Antigravity推出Mass Spec Skills。這些技能將Gemini的化學推理與既有質譜工具及公開資料庫配對，讓代理能解讀串聯質譜並為已編目分子提出結構。",
+      "analysis_en": "Domain skills that wrap existing scientific tools raise identification accuracy dramatically for catalogued molecules and reduce token use. The approach still requires human review for novel compounds and depends on database coverage.",
+      "analysis_zh": "包裝既有科學工具的領域技能，大幅提升已編目分子的識別準確度並減少token用量。該方法對新穎化合物仍需人工審核，並依賴資料庫覆蓋範圍。",
       "quote": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra, lay out chemical evidence, and match frontier-level retrieval accuracy even with a lightweight model.",
       "quote_zh": "質譜技能讓使用 Google Antigravity 的科學家能解讀串聯質譜、列出化學證據，即使以輕量模型也能匹配前沿級檢索準確度。",
       "importance": 3,
       "first_seen": "2026-11-25T00:00:00Z",
-      "updated_at": "2026-11-26T04:35:01.741700+00:00",
+      "updated_at": "2026-11-26T10:35:01.819423+00:00",
       "links": [
+        {
+          "label": "DeepMind blog",
+          "url": "https://deepmind.google/blog/"
+        },
         {
           "label": "Google DeepMind Blog",
           "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/"
@@ -162,19 +317,23 @@
       "id": "meta-muse-uk-instagram-2026-11-24",
       "story_id": "meta-muse-uk-instagram-2026-11-24",
       "category": "meta",
-      "source_type": "official_blog",
+      "source_type": "product",
       "title_en": "Meta launches Muse personal AI agent in the UK and integrates it into Instagram DMs",
-      "title_zh": "Meta 在英國推出 Muse 個人 AI 代理，並整合進 Instagram 私訊",
-      "summary_en": "Meta made its Muse personal AI agent available to adults 18+ in the UK on iOS, Android, muse.ai and WhatsApp, with connectors to UK brands including Marks & Spencer, ASOS and easyJet. It asks for approval before sensitive actions. Separately, Muse is rolling into Instagram DMs in select markets so users can act on posts and catch up on missed chats.",
-      "summary_zh": "Meta 讓其 Muse 個人 AI 代理對英國 18 歲以上成人在 iOS、Android、muse.ai 與 WhatsApp 上可用，並連接英國品牌如 Marks & Spencer、ASOS 與 easyJet。敏感動作前會請求批准。此外，Muse 正滾動進入特定市場的 Instagram 私訊，讓使用者能對貼文採取行動並追趕錯過的對話。",
-      "analysis_en": "Expanding an agent that can take multi-step actions on connected services into new markets and a high-engagement surface like Instagram DMs tests user willingness to grant broader access. Default training-data settings and approval flows will determine trust and adoption outside the US.",
-      "analysis_zh": "將能在連接服務上執行多步驟動作的代理擴展至新市場與高互動介面如 Instagram 私訊，測試使用者是否願意授予更廣存取。預設訓練資料設定與批准流程將決定美國以外的信任與採用。",
+      "title_zh": "Meta在英國推出Muse個人AI代理並整合至Instagram私訊",
+      "summary_en": "Meta made its Muse personal AI agent available to adults 18+ in the UK on iOS, Android, muse.ai and WhatsApp, with connectors to UK brands including Marks & Spencer, ASOS and easyJet. It asks for approval before sensitive actions. The agent is also rolling out inside Instagram DMs in several countries.",
+      "summary_zh": "Meta讓Muse個人AI代理對英國18歲以上成人在iOS、Android、muse.ai與WhatsApp上可用，並連接Marks & Spencer、ASOS與easyJet等英國品牌。敏感動作前會請求核准。該代理也在數個國家的Instagram私訊中推出。",
+      "analysis_en": "Expanding an agent that can take multi-step actions on connected services into new markets and a high-engagement surface like Instagram DMs tests user willingness to grant broader permissions and brand trust in automated shopping flows.",
+      "analysis_zh": "將可在連接服務上採取多步驟行動的代理擴展至新市場與Instagram私訊等高互動表面，測試用戶授予更廣權限的意願，以及品牌對自動化購物流程的信任。",
       "quote": "Muse is now in the UK: a personal AI agent that doesn’t just answer questions, but one that you can task to get things done on your behalf.",
       "quote_zh": "Muse 現已在英國推出：一個個人 AI 代理，不只回答問題，而是你可任務它代表你完成事情。",
       "importance": 3,
       "first_seen": "2026-11-23T00:00:00Z",
-      "updated_at": "2026-11-26T04:35:01.741700+00:00",
+      "updated_at": "2026-11-26T10:35:01.819423+00:00",
       "links": [
+        {
+          "label": "Meta / coverage",
+          "url": "https://www.siliconreport.com/labs"
+        },
         {
           "label": "Meta Newsroom",
           "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/"
@@ -189,21 +348,21 @@
       "id": "anthropic-skills-over-mcp-2026-11-24",
       "story_id": "anthropic-skills-over-mcp-2026-11-24",
       "category": "anthropic",
-      "source_type": "official_blog",
+      "source_type": "product",
       "title_en": "Anthropic opens Skills over MCP public beta and makes Tasks and Elicitation generally available",
-      "title_zh": "Anthropic 開放 Skills over MCP 公開測試版，並將 Tasks 與 Elicitation 一般可用",
-      "summary_en": "Anthropic announced that MCP servers can now ship skills alongside tools in public beta in Claude and Claude Code. Skills load only when needed and update with the server. Tasks (background long-running work) and Elicitation (mid-call user input) are now generally available on Pro, Max and Ultra plans.",
-      "summary_zh": "Anthropic 宣布 MCP 伺服器現可在 Claude 與 Claude Code 的公開測試版中，與工具一併運送技能。技能僅在需要時載入並隨伺服器更新。Tasks（背景長時間工作）與 Elicitation（呼叫中使用者輸入）現在 Pro、Max 與 Ultra 方案上一般可用。",
-      "analysis_en": "Shipping procedural knowledge with tools reduces context overhead and makes agents more reliable for multi-step enterprise workflows. Whether other clients adopt the same Skills extension will decide if the pattern becomes a de-facto standard.",
-      "analysis_zh": "與工具一併運送程序知識可減少上下文開銷，並使代理在多步驟企業工作流程中更可靠。其他客戶端是否採用相同 Skills 擴展，將決定該模式是否成為事實上的標準。",
+      "title_zh": "Anthropic開放Skills over MCP公開beta，並將Tasks與Elicitation全面可用",
+      "summary_en": "Anthropic announced that MCP servers can now ship skills alongside tools in public beta in Claude and Claude Code. Skills load only when needed and update with the server. Tasks (background long-running work) and Elicitation (mid-call user approval) are now generally available.",
+      "summary_zh": "Anthropic宣布，MCP伺服器現可在Claude與Claude Code的公開beta中，與工具一起運送skills。Skills僅在需要時載入，並隨伺服器更新。Tasks（背景長時間工作）與Elicitation（呼叫中用戶核准）現已全面可用。",
+      "analysis_en": "Shipping procedural knowledge with tools reduces context overhead and makes agents more reliable for multi-step enterprise workflows. Whether other clients adopt the same Skills extension will determine how portable the benefit becomes.",
+      "analysis_zh": "將程序知識與工具一起運送，降低上下文開銷並使代理在多步驟企業工作流程中更可靠。其他客戶端是否採用相同Skills擴充，將決定此好處的可攜程度。",
       "quote": "Skills over MCP is now in public beta in Claude, so MCP servers can ship skills alongside their tools. We're also giving servers ways to handle longer, more interactive work with Claude: Tasks and Elicitation are now generally available, and File Uploads is rolling out soon.",
       "quote_zh": "Skills over MCP 現已在 Claude 公開測試，因此 MCP 伺服器可與工具一起發布技能。我們也讓伺服器能處理更長、更具互動性的工作：Tasks 與 Elicitation 現已正式推出，File Uploads 即將推出。",
       "importance": 3,
       "first_seen": "2026-11-24T00:00:00Z",
-      "updated_at": "2026-11-26T04:35:01.741700+00:00",
+      "updated_at": "2026-11-26T10:35:01.819423+00:00",
       "links": [
         {
-          "label": "Anthropic / Claude",
+          "label": "Anthropic announcements",
           "url": "https://www.anthropic.com/news"
         },
         {
@@ -216,21 +375,21 @@
       "id": "anthropic-enterprise-frontier-safeguards-beta-2026-11-23",
       "story_id": "anthropic-enterprise-frontier-safeguards-beta-2026-11-23",
       "category": "anthropic",
-      "source_type": "official_blog",
+      "source_type": "product",
       "title_en": "Anthropic opens Enterprise Frontier Safeguards public beta for zero-data-retention misuse detection",
-      "title_zh": "Anthropic 開放 Enterprise Frontier Safeguards 公開測試版，用於零資料保留的誤用偵測",
-      "summary_en": "Anthropic opened a public beta of Enterprise Frontier Safeguards (EFS). It lets customers store conversation data in their own cloud (with their encryption keys) while automated systems scan for cross-request misuse patterns that single-request classifiers miss.",
-      "summary_zh": "Anthropic 開放 Enterprise Frontier Safeguards（EFS）公開測試版。它讓客戶將對話資料儲存在自己的雲端（使用自己的加密金鑰），同時自動化系統掃描單次請求分類器會錯過的跨請求誤用模式。",
-      "analysis_en": "EFS addresses a real enterprise tension between zero data retention and the need to detect multi-step agent misuse. Whether the sealed-data model scales operationally and satisfies compliance teams is still open.",
-      "analysis_zh": "EFS 處理企業在零資料保留與偵測多步驟代理誤用需求間的真實張力。密封資料模型是否在營運上可擴展並滿足合規團隊，仍待觀察。",
+      "title_zh": "Anthropic開放Enterprise Frontier Safeguards公開beta，用於零資料保留的濫用偵測",
+      "summary_en": "Anthropic opened a public beta of Enterprise Frontier Safeguards (EFS). It lets customers store conversation data in their own cloud (with their encryption keys) while automated systems scan for cross-request misuse patterns that single-request filters miss.",
+      "summary_zh": "Anthropic開放Enterprise Frontier Safeguards (EFS)公開beta。它讓客戶將對話資料儲存在自己的雲端（使用自己的加密金鑰），同時自動化系統掃描單次請求過濾器會遺漏的跨請求濫用模式。",
+      "analysis_en": "EFS addresses a real enterprise tension between zero data retention and the need to detect multi-step agent misuse. Whether the sealed-data model scales operationally and satisfies auditors remains the open question.",
+      "analysis_zh": "EFS解決企業在零資料保留與偵測多步驟代理濫用需求之間的真實張力。密封資料模型是否能在營運上擴展並滿足稽核者，仍是開放問題。",
       "quote": "With EFS, customers can keep sensitive data in their own environments, protected with their own encryption keys, while still preserving the specialized safety mechanisms frontier capabilities require.",
       "quote_zh": "透過 EFS，客戶可將敏感資料保留在自己的環境中，以自己的加密金鑰保護，同時仍保有前沿能力所需的專門安全機制。",
       "importance": 3,
       "first_seen": "2026-11-23T00:00:00Z",
-      "updated_at": "2026-11-26T04:35:01.741700+00:00",
+      "updated_at": "2026-11-26T10:35:01.819423+00:00",
       "links": [
         {
-          "label": "Anthropic News",
+          "label": "Anthropic news",
           "url": "https://www.anthropic.com/news"
         },
         {
@@ -251,25 +410,106 @@
   "categories": {
     "openai": [
       {
+        "id": "openai-chatgpt-chat-work-shared-limits-2026-11-25",
+        "story_id": "openai-chatgpt-chat-work-shared-limits-2026-11-25",
+        "category": "openai",
+        "source_type": "official_x",
+        "title_en": "OpenAI starts limited rollout of merged Chat and Work with shared usage limits",
+        "title_zh": "OpenAI開始限量推出合併的Chat與Work並採用共用用量限制",
+        "summary_en": "OpenAI began rolling out a combined Chat and Work experience to a small group of Pro subscribers, as announced by product lead Thibault Sottiaux. Chat and Work will share one usage meter; Instant remains unlimited and does not count. Shared limits for Plus, Pro, and Business plans are planned more broadly in December, also covering Codex.",
+        "summary_zh": "OpenAI開始向一小群Pro訂閱者推出合併的Chat與Work體驗，由產品負責人Thibault Sottiaux宣布。Chat與Work將共用一個用量計；Instant仍無限且不計入。Plus、Pro與Business方案的共用限制計劃於12月更廣泛推出，也涵蓋Codex。",
+        "analysis_en": "Unifying the interface simplifies agentic workflows but the shared meter may reduce practical capacity for users who previously treated Chat and Work as separate pools. Early feedback will determine whether the December rollout needs adjustments.",
+        "analysis_zh": "統一介面簡化代理工作流程，但共用計量可能降低先前將Chat與Work視為分開額度的用戶實際容量。早期回饋將決定12月推出是否需要調整。",
+        "quote": "We’re beginning to roll out the combined Chat and Work experience to a small group of Pro users to learn from feedback before we roll out more broadly.",
+        "quote_zh": "我們開始向一小群Pro用戶推出合併的Chat與Work體驗，以收集回饋後再更廣泛推出。",
+        "importance": 4,
+        "first_seen": "2026-11-24T17:46:13Z",
+        "updated_at": "2026-11-26T10:35:01.819423+00:00",
+        "links": [
+          {
+            "label": "Thibault Sottiaux on X",
+            "url": "https://x.com/thsottiaux/status/2125284868414394550"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+          }
+        ]
+      },
+      {
+        "id": "openai-private-inference-alpha-2026-11-25",
+        "story_id": "openai-private-inference-alpha-2026-11-25",
+        "category": "openai",
+        "source_type": "official_x",
+        "title_en": "OpenAI begins alpha testing of Private Inference with select business customers",
+        "title_zh": "OpenAI開始與精選商業客戶進行Private Inference alpha測試",
+        "summary_en": "Sam Altman announced that OpenAI is testing Private Inference, part of OpenAI Private Intelligence, with a small group of customers. It uses confidential computing and strict controls to protect prompts and responses during model processing. Zero Data Retention with Private Safety Processing already enables automated safety reviews without OpenAI personnel accessing underlying content.",
+        "summary_zh": "Sam Altman宣布，OpenAI正與一小群客戶測試Private Inference，屬於OpenAI Private Intelligence的一部分。它使用機密計算與嚴格控制，在模型處理期間保護提示與回應。Zero Data Retention配合Private Safety Processing已可進行自動化安全審查，且OpenAI人員無法存取底層內容。",
+        "analysis_en": "Processing-time privacy addresses a remaining exposure for regulated enterprises after retention controls. Broader availability still depends on confidential-compute capacity and independent verification of the claimed protections.",
+        "analysis_zh": "處理時隱私補上保留控制後，受監管企業仍存的曝險。更廣泛可用性仍取決於機密計算容量與對聲稱保護的獨立驗證。",
+        "quote": "We’re now testing Private Inference, our latest offering as part of OpenAI Private Intelligence, with a small group of customers.",
+        "quote_zh": "我們現在正與一小群客戶測試Private Inference，這是OpenAI Private Intelligence的最新產品。",
+        "importance": 4,
+        "first_seen": "2026-11-25T17:12:34Z",
+        "updated_at": "2026-11-26T10:35:01.819423+00:00",
+        "links": [
+          {
+            "label": "Sam Altman on X",
+            "url": "https://x.com/sama/status/2125638790593274259"
+          },
+          {
+            "label": "OpenAI Private Intelligence page",
+            "url": "https://openai.com/business/private-intelligence/"
+          }
+        ]
+      },
+      {
         "id": "openai-gpt6-protein-design-2026-11-24",
         "story_id": "openai-gpt6-protein-design-2026-11-24",
         "category": "openai",
-        "source_type": "official_blog",
+        "source_type": "paper",
         "title_en": "OpenAI reports GPT-6 models can design proteins using reasoning and code, with lab binding results",
-        "title_zh": "OpenAI 報告 GPT-6 模型可僅用推理與程式碼設計蛋白質，並有實驗室結合結果",
-        "summary_en": "OpenAI published that its GPT-6 family can design new protein structures and sequences using only reasoning and general-purpose code, without specialized biology models for the design step. In wet-lab tests with Onava, 35 of 322 minibinders (10.9%) showed binding across five targets; specialized models still supplied sequences and filtered candidates.",
-        "summary_zh": "OpenAI 發表其 GPT-6 系列可僅用推理與通用程式碼設計新蛋白質結構與序列，設計步驟無需專門生物模型。與 Onava 的濕實驗室測試中，322 個迷你結合體有 35 個（10.9%）對五個標靶顯示結合；專門模型仍提供序列並過濾候選。",
-        "analysis_en": "The preprint provides early evidence that general models can contribute to protein design pipelines and accept natural-language constraints, but the 10.9% hit rate and continued reliance on specialized tools for sequencing and selection mean this is a proof of principle rather than a replacement for domain-specific systems.",
-        "analysis_zh": "預印本提供早期證據，顯示通用模型可貢獻於蛋白質設計流程並接受自然語言限制，但 10.9% 的命中率及持續依賴專門工具進行序列與篩選，意味這是原理驗證而非取代領域特定系統。",
+        "title_zh": "OpenAI報告GPT-6模型可用推理與程式碼設計蛋白質，並有實驗室結合結果",
+        "summary_en": "OpenAI published that its GPT-6 family can design new protein structures and sequences using only reasoning and general-purpose code, without specialized biology models for the design step. In wet-lab tests with Onava, 35 of 322 minibinders designed by GPT-6.2 showed evidence of binding across five targets.",
+        "summary_zh": "OpenAI發表其GPT-6系列可僅用推理與通用程式碼設計新蛋白質結構與序列，設計步驟不需專用生物學模型。與Onava的濕實驗室測試中，GPT-6.2設計的322個minibinders中有35個對五個目標顯示結合證據。",
+        "analysis_en": "The preprint provides early evidence that general models can contribute to protein design pipelines and accept natural-language constraints, but the roughly 11% hit rate and continued reliance on specialized models for sequencing leave the practical advantage still limited.",
+        "analysis_zh": "預印本提供早期證據，顯示通用模型可貢獻蛋白質設計流程並接受自然語言約束，但約11%的命中率與序列生成仍依賴專用模型，實用優勢仍有限。",
         "quote": "Our GPT-6 family of models can design new protein shapes and the sequence of their chemical building blocks using only reasoning and code, without calling specialized biology models to generate those designs.",
         "quote_zh": "我們的 GPT-6 系列模型可僅用推理與程式碼設計新蛋白質形狀及其化學構建塊序列，無需呼叫專門生物模型來生成這些設計。",
         "importance": 4,
         "first_seen": "2026-11-24T00:00:00Z",
-        "updated_at": "2026-11-26T04:35:01.741700+00:00",
+        "updated_at": "2026-11-26T10:35:01.819423+00:00",
         "links": [
+          {
+            "label": "OpenAI research (via coverage)",
+            "url": "https://ai.info/daily/2026-11-26"
+          },
           {
             "label": "OpenAI Blog",
             "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+          }
+        ]
+      },
+      {
+        "id": "openai-gpt62-billing-fix-2026-11-26",
+        "story_id": "openai-gpt62-billing-fix-2026-11-26",
+        "category": "openai",
+        "source_type": "official_x",
+        "title_en": "OpenAI corrects GPT-6.2 billing undercount, accelerating ChatGPT and Codex limit hits",
+        "title_zh": "OpenAI修正GPT-6.2計費低估，加速ChatGPT與Codex用量上限觸及",
+        "summary_en": "OpenAI product lead Thibault Sottiaux stated the company fixed a launch billing error that undercounted GPT-6.2 Astra and Sol usage for most users. The same work now consumes more of the plan allowance, with limits reached about 40% faster on Astra and 25% faster on Sol versus last week. Past differences will not be charged, and users receive one banked reset.",
+        "summary_zh": "OpenAI產品負責人Thibault Sottiaux表示，公司修正了推出時的計費錯誤，該錯誤讓多數用戶的GPT-6.2 Astra與Sol用量被低估。同樣工作現在會消耗更多方案額度，相較上週，Astra上限約快40%觸及、Sol約快25%。過往差額不會收費，用戶將獲一次儲備重置。",
+        "analysis_en": "The correction raises effective costs for heavy users of the newest models without a price increase, testing retention as agentic workloads grow. It is unclear how many users will notice the change before the December shared-limit rollout.",
+        "analysis_zh": "這項修正在不調價的情況下提高最新模型重度用戶的實際成本，隨著代理工作負載增加將測試用戶留存。尚不清楚有多少用戶會在12月共用限制全面推出前注意到變化。",
+        "quote": "We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users. We’ve fixed this now, so the same work will use more of your plan’s usage allowance.",
+        "quote_zh": "我們在GPT-6.2推出時犯了計費錯誤，錯誤地給多數用戶的GPT-6.2 Astra與Sol用量打折。現在已修正，同樣工作將使用更多方案用量額度。",
+        "importance": 3,
+        "first_seen": "2026-11-26T02:50:10Z",
+        "updated_at": "2026-11-26T10:35:01.819423+00:00",
+        "links": [
+          {
+            "label": "Thibault Sottiaux on X",
+            "url": "https://x.com/thsottiaux/status/2125784147889393806"
           }
         ]
       }
@@ -281,17 +521,21 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic migrates Messages API from Python to Rust with Claude agents for verification",
-        "title_zh": "Anthropic 以 Claude 代理驗證，將 Messages API 從 Python 遷移至 Rust",
-        "summary_en": "Anthropic published how it rewrote its core Messages API in Rust. Claude wrote much of the code while the production Python service served as an oracle for shadowing and checkpointing differences. The new version uses about 70% less CPU per request and cuts median time to first token by about 20%, without taking the service offline.",
-        "summary_zh": "Anthropic 發表如何將核心 Messages API 以 Rust 重寫。Claude 撰寫大部分程式碼，生產環境的 Python 服務作為預言機進行影子比對與檢查點差異。新版本每請求 CPU 約減少 70%，中位元首次 token 時間約縮短 20%，且服務未下線。",
-        "analysis_en": "This shows frontier models can now handle high-stakes production migrations where verification, not generation, is the bottleneck. The privacy-preserving shadowing approach (comparing shapes and fingerprints without reading user content) offers a template for other live-system rewrites, though long-term parity under continuous feature changes remains to be proven at scale.",
-        "analysis_zh": "這顯示前沿模型現可處理高風險生產遷移，瓶頸在驗證而非生成。隱私保護的影子比對（比對形狀與指紋而不讀取使用者內容）為其他即時系統重寫提供範本，但持續功能變更下的長期一致性仍待大規模驗證。",
+        "title_zh": "Anthropic以Claude代理驗證，將Messages API從Python遷移至Rust",
+        "summary_en": "Anthropic published how it rewrote its core Messages API in Rust. Claude wrote much of the code while the production Python service served as an oracle for shadowing and checkpointing differences. The new version uses about 70% less CPU per request and has a 20% shorter median time to first token.",
+        "summary_zh": "Anthropic發表如何將核心Messages API以Rust重寫。Claude撰寫大部分程式碼，而正式環境的Python服務作為對照，用於影子測試與檢查點差異。新版本每請求CPU用量約少70%，中位首次回應token時間縮短20%。",
+        "analysis_en": "This shows frontier models can now handle high-stakes production migrations where verification, not generation, is the bottleneck. The privacy-preserving shadowing approach compresses engineering effort, but long-term maintainability of agent-written code remains unproven.",
+        "analysis_zh": "這顯示前沿模型現已能處理高風險生產遷移，瓶頸在驗證而非生成。隱私保護的影子測試方法壓縮工程努力，但代理撰寫程式碼的長期可維護性仍未證明。",
         "quote": "We ship an API on Rust that uses about 70% less CPU per request and cuts median time to first token by about 20% without ever taking the service offline or freezing feature development.",
         "quote_zh": "我們交付以 Rust 運行的 API，每請求 CPU 約減少 70%，中位元首次 token 時間約縮短 20%，且從未讓服務下線或凍結功能開發。",
         "importance": 4,
         "first_seen": "2026-11-25T16:26:59Z",
-        "updated_at": "2026-11-26T04:35:01.741700+00:00",
+        "updated_at": "2026-11-26T10:35:01.819423+00:00",
         "links": [
+          {
+            "label": "Anthropic engineering post (referenced in coverage)",
+            "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-26-2026/"
+          },
           {
             "label": "Anthropic Engineering Blog",
             "url": "https://www.anthropic.com/research/migrating-api-to-rust"
@@ -303,24 +547,78 @@
         ]
       },
       {
+        "id": "anthropic-amodei-free-will-rebuttal-2026-11-25",
+        "story_id": "anthropic-amodei-free-will-rebuttal-2026-11-25",
+        "category": "anthropic",
+        "source_type": "official_x",
+        "title_en": "Dario Amodei calls claims he favors surrendering human free will to AI absurd",
+        "title_zh": "Dario Amodei稱他支持人類將自由意志交給AI的說法荒謬",
+        "summary_en": "Anthropic CEO Dario Amodei published a lengthy X post rejecting reports that he or Anthropic believes humans should surrender free will or governance to AI. He argued that legitimacy and self-determination must not be sacrificed for efficiency or security, drawing a parallel to arguments against autocracy, while distinguishing task automation from handing over governance.",
+        "summary_zh": "Anthropic執行長Dario Amodei在X發表長文，駁斥他或Anthropic認為人類應將自由意志或治理交給AI的報導。他主張合法性與自我決定不應為效率或安全而犧牲，並類比反專制論點，同時區分任務自動化與交出治理權。",
+        "analysis_en": "The post clarifies Amodei’s public position amid industry debate on AI control, but earlier statements on specific high-stakes automation leave room for interpretation on where the practical line should be drawn.",
+        "analysis_zh": "這篇貼文在業界關於AI控制的辯論中澄清Amodei的公開立場，但先前關於特定高風險自動化的言論，仍留下實際界線應畫在哪裡的詮釋空間。",
+        "quote": "No, I do not believe that we should “surrender human free will” to AI systems, and it’s absurd to suggest that I do.",
+        "quote_zh": "不，我不相信我們應該將「人類自由意志」交給AI系統，而暗示我有此想法是荒謬的。",
+        "importance": 3,
+        "first_seen": "2026-11-25T00:00:00Z",
+        "updated_at": "2026-11-26T10:35:01.819423+00:00",
+        "links": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
+          },
+          {
+            "label": "Axios",
+            "url": "https://www.axios.com/2026/11/25/anthropic-dario-amodei-ai-free-will-contro-axios"
+          }
+        ]
+      },
+      {
+        "id": "anthropic-claude-duet-india-2026-11-25",
+        "story_id": "anthropic-claude-duet-india-2026-11-25",
+        "category": "anthropic",
+        "source_type": "product",
+        "title_en": "Anthropic expands Claude Duet proactive agent research preview to India",
+        "title_zh": "Anthropic將Claude Duet主動代理研究預覽擴展至印度",
+        "summary_en": "Anthropic made its Claude Duet proactive agent available in India on iOS, Android, and the web. Pro, Max, and Ultra users can join a waitlist; Team plans receive a public beta and Enterprise a private beta. The agent, powered by Claude Opus 5.5, runs on its own virtual machine and supports 35 languages including Hindi and other Indian languages.",
+        "summary_zh": "Anthropic讓Claude Duet主動代理在印度的iOS、Android與網頁上可用。Pro、Max與Ultra用戶可加入等候名單；Team方案獲公開beta，Enterprise獲私人beta。該代理由Claude Opus 5.5驅動，在自己的虛擬機器上運行，支援包括印地語等35種語言。",
+        "analysis_en": "Geographic expansion tests demand for always-on agents in a major market while keeping access tiered. Reliability of background task judgment and approval flows remains the main uncertainty for broader adoption.",
+        "analysis_zh": "地理擴展測試主要市場對始終在線代理的需求，同時保持分層存取。背景任務判斷與核准流程的可靠性，仍是更廣泛採用的主要不確定性。",
+        "quote": "",
+        "quote_zh": "",
+        "importance": 3,
+        "first_seen": "2026-11-25T00:00:00Z",
+        "updated_at": "2026-11-26T10:35:01.819423+00:00",
+        "links": [
+          {
+            "label": "Claude Duet product page",
+            "url": "https://claude.com/product/claude-duet"
+          },
+          {
+            "label": "India Today",
+            "url": "https://www.indiatoday.in/technology/news/story/anthropic-launches-claude-duet-in-india-it-works-for-you-even-when-you-are-not-in-office-3046799-2026-11-25"
+          }
+        ]
+      },
+      {
         "id": "anthropic-skills-over-mcp-2026-11-24",
         "story_id": "anthropic-skills-over-mcp-2026-11-24",
         "category": "anthropic",
-        "source_type": "official_blog",
+        "source_type": "product",
         "title_en": "Anthropic opens Skills over MCP public beta and makes Tasks and Elicitation generally available",
-        "title_zh": "Anthropic 開放 Skills over MCP 公開測試版，並將 Tasks 與 Elicitation 一般可用",
-        "summary_en": "Anthropic announced that MCP servers can now ship skills alongside tools in public beta in Claude and Claude Code. Skills load only when needed and update with the server. Tasks (background long-running work) and Elicitation (mid-call user input) are now generally available on Pro, Max and Ultra plans.",
-        "summary_zh": "Anthropic 宣布 MCP 伺服器現可在 Claude 與 Claude Code 的公開測試版中，與工具一併運送技能。技能僅在需要時載入並隨伺服器更新。Tasks（背景長時間工作）與 Elicitation（呼叫中使用者輸入）現在 Pro、Max 與 Ultra 方案上一般可用。",
-        "analysis_en": "Shipping procedural knowledge with tools reduces context overhead and makes agents more reliable for multi-step enterprise workflows. Whether other clients adopt the same Skills extension will decide if the pattern becomes a de-facto standard.",
-        "analysis_zh": "與工具一併運送程序知識可減少上下文開銷，並使代理在多步驟企業工作流程中更可靠。其他客戶端是否採用相同 Skills 擴展，將決定該模式是否成為事實上的標準。",
+        "title_zh": "Anthropic開放Skills over MCP公開beta，並將Tasks與Elicitation全面可用",
+        "summary_en": "Anthropic announced that MCP servers can now ship skills alongside tools in public beta in Claude and Claude Code. Skills load only when needed and update with the server. Tasks (background long-running work) and Elicitation (mid-call user approval) are now generally available.",
+        "summary_zh": "Anthropic宣布，MCP伺服器現可在Claude與Claude Code的公開beta中，與工具一起運送skills。Skills僅在需要時載入，並隨伺服器更新。Tasks（背景長時間工作）與Elicitation（呼叫中用戶核准）現已全面可用。",
+        "analysis_en": "Shipping procedural knowledge with tools reduces context overhead and makes agents more reliable for multi-step enterprise workflows. Whether other clients adopt the same Skills extension will determine how portable the benefit becomes.",
+        "analysis_zh": "將程序知識與工具一起運送，降低上下文開銷並使代理在多步驟企業工作流程中更可靠。其他客戶端是否採用相同Skills擴充，將決定此好處的可攜程度。",
         "quote": "Skills over MCP is now in public beta in Claude, so MCP servers can ship skills alongside their tools. We're also giving servers ways to handle longer, more interactive work with Claude: Tasks and Elicitation are now generally available, and File Uploads is rolling out soon.",
         "quote_zh": "Skills over MCP 現已在 Claude 公開測試，因此 MCP 伺服器可與工具一起發布技能。我們也讓伺服器能處理更長、更具互動性的工作：Tasks 與 Elicitation 現已正式推出，File Uploads 即將推出。",
         "importance": 3,
         "first_seen": "2026-11-24T00:00:00Z",
-        "updated_at": "2026-11-26T04:35:01.741700+00:00",
+        "updated_at": "2026-11-26T10:35:01.819423+00:00",
         "links": [
           {
-            "label": "Anthropic / Claude",
+            "label": "Anthropic announcements",
             "url": "https://www.anthropic.com/news"
           },
           {
@@ -333,21 +631,21 @@
         "id": "anthropic-enterprise-frontier-safeguards-beta-2026-11-23",
         "story_id": "anthropic-enterprise-frontier-safeguards-beta-2026-11-23",
         "category": "anthropic",
-        "source_type": "official_blog",
+        "source_type": "product",
         "title_en": "Anthropic opens Enterprise Frontier Safeguards public beta for zero-data-retention misuse detection",
-        "title_zh": "Anthropic 開放 Enterprise Frontier Safeguards 公開測試版，用於零資料保留的誤用偵測",
-        "summary_en": "Anthropic opened a public beta of Enterprise Frontier Safeguards (EFS). It lets customers store conversation data in their own cloud (with their encryption keys) while automated systems scan for cross-request misuse patterns that single-request classifiers miss.",
-        "summary_zh": "Anthropic 開放 Enterprise Frontier Safeguards（EFS）公開測試版。它讓客戶將對話資料儲存在自己的雲端（使用自己的加密金鑰），同時自動化系統掃描單次請求分類器會錯過的跨請求誤用模式。",
-        "analysis_en": "EFS addresses a real enterprise tension between zero data retention and the need to detect multi-step agent misuse. Whether the sealed-data model scales operationally and satisfies compliance teams is still open.",
-        "analysis_zh": "EFS 處理企業在零資料保留與偵測多步驟代理誤用需求間的真實張力。密封資料模型是否在營運上可擴展並滿足合規團隊，仍待觀察。",
+        "title_zh": "Anthropic開放Enterprise Frontier Safeguards公開beta，用於零資料保留的濫用偵測",
+        "summary_en": "Anthropic opened a public beta of Enterprise Frontier Safeguards (EFS). It lets customers store conversation data in their own cloud (with their encryption keys) while automated systems scan for cross-request misuse patterns that single-request filters miss.",
+        "summary_zh": "Anthropic開放Enterprise Frontier Safeguards (EFS)公開beta。它讓客戶將對話資料儲存在自己的雲端（使用自己的加密金鑰），同時自動化系統掃描單次請求過濾器會遺漏的跨請求濫用模式。",
+        "analysis_en": "EFS addresses a real enterprise tension between zero data retention and the need to detect multi-step agent misuse. Whether the sealed-data model scales operationally and satisfies auditors remains the open question.",
+        "analysis_zh": "EFS解決企業在零資料保留與偵測多步驟代理濫用需求之間的真實張力。密封資料模型是否能在營運上擴展並滿足稽核者，仍是開放問題。",
         "quote": "With EFS, customers can keep sensitive data in their own environments, protected with their own encryption keys, while still preserving the specialized safety mechanisms frontier capabilities require.",
         "quote_zh": "透過 EFS，客戶可將敏感資料保留在自己的環境中，以自己的加密金鑰保護，同時仍保有前沿能力所需的專門安全機制。",
         "importance": 3,
         "first_seen": "2026-11-23T00:00:00Z",
-        "updated_at": "2026-11-26T04:35:01.741700+00:00",
+        "updated_at": "2026-11-26T10:35:01.819423+00:00",
         "links": [
           {
-            "label": "Anthropic News",
+            "label": "Anthropic news",
             "url": "https://www.anthropic.com/news"
           },
           {
@@ -370,19 +668,23 @@
         "id": "google-humanitys-first-exam-2026-11-24",
         "story_id": "google-humanitys-first-exam-2026-11-24",
         "category": "google",
-        "source_type": "official_blog",
+        "source_type": "product",
         "title_en": "Google DeepMind launches Humanity’s First Exam to test LLM reliability on everyday tasks",
-        "title_zh": "Google DeepMind 推出 Humanity’s First Exam 測試 LLM 在日常任務上的可靠性",
-        "summary_en": "Google DeepMind launched the Humanity’s First Exam (HFE) benchmark on Kaggle with 544 elementary text and image prompts across 20 capabilities. It measures whether models answer straightforward questions and slight variations correctly every time, rather than capability ceilings. A three-week community competition collects more failing everyday questions through December 15.",
-        "summary_zh": "Google DeepMind 在 Kaggle 推出 Humanity’s First Exam（HFE）基準，包含 544 個跨 20 項能力的基本文字與圖像提示。它測量模型是否每次都能正確回答直觀問題及其輕微變體，而非能力天花板。三週社群競賽收集更多模型失敗的日常問題，至 12 月 15 日。",
-        "analysis_en": "By focusing on the reliability floor instead of capability ceilings, HFE highlights a practical gap for automation: top models score high once but inconsistently on related variants. Whether the metric correlates with real-world agent failure rates will determine its long-term value.",
-        "analysis_zh": "透過聚焦可靠性底線而非能力天花板，HFE 凸顯自動化的實際缺口：頂尖模型單次得分高，但在相關變體上不一致。該指標是否與真實世界代理失敗率相關，將決定其長期價值。",
+        "title_zh": "Google DeepMind推出Humanity’s First Exam，測試LLM在日常任務上的可靠性",
+        "summary_en": "Google DeepMind launched the Humanity’s First Exam (HFE) benchmark on Kaggle with 544 elementary text and image prompts across 20 capabilities. It measures whether models answer straightforward questions and slight variations correctly every time rather than once.",
+        "summary_zh": "Google DeepMind在Kaggle推出Humanity’s First Exam (HFE)基準，含544個涵蓋20項能力的初級文字與圖像提示。它衡量模型是否每次都能正確回答直截了當的問題及其輕微變體，而非僅一次。",
+        "analysis_en": "By focusing on the reliability floor instead of capability ceilings, HFE highlights a practical gap for automation: top models score high once but inconsistently on related variants.",
+        "analysis_zh": "透過聚焦可靠性下限而非能力上限，HFE凸顯自動化的實務缺口：頂尖模型單次得分高，但在相關變體上不一致。",
         "quote": "Instead of focusing on whether a model is capable of solving a task once, HFE measures whether models can consistently solve tasks (and slight variations) every single time.",
         "quote_zh": "HFE 不聚焦模型是否能單次解決任務，而是測量模型是否能每次一致地解決任務（及輕微變體）。",
         "importance": 4,
         "first_seen": "2026-11-24T00:00:00Z",
-        "updated_at": "2026-11-26T04:35:01.741700+00:00",
+        "updated_at": "2026-11-26T10:35:01.819423+00:00",
         "links": [
+          {
+            "label": "DeepMind / Kaggle (via coverage)",
+            "url": "https://deepmind.google/blog/"
+          },
           {
             "label": "Google DeepMind / Blog",
             "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/"
@@ -397,21 +699,21 @@
         "id": "google-quantum-algorithms-agents-lean-2026-11-23",
         "story_id": "google-quantum-algorithms-agents-lean-2026-11-23",
         "category": "google",
-        "source_type": "official_blog",
+        "source_type": "paper",
         "title_en": "Google DeepMind uses Gemini 4 agent teams to optimize quantum algorithms and prove them in Lean",
-        "title_zh": "Google DeepMind 使用 Gemini 4 代理團隊優化量子演算法並以 Lean 證明",
-        "summary_en": "Google DeepMind and Google Quantum AI reported that teams of Gemini 4 agents found more efficient quantum circuits for fusion, photochemistry, drug metabolism, Grover search, and arcsin. Every result was formally verified in Lean. Reported gains include an 11.8× reduction in a combined qubit-and-operation cost for a fusion circuit.",
-        "summary_zh": "Google DeepMind 與 Google Quantum AI 報告，Gemini 4 代理團隊為融合、光化學、藥物代謝、Grover 搜尋與 arcsin 找到更高效的量子電路。每個結果皆以 Lean 正式驗證。報告增益包括融合電路的合併量子位與操作成本降低 11.8 倍。",
-        "analysis_en": "Formal verification is necessary because the circuits are too large for classical simulation or current hardware. The agent-team plus Lean setup compresses design work, but the reported speed-ups are for specific problem instances and have not yet been run on quantum hardware.",
-        "analysis_zh": "形式驗證是必要的，因為電路太大無法進行經典模擬或當前硬體運行。代理團隊加 Lean 的設定壓縮設計工作，但報告的加速是針對特定問題實例，尚未在量子硬體上運行。",
+        "title_zh": "Google DeepMind以Gemini 4代理團隊優化量子演算法並在Lean中證明",
+        "summary_en": "Google DeepMind and Google Quantum AI reported that teams of Gemini 4 agents found more efficient quantum circuits for fusion, photochemistry, drug metabolism, Grover search, and arcsin. Every result was formally verified in Lean. Reported gains include nearly twelvefold cost reductions on some circuits.",
+        "summary_zh": "Google DeepMind與Google Quantum AI報告，Gemini 4代理團隊為融合、光化學、藥物代謝、Grover搜尋與反正弦找到更高效的量子電路。每個結果都在Lean中正式驗證。報告顯示部分電路成本近十二倍降低。",
+        "analysis_en": "Formal verification is necessary because the circuits are too large for classical simulation or current hardware. The agent-team plus Lean setup compresses design work, but the reported speedups still await independent reproduction and hardware mapping.",
+        "analysis_zh": "正式驗證是必要的，因為電路太大無法古典模擬或在現有硬體上執行。代理團隊加Lean設定壓縮設計工作，但報告的加速仍待獨立重現與硬體映射。",
         "quote": "In a new paper, we used teams of Gemini 4 agents to improve well-known quantum algorithms, creating highly efficient quantum circuits.",
         "quote_zh": "在一篇新論文中，我們使用 Gemini 4 代理團隊改進已知量子演算法，創造出高度高效的量子電路。",
         "importance": 4,
         "first_seen": "2026-11-23T00:00:00Z",
-        "updated_at": "2026-11-26T04:35:01.741700+00:00",
+        "updated_at": "2026-11-26T10:35:01.819423+00:00",
         "links": [
           {
-            "label": "Google DeepMind Blog",
+            "label": "DeepMind blog",
             "url": "https://deepmind.google/blog/"
           },
           {
@@ -428,19 +730,23 @@
         "id": "google-mass-spec-skills-2026-11-25",
         "story_id": "google-mass-spec-skills-2026-11-25",
         "category": "google",
-        "source_type": "official_blog",
+        "source_type": "product",
         "title_en": "Google DeepMind releases Mass Spec Skills for identifying molecules in Antigravity",
-        "title_zh": "Google DeepMind 發布質譜技能，用於在 Antigravity 中識別分子",
-        "summary_en": "Google DeepMind launched Mass Spec Skills for Google Antigravity. The skills pair Gemini’s chemical reasoning with established mass-spectrometry tools and public databases so an agent can interpret tandem mass spectra and propose structures for chemist review. On 100 library spectra, models with the skills identified the exact molecule in about 97% of attempts.",
-        "summary_zh": "Google DeepMind 為 Google Antigravity 推出質譜技能。這些技能將 Gemini 的化學推理與既有質譜工具及公共資料庫配對，讓代理能解讀串聯質譜並提出結構供化學家審閱。在 100 個庫譜上，使用技能的模型約 97% 嘗試中識別出確切分子。",
-        "analysis_en": "Domain skills that wrap existing scientific tools raise identification accuracy dramatically for catalogued molecules and reduce token use. The approach still requires human review for novel compounds and isomers, so it accelerates rather than fully automates structure elucidation.",
-        "analysis_zh": "包裝既有科學工具的領域技能大幅提升已編目分子的識別準確度並減少 token 用量。對新穎化合物與異構體仍需人工審閱，因此是加速而非完全自動化結構闡明。",
+        "title_zh": "Google DeepMind發布Mass Spec Skills，用於在Antigravity中識別分子",
+        "summary_en": "Google DeepMind launched Mass Spec Skills for Google Antigravity. The skills pair Gemini’s chemical reasoning with established mass-spectrometry tools and public databases so an agent can interpret tandem mass spectra and propose structures for catalogued molecules.",
+        "summary_zh": "Google DeepMind為Google Antigravity推出Mass Spec Skills。這些技能將Gemini的化學推理與既有質譜工具及公開資料庫配對，讓代理能解讀串聯質譜並為已編目分子提出結構。",
+        "analysis_en": "Domain skills that wrap existing scientific tools raise identification accuracy dramatically for catalogued molecules and reduce token use. The approach still requires human review for novel compounds and depends on database coverage.",
+        "analysis_zh": "包裝既有科學工具的領域技能，大幅提升已編目分子的識別準確度並減少token用量。該方法對新穎化合物仍需人工審核，並依賴資料庫覆蓋範圍。",
         "quote": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra, lay out chemical evidence, and match frontier-level retrieval accuracy even with a lightweight model.",
         "quote_zh": "質譜技能讓使用 Google Antigravity 的科學家能解讀串聯質譜、列出化學證據，即使以輕量模型也能匹配前沿級檢索準確度。",
         "importance": 3,
         "first_seen": "2026-11-25T00:00:00Z",
-        "updated_at": "2026-11-26T04:35:01.741700+00:00",
+        "updated_at": "2026-11-26T10:35:01.819423+00:00",
         "links": [
+          {
+            "label": "DeepMind blog",
+            "url": "https://deepmind.google/blog/"
+          },
           {
             "label": "Google DeepMind Blog",
             "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/"
@@ -453,19 +759,23 @@
         "id": "meta-muse-uk-instagram-2026-11-24",
         "story_id": "meta-muse-uk-instagram-2026-11-24",
         "category": "meta",
-        "source_type": "official_blog",
+        "source_type": "product",
         "title_en": "Meta launches Muse personal AI agent in the UK and integrates it into Instagram DMs",
-        "title_zh": "Meta 在英國推出 Muse 個人 AI 代理，並整合進 Instagram 私訊",
-        "summary_en": "Meta made its Muse personal AI agent available to adults 18+ in the UK on iOS, Android, muse.ai and WhatsApp, with connectors to UK brands including Marks & Spencer, ASOS and easyJet. It asks for approval before sensitive actions. Separately, Muse is rolling into Instagram DMs in select markets so users can act on posts and catch up on missed chats.",
-        "summary_zh": "Meta 讓其 Muse 個人 AI 代理對英國 18 歲以上成人在 iOS、Android、muse.ai 與 WhatsApp 上可用，並連接英國品牌如 Marks & Spencer、ASOS 與 easyJet。敏感動作前會請求批准。此外，Muse 正滾動進入特定市場的 Instagram 私訊，讓使用者能對貼文採取行動並追趕錯過的對話。",
-        "analysis_en": "Expanding an agent that can take multi-step actions on connected services into new markets and a high-engagement surface like Instagram DMs tests user willingness to grant broader access. Default training-data settings and approval flows will determine trust and adoption outside the US.",
-        "analysis_zh": "將能在連接服務上執行多步驟動作的代理擴展至新市場與高互動介面如 Instagram 私訊，測試使用者是否願意授予更廣存取。預設訓練資料設定與批准流程將決定美國以外的信任與採用。",
+        "title_zh": "Meta在英國推出Muse個人AI代理並整合至Instagram私訊",
+        "summary_en": "Meta made its Muse personal AI agent available to adults 18+ in the UK on iOS, Android, muse.ai and WhatsApp, with connectors to UK brands including Marks & Spencer, ASOS and easyJet. It asks for approval before sensitive actions. The agent is also rolling out inside Instagram DMs in several countries.",
+        "summary_zh": "Meta讓Muse個人AI代理對英國18歲以上成人在iOS、Android、muse.ai與WhatsApp上可用，並連接Marks & Spencer、ASOS與easyJet等英國品牌。敏感動作前會請求核准。該代理也在數個國家的Instagram私訊中推出。",
+        "analysis_en": "Expanding an agent that can take multi-step actions on connected services into new markets and a high-engagement surface like Instagram DMs tests user willingness to grant broader permissions and brand trust in automated shopping flows.",
+        "analysis_zh": "將可在連接服務上採取多步驟行動的代理擴展至新市場與Instagram私訊等高互動表面，測試用戶授予更廣權限的意願，以及品牌對自動化購物流程的信任。",
         "quote": "Muse is now in the UK: a personal AI agent that doesn’t just answer questions, but one that you can task to get things done on your behalf.",
         "quote_zh": "Muse 現已在英國推出：一個個人 AI 代理，不只回答問題，而是你可任務它代表你完成事情。",
         "importance": 3,
         "first_seen": "2026-11-23T00:00:00Z",
-        "updated_at": "2026-11-26T04:35:01.741700+00:00",
+        "updated_at": "2026-11-26T10:35:01.819423+00:00",
         "links": [
+          {
+            "label": "Meta / coverage",
+            "url": "https://www.siliconreport.com/labs"
+          },
           {
             "label": "Meta Newsroom",
             "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/"
@@ -480,7 +790,7 @@
     "xai": [],
     "frontier_other": []
   },
-  "brief_en": "Anthropic detailed a Claude-assisted Python-to-Rust Messages API migration that cut CPU use ~70% via production shadowing. OpenAI reported GPT-6 protein design with 10.9% lab binding hits. Google DeepMind launched HFE for everyday reliability and Mass Spec Skills; Meta expanded Muse to the UK with brand connectors and Instagram DMs.",
-  "brief_zh": "Anthropic 詳述 Claude 協助將 Messages API 從 Python 遷至 Rust，藉生產流量影子比對降低約 70% CPU。OpenAI 報告 GPT-6 蛋白質設計實驗室結合率 10.9%。Google DeepMind 推出 HFE 日常可靠性基準與質譜技能；Meta 將 Muse 擴至英國並整合品牌連接器與 Instagram DM。",
-  "updated_at": "2026-11-26T04:35:01.741700+00:00"
+  "brief_en": "OpenAI began limited rollout of merged Chat/Work with shared usage limits and fixed a GPT-6.2 billing undercount that accelerates limit hits; it also started Private Inference alpha tests. Anthropic's Amodei rejected free-will surrender claims while expanding Claude Duet to India and enabling artifacts as desktop apps. Prior Rust API migration, protein design, and other lab work continue.",
+  "brief_zh": "OpenAI開始限量推出Chat與Work合併及共用用量限制，並修正GPT-6.2計費錯誤使上限更快觸及；同時啟動Private Inference alpha測試。Anthropic的Amodei駁斥放棄自由意志指控，並將Claude Duet擴至印度、讓artifacts可裝成桌面應用。先前Rust API遷移與蛋白質設計等工作持續。",
+  "updated_at": "2026-11-26T10:35:01.819423+00:00"
 }
