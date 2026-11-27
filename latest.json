@@ -16,6 +16,14 @@
       "item_count": 9,
       "updated_count": 5,
       "kept_count": 0
+    },
+    {
+      "generated_at": "2026-11-27T04:35:02.129230+00:00",
+      "backend": "grok-web",
+      "model": "grok.com (browser)",
+      "item_count": 9,
+      "updated_count": 9,
+      "kept_count": 0
     }
   ],
   "items_flat": [
@@ -25,17 +33,21 @@
       "category": "anthropic",
       "source_type": "official_blog",
       "title_en": "Anthropic migrates Messages API to Rust with Claude agents, cuts CPU 70%",
-      "title_zh": "Anthropic 以 Claude agents 將 Messages API 遷移至 Rust，CPU 用量約降 70%",
-      "summary_en": "Anthropic published how it moved its core Messages API from Python to Rust. Claude wrote an initial version quickly; agents then verified parity against live production traffic via shadowing and fingerprinting of differences. The Rust version reportedly uses about 70% less CPU per request and shortens median time-to-first-token by roughly 20%, with no downtime.",
-      "summary_zh": "Anthropic 說明如何將核心 Messages API 從 Python 遷移至 Rust。Claude 快速產出初版，agents 再以影子流量與差異指紋比對驗證與生產環境的一致性。Rust 版據稱每請求 CPU 用量約降 70%，中位數首 token 時間約縮短 20%，且服務無中斷。",
-      "analysis_en": "This shows AI agents can now handle high-stakes production rewrites when a reliable oracle (the existing system) exists for verification, shifting the bottleneck from coding to trustworthy differential testing. Whether the same approach generalizes to systems without a live reference remains open.",
-      "analysis_zh": "這顯示當存在可靠的對照系統可供驗證時，AI agents 已能承擔高風險的生產環境重寫，瓶頸從寫碼轉向可信的差異測試。沒有即時參考系統的場景是否同樣適用，仍待觀察。",
+      "title_zh": "Anthropic用Claude代理將Messages API遷移至Rust，CPU使用量下降70%",
+      "summary_en": "Anthropic published how it moved its core Messages API from Python to Rust. Claude wrote an initial version quickly; agents then verified parity against live production traffic via shadowing and fingerprinting of differences. The Rust version uses about 70% less CPU per request and cuts median time-to-first-token by roughly 20%, with no downtime.",
+      "summary_zh": "Anthropic公布如何將核心Messages API從Python遷移至Rust。Claude快速寫出初版，代理再透過影子流量與差異指紋驗證與線上生產流量的一致性。Rust版本每請求CPU使用量約降70%，中位首token時間約縮20%，且無停機。",
+      "analysis_en": "This shows AI agents can now handle high-stakes production rewrites when a reliable oracle (the existing system) exists for verification, shifting the bottleneck from coding to trustworthy evaluation.",
+      "analysis_zh": "這顯示當有可靠的預言機（現有系統）可供驗證時，AI代理已能處理高風險的生產重寫，瓶頸從編碼轉向可信評估。",
       "quote": "We recently migrated our Messages API from Python to Rust. ... teams of Claude agents tracking down and fixing differences between the two versions.",
       "quote_zh": "我們最近將 Messages API 從 Python 遷移至 Rust。……Claude agents 團隊追蹤並修復兩個版本之間的差異。",
       "importance": 4,
       "first_seen": "2026-11-25T16:26:59Z",
-      "updated_at": "2026-11-26T22:35:01.723434+00:00",
+      "updated_at": "2026-11-27T04:35:02.129230+00:00",
       "links": [
+        {
+          "label": "Anthropic Engineering",
+          "url": "https://www.anthropic.com/news"
+        },
         {
           "label": "Anthropic Engineering Blog",
           "url": "https://www.anthropic.com/research/migrating-api-to-rust"
@@ -50,19 +62,23 @@
       "id": "openai-gpt6-protein-design-wetlab-2026-11-24",
       "story_id": "openai-gpt6-protein-design-wetlab-2026-11-24",
       "category": "openai",
-      "source_type": "official_blog",
+      "source_type": "paper",
       "title_en": "OpenAI reports wet-lab binding for GPT-6.2 protein designs",
-      "title_zh": "OpenAI 報告 GPT-6.2 設計蛋白質在濕實驗中顯示結合證據",
-      "summary_en": "OpenAI shared a preprint and results with partner Onava showing that proteins designed by the GPT-6 family (shapes by GPT-6.2, sequences completed by specialized models) produced binders for all five tested targets in wet-lab experiments. Specialized models handled sequence completion and candidate selection.",
-      "summary_zh": "OpenAI 與合作夥伴 Onava 分享預印本與結果，顯示 GPT-6 系列設計的蛋白質（形狀由 GPT-6.2、序列由專用模型完成）在五個測試標的的濕實驗中皆產生結合證據。專用模型負責序列完成與候選篩選。",
-      "analysis_en": "Wet-lab confirmation of AI-designed protein binders is a concrete step beyond pure in-silico claims, yet the work still relies on specialized models for parts of the pipeline and independent replication is pending. Broader applicability to harder targets remains to be shown.",
-      "analysis_zh": "AI 設計蛋白質結合子獲得濕實驗確認，是超越純電腦模擬的具體進展，但流程部分仍仰賴專用模型，且尚待獨立重現。對更困難標的的通用性仍待驗證。",
+      "title_zh": "OpenAI報告GPT-6.2蛋白質設計在濕實驗室結合成功",
+      "summary_en": "OpenAI shared a preprint and results with partner Onava showing that proteins designed by the GPT-6 family (shapes by GPT-6.2, sequences completed by specialized models) produced binders for all five tested targets in wet-lab experiments.",
+      "summary_zh": "OpenAI與夥伴Onava分享預印本與結果，顯示GPT-6家族設計的蛋白質（形狀由GPT-6.2，序列由專用模型完成）在濕實驗室實驗中對所有五個測試目標產生結合劑。",
+      "analysis_en": "Wet-lab confirmation of AI-designed protein binders is a concrete step beyond pure in-silico claims, yet the work still relies on specialized models for parts of the pipeline and independent replication is pending.",
+      "analysis_zh": "AI設計蛋白質結合劑的濕實驗室確認是超越純模擬宣稱的具體一步，但工作仍依賴管道部分的專用模型，獨立複製仍待進行。",
       "quote": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
       "quote_zh": "GPT-6 模型以推理與程式設計蛋白質結構與序列。實驗室測試在五個標的上發現結合證據。",
       "importance": 4,
       "first_seen": "2026-11-24T21:03:00Z",
-      "updated_at": "2026-11-26T22:35:01.723434+00:00",
+      "updated_at": "2026-11-27T04:35:02.129230+00:00",
       "links": [
+        {
+          "label": "OpenAI Research",
+          "url": "https://openai.com/research/index/publication/"
+        },
         {
           "label": "OpenAI Science",
           "url": "https://openai.com/news/science/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
@@ -83,17 +99,21 @@
       "category": "xai",
       "source_type": "news",
       "title_en": "FCC conditionally authorizes SpaceX for up to 1 million Starmind orbital AI data-center satellites",
-      "title_zh": "FCC 有條件核准 SpaceX 最多 100 萬顆 Starmind 軌道 AI 資料中心衛星",
-      "summary_en": "The FCC Space Bureau granted SpaceX conditional authorization to deploy up to one million Starmind satellites designed as solar-powered orbital data centers for AI compute, operating between roughly 500–1,002 km. Deadlines require the first satellite by 2033 and the full constellation by 2040; higher orbits need further debris-plan approval. The move is tied to SpaceX/xAI infrastructure ambitions.",
-      "summary_zh": "FCC 太空局有條件核准 SpaceX 部署最多 100 萬顆 Starmind 衛星，設計為太陽能軌道資料中心以進行 AI 運算，軌道約 500–1,002 公里。期限要求 2033 年前首顆衛星、2040 年前完整星座；較高軌道需進一步碎片計畫核准。此舉與 SpaceX/xAI 基建野心相關。",
-      "analysis_en": "Regulatory clearance for a massive orbital compute constellation is a long-term infrastructure signal rather than near-term capacity. Technical, debris, launch-rate and economics hurdles remain large; the conditional nature and multi-year milestones mean realized AI impact is still years away.",
-      "analysis_zh": "對大規模軌道運算星座的監管核准是長期基建訊號，而非近期容量。技術、碎片、發射速率與經濟障礙仍大；有條件性質與多年里程碑意味實際 AI 影響仍需數年。",
+      "title_zh": "FCC有條件授權SpaceX部署最多100萬顆Starmind軌道AI資料中心衛星",
+      "summary_en": "The FCC Space Bureau granted SpaceX conditional authorization to deploy up to one million Starmind satellites designed as solar-powered orbital data centers for AI compute, operating between roughly 500–1,002 km. Deadlines require the first launches within set windows.",
+      "summary_zh": "FCC太空局有條件授權SpaceX部署最多100萬顆設計為太陽能軌道資料中心的Starmind衛星，用於AI計算，運行高度約500–1,002公里。規定期限內須完成首次發射。",
+      "analysis_en": "Regulatory clearance for a massive orbital compute constellation is a long-term infrastructure signal rather than near-term capacity. Technical, debris, launch-rate and economics hurdles remain substantial.",
+      "analysis_zh": "大規模軌道計算星座的監管核准是長期基礎設施訊號而非短期容量。技術、碎片、發射速率與經濟障礙仍相當大。",
       "quote": "Today, in a historic first, the FCC approved SpaceX’s request for 1 million satellites (orbital compute modules) to create data centers in space.",
       "quote_zh": "今天，FCC 歷史上首次核准 SpaceX 申請 100 萬顆衛星（軌道運算模組），在太空建立資料中心。",
       "importance": 4,
       "first_seen": "2026-11-25T00:00:00Z",
-      "updated_at": "2026-11-26T22:35:01.723434+00:00",
+      "updated_at": "2026-11-27T04:35:02.129230+00:00",
       "links": [
+        {
+          "label": "FCC / SpaceX",
+          "url": "https://www.fcc.gov"
+        },
         {
           "label": "FCC Document",
           "url": "https://www.fcc.gov/document/fcc-authorizes-1-million-satellites-data-centers-space"
@@ -105,22 +125,61 @@
       ]
     },
     {
+      "id": "openai-chatgpt-chat-work-shared-limits-2026-11",
+      "story_id": "openai-chatgpt-chat-work-shared-limits-2026-11",
+      "category": "openai",
+      "source_type": "official_x",
+      "title_en": "OpenAI corrects GPT-6.2 billing error, tightening Astra and Sol limits ahead of shared Chat/Work meter",
+      "title_zh": "OpenAI修正GPT-6.2計費錯誤，Astra與Sol額度提前收緊，共享Chat/Work計量即將實施",
+      "summary_en": "OpenAI’s Thibault Sottiaux said a launch billing mistake had incorrectly discounted GPT-6.2 Astra and Sol usage for most users. After the fix, the same work reaches limits 40% faster on Astra and 25% faster on Sol versus last week; other models were unaffected and past usage will not be charged. As an apology, Go, Plus, Pro and Business accounts receive one banked reset. This lands as the company tests a unified Chat and Work experience that will share one token allowance from December.",
+      "summary_zh": "OpenAI的Thibault Sottiaux表示，GPT-6.2上線時的計費錯誤讓大多數用戶的Astra與Sol使用量被低估。修正後，相同工作將比上週快40%（Astra）與25%（Sol）觸及額度；其他模型不受影響，過去使用量不補收費。作為補償，Go、Plus、Pro與Business帳戶各獲一次銀行式重置。此變化發生在公司正測試從十二月起將Chat與Work共享單一額度的同時。",
+      "analysis_en": "The correction removes an unintended discount just as shared Chat/Work metering begins, so effective capacity for heavy users of the newest models may drop more than either change alone. Whether the banked reset and remaining efficiency gains versus prior models fully offset the tighter meter is still unquantified.",
+      "analysis_zh": "修正移除了意外折扣，正好趕上Chat/Work共享計量啟動，重度使用最新模型的用戶有效容量可能下降更多。銀行式重置與相較前代的效率提升能否完全抵消收緊效果，仍未量化。",
+      "quote": "We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users.",
+      "quote_zh": "我們在GPT-6.2上線時犯了計費錯誤，錯誤地為大多數用戶折扣了GPT-6.2 Astra與Sol的使用量。",
+      "importance": 3,
+      "first_seen": "2026-11-25T12:03:00Z",
+      "updated_at": "2026-11-27T04:35:02.129230+00:00",
+      "links": [
+        {
+          "label": "Thibault Sottiaux on X",
+          "url": "https://x.com/thsottiaux/status/2125784147889393806"
+        },
+        {
+          "label": "Decrypt",
+          "url": "https://decrypt.co/384053/openai-fixes-chatgpt-billing-error-promises-to-make-it-40-worse"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+        },
+        {
+          "label": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+        }
+      ]
+    },
+    {
       "id": "nvidia-nemotron-3-5-parse-datasets-dflash2-2026-11-26",
       "story_id": "nvidia-nemotron-3-5-parse-datasets-dflash2-2026-11-26",
       "category": "frontier_other",
-      "source_type": "official_x",
+      "source_type": "product",
       "title_en": "NVIDIA opens datasets, fine-tuning recipe and DFlash2 for Nemotron 3.5 Parse",
-      "title_zh": "NVIDIA 開放 Nemotron 3.5 Parse 資料集、微調配方與 DFlash2",
-      "summary_en": "On Hugging Face, NVIDIA released three large synthetic datasets (charts, tables, multilingual OCR), a fine-tuning recipe, and the DFlash2 speculative decoder for its Nemotron 3.5 Parse document model. DFlash2 reportedly boosts throughput substantially for the document parser.",
-      "summary_zh": "NVIDIA 在 Hugging Face 釋出三組大型合成資料集（圖表、表格、多語 OCR）、微調配方，以及 Nemotron 3.5 Parse 文件模型的 DFlash2 推測解碼器。DFlash2 據稱能大幅提升文件解析吞吐量。",
-      "analysis_en": "Document parsing remains a practical bottleneck for RAG and agents; open data plus a fast drafter lowers the barrier for specialized fine-tunes. Independent benchmarks of the speedup and quality trade-offs are still needed.",
-      "analysis_zh": "文件解析仍是 RAG 與 agents 的實務瓶頸；開放資料加上快速起草器降低了專用微調門檻。速度提升與品質取捨仍需獨立基準驗證。",
+      "title_zh": "NVIDIA開放Nemotron 3.5 Parse的資料集、微調配方與DFlash2",
+      "summary_en": "On Hugging Face, NVIDIA released three large synthetic datasets (charts, tables, multilingual OCR), a fine-tuning recipe, and the DFlash2 speculative decoder for its Nemotron 3.5 Parse document model. DFlash2 reportedly boosts throughput substantially.",
+      "summary_zh": "NVIDIA在Hugging Face發布三個大型合成資料集（圖表、表格、多語OCR）、微調配方，以及Nemotron 3.5 Parse文件模型的DFlash2推測解碼器。據稱DFlash2可大幅提升吞吐量。",
+      "analysis_en": "Document parsing remains a practical bottleneck for RAG and agents; open data plus a fast drafter lowers the barrier for specialized fine-tunes. Independent benchmarks of the speed claims are still needed.",
+      "analysis_zh": "文件解析仍是RAG與代理的實務瓶頸；開放資料加上快速起草器降低了專用微調門檻。速度宣稱仍需獨立基準驗證。",
       "quote": "",
       "quote_zh": "",
       "importance": 3,
       "first_seen": "2026-11-26T05:00:00Z",
-      "updated_at": "2026-11-26T22:35:01.723434+00:00",
+      "updated_at": "2026-11-27T04:35:02.129230+00:00",
       "links": [
+        {
+          "label": "Hugging Face / NVIDIA",
+          "url": "https://huggingface.co"
+        },
         {
           "label": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-parse"
@@ -141,47 +200,24 @@
       "category": "frontier_other",
       "source_type": "official_x",
       "title_en": "Mistral says Large 4 leads closed models on visual grounding",
-      "title_zh": "Mistral 稱 Large 4 在視覺定位任務領先封閉模型",
+      "title_zh": "Mistral稱Large 4在視覺定位上領先閉源模型",
       "summary_en": "Mistral AI posted that its open-weight Mistral Large 4 (Le Chonk) can locate and outline exact matches on maps and posts a 42% score on Dense200, one point ahead of GPT-6 Astra by the company’s count.",
-      "summary_zh": "Mistral AI 表示其開放權重的 Mistral Large 4（Le Chonk）能在地圖上定位並勾勒精確匹配，於 Dense200 取得 42% 分數，依公司數據比 GPT-6 Astra 高出 1 分。",
-      "analysis_en": "A narrow edge on one multimodal task from an open model is noteworthy for the open-weights ecosystem, but the margin is small and the evaluation is self-reported. Broader independent multimodal benchmarks will be more telling.",
-      "analysis_zh": "開放模型在單一多模態任務上的微幅領先對開放權重生態有意義，但差距小且為自報數據。更廣泛的獨立多模態基準更能說明問題。",
+      "summary_zh": "Mistral AI發文表示，其開源權重的Mistral Large 4（Le Chonk）能在地圖上定位並描繪精確匹配，並在Dense200上取得42%分數，依公司統計領先GPT-6 Astra一分。",
+      "analysis_en": "A narrow edge on one multimodal task from an open model is noteworthy for the open-weights ecosystem, but the margin is small and the evaluation is self-reported. Broader independent testing is required.",
+      "analysis_zh": "開源模型在單一多模態任務上的微小優勢對開源權重生態值得注意，但差距很小且評估為自我報告。仍需更廣泛的獨立測試。",
       "quote": "Mistral Large 4 finds the exact match and outlines it on the map. On visual grounding tasks, Le Chonk beats even closed frontier models.",
       "quote_zh": "Mistral Large 4 找到精確匹配並在地圖上勾勒。在視覺定位任務上，Le Chonk 甚至勝過封閉前沿模型。",
       "importance": 3,
       "first_seen": "2026-11-26T11:33:05Z",
-      "updated_at": "2026-11-26T22:35:01.723434+00:00",
+      "updated_at": "2026-11-27T04:35:02.129230+00:00",
       "links": [
         {
           "label": "Mistral AI on X",
-          "url": "https://x.com/MistralAI/status/2125915743212761359"
-        }
-      ]
-    },
-    {
-      "id": "openai-chatgpt-chat-work-shared-limits-2026-11",
-      "story_id": "openai-chatgpt-chat-work-shared-limits-2026-11",
-      "category": "openai",
-      "source_type": "product",
-      "title_en": "OpenAI rolls out shared Chat and Work usage limits in ChatGPT",
-      "title_zh": "OpenAI 在 ChatGPT 推出 Chat 與 Work 共用額度",
-      "summary_en": "OpenAI has begun testing a unified Chat and Work experience for a small group of Pro users. Starting in December, Plus, Pro and Business plans will share one token-based allowance across ChatGPT and Codex; Instant remains unlimited. The company noted that the heaviest dual users may hit limits sooner.",
-      "summary_zh": "OpenAI 已開始對一小群 Pro 用戶測試統一的 Chat 與 Work 體驗。12 月起，Plus、Pro 與 Business 方案將在 ChatGPT 與 Codex 共用單一 token 額度；Instant 仍無限。公司指出重度雙重用戶可能更快觸及上限。",
-      "analysis_en": "Merging the meters simplifies the product surface but reallocates capacity from previously separate buckets. How often power users actually notice tighter effective limits will depend on real usage patterns after the December rollout.",
-      "analysis_zh": "合併計量簡化了產品表面，卻重新分配原先分開的容量。重度用戶是否真正感受到有效額度變緊，將取決於 12 月上線後的實際使用模式。",
-      "quote": "",
-      "quote_zh": "",
-      "importance": 3,
-      "first_seen": "2026-11-25T12:03:00Z",
-      "updated_at": "2026-11-26T22:35:01.723434+00:00",
-      "links": [
-        {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+          "url": "https://x.com/MistralAI"
         },
         {
-          "label": "OpenAI Help Center",
-          "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+          "label": "Mistral AI on X",
+          "url": "https://x.com/MistralAI/status/2125915743212761359"
         }
       ]
     },
@@ -191,17 +227,21 @@
       "category": "anthropic",
       "source_type": "product",
       "title_en": "Anthropic lets users install Claude artifacts as Mac and Windows desktop apps",
-      "title_zh": "Anthropic 讓用戶將 Claude artifacts 安裝為 Mac 與 Windows 桌面應用",
-      "summary_en": "Anthropic rolled out an “Install as app” beta that turns Claude artifacts into standalone Mac and Windows apps with their own icons and windows. The feature is available across plans (with Enterprise and some permission controls), requires being online and signed in, and lets apps request notifications or full computer access. Anthropic does not pre-review the apps.",
-      "summary_zh": "Anthropic 推出「Install as app」beta，將 Claude artifacts 變成有獨立圖示與視窗的 Mac 與 Windows 應用。功能涵蓋各方案（Enterprise 與部分權限需控管），需在線並登入，應用可請求通知或完整電腦存取。Anthropic 不事先審查這些應用。",
-      "analysis_en": "Turning chat-generated tools into persistent desktop apps lowers friction for repeated workflows, but the combination of full computer access and no pre-review raises practical safety and support questions for organizations. Adoption will hinge on permission defaults and user trust.",
-      "analysis_zh": "將對話產生的工具變成持久桌面應用，降低重複工作流程的摩擦，但完整電腦存取加上無預審，對組織帶來實務安全與支援問題。採用程度將取決於權限預設與用戶信任。",
+      "title_zh": "Anthropic允許用戶將Claude artifacts安裝為Mac與Windows桌面應用",
+      "summary_en": "Anthropic rolled out an “Install as app” beta that turns Claude artifacts into standalone Mac and Windows apps with their own icons and windows. The feature is available across plans (with Enterprise and some permission controls), requires the latest Claude desktop clients.",
+      "summary_zh": "Anthropic推出「Install as app」測試版，將Claude artifacts變成擁有獨立圖示與視窗的Mac與Windows應用。功能跨方案可用（企業版與部分權限控制），需最新Claude桌面客戶端。",
+      "analysis_en": "Turning chat-generated tools into persistent desktop apps lowers friction for repeated workflows, but the combination of full computer access and no pre-review raises practical safety and trust questions.",
+      "analysis_zh": "將聊天生成的工具變成持續的桌面應用降低了重複工作流的摩擦，但完整電腦存取加上無預先審查的組合帶來實務安全與信任問題。",
       "quote": "Starting today, you can use Claude artifacts to create, run, and share desktop apps. The \"Install as app\" feature is rolling out in beta in Claude for Mac and Windows.",
       "quote_zh": "從今天起，你可以用 Claude artifacts 建立、執行並分享桌面應用。「Install as app」功能正以 beta 形式在 Claude for Mac 與 Windows 推出。",
       "importance": 3,
       "first_seen": "2026-11-24T00:00:00Z",
-      "updated_at": "2026-11-26T22:35:01.723434+00:00",
+      "updated_at": "2026-11-27T04:35:02.129230+00:00",
       "links": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/news"
+        },
         {
           "label": "Claude Resources",
           "url": "https://claude.com/resources/articles/install-as-app"
@@ -216,19 +256,23 @@
       "id": "nvidia-nemotron-labs-image-30b-open-weights-2026-11-24",
       "story_id": "nvidia-nemotron-labs-image-30b-open-weights-2026-11-24",
       "category": "frontier_other",
-      "source_type": "official_blog",
+      "source_type": "product",
       "title_en": "NVIDIA releases research-only open weights for Nemotron-Labs-Image-30B-A3B",
-      "title_zh": "NVIDIA 釋出僅供研究的 Nemotron-Labs-Image-30B-A3B 開放權重",
-      "summary_en": "NVIDIA published weights for Nemotron-Labs-Image-30B-A3B on Hugging Face, a 30B-parameter (3B active) autoregressive image generator that is the raster engine of its Nemotron-Labs-VisualCreation “Pixel as Code” framework. The license is restricted to non-commercial research/evaluation; NVIDIA reports competitive scores on several benchmarks versus GPT Image 2 in its own evaluations.",
-      "summary_zh": "NVIDIA 在 Hugging Face 發布 Nemotron-Labs-Image-30B-A3B 權重，這是 30B 參數（每 token 3B 活躍）的自回歸影像生成器，為 Nemotron-Labs-VisualCreation「Pixel as Code」框架的光柵引擎。授權限於非商用研究／評估；NVIDIA 在自身評測中報告多項基準與 GPT Image 2 具競爭力。",
-      "analysis_en": "An open autoregressive image model with strong text and composition claims expands local and agentic visual workflows, but the research-only license and self-reported benchmarks limit immediate commercial and independent validation. Hardware requirements (multi-H100 class) further constrain broad adoption.",
-      "analysis_zh": "具備強大文字與構圖宣稱的開放自回歸影像模型，拓展了本地與代理式視覺工作流，但僅研究授權與自報基準限制了立即商用與獨立驗證。硬體需求（多張 H100 等級）也進一步限制廣泛採用。",
+      "title_zh": "NVIDIA發布Nemotron-Labs-Image-30B-A3B僅研究用開源權重",
+      "summary_en": "NVIDIA published weights for Nemotron-Labs-Image-30B-A3B on Hugging Face, a 30B-parameter (3B active) autoregressive image generator that is the raster engine of its Nemotron-Labs-VisualCreation “Pixel as Code” framework. The license is research-only.",
+      "summary_zh": "NVIDIA在Hugging Face發布Nemotron-Labs-Image-30B-A3B權重，這是300億參數（30億活躍）的自迴歸影像生成器，是其Nemotron-Labs-VisualCreation「Pixel as Code」框架的光柵引擎。授權僅限研究。",
+      "analysis_en": "An open autoregressive image model with strong text and composition claims expands local and agentic visual workflows, but the research-only license and self-reported benchmarks limit commercial and comparative assessment.",
+      "analysis_zh": "擁有強大文字與構圖宣稱的開放自迴歸影像模型擴展了本地與代理式視覺工作流，但僅研究授權與自我報告基準限制了商業與比較評估。",
       "quote": "",
       "quote_zh": "",
       "importance": 3,
       "first_seen": "2026-11-24T00:00:00Z",
-      "updated_at": "2026-11-26T22:35:01.723434+00:00",
+      "updated_at": "2026-11-27T04:35:02.129230+00:00",
       "links": [
+        {
+          "label": "Hugging Face / NVIDIA",
+          "url": "https://huggingface.co"
+        },
         {
           "label": "Hugging Face",
           "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
@@ -245,17 +289,21 @@
       "category": "openai",
       "source_type": "official_x",
       "title_en": "OpenAI begins limited testing of Private Inference for business prompts",
-      "title_zh": "OpenAI 開始對企業提示進行 Private Inference 有限測試",
-      "summary_en": "Sam Altman announced that OpenAI is testing Private Inference (part of OpenAI Private Intelligence) with a small group of customers. The alpha feature uses confidential computing and verifiable controls to protect prompts and responses while models process them, sitting alongside existing Zero Data Retention options.",
-      "summary_zh": "Sam Altman 宣布 OpenAI 正與一小群客戶測試 Private Inference（OpenAI Private Intelligence 的一部分）。此 alpha 功能使用機密運算與可驗證控制，在模型處理時保護提示與回應，並與既有的 Zero Data Retention 選項並存。",
-      "analysis_en": "Processing-time privacy addresses a gap left by retention policies alone and could expand enterprise use of frontier models on sensitive data. Capacity constraints, model coverage, and third-party distribution remain unspecified, so the practical scope is still narrow.",
-      "analysis_zh": "處理時隱私補上了僅靠保留政策留下的缺口，可能擴大企業在敏感資料上使用前沿模型。容量限制、模型涵蓋與第三方分發仍未說明，因此實際範圍仍窄。",
+      "title_zh": "OpenAI開始有限測試業務提示的Private Inference",
+      "summary_en": "Sam Altman announced that OpenAI is testing Private Inference (part of OpenAI Private Intelligence) with a small group of customers. The alpha feature uses confidential computing and verifiable controls to protect prompts and responses while they are processed.",
+      "summary_zh": "Sam Altman宣布OpenAI正與一小群客戶測試Private Inference（OpenAI Private Intelligence的一部分）。此alpha功能使用機密計算與可驗證控制，在處理時保護提示與回應。",
+      "analysis_en": "Processing-time privacy addresses a gap left by retention policies alone and could expand enterprise use of frontier models on sensitive data. Capacity constraints, model coverage, and independent audit of the guarantees remain open questions.",
+      "analysis_zh": "處理時隱私填補了僅靠保留政策留下的缺口，可能擴大企業在敏感資料上使用前沿模型。容量限制、模型覆蓋範圍與保證的獨立審計仍是開放問題。",
       "quote": "We're now testing Private Inference, our latest offering as part of OpenAI Private Intelligence, with a small group of customers.",
       "quote_zh": "我們現正與一小群客戶測試 Private Inference，這是 OpenAI Private Intelligence 的最新方案。",
       "importance": 3,
       "first_seen": "2026-11-25T00:00:00Z",
-      "updated_at": "2026-11-26T22:35:01.723434+00:00",
+      "updated_at": "2026-11-27T04:35:02.129230+00:00",
       "links": [
+        {
+          "label": "Sam Altman on X",
+          "url": "https://x.com/sama"
+        },
         {
           "label": "OpenAI Private Intelligence",
           "url": "https://openai.com/business/private-intelligence/"
@@ -273,19 +321,23 @@
         "id": "openai-gpt6-protein-design-wetlab-2026-11-24",
         "story_id": "openai-gpt6-protein-design-wetlab-2026-11-24",
         "category": "openai",
-        "source_type": "official_blog",
+        "source_type": "paper",
         "title_en": "OpenAI reports wet-lab binding for GPT-6.2 protein designs",
-        "title_zh": "OpenAI 報告 GPT-6.2 設計蛋白質在濕實驗中顯示結合證據",
-        "summary_en": "OpenAI shared a preprint and results with partner Onava showing that proteins designed by the GPT-6 family (shapes by GPT-6.2, sequences completed by specialized models) produced binders for all five tested targets in wet-lab experiments. Specialized models handled sequence completion and candidate selection.",
-        "summary_zh": "OpenAI 與合作夥伴 Onava 分享預印本與結果，顯示 GPT-6 系列設計的蛋白質（形狀由 GPT-6.2、序列由專用模型完成）在五個測試標的的濕實驗中皆產生結合證據。專用模型負責序列完成與候選篩選。",
-        "analysis_en": "Wet-lab confirmation of AI-designed protein binders is a concrete step beyond pure in-silico claims, yet the work still relies on specialized models for parts of the pipeline and independent replication is pending. Broader applicability to harder targets remains to be shown.",
-        "analysis_zh": "AI 設計蛋白質結合子獲得濕實驗確認，是超越純電腦模擬的具體進展，但流程部分仍仰賴專用模型，且尚待獨立重現。對更困難標的的通用性仍待驗證。",
+        "title_zh": "OpenAI報告GPT-6.2蛋白質設計在濕實驗室結合成功",
+        "summary_en": "OpenAI shared a preprint and results with partner Onava showing that proteins designed by the GPT-6 family (shapes by GPT-6.2, sequences completed by specialized models) produced binders for all five tested targets in wet-lab experiments.",
+        "summary_zh": "OpenAI與夥伴Onava分享預印本與結果，顯示GPT-6家族設計的蛋白質（形狀由GPT-6.2，序列由專用模型完成）在濕實驗室實驗中對所有五個測試目標產生結合劑。",
+        "analysis_en": "Wet-lab confirmation of AI-designed protein binders is a concrete step beyond pure in-silico claims, yet the work still relies on specialized models for parts of the pipeline and independent replication is pending.",
+        "analysis_zh": "AI設計蛋白質結合劑的濕實驗室確認是超越純模擬宣稱的具體一步，但工作仍依賴管道部分的專用模型，獨立複製仍待進行。",
         "quote": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
         "quote_zh": "GPT-6 模型以推理與程式設計蛋白質結構與序列。實驗室測試在五個標的上發現結合證據。",
         "importance": 4,
         "first_seen": "2026-11-24T21:03:00Z",
-        "updated_at": "2026-11-26T22:35:01.723434+00:00",
+        "updated_at": "2026-11-27T04:35:02.129230+00:00",
         "links": [
+          {
+            "label": "OpenAI Research",
+            "url": "https://openai.com/research/index/publication/"
+          },
           {
             "label": "OpenAI Science",
             "url": "https://openai.com/news/science/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
@@ -304,19 +356,27 @@
         "id": "openai-chatgpt-chat-work-shared-limits-2026-11",
         "story_id": "openai-chatgpt-chat-work-shared-limits-2026-11",
         "category": "openai",
-        "source_type": "product",
-        "title_en": "OpenAI rolls out shared Chat and Work usage limits in ChatGPT",
-        "title_zh": "OpenAI 在 ChatGPT 推出 Chat 與 Work 共用額度",
-        "summary_en": "OpenAI has begun testing a unified Chat and Work experience for a small group of Pro users. Starting in December, Plus, Pro and Business plans will share one token-based allowance across ChatGPT and Codex; Instant remains unlimited. The company noted that the heaviest dual users may hit limits sooner.",
-        "summary_zh": "OpenAI 已開始對一小群 Pro 用戶測試統一的 Chat 與 Work 體驗。12 月起，Plus、Pro 與 Business 方案將在 ChatGPT 與 Codex 共用單一 token 額度；Instant 仍無限。公司指出重度雙重用戶可能更快觸及上限。",
-        "analysis_en": "Merging the meters simplifies the product surface but reallocates capacity from previously separate buckets. How often power users actually notice tighter effective limits will depend on real usage patterns after the December rollout.",
-        "analysis_zh": "合併計量簡化了產品表面，卻重新分配原先分開的容量。重度用戶是否真正感受到有效額度變緊，將取決於 12 月上線後的實際使用模式。",
-        "quote": "",
-        "quote_zh": "",
+        "source_type": "official_x",
+        "title_en": "OpenAI corrects GPT-6.2 billing error, tightening Astra and Sol limits ahead of shared Chat/Work meter",
+        "title_zh": "OpenAI修正GPT-6.2計費錯誤，Astra與Sol額度提前收緊，共享Chat/Work計量即將實施",
+        "summary_en": "OpenAI’s Thibault Sottiaux said a launch billing mistake had incorrectly discounted GPT-6.2 Astra and Sol usage for most users. After the fix, the same work reaches limits 40% faster on Astra and 25% faster on Sol versus last week; other models were unaffected and past usage will not be charged. As an apology, Go, Plus, Pro and Business accounts receive one banked reset. This lands as the company tests a unified Chat and Work experience that will share one token allowance from December.",
+        "summary_zh": "OpenAI的Thibault Sottiaux表示，GPT-6.2上線時的計費錯誤讓大多數用戶的Astra與Sol使用量被低估。修正後，相同工作將比上週快40%（Astra）與25%（Sol）觸及額度；其他模型不受影響，過去使用量不補收費。作為補償，Go、Plus、Pro與Business帳戶各獲一次銀行式重置。此變化發生在公司正測試從十二月起將Chat與Work共享單一額度的同時。",
+        "analysis_en": "The correction removes an unintended discount just as shared Chat/Work metering begins, so effective capacity for heavy users of the newest models may drop more than either change alone. Whether the banked reset and remaining efficiency gains versus prior models fully offset the tighter meter is still unquantified.",
+        "analysis_zh": "修正移除了意外折扣，正好趕上Chat/Work共享計量啟動，重度使用最新模型的用戶有效容量可能下降更多。銀行式重置與相較前代的效率提升能否完全抵消收緊效果，仍未量化。",
+        "quote": "We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users.",
+        "quote_zh": "我們在GPT-6.2上線時犯了計費錯誤，錯誤地為大多數用戶折扣了GPT-6.2 Astra與Sol的使用量。",
         "importance": 3,
         "first_seen": "2026-11-25T12:03:00Z",
-        "updated_at": "2026-11-26T22:35:01.723434+00:00",
+        "updated_at": "2026-11-27T04:35:02.129230+00:00",
         "links": [
+          {
+            "label": "Thibault Sottiaux on X",
+            "url": "https://x.com/thsottiaux/status/2125784147889393806"
+          },
+          {
+            "label": "Decrypt",
+            "url": "https://decrypt.co/384053/openai-fixes-chatgpt-billing-error-promises-to-make-it-40-worse"
+          },
           {
             "label": "TechCrunch",
             "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
@@ -333,17 +393,21 @@
         "category": "openai",
         "source_type": "official_x",
         "title_en": "OpenAI begins limited testing of Private Inference for business prompts",
-        "title_zh": "OpenAI 開始對企業提示進行 Private Inference 有限測試",
-        "summary_en": "Sam Altman announced that OpenAI is testing Private Inference (part of OpenAI Private Intelligence) with a small group of customers. The alpha feature uses confidential computing and verifiable controls to protect prompts and responses while models process them, sitting alongside existing Zero Data Retention options.",
-        "summary_zh": "Sam Altman 宣布 OpenAI 正與一小群客戶測試 Private Inference（OpenAI Private Intelligence 的一部分）。此 alpha 功能使用機密運算與可驗證控制，在模型處理時保護提示與回應，並與既有的 Zero Data Retention 選項並存。",
-        "analysis_en": "Processing-time privacy addresses a gap left by retention policies alone and could expand enterprise use of frontier models on sensitive data. Capacity constraints, model coverage, and third-party distribution remain unspecified, so the practical scope is still narrow.",
-        "analysis_zh": "處理時隱私補上了僅靠保留政策留下的缺口，可能擴大企業在敏感資料上使用前沿模型。容量限制、模型涵蓋與第三方分發仍未說明，因此實際範圍仍窄。",
+        "title_zh": "OpenAI開始有限測試業務提示的Private Inference",
+        "summary_en": "Sam Altman announced that OpenAI is testing Private Inference (part of OpenAI Private Intelligence) with a small group of customers. The alpha feature uses confidential computing and verifiable controls to protect prompts and responses while they are processed.",
+        "summary_zh": "Sam Altman宣布OpenAI正與一小群客戶測試Private Inference（OpenAI Private Intelligence的一部分）。此alpha功能使用機密計算與可驗證控制，在處理時保護提示與回應。",
+        "analysis_en": "Processing-time privacy addresses a gap left by retention policies alone and could expand enterprise use of frontier models on sensitive data. Capacity constraints, model coverage, and independent audit of the guarantees remain open questions.",
+        "analysis_zh": "處理時隱私填補了僅靠保留政策留下的缺口，可能擴大企業在敏感資料上使用前沿模型。容量限制、模型覆蓋範圍與保證的獨立審計仍是開放問題。",
         "quote": "We're now testing Private Inference, our latest offering as part of OpenAI Private Intelligence, with a small group of customers.",
         "quote_zh": "我們現正與一小群客戶測試 Private Inference，這是 OpenAI Private Intelligence 的最新方案。",
         "importance": 3,
         "first_seen": "2026-11-25T00:00:00Z",
-        "updated_at": "2026-11-26T22:35:01.723434+00:00",
+        "updated_at": "2026-11-27T04:35:02.129230+00:00",
         "links": [
+          {
+            "label": "Sam Altman on X",
+            "url": "https://x.com/sama"
+          },
           {
             "label": "OpenAI Private Intelligence",
             "url": "https://openai.com/business/private-intelligence/"
@@ -362,17 +426,21 @@
         "category": "anthropic",
         "source_type": "official_blog",
         "title_en": "Anthropic migrates Messages API to Rust with Claude agents, cuts CPU 70%",
-        "title_zh": "Anthropic 以 Claude agents 將 Messages API 遷移至 Rust，CPU 用量約降 70%",
-        "summary_en": "Anthropic published how it moved its core Messages API from Python to Rust. Claude wrote an initial version quickly; agents then verified parity against live production traffic via shadowing and fingerprinting of differences. The Rust version reportedly uses about 70% less CPU per request and shortens median time-to-first-token by roughly 20%, with no downtime.",
-        "summary_zh": "Anthropic 說明如何將核心 Messages API 從 Python 遷移至 Rust。Claude 快速產出初版，agents 再以影子流量與差異指紋比對驗證與生產環境的一致性。Rust 版據稱每請求 CPU 用量約降 70%，中位數首 token 時間約縮短 20%，且服務無中斷。",
-        "analysis_en": "This shows AI agents can now handle high-stakes production rewrites when a reliable oracle (the existing system) exists for verification, shifting the bottleneck from coding to trustworthy differential testing. Whether the same approach generalizes to systems without a live reference remains open.",
-        "analysis_zh": "這顯示當存在可靠的對照系統可供驗證時，AI agents 已能承擔高風險的生產環境重寫，瓶頸從寫碼轉向可信的差異測試。沒有即時參考系統的場景是否同樣適用，仍待觀察。",
+        "title_zh": "Anthropic用Claude代理將Messages API遷移至Rust，CPU使用量下降70%",
+        "summary_en": "Anthropic published how it moved its core Messages API from Python to Rust. Claude wrote an initial version quickly; agents then verified parity against live production traffic via shadowing and fingerprinting of differences. The Rust version uses about 70% less CPU per request and cuts median time-to-first-token by roughly 20%, with no downtime.",
+        "summary_zh": "Anthropic公布如何將核心Messages API從Python遷移至Rust。Claude快速寫出初版，代理再透過影子流量與差異指紋驗證與線上生產流量的一致性。Rust版本每請求CPU使用量約降70%，中位首token時間約縮20%，且無停機。",
+        "analysis_en": "This shows AI agents can now handle high-stakes production rewrites when a reliable oracle (the existing system) exists for verification, shifting the bottleneck from coding to trustworthy evaluation.",
+        "analysis_zh": "這顯示當有可靠的預言機（現有系統）可供驗證時，AI代理已能處理高風險的生產重寫，瓶頸從編碼轉向可信評估。",
         "quote": "We recently migrated our Messages API from Python to Rust. ... teams of Claude agents tracking down and fixing differences between the two versions.",
         "quote_zh": "我們最近將 Messages API 從 Python 遷移至 Rust。……Claude agents 團隊追蹤並修復兩個版本之間的差異。",
         "importance": 4,
         "first_seen": "2026-11-25T16:26:59Z",
-        "updated_at": "2026-11-26T22:35:01.723434+00:00",
+        "updated_at": "2026-11-27T04:35:02.129230+00:00",
         "links": [
+          {
+            "label": "Anthropic Engineering",
+            "url": "https://www.anthropic.com/news"
+          },
           {
             "label": "Anthropic Engineering Blog",
             "url": "https://www.anthropic.com/research/migrating-api-to-rust"
@@ -389,17 +457,21 @@
         "category": "anthropic",
         "source_type": "product",
         "title_en": "Anthropic lets users install Claude artifacts as Mac and Windows desktop apps",
-        "title_zh": "Anthropic 讓用戶將 Claude artifacts 安裝為 Mac 與 Windows 桌面應用",
-        "summary_en": "Anthropic rolled out an “Install as app” beta that turns Claude artifacts into standalone Mac and Windows apps with their own icons and windows. The feature is available across plans (with Enterprise and some permission controls), requires being online and signed in, and lets apps request notifications or full computer access. Anthropic does not pre-review the apps.",
-        "summary_zh": "Anthropic 推出「Install as app」beta，將 Claude artifacts 變成有獨立圖示與視窗的 Mac 與 Windows 應用。功能涵蓋各方案（Enterprise 與部分權限需控管），需在線並登入，應用可請求通知或完整電腦存取。Anthropic 不事先審查這些應用。",
-        "analysis_en": "Turning chat-generated tools into persistent desktop apps lowers friction for repeated workflows, but the combination of full computer access and no pre-review raises practical safety and support questions for organizations. Adoption will hinge on permission defaults and user trust.",
-        "analysis_zh": "將對話產生的工具變成持久桌面應用，降低重複工作流程的摩擦，但完整電腦存取加上無預審，對組織帶來實務安全與支援問題。採用程度將取決於權限預設與用戶信任。",
+        "title_zh": "Anthropic允許用戶將Claude artifacts安裝為Mac與Windows桌面應用",
+        "summary_en": "Anthropic rolled out an “Install as app” beta that turns Claude artifacts into standalone Mac and Windows apps with their own icons and windows. The feature is available across plans (with Enterprise and some permission controls), requires the latest Claude desktop clients.",
+        "summary_zh": "Anthropic推出「Install as app」測試版，將Claude artifacts變成擁有獨立圖示與視窗的Mac與Windows應用。功能跨方案可用（企業版與部分權限控制），需最新Claude桌面客戶端。",
+        "analysis_en": "Turning chat-generated tools into persistent desktop apps lowers friction for repeated workflows, but the combination of full computer access and no pre-review raises practical safety and trust questions.",
+        "analysis_zh": "將聊天生成的工具變成持續的桌面應用降低了重複工作流的摩擦，但完整電腦存取加上無預先審查的組合帶來實務安全與信任問題。",
         "quote": "Starting today, you can use Claude artifacts to create, run, and share desktop apps. The \"Install as app\" feature is rolling out in beta in Claude for Mac and Windows.",
         "quote_zh": "從今天起，你可以用 Claude artifacts 建立、執行並分享桌面應用。「Install as app」功能正以 beta 形式在 Claude for Mac 與 Windows 推出。",
         "importance": 3,
         "first_seen": "2026-11-24T00:00:00Z",
-        "updated_at": "2026-11-26T22:35:01.723434+00:00",
+        "updated_at": "2026-11-27T04:35:02.129230+00:00",
         "links": [
+          {
+            "label": "Anthropic",
+            "url": "https://www.anthropic.com/news"
+          },
           {
             "label": "Claude Resources",
             "url": "https://claude.com/resources/articles/install-as-app"
@@ -420,17 +492,21 @@
         "category": "xai",
         "source_type": "news",
         "title_en": "FCC conditionally authorizes SpaceX for up to 1 million Starmind orbital AI data-center satellites",
-        "title_zh": "FCC 有條件核准 SpaceX 最多 100 萬顆 Starmind 軌道 AI 資料中心衛星",
-        "summary_en": "The FCC Space Bureau granted SpaceX conditional authorization to deploy up to one million Starmind satellites designed as solar-powered orbital data centers for AI compute, operating between roughly 500–1,002 km. Deadlines require the first satellite by 2033 and the full constellation by 2040; higher orbits need further debris-plan approval. The move is tied to SpaceX/xAI infrastructure ambitions.",
-        "summary_zh": "FCC 太空局有條件核准 SpaceX 部署最多 100 萬顆 Starmind 衛星，設計為太陽能軌道資料中心以進行 AI 運算，軌道約 500–1,002 公里。期限要求 2033 年前首顆衛星、2040 年前完整星座；較高軌道需進一步碎片計畫核准。此舉與 SpaceX/xAI 基建野心相關。",
-        "analysis_en": "Regulatory clearance for a massive orbital compute constellation is a long-term infrastructure signal rather than near-term capacity. Technical, debris, launch-rate and economics hurdles remain large; the conditional nature and multi-year milestones mean realized AI impact is still years away.",
-        "analysis_zh": "對大規模軌道運算星座的監管核准是長期基建訊號，而非近期容量。技術、碎片、發射速率與經濟障礙仍大；有條件性質與多年里程碑意味實際 AI 影響仍需數年。",
+        "title_zh": "FCC有條件授權SpaceX部署最多100萬顆Starmind軌道AI資料中心衛星",
+        "summary_en": "The FCC Space Bureau granted SpaceX conditional authorization to deploy up to one million Starmind satellites designed as solar-powered orbital data centers for AI compute, operating between roughly 500–1,002 km. Deadlines require the first launches within set windows.",
+        "summary_zh": "FCC太空局有條件授權SpaceX部署最多100萬顆設計為太陽能軌道資料中心的Starmind衛星，用於AI計算，運行高度約500–1,002公里。規定期限內須完成首次發射。",
+        "analysis_en": "Regulatory clearance for a massive orbital compute constellation is a long-term infrastructure signal rather than near-term capacity. Technical, debris, launch-rate and economics hurdles remain substantial.",
+        "analysis_zh": "大規模軌道計算星座的監管核准是長期基礎設施訊號而非短期容量。技術、碎片、發射速率與經濟障礙仍相當大。",
         "quote": "Today, in a historic first, the FCC approved SpaceX’s request for 1 million satellites (orbital compute modules) to create data centers in space.",
         "quote_zh": "今天，FCC 歷史上首次核准 SpaceX 申請 100 萬顆衛星（軌道運算模組），在太空建立資料中心。",
         "importance": 4,
         "first_seen": "2026-11-25T00:00:00Z",
-        "updated_at": "2026-11-26T22:35:01.723434+00:00",
+        "updated_at": "2026-11-27T04:35:02.129230+00:00",
         "links": [
+          {
+            "label": "FCC / SpaceX",
+            "url": "https://www.fcc.gov"
+          },
           {
             "label": "FCC Document",
             "url": "https://www.fcc.gov/document/fcc-authorizes-1-million-satellites-data-centers-space"
@@ -447,19 +523,23 @@
         "id": "nvidia-nemotron-3-5-parse-datasets-dflash2-2026-11-26",
         "story_id": "nvidia-nemotron-3-5-parse-datasets-dflash2-2026-11-26",
         "category": "frontier_other",
-        "source_type": "official_x",
+        "source_type": "product",
         "title_en": "NVIDIA opens datasets, fine-tuning recipe and DFlash2 for Nemotron 3.5 Parse",
-        "title_zh": "NVIDIA 開放 Nemotron 3.5 Parse 資料集、微調配方與 DFlash2",
-        "summary_en": "On Hugging Face, NVIDIA released three large synthetic datasets (charts, tables, multilingual OCR), a fine-tuning recipe, and the DFlash2 speculative decoder for its Nemotron 3.5 Parse document model. DFlash2 reportedly boosts throughput substantially for the document parser.",
-        "summary_zh": "NVIDIA 在 Hugging Face 釋出三組大型合成資料集（圖表、表格、多語 OCR）、微調配方，以及 Nemotron 3.5 Parse 文件模型的 DFlash2 推測解碼器。DFlash2 據稱能大幅提升文件解析吞吐量。",
-        "analysis_en": "Document parsing remains a practical bottleneck for RAG and agents; open data plus a fast drafter lowers the barrier for specialized fine-tunes. Independent benchmarks of the speedup and quality trade-offs are still needed.",
-        "analysis_zh": "文件解析仍是 RAG 與 agents 的實務瓶頸；開放資料加上快速起草器降低了專用微調門檻。速度提升與品質取捨仍需獨立基準驗證。",
+        "title_zh": "NVIDIA開放Nemotron 3.5 Parse的資料集、微調配方與DFlash2",
+        "summary_en": "On Hugging Face, NVIDIA released three large synthetic datasets (charts, tables, multilingual OCR), a fine-tuning recipe, and the DFlash2 speculative decoder for its Nemotron 3.5 Parse document model. DFlash2 reportedly boosts throughput substantially.",
+        "summary_zh": "NVIDIA在Hugging Face發布三個大型合成資料集（圖表、表格、多語OCR）、微調配方，以及Nemotron 3.5 Parse文件模型的DFlash2推測解碼器。據稱DFlash2可大幅提升吞吐量。",
+        "analysis_en": "Document parsing remains a practical bottleneck for RAG and agents; open data plus a fast drafter lowers the barrier for specialized fine-tunes. Independent benchmarks of the speed claims are still needed.",
+        "analysis_zh": "文件解析仍是RAG與代理的實務瓶頸；開放資料加上快速起草器降低了專用微調門檻。速度宣稱仍需獨立基準驗證。",
         "quote": "",
         "quote_zh": "",
         "importance": 3,
         "first_seen": "2026-11-26T05:00:00Z",
-        "updated_at": "2026-11-26T22:35:01.723434+00:00",
+        "updated_at": "2026-11-27T04:35:02.129230+00:00",
         "links": [
+          {
+            "label": "Hugging Face / NVIDIA",
+            "url": "https://huggingface.co"
+          },
           {
             "label": "Hugging Face Blog",
             "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-parse"
@@ -480,17 +560,21 @@
         "category": "frontier_other",
         "source_type": "official_x",
         "title_en": "Mistral says Large 4 leads closed models on visual grounding",
-        "title_zh": "Mistral 稱 Large 4 在視覺定位任務領先封閉模型",
+        "title_zh": "Mistral稱Large 4在視覺定位上領先閉源模型",
         "summary_en": "Mistral AI posted that its open-weight Mistral Large 4 (Le Chonk) can locate and outline exact matches on maps and posts a 42% score on Dense200, one point ahead of GPT-6 Astra by the company’s count.",
-        "summary_zh": "Mistral AI 表示其開放權重的 Mistral Large 4（Le Chonk）能在地圖上定位並勾勒精確匹配，於 Dense200 取得 42% 分數，依公司數據比 GPT-6 Astra 高出 1 分。",
-        "analysis_en": "A narrow edge on one multimodal task from an open model is noteworthy for the open-weights ecosystem, but the margin is small and the evaluation is self-reported. Broader independent multimodal benchmarks will be more telling.",
-        "analysis_zh": "開放模型在單一多模態任務上的微幅領先對開放權重生態有意義，但差距小且為自報數據。更廣泛的獨立多模態基準更能說明問題。",
+        "summary_zh": "Mistral AI發文表示，其開源權重的Mistral Large 4（Le Chonk）能在地圖上定位並描繪精確匹配，並在Dense200上取得42%分數，依公司統計領先GPT-6 Astra一分。",
+        "analysis_en": "A narrow edge on one multimodal task from an open model is noteworthy for the open-weights ecosystem, but the margin is small and the evaluation is self-reported. Broader independent testing is required.",
+        "analysis_zh": "開源模型在單一多模態任務上的微小優勢對開源權重生態值得注意，但差距很小且評估為自我報告。仍需更廣泛的獨立測試。",
         "quote": "Mistral Large 4 finds the exact match and outlines it on the map. On visual grounding tasks, Le Chonk beats even closed frontier models.",
         "quote_zh": "Mistral Large 4 找到精確匹配並在地圖上勾勒。在視覺定位任務上，Le Chonk 甚至勝過封閉前沿模型。",
         "importance": 3,
         "first_seen": "2026-11-26T11:33:05Z",
-        "updated_at": "2026-11-26T22:35:01.723434+00:00",
+        "updated_at": "2026-11-27T04:35:02.129230+00:00",
         "links": [
+          {
+            "label": "Mistral AI on X",
+            "url": "https://x.com/MistralAI"
+          },
           {
             "label": "Mistral AI on X",
             "url": "https://x.com/MistralAI/status/2125915743212761359"
@@ -501,19 +585,23 @@
         "id": "nvidia-nemotron-labs-image-30b-open-weights-2026-11-24",
         "story_id": "nvidia-nemotron-labs-image-30b-open-weights-2026-11-24",
         "category": "frontier_other",
-        "source_type": "official_blog",
+        "source_type": "product",
         "title_en": "NVIDIA releases research-only open weights for Nemotron-Labs-Image-30B-A3B",
-        "title_zh": "NVIDIA 釋出僅供研究的 Nemotron-Labs-Image-30B-A3B 開放權重",
-        "summary_en": "NVIDIA published weights for Nemotron-Labs-Image-30B-A3B on Hugging Face, a 30B-parameter (3B active) autoregressive image generator that is the raster engine of its Nemotron-Labs-VisualCreation “Pixel as Code” framework. The license is restricted to non-commercial research/evaluation; NVIDIA reports competitive scores on several benchmarks versus GPT Image 2 in its own evaluations.",
-        "summary_zh": "NVIDIA 在 Hugging Face 發布 Nemotron-Labs-Image-30B-A3B 權重，這是 30B 參數（每 token 3B 活躍）的自回歸影像生成器，為 Nemotron-Labs-VisualCreation「Pixel as Code」框架的光柵引擎。授權限於非商用研究／評估；NVIDIA 在自身評測中報告多項基準與 GPT Image 2 具競爭力。",
-        "analysis_en": "An open autoregressive image model with strong text and composition claims expands local and agentic visual workflows, but the research-only license and self-reported benchmarks limit immediate commercial and independent validation. Hardware requirements (multi-H100 class) further constrain broad adoption.",
-        "analysis_zh": "具備強大文字與構圖宣稱的開放自回歸影像模型，拓展了本地與代理式視覺工作流，但僅研究授權與自報基準限制了立即商用與獨立驗證。硬體需求（多張 H100 等級）也進一步限制廣泛採用。",
+        "title_zh": "NVIDIA發布Nemotron-Labs-Image-30B-A3B僅研究用開源權重",
+        "summary_en": "NVIDIA published weights for Nemotron-Labs-Image-30B-A3B on Hugging Face, a 30B-parameter (3B active) autoregressive image generator that is the raster engine of its Nemotron-Labs-VisualCreation “Pixel as Code” framework. The license is research-only.",
+        "summary_zh": "NVIDIA在Hugging Face發布Nemotron-Labs-Image-30B-A3B權重，這是300億參數（30億活躍）的自迴歸影像生成器，是其Nemotron-Labs-VisualCreation「Pixel as Code」框架的光柵引擎。授權僅限研究。",
+        "analysis_en": "An open autoregressive image model with strong text and composition claims expands local and agentic visual workflows, but the research-only license and self-reported benchmarks limit commercial and comparative assessment.",
+        "analysis_zh": "擁有強大文字與構圖宣稱的開放自迴歸影像模型擴展了本地與代理式視覺工作流，但僅研究授權與自我報告基準限制了商業與比較評估。",
         "quote": "",
         "quote_zh": "",
         "importance": 3,
         "first_seen": "2026-11-24T00:00:00Z",
-        "updated_at": "2026-11-26T22:35:01.723434+00:00",
+        "updated_at": "2026-11-27T04:35:02.129230+00:00",
         "links": [
+          {
+            "label": "Hugging Face / NVIDIA",
+            "url": "https://huggingface.co"
+          },
           {
             "label": "Hugging Face",
             "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
@@ -526,7 +614,7 @@
       }
     ]
   },
-  "brief_en": "Frontier labs advanced infrastructure and product surfaces: Anthropic used Claude agents for a Rust API migration that cut CPU use ~70%; OpenAI shared Chat/Work limits and tested Private Inference; NVIDIA released Parse datasets plus an open autoregressive image model; Mistral claimed a visual-grounding edge; FCC cleared SpaceX for up to 1M orbital AI compute satellites.",
-  "brief_zh": "前沿實驗室推進基建與產品：Anthropic 以 Claude agents 將 API 遷移至 Rust，CPU 用量約降 70%；OpenAI 合併 Chat/Work 額度並測試 Private Inference；NVIDIA 開放 Parse 資料集與自回歸影像模型；Mistral 稱視覺定位領先；FCC 核准 SpaceX 最多百萬顆軌道 AI 運算衛星。",
-  "updated_at": "2026-11-26T22:35:01.723434+00:00"
+  "brief_en": "OpenAI fixed a GPT-6.2 launch billing error that had discounted Astra and Sol usage, so the same work now hits plan limits 40% and 25% faster; one banked reset is offered. Other labs saw no major new announcements in the window.",
+  "brief_zh": "OpenAI修正GPT-6.2上線時的計費錯誤，Astra與Sol使用量不再被低估，相同工作將更快觸及額度上限；提供一次銀行式重置作為補償。窗口內其他實驗室無重大新宣布。",
+  "updated_at": "2026-11-27T04:35:02.129230+00:00"
 }
